@@ -117,6 +117,17 @@ NODE
     fi
 
     run_step "parallel Hermes case hunter" bash scripts/run_model_case_hunter_parallel.sh
+
+    run_step "post-round sync Feishu" npm run sync:feishu
+    run_step "post-round evidence backfill" npm run evidence:backfill
+    run_step "post-round export Hermes case tasks" npm run hermes:tasks
+    run_step "post-round build site" npm run build
+
+    if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then
+      run_step "post-round push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
+    else
+      echo "Skipping post-round GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=${MODEL_ATLAS_PUSH_TO_GITHUB:-0}"
+    fi
   done
 
   run_step "final sync Feishu" npm run sync:feishu
