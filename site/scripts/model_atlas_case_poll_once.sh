@@ -7,7 +7,7 @@ set -euo pipefail
 
 export HOME="${HOME:-/home/ubuntu}"
 export LARK_CLI_HOME="${LARK_CLI_HOME:-/home/ubuntu/.lark-cli}"
-export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.hermes/node/bin:$HOME/node-v24/bin:$HOME/node-v22/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SITE_DIR="${MODEL_ATLAS_SITE_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
