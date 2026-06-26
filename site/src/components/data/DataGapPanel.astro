@@ -33,14 +33,14 @@ const missingGaps = gaps.filter((gap) => gap.missing);
         "rounded-md border px-2 py-1",
         gap.missing ? "border-amber-300/35 bg-amber-300/10 text-amber-50" : "border-emerald-300/30 bg-emerald-300/10 text-emerald-100"
       ]}>
-        {gap.label}：{gap.missing ? "待补证" : "已有"}
+        {gap.label}：{gap.missing ? "待补公开资料" : "已有"}
       </span>
     ))}
   </div>
 
   {missingGaps.length > 0 ? (
     <ul class="mt-4 space-y-2 text-sm text-slate-300">
-      {missingGaps.map((gap) => <li>- 补证方向：核验 {gap.label} 的官方/API/案例来源。</li>)}
+      {missingGaps.map((gap) => <li>- 补充方向：核验 {gap.label} 的官方/API/案例来源。</li>)}
     </ul>
   ) : (
     <p class="mt-4 text-sm text-emerald-100">当前核心展示字段均已有可展示值。</p>

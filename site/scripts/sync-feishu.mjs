@@ -9,6 +9,8 @@ const dryRun = args.has("--dry-run");
 
 const env = process.env;
 const FEISHU_BASE_URL = env.FEISHU_BASE_URL || "https://open.feishu.cn";
+const MIN_A_CASES = Number(env.MODEL_ATLAS_MIN_A_CASES ?? 3);
+const TARGET_A_CASES = Number(env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
@@ -234,18 +236,28 @@ function hydrateModelsWithCases(models, cases) {
     const aCaseCount = counts.get(model.id) ?? 0;
     const publishability = model.publishability === "Archive" || model.publishability === "Hold"
       ? model.publishability
-      : aCaseCount > 0
+      : aCaseCount >= MIN_A_CASES
         ? "Publishable"
         : "Limited";
     const riskNotes = [...(model.riskNotes ?? [])];
-    riskNotes[0] = aCaseCount > 0
-      ? "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。"
-      : "暂无自动 gate 通过的 A 类案例；保持有限证据状态。";
+    riskNotes[0] = aCaseCount >= TARGET_A_CASES
+      ? `已达到 ${TARGET_A_CASES} 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。`
+      : aCaseCount >= MIN_A_CASES
+        ? `已达到 ${MIN_A_CASES} 条 A 类案例公开达标线；继续补齐到 ${TARGET_A_CASES} 条。`
+        : aCaseCount > 0
+          ? `已有 ${aCaseCount} 条 A 类案例，但低于 ${MIN_A_CASES} 条公开达标线。`
+          : `暂无自动 gate 通过的 A 类案例；目标是至少 ${MIN_A_CASES} 条，完整补齐为 ${TARGET_A_CASES} 条。`;
     return {
       ...model,
       publishability,
       aCaseCount,
-      caseStatus: aCaseCount > 0 ? `已有 ${aCaseCount} 条自动 gate 通过的 A 类案例` : "暂无自动 gate 通过的 A 类案例",
+      caseStatus: aCaseCount >= TARGET_A_CASES
+        ? `已有 ${aCaseCount} 条自动 gate 通过的 A 类案例，达到完整补齐线`
+        : aCaseCount >= MIN_A_CASES
+          ? `已有 ${aCaseCount} 条自动 gate 通过的 A 类案例，达到公开达标线`
+          : aCaseCount > 0
+            ? `已有 ${aCaseCount} 条自动 gate 通过的 A 类案例，低于公开达标线`
+            : "暂无自动 gate 通过的 A 类案例",
       riskNotes
     };
   });
@@ -302,6 +314,10 @@ function updateMetrics() {
   const archiveModels = models.filter((model) => model.publishability === "Archive").length;
   const limitedModels = models.filter((model) => model.publishability === "Limited").length;
   const modelsWithCases = models.filter((model) => Number(model.aCaseCount ?? 0) > 0).length;
+  const modelsMeetingMinCaseCoverage = models.filter((model) => Number(model.aCaseCount ?? 0) >= MIN_A_CASES).length;
+  const modelsMeetingTargetCaseCoverage = models.filter((model) => Number(model.aCaseCount ?? 0) >= TARGET_A_CASES).length;
+  const caseDeficitToMin = models.reduce((sum, model) => sum + Math.max(0, MIN_A_CASES - Number(model.aCaseCount ?? 0)), 0);
+  const caseDeficitToTarget = models.reduce((sum, model) => sum + Math.max(0, TARGET_A_CASES - Number(model.aCaseCount ?? 0)), 0);
   writeJson("metrics.json", {
     ...metrics,
     vendors: vendors.length,
@@ -312,6 +328,12 @@ function updateMetrics() {
     verifiedACases: cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible).length,
     modelsWithCases,
     modelsWithoutCases: models.length - modelsWithCases,
+    minCasesPerModel: MIN_A_CASES,
+    targetCasesPerModel: TARGET_A_CASES,
+    modelsMeetingMinCaseCoverage,
+    modelsMeetingTargetCaseCoverage,
+    caseDeficitToMin,
+    caseDeficitToTarget,
     datasetCut: new Date().toISOString().slice(0, 10),
     sourceNote: "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit."
   });

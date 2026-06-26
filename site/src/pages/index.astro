@@ -8,6 +8,7 @@ import CapabilityMatrix from "../components/data/CapabilityMatrix.astro";
 import PublishabilityBadge from "../components/data/PublishabilityBadge.astro";
 import EvidenceBadge from "../components/data/EvidenceBadge.astro";
 import TrustBoundary from "../components/data/TrustBoundary.astro";
+import { publicizeText } from "../lib/publicCopy";
 import models from "../data/models.json";
 import cases from "../data/cases.json";
 import metrics from "../data/metrics.json";
@@ -19,32 +20,32 @@ const highlightModels = [
 ].filter((model, index, list) => list.findIndex((item) => item.id === model.id) === index).slice(0, 12);
 ---
 
-<BaseLayout title="Frontier Models Atlas">
+<BaseLayout title="Frontier Models Atlas · AI 模型情报站" description="追踪主流 AI 模型、厂商路线、真实案例和公开证据等级的中文模型情报站。">
   <Hero models={highlightModels} />
 
   <section class="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
     <div>
-      <SectionHeader eyebrow="重点切片" title="先看值得关注和需要补证的模型" description={`首页只展示有案例模型和高分切片；完整 ${metrics.models} 个模型请进入模型索引。`} />
+      <SectionHeader eyebrow="重点切片" title="先看有公开案例和高关注度的模型" description={`首页展示有案例模型和高分切片；完整 ${metrics.models} 个模型请进入模型索引。`} />
       <div class="grid gap-3 md:grid-cols-2">
         {highlightModels.map((model) => <ModelCard model={model} />)}
       </div>
     </div>
 
     <aside class="panel p-4">
-      <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">证据和状态流</p>
+      <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">公开证据状态</p>
       <div class="mt-4 space-y-3">
         {highlightModels.map((model) => (
           <a href={`/models/${model.slug}`} class="flex items-center justify-between gap-3 rounded-md border border-slate-700/70 bg-slate-950/45 p-3">
             <div>
               <p class="text-sm font-semibold">{model.name}</p>
-              <p class="mt-1 text-xs text-slate-400">{model.caseStatus}</p>
+              <p class="mt-1 text-xs text-slate-400">{publicizeText(model.caseStatus)}</p>
             </div>
             <PublishabilityBadge status={model.publishability} />
           </a>
         ))}
       </div>
       <div class="mt-4">
-        <TrustBoundary title="案例覆盖提醒" tone="amber" notes={[`当前 ${metrics.modelsWithCases} 个模型有已验证 A 类案例，${metrics.modelsWithoutCases} 个模型仍待补证。`, "暂无案例模型不是能力否定，而是公开证据尚未达 A 类标准。", "有限证据模型可以进入对比，但不能当作完整推荐。"]} />
+        <TrustBoundary title="案例覆盖提醒" tone="amber" notes={[`当前 ${metrics.modelsWithCases} 个模型有可核验 A 类案例，${metrics.modelsWithoutCases} 个模型仍待补公开案例。`, "暂无案例模型不是能力否定，而是公开证据尚未达 A 类标准。", "待补公开案例的模型可以进入对比，但不应当作完整推荐。"]} />
       </div>
     </aside>
   </section>
@@ -56,7 +57,7 @@ const highlightModels = [
 
   <section class="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
     <div>
-      <SectionHeader eyebrow="可核验 A 类案例" title="首页只展示已审核 A 类案例" description="首页不会把文档、教程、发布说明或集合页包装成真实案例。" />
+    <SectionHeader eyebrow="可核验 A 类案例" title="首页只展示公开可追溯案例" description="首页不会把文档、教程、发布说明或集合页包装成真实案例。" />
       <div class="grid gap-3 lg:grid-cols-2">
         {cases.map((item) => <CaseCard item={item} />)}
       </div>
@@ -72,7 +73,7 @@ const highlightModels = [
       <div class="mt-5 grid gap-2">
         <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/compare">打开对比页</a>
         <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/cases">查看案例库</a>
-        <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/topics/coding-agent">Coding Agent 指南</a>
+        <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/methodology">了解方法论</a>
       </div>
     </aside>
   </section>

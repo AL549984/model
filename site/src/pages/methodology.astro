@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../components/layout/BaseLayout.astro";
+import SectionHeader from "../components/sections/SectionHeader.astro";
+import CaseQualityLegend from "../components/data/CaseQualityLegend.astro";
+import TrustBoundary from "../components/data/TrustBoundary.astro";
+import metrics from "../data/metrics.json";
+---
+
+<BaseLayout title="方法论 · Frontier Models Atlas" description="Frontier Models Atlas 的公开证据等级、真实案例标准和数据边界说明。">
+  <SectionHeader
+    eyebrow="方法论"
+    title="我们如何判断一个模型是否值得进入推荐视野"
+    description="Atlas 不做只看分数的排行榜。每个模型先看公开来源、真实案例、产物链接和资料缺口，再进入对比。"
+  />
+
+  <div class="mb-5">
+    <TrustBoundary title="公开承诺" notes={["只把具体主体、具体任务、具体产物和原始链接同时存在的材料标为 A 类案例。", "没有 A 类案例的模型仍可被收录，但页面会明确标记为待补公开案例。", "厂商文档、benchmark、教程和发布说明可作背景资料，不会替代真实案例。"]} />
+  </div>
+
+  <section class="grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div class="page-grid">
+      <div class="panel p-5">
+        <SectionHeader eyebrow="证据等级" title="A/B/C/D 四级，不把弱信号包装成案例" description="模型世界更新太快，公开资料经常不完整。我们宁愿标记缺口，也不把不可核验信息写成确定结论。" />
+        <CaseQualityLegend />
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2">
+        <article class="panel p-4">
+          <p class="font-semibold text-slate-50">什么算 A 类案例</p>
+          <ul class="mt-3 space-y-2 text-sm leading-relaxed text-slate-300">
+            <li>- 有具体使用者、团队或组织。</li>
+            <li>- 有具体任务和输出结果。</li>
+            <li>- 有原始证据链接，例如文章、repo、视频、客户故事或公开帖子。</li>
+            <li>- 有可访问的产物链接、demo、repo、截图线索或官方案例页。</li>
+          </ul>
+        </article>
+        <article class="panel p-4">
+          <p class="font-semibold text-slate-50">什么不会直接算案例</p>
+          <ul class="mt-3 space-y-2 text-sm leading-relaxed text-slate-300">
+            <li>- 只有 benchmark 分数。</li>
+            <li>- 只有厂商发布说明。</li>
+            <li>- 只有教程、集合页或二手转述。</li>
+            <li>- 无法绑定到具体模型版本的泛化使用故事。</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="panel p-5">
+        <SectionHeader eyebrow="数据边界" title="这些页面是公开证据地图，不是投资或采购建议" description="模型能力、价格、上下文、平台可用性都可能变化。Atlas 会保留来源和更新时间，但不会替代你的生产环境验证。" />
+        <div class="grid gap-3 md:grid-cols-3">
+          <div class="rounded-md border border-slate-700/70 p-3">
+            <p class="font-mono text-2xl text-cyan-100">{metrics.models}</p>
+            <p class="mt-1 text-sm text-slate-300">收录模型</p>
+          </div>
+          <div class="rounded-md border border-slate-700/70 p-3">
+            <p class="font-mono text-2xl text-emerald-100">{metrics.modelsWithCases}</p>
+            <p class="mt-1 text-sm text-slate-300">有 A 类案例的模型</p>
+          </div>
+          <div class="rounded-md border border-slate-700/70 p-3">
+            <p class="font-mono text-2xl text-amber-100">{metrics.modelsWithoutCases}</p>
+            <p class="mt-1 text-sm text-slate-300">待补公开案例</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="page-grid">
+      <div class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">阅读建议</p>
+        <ol class="mt-3 space-y-2 text-sm leading-relaxed text-slate-300">
+          <li>1. 先看模型是否有 A 类案例。</li>
+          <li>2. 再看适合场景、风险和来源。</li>
+          <li>3. 最后把高分模型放进对比页，不只按分数选型。</li>
+        </ol>
+      </div>
+      <div class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">更新方式</p>
+        <p class="mt-3 text-sm leading-relaxed text-slate-300">
+          数据由自动化流程从公开资料和案例库同步，页面会保留“暂无数据 / 官方未披露”等状态。缺口不会被自动补成确定结论。
+        </p>
+      </div>
+    </aside>
+  </section>
+</BaseLayout>

@@ -1,5 +1,6 @@
 ---
 import PublishabilityBadge from "./PublishabilityBadge.astro";
+import { publicizeText } from "../../lib/publicCopy";
 
 const { models: rawModels = [] } = Astro.props;
 const models = rawModels as Record<string, any>[];
@@ -12,8 +13,8 @@ function isMissing(value: unknown) {
 
 function evidenceStrength(model: Record<string, any>) {
   if (model.publishability === "Publishable" && Number(model.aCaseCount ?? 0) > 0) return "强";
-  if (model.publishability === "Archive" || model.publishability === "Hold") return "暂停";
-  return "有限";
+  if (model.publishability === "Archive" || model.publishability === "Hold") return "暂缓";
+  return "待补";
 }
 
 function dataGaps(model: Record<string, any>) {
@@ -29,12 +30,12 @@ function dataGaps(model: Record<string, any>) {
 
 const rows = models.map((model) => ({
   model,
-  advice: model.fit?.[0] ?? "先复核证据",
-  risk: model.riskNotes?.[0] ?? "暂无风险说明",
+  advice: publicizeText(model.fit?.[0] ?? "先复核证据"),
+  risk: publicizeText(model.riskNotes?.[0] ?? "暂无风险说明"),
   evidence: evidenceStrength(model),
   gaps: dataGaps(model),
-  price: isMissing(model.price) ? "待补证" : "已披露",
-  platform: isMissing(model.platforms) || isMissing(model.capabilities?.openEcosystem) ? "待补证" : model.capabilities.openEcosystem
+  price: isMissing(model.price) ? "待补公开资料" : "已披露",
+  platform: isMissing(model.platforms) || isMissing(model.capabilities?.openEcosystem) ? "待补公开资料" : model.capabilities.openEcosystem
 }));
 ---
 

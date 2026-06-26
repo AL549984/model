@@ -1,12 +1,13 @@
 ---
 import PublishabilityBadge from "./PublishabilityBadge.astro";
+import { publicizeText } from "../../lib/publicCopy";
 
 const { model, modelCases: rawModelCases = [] } = Astro.props;
 const modelCases = rawModelCases as Array<Record<string, any>>;
 const hasAAReference = (model.sources ?? []).some((source: string) => source.includes("artificialanalysis.ai")) || String(model.officialLink ?? "").includes("artificialanalysis.ai");
 const hasOfficialReference = (model.sources ?? []).some((source: string) => !source.includes("artificialanalysis.ai")) || (Boolean(model.officialLink) && !String(model.officialLink).includes("artificialanalysis.ai"));
 const hasCaseEvidence = modelCases.length > 0;
-const evidenceStrength = hasCaseEvidence && model.publishability === "Publishable" ? "强" : hasAAReference || hasOfficialReference ? "有限" : "待补证";
+const evidenceStrength = hasCaseEvidence && model.publishability === "Publishable" ? "强" : hasAAReference || hasOfficialReference ? "待补公开案例" : "待补公开资料";
 ---
 
 <section class="panel p-4">
@@ -37,5 +38,5 @@ const evidenceStrength = hasCaseEvidence && model.publishability === "Publishabl
     </div>
   </div>
 
-  <p class="mt-4 text-sm leading-relaxed text-slate-400">{model.sourceStatus}</p>
+  <p class="mt-4 text-sm leading-relaxed text-slate-400">{publicizeText(model.sourceStatus)}</p>
 </section>
