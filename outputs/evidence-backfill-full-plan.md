@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 35
-- Limited models: 81
+- Publishable models: 36
+- Limited models: 80
 - Archive models: 2
-- Verified A-grade cases: 201
-- Models without A-grade cases: 82
+- Verified A-grade cases: 211
+- Models without A-grade cases: 80
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 35
-- Models meeting full target line: 32
-- A-case deficit to minimum line: 248
-- A-case deficit to full target line: 419
+- Models meeting minimum line: 36
+- Models meeting full target line: 34
+- A-case deficit to minimum line: 243
+- A-case deficit to full target line: 409
 - Backfill rows: 118
-- P0 rows: 24
-- P1 rows: 49
-- P2 rows: 43
+- P0 rows: 25
+- P1 rows: 46
+- P2 rows: 45
 - P3 rows: 2
 
 ## Operating Rule
@@ -49,6 +49,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude Opus 4.7 (max) Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Pro | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
+| DeepSeek | DeepSeek-V2 | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | DeepSeek-V2 DeepSeek case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.2 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.2 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
@@ -78,6 +79,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Pro | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Turbo | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
+| P0 | DeepSeek | DeepSeek-V2 | below_min_case_coverage | 2 | 3 | 已有 2 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.2 (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
@@ -96,9 +98,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P1 | DeepSeek | DeepSeek R1 0528 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | DeepSeek | DeepSeek V3 0324 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | DeepSeek | DeepSeek V3.1 Terminus | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | DeepSeek | DeepSeek-V2 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | DeepSeek | DeepSeek-V2.5 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | DeepSeek | DeepSeek-V2.5 (Dec) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Google / Gemini | Gemini 1.0 Ultra | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Google / Gemini | Gemini 1.5 Flash (May) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Google / Gemini | Gemini 1.5 Pro (May) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
