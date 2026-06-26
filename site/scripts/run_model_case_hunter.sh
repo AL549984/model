@@ -8,7 +8,24 @@ export HOME="${HOME:-/home/ubuntu}"
 export PATH="$HOME/.local/bin:$HOME/.hermes/node/bin:$HOME/node-v24/bin:$HOME/node-v22/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SITE_DIR="${MODEL_ATLAS_SITE_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
+
+resolve_site_dir() {
+  if [[ -n "${MODEL_ATLAS_SITE_DIR:-}" ]]; then
+    cd "$MODEL_ATLAS_SITE_DIR" && pwd
+  elif [[ -f "$PWD/package.json" && -d "$PWD/scripts" ]]; then
+    pwd
+  elif [[ -f "$SCRIPT_DIR/../package.json" ]]; then
+    cd "$SCRIPT_DIR/.." && pwd
+  elif [[ -f "$SCRIPT_DIR/../site/package.json" ]]; then
+    cd "$SCRIPT_DIR/../site" && pwd
+  elif [[ -f "$HOME/.hermes/data/model_atlas_repo/site/package.json" ]]; then
+    cd "$HOME/.hermes/data/model_atlas_repo/site" && pwd
+  else
+    cd "$SCRIPT_DIR/.." && pwd
+  fi
+}
+
+SITE_DIR="$(resolve_site_dir)"
 REPO_DIR="${MODEL_ATLAS_REPO_DIR:-$(cd "$SITE_DIR/.." && pwd)}"
 PROFILE="${MODEL_ATLAS_PROFILE:-/home/ubuntu/.hermes}"
 STATE_PATH="${MODEL_ATLAS_CASE_HUNTER_STATE:-$PROFILE/state/model_atlas_case_hunter_state.json}"
