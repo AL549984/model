@@ -14,6 +14,19 @@ PROFILE="${MODEL_ATLAS_PROFILE:-/home/ubuntu/.hermes}"
 LOG_DIR="${MODEL_ATLAS_LOG_DIR:-$PROFILE/data/model_atlas_logs}"
 LOCK_PATH="${MODEL_ATLAS_LOCK_PATH:-$PROFILE/data/model_atlas_locks/auto_pipeline.lock}"
 
+load_env_file() {
+  local file="$1"
+  if [[ -f "$file" ]]; then
+    set -a
+    # shellcheck disable=SC1090
+    source "$file"
+    set +a
+  fi
+}
+
+load_env_file "$PROFILE/.env"
+load_env_file "$SITE_DIR/.env"
+
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")"
 
 exec 9>"$LOCK_PATH"

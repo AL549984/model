@@ -7,6 +7,21 @@ const dataDir = path.join(root, "src/data");
 const args = new Set(process.argv.slice(2));
 const dryRun = args.has("--dry-run");
 
+function loadDotEnv(file) {
+  if (!fs.existsSync(file)) return;
+  for (const rawLine of fs.readFileSync(file, "utf8").split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#") || !line.includes("=")) continue;
+    const index = line.indexOf("=");
+    const key = line.slice(0, index).trim();
+    const value = line.slice(index + 1).trim().replace(/^['"]|['"]$/g, "");
+    if (key && process.env[key] == null) process.env[key] = value;
+  }
+}
+
+loadDotEnv(path.join(process.env.HOME ?? "", ".hermes/.env"));
+loadDotEnv(path.join(root, ".env"));
+
 const env = process.env;
 const FEISHU_BASE_URL = env.FEISHU_BASE_URL || "https://open.feishu.cn";
 const MIN_A_CASES = Number(env.MODEL_ATLAS_MIN_A_CASES ?? 3);
