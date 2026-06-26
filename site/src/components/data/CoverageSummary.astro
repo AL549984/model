@@ -5,10 +5,10 @@ const { variant = "default" } = Astro.props;
 const compact = variant === "compact";
 const cards = [
   { label: "厂商", value: metrics.vendors, note: "canonical vendor pages" },
-  { label: "模型", value: metrics.models, note: `${metrics.bitableModels} Bitable + ${metrics.vendorPageOnlyModels} 补充` },
+  { label: "模型", value: metrics.models, note: "公开资料库持续同步" },
   { label: "A 类案例", value: metrics.verifiedACases, note: "公开可核验" },
   { label: "有 A 类案例模型", value: metrics.modelsWithCases, note: "可进入模型卡精选" },
-  { label: "已补来源模型", value: metrics.modelsWithSupplementalSources, note: "非 AA 证据入口" },
+  { label: "已补来源模型", value: metrics.modelsWithSupplementalSources, note: "含厂商或公开来源" },
   { label: "数据截点", value: metrics.datasetCut, note: "缺字段不脑补" }
 ];
 ---

@@ -6,6 +6,7 @@ import CapabilityMatrix from "../../components/data/CapabilityMatrix.astro";
 import TrustBoundary from "../../components/data/TrustBoundary.astro";
 import QuickFilters from "../../components/data/QuickFilters.astro";
 import BackToTop from "../../components/data/BackToTop.astro";
+import { publicStatusLabel } from "../../lib/publicCopy";
 import models from "../../data/models.json";
 import vendors from "../../data/vendors.json";
 import metrics from "../../data/metrics.json";
@@ -21,13 +22,6 @@ const vendorOptions = vendors
 const topScored = models.filter((model) => typeof model.score === "number").sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 20);
 const publishableCount = models.filter((model) => model.publishability === "Publishable").length;
 const limitedCount = models.filter((model) => model.publishability === "Limited").length;
-
-const statusLabels: Record<string, string> = {
-  Publishable: "可发布",
-  Limited: "有限证据",
-  Hold: "暂停",
-  Archive: "归档 / 暂停"
-};
 
 function dateSortValue(value: string) {
   if (!value || value.includes("暂无")) return 0;
@@ -52,7 +46,7 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
 
 <BaseLayout title="模型 · Frontier Models Atlas">
   <div id="model-index-top"></div>
-  <SectionHeader eyebrow="模型索引" title={`在 ${metrics.models} 个模型里快速定位候选`} description={`搜索模型名或厂商名；用状态和 A 类案例筛选判断哪些可发布、哪些只是有限证据。缺字段保持“暂无数据 / 官方未披露”。`} />
+  <SectionHeader eyebrow="模型索引" title={`在 ${metrics.models} 个模型里快速定位候选`} description="搜索模型名或厂商名；按真实案例、公开资料状态和场景信号筛选。缺字段保持“暂无数据 / 官方未披露”，不猜测。" />
 
   <div class="mb-5">
     <TrustBoundary title="模型索引可信边界" notes={[`当前 ${metrics.modelsWithCases} 个模型有 A 类案例，${metrics.modelsWithoutCases} 个模型暂无 A 类案例。`, "暂无案例不代表模型没有能力，只代表尚未找到符合 A 类标准的公开使用案例。", "Artificial Analysis 评分仅作参考，不作为唯一事实来源。"]} />
@@ -86,10 +80,10 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
         <span class="font-semibold text-slate-100">状态</span>
         <select id="status-filter" class="control-input">
           <option value="all">全部状态</option>
-          <option value="Publishable">可发布</option>
-          <option value="Limited">有限证据</option>
-          <option value="Archive">归档 / 暂停</option>
-          <option value="Hold">暂停</option>
+          <option value="Publishable">已有真实案例</option>
+          <option value="Limited">待补公开案例</option>
+          <option value="Archive">历史归档</option>
+          <option value="Hold">暂缓推荐</option>
         </select>
       </label>
 
@@ -118,7 +112,7 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
       <p>
         当前显示 <span id="visible-count" class="font-mono text-cyan-100">{models.length}</span> / {models.length} 个模型。
         <span>快捷筛选：<span id="quick-filter-label" class="text-cyan-100">全部模型</span>。</span>
-        <span class="text-slate-400">当前 {metrics.modelsWithCases} 个模型有已验证 A 类案例。</span>
+        <span class="text-slate-400">当前 {metrics.modelsWithCases} 个模型有可核验 A 类案例。</span>
       </p>
       <button id="reset-filters" class="rounded-md border border-slate-700/70 px-3 py-2 text-sm text-slate-200 hover:border-cyan-300/50 hover:text-cyan-100" type="button">重置筛选</button>
     </div>
@@ -140,9 +134,9 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
       >
         <ModelCard model={model} />
         <div class="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
-          <span class="rounded-md border border-slate-700/70 px-2 py-1">状态：{statusLabels[model.publishability] ?? model.publishability}</span>
+          <span class="rounded-md border border-slate-700/70 px-2 py-1">状态：{publicStatusLabel(model.publishability)}</span>
           <span class="rounded-md border border-slate-700/70 px-2 py-1">AA：{typeof model.score === "number" ? model.score : "暂无数据"}</span>
-          <span class="rounded-md border border-slate-700/70 px-2 py-1">{model.aCaseCount > 0 ? `${model.aCaseCount} 条 A 类案例` : "暂无已验证 A 类案例"}</span>
+          <span class="rounded-md border border-slate-700/70 px-2 py-1">{model.aCaseCount > 0 ? `${model.aCaseCount} 条 A 类案例` : "暂无可核验 A 类案例"}</span>
           <span class="rounded-md border border-slate-700/70 px-2 py-1">风险：{model.capabilities.lifecycleRisk ?? "暂无数据"}</span>
           {isCodingCandidate(model) && <span class="rounded-md border border-cyan-300/30 px-2 py-1 text-cyan-100">Coding Agent 候选</span>}
         </div>
@@ -167,8 +161,8 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
     const quickLabels: Record<string, string> = {
       all: "全部模型",
       "with-cases": "有 A 类案例",
-      publishable: "可发布",
-      limited: "有限证据",
+      publishable: "已有真实案例",
+      limited: "待补公开案例",
       coding: "Coding Agent 候选"
     };
     let quickFilter = "all";

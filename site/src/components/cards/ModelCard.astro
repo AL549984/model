@@ -1,5 +1,6 @@
 ---
 import PublishabilityBadge from "../data/PublishabilityBadge.astro";
+import { publicizeText } from "../../lib/publicCopy";
 
 const { model, compact = false } = Astro.props;
 ---
@@ -12,7 +13,7 @@ const { model, compact = false } = Astro.props;
     </div>
     <PublishabilityBadge status={model.publishability} />
   </div>
-  <p class="mt-3 text-sm leading-relaxed text-slate-300">{model.summary}</p>
+  <p class="mt-3 text-sm leading-relaxed text-slate-300">{publicizeText(model.summary)}</p>
   {!compact && (
     <div class="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-300">
       <span class="rounded-md border border-slate-700/70 bg-slate-950/40 px-2 py-1">A 类案例：{model.aCaseCount}</span>

@@ -5,6 +5,7 @@ import ModelCard from "../../components/cards/ModelCard.astro";
 import RiskNotice from "../../components/data/RiskNotice.astro";
 import SourceLinkBlock from "../../components/data/SourceLinkBlock.astro";
 import ModelTimeline from "../../components/data/ModelTimeline.astro";
+import { publicizeText } from "../../lib/publicCopy";
 import vendors from "../../data/vendors.json";
 import models from "../../data/models.json";
 
@@ -21,14 +22,14 @@ const caseLibraryLabels: Record<string, string> = {
 };
 const caseLibraryLabel = caseLibraryLabels[vendor.caseLibraryStatus] ?? vendor.caseLibraryStatus;
 const timeline = [
-  { date: "Phase 2", title: "厂商页 2.0 已生成", summary: "已创建 canonical 厂商字段和可进入网站的叙事骨架。" },
-  { date: "Phase 3A", title: "P0 模型卡已升级", summary: "代表模型已标记为可发布、有限证据或暂停。" },
-  { date: "Phase 3B", title: "案例证据已检查", summary: "只有可核验公开 A 类案例可以进入精选。" }
+  { date: "公开资料", title: "厂商路线已建档", summary: "整理厂商模型家族、代表模型和公开来源入口。" },
+  { date: "模型状态", title: "模型条目已分级", summary: "代表模型按真实案例、待补公开案例或历史归档展示。" },
+  { date: "案例库", title: "案例证据已检查", summary: "只有可核验公开 A 类案例可以进入精选。" }
 ];
 ---
 
-<BaseLayout title={`${vendor.displayName} · Frontier Models Atlas`}>
-  <SectionHeader eyebrow="厂商详情" title={`${vendor.displayName} Model Atlas`} description={vendor.positioning} />
+<BaseLayout title={`${vendor.displayName} · Frontier Models Atlas`} description={`${vendor.displayName} 模型路线、代表模型、公开来源和案例覆盖状态。`}>
+  <SectionHeader eyebrow="厂商详情" title={`${vendor.displayName} Model Atlas`} description={publicizeText(vendor.positioning)} />
 
   <div class="content-grid">
     <section class="page-grid">
@@ -47,7 +48,7 @@ const timeline = [
       </div>
 
       <div>
-        <SectionHeader eyebrow="时间线" title="Atlas 生产时间线" />
+        <SectionHeader eyebrow="时间线" title="公开资料状态" />
         <ModelTimeline items={timeline} />
       </div>
 
@@ -55,24 +56,24 @@ const timeline = [
         <div class="panel p-4">
           <p class="font-semibold">优势</p>
           <ul class="mt-3 space-y-2 text-sm text-slate-300">
-            {vendor.strengths.map((item) => <li>- {item}</li>)}
+            {vendor.strengths.map((item) => <li>- {publicizeText(item)}</li>)}
           </ul>
         </div>
         <div class="panel p-4">
           <p class="font-semibold">不适合</p>
           <ul class="mt-3 space-y-2 text-sm text-slate-300">
-            {vendor.risks.map((item) => <li>- {item}</li>)}
+            {vendor.risks.map((item) => <li>- {publicizeText(item)}</li>)}
           </ul>
         </div>
       </div>
     </section>
 
     <aside class="page-grid">
-      <RiskNotice title="案例库状态" tone={vendor.caseLibraryStatus === "usable" ? "neutral" : "limited"} notes={[`状态：${caseLibraryLabel}`, "不要把弱证据提升为 A 类案例。", "来源文件保留在 outputs/，方便飞书/Wiki 追溯。"]} />
+      <RiskNotice title="案例库状态" tone={vendor.caseLibraryStatus === "usable" ? "neutral" : "limited"} notes={[`状态：${caseLibraryLabel}`, "不要把弱证据提升为 A 类案例。", "公开页面只展示可解释、可追溯的来源。"]} />
       <SourceLinkBlock sources={[vendor.officialSite]} />
       <div class="panel p-4">
-        <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">来源文件</p>
-        <p class="mt-2 text-sm text-slate-400">{vendor.sourceFile}</p>
+        <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">资料状态</p>
+        <p class="mt-2 text-sm text-slate-400">厂商来源、模型条目和案例库会持续更新。</p>
       </div>
     </aside>
   </div>

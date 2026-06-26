@@ -5,6 +5,7 @@ import CaseCard from "../../components/cards/CaseCard.astro";
 import TrustBoundary from "../../components/data/TrustBoundary.astro";
 import CaseQualityLegend from "../../components/data/CaseQualityLegend.astro";
 import CaseCoveragePanel from "../../components/data/CaseCoveragePanel.astro";
+import { publicizeText } from "../../lib/publicCopy";
 import cases from "../../data/cases.json";
 import models from "../../data/models.json";
 import metrics from "../../data/metrics.json";
@@ -15,7 +16,7 @@ const coverageRate = `${Math.round((metrics.modelsWithCases / metrics.models) * 
 const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model) => model.name).slice(0, 6).join("、");
 ---
 
-<BaseLayout title="案例 · Frontier Models Atlas">
+<BaseLayout title="真实案例 · Frontier Models Atlas" description="只展示绑定到具体模型、具体任务和公开产物链接的可核验 AI 模型使用案例。">
   <SectionHeader eyebrow="证据库" title="只展示可核验公开模型使用案例" description={`当前收录 ${metrics.verifiedACases} 条 A 类案例，全部绑定到具体模型。案例库用于证明公开使用证据，不用集合页或 benchmark 补位。`} />
 
   <div class="mb-5">
@@ -27,7 +28,7 @@ const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model
   </div>
 
   <div class="mb-5 rounded-lg border border-amber-300/25 bg-amber-300/10 p-4 text-sm leading-relaxed text-amber-50">
-    当前案例库已覆盖 {metrics.modelsWithCases} 个模型，仍有 {metrics.modelsWithoutCases} 个模型待补证。页面不会用 benchmark、tutorial、launch package 或集合页补位。
+    当前案例库已覆盖 {metrics.modelsWithCases} 个模型，仍有 {metrics.modelsWithoutCases} 个模型待补公开案例。页面不会用 benchmark、tutorial、launch package 或集合页补位。
   </div>
 
   <div class="mb-5">
@@ -60,7 +61,7 @@ const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model
           {models.map((model) => (
             <tr>
               <td><a href={`/models/${model.slug}`} class="font-semibold text-cyan-100">{model.name}</a></td>
-              <td>{model.caseStatus}</td>
+              <td>{publicizeText(model.caseStatus)}</td>
               <td class="font-mono">{model.aCaseCount}</td>
               <td>{model.aCaseCount > 0 ? "可以精选 A 类案例" : "必须标注未找到可核验公开 A 类案例"}</td>
             </tr>
@@ -76,7 +77,7 @@ const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model
         <p><span class="font-semibold text-amber-100">C 类</span>：背景文档、发布说明、benchmark、教程。</p>
         <p><span class="font-semibold text-rose-100">D 类</span>：剔除或无法核验。</p>
       </div>
-      <p class="mt-5 text-sm text-slate-400">暂无 A 类案例的模型数量：{noACaseModels.length}。模型详情页会逐一显示“暂无已验证 A 类案例”，并说明尚未找到符合 A 类标准的公开使用案例。</p>
+      <p class="mt-5 text-sm text-slate-400">暂无 A 类案例的模型数量：{noACaseModels.length}。模型详情页会逐一显示“暂无可核验 A 类案例”，并说明尚未找到符合 A 类标准的公开使用案例。</p>
     </aside>
   </section>
 </BaseLayout>
