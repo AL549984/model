@@ -3527,6 +3527,7 @@
     "supplementalSourceCount": 3,
     "riskNotes": [
       "已有 2 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
