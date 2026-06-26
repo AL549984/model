@@ -1,0 +1,23 @@
+---
+const { status } = Astro.props;
+
+const normalized = String(status ?? "").toLowerCase();
+const labels: Record<string, string> = {
+  publishable: "可发布",
+  limited: "有限证据",
+  hold: "暂停",
+  archive: "归档 / 暂停"
+};
+const label = labels[normalized] ?? String(status ?? "待定");
+const classes =
+  normalized === "publishable"
+    ? "border-emerald-400/40 bg-emerald-400/12 text-emerald-200"
+    : normalized === "limited"
+      ? "border-amber-300/40 bg-amber-300/12 text-amber-100"
+      : "border-rose-300/40 bg-rose-300/12 text-rose-100";
+---
+
+<span class={`inline-flex items-center gap-1 rounded-md border px-2.5 py-1 text-xs font-semibold ${classes}`}>
+  <span class="h-1.5 w-1.5 rounded-full bg-current"></span>
+  {label}
+</span>

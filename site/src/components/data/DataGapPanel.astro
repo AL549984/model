@@ -1,0 +1,48 @@
+---
+const { model } = Astro.props;
+const hasSupplementalSources = (model.sources ?? []).some((source: string) => !String(source).includes("artificialanalysis.ai"));
+
+function isMissing(value: unknown) {
+  if (value === null || value === undefined) return true;
+  if (Array.isArray(value)) return value.length === 0;
+  const text = String(value).trim();
+  return !text || text.includes("暂无数据") || text.includes("官方未披露") || text.includes("待核验") || text.includes("未披露");
+}
+
+const gaps = [
+  { label: "价格", missing: isMissing(model.price), value: model.price },
+  { label: "上下文", missing: isMissing(model.context), value: model.context },
+  { label: "输出", missing: isMissing(model.output), value: model.output },
+  { label: "官方/家族来源", missing: !hasSupplementalSources && (isMissing(model.officialLink) || String(model.officialLink ?? "").includes("artificialanalysis.ai")), value: model.sources?.join(", ") },
+  { label: "发布时间", missing: isMissing(model.releaseDate), value: model.releaseDate },
+  { label: "可用平台", missing: isMissing(model.platforms), value: model.platforms?.join(", ") },
+  { label: "A 类案例", missing: Number(model.aCaseCount ?? 0) === 0, value: `${model.aCaseCount ?? 0} 条` }
+];
+const missingGaps = gaps.filter((gap) => gap.missing);
+---
+
+<section class="panel p-4">
+  <p class="mono text-xs uppercase tracking-[0.12em] text-slate-300">数据缺口</p>
+  <p class="mt-2 text-sm leading-relaxed text-slate-300">
+    只基于现有字段判断缺口；缺失项不会被猜测填充。
+  </p>
+
+  <div class="mt-4 flex flex-wrap gap-2 text-xs">
+    {gaps.map((gap) => (
+      <span class:list={[
+        "rounded-md border px-2 py-1",
+        gap.missing ? "border-amber-300/35 bg-amber-300/10 text-amber-50" : "border-emerald-300/30 bg-emerald-300/10 text-emerald-100"
+      ]}>
+        {gap.label}：{gap.missing ? "待补证" : "已有"}
+      </span>
+    ))}
+  </div>
+
+  {missingGaps.length > 0 ? (
+    <ul class="mt-4 space-y-2 text-sm text-slate-300">
+      {missingGaps.map((gap) => <li>- 补证方向：核验 {gap.label} 的官方/API/案例来源。</li>)}
+    </ul>
+  ) : (
+    <p class="mt-4 text-sm text-emerald-100">当前核心展示字段均已有可展示值。</p>
+  )}
+</section>

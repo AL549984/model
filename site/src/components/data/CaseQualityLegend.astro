@@ -1,0 +1,20 @@
+---
+const rows = [
+  { grade: "A", title: "可上网站和模型卡精选", description: "具体人/团队/组织 + 具体任务 + 具体产物 + 原始证据 URL，可公开核验。" },
+  { grade: "B", title: "候选池", description: "有原帖但产物弱，或有产物但模型使用证据弱；保留但不进精选。" },
+  { grade: "C", title: "背景资料", description: "benchmark、教程、评测、介绍文、排行榜、官方发布文、模型说明。" },
+  { grade: "D", title: "剔除", description: "SEO 垃圾、二手转述、无法核验、集合页本身、泛泛评价。" }
+];
+---
+
+<section class="panel p-4">
+  <p class="mono text-xs uppercase tracking-[0.12em] text-slate-300">A/B/C/D 判定标准</p>
+  <div class="mt-4 grid gap-3 md:grid-cols-2">
+    {rows.map((row) => (
+      <div class="rounded-md border border-slate-700/70 bg-slate-950/35 p-3">
+        <p class="font-semibold text-slate-100">{row.grade} 类：{row.title}</p>
+        <p class="mt-2 text-sm leading-relaxed text-slate-400">{row.description}</p>
+      </div>
+    ))}
+  </div>
+</section>

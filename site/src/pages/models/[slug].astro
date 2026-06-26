@@ -1,0 +1,160 @@
+---
+import BaseLayout from "../../components/layout/BaseLayout.astro";
+import SectionHeader from "../../components/sections/SectionHeader.astro";
+import CaseCard from "../../components/cards/CaseCard.astro";
+import PublishabilityBadge from "../../components/data/PublishabilityBadge.astro";
+import RiskNotice from "../../components/data/RiskNotice.astro";
+import SourceLinkBlock from "../../components/data/SourceLinkBlock.astro";
+import ModelTimeline from "../../components/data/ModelTimeline.astro";
+import EvidencePanel from "../../components/data/EvidencePanel.astro";
+import DataGapPanel from "../../components/data/DataGapPanel.astro";
+import EvidenceBackfillPanel from "../../components/data/EvidenceBackfillPanel.astro";
+import models from "../../data/models.json";
+import cases from "../../data/cases.json";
+import evidenceBackfill from "../../data/evidenceBackfill.json";
+
+export function getStaticPaths() {
+  return models.map((model) => ({ params: { slug: model.slug }, props: { model } }));
+}
+
+const { model } = Astro.props;
+const modelCases = cases.filter((item) => item.modelId === model.id && item.evidenceGrade === "A" && item.showcaseEligible);
+const backfillItem = evidenceBackfill.find((item) => item.modelId === model.id);
+const selectedCases = modelCases.filter((item) => item.selectedForModelCard);
+const showcaseCases = selectedCases.length ? selectedCases : modelCases;
+const sameVendorModels = models.filter((item) => item.vendorId === model.vendorId && item.slug !== model.slug).slice(0, 5);
+const publishabilityLabels: Record<string, string> = {
+  Publishable: "可发布",
+  Limited: "有限证据",
+  Hold: "暂停",
+  Archive: "归档 / 暂停"
+};
+const publishabilityLabel = publishabilityLabels[model.publishability] ?? model.publishability;
+const timeline = [
+  { date: model.releaseDate, title: `${model.name} 来源状态`, summary: model.sourceStatus },
+  { date: "Phase 3A", title: "模型卡状态已标记", summary: `${model.name} 当前状态为${publishabilityLabel}。` },
+  { date: "Phase 3B", title: "案例证据已复核", summary: model.caseStatus }
+];
+const hasACases = modelCases.length > 0;
+const missingOfficial = !model.officialLink || String(model.officialLink).includes("artificialanalysis.ai");
+const missingCase = model.aCaseCount === 0;
+const verificationSteps = [
+  missingCase ? "优先寻找具体人/团队/组织发布的原始使用证据，且必须有公开产物链接。" : "继续保存 A 类案例的原始证据、产物截图、repo HEAD 或页面快照。",
+  missingOfficial ? "补官方发布/API/System Card 来源；若官方未披露，继续标注“官方未披露”。" : "复核官方来源与模型 ID、发布时间、平台可用性是否仍一致。",
+  "把 benchmark、教程、发布文保留为背景资料，不提升为真实案例。"
+];
+---
+
+<BaseLayout title={`${model.name} · Frontier Models Atlas`}>
+  <section class="glass rounded-lg p-5">
+    <div class="flex flex-wrap items-start justify-between gap-4">
+      <div>
+        <p class="mono text-xs uppercase tracking-[0.16em] text-cyan-200">模型卡 2.0</p>
+        <h1 class="mt-2 text-4xl font-semibold text-slate-50">{model.name}</h1>
+        <p class="mt-3 max-w-3xl text-lg text-slate-300">{hasACases ? `${model.name} 已有可核验 A 类案例，可作为正式模型卡样板阅读。` : `${model.name} 当前是有限证据模型页：保留已有字段，明确展示缺口，不把缺证包装成推荐。`}</p>
+      </div>
+      <PublishabilityBadge status={model.publishability} />
+    </div>
+  </section>
+
+  {model.publishability !== "Publishable" && (
+    <div class="mt-5">
+      <RiskNotice title={`${publishabilityLabel}证据提示`} tone={model.publishability === "Hold" || model.publishability === "Archive" ? "hold" : "limited"} notes={[model.caseStatus, "尚未找到符合 A 类标准的公开使用案例。", "此页面不能被视为完整可发布模型推荐。"]} />
+    </div>
+  )}
+
+  <div class="content-grid mt-5">
+    <section class="page-grid">
+      <div class="panel p-5">
+        <SectionHeader eyebrow="30 秒结论" title={model.summary} description={hasACases ? "这页可以承载正式模型卡判断：有来源、有风险说明、有公开可核验 A 类案例。" : "暂无 A 类案例不是能力否定，只说明当前公开证据还没有达到 Atlas 的精选标准。"} />
+      </div>
+
+      <EvidencePanel model={model} modelCases={modelCases} />
+
+      <div class="panel">
+        <table class="data-table key-value-table">
+          <tbody>
+            <tr><th>厂商</th><td>{model.vendor}</td></tr>
+            <tr><th>厂商页</th><td><a class="link-accent" href={`/vendors/${model.vendorId}`}>{model.vendor}</a></td></tr>
+            <tr><th>发布时间</th><td>{model.releaseDate}</td></tr>
+            <tr><th>模型 ID</th><td>{model.modelId}</td></tr>
+            <tr><th>上下文</th><td>{model.context}</td></tr>
+            <tr><th>输出</th><td>{model.output}</td></tr>
+            <tr><th>模态</th><td>{model.modality}</td></tr>
+            <tr><th>推理</th><td>{model.reasoning}</td></tr>
+            <tr><th>价格</th><td>{model.price}</td></tr>
+            <tr><th>可用平台</th><td>{model.platforms.join(", ")}</td></tr>
+            <tr><th>AA 评分</th><td>{typeof model.score === "number" ? model.score : "暂无数据"}</td></tr>
+            <tr><th>基础模型发布时间</th><td>{model.baseModelReleaseDate}</td></tr>
+            <tr><th>数据来源</th><td>{model.sourceKind === "bitable" ? "飞书 Bitable 107 行" : "厂商页/模型卡骨架"}</td></tr>
+            <tr><th>A 类案例</th><td>{model.aCaseCount}</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <SectionHeader eyebrow="谱系位置" title="它在厂商路线中的位置" description={`此页将 ${model.name} 放入 ${model.vendor} 的当前 Atlas 路线中。若同厂前后代资料不足，先保留为路线追踪入口，不脑补谱系关系。`} />
+        <ModelTimeline items={timeline} />
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="panel p-4">
+          <p class="font-semibold">适合场景</p>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300">
+            {model.fit.map((item) => <li>- {item}</li>)}
+          </ul>
+        </div>
+        <div class="panel p-4">
+          <p class="font-semibold">不适合</p>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300">
+            {model.avoid.map((item) => <li>- {item}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <SectionHeader eyebrow="真实案例" title={modelCases.length ? "可核验 A 类案例精选" : "未找到可核验公开 A 类案例"} description={modelCases.length ? `当前展示 ${showcaseCases.length} 条模型卡精选案例；案例总数仍为 ${model.aCaseCount}。` : "页面不会用 benchmark、教程、发布说明或集合页替代真实案例。"} />
+        {modelCases.length ? <div class="grid gap-3 md:grid-cols-2">{showcaseCases.map((item) => <CaseCard item={item} />)}</div> : (
+          <div class="panel p-4 text-sm leading-relaxed text-slate-300">
+            <p class="font-semibold text-slate-100">暂无已验证 A 类案例</p>
+            <p class="mt-2">尚未找到符合 A 类标准的公开使用案例。Atlas 不会把 C 类文档、benchmark、教程、集合页或发布说明当作真实案例。</p>
+            <p class="mt-2">这不是对模型能力的否定，只是说明当前公开证据还不足以进入案例精选。</p>
+            <p class="mt-2 text-slate-400">当前状态：{publishabilityLabel}。</p>
+          </div>
+        )}
+      </div>
+
+      <div class="grid gap-4 lg:grid-cols-2">
+        <DataGapPanel model={model} />
+        <div class="panel p-4">
+          <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">下一步验证建议</p>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300">
+            {verificationSteps.map((item) => <li>- {item}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <EvidenceBackfillPanel item={backfillItem} />
+
+      {!hasACases && (
+        <div class="panel p-4">
+          <p class="font-semibold text-slate-100">继续判断入口</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-sm">
+            <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-cyan-100" href="/models">返回模型索引</a>
+            <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-cyan-100" href="/compare">进入对比页</a>
+            {sameVendorModels.map((item) => <a class="rounded-md border border-slate-700/70 px-3 py-2 text-slate-200" href={`/models/${item.slug}`}>{item.name}</a>)}
+          </div>
+        </div>
+      )}
+    </section>
+
+    <aside class="page-grid">
+      <RiskNotice title="风险和限制" tone={model.publishability === "Hold" || model.publishability === "Archive" ? "hold" : model.publishability === "Limited" ? "limited" : "neutral"} notes={model.riskNotes} />
+      <SourceLinkBlock sources={model.sources} />
+      <div class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">一句话使用建议</p>
+        <p class="mt-2 text-sm leading-relaxed text-slate-300">{model.fit[0]} · 状态：{publishabilityLabel}</p>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>

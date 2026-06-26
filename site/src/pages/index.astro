@@ -1,0 +1,79 @@
+---
+import BaseLayout from "../components/layout/BaseLayout.astro";
+import Hero from "../components/sections/Hero.astro";
+import SectionHeader from "../components/sections/SectionHeader.astro";
+import ModelCard from "../components/cards/ModelCard.astro";
+import CaseCard from "../components/cards/CaseCard.astro";
+import CapabilityMatrix from "../components/data/CapabilityMatrix.astro";
+import PublishabilityBadge from "../components/data/PublishabilityBadge.astro";
+import EvidenceBadge from "../components/data/EvidenceBadge.astro";
+import TrustBoundary from "../components/data/TrustBoundary.astro";
+import models from "../data/models.json";
+import cases from "../data/cases.json";
+import metrics from "../data/metrics.json";
+
+const scoredModels = models.filter((model) => typeof model.score === "number").sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+const highlightModels = [
+  ...models.filter((model) => model.aCaseCount > 0),
+  ...scoredModels.slice(0, 11)
+].filter((model, index, list) => list.findIndex((item) => item.id === model.id) === index).slice(0, 12);
+---
+
+<BaseLayout title="Frontier Models Atlas">
+  <Hero models={highlightModels} />
+
+  <section class="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div>
+      <SectionHeader eyebrow="重点切片" title="先看值得关注和需要补证的模型" description={`首页只展示有案例模型和高分切片；完整 ${metrics.models} 个模型请进入模型索引。`} />
+      <div class="grid gap-3 md:grid-cols-2">
+        {highlightModels.map((model) => <ModelCard model={model} />)}
+      </div>
+    </div>
+
+    <aside class="panel p-4">
+      <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">证据和状态流</p>
+      <div class="mt-4 space-y-3">
+        {highlightModels.map((model) => (
+          <a href={`/models/${model.slug}`} class="flex items-center justify-between gap-3 rounded-md border border-slate-700/70 bg-slate-950/45 p-3">
+            <div>
+              <p class="text-sm font-semibold">{model.name}</p>
+              <p class="mt-1 text-xs text-slate-400">{model.caseStatus}</p>
+            </div>
+            <PublishabilityBadge status={model.publishability} />
+          </a>
+        ))}
+      </div>
+      <div class="mt-4">
+        <TrustBoundary title="案例覆盖提醒" tone="amber" notes={[`当前 ${metrics.modelsWithCases} 个模型有已验证 A 类案例，${metrics.modelsWithoutCases} 个模型仍待补证。`, "暂无案例模型不是能力否定，而是公开证据尚未达 A 类标准。", "有限证据模型可以进入对比，但不能当作完整推荐。"]} />
+      </div>
+    </aside>
+  </section>
+
+  <section class="mt-7">
+    <SectionHeader eyebrow="能力矩阵" title="高分模型切片，不替代完整模型索引" description={`首页矩阵只展示高分/有案例模型，完整 ${metrics.models} 个模型请进入模型索引和对比页。`} />
+    <CapabilityMatrix models={highlightModels} />
+  </section>
+
+  <section class="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div>
+      <SectionHeader eyebrow="可核验 A 类案例" title="首页只展示已审核 A 类案例" description="首页不会把文档、教程、发布说明或集合页包装成真实案例。" />
+      <div class="grid gap-3 lg:grid-cols-2">
+        {cases.map((item) => <CaseCard item={item} />)}
+      </div>
+    </div>
+    <aside class="panel p-4">
+      <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">证据图例</p>
+      <div class="mt-4 space-y-3 text-sm text-slate-300">
+        <p><EvidenceBadge grade="A" /> <span class="ml-2">有原始证据和产物的公开可核验案例。</span></p>
+        <p><EvidenceBadge grade="B" /> <span class="ml-2">候选信号，不进入精选。</span></p>
+        <p><EvidenceBadge grade="C" /> <span class="ml-2">文档、发布、benchmark 或教程等背景材料。</span></p>
+        <p><EvidenceBadge grade="D" /> <span class="ml-2">剔除或无法核验。</span></p>
+      </div>
+      <div class="mt-5 grid gap-2">
+        <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/compare">打开对比页</a>
+        <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/cases">查看案例库</a>
+        <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100" href="/topics/coding-agent">Coding Agent 指南</a>
+      </div>
+    </aside>
+  </section>
+</BaseLayout>

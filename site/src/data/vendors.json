@@ -1,0 +1,480 @@
+[
+  {
+    "id": "anthropic",
+    "displayName": "Anthropic / Claude",
+    "slug": "anthropic",
+    "officialSite": "https://www.anthropic.com/",
+    "status": "publishable",
+    "caseLibraryStatus": "usable",
+    "positioning": "Claude 系列厂商，长上下文、代码任务和长周期 agentic work 是当前主线。",
+    "families": [
+      "Claude 3 / 3.5",
+      "Claude 4 / Opus 4.x",
+      "Claude 5 / Mythos-class"
+    ],
+    "flagshipModels": [
+      "Claude Opus 4.7 (max)",
+      "Claude Opus 4.6 (max)",
+      "Claude Opus 4.5",
+      "Claude 4.5 Sonnet"
+    ],
+    "strengths": [
+      "长上下文和代码库处理",
+      "agentic coding",
+      "安全定位清晰"
+    ],
+    "risks": [
+      "价格偏高",
+      "数据保留和 fallback 约束",
+      "Fable/Mythos 以外案例仍需补证"
+    ],
+    "modelCount": 16,
+    "sourceFile": "../../outputs/vendors/anthropic.md"
+  },
+  {
+    "id": "openai",
+    "displayName": "OpenAI",
+    "slug": "openai",
+    "officialSite": "https://openai.com/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "闭源前沿模型、API 平台和 Codex coding-agent 工作流的主轴厂商。",
+    "families": [
+      "GPT-5 family",
+      "o-series",
+      "Codex",
+      "open-weight / edge"
+    ],
+    "flagshipModels": [
+      "GPT-5.5 (xhigh)",
+      "GPT-5.4 (xhigh)",
+      "GPT-5.3 Codex (xhigh)",
+      "GPT-5.2 (xhigh)"
+    ],
+    "strengths": [
+      "API 生态广",
+      "推理和专业工作流覆盖强",
+      "Coding Agent 产品化成熟"
+    ],
+    "risks": [
+      "模型和价格变化快",
+      "案例库缺少 A 类公开证据",
+      "effort/variant 容易被误建成独立模型"
+    ],
+    "modelCount": 16,
+    "sourceFile": "../../outputs/vendors/openai.md"
+  },
+  {
+    "id": "google",
+    "displayName": "Google / Gemini",
+    "slug": "google",
+    "officialSite": "https://deepmind.google/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Gemini / Gemma / Veo 等多模态模型线的核心厂商，平台覆盖强。",
+    "families": [
+      "Gemini 3",
+      "Gemini 2.5",
+      "Gemma",
+      "Veo / Imagen"
+    ],
+    "flagshipModels": [
+      "Gemini 3.1 Pro Preview",
+      "Gemini 3 Pro Preview (high)",
+      "Gemini 2.5 Pro",
+      "Gemini 2.5 Pro (Mar)"
+    ],
+    "strengths": [
+      "Google 生态",
+      "长上下文和多模态",
+      "企业分发渠道"
+    ],
+    "risks": [
+      "Preview 生命周期需要显式提示",
+      "模型命名和迁移节奏变化快",
+      "公开 A 类案例未冻结"
+    ],
+    "modelCount": 11,
+    "sourceFile": "../../outputs/vendors/google.md"
+  },
+  {
+    "id": "deepseek",
+    "displayName": "DeepSeek",
+    "slug": "deepseek",
+    "officialSite": "https://www.deepseek.com/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "开放权重、低成本和 OpenAI-compatible API 路线中的关键厂商。",
+    "families": [
+      "DeepSeek R series",
+      "DeepSeek V series",
+      "Speciale / API-only",
+      "open-weight branches"
+    ],
+    "flagshipModels": [
+      "DeepSeek V4 Pro (Max)",
+      "DeepSeek V3.2",
+      "DeepSeek V3.1 Terminus",
+      "DeepSeek V3.1"
+    ],
+    "strengths": [
+      "开放 reasoning 路线",
+      "开发者关注度高",
+      "成本/性能讨论活跃"
+    ],
+    "risks": [
+      "A 类案例不足",
+      "API alias 和模型版本需要逐条核验",
+      "部署来源差异较大"
+    ],
+    "modelCount": 13,
+    "sourceFile": "../../outputs/vendors/deepseek.md"
+  },
+  {
+    "id": "qwen-alibaba",
+    "displayName": "Qwen / Alibaba",
+    "slug": "qwen-alibaba",
+    "officialSite": "https://qwenlm.github.io/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Alibaba 的 Qwen 多模态、开源和云服务模型线，覆盖文本、thinking、VL、Coder 和 Omni。",
+    "families": [
+      "Qwen3",
+      "Qwen3-VL",
+      "Qwen Coder",
+      "Qwen Omni / Audio"
+    ],
+    "flagshipModels": [
+      "Qwen3.7 Max",
+      "Qwen3.6 Max Preview",
+      "Qwen3.6 Plus",
+      "Qwen3.5 397B A17B"
+    ],
+    "strengths": [
+      "模型线覆盖广",
+      "开放生态信号强",
+      "thinking 变体路线清晰"
+    ],
+    "risks": [
+      "变体很多，需要冻结 canonical ID",
+      "VL/Omni/Coder 案例不能混入通用 Qwen",
+      "A 类案例待补证"
+    ],
+    "modelCount": 17,
+    "sourceFile": "../../outputs/vendors/qwen-alibaba.md"
+  },
+  {
+    "id": "xai",
+    "displayName": "xAI / Grok",
+    "slug": "xai",
+    "officialSite": "https://x.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Grok 系列厂商，定位在实时搜索、工具使用、coding workflow 和 X 生态。",
+    "families": [
+      "Grok 4 family",
+      "Grok Build",
+      "Grok Imagine",
+      "Grok Voice"
+    ],
+    "flagshipModels": [
+      "Grok 4.3 (high)",
+      "Grok 4.20 0309 v2",
+      "Grok 4.20 0309",
+      "Grok 4"
+    ],
+    "strengths": [
+      "强 Grok 品牌",
+      "实时搜索和工具使用叙事",
+      "媒体/API 分支丰富"
+    ],
+    "risks": [
+      "X 来源需要快照",
+      "媒体输出涉及 IP/肖像风险",
+      "Build/Imagine/Voice 不能混成通用聊天模型"
+    ],
+    "modelCount": 8,
+    "sourceFile": "../../outputs/vendors/xai.md"
+  },
+  {
+    "id": "kimi",
+    "displayName": "Kimi / Moonshot AI",
+    "slug": "kimi",
+    "officialSite": "https://www.moonshot.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Moonshot AI 的 Kimi 长上下文、代码、多模态和 K2 Thinking 模型线。",
+    "families": [
+      "Kimi K2 family",
+      "Kimi Thinking",
+      "Kimi open models"
+    ],
+    "flagshipModels": [
+      "Kimi K2.6",
+      "Kimi K2.5",
+      "Kimi K2 Thinking",
+      "Kimi K2 0905"
+    ],
+    "strengths": [
+      "长上下文",
+      "K2 Thinking 工具调用",
+      "部分开放模型分支"
+    ],
+    "risks": [
+      "产品名和 API 模型名可能不一致",
+      "开源分支和托管模型不能混用",
+      "案例库待补证"
+    ],
+    "modelCount": 5,
+    "sourceFile": "../../outputs/vendors/kimi.md"
+  },
+  {
+    "id": "meta",
+    "displayName": "Meta / Llama",
+    "slug": "meta",
+    "officialSite": "https://ai.meta.com/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "open-weight Llama 生态核心厂商，重点是 Llama 4 多模态 MoE 和许可证/部署边界。",
+    "families": [
+      "Llama 4",
+      "Llama 3.x",
+      "Llama safety/tools"
+    ],
+    "flagshipModels": [
+      "Muse Spark",
+      "Llama 4 Maverick",
+      "Llama 3.1 405B",
+      "Llama 2 Chat 7B"
+    ],
+    "strengths": [
+      "开放权重生态",
+      "Hugging Face/GitHub 分发",
+      "可本地部署"
+    ],
+    "risks": [
+      "许可和部署差异需要展示",
+      "hosted provider 价格不能混入 Meta 原生页",
+      "A 类案例未冻结"
+    ],
+    "modelCount": 5,
+    "sourceFile": "../../outputs/vendors/meta.md"
+  },
+  {
+    "id": "minimax",
+    "displayName": "MiniMax",
+    "slug": "minimax",
+    "officialSite": "https://www.minimax.io/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "MiniMax 覆盖 LLM/agent、speech、video、music 等多模态 API 路线。",
+    "families": [
+      "MiniMax M",
+      "MiniMax speech",
+      "MiniMax video",
+      "MiniMax music"
+    ],
+    "flagshipModels": [
+      "MiniMax-M2.7",
+      "MiniMax-M2.5",
+      "MiniMax-M2.1",
+      "MiniMax-M2"
+    ],
+    "strengths": [
+      "多模态 API 覆盖",
+      "M 系列 reasoning/agent 路线",
+      "产品入口丰富"
+    ],
+    "risks": [
+      "媒体案例不能混入 LLM 案例",
+      "M2/M3 版本关系需核验",
+      "公开 A 类案例不足"
+    ],
+    "modelCount": 5,
+    "sourceFile": "../../outputs/vendors/minimax.md"
+  },
+  {
+    "id": "z-ai",
+    "displayName": "Z AI / GLM",
+    "slug": "z-ai",
+    "officialSite": "https://z.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "GLM 系列厂商，当前叙事集中在 reasoning、coding 和 agent-oriented engineering。",
+    "families": [
+      "GLM-4.5",
+      "GLM-5",
+      "GLM coding/API"
+    ],
+    "flagshipModels": [
+      "GLM-5.1",
+      "GLM-5",
+      "GLM-4.7",
+      "GLM-4.6"
+    ],
+    "strengths": [
+      "agent-oriented foundation model",
+      "Claude Code compatible workflow 信号",
+      "开放分支可检查"
+    ],
+    "risks": [
+      "Z AI / Zhipu / GLM 命名需冻结",
+      "Claude-compatible 使用需单独证据行",
+      "A 类案例待补证"
+    ],
+    "modelCount": 5,
+    "sourceFile": "../../outputs/vendors/z-ai.md"
+  },
+  {
+    "id": "upstage",
+    "displayName": "Upstage / Solar",
+    "slug": "upstage",
+    "officialSite": "https://www.upstage.ai/",
+    "status": "limited",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Solar LLM 和 Document AI 工作流厂商，模型线相对小而偏企业文档场景。",
+    "families": [
+      "Solar",
+      "Document AI"
+    ],
+    "flagshipModels": [
+      "Solar Pro 3",
+      "Solar Open 100B",
+      "Solar Pro 2",
+      "Solar Mini"
+    ],
+    "strengths": [
+      "Solar LLM brand",
+      "Document Parse / Document AI",
+      "企业工作流"
+    ],
+    "risks": [
+      "当前 Solar 模型名需要人工核验",
+      "资料偏薄",
+      "案例库待补证"
+    ],
+    "modelCount": 4,
+    "sourceFile": "../../outputs/vendors/upstage.md"
+  },
+  {
+    "id": "xiaomi",
+    "displayName": "Xiaomi / MiMo",
+    "slug": "xiaomi",
+    "officialSite": "https://mimo.xiaomi.com/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "MiMo reasoning、coding 和 agentic foundation model 线，连接 Xiaomi 终端/生态潜力。",
+    "families": [
+      "MiMo",
+      "MiMo Code",
+      "MiMo Audio"
+    ],
+    "flagshipModels": [
+      "MiMo-V2.5-Pro",
+      "MiMo-V2-Pro",
+      "MiMo-V2-Flash (Feb 2026)"
+    ],
+    "strengths": [
+      "MiMo reasoning line",
+      "terminal-native coding assistant 信号",
+      "GitHub/Hugging Face 入口"
+    ],
+    "risks": [
+      "GitHub org 大小写和 slug 需区分",
+      "MiMo-Code 是工具证据，不等同模型性能",
+      "价格/API 未冻结"
+    ],
+    "modelCount": 3,
+    "sourceFile": "../../outputs/vendors/xiaomi.md"
+  },
+  {
+    "id": "mbzuai-ifm",
+    "displayName": "MBZUAI IFM / K2",
+    "slug": "mbzuai-ifm",
+    "officialSite": "https://mbzuai.ac.ae/",
+    "status": "limited",
+    "caseLibraryStatus": "archive_only",
+    "positioning": "K2 / K2 Think 主权 reasoning 方向的研究型厂商节点。",
+    "families": [
+      "K2",
+      "K2 Think"
+    ],
+    "flagshipModels": [
+      "K2 Think V2",
+      "K2-V2 (high)"
+    ],
+    "strengths": [
+      "sovereign reasoning",
+      "研究透明度",
+      "long context 叙事"
+    ],
+    "risks": [
+      "K2 Think 可能是系统而非单模型",
+      "产品化边界不清",
+      "案例库仅适合归档 / 背景资料"
+    ],
+    "modelCount": 2,
+    "sourceFile": "../../outputs/vendors/mbzuai-ifm.md"
+  },
+  {
+    "id": "stepfun",
+    "displayName": "StepFun / Step",
+    "slug": "stepfun",
+    "officialSite": "https://platform.stepfun.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Step 系列多模态 reasoning、coding 和高效率 MoE 模型厂商。",
+    "families": [
+      "Step 3",
+      "Step Flash",
+      "StepFun Platform"
+    ],
+    "flagshipModels": [
+      "Step 3.7 Flash"
+    ],
+    "strengths": [
+      "hardware-aware multimodal reasoning",
+      "efficient agentic workflow",
+      "API 分发信号"
+    ],
+    "risks": [
+      "Step3/3.5/3.7 版本关系需继续核验",
+      "价格和模型可用性需定期更新",
+      "案例库待补证"
+    ],
+    "modelCount": 1,
+    "sourceFile": "../../outputs/vendors/stepfun.md"
+  },
+  {
+    "id": "bytedance-seed",
+    "displayName": "ByteDance Seed",
+    "slug": "bytedance-seed",
+    "officialSite": "https://seed.bytedance.com/en/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "ByteDance Seed 是 Wiki 中额外出现的 Seed 模型节点，覆盖 productivity、video 和 multimodal research。",
+    "families": [
+      "Seed2.1",
+      "Seedance",
+      "Seed multimodal research"
+    ],
+    "flagshipModels": [
+      "Seed-2.1-Pro-Preview",
+      "Seed2.1 Pro",
+      "Seed2.1 Turbo",
+      "Seedance 1.0"
+    ],
+    "strengths": [
+      "Seed2.1 productivity focus",
+      "Seedance 视频模型",
+      "官方英文 Seed 站点"
+    ],
+    "risks": [
+      "访问渠道和价格需核验",
+      "视频案例涉及 IP/safety 风险",
+      "不是 Bitable 14 厂商主表节点"
+    ],
+    "modelCount": 7,
+    "sourceFile": "../../outputs/vendors/bytedance-seed.md"
+  }
+]

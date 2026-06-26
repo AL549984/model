@@ -1,0 +1,27 @@
+---
+import Sidebar from "../navigation/Sidebar.astro";
+import Footer from "./Footer.astro";
+import "../../styles/global.css";
+
+const { title = "Frontier Models Atlas", description = "AI 模型情报站" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="atlas-shell">
+      <Sidebar />
+      <main class="atlas-main">
+        <slot />
+        <Footer />
+      </main>
+    </div>
+  </body>
+</html>

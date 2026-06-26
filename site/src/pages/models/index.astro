@@ -1,0 +1,272 @@
+---
+import BaseLayout from "../../components/layout/BaseLayout.astro";
+import SectionHeader from "../../components/sections/SectionHeader.astro";
+import ModelCard from "../../components/cards/ModelCard.astro";
+import CapabilityMatrix from "../../components/data/CapabilityMatrix.astro";
+import TrustBoundary from "../../components/data/TrustBoundary.astro";
+import QuickFilters from "../../components/data/QuickFilters.astro";
+import BackToTop from "../../components/data/BackToTop.astro";
+import models from "../../data/models.json";
+import vendors from "../../data/vendors.json";
+import metrics from "../../data/metrics.json";
+
+const vendorOptions = vendors
+  .map((vendor) => ({
+    id: vendor.id,
+    label: vendor.displayName,
+    count: models.filter((model) => model.vendorId === vendor.id).length
+  }))
+  .filter((vendor) => vendor.count > 0);
+
+const topScored = models.filter((model) => typeof model.score === "number").sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 20);
+const publishableCount = models.filter((model) => model.publishability === "Publishable").length;
+const limitedCount = models.filter((model) => model.publishability === "Limited").length;
+
+const statusLabels: Record<string, string> = {
+  Publishable: "可发布",
+  Limited: "有限证据",
+  Hold: "暂停",
+  Archive: "归档 / 暂停"
+};
+
+function dateSortValue(value: string) {
+  if (!value || value.includes("暂无")) return 0;
+  const parts = value.match(/\d{4}|\d{2}/g);
+  if (!parts?.length) return 0;
+  const [year, month = "01", day = "01"] = parts;
+  return Number(`${year}${month.padStart(2, "0")}${day.padStart(2, "0")}`);
+}
+
+function isCodingCandidate(model: (typeof models)[number]) {
+  const codingAgent = String(model.capabilities?.codingAgent ?? "").toLowerCase();
+  return codingAgent.includes("agent") || String(model.reasoning ?? "").includes("是");
+}
+
+function riskSortValue(value: string) {
+  const riskOrder: Record<string, number> = { 高: 3, 中: 2, 低: 1 };
+  return riskOrder[value] ?? 0;
+}
+
+const codingCandidateCount = models.filter(isCodingCandidate).length;
+---
+
+<BaseLayout title="模型 · Frontier Models Atlas">
+  <div id="model-index-top"></div>
+  <SectionHeader eyebrow="模型索引" title={`在 ${metrics.models} 个模型里快速定位候选`} description={`搜索模型名或厂商名；用状态和 A 类案例筛选判断哪些可发布、哪些只是有限证据。缺字段保持“暂无数据 / 官方未披露”。`} />
+
+  <div class="mb-5">
+    <TrustBoundary title="模型索引可信边界" notes={[`当前 ${metrics.modelsWithCases} 个模型有 A 类案例，${metrics.modelsWithoutCases} 个模型暂无 A 类案例。`, "暂无案例不代表模型没有能力，只代表尚未找到符合 A 类标准的公开使用案例。", "Artificial Analysis 评分仅作参考，不作为唯一事实来源。"]} />
+  </div>
+
+  <section class="panel mb-6 p-4">
+    <div class="mb-4">
+      <QuickFilters
+        modelsWithCases={metrics.modelsWithCases}
+        publishableModels={publishableCount}
+        limitedModels={limitedCount}
+        codingCandidateCount={codingCandidateCount}
+      />
+    </div>
+
+    <div class="grid gap-3 lg:grid-cols-[minmax(220px,1.4fr)_repeat(4,minmax(150px,1fr))]">
+      <label class="grid gap-2 text-sm text-slate-300">
+        <span class="font-semibold text-slate-100">搜索模型 / 厂商</span>
+        <input id="model-search" class="control-input" type="search" placeholder="输入 Claude、Qwen、OpenAI..." autocomplete="off" />
+      </label>
+
+      <label class="grid gap-2 text-sm text-slate-300">
+        <span class="font-semibold text-slate-100">厂商</span>
+        <select id="vendor-filter" class="control-input">
+          <option value="all">全部厂商</option>
+          {vendorOptions.map((vendor) => <option value={vendor.id}>{vendor.label}（{vendor.count}）</option>)}
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-slate-300">
+        <span class="font-semibold text-slate-100">状态</span>
+        <select id="status-filter" class="control-input">
+          <option value="all">全部状态</option>
+          <option value="Publishable">可发布</option>
+          <option value="Limited">有限证据</option>
+          <option value="Archive">归档 / 暂停</option>
+          <option value="Hold">暂停</option>
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-slate-300">
+        <span class="font-semibold text-slate-100">A 类案例</span>
+        <select id="case-filter" class="control-input">
+          <option value="all">全部模型</option>
+          <option value="with">有 A 类案例</option>
+          <option value="without">暂无 A 类案例</option>
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-slate-300">
+        <span class="font-semibold text-slate-100">排序</span>
+        <select id="sort-filter" class="control-input">
+          <option value="score">AA 评分高到低</option>
+          <option value="date">发布时间新到旧</option>
+          <option value="cases">A 类案例多到少</option>
+          <option value="risk">风险高到低</option>
+          <option value="name">模型名 A-Z</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-sm text-slate-300">
+      <p>
+        当前显示 <span id="visible-count" class="font-mono text-cyan-100">{models.length}</span> / {models.length} 个模型。
+        <span>快捷筛选：<span id="quick-filter-label" class="text-cyan-100">全部模型</span>。</span>
+        <span class="text-slate-400">当前 {metrics.modelsWithCases} 个模型有已验证 A 类案例。</span>
+      </p>
+      <button id="reset-filters" class="rounded-md border border-slate-700/70 px-3 py-2 text-sm text-slate-200 hover:border-cyan-300/50 hover:text-cyan-100" type="button">重置筛选</button>
+    </div>
+  </section>
+
+  <section id="model-results" class="grid gap-3 lg:grid-cols-2 xl:grid-cols-3">
+    {models.map((model) => (
+      <article
+        class="model-result"
+        data-search={`${model.name} ${model.vendor}`.toLowerCase()}
+        data-vendor={model.vendorId}
+        data-status={model.publishability}
+        data-cases={model.aCaseCount}
+        data-score={typeof model.score === "number" ? model.score : -1}
+        data-date={dateSortValue(model.releaseDate)}
+        data-name={model.name.toLowerCase()}
+        data-risk={riskSortValue(model.capabilities.lifecycleRisk)}
+        data-coding={isCodingCandidate(model) ? "true" : "false"}
+      >
+        <ModelCard model={model} />
+        <div class="mt-2 flex flex-wrap gap-2 text-xs text-slate-400">
+          <span class="rounded-md border border-slate-700/70 px-2 py-1">状态：{statusLabels[model.publishability] ?? model.publishability}</span>
+          <span class="rounded-md border border-slate-700/70 px-2 py-1">AA：{typeof model.score === "number" ? model.score : "暂无数据"}</span>
+          <span class="rounded-md border border-slate-700/70 px-2 py-1">{model.aCaseCount > 0 ? `${model.aCaseCount} 条 A 类案例` : "暂无已验证 A 类案例"}</span>
+          <span class="rounded-md border border-slate-700/70 px-2 py-1">风险：{model.capabilities.lifecycleRisk ?? "暂无数据"}</span>
+          {isCodingCandidate(model) && <span class="rounded-md border border-cyan-300/30 px-2 py-1 text-cyan-100">Coding Agent 候选</span>}
+        </div>
+      </article>
+    ))}
+  </section>
+
+  <p id="model-empty" class="panel mt-4 hidden p-5 text-sm text-slate-300">
+    没有符合当前条件的模型。可以放宽搜索词、厂商、状态、案例或快捷筛选。
+  </p>
+
+  <section class="mt-7">
+    <SectionHeader eyebrow="矩阵" title="Top 20 评分切片" description="矩阵用于快速扫描高分模型，完整筛选请以上方模型索引为准。" />
+    <CapabilityMatrix models={topScored} />
+  </section>
+
+  <BackToTop />
+
+  <script>
+    type ModelResultCard = HTMLElement & { dataset: DOMStringMap };
+    const getControl = (selector: string) => document.querySelector(selector);
+    const quickLabels: Record<string, string> = {
+      all: "全部模型",
+      "with-cases": "有 A 类案例",
+      publishable: "可发布",
+      limited: "有限证据",
+      coding: "Coding Agent 候选"
+    };
+    let quickFilter = "all";
+
+    const controls = {
+      search: getControl("#model-search") as HTMLInputElement,
+      vendor: getControl("#vendor-filter") as HTMLSelectElement,
+      status: getControl("#status-filter") as HTMLSelectElement,
+      cases: getControl("#case-filter") as HTMLSelectElement,
+      sort: getControl("#sort-filter") as HTMLSelectElement,
+      reset: getControl("#reset-filters") as HTMLButtonElement,
+      count: getControl("#visible-count") as HTMLElement,
+      quickLabel: getControl("#quick-filter-label") as HTMLElement,
+      results: getControl("#model-results") as HTMLElement,
+      empty: getControl("#model-empty") as HTMLElement
+    };
+
+    const cards = Array.from(document.querySelectorAll<HTMLElement>(".model-result")) as ModelResultCard[];
+    const quickButtons = Array.from(document.querySelectorAll<HTMLElement>("[data-quick-filter]"));
+
+    function valueOf(card: ModelResultCard, key: string) {
+      const value = card.dataset[key] ?? "";
+      return key === "score" || key === "date" || key === "cases" || key === "risk" ? Number(value) : value;
+    }
+
+    function updateQuickButtons() {
+      quickButtons.forEach((button) => {
+        const active = button.dataset.quickFilter === quickFilter;
+        button.classList.toggle("quick-filter-active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+      controls.quickLabel.textContent = quickLabels[quickFilter] ?? "全部模型";
+    }
+
+    function matchesQuickFilter(card: ModelResultCard, caseCount: number) {
+      if (quickFilter === "with-cases") return caseCount > 0;
+      if (quickFilter === "publishable") return card.dataset.status === "Publishable";
+      if (quickFilter === "limited") return card.dataset.status === "Limited";
+      if (quickFilter === "coding") return card.dataset.coding === "true";
+      return true;
+    }
+
+    function applyFilters() {
+      const query = String(controls.search.value ?? "").trim().toLowerCase();
+      const vendor = controls.vendor.value;
+      const status = controls.status.value;
+      const caseFilter = controls.cases.value;
+      const sort = controls.sort.value;
+
+      const visible = cards.filter((card: ModelResultCard) => {
+        const matchesQuery = !query || String(card.dataset.search ?? "").includes(query);
+        const matchesVendor = vendor === "all" || card.dataset.vendor === vendor;
+        const matchesStatus = status === "all" || card.dataset.status === status;
+        const caseCount = Number(card.dataset.cases ?? 0);
+        const matchesCases = caseFilter === "all" || (caseFilter === "with" ? caseCount > 0 : caseCount === 0);
+        const show = matchesQuery && matchesVendor && matchesStatus && matchesCases && matchesQuickFilter(card, caseCount);
+        card.classList.toggle("hidden", !show);
+        return show;
+      });
+
+      visible.sort((a, b) => {
+        if (sort === "name") return String(valueOf(a, "name")).localeCompare(String(valueOf(b, "name")));
+        if (sort === "date") return Number(valueOf(b, "date")) - Number(valueOf(a, "date"));
+        if (sort === "cases") return Number(valueOf(b, "cases")) - Number(valueOf(a, "cases")) || Number(valueOf(b, "score")) - Number(valueOf(a, "score"));
+        if (sort === "risk") return Number(valueOf(b, "risk")) - Number(valueOf(a, "risk")) || Number(valueOf(b, "score")) - Number(valueOf(a, "score"));
+        return Number(valueOf(b, "score")) - Number(valueOf(a, "score"));
+      });
+
+      visible.forEach((card) => controls.results.appendChild(card));
+      controls.count.textContent = String(visible.length);
+      controls.empty.classList.toggle("hidden", visible.length !== 0);
+    }
+
+    [controls.search, controls.vendor, controls.status, controls.cases, controls.sort].forEach((control) => {
+      control.addEventListener("input", applyFilters);
+      control.addEventListener("change", applyFilters);
+    });
+
+    quickButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        quickFilter = button.dataset.quickFilter ?? "all";
+        updateQuickButtons();
+        applyFilters();
+      });
+    });
+
+    controls.reset.addEventListener("click", () => {
+      controls.search.value = "";
+      controls.vendor.value = "all";
+      controls.status.value = "all";
+      controls.cases.value = "all";
+      controls.sort.value = "score";
+      quickFilter = "all";
+      updateQuickButtons();
+      applyFilters();
+    });
+
+    updateQuickButtons();
+    applyFilters();
+  </script>
+</BaseLayout>

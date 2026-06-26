@@ -1,0 +1,24 @@
+---
+import metrics from "../../data/metrics.json";
+
+const { variant = "default" } = Astro.props;
+const compact = variant === "compact";
+const cards = [
+  { label: "厂商", value: metrics.vendors, note: "canonical vendor pages" },
+  { label: "模型", value: metrics.models, note: `${metrics.bitableModels} Bitable + ${metrics.vendorPageOnlyModels} 补充` },
+  { label: "A 类案例", value: metrics.verifiedACases, note: "公开可核验" },
+  { label: "有 A 类案例模型", value: metrics.modelsWithCases, note: "可进入模型卡精选" },
+  { label: "已补来源模型", value: metrics.modelsWithSupplementalSources, note: "非 AA 证据入口" },
+  { label: "数据截点", value: metrics.datasetCut, note: "缺字段不脑补" }
+];
+---
+
+<section class={`grid gap-3 ${compact ? "md:grid-cols-3" : "sm:grid-cols-2 xl:grid-cols-6"}`}>
+  {cards.map((card) => (
+    <div class="panel p-4">
+      <p class="text-sm text-slate-400">{card.label}</p>
+      <p class="mt-2 font-mono text-2xl font-semibold text-slate-50">{card.value}</p>
+      <p class="mt-2 text-xs leading-relaxed text-slate-500">{card.note}</p>
+    </div>
+  ))}
+</section>

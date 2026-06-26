@@ -1,0 +1,27 @@
+---
+import PublishabilityBadge from "../data/PublishabilityBadge.astro";
+
+const { vendor } = Astro.props;
+const status = vendor.status === "publishable" ? "Publishable" : "Limited";
+const caseLibraryLabels: Record<string, string> = {
+  usable: "可用",
+  platform_only: "仅平台资料",
+  thin: "证据偏薄"
+};
+const caseLibraryLabel = caseLibraryLabels[vendor.caseLibraryStatus] ?? vendor.caseLibraryStatus;
+---
+
+<a href={`/vendors/${vendor.slug}`} class="group block rounded-lg border border-slate-700/70 bg-slate-950/45 p-4 transition hover:-translate-y-0.5 hover:border-cyan-300/45">
+  <div class="flex items-start justify-between gap-3">
+    <div>
+      <p class="text-lg font-semibold">{vendor.displayName}</p>
+      <p class="mt-1 mono text-xs text-cyan-200">/{vendor.slug}</p>
+    </div>
+    <PublishabilityBadge status={status} />
+  </div>
+  <p class="mt-4 text-sm leading-relaxed text-slate-300">{vendor.positioning}</p>
+  <div class="mt-4 flex flex-wrap gap-2">
+    {vendor.flagshipModels.slice(0, 3).map((model: string) => <span class="rounded-md border border-slate-700/70 px-2 py-1 text-xs text-slate-300">{model}</span>)}
+  </div>
+  <p class="mt-4 text-xs text-slate-400">模型数：{vendor.modelCount ?? 0} · 案例库状态：{caseLibraryLabel}</p>
+</a>

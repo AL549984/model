@@ -1,0 +1,70 @@
+---
+import BaseLayout from "../components/layout/BaseLayout.astro";
+import SectionHeader from "../components/sections/SectionHeader.astro";
+import ComparisonTable from "../components/data/ComparisonTable.astro";
+import RiskNotice from "../components/data/RiskNotice.astro";
+import TrustBoundary from "../components/data/TrustBoundary.astro";
+import CompareSummary from "../components/data/CompareSummary.astro";
+import DecisionPreset from "../components/data/DecisionPreset.astro";
+import DataCompletenessNote from "../components/data/DataCompletenessNote.astro";
+import models from "../data/models.json";
+import metrics from "../data/metrics.json";
+
+function isMissing(value: unknown) {
+  if (value === null || value === undefined) return true;
+  if (Array.isArray(value)) return value.length === 0;
+  const text = String(value).trim();
+  return !text || text.includes("暂无数据") || text.includes("官方未披露") || text.includes("未披露") || text.includes("待核验");
+}
+
+function isCodingCandidate(model: (typeof models)[number]) {
+  return String(model.capabilities?.codingAgent ?? "").toLowerCase().includes("agent") || String(model.reasoning ?? "").includes("是");
+}
+
+const withACases = models.filter((model) => model.aCaseCount > 0);
+const codingCandidates = models.filter(isCodingCandidate).sort((a, b) => (b.aCaseCount - a.aCaseCount) || ((b.score ?? 0) - (a.score ?? 0))).slice(0, 8);
+const highScoreModels = models.filter((model) => typeof model.score === "number").sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 8);
+const limitedCandidates = models.filter((model) => model.publishability === "Limited").sort((a, b) => ((b.score ?? 0) - (a.score ?? 0))).slice(0, 8);
+const missingPrice = models.filter((model) => isMissing(model.price)).length;
+const missingContext = models.filter((model) => isMissing(model.context)).length;
+const missingOfficial = models.filter((model) => isMissing(model.officialLink) || String(model.officialLink ?? "").includes("artificialanalysis.ai")).length;
+---
+
+<BaseLayout title="对比 · Frontier Models Atlas">
+  <SectionHeader eyebrow="对比" title="从证据强度开始做模型选型" description={`对比页覆盖全部 ${metrics.models} 个模型，优先帮助判断证据状态、案例覆盖、Coding Agent 适配、风险原因和数据缺口。`} />
+  <div class="mb-5">
+    <TrustBoundary title="对比页可信边界" notes={["有限证据不是不能用，而是公开证据未达发布标准。", "暂无数据表示当前资料源未披露或尚未接入，不代表模型一定不支持。", `当前 ${metrics.modelsWithCases} 个模型有已验证 A 类案例。`]} />
+  </div>
+  <div class="mb-5 rounded-lg border border-cyan-300/25 bg-cyan-300/10 p-4 text-sm leading-relaxed text-cyan-50">
+    选型顺序：先看证据强度和 A 类案例，再看场景适配和 Coding Agent 信号，最后看风险、价格、平台和数据缺口。表中大量“暂无数据”表示当前资料源未披露或尚未完成证据接入，不代表模型一定不支持。
+  </div>
+
+  <div class="mb-5">
+    <CompareSummary
+      metrics={metrics}
+      missingPrice={missingPrice}
+      missingContext={missingContext}
+      missingOfficial={missingOfficial}
+      codingCandidateCount={models.filter(isCodingCandidate).length}
+    />
+  </div>
+
+  <section class="mb-5 grid gap-4 xl:grid-cols-4">
+    <DecisionPreset title="有 A 类案例" description="优先用于公开展示和高可信模型卡。" models={withACases} />
+    <DecisionPreset title="Coding Agent 候选" description="由现有推理/agent 字段派生，仍需案例补证。" models={codingCandidates} />
+    <DecisionPreset title="高分模型" description="按 AA 评分排序，仅作参考信号。" models={highScoreModels} />
+    <DecisionPreset title="有限证据候选" description="可进入对比，但主动推荐前必须补强来源和案例。" models={limitedCandidates} />
+  </section>
+
+  <div class="mb-5">
+    <DataCompletenessNote missingPrice={missingPrice} missingContext={missingContext} missingOfficial={missingOfficial} total={metrics.models} />
+  </div>
+
+  <ComparisonTable models={models} />
+
+  <div class="mt-6 grid gap-4 lg:grid-cols-3">
+    <RiskNotice title="可发布" tone="neutral" notes={["来源和案例证据足以支撑网站模型页。", `当前完整数据集中有 ${metrics.publishableModels} 个模型达到该状态。`]} />
+    <RiskNotice title="有限证据" tone="limited" notes={["可以展示，但必须带提示。", "进入推荐前需要公开 A 类案例。"]} />
+    <RiskNotice title="暂停" tone="hold" notes={["存在生命周期或证据风险。", "不要作为主动模型选择推荐。"]} />
+  </div>
+</BaseLayout>

@@ -1,0 +1,41 @@
+---
+const { models: rawModels = [] } = Astro.props;
+const models = rawModels as Record<string, any>[];
+
+const columns = [
+  ["codingAgent", "Coding Agent 适配"],
+  ["longContext", "长上下文"],
+  ["research", "研究"],
+  ["openEcosystem", "开放 / 平台"],
+  ["lifecycleRisk", "生命周期风险"]
+];
+
+const rows = models.map((model) => ({
+  model,
+  values: columns.map(([key]) => model.capabilities[key])
+}));
+---
+
+<div class="panel mobile-scroll">
+  <table class="data-table min-w-[760px]">
+    <thead>
+      <tr>
+        <th>模型</th>
+        {columns.map(([, label]) => <th>{label}</th>)}
+        <th>A 类案例</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(({ model, values }) => (
+        <tr>
+          <td>
+            <a href={`/models/${model.slug}`} class="font-semibold text-cyan-100">{model.name}</a>
+            <p class="mt-1 text-xs text-slate-500">{model.vendor}</p>
+          </td>
+          {values.map((value) => <td class="text-slate-300">{value}</td>)}
+          <td class="font-mono text-slate-200">{model.aCaseCount}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,84 @@
+---
+import PublishabilityBadge from "./PublishabilityBadge.astro";
+
+const { models: rawModels = [] } = Astro.props;
+const models = rawModels as Record<string, any>[];
+function isMissing(value: unknown) {
+  if (value === null || value === undefined) return true;
+  if (Array.isArray(value)) return value.length === 0;
+  const text = String(value).trim();
+  return !text || text.includes("暂无数据") || text.includes("官方未披露") || text.includes("未披露") || text.includes("待核验");
+}
+
+function evidenceStrength(model: Record<string, any>) {
+  if (model.publishability === "Publishable" && Number(model.aCaseCount ?? 0) > 0) return "强";
+  if (model.publishability === "Archive" || model.publishability === "Hold") return "暂停";
+  return "有限";
+}
+
+function dataGaps(model: Record<string, any>) {
+  const gaps = [
+    isMissing(model.price) && "价格",
+    isMissing(model.context) && "上下文",
+    isMissing(model.output) && "输出",
+    (isMissing(model.officialLink) || String(model.officialLink ?? "").includes("artificialanalysis.ai")) && "官方链接",
+    Number(model.aCaseCount ?? 0) === 0 && "案例"
+  ].filter(Boolean);
+  return gaps.length ? gaps.join(" / ") : "核心字段较完整";
+}
+
+const rows = models.map((model) => ({
+  model,
+  advice: model.fit?.[0] ?? "先复核证据",
+  risk: model.riskNotes?.[0] ?? "暂无风险说明",
+  evidence: evidenceStrength(model),
+  gaps: dataGaps(model),
+  price: isMissing(model.price) ? "待补证" : "已披露",
+  platform: isMissing(model.platforms) || isMissing(model.capabilities?.openEcosystem) ? "待补证" : model.capabilities.openEcosystem
+}));
+---
+
+<div class="panel mobile-scroll">
+  <table class="data-table min-w-[1680px]">
+    <thead>
+      <tr>
+        <th>模型</th>
+        <th>厂商</th>
+        <th>状态</th>
+        <th>证据强度</th>
+        <th>AA 评分</th>
+        <th>发布时间</th>
+        <th>推荐场景</th>
+        <th>Coding Agent 适配</th>
+        <th>案例数</th>
+        <th>价格可得性</th>
+        <th>平台可用性</th>
+        <th>上下文</th>
+        <th>多模态</th>
+        <th>数据缺口</th>
+        <th>风险原因</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map(({ model, advice, risk, evidence, gaps, price, platform }) => (
+        <tr>
+          <td><a href={`/models/${model.slug}`} class="font-semibold text-cyan-100">{model.name}</a></td>
+          <td>{model.vendor}</td>
+          <td><PublishabilityBadge status={model.publishability} /></td>
+          <td>{evidence}</td>
+          <td class="font-mono">{typeof model.score === "number" ? model.score : "暂无数据"}</td>
+          <td>{model.releaseDate}</td>
+          <td>{advice}</td>
+          <td>{model.capabilities.codingAgent}</td>
+          <td class="font-mono">{model.aCaseCount}</td>
+          <td>{price}</td>
+          <td>{platform}</td>
+          <td>{model.context}</td>
+          <td>{model.modality}</td>
+          <td>{gaps}</td>
+          <td>{risk}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

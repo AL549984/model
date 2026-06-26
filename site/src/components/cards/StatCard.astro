@@ -1,0 +1,20 @@
+---
+import { Box, BrainCircuit, CircleCheck, DatabaseZap } from "@lucide/astro";
+
+const { label, value, note, icon = "box" } = Astro.props;
+const icons: Record<string, typeof Box> = { box: Box, brain: BrainCircuit, check: CircleCheck, data: DatabaseZap };
+const Icon = icons[icon] ?? Box;
+---
+
+<div class="glass rounded-lg p-4 transition hover:border-cyan-300/40 hover:shadow-glow">
+  <div class="flex items-center gap-3">
+    <div class="grid h-10 w-10 place-items-center rounded-md border border-cyan-300/25 bg-cyan-300/10 text-cyan-200">
+      <Icon size={20} />
+    </div>
+    <div>
+      <div class="text-3xl font-semibold leading-none">{value}</div>
+      <div class="mt-1 text-sm text-slate-300">{label}</div>
+    </div>
+  </div>
+  {note && <p class="mt-3 text-xs text-slate-400">{note}</p>}
+</div>

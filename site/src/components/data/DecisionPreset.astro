@@ -1,0 +1,32 @@
+---
+import PublishabilityBadge from "./PublishabilityBadge.astro";
+
+const { title, description, models: rawModels = [], empty = "暂无符合条件的模型" } = Astro.props;
+const models = rawModels as Record<string, any>[];
+---
+
+<section class="panel p-4">
+  <div class="flex items-start justify-between gap-3">
+    <div>
+      <p class="font-semibold text-slate-100">{title}</p>
+      <p class="mt-1 text-sm leading-relaxed text-slate-400">{description}</p>
+    </div>
+    <span class="font-mono text-sm text-cyan-100">{models.length}</span>
+  </div>
+
+  {models.length ? (
+    <div class="mt-4 space-y-2">
+      {models.map((model) => (
+        <a href={`/models/${model.slug}`} class="block rounded-md border border-slate-700/70 bg-slate-950/35 p-3 transition hover:border-cyan-300/40">
+          <span class="flex items-center justify-between gap-3">
+            <span class="font-semibold text-cyan-100">{model.name}</span>
+            <PublishabilityBadge status={model.publishability} />
+          </span>
+          <span class="mt-1 block text-xs text-slate-400">{model.vendor} · A 类案例 {model.aCaseCount} · AA {typeof model.score === "number" ? model.score : "暂无数据"}</span>
+        </a>
+      ))}
+    </div>
+  ) : (
+    <p class="mt-4 text-sm text-slate-400">{empty}</p>
+  )}
+</section>

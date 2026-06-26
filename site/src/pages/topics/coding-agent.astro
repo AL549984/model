@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../../components/layout/BaseLayout.astro";
+import SectionHeader from "../../components/sections/SectionHeader.astro";
+import ModelCard from "../../components/cards/ModelCard.astro";
+import CaseCard from "../../components/cards/CaseCard.astro";
+import RiskNotice from "../../components/data/RiskNotice.astro";
+import models from "../../data/models.json";
+import cases from "../../data/cases.json";
+import metrics from "../../data/metrics.json";
+
+const codingModels = models
+  .filter((model) => model.aCaseCount > 0 || model.reasoning.includes("是") || model.capabilities.codingAgent.includes("agent"))
+  .sort((a, b) => (b.aCaseCount - a.aCaseCount) || ((b.score ?? 0) - (a.score ?? 0)))
+  .slice(0, 12);
+const verifiedCases = cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible);
+---
+
+<BaseLayout title="Coding Agent 指南 · Frontier Models Atlas">
+  <SectionHeader eyebrow="专题" title="Coding Agent 模型指南" description={`从 ${metrics.models} 个完整模型中抽取有案例或高分推理/agent 候选；完整集合请看模型索引和对比页。`} />
+
+  <div class="grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <section>
+      <div class="grid gap-3 md:grid-cols-2">
+        {codingModels.map((model) => <ModelCard model={model} />)}
+      </div>
+
+      <div class="mt-7">
+        <SectionHeader eyebrow="可核验案例" title={`${metrics.modelsWithCases} 个模型已有 A 类案例支撑`} />
+        <div class="grid gap-3 md:grid-cols-2">
+          {verifiedCases.map((item) => <CaseCard item={item} />)}
+        </div>
+      </div>
+    </section>
+
+    <aside class="page-grid">
+      <RiskNotice title="选择检查清单" tone="limited" notes={["优先检查 A 类证据。", "验证数据保留和 fallback 行为。", "生产前先原型验证工具可靠性。", "不要把有限证据模型当成已被证明的推荐。"]} />
+      <div class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">决策路径</p>
+        <ol class="mt-3 space-y-2 text-sm text-slate-300">
+          <li>1. 需要可核验公开案例时，先筛选有 A 类案例的模型。</li>
+          <li>2. 如果成本、平台或厂商路线更重要，再对比有限证据候选。</li>
+          <li>3. 暂停模型不进入主动推荐。</li>
+        </ol>
+      </div>
+      <div class="grid gap-2">
+        <a href="/compare" class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100">对比模型</a>
+        <a href="/cases" class="rounded-md border border-cyan-300/30 px-3 py-2 text-sm text-cyan-100">查看证据</a>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>

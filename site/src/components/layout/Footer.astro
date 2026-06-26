@@ -1,0 +1,10 @@
+---
+import metrics from "../../data/metrics.json";
+---
+
+<footer class="mt-10 border-t border-slate-700/60 py-5 text-sm text-slate-400">
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <p>数据截点：{metrics.datasetCut} · {metrics.methodology}</p>
+    <p>可核验 A 类案例：{metrics.verifiedACases} · 视觉方向：{metrics.visualDirection}</p>
+  </div>
+</footer>

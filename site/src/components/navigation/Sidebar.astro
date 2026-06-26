@@ -1,0 +1,50 @@
+---
+import { Activity, Boxes, BrainCircuit, Database, GitCompare, House, Network, ShieldCheck } from "@lucide/astro";
+
+const navItems = [
+  { href: "/", label: "指挥中心", icon: House },
+  { href: "/vendors", label: "厂商", icon: Boxes },
+  { href: "/models", label: "模型", icon: Network },
+  { href: "/cases", label: "案例", icon: Database },
+  { href: "/compare", label: "对比", icon: GitCompare },
+  { href: "/topics/coding-agent", label: "Coding Agent", icon: BrainCircuit }
+];
+---
+
+<aside class="sticky top-0 hidden h-screen border-r border-slate-700/60 bg-slate-950/50 px-4 py-6 backdrop-blur-xl lg:block">
+  <a href="/" class="mb-7 flex items-center gap-3">
+    <span class="grid h-9 w-9 place-items-center rounded-md border border-cyan-300/35 bg-cyan-300/10 text-cyan-200">
+      <Activity size={18} />
+    </span>
+    <span class="mono text-sm font-semibold tracking-[0.28em] text-cyan-100">ATLAS</span>
+  </a>
+  <nav class="space-y-2">
+    {navItems.map((item) => {
+      const Icon = item.icon;
+      return (
+        <a href={item.href} class="flex items-center gap-3 rounded-md border border-transparent px-3 py-3 text-sm text-slate-300 transition hover:border-cyan-300/30 hover:bg-cyan-300/10 hover:text-cyan-100">
+          <Icon size={17} />
+          {item.label}
+        </a>
+      );
+    })}
+  </nav>
+  <div class="absolute bottom-5 left-4 right-4 rounded-lg border border-slate-700/70 bg-slate-950/60 p-3">
+    <div class="flex items-center gap-2 text-sm font-medium">
+      <ShieldCheck size={16} class="text-emerald-300" />
+      方法说明
+    </div>
+    <p class="mt-2 text-xs leading-relaxed text-slate-400">证据等级和发布状态默认可见。</p>
+  </div>
+</aside>
+
+<header class="sticky top-0 z-20 border-b border-slate-700/60 bg-slate-950/85 px-4 py-3 backdrop-blur-xl lg:hidden">
+  <div class="flex items-center justify-between">
+    <a href="/" class="mono text-sm font-semibold tracking-[0.22em] text-cyan-100">ATLAS</a>
+    <div class="flex gap-3 text-xs text-slate-300">
+      <a href="/models">模型</a>
+      <a href="/cases">案例</a>
+      <a href="/compare">对比</a>
+    </div>
+  </div>
+</header>

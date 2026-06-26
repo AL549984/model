@@ -1,0 +1,20 @@
+---
+import metrics from "../../data/metrics.json";
+
+const links = [
+  { href: "/models", label: "完整模型列表", detail: `搜索、筛选 ${metrics.models} 个模型` },
+  { href: "/cases", label: "有 A 类案例模型", detail: `当前 ${metrics.modelsWithCases} 个模型有案例` },
+  { href: "/models", label: "有限证据模型", detail: "进入模型页按状态筛选" },
+  { href: "/topics/coding-agent", label: "Coding Agent 候选", detail: "从案例和候选模型开始判断" },
+  { href: "/compare", label: "对比页", detail: "按证据、风险和场景取舍" }
+];
+---
+
+<nav class="grid gap-3 md:grid-cols-2 xl:grid-cols-5" aria-label="Atlas 入口">
+  {links.map((item) => (
+    <a href={item.href} class="group rounded-lg border border-slate-700/70 bg-slate-950/45 p-4 transition hover:-translate-y-0.5 hover:border-cyan-300/45 hover:bg-slate-900/70">
+      <p class="font-semibold text-slate-50">{item.label}</p>
+      <p class="mt-2 text-sm leading-relaxed text-slate-400">{item.detail}</p>
+    </a>
+  ))}
+</nav>

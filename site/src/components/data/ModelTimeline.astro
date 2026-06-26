@@ -1,0 +1,17 @@
+---
+const { items: rawItems = [] } = Astro.props;
+const items = rawItems as Array<{ date: string; title: string; summary: string }>;
+---
+
+<div class="panel p-4">
+  <div class="space-y-4">
+    {items.map((item: { date: string; title: string; summary: string }) => (
+      <div class="relative border-l border-cyan-300/20 pl-4">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-cyan-300"></span>
+        <p class="mono text-xs text-cyan-100">{item.date}</p>
+        <p class="mt-1 font-semibold text-slate-100">{item.title}</p>
+        <p class="mt-1 text-sm text-slate-400">{item.summary}</p>
+      </div>
+    ))}
+  </div>
+</div>

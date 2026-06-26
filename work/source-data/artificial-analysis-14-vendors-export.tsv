@@ -1,0 +1,107 @@
+Qwen Chat 14B	Alibaba	1	2023-09-25	7.41		False	https://artificialanalysis.ai/models/qwen-chat-14b	c43aa1f9-31bd-4a99-be70-84c5e6bd2e75	Not disclosed on AA	
+Qwen Chat 72B	Alibaba	2	2023-11-30	8.82	1.41	False	https://artificialanalysis.ai/models/qwen-chat-72b	41f73c27-880c-4f30-8b07-9999ce89a4ae	Not disclosed on AA	
+Qwen1.5 Chat 110B	Alibaba	3	2024-04-25	9.55	0.72	False	https://artificialanalysis.ai/models/qwen1.5-110b-chat	d1768b3a-0a21-4e08-b3f6-56a9ab6cfbf3	Not disclosed on AA	
+Qwen2 72B	Alibaba	4	2024-06-07	11.66	2.11	False	https://artificialanalysis.ai/models/qwen2-72b-instruct	7656c62b-5345-435b-bf12-b6ce2ca0d58d	Not disclosed on AA	
+Qwen2.5 72B	Alibaba	5	2024-09-19	15.56	3.90	False	https://artificialanalysis.ai/models/qwen2-5-72b-instruct	b4f7d7a4-869a-4ee7-b17a-4046cd1e79fd	Not disclosed on AA	
+Qwen2.5 Max	Alibaba	6	2025-01-28	16.28	0.73	False	https://artificialanalysis.ai/models/qwen-2-5-max	b9dc72c6-7bea-4936-a55a-4b0c835fc755	Not disclosed on AA	
+QwQ-32B	Alibaba	7	2025-03-05	19.72	3.44	True	https://artificialanalysis.ai/models/qwq-32b	ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca	Not disclosed on AA	
+Qwen3 235B	Alibaba	8	2025-04-28	19.79	0.07	True	https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning	bbe6d782-e630-48d5-b11c-3ce37f373f1e	Not disclosed on AA	
+Qwen3 235B 2507	Alibaba	9	2025-07-21	24.96	5.17	False	https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507	3373245b-e6dc-4b66-a7b0-3f06f9b7bd46	Not disclosed on AA	
+Qwen3 235B A22B 2507	Alibaba	10	2025-07-25	29.54	4.58	True	https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning	f6ccbe1d-bd7e-484b-9795-18cc9f91552d	Not disclosed on AA	
+Qwen3 Max	Alibaba	11	2025-09-23	31.38	1.84	False	https://artificialanalysis.ai/models/qwen3-max	7ae943a9-9310-4472-a834-c61f0ab68485	Not disclosed on AA	
+Qwen3 Max Thinking (Preview)	Alibaba	12	2025-11-03	32.48	1.10	True	https://artificialanalysis.ai/models/qwen3-max-thinking-preview	cbac8c35-e069-4c73-823e-0953e6ed0e85	Not disclosed on AA	
+Qwen3 Max Thinking	Alibaba	13	2026-01-26	39.85	7.37	True	https://artificialanalysis.ai/models/qwen3-max-thinking	806032ff-6252-4c22-ba99-a126e411b7a4	Not disclosed on AA	
+Qwen3.5 397B A17B	Alibaba	14	2026-02-16	45.05	5.20	True	https://artificialanalysis.ai/models/qwen3-5-397b-a17b	0e66bae9-41f1-42fc-9276-ce8cb6f72919	Not disclosed on AA	
+Qwen3.6 Plus	Alibaba	15	2026-04-02	49.98	4.93	True	https://artificialanalysis.ai/models/qwen3-6-plus	f371ad68-6947-4767-a78f-1f6c81f96b93	Not disclosed on AA	
+Qwen3.6 Max Preview	Alibaba	16	2026-04-20	51.81	1.83	True	https://artificialanalysis.ai/models/qwen3-6-max	6000692c-f9a6-47f8-a5c0-e0874ac488bb	Not disclosed on AA	
+Qwen3.7 Max	Alibaba	17	2026-05-19	56.58	4.77	True	https://artificialanalysis.ai/models/qwen3-7-max	69534bed-2ffd-4235-832b-e20a810333ab		2026-05-22 按视觉Step规则增量更新：同日最高分 + 厂商历史新高。
+Claude Instant	Anthropic	1	2023-03-14	7.41		False	https://artificialanalysis.ai/models/claude-instant	83cb898e-05d9-4e4b-9de3-2d305014d923	Jan 1, 2023	
+Claude 2.0	Anthropic	2	2023-07-11	9.06	1.64	False	https://artificialanalysis.ai/models/claude-2	ddc748d0-6a9b-466b-8d6c-68417980d56d	Jan 1, 2023	
+Claude 2.1	Anthropic	3	2023-11-21	9.32	0.27	False	https://artificialanalysis.ai/models/claude-21	9e141c0d-fc82-4e07-bb2e-fe0003bc030b	Jan 1, 2023	
+Claude 3 Opus	Anthropic	4	2024-03-04	18.00	8.68	False	https://artificialanalysis.ai/models/claude-3-opus	7829427f-f0e3-4f6d-a228-5fbf70dacc02	Aug 1, 2023	
+Claude 3.5 Haiku	Anthropic	5	2024-10-22	18.66	0.66	False	https://artificialanalysis.ai/models/claude-3-5-haiku	033e4aa9-a556-4224-87b0-341ed1070257	Jul 1, 2024	
+Claude 3.7 Sonnet	Anthropic	6	2025-02-24	34.71	16.05	True	https://artificialanalysis.ai/models/claude-3-7-sonnet-thinking	13358187-4584-479c-ab43-5bcdf8f297a4	Oct 1, 2024	
+Claude 4 Opus	Anthropic	7	2025-05-22	39.00	4.29	True	https://artificialanalysis.ai/models/claude-4-opus-thinking	8a4a5ead-7789-4389-8400-30e9d20370b7	Mar 1, 2025	
+Claude 4.1 Opus	Anthropic	8	2025-08-05	42.00	3.00	True	https://artificialanalysis.ai/models/claude-4-1-opus-thinking	ccbfa8c3-a762-480b-aade-34fb9697f98c	Mar 1, 2025	
+Claude 4.5 Sonnet	Anthropic	9	2025-09-29	43.03	1.03	True	https://artificialanalysis.ai/models/claude-4-5-sonnet-thinking	90e078f2-051b-4c63-8919-76618971cb3f	Jul 1, 2025	
+Claude Opus 4.5	Anthropic	10	2025-11-24	49.73	6.70	True	https://artificialanalysis.ai/models/claude-opus-4-5-thinking	2660d74f-ce79-48a8-8b53-6e668e2071a2	Aug 1, 2025	
+Claude Opus 4.6 (max)	Anthropic	11	2026-02-05	52.95	3.22	True	https://artificialanalysis.ai/models/claude-opus-4-6-adaptive	53c98840-47af-49aa-94e6-469fb17e9a1b	Not disclosed on AA	
+Claude Opus 4.7 (max)	Anthropic	12	2026-04-16	57.28	4.33	True	https://artificialanalysis.ai/models/claude-opus-4-7	e9a09db3-8fd6-41dd-ba2f-20e0a2bff7f2	Jan 1, 2026	
+DeepSeek LLM 67B (V1)	DeepSeek	1	2023-11-29	8.37		False	https://artificialanalysis.ai/models/deepseek-llm-67b-chat	7764d514-694f-444c-8d60-bdc6e24e223f	Not disclosed on AA	
+DeepSeek-V2	DeepSeek	2	2024-05-06	9.06	0.69	False	https://artificialanalysis.ai/models/deepseek-v2	2d19c2d1-062d-436e-b2c2-3d3ecad34acc	Not disclosed on AA	
+DeepSeek-Coder-V2	DeepSeek	3	2024-06-17	10.61	1.55	False	https://artificialanalysis.ai/models/deepseek-coder-v2	8f0a75d6-8d00-4c2e-bcd4-8e88a570a93c	Nov 1, 2023	
+DeepSeek-V2.5	DeepSeek	4	2024-09-06	12.33	1.72	False	https://artificialanalysis.ai/models/deepseek-v2-5-sep-2024	8a24865b-90d9-4e2b-a2fd-6851c2e9d627	Not disclosed on AA	
+DeepSeek-V2.5 (Dec)	DeepSeek	5	2024-12-10	12.51	0.19	False	https://artificialanalysis.ai/models/deepseek-v2-5	bc4579d2-9c46-46c3-ace0-454039bf21bb	Not disclosed on AA	
+DeepSeek V3 (Dec)	DeepSeek	6	2024-12-26	16.46	3.95	False	https://artificialanalysis.ai/models/deepseek-v3	43fc5506-c5ed-4dee-9b85-962bf7ae3986	Not disclosed on AA	
+DeepSeek R1 (Jan)	DeepSeek	7	2025-01-20	18.84	2.38	True	https://artificialanalysis.ai/models/deepseek-r1-0120	0e34f05c-387e-4968-be15-ccec4a55d8c1	Not disclosed on AA	
+DeepSeek V3 0324	DeepSeek	8	2025-03-25	22.28	3.44	False	https://artificialanalysis.ai/models/deepseek-v3-0324	75e1c197-f239-4361-a9d6-66dccfead236	Not disclosed on AA	
+DeepSeek R1 0528	DeepSeek	9	2025-05-28	27.07	4.79	True	https://artificialanalysis.ai/models/deepseek-r1	a83f84b3-473a-4276-9ae1-8909da723159	Not disclosed on AA	
+DeepSeek V3.1	DeepSeek	10	2025-08-21	28.13	1.06	False	https://artificialanalysis.ai/models/deepseek-v3-1	fb65266f-5a7d-403c-85d5-ccdf0d1ca838	Not disclosed on AA	
+DeepSeek V3.1 Terminus	DeepSeek	11	2025-09-22	33.93	5.80	True	https://artificialanalysis.ai/models/deepseek-v3-1-terminus-reasoning	0a7dda4d-cc9c-4a90-abc1-abb5772c901b	Not disclosed on AA	
+DeepSeek V3.2	DeepSeek	12	2025-12-01	41.71	7.78	True	https://artificialanalysis.ai/models/deepseek-v3-2-reasoning	d621247c-d47e-458c-82cb-a166bc3b37e5	Not disclosed on AA	
+DeepSeek V4 Pro (Max)	DeepSeek	13	2026-04-24	51.51	9.80	True	https://artificialanalysis.ai/models/deepseek-v4-pro	bf220674-68bd-43cc-a1b8-ce5ed4d2f18d	Not disclosed on AA	
+PALM-2	Google	1	2023-05-10	8.59		False	https://artificialanalysis.ai/models/palm-2	515852e7-ba9c-4571-8cf9-82ad6b45f22f	Not disclosed on AA	
+Gemini 1.0 Ultra	Google	2	2023-12-06	10.15	1.55	False	https://artificialanalysis.ai/models/gemini-1-0-ultra	2ae624ca-25b4-4cc8-8970-cdfdd3320691	Not disclosed on AA	
+Gemini 1.5 Flash (May)	Google	3	2024-05-14	10.46	0.31	False	https://artificialanalysis.ai/models/gemini-1-5-flash-may-2024	ac48c49d-9e77-4394-ac4e-d1ee51fd5fee	Nov 1, 2023	
+Gemini 1.5 Pro (May)	Google	4	2024-05-15	12.00	1.53	False	https://artificialanalysis.ai/models/gemini-1-5-pro-may-2024	16f2578b-1b28-4be3-b371-700c2677bcd6	Nov 1, 2023	
+Gemini 1.5 Pro (Sep)	Google	5	2024-09-24	15.99	4.00	False	https://artificialanalysis.ai/models/gemini-1-5-pro	2ac96b67-f4f8-4c8c-ac08-c7510faa7bb9	Aug 1, 2024	
+Gemini 2.0 Flash (exp)	Google	6	2024-12-11	16.77	0.78	False	https://artificialanalysis.ai/models/gemini-2-0-flash-experimental	fddb72bd-60d3-41af-acc5-3df9a290eb8e	Aug 1, 2024	
+Gemini 2.0 Flash Thinking exp. (Jan)	Google	7	2025-01-21	19.60	2.83	True	https://artificialanalysis.ai/models/gemini-2-0-flash-thinking-exp-0121	0399e614-5d46-484f-9183-e4f32d74e1c6	Aug 1, 2024	
+Gemini 2.5 Pro (Mar)	Google	8	2025-03-25	30.30	10.69	True	https://artificialanalysis.ai/models/gemini-2-5-pro-03-25	62de31e8-a1a3-429c-b634-a2afccfd9363	Jan 1, 2025	
+Gemini 2.5 Pro	Google	9	2025-06-05	34.63	4.33	True	https://artificialanalysis.ai/models/gemini-2-5-pro	27202e5f-c82d-4710-92e9-4317877d4883	Jan 1, 2025	
+Gemini 3 Pro Preview (high)	Google	10	2025-11-18	48.39	13.76	True	https://artificialanalysis.ai/models/gemini-3-pro	d1122eff-ee85-4fdc-8a9f-23bee6590667	Not disclosed on AA	high 后缀表示 Gemini 系列推理增强版本，通过扩展 RL 训练提升复杂推理能力。
+Gemini 3.1 Pro Preview	Google	11	2026-02-19	57.18	8.79	True	https://artificialanalysis.ai/models/gemini-3-1-pro-preview	bbd93ebe-80da-4594-bb19-61e69d0331df	Not disclosed on AA	
+Kimi K2	Kimi	1	2025-07-11	26.32		False	https://artificialanalysis.ai/models/kimi-k2	441734a9-8901-4850-9bae-b474c370291f	Not disclosed on AA	
+Kimi K2 0905	Kimi	2	2025-09-05	30.85	4.53	False	https://artificialanalysis.ai/models/kimi-k2-0905	66445f84-b2e3-4202-afdc-92ba0f0e5f36	Not disclosed on AA	
+Kimi K2 Thinking	Kimi	3	2025-11-06	40.89	10.04	True	https://artificialanalysis.ai/models/kimi-k2-thinking	bddebfd3-0a8d-47f5-b722-bc4c2ca5a5dc	Not disclosed on AA	
+Kimi K2.5	Kimi	4	2026-01-27	46.81	5.92	True	https://artificialanalysis.ai/models/kimi-k2-5	a550ffca-f89e-4381-ade6-a85dc6a1fb4c	Not disclosed on AA	
+Kimi K2.6	Kimi	5	2026-04-20	53.90	7.09	True	https://artificialanalysis.ai/models/kimi-k2-6	0de67206-4d36-4d10-b8f6-cf37fa747a03	Not disclosed on AA	
+K2-V2 (high)	MBZUAI Institute of Foundation Models	1	2025-12-05	20.61		True	https://artificialanalysis.ai/models/k2-v2	a38d719a-709c-4983-b3e7-7090389ae9a6	Not disclosed on AA	
+K2 Think V2	MBZUAI Institute of Foundation Models	2	2025-12-15	24.12	3.51	True	https://artificialanalysis.ai/models/k2-think-v2	5a49ef80-3af5-404b-8ac0-e1b230ae95de	Not disclosed on AA	
+Llama 65B	Meta	1	2023-02-24	7.41		False	https://artificialanalysis.ai/models/llama-65b	fe11ab6c-a4dd-4c28-9fef-07da76d5ed14	Not disclosed on AA	
+Llama 2 Chat 7B	Meta	2	2023-07-18	9.74	2.32	False	https://artificialanalysis.ai/models/llama-2-chat-7b	ffd65ef7-fbdb-4145-98ae-b5d01cda770b	Not disclosed on AA	
+Llama 3.1 405B	Meta	3	2024-07-23	17.38	7.64	False	https://artificialanalysis.ai/models/llama-3-1-instruct-405b	45c87531-2d57-48e0-8012-202cd636189e	Not disclosed on AA	
+Llama 4 Maverick	Meta	4	2025-04-05	18.36	0.98	False	https://artificialanalysis.ai/models/llama-4-maverick	922c69c7-9037-43c6-8bcf-a1c555e7f3eb	Not disclosed on AA	
+Muse Spark	Meta	5	2026-04-08	52.15	33.79	True	https://artificialanalysis.ai/models/muse-spark	ebf3b39f-0be6-43a1-a37a-f9b2978c9916	Not disclosed on AA	
+MiniMax M1 80k	MiniMax	1	2025-06-17	24.43		True	https://artificialanalysis.ai/models/minimax-m1-80k	9ca246a7-cf13-42c9-9182-5b5ad6b79026	Not disclosed on AA	
+MiniMax-M2	MiniMax	2	2025-10-26	36.09	11.66	True	https://artificialanalysis.ai/models/minimax-m2	f74ea286-cd29-4eb4-af14-1389b19c21e5	Not disclosed on AA	
+MiniMax-M2.1	MiniMax	3	2025-12-23	39.42	3.33	True	https://artificialanalysis.ai/models/minimax-m2-1	272ff333-442f-4169-a804-ac9177bc99d7	Not disclosed on AA	
+MiniMax-M2.5	MiniMax	4	2026-02-12	41.93	2.51	True	https://artificialanalysis.ai/models/minimax-m2-5	12adec16-19fe-4d92-aeff-5ef3eb7e780a	Not disclosed on AA	
+MiniMax-M2.7	MiniMax	5	2026-03-18	49.62	7.69	True	https://artificialanalysis.ai/models/minimax-m2-7	4bbceacb-cf47-464b-b60f-e1d1fe016d67	Not disclosed on AA	
+GPT-3.5 Turbo	OpenAI	1	2022-11-30	8.99		False	https://artificialanalysis.ai/models/gpt-35-turbo	037dec2f-51e8-4127-a1f1-85155dae7a1d	Sep 1, 2021	
+GPT-4	OpenAI	2	2023-03-14	12.75	3.76	False	https://artificialanalysis.ai/models/gpt-4	6a7c0e25-1dcb-4b15-8495-a8536a9da051	Sep 1, 2021	
+GPT-4 Turbo	OpenAI	3	2023-11-06	13.72	0.96	False	https://artificialanalysis.ai/models/gpt-4-turbo	76aa6af5-fdc6-4739-a300-983f14e74a67	Dec 1, 2023	
+GPT-4o (May)	OpenAI	4	2024-05-13	14.50	0.78	False	https://artificialanalysis.ai/models/gpt-4o-2024-05-13	e98e911e-9fb2-4a9a-826e-3d681d0cdca8	Oct 1, 2023	
+GPT-4o (Aug)	OpenAI	5	2024-08-06	18.64	4.14	False	https://artificialanalysis.ai/models/gpt-4o-2024-08-06	8c1be908-67b6-4cf4-ba08-83ddbe44fde3	Oct 1, 2023	
+o1-preview	OpenAI	6	2024-09-12	23.74	5.10	True	https://artificialanalysis.ai/models/o1-preview	078f4dc8-5350-40a2-a5ea-e8359f795b70	Oct 1, 2023	
+o1	OpenAI	7	2024-12-05	30.75	7.01	True	https://artificialanalysis.ai/models/o1	5ad2f60f-ee05-49fd-85a0-cef69aa7cb7b	Oct 1, 2023	
+o3	OpenAI	8	2025-04-16	38.37	7.62	True	https://artificialanalysis.ai/models/o3	16c5b637-8bce-4252-81f2-1b87a36a4e4c	May 31, 2024	
+o3-pro	OpenAI	9	2025-06-10	40.69	2.32	True	https://artificialanalysis.ai/models/o3-pro	ca04852c-eaae-4881-a208-f9b2ca3b7cd6	Jun 1, 2024	
+GPT-5 (high)	OpenAI	10	2025-08-07	44.63	3.94	True	https://artificialanalysis.ai/models/gpt-5	48e50f00-1fd1-4acc-b337-61078aa341e6	Sep 30, 2024	high 后缀表示 OpenAI 推理增强版本。通过强化学习提升推理能力，智力评分 45。
+GPT-5 Codex (high)	OpenAI	11	2025-09-23	44.63	0.01	True	https://artificialanalysis.ai/models/gpt-5-codex	5d11e7a1-4f70-4e5a-9364-e193761d6757		2026-05-22 按视觉Step规则增量更新：同日最高分 + 厂商历史新高。
+GPT-5.1 (high)	OpenAI	12	2025-11-13	47.70	3.07	True	https://artificialanalysis.ai/models/gpt-5-1	4dc12a38-b18f-4c43-8e1b-678f8434b5b1	Sep 30, 2024	high 后缀表示推理增强版本。相比 GPT-5 在速度和效率上优化，智力评分 48。
+GPT-5.2 (xhigh)	OpenAI	13	2025-12-11	51.28	3.58	True	https://artificialanalysis.ai/models/gpt-5-2	498862c3-f9ac-49d2-852f-16a02bb0c38f	Aug 31, 2025	xhigh 后缀表示 OpenAI 极致推理增强版本（Extreme High），通过大规模强化学习（RL）和测试时计算扩展显著提升推理能力。智力评分 51。
+GPT-5.3 Codex (xhigh)	OpenAI	14	2026-02-05	53.56	2.28	True	https://artificialanalysis.ai/models/gpt-5-3-codex	59b5b14b-5365-4ee7-824a-18a8e6309644	Aug 31, 2025	xhigh 后缀表示极致推理增强版本。Codex 变体侧重代码生成能力专项优化。智力评分 54。
+GPT-5.4 (xhigh)	OpenAI	15	2026-03-05	56.80	3.24	True	https://artificialanalysis.ai/models/gpt-5-4	a89c4b28-2d8c-456e-88ea-255fb51fd2b6	Aug 31, 2025	xhigh 后缀表示极致推理增强版本。采用更高效推理架构和扩展 RL 训练，智力评分 57，上下文窗口扩展至 1M tokens。
+GPT-5.5 (xhigh)	OpenAI	16	2026-04-23	60.24	3.44	True	https://artificialanalysis.ai/models/gpt-5-5	1f054429-397e-4fdb-9e71-67bc92c1735e	Not disclosed on AA	xhigh 后缀表示 OpenAI 当前旗舰极致推理增强版本。通过大幅扩展的强化学习训练和测试时推理优化实现 AA 排行榜第一（智力评分 60）。上下文窗口 922k tokens，2026年4月发布。
+Solar Mini	Upstage	1	2024-01-25	11.90		False	https://artificialanalysis.ai/models/solar-mini	d97713f2-afa6-4f8d-b2f3-ac89a24c4d6c	Not disclosed on AA	
+Solar Pro 2	Upstage	2	2025-05-20	18.81	6.91	True	https://artificialanalysis.ai/models/solar-pro-2-preview-reasoning	8e78cf7a-5b76-4beb-beba-b99c6233b208	Not disclosed on AA	
+Solar Open 100B	Upstage	3	2025-12-17	21.67	2.86	True	https://artificialanalysis.ai/models/solar-open-100b-reasoning	59a1bb20-9170-4dc2-ba9c-12d326cf068e	Not disclosed on AA	
+Solar Pro 3	Upstage	4	2026-04-06	25.87	4.20	True	https://artificialanalysis.ai/models/solar-pro-3	b89c4faf-219e-4171-a1aa-e3bd2fd0a924	Not disclosed on AA	
+MiMo-V2-Flash (Feb 2026)	Xiaomi	1	2025-12-16	41.46		True	https://artificialanalysis.ai/models/mimo-v2-0206	1479f50b-d37f-4b55-bb8b-4212a15042eb	Not disclosed on AA	
+MiMo-V2-Pro	Xiaomi	2	2026-03-18	49.20	7.74	True	https://artificialanalysis.ai/models/mimo-v2-pro	5d8183dc-24f4-46c5-a1d0-d937de149364	Not disclosed on AA	
+MiMo-V2.5-Pro	Xiaomi	3	2026-04-22	53.83	4.63	True	https://artificialanalysis.ai/models/mimo-v2-5-pro	00f1248e-78e3-4230-8dc8-5e13ba8645e2	Not disclosed on AA	
+GLM-4.5	Z AI	1	2025-07-28	26.42		True	https://artificialanalysis.ai/models/glm-4.5	1cf439b8-0cfd-47b2-9de2-9a2157e6762b	Not disclosed on AA	
+GLM-4.6	Z AI	2	2025-09-30	32.51	6.09	True	https://artificialanalysis.ai/models/glm-4-6-reasoning	6a5d56e1-bb68-4205-8d9b-26b97888bc84	Not disclosed on AA	
+GLM-4.7	Z AI	3	2025-12-22	42.11	9.60	True	https://artificialanalysis.ai/models/glm-4-7	6fc35842-0165-44cf-8570-c484a92b3d8c	Not disclosed on AA	
+GLM-5	Z AI	4	2026-02-11	49.77	7.66	True	https://artificialanalysis.ai/models/glm-5	40663ad2-b218-471e-bdd4-a1e0c2360e2b	Not disclosed on AA	
+GLM-5.1	Z AI	5	2026-04-07	51.41	1.64	True	https://artificialanalysis.ai/models/glm-5-1	5aa1c578-af76-4b91-8699-cdd43582b3af	Not disclosed on AA	
+Grok-1	xAI	1	2024-03-17	11.69		False	https://artificialanalysis.ai/models/grok-1	4c111fbc-d13a-42b4-858c-1dc17fe3c1d1	Not disclosed on AA	
+Grok Beta	xAI	2	2024-08-13	13.28	1.59	False	https://artificialanalysis.ai/models/grok-beta	a04f5b78-f397-4fd8-a2b1-00dcab50324c	Not disclosed on AA	
+Grok 2	xAI	3	2024-12-12	13.89	0.60	False	https://artificialanalysis.ai/models/grok-2-1212	291a510a-dcc0-40df-8a80-b3aa31900a6c	Not disclosed on AA	
+Grok 3 mini Reasoning (high)	xAI	4	2025-02-19	32.08	18.19	True	https://artificialanalysis.ai/models/grok-3-mini-reasoning	ff9bc5e5-a02f-4270-983e-4b3f834f3363	Not disclosed on AA	high 后缀表示 Grok 系列推理增强版本，通过 RL 优化推理能力。智力评分 32.08。
+Grok 4	xAI	5	2025-07-10	41.52	9.44	True	https://artificialanalysis.ai/models/grok-4	5ea94a4a-55ac-4ea1-8898-2b3971e94af6	Not disclosed on AA	
+Grok 4.20 0309	xAI	6	2026-03-10	48.48	6.96	True	https://artificialanalysis.ai/models/grok-4-20-0309	04787c2b-0751-4269-8029-075b727d7aed	Not disclosed on AA	
+Grok 4.20 0309 v2	xAI	7	2026-04-07	49.33	0.85	True	https://artificialanalysis.ai/models/grok-4-20	c72cb85a-18a4-4235-b455-77dff2f16c50	Not disclosed on AA	
+Grok 4.3 (high)	xAI	8	2026-04-30	53.20	3.87	True	https://artificialanalysis.ai/models/grok-4-3	948892b5-db03-4118-a4a8-ccd51ed871ea	Not disclosed on AA	2026-05-22 按当前 Artificial Analysis 名称校准为 Grok 4.3 (high)。
+Step 3.7 Flash	StepFun	1	2026-05-29			True	https://static.stepfun.com/blog/step-3.7-flash/	stepfun-step-3.7-flash-official	官方未披露	新增厂商 StepFun/阶跃星辰；截至追加时 Artificial Analysis / OpenRouter 页面显示 Step 3.7 Flash 暂无 intelligence/coding/agentic 数据，先以官方发布页记录，后续定时任务发现 AA 数据后补评分与拐点。官方规格：198B MoE，约11B active，256K context，最高400 TPS。

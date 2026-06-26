@@ -1,0 +1,26 @@
+---
+const { metrics, coverageRate = "0%" } = Astro.props;
+---
+
+<section class="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+  <div class="panel p-4">
+    <p class="text-sm text-slate-400">总模型数</p>
+    <p class="mt-2 font-mono text-2xl text-slate-50">{metrics.models}</p>
+  </div>
+  <div class="panel p-4">
+    <p class="text-sm text-slate-400">有 A 类案例模型</p>
+    <p class="mt-2 font-mono text-2xl text-emerald-200">{metrics.modelsWithCases}</p>
+  </div>
+  <div class="panel p-4">
+    <p class="text-sm text-slate-400">暂无 A 类案例模型</p>
+    <p class="mt-2 font-mono text-2xl text-amber-100">{metrics.modelsWithoutCases}</p>
+  </div>
+  <div class="panel p-4">
+    <p class="text-sm text-slate-400">A 类案例总数</p>
+    <p class="mt-2 font-mono text-2xl text-cyan-100">{metrics.verifiedACases}</p>
+  </div>
+  <div class="panel p-4">
+    <p class="text-sm text-slate-400">当前覆盖率</p>
+    <p class="mt-2 font-mono text-2xl text-slate-50">{coverageRate}</p>
+  </div>
+</section>

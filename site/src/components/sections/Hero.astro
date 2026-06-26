@@ -1,0 +1,32 @@
+---
+import VendorMap from "../data/VendorMap.astro";
+import CoverageSummary from "../data/CoverageSummary.astro";
+import TrustBoundary from "../data/TrustBoundary.astro";
+import EntryLinks from "../data/EntryLinks.astro";
+
+const { models } = Astro.props;
+---
+
+<section class="page-grid">
+  <div class="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div>
+      <p class="mono text-sm font-semibold uppercase tracking-[0.18em] text-cyan-200">Atlas Command Center</p>
+      <h1 class="mt-3 max-w-4xl text-4xl font-semibold leading-tight text-slate-50 md:text-6xl">
+        高可信中文 AI 模型情报站
+      </h1>
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-slate-400">
+        Frontier Models Atlas 用来追踪厂商、模型、证据等级和公开可核验案例。它不是排行榜复刻，也不会把 benchmark、教程或发布说明包装成真实案例。
+      </p>
+    </div>
+    <TrustBoundary title="先看可信边界" tone="cyan" />
+  </div>
+
+  <CoverageSummary />
+
+  <div>
+    <p class="mb-3 mono text-xs uppercase tracking-[0.14em] text-slate-300">从这里进入</p>
+    <EntryLinks />
+  </div>
+
+  <VendorMap models={models} />
+</section>

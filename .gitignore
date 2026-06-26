@@ -1,0 +1,31 @@
+.DS_Store
+
+# Dependencies
+node_modules/
+site/node_modules/
+
+# Build output and framework caches
+dist/
+site/dist/
+.astro/
+site/.astro/
+.vercel/
+site/.vercel/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+site/.env
+site/.env.*
+!site/.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+.cache/
+tmp/
+
+# Local QA artifacts
+site/output/
+site/visual-qa/screenshots*/

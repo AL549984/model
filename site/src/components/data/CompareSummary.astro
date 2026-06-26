@@ -1,0 +1,22 @@
+---
+const { metrics, missingPrice = 0, missingContext = 0, missingOfficial = 0, codingCandidateCount = 0 } = Astro.props;
+
+const cards = [
+  { label: "可发布模型", value: metrics.publishableModels, note: "证据和案例足够进入模型页" },
+  { label: "A 类案例模型", value: metrics.modelsWithCases, note: "真实案例优先看这里" },
+  { label: "Coding Agent 候选", value: codingCandidateCount, note: "由现有推理/agent 字段派生" },
+  { label: "缺价格字段", value: missingPrice, note: "不得用猜测补价格" },
+  { label: "缺上下文字段", value: missingContext, note: "上下文未披露不等于不支持" },
+  { label: "缺官方链接", value: missingOfficial, note: "AA 链接不等于官方来源" }
+];
+---
+
+<section class="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
+  {cards.map((card) => (
+    <div class="panel p-4">
+      <p class="text-sm text-slate-400">{card.label}</p>
+      <p class="mt-2 font-mono text-2xl text-slate-50">{card.value}</p>
+      <p class="mt-2 text-xs leading-relaxed text-slate-500">{card.note}</p>
+    </div>
+  ))}
+</section>

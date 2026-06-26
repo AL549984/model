@@ -1,0 +1,49 @@
+---
+import PublishabilityBadge from "./PublishabilityBadge.astro";
+
+const { models: rawModels = [] } = Astro.props;
+const models = rawModels as Record<string, any>[];
+
+const nodes = models.map((model) => {
+  const tone = model.publishability === "Publishable" ? "emerald" : model.publishability === "Limited" ? "amber" : "rose";
+  return { model, tone };
+});
+---
+
+<section class="panel p-5">
+  <div class="flex flex-wrap items-center justify-between gap-3">
+    <div>
+      <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">模型雷达切片</p>
+      <div class="mt-2 flex flex-wrap gap-3 text-xs text-slate-400">
+        <span><span class="mr-1 inline-block h-2 w-2 rounded-full bg-emerald-300"></span>可发布</span>
+        <span><span class="mr-1 inline-block h-2 w-2 rounded-full bg-amber-300"></span>有限证据</span>
+        <span><span class="mr-1 inline-block h-2 w-2 rounded-full bg-rose-300"></span>归档 / 暂停</span>
+      </div>
+    </div>
+    <a href="/models" class="rounded-md border border-slate-700/70 px-3 py-2 text-xs text-cyan-100 hover:border-cyan-300/40">查看筛选</a>
+  </div>
+
+  <div class="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+    {nodes.map(({ model, tone }) => (
+      <a href={`/models/${model.slug}`} class={`relative rounded-lg border bg-slate-950/60 p-3 transition hover:-translate-y-0.5 hover:bg-slate-900/70 ${tone === "emerald" ? "border-emerald-300/45" : tone === "amber" ? "border-amber-300/45" : "border-rose-300/45"}`}>
+        <div class={`absolute right-3 top-3 h-2.5 w-2.5 rounded-full ${tone === "emerald" ? "bg-emerald-300" : tone === "amber" ? "bg-amber-300" : "bg-rose-300"}`}></div>
+        <p class="font-semibold text-slate-50">{model.name}</p>
+        <p class="mt-1 text-xs text-slate-400">{model.vendor}</p>
+        <div class="mt-3 flex flex-wrap items-center gap-2">
+          <PublishabilityBadge status={model.publishability} />
+          <span class="rounded-md border border-slate-700/70 px-2 py-1 text-xs text-slate-300">A 类：{model.aCaseCount}</span>
+          {typeof model.score === "number" && <span class="rounded-md border border-slate-700/70 px-2 py-1 text-xs text-slate-300">评分：{model.score}</span>}
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <div class="mt-5 rounded-lg border border-slate-700/70 bg-slate-950/50 p-3">
+    <p class="mono text-xs text-slate-300">证据分布</p>
+    <div class="mt-2 space-y-1 text-xs text-slate-400">
+      <div>A <span class="ml-2 inline-block h-1.5 w-24 rounded bg-emerald-300"></span> 8</div>
+      <div>B <span class="ml-2 inline-block h-1.5 w-8 rounded bg-sky-300"></span> 0</div>
+      <div>C <span class="ml-2 inline-block h-1.5 w-12 rounded bg-slate-400"></span> 仅背景资料</div>
+    </div>
+  </div>
+</section>

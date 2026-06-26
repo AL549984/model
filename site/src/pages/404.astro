@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../components/layout/BaseLayout.astro";
+import SectionHeader from "../components/sections/SectionHeader.astro";
+import TrustBoundary from "../components/data/TrustBoundary.astro";
+---
+
+<BaseLayout title="页面未找到 · Frontier Models Atlas">
+  <section class="glass rounded-lg p-5">
+    <SectionHeader eyebrow="404" title="这个页面暂时不在 Atlas 里" description="可能是链接拼写错误、模型尚未接入，或页面仍在等待证据补齐。" />
+    <div class="mt-5">
+      <TrustBoundary title="处理建议" tone="amber" notes={["如果你在找模型，请先回到模型索引搜索模型名或厂商名。", "如果你在找案例，请进入案例库；没有 A 类案例不会被伪装成案例。", "如果这是外部链接失效，请把它记录为链接健康 P2 问题，先人工复核再改源数据。"]} />
+    </div>
+    <div class="mt-5 flex flex-wrap gap-2 text-sm">
+      <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-cyan-100" href="/">回到指挥中心</a>
+      <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-cyan-100" href="/models">搜索模型</a>
+      <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-cyan-100" href="/cases">查看案例库</a>
+      <a class="rounded-md border border-cyan-300/30 px-3 py-2 text-cyan-100" href="/compare">进入对比页</a>
+    </div>
+  </section>
+</BaseLayout>

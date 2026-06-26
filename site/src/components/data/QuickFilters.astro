@@ -1,0 +1,31 @@
+---
+const { modelsWithCases = 0, publishableModels = 0, limitedModels = 0, codingCandidateCount = 0 } = Astro.props;
+
+const filters = [
+  { id: "all", label: "全部模型", detail: "恢复完整索引", count: null },
+  { id: "with-cases", label: "有 A 类案例", detail: "公开可核验案例", count: modelsWithCases },
+  { id: "publishable", label: "可发布", detail: "证据达到网站发布线", count: publishableModels },
+  { id: "limited", label: "有限证据", detail: "可浏览但需补证", count: limitedModels },
+  { id: "coding", label: "Coding Agent 候选", detail: "由现有推理/agent 字段派生", count: codingCandidateCount }
+];
+---
+
+<div class="grid gap-2 md:grid-cols-2 xl:grid-cols-5" role="group" aria-label="模型快捷筛选">
+  {filters.map((filter) => (
+    <button
+      type="button"
+      class:list={[
+        "quick-filter rounded-lg border border-slate-700/70 bg-slate-950/45 p-3 text-left transition hover:border-cyan-300/45 hover:bg-slate-900/70",
+        filter.id === "all" && "quick-filter-active"
+      ]}
+      data-quick-filter={filter.id}
+      aria-pressed={filter.id === "all" ? "true" : "false"}
+    >
+      <span class="flex items-center justify-between gap-3">
+        <span class="text-sm font-semibold text-slate-100">{filter.label}</span>
+        {filter.count !== null && <span class="font-mono text-xs text-cyan-100">{filter.count}</span>}
+      </span>
+      <span class="mt-1 block text-xs text-slate-400">{filter.detail}</span>
+    </button>
+  ))}
+</div>

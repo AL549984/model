@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../../components/layout/BaseLayout.astro";
+import SectionHeader from "../../components/sections/SectionHeader.astro";
+import CaseCard from "../../components/cards/CaseCard.astro";
+import TrustBoundary from "../../components/data/TrustBoundary.astro";
+import CaseQualityLegend from "../../components/data/CaseQualityLegend.astro";
+import CaseCoveragePanel from "../../components/data/CaseCoveragePanel.astro";
+import cases from "../../data/cases.json";
+import models from "../../data/models.json";
+import metrics from "../../data/metrics.json";
+
+const aCases = cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible);
+const noACaseModels = models.filter((model) => model.aCaseCount === 0);
+const coverageRate = `${Math.round((metrics.modelsWithCases / metrics.models) * 1000) / 10}%`;
+const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model) => model.name).slice(0, 6).join("、");
+---
+
+<BaseLayout title="案例 · Frontier Models Atlas">
+  <SectionHeader eyebrow="证据库" title="只展示可核验公开模型使用案例" description={`当前收录 ${metrics.verifiedACases} 条 A 类案例，全部绑定到具体模型。案例库用于证明公开使用证据，不用集合页或 benchmark 补位。`} />
+
+  <div class="mb-5">
+    <TrustBoundary title="案例覆盖边界" tone="amber" notes={[`当前 ${metrics.modelsWithCases} 个模型有 A 类案例：${caseModelNames}。`, `${metrics.modelsWithoutCases} 个模型暂无 A 类案例；这不是能力否定，而是公开证据尚未达 A 类标准。`, "B/C/D、benchmark、tutorial、launch package 不进入真实案例精选。"]} />
+  </div>
+
+  <div class="mb-5">
+    <CaseCoveragePanel metrics={metrics} coverageRate={coverageRate} />
+  </div>
+
+  <div class="mb-5 rounded-lg border border-amber-300/25 bg-amber-300/10 p-4 text-sm leading-relaxed text-amber-50">
+    当前案例库已覆盖 {metrics.modelsWithCases} 个模型，仍有 {metrics.modelsWithoutCases} 个模型待补证。页面不会用 benchmark、tutorial、launch package 或集合页补位。
+  </div>
+
+  <div class="mb-5">
+    <CaseQualityLegend />
+  </div>
+
+  <div class="mb-5 flex flex-wrap gap-2 text-xs text-slate-300">
+    <span class="rounded-md border border-emerald-300/35 bg-emerald-300/10 px-3 py-2">默认：A 类案例</span>
+    <span class="rounded-md border border-slate-700/70 px-3 py-2">模型筛选</span>
+    <span class="rounded-md border border-slate-700/70 px-3 py-2">厂商筛选</span>
+    <span class="rounded-md border border-slate-700/70 px-3 py-2">来源平台筛选</span>
+  </div>
+
+  <section class="grid gap-3 lg:grid-cols-2">
+    {aCases.map((item) => <CaseCard item={item} />)}
+  </section>
+
+  <section class="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div class="panel mobile-scroll">
+      <table class="data-table min-w-[860px]">
+        <thead>
+          <tr>
+            <th>模型</th>
+            <th>案例状态</th>
+            <th>A 类数量</th>
+            <th>网站处理方式</th>
+          </tr>
+        </thead>
+        <tbody>
+          {models.map((model) => (
+            <tr>
+              <td><a href={`/models/${model.slug}`} class="font-semibold text-cyan-100">{model.name}</a></td>
+              <td>{model.caseStatus}</td>
+              <td class="font-mono">{model.aCaseCount}</td>
+              <td>{model.aCaseCount > 0 ? "可以精选 A 类案例" : "必须标注未找到可核验公开 A 类案例"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <aside class="panel p-4">
+      <p class="mono text-xs uppercase tracking-[0.14em] text-slate-300">证据规则</p>
+      <div class="mt-4 space-y-3 text-sm text-slate-300">
+        <p><span class="font-semibold text-emerald-100">A 类</span>：可进入首页和模型卡精选。</p>
+        <p><span class="font-semibold text-cyan-100">B 类</span>：仅作为候选，不精选。</p>
+        <p><span class="font-semibold text-amber-100">C 类</span>：背景文档、发布说明、benchmark、教程。</p>
+        <p><span class="font-semibold text-rose-100">D 类</span>：剔除或无法核验。</p>
+      </div>
+      <p class="mt-5 text-sm text-slate-400">暂无 A 类案例的模型数量：{noACaseModels.length}。模型详情页会逐一显示“暂无已验证 A 类案例”，并说明尚未找到符合 A 类标准的公开使用案例。</p>
+    </aside>
+  </section>
+</BaseLayout>
