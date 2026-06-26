@@ -8,17 +8,17 @@
 - Publishable models: 39
 - Limited models: 77
 - Archive models: 2
-- Verified A-grade cases: 226
-- Models without A-grade cases: 78
+- Verified A-grade cases: 227
+- Models without A-grade cases: 77
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 39
 - Models meeting full target line: 37
-- A-case deficit to minimum line: 236
-- A-case deficit to full target line: 396
+- A-case deficit to minimum line: 234
+- A-case deficit to full target line: 394
 - Backfill rows: 118
-- P0 rows: 24
-- P1 rows: 44
+- P0 rows: 25
+- P1 rows: 43
 - P2 rows: 48
 - P3 rows: 2
 
@@ -49,6 +49,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | ByteDance Seed | Seed2.1 Pro | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | Google / Gemini | Gemini 1.5 Pro (May) | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Gemini 1.5 Pro (May) Google / Gemini case study customer |
+| Kimi / Moonshot AI | Kimi K2 Thinking | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Kimi K2 Thinking Kimi / Moonshot AI case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.2 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.2 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
@@ -78,6 +79,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | ByteDance Seed | Seed2.1 Pro | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Turbo | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Google / Gemini | Gemini 1.5 Pro (May) | below_min_case_coverage | 1 | 3 | 已有 1 条 A 类案例，但低于 3 条公开达标线。 |
+| P0 | Kimi / Moonshot AI | Kimi K2 Thinking | below_min_case_coverage | 2 | 3 | 已有 2 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.2 (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
@@ -103,7 +105,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P1 | Google / Gemini | Gemini 2.0 Flash Thinking exp. (Jan) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Google / Gemini | Gemini 2.5 Pro (Mar) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Google / Gemini | PALM-2 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Kimi / Moonshot AI | Kimi K2 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Kimi / Moonshot AI | Kimi K2 0905 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | MiniMax | MiniMax M1 80k | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | MiniMax | MiniMax-M2 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
