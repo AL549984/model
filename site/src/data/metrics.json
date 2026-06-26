@@ -6,9 +6,9 @@
   "publishableModels": 15,
   "limitedModels": 101,
   "archiveModels": 2,
-  "verifiedACases": 76,
-  "modelsWithCases": 15,
-  "modelsWithoutCases": 103,
+  "verifiedACases": 88,
+  "modelsWithCases": 17,
+  "modelsWithoutCases": 101,
   "modelsWithSupplementalSources": 118,
   "modelsAAOnly": 0,
   "datasetCut": "2026-06-26",
@@ -18,7 +18,7 @@
   "minCasesPerModel": 3,
   "targetCasesPerModel": 5,
   "modelsMeetingMinCaseCoverage": 15,
-  "modelsMeetingTargetCaseCoverage": 10,
-  "caseDeficitToMin": 309,
-  "caseDeficitToTarget": 522
+  "modelsMeetingTargetCaseCoverage": 12,
+  "caseDeficitToMin": 306,
+  "caseDeficitToTarget": 515
 }

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-26T14:14:27.095Z",
+  "generatedAt": "2026-06-26T14:41:35.299Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 15,
-    "fullCoverageReady": 10,
-    "minDeficit": 309,
-    "targetDeficit": 522
+    "fullCoverageReady": 12,
+    "minDeficit": 306,
+    "targetDeficit": 515
   },
   "tasks": [
     {
@@ -5675,19 +5675,19 @@
       "vendorId": "deepseek",
       "vendor": "DeepSeek",
       "priority": "P0",
-      "status": "needs_a_case",
+      "status": "below_min_case_coverage",
       "publishability": "Limited",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://api-docs.deepseek.com/news/news251201",
@@ -8767,16 +8767,16 @@
       "modelName": "Llama 3.1 405B",
       "vendorId": "meta",
       "vendor": "Meta / Llama",
-      "priority": "P1",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 4,
+      "aCaseCount": 6,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 1,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
         "targetCandidateCount": 12,
@@ -11018,17 +11018,17 @@
       "priority": "P0",
       "status": "top_up_to_target",
       "publishability": "Publishable",
-      "aCaseCount": 3,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 2,
+      "targetDeficit": 1,
       "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 24,
-        "maxCandidatesPerRun": 36
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://platform.openai.com/docs/models",
@@ -12972,19 +12972,19 @@
       "vendorId": "xiaomi",
       "vendor": "Xiaomi / MiMo",
       "priority": "P0",
-      "status": "needs_a_case",
+      "status": "below_min_case_coverage",
       "publishability": "Limited",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://mimo.xiaomi.com/",
@@ -14372,20 +14372,20 @@
       "modelName": "Grok 4",
       "vendorId": "xai",
       "vendor": "xAI / Grok",
-      "priority": "P0",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 3,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 2,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 24,
-        "maxCandidatesPerRun": 36
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.x.ai/docs/models",

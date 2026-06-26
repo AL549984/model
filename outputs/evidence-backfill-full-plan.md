@@ -8,18 +8,18 @@
 - Publishable models: 15
 - Limited models: 101
 - Archive models: 2
-- Verified A-grade cases: 76
-- Models without A-grade cases: 103
+- Verified A-grade cases: 88
+- Models without A-grade cases: 101
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 15
-- Models meeting full target line: 10
-- A-case deficit to minimum line: 309
-- A-case deficit to full target line: 522
+- Models meeting full target line: 12
+- A-case deficit to minimum line: 306
+- A-case deficit to full target line: 515
 - Backfill rows: 118
-- P0 rows: 39
-- P1 rows: 56
-- P2 rows: 21
+- P0 rows: 38
+- P1 rows: 55
+- P2 rows: 23
 - P3 rows: 2
 
 ## Operating Rule
@@ -48,7 +48,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude Opus 4.7 (max) Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Pro | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
-| DeepSeek | DeepSeek V3.2 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | DeepSeek V3.2 DeepSeek case study customer |
+| DeepSeek | DeepSeek V3.2 | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | DeepSeek V3.2 DeepSeek case study customer |
 | DeepSeek | DeepSeek V4 Pro (Max) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | DeepSeek V4 Pro (Max) DeepSeek case study customer |
 | Google / Gemini | Gemini 3.1 Pro Preview | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Gemini 3.1 Pro Preview Google / Gemini case study customer |
 | Kimi / Moonshot AI | Kimi K2 Thinking | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Kimi K2 Thinking Kimi / Moonshot AI case study customer |
@@ -64,17 +64,16 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.4 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.4 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.5 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.5 (xhigh) OpenAI case study customer |
-| OpenAI | o3-pro | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | o3-pro OpenAI case study customer |
+| OpenAI | o3-pro | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | o3-pro OpenAI case study customer |
 | Qwen / Alibaba | Qwen3.5 397B A17B | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.5 397B A17B Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.6 Plus | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Plus Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.7 Max | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.7 Max Qwen / Alibaba case study customer |
-| xAI / Grok | Grok 4 | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Grok 4 xAI / Grok case study customer |
 | xAI / Grok | Grok 4.20 0309 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.20 0309 xAI / Grok case study customer |
 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
 | xAI / Grok | Grok 4.3 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.3 (high) xAI / Grok case study customer |
 | Xiaomi / MiMo | MiMo-V2-Flash (Feb 2026) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | MiMo-V2-Flash (Feb 2026) Xiaomi / MiMo case study customer |
-| Xiaomi / MiMo | MiMo-V2.5-Pro | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | MiMo-V2.5-Pro Xiaomi / MiMo case study customer |
+| Xiaomi / MiMo | MiMo-V2.5-Pro | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | MiMo-V2.5-Pro Xiaomi / MiMo case study customer |
 | Z AI / GLM | GLM-4.7 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | GLM-4.7 Z AI / GLM case study customer |
 | Z AI / GLM | GLM-5 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GLM-5 Z AI / GLM case study customer |
 | Z AI / GLM | GLM-5.1 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GLM-5.1 Z AI / GLM case study customer |
@@ -92,7 +91,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Pro | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Turbo | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | DeepSeek | DeepSeek V3.2 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
+| P0 | DeepSeek | DeepSeek V3.2 | below_min_case_coverage | 1 | 3 | 已有 1 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | DeepSeek | DeepSeek V4 Pro (Max) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P0 | Kimi / Moonshot AI | Kimi K2 Thinking | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P0 | Kimi / Moonshot AI | Kimi K2.5 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
@@ -114,7 +113,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | xAI / Grok | Grok 4.20 0309 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.3 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Xiaomi / MiMo | MiMo-V2.5-Pro | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
+| P0 | Xiaomi / MiMo | MiMo-V2.5-Pro | below_min_case_coverage | 2 | 2 | 已有 2 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | Z AI / GLM | GLM-4.7 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P0 | Z AI / GLM | GLM-5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
