@@ -47,7 +47,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -110,7 +111,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -173,7 +175,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -237,7 +240,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -301,7 +305,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -365,7 +370,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -428,7 +434,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -492,7 +499,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -556,7 +564,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -620,7 +629,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -684,7 +694,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -747,7 +758,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -810,7 +822,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -873,7 +886,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -936,7 +950,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -999,7 +1014,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1062,7 +1078,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1125,7 +1142,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1186,7 +1204,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1248,7 +1267,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1269,7 +1289,7 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Publishable",
-    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 3 Opus 的完整模型表记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -1306,11 +1326,12 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 2,
+    "aCaseCount": 6,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -1371,7 +1392,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1392,7 +1414,7 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Publishable",
-    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 3.7 Sonnet 的完整模型表记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -1433,7 +1455,7 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -1494,7 +1516,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1556,7 +1579,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1617,7 +1641,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1678,7 +1703,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1739,7 +1765,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1800,7 +1827,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1861,7 +1889,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1923,7 +1952,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -1985,7 +2015,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2047,7 +2078,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2109,7 +2141,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2171,7 +2204,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2233,7 +2267,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2295,7 +2330,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2357,7 +2393,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2419,7 +2456,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2481,7 +2519,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2543,7 +2582,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2605,7 +2645,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2666,7 +2707,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2728,7 +2770,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2790,7 +2833,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2852,7 +2896,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2914,7 +2959,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -2975,7 +3021,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3037,7 +3084,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3098,7 +3146,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3119,7 +3168,7 @@
     "vendorId": "google",
     "vendor": "Google / Gemini",
     "publishability": "Publishable",
-    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 2.5 Pro 的完整模型表记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -3156,11 +3205,12 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 1,
+    "aCaseCount": 6,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -3220,7 +3270,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3281,7 +3332,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3342,7 +3394,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3404,7 +3457,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3466,7 +3520,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3528,7 +3583,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3590,7 +3646,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3652,7 +3709,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3713,7 +3771,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3774,7 +3833,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3836,7 +3896,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -3855,8 +3916,8 @@
     "slug": "llama-3-1-405b",
     "vendorId": "meta",
     "vendor": "Meta / Llama",
-    "publishability": "Publishable",
-    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例",
+    "publishability": "Limited",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Llama 3.1 405B 的完整模型表记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -3897,7 +3958,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -3958,7 +4020,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4019,7 +4082,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4081,7 +4145,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4142,7 +4207,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4203,7 +4269,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4264,7 +4331,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4325,7 +4393,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4386,7 +4455,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4406,7 +4476,7 @@
     "vendorId": "openai",
     "vendor": "OpenAI",
     "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-4 的完整模型表记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -4447,7 +4517,7 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -4508,7 +4578,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4528,8 +4599,8 @@
     "slug": "gpt-4o-may",
     "vendorId": "openai",
     "vendor": "OpenAI",
-    "publishability": "Publishable",
-    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例",
+    "publishability": "Limited",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-4o (May) 的完整模型表记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -4570,7 +4641,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -4631,7 +4703,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4692,7 +4765,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4754,7 +4828,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4816,7 +4891,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4878,7 +4954,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -4939,7 +5016,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5000,7 +5078,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5061,7 +5140,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5122,7 +5202,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5183,7 +5264,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5244,7 +5326,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5305,7 +5388,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5366,7 +5450,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 1,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5426,7 +5511,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 1,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5486,7 +5572,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 1,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5546,7 +5633,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 1,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5606,7 +5694,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5667,7 +5756,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5728,7 +5818,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5789,7 +5880,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5850,7 +5942,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5911,7 +6004,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -5972,7 +6066,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6033,7 +6128,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6094,7 +6190,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6156,7 +6253,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6217,7 +6315,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6278,7 +6377,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6339,7 +6439,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6400,7 +6501,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6461,7 +6563,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6522,7 +6625,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "Artificial Analysis 评分仅作参考",
       "不能作为唯一事实来源。",
@@ -6583,7 +6687,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -6600,8 +6705,8 @@
     "slug": "claude-3-haiku",
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
-    "publishability": "Publishable",
-    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例",
+    "publishability": "Limited",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
     "headline": "Claude 3 Haiku 的厂商页补充记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -6638,11 +6743,12 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 1,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
     ],
@@ -6660,7 +6766,7 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Publishable",
-    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
     "headline": "Claude 3.5 Sonnet 的厂商页补充记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -6697,11 +6803,12 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 2,
+    "aCaseCount": 6,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
     ],
@@ -6719,7 +6826,7 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Publishable",
-    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
     "headline": "Claude Fable 5 的厂商页补充记录。",
     "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
@@ -6760,7 +6867,7 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已有自动 gate 通过的 A 类案例；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
     ],
@@ -6819,7 +6926,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -6879,7 +6987,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -6939,7 +7048,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -6999,7 +7109,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -7059,7 +7170,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -7119,7 +7231,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -7179,7 +7292,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
@@ -7238,7 +7352,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；保持有限证据状态。",
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"

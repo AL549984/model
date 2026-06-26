@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 9
-- Limited models: 107
+- Publishable models: 6
+- Limited models: 110
 - Archive models: 2
-- Verified A-grade cases: 25
+- Verified A-grade cases: 39
 - Models without A-grade cases: 109
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 3
-- Models meeting full target line: 2
-- A-case deficit to minimum line: 337
-- A-case deficit to full target line: 568
+- Models meeting minimum line: 6
+- Models meeting full target line: 5
+- A-case deficit to minimum line: 332
+- A-case deficit to full target line: 557
 - Backfill rows: 118
-- P0 rows: 47
+- P0 rows: 44
 - P1 rows: 56
-- P2 rows: 13
+- P2 rows: 16
 - P3 rows: 2
 
 ## Operating Rule
@@ -39,9 +39,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 
 | Vendor | Model | Status | Blocker | First search query |
 |---|---|---|---|---|
-| Anthropic / Claude | Claude 3 Haiku | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Claude 3 Haiku Anthropic / Claude case study customer |
-| Anthropic / Claude | Claude 3 Opus | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Claude 3 Opus Anthropic / Claude case study customer |
-| Anthropic / Claude | Claude 3.5 Sonnet | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Claude 3.5 Sonnet Anthropic / Claude case study customer |
+| Anthropic / Claude | Claude 3 Haiku | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Claude 3 Haiku Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude 4 Opus | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude 4 Opus Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude 4.1 Opus | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude 4.1 Opus Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude 4.5 Sonnet | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude 4.5 Sonnet Anthropic / Claude case study customer |
@@ -53,7 +51,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | DeepSeek | DeepSeek V3.2 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | DeepSeek V3.2 DeepSeek case study customer |
 | DeepSeek | DeepSeek V4 Pro (Max) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | DeepSeek V4 Pro (Max) DeepSeek case study customer |
-| Google / Gemini | Gemini 2.5 Pro | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Gemini 2.5 Pro Google / Gemini case study customer |
 | Google / Gemini | Gemini 3 Pro Preview (high) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Gemini 3 Pro Preview (high) Google / Gemini case study customer |
 | Google / Gemini | Gemini 3.1 Pro Preview | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Gemini 3.1 Pro Preview Google / Gemini case study customer |
 | Kimi / Moonshot AI | Kimi K2 Thinking | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Kimi K2 Thinking Kimi / Moonshot AI case study customer |
@@ -91,6 +88,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 
 | Priority | Vendor | Model | Status | A cases | Source count | Blocker |
 |---|---|---|---|---:|---:|---|
+| P0 | Anthropic / Claude | Claude 3 Haiku | below_min_case_coverage | 2 | 3 | 已有 2 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | Anthropic / Claude | Claude 4 Opus | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Anthropic / Claude | Claude 4.1 Opus | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Anthropic / Claude | Claude 4.5 Sonnet | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
@@ -107,9 +105,11 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | Kimi / Moonshot AI | Kimi K2 Thinking | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P0 | Kimi / Moonshot AI | Kimi K2.5 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P0 | Kimi / Moonshot AI | Kimi K2.6 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
+| P0 | Meta / Llama | Llama 3.1 405B | below_min_case_coverage | 1 | 3 | 已有 1 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | Meta / Llama | Muse Spark | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P0 | MiniMax | MiniMax-M2.5 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P0 | MiniMax | MiniMax-M2.7 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
+| P0 | OpenAI | GPT-4o (May) | below_min_case_coverage | 1 | 3 | 已有 1 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | OpenAI | GPT-5 (high) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P0 | OpenAI | GPT-5 Codex (high) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |

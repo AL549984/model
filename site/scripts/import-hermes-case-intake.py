@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -22,6 +23,7 @@ from pathlib import Path
 SITE_DIR = Path(__file__).resolve().parents[1]
 ENV_PATH = SITE_DIR / ".env"
 FEISHU_BASE_URL = os.environ.get("FEISHU_BASE_URL", "https://open.feishu.cn")
+LARK_CLI_USER_TOKEN = "__lark_cli_user__"
 CASE_FIELDS = [
     "case_id",
     "case_title",
@@ -71,7 +73,32 @@ def load_env() -> None:
         os.environ.setdefault(key, value.strip().strip("'\""))
 
 
+def lark_cli_request_json(path: str, *, method: str = "GET", body: dict | None = None) -> dict:
+    profile = os.environ.get("FEISHU_LARK_CLI_PROFILE", "model-card-legacy")
+    command = ["lark-cli", "--profile", profile, "api", method]
+    api_path = path
+    if "?" in path:
+        api_path, query = path.split("?", 1)
+        params = {key: values[-1] for key, values in urllib.parse.parse_qs(query).items()}
+        command.extend([api_path, "--as", "user", "--format", "json", "--params", json.dumps(params, ensure_ascii=False)])
+    else:
+        command.extend([api_path, "--as", "user", "--format", "json"])
+    if body is not None:
+        command.extend(["--data", json.dumps(body, ensure_ascii=False)])
+    result = subprocess.run(command, text=True, capture_output=True, check=False)
+    if result.returncode != 0:
+        detail = result.stderr.strip() or result.stdout.strip()
+        raise RuntimeError(f"lark-cli user API failed ({result.returncode}): {detail}")
+    return json.loads(result.stdout)
+
+
 def request_json(path: str, *, method: str = "GET", token: str | None = None, body: dict | None = None) -> dict:
+    if token == LARK_CLI_USER_TOKEN:
+        payload = lark_cli_request_json(path, method=method, body=body)
+        if payload.get("code") != 0:
+            raise RuntimeError(f"Feishu user API error: {payload}")
+        return payload
+
     data = None if body is None else json.dumps(body).encode("utf-8")
     request = urllib.request.Request(
         f"{FEISHU_BASE_URL}{path}",
@@ -102,6 +129,12 @@ def tenant_token() -> str:
         body={"app_id": app_id, "app_secret": app_secret},
     )
     return payload["tenant_access_token"]
+
+
+def auth_token() -> str:
+    if os.environ.get("FEISHU_IMPORT_AUTH_MODE") == "lark-cli-user":
+        return LARK_CLI_USER_TOKEN
+    return tenant_token()
 
 
 def list_records(token: str, app_token: str, table_id: str) -> list[dict]:
@@ -246,7 +279,7 @@ def main() -> int:
     load_env()
     app_token = os.environ["FEISHU_BITABLE_APP_TOKEN"]
     table_id = os.environ["FEISHU_CASES_TABLE_ID"]
-    token = tenant_token()
+    token = auth_token()
     payload = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     candidates = payload.get("cases", payload if isinstance(payload, list) else [])
     raw_cases = [normalize_case(item) for item in candidates if isinstance(item, dict)]

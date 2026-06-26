@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -26,6 +27,7 @@ const env = process.env;
 const FEISHU_BASE_URL = env.FEISHU_BASE_URL || "https://open.feishu.cn";
 const MIN_A_CASES = Number(env.MODEL_ATLAS_MIN_A_CASES ?? 3);
 const TARGET_A_CASES = Number(env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
+const LARK_CLI_USER_TOKEN = "__lark_cli_user__";
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
@@ -278,7 +280,30 @@ function hydrateModelsWithCases(models, cases) {
   });
 }
 
+function larkCliFetch(pathname, { method = "GET", body } = {}) {
+  const profile = env.FEISHU_LARK_CLI_PROFILE || "model-card-legacy";
+  const [apiPath, query = ""] = pathname.split("?");
+  const args = ["--profile", profile, "api", method, apiPath, "--as", "user", "--format", "json"];
+  if (query) {
+    args.push("--params", JSON.stringify(Object.fromEntries(new URLSearchParams(query))));
+  }
+  if (body) args.push("--data", JSON.stringify(body));
+  const result = spawnSync("lark-cli", args, { encoding: "utf8" });
+  if (result.status !== 0) {
+    throw new Error(`lark-cli user API failed (${result.status}): ${result.stderr || result.stdout}`);
+  }
+  const payload = JSON.parse(result.stdout);
+  if (payload.code !== 0) {
+    throw new Error(`Feishu user API error: ${JSON.stringify(payload)}`);
+  }
+  return payload;
+}
+
 async function feishuFetch(pathname, { method = "GET", token, body } = {}) {
+  if (token === LARK_CLI_USER_TOKEN) {
+    return larkCliFetch(pathname, { method, body });
+  }
+
   const response = await fetch(`${FEISHU_BASE_URL}${pathname}`, {
     method,
     headers: {
@@ -295,6 +320,10 @@ async function feishuFetch(pathname, { method = "GET", token, body } = {}) {
 }
 
 async function getTenantAccessToken() {
+  if ((env.FEISHU_SYNC_AUTH_MODE || env.FEISHU_IMPORT_AUTH_MODE) === "lark-cli-user") {
+    return LARK_CLI_USER_TOKEN;
+  }
+
   const appId = env.FEISHU_APP_ID;
   const appSecret = env.FEISHU_APP_SECRET;
   if (!appId || !appSecret) {

@@ -3,10 +3,10 @@
   "models": 118,
   "bitableModels": 107,
   "vendorPageOnlyModels": 11,
-  "publishableModels": 9,
-  "limitedModels": 107,
+  "publishableModels": 6,
+  "limitedModels": 110,
   "archiveModels": 2,
-  "verifiedACases": 25,
+  "verifiedACases": 39,
   "modelsWithCases": 9,
   "modelsWithoutCases": 109,
   "modelsWithSupplementalSources": 118,
@@ -14,5 +14,11 @@
   "datasetCut": "2026-06-26",
   "methodology": "Model Atlas 2.0 证据策略",
   "visualDirection": "Atlas Command Center",
-  "sourceNote": "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit."
+  "sourceNote": "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit.",
+  "minCasesPerModel": 3,
+  "targetCasesPerModel": 5,
+  "modelsMeetingMinCaseCoverage": 6,
+  "modelsMeetingTargetCaseCoverage": 5,
+  "caseDeficitToMin": 332,
+  "caseDeficitToTarget": 557
 }
