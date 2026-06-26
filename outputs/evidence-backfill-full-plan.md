@@ -10,29 +10,38 @@
 - Archive models: 2
 - Verified A-grade cases: 25
 - Models without A-grade cases: 109
+- Minimum public case line: 3 A-grade cases per model
+- Full target case line: 5 A-grade cases per model
+- Models meeting minimum line: 3
+- Models meeting full target line: 2
+- A-case deficit to minimum line: 337
+- A-case deficit to full target line: 568
 - Backfill rows: 118
-- P0 rows: 41
-- P1 rows: 55
-- P2 rows: 20
+- P0 rows: 47
+- P1 rows: 56
+- P2 rows: 13
 - P3 rows: 2
 
 ## Operating Rule
 
-Full backfill does not mean every Limited model is promoted. It means every model has a concrete evidence task, blocker and upgrade gate. A model only becomes Publishable after at least one verified A-grade case exists, unless the model-card standard is intentionally changed.
+Full backfill means every model is chased to at least 3 verified A-grade real-use cases, with 5 as the full target. A model should not be treated as public-ready merely because it has one case.
 
 ## Priority Meaning
 
 | Priority | Meaning | Action |
 |---|---|---|
 | P0 | High-value or identity-risk rows | Verify model identity first, then hunt A cases |
-| P1 | Strong candidate rows without A cases | Hunt A cases and official facts |
-| P2 | Lower-risk rows or already A-backed rows | Refresh fields, snapshots or family mapping |
+| P1 | Rows near the public line or strong candidates | Hunt A cases and official facts |
+| P2 | Lower-risk rows or rows already at target | Refresh fields, snapshots or family mapping |
 | P3 | Archive / hold rows | Confirm whether to keep, merge or remove |
 
 ## P0 Backfill Queue
 
 | Vendor | Model | Status | Blocker | First search query |
 |---|---|---|---|---|
+| Anthropic / Claude | Claude 3 Haiku | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Claude 3 Haiku Anthropic / Claude case study customer |
+| Anthropic / Claude | Claude 3 Opus | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Claude 3 Opus Anthropic / Claude case study customer |
+| Anthropic / Claude | Claude 3.5 Sonnet | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Claude 3.5 Sonnet Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude 4 Opus | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude 4 Opus Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude 4.1 Opus | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude 4.1 Opus Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude 4.5 Sonnet | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude 4.5 Sonnet Anthropic / Claude case study customer |
@@ -44,14 +53,17 @@ Full backfill does not mean every Limited model is promoted. It means every mode
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | DeepSeek | DeepSeek V3.2 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | DeepSeek V3.2 DeepSeek case study customer |
 | DeepSeek | DeepSeek V4 Pro (Max) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | DeepSeek V4 Pro (Max) DeepSeek case study customer |
+| Google / Gemini | Gemini 2.5 Pro | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Gemini 2.5 Pro Google / Gemini case study customer |
 | Google / Gemini | Gemini 3 Pro Preview (high) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Gemini 3 Pro Preview (high) Google / Gemini case study customer |
 | Google / Gemini | Gemini 3.1 Pro Preview | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Gemini 3.1 Pro Preview Google / Gemini case study customer |
 | Kimi / Moonshot AI | Kimi K2 Thinking | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | Kimi K2 Thinking Kimi / Moonshot AI case study customer |
 | Kimi / Moonshot AI | Kimi K2.5 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | Kimi K2.5 Kimi / Moonshot AI case study customer |
 | Kimi / Moonshot AI | Kimi K2.6 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | Kimi K2.6 Kimi / Moonshot AI case study customer |
+| Meta / Llama | Llama 3.1 405B | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Llama 3.1 405B Meta / Llama case study customer |
 | Meta / Llama | Muse Spark | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | Muse Spark Meta / Llama case study customer |
 | MiniMax | MiniMax-M2.5 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | MiniMax-M2.5 MiniMax case study customer |
 | MiniMax | MiniMax-M2.7 | needs_a_case | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 | MiniMax-M2.7 MiniMax case study customer |
+| OpenAI | GPT-4o (May) | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | GPT-4o (May) OpenAI case study customer |
 | OpenAI | GPT-5 (high) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | GPT-5 (high) OpenAI case study customer |
 | OpenAI | GPT-5 Codex (high) | needs_a_case | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 | GPT-5 Codex (high) OpenAI case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
@@ -186,6 +198,14 @@ Full backfill does not mean every Limited model is promoted. It means every mode
 | P2 | xAI / Grok | Grok 2 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | xAI / Grok | Grok Beta | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | xAI / Grok | Grok-1 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
+
+## Full-Coverage Rule For Hermes
+
+- Minimum public line: 3 A cases per model.
+- Full target line: 5 A cases per model.
+- Keep crawling a model until `targetDeficit` reaches 0, unless `archive_review` or identity validation fails.
+- Do not duplicate one product launch across multiple model variants unless the original evidence names the exact variant.
+- Prefer diversity: at least two different source platforms and at least two different task categories when possible.
 
 ## Generated Files
 

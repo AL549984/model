@@ -14,6 +14,8 @@ function readJson(file) {
 const models = readJson("models.json");
 const evidenceBackfill = readJson("evidenceBackfill.json");
 const backfillById = new Map(evidenceBackfill.map((item) => [item.modelId, item]));
+const MIN_A_CASES = Number(process.env.MODEL_ATLAS_MIN_A_CASES ?? 3);
+const TARGET_A_CASES = Number(process.env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
 
 function sourceTargetsFor(model) {
   const common = [
@@ -38,6 +40,11 @@ function sourceTargetsFor(model) {
 
 const tasks = models.map((model) => {
   const backfill = backfillById.get(model.id);
+  const aCaseCount = backfill?.aCaseCount ?? model.aCaseCount ?? 0;
+  const minACases = backfill?.minACases ?? MIN_A_CASES;
+  const targetACases = backfill?.targetACases ?? TARGET_A_CASES;
+  const minDeficit = backfill?.minDeficit ?? Math.max(0, minACases - aCaseCount);
+  const targetDeficit = backfill?.targetDeficit ?? Math.max(0, targetACases - aCaseCount);
   return {
     taskId: `hermes-case-crawl-${model.id}`,
     modelId: model.id,
@@ -47,7 +54,18 @@ const tasks = models.map((model) => {
     priority: backfill?.priority ?? "P2",
     status: backfill?.status ?? "needs_a_case",
     publishability: model.publishability,
-    aCaseCount: model.aCaseCount ?? 0,
+    aCaseCount,
+    minACases,
+    targetACases,
+    minDeficit,
+    targetDeficit,
+    publicReady: aCaseCount >= minACases,
+    fullCoverageReady: aCaseCount >= targetACases,
+    crawlBudget: {
+      minCandidatesPerMissingACase: 12,
+      targetCandidateCount: Math.max(12, targetDeficit * 12),
+      maxCandidatesPerRun: Math.max(24, Math.min(80, targetDeficit * 18 || 24))
+    },
     officialSources: model.sources ?? [],
     crawlSources: sourceTargetsFor(model),
     queries: backfill?.searchQueries?.map((item) => item.query) ?? [
@@ -57,6 +75,9 @@ const tasks = models.map((model) => {
     ],
     outputContract: {
       table: "cases",
+      minAcceptedACases: minACases,
+      targetAcceptedACases: targetACases,
+      stopWhen: `accepted A cases for ${model.id} >= ${targetACases}`,
       requiredFields: [
         "case_id",
         "case_title",
@@ -90,9 +111,37 @@ const tasks = models.map((model) => {
         "source is not collection, benchmark-only, tutorial-only or search-summary-only"
       ],
       noHumanReview: true
+    },
+    dedupeKeys: [
+      "model_id + original_evidence_url",
+      "model_id + artifact_url",
+      "case_id"
+    ],
+    rejectIf: [
+      "collection page only",
+      "benchmark / leaderboard only",
+      "tutorial or prompt template only",
+      "launch post without concrete user artifact",
+      "model family mentioned but exact model/variant not bound",
+      "artifact is private or not reachable"
+    ],
+    preferDiversity: {
+      sourcePlatforms: 2,
+      taskCategories: 2
     }
   };
 });
 
-fs.writeFileSync(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), tasks }, null, 2)}\n`);
+const summary = {
+  models: tasks.length,
+  minACases: MIN_A_CASES,
+  targetACases: TARGET_A_CASES,
+  publicReady: tasks.filter((task) => task.publicReady).length,
+  fullCoverageReady: tasks.filter((task) => task.fullCoverageReady).length,
+  minDeficit: tasks.reduce((sum, task) => sum + task.minDeficit, 0),
+  targetDeficit: tasks.reduce((sum, task) => sum + task.targetDeficit, 0)
+};
+
+fs.writeFileSync(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), summary, tasks }, null, 2)}\n`);
 console.log(`Exported ${tasks.length} Hermes crawl task(s) to ${path.relative(repoRoot, outputPath)}.`);
+console.log(`Case coverage: publicReady=${summary.publicReady}/${summary.models}, fullCoverageReady=${summary.fullCoverageReady}/${summary.models}, minDeficit=${summary.minDeficit}, targetDeficit=${summary.targetDeficit}.`);
