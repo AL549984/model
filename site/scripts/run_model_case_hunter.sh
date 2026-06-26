@@ -5,6 +5,7 @@ set -euo pipefail
 # tasks; Hermes owns the real crawling and writes candidate case rows to Feishu.
 
 export HOME="${HOME:-/home/ubuntu}"
+export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SITE_DIR="${MODEL_ATLAS_SITE_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
@@ -19,12 +20,20 @@ TASKS_PATH="${MODEL_ATLAS_CASE_TASKS_PATH:-$REPO_DIR/work/hermes-model-case-task
 
 load_env_file() {
   local file="$1"
-  if [[ -f "$file" ]]; then
-    set -a
-    # shellcheck disable=SC1090
-    source "$file"
-    set +a
-  fi
+  [[ -f "$file" ]] || return 0
+  while IFS='=' read -r key value; do
+    [[ -n "$key" ]] || continue
+    [[ "$key" == \#* ]] && continue
+    [[ "$key" =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || continue
+    value="${value%$'\r'}"
+    value="${value%\"}"
+    value="${value#\"}"
+    value="${value%\'}"
+    value="${value#\'}"
+    if [[ -z "${!key+x}" ]]; then
+      export "$key=$value"
+    fi
+  done <"$file"
 }
 
 load_env_file "$PROFILE/.env"
@@ -48,6 +57,14 @@ if (fs.existsSync(statePath)) state = JSON.parse(fs.readFileSync(statePath, "utf
 state.attempts ||= {};
 
 const priorityOrder = { P0: 0, P1: 1, P2: 2, P3: 3 };
+const statusOrder = {
+  below_min_case_coverage: 0,
+  top_up_to_target: 1,
+  needs_a_case: 2,
+  identity_first: 3,
+  target_met_snapshot_refresh: 4,
+  archive_review: 9
+};
 const now = new Date().toISOString();
 const tasks = payload.tasks
   .filter((task) => Number(task.targetDeficit || 0) > 0)
@@ -55,7 +72,8 @@ const tasks = payload.tasks
   .sort((a, b) => {
     const aAttempt = state.attempts[a.taskId]?.count || 0;
     const bAttempt = state.attempts[b.taskId]?.count || 0;
-    return (priorityOrder[a.priority] ?? 9) - (priorityOrder[b.priority] ?? 9)
+    return (statusOrder[a.status] ?? 8) - (statusOrder[b.status] ?? 8)
+      || (priorityOrder[a.priority] ?? 9) - (priorityOrder[b.priority] ?? 9)
       || aAttempt - bAttempt
       || Number(b.targetDeficit || 0) - Number(a.targetDeficit || 0)
       || String(a.vendor).localeCompare(String(b.vendor))
@@ -119,6 +137,7 @@ A 类候选必须同时满足：
 - 用 terminal/curl/python/file 工具抓取和核验，不要询问用户。
 - 先读 batch JSON 的 queries、crawlSources、rejectIf、dedupeKeys。
 - 每个任务尽量输出 targetDeficit 对应数量的高质量候选；找不到就少写，不要硬凑。
+- 如果 task.status 是 identity_first，先验证这个具体模型是否真实存在且公开可用；如果 10 分钟内无法确认 exact model identity，就不要写入 cases，直接输出空 cases 数组并结束该模型。
 - 输出 JSON 形状必须是 {"cases":[...]}。
 - 每条 case 字段必须使用 snake_case：
   case_id, case_title, model_id, model_name, vendor_id, vendor, user_or_org,

@@ -14,6 +14,7 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -44,6 +45,19 @@ CASE_FIELDS = [
     "selected_for_model_card",
     "review_status",
 ]
+OFFICIAL_VENDOR_DOMAINS = {
+    "anthropic": ["anthropic.com"],
+    "openai": ["openai.com"],
+    "google": ["google.com", "deepmind.google"],
+    "qwen-alibaba": ["qwen.ai", "qwenlm.github.io", "alibabacloud.com"],
+    "deepseek": ["deepseek.com"],
+    "xai": ["x.ai"],
+    "kimi": ["moonshot.cn", "kimi.com"],
+    "meta": ["meta.com", "ai.meta.com"],
+    "minimax": ["minimax.io"],
+    "z-ai": ["z.ai", "zhipuai.cn"],
+    "bytedance-seed": ["seed.bytedance.com"],
+}
 
 
 def load_env() -> None:
@@ -124,6 +138,99 @@ def normalize_case(raw: dict) -> dict:
     return fields
 
 
+def is_http_url(value: str) -> bool:
+    return value.startswith("https://") or value.startswith("http://")
+
+
+def url_host(value: str) -> str:
+    try:
+        return urllib.parse.urlparse(value).netloc.lower()
+    except Exception:
+        return ""
+
+
+def is_official_vendor_host(vendor_id: str, value: str) -> bool:
+    host = url_host(value)
+    return any(host == domain or host.endswith("." + domain) for domain in OFFICIAL_VENDOR_DOMAINS.get(vendor_id, []))
+
+
+def probe_url(value: str) -> tuple[bool, str]:
+    if not is_http_url(value):
+        return False, "not_http_url"
+    headers = {
+        "User-Agent": "Mozilla/5.0 ModelAtlasEvidenceBot/1.0",
+        "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+    }
+    for method in ("HEAD", "GET"):
+        request = urllib.request.Request(value, method=method, headers=headers)
+        try:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                status = response.getcode()
+                if status == 404:
+                    return False, "url_404"
+                if 200 <= status < 500:
+                    return True, f"http_{status}"
+                return False, f"http_{status}"
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                return False, "url_404"
+            if 400 <= exc.code < 500:
+                return True, f"http_{exc.code}"
+            last = f"http_{exc.code}"
+        except Exception as exc:
+            last = type(exc).__name__
+    return False, last
+
+
+def validate_case(fields: dict) -> tuple[bool, str]:
+    required = [
+        "case_id",
+        "case_title",
+        "model_id",
+        "model_name",
+        "vendor_id",
+        "vendor",
+        "user_or_org",
+        "original_evidence_url",
+        "artifact_url",
+        "source_platform",
+        "source_type",
+        "task_description",
+        "output_result",
+        "model_contribution",
+    ]
+    missing = [key for key in required if not fields.get(key)]
+    if missing:
+        return False, "missing_" + ",".join(missing)
+    if fields.get("source_type") != "real_case":
+        return False, "not_real_case"
+
+    original_url = fields["original_evidence_url"]
+    artifact_url = fields["artifact_url"]
+    original_ok, original_reason = probe_url(original_url)
+    if not original_ok:
+        return False, f"bad_original_url:{original_reason}"
+    artifact_ok, artifact_reason = probe_url(artifact_url)
+    if not artifact_ok:
+        return False, f"bad_artifact_url:{artifact_reason}"
+
+    vendor_id = fields.get("vendor_id", "")
+    user_text = fields.get("user_or_org", "").lower()
+    vendor_text = fields.get("vendor", "").lower().replace(" / ", " ")
+    official_original = is_official_vendor_host(vendor_id, original_url)
+    official_artifact = is_official_vendor_host(vendor_id, artifact_url)
+    same_url = original_url.rstrip("/") == artifact_url.rstrip("/")
+    platform = fields.get("source_platform", "").lower()
+
+    if same_url and official_original and "github" not in platform:
+        return False, "same_official_url_for_evidence_and_artifact"
+    if official_original and official_artifact and ("internal" in user_text or user_text in vendor_text or vendor_text in user_text):
+        return False, "vendor_internal_or_self_case"
+    if "internal team" in user_text or "内部" in user_text:
+        return False, "internal_team_not_public_user"
+    return True, "ok"
+
+
 def dedupe_key(fields: dict) -> tuple[str, ...]:
     return tuple(
         value
@@ -142,7 +249,15 @@ def main() -> int:
     token = tenant_token()
     payload = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     candidates = payload.get("cases", payload if isinstance(payload, list) else [])
-    cases = [normalize_case(item) for item in candidates if isinstance(item, dict)]
+    raw_cases = [normalize_case(item) for item in candidates if isinstance(item, dict)]
+    cases: list[dict] = []
+    rejected: list[dict] = []
+    for fields in raw_cases:
+        ok, reason = validate_case(fields)
+        if ok:
+            cases.append(fields)
+        else:
+            rejected.append({"case_id": fields.get("case_id"), "reason": reason})
 
     existing: dict[str, str] = {}
     for record in list_records(token, app_token, table_id):
@@ -181,6 +296,8 @@ def main() -> int:
                 existing[key] = new_id
 
     print(json.dumps({"ok": True, "created": created, "updated": updated, "skipped": skipped}, ensure_ascii=False))
+    if rejected:
+        print(json.dumps({"rejected": rejected}, ensure_ascii=False))
     return 0
 
 

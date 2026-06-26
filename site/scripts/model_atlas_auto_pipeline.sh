@@ -6,6 +6,7 @@ set -euo pipefail
 
 export HOME="${HOME:-/home/ubuntu}"
 export LARK_CLI_HOME="${LARK_CLI_HOME:-/home/ubuntu/.lark-cli}"
+export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SITE_DIR="${MODEL_ATLAS_SITE_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
@@ -16,12 +17,20 @@ LOCK_PATH="${MODEL_ATLAS_LOCK_PATH:-$PROFILE/data/model_atlas_locks/auto_pipelin
 
 load_env_file() {
   local file="$1"
-  if [[ -f "$file" ]]; then
-    set -a
-    # shellcheck disable=SC1090
-    source "$file"
-    set +a
-  fi
+  [[ -f "$file" ]] || return 0
+  while IFS='=' read -r key value; do
+    [[ -n "$key" ]] || continue
+    [[ "$key" == \#* ]] && continue
+    [[ "$key" =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]] || continue
+    value="${value%$'\r'}"
+    value="${value%\"}"
+    value="${value#\"}"
+    value="${value%\'}"
+    value="${value#\'}"
+    if [[ -z "${!key+x}" ]]; then
+      export "$key=$value"
+    fi
+  done <"$file"
 }
 
 load_env_file "$PROFILE/.env"
