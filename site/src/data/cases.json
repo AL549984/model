@@ -20,7 +20,7 @@
     "selectedForModelCard": true,
     "riskNotes": "模型贡献比例来自作者自述；需要保存 README、HEAD SHA、demo 截图和 STATUS.md 快照",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-backrooms-escape",
@@ -43,7 +43,7 @@
     "selectedForModelCard": false,
     "riskNotes": "需要保存 Reddit 原帖和 demo 运行截图；模型参与程度无第三方独立复核",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-cube-survivor",
@@ -66,7 +66,7 @@
     "selectedForModelCard": false,
     "riskNotes": "未找到 repo；artifact 为 live demo，必须保存截图/录屏；多人联机能力需人工复测",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-world-of-claudecraft",
@@ -89,7 +89,7 @@
     "selectedForModelCard": true,
     "riskNotes": "项目规模较大，需快照 repo HEAD、README 和网站首屏；资产来源需在正式展示前复核",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-midwinter-dos-remaster",
@@ -112,7 +112,7 @@
     "selectedForModelCard": true,
     "riskNotes": "涉及旧游戏 IP 和逆向工程，展示时必须保留合法性/授权风险备注；视频需记录关键时间点",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-claude-citizen",
@@ -135,7 +135,7 @@
     "selectedForModelCard": false,
     "riskNotes": "使用 “Star Citizen” 作比较对象，需注意商标/IP 风险；模型贡献仍为作者/README 自述",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-vibepinball",
@@ -158,7 +158,7 @@
     "selectedForModelCard": false,
     "riskNotes": "repo star/activity 很低，需保存 demo 截图并尽量补直播原始链接",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "cf5-case-comfyui-ideogram-pr",
@@ -181,7 +181,7 @@
     "selectedForModelCard": true,
     "riskNotes": "PR 质量作者自己也提示需开发者清理；进入精选时适合展示 “AI coding with human testing”，不是质量保证案例",
     "collectedAt": "2026-06-25",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gpt4-case-khanmigo",
@@ -204,7 +204,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Education outcomes and safety claims still need independent outcome studies; model version may have evolved after launch.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gpt4-case-duolingo-max",
@@ -227,7 +227,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Subscription packaging and model routing can change; keep current product availability separate from original GPT-4 launch evidence.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gpt4-case-be-my-ai",
@@ -250,7 +250,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Accessibility-critical outputs require careful accuracy and safety review; product model routing may change over time.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gpt4-case-morgan-stanley-wealth",
@@ -273,7 +273,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Internal enterprise artifact is not publicly usable; evidence relies on official company description rather than an inspectable demo.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gpt4-case-stripe-platform",
@@ -296,7 +296,7 @@
     "selectedForModelCard": false,
     "riskNotes": "Some workflows are internal or prototype-stage; keep separated from user-visible product claims.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gpt4o-case-be-my-eyes-live-accessibility",
@@ -319,7 +319,7 @@
     "selectedForModelCard": true,
     "riskNotes": "This is a launch/demo artifact rather than a full production case study; verify current product routing before claiming ongoing GPT-4o use.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude35-case-replit-agent",
@@ -342,7 +342,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Replit model routing changes as new Claude versions launch; use this as dated 3.5 Sonnet evidence.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "gemini25pro-case-somin-ai",
@@ -365,7 +365,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Business impact claims come from vendor/customer story; keep as official case evidence, not independent benchmark.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "llama31-405b-case-sofya-synthetic-data",
@@ -388,7 +388,7 @@
     "selectedForModelCard": true,
     "riskNotes": "The public artifact is a case-study page rather than a runnable demo; treat as official customer-case evidence.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude35-case-perplexity-search",
@@ -411,7 +411,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Perplexity offers multiple models; this case proves availability/use, not exclusive model routing.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude37-case-triple-whale-moby",
@@ -434,7 +434,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Business impact claims come from vendor/customer story; retain as official case evidence, not independent benchmark.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude37-case-grafana-assistant",
@@ -457,7 +457,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Grafana notes a transition toward Sonnet 4; keep this as 3.7-era model evidence.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude37-case-semgrep-assistant",
@@ -480,7 +480,7 @@
     "selectedForModelCard": false,
     "riskNotes": "Security claims need periodic review against current product model routing and evaluation methodology.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude37-case-vanta-remediation",
@@ -503,7 +503,7 @@
     "selectedForModelCard": false,
     "riskNotes": "Artifact is an enterprise workflow, not a public repo; evidence is official customer-story level.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude3opus-case-steno-deposition",
@@ -526,7 +526,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Legal workflows require accuracy review and human oversight; product internals are not publicly inspectable.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude3opus-case-sourcegraph-cody",
@@ -549,7 +549,7 @@
     "selectedForModelCard": true,
     "riskNotes": "Cody supports multiple model providers; this case should be read as one Claude-backed configuration.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   },
   {
     "id": "claude35haiku-case-clay-sales",
@@ -572,6 +572,6 @@
     "selectedForModelCard": true,
     "riskNotes": "Clay may route across models as Anthropic updates the Claude family; keep this as dated Claude 3 Haiku evidence.",
     "collectedAt": "2026-06-26",
-    "reviewStatus": "已审核"
+    "reviewStatus": "auto_approved"
   }
 ]

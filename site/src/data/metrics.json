@@ -14,5 +14,5 @@
   "datasetCut": "2026-06-26",
   "methodology": "Model Atlas 2.0 证据策略",
   "visualDirection": "Atlas Command Center",
-  "sourceNote": "107 行来自飞书 Bitable 复制导出；补充模型来自厂商页/模型卡骨架，缺字段不脑补。"
+  "sourceNote": "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit."
 }
