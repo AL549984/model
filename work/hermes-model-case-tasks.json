@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-26T16:59:02.106Z",
+  "generatedAt": "2026-06-26T17:31:15.844Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 30,
-    "fullCoverageReady": 28,
-    "minDeficit": 260,
-    "targetDeficit": 439
+    "publicReady": 33,
+    "fullCoverageReady": 29,
+    "minDeficit": 253,
+    "targetDeficit": 429
   },
   "tasks": [
     {
@@ -4829,19 +4829,19 @@
       "vendorId": "deepseek",
       "vendor": "DeepSeek",
       "priority": "P1",
-      "status": "needs_a_case",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "status": "top_up_to_target",
+      "publishability": "Publishable",
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://github.com/deepseek-ai/DeepSeek-V3",
@@ -5393,19 +5393,19 @@
       "vendorId": "deepseek",
       "vendor": "DeepSeek",
       "priority": "P1",
-      "status": "needs_a_case",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "status": "top_up_to_target",
+      "publishability": "Publishable",
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://api-docs.deepseek.com/news/news250821",
@@ -13391,20 +13391,20 @@
       "modelName": "GLM-4.7",
       "vendorId": "z-ai",
       "vendor": "Z AI / GLM",
-      "priority": "P0",
-      "status": "below_min_case_coverage",
-      "publishability": "Limited",
-      "aCaseCount": 2,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 1,
-      "targetDeficit": 3,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 36,
-        "maxCandidatesPerRun": 54
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.z.ai/",

@@ -1533,69 +1533,6 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
-    "modelId": "glm-4-7",
-    "slug": "glm-4-7",
-    "modelName": "GLM-4.7",
-    "vendorId": "z-ai",
-    "vendor": "Z AI / GLM",
-    "publishability": "Limited",
-    "aCaseCount": 2,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 1,
-    "targetDeficit": 3,
-    "sourceCount": 2,
-    "score": 42.11,
-    "priority": "P0",
-    "status": "below_min_case_coverage",
-    "blocker": "已有 2 条 A 类案例，但低于 3 条公开达标线。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "GLM-4.7 Z AI / GLM case study customer",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20case%20study%20customer"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM built with GitHub demo",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM production use product blog",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20production%20use%20product%20blog"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM GitHub README built with",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "GLM-4.7 Z AI / GLM 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "已有案例但未达标；补到至少 3 条 A 类案例后，才能公开达标。"
-  },
-  {
     "modelId": "glm-5",
     "slug": "glm-5",
     "modelName": "GLM-5",
@@ -1918,19 +1855,18 @@
     "modelName": "DeepSeek V3 (Dec)",
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 2,
     "sourceCount": 3,
     "score": 16.46,
     "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。",
+    "status": "top_up_to_target",
+    "blocker": "已有 3 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "确认是否应并入家族模型页，而不是单独追独立案例。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
@@ -1974,7 +1910,7 @@
         "url": "https://www.google.com/search?q=DeepSeek%20V3%20(Dec)%20DeepSeek%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "deepseek-v3-0324",
@@ -2046,19 +1982,18 @@
     "modelName": "DeepSeek V3.1",
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 4,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 1,
     "sourceCount": 3,
     "score": 28.13,
     "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
+    "status": "top_up_to_target",
+    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
@@ -2101,7 +2036,7 @@
         "url": "https://www.google.com/search?q=DeepSeek%20V3.1%20DeepSeek%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "deepseek-v3-1-terminus",
@@ -7298,6 +7233,67 @@
       {
         "query": "MiMo-V2.5-Pro Xiaomi / MiMo 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=MiMo-V2.5-Pro%20Xiaomi%20%2F%20MiMo%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "glm-4-7",
+    "slug": "glm-4-7",
+    "modelName": "GLM-4.7",
+    "vendorId": "z-ai",
+    "vendor": "Z AI / GLM",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 2,
+    "score": 42.11,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "GLM-4.7 Z AI / GLM case study customer",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20case%20study%20customer"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM built with GitHub demo",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM production use product blog",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20production%20use%20product%20blog"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM GitHub README built with",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "GLM-4.7 Z AI / GLM 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=GLM-4.7%20Z%20AI%20%2F%20GLM%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
