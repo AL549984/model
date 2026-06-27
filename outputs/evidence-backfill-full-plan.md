@@ -8,18 +8,18 @@
 - Publishable models: 41
 - Limited models: 75
 - Archive models: 2
-- Verified A-grade cases: 232
+- Verified A-grade cases: 240
 - Models without A-grade cases: 77
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 41
-- Models meeting full target line: 38
+- Models meeting full target line: 40
 - A-case deficit to minimum line: 231
-- A-case deficit to full target line: 389
+- A-case deficit to full target line: 386
 - Backfill rows: 118
-- P0 rows: 24
-- P1 rows: 43
-- P2 rows: 49
+- P0 rows: 23
+- P1 rows: 42
+- P2 rows: 51
 - P3 rows: 2
 
 ## Operating Rule
@@ -48,7 +48,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude Opus 4.7 (max) Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Pro | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
-| Kimi / Moonshot AI | Kimi K2 Thinking | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Kimi K2 Thinking Kimi / Moonshot AI case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.2 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.2 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |

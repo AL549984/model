@@ -6,7 +6,7 @@
   "publishableModels": 41,
   "limitedModels": 75,
   "archiveModels": 2,
-  "verifiedACases": 232,
+  "verifiedACases": 240,
   "modelsWithCases": 41,
   "modelsWithoutCases": 77,
   "modelsWithSupplementalSources": 118,
@@ -18,7 +18,7 @@
   "minCasesPerModel": 3,
   "targetCasesPerModel": 5,
   "modelsMeetingMinCaseCoverage": 41,
-  "modelsMeetingTargetCaseCoverage": 38,
+  "modelsMeetingTargetCaseCoverage": 40,
   "caseDeficitToMin": 231,
-  "caseDeficitToTarget": 389
+  "caseDeficitToTarget": 386
 }

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T05:53:13.403Z",
+  "generatedAt": "2026-06-27T05:57:49.956Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 41,
-    "fullCoverageReady": 38,
+    "fullCoverageReady": 40,
     "minDeficit": 231,
-    "targetDeficit": 389
+    "targetDeficit": 386
   },
   "tasks": [
     {
@@ -6381,7 +6381,7 @@
       "priority": "P2",
       "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 5,
+      "aCaseCount": 10,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
@@ -7501,20 +7501,20 @@
       "modelName": "Kimi K2",
       "vendorId": "kimi",
       "vendor": "Kimi / Moonshot AI",
-      "priority": "P1",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 3,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 2,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 24,
-        "maxCandidatesPerRun": 36
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://github.com/MoonshotAI/Kimi-K2",
@@ -7783,16 +7783,16 @@
       "modelName": "Kimi K2 Thinking",
       "vendorId": "kimi",
       "vendor": "Kimi / Moonshot AI",
-      "priority": "P0",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 4,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 1,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
         "targetCandidateCount": 12,
