@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T09:16:14.933Z",
+  "generatedAt": "2026-06-27T09:16:35.159Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 107,
-    "fullCoverageReady": 83,
-    "minDeficit": 31,
-    "targetDeficit": 89
+    "publicReady": 108,
+    "fullCoverageReady": 84,
+    "minDeficit": 28,
+    "targetDeficit": 84
   },
   "tasks": [
     {
@@ -13531,20 +13531,20 @@
       "modelName": "GLM-5",
       "vendorId": "z-ai",
       "vendor": "Z AI / GLM",
-      "priority": "P0",
-      "status": "identity_first",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.z.ai/",
