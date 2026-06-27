@@ -8,18 +8,18 @@
 - Publishable models: 111
 - Limited models: 5
 - Archive models: 2
-- Verified A-grade cases: 598
+- Verified A-grade cases: 599
 - Models without A-grade cases: 7
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 111
-- Models meeting full target line: 88
+- Models meeting full target line: 89
 - A-case deficit to minimum line: 21
-- A-case deficit to full target line: 68
+- A-case deficit to full target line: 67
 - Backfill rows: 118
-- P0 rows: 9
+- P0 rows: 8
 - P1 rows: 19
-- P2 rows: 88
+- P2 rows: 89
 - P3 rows: 2
 
 ## Operating Rule
@@ -45,7 +45,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.5 (xhigh) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | GPT-5.5 (xhigh) OpenAI case study customer |
-| Qwen / Alibaba | Qwen3.5 397B A17B | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Qwen3.5 397B A17B Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
 

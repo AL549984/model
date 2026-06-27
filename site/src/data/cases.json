@@ -13752,5 +13752,28 @@
     "riskNotes": "安全工具存在双重用途风险；证据来自公开 README 与模型注册表，证明模型可被该工具作为工作流后端使用，但不代表官方客户背书或默认模型。",
     "collectedAt": "2026-06-27T09:24:23Z",
     "reviewStatus": "auto_approved"
+  },
+  {
+    "id": "qwen3-5-397b-a17b-clerveu-vidtest-video-to-text",
+    "title": "Clerveu 用 Qwen3.5-397B-A17B 构建视频转文本分析流水线",
+    "vendor": "Qwen / Alibaba",
+    "vendorId": "qwen-alibaba",
+    "modelId": "qwen3-5-397b-a17b",
+    "modelName": "Qwen3.5 397B A17B",
+    "userOrOrg": "Clerveu",
+    "originalEvidenceUrl": "https://github.com/Clerveu/vidtest/blob/master/README.md",
+    "artifactUrl": "https://github.com/Clerveu/vidtest",
+    "sourcePlatform": "GitHub",
+    "sourceType": "real_case",
+    "taskCategory": "video_understanding_and_description",
+    "taskDescription": "公开仓库 vidtest 提供一个视频转文本分析流水线：从 Source/ 选择视频，抽取/下载字幕，将视频切成 30 秒、720p、2fps 的片段，通过 OpenRouter 调用 Qwen3.5-397B-A17B vision model 为每个片段生成约 200 词视觉描述，再把字幕和视觉描述合并为带 [DIALOGUE] 与 [VISUAL DESCRIPTION] 的分析文件；配套 vlc_remote.py 支持 VLC 时间戳/截图交互。",
+    "outputResult": "README 明确写明该项目使用 OpenRouter 的 Qwen3.5-397B-A17B vision model，并列出 7 步 pipeline、输出目录 descriptions/ 与 results/、OPENROUTER_MODEL = qwen/qwen3.5-397b-a17b；仓库中的 analyze.py 也公开包含 OPENROUTER_MODEL 常量、send_to_qwen() 调用和将模型描述写入结果文件的逻辑。",
+    "modelContribution": "Qwen3.5 397B A17B 是该流水线的核心视觉语言模型，负责读取视频片段与匹配字幕并生成结构化视觉描述；OpenRouter 提供 API 路由，项目脚本负责视频切片、字幕处理、结果合并和可选 Claude Code 后处理。",
+    "evidenceGrade": "A",
+    "showcaseEligible": true,
+    "selectedForModelCard": true,
+    "riskNotes": "证据来自公开 GitHub 仓库 README 与源码自述，未独立验证其实际运行规模或生产部署；但 exact model slug、使用者、任务流程和可访问 artifact 均明确。",
+    "collectedAt": "2026-06-27T09:36:14Z",
+    "reviewStatus": "auto_approved"
   }
 ]
