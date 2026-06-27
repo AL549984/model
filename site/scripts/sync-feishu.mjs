@@ -104,6 +104,17 @@ function hasText(value) {
 }
 
 function evidenceGate(caseItem) {
+  const explicitGrade = String(caseItem.evidenceGrade ?? "").trim().toUpperCase();
+  if (explicitGrade && explicitGrade !== "A") {
+    return {
+      evidenceGrade: explicitGrade,
+      showcaseEligible: false,
+      selectedForModelCard: false,
+      reviewStatus: caseItem.reviewStatus || "auto_candidate",
+      riskNotes: caseItem.riskNotes || `显式证据等级为 ${explicitGrade}，不进入 A 类精选。`
+    };
+  }
+
   const sourceType = String(caseItem.sourceType ?? "").toLowerCase();
   const hasCore =
     hasText(caseItem.modelId) &&
