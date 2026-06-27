@@ -209,6 +209,8 @@ run_worker() {
     timeout_cmd=(timeout "$TIMEOUT_SECONDS")
   elif command -v gtimeout >/dev/null 2>&1; then
     timeout_cmd=(gtimeout "$TIMEOUT_SECONDS")
+  elif command -v perl >/dev/null 2>&1; then
+    timeout_cmd=(perl -e 'alarm shift; exec @ARGV' "$TIMEOUT_SECONDS")
   fi
   if [[ ${#timeout_cmd[@]} -gt 0 ]]; then
     worker_cmd=("${timeout_cmd[@]}" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")")
