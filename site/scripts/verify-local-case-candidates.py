@@ -8,11 +8,13 @@ import json
 import os
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 URL_PROBE_TIMEOUT_SECONDS = float(os.environ.get("MODEL_ATLAS_LOCAL_URL_PROBE_TIMEOUT_SECONDS", "10"))
+URL_PROBE_WORKERS = int(os.environ.get("MODEL_ATLAS_LOCAL_URL_PROBE_WORKERS", "16"))
 
 
 def is_http_url(value: str) -> bool:
@@ -55,6 +57,7 @@ def verify_file(path: Path, out_dir: Path) -> dict:
     checked_at = datetime.now(timezone.utc).isoformat()
     ok_pairs = 0
     total = 0
+    jobs = []
     for item in candidates:
         if not isinstance(item, dict):
             continue
@@ -64,11 +67,28 @@ def verify_file(path: Path, out_dir: Path) -> dict:
             probe_payload = {}
         for key in ("original_evidence_url", "artifact_url"):
             url = str(item.get(key) or "").strip()
-            ok, reason = probe_url(url)
-            probe_payload[key] = {"ok": ok, "reason": reason, "checked_at": checked_at}
-        if probe_payload["original_evidence_url"]["ok"] and probe_payload["artifact_url"]["ok"]:
-            ok_pairs += 1
+            jobs.append((item, probe_payload, key, url))
         item["local_url_probe"] = probe_payload
+
+    workers = max(1, URL_PROBE_WORKERS)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_map = {
+            executor.submit(probe_url, url): (probe_payload, key)
+            for _, probe_payload, key, url in jobs
+        }
+        for future in as_completed(future_map):
+            probe_payload, key = future_map[future]
+            ok, reason = future.result()
+            probe_payload[key] = {"ok": ok, "reason": reason, "checked_at": checked_at}
+
+    for item in candidates:
+        if not isinstance(item, dict):
+            continue
+        probe_payload = item.get("local_url_probe") if isinstance(item.get("local_url_probe"), dict) else {}
+        original_probe = probe_payload.get("original_evidence_url") if isinstance(probe_payload.get("original_evidence_url"), dict) else {}
+        artifact_probe = probe_payload.get("artifact_url") if isinstance(probe_payload.get("artifact_url"), dict) else {}
+        if original_probe.get("ok") and artifact_probe.get("ok"):
+            ok_pairs += 1
 
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / path.name
