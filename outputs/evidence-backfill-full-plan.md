@@ -5,10 +5,9 @@
 ## Summary
 
 - Models: 118
-<<<<<<< HEAD
-- Publishable models: 111
-- Limited models: 5
-- Archive models: 2
+- Publishable models: 0
+- Limited models: 0
+- Archive models: 0
 - Verified A-grade cases: 606
 - Models without A-grade cases: 7
 - Minimum public case line: 3 A-grade cases per model
@@ -21,23 +20,6 @@
 - P0 rows: 7
 - P1 rows: 16
 - P2 rows: 93
-=======
-- Publishable models: 68
-- Limited models: 48
-- Archive models: 2
-- Verified A-grade cases: 364
-- Models without A-grade cases: 50
-- Minimum public case line: 3 A-grade cases per model
-- Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 68
-- Models meeting full target line: 56
-- A-case deficit to minimum line: 150
-- A-case deficit to full target line: 270
-- Backfill rows: 118
-- P0 rows: 23
-- P1 rows: 26
-- P2 rows: 67
->>>>>>> f7d70d5 (chore: update Model Atlas data)
 - P3 rows: 2
 
 ## Operating Rule
@@ -74,37 +56,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 0 | 4 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-<<<<<<< HEAD
-=======
-| P0 | xAI / Grok | Grok 4.3 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Z AI / GLM | GLM-5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P1 | Google / Gemini | Gemini 1.5 Flash (May) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Google / Gemini | Gemini 2.0 Flash Thinking exp. (Jan) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Google / Gemini | Gemini 2.5 Pro (Mar) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Kimi / Moonshot AI | Kimi K2 0905 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | MiniMax | MiniMax M1 80k | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | OpenAI | GPT-3.5 Turbo | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen1.5 Chat 110B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen2 72B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen3 235B A22B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Qwen / Alibaba | Qwen3 Max Thinking | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Qwen / Alibaba | Qwen3 Max Thinking (Preview) | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Upstage / Solar | Solar Pro 2 | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Upstage / Solar | Solar Pro 3 | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | xAI / Grok | Grok 3 mini Reasoning (high) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P2 | ByteDance Seed | BAGEL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | ByteDance Seed | Seed1.5 VL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | ByteDance Seed | Seedance 1.0 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | ByteDance Seed | Seedance 2.0 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | Meta / Llama | Llama 2 Chat 7B | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | Meta / Llama | Llama 4 Maverick | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | Meta / Llama | Llama 65B | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | Upstage / Solar | Solar Mini | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | xAI / Grok | Grok 2 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | xAI / Grok | Grok Beta | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | xAI / Grok | Grok-1 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
->>>>>>> f7d70d5 (chore: update Model Atlas data)
 
 ## Full-Coverage Rule For Hermes
 

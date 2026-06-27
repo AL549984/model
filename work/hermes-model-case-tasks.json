@@ -1,24 +1,13 @@
 {
-<<<<<<< HEAD
-  "generatedAt": "2026-06-27T09:41:38.623Z",
-=======
-  "generatedAt": "2026-06-27T07:44:49.152Z",
->>>>>>> f7d70d5 (chore: update Model Atlas data)
+  "generatedAt": "2026-06-27T09:45:21.830Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-<<<<<<< HEAD
     "publicReady": 111,
     "fullCoverageReady": 93,
     "minDeficit": 21,
     "targetDeficit": 59
-=======
-    "publicReady": 68,
-    "fullCoverageReady": 56,
-    "minDeficit": 150,
-    "targetDeficit": 270
->>>>>>> f7d70d5 (chore: update Model Atlas data)
   },
   "tasks": [
     {
