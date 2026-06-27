@@ -89,7 +89,8 @@ def push(repo_dir: Path, branch: str, token: str) -> None:
     run_git_with_retry(
         ["git", "-c", f"http.https://github.com/.extraheader={header}", "push", "origin", f"HEAD:{branch}"],
         cwd=repo_dir,
-        timeout=120,
+        timeout=int(os.environ.get("MODEL_ATLAS_GIT_PUSH_TIMEOUT", "45")),
+        attempts=int(os.environ.get("MODEL_ATLAS_GIT_PUSH_ATTEMPTS", "2")),
     )
 
 

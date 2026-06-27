@@ -87,6 +87,18 @@ run_step() {
   echo "[$(date --iso-8601=seconds)] <<< $name"
 }
 
+run_optional_step() {
+  local name="$1"
+  shift
+  echo "[$(date --iso-8601=seconds)] >>> $name"
+  if "$@"; then
+    echo "[$(date --iso-8601=seconds)] <<< $name"
+  else
+    local code=$?
+    echo "[$(date --iso-8601=seconds)] !!! optional step failed: $name (exit=$code); continuing"
+  fi
+}
+
 remaining_target_deficit() {
   node - <<'NODE'
 const tasks = require("../work/hermes-model-case-tasks.json");
@@ -124,7 +136,7 @@ NODE
     run_step "post-round build site" npm run build
 
     if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then
-      run_step "post-round push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
+      run_optional_step "post-round push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
     else
       echo "Skipping post-round GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=${MODEL_ATLAS_PUSH_TO_GITHUB:-0}"
     fi
@@ -136,7 +148,7 @@ NODE
   run_step "build site" npm run build
 
   if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then
-    run_step "push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
+    run_optional_step "push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
   else
     echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=${MODEL_ATLAS_PUSH_TO_GITHUB:-0}"
   fi
