@@ -20,5 +20,12 @@
   "modelsMeetingMinCaseCoverage": 111,
   "modelsMeetingTargetCaseCoverage": 101,
   "caseDeficitToMin": 21,
-  "caseDeficitToTarget": 48
+  "caseDeficitToTarget": 48,
+  "activeModels": 116,
+  "activeModelsWithCases": 111,
+  "activeModelsWithoutCases": 5,
+  "activeModelsMeetingMinCaseCoverage": 111,
+  "activeModelsMeetingTargetCaseCoverage": 101,
+  "activeCaseDeficitToMin": 15,
+  "activeCaseDeficitToTarget": 38
 }

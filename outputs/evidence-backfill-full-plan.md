@@ -5,6 +5,7 @@
 ## Summary
 
 - Models: 118
+- Active models: 116
 - Publishable models: 111
 - Limited models: 5
 - Archive models: 2
@@ -14,8 +15,8 @@
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 111
 - Models meeting full target line: 101
-- A-case deficit to minimum line: 21
-- A-case deficit to full target line: 48
+- A-case deficit to minimum line: 15
+- A-case deficit to full target line: 38
 - Backfill rows: 118
 - P0 rows: 7
 - P1 rows: 8
