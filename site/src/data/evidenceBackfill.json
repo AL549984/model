@@ -194,18 +194,19 @@
     "modelName": "Grok 4.20 0309 v2",
     "vendorId": "xai",
     "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "aCaseCount": 3,
+    "publishability": "Limited",
+    "aCaseCount": 2,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 0,
-    "targetDeficit": 2,
+    "minDeficit": 1,
+    "targetDeficit": 3,
     "sourceCount": 2,
     "score": 49.33,
     "priority": "P0",
-    "status": "top_up_to_target",
-    "blocker": "已有 3 条 A 类案例，继续补到 5 条目标线。",
+    "status": "below_min_case_coverage",
+    "blocker": "已有 2 条 A 类案例，但低于 3 条公开达标线。",
     "requiredEvidence": [
+      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
@@ -249,7 +250,7 @@
         "url": "https://www.google.com/search?q=Grok%204.20%200309%20v2%20xAI%20%2F%20Grok%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+    "upgradeGate": "已有案例但未达标；补到至少 3 条 A 类案例后，才能公开达标。"
   },
   {
     "modelId": "claude-2-0",
@@ -4311,7 +4312,7 @@
     "vendorId": "openai",
     "vendor": "OpenAI",
     "publishability": "Publishable",
-    "aCaseCount": 7,
+    "aCaseCount": 12,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -6096,7 +6097,7 @@
     "vendorId": "upstage",
     "vendor": "Upstage / Solar",
     "publishability": "Publishable",
-    "aCaseCount": 5,
+    "aCaseCount": 7,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -6402,7 +6403,7 @@
     "vendorId": "xai",
     "vendor": "xAI / Grok",
     "publishability": "Publishable",
-    "aCaseCount": 5,
+    "aCaseCount": 7,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
