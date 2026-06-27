@@ -53,6 +53,18 @@ if [[ "${#new_files[@]}" == "0" ]]; then
   exit 0
 fi
 
+upload_files=("${new_files[@]}")
+verify_tmp_dir=""
+trap '[[ -n "$verify_tmp_dir" ]] && rm -rf "$verify_tmp_dir"' EXIT
+if [[ "${MODEL_ATLAS_LOCAL_VERIFY_CANDIDATES:-1}" != "0" ]]; then
+  verify_tmp_dir="$(mktemp -d "${TMPDIR:-/tmp}/model-atlas-verified.XXXXXX")"
+  python3 "$SITE_DIR/scripts/verify-local-case-candidates.py" --out-dir "$verify_tmp_dir" "${new_files[@]}"
+  upload_files=()
+  for file in "${new_files[@]}"; do
+    upload_files+=("$verify_tmp_dir/$(basename "$file")")
+  done
+fi
+
 ssh_base=(ssh -o ServerAliveInterval=20 -o ServerAliveCountMax=3 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null)
 scp_base=(scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null)
 if [[ -n "${SSHPASS:-}" ]] && command -v sshpass >/dev/null 2>&1; then
@@ -61,7 +73,7 @@ if [[ -n "${SSHPASS:-}" ]] && command -v sshpass >/dev/null 2>&1; then
 fi
 
 "${ssh_base[@]}" "$CLOUD_USER@$CLOUD_HOST" "mkdir -p '$CLOUD_IMPORT_DIR'"
-"${scp_base[@]}" "${new_files[@]}" "$CLOUD_USER@$CLOUD_HOST:$CLOUD_IMPORT_DIR/"
+"${scp_base[@]}" "${upload_files[@]}" "$CLOUD_USER@$CLOUD_HOST:$CLOUD_IMPORT_DIR/"
 
 remote_files=()
 for file in "${new_files[@]}"; do
@@ -77,6 +89,7 @@ done
 "${ssh_base[@]}" "$CLOUD_USER@$CLOUD_HOST" "set -euo pipefail
 export HOME=/home/ubuntu
 export LARK_CLI_HOME=/home/ubuntu/.lark-cli
+export MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF=\"\${MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF:-1}\"
 export PATH=\"\$HOME/.local/bin:\$HOME/.hermes/node/bin:\$HOME/node-v24/bin:\$HOME/node-v22/bin:\$HOME/bin:/usr/local/bin:/usr/bin:/bin:\$PATH\"
 cd '$CLOUD_REPO_DIR/site'
 import_failed=0

@@ -61,6 +61,7 @@ OFFICIAL_VENDOR_DOMAINS = {
     "bytedance-seed": ["seed.bytedance.com"],
 }
 URL_PROBE_TIMEOUT_SECONDS = float(os.environ.get("MODEL_ATLAS_URL_PROBE_TIMEOUT_SECONDS", "10"))
+ACCEPT_LOCAL_URL_PROOF = os.environ.get("MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF", "0") == "1"
 
 
 def load_env() -> None:
@@ -169,6 +170,14 @@ def normalize_case(raw: dict) -> dict:
     if not fields["case_id"]:
         seed = "-".join([fields["model_id"], fields["case_title"], fields["original_evidence_url"]])
         fields["case_id"] = "".join(ch.lower() if ch.isalnum() else "-" for ch in seed).strip("-")[:120]
+    local_probe = raw.get("local_url_probe") if isinstance(raw.get("local_url_probe"), dict) else {}
+    for field_name, probe_key in (
+        ("original_evidence_url", "__local_original_url_probe"),
+        ("artifact_url", "__local_artifact_url_probe"),
+    ):
+        probe = local_probe.get(field_name) if isinstance(local_probe.get(field_name), dict) else {}
+        fields[f"{probe_key}_ok"] = "true" if probe.get("ok") is True else "false"
+        fields[f"{probe_key}_reason"] = str(probe.get("reason") or "").strip()
     return fields
 
 
@@ -217,6 +226,14 @@ def probe_url(value: str) -> tuple[bool, str]:
     return False, last
 
 
+def local_probe_ok(fields: dict, probe_key: str) -> tuple[bool, str]:
+    if not ACCEPT_LOCAL_URL_PROOF:
+        return False, ""
+    if fields.get(f"{probe_key}_ok") == "true":
+        return True, fields.get(f"{probe_key}_reason") or "local_verified"
+    return False, ""
+
+
 def validate_case(fields: dict) -> tuple[bool, str]:
     required = [
         "case_id",
@@ -242,10 +259,14 @@ def validate_case(fields: dict) -> tuple[bool, str]:
 
     original_url = fields["original_evidence_url"]
     artifact_url = fields["artifact_url"]
-    original_ok, original_reason = probe_url(original_url)
+    original_ok, original_reason = local_probe_ok(fields, "__local_original_url_probe")
+    if not original_ok:
+        original_ok, original_reason = probe_url(original_url)
     if not original_ok:
         return False, f"bad_original_url:{original_reason}"
-    artifact_ok, artifact_reason = probe_url(artifact_url)
+    artifact_ok, artifact_reason = local_probe_ok(fields, "__local_artifact_url_probe")
+    if not artifact_ok:
+        artifact_ok, artifact_reason = probe_url(artifact_url)
     if not artifact_ok:
         return False, f"bad_artifact_url:{artifact_reason}"
 
@@ -309,7 +330,7 @@ def main() -> int:
             skipped += 1
             continue
         record_id = next((existing.get(key) for key in dedupe_key(fields) if existing.get(key)), None)
-        body = {"fields": fields}
+        body = {"fields": {key: fields[key] for key in CASE_FIELDS}}
         if record_id:
             request_json(
                 f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/{record_id}",
