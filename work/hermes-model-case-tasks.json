@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-27T10:06:09.585Z",
+  "generatedAt": "2026-06-27T10:07:41.322Z",
   "summary": {
     "models": 118,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 112,
-    "fullCoverageReady": 103,
-    "minDeficit": 12,
-    "targetDeficit": 32,
-    "allModelMinDeficit": 18,
-    "allModelTargetDeficit": 42
+    "publicReady": 114,
+    "fullCoverageReady": 104,
+    "minDeficit": 6,
+    "targetDeficit": 24,
+    "allModelMinDeficit": 12,
+    "allModelTargetDeficit": 34
   },
   "tasks": [
     {
@@ -11718,20 +11718,20 @@
       "modelName": "GPT-5.3 Codex (xhigh)",
       "vendorId": "openai",
       "vendor": "OpenAI",
-      "priority": "P0",
-      "status": "identity_first",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://platform.openai.com/docs/models",
@@ -14515,20 +14515,20 @@
       "modelName": "Grok 4.20 0309",
       "vendorId": "xai",
       "vendor": "xAI / Grok",
-      "priority": "P2",
-      "status": "target_met_snapshot_refresh",
+      "priority": "P0",
+      "status": "top_up_to_target",
       "publishability": "Publishable",
-      "aCaseCount": 5,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 0,
+      "targetDeficit": 2,
       "publicReady": true,
-      "fullCoverageReady": true,
+      "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 12,
-        "maxCandidatesPerRun": 24
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://docs.x.ai/docs/models",
@@ -14655,20 +14655,20 @@
       "modelName": "Grok 4.20 0309 v2",
       "vendorId": "xai",
       "vendor": "xAI / Grok",
-      "priority": "P0",
-      "status": "identity_first",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.x.ai/docs/models",
