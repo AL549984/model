@@ -8,18 +8,18 @@
 - Publishable models: 110
 - Limited models: 6
 - Archive models: 2
-- Verified A-grade cases: 583
+- Verified A-grade cases: 585
 - Models without A-grade cases: 7
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 110
-- Models meeting full target line: 86
+- Models meeting full target line: 88
 - A-case deficit to minimum line: 22
-- A-case deficit to full target line: 74
+- A-case deficit to full target line: 72
 - Backfill rows: 118
-- P0 rows: 11
-- P1 rows: 19
-- P2 rows: 86
+- P0 rows: 10
+- P1 rows: 18
+- P2 rows: 88
 - P3 rows: 2
 
 ## Operating Rule
@@ -43,7 +43,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | ByteDance Seed | Seed2.1 Pro | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
-| OpenAI | GPT-5.2 (xhigh) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | GPT-5.2 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.5 (xhigh) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | GPT-5.5 (xhigh) OpenAI case study customer |
 | Qwen / Alibaba | Qwen3.5 397B A17B | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Qwen3.5 397B A17B Qwen / Alibaba case study customer |
