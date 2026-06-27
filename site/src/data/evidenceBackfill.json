@@ -383,70 +383,6 @@
     "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
   },
   {
-    "modelId": "gpt-5-4-xhigh",
-    "slug": "gpt-5-4-xhigh",
-    "modelName": "GPT-5.4 (xhigh)",
-    "vendorId": "openai",
-    "vendor": "OpenAI",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 2,
-    "score": 56.8,
-    "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "OpenAI customer stories / news",
-      "OpenAI platform model docs",
-      "customer product blog or press release"
-    ],
-    "searchQueries": [
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI case study customer",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20case%20study%20customer"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI built with GitHub demo",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI production use product blog",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20production%20use%20product%20blog"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI GitHub README built with",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "GPT-5.4 (xhigh) OpenAI 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
     "modelId": "gpt-5-5-xhigh",
     "slug": "gpt-5-5-xhigh",
     "modelName": "GPT-5.5 (xhigh)",
@@ -516,19 +452,18 @@
     "modelName": "Qwen3.5 397B A17B",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen / Alibaba",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 4,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 1,
     "sourceCount": 4,
     "score": 45.05,
     "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
+    "status": "top_up_to_target",
+    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
@@ -572,7 +507,7 @@
         "url": "https://www.google.com/search?q=Qwen3.5%20397B%20A17B%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "qwen3-6-max-preview",
@@ -634,70 +569,6 @@
       {
         "query": "Qwen3.6 Max Preview Qwen / Alibaba 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Qwen3.6%20Max%20Preview%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "qwen3-6-plus",
-    "slug": "qwen3-6-plus",
-    "modelName": "Qwen3.6 Plus",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 4,
-    "score": 49.98,
-    "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "Qwen official blog / docs",
-      "ModelScope or GitHub model page",
-      "developer project demos with source"
-    ],
-    "searchQueries": [
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba case study customer",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20case%20study%20customer"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba built with GitHub demo",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba production use product blog",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba GitHub README built with",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Qwen3.6 Plus Qwen / Alibaba 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
@@ -5651,6 +5522,68 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "gpt-5-4-xhigh",
+    "slug": "gpt-5-4-xhigh",
+    "modelName": "GPT-5.4 (xhigh)",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 2,
+    "score": 56.8,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "OpenAI customer stories / news",
+      "OpenAI platform model docs",
+      "customer product blog or press release"
+    ],
+    "searchQueries": [
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI case study customer",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20case%20study%20customer"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI built with GitHub demo",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI production use product blog",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20production%20use%20product%20blog"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI GitHub README built with",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "GPT-5.4 (xhigh) OpenAI 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=GPT-5.4%20(xhigh)%20OpenAI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "o1",
     "slug": "o1",
     "modelName": "o1",
@@ -6198,6 +6131,68 @@
       {
         "query": "Qwen3 Max Qwen / Alibaba 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Qwen3%20Max%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "qwen3-6-plus",
+    "slug": "qwen3-6-plus",
+    "modelName": "Qwen3.6 Plus",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 4,
+    "score": 49.98,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.6 Plus Qwen / Alibaba 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.6%20Plus%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
