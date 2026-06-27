@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-27T10:36:18.351Z",
+  "generatedAt": "2026-06-27T10:39:37.060Z",
   "summary": {
     "models": 118,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 115,
-    "fullCoverageReady": 115,
-    "minDeficit": 1,
-    "targetDeficit": 3,
-    "allModelMinDeficit": 7,
-    "allModelTargetDeficit": 13
+    "publicReady": 116,
+    "fullCoverageReady": 116,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "allModelMinDeficit": 6,
+    "allModelTargetDeficit": 10
   },
   "tasks": [
     {
@@ -14518,7 +14518,7 @@
       "priority": "P2",
       "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 7,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
@@ -14655,20 +14655,20 @@
       "modelName": "Grok 4.20 0309 v2",
       "vendorId": "xai",
       "vendor": "xAI / Grok",
-      "priority": "P0",
-      "status": "below_min_case_coverage",
-      "publishability": "Limited",
-      "aCaseCount": 2,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 1,
-      "targetDeficit": 3,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 36,
-        "maxCandidatesPerRun": 54
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.x.ai/docs/models",
