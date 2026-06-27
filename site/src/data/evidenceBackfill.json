@@ -6398,7 +6398,7 @@
     "vendorId": "xai",
     "vendor": "xAI / Grok",
     "publishability": "Publishable",
-    "aCaseCount": 5,
+    "aCaseCount": 7,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
