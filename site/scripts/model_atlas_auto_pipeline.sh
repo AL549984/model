@@ -4,8 +4,8 @@ set -euo pipefail
 # Production-style Model Atlas pipeline, copied from the Tencent Research
 # pattern: one locked shell entrypoint owns sync, export, build and publish.
 
-export HOME="${HOME:-/home/ubuntu}"
-export LARK_CLI_HOME="${LARK_CLI_HOME:-/home/ubuntu/.lark-cli}"
+export HOME="${HOME:-$(cd ~ && pwd)}"
+export LARK_CLI_HOME="${LARK_CLI_HOME:-$HOME/.lark-cli}"
 export PATH="$HOME/.local/bin:$HOME/.hermes/node/bin:$HOME/node-v24/bin:$HOME/node-v22/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -28,7 +28,7 @@ resolve_site_dir() {
 
 SITE_DIR="$(resolve_site_dir)"
 REPO_DIR="${MODEL_ATLAS_REPO_DIR:-$(cd "$SITE_DIR/.." && pwd)}"
-PROFILE="${MODEL_ATLAS_PROFILE:-/home/ubuntu/.hermes}"
+PROFILE="${MODEL_ATLAS_PROFILE:-$HOME/.hermes}"
 LOG_DIR="${MODEL_ATLAS_LOG_DIR:-$PROFILE/data/model_atlas_logs}"
 LOCK_PATH="${MODEL_ATLAS_LOCK_PATH:-$PROFILE/data/model_atlas_locks/auto_pipeline.lock}"
 

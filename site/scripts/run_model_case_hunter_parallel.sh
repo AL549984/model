@@ -5,7 +5,7 @@ set -euo pipefail
 # by sharding model tasks across multiple workers while keeping import
 # validation centralized and strict.
 
-export HOME="${HOME:-/home/ubuntu}"
+export HOME="${HOME:-$(cd ~ && pwd)}"
 export PATH="$HOME/.local/bin:$HOME/.hermes/node/bin:$HOME/node-v24/bin:$HOME/node-v22/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -28,7 +28,7 @@ resolve_site_dir() {
 
 SITE_DIR="$(resolve_site_dir)"
 REPO_DIR="${MODEL_ATLAS_REPO_DIR:-$(cd "$SITE_DIR/.." && pwd)}"
-PROFILE="${MODEL_ATLAS_PROFILE:-/home/ubuntu/.hermes}"
+PROFILE="${MODEL_ATLAS_PROFILE:-$HOME/.hermes}"
 
 load_env_file() {
   local file="$1"

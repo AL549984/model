@@ -4,7 +4,7 @@ set -euo pipefail
 # Batch runner for the default Hermes Agent. The static site exports structured
 # tasks; Hermes owns the real crawling and writes candidate case rows to Feishu.
 
-export HOME="${HOME:-/home/ubuntu}"
+export HOME="${HOME:-$(cd ~ && pwd)}"
 export PATH="$HOME/.local/bin:$HOME/.hermes/node/bin:$HOME/node-v24/bin:$HOME/node-v22/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -27,7 +27,7 @@ resolve_site_dir() {
 
 SITE_DIR="$(resolve_site_dir)"
 REPO_DIR="${MODEL_ATLAS_REPO_DIR:-$(cd "$SITE_DIR/.." && pwd)}"
-PROFILE="${MODEL_ATLAS_PROFILE:-/home/ubuntu/.hermes}"
+PROFILE="${MODEL_ATLAS_PROFILE:-$HOME/.hermes}"
 STATE_PATH="${MODEL_ATLAS_CASE_HUNTER_STATE:-$PROFILE/state/model_atlas_case_hunter_state.json}"
 LOG_DIR="${MODEL_ATLAS_CASE_HUNTER_LOG_DIR:-$PROFILE/data/model_atlas_logs/case_hunter}"
 OUT_DIR="${MODEL_ATLAS_CASE_HUNTER_OUT_DIR:-$PROFILE/data/model_atlas_case_candidates}"
