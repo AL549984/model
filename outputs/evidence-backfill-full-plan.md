@@ -6,21 +6,21 @@
 
 - Models: 118
 - Active models: 116
-- Publishable models: 114
-- Limited models: 2
+- Publishable models: 115
+- Limited models: 1
 - Archive models: 2
-- Verified A-grade cases: 636
-- Models without A-grade cases: 4
+- Verified A-grade cases: 640
+- Models without A-grade cases: 3
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 114
-- Models meeting full target line: 104
-- A-case deficit to minimum line: 6
-- A-case deficit to full target line: 24
+- Models meeting minimum line: 115
+- Models meeting full target line: 105
+- A-case deficit to minimum line: 3
+- A-case deficit to full target line: 19
 - Backfill rows: 118
-- P0 rows: 6
+- P0 rows: 5
 - P1 rows: 6
-- P2 rows: 104
+- P2 rows: 105
 - P3 rows: 2
 
 ## Operating Rule
@@ -44,7 +44,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Anthropic / Claude | Claude Mythos 5 | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude Mythos 5 Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Turbo | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
-| Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
 | xAI / Grok | Grok 4.20 0309 | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Grok 4.20 0309 xAI / Grok case study customer |
 
 ## All Limited Rows
@@ -52,7 +51,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Priority | Vendor | Model | Status | A cases | Source count | Blocker |
 |---|---|---|---|---:|---:|---|
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 0 | 4 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 
 ## Full-Coverage Rule For Hermes
 
