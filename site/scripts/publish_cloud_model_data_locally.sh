@@ -40,7 +40,8 @@ trap 'rm -f "$tmp_tar"' EXIT
 (
   cd "$REPO_DIR"
   git restore --staged --worktree -- work/hermes-model-case-tasks.json work/evidence-backfill-intake.tsv outputs/evidence-backfill-full-plan.md site/src/data/evidenceBackfill.json >/dev/null 2>&1 || true
-  git pull --rebase --autostash origin main
+  git fetch origin main
+  git rebase --autostash FETCH_HEAD
   tar -xzf "$tmp_tar" -C "$REPO_DIR"
   git add site/src/data site/package.json site/package-lock.json work/evidence-backfill-intake.tsv work/hermes-model-case-tasks.json outputs/evidence-backfill-full-plan.md outputs/hermes-feishu-automation.md
   if git diff --cached --quiet; then
