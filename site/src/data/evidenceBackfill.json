@@ -5742,7 +5742,7 @@
     "vendorId": "kimi",
     "vendor": "Kimi / Moonshot AI",
     "publishability": "Publishable",
-    "aCaseCount": 5,
+    "aCaseCount": 6,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
