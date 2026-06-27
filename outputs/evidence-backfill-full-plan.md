@@ -8,18 +8,18 @@
 - Publishable models: 111
 - Limited models: 5
 - Archive models: 2
-- Verified A-grade cases: 609
+- Verified A-grade cases: 615
 - Models without A-grade cases: 7
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 111
-- Models meeting full target line: 96
+- Models meeting full target line: 100
 - A-case deficit to minimum line: 21
-- A-case deficit to full target line: 55
+- A-case deficit to full target line: 49
 - Backfill rows: 118
 - P0 rows: 7
-- P1 rows: 13
-- P2 rows: 96
+- P1 rows: 9
+- P2 rows: 100
 - P3 rows: 2
 
 ## Operating Rule
@@ -39,8 +39,8 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 
 | Vendor | Model | Status | Blocker | First search query |
 |---|---|---|---|---|
+| Anthropic / Claude | Claude 4.5 Sonnet | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude 4.5 Sonnet Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude Mythos 5 | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude Mythos 5 Anthropic / Claude case study customer |
-| ByteDance Seed | Seed2.1 Pro | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
