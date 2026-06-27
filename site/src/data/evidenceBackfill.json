@@ -699,134 +699,6 @@
     "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
   },
   {
-    "modelId": "grok-4-3-high",
-    "slug": "grok-4-3-high",
-    "modelName": "Grok 4.3 (high)",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 2,
-    "score": 53.2,
-    "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "xAI docs / release posts",
-      "X product announcements with snapshots",
-      "customer or developer artifacts"
-    ],
-    "searchQueries": [
-      {
-        "query": "Grok 4.3 (high) xAI / Grok case study customer",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20case%20study%20customer"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok built with GitHub demo",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok production use product blog",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok GitHub README built with",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Grok 4.3 (high) xAI / Grok 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "glm-5-1",
-    "slug": "glm-5-1",
-    "modelName": "GLM-5.1",
-    "vendorId": "z-ai",
-    "vendor": "Z AI / GLM",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 2,
-    "score": 51.41,
-    "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "GLM-5.1 Z AI / GLM case study customer",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20case%20study%20customer"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM built with GitHub demo",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM production use product blog",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20production%20use%20product%20blog"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM GitHub README built with",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "GLM-5.1 Z AI / GLM 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
     "modelId": "claude-2-0",
     "slug": "claude-2-0",
     "modelName": "Claude 2.0",
@@ -6618,6 +6490,68 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "grok-4-3-high",
+    "slug": "grok-4-3-high",
+    "modelName": "Grok 4.3 (high)",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 2,
+    "score": 53.2,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "xAI docs / release posts",
+      "X product announcements with snapshots",
+      "customer or developer artifacts"
+    ],
+    "searchQueries": [
+      {
+        "query": "Grok 4.3 (high) xAI / Grok case study customer",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20case%20study%20customer"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok built with GitHub demo",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok production use product blog",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok GitHub README built with",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Grok 4.3 (high) xAI / Grok 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Grok%204.3%20(high)%20xAI%20%2F%20Grok%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "grok-beta",
     "slug": "grok-beta",
     "modelName": "Grok Beta",
@@ -7164,6 +7098,68 @@
       {
         "query": "GLM-5 Z AI / GLM 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=GLM-5%20Z%20AI%20%2F%20GLM%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "glm-5-1",
+    "slug": "glm-5-1",
+    "modelName": "GLM-5.1",
+    "vendorId": "z-ai",
+    "vendor": "Z AI / GLM",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 2,
+    "score": 51.41,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "GLM-5.1 Z AI / GLM case study customer",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20case%20study%20customer"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM built with GitHub demo",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM production use product blog",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20production%20use%20product%20blog"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM GitHub README built with",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "GLM-5.1 Z AI / GLM 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=GLM-5.1%20Z%20AI%20%2F%20GLM%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"

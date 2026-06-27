@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 108
-- Limited models: 8
+- Publishable models: 110
+- Limited models: 6
 - Archive models: 2
-- Verified A-grade cases: 573
-- Models without A-grade cases: 9
+- Verified A-grade cases: 583
+- Models without A-grade cases: 7
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 108
-- Models meeting full target line: 84
-- A-case deficit to minimum line: 28
-- A-case deficit to full target line: 84
+- Models meeting minimum line: 110
+- Models meeting full target line: 86
+- A-case deficit to minimum line: 22
+- A-case deficit to full target line: 74
 - Backfill rows: 118
-- P0 rows: 13
+- P0 rows: 11
 - P1 rows: 19
-- P2 rows: 84
+- P2 rows: 86
 - P3 rows: 2
 
 ## Operating Rule
@@ -50,8 +50,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.7 Max | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Qwen3.7 Max Qwen / Alibaba case study customer |
 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
-| xAI / Grok | Grok 4.3 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.3 (high) xAI / Grok case study customer |
-| Z AI / GLM | GLM-5.1 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GLM-5.1 Z AI / GLM case study customer |
 
 ## All Limited Rows
 
@@ -63,8 +61,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 0 | 4 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | xAI / Grok | Grok 4.3 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 
 ## Full-Coverage Rule For Hermes
 
