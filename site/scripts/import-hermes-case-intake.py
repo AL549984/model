@@ -60,7 +60,7 @@ OFFICIAL_VENDOR_DOMAINS = {
     "z-ai": ["z.ai", "zhipuai.cn"],
     "bytedance-seed": ["seed.bytedance.com"],
 }
-URL_PROBE_TIMEOUT_SECONDS = float(os.environ.get("MODEL_ATLAS_URL_PROBE_TIMEOUT_SECONDS", "5"))
+URL_PROBE_TIMEOUT_SECONDS = float(os.environ.get("MODEL_ATLAS_URL_PROBE_TIMEOUT_SECONDS", "10"))
 
 
 def load_env() -> None:
@@ -212,7 +212,8 @@ def probe_url(value: str) -> tuple[bool, str]:
                 return True, f"http_{exc.code}"
             last = f"http_{exc.code}"
         except Exception as exc:
-            last = type(exc).__name__
+            detail = str(exc).replace("\n", " ").strip()
+            last = type(exc).__name__ if not detail else f"{type(exc).__name__}:{detail[:120]}"
     return False, last
 
 
