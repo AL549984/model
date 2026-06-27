@@ -29,6 +29,8 @@ REPO_DIR="${MODEL_ATLAS_REPO_DIR:-$(cd "$SITE_DIR/.." && pwd)}"
 PROFILE="${MODEL_ATLAS_PROFILE:-$HOME/.hermes}"
 LOG_DIR="${MODEL_ATLAS_LOG_DIR:-$PROFILE/data/model_atlas_logs}"
 ROUNDS="${MODEL_ATLAS_LOCAL_GATHER_ROUNDS:-80}"
+WORKERS="${MODEL_ATLAS_CASE_HUNTER_WORKERS:-8}"
+MODELS_PER_WORKER="${MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER:-1}"
 
 load_env_file() {
   local file="$1"
@@ -72,20 +74,36 @@ run_step() {
   fi
 }
 
+sync_repo_before_round() {
+  if ! command -v git >/dev/null 2>&1; then
+    echo "[$(timestamp)] git not found; skip latest data sync"
+    return 0
+  fi
+  if [[ ! -d "$REPO_DIR/.git" ]]; then
+    echo "[$(timestamp)] $REPO_DIR is not a git repo; skip latest data sync"
+    return 0
+  fi
+  (
+    cd "$REPO_DIR"
+    git pull --rebase --autostash origin main
+  )
+}
+
 {
   echo "[$(timestamp)] Model Atlas local gather started"
   echo "SITE_DIR=$SITE_DIR"
   echo "REPO_DIR=$REPO_DIR"
   echo "ROUNDS=$ROUNDS"
-  echo "WORKERS=${MODEL_ATLAS_CASE_HUNTER_WORKERS:-4}"
-  echo "MODELS_PER_WORKER=${MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER:-1}"
+  echo "WORKERS=$WORKERS"
+  echo "MODELS_PER_WORKER=$MODELS_PER_WORKER"
   cd "$SITE_DIR"
 
   for round in $(seq 1 "$ROUNDS"); do
     echo "[$(timestamp)] === local gather round $round/$ROUNDS ==="
+    run_step "sync latest repo data" sync_repo_before_round || echo "[$(timestamp)] latest data sync failed; continue with local data"
     run_step "generate evidence backfill" npm run evidence:backfill || exit $?
     run_step "export Hermes case tasks" npm run hermes:tasks || exit $?
-    run_step "parallel Hermes case hunter without import" env MODEL_ATLAS_CASE_HUNTER_IMPORT=0 bash scripts/run_model_case_hunter_parallel.sh || exit $?
+    run_step "parallel Hermes case hunter without import" env MODEL_ATLAS_CASE_HUNTER_IMPORT=0 MODEL_ATLAS_CASE_HUNTER_WORKERS="$WORKERS" MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER="$MODELS_PER_WORKER" bash scripts/run_model_case_hunter_parallel.sh || exit $?
   done
 
   echo "[$(timestamp)] Model Atlas local gather finished"
