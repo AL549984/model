@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 55
-- Limited models: 61
+- Publishable models: 63
+- Limited models: 53
 - Archive models: 2
-- Verified A-grade cases: 297
-- Models without A-grade cases: 62
+- Verified A-grade cases: 334
+- Models without A-grade cases: 55
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 55
-- Models meeting full target line: 45
-- A-case deficit to minimum line: 188
-- A-case deficit to full target line: 329
+- Models meeting minimum line: 63
+- Models meeting full target line: 52
+- A-case deficit to minimum line: 165
+- A-case deficit to full target line: 292
 - Backfill rows: 118
-- P0 rows: 24
-- P1 rows: 36
-- P2 rows: 56
+- P0 rows: 23
+- P1 rows: 30
+- P2 rows: 63
 - P3 rows: 2
 
 ## Operating Rule
@@ -48,7 +48,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude Opus 4.7 (max) Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Pro | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
-| OpenAI | GPT-4o (Aug) | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | GPT-4o (Aug) OpenAI case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.2 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.2 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
@@ -77,7 +76,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | Anthropic / Claude | Claude Opus 4.7 (max) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Pro | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Turbo | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | OpenAI | GPT-4o (Aug) | below_min_case_coverage | 1 | 2 | 已有 1 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.2 (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
@@ -93,31 +91,24 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | Z AI / GLM | GLM-5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P1 | DeepSeek | DeepSeek-V2.5 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Google / Gemini | Gemini 1.0 Ultra | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Google / Gemini | Gemini 1.5 Flash (May) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Google / Gemini | Gemini 2.0 Flash Thinking exp. (Jan) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Google / Gemini | Gemini 2.5 Pro (Mar) | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Kimi / Moonshot AI | Kimi K2 0905 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | MiniMax | MiniMax M1 80k | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | OpenAI | GPT-3.5 Turbo | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | OpenAI | o1 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen Chat 14B | needs_a_case | 0 | 4 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen Chat 72B | needs_a_case | 0 | 4 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen1.5 Chat 110B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen2 72B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen3 235B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 235B A22B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Qwen / Alibaba | Qwen3 Max | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 Max Thinking | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 Max Thinking (Preview) | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Qwen / Alibaba | QwQ-32B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | StepFun / Step | Step 3.7 Flash | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Upstage / Solar | Solar Open 100B | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Upstage / Solar | Solar Pro 2 | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Upstage / Solar | Solar Pro 3 | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | xAI / Grok | Grok 3 mini Reasoning (high) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Z AI / GLM | GLM-4.5 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Z AI / GLM | GLM-4.6 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | ByteDance Seed | BAGEL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | ByteDance Seed | Seed1.5 VL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | ByteDance Seed | Seedance 1.0 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
