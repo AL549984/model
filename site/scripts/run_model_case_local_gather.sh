@@ -103,7 +103,7 @@ sync_repo_before_round() {
     run_step "sync latest repo data" sync_repo_before_round || echo "[$(timestamp)] latest data sync failed; continue with local data"
     run_step "generate evidence backfill" npm run evidence:backfill || exit $?
     run_step "export Hermes case tasks" npm run hermes:tasks || exit $?
-    run_step "parallel Hermes case hunter without import" env MODEL_ATLAS_CASE_HUNTER_IMPORT=0 MODEL_ATLAS_CASE_HUNTER_WORKERS="$WORKERS" MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER="$MODELS_PER_WORKER" bash scripts/run_model_case_hunter_parallel.sh || exit $?
+    run_step "parallel Hermes case hunter without import" env MODEL_ATLAS_CASE_HUNTER_IMPORT=0 MODEL_ATLAS_CASE_HUNTER_WORKERS="$WORKERS" MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER="$MODELS_PER_WORKER" bash scripts/run_model_case_hunter_parallel.sh || echo "[$(timestamp)] parallel case hunter had missing/failed workers; continue to next round"
   done
 
   echo "[$(timestamp)] Model Atlas local gather finished"
