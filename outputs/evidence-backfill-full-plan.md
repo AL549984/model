@@ -9,7 +9,7 @@
 - Publishable models: 116
 - Limited models: 0
 - Archive models: 2
-- Verified A-grade cases: 682
+- Verified A-grade cases: 680
 - Models without A-grade cases: 2
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model

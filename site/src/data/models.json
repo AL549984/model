@@ -6535,7 +6535,7 @@
     "vendorId": "xai",
     "vendor": "xAI / Grok",
     "publishability": "Publishable",
-    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok 4.20 0309 v2 的完整模型表记录。",
     "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
@@ -6572,7 +6572,7 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 7,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [

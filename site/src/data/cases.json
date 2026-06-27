@@ -12826,12 +12826,12 @@
     "taskDescription": "apigrok 是通过 OpenRouter API 调用 xAI Grok 4.20 Multi-Agent 的命令行工具，支持 Web 搜索、X.com 搜索过滤、Markdown 模板、流式输出和结果保存。",
     "outputResult": "公开仓库包含 CLI 工具、模型映射、搜索插件/tool 调用、X handle 过滤参数、模板加载和 reply.<timestamp>.md 保存逻辑。",
     "modelContribution": "Grok 4.20 Multi-Agent 作为默认研究模型，读取任务或模板并结合 Web/X 搜索上下文输出 Markdown 研究回答。",
-    "evidenceGrade": "A",
-    "showcaseEligible": true,
+    "evidenceGrade": "B",
+    "showcaseEligible": false,
     "selectedForModelCard": false,
     "riskNotes": "质量修正：证据绑定 Grok 4.20 Multi-Agent / x-ai/grok-4.20-multi-agent，但未写 0309 v2 后缀；保留为非精选 B 类参考，不再计入 Grok 4.20 0309 v2 的 A 类覆盖。",
     "collectedAt": "2026-06-27T10:42:00Z",
-    "reviewStatus": "auto_approved"
+    "reviewStatus": "auto_demoted_variant_binding_weak"
   },
   {
     "id": "grok-4-20-0309-dakshjain-multiagent-simulator",
@@ -15632,12 +15632,12 @@
     "taskDescription": "Virlo AI 是一个从产品 URL 生成 UGC 广告视频的全栈项目；backend/src/services/grokService.js 将 GROK_MODEL 设置为 grok-4-20-reasoning，用于脚本、Hook、头像建议、趋势脚本和分镜生成。",
     "outputResult": "公开仓库提供 Next.js/Express 单体仓、视频生成 API、异步 job 结果结构和 GrokService 实现。",
     "modelContribution": "Grok 4.20 系列承担广告脚本、Hook、CTA、趋势角度、头像建议和场景级分镜提示生成。",
-    "evidenceGrade": "A",
-    "showcaseEligible": true,
+    "evidenceGrade": "B",
+    "showcaseEligible": false,
     "selectedForModelCard": false,
     "riskNotes": "质量修正：证据代码明确使用 grok-4-20-reasoning，但未写 0309 后缀或 v2 变体；保留为非精选 B 类参考，不再计入 Grok 4.20 0309 v2 的 A 类覆盖。",
     "collectedAt": "2026-06-27T10:42:00Z",
-    "reviewStatus": "auto_approved"
+    "reviewStatus": "auto_demoted_variant_binding_weak"
   },
   {
     "id": "grok-4-20-0309-v2-alphaone-ai-memory-a2a",
