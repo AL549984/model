@@ -154,10 +154,10 @@ write_prompt() {
 你是云端 default Agent 的 Model Atlas Case Hunter。全自动执行，不需要人工审核。
 
 输入任务文件：
-$batch_json
+${batch_json}
 
 输出候选文件：
-$out_json
+${out_json}
 
 目标：
 - 每个模型至少补到 3 条 A 类真实使用案例，完整目标是 5 条。
@@ -190,7 +190,7 @@ A 类候选必须同时满足：
   selected_for_model_card, review_status
 - source_type 固定 real_case；evidence_grade 固定 A；showcase_eligible 和 selected_for_model_card 用 true；review_status 用 auto_approved_candidate。
 - 如果只找到弱证据，不要写入 cases。
-- 完成后只需要写入 $out_json，不要直接写飞书；外层脚本会导入。
+- 完成后只需要写入 ${out_json}，不要直接写飞书；外层脚本会导入。
 EOF
 }
 
@@ -232,6 +232,7 @@ for pid in "${pids[@]}"; do
 done
 
 imported=0
+missing=0
 for shard in "${SHARDS[@]}"; do
   worker_name="$(basename "$shard" -batch.json)"
   out_json="$OUT_DIR/${worker_name}-candidates.json"
@@ -244,6 +245,7 @@ for shard in "${SHARDS[@]}"; do
     fi
   else
     echo "{\"ok\":false,\"worker\":\"$worker_name\",\"error\":\"candidate file not created\"}" | tee -a "$SUMMARY_LOG"
+    missing=$((missing + 1))
   fi
 done
 
@@ -269,3 +271,6 @@ fs.writeFileSync(statePath, JSON.stringify(state, null, 2) + "\n");
 NODE
 
 echo "{\"ok\":true,\"shards\":${#SHARDS[@]},\"importedOutputs\":$imported}" | tee -a "$SUMMARY_LOG"
+if (( missing > 0 )); then
+  exit 1
+fi
