@@ -1,61 +1,61 @@
-# Model Atlas
+# Model Atlas 模型图谱
 
-Model Atlas is an automatically maintained AI model directory and real-world case library.
+Model Atlas 是一个自动维护的 AI 模型资料库和真实使用案例库。
 
-The project collects model-card information from Feishu Bitable, enriches it with Hermes-gathered evidence, and builds a public static website with vendor pages, model pages, comparison views, and verified usage cases.
+这个项目会从飞书多维表格同步模型卡数据，再用 Hermes 自动补充公开可核验的模型使用案例，最后生成一个可对外发布的静态网站。网站包含厂商页、模型详情页、案例库、模型对比页和 Coding Agent 专题页。
 
-## What It Does
+## 项目目标
 
-- Tracks frontier and notable AI models across major vendors.
-- Syncs model cards and case records from Feishu Bitable.
-- Uses Hermes agents to gather public real-use cases from GitHub, official pages, product pages, videos, articles, and other web sources.
-- Grades evidence so only strongly verifiable A-grade cases are shown as public showcase cases.
-- Generates a static Astro site that can be deployed through Vercel.
+- 系统追踪主流厂商和重点 AI 模型。
+- 从飞书多维表格同步模型卡和案例记录。
+- 让 Hermes 自动抓取真实使用案例，来源包括 GitHub、官网、产品页、视频、文章等公开页面。
+- 对案例证据做分级，只有强证据的 A 类案例会进入对外精选展示。
+- 用 Astro 生成静态网站，并通过 GitHub / Vercel 自动部署。
 
-Current full-coverage status:
+当前全量补齐状态：
 
-- Active models: 116
-- Active models with at least 5 A-grade showcase cases: 116
-- A-grade showcase cases: 680
-- Total case records: 682
-- Remaining active target deficit: 0
+- 活跃模型：116 个
+- 达到 5 条 A 类精选案例的活跃模型：116 个
+- A 类精选案例：680 条
+- 总案例记录：682 条
+- 活跃模型剩余目标缺口：0
 
-## Architecture
+## 自动化流程
 
 ```mermaid
 flowchart LR
-  A["Hermes default agent"] --> B["Public web / GitHub / official sources"]
-  B --> C["Candidate case JSON"]
-  C --> D["Feishu Bitable"]
+  A["Hermes default Agent"] --> B["公开网页 / GitHub / 官网资料"]
+  B --> C["候选案例 JSON"]
+  C --> D["飞书多维表格"]
   D --> E["sync-feishu.mjs"]
   E --> F["site/src/data/*.json"]
-  F --> G["Astro static site"]
-  G --> H["GitHub / Vercel deployment"]
+  F --> G["Astro 静态网站"]
+  G --> H["GitHub / Vercel 部署"]
 ```
 
-The intended operating model is fully automatic:
+完整流程是全自动的：
 
-1. Hermes gathers model-card and case evidence.
-2. Hermes writes approved candidate records into Feishu using the configured user/app authorization.
-3. The site syncs Feishu data into JSON.
-4. The build generates static pages.
-5. GitHub/Vercel publish the latest website.
+1. Hermes 抓取模型卡信息和真实使用案例。
+2. Hermes 用配置好的飞书授权把候选案例写入飞书多维表格。
+3. 网站项目从飞书同步数据到本地 JSON。
+4. Astro 根据 JSON 生成静态页面。
+5. GitHub / Vercel 发布最新网站。
 
-## Repository Layout
+## 目录结构
 
 ```text
 .
-├── site/                         # Astro website
-│   ├── src/data/                 # Generated data: models, vendors, cases, metrics
-│   ├── src/pages/                # Static routes
-│   └── scripts/                  # Feishu sync, Hermes import, build/publish automation
-├── work/                         # Generated task/backfill files for Hermes
-├── outputs/                      # Planning docs, evidence policy, automation notes
-├── design/                       # Product/design source material
-└── vercel.json                   # Vercel build settings
+├── site/                         # Astro 网站项目
+│   ├── src/data/                 # 生成数据：模型、厂商、案例、指标
+│   ├── src/pages/                # 页面路由
+│   └── scripts/                  # 飞书同步、Hermes 导入、构建发布脚本
+├── work/                         # Hermes 任务和补齐计划数据
+├── outputs/                      # 规划文档、证据规范、自动化说明
+├── design/                       # 产品和设计材料
+└── vercel.json                   # Vercel 构建配置
 ```
 
-## Main Routes
+## 网站页面
 
 - `/`
 - `/vendors`
@@ -66,7 +66,7 @@ The intended operating model is fully automatic:
 - `/compare`
 - `/topics/coding-agent`
 
-## Local Development
+## 本地开发
 
 ```bash
 cd site
@@ -74,7 +74,7 @@ npm install
 npm run dev
 ```
 
-For a production-style local check:
+本地生产构建检查：
 
 ```bash
 cd site
@@ -83,23 +83,23 @@ npm run build
 npx astro preview --host 127.0.0.1 --port 4321
 ```
 
-## Useful Commands
+## 常用命令
 
-Run the full local site build:
+构建网站：
 
 ```bash
 cd site
 npm run build
 ```
 
-Sync latest Feishu data into local JSON:
+从飞书同步最新数据：
 
 ```bash
 cd site
 npm run sync:feishu
 ```
 
-Regenerate evidence backfill tasks:
+重新生成 Hermes 补齐任务：
 
 ```bash
 cd site
@@ -107,74 +107,74 @@ npm run evidence:backfill
 npm run hermes:tasks
 ```
 
-Run the combined sync/backfill/build flow:
+执行同步、补齐任务生成和构建：
 
 ```bash
 cd site
 npm run atlas:auto
 ```
 
-Check external links:
+检查外链：
 
 ```bash
 cd site
 npm run check:links
 ```
 
-## Automation Scripts
+## 关键自动化脚本
 
-Important scripts live in `site/scripts/`:
+主要脚本位于 `site/scripts/`：
 
-- `sync-feishu.mjs`: reads Feishu Bitable records and writes `site/src/data/*.json`.
-- `import-hermes-case-intake.py`: imports Hermes candidate cases into Feishu with validation and dedupe.
-- `export-hermes-tasks.mjs`: exports crawl/backfill tasks for Hermes.
-- `run_model_case_hunter_parallel.sh`: runs parallel Hermes case-hunter shards.
-- `upload_local_case_candidates_to_cloud.sh`: uploads local Hermes candidates to the cloud importer.
-- `publish_cloud_model_data_locally.sh`: pulls cloud-generated data locally, commits, and pushes.
-- `monitor_model_case_goal.sh`: monitors full-coverage progress and sends Feishu completion notification.
+- `sync-feishu.mjs`：读取飞书多维表格，生成 `site/src/data/*.json`。
+- `import-hermes-case-intake.py`：把 Hermes 候选案例导入飞书，并做校验和去重。
+- `export-hermes-tasks.mjs`：导出 Hermes 抓取任务。
+- `run_model_case_hunter_parallel.sh`：并行运行 Hermes 案例抓取任务。
+- `upload_local_case_candidates_to_cloud.sh`：把本地候选案例上传到云端导入流程。
+- `publish_cloud_model_data_locally.sh`：从云端拉取生成数据，本地提交并推送。
+- `monitor_model_case_goal.sh`：监控全量补齐进度，完成后发送飞书通知。
 
-## Environment
+## 环境变量
 
-Copy the example file and fill in real values:
+复制示例文件后填写真实配置：
 
 ```bash
 cp site/.env.example site/.env
 ```
 
-Required integrations include:
+需要配置的集成包括：
 
-- Feishu app / Bitable credentials
-- Feishu table IDs for models and cases
-- `lark-cli` profile for user-mode Feishu access
-- Hermes cloud SSH configuration
-- Optional Trigger.dev credentials for scheduled jobs
+- 飞书应用和多维表格凭证。
+- 模型表和案例表的 table ID。
+- `lark-cli` 用户授权 profile。
+- Hermes 云服务器 SSH 配置。
+- 可选的 Trigger.dev 定时任务配置。
 
-Do not commit secrets such as Feishu app secrets, SSH passwords, GitHub tokens, or Trigger tokens.
+不要提交任何密钥，包括飞书 app secret、SSH 密码、GitHub token、Trigger token 等。
 
-## Evidence Quality Rules
+## 证据分级规则
 
-A case is eligible for public showcase only when it has:
+案例进入对外精选展示，必须满足：
 
-- A concrete model binding.
-- A real user, team, organization, product, or repository.
-- A concrete task.
-- A public original evidence URL.
-- A public artifact URL.
-- A clear model contribution.
-- Enough context to distinguish real usage from a benchmark, launch post, tutorial, or model list.
+- 能绑定到具体模型。
+- 有明确使用者、团队、组织、产品或仓库。
+- 有明确任务。
+- 有公开的原始证据 URL。
+- 有公开的产物 URL。
+- 能说明模型在任务中的贡献。
+- 能区分真实使用案例，而不是 benchmark、发布文章、教程或模型列表。
 
-Evidence grades:
+证据等级：
 
-- `A`: public, verifiable real-use case; eligible for showcase.
-- `B`: useful candidate or weakly bound evidence; not shown as showcase.
-- `C`: background material.
-- `D`: rejected or insufficient evidence.
+- `A`：公开可核验的真实使用案例，可进入精选展示。
+- `B`：有价值但绑定较弱或证据不足的候选，不进入精选展示。
+- `C`：背景材料。
+- `D`：证据不足或不采用。
 
-The sync gate respects explicit non-A grades from Feishu, so quality corrections are not automatically promoted back into A-grade showcase data.
+同步逻辑会尊重飞书里显式标注的非 A 等级，因此质量修正不会被自动 gate 重新提升为 A。
 
-## Deployment
+## 部署
 
-The repo is configured for Vercel:
+项目已配置 Vercel：
 
 ```json
 {
@@ -184,27 +184,27 @@ The repo is configured for Vercel:
 }
 ```
 
-GitHub repository:
+GitHub 仓库：
 
 ```text
 AL549984/model
 ```
 
-After data sync, changes are committed and pushed to `main`; Vercel can build from the repo root using `vercel.json`.
+数据同步完成后，生成数据会提交到 `main` 分支。Vercel 从仓库根目录读取 `vercel.json` 并构建 `site/dist`。
 
-## Maintenance Checklist
+## 维护 Checklist
 
-Before considering a data refresh publishable:
+每次数据刷新发布前，建议按下面顺序检查：
 
 1. `npm run sync:feishu`
 2. `npm run evidence:backfill`
 3. `npm run hermes:tasks`
 4. `npm run build`
-5. Confirm `site/src/data/metrics.json` has active deficits at `0`.
-6. Review low-confidence or newly demoted cases before showcasing them.
-7. Push the resulting data commit.
+5. 确认 `site/src/data/metrics.json` 里的活跃模型缺口为 `0`。
+6. 检查低置信度案例和新降级案例，避免弱证据进入对外精选。
+7. 提交并推送生成数据。
 
-Quick coverage check:
+快速检查覆盖率：
 
 ```bash
 node - <<'NODE'
@@ -228,9 +228,9 @@ console.log({
 NODE
 ```
 
-## Notes
+## 注意事项
 
-- Artificial Analysis is treated as a reference source, not the sole source of truth.
-- Missing fields should remain explicit as unknown or undisclosed; do not invent pricing, context window, release data, or performance claims.
-- Archive/Hold models are excluded from the active full-coverage completion target.
-- The cloud Hermes workflow is used for ongoing incremental updates; local Hermes can be used for one-off full backfill or quality repair.
+- Artificial Analysis 只作为参考信号，不能作为唯一事实来源。
+- 缺失字段要明确显示为未知或官方未披露，不要编造价格、上下文长度、发布日期或性能结论。
+- `Archive` / `Hold` 状态模型不计入活跃模型全量补齐目标。
+- 云端 Hermes 用于后续增量更新；本地 Hermes 可用于一次性全量补齐或质量修复。
