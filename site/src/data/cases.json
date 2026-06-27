@@ -14603,5 +14603,28 @@
     "riskNotes": "代码明确指定 grok-4.20-reasoning；仓库是最小实现，发送回 Instantly 的集成仍标注 TODO，因此产物成熟度有限但证据可核验。",
     "collectedAt": "2026-06-27T10:05:59Z",
     "reviewStatus": "auto_approved"
+  },
+  {
+    "id": "gemini-2-5-pro-mar-disler-aider-mcp-server",
+    "title": "Aider MCP Server defaults its AI coding tool to Gemini 2.5 Pro Experimental 03-25",
+    "vendor": "Google / Gemini",
+    "vendorId": "google",
+    "modelId": "gemini-2-5-pro-mar",
+    "modelName": "Gemini 2.5 Pro (Mar)",
+    "userOrOrg": "IndyDevDan / disler",
+    "originalEvidenceUrl": "https://github.com/disler/aider-mcp-server/blob/main/README.md",
+    "artifactUrl": "https://github.com/disler/aider-mcp-server",
+    "sourcePlatform": "github",
+    "sourceType": "real_case",
+    "taskCategory": "agentic_coding_mcp_tooling",
+    "taskDescription": "Build and publish an MCP server that lets Claude Code or other MCP clients offload AI coding tasks to Aider; the README documents an Aider AI Code tool for refactoring and code-generation requests and configures Gemini 2.5 Pro Experimental 03-25 as the default primary model.",
+    "outputResult": "A public GitHub repository and installable Python project named aider-mcp-server, with README instructions for adding the MCP server to Claude Code using gemini/gemini-2.5-pro-exp-03-25 and a project script entry point for running the server.",
+    "modelContribution": "Gemini 2.5 Pro Experimental 03-25 is the default model for Aider's code-generation path in the server and is explicitly named in the README as the model used for tests and as the primary model default for generating code.",
+    "evidenceGrade": "A",
+    "showcaseEligible": true,
+    "selectedForModelCard": true,
+    "riskNotes": "Evidence is project-maintainer documentation rather than an external customer story; it is still a concrete public artifact with reachable repo, exact model string, user/maintainer identity, task and MCP coding workflow documented.",
+    "collectedAt": "2026-06-27T09:59:18Z",
+    "reviewStatus": "auto_approved"
   }
 ]

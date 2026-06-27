@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T10:07:41.322Z",
+  "generatedAt": "2026-06-27T10:11:03.237Z",
   "summary": {
     "models": 118,
     "activeModels": 116,
@@ -6946,7 +6946,7 @@
       "priority": "P2",
       "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 5,
+      "aCaseCount": 6,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
