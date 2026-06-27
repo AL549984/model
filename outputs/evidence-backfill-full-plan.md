@@ -5,17 +5,17 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 81
-- Limited models: 35
+- Publishable models: 82
+- Limited models: 34
 - Archive models: 2
-- Verified A-grade cases: 421
-- Models without A-grade cases: 37
+- Verified A-grade cases: 426
+- Models without A-grade cases: 36
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 81
-- Models meeting full target line: 64
-- A-case deficit to minimum line: 111
-- A-case deficit to full target line: 212
+- Models meeting minimum line: 82
+- Models meeting full target line: 65
+- A-case deficit to minimum line: 108
+- A-case deficit to full target line: 207
 - Backfill rows: 118
 - P0 rows: 23
 - P1 rows: 18
@@ -101,7 +101,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P2 | Upstage / Solar | Solar Mini | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | xAI / Grok | Grok 2 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | xAI / Grok | Grok Beta | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | xAI / Grok | Grok-1 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 
 ## Full-Coverage Rule For Hermes
 
