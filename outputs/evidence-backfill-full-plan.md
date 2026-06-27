@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 80
-- Limited models: 36
+- Publishable models: 81
+- Limited models: 35
 - Archive models: 2
-- Verified A-grade cases: 416
-- Models without A-grade cases: 38
+- Verified A-grade cases: 421
+- Models without A-grade cases: 37
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 80
-- Models meeting full target line: 63
-- A-case deficit to minimum line: 114
-- A-case deficit to full target line: 217
+- Models meeting minimum line: 81
+- Models meeting full target line: 64
+- A-case deficit to minimum line: 111
+- A-case deficit to full target line: 212
 - Backfill rows: 118
 - P0 rows: 23
-- P1 rows: 19
-- P2 rows: 74
+- P1 rows: 18
+- P2 rows: 75
 - P3 rows: 2
 
 ## Operating Rule
@@ -91,7 +91,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | Z AI / GLM | GLM-5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P1 | Upstage / Solar | Solar Pro 3 | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | xAI / Grok | Grok 3 mini Reasoning (high) | needs_a_case | 0 | 2 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P2 | ByteDance Seed | BAGEL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | ByteDance Seed | Seed1.5 VL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | ByteDance Seed | Seedance 1.0 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |

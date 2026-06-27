@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T08:12:00.276Z",
+  "generatedAt": "2026-06-27T08:16:31.584Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 80,
-    "fullCoverageReady": 63,
-    "minDeficit": 114,
-    "targetDeficit": 217
+    "publicReady": 81,
+    "fullCoverageReady": 64,
+    "minDeficit": 111,
+    "targetDeficit": 212
   },
   "tasks": [
     {
@@ -14232,20 +14232,20 @@
       "modelName": "Grok 3 mini Reasoning (high)",
       "vendorId": "xai",
       "vendor": "xAI / Grok",
-      "priority": "P1",
-      "status": "needs_a_case",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.x.ai/docs/models",
