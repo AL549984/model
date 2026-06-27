@@ -89,10 +89,13 @@ NODE"
 }
 
 local_gather_running() {
-  screen -ls 2>/dev/null | grep -q "[.]${LOCAL_GATHER_SCREEN}[[:space:]]"
+  pgrep -f "bash scripts/run_model_case_local_gather.sh" >/dev/null 2>&1
 }
 
 start_local_gather() {
+  if local_gather_running; then
+    return 0
+  fi
   screen -dmS "$LOCAL_GATHER_SCREEN" bash -lc "cd '$SITE_DIR' && env MODEL_ATLAS_SITE_DIR='$SITE_DIR' MODEL_ATLAS_REPO_DIR='$(cd "$SITE_DIR/.." && pwd)' MODEL_ATLAS_PROFILE='$PROFILE' LARK_CLI_HOME='$HOME/.lark-cli' MODEL_ATLAS_CASE_HUNTER_WORKERS='${MODEL_ATLAS_CASE_HUNTER_WORKERS:-4}' MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER='${MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER:-1}' MODEL_ATLAS_LOCAL_GATHER_ROUNDS='${MODEL_ATLAS_LOCAL_GATHER_ROUNDS:-80}' bash scripts/run_model_case_local_gather.sh"
 }
 
