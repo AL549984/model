@@ -89,13 +89,23 @@ const statusOrder = {
   archive_review: 9
 };
 const now = new Date().toISOString();
+const EMPTY_TASK_BACKOFF_MINUTES = Math.max(0, Number(process.env.MODEL_ATLAS_EMPTY_TASK_BACKOFF_MINUTES ?? 360));
+const emptyCooldown = (task) => {
+  const attempt = state.attempts[task.taskId];
+  if (!attempt || Number(attempt.lastCandidateCount || 0) > 0 || !attempt.lastFinishedAt) return 0;
+  const finishedAt = Date.parse(attempt.lastFinishedAt);
+  if (!Number.isFinite(finishedAt)) return 0;
+  const multiplier = Math.min(4, Math.max(1, Number(attempt.count || 1)));
+  return finishedAt + EMPTY_TASK_BACKOFF_MINUTES * multiplier * 60 * 1000 > Date.now() ? 1 : 0;
+};
 const tasks = payload.tasks
   .filter((task) => Number(task.targetDeficit || 0) > 0)
   .filter((task) => task.status !== "archive_review")
   .sort((a, b) => {
     const aAttempt = state.attempts[a.taskId]?.count || 0;
     const bAttempt = state.attempts[b.taskId]?.count || 0;
-    return (statusOrder[a.status] ?? 8) - (statusOrder[b.status] ?? 8)
+    return emptyCooldown(a) - emptyCooldown(b)
+      || (statusOrder[a.status] ?? 8) - (statusOrder[b.status] ?? 8)
       || (priorityOrder[a.priority] ?? 9) - (priorityOrder[b.priority] ?? 9)
       || aAttempt - bAttempt
       || Number(b.targetDeficit || 0) - Number(a.targetDeficit || 0)
