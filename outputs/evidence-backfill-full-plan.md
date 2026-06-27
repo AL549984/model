@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 98
-- Limited models: 18
+- Publishable models: 99
+- Limited models: 17
 - Archive models: 2
-- Verified A-grade cases: 527
-- Models without A-grade cases: 19
+- Verified A-grade cases: 532
+- Models without A-grade cases: 18
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 98
-- Models meeting full target line: 78
-- A-case deficit to minimum line: 59
-- A-case deficit to full target line: 130
+- Models meeting minimum line: 99
+- Models meeting full target line: 79
+- A-case deficit to minimum line: 56
+- A-case deficit to full target line: 125
 - Backfill rows: 118
-- P0 rows: 19
+- P0 rows: 18
 - P1 rows: 19
-- P2 rows: 78
+- P2 rows: 79
 - P3 rows: 2
 
 ## Operating Rule
@@ -41,7 +41,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 |---|---|---|---|---|
 | Anthropic / Claude | Claude 4.5 Sonnet | below_min_case_coverage | 已有 1 条 A 类案例，但低于 3 条公开达标线。 | Claude 4.5 Sonnet Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude Mythos 5 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude Mythos 5 Anthropic / Claude case study customer |
-| Anthropic / Claude | Claude Opus 4.5 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Claude Opus 4.5 Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Pro | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Pro ByteDance Seed case study customer |
 | ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
@@ -65,7 +64,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 |---|---|---|---|---:|---:|---|
 | P0 | Anthropic / Claude | Claude 4.5 Sonnet | below_min_case_coverage | 1 | 2 | 已有 1 条 A 类案例，但低于 3 条公开达标线。 |
 | P0 | Anthropic / Claude | Claude Mythos 5 | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Anthropic / Claude | Claude Opus 4.5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | ByteDance Seed | Seed2.1 Turbo | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.2 (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |

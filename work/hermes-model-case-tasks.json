@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T08:51:14.751Z",
+  "generatedAt": "2026-06-27T08:53:59.733Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 98,
-    "fullCoverageReady": 78,
-    "minDeficit": 59,
-    "targetDeficit": 130
+    "publicReady": 99,
+    "fullCoverageReady": 79,
+    "minDeficit": 56,
+    "targetDeficit": 125
   },
   "tasks": [
     {
@@ -3703,20 +3703,20 @@
       "modelName": "Claude Opus 4.5",
       "vendorId": "anthropic",
       "vendor": "Anthropic / Claude",
-      "priority": "P0",
-      "status": "identity_first",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://docs.anthropic.com/en/docs/about-claude/models/overview",
