@@ -32,7 +32,7 @@ if [[ -n "${SSHPASS:-}" ]] && command -v sshpass >/dev/null 2>&1; then
   ssh_base=(sshpass -e "${ssh_base[@]}")
 fi
 
-tmp_tar="$(mktemp "${TMPDIR:-/tmp}/model-atlas-cloud-data.XXXXXX.tgz")"
+tmp_tar="$(mktemp "${TMPDIR:-/tmp}/model-atlas-cloud-data.XXXXXX").tgz"
 trap 'rm -f "$tmp_tar"' EXIT
 
 "${ssh_base[@]}" "$CLOUD_USER@$CLOUD_HOST" "cd '$CLOUD_REPO_DIR' && tar -czf - site/src/data site/package.json site/package-lock.json work/evidence-backfill-intake.tsv work/hermes-model-case-tasks.json outputs/evidence-backfill-full-plan.md outputs/hermes-feishu-automation.md" >"$tmp_tar"
