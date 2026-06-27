@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 82
-- Limited models: 34
+- Publishable models: 89
+- Limited models: 27
 - Archive models: 2
-- Verified A-grade cases: 426
-- Models without A-grade cases: 36
+- Verified A-grade cases: 458
+- Models without A-grade cases: 29
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 82
-- Models meeting full target line: 65
-- A-case deficit to minimum line: 108
-- A-case deficit to full target line: 207
+- Models meeting minimum line: 89
+- Models meeting full target line: 69
+- A-case deficit to minimum line: 87
+- A-case deficit to full target line: 175
 - Backfill rows: 118
 - P0 rows: 23
-- P1 rows: 18
-- P2 rows: 75
+- P1 rows: 20
+- P2 rows: 73
 - P3 rows: 2
 
 ## Operating Rule
@@ -90,17 +90,10 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | xAI / Grok | Grok 4.3 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P1 | Upstage / Solar | Solar Pro 3 | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | ByteDance Seed | BAGEL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | ByteDance Seed | Seed1.5 VL | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | ByteDance Seed | Seedance 1.0 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | ByteDance Seed | Seedance 2.0 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | Meta / Llama | Llama 2 Chat 7B | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | Meta / Llama | Llama 4 Maverick | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P2 | Meta / Llama | Llama 65B | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | Upstage / Solar | Solar Mini | needs_a_case | 0 | 1 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | xAI / Grok | Grok 2 | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P2 | xAI / Grok | Grok Beta | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 
 ## Full-Coverage Rule For Hermes
 

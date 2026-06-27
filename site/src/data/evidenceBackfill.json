@@ -1534,6 +1534,131 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "seed-2-1-pro-preview",
+    "slug": "seed-2-1-pro-preview",
+    "modelName": "Seed-2.1-Pro-Preview",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "aCaseCount": 4,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 1,
+    "sourceCount": 3,
+    "score": null,
+    "priority": "P1",
+    "status": "top_up_to_target",
+    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
+    "requiredEvidence": [
+      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
+      "确认是否应并入家族模型页，而不是单独追独立案例。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed case study customer",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20case%20study%20customer"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed built with GitHub demo",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed production use product blog",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed GitHub README built with",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Seed-2.1-Pro-Preview ByteDance Seed 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "seed1-5-vl",
+    "slug": "seed1-5-vl",
+    "modelName": "Seed1.5 VL",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "aCaseCount": 4,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 1,
+    "sourceCount": 2,
+    "score": null,
+    "priority": "P1",
+    "status": "top_up_to_target",
+    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
+    "requiredEvidence": [
+      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Seed1.5 VL ByteDance Seed case study customer",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20case%20study%20customer"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed built with GitHub demo",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed production use product blog",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed GitHub README built with",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Seed1.5 VL ByteDance Seed 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "deepseek-r1-0528",
     "slug": "deepseek-r1-0528",
     "modelName": "DeepSeek R1 0528",
@@ -2469,6 +2594,68 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "solar-mini",
+    "slug": "solar-mini",
+    "modelName": "Solar Mini",
+    "vendorId": "upstage",
+    "vendor": "Upstage / Solar",
+    "publishability": "Publishable",
+    "aCaseCount": 4,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 1,
+    "sourceCount": 1,
+    "score": 11.9,
+    "priority": "P1",
+    "status": "top_up_to_target",
+    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
+    "requiredEvidence": [
+      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Solar Mini Upstage / Solar case study customer",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20case%20study%20customer"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar built with GitHub demo",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar production use product blog",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar GitHub README built with",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Solar Mini Upstage / Solar 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "solar-pro-2",
     "slug": "solar-pro-2",
     "modelName": "Solar Pro 2",
@@ -2529,69 +2716,6 @@
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
-  },
-  {
-    "modelId": "solar-pro-3",
-    "slug": "solar-pro-3",
-    "modelName": "Solar Pro 3",
-    "vendorId": "upstage",
-    "vendor": "Upstage / Solar",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 1,
-    "score": 25.87,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Solar Pro 3 Upstage / Solar case study customer",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20case%20study%20customer"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar built with GitHub demo",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar production use product blog",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar GitHub README built with",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Solar Pro 3 Upstage / Solar 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
   },
   {
     "modelId": "claude-2-1",
@@ -3145,9 +3269,9 @@
     "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
   },
   {
-    "modelId": "seed-2-1-pro-preview",
-    "slug": "seed-2-1-pro-preview",
-    "modelName": "Seed-2.1-Pro-Preview",
+    "modelId": "seedance-1-0",
+    "slug": "seedance-1-0",
+    "modelName": "Seedance 1.0",
     "vendorId": "bytedance-seed",
     "vendor": "ByteDance Seed",
     "publishability": "Publishable",
@@ -3162,133 +3286,6 @@
     "status": "target_met_snapshot_refresh",
     "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
     "requiredEvidence": [
-      "确认是否应并入家族模型页，而不是单独追独立案例。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed case study customer",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20case%20study%20customer"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed built with GitHub demo",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed production use product blog",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed GitHub README built with",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Seed-2.1-Pro-Preview ByteDance Seed 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Seed-2.1-Pro-Preview%20ByteDance%20Seed%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
-  },
-  {
-    "modelId": "seed1-5-vl",
-    "slug": "seed1-5-vl",
-    "modelName": "Seed1.5 VL",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 2,
-    "score": null,
-    "priority": "P2",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Seed1.5 VL ByteDance Seed case study customer",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20case%20study%20customer"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed built with GitHub demo",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed production use product blog",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed GitHub README built with",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Seed1.5 VL ByteDance Seed 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Seed1.5%20VL%20ByteDance%20Seed%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "seedance-1-0",
-    "slug": "seedance-1-0",
-    "modelName": "Seedance 1.0",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 3,
-    "score": null,
-    "priority": "P2",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [
@@ -3330,7 +3327,7 @@
         "url": "https://www.google.com/search?q=Seedance%201.0%20ByteDance%20Seed%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "seedance-2-0",
@@ -3338,20 +3335,18 @@
     "modelName": "Seedance 2.0",
     "vendorId": "bytedance-seed",
     "vendor": "ByteDance Seed",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 5,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
     "sourceCount": 3,
     "score": null,
     "priority": "P2",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [
@@ -3393,7 +3388,7 @@
         "url": "https://www.google.com/search?q=Seedance%202.0%20ByteDance%20Seed%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "deepseek-llm-67b-v1",
@@ -6413,69 +6408,6 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
-    "modelId": "solar-mini",
-    "slug": "solar-mini",
-    "modelName": "Solar Mini",
-    "vendorId": "upstage",
-    "vendor": "Upstage / Solar",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 1,
-    "score": 11.9,
-    "priority": "P2",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Solar Mini Upstage / Solar case study customer",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20case%20study%20customer"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar built with GitHub demo",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar production use product blog",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar GitHub README built with",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Solar Mini Upstage / Solar 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Solar%20Mini%20Upstage%20%2F%20Solar%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
     "modelId": "solar-open-100b",
     "slug": "solar-open-100b",
     "modelName": "Solar Open 100B",
@@ -6537,25 +6469,84 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "solar-pro-3",
+    "slug": "solar-pro-3",
+    "modelName": "Solar Pro 3",
+    "vendorId": "upstage",
+    "vendor": "Upstage / Solar",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 1,
+    "score": 25.87,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Solar Pro 3 Upstage / Solar case study customer",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20case%20study%20customer"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar built with GitHub demo",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar production use product blog",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar GitHub README built with",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Solar Pro 3 Upstage / Solar 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Solar%20Pro%203%20Upstage%20%2F%20Solar%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "grok-2",
     "slug": "grok-2",
     "modelName": "Grok 2",
     "vendorId": "xai",
     "vendor": "xAI / Grok",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 5,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
     "sourceCount": 2,
     "score": 13.89,
     "priority": "P2",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [
@@ -6597,7 +6588,7 @@
         "url": "https://www.google.com/search?q=Grok%202%20xAI%20%2F%20Grok%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "grok-3-mini-reasoning-high",
@@ -6728,20 +6719,18 @@
     "modelName": "Grok Beta",
     "vendorId": "xai",
     "vendor": "xAI / Grok",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 5,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
     "sourceCount": 2,
     "score": 13.28,
     "priority": "P2",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [
@@ -6783,7 +6772,7 @@
         "url": "https://www.google.com/search?q=Grok%20Beta%20xAI%20%2F%20Grok%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "grok-1",
