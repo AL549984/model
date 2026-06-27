@@ -210,7 +210,12 @@ run_worker() {
   elif command -v gtimeout >/dev/null 2>&1; then
     timeout_cmd=(gtimeout "$TIMEOUT_SECONDS")
   fi
-  if "${timeout_cmd[@]}" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")" >>"$log_path" 2>&1; then
+  if [[ ${#timeout_cmd[@]} -gt 0 ]]; then
+    worker_cmd=("${timeout_cmd[@]}" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")")
+  else
+    worker_cmd=(hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")")
+  fi
+  if "${worker_cmd[@]}" >>"$log_path" 2>&1; then
     echo "[$(timestamp)] Hermes worker $worker_name finished" | tee -a "$log_path"
   else
     local code=$?
