@@ -145,9 +145,9 @@ NODE
 
   for round in $(seq 1 "$ROUNDS"); do
     echo "[$(timestamp)] === full backfill round $round/$ROUNDS ==="
-    run_step "sync Feishu" npm run sync:feishu
-    run_step "generate evidence backfill" npm run evidence:backfill
-    run_step "export Hermes case tasks" npm run hermes:tasks
+    run_step "sync Feishu" npm run sync:feishu || exit $?
+    run_step "generate evidence backfill" npm run evidence:backfill || exit $?
+    run_step "export Hermes case tasks" npm run hermes:tasks || exit $?
 
     target_deficit="$(remaining_target_deficit)"
     echo "[$(timestamp)] targetDeficit=$target_deficit"
@@ -156,12 +156,12 @@ NODE
       break
     fi
 
-    run_step "parallel Hermes case hunter" bash scripts/run_model_case_hunter_parallel.sh
+    run_step "parallel Hermes case hunter" bash scripts/run_model_case_hunter_parallel.sh || exit $?
 
-    run_step "post-round sync Feishu" npm run sync:feishu
-    run_step "post-round evidence backfill" npm run evidence:backfill
-    run_step "post-round export Hermes case tasks" npm run hermes:tasks
-    run_step "post-round build site" npm run build
+    run_step "post-round sync Feishu" npm run sync:feishu || exit $?
+    run_step "post-round evidence backfill" npm run evidence:backfill || exit $?
+    run_step "post-round export Hermes case tasks" npm run hermes:tasks || exit $?
+    run_step "post-round build site" npm run build || exit $?
 
     if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then
       run_optional_step "post-round push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
@@ -170,10 +170,10 @@ NODE
     fi
   done
 
-  run_step "final sync Feishu" npm run sync:feishu
-  run_step "final evidence backfill" npm run evidence:backfill
-  run_step "final export Hermes case tasks" npm run hermes:tasks
-  run_step "build site" npm run build
+  run_step "final sync Feishu" npm run sync:feishu || exit $?
+  run_step "final evidence backfill" npm run evidence:backfill || exit $?
+  run_step "final export Hermes case tasks" npm run hermes:tasks || exit $?
+  run_step "build site" npm run build || exit $?
 
   if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then
     run_optional_step "push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"

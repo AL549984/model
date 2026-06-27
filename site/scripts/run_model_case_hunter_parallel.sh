@@ -124,7 +124,10 @@ if [[ "$(node -e "console.log(require('$SELECTED_BATCH').tasks.length)")" == "0"
   exit 0
 fi
 
-mapfile -t SHARDS < <(node - "$SELECTED_BATCH" "$OUT_DIR" "$STAMP" "$MODELS_PER_WORKER" <<'NODE'
+SHARDS=()
+while IFS= read -r shard_path; do
+  SHARDS+=("$shard_path")
+done < <(node - "$SELECTED_BATCH" "$OUT_DIR" "$STAMP" "$MODELS_PER_WORKER" <<'NODE'
 const fs = require("fs");
 const [batchPath, outDir, stamp, modelsPerWorkerText] = process.argv.slice(2);
 const modelsPerWorker = Math.max(1, Number(modelsPerWorkerText || 1));
@@ -201,7 +204,13 @@ run_worker() {
 
   write_prompt "$shard_json" "$out_json" "$prompt_path"
   echo "[$(timestamp)] running Hermes worker $worker_name" | tee "$log_path"
-  if timeout "$TIMEOUT_SECONDS" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")" >>"$log_path" 2>&1; then
+  timeout_cmd=()
+  if command -v timeout >/dev/null 2>&1; then
+    timeout_cmd=(timeout "$TIMEOUT_SECONDS")
+  elif command -v gtimeout >/dev/null 2>&1; then
+    timeout_cmd=(gtimeout "$TIMEOUT_SECONDS")
+  fi
+  if "${timeout_cmd[@]}" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")" >>"$log_path" 2>&1; then
     echo "[$(timestamp)] Hermes worker $worker_name finished" | tee -a "$log_path"
   else
     local code=$?
@@ -227,8 +236,12 @@ for shard in "${SHARDS[@]}"; do
   worker_name="$(basename "$shard" -batch.json)"
   out_json="$OUT_DIR/${worker_name}-candidates.json"
   if [[ -f "$out_json" ]]; then
-    python3 "$SITE_DIR/scripts/import-hermes-case-intake.py" "$out_json" | tee -a "$SUMMARY_LOG"
-    imported=$((imported + 1))
+    if [[ "${MODEL_ATLAS_CASE_HUNTER_IMPORT:-1}" == "0" ]]; then
+      echo "{\"ok\":true,\"worker\":\"$worker_name\",\"skipped\":\"import disabled\",\"candidateFile\":\"$out_json\"}" | tee -a "$SUMMARY_LOG"
+    else
+      python3 "$SITE_DIR/scripts/import-hermes-case-intake.py" "$out_json" | tee -a "$SUMMARY_LOG"
+      imported=$((imported + 1))
+    fi
   else
     echo "{\"ok\":false,\"worker\":\"$worker_name\",\"error\":\"candidate file not created\"}" | tee -a "$SUMMARY_LOG"
   fi

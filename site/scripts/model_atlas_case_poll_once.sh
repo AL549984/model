@@ -124,7 +124,7 @@ run_step() {
   echo "[$(timestamp)] Model Atlas case poll started"
   cd "$SITE_DIR"
 
-  run_step "export Hermes case tasks" npm run hermes:tasks
+  run_step "export Hermes case tasks" npm run hermes:tasks || exit $?
 
   if [[ -n "${MODEL_ATLAS_CASE_CRAWL_CMD:-}" ]]; then
     echo "Running MODEL_ATLAS_CASE_CRAWL_CMD"
@@ -133,12 +133,12 @@ run_step() {
     echo "Skipping case crawl: MODEL_ATLAS_CASE_CRAWL_CMD is not set"
   fi
 
-  run_step "sync Feishu" npm run sync:feishu
-  run_step "generate evidence backfill" npm run evidence:backfill
-  run_step "build site" npm run build
+  run_step "sync Feishu" npm run sync:feishu || exit $?
+  run_step "generate evidence backfill" npm run evidence:backfill || exit $?
+  run_step "build site" npm run build || exit $?
 
   if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-1}" != "0" ]]; then
-    run_step "push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR"
+    run_step "push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR" || exit $?
   else
     echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=0"
   fi
