@@ -9,18 +9,18 @@
 - Publishable models: 115
 - Limited models: 1
 - Archive models: 2
-- Verified A-grade cases: 678
+- Verified A-grade cases: 679
 - Models without A-grade cases: 2
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 115
-- Models meeting full target line: 114
+- Models meeting full target line: 115
 - A-case deficit to minimum line: 1
-- A-case deficit to full target line: 4
+- A-case deficit to full target line: 3
 - Backfill rows: 118
-- P0 rows: 2
+- P0 rows: 1
 - P1 rows: 0
-- P2 rows: 114
+- P2 rows: 115
 - P3 rows: 2
 
 ## Operating Rule
@@ -40,7 +40,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 
 | Vendor | Model | Status | Blocker | First search query |
 |---|---|---|---|---|
-| ByteDance Seed | Seed2.1 Pro | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Pro ByteDance Seed case study customer |
 | xAI / Grok | Grok 4.20 0309 v2 | below_min_case_coverage | 已有 2 条 A 类案例，但低于 3 条公开达标线。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
 
 ## All Limited Rows
