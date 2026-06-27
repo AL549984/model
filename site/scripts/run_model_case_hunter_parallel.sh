@@ -82,9 +82,9 @@ state.attempts ||= {};
 const priorityOrder = { P0: 0, P1: 1, P2: 2, P3: 3 };
 const statusOrder = {
   below_min_case_coverage: 0,
-  top_up_to_target: 1,
-  needs_a_case: 2,
-  identity_first: 3,
+  needs_a_case: 1,
+  identity_first: 2,
+  top_up_to_target: 3,
   target_met_snapshot_refresh: 4,
   archive_review: 9
 };
