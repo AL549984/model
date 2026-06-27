@@ -85,6 +85,11 @@ sync_repo_before_round() {
   fi
   (
     cd "$REPO_DIR"
+    git restore --staged --worktree -- \
+      work/hermes-model-case-tasks.json \
+      work/evidence-backfill-intake.tsv \
+      outputs/evidence-backfill-full-plan.md \
+      site/src/data/evidenceBackfill.json >/dev/null 2>&1 || true
     git pull --rebase --autostash origin main
   )
 }
