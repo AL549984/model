@@ -5,17 +5,17 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 103
-- Limited models: 13
+- Publishable models: 104
+- Limited models: 12
 - Archive models: 2
-- Verified A-grade cases: 550
-- Models without A-grade cases: 15
+- Verified A-grade cases: 553
+- Models without A-grade cases: 14
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 103
+- Models meeting minimum line: 104
 - Models meeting full target line: 82
-- A-case deficit to minimum line: 45
-- A-case deficit to full target line: 107
+- A-case deficit to minimum line: 42
+- A-case deficit to full target line: 104
 - Backfill rows: 118
 - P0 rows: 15
 - P1 rows: 19
@@ -48,7 +48,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | OpenAI | GPT-5.5 (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.5 (xhigh) OpenAI case study customer |
 | Qwen / Alibaba | Qwen3.5 397B A17B | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Qwen3.5 397B A17B Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
-| Qwen / Alibaba | Qwen3.7 Max | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.7 Max Qwen / Alibaba case study customer |
+| Qwen / Alibaba | Qwen3.7 Max | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Qwen3.7 Max Qwen / Alibaba case study customer |
 | xAI / Grok | Grok 4.20 0309 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.20 0309 xAI / Grok case study customer |
 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
 | xAI / Grok | Grok 4.3 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Grok 4.3 (high) xAI / Grok case study customer |
@@ -66,7 +66,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.5 (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 0 | 4 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P0 | Qwen / Alibaba | Qwen3.7 Max | identity_first | 0 | 4 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.20 0309 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.20 0309 v2 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | xAI / Grok | Grok 4.3 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |

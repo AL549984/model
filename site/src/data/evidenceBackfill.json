@@ -579,19 +579,18 @@
     "modelName": "Qwen3.7 Max",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen / Alibaba",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 2,
     "sourceCount": 4,
     "score": 56.58,
     "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
+    "status": "top_up_to_target",
+    "blocker": "已有 3 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
@@ -635,7 +634,7 @@
         "url": "https://www.google.com/search?q=Qwen3.7%20Max%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "grok-4-20-0309",
