@@ -15316,5 +15316,28 @@
     "riskNotes": "Evidence is a public GitHub repository and raw artifact is reachable. The artifact records the model slug as qwen/qwen3-max-thinking; this candidate maps it to the Atlas model Qwen3 Max Thinking (Preview) because the task model is the public preview entry for the same Qwen3 Max Thinking family. This is a real repository artifact, not a leaderboard-only result, but it is a research workflow case rather than a commercial customer story.",
     "collectedAt": "2026-06-27T10:20:21Z",
     "reviewStatus": "auto_approved"
+  },
+  {
+    "id": "claude-2-0-lobehub-lobe-chat-model-option-20230711",
+    "title": "LobeHub LobeChat exposed Claude 2.0 as a selectable model for open-source AI chat workflows",
+    "vendor": "Anthropic / Claude",
+    "vendorId": "anthropic",
+    "modelId": "claude-2-0",
+    "modelName": "Claude 2.0",
+    "userOrOrg": "LobeHub / LobeChat",
+    "originalEvidenceUrl": "https://raw.githubusercontent.com/lobehub/lobe-chat/main/packages/model-bank/src/aiModels/higress.ts",
+    "artifactUrl": "https://github.com/lobehub/lobe-chat",
+    "sourcePlatform": "github",
+    "sourceType": "real_case",
+    "taskCategory": "ai_chat_application",
+    "taskDescription": "LobeHub's open-source LobeChat application maintains a model-bank configuration that includes Anthropic Claude 2.0 (id claude-2.0, generation claude-2) as a chat model option, enabling users of the product to run general AI assistant conversations through a Claude 2 family backend.",
+    "outputResult": "The public LobeChat repository is an accessible AI chat application artifact. Its model-bank source defines a Claude 2.0 chat entry with 100,000 context-window tokens, 4,096 max output tokens, July 11 2023 release metadata, and Anthropic-style input/output pricing, showing that the product wired Claude 2.0 into its selectable chat-model catalog.",
+    "modelContribution": "Claude 2.0 contributes the long-context text understanding and generation capability used by LobeChat when users select that model for assistant-style chat, document/context-heavy prompting, and other general conversational workflows inside the application.",
+    "evidenceGrade": "A",
+    "showcaseEligible": true,
+    "selectedForModelCard": true,
+    "riskNotes": "Evidence is from the live open-source product repository rather than a customer story. The product is multi-model and the specific file is a model catalog/configuration, so it proves Claude 2.0 was exposed as a supported model option rather than measuring production usage volume. The artifact URL and raw evidence URL were reachable during collection.",
+    "collectedAt": "2026-06-27T10:24:52Z",
+    "reviewStatus": "auto_approved"
   }
 ]

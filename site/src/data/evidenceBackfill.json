@@ -258,18 +258,17 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Publishable",
-    "aCaseCount": 4,
+    "aCaseCount": 5,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
-    "targetDeficit": 1,
+    "targetDeficit": 0,
     "sourceCount": 3,
     "score": 9.06,
-    "priority": "P1",
-    "status": "top_up_to_target",
-    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
     "requiredEvidence": [
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [

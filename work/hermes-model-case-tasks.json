@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-27T10:24:52.218Z",
+  "generatedAt": "2026-06-27T10:26:01.859Z",
   "summary": {
     "models": 118,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 116,
-    "fullCoverageReady": 111,
+    "fullCoverageReady": 112,
     "minDeficit": 0,
-    "targetDeficit": 6,
+    "targetDeficit": 5,
     "allModelMinDeficit": 6,
-    "allModelTargetDeficit": 16
+    "allModelTargetDeficit": 15
   },
   "tasks": [
     {
@@ -2580,16 +2580,16 @@
       "modelName": "Claude 2.0",
       "vendorId": "anthropic",
       "vendor": "Anthropic / Claude",
-      "priority": "P1",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 4,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 1,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
         "targetCandidateCount": 12,
