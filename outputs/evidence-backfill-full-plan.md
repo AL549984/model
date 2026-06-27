@@ -6,21 +6,21 @@
 
 - Models: 118
 - Active models: 116
-- Publishable models: 115
-- Limited models: 1
+- Publishable models: 116
+- Limited models: 0
 - Archive models: 2
-- Verified A-grade cases: 643
-- Models without A-grade cases: 3
+- Verified A-grade cases: 659
+- Models without A-grade cases: 2
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 115
-- Models meeting full target line: 107
-- A-case deficit to minimum line: 3
-- A-case deficit to full target line: 16
+- Models meeting minimum line: 116
+- Models meeting full target line: 110
+- A-case deficit to minimum line: 0
+- A-case deficit to full target line: 8
 - Backfill rows: 118
-- P0 rows: 4
-- P1 rows: 5
-- P2 rows: 107
+- P0 rows: 3
+- P1 rows: 3
+- P2 rows: 110
 - P3 rows: 2
 
 ## Operating Rule
@@ -42,14 +42,12 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 |---|---|---|---|---|
 | Anthropic / Claude | Claude Mythos 5 | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude Mythos 5 Anthropic / Claude case study customer |
 | ByteDance Seed | Seed2.1 Turbo | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Turbo ByteDance Seed case study customer |
-| OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
-| xAI / Grok | Grok 4.20 0309 | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Grok 4.20 0309 xAI / Grok case study customer |
+| xAI / Grok | Grok 4.20 0309 v2 | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
 
 ## All Limited Rows
 
 | Priority | Vendor | Model | Status | A cases | Source count | Blocker |
 |---|---|---|---|---:|---:|---|
-| P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 
 ## Full-Coverage Rule For Hermes
 
