@@ -1726,19 +1726,18 @@
     "modelName": "DeepSeek-V2.5",
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 2,
     "sourceCount": 3,
     "score": 12.33,
     "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
+    "status": "top_up_to_target",
+    "blocker": "已有 3 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
@@ -1781,7 +1780,7 @@
         "url": "https://www.google.com/search?q=DeepSeek-V2.5%20DeepSeek%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "gemini-1-0-ultra",
@@ -1846,90 +1845,24 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
-    "modelId": "gemini-1-5-flash-may",
-    "slug": "gemini-1-5-flash-may",
-    "modelName": "Gemini 1.5 Flash (May)",
+    "modelId": "gemini-2-5-pro",
+    "slug": "gemini-2-5-pro",
+    "modelName": "Gemini 2.5 Pro",
     "vendorId": "google",
     "vendor": "Google / Gemini",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 4,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 3,
-    "score": 10.46,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "确认是否应并入家族模型页，而不是单独追独立案例。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "Google Cloud customer stories",
-      "Google AI / DeepMind model docs",
-      "Vertex AI customer implementation"
-    ],
-    "searchQueries": [
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini case study customer",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20case%20study%20customer"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini built with GitHub demo",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini production use product blog",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini GitHub README built with",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Gemini 1.5 Flash (May) Google / Gemini 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "gemini-2-0-flash-thinking-exp-jan",
-    "slug": "gemini-2-0-flash-thinking-exp-jan",
-    "modelName": "Gemini 2.0 Flash Thinking exp. (Jan)",
-    "vendorId": "google",
-    "vendor": "Google / Gemini",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 1,
     "sourceCount": 2,
-    "score": 19.6,
+    "score": 34.63,
     "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。",
+    "status": "top_up_to_target",
+    "blocker": "已有 4 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "确认是否应并入家族模型页，而不是单独追独立案例。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [
@@ -1939,103 +1872,39 @@
     ],
     "searchQueries": [
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini case study customer",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20case%20study%20customer"
+        "query": "Gemini 2.5 Pro Google / Gemini case study customer",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20case%20study%20customer"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini built with GitHub demo",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
+        "query": "Gemini 2.5 Pro Google / Gemini built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini production use product blog",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
+        "query": "Gemini 2.5 Pro Google / Gemini production use product blog",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
+        "query": "Gemini 2.5 Pro Google / Gemini model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+        "query": "Gemini 2.5 Pro Google / Gemini 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini GitHub README built with",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
+        "query": "Gemini 2.5 Pro Google / Gemini GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+        "query": "Gemini 2.5 Pro Google / Gemini B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
       },
       {
-        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+        "query": "Gemini 2.5 Pro Google / Gemini 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "gemini-2-5-pro-mar",
-    "slug": "gemini-2-5-pro-mar",
-    "modelName": "Gemini 2.5 Pro (Mar)",
-    "vendorId": "google",
-    "vendor": "Google / Gemini",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 3,
-    "score": 30.3,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "确认是否应并入家族模型页，而不是单独追独立案例。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "Google Cloud customer stories",
-      "Google AI / DeepMind model docs",
-      "Vertex AI customer implementation"
-    ],
-    "searchQueries": [
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini case study customer",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20case%20study%20customer"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini built with GitHub demo",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini production use product blog",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini GitHub README built with",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Gemini 2.5 Pro (Mar) Google / Gemini 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "palm-2",
@@ -2169,19 +2038,18 @@
     "modelName": "MiniMax M1 80k",
     "vendorId": "minimax",
     "vendor": "MiniMax",
-    "publishability": "Limited",
-    "aCaseCount": 0,
+    "publishability": "Publishable",
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 0,
+    "targetDeficit": 2,
     "sourceCount": 2,
     "score": 24.43,
     "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
+    "status": "top_up_to_target",
+    "blocker": "已有 3 条 A 类案例，继续补到 5 条目标线。",
     "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
@@ -2224,70 +2092,7 @@
         "url": "https://www.google.com/search?q=MiniMax%20M1%2080k%20MiniMax%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "gpt-3-5-turbo",
-    "slug": "gpt-3-5-turbo",
-    "modelName": "GPT-3.5 Turbo",
-    "vendorId": "openai",
-    "vendor": "OpenAI",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 2,
-    "score": 8.99,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "OpenAI customer stories / news",
-      "OpenAI platform model docs",
-      "customer product blog or press release"
-    ],
-    "searchQueries": [
-      {
-        "query": "GPT-3.5 Turbo OpenAI case study customer",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20case%20study%20customer"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI built with GitHub demo",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI production use product blog",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20production%20use%20product%20blog"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI GitHub README built with",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "GPT-3.5 Turbo OpenAI 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "o1-preview",
@@ -2413,131 +2218,6 @@
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
-  },
-  {
-    "modelId": "qwen-chat-14b",
-    "slug": "qwen-chat-14b",
-    "modelName": "Qwen Chat 14B",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "aCaseCount": 3,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 0,
-    "targetDeficit": 2,
-    "sourceCount": 4,
-    "score": 7.41,
-    "priority": "P1",
-    "status": "top_up_to_target",
-    "blocker": "已有 3 条 A 类案例，继续补到 5 条目标线。",
-    "requiredEvidence": [
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "Qwen official blog / docs",
-      "ModelScope or GitHub model page",
-      "developer project demos with source"
-    ],
-    "searchQueries": [
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba case study customer",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20case%20study%20customer"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba built with GitHub demo",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba production use product blog",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba GitHub README built with",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Qwen Chat 14B Qwen / Alibaba 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
-  },
-  {
-    "modelId": "qwen1-5-chat-110b",
-    "slug": "qwen1-5-chat-110b",
-    "modelName": "Qwen1.5 Chat 110B",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 5,
-    "score": 9.55,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "Qwen official blog / docs",
-      "ModelScope or GitHub model page",
-      "developer project demos with source"
-    ],
-    "searchQueries": [
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba case study customer",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20case%20study%20customer"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba built with GitHub demo",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba production use product blog",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba GitHub README built with",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Qwen1.5 Chat 110B Qwen / Alibaba 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
   },
   {
     "modelId": "qwen2-72b",
@@ -2977,132 +2657,6 @@
       {
         "query": "Qwen3 Max Thinking (Preview) Qwen / Alibaba 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Qwen3%20Max%20Thinking%20(Preview)%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "step-3-7-flash",
-    "slug": "step-3-7-flash",
-    "modelName": "Step 3.7 Flash",
-    "vendorId": "stepfun",
-    "vendor": "StepFun / Step",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 2,
-    "score": null,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Step 3.7 Flash StepFun / Step case study customer",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20case%20study%20customer"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step built with GitHub demo",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step production use product blog",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step GitHub README built with",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Step 3.7 Flash StepFun / Step 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
-  },
-  {
-    "modelId": "solar-open-100b",
-    "slug": "solar-open-100b",
-    "modelName": "Solar Open 100B",
-    "vendorId": "upstage",
-    "vendor": "Upstage / Solar",
-    "publishability": "Limited",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
-    "sourceCount": 1,
-    "score": 21.67,
-    "priority": "P1",
-    "status": "needs_a_case",
-    "blocker": "缺少具体使用者、具体任务、具体产物和原始证据 URL。",
-    "requiredEvidence": [
-      "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
-      "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
-      "A/B 证据必须保存快照，不能只保留 live URL。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Solar Open 100B Upstage / Solar case study customer",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20case%20study%20customer"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar built with GitHub demo",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar production use product blog",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar GitHub README built with",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Solar Open 100B Upstage / Solar 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
@@ -3609,7 +3163,7 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Publishable",
-    "aCaseCount": 6,
+    "aCaseCount": 5,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -4654,6 +4208,68 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "gemini-1-5-flash-may",
+    "slug": "gemini-1-5-flash-may",
+    "modelName": "Gemini 1.5 Flash (May)",
+    "vendorId": "google",
+    "vendor": "Google / Gemini",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 3,
+    "score": 10.46,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "确认是否应并入家族模型页，而不是单独追独立案例。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini case study customer",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20case%20study%20customer"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini production use product blog",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemini 1.5 Flash (May) Google / Gemini 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemini%201.5%20Flash%20(May)%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "gemini-1-5-pro-may",
     "slug": "gemini-1-5-pro-may",
     "modelName": "Gemini 1.5 Pro (May)",
@@ -4840,23 +4456,24 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
-    "modelId": "gemini-2-5-pro",
-    "slug": "gemini-2-5-pro",
-    "modelName": "Gemini 2.5 Pro",
+    "modelId": "gemini-2-0-flash-thinking-exp-jan",
+    "slug": "gemini-2-0-flash-thinking-exp-jan",
+    "modelName": "Gemini 2.0 Flash Thinking exp. (Jan)",
     "vendorId": "google",
     "vendor": "Google / Gemini",
     "publishability": "Publishable",
-    "aCaseCount": 6,
+    "aCaseCount": 5,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
     "targetDeficit": 0,
     "sourceCount": 2,
-    "score": 34.63,
+    "score": 19.6,
     "priority": "P2",
     "status": "target_met_snapshot_refresh",
     "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
     "requiredEvidence": [
+      "确认是否应并入家族模型页，而不是单独追独立案例。",
       "A/B 证据必须保存快照，不能只保留 live URL。"
     ],
     "targetSources": [
@@ -4866,36 +4483,98 @@
     ],
     "searchQueries": [
       {
-        "query": "Gemini 2.5 Pro Google / Gemini case study customer",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20case%20study%20customer"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini case study customer",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20case%20study%20customer"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini built with GitHub demo",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini production use product blog",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini production use product blog",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini GitHub README built with",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
       },
       {
-        "query": "Gemini 2.5 Pro Google / Gemini 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+        "query": "Gemini 2.0 Flash Thinking exp. (Jan) Google / Gemini 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemini%202.0%20Flash%20Thinking%20exp.%20(Jan)%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "gemini-2-5-pro-mar",
+    "slug": "gemini-2-5-pro-mar",
+    "modelName": "Gemini 2.5 Pro (Mar)",
+    "vendorId": "google",
+    "vendor": "Google / Gemini",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 3,
+    "score": 30.3,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "确认是否应并入家族模型页，而不是单独追独立案例。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini case study customer",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20case%20study%20customer"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini production use product blog",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemini 2.5 Pro (Mar) Google / Gemini 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemini%202.5%20Pro%20(Mar)%20Google%20%2F%20Gemini%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
@@ -5825,6 +5504,67 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "gpt-3-5-turbo",
+    "slug": "gpt-3-5-turbo",
+    "modelName": "GPT-3.5 Turbo",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 2,
+    "score": 8.99,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "OpenAI customer stories / news",
+      "OpenAI platform model docs",
+      "customer product blog or press release"
+    ],
+    "searchQueries": [
+      {
+        "query": "GPT-3.5 Turbo OpenAI case study customer",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20case%20study%20customer"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI built with GitHub demo",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI production use product blog",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20production%20use%20product%20blog"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI GitHub README built with",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "GPT-3.5 Turbo OpenAI 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=GPT-3.5%20Turbo%20OpenAI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "gpt-4",
     "slug": "gpt-4",
     "modelName": "GPT-4",
@@ -6201,7 +5941,7 @@
     "vendorId": "openai",
     "vendor": "OpenAI",
     "publishability": "Publishable",
-    "aCaseCount": 6,
+    "aCaseCount": 8,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -6317,6 +6057,67 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "qwen-chat-14b",
+    "slug": "qwen-chat-14b",
+    "modelName": "Qwen Chat 14B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 4,
+    "score": 7.41,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba case study customer",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba production use product blog",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen Chat 14B Qwen / Alibaba 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen%20Chat%2014B%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "qwen-chat-72b",
     "slug": "qwen-chat-72b",
     "modelName": "Qwen Chat 72B",
@@ -6373,6 +6174,67 @@
       {
         "query": "Qwen Chat 72B Qwen / Alibaba 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Qwen%20Chat%2072B%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "qwen1-5-chat-110b",
+    "slug": "qwen1-5-chat-110b",
+    "modelName": "Qwen1.5 Chat 110B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 5,
+    "score": 9.55,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba case study customer",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba production use product blog",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen1.5 Chat 110B Qwen / Alibaba 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen1.5%20Chat%20110B%20Qwen%20%2F%20Alibaba%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
@@ -6446,7 +6308,7 @@
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen / Alibaba",
     "publishability": "Publishable",
-    "aCaseCount": 5,
+    "aCaseCount": 11,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -6563,6 +6425,67 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "step-3-7-flash",
+    "slug": "step-3-7-flash",
+    "modelName": "Step 3.7 Flash",
+    "vendorId": "stepfun",
+    "vendor": "StepFun / Step",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 2,
+    "score": null,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Step 3.7 Flash StepFun / Step case study customer",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20case%20study%20customer"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step built with GitHub demo",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step production use product blog",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step GitHub README built with",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Step 3.7 Flash StepFun / Step 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Step%203.7%20Flash%20StepFun%20%2F%20Step%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "solar-mini",
     "slug": "solar-mini",
     "modelName": "Solar Mini",
@@ -6624,6 +6547,67 @@
       }
     ],
     "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+  },
+  {
+    "modelId": "solar-open-100b",
+    "slug": "solar-open-100b",
+    "modelName": "Solar Open 100B",
+    "vendorId": "upstage",
+    "vendor": "Upstage / Solar",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 1,
+    "score": 21.67,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Solar Open 100B Upstage / Solar case study customer",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20case%20study%20customer"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar built with GitHub demo",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar production use product blog",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar GitHub README built with",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Solar Open 100B Upstage / Solar 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Solar%20Open%20100B%20Upstage%20%2F%20Solar%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
     "modelId": "grok-2",
