@@ -90,6 +90,7 @@ done
 export HOME=/home/ubuntu
 export LARK_CLI_HOME=/home/ubuntu/.lark-cli
 export MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF=\"\${MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF:-1}\"
+export MODEL_ATLAS_PUSH_TO_GITHUB=\"${MODEL_ATLAS_PUSH_TO_GITHUB:-1}\"
 export PATH=\"\$HOME/.local/bin:\$HOME/.hermes/node/bin:\$HOME/node-v24/bin:\$HOME/node-v22/bin:\$HOME/bin:/usr/local/bin:/usr/bin:/bin:\$PATH\"
 cd '$CLOUD_REPO_DIR/site'
 import_failed=0
