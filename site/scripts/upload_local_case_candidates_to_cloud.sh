@@ -80,12 +80,30 @@ export LARK_CLI_HOME=/home/ubuntu/.lark-cli
 export PATH=\"\$HOME/.local/bin:\$HOME/.hermes/node/bin:\$HOME/node-v24/bin:\$HOME/node-v22/bin:\$HOME/bin:/usr/local/bin:/usr/bin:/bin:\$PATH\"
 cd '$CLOUD_REPO_DIR/site'
 import_failed=0
-for file in $remote_list; do
+import_parallelism=\"\${MODEL_ATLAS_IMPORT_PARALLELISM:-3}\"
+if ! [[ \"\$import_parallelism\" =~ ^[0-9]+$ ]] || [[ \"\$import_parallelism\" -lt 1 ]]; then
+  import_parallelism=1
+fi
+run_import() {
+  local file=\"\$1\"
   if command -v timeout >/dev/null 2>&1; then
-    timeout \"\${MODEL_ATLAS_IMPORT_FILE_TIMEOUT_SECONDS:-240}\" python3 scripts/import-hermes-case-intake.py \"\$file\" || import_failed=1
+    timeout \"\${MODEL_ATLAS_IMPORT_FILE_TIMEOUT_SECONDS:-240}\" python3 scripts/import-hermes-case-intake.py \"\$file\"
   else
-    python3 scripts/import-hermes-case-intake.py \"\$file\" || import_failed=1
+    python3 scripts/import-hermes-case-intake.py \"\$file\"
   fi
+}
+active_imports=0
+for file in $remote_list; do
+  run_import \"\$file\" &
+  active_imports=\$((active_imports + 1))
+  if [[ \"\$active_imports\" -ge \"\$import_parallelism\" ]]; then
+    wait -n || import_failed=1
+    active_imports=\$((active_imports - 1))
+  fi
+done
+while [[ \"\$active_imports\" -gt 0 ]]; do
+  wait -n || import_failed=1
+  active_imports=\$((active_imports - 1))
 done
 npm run sync:feishu
 npm run evidence:backfill
