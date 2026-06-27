@@ -5,21 +5,21 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 63
-- Limited models: 53
+- Publishable models: 65
+- Limited models: 51
 - Archive models: 2
-- Verified A-grade cases: 334
-- Models without A-grade cases: 55
+- Verified A-grade cases: 342
+- Models without A-grade cases: 53
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 63
-- Models meeting full target line: 52
-- A-case deficit to minimum line: 165
-- A-case deficit to full target line: 292
+- Models meeting minimum line: 65
+- Models meeting full target line: 53
+- A-case deficit to minimum line: 159
+- A-case deficit to full target line: 285
 - Backfill rows: 118
 - P0 rows: 23
-- P1 rows: 30
-- P2 rows: 63
+- P1 rows: 29
+- P2 rows: 64
 - P3 rows: 2
 
 ## Operating Rule
@@ -97,10 +97,8 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P1 | Kimi / Moonshot AI | Kimi K2 0905 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | MiniMax | MiniMax M1 80k | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | OpenAI | GPT-3.5 Turbo | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen Chat 14B | needs_a_case | 0 | 4 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen1.5 Chat 110B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen2 72B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen3 235B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 235B A22B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 Max Thinking | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 Max Thinking (Preview) | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |

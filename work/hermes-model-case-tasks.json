@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T07:26:23.292Z",
+  "generatedAt": "2026-06-27T07:36:20.269Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 63,
-    "fullCoverageReady": 52,
-    "minDeficit": 165,
-    "targetDeficit": 292
+    "publicReady": 65,
+    "fullCoverageReady": 53,
+    "minDeficit": 159,
+    "targetDeficit": 285
   },
   "tasks": [
     {
@@ -17,19 +17,19 @@
       "vendorId": "qwen-alibaba",
       "vendor": "Qwen / Alibaba",
       "priority": "P1",
-      "status": "needs_a_case",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "status": "top_up_to_target",
+      "publishability": "Publishable",
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://huggingface.co/Qwen/Qwen-14B-Chat",
@@ -1157,20 +1157,20 @@
       "modelName": "Qwen3 235B 2507",
       "vendorId": "qwen-alibaba",
       "vendor": "Qwen / Alibaba",
-      "priority": "P1",
-      "status": "needs_a_case",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://qwenlm.github.io/blog/qwen3/",
@@ -5254,17 +5254,17 @@
       "priority": "P1",
       "status": "top_up_to_target",
       "publishability": "Publishable",
-      "aCaseCount": 4,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 1,
+      "targetDeficit": 2,
       "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 12,
-        "maxCandidatesPerRun": 24
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://api-docs.deepseek.com/news/news250528",
@@ -10736,7 +10736,7 @@
       "priority": "P2",
       "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 5,
+      "aCaseCount": 6,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
