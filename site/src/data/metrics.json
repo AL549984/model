@@ -3,12 +3,21 @@
   "models": 118,
   "bitableModels": 107,
   "vendorPageOnlyModels": 11,
+<<<<<<< HEAD
   "publishableModels": 111,
   "limitedModels": 5,
   "archiveModels": 2,
   "verifiedACases": 606,
   "modelsWithCases": 111,
   "modelsWithoutCases": 7,
+=======
+  "publishableModels": 68,
+  "limitedModels": 48,
+  "archiveModels": 2,
+  "verifiedACases": 364,
+  "modelsWithCases": 68,
+  "modelsWithoutCases": 50,
+>>>>>>> f7d70d5 (chore: update Model Atlas data)
   "modelsWithSupplementalSources": 118,
   "modelsAAOnly": 0,
   "datasetCut": "2026-06-27",
@@ -17,8 +26,15 @@
   "sourceNote": "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit.",
   "minCasesPerModel": 3,
   "targetCasesPerModel": 5,
+<<<<<<< HEAD
   "modelsMeetingMinCaseCoverage": 111,
   "modelsMeetingTargetCaseCoverage": 93,
   "caseDeficitToMin": 21,
   "caseDeficitToTarget": 59
+=======
+  "modelsMeetingMinCaseCoverage": 68,
+  "modelsMeetingTargetCaseCoverage": 56,
+  "caseDeficitToMin": 150,
+  "caseDeficitToTarget": 270
+>>>>>>> f7d70d5 (chore: update Model Atlas data)
 }
