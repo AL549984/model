@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T05:40:26.909Z",
+  "generatedAt": "2026-06-27T05:47:48.061Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 39,
+    "publicReady": 41,
     "fullCoverageReady": 37,
-    "minDeficit": 234,
-    "targetDeficit": 394
+    "minDeficit": 231,
+    "targetDeficit": 390
   },
   "tasks": [
     {
@@ -6378,20 +6378,20 @@
       "modelName": "Gemini 1.5 Pro (May)",
       "vendorId": "google",
       "vendor": "Google / Gemini",
-      "priority": "P0",
-      "status": "below_min_case_coverage",
-      "publishability": "Limited",
-      "aCaseCount": 1,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 2,
-      "targetDeficit": 4,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 48,
-        "maxCandidatesPerRun": 72
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/",
@@ -7501,20 +7501,20 @@
       "modelName": "Kimi K2",
       "vendorId": "kimi",
       "vendor": "Kimi / Moonshot AI",
-      "priority": "P2",
-      "status": "target_met_snapshot_refresh",
+      "priority": "P1",
+      "status": "top_up_to_target",
       "publishability": "Publishable",
-      "aCaseCount": 5,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 0,
+      "targetDeficit": 2,
       "publicReady": true,
-      "fullCoverageReady": true,
+      "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 12,
-        "maxCandidatesPerRun": 24
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://github.com/MoonshotAI/Kimi-K2",
@@ -7784,19 +7784,19 @@
       "vendorId": "kimi",
       "vendor": "Kimi / Moonshot AI",
       "priority": "P0",
-      "status": "below_min_case_coverage",
-      "publishability": "Limited",
-      "aCaseCount": 2,
+      "status": "top_up_to_target",
+      "publishability": "Publishable",
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 1,
-      "targetDeficit": 3,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 36,
-        "maxCandidatesPerRun": 54
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://github.com/MoonshotAI/Kimi-K2",
