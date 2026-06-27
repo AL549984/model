@@ -45,7 +45,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.2 (xhigh) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | GPT-5.2 (xhigh) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
-| OpenAI | GPT-5.4 (xhigh) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | GPT-5.4 (xhigh) OpenAI case study customer |
+| OpenAI | GPT-5.5 (xhigh) | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | GPT-5.5 (xhigh) OpenAI case study customer |
 | Qwen / Alibaba | Qwen3.5 397B A17B | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Qwen3.5 397B A17B Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
 | Qwen / Alibaba | Qwen3.7 Max | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Qwen3.7 Max Qwen / Alibaba case study customer |
