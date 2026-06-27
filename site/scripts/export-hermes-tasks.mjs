@@ -132,16 +132,21 @@ const tasks = models.map((model) => {
   };
 });
 
+const activeTasks = tasks.filter((task) => !["Archive", "Hold"].includes(task.publishability));
+
 const summary = {
   models: tasks.length,
+  activeModels: activeTasks.length,
   minACases: MIN_A_CASES,
   targetACases: TARGET_A_CASES,
-  publicReady: tasks.filter((task) => task.publicReady).length,
-  fullCoverageReady: tasks.filter((task) => task.fullCoverageReady).length,
-  minDeficit: tasks.reduce((sum, task) => sum + task.minDeficit, 0),
-  targetDeficit: tasks.reduce((sum, task) => sum + task.targetDeficit, 0)
+  publicReady: activeTasks.filter((task) => task.publicReady).length,
+  fullCoverageReady: activeTasks.filter((task) => task.fullCoverageReady).length,
+  minDeficit: activeTasks.reduce((sum, task) => sum + task.minDeficit, 0),
+  targetDeficit: activeTasks.reduce((sum, task) => sum + task.targetDeficit, 0),
+  allModelMinDeficit: tasks.reduce((sum, task) => sum + task.minDeficit, 0),
+  allModelTargetDeficit: tasks.reduce((sum, task) => sum + task.targetDeficit, 0)
 };
 
 fs.writeFileSync(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), summary, tasks }, null, 2)}\n`);
 console.log(`Exported ${tasks.length} Hermes crawl task(s) to ${path.relative(repoRoot, outputPath)}.`);
-console.log(`Case coverage: publicReady=${summary.publicReady}/${summary.models}, fullCoverageReady=${summary.fullCoverageReady}/${summary.models}, minDeficit=${summary.minDeficit}, targetDeficit=${summary.targetDeficit}.`);
+console.log(`Case coverage: publicReady=${summary.publicReady}/${summary.activeModels}, fullCoverageReady=${summary.fullCoverageReady}/${summary.activeModels}, minDeficit=${summary.minDeficit}, targetDeficit=${summary.targetDeficit}.`);

@@ -77,8 +77,10 @@ const total = metrics.totalModels || 118;
 const counts = [...byModel.values()];
 console.log(JSON.stringify({
   cases: cases.length,
-  minDeficit: metrics.caseDeficitToMin,
-  targetDeficit: metrics.caseDeficitToTarget,
+  minDeficit: metrics.activeCaseDeficitToMin ?? metrics.caseDeficitToMin,
+  targetDeficit: metrics.activeCaseDeficitToTarget ?? metrics.caseDeficitToTarget,
+  allModelMinDeficit: metrics.caseDeficitToMin,
+  allModelTargetDeficit: metrics.caseDeficitToTarget,
   atLeast3: counts.filter((n) => n >= 3).length,
   atLeast5: counts.filter((n) => n >= 5).length,
   below3: total - counts.filter((n) => n >= 3).length,

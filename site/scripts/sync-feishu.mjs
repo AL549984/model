@@ -354,30 +354,43 @@ function updateMetrics() {
   const cases = readJson("cases.json");
   const vendors = readJson("vendors.json");
   const metrics = readJson("metrics.json");
+  const activeModels = models.filter((model) => !["Archive", "Hold"].includes(model.publishability));
   const publishableModels = models.filter((model) => model.publishability === "Publishable").length;
   const archiveModels = models.filter((model) => model.publishability === "Archive").length;
   const limitedModels = models.filter((model) => model.publishability === "Limited").length;
   const modelsWithCases = models.filter((model) => Number(model.aCaseCount ?? 0) > 0).length;
+  const activeModelsWithCases = activeModels.filter((model) => Number(model.aCaseCount ?? 0) > 0).length;
   const modelsMeetingMinCaseCoverage = models.filter((model) => Number(model.aCaseCount ?? 0) >= MIN_A_CASES).length;
   const modelsMeetingTargetCaseCoverage = models.filter((model) => Number(model.aCaseCount ?? 0) >= TARGET_A_CASES).length;
+  const activeModelsMeetingMinCaseCoverage = activeModels.filter((model) => Number(model.aCaseCount ?? 0) >= MIN_A_CASES).length;
+  const activeModelsMeetingTargetCaseCoverage = activeModels.filter((model) => Number(model.aCaseCount ?? 0) >= TARGET_A_CASES).length;
   const caseDeficitToMin = models.reduce((sum, model) => sum + Math.max(0, MIN_A_CASES - Number(model.aCaseCount ?? 0)), 0);
   const caseDeficitToTarget = models.reduce((sum, model) => sum + Math.max(0, TARGET_A_CASES - Number(model.aCaseCount ?? 0)), 0);
+  const activeCaseDeficitToMin = activeModels.reduce((sum, model) => sum + Math.max(0, MIN_A_CASES - Number(model.aCaseCount ?? 0)), 0);
+  const activeCaseDeficitToTarget = activeModels.reduce((sum, model) => sum + Math.max(0, TARGET_A_CASES - Number(model.aCaseCount ?? 0)), 0);
   writeJson("metrics.json", {
     ...metrics,
     vendors: vendors.length,
     models: models.length,
+    activeModels: activeModels.length,
     publishableModels,
     limitedModels,
     archiveModels,
     verifiedACases: cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible).length,
     modelsWithCases,
     modelsWithoutCases: models.length - modelsWithCases,
+    activeModelsWithCases,
+    activeModelsWithoutCases: activeModels.length - activeModelsWithCases,
     minCasesPerModel: MIN_A_CASES,
     targetCasesPerModel: TARGET_A_CASES,
     modelsMeetingMinCaseCoverage,
     modelsMeetingTargetCaseCoverage,
+    activeModelsMeetingMinCaseCoverage,
+    activeModelsMeetingTargetCaseCoverage,
     caseDeficitToMin,
     caseDeficitToTarget,
+    activeCaseDeficitToMin,
+    activeCaseDeficitToTarget,
     datasetCut: new Date().toISOString().slice(0, 10),
     sourceNote: "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit."
   });

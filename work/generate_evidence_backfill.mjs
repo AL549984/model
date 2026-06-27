@@ -265,10 +265,11 @@ const counts = backfill.reduce((acc, item) => {
 }, {});
 const limited = backfill.filter((item) => item.publishability === "Limited");
 const p0 = backfill.filter((item) => item.priority === "P0");
-const minReady = backfill.filter((item) => item.aCaseCount >= MIN_A_CASES).length;
-const targetReady = backfill.filter((item) => item.aCaseCount >= TARGET_A_CASES).length;
-const minDeficit = backfill.reduce((sum, item) => sum + item.minDeficit, 0);
-const targetDeficit = backfill.reduce((sum, item) => sum + item.targetDeficit, 0);
+const activeBackfill = backfill.filter((item) => !["Archive", "Hold"].includes(item.publishability));
+const minReady = activeBackfill.filter((item) => item.aCaseCount >= MIN_A_CASES).length;
+const targetReady = activeBackfill.filter((item) => item.aCaseCount >= TARGET_A_CASES).length;
+const minDeficit = activeBackfill.reduce((sum, item) => sum + item.minDeficit, 0);
+const targetDeficit = activeBackfill.reduce((sum, item) => sum + item.targetDeficit, 0);
 
 const mdLines = [
   "# Evidence Backfill Full Plan",
@@ -278,6 +279,7 @@ const mdLines = [
   "## Summary",
   "",
   `- Models: ${metrics.models}`,
+  `- Active models: ${activeBackfill.length}`,
   `- Publishable models: ${metrics.publishableModels}`,
   `- Limited models: ${metrics.limitedModels}`,
   `- Archive models: ${metrics.archiveModels}`,

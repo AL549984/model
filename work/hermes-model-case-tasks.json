@@ -1,13 +1,16 @@
 {
-  "generatedAt": "2026-06-27T09:54:15.892Z",
+  "generatedAt": "2026-06-27T09:54:40.570Z",
   "summary": {
     "models": 118,
+    "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 111,
     "fullCoverageReady": 100,
-    "minDeficit": 21,
-    "targetDeficit": 49
+    "minDeficit": 15,
+    "targetDeficit": 39,
+    "allModelMinDeficit": 21,
+    "allModelTargetDeficit": 49
   },
   "tasks": [
     {
