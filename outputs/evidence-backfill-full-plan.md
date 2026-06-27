@@ -5,17 +5,17 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 52
-- Limited models: 64
+- Publishable models: 55
+- Limited models: 61
 - Archive models: 2
-- Verified A-grade cases: 287
-- Models without A-grade cases: 65
+- Verified A-grade cases: 297
+- Models without A-grade cases: 62
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 52
+- Models meeting minimum line: 55
 - Models meeting full target line: 45
-- A-case deficit to minimum line: 197
-- A-case deficit to full target line: 339
+- A-case deficit to minimum line: 188
+- A-case deficit to full target line: 329
 - Backfill rows: 118
 - P0 rows: 24
 - P1 rows: 36
@@ -105,9 +105,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P1 | Qwen / Alibaba | Qwen Chat 72B | needs_a_case | 0 | 4 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen1.5 Chat 110B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen2 72B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen2.5 72B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | Qwen / Alibaba | Qwen2.5 Max | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | Qwen / Alibaba | Qwen3 235B | needs_a_case | 0 | 5 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Qwen / Alibaba | Qwen3 235B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 235B A22B 2507 | needs_a_case | 0 | 5 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | Qwen / Alibaba | Qwen3 Max | needs_a_case | 0 | 4 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
