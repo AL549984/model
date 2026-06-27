@@ -57,18 +57,48 @@ load_env_file "$SITE_DIR/.env"
 
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")" "$(dirname "$PIPELINE_LOCK_PATH")"
 
-exec 8>"$LOCK_PATH"
-if ! flock -n 8; then
-  echo "{\"ok\":true,\"skipped\":\"case poll already running\"}"
-  exit 0
-fi
+LOCK_DIRS=()
 
-exec 9>"$PIPELINE_LOCK_PATH"
-lock_wait="${MODEL_ATLAS_LOCK_WAIT_SECONDS:-0}"
-if ! flock -w "$lock_wait" 9; then
-  echo "{\"ok\":true,\"skipped\":\"auto pipeline lock busy\"}"
-  exit 0
-fi
+cleanup_locks() {
+  local lock_dir
+  for lock_dir in "${LOCK_DIRS[@]}"; do
+    rm -rf "$lock_dir"
+  done
+}
+trap cleanup_locks EXIT
+
+acquire_lock() {
+  local path="$1"
+  local skipped="$2"
+  local wait_seconds="${3:-0}"
+  local lock_dir="${path}.d"
+  local started
+  started="$(date +%s)"
+
+  while true; do
+    if mkdir "$lock_dir" 2>/dev/null; then
+      echo "$$" >"$lock_dir/pid"
+      LOCK_DIRS+=("$lock_dir")
+      return 0
+    fi
+
+    local pid=""
+    [[ -f "$lock_dir/pid" ]] && pid="$(cat "$lock_dir/pid" 2>/dev/null || true)"
+    if [[ -n "$pid" ]] && ! ps -p "$pid" >/dev/null 2>&1; then
+      rm -rf "$lock_dir"
+      continue
+    fi
+
+    if (( wait_seconds <= 0 || $(date +%s) - started >= wait_seconds )); then
+      echo "{\"ok\":true,\"skipped\":\"$skipped\"}"
+      exit 0
+    fi
+    sleep 1
+  done
+}
+
+acquire_lock "$LOCK_PATH" "case poll already running" 0
+acquire_lock "$PIPELINE_LOCK_PATH" "auto pipeline lock busy" "${MODEL_ATLAS_LOCK_WAIT_SECONDS:-0}"
 
 ts="$(date '+%Y-%m-%d_%H-%M-%S')"
 out="$LOG_DIR/${ts}_case_poll.log"

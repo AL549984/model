@@ -58,23 +58,42 @@ load_env_file "$SITE_DIR/.env"
 
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")" "$(dirname "$PIPELINE_LOCK_PATH")" "$(dirname "$POLL_LOCK_PATH")"
 
-exec 7>"$LOCK_PATH"
-if ! flock -n 7; then
-  echo "{\"ok\":true,\"skipped\":\"full case backfill already running\"}"
-  exit 0
-fi
+LOCK_DIRS=()
 
-exec 8>"$POLL_LOCK_PATH"
-if ! flock -n 8; then
-  echo "{\"ok\":true,\"skipped\":\"case poll already running\"}"
-  exit 0
-fi
+cleanup_locks() {
+  local lock_dir
+  for lock_dir in "${LOCK_DIRS[@]}"; do
+    rm -rf "$lock_dir"
+  done
+}
+trap cleanup_locks EXIT
 
-exec 9>"$PIPELINE_LOCK_PATH"
-if ! flock -n 9; then
-  echo "{\"ok\":true,\"skipped\":\"auto pipeline already running\"}"
+acquire_lock() {
+  local path="$1"
+  local skipped="$2"
+  local lock_dir="${path}.d"
+  if mkdir "$lock_dir" 2>/dev/null; then
+    echo "$$" >"$lock_dir/pid"
+    LOCK_DIRS+=("$lock_dir")
+    return 0
+  fi
+  local pid=""
+  [[ -f "$lock_dir/pid" ]] && pid="$(cat "$lock_dir/pid" 2>/dev/null || true)"
+  if [[ -n "$pid" ]] && ! ps -p "$pid" >/dev/null 2>&1; then
+    rm -rf "$lock_dir"
+    if mkdir "$lock_dir" 2>/dev/null; then
+      echo "$$" >"$lock_dir/pid"
+      LOCK_DIRS+=("$lock_dir")
+      return 0
+    fi
+  fi
+  echo "{\"ok\":true,\"skipped\":\"$skipped\"}"
   exit 0
-fi
+}
+
+acquire_lock "$LOCK_PATH" "full case backfill already running"
+acquire_lock "$POLL_LOCK_PATH" "case poll already running"
+acquire_lock "$PIPELINE_LOCK_PATH" "auto pipeline already running"
 
 ts="$(date '+%Y-%m-%d_%H-%M-%S')"
 out="$LOG_DIR/${ts}_full_case_backfill.log"

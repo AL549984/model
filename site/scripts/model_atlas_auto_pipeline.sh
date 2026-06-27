@@ -55,12 +55,46 @@ load_env_file "$SITE_DIR/.env"
 
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")"
 
-exec 9>"$LOCK_PATH"
-lock_wait="${MODEL_ATLAS_LOCK_WAIT_SECONDS:-1200}"
-if ! flock -w "$lock_wait" 9; then
-  echo "{\"ok\":false,\"stage\":\"lock\",\"error\":\"model atlas pipeline lock busy after ${lock_wait}s\"}"
-  exit 75
-fi
+LOCK_DIRS=()
+
+cleanup_locks() {
+  local lock_dir
+  for lock_dir in "${LOCK_DIRS[@]}"; do
+    rm -rf "$lock_dir"
+  done
+}
+trap cleanup_locks EXIT
+
+acquire_lock() {
+  local path="$1"
+  local wait_seconds="${2:-1200}"
+  local lock_dir="${path}.d"
+  local started
+  started="$(date +%s)"
+
+  while true; do
+    if mkdir "$lock_dir" 2>/dev/null; then
+      echo "$$" >"$lock_dir/pid"
+      LOCK_DIRS+=("$lock_dir")
+      return 0
+    fi
+
+    local pid=""
+    [[ -f "$lock_dir/pid" ]] && pid="$(cat "$lock_dir/pid" 2>/dev/null || true)"
+    if [[ -n "$pid" ]] && ! ps -p "$pid" >/dev/null 2>&1; then
+      rm -rf "$lock_dir"
+      continue
+    fi
+
+    if (( $(date +%s) - started >= wait_seconds )); then
+      echo "{\"ok\":false,\"stage\":\"lock\",\"error\":\"model atlas pipeline lock busy after ${wait_seconds}s\"}"
+      exit 75
+    fi
+    sleep 1
+  done
+}
+
+acquire_lock "$LOCK_PATH" "${MODEL_ATLAS_LOCK_WAIT_SECONDS:-1200}"
 
 ts="$(date '+%Y-%m-%d_%H-%M-%S')"
 out="$LOG_DIR/${ts}_auto_pipeline.log"
