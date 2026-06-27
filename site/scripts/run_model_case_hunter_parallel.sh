@@ -218,6 +218,10 @@ run_worker() {
     worker_cmd=(hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")")
   fi
   if "${worker_cmd[@]}" >>"$log_path" 2>&1; then
+    if [[ ! -s "$out_json" ]]; then
+      printf '{"cases":[]}\n' >"$out_json"
+      echo "[$(timestamp)] Hermes worker $worker_name produced no candidate file; wrote empty candidate set" | tee -a "$log_path"
+    fi
     echo "[$(timestamp)] Hermes worker $worker_name finished" | tee -a "$log_path"
   else
     local code=$?
