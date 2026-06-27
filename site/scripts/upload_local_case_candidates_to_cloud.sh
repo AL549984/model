@@ -95,15 +95,15 @@ run_import() {
 active_imports=0
 for file in $remote_list; do
   run_import \"\$file\" &
-  active_imports=\$((active_imports + 1))
+  let active_imports+=1
   if [[ \"\$active_imports\" -ge \"\$import_parallelism\" ]]; then
     wait -n || import_failed=1
-    active_imports=\$((active_imports - 1))
+    let active_imports-=1
   fi
 done
 while [[ \"\$active_imports\" -gt 0 ]]; do
   wait -n || import_failed=1
-  active_imports=\$((active_imports - 1))
+  let active_imports-=1
 done
 npm run sync:feishu
 npm run evidence:backfill
