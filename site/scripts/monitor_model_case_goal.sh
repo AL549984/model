@@ -132,6 +132,13 @@ while true; do
 
   if bash "$SITE_DIR/scripts/upload_local_case_candidates_to_cloud.sh"; then
     echo "[$(timestamp)] upload/import step complete"
+    if [[ "${MODEL_ATLAS_LOCAL_PUBLISH_AFTER_UPLOAD:-0}" == "1" ]]; then
+      if bash "$SITE_DIR/scripts/publish_cloud_model_data_locally.sh"; then
+        echo "[$(timestamp)] local publish step complete"
+      else
+        echo "[$(timestamp)] local publish step failed; will retry"
+      fi
+    fi
   else
     echo "[$(timestamp)] upload/import step failed; will retry"
   fi
