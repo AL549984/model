@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T08:10:52.360Z",
+  "generatedAt": "2026-06-27T08:12:00.276Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 79,
+    "publicReady": 80,
     "fullCoverageReady": 63,
-    "minDeficit": 117,
-    "targetDeficit": 221
+    "minDeficit": 114,
+    "targetDeficit": 217
   },
   "tasks": [
     {
@@ -1586,19 +1586,19 @@
       "vendorId": "qwen-alibaba",
       "vendor": "Qwen / Alibaba",
       "priority": "P1",
-      "status": "needs_a_case",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "status": "top_up_to_target",
+      "publishability": "Publishable",
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://qwenlm.github.io/blog/qwen3/",
