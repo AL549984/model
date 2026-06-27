@@ -3,10 +3,10 @@
   "models": 118,
   "bitableModels": 107,
   "vendorPageOnlyModels": 11,
-  "publishableModels": 99,
-  "limitedModels": 17,
+  "publishableModels": 100,
+  "limitedModels": 16,
   "archiveModels": 2,
-  "verifiedACases": 532,
+  "verifiedACases": 536,
   "modelsWithCases": 100,
   "modelsWithoutCases": 18,
   "modelsWithSupplementalSources": 118,
@@ -17,8 +17,8 @@
   "sourceNote": "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit.",
   "minCasesPerModel": 3,
   "targetCasesPerModel": 5,
-  "modelsMeetingMinCaseCoverage": 99,
-  "modelsMeetingTargetCaseCoverage": 79,
-  "caseDeficitToMin": 56,
-  "caseDeficitToTarget": 125
+  "modelsMeetingMinCaseCoverage": 100,
+  "modelsMeetingTargetCaseCoverage": 80,
+  "caseDeficitToMin": 54,
+  "caseDeficitToTarget": 121
 }
