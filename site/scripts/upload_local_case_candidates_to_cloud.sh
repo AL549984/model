@@ -79,8 +79,13 @@ export HOME=/home/ubuntu
 export LARK_CLI_HOME=/home/ubuntu/.lark-cli
 export PATH=\"\$HOME/.local/bin:\$HOME/.hermes/node/bin:\$HOME/node-v24/bin:\$HOME/node-v22/bin:\$HOME/bin:/usr/local/bin:/usr/bin:/bin:\$PATH\"
 cd '$CLOUD_REPO_DIR/site'
+import_failed=0
 for file in $remote_list; do
-  python3 scripts/import-hermes-case-intake.py \"\$file\"
+  if command -v timeout >/dev/null 2>&1; then
+    timeout \"\${MODEL_ATLAS_IMPORT_FILE_TIMEOUT_SECONDS:-240}\" python3 scripts/import-hermes-case-intake.py \"\$file\" || import_failed=1
+  else
+    python3 scripts/import-hermes-case-intake.py \"\$file\" || import_failed=1
+  fi
 done
 npm run sync:feishu
 npm run evidence:backfill
@@ -88,7 +93,8 @@ npm run hermes:tasks
 npm run build
 if [[ \"\${MODEL_ATLAS_PUSH_TO_GITHUB:-1}\" != \"0\" ]]; then
   python3 scripts/push_model_atlas_site_to_github.py --repo-dir '$CLOUD_REPO_DIR'
-fi"
+fi
+exit \"\$import_failed\""
 
 for file in "${new_files[@]}"; do
   basename "$file" >>"$UPLOADED_STATE"
