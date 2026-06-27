@@ -60,6 +60,7 @@ OFFICIAL_VENDOR_DOMAINS = {
     "z-ai": ["z.ai", "zhipuai.cn"],
     "bytedance-seed": ["seed.bytedance.com"],
 }
+URL_PROBE_TIMEOUT_SECONDS = float(os.environ.get("MODEL_ATLAS_URL_PROBE_TIMEOUT_SECONDS", "5"))
 
 
 def load_env() -> None:
@@ -197,7 +198,7 @@ def probe_url(value: str) -> tuple[bool, str]:
     for method in ("HEAD", "GET"):
         request = urllib.request.Request(value, method=method, headers=headers)
         try:
-            with urllib.request.urlopen(request, timeout=15) as response:
+            with urllib.request.urlopen(request, timeout=URL_PROBE_TIMEOUT_SECONDS) as response:
                 status = response.getcode()
                 if status == 404:
                     return False, "url_404"
