@@ -6,7 +6,7 @@
   "publishableModels": 116,
   "limitedModels": 0,
   "archiveModels": 2,
-  "verifiedACases": 664,
+  "verifiedACases": 666,
   "modelsWithCases": 116,
   "modelsWithoutCases": 2,
   "modelsWithSupplementalSources": 118,
@@ -18,14 +18,14 @@
   "minCasesPerModel": 3,
   "targetCasesPerModel": 5,
   "modelsMeetingMinCaseCoverage": 116,
-  "modelsMeetingTargetCaseCoverage": 112,
+  "modelsMeetingTargetCaseCoverage": 111,
   "caseDeficitToMin": 6,
-  "caseDeficitToTarget": 15,
+  "caseDeficitToTarget": 16,
   "activeModels": 116,
   "activeModelsWithCases": 116,
   "activeModelsWithoutCases": 0,
   "activeModelsMeetingMinCaseCoverage": 116,
-  "activeModelsMeetingTargetCaseCoverage": 112,
+  "activeModelsMeetingTargetCaseCoverage": 111,
   "activeCaseDeficitToMin": 0,
-  "activeCaseDeficitToTarget": 5
+  "activeCaseDeficitToTarget": 6
 }
