@@ -230,12 +230,12 @@ function mapCaseRecord(record, existingModelsById) {
     taskDescription: pick(fields, ["taskDescription", "task_description", "任务描述"]),
     outputResult: pick(fields, ["outputResult", "output_result", "输出结果"]),
     modelContribution: pick(fields, ["modelContribution", "model_contribution", "模型贡献"]),
-    evidenceGrade: pick(fields, ["evidenceGrade", "evidence_grade", "证据等级"], ""),
-    showcaseEligible: parseBool(pick(fields, ["showcaseEligible", "showcase_eligible", "可精选"], false)),
-    selectedForModelCard: parseBool(pick(fields, ["selectedForModelCard", "selected_for_model_card", "进入模型卡"], false)),
+    evidenceGrade: pick(fields, ["evidence_grade", "evidenceGrade", "证据等级"], ""),
+    showcaseEligible: parseBool(pick(fields, ["showcase_eligible", "showcaseEligible", "可精选"], false)),
+    selectedForModelCard: parseBool(pick(fields, ["selected_for_model_card", "selectedForModelCard", "进入模型卡"], false)),
     riskNotes: pick(fields, ["riskNotes", "risk_notes", "风险备注"]),
     collectedAt: pick(fields, ["collectedAt", "collected_at", "采集时间"], new Date().toISOString().slice(0, 10)),
-    reviewStatus: pick(fields, ["reviewStatus", "review_status", "审核状态"], "")
+    reviewStatus: pick(fields, ["review_status", "reviewStatus", "审核状态"], "")
   };
 
   const gate = evidenceGate(caseItem);
