@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-27T10:15:47.079Z",
+  "generatedAt": "2026-06-27T10:17:29.772Z",
   "summary": {
     "models": 118,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 115,
-    "fullCoverageReady": 105,
+    "fullCoverageReady": 107,
     "minDeficit": 3,
-    "targetDeficit": 19,
+    "targetDeficit": 16,
     "allModelMinDeficit": 9,
-    "allModelTargetDeficit": 29
+    "allModelTargetDeficit": 26
   },
   "tasks": [
     {
@@ -3566,16 +3566,16 @@
       "modelName": "Claude 4.5 Sonnet",
       "vendorId": "anthropic",
       "vendor": "Anthropic / Claude",
-      "priority": "P0",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 4,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 1,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
         "targetCandidateCount": 12,
@@ -9192,20 +9192,20 @@
       "modelName": "MiniMax M1 80k",
       "vendorId": "minimax",
       "vendor": "MiniMax",
-      "priority": "P1",
-      "status": "top_up_to_target",
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 3,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 2,
+      "targetDeficit": 0,
       "publicReady": true,
-      "fullCoverageReady": false,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 24,
-        "maxCandidatesPerRun": 36
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://www.minimax.io/news",
