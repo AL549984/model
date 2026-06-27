@@ -56,6 +56,10 @@ load_env_file() {
 load_env_file "$PROFILE/.env"
 load_env_file "$SITE_DIR/.env"
 
+timestamp() {
+  date -Iseconds 2>/dev/null || date '+%Y-%m-%dT%H:%M:%S%z'
+}
+
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")" "$(dirname "$PIPELINE_LOCK_PATH")" "$(dirname "$POLL_LOCK_PATH")"
 
 LOCK_DIRS=()
@@ -101,20 +105,25 @@ out="$LOG_DIR/${ts}_full_case_backfill.log"
 run_step() {
   local name="$1"
   shift
-  echo "[$(date --iso-8601=seconds)] >>> $name"
-  "$@"
-  echo "[$(date --iso-8601=seconds)] <<< $name"
+  echo "[$(timestamp)] >>> $name"
+  if "$@"; then
+    echo "[$(timestamp)] <<< $name"
+  else
+    local code=$?
+    echo "[$(timestamp)] !!! step failed: $name (exit=$code)"
+    return "$code"
+  fi
 }
 
 run_optional_step() {
   local name="$1"
   shift
-  echo "[$(date --iso-8601=seconds)] >>> $name"
+  echo "[$(timestamp)] >>> $name"
   if "$@"; then
-    echo "[$(date --iso-8601=seconds)] <<< $name"
+    echo "[$(timestamp)] <<< $name"
   else
     local code=$?
-    echo "[$(date --iso-8601=seconds)] !!! optional step failed: $name (exit=$code); continuing"
+    echo "[$(timestamp)] !!! optional step failed: $name (exit=$code); continuing"
   fi
 }
 
@@ -126,7 +135,7 @@ NODE
 }
 
 {
-  echo "[$(date --iso-8601=seconds)] Model Atlas full case backfill started"
+  echo "[$(timestamp)] Model Atlas full case backfill started"
   echo "SITE_DIR=$SITE_DIR"
   echo "REPO_DIR=$REPO_DIR"
   echo "ROUNDS=$ROUNDS"
@@ -135,15 +144,15 @@ NODE
   cd "$SITE_DIR"
 
   for round in $(seq 1 "$ROUNDS"); do
-    echo "[$(date --iso-8601=seconds)] === full backfill round $round/$ROUNDS ==="
+    echo "[$(timestamp)] === full backfill round $round/$ROUNDS ==="
     run_step "sync Feishu" npm run sync:feishu
     run_step "generate evidence backfill" npm run evidence:backfill
     run_step "export Hermes case tasks" npm run hermes:tasks
 
     target_deficit="$(remaining_target_deficit)"
-    echo "[$(date --iso-8601=seconds)] targetDeficit=$target_deficit"
+    echo "[$(timestamp)] targetDeficit=$target_deficit"
     if [[ "$target_deficit" == "0" ]]; then
-      echo "[$(date --iso-8601=seconds)] target coverage complete"
+      echo "[$(timestamp)] target coverage complete"
       break
     fi
 
@@ -172,7 +181,7 @@ NODE
     echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=${MODEL_ATLAS_PUSH_TO_GITHUB:-0}"
   fi
 
-  echo "[$(date --iso-8601=seconds)] Model Atlas full case backfill finished"
+  echo "[$(timestamp)] Model Atlas full case backfill finished"
 } >"$out" 2>&1 || {
   code=$?
   cat "$out"

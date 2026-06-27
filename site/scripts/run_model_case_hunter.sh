@@ -56,6 +56,10 @@ load_env_file() {
 load_env_file "$PROFILE/.env"
 load_env_file "$SITE_DIR/.env"
 
+timestamp() {
+  date -Iseconds 2>/dev/null || date '+%Y-%m-%dT%H:%M:%S%z'
+}
+
 mkdir -p "$(dirname "$STATE_PATH")" "$LOG_DIR" "$OUT_DIR"
 
 STAMP="$(date '+%Y%m%d-%H%M%S')"
@@ -167,13 +171,13 @@ A 类候选必须同时满足：
 - 完成后只需要写入 $OUT_JSON，不要直接写飞书；外层脚本会导入。
 EOF
 
-echo "[$(date --iso-8601=seconds)] running Hermes case hunter batch $(basename "$BATCH_JSON")" | tee "$LOG_PATH"
+echo "[$(timestamp)] running Hermes case hunter batch $(basename "$BATCH_JSON")" | tee "$LOG_PATH"
 
 if timeout "$TIMEOUT_SECONDS" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$PROMPT_PATH")" >>"$LOG_PATH" 2>&1; then
-  echo "[$(date --iso-8601=seconds)] Hermes case hunter finished" | tee -a "$LOG_PATH"
+  echo "[$(timestamp)] Hermes case hunter finished" | tee -a "$LOG_PATH"
 else
   code=$?
-  echo "[$(date --iso-8601=seconds)] Hermes case hunter failed code=$code" | tee -a "$LOG_PATH"
+  echo "[$(timestamp)] Hermes case hunter failed code=$code" | tee -a "$LOG_PATH"
   exit "$code"
 fi
 

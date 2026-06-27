@@ -51,6 +51,10 @@ load_env_file() {
 load_env_file "$PROFILE/.env"
 load_env_file "$SITE_DIR/.env"
 
+timestamp() {
+  date -Iseconds 2>/dev/null || date '+%Y-%m-%dT%H:%M:%S%z'
+}
+
 STATE_PATH="${MODEL_ATLAS_CASE_HUNTER_STATE:-$PROFILE/state/model_atlas_case_hunter_state.json}"
 LOG_DIR="${MODEL_ATLAS_CASE_HUNTER_LOG_DIR:-$PROFILE/data/model_atlas_logs/case_hunter}"
 OUT_DIR="${MODEL_ATLAS_CASE_HUNTER_OUT_DIR:-$PROFILE/data/model_atlas_case_candidates}"
@@ -196,17 +200,17 @@ run_worker() {
   local log_path="$LOG_DIR/${worker_name}.log"
 
   write_prompt "$shard_json" "$out_json" "$prompt_path"
-  echo "[$(date --iso-8601=seconds)] running Hermes worker $worker_name" | tee "$log_path"
+  echo "[$(timestamp)] running Hermes worker $worker_name" | tee "$log_path"
   if timeout "$TIMEOUT_SECONDS" hermes --profile default --yolo --toolsets terminal,file --oneshot "$(cat "$prompt_path")" >>"$log_path" 2>&1; then
-    echo "[$(date --iso-8601=seconds)] Hermes worker $worker_name finished" | tee -a "$log_path"
+    echo "[$(timestamp)] Hermes worker $worker_name finished" | tee -a "$log_path"
   else
     local code=$?
-    echo "[$(date --iso-8601=seconds)] Hermes worker $worker_name failed code=$code" | tee -a "$log_path"
+    echo "[$(timestamp)] Hermes worker $worker_name failed code=$code" | tee -a "$log_path"
     return 0
   fi
 }
 
-echo "[$(date --iso-8601=seconds)] selected ${#SHARDS[@]} parallel shard(s)" | tee "$SUMMARY_LOG"
+echo "[$(timestamp)] selected ${#SHARDS[@]} parallel shard(s)" | tee "$SUMMARY_LOG"
 
 pids=()
 for shard in "${SHARDS[@]}"; do

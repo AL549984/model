@@ -53,6 +53,10 @@ load_env_file() {
 load_env_file "$PROFILE/.env"
 load_env_file "$SITE_DIR/.env"
 
+timestamp() {
+  date -Iseconds 2>/dev/null || date '+%Y-%m-%dT%H:%M:%S%z'
+}
+
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")"
 
 LOCK_DIRS=()
@@ -102,13 +106,18 @@ out="$LOG_DIR/${ts}_auto_pipeline.log"
 run_step() {
   local name="$1"
   shift
-  echo "[$(date --iso-8601=seconds)] >>> $name"
-  "$@"
-  echo "[$(date --iso-8601=seconds)] <<< $name"
+  echo "[$(timestamp)] >>> $name"
+  if "$@"; then
+    echo "[$(timestamp)] <<< $name"
+  else
+    local code=$?
+    echo "[$(timestamp)] !!! step failed: $name (exit=$code)"
+    return "$code"
+  fi
 }
 
 {
-  echo "[$(date --iso-8601=seconds)] Model Atlas auto pipeline started"
+  echo "[$(timestamp)] Model Atlas auto pipeline started"
   echo "SITE_DIR=$SITE_DIR"
   echo "REPO_DIR=$REPO_DIR"
 
@@ -131,7 +140,7 @@ run_step() {
     echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=0"
   fi
 
-  echo "[$(date --iso-8601=seconds)] Model Atlas auto pipeline finished"
+  echo "[$(timestamp)] Model Atlas auto pipeline finished"
 } >"$out" 2>&1 || {
   code=$?
   cat "$out"
