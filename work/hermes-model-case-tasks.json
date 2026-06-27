@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-27T10:00:17.835Z",
+  "generatedAt": "2026-06-27T10:06:09.585Z",
   "summary": {
     "models": 118,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 111,
+    "publicReady": 112,
     "fullCoverageReady": 103,
-    "minDeficit": 15,
-    "targetDeficit": 35,
-    "allModelMinDeficit": 21,
-    "allModelTargetDeficit": 45
+    "minDeficit": 12,
+    "targetDeficit": 32,
+    "allModelMinDeficit": 18,
+    "allModelTargetDeficit": 42
   },
   "tasks": [
     {
@@ -15915,19 +15915,19 @@
       "vendorId": "bytedance-seed",
       "vendor": "ByteDance Seed",
       "priority": "P0",
-      "status": "identity_first",
-      "publishability": "Limited",
-      "aCaseCount": 0,
+      "status": "top_up_to_target",
+      "publishability": "Publishable",
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://seed.bytedance.com/en/",

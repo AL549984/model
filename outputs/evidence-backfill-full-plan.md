@@ -6,17 +6,17 @@
 
 - Models: 118
 - Active models: 116
-- Publishable models: 111
-- Limited models: 5
+- Publishable models: 112
+- Limited models: 4
 - Archive models: 2
-- Verified A-grade cases: 624
-- Models without A-grade cases: 7
+- Verified A-grade cases: 627
+- Models without A-grade cases: 6
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 111
+- Models meeting minimum line: 112
 - Models meeting full target line: 103
-- A-case deficit to minimum line: 15
-- A-case deficit to full target line: 35
+- A-case deficit to minimum line: 12
+- A-case deficit to full target line: 32
 - Backfill rows: 118
 - P0 rows: 7
 - P1 rows: 6
@@ -42,7 +42,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 |---|---|---|---|---|
 | Anthropic / Claude | Claude 4.5 Sonnet | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude 4.5 Sonnet Anthropic / Claude case study customer |
 | Anthropic / Claude | Claude Mythos 5 | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude Mythos 5 Anthropic / Claude case study customer |
-| ByteDance Seed | Seed2.1 Turbo | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Seed2.1 Turbo ByteDance Seed case study customer |
+| ByteDance Seed | Seed2.1 Turbo | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | OpenAI | GPT-5.1 (high) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.1 (high) OpenAI case study customer |
 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | GPT-5.3 Codex (xhigh) OpenAI case study customer |
 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 | Qwen3.6 Max Preview Qwen / Alibaba case study customer |
@@ -52,7 +52,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 
 | Priority | Vendor | Model | Status | A cases | Source count | Blocker |
 |---|---|---|---|---:|---:|---|
-| P0 | ByteDance Seed | Seed2.1 Turbo | identity_first | 0 | 3 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.1 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | OpenAI | GPT-5.3 Codex (xhigh) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Qwen / Alibaba | Qwen3.6 Max Preview | identity_first | 0 | 4 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
