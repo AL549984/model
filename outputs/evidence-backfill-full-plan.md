@@ -9,14 +9,14 @@
 - Publishable models: 116
 - Limited models: 0
 - Archive models: 2
-- Verified A-grade cases: 663
+- Verified A-grade cases: 664
 - Models without A-grade cases: 2
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 116
 - Models meeting full target line: 112
 - A-case deficit to minimum line: 0
-- A-case deficit to full target line: 6
+- A-case deficit to full target line: 5
 - Backfill rows: 118
 - P0 rows: 3
 - P1 rows: 1
@@ -41,7 +41,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | Vendor | Model | Status | Blocker | First search query |
 |---|---|---|---|---|
 | Anthropic / Claude | Claude Mythos 5 | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Claude Mythos 5 Anthropic / Claude case study customer |
-| ByteDance Seed | Seed2.1 Turbo | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Turbo ByteDance Seed case study customer |
+| ByteDance Seed | Seed2.1 Turbo | top_up_to_target | 已有 4 条 A 类案例，继续补到 5 条目标线。 | Seed2.1 Turbo ByteDance Seed case study customer |
 | xAI / Grok | Grok 4.20 0309 v2 | top_up_to_target | 已有 3 条 A 类案例，继续补到 5 条目标线。 | Grok 4.20 0309 v2 xAI / Grok case study customer |
 
 ## All Limited Rows

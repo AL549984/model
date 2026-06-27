@@ -7082,7 +7082,7 @@
     "vendorId": "bytedance-seed",
     "vendor": "ByteDance Seed",
     "publishability": "Publishable",
-    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
     "headline": "Seed2.1 Turbo 的厂商页补充记录。",
     "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
@@ -7119,7 +7119,7 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 3,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
