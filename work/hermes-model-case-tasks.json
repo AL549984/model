@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-27T09:10:48.464Z",
+  "generatedAt": "2026-06-27T09:14:56.657Z",
   "summary": {
     "models": 118,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 106,
     "fullCoverageReady": 83,
-    "minDeficit": 36,
-    "targetDeficit": 95
+    "minDeficit": 34,
+    "targetDeficit": 93
   },
   "tasks": [
     {
@@ -15492,19 +15492,19 @@
       "vendorId": "anthropic",
       "vendor": "Anthropic / Claude",
       "priority": "P0",
-      "status": "identity_first",
+      "status": "below_min_case_coverage",
       "publishability": "Limited",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://docs.anthropic.com/en/docs/about-claude/models/overview",

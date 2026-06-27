@@ -6898,7 +6898,7 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Limited",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
     "headline": "Claude Mythos 5 的厂商页补充记录。",
     "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
@@ -6935,11 +6935,11 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。",
       "但尚未找到符合 A 类标准的公开使用案例。",
       "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",

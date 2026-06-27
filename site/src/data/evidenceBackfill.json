@@ -6,16 +6,16 @@
     "vendorId": "anthropic",
     "vendor": "Anthropic / Claude",
     "publishability": "Limited",
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "minACases": 3,
     "targetACases": 5,
-    "minDeficit": 3,
-    "targetDeficit": 5,
+    "minDeficit": 1,
+    "targetDeficit": 3,
     "sourceCount": 3,
     "score": null,
     "priority": "P0",
-    "status": "identity_first",
-    "blocker": "模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。",
+    "status": "below_min_case_coverage",
+    "blocker": "已有 2 条 A 类案例，但低于 3 条公开达标线。",
     "requiredEvidence": [
       "补到至少 3 条 A 类案例：具体主体、任务、产物、原始证据 URL、artifact URL。",
       "继续补齐到 5 条 A 类案例，优先覆盖不同平台和不同任务类型。",
@@ -61,7 +61,7 @@
         "url": "https://www.google.com/search?q=Claude%20Mythos%205%20Anthropic%20%2F%20Claude%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "只有补到至少 3 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；5 条视为补齐。"
+    "upgradeGate": "已有案例但未达标；补到至少 3 条 A 类案例后，才能公开达标。"
   },
   {
     "modelId": "seed2-1-pro",
