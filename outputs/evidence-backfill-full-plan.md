@@ -5,17 +5,17 @@
 ## Summary
 
 - Models: 118
-- Publishable models: 41
-- Limited models: 75
+- Publishable models: 44
+- Limited models: 72
 - Archive models: 2
-- Verified A-grade cases: 241
-- Models without A-grade cases: 77
+- Verified A-grade cases: 252
+- Models without A-grade cases: 74
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 41
+- Models meeting minimum line: 44
 - Models meeting full target line: 40
-- A-case deficit to minimum line: 231
-- A-case deficit to full target line: 386
+- A-case deficit to minimum line: 222
+- A-case deficit to full target line: 375
 - Backfill rows: 118
 - P0 rows: 23
 - P1 rows: 42
@@ -90,9 +90,6 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 | P0 | xAI / Grok | Grok 4.3 (high) | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
 | P0 | Z AI / GLM | GLM-5.1 | identity_first | 0 | 2 | 模型身份、发布日期或公开可用性需要先冻结，不能直接补案例。 |
-| P1 | Anthropic / Claude | Claude Instant | needs_a_case | 0 | 2 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
-| P1 | DeepSeek | DeepSeek R1 0528 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
-| P1 | DeepSeek | DeepSeek V3 0324 | needs_a_case | 0 | 3 | 更像家族、日期、preview 或 effort 变体，可能缺少独立公开案例。 |
 | P1 | DeepSeek | DeepSeek V3.1 Terminus | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | DeepSeek | DeepSeek-V2.5 | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 | P1 | Google / Gemini | Gemini 1.0 Ultra | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
