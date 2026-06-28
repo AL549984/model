@@ -195,6 +195,7 @@ const compareJsonLd = {
         <label>
           <span>模型 {slot + 1}</span>
           <select class="compare-select" data-slot={slot}>
+            <option value="">不参与对比</option>
             {compareModels.map((model) => (
               <option value={model.id} selected={defaultCompareIds[slot] === model.id}>{model.name} / {model.vendor}</option>
             ))}
@@ -289,9 +290,8 @@ const compareJsonLd = {
     }
 
     function syncUrl(items) {
-      const next = new URL(window.location.href);
-      next.searchParams.set("models", items.map((model) => model.id).join(","));
-      next.searchParams.set("scenario", scenario);
+      const ids = items.map((model) => encodeURIComponent(model.id)).join(",");
+      const next = `${window.location.pathname}?models=${ids}&scenario=${encodeURIComponent(scenario)}`;
       window.history.replaceState({}, "", next);
     }
 
@@ -469,25 +469,24 @@ const compareJsonLd = {
     }
 
     function render() {
-      const items = selectedModels().sort((a, b) => scoreModel(b) - scoreModel(a));
-      renderVerdict(items);
-      renderRationale(items);
-      renderCards(items);
-      renderMatrix(items);
+      const items = selectedModels();
+      const rankedItems = [...items].sort((a, b) => scoreModel(b) - scoreModel(a));
+      renderVerdict(rankedItems);
+      renderRationale(rankedItems);
+      renderCards(rankedItems);
+      renderMatrix(rankedItems);
       syncUrl(items);
-      if (briefButton) briefButton.dataset.copyUrl = buildResearchBrief(items);
+      if (briefButton) briefButton.dataset.copyUrl = buildResearchBrief(rankedItems);
     }
 
     function applyParams() {
       const params = new URLSearchParams(window.location.search);
       const ids = (params.get("models") || "").split(",").filter((id) => modelMap.has(id));
-      const nextIds = ids.length
-        ? [...ids, ...defaultIds.filter((id) => !ids.includes(id))].slice(0, 4)
-        : defaultIds;
+      const nextIds = ids.length ? ids.slice(0, 4) : defaultIds;
       const scenarioIds = scenarioButtons.map((button) => button.dataset.scenario).filter(Boolean);
       if (!scenarioIds.includes(scenario)) scenario = "general";
       selects.forEach((select, index) => {
-        select.value = nextIds[index] || defaultIds[index] || models[index]?.id || "";
+        select.value = nextIds[index] || "";
       });
       scenarioButtons.forEach((button) => {
         const active = button.dataset.scenario === scenario;

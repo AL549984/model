@@ -111,6 +111,11 @@ function readableUser(value: unknown) {
   return text || "公开使用者";
 }
 
+function conciseUser(value: string) {
+  if (!value || value === "公开使用者") return "";
+  return clip(value, 36);
+}
+
 export function buildCaseNarrative(item: CaseNarrativeInput) {
   const useCase = pickUseCase(item);
   const modelName = normalize(item.modelName) || "该模型";
@@ -125,7 +130,10 @@ export function buildCaseNarrative(item: CaseNarrativeInput) {
   const originalContribution = normalize(item.modelContribution);
   const originalRisk = normalize(item.riskNotes);
 
-  const displayTitle = `${modelName} 用于${useCase.headline}`;
+  const userPrefix = conciseUser(user);
+  const displayTitle = userPrefix
+    ? `${userPrefix} 使用 ${modelName} 处理${useCase.headline}`
+    : `${modelName} 用于${useCase.headline}`;
   const deck = `${user} 公开的${useCase.label}案例，来源为 ${platform}${collectedAt ? `，复核于 ${collectedAt}` : ""}。`;
   const summary = `${deck} Model Atlas 将它标记为 ${grade} 类证据，因为它同时具备具体使用者、具体任务、公开原始证据和可访问产物。`;
 

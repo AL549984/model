@@ -116,10 +116,29 @@ run_step() {
   fi
 }
 
+sync_repo_before_generation() {
+  if [[ "${MODEL_ATLAS_SKIP_REPO_SYNC:-0}" == "1" ]]; then
+    echo "Skipping repo sync: MODEL_ATLAS_SKIP_REPO_SYNC=1"
+    return 0
+  fi
+  if [[ ! -d "$REPO_DIR/.git" ]]; then
+    echo "Skipping repo sync: $REPO_DIR is not a git repo"
+    return 0
+  fi
+  local branch="${GITHUB_BRANCH:-main}"
+  (
+    cd "$REPO_DIR"
+    git fetch origin "$branch"
+    git rebase --autostash "origin/$branch"
+  )
+}
+
 {
   echo "[$(timestamp)] Model Atlas auto pipeline started"
   echo "SITE_DIR=$SITE_DIR"
   echo "REPO_DIR=$REPO_DIR"
+
+  run_step "sync latest repo code" sync_repo_before_generation || exit $?
 
   if [[ -n "${MODEL_ATLAS_VENDOR_CRAWL_CMD:-}" ]]; then
     echo "Running MODEL_ATLAS_VENDOR_CRAWL_CMD"

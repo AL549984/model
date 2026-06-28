@@ -120,10 +120,28 @@ run_step() {
   fi
 }
 
+sync_repo_before_generation() {
+  if [[ "${MODEL_ATLAS_SKIP_REPO_SYNC:-0}" == "1" ]]; then
+    echo "Skipping repo sync: MODEL_ATLAS_SKIP_REPO_SYNC=1"
+    return 0
+  fi
+  if [[ ! -d "$REPO_DIR/.git" ]]; then
+    echo "Skipping repo sync: $REPO_DIR is not a git repo"
+    return 0
+  fi
+  local branch="${GITHUB_BRANCH:-main}"
+  (
+    cd "$REPO_DIR"
+    git fetch origin "$branch"
+    git rebase --autostash "origin/$branch"
+  )
+}
+
 {
   echo "[$(timestamp)] Model Atlas case poll started"
   cd "$SITE_DIR"
 
+  run_step "sync latest repo code" sync_repo_before_generation || exit $?
   run_step "sync Feishu" npm run sync:feishu || exit $?
   run_step "generate evidence backfill" npm run evidence:backfill || exit $?
   run_step "export Hermes case tasks" npm run hermes:tasks || exit $?

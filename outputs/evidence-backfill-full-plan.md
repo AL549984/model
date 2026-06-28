@@ -15,8 +15,10 @@
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 116
 - Models meeting full target line: 116
-- A-case deficit to minimum line: 0
-- A-case deficit to full target line: 0
+- Active A-case deficit to minimum line: 0
+- Active A-case deficit to full target line: 0
+- All-model A-case deficit to minimum line: 9
+- All-model A-case deficit to full target line: 15
 - Backfill rows: 119
 - P0 rows: 0
 - P1 rows: 0

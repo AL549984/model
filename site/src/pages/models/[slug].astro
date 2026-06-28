@@ -118,6 +118,8 @@ const verificationSteps = [
   "把 benchmark、教程、发布文保留为背景资料，不提升为真实案例。"
 ];
 const modelDate = Number.isFinite(Date.parse(String(model.releaseDate ?? ""))) ? model.releaseDate : undefined;
+const compareFallbackId = model.id === "gpt-5-1-high" ? "glm-4-7" : "gpt-5-1-high";
+const compareHref = `/compare?models=${[model.id, compareFallbackId].map(encodeURIComponent).join(",")}`;
 const modelJsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -166,7 +168,7 @@ const modelJsonLd = {
         <p class="mt-3 max-w-3xl text-lg text-slate-300">{hasACases ? `${model.name} 已有可核验 A 类案例，可优先进入选型对比。` : `${model.name} 还没有找到符合 A 类标准的公开案例；本页保留资料、来源和缺口说明，不把缺口包装成推荐。`}</p>
         <div class="mt-5 flex flex-wrap gap-2 text-xs">
           <a class="border border-[#ff3b4e]/50 px-3 py-2 text-[#f4f1ea] hover:bg-[#ff3b4e]/10" href={`/cases?model=${model.id}`}>查看该模型案例</a>
-          <a class="border border-[#f4f1ea]/20 px-3 py-2 text-[#f4f1ea] hover:border-[#ff3b4e]/60" href="/compare">加入对比视图</a>
+          <a class="border border-[#f4f1ea]/20 px-3 py-2 text-[#f4f1ea] hover:border-[#ff3b4e]/60" href={compareHref}>加入对比视图</a>
           <a class="border border-[#f4f1ea]/20 px-3 py-2 text-[#f4f1ea] hover:border-[#ff3b4e]/60" href={`/vendors/${model.vendorId}`}>查看厂商路线</a>
           <button class="atlas-copy-button" type="button" data-copy-current-url data-copy-original="复制模型档案" data-copy-success="模型档案链接已复制">复制模型档案</button>
         </div>

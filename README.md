@@ -188,6 +188,8 @@ cd site
 npm run atlas:auto
 ```
 
+`npm run atlas:auto` 是本地验证入口，不加锁、不推送。云端生产入口使用 `npm run atlas:pipeline`，它会先同步最新仓库代码，再在锁内运行完整生成、构建和可选 GitHub push。
+
 检查外链：
 
 ```bash

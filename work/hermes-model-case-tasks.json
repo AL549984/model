@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T07:50:50.069Z",
+  "generatedAt": "2026-06-28T08:11:53.712Z",
   "summary": {
     "models": 119,
     "activeModels": 116,
@@ -9,8 +9,10 @@
     "fullCoverageReady": 116,
     "minDeficit": 0,
     "targetDeficit": 0,
-    "allModelMinDeficit": 0,
-    "allModelTargetDeficit": 0
+    "activeMinDeficit": 0,
+    "activeTargetDeficit": 0,
+    "allModelMinDeficit": 9,
+    "allModelTargetDeficit": 15
   },
   "tasks": [
     {

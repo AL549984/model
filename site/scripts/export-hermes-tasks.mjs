@@ -134,6 +134,10 @@ const tasks = models.map((model) => {
 });
 
 const activeTasks = tasks.filter((task) => !["Archive", "Hold"].includes(task.publishability));
+const rawAllModelMinDeficit = models.reduce((sum, model) => sum + Math.max(0, MIN_A_CASES - Number(model.aCaseCount ?? 0)), 0);
+const rawAllModelTargetDeficit = models.reduce((sum, model) => sum + Math.max(0, TARGET_A_CASES - Number(model.aCaseCount ?? 0)), 0);
+const activeMinDeficit = activeTasks.reduce((sum, task) => sum + task.minDeficit, 0);
+const activeTargetDeficit = activeTasks.reduce((sum, task) => sum + task.targetDeficit, 0);
 
 const summary = {
   models: tasks.length,
@@ -142,10 +146,12 @@ const summary = {
   targetACases: TARGET_A_CASES,
   publicReady: activeTasks.filter((task) => task.publicReady).length,
   fullCoverageReady: activeTasks.filter((task) => task.fullCoverageReady).length,
-  minDeficit: activeTasks.reduce((sum, task) => sum + task.minDeficit, 0),
-  targetDeficit: activeTasks.reduce((sum, task) => sum + task.targetDeficit, 0),
-  allModelMinDeficit: tasks.reduce((sum, task) => sum + task.minDeficit, 0),
-  allModelTargetDeficit: tasks.reduce((sum, task) => sum + task.targetDeficit, 0)
+  minDeficit: activeMinDeficit,
+  targetDeficit: activeTargetDeficit,
+  activeMinDeficit,
+  activeTargetDeficit,
+  allModelMinDeficit: rawAllModelMinDeficit,
+  allModelTargetDeficit: rawAllModelTargetDeficit
 };
 
 fs.writeFileSync(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), summary, tasks }, null, 2)}\n`);

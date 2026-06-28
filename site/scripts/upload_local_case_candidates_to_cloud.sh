@@ -92,7 +92,39 @@ export LARK_CLI_HOME=/home/ubuntu/.lark-cli
 export MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF=\"\${MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF:-1}\"
 export MODEL_ATLAS_PUSH_TO_GITHUB=\"${MODEL_ATLAS_PUSH_TO_GITHUB:-1}\"
 export PATH=\"\$HOME/.local/bin:\$HOME/.hermes/node/bin:\$HOME/node-v24/bin:\$HOME/node-v22/bin:\$HOME/bin:/usr/local/bin:/usr/bin:/bin:\$PATH\"
+LOCK_PATH=\"\${MODEL_ATLAS_LOCK_PATH:-\$HOME/.hermes/data/model_atlas_locks/auto_pipeline.lock}\"
+LOCK_DIR=\"\$LOCK_PATH.d\"
+mkdir -p \"\$(dirname \"\$LOCK_PATH\")\"
+cleanup_lock() {
+  rm -rf \"\$LOCK_DIR\"
+}
+acquire_lock() {
+  local wait_seconds=\"\${MODEL_ATLAS_LOCK_WAIT_SECONDS:-1200}\"
+  local started
+  started=\"\$(date +%s)\"
+  while true; do
+    if mkdir \"\$LOCK_DIR\" 2>/dev/null; then
+      echo \"\$\$\" >\"\$LOCK_DIR/pid\"
+      trap cleanup_lock EXIT
+      return 0
+    fi
+    local pid=\"\"
+    [[ -f \"\$LOCK_DIR/pid\" ]] && pid=\"\$(cat \"\$LOCK_DIR/pid\" 2>/dev/null || true)\"
+    if [[ -n \"\$pid\" ]] && ! ps -p \"\$pid\" >/dev/null 2>&1; then
+      rm -rf \"\$LOCK_DIR\"
+      continue
+    fi
+    if (( \$(date +%s) - started >= wait_seconds )); then
+      echo \"model atlas pipeline lock busy after \${wait_seconds}s\" >&2
+      exit 75
+    fi
+    sleep 1
+  done
+}
+acquire_lock
 cd '$CLOUD_REPO_DIR/site'
+git fetch origin \"\${GITHUB_BRANCH:-main}\"
+git rebase --autostash \"origin/\${GITHUB_BRANCH:-main}\"
 import_failed=0
 import_parallelism=\"\${MODEL_ATLAS_IMPORT_PARALLELISM:-3}\"
 if ! [[ \"\$import_parallelism\" =~ ^[0-9]+$ ]] || [[ \"\$import_parallelism\" -lt 1 ]]; then

@@ -286,6 +286,8 @@ const minReady = activeBackfill.filter((item) => item.aCaseCount >= MIN_A_CASES)
 const targetReady = activeBackfill.filter((item) => item.aCaseCount >= TARGET_A_CASES).length;
 const minDeficit = activeBackfill.reduce((sum, item) => sum + item.minDeficit, 0);
 const targetDeficit = activeBackfill.reduce((sum, item) => sum + item.targetDeficit, 0);
+const allModelMinDeficit = Number(metrics.caseDeficitToMin ?? minDeficit);
+const allModelTargetDeficit = Number(metrics.caseDeficitToTarget ?? targetDeficit);
 
 const mdLines = [
   "# Evidence Backfill Full Plan",
@@ -305,8 +307,10 @@ const mdLines = [
   `- Full target case line: ${TARGET_A_CASES} A-grade cases per model`,
   `- Models meeting minimum line: ${minReady}`,
   `- Models meeting full target line: ${targetReady}`,
-  `- A-case deficit to minimum line: ${minDeficit}`,
-  `- A-case deficit to full target line: ${targetDeficit}`,
+  `- Active A-case deficit to minimum line: ${minDeficit}`,
+  `- Active A-case deficit to full target line: ${targetDeficit}`,
+  `- All-model A-case deficit to minimum line: ${allModelMinDeficit}`,
+  `- All-model A-case deficit to full target line: ${allModelTargetDeficit}`,
   `- Backfill rows: ${backfill.length}`,
   `- P0 rows: ${counts.P0 ?? 0}`,
   `- P1 rows: ${counts.P1 ?? 0}`,

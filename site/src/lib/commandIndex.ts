@@ -58,6 +58,7 @@ type CaseRecord = {
   outputResult?: string;
   modelContribution?: string;
   evidenceGrade?: string;
+  showcaseEligible?: boolean;
 };
 
 const vendors = vendorsData as VendorRecord[];
@@ -73,7 +74,8 @@ function joinKeywords(parts: unknown[], limit = 360) {
 }
 
 export function buildCommandIndex(): CommandIndexItem[] {
-  const aCaseCount = cases.filter((item) => item.evidenceGrade === "A").length;
+  const showcaseCases = cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible);
+  const aCaseCount = showcaseCases.length;
 
   return [
     { type: "入口", title: "首页观测台", subtitle: "数据概览、粒子图谱、精选入口", href: "/", keywords: "hero atlas 首页 指标 粒子 图谱" },
@@ -107,7 +109,7 @@ export function buildCommandIndex(): CommandIndexItem[] {
         ...(model.fit ?? [])
       ], 340)
     })),
-    ...cases.map((item) => {
+    ...showcaseCases.map((item) => {
       const narrative = buildCaseNarrative(item);
       return {
         type: "案例" as const,

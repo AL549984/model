@@ -5,7 +5,8 @@ import { publicizeText } from "../../lib/publicCopy";
 const { model, compact = false } = Astro.props;
 const summary = publicizeText(model.summary);
 const modelHref = `/models/${model.slug}`;
-const compareHref = `/compare?models=${encodeURIComponent(model.id)}`;
+const compareFallbackId = model.id === "gpt-5-1-high" ? "glm-4-7" : "gpt-5-1-high";
+const compareHref = `/compare?models=${[model.id, compareFallbackId].map(encodeURIComponent).join(",")}`;
 ---
 
 <article class="group flex min-h-full flex-col border border-[#f4f1ea]/20 bg-[#070707] p-5 transition hover:border-[#ff3b4e]/70 hover:bg-[#f4f1ea]/[0.035]">

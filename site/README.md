@@ -87,7 +87,10 @@ npm run hermes:tasks
 npm run evidence:archive
 npm run evidence:snapshot -- --host github.com --limit 8
 npm run atlas:auto
+npm run atlas:pipeline
 ```
+
+`npm run atlas:auto` 只适合本地验证数据生成顺序，不负责加锁或推送。云端生产入口使用 `npm run atlas:pipeline`，它会获取 pipeline 锁、先同步最新仓库代码，再执行数据同步、backfill、Hermes task 导出、证据归档、构建和可选 GitHub push。
 
 `npm run evidence:snapshot` 会把证据快照写入 `archive/evidence/{caseId}/`。推荐按 host 和 limit 分批执行，例如先处理 `github.com` 的高优先级案例，再运行 `npm run evidence:archive` 刷新 `site/src/data/evidence-archive.json` 和 `site/src/data/evidence-archive-history.json`。`/updates` 会展示按 host 聚合的下一批证据快照队列，并给出可直接执行的建议命令。快照记录包含 HTTP 状态、最终 URL、内容类型、ETag、Last-Modified、内容哈希、页面标题，以及 GitHub repo / npm registry 这类来源的结构化元数据；默认不保存外部网页正文。
 

@@ -52,6 +52,18 @@ def is_transient_git_error(exc: subprocess.CalledProcessError) -> bool:
     return any(needle in combined for needle in needles)
 
 
+def is_push_race_error(exc: subprocess.CalledProcessError) -> bool:
+    combined = ((exc.stdout or "") + "\n" + (exc.stderr or "")).lower()
+    needles = (
+        "non-fast-forward",
+        "fetch first",
+        "stale info",
+        "rejected",
+        "failed to push some refs",
+    )
+    return any(needle in combined for needle in needles)
+
+
 def run_git_with_retry(cmd: list[str], cwd: Path, timeout: int = 120, attempts: int = 4) -> subprocess.CompletedProcess[str]:
     last_exc: Exception | None = None
     for attempt in range(1, attempts + 1):
@@ -92,6 +104,17 @@ def push(repo_dir: Path, branch: str, token: str) -> None:
         timeout=int(os.environ.get("MODEL_ATLAS_GIT_PUSH_TIMEOUT", "45")),
         attempts=int(os.environ.get("MODEL_ATLAS_GIT_PUSH_ATTEMPTS", "2")),
     )
+
+
+def push_with_remote_retry(repo_dir: Path, branch: str, token: str) -> None:
+    try:
+        push(repo_dir, branch, token)
+    except subprocess.CalledProcessError as exc:
+        if not is_push_race_error(exc):
+            raise
+        print("[git-push] remote changed during push; rebasing once and retrying", file=sys.stderr, flush=True)
+        sync_with_remote(repo_dir, branch)
+        push(repo_dir, branch, token)
 
 
 def sync_with_remote(repo_dir: Path, branch: str) -> None:
@@ -135,7 +158,7 @@ def main() -> int:
         return 0
 
     run(["git", "commit", "-m", args.message], cwd=repo_dir, timeout=120)
-    push(repo_dir, args.branch, token)
+    push_with_remote_retry(repo_dir, args.branch, token)
 
     print(json.dumps({
         "ok": True,

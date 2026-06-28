@@ -127,6 +127,23 @@ run_optional_step() {
   fi
 }
 
+sync_repo_before_generation() {
+  if [[ "${MODEL_ATLAS_SKIP_REPO_SYNC:-0}" == "1" ]]; then
+    echo "Skipping repo sync: MODEL_ATLAS_SKIP_REPO_SYNC=1"
+    return 0
+  fi
+  if [[ ! -d "$REPO_DIR/.git" ]]; then
+    echo "Skipping repo sync: $REPO_DIR is not a git repo"
+    return 0
+  fi
+  local branch="${GITHUB_BRANCH:-main}"
+  (
+    cd "$REPO_DIR"
+    git fetch origin "$branch"
+    git rebase --autostash "origin/$branch"
+  )
+}
+
 remaining_target_deficit() {
   node - <<'NODE'
 const tasks = require("../work/hermes-model-case-tasks.json");
@@ -142,6 +159,8 @@ NODE
   echo "WORKERS=${MODEL_ATLAS_CASE_HUNTER_WORKERS:-4}"
   echo "MODELS_PER_WORKER=${MODEL_ATLAS_CASE_HUNTER_MODELS_PER_WORKER:-1}"
   cd "$SITE_DIR"
+
+  run_step "sync latest repo code" sync_repo_before_generation || exit $?
 
   for round in $(seq 1 "$ROUNDS"); do
     echo "[$(timestamp)] === full backfill round $round/$ROUNDS ==="

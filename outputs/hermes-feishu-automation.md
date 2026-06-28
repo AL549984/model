@@ -151,11 +151,23 @@ npm run evidence:archive
 npm run build
 ```
 
-One-shot pipeline:
+Local validation pipeline:
 
 ```bash
 npm run atlas:auto
 ```
+
+`npm run atlas:auto` is intentionally local-only: no lock, no GitHub push. Production schedulers should call `npm run atlas:pipeline` or `bash scripts/model_atlas_auto_pipeline.sh`, which acquire the pipeline lock, sync the latest repo code before generating data, then run the full build/push sequence.
+
+## Production Entry Matrix
+
+| Use case | Command | Lock | Pushes data | Pushes code |
+|---|---|---:|---:|---:|
+| Local data validation | `npm run atlas:auto` | No | No | No |
+| Cloud scheduled full sync | `npm run atlas:pipeline` | Yes | Optional | No |
+| Cloud near-real-time case poll | `npm run atlas:poll` | Yes | Optional | No |
+| Local candidate upload to cloud | `bash scripts/upload_local_case_candidates_to_cloud.sh` | Yes, remote | Optional | No |
+| Manual code release | `git push origin main` | N/A | N/A | Yes |
 
 ## Trigger.dev Remote Orchestration
 

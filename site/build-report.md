@@ -1,15 +1,15 @@
 # Build Report
 
 > Model Atlas 模型图谱 website implementation  
-> Date: 2026-06-26  
+> Date: 2026-06-28
 > Visual direction: Signal Observatory x Living Archive
 
 ## Commands
 
 | Command | Result | Notes |
 |---|---|---|
-| `npm run check` | PASS | `astro check`: 42 files, 0 errors, 0 warnings, 0 hints. |
-| `npm run build` | PASS | Runs `astro check && astro build`; 138 static pages generated. |
+| `npm run check` | PASS | `astro check`: 68 files, 0 errors, 0 warnings, 0 hints; content QA and evidence archive QA passed. |
+| `npm run build` | PASS | Runs `astro check && astro build`; 823 static HTML pages generated. |
 | `rg "lucide-astro\|@lucide/astro" src package.json` | PASS | All icon imports use `@lucide/astro`; no `lucide-astro` residue found. |
 | `node --check scripts/check-links.mjs` | PASS | Link checker script syntax verified. |
 | `npm run check:links` | PASS | link check completed with allowlisted 403 for `openai.com` and `x.ai`; both were manually browser-reviewed as accessible. Previous `backroom-escape.vercel.app` timeout now resolves as 200. |
@@ -17,14 +17,14 @@
 ## Build Output Summary
 
 ```text
-Result (42 files):
+Result (68 files):
 - 0 errors
 - 0 warnings
 - 0 hints
 
 [build] output: "static"
 [build] directory: site/dist/
-[build] 138 page(s) built
+[build] 823 page(s) built
 [build] Complete!
 ```
 
@@ -36,12 +36,15 @@ Result (42 files):
 | Vendor index | 1 | PASS |
 | Vendor detail pages | 15 | PASS |
 | Model index | 1 | PASS |
-| Model detail pages | 116 | PASS |
-| Cases | 1 | PASS |
+| Model detail pages | 119 | PASS |
+| Case index | 1 | PASS |
+| Case detail pages | 680 | PASS |
 | Compare | 1 | PASS |
 | Topic pages | 1 | PASS |
+| Updates | 1 | PASS |
+| Methodology | 1 | PASS |
 | Error page | 1 | PASS |
-| Total static pages | 138 | PASS |
+| Total static HTML pages | 823 | PASS |
 
 ## Sample Route Checks
 

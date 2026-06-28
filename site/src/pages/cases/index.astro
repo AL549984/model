@@ -230,7 +230,7 @@ const casesJsonLd = {
   </p>
 
   <div id="case-drawer-backdrop" class="case-drawer-backdrop" hidden></div>
-  <aside id="case-drawer" class="case-drawer" aria-hidden="true" aria-label="案例证据档案" hidden>
+  <aside id="case-drawer" class="case-drawer" role="dialog" aria-modal="true" aria-hidden="true" aria-label="案例证据档案" tabindex="-1" hidden>
     <div class="case-drawer__chrome">
       <p class="mono text-xs uppercase tracking-[0.16em] text-[#ff3b4e]">Evidence Record</p>
       <div class="case-drawer__actions">
@@ -454,6 +454,7 @@ const casesJsonLd = {
       close: document.querySelector("#case-drawer-close") as HTMLButtonElement,
       content: document.querySelector("#case-drawer-content") as HTMLElement
     };
+    let drawerReturnFocus: HTMLElement | null = null;
 
     const escapeHtml = (value: unknown) => String(value ?? "")
       .replaceAll("&", "&amp;")
@@ -517,12 +518,21 @@ const casesJsonLd = {
       drawer.backdrop.hidden = true;
       drawer.panel.setAttribute("aria-hidden", "true");
       document.documentElement.classList.remove("case-drawer-open");
+      drawerReturnFocus?.focus?.();
+      drawerReturnFocus = null;
       if (sync) syncCaseDeepLink();
+    }
+
+    function focusableDrawerElements() {
+      return Array.from(drawer.panel.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      )).filter((element) => !element.hasAttribute("hidden") && element.offsetParent !== null);
     }
 
     function openCaseDrawer(caseId: string, { sync = true } = {}) {
       const item = archiveMap.get(caseId);
       if (!item) return;
+      drawerReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
       const related = relatedCases(item);
       drawer.content.innerHTML = `
         <article class="case-record">
@@ -609,6 +619,10 @@ const casesJsonLd = {
       drawer.panel.setAttribute("aria-hidden", "false");
       document.documentElement.classList.add("case-drawer-open");
       if (sync) syncCaseDeepLink(caseId);
+      requestAnimationFrame(() => {
+        const first = drawer.close || focusableDrawerElements()[0] || drawer.panel;
+        first.focus();
+      });
     }
 
     document.addEventListener("click", (event) => {
@@ -623,7 +637,25 @@ const casesJsonLd = {
     drawer.close.addEventListener("click", () => closeCaseDrawer());
     drawer.backdrop.addEventListener("click", () => closeCaseDrawer());
     document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && drawer.panel.getAttribute("aria-hidden") === "false") closeCaseDrawer();
+      const isOpen = drawer.panel.getAttribute("aria-hidden") === "false";
+      if (!isOpen) return;
+      if (event.key === "Escape") closeCaseDrawer();
+      if (event.key !== "Tab") return;
+      const focusable = focusableDrawerElements();
+      if (!focusable.length) {
+        event.preventDefault();
+        drawer.panel.focus();
+        return;
+      }
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     });
 
     if (params.get("case")) {
