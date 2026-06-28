@@ -7378,5 +7378,64 @@
       "https://github.com/ByteDance-Seed"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed2-0-pro",
+    "name": "Seed2.0 Pro",
+    "slug": "seed2-0-pro",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Limited",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Seed2.0 Pro 的厂商页补充记录。",
+    "summary": "Seed2.0 Pro 是 ByteDance Seed 于 2026-02-14 发布的 Seed2.0 系列 Pro 版本；来自官方模型页与发布博客同步，缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026-02-14",
+    "modelId": "seed2-0-pro",
+    "context": "官方未披露 / 暂无数据",
+    "output": "官方未披露 / 暂无数据",
+    "modality": "文本 + 图像 + 视频（官方模型页口径）",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露具体数字；官方仅称成本降低约一个数量级",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/seed2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-06-28 Hermes 已创建飞书 Wiki 模型卡后补写 Model Atlas 模型主表；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用多模态模型对比",
+      "Seed2.0 系列历史基线追踪"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文",
+      "未披露 API 细节时不要当作可直接商用建议"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/seed2",
+      "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]

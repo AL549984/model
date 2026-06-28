@@ -1,26 +1,26 @@
 # Evidence Backfill Full Plan
 
-> Generated from site data. Dataset cut: 2026-06-27.
+> Generated from site data. Dataset cut: 2026-06-28.
 
 ## Summary
 
-- Models: 118
-- Active models: 116
+- Models: 119
+- Active models: 117
 - Publishable models: 116
-- Limited models: 0
+- Limited models: 1
 - Archive models: 2
 - Verified A-grade cases: 680
-- Models without A-grade cases: 2
+- Models without A-grade cases: 3
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
 - Models meeting minimum line: 116
 - Models meeting full target line: 116
-- A-case deficit to minimum line: 0
-- A-case deficit to full target line: 0
-- Backfill rows: 118
+- A-case deficit to minimum line: 3
+- A-case deficit to full target line: 5
+- Backfill rows: 119
 - P0 rows: 0
 - P1 rows: 0
-- P2 rows: 116
+- P2 rows: 117
 - P3 rows: 2
 
 ## Operating Rule
@@ -45,6 +45,7 @@ Full backfill means every model is chased to at least 3 verified A-grade real-us
 
 | Priority | Vendor | Model | Status | A cases | Source count | Blocker |
 |---|---|---|---|---:|---:|---|
+| P2 | ByteDance Seed | Seed2.0 Pro | needs_a_case | 0 | 3 | 缺少具体使用者、具体任务、具体产物和原始证据 URL。 |
 
 ## Full-Coverage Rule For Hermes
 

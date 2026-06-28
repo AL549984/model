@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-27T10:47:16.715Z",
+  "generatedAt": "2026-06-28T07:17:26.187Z",
   "summary": {
-    "models": 118,
-    "activeModels": 116,
+    "models": 119,
+    "activeModels": 117,
     "minACases": 3,
     "targetACases": 5,
     "publicReady": 116,
     "fullCoverageReady": 116,
-    "minDeficit": 0,
-    "targetDeficit": 0,
-    "allModelMinDeficit": 6,
-    "allModelTargetDeficit": 10
+    "minDeficit": 3,
+    "targetDeficit": 5,
+    "allModelMinDeficit": 9,
+    "allModelTargetDeficit": 15
   },
   "tasks": [
     {
@@ -16554,6 +16554,146 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for bagel >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-seed2-0-pro",
+      "modelId": "seed2-0-pro",
+      "modelName": "Seed2.0 Pro",
+      "vendorId": "bytedance-seed",
+      "vendor": "ByteDance Seed",
+      "priority": "P2",
+      "status": "needs_a_case",
+      "publishability": "Limited",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://seed.bytedance.com/en/seed2",
+        "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "Seed2.0 Pro ByteDance Seed case study customer",
+        "Seed2.0 Pro ByteDance Seed built with GitHub demo",
+        "Seed2.0 Pro ByteDance Seed production use product blog",
+        "Seed2.0 Pro ByteDance Seed model card docs API pricing context window",
+        "Seed2.0 Pro ByteDance Seed 真实使用 案例 项目 开源",
+        "Seed2.0 Pro ByteDance Seed GitHub README built with",
+        "Seed2.0 Pro ByteDance Seed B站 使用 案例 demo",
+        "Seed2.0 Pro ByteDance Seed 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for seed2-0-pro >= 5",
         "requiredFields": [
           "case_id",
           "case_title",
