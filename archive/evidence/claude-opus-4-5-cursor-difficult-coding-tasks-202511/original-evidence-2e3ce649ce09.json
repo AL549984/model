@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:38.026Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-opus-4-5#cursor-michael-truell",
+  "finalUrl": "https://www.anthropic.com/news/claude-opus-4-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 302872,
+  "bodySha256": "9c178c1bc0438ea4cfacbf8eb34fb5da5cc3f47f00ad1ba2c56c63c744dac997",
+  "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+  "github": null
+}

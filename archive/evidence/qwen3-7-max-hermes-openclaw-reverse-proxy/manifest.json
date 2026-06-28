@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-7-max-hermes-openclaw-reverse-proxy",
+  "modelId": "qwen3-7-max",
+  "modelName": "Qwen3.7 Max",
+  "title": "hermes-openclaw 将 qwen3.7-max 接入 OpenAI-compatible 本地代理",
+  "evidenceFingerprint": "d1b789731a1ea92afb2671a08f541d2961e984bcd9d72bdc255452b74ffc8883",
+  "capturedAt": "2026-06-27T23:08:03.106Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ada682/hermes-openclaw/blob/main/reverse-proxy.js#L53",
+      "snapshotPath": "archive/evidence/qwen3-7-max-hermes-openclaw-reverse-proxy/original-evidence-f7b69c754b4e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "hermes-openclaw/reverse-proxy.js at main · ada682/hermes-openclaw · GitHub",
+      "bodySha256": "6783651b97fef81acec256dac09fc3335ea4269d5420be0bcc4e66d74c0fd648",
+      "capturedAt": "2026-06-27T23:07:59.557Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ada682/hermes-openclaw",
+      "snapshotPath": "archive/evidence/qwen3-7-max-hermes-openclaw-reverse-proxy/artifact-1-0921fa978191.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ada682/hermes-openclaw: Kimi K2.6 &amp; Qwen3.7-max / Deepseek V4pro reverse API — unlimited token pool, Hermes agents, Openclaw agents. OpenAI-compatible API · GitHub",
+      "bodySha256": "91790f062a09969b043147c4511a99f7234c3d700708781005df6f59f4dc1b0a",
+      "capturedAt": "2026-06-27T23:08:01.817Z",
+      "error": ""
+    }
+  ]
+}

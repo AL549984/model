@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:56.379Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ho323/mixup-upstage-korean-modernization",
+  "finalUrl": "https://github.com/ho323/mixup-upstage-korean-modernization",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8e99b0bbbefe3d248476d331f3a53210\"",
+  "lastModified": null,
+  "bodyBytes": 294831,
+  "bodySha256": "cc12e20cb50218052d25a3c52c30108db670644080dabb004fa36554edb88d82",
+  "title": "GitHub - ho323/mixup-upstage-korean-modernization: Solar Pro2 prompt engineering pipeline for Korean text modernization in the MixUP Upstage promptathon. · GitHub",
+  "github": {
+    "owner": "ho323",
+    "repo": "mixup-upstage-korean-modernization",
+    "apiStatus": "unavailable"
+  }
+}

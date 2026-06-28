@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-bartczernicki-sec-10k-risk-analysis",
+  "modelId": "o1",
+  "modelName": "o1",
+  "title": "Risk Analysis with Generative AI Reasoning uses o1 to compare Microsoft SEC 10-K risk factors",
+  "evidenceFingerprint": "f6f91eb3842ccff182d849f379811b18b18d8c71a4eae5c9798100ab99c611c1",
+  "capturedAt": "2026-06-27T22:51:37.052Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/blob/master/README.md#risk-analysis-pipeline-details",
+      "snapshotPath": "archive/evidence/o1-bartczernicki-sec-10k-risk-analysis/original-evidence-d66f31332157.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RiskAnalysisWithGenerativeAIReasoning/README.md at master · bartczernicki/RiskAnalysisWithGenerativeAIReasoning · GitHub",
+      "bodySha256": "9e0ebb0b1fa1ab2581b8d74d2c9a0a1bb31c6fb7c1b119a1b5835a85c0717c34",
+      "capturedAt": "2026-06-27T22:51:33.745Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/tree/master/RiskAnalysisWithOpenAIReasoning/Output/o1",
+      "snapshotPath": "archive/evidence/o1-bartczernicki-sec-10k-risk-analysis/artifact-1-df3faa6fb19d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RiskAnalysisWithGenerativeAIReasoning/RiskAnalysisWithOpenAIReasoning/Output/o1 at master · bartczernicki/RiskAnalysisWithGenerativeAIReasoning · GitHub",
+      "bodySha256": "3f34afebff9a8417e1c474e692a5caa72f90c5e75bfcbae728c3b92d04f8f601",
+      "capturedAt": "2026-06-27T22:51:35.986Z",
+      "error": ""
+    }
+  ]
+}

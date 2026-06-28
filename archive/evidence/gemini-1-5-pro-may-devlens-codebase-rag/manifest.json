@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-devlens-codebase-rag",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "DevLens 用 Gemini 1.5 Pro 构建 GitHub 代码库问答 RAG API",
+  "evidenceFingerprint": "983d8e39f2bbcf16783011f12df2ed9821cc6a817e2a1de790adc1ac8c696981",
+  "capturedAt": "2026-06-27T21:40:35.754Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AliSajid55/DevLens-Chat-with-Your-Codebase#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-devlens-codebase-rag/original-evidence-67b4bda07c4a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AliSajid55/DevLens-Chat-with-Your-Codebase: Chat with any GitHub codebase in natural language. Built with FastAPI, LangChain, Google Gemini 1.5 Pro &amp; Vector Database(Pinecone). Paste a repo URL, ask questions, get answers with ",
+      "bodySha256": "63e373eb989a1382954bc27de8587afb07b5d23de695629bcaefdf181c206d97",
+      "capturedAt": "2026-06-27T21:40:34.134Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AliSajid55/DevLens-Chat-with-Your-Codebase",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-devlens-codebase-rag/artifact-1-8e2477ef66eb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AliSajid55/DevLens-Chat-with-Your-Codebase: Chat with any GitHub codebase in natural language. Built with FastAPI, LangChain, Google Gemini 1.5 Pro &amp; Vector Database(Pinecone). Paste a repo URL, ask questions, get answers with ",
+      "bodySha256": "969988f32304933744abcf6b917addf23b126a9bf3469d9f22b251c637cb148b",
+      "capturedAt": "2026-06-27T21:40:35.165Z",
+      "error": ""
+    }
+  ]
+}

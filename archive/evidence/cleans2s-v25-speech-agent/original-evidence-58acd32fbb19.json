@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:34.469Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/opendilab/CleanS2S/blob/main/README.md",
+  "finalUrl": "https://github.com/opendilab/CleanS2S/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9c81209dbbea7dbbedda886699f540ed\"",
+  "lastModified": null,
+  "bodyBytes": 401193,
+  "bodySha256": "c4e64aac33910661a94c601adf05d0f2b3a9bccb7e87b17f4800ffad3e941441",
+  "title": "CleanS2S/README.md at main · opendilab/CleanS2S · GitHub",
+  "github": {
+    "owner": "opendilab",
+    "repo": "CleanS2S",
+    "htmlUrl": "https://github.com/opendilab/CleanS2S",
+    "defaultBranch": "main",
+    "defaultBranchSha": "5b6bc398dd6b5fdb24cd85dbaf9f9dd551692c18",
+    "pushedAt": "2026-04-07T08:39:02Z",
+    "updatedAt": "2026-06-26T03:50:17Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

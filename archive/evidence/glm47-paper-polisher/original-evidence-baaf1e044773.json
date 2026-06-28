@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:06.488Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash",
+  "finalUrl": "https://github.com/tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"007915ef23ea7c8e9de3ff00af0945f6\"",
+  "lastModified": null,
+  "bodyBytes": 273101,
+  "bodySha256": "765172fb7f9ba367ad82f6cae5fe1eeb6692c6cea867361e7161a4bb94c4c677",
+  "title": "GitHub - tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash: 在撰写本科毕业论文时，我花费大量时间手动调整字体、字号、标题层级等基础格式。 当时 Manus 等 AI Agent 正在兴起，但实测发现它们无法满足高校对文档格式的基本要求。 因此，我尝试构建一个轻量级工具，仅解决我能用代码实现的部分。 · GitHub",
+  "github": {
+    "owner": "tljcpa",
+    "repo": "Paper-Polisher-MVP--GLM-4.7-Flash",
+    "apiStatus": "unavailable"
+  }
+}

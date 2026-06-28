@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-untanao-token-dd-agent",
+  "modelId": "kimi-k2",
+  "modelName": "Kimi K2",
+  "title": "Token DD Agent uses Kimi K2 as the default reasoning model for crypto token due diligence",
+  "evidenceFingerprint": "9101fba285acad7a3cc490862d049bebfee7e0b94121e17707fbf8981d08900a",
+  "capturedAt": "2026-06-27T22:29:50.331Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/untanao/token-dd-agent#readme",
+      "snapshotPath": "archive/evidence/kimi-k2-untanao-token-dd-agent/original-evidence-9229731982da.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - untanao/token-dd-agent: AI-powered crypto due-diligence agent — paste any EVM token, get a structured risk report. Built with Next.js + Kimi K2. · GitHub",
+      "bodySha256": "1c119bf84808f13a59f083d6bcb52029d6f7ae42e6c271e67054d6620b59303b",
+      "capturedAt": "2026-06-27T22:29:48.757Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/untanao/token-dd-agent",
+      "snapshotPath": "archive/evidence/kimi-k2-untanao-token-dd-agent/artifact-1-e98ee6fc8e6e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - untanao/token-dd-agent: AI-powered crypto due-diligence agent — paste any EVM token, get a structured risk report. Built with Next.js + Kimi K2. · GitHub",
+      "bodySha256": "6319cac9adcc205e3581d3b3e78df500dc51cbfdfc53a7b0021909c104c5636d",
+      "capturedAt": "2026-06-27T22:29:49.808Z",
+      "error": ""
+    }
+  ]
+}

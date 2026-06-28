@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:18.630Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/PandaAI-Tech/panda_quantflow",
+  "finalUrl": "https://github.com/PandaAI-Tech/panda_quantflow",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"81c88bc1c8da2682e712a8840b33dbdd\"",
+  "lastModified": null,
+  "bodyBytes": 334910,
+  "bodySha256": "ddfd70181ea3bac47de509ae701895c1e7b831307495e4756f58be489af7d93d",
+  "title": "GitHub - PandaAI-Tech/panda_quantflow · GitHub",
+  "github": {
+    "owner": "PandaAI-Tech",
+    "repo": "panda_quantflow",
+    "apiStatus": "unavailable"
+  }
+}

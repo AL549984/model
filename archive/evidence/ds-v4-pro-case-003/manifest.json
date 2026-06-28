@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v4-pro-case-003",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "AgentMemory: Persistent Memory Compression for AI Coding Agents via DeepSeek V4 Pro",
+  "evidenceFingerprint": "5b96b79d823cabe8a1c130bcb00e1659a20ba1d41e8bc42a84ddaa6c43c48f6f",
+  "capturedAt": "2026-06-27T21:34:47.260Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-003/original-evidence-ea311829e667.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub",
+      "bodySha256": "bccec92b7746017d924e2d2615d5f49fa881f6fed78654c09de17cf7b5324014",
+      "capturedAt": "2026-06-27T21:34:45.308Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-003/artifact-1-ea311829e667.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub",
+      "bodySha256": "9a4d588d6ccdcb2026f2df1ff7f525b3242b290d17722e7c5ef3706357e4e6ba",
+      "capturedAt": "2026-06-27T21:34:46.577Z",
+      "error": ""
+    }
+  ]
+}

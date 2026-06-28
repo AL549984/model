@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-mar-jackperry-ochm-thumbnails",
+  "modelId": "gemini-2-5-pro-mar",
+  "modelName": "Gemini 2.5 Pro (Mar)",
+  "title": "Ocean County Hive Mind thumbnail automation website was created with Cursor and gemini-2.5-pro-exp-03-25",
+  "evidenceFingerprint": "31cc61328bf4fc484f61ff4916f9875a435bf551e532de4fb060e0fbacdb5d0d",
+  "capturedAt": "2026-06-27T21:47:15.207Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/jackperry2187/ochm-thumbnails/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-jackperry-ochm-thumbnails/original-evidence-1c48808412c8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ochm-thumbnails/README.md at main · jackperry2187/ochm-thumbnails · GitHub",
+      "bodySha256": "e8b89167b3666dc076516f58e38ecd9eec55c385ec3db80e3b4f79f1cb4a1c96",
+      "capturedAt": "2026-06-27T21:47:12.574Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/jackperry2187/ochm-thumbnails",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-jackperry-ochm-thumbnails/artifact-1-98230a3fc513.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jackperry2187/ochm-thumbnails: A website created with Cursor and gemini-2.5-pro-exp-03-25 to automate the process of creating thumbnails for Ocean County Hive Mind. · GitHub",
+      "bodySha256": "2ec2e762768aee891a9839e9650e9b054687d6538ff9a44099b75859ec5782a9",
+      "capturedAt": "2026-06-27T21:47:14.031Z",
+      "error": ""
+    }
+  ]
+}

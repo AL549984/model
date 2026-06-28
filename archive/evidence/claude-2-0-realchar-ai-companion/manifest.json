@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-0-realchar-ai-companion",
+  "modelId": "claude-2-0",
+  "modelName": "Claude 2.0",
+  "title": "RealChar uses Claude 2 as backend LLM for real-time AI character conversations",
+  "evidenceFingerprint": "079143cc0b40c3668073f6c7686cc830beeb7918ccdaa408ffea09d1c70fc5c6",
+  "capturedAt": "2026-06-27T20:16:43.370Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Shaunwei/RealChar/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-2-0-realchar-ai-companion/original-evidence-024f3de18a46.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RealChar/README.md at main · Shaunwei/RealChar · GitHub",
+      "bodySha256": "a0b5881675f09eb3ff022c2d9c4dcf8eda0fcfc49428a0185624595b2495570b",
+      "capturedAt": "2026-06-27T20:16:40.398Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Shaunwei/RealChar",
+      "snapshotPath": "archive/evidence/claude-2-0-realchar-ai-companion/artifact-1-008a58510231.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Shaunwei/RealChar: 🎙️🤖Create, Customize and Talk to your AI Character/Companion in Realtime (All in One Codebase!). Have a natural seamless conversation with AI everywhere (mobile, web and terminal) using LLM OpenAI GPT3.5/4, Ant",
+      "bodySha256": "e8782382fd23e6ee3a0aaa1d0a319b18ddce9d964922c8b994aafa092cf39898",
+      "capturedAt": "2026-06-27T20:16:42.021Z",
+      "error": ""
+    }
+  ]
+}

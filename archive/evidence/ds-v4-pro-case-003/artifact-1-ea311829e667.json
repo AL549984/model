@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:46.577Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/rohitg00/agentmemory",
+  "finalUrl": "https://github.com/rohitg00/agentmemory",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"66c9d772155f25a38d56b44bcc61eba5\"",
+  "lastModified": null,
+  "bodyBytes": 816583,
+  "bodySha256": "9a4d588d6ccdcb2026f2df1ff7f525b3242b290d17722e7c5ef3706357e4e6ba",
+  "title": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub",
+  "github": {
+    "owner": "rohitg00",
+    "repo": "agentmemory",
+    "apiStatus": "unavailable"
+  }
+}

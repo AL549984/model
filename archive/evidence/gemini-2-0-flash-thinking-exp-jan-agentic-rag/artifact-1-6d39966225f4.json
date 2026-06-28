@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:49.404Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash",
+  "finalUrl": "https://github.com/Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0a5e8ccf57ed4dcfa7d1d0dbc94ebfa0\"",
+  "lastModified": null,
+  "bodyBytes": 265406,
+  "bodySha256": "b22de4f8b148a646c8e6cc65456c33d269464bc05eb7193cc0dac26c9e504633",
+  "title": "GitHub - Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash: An intelligent RAG system powered by Google&#39;s Gemini 2.0 Flash Thinking, Qdrant vector storage, and Agno agent orchestration. Upload documents, process web pages, and get AI-assis",
+  "github": {
+    "owner": "Abdulraqib20",
+    "repo": "Agentic-RAG-with-Gemini-2.0-Flash",
+    "apiStatus": "unavailable"
+  }
+}

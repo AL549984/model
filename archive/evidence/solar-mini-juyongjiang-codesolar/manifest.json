@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-juyongjiang-codesolar",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "CodeSolar fine-tunes Solar Mini for coding-problem assistance",
+  "evidenceFingerprint": "eff0995a1eb8c61ce4ed165b32aca666b4c31a71d99476ab7cd82d0e6bae5332",
+  "capturedAt": "2026-06-27T23:23:33.455Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/juyongjiang/CodeSolar/blob/master/README.md",
+      "snapshotPath": "archive/evidence/solar-mini-juyongjiang-codesolar/original-evidence-0753f034d392.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "CodeSolar/README.md at master · juyongjiang/CodeSolar · GitHub",
+      "bodySha256": "3d560f3afb749e85f568989f4c7c1afdc2b429065c3525eab54dcc1ee206ed0a",
+      "capturedAt": "2026-06-27T23:23:31.422Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/juyongjiang/CodeSolar",
+      "snapshotPath": "archive/evidence/solar-mini-juyongjiang-codesolar/artifact-1-7ea78b1a6a04.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - juyongjiang/CodeSolar: Making coding accessible to all with CodeSolar. · GitHub",
+      "bodySha256": "31d317e183fb6e7ff4a6c5cf5622a45d39049b9db18c22e6e2a31ac2a2660a2f",
+      "capturedAt": "2026-06-27T23:23:32.328Z",
+      "error": ""
+    }
+  ]
+}

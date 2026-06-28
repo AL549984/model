@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:29.643Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/superagent-ai/grok-cli/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/superagent-ai/grok-cli/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "7100",
+  "etag": "W/\"a78443db8642ff8f471c9b619f3eb6d5c7ab8f7a7f6214bf8282978ccd00f972\"",
+  "lastModified": null,
+  "bodyBytes": 18853,
+  "bodySha256": "937bb00f20aa30e04f8863191586fdfa2cfafed1656998d237d8632b55240bee",
+  "title": "",
+  "github": null
+}

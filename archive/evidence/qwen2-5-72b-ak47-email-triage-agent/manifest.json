@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-72b-ak47-email-triage-agent",
+  "modelId": "qwen2-5-72b",
+  "modelName": "Qwen2.5 72B",
+  "title": "Autonomous Email Triage Agent uses Qwen2.5-72B-Instruct to route support emails",
+  "evidenceFingerprint": "f5adf48679d9b62571380c456493b1282f43a9391488dd5e9aabc91516351502",
+  "capturedAt": "2026-06-27T22:59:45.664Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AK47-tech656/emailagent/blob/main/app.py",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-ak47-email-triage-agent/original-evidence-86c19cd50895.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "emailagent/app.py at main · AK47-tech656/emailagent · GitHub",
+      "bodySha256": "e55a2694e133e167ac2516b6a44e1220827a783e5d5653d12fd250bfb6c40eda",
+      "capturedAt": "2026-06-27T22:59:43.443Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AK47-tech656/emailagent",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-ak47-email-triage-agent/artifact-1-f63e064ff1be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AK47-tech656/emailagent: This project is an intelligent, autonomous email routing system built to solve the Email Triage Challenge. Unlike traditional rule-based systems that fail when faced with deceptive language, this agent leve",
+      "bodySha256": "e55461e271656af09e9cc4ae4c353faa7521610b49b6fc9a92999328586a17bc",
+      "capturedAt": "2026-06-27T22:59:44.518Z",
+      "error": ""
+    }
+  ]
+}

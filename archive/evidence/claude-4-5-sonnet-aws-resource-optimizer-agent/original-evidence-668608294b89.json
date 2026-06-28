@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:42.090Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/mohamedsorour1998/AWS-Resource-Optimizer-Agent/blob/main/README.md",
+  "finalUrl": "https://github.com/mohamedsorour1998/AWS-Resource-Optimizer-Agent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"42bf7bc0faeacba1d33619c37c539666\"",
+  "lastModified": null,
+  "bodyBytes": 477838,
+  "bodySha256": "8216715f6c40eff0a06f607ac70ef1a59455d1cdb5e5e153822f3a69822b0c1a",
+  "title": "AWS-Resource-Optimizer-Agent/README.md at main · mohamedsorour1998/AWS-Resource-Optimizer-Agent · GitHub",
+  "github": {
+    "owner": "mohamedsorour1998",
+    "repo": "AWS-Resource-Optimizer-Agent",
+    "apiStatus": "unavailable"
+  }
+}

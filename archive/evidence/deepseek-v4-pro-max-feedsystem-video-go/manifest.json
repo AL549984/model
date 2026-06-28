@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v4-pro-max-feedsystem-video-go",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "DeepSeek V4 Pro Max used to build a full-stack short video feed system (Go + Vue 3)",
+  "evidenceFingerprint": "4bb8014afd52a5f00c64cec718bc227c3967ef7bde112fd74d28a0d42f543982",
+  "capturedAt": "2026-06-27T21:34:32.580Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/KYJCASTER/feedsystem_v4pro_optimize",
+      "snapshotPath": "archive/evidence/deepseek-v4-pro-max-feedsystem-video-go/original-evidence-1eecfc2e9719.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - KYJCASTER/feedsystem_v4pro_optimize: https://github.com/LeoninCS/feedsystem_video_go&#39;s deepseek v4 pro(max) version · GitHub",
+      "bodySha256": "1361cfe9d23b795ea70e4cc371bca0c02d7b31de6a74a3837f05d07518c41d5d",
+      "capturedAt": "2026-06-27T21:34:30.858Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/KYJCASTER/feedsystem_v4pro_optimize",
+      "snapshotPath": "archive/evidence/deepseek-v4-pro-max-feedsystem-video-go/artifact-1-1eecfc2e9719.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - KYJCASTER/feedsystem_v4pro_optimize: https://github.com/LeoninCS/feedsystem_video_go&#39;s deepseek v4 pro(max) version · GitHub",
+      "bodySha256": "5211791d1cc00dca88a20b4fa9e752cbc781abad941559d249d5e63ec94aa708",
+      "capturedAt": "2026-06-27T21:34:32.055Z",
+      "error": ""
+    }
+  ]
+}

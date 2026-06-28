@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-gonka-openclaw-proxy",
+  "modelId": "qwen3-235b",
+  "modelName": "Qwen3 235B",
+  "title": "gonka-openclaw connects OpenClaw/LiteLLM to Gonka's free Qwen3-235B inference through a local OpenAI-compatible proxy",
+  "evidenceFingerprint": "515dbdce5bcb59c652a5c46d3bb82978bf0b04d08a8ed20dc551549f1983d120",
+  "capturedAt": "2026-06-27T21:27:53.648Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/nikinrussia-ui/gonka-openclaw/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-235b-gonka-openclaw-proxy/original-evidence-c33ce2df866f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "df6efb0402e72b109eb526ab75e8ff999f641283b026001a439d4a30ea5e01fe",
+      "capturedAt": "2026-06-27T21:27:52.232Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/nikinrussia-ui/gonka-openclaw",
+      "snapshotPath": "archive/evidence/qwen3-235b-gonka-openclaw-proxy/artifact-1-4e290011ba07.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - nikinrussia-ui/gonka-openclaw: Gonka x OpenClaw — free Qwen3-235B for OpenClaw agents · GitHub",
+      "bodySha256": "dceec71a8033db82940fa1bc65de9897b8c61f10d3079991533ce23511ce2f62",
+      "capturedAt": "2026-06-27T21:27:52.559Z",
+      "error": ""
+    }
+  ]
+}

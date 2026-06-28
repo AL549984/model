@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:14.532Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/labring/fastgpt-plugin/pull/477",
+  "finalUrl": "https://github.com/labring/fastgpt-plugin/pull/477",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 319400,
+  "bodySha256": "e5579c60c2f508ce8ecca1387c0bc0a6b27c0e50785b6863d57b7349fdd1deb9",
+  "title": "[codex] Update Groq and Doubao model presets by c121914yu · Pull Request #477 · labring/fastgpt-plugin · GitHub",
+  "github": {
+    "owner": "labring",
+    "repo": "fastgpt-plugin",
+    "apiStatus": "unavailable"
+  }
+}

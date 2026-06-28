@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:03.507Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/iflow-mcp/Grok-MCP-1",
+  "finalUrl": "https://github.com/iflow-mcp/Grok-MCP-1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9ed90ed90155a05f8114a9fab8620f0d\"",
+  "lastModified": null,
+  "bodyBytes": 272209,
+  "bodySha256": "24e7eab660dee4569692b294ab05e9fa9071f56f4e43b418438e71047f8253ce",
+  "title": "GitHub - iflow-mcp/Grok-MCP-1: A server that connects to the xAI/Grok image generation API that provides endpoints for text and image analysis using X.AI&#39;s Grok models. ## Features - Text analysis using Grok-2 - Image analysis using Gro",
+  "github": {
+    "owner": "iflow-mcp",
+    "repo": "Grok-MCP-1",
+    "apiStatus": "unavailable"
+  }
+}

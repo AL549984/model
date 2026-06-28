@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:49.976Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/alibaba/open-code-review",
+  "finalUrl": "https://github.com/alibaba/open-code-review",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e8821ecc49f794918d6b2ee9cbce5fed\"",
+  "lastModified": null,
+  "bodyBytes": 564682,
+  "bodySha256": "972f5e8450d98bfa4717a6f9eef8f822cab5b7a050d4a184d7f6c072f60ec286",
+  "title": "GitHub - alibaba/open-code-review: Open-source &amp; free — Battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thre",
+  "github": {
+    "owner": "alibaba",
+    "repo": "open-code-review",
+    "apiStatus": "unavailable"
+  }
+}

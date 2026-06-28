@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:39.169Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MaxineXiong/OpenAI-API-Web-Apps/blob/master/README.md#talk-to-gpt",
+  "finalUrl": "https://github.com/MaxineXiong/OpenAI-API-Web-Apps/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1b5422e93943ae49d6246c91ae6de0fb\"",
+  "lastModified": null,
+  "bodyBytes": 344204,
+  "bodySha256": "d3230ca6394cf73116d09876d02b9f8c828a70d791dcb27b479885b0771c6185",
+  "title": "OpenAI-API-Web-Apps/README.md at master · MaxineXiong/OpenAI-API-Web-Apps · GitHub",
+  "github": {
+    "owner": "MaxineXiong",
+    "repo": "OpenAI-API-Web-Apps",
+    "apiStatus": "unavailable"
+  }
+}

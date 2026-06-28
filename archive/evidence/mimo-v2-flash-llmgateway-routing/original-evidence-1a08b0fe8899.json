@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:51.137Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/theopenco/llmgateway/pull/2648",
+  "finalUrl": "https://github.com/theopenco/llmgateway/pull/2648",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 325711,
+  "bodySha256": "019d24046552ad57f5c9d845c53eb16e6cf9c7393e939b4dceb2960485cff951",
+  "title": "fix(models): deactivate mimo-v2-flash at Xiaomi switch by steebchen · Pull Request #2648 · theopenco/llmgateway · GitHub",
+  "github": {
+    "owner": "theopenco",
+    "repo": "llmgateway",
+    "apiStatus": "unavailable"
+  }
+}

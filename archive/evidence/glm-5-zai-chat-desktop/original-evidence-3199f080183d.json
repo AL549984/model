@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:39.651Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/delta-whiplash/zai-chat-desktop/master/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/delta-whiplash/zai-chat-desktop/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1029",
+  "etag": "W/\"9bb3e5c1cd811f916379f38e13c2f9bde1424d7721781b8854352b8a2d60e18f\"",
+  "lastModified": null,
+  "bodyBytes": 1858,
+  "bodySha256": "b613e56ddacf48dfdf698c0cc31b0de19d2cbcbdba79dffb49446feaea191878",
+  "title": "",
+  "github": null
+}

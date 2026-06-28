@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:35.755Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/arjunprabhulal/gemini-toolbox-dvd-rental-assistant#readme",
+  "finalUrl": "https://github.com/arjunprabhulal/gemini-toolbox-dvd-rental-assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d609568f9a69d9b644370c844ff9692b\"",
+  "lastModified": null,
+  "bodyBytes": 348286,
+  "bodySha256": "94d569d64ae6ba4caacd65488e6b170ff828b1d70d743a5a5ff6e37014a392d4",
+  "title": "GitHub - arjunprabhulal/gemini-toolbox-dvd-rental-assistant: An intelligent, conversational AI assistant for managing DVD rental operations using Google Gemini 1.5 Pro , LlamaIndex, and GenAI Toolbox. · GitHub",
+  "github": {
+    "owner": "arjunprabhulal",
+    "repo": "gemini-toolbox-dvd-rental-assistant",
+    "apiStatus": "unavailable"
+  }
+}

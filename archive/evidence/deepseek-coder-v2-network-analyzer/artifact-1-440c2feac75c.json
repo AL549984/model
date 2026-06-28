@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:43.467Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/PR0F3S50R/Real-Time-Network-Analysis-Tool",
+  "finalUrl": "https://github.com/PR0F3S50R/Real-Time-Network-Analysis-Tool",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ad98abf1f9fb21bbea9a5854b6e71b39\"",
+  "lastModified": null,
+  "bodyBytes": 314492,
+  "bodySha256": "86aa2241c19bcb8af87a124e4132ce3f122c569a7cfb4dcc9ff86d7f24e977d4",
+  "title": "GitHub - PR0F3S50R/Real-Time-Network-Analysis-Tool: A real-time network traffic and system log analysis pipeline powered by the DeepSeek-Code-V2-Lite-Instruct local LLM, integrated with NVIDIA Morpheus and deployable via Triton Inference Se",
+  "github": {
+    "owner": "PR0F3S50R",
+    "repo": "Real-Time-Network-Analysis-Tool",
+    "htmlUrl": "https://github.com/PR0F3S50R/Real-Time-Network-Analysis-Tool",
+    "defaultBranch": "main",
+    "defaultBranchSha": "6a812f326506321bbb198e6343002ceee43b8160",
+    "pushedAt": "2025-04-30T04:43:39Z",
+    "updatedAt": "2025-08-12T10:26:27Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:03.800Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/togethercomputer/MoA",
+  "finalUrl": "https://github.com/togethercomputer/MoA",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a685511f7c1575233ebc708fe7b22f78\"",
+  "lastModified": null,
+  "bodyBytes": 345734,
+  "bodySha256": "7cdb13f1724fc388933d4aacf162b4b64617df1d8f1342b5a81e44903b00a973",
+  "title": "GitHub - togethercomputer/MoA: Together Mixture-Of-Agents (MoA) – 65.1% on AlpacaEval with OSS models · GitHub",
+  "github": {
+    "owner": "togethercomputer",
+    "repo": "MoA",
+    "htmlUrl": "https://github.com/togethercomputer/MoA",
+    "defaultBranch": "main",
+    "defaultBranchSha": "1b5cab0f0905d9da821e37322ac6df96ba65e1a7",
+    "pushedAt": "2025-01-07T03:21:19Z",
+    "updatedAt": "2026-06-27T19:54:14Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

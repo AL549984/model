@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:17.013Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Hyeongseob91/upstage-agent-genome-watcher",
+  "finalUrl": "https://github.com/Hyeongseob91/upstage-agent-genome-watcher",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"83be2e15333a79924e60b9643bf5688b\"",
+  "lastModified": null,
+  "bodyBytes": 324087,
+  "bodySha256": "5e25a11c15c95ec1da5c529ec0e6113359664a2a6024c04b3257b9cca269bbbc",
+  "title": "GitHub - Hyeongseob91/upstage-agent-genome-watcher: Upstage Solar Pro 3 모델을 이용한 Motlbook 분석 프로젝트 · GitHub",
+  "github": {
+    "owner": "Hyeongseob91",
+    "repo": "upstage-agent-genome-watcher",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:48.869Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MemTensor/MemOS/blob/main/src/memos/api/config.py",
+  "finalUrl": "https://github.com/MemTensor/MemOS/blob/main/src/memos/api/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e347876a34d8a11ade26e65d91ef25f2\"",
+  "lastModified": null,
+  "bodyBytes": 922097,
+  "bodySha256": "966b33c61895445e7996e147e023f5c1d320c35adcc18c02602a142c4986a94e",
+  "title": "MemOS/src/memos/api/config.py at main · MemTensor/MemOS · GitHub",
+  "github": {
+    "owner": "MemTensor",
+    "repo": "MemOS",
+    "apiStatus": "unavailable"
+  }
+}

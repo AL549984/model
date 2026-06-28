@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:41.331Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/talhaanwarch/streamlit-llama",
+  "finalUrl": "https://github.com/talhaanwarch/streamlit-llama",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3581ab207d9e032a14aa00f82c530756\"",
+  "lastModified": null,
+  "bodyBytes": 278203,
+  "bodySha256": "a0c8d50c3f7a79a00a6948276028aa498c89883e134a2919c831fa97e89cfb14",
+  "title": "GitHub - talhaanwarch/streamlit-llama: Streamlit chatbot with Llama-2-7B-chat · GitHub",
+  "github": {
+    "owner": "talhaanwarch",
+    "repo": "streamlit-llama",
+    "apiStatus": "unavailable"
+  }
+}

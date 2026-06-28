@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:41:00.458Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp",
+  "finalUrl": "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"694dcd54ce80a9d1f2f74ef2d5e92885\"",
+  "lastModified": null,
+  "bodyBytes": 386834,
+  "bodySha256": "0462f25b4bc51ab4845cd5f972c5800e5c78d698022f65c74cfe257092c49a62",
+  "title": "GitHub - ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp: A ComfyUI custom node that integrates Google&#39;s Gemini Flash 2.0 Experimental model, enabling multimodal analysis of text, images, video frames, and audio directly within ComfyUI workflo",
+  "github": {
+    "owner": "ShmuelRonen",
+    "repo": "ComfyUI-Gemini_Flash_2.0_Exp",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:47.681Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/cline/cline/issues/8365",
+  "finalUrl": "https://github.com/cline/cline/issues/8365",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 305759,
+  "bodySha256": "4f40c9ea0baadfb67c7a688aaeca382a9044e3669994468731d0ca746a993e31",
+  "title": "DeepSeek V3.2 always put its XML tool calling in reasoning content · Issue #8365 · cline/cline · GitHub",
+  "github": {
+    "owner": "cline",
+    "repo": "cline",
+    "apiStatus": "unavailable"
+  }
+}

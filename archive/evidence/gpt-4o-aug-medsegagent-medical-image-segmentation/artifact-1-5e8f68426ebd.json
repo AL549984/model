@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:02.520Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/uni-medical/MedSegAgent",
+  "finalUrl": "https://github.com/uni-medical/MedSegAgent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ac709bfdd4da7e45f367bb4037a7e6be\"",
+  "lastModified": null,
+  "bodyBytes": 337279,
+  "bodySha256": "9cadb9173e45866d4ca03182e370764850a63f70afa623438dc37270bacde382",
+  "title": "GitHub - uni-medical/MedSegAgent: IEEE JBHI 2026 | MedSegAgent: A Universal and Scalable Multi-Agent System for Instructive Medical Image Segmentation · GitHub",
+  "github": {
+    "owner": "uni-medical",
+    "repo": "MedSegAgent",
+    "apiStatus": "unavailable"
+  }
+}

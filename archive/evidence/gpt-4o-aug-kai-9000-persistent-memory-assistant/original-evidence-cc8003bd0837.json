@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:58.050Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SimonSchubert/Kai/blob/main/composeApp/src/commonMain/kotlin/com/inspiredandroid/kai/data/ModelCatalog.kt#L93",
+  "finalUrl": "https://github.com/SimonSchubert/Kai/blob/main/composeApp/src/commonMain/kotlin/com/inspiredandroid/kai/data/ModelCatalog.kt",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"92f2259e740c68b3509b894e8546faee\"",
+  "lastModified": null,
+  "bodyBytes": 1409198,
+  "bodySha256": "8d08373ba9c5e1bc3614fcdc66722caab8640aacda4b3e74ac6ecbcfd546003d",
+  "title": "Kai/composeApp/src/commonMain/kotlin/com/inspiredandroid/kai/data/ModelCatalog.kt at main · SimonSchubert/Kai · GitHub",
+  "github": {
+    "owner": "SimonSchubert",
+    "repo": "Kai",
+    "apiStatus": "unavailable"
+  }
+}

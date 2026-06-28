@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:11.259Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/eosphoros-ai/DB-GPT/blob/main/docs/docs/modules/smmf.md",
+  "finalUrl": "https://github.com/eosphoros-ai/DB-GPT/blob/main/docs/docs/modules/smmf.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2f26af287fbed46e804f0ba7969a24f4\"",
+  "lastModified": null,
+  "bodyBytes": 324727,
+  "bodySha256": "4f1bbc362542689a0e3bde3640f5cc1ea0fb672e967e26db6419eba592d7d7cb",
+  "title": "DB-GPT/docs/docs/modules/smmf.md at main · eosphoros-ai/DB-GPT · GitHub",
+  "github": {
+    "owner": "eosphoros-ai",
+    "repo": "DB-GPT",
+    "apiStatus": "unavailable"
+  }
+}

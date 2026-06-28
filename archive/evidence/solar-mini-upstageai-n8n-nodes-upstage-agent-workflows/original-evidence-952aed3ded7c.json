@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:47.818Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/UpstageAI/n8n-nodes-upstage/blob/main/README.md",
+  "finalUrl": "https://github.com/UpstageAI/n8n-nodes-upstage/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c127acad076f4aba80906329fab2396a\"",
+  "lastModified": null,
+  "bodyBytes": 421055,
+  "bodySha256": "ecffac16b7570fecf0cd0aa0a627e857928acb336a660b235bcf86422c849af4",
+  "title": "n8n-nodes-upstage/README.md at main · UpstageAI/n8n-nodes-upstage · GitHub",
+  "github": {
+    "owner": "UpstageAI",
+    "repo": "n8n-nodes-upstage",
+    "apiStatus": "unavailable"
+  }
+}

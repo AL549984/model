@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:42.587Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/zjkaaap/GradeLens-",
+  "finalUrl": "https://github.com/zjkaaap/GradeLens-",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"79dea64768ab4f098d9d4fa9ac34acfa\"",
+  "lastModified": null,
+  "bodyBytes": 337175,
+  "bodySha256": "33e70e5329c7c6840e1ff4428c797ee8d54654bc9a8a35746cbaa53e6fd7995c",
+  "title": "GitHub - zjkaaap/GradeLens-: GradeLens（智阅） 是一个端到端的 AI 自动阅卷应用。教师上传 .docx 试卷后，系统自动解析出每道题的题干、标准答案与分值；学生作答只需拍照上传，多模态大模型 qwen3.6-plus 便直接&quot;看图—理解手写—对照评分&quot;一步到位，输出结构化的得分、扣分点与评语。 与传统&quot;OCR + 文本大模型&quot;的两段式方案不同，GradeLens 让模型直接读取原始作答图片，避免了",
+  "github": {
+    "owner": "zjkaaap",
+    "repo": "GradeLens-",
+    "htmlUrl": "https://github.com/zjkaaap/GradeLens-",
+    "defaultBranch": "main",
+    "defaultBranchSha": "46d41ee655d5513c779c319a236fc5fc09f01256",
+    "pushedAt": "2026-05-30T07:07:45Z",
+    "updatedAt": "2026-06-17T02:33:48Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

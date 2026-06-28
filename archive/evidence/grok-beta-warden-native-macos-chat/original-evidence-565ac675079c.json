@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:03.392Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SidhuK/WardenApp/blob/main/Warden/Configuration/AppConstants.swift",
+  "finalUrl": "https://github.com/SidhuK/WardenApp/blob/main/Warden/Configuration/AppConstants.swift",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"65a06eabf79775d2b1ad4e158942d819\"",
+  "lastModified": null,
+  "bodyBytes": 969074,
+  "bodySha256": "7a7129dc52882fa84a8739f4945a888bcc792efa9bc91f1e2315bcb9aec48c2e",
+  "title": "WardenApp/Warden/Configuration/AppConstants.swift at main · SidhuK/WardenApp · GitHub",
+  "github": {
+    "owner": "SidhuK",
+    "repo": "WardenApp",
+    "apiStatus": "unavailable"
+  }
+}

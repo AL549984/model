@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:54.923Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Vidhyadhar75/rag-based-assistant",
+  "finalUrl": "https://github.com/Vidhyadhar75/rag-based-assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c86db3c0d99f0513f5e81eeebc7896c9\"",
+  "lastModified": null,
+  "bodyBytes": 280738,
+  "bodySha256": "14a6c8c0070a431342c5a6d3023588277a362c6ca257a9ed45a1f45a5e868ffb",
+  "title": "GitHub - Vidhyadhar75/rag-based-assistant: A Streamlit-based Retrieval-Augmented Generation (RAG) assistant that answers user queries using semantic search on a custom document (Text_File.txt) and responds via Hugging Face&#39;s Qwen2.5-72B",
+  "github": {
+    "owner": "Vidhyadhar75",
+    "repo": "rag-based-assistant",
+    "apiStatus": "unavailable"
+  }
+}

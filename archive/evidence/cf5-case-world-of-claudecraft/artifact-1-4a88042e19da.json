@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:23.785Z",
+  "kind": "artifact-1",
+  "url": "https://worldofclaudecraft.com/",
+  "finalUrl": "https://worldofclaudecraft.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Fri, 26 Jun 2026 09:05:28 GMT",
+  "bodyBytes": 440525,
+  "bodySha256": "a3bb1154725df42a6035e3e80d37ef918a0a88f21844991c7b969ee2579b9be7",
+  "title": "World of ClaudeCraft: Classic-Style Web MMO",
+  "github": null
+}

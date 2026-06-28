@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:53.550Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/jbexta/AgentPilot/blob/master/src/utils/reset.py#L788-L791",
+  "finalUrl": "https://github.com/jbexta/AgentPilot/blob/master/src/utils/reset.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5dbde959a69509af5dae2769ada67bd7\"",
+  "lastModified": null,
+  "bodyBytes": 949024,
+  "bodySha256": "6fd3742a99ac4f5865e48e1a3e04cef33a323d2c881f61281efbe09fc09517f7",
+  "title": "AgentPilot/src/utils/reset.py at master · jbexta/AgentPilot · GitHub",
+  "github": {
+    "owner": "jbexta",
+    "repo": "AgentPilot",
+    "apiStatus": "unavailable"
+  }
+}

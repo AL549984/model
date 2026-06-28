@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:02.661Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Treasure-M/Custom-Content-Generator",
+  "finalUrl": "https://github.com/Treasure-M/Custom-Content-Generator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e2e4d0d9fa7d1cd1a832d13e1dd4bda5\"",
+  "lastModified": null,
+  "bodyBytes": 261205,
+  "bodySha256": "a70e6c8f7cc6b5e3f938deb380b4c9503ccb8cc3b0eabed0b71787af7632230d",
+  "title": "GitHub - Treasure-M/Custom-Content-Generator: A simple browser-based tool for creating instructional content that makes use of OpenRouter.ai and the meta-llama/llama-3.1-405b-instruct model. Create grade-level and topic-specific lesson plan",
+  "github": {
+    "owner": "Treasure-M",
+    "repo": "Custom-Content-Generator",
+    "apiStatus": "unavailable"
+  }
+}

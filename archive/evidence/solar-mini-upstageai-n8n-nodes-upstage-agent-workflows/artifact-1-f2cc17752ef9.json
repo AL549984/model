@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:49.381Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/UpstageAI/n8n-nodes-upstage",
+  "finalUrl": "https://github.com/UpstageAI/n8n-nodes-upstage",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"96225e92ed52b609a94fd87eb2111b33\"",
+  "lastModified": null,
+  "bodyBytes": 432005,
+  "bodySha256": "46f444a9dbd554345dfe81d280b705d39698cb1a34d8a30950563c3fee41e4c2",
+  "title": "GitHub - UpstageAI/n8n-nodes-upstage: Upstage LLM and Embeddings nodes for n8n · GitHub",
+  "github": {
+    "owner": "UpstageAI",
+    "repo": "n8n-nodes-upstage",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-plus-clankwork-macos-telegram-agent",
+  "modelId": "qwen3-6-plus",
+  "modelName": "Qwen3.6 Plus",
+  "title": "ClankWork 用 Qwen3.6 Plus 构建常驻 macOS Telegram 工作站智能体",
+  "evidenceFingerprint": "e9609a31893ac76e5898f22ef8ebd19c2321e8c252710a3c891b248c0a56ba73",
+  "capturedAt": "2026-06-27T23:07:40.780Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Christopher-Schulze/ClankWork/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-clankwork-macos-telegram-agent/original-evidence-d3ddd824a14c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ClankWork/README.md at main · Christopher-Schulze/ClankWork · GitHub",
+      "bodySha256": "92c5ad4e6d70ed0283dc7b0c853dfa5fe9c839f3220ed44eaa78c49305b3cfa0",
+      "capturedAt": "2026-06-27T23:07:35.962Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Christopher-Schulze/ClankWork",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-clankwork-macos-telegram-agent/artifact-1-5ac3f2dbbe8e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Christopher-Schulze/ClankWork: Always-on macOS AI agent controlled via Telegram, powered by Qwen3.6 Plus with 1M context, computer use, vision, and cost-efficient inference. · GitHub",
+      "bodySha256": "9d446e252011b2d5e23c54f37f1b7215c9a59776bed2094a0ab495789c5c9de8",
+      "capturedAt": "2026-06-27T23:07:39.357Z",
+      "error": ""
+    }
+  ]
+}

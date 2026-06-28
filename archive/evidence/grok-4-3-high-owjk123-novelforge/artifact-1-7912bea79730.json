@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:07.829Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/owjk123/NovelForge",
+  "finalUrl": "https://github.com/owjk123/NovelForge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c0cd52d34c5323b3015b497313cf2b09\"",
+  "lastModified": null,
+  "bodyBytes": 312538,
+  "bodySha256": "5375accce93047ac1919675b0c8a4f42b8b1cf4e295339260f9f2b968be0119a",
+  "title": "GitHub - owjk123/NovelForge: AI Novel Generator powered by Grok 4.3 API - Android App · GitHub",
+  "github": {
+    "owner": "owjk123",
+    "repo": "NovelForge",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude37-case-grafana-assistant",
+  "modelId": "claude-3-7-sonnet",
+  "modelName": "Claude 3.7 Sonnet",
+  "title": "Grafana Assistant observability workflows",
+  "evidenceFingerprint": "7fffdec73b9f32da5e8acc4b2441712e484e42bd6bc4660b56966b192839c826",
+  "capturedAt": "2026-06-27T23:27:06.894Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/grafana",
+      "snapshotPath": "archive/evidence/claude37-case-grafana-assistant/original-evidence-692b333c39b9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Grafana Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "508208d2c11857f5bfa272929e886e855b3e5975e04f2c1ca17276b9c2fcf393",
+      "capturedAt": "2026-06-27T23:27:00.004Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://grafana.com/products/cloud/",
+      "snapshotPath": "archive/evidence/claude37-case-grafana-assistant/artifact-1-437133bf927a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Grafana Cloud | AI-Powered Full-Stack Observability | Grafana Labs",
+      "bodySha256": "9b4290fb2117bd9c9dc30423e9620a12160050b9b01887ced4e08de96c368cb4",
+      "capturedAt": "2026-06-27T23:27:05.784Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:15.498Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/vijayrajeshr/SentinelOps-AI",
+  "finalUrl": "https://github.com/vijayrajeshr/SentinelOps-AI",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2ff2ee142a1d7689f20ba56cdf534a5d\"",
+  "lastModified": null,
+  "bodyBytes": 308162,
+  "bodySha256": "8979d5831df61653a382cfe46b51cd4df42f804ada28329602c6fe4992626552",
+  "title": "GitHub - vijayrajeshr/SentinelOps-AI: An autonomous, self-healing DevOps pipeline acting as an automated AI engineer. Powered by Amazon Bedrock (Claude 3.5 Haiku) and MCP, it intercepts AWS CloudWatch runtime crashes, isolates bugs, tests p",
+  "github": {
+    "owner": "vijayrajeshr",
+    "repo": "SentinelOps-AI",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-2-chat-7b-mowa-ai-llm-as-a-service",
+  "modelId": "llama-2-chat-7b",
+  "modelName": "Llama 2 Chat 7B",
+  "title": "mowa-ai 将 Llama-2 7B Chat 封装为 FastAPI LLM 服务",
+  "evidenceFingerprint": "7d698523ab6955632cfe375a3be6125782d31fb39b2c23325f405803e2a0f523",
+  "capturedAt": "2026-06-27T21:27:41.002Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/mowa-ai/llm-as-a-service/main/README.md",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-mowa-ai-llm-as-a-service/original-evidence-d435e7f26972.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "1d6540c93acebe5e8899a3a32de82e2349d8aa390a04386e658255caa0120a7d",
+      "capturedAt": "2026-06-27T21:27:39.449Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mowa-ai/llm-as-a-service",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-mowa-ai-llm-as-a-service/artifact-1-5716c9f852d4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mowa-ai/llm-as-a-service: Simple FastAPI service for LLAMA-2 7B chat model · GitHub",
+      "bodySha256": "9c4528bdc9cbd434f007022d58403dc085725ac148d1961706779ba7c7e6f2a4",
+      "capturedAt": "2026-06-27T21:27:39.780Z",
+      "error": ""
+    }
+  ]
+}

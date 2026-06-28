@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:08.520Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SkyworkAI/DeepResearchAgent/blob/5e3c95d14266f8c4aa6a5deae1fe165c7cd1b87b/examples/run_leetcode_agent.py",
+  "finalUrl": "https://github.com/SkyworkAI/DeepResearchAgent/blob/5e3c95d14266f8c4aa6a5deae1fe165c7cd1b87b/examples/run_leetcode_agent.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fcd98a2efcd79525616545bc64be7a90\"",
+  "lastModified": null,
+  "bodyBytes": 555065,
+  "bodySha256": "a0ec42809f0a13c5d4fdab751e1d662738ad9a17c23e77a63dc77eb32fb19062",
+  "title": "DeepResearchAgent/examples/run_leetcode_agent.py at 5e3c95d14266f8c4aa6a5deae1fe165c7cd1b87b · SkyworkAI/DeepResearchAgent · GitHub",
+  "github": {
+    "owner": "SkyworkAI",
+    "repo": "DeepResearchAgent",
+    "apiStatus": "unavailable"
+  }
+}

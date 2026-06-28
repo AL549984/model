@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-1-talkcody-starrocks-code-qa-recording",
+  "modelId": "minimax-m2-1",
+  "modelName": "MiniMax-M2.1",
+  "title": "TalkCody recorded MiniMax-M2.1 answering a StarRocks codebase question with tool-assisted code search",
+  "evidenceFingerprint": "876c99f028b010d85daed5048faca23142d5dec0e11eced94882dcb86f69bcb2",
+  "capturedAt": "2026-06-27T22:44:34.722Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/talkcody/talkcody/blob/main/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json",
+      "snapshotPath": "archive/evidence/minimax-m2-1-talkcody-starrocks-code-qa-recording/original-evidence-27f0dc6401dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "talkcody/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json at main · talkcody/talkcody · GitHub",
+      "bodySha256": "3913b6a3a9f6197f8fd75d7c84a1991751fbba9262109edd68f36abfc9017f73",
+      "capturedAt": "2026-06-27T22:44:32.109Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/talkcody/talkcody/blob/main/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json",
+      "snapshotPath": "archive/evidence/minimax-m2-1-talkcody-starrocks-code-qa-recording/artifact-1-27f0dc6401dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "talkcody/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json at main · talkcody/talkcody · GitHub",
+      "bodySha256": "ef174bccacf61637e417a8d968f3369a231fa38505fdcea2e2f51698059a1557",
+      "capturedAt": "2026-06-27T22:44:33.844Z",
+      "error": ""
+    }
+  ]
+}

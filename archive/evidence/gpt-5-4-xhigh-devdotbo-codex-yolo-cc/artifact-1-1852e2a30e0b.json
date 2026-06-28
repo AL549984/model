@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:55.203Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/devdotbo/codex-yolo-cc",
+  "finalUrl": "https://github.com/devdotbo/codex-yolo-cc",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f87088e00008f95c80898c041dd1b85\"",
+  "lastModified": null,
+  "bodyBytes": 356239,
+  "bodySha256": "6ec475ababb02a2b2ba63cfe777bf8771fba22d904c09f3b0404d93075dbacdf",
+  "title": "GitHub - devdotbo/codex-yolo-cc: Codex YOLO plugin for Claude Code - GPT 5.4 xhigh, full-access execute, dual-review workflow. Fork of openai/codex-plugin-cc. · GitHub",
+  "github": {
+    "owner": "devdotbo",
+    "repo": "codex-yolo-cc",
+    "apiStatus": "unavailable"
+  }
+}

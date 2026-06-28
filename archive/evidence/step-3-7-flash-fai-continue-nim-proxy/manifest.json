@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "step-3-7-flash-fai-continue-nim-proxy",
+  "modelId": "step-3-7-flash",
+  "modelName": "Step 3.7 Flash",
+  "title": "FAI-Solutions built a Continue/NIM proxy to make Step 3.7 Flash usable in VS Code",
+  "evidenceFingerprint": "a4c669ee845c976fe27e3e8308483bc8374182e98dcdcf06952758ef5b9ce727",
+  "capturedAt": "2026-06-27T21:28:24.905Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/FAI-Solutions/Continue-NIM-Proxy/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/step-3-7-flash-fai-continue-nim-proxy/original-evidence-ac24427657fc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "e5057ec5a86e409c8d709fa35216ae93fcaf98d9dddd63b167473bbde9ada127",
+      "capturedAt": "2026-06-27T21:28:23.260Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/FAI-Solutions/Continue-NIM-Proxy",
+      "snapshotPath": "archive/evidence/step-3-7-flash-fai-continue-nim-proxy/artifact-1-682e9fe478e6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - FAI-Solutions/Continue-NIM-Proxy: Fixes Step 3.7 Flash, Nemotron 3 Ultra and Kimi k2.6 (NIM Endpoint) silently returning empty responses in Continue. · GitHub",
+      "bodySha256": "5c48387d63e249bd0c9e884f17a522df3d1b144f07dadb19bd5cc2a09f264ec9",
+      "capturedAt": "2026-06-27T21:28:23.578Z",
+      "error": ""
+    }
+  ]
+}

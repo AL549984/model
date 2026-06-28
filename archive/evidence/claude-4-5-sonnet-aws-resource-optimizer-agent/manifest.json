@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-5-sonnet-aws-resource-optimizer-agent",
+  "modelId": "claude-4-5-sonnet",
+  "modelName": "Claude 4.5 Sonnet",
+  "title": "Mohamed Sorour built an AWS Resource Optimizer Agent with Claude Sonnet 4.5 and Bedrock AgentCore",
+  "evidenceFingerprint": "be1de32a27505cfbada1152ee958b6736b2ec9cfc8e70a6c198c1692baf31f81",
+  "capturedAt": "2026-06-27T20:54:44.420Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mohamedsorour1998/AWS-Resource-Optimizer-Agent/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-aws-resource-optimizer-agent/original-evidence-668608294b89.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AWS-Resource-Optimizer-Agent/README.md at main · mohamedsorour1998/AWS-Resource-Optimizer-Agent · GitHub",
+      "bodySha256": "8216715f6c40eff0a06f607ac70ef1a59455d1cdb5e5e153822f3a69822b0c1a",
+      "capturedAt": "2026-06-27T20:54:42.090Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mohamedsorour1998/AWS-Resource-Optimizer-Agent",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-aws-resource-optimizer-agent/artifact-1-24707691243c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mohamedsorour1998/AWS-Resource-Optimizer-Agent: Production-ready AI agent for AWS resource monitoring and optimization, Built with Amazon Bedrock AgentCore Gateway, Claude Sonnet 4.5, and Strands Agents SDK. · GitHub",
+      "bodySha256": "5c96ff5106a2d57a81fb454b6708fc07b85e2a927946519a2a788e3e9abaefc0",
+      "capturedAt": "2026-06-27T20:54:43.292Z",
+      "error": ""
+    }
+  ]
+}

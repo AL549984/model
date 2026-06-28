@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:04.941Z",
+  "kind": "artifact-1",
+  "url": "https://claudecitizen.com",
+  "finalUrl": "https://claudecitizen.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9464f9728b96bb3bc4540122121a5956\"",
+  "lastModified": "Sat, 27 Jun 2026 07:42:25 GMT",
+  "bodyBytes": 56806,
+  "bodySha256": "5bad5ccbcf64409d9d90092faabf5cbf8d33fec2983149e6489e7bf56f1cf2f7",
+  "title": "Claude Citizen — finish Star Citizen before Star Citizen does",
+  "github": null
+}

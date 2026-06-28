@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:58.470Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/BBuf/KDA-Pilot",
+  "finalUrl": "https://github.com/BBuf/KDA-Pilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9b144c64802b92867fb2098a5a0ecd13\"",
+  "lastModified": null,
+  "bodyBytes": 314193,
+  "bodySha256": "5a94caa62508b90851d0e6a480998da7d38f305e45cf4aef870d8979552c7210",
+  "title": "GitHub - BBuf/KDA-Pilot · GitHub",
+  "github": {
+    "owner": "BBuf",
+    "repo": "KDA-Pilot",
+    "apiStatus": "unavailable"
+  }
+}

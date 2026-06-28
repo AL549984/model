@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:45.398Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/fvegiard/omo-grok",
+  "finalUrl": "https://github.com/fvegiard/omo-grok",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f0950cb3c3da5c324ddd95253b6a2dc6\"",
+  "lastModified": null,
+  "bodyBytes": 258824,
+  "bodySha256": "f91802c39476f251266b2b7ed6471b5a6b3d5122d791d4d226c41dabe06a2498",
+  "title": "GitHub - fvegiard/omo-grok: Oh My OpenAgent + xAI Grok dual-model setup (Grok 4.20 Reasoning + Grok Build 0.1) with deepsly-think agent · GitHub",
+  "github": {
+    "owner": "fvegiard",
+    "repo": "omo-grok",
+    "apiStatus": "unavailable"
+  }
+}

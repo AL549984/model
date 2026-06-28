@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:37.235Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/FaustoS88/STT-mem0",
+  "finalUrl": "https://github.com/FaustoS88/STT-mem0",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7403787aeada73cc6ba8ab63d41e83ed\"",
+  "lastModified": null,
+  "bodyBytes": 328475,
+  "bodySha256": "8345ac32ec1066220350ba96a5fc19a4489862c3ca9bb180a746090c8e652ec6",
+  "title": "GitHub - FaustoS88/STT-mem0: A conversational AI system combining Faster-Whisper speech recognition with Mem0 long-term memory. Features PostgreSQL pgvector storage, Deepseek v3 0324 and hybrid memory architecture for enhanced contextual aw",
+  "github": {
+    "owner": "FaustoS88",
+    "repo": "STT-mem0",
+    "apiStatus": "unavailable"
+  }
+}

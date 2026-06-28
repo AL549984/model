@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:05.784Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/graphanov/LazyGLM",
+  "finalUrl": "https://github.com/graphanov/LazyGLM",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0782a2b360d1d075c53868f621bb2141\"",
+  "lastModified": null,
+  "bodyBytes": 379720,
+  "bodySha256": "497eb5db86fe4cb65b96ff0655a6669f3e38b0b997d272e1858858444e6dbc7c",
+  "title": "GitHub - graphanov/LazyGLM: A GLM-native coding agent CLI. Routes GLM-5.2 / GLM-4.7 / GLM-4.7-flash by task with reasoning-token awareness. The GLM equivalent of lazycodex. · GitHub",
+  "github": {
+    "owner": "graphanov",
+    "repo": "LazyGLM",
+    "apiStatus": "unavailable"
+  }
+}

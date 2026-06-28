@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:03.300Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/YiJianRuGu2019/SAI/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/YiJianRuGu2019/SAI/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "792",
+  "etag": "W/\"2fc5a0d4e1c53ea939ee1f7e13a5bcd846b4b5df8caa5487a0374b8e8569f2cd\"",
+  "lastModified": null,
+  "bodyBytes": 1227,
+  "bodySha256": "aba2ae6be7739eb87e239bd401af002cb8c72c4460033125b35f238492c7ef01",
+  "title": "",
+  "github": null
+}

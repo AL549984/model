@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:03.888Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/qihaozh/StartUp_Advisor",
+  "finalUrl": "https://github.com/qihaozh/StartUp_Advisor",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"444b63b06a50dc354e1eff037e9608c9\"",
+  "lastModified": null,
+  "bodyBytes": 357448,
+  "bodySha256": "9bd292454ff7fdceb39cf9425ab1ec493eb39c99b73ca605cd3aa23e09077367",
+  "title": "GitHub - qihaozh/StartUp_Advisor: A sophisticated multi-agent system that uses Qwen3-Max to generate comprehensive business plans through collaborative AI advisors. · GitHub",
+  "github": {
+    "owner": "qihaozh",
+    "repo": "StartUp_Advisor",
+    "apiStatus": "unavailable"
+  }
+}

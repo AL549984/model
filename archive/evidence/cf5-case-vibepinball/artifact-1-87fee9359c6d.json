@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:22.378Z",
+  "kind": "artifact-1",
+  "url": "https://vibe-pinball.vercel.app/",
+  "finalUrl": "https://vibe-pinball.vercel.app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"601efb84427fa2d75a167ef23877baac\"",
+  "lastModified": null,
+  "bodyBytes": 7818,
+  "bodySha256": "ac32db558abc437b3e9347c035e11233e8c4796f111347e6056c5035d73a0d0d",
+  "title": "VibePinball",
+  "github": null
+}

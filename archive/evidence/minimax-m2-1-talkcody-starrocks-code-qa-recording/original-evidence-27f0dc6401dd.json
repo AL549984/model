@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:32.109Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/talkcody/talkcody/blob/main/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json",
+  "finalUrl": "https://github.com/talkcody/talkcody/blob/main/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6f5249873014a03cdc97aec1d6990dab\"",
+  "lastModified": null,
+  "bodyBytes": 1170274,
+  "bodySha256": "3913b6a3a9f6197f8fd75d7c84a1991751fbba9262109edd68f36abfc9017f73",
+  "title": "talkcody/src-tauri/core/src/llm/testing/recordings/MiniMax__anthropic__MiniMax-M2.1__api.json at main · talkcody/talkcody · GitHub",
+  "github": {
+    "owner": "talkcody",
+    "repo": "talkcody",
+    "apiStatus": "unavailable"
+  }
+}

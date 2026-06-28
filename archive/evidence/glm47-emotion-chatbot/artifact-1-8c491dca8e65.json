@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:04.258Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kittycheeseburger/emotion-chatbot",
+  "finalUrl": "https://github.com/kittycheeseburger/emotion-chatbot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7c4fb3f765809e654122ecb1c2a07389\"",
+  "lastModified": null,
+  "bodyBytes": 332138,
+  "bodySha256": "47c96ba22e12cfb518414349e2756c2446376885100bba20049a311bf5474224",
+  "title": "GitHub - kittycheeseburger/emotion-chatbot: 基于 React、FastAPI、GLM-4.7-Flash、中文 RoBERTa 情绪分类模型和本地 RAG 的情绪分析聊天机器人网页应用。 · GitHub",
+  "github": {
+    "owner": "kittycheeseburger",
+    "repo": "emotion-chatbot",
+    "apiStatus": "unavailable"
+  }
+}

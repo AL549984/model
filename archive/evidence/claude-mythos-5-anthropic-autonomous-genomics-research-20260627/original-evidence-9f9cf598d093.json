@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:26.438Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=Novel%20research%20in%20genomics",
+  "finalUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 299185,
+  "bodySha256": "3d40c7c40d208fbf94970e1019e29130bd212c482fc4560e3bd1b20313eae28b",
+  "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-3-5-sonnet-ai-investigator",
+  "modelId": "claude-3-5-sonnet",
+  "modelName": "Claude 3.5 Sonnet",
+  "title": "AI-Investigator: Automated enterprise content analysis framework built on Claude 3.5 Sonnet and Firecrawl",
+  "evidenceFingerprint": "a8ac911b219b1f67929efdd31c573c9ecbc5ffdd0b0a4619de6178760f921055",
+  "capturedAt": "2026-06-27T20:16:53.855Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/muratcankoylan/AI-Investigator",
+      "snapshotPath": "archive/evidence/claude-3-5-sonnet-ai-investigator/original-evidence-2ed670d39f19.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - muratcankoylan/AI-Investigator: An automated AI system (Python framework) designed to analyze any type of website content and generate structured reports using Claude 3.5 Sonnet API and Firecrawl. While currently configured for ent",
+      "bodySha256": "bf1884adb555772970b7aff8997a360bd09692f2054a715daa1cbf868489d6a6",
+      "capturedAt": "2026-06-27T20:16:52.099Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/muratcankoylan/AI-Investigator",
+      "snapshotPath": "archive/evidence/claude-3-5-sonnet-ai-investigator/artifact-1-2ed670d39f19.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - muratcankoylan/AI-Investigator: An automated AI system (Python framework) designed to analyze any type of website content and generate structured reports using Claude 3.5 Sonnet API and Firecrawl. While currently configured for ent",
+      "bodySha256": "2b5410a90d5da36f7bf5660f18e718d2ae0707f3735efe20260a4e920723ebad",
+      "capturedAt": "2026-06-27T20:16:53.327Z",
+      "error": ""
+    }
+  ]
+}

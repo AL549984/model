@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:48.413Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/chenzinuo2005/music_creator",
+  "finalUrl": "https://github.com/chenzinuo2005/music_creator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"693746399e660ce3fda004ae37329ac0\"",
+  "lastModified": null,
+  "bodyBytes": 299070,
+  "bodySha256": "251278e557f06400012f43ed852735d05dce296ce997a9fa808912bc73625d66",
+  "title": "GitHub - chenzinuo2005/music_creator: 这是一个基于传送的视频制作符合该视频氛围的多agent小工具，由qwen3.6-plus与Minimax Music2.6配合完成， · GitHub",
+  "github": {
+    "owner": "chenzinuo2005",
+    "repo": "music_creator",
+    "htmlUrl": "https://github.com/chenzinuo2005/music_creator",
+    "defaultBranch": "master",
+    "defaultBranchSha": "55174eb0896ecc77a623ae01289c88c62342c9da",
+    "pushedAt": "2026-05-02T08:09:25Z",
+    "updatedAt": "2026-05-16T16:08:51Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

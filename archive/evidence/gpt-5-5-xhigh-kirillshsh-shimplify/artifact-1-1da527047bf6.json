@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:51.701Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kirillshsh/shimplify",
+  "finalUrl": "https://github.com/kirillshsh/shimplify",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1511836c000c4373856d9142f4920942\"",
+  "lastModified": null,
+  "bodyBytes": 443545,
+  "bodySha256": "f6d98510818445e5461d91b3541bc91999a73e3bbfa5d6600aea1f87112f8a90",
+  "title": "GitHub - kirillshsh/shimplify: Codex Simplify skill installer with GPT-5.5 xhigh explorer subagent · GitHub",
+  "github": {
+    "owner": "kirillshsh",
+    "repo": "shimplify",
+    "apiStatus": "unavailable"
+  }
+}

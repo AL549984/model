@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:49.708Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/aymenfurter/microagents/blob/main/README.md",
+  "finalUrl": "https://github.com/aymenfurter/microagents/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9f9785378dff1ba1be6d63b96427bc5f\"",
+  "lastModified": null,
+  "bodyBytes": 309273,
+  "bodySha256": "2676fa314e12ead4def296fe5e6811e5b171e9577ca912cfca4adb5b6d357add",
+  "title": "microagents/README.md at main · aymenfurter/microagents · GitHub",
+  "github": {
+    "owner": "aymenfurter",
+    "repo": "microagents",
+    "apiStatus": "unavailable"
+  }
+}

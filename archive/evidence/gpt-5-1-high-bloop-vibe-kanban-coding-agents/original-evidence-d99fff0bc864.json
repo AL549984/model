@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:05.655Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/BloopAI/vibe-kanban/blob/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/crates/executors/src/executors/cursor.rs#L96-L121",
+  "finalUrl": "https://github.com/BloopAI/vibe-kanban/blob/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/crates/executors/src/executors/cursor.rs",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c1a2754bf224ad68033612a64042c3f3\"",
+  "lastModified": null,
+  "bodyBytes": 1104574,
+  "bodySha256": "c6b9772b3780599b45c8c9f283bf497b385b7b5533a0b352f65bef00c884c79d",
+  "title": "vibe-kanban/crates/executors/src/executors/cursor.rs at 4deb7eca8f381f7cbc1f9d15515a9ab8f8009053 · BloopAI/vibe-kanban · GitHub",
+  "github": {
+    "owner": "BloopAI",
+    "repo": "vibe-kanban",
+    "apiStatus": "unavailable"
+  }
+}

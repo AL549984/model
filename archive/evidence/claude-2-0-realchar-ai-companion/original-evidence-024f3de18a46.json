@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:40.398Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Shaunwei/RealChar/blob/main/README.md",
+  "finalUrl": "https://github.com/Shaunwei/RealChar/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"96dec189eb1c5130d77dc256fc00e597\"",
+  "lastModified": null,
+  "bodyBytes": 428932,
+  "bodySha256": "a0b5881675f09eb3ff022c2d9c4dcf8eda0fcfc49428a0185624595b2495570b",
+  "title": "RealChar/README.md at main · Shaunwei/RealChar · GitHub",
+  "github": {
+    "owner": "Shaunwei",
+    "repo": "RealChar",
+    "htmlUrl": "https://github.com/Shaunwei/RealChar",
+    "defaultBranch": "main",
+    "defaultBranchSha": "bd452d7ab164098d251935276c870ddfc14a9046",
+    "pushedAt": "2026-01-20T01:23:18Z",
+    "updatedAt": "2026-06-27T16:13:34Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

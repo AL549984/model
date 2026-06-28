@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:51.158Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/nanbingxyz/5ire/blob/main/src/utils/util.ts#L209-L211",
+  "finalUrl": "https://github.com/nanbingxyz/5ire/blob/main/src/utils/util.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"43581a3b5c6d89ef3917601913bedf78\"",
+  "lastModified": null,
+  "bodyBytes": 703432,
+  "bodySha256": "5aa62cb44428c1efa8a9813dd23db6d794e5afd3f256462117cdb7162fc1d053",
+  "title": "5ire/src/utils/util.ts at main · nanbingxyz/5ire · GitHub",
+  "github": {
+    "owner": "nanbingxyz",
+    "repo": "5ire",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-1-0-pikago-auto-prompt-videogen",
+  "modelId": "seedance-1-0",
+  "modelName": "Seedance 1.0",
+  "title": "Seedance Video Generator GUI uses ByteDance Ark Seedance API to create downloadable AI videos",
+  "evidenceFingerprint": "71792c495a093c6aa056964cba58a30c8b916adf1cc3bfd3446bb37ab2a13553",
+  "capturedAt": "2026-06-27T21:28:01.796Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Pikago-hub/auto-prompt-videogen-seedance1.0pro/HEAD/README.md",
+      "snapshotPath": "archive/evidence/seedance-1-0-pikago-auto-prompt-videogen/original-evidence-933631e43108.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "73bb2ab098d0c7a30d2594425177a16e56affdd196def8241329dd15c28d0c42",
+      "capturedAt": "2026-06-27T21:28:00.208Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Pikago-hub/auto-prompt-videogen-seedance1.0pro",
+      "snapshotPath": "archive/evidence/seedance-1-0-pikago-auto-prompt-videogen/artifact-1-17f0f3b1034d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Pikago-hub/auto-prompt-videogen-seedance1.0pro: 自动优化seedance-1.0-pro提示词根据官方docs，一键生成无水印视频 · GitHub",
+      "bodySha256": "8653cce71157bd9ac1db6889fdc93078f634b4a6df27e2f677fc34206e513e7c",
+      "capturedAt": "2026-06-27T21:28:00.533Z",
+      "error": ""
+    }
+  ]
+}

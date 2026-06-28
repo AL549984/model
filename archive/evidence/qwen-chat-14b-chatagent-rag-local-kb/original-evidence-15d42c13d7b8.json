@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:14.659Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/junyuyang7/ChatAgent_RAG/blob/main/configs/model_config.py",
+  "finalUrl": "https://github.com/junyuyang7/ChatAgent_RAG/blob/main/configs/model_config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"baf6456d8d27b216abcc069afc4fa1f4\"",
+  "lastModified": null,
+  "bodyBytes": 406086,
+  "bodySha256": "be409bfe42e826620fff473777263265063ca9afb925f1f0cd22d3772e1d37a8",
+  "title": "ChatAgent_RAG/configs/model_config.py at main · junyuyang7/ChatAgent_RAG · GitHub",
+  "github": {
+    "owner": "junyuyang7",
+    "repo": "ChatAgent_RAG",
+    "apiStatus": "unavailable"
+  }
+}

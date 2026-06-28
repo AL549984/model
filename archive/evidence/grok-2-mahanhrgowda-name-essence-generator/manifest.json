@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-mahanhrgowda-name-essence-generator",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "Name Essence Generator uses Grok-2-1212 for lore and Grok-2 Image for generated scenes",
+  "evidenceFingerprint": "b3362b8833a230ed088b5f6c199282f825623ceb6fa455688faea57bb49a4b45",
+  "capturedAt": "2026-06-27T22:15:07.594Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mahanhrgowda/name-essence-generator/blob/master/render/app.py",
+      "snapshotPath": "archive/evidence/grok-2-mahanhrgowda-name-essence-generator/original-evidence-dbe28e929da0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "name-essence-generator/render/app.py at master · mahanhrgowda/name-essence-generator · GitHub",
+      "bodySha256": "7ad1619b6d5e9e9da7f79d140c1911c90b57290c45dd54ca036b4f39668fa36f",
+      "capturedAt": "2026-06-27T22:15:04.614Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mahanhrgowda/name-essence-generator",
+      "snapshotPath": "archive/evidence/grok-2-mahanhrgowda-name-essence-generator/artifact-1-479ec7b92d89.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mahanhrgowda/name-essence-generator: A Streamlit app that maps English phonemes to chakras, Bhavas, and Rasas, generating lore and images based on a name’s emotive essence using xAI’s Grok 2-1212 and Grok 2 Image Gen APIs. · GitHub",
+      "bodySha256": "0e7b1bd87aa62408dbaf71e5a9d5df355293efd835d85d7bae195a910065c83d",
+      "capturedAt": "2026-06-27T22:15:05.532Z",
+      "error": ""
+    }
+  ]
+}

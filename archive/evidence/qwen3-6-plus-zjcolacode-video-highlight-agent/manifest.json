@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-plus-zjcolacode-video-highlight-agent",
+  "modelId": "qwen3-6-plus",
+  "modelName": "Qwen3.6 Plus",
+  "title": "zjcolacode 用 Qwen3.6 Plus 视觉模型构建视频精华自动剪辑智能体",
+  "evidenceFingerprint": "11b4caf46d5e0c252a1f6490d69cd45405471df509f57c3126e296c29de35122",
+  "capturedAt": "2026-06-27T23:07:53.079Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zjcolacode/video-auto-edit-agent/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-zjcolacode-video-highlight-agent/original-evidence-ac0145c3cb0a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "video-auto-edit-agent/README.md at main · zjcolacode/video-auto-edit-agent · GitHub",
+      "bodySha256": "2caa74dba96eafa6cc717d119138711dd0ae690839b08a2d694b94a23f1c6644",
+      "capturedAt": "2026-06-27T23:07:49.699Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zjcolacode/video-auto-edit-agent",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-zjcolacode-video-highlight-agent/artifact-1-247f89f66c0b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zjcolacode/video-auto-edit-agent: Multi-agent video highlight extractor powered by Aliyun Bailian Coding Plan (qwen3.6-plus, OpenAI-compatible) · GitHub",
+      "bodySha256": "69dff3cc61560673b327f6f16611a5ef7e06682a5101e88602d61c906424094a",
+      "capturedAt": "2026-06-27T23:07:51.589Z",
+      "error": ""
+    }
+  ]
+}

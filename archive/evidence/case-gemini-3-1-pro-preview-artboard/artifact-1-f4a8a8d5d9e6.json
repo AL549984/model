@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:45.530Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Shubhamsaboo/gemini-artboard",
+  "finalUrl": "https://github.com/Shubhamsaboo/gemini-artboard",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3c2908a720d272db1bf8f93a2d9e2704\"",
+  "lastModified": null,
+  "bodyBytes": 264945,
+  "bodySha256": "df131e8483c432aa41f8ceda4a664e0a8665128ca893a280ab33c4e119a3e605",
+  "title": "GitHub - Shubhamsaboo/gemini-artboard: Self-contained creative coding playground for Gemini 3.1 Pro · GitHub",
+  "github": {
+    "owner": "Shubhamsaboo",
+    "repo": "gemini-artboard",
+    "htmlUrl": "https://github.com/Shubhamsaboo/gemini-artboard",
+    "defaultBranch": "main",
+    "defaultBranchSha": "0f771fe18bc9ba5d6385a5e4a5246c871f54b77b",
+    "pushedAt": "2026-02-20T04:54:07Z",
+    "updatedAt": "2026-05-30T06:34:57Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

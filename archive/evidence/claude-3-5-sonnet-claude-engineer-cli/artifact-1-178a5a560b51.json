@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:54.800Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Doriandarko/claude-engineer",
+  "finalUrl": "https://github.com/Doriandarko/claude-engineer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d8e3db0b53e80b4e019cf984d272b1d1\"",
+  "lastModified": null,
+  "bodyBytes": 368134,
+  "bodySha256": "d605993347e2861f051752f3b95222e368772a7df43d60a91aa49b7f50e9bea9",
+  "title": "GitHub - Doriandarko/claude-engineer: Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic&#39;s Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude",
+  "github": {
+    "owner": "Doriandarko",
+    "repo": "claude-engineer",
+    "apiStatus": "unavailable"
+  }
+}

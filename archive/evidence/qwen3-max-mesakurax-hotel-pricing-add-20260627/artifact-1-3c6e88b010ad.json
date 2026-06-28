@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:01.946Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mesakurax/hotel-pricing-add-qwen3-max",
+  "finalUrl": "https://github.com/mesakurax/hotel-pricing-add-qwen3-max",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"900fcadd6818a20764345c5a41f0193e\"",
+  "lastModified": null,
+  "bodyBytes": 276767,
+  "bodySha256": "a66879111cfe2d43800400b95c5fb97dcc842a8592e866653ab4fcd6983ed862",
+  "title": "GitHub - mesakurax/hotel-pricing-add-qwen3-max: Direct Qwen3-Max ADD 3.0 runner for Hotel Pricing System architecture assignment · GitHub",
+  "github": {
+    "owner": "mesakurax",
+    "repo": "hotel-pricing-add-qwen3-max",
+    "apiStatus": "unavailable"
+  }
+}

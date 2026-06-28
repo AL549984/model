@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-deepseekai-qa",
+  "modelId": "deepseek-v2",
+  "modelName": "DeepSeek-V2",
+  "title": "Intelligent long-document QA system powered by DeepSeek-V2",
+  "evidenceFingerprint": "e09bae9e2ecd5aa2f64e526c7502fc7016a215e3f478027258709a53e38a0807",
+  "capturedAt": "2026-06-27T21:08:15.877Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/tambehimanshu/DeepSeekAI-",
+      "snapshotPath": "archive/evidence/deepseek-v2-deepseekai-qa/original-evidence-82f4ed406d9b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tambehimanshu/DeepSeekAI-: Developed an intelligent question-answering system that processes long documents (PDFs, reports, articles) and answers user queries using DeepSeek-V2 and semantic search. · GitHub",
+      "bodySha256": "35679946a91700a5cff30d1c166c216284b1b611bb3d49a7e84d67a54fdcabc9",
+      "capturedAt": "2026-06-27T21:08:14.313Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/tambehimanshu/DeepSeekAI-",
+      "snapshotPath": "archive/evidence/deepseek-v2-deepseekai-qa/artifact-1-82f4ed406d9b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tambehimanshu/DeepSeekAI-: Developed an intelligent question-answering system that processes long documents (PDFs, reports, articles) and answers user queries using DeepSeek-V2 and semantic search. · GitHub",
+      "bodySha256": "dd772d06e892def9e79c46de1dbb7af0c326b9c54809665f23a4c926d041c168",
+      "capturedAt": "2026-06-27T21:08:15.385Z",
+      "error": ""
+    }
+  ]
+}

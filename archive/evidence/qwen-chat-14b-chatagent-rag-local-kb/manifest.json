@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-14b-chatagent-rag-local-kb",
+  "modelId": "qwen-chat-14b",
+  "modelName": "Qwen Chat 14B",
+  "title": "ChatAgent_RAG maps Qwen-14B-Chat into a local RAG knowledge-base WebUI",
+  "evidenceFingerprint": "085e83e9b19ab2327a30f6bdb977a3651ee8694f65230ed3e376ec37d70e92a5",
+  "capturedAt": "2026-06-27T22:52:16.691Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/junyuyang7/ChatAgent_RAG/blob/main/configs/model_config.py",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-chatagent-rag-local-kb/original-evidence-15d42c13d7b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ChatAgent_RAG/configs/model_config.py at main · junyuyang7/ChatAgent_RAG · GitHub",
+      "bodySha256": "be409bfe42e826620fff473777263265063ca9afb925f1f0cd22d3772e1d37a8",
+      "capturedAt": "2026-06-27T22:52:14.659Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/junyuyang7/ChatAgent_RAG",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-chatagent-rag-local-kb/artifact-1-428958f66b0f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - junyuyang7/ChatAgent_RAG: 离线部署大模型，构建一个可以上传本地知识库进行RAG问答且可以自行调用工具的Agent。 · GitHub",
+      "bodySha256": "ab331bea912a23294547b4f3578106b444122744c68c85a96be04c47e6f5da79",
+      "capturedAt": "2026-06-27T22:52:15.656Z",
+      "error": ""
+    }
+  ]
+}

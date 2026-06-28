@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:42.424Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+  "finalUrl": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"14edab4b97a0925c51c2007f77857276\"",
+  "lastModified": null,
+  "bodyBytes": 350423,
+  "bodySha256": "6d98c6887e76738955d216beed1d20860333397439fe3d1c82e007f8ca275a2e",
+  "title": "GitHub - SamuelSchmidgall/AgentLaboratory: Agent Laboratory is an end-to-end autonomous research workflow meant to assist you as the human researcher toward implementing your research ideas · GitHub",
+  "github": {
+    "owner": "SamuelSchmidgall",
+    "repo": "AgentLaboratory",
+    "apiStatus": "unavailable"
+  }
+}

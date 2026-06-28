@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:31.700Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yousefhafed2222-gif/openclaw-agent",
+  "finalUrl": "https://github.com/yousefhafed2222-gif/openclaw-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ee3a4f1bb9b2e22e99d98f4437dfb2be\"",
+  "lastModified": null,
+  "bodyBytes": 240678,
+  "bodySha256": "475da863e40ee148cbf347ee89fb3efd1818fcaaf6d4e9099bce6237168ad53f",
+  "title": "GitHub - yousefhafed2222-gif/openclaw-agent: OpenClaw-style AI Agent connected to Groq Kimi K2-0905 · GitHub",
+  "github": {
+    "owner": "yousefhafed2222-gif",
+    "repo": "openclaw-agent",
+    "apiStatus": "unavailable"
+  }
+}

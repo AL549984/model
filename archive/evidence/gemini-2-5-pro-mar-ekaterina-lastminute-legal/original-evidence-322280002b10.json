@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:09.373Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ekaterina-ya/lastminute_legal/blob/main/README.md",
+  "finalUrl": "https://github.com/ekaterina-ya/lastminute_legal/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ade0679e6e8913021b5567533d71376d\"",
+  "lastModified": null,
+  "bodyBytes": 267309,
+  "bodySha256": "1dee0fd10946c4cfaab8d51ce5545c7c3ba1d4dacc66f1d9b274170dda9ecae1",
+  "title": "lastminute_legal/README.md at main · ekaterina-ya/lastminute_legal · GitHub",
+  "github": {
+    "owner": "ekaterina-ya",
+    "repo": "lastminute_legal",
+    "apiStatus": "unavailable"
+  }
+}

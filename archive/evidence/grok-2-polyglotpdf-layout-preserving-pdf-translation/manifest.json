@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-polyglotpdf-layout-preserving-pdf-translation",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "PolyglotPDF uses Grok 2 as a selectable LLM translation backend for layout-preserving PDF/eBook translation",
+  "evidenceFingerprint": "16f7f10024c8ecf9d9106e826b5a3d77194f5a91c67f424706257442b058813b",
+  "capturedAt": "2026-06-27T22:15:13.175Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CBIhalsen/PolyglotPDF/blob/main/static/setup.js#L315-L322",
+      "snapshotPath": "archive/evidence/grok-2-polyglotpdf-layout-preserving-pdf-translation/original-evidence-74dc1c14ce12.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "PolyglotPDF/static/setup.js at main · CBIhalsen/PolyglotPDF · GitHub",
+      "bodySha256": "07d295647e3476503939765cad4f1d5ab2cb2ce314d4c485b9b97b4900e9ff30",
+      "capturedAt": "2026-06-27T22:15:09.839Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CBIhalsen/PolyglotPDF",
+      "snapshotPath": "archive/evidence/grok-2-polyglotpdf-layout-preserving-pdf-translation/artifact-1-bbc0b9047dd1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CBIhalsen/PolyglotPDF: (eBook，PDFs Translation) A multilingual eBook processing tool supporting all eBook formats. Features online and offline translation while preserving original layouts. Compatible with both scanned and digital ",
+      "bodySha256": "8fe4bf1feeb47ce90ef1adc6baa4e7726934f1197182bd5ef0fc3f7004bde441",
+      "capturedAt": "2026-06-27T22:15:11.262Z",
+      "error": ""
+    }
+  ]
+}

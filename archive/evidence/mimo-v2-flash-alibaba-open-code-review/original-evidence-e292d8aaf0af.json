@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:48.903Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/alibaba/open-code-review/pull/192",
+  "finalUrl": "https://github.com/alibaba/open-code-review/pull/192",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 288389,
+  "bodySha256": "25514aa6b26d83b80c877d052f11449592f4e9073c0e4633197eb71aae16c389",
+  "title": "Remove deprecated MiMo v2 models by guqihao-7 · Pull Request #192 · alibaba/open-code-review · GitHub",
+  "github": {
+    "owner": "alibaba",
+    "repo": "open-code-review",
+    "apiStatus": "unavailable"
+  }
+}

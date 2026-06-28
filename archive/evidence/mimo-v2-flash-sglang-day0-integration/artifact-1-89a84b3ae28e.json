@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:58.155Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sgl-project/sglang/pull/15207",
+  "finalUrl": "https://github.com/sgl-project/sglang/pull/15207",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 760217,
+  "bodySha256": "c1576a5de7a10a822cba166a71c2a58de3b53c8b78234eb4772deaace8259b61",
+  "title": "[Feature] Xiaomi `MiMo-V2-Flash` day0 support by acelyc111 · Pull Request #15207 · sgl-project/sglang · GitHub",
+  "github": {
+    "owner": "sgl-project",
+    "repo": "sglang",
+    "apiStatus": "unavailable"
+  }
+}

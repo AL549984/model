@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v4-pro-case-001",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "Zero Code Studio: AI Code Generation Platform Powered by DeepSeek V4 Pro",
+  "evidenceFingerprint": "4203e3acec205a322b183dc20dfe71bf78946dca7e7c48244a163ae334afd6ca",
+  "capturedAt": "2026-06-27T21:34:43.081Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/LQF-dev/Zero-code",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-001/original-evidence-e9430df899b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LQF-dev/Zero-code: Zero Code Studio 是一个工程化 AI 代码生成平台，基于 Spring Boot、LangChain4j、LangGraph4j，支持工具调用、Workflow 编排、任务计划规划、三层上下文压缩、SSE 过程可视化、定点修改与一键本地部署。 · GitHub",
+      "bodySha256": "aa9fe09456228bafde01c27d988f4ddd7615c3fa4361655b7445f0b7c9b13e6a",
+      "capturedAt": "2026-06-27T21:34:41.013Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/LQF-dev/Zero-code",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-001/artifact-1-e9430df899b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LQF-dev/Zero-code: Zero Code Studio 是一个工程化 AI 代码生成平台，基于 Spring Boot、LangChain4j、LangGraph4j，支持工具调用、Workflow 编排、任务计划规划、三层上下文压缩、SSE 过程可视化、定点修改与一键本地部署。 · GitHub",
+      "bodySha256": "90f96430d359e9eb9c687e190f753e9ab1fb1115b4f69e3d160b364992c84039",
+      "capturedAt": "2026-06-27T21:34:42.436Z",
+      "error": ""
+    }
+  ]
+}

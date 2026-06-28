@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:18.756Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Ericklzam/Voice-bot-challenge",
+  "finalUrl": "https://github.com/Ericklzam/Voice-bot-challenge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0e6c171d4903334af6de6ecd344ea1d1\"",
+  "lastModified": null,
+  "bodyBytes": 261140,
+  "bodySha256": "5ec7d9e2c1c253a60b498c19b859fb9206ec98c662830eee8524eeca6d952114",
+  "title": "GitHub - Ericklzam/Voice-bot-challenge: An automated testing suite designed to call and stress-test the Pivot Point Orthopaedics AI voice agent. It uses a custom Anthropic Claude 3.5 Haiku agent connected via WebSockets to simulate chaotic,",
+  "github": {
+    "owner": "Ericklzam",
+    "repo": "Voice-bot-challenge",
+    "apiStatus": "unavailable"
+  }
+}

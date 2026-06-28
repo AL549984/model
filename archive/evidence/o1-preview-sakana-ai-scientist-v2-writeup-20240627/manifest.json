@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-preview-sakana-ai-scientist-v2-writeup-20240627",
+  "modelId": "o1-preview",
+  "modelName": "o1-preview",
+  "title": "Sakana AI 在 AI Scientist-v2 中使用 o1-preview 生成科研论文 writeup",
+  "evidenceFingerprint": "e92b99f4a64ca8577aed6314e2508919976364be46c8f0735fdd100cf2d10634",
+  "capturedAt": "2026-06-27T21:27:47.138Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v2/main/README.md",
+      "snapshotPath": "archive/evidence/o1-preview-sakana-ai-scientist-v2-writeup-20240627/original-evidence-f79c77820a5e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ed4ae4b9353641dff469679f14cbffd6547f7a6137b9d5b397f3be9a367b4e82",
+      "capturedAt": "2026-06-27T21:27:45.721Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "snapshotPath": "archive/evidence/o1-preview-sakana-ai-scientist-v2-writeup-20240627/artifact-1-b6bf6d853ba3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SakanaAI/AI-Scientist-v2: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search · GitHub",
+      "bodySha256": "5273cbd6627141c8f0d5eb2d37e2a1a73ef25cfbd602dbe382db35d41491c7e0",
+      "capturedAt": "2026-06-27T21:27:46.036Z",
+      "error": ""
+    }
+  ]
+}

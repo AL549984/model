@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:44.528Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Tinghecui/gpt-cc/main/.env.template",
+  "finalUrl": "https://raw.githubusercontent.com/Tinghecui/gpt-cc/main/.env.template",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1682",
+  "etag": "W/\"68aa0692d34f285bf091d263d532c9184c3e64084b94fa89f15267f66a81312c\"",
+  "lastModified": null,
+  "bodyBytes": 3421,
+  "bodySha256": "85407339ebe15769341e3861458d5ed84c5671931bdaa8bbc839d58a94ab40b6",
+  "title": "",
+  "github": null
+}

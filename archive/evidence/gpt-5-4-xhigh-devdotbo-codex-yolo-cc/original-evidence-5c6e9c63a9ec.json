@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:54.238Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/devdotbo/codex-yolo-cc/blob/main/README.md",
+  "finalUrl": "https://github.com/devdotbo/codex-yolo-cc/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"033b03c77126b6ff9f8125fc72c30d16\"",
+  "lastModified": null,
+  "bodyBytes": 352079,
+  "bodySha256": "88f906b0e447c32142001d0ef0f9b4ce638d43d74a952fa9c94101236dcf8f08",
+  "title": "codex-yolo-cc/README.md at main · devdotbo/codex-yolo-cc · GitHub",
+  "github": {
+    "owner": "devdotbo",
+    "repo": "codex-yolo-cc",
+    "apiStatus": "unavailable"
+  }
+}

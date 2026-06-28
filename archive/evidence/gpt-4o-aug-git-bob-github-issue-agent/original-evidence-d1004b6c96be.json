@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:54.904Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/haesleinhuepf/git-bob/blob/main/README.md#installation",
+  "finalUrl": "https://github.com/haesleinhuepf/git-bob/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"285cf6d438ab4bc668cabeda1b1f9070\"",
+  "lastModified": null,
+  "bodyBytes": 432438,
+  "bodySha256": "6a47902eac15e47a1992d479b5d04ac863398ddad4b408f6e0fc9580dc803394",
+  "title": "git-bob/README.md at main · haesleinhuepf/git-bob · GitHub",
+  "github": {
+    "owner": "haesleinhuepf",
+    "repo": "git-bob",
+    "apiStatus": "unavailable"
+  }
+}

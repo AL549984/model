@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:12.572Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/CherryHQ/cherry-studio/pull/16464",
+  "finalUrl": "https://github.com/CherryHQ/cherry-studio/pull/16464",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 278564,
+  "bodySha256": "9a7b8cbc1b02b9518c722feaf46e5a41247b543fdedfec5bf1964cca5dc0e513",
+  "title": "feat(provider-registry): add support for doubao-seed-2-1 and doubao-seed-evolving models by GeorgeDong32 · Pull Request #16464 · CherryHQ/cherry-studio · GitHub",
+  "github": {
+    "owner": "CherryHQ",
+    "repo": "cherry-studio",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen1-5-chat-110b-xinference-4090-replica-1404",
+  "modelId": "qwen1-5-chat-110b",
+  "modelName": "Qwen1.5 Chat 110B",
+  "title": "Xinference user launches replicated Qwen1.5-110B-Chat-GPTQ-Int4 serving on 8×4090 GPUs",
+  "evidenceFingerprint": "bce3006e185d4fdd7fc2e7847f109235cac9c1bfd63145fa553658d55306bb5a",
+  "capturedAt": "2026-06-27T22:59:43.442Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/xorbitsai/inference/issues/1404",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-xinference-4090-replica-1404/original-evidence-420228a43099.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "NCCL Error when replica=2 · Issue #1404 · xorbitsai/inference · GitHub",
+      "bodySha256": "fc6a9c2ef25e9159fcbf5ee9487cf469e6eb0873f0a0e629a11fd87b3fcb8db1",
+      "capturedAt": "2026-06-27T22:59:41.702Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/xorbitsai/inference/issues/1404",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-xinference-4090-replica-1404/artifact-1-420228a43099.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "NCCL Error when replica=2 · Issue #1404 · xorbitsai/inference · GitHub",
+      "bodySha256": "5c5f009d357d160c3267f3f5553260ea6a196afb11bedccf1fbb69648b60bb2e",
+      "capturedAt": "2026-06-27T22:59:42.916Z",
+      "error": ""
+    }
+  ]
+}

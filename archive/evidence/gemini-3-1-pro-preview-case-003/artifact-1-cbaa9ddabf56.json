@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:23.121Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "finalUrl": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f589a667c8d993c25b3a2ff7667a7fa\"",
+  "lastModified": null,
+  "bodyBytes": 1092646,
+  "bodySha256": "d40b10250ac4d7e50ce7fff2e9934824984351bffee986cd54c09539c32dcc9d",
+  "title": "GitHub - wanshuiyin/Auto-claude-code-research-in-sleep: ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lo",
+  "github": {
+    "owner": "wanshuiyin",
+    "repo": "Auto-claude-code-research-in-sleep",
+    "apiStatus": "unavailable"
+  }
+}

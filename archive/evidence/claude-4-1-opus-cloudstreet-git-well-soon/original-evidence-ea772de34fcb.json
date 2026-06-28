@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:30.715Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/cloudstreet-dev/Git-Well-Soon",
+  "finalUrl": "https://github.com/cloudstreet-dev/Git-Well-Soon",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8c0aa122ec92c0d6a53e433b7c716a18\"",
+  "lastModified": null,
+  "bodyBytes": 312815,
+  "bodySha256": "582759b8c3444e85bc26cabfcd1bbe8b017f15a754ab3731b75abadf4976390c",
+  "title": "GitHub - cloudstreet-dev/Git-Well-Soon: A book written by Claude Opus 4.1 on how to work with Git. · GitHub",
+  "github": {
+    "owner": "cloudstreet-dev",
+    "repo": "Git-Well-Soon",
+    "apiStatus": "unavailable"
+  }
+}

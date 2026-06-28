@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:51.357Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/kirillshsh/shimplify/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/kirillshsh/shimplify/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "6275",
+  "etag": "W/\"6326428a32d13df7d897961b34d93665ca7e5b9f1bd6d2f97ad141a59b814f9f\"",
+  "lastModified": null,
+  "bodyBytes": 23527,
+  "bodySha256": "0a832ce482c2da85d22869cde7cdcc5769e4e43f414e712b7e6d3d7cc6966c6f",
+  "title": "",
+  "github": null
+}

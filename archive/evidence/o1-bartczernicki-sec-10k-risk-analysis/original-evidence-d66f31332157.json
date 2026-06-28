@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:33.745Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/blob/master/README.md#risk-analysis-pipeline-details",
+  "finalUrl": "https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d685736dde7831c17071746967dcc45f\"",
+  "lastModified": null,
+  "bodyBytes": 496944,
+  "bodySha256": "9e0ebb0b1fa1ab2581b8d74d2c9a0a1bb31c6fb7c1b119a1b5835a85c0717c34",
+  "title": "RiskAnalysisWithGenerativeAIReasoning/README.md at master · bartczernicki/RiskAnalysisWithGenerativeAIReasoning · GitHub",
+  "github": {
+    "owner": "bartczernicki",
+    "repo": "RiskAnalysisWithGenerativeAIReasoning",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:03.859Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/xescodes/calligrai-App",
+  "finalUrl": "https://github.com/xescodes/calligrai-App",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c248ce05404b7bd3e4e5bc65c7a9c30d\"",
+  "lastModified": null,
+  "bodyBytes": 266353,
+  "bodySha256": "555fb1887ea1caccfdc41a4dd72fc194fe6f661cbefc142ba6ff6d5d2a1dfea2",
+  "title": "GitHub - xescodes/calligrai-App: Challigrai es una aplicación web de escritura asistida por IA, con una interfaz moderna y limpia, que utiliza Qwen 2.5 Max para inspirar la creatividad del usuario mediante generación de texto · GitHub",
+  "github": {
+    "owner": "xescodes",
+    "repo": "calligrai-App",
+    "apiStatus": "unavailable"
+  }
+}

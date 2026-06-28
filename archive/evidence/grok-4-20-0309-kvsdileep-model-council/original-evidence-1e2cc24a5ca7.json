@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:34.177Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kvsdileep/model_council_v2/blob/main/README.md",
+  "finalUrl": "https://github.com/kvsdileep/model_council_v2/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3a518c977aa71990309d6bc1a72cfded\"",
+  "lastModified": null,
+  "bodyBytes": 275164,
+  "bodySha256": "cad6074cefc529e40b9a6cee00536c76e766a8f2b30bc4fa596c52dccc886dae",
+  "title": "model_council_v2/README.md at main · kvsdileep/model_council_v2 · GitHub",
+  "github": {
+    "owner": "kvsdileep",
+    "repo": "model_council_v2",
+    "apiStatus": "unavailable"
+  }
+}

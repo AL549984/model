@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-warden-native-macos-chat",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "Warden native macOS AI client supports xAI Grok Beta for chat",
+  "evidenceFingerprint": "deda09d67f9de36cc90aee92649829c56309517135533fcf7b9fe80ef1b9016e",
+  "capturedAt": "2026-06-27T22:22:05.610Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SidhuK/WardenApp/blob/main/Warden/Configuration/AppConstants.swift",
+      "snapshotPath": "archive/evidence/grok-beta-warden-native-macos-chat/original-evidence-565ac675079c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "WardenApp/Warden/Configuration/AppConstants.swift at main · SidhuK/WardenApp · GitHub",
+      "bodySha256": "7a7129dc52882fa84a8739f4945a888bcc792efa9bc91f1e2315bcb9aec48c2e",
+      "capturedAt": "2026-06-27T22:22:03.392Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SidhuK/WardenApp",
+      "snapshotPath": "archive/evidence/grok-beta-warden-native-macos-chat/artifact-1-fcd29ab11052.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SidhuK/WardenApp: 🛡️ Warden - A Fully Native AI Chat App For macOS · GitHub",
+      "bodySha256": "8beb593bb8e3f619ef3b254b46e24a95af07568d1fef49ccccde18381526dd16",
+      "capturedAt": "2026-06-27T22:22:04.760Z",
+      "error": ""
+    }
+  ]
+}

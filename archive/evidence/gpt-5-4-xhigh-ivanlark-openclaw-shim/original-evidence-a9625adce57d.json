@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:56.288Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/IvanLark/openclaw-gpt-xhigh-shim/blob/main/README.md",
+  "finalUrl": "https://github.com/IvanLark/openclaw-gpt-xhigh-shim/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"07ebd0fc42e3e3301891328262478944\"",
+  "lastModified": null,
+  "bodyBytes": 311858,
+  "bodySha256": "0ca78a6e179edd5ef7c8bda98559c8e6b963a2dbcdec6536b3bc274be8d78d8f",
+  "title": "openclaw-gpt-xhigh-shim/README.md at main · IvanLark/openclaw-gpt-xhigh-shim · GitHub",
+  "github": {
+    "owner": "IvanLark",
+    "repo": "openclaw-gpt-xhigh-shim",
+    "apiStatus": "unavailable"
+  }
+}

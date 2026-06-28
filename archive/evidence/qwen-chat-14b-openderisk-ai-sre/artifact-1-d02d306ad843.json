@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:20.021Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/derisk-ai/OpenDerisk",
+  "finalUrl": "https://github.com/derisk-ai/OpenDerisk",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"803aab2fa2fe069974faa260a77d6c5a\"",
+  "lastModified": null,
+  "bodyBytes": 406105,
+  "bodySha256": "2e6833830c0b3feac9516e0113b212e77a8c2d5ed1b40ab2bd776adac463e51e",
+  "title": "GitHub - derisk-ai/OpenDerisk: AI-Native Risk Intelligence Systems, OpenDeRisk——Your application system risk intelligent manager provides 7* 24-hour comprehensive and in-depth protection. · GitHub",
+  "github": {
+    "owner": "derisk-ai",
+    "repo": "OpenDerisk",
+    "apiStatus": "unavailable"
+  }
+}

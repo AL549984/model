@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:45:00.617Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/compnew2006/MetaAI-Free-Hermes-Agent",
+  "finalUrl": "https://github.com/compnew2006/MetaAI-Free-Hermes-Agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"81d8e91bc3e4172f869c1d3ff6b5f562\"",
+  "lastModified": null,
+  "bodyBytes": 432293,
+  "bodySha256": "0473e1e78d3c021050a60955be5994d01c466d3e7cbe414f42285e610c46923e",
+  "title": "GitHub - compnew2006/MetaAI-Free-Hermes-Agent: 🚀 Run Meta AI FREE with Hermes Agent — No API Keys, No Limits. Muse Spark LLM from Telegram, WhatsApp &amp; Web. · GitHub",
+  "github": {
+    "owner": "compnew2006",
+    "repo": "MetaAI-Free-Hermes-Agent",
+    "apiStatus": "unavailable"
+  }
+}

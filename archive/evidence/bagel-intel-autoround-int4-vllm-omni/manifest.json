@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "bagel-intel-autoround-int4-vllm-omni",
+  "modelId": "bagel",
+  "modelName": "BAGEL",
+  "title": "Intel 用 AutoRound 生成 BAGEL-7B-MoT int4 量化模型并提供 vLLM-Omni 推理示例",
+  "evidenceFingerprint": "1b38d37c2d982b79d1b4668f328e5f796318a09c220748fed3c2b1a574f37f30",
+  "capturedAt": "2026-06-27T23:25:19.468Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/Intel/BAGEL-7B-MoT-int4-AutoRound/raw/main/README.md",
+      "snapshotPath": "archive/evidence/bagel-intel-autoround-int4-vllm-omni/original-evidence-d48d0d47b011.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "78ab5921e5044488b42b3dff9bdb5837ea5d8274fc8b701d0f3b4e0bc083ef0e",
+      "capturedAt": "2026-06-27T23:25:18.881Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/Intel/BAGEL-7B-MoT-int4-AutoRound",
+      "snapshotPath": "archive/evidence/bagel-intel-autoround-int4-vllm-omni/artifact-1-946202f755e1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Intel/BAGEL-7B-MoT-int4-AutoRound · Hugging Face",
+      "bodySha256": "5ac693d9fd36b093667baf4a113095945dea9a30025a334e85a3d4096ae8a52c",
+      "capturedAt": "2026-06-27T23:25:19.122Z",
+      "error": ""
+    }
+  ]
+}

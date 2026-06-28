@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-mocehu-image2form-llm",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "image2form_llm offers Seed1.5-VL/Doubao Thinking Vision Pro as a predefined model for converting images into forms",
+  "evidenceFingerprint": "7fc3b7a885e1256d17f7cdf53b7643a2e75ea2b0963c72b8c2060530516931b9",
+  "capturedAt": "2026-06-27T23:23:03.280Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mocehu/image2form_llm/blob/master/src/stores/modelStore.ts",
+      "snapshotPath": "archive/evidence/seed1-5-vl-mocehu-image2form-llm/original-evidence-8542b0e16c72.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "image2form_llm/src/stores/modelStore.ts at master · mocehu/image2form_llm · GitHub",
+      "bodySha256": "23265f5e38992d9558de53ea7c07243a3aff19505abd18ddc9360ff7ca9d093c",
+      "capturedAt": "2026-06-27T23:22:59.808Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mocehu/image2form_llm",
+      "snapshotPath": "archive/evidence/seed1-5-vl-mocehu-image2form-llm/artifact-1-16fd43216fa3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mocehu/image2form_llm: 通过多模态大模型将图片转为表单 · GitHub",
+      "bodySha256": "ba045ffe5c3417771fe40b4692b6fcb67a47bf94a2725e26f4e778f81de802f5",
+      "capturedAt": "2026-06-27T23:23:02.248Z",
+      "error": ""
+    }
+  ]
+}

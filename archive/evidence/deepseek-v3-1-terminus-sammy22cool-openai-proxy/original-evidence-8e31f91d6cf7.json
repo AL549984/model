@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:12.389Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/sammy22cool/deepseek-terminus-proxy",
+  "finalUrl": "https://github.com/sammy22cool/deepseek-terminus-proxy",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e8328fcdadd082083b8391a3d4e003aa\"",
+  "lastModified": null,
+  "bodyBytes": 237318,
+  "bodySha256": "6fabcefd6883ebb5b55574a48d3a26aac0db205b734cef43fea3240655b0ef67",
+  "title": "GitHub - sammy22cool/deepseek-terminus-proxy: OpenAI compatible proxy for DeepSeek V3.1 Terminus · GitHub",
+  "github": {
+    "owner": "sammy22cool",
+    "repo": "deepseek-terminus-proxy",
+    "apiStatus": "unavailable"
+  }
+}

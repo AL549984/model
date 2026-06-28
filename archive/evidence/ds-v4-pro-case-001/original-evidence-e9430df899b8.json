@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:41.013Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/LQF-dev/Zero-code",
+  "finalUrl": "https://github.com/LQF-dev/Zero-code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dc3c73ad6d08c5b2132b9e2df898f041\"",
+  "lastModified": null,
+  "bodyBytes": 495238,
+  "bodySha256": "aa9fe09456228bafde01c27d988f4ddd7615c3fa4361655b7445f0b7c9b13e6a",
+  "title": "GitHub - LQF-dev/Zero-code: Zero Code Studio 是一个工程化 AI 代码生成平台，基于 Spring Boot、LangChain4j、LangGraph4j，支持工具调用、Workflow 编排、任务计划规划、三层上下文压缩、SSE 过程可视化、定点修改与一键本地部署。 · GitHub",
+  "github": {
+    "owner": "LQF-dev",
+    "repo": "Zero-code",
+    "apiStatus": "unavailable"
+  }
+}

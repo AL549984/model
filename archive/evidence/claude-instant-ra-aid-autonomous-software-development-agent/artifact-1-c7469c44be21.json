@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:01.024Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ai-christianson/RA.Aid",
+  "finalUrl": "https://github.com/ai-christianson/RA.Aid",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a0d9aa81a078436108c147e60457e439\"",
+  "lastModified": null,
+  "bodyBytes": 475589,
+  "bodySha256": "c299daf1478336ebc3ac9470cb9d0807330bc3a094745558507a0a9d8e88cbef",
+  "title": "GitHub - ai-christianson/RA.Aid: Develop software autonomously. · GitHub",
+  "github": {
+    "owner": "ai-christianson",
+    "repo": "RA.Aid",
+    "apiStatus": "unavailable"
+  }
+}

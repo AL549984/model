@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:48.131Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/nishit-2611/video-captioning-pipeline",
+  "finalUrl": "https://github.com/nishit-2611/video-captioning-pipeline",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1f10acebbc84670d646ffed011f911ac\"",
+  "lastModified": null,
+  "bodyBytes": 281828,
+  "bodySha256": "c8b40d73e15c2b612b0a6c96791d1abb74170c876014e47e179e77f509fd4fcb",
+  "title": "GitHub - nishit-2611/video-captioning-pipeline: Batch video captioning from Google Drive links using Gemini 3.1 Pro Preview. Streamlit UI with configurable system prompts and hyperparameters. · GitHub",
+  "github": {
+    "owner": "nishit-2611",
+    "repo": "video-captioning-pipeline",
+    "htmlUrl": "https://github.com/nishit-2611/video-captioning-pipeline",
+    "defaultBranch": "main",
+    "defaultBranchSha": "71af6547f01a68f7463d77cb52991b21de0d7420",
+    "pushedAt": "2026-06-18T16:32:06Z",
+    "updatedAt": "2026-06-18T16:32:13Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

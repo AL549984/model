@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-liam-frost-autoapply-job-agent",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "AutoApply exposes Qwen3 Max for local-first job discovery, fit scoring, and application-material generation",
+  "evidenceFingerprint": "75261cfd091cf9dea204eb6efc796dfb6afdfd8ca7ccc5e34d787310982596ae",
+  "capturedAt": "2026-06-27T23:08:16.040Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Liam-Frost/AutoApply/blob/47d9e8b04d8d213bda6a9422b08edf3a75279e5a/src/providers/qwen.py",
+      "snapshotPath": "archive/evidence/qwen3-max-liam-frost-autoapply-job-agent/original-evidence-8fec6cd96c18.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AutoApply/src/providers/qwen.py at 47d9e8b04d8d213bda6a9422b08edf3a75279e5a · Liam-Frost/AutoApply · GitHub",
+      "bodySha256": "4860c842dd5e9f72134d456ac1a04041659e13215c323bff6b2dec6761240549",
+      "capturedAt": "2026-06-27T23:08:14.089Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Liam-Frost/AutoApply",
+      "snapshotPath": "archive/evidence/qwen3-max-liam-frost-autoapply-job-agent/artifact-1-dd1b41f9e693.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Liam-Frost/AutoApply: A personal job application AI Agent for job discovery, fit scoring, tailored materials, form filling, human-gated submission and application tracking. · GitHub",
+      "bodySha256": "ebd12d498c6fcb82d48de415e3e3dd0ffa17350664753d3585a16f2fae0674c5",
+      "capturedAt": "2026-06-27T23:08:15.092Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:17.461Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/NagaYu/maverick-ui-doctor",
+  "finalUrl": "https://github.com/NagaYu/maverick-ui-doctor",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"65fd4af4e10cb99820335f4f413563b7\"",
+  "lastModified": null,
+  "bodyBytes": 385648,
+  "bodySha256": "436c0794d00eb818eb76f3b764f46e76b217a557a305d6747c6f5a16df7ab865",
+  "title": "GitHub - NagaYu/maverick-ui-doctor: Visual UI regression agent for React: renders components with Playwright and uses Llama 4 Maverick (multimodal) to find visual defects and propose a unified-diff fix. · GitHub",
+  "github": {
+    "owner": "NagaYu",
+    "repo": "maverick-ui-doctor",
+    "apiStatus": "unavailable"
+  }
+}

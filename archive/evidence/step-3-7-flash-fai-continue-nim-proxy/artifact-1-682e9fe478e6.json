@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:23.578Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/FAI-Solutions/Continue-NIM-Proxy",
+  "finalUrl": "https://github.com/FAI-Solutions/Continue-NIM-Proxy",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dc85f62ab5c91a636fd1313b45278dfb\"",
+  "lastModified": null,
+  "bodyBytes": 273975,
+  "bodySha256": "5c48387d63e249bd0c9e884f17a522df3d1b144f07dadb19bd5cc2a09f264ec9",
+  "title": "GitHub - FAI-Solutions/Continue-NIM-Proxy: Fixes Step 3.7 Flash, Nemotron 3 Ultra and Kimi k2.6 (NIM Endpoint) silently returning empty responses in Continue. · GitHub",
+  "github": {
+    "owner": "FAI-Solutions",
+    "repo": "Continue-NIM-Proxy",
+    "apiStatus": "unavailable"
+  }
+}

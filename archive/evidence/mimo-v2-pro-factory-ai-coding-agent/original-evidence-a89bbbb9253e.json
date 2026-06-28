@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:38:05.309Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Factory-AI/factory/issues/885",
+  "finalUrl": "https://github.com/Factory-AI/factory/issues/885",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 251150,
+  "bodySha256": "8830e807b92f9747b8d0e7be9753c124db55d75da5e6c8dc6a357515f64150c8",
+  "title": "Xiaomi Mimo thinking content exposed in response output · Issue #885 · Factory-AI/factory · GitHub",
+  "github": {
+    "owner": "Factory-AI",
+    "repo": "factory",
+    "apiStatus": "unavailable"
+  }
+}

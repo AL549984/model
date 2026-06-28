@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:09.651Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/firecrawl/grok-4-fire-enrich",
+  "finalUrl": "https://github.com/firecrawl/grok-4-fire-enrich",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"22b25cbd6d211e85d506019b1d29f08e\"",
+  "lastModified": null,
+  "bodyBytes": 405739,
+  "bodySha256": "8b9e3e6839b25f612f7d4c516066d61f6066a055f2c27b2f9be02f9a0a755c15",
+  "title": "GitHub - firecrawl/grok-4-fire-enrich · GitHub",
+  "github": {
+    "owner": "firecrawl",
+    "repo": "grok-4-fire-enrich",
+    "apiStatus": "unavailable"
+  }
+}

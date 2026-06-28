@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:43.545Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/HarleyCoops/KimiK2Manim",
+  "finalUrl": "https://github.com/HarleyCoops/KimiK2Manim",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"988089fc31b3876129d6a9bbafb8a1fd\"",
+  "lastModified": null,
+  "bodyBytes": 711221,
+  "bodySha256": "b78a7198fddf61deb398ab534b4b5f174510cd7a6648e8fdd0d5af2be232c7da",
+  "title": "GitHub - HarleyCoops/KimiK2Manim: Create epic math and physics explainer animations with Kimi K2 Thinking. · GitHub",
+  "github": {
+    "owner": "HarleyCoops",
+    "repo": "KimiK2Manim",
+    "apiStatus": "unavailable"
+  }
+}

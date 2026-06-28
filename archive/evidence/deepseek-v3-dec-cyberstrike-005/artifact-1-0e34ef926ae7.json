@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:27.356Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CyberStrikeus/CyberStrike",
+  "finalUrl": "https://github.com/CyberStrikeus/CyberStrike",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"eaf2a6cf214a7068d193b1966361257a\"",
+  "lastModified": null,
+  "bodyBytes": 507093,
+  "bodySha256": "e2513caddf861ab3732a99b9df45112ee66a06420d8123c72b9e10fc6956fb5c",
+  "title": "GitHub - CyberStrikeus/CyberStrike: AI-powered offensive security agent with 7,300+ actionable security skills. Autonomous pentesting powered by MITRE ATT&amp;CK (2,000+ Atomic tests), CIS Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loa",
+  "github": {
+    "owner": "CyberStrikeus",
+    "repo": "CyberStrike",
+    "apiStatus": "unavailable"
+  }
+}

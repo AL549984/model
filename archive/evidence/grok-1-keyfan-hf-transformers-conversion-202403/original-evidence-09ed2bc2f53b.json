@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:22.512Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/keyfan/grok-1-hf/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/keyfan/grok-1-hf/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "901",
+  "etag": "\"c8b4faf288dac3d5f577332536e9863b95d31340\"",
+  "lastModified": null,
+  "bodyBytes": 901,
+  "bodySha256": "1302a1cca5efd400f0c0a161d14db18da1245102d42a329e2b06234d462fab21",
+  "title": "",
+  "github": null
+}

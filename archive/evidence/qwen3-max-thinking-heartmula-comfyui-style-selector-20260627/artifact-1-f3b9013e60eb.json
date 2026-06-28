@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:21.722Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/user-attachments/files/24904739/__init__.py",
+  "finalUrl": "https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/1137090883/24904739?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260627%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260627T231522Z&X-Amz-Expires=300&X-Amz-Signature=36fb9eda383bfd4a6f76db8bbe6e702d3fd83dd1b9ec1e06b9c2b8309b07264a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3Bfilename%3D__init__.py&response-content-type=text%2Fx-python",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/x-python",
+  "contentLength": "15338",
+  "etag": "\"0x8DE5E49F98F4421\"",
+  "lastModified": "Wed, 28 Jan 2026 08:48:14 GMT",
+  "bodyBytes": 15338,
+  "bodySha256": "b5490e373d087febbd4e3e2d4a427674cb1c84690c3ac34eec6eecd0914453a4",
+  "title": "",
+  "github": {
+    "owner": "user-attachments",
+    "repo": "files",
+    "apiStatus": "unavailable"
+  }
+}

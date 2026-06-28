@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-0-godmode-multi-model-chat",
+  "modelId": "claude-2-0",
+  "modelName": "Claude 2.0",
+  "title": "GodMode AI chat browser integrates Claude 2 for fast multi-model access",
+  "evidenceFingerprint": "ffd44e389047aa3fd13dbfbc95a332ff94f2e3c8fa9283046f165caa09739bc3",
+  "capturedAt": "2026-06-27T20:16:30.972Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/smol-ai/GodMode/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-2-0-godmode-multi-model-chat/original-evidence-b42059feb003.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GodMode/README.md at main · smol-ai/GodMode · GitHub",
+      "bodySha256": "f954d9258e17ce9f926bab05ea866f6655a16ff67d87789d25cfcbf59c40badb",
+      "capturedAt": "2026-06-27T20:16:27.752Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/smol-ai/GodMode",
+      "snapshotPath": "archive/evidence/claude-2-0-godmode-multi-model-chat/artifact-1-4b138f7e24e5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - smol-ai/GodMode: AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day. · GitHub",
+      "bodySha256": "eee021be7d04534f8ae93a5d2aa3a2e1a286aeeda85bac9ef225865788910465",
+      "capturedAt": "2026-06-27T20:16:29.554Z",
+      "error": ""
+    }
+  ]
+}

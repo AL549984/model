@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:11.079Z",
+  "kind": "artifact-1",
+  "url": "https://lailoo.github.io/Hello-LLM-FineTuning/",
+  "finalUrl": "https://lailoo.github.io/Hello-LLM-FineTuning/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "2574",
+  "etag": "W/\"6956f148-1df8\"",
+  "lastModified": "Thu, 01 Jan 2026 22:12:24 GMT",
+  "bodyBytes": 7672,
+  "bodySha256": "23f82de5ced2f850cb38bb648e4b66542f0e59c3ae13d6dc9e7518438cd967ec",
+  "title": "Hello LLM Fine-Tuning | 大模型微调技术全栈指南",
+  "github": null
+}

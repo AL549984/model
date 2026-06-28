@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:33.771Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/talkingwallace/ChatGPT-Paper-Reader/blob/main/README.md#L7-L20",
+  "finalUrl": "https://github.com/talkingwallace/ChatGPT-Paper-Reader/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bb26469e7efcab028ec06639fa805702\"",
+  "lastModified": null,
+  "bodyBytes": 286891,
+  "bodySha256": "72a0d19de90e15dca94d5f526c4ff1694db1d79c477640a1ce8590168c12ee5f",
+  "title": "ChatGPT-Paper-Reader/README.md at main · talkingwallace/ChatGPT-Paper-Reader · GitHub",
+  "github": {
+    "owner": "talkingwallace",
+    "repo": "ChatGPT-Paper-Reader",
+    "apiStatus": "unavailable"
+  }
+}

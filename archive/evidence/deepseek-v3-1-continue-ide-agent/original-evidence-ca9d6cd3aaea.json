@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:50.153Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/continuedev/continue/issues/11661",
+  "finalUrl": "https://github.com/continuedev/continue/issues/11661",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 250989,
+  "bodySha256": "c55a1a1dcf7e4b14463e2f2e8e597a9c42ef74812a65c71c059afbd6568f35c7",
+  "title": "Error: deepseek-v3.1:671b-cloud - Unknown error · Issue #11661 · continuedev/continue · GitHub",
+  "github": {
+    "owner": "continuedev",
+    "repo": "continue",
+    "apiStatus": "unavailable"
+  }
+}

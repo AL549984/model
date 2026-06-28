@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:11.949Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Drenches/gov-doc-formatter/blob/dc83bb664c4def044fb078aaf82303d51f937e70/app/config.py",
+  "finalUrl": "https://github.com/Drenches/gov-doc-formatter/blob/dc83bb664c4def044fb078aaf82303d51f937e70/app/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"23bd38cee34dd114288e5db6c4d9c158\"",
+  "lastModified": null,
+  "bodyBytes": 333390,
+  "bodySha256": "d1be21a37e580037836bebf84512a6895ce3f23bd813d18cda5aaeab910be994",
+  "title": "gov-doc-formatter/app/config.py at dc83bb664c4def044fb078aaf82303d51f937e70 · Drenches/gov-doc-formatter · GitHub",
+  "github": {
+    "owner": "Drenches",
+    "repo": "gov-doc-formatter",
+    "apiStatus": "unavailable"
+  }
+}

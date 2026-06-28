@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:07.595Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/EswarDivi/NarrateIt/blob/main/Readme.md#L1-L3",
+  "finalUrl": "https://github.com/EswarDivi/NarrateIt/blob/main/Readme.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f20f84f1a06448c066ab5bde11669793\"",
+  "lastModified": null,
+  "bodyBytes": 230709,
+  "bodySha256": "60f7171219ddedaf5b32847d29f256f1944a51cfa390397c11676bd295b8a060",
+  "title": "NarrateIt/Readme.md at main · EswarDivi/NarrateIt · GitHub",
+  "github": {
+    "owner": "EswarDivi",
+    "repo": "NarrateIt",
+    "apiStatus": "unavailable"
+  }
+}

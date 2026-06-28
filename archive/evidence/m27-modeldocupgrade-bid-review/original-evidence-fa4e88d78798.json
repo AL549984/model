@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:32.786Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/xiaoyza/ModelDocUpgrade",
+  "finalUrl": "https://github.com/xiaoyza/ModelDocUpgrade",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dbc5c6b733351b737ee03b1d04bb9283\"",
+  "lastModified": null,
+  "bodyBytes": 292648,
+  "bodySha256": "c5f3d1753afff9d3440fd17e3111aaec5a4d85b49f390f6b659bf23c909a1127",
+  "title": "GitHub - xiaoyza/ModelDocUpgrade: Word规则审查器 - 基于MiniMax-M2.7的智能文档审查工具，支持规则文档抽取+响应文档逐条审查 · GitHub",
+  "github": {
+    "owner": "xiaoyza",
+    "repo": "ModelDocUpgrade",
+    "apiStatus": "unavailable"
+  }
+}

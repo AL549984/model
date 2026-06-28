@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:30.410Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard/pull/339",
+  "finalUrl": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard/pull/339",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 420407,
+  "bodySha256": "077e0981ad9bc5e8801547050bf523ece6ebe51e91f06e28aa13d11a94abb846",
+  "title": "Add GPT-5.1 option with reasoning effort in Creative Analysis chat by elmorshedy-del · Pull Request #339 · elmorshedy-del/Virona-ShawQ-Dashboard · GitHub",
+  "github": {
+    "owner": "elmorshedy-del",
+    "repo": "Virona-ShawQ-Dashboard",
+    "htmlUrl": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard",
+    "defaultBranch": "main",
+    "defaultBranchSha": "c46693d67aa60cb1b353eca71b1ea266833073dd",
+    "pushedAt": "2026-05-05T06:14:53Z",
+    "updatedAt": "2026-04-25T14:59:00Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

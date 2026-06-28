@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4o-aug-ai-researcher-autonomous-scientific-discovery",
+  "modelId": "gpt-4o-aug",
+  "modelName": "GPT-4o (Aug)",
+  "title": "AI-Researcher includes GPT-4o 2024-08-06 as the completion model for autonomous scientific research workflows",
+  "evidenceFingerprint": "63d338fc143d3747b366139bb835847664365c8332dc63443debe50c1efdb6d0",
+  "capturedAt": "2026-06-27T22:00:54.904Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/HKUDS/AI-Researcher/blob/main/research_agent/constant.py#L39",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-ai-researcher-autonomous-scientific-discovery/original-evidence-a38ff158300a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AI-Researcher/research_agent/constant.py at main · HKUDS/AI-Researcher · GitHub",
+      "bodySha256": "4fa46d091ad0923ee6b035f5bc2f04ae84fb8b76de8edfe5e79c4b358e78564e",
+      "capturedAt": "2026-06-27T22:00:52.808Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://autoresearcher.github.io/",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-ai-researcher-autonomous-scientific-discovery/artifact-1-1bd6bc1afabd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AI-Researcher",
+      "bodySha256": "4e6fbdc92a75b6a2b25d3ffa2fea59458c30d4559b4698cf8183a8dbbbb79259",
+      "capturedAt": "2026-06-27T22:00:54.040Z",
+      "error": ""
+    }
+  ]
+}

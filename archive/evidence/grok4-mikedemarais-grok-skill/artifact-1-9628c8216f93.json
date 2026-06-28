@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:33.519Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mikedemarais/grok-skill",
+  "finalUrl": "https://github.com/mikedemarais/grok-skill",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"beb8545de82c50af003a35fd369fd36d\"",
+  "lastModified": null,
+  "bodyBytes": 339775,
+  "bodySha256": "7c9bdf08180992ba5090a11781c3cbb73039cde1d371f0291ff1724dbed4aa97",
+  "title": "GitHub - mikedemarais/grok-skill: Claude Code Skill that routes Twitter/X prompts to Grok-4 Live Search. · GitHub",
+  "github": {
+    "owner": "mikedemarais",
+    "repo": "grok-skill",
+    "apiStatus": "unavailable"
+  }
+}

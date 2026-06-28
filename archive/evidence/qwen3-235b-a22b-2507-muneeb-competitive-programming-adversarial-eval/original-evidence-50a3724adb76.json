@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:06.832Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Muneeb007j/competitive-programming-problem/blob/main/qwen/conversations.md",
+  "finalUrl": "https://github.com/Muneeb007j/competitive-programming-problem/blob/main/qwen/conversations.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"35aa1fdeab6422525ca4feddfc208286\"",
+  "lastModified": null,
+  "bodyBytes": 250122,
+  "bodySha256": "b509ef4a3a5b0ec1a20900224d5741d8c1cb10ab571000a1a29102b9e19752d2",
+  "title": "competitive-programming-problem/qwen/conversations.md at main · Muneeb007j/competitive-programming-problem · GitHub",
+  "github": {
+    "owner": "Muneeb007j",
+    "repo": "competitive-programming-problem",
+    "apiStatus": "unavailable"
+  }
+}

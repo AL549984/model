@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:20.926Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/bigscience-workshop/petals",
+  "finalUrl": "https://github.com/bigscience-workshop/petals",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8cd94edbb3e94c162097d9bd6fd38084\"",
+  "lastModified": null,
+  "bodyBytes": 324043,
+  "bodySha256": "7ff84e36d1accdf07c3dc1209a2ec87c41ea3a9bad5b7b5158ff8419d62ff8e3",
+  "title": "GitHub - bigscience-workshop/petals: 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading · GitHub",
+  "github": {
+    "owner": "bigscience-workshop",
+    "repo": "petals",
+    "apiStatus": "unavailable"
+  }
+}

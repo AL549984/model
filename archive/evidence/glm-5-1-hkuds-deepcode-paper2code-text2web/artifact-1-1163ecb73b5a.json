@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:44.113Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/HKUDS/DeepCode",
+  "finalUrl": "https://github.com/HKUDS/DeepCode",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c7348002c473bd601bd06a2d89efefd4\"",
+  "lastModified": null,
+  "bodyBytes": 684289,
+  "bodySha256": "2d0367c0abd3975160d3a88a61654d83826d1dc8c939a9bee10de99d70a57ea2",
+  "title": "GitHub - HKUDS/DeepCode: &quot;DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)&quot; · GitHub",
+  "github": {
+    "owner": "HKUDS",
+    "repo": "DeepCode",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:45.577Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/asimniazi63/due-diligence-deepagents",
+  "finalUrl": "https://github.com/asimniazi63/due-diligence-deepagents",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"68fbe2a1b2c7d82081360298abd8352a\"",
+  "lastModified": null,
+  "bodyBytes": 360397,
+  "bodySha256": "d723d0b138b20267b96fe9b5d57b00affe75eb91b9d27ceaee46ad3061dd7809",
+  "title": "GitHub - asimniazi63/due-diligence-deepagents: A production-ready autonomous AI system for Enhanced Due Diligence (EDD) investigations using graph-based workflow orchestration with LangGraph and multi-model AI architecture (Claude Sonnet 4.",
+  "github": {
+    "owner": "asimniazi63",
+    "repo": "due-diligence-deepagents",
+    "apiStatus": "unavailable"
+  }
+}

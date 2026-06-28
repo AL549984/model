@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-qihaozh-startup-advisor-20260627",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "qihaozh 用 Qwen3-Max 构建多智能体创业商业计划生成器",
+  "evidenceFingerprint": "4558833133a36ae6aa733d78308a4715ee90c9f2751ab1dd649146249a57feb7",
+  "capturedAt": "2026-06-27T23:15:04.931Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/qihaozh/StartUp_Advisor/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-max-qihaozh-startup-advisor-20260627/original-evidence-347047d33c42.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "StartUp_Advisor/README.md at main · qihaozh/StartUp_Advisor · GitHub",
+      "bodySha256": "fab526fabc0c1c84acea79fbe60957520f313031c7f1f7fc172e5044d2c816bc",
+      "capturedAt": "2026-06-27T23:15:02.844Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/qihaozh/StartUp_Advisor",
+      "snapshotPath": "archive/evidence/qwen3-max-qihaozh-startup-advisor-20260627/artifact-1-64c02bdd7b45.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - qihaozh/StartUp_Advisor: A sophisticated multi-agent system that uses Qwen3-Max to generate comprehensive business plans through collaborative AI advisors. · GitHub",
+      "bodySha256": "9bd292454ff7fdceb39cf9425ab1ec493eb39c99b73ca605cd3aa23e09077367",
+      "capturedAt": "2026-06-27T23:15:03.888Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-5-fakerybakery-openbridge",
+  "modelId": "glm-4-5",
+  "modelName": "GLM-4.5",
+  "title": "OpenBridge 让 GLM-4.5 接入 Claude Code 的 Anthropic 兼容工具链",
+  "evidenceFingerprint": "821b77d31c3926895d9f84be6ebd6b2d59560e49b51bff289932b973b7052922",
+  "capturedAt": "2026-06-27T21:14:32.468Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/fakerybakery/openbridge/HEAD/README.md",
+      "snapshotPath": "archive/evidence/glm-4-5-fakerybakery-openbridge/original-evidence-a1a79dfe8a90.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "adc21ea8d39c1e3b77663e4a9cb6e640493990da53759e10d95ad2bae85fbd9f",
+      "capturedAt": "2026-06-27T21:14:30.892Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/fakerybakery/openbridge",
+      "snapshotPath": "archive/evidence/glm-4-5-fakerybakery-openbridge/artifact-1-ae72a5b92db8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - fakerybakery/openbridge: Use Claude Code with any LLM provider - GLM-4.5, Kimi-K2, Qwen3-Coder, DeepSeek, etc. · GitHub",
+      "bodySha256": "9ab3003620ad3039ec5e93e152484766108de848d6e2220a94096c7338872235",
+      "capturedAt": "2026-06-27T21:14:31.214Z",
+      "error": ""
+    }
+  ]
+}

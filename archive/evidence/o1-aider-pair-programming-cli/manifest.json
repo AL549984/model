@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-aider-pair-programming-cli",
+  "modelId": "o1",
+  "modelName": "o1",
+  "title": "Aider supports OpenAI o1 for repository-aware pair programming",
+  "evidenceFingerprint": "e75b9b967246a78c77922a1f6804c1fd5e69b9a791d4b037061f4018a208cd5a",
+  "capturedAt": "2026-06-27T22:51:33.744Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Aider-AI/aider/blob/main/README.md#features",
+      "snapshotPath": "archive/evidence/o1-aider-pair-programming-cli/original-evidence-3d44fc8aefe1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "aider/README.md at main · Aider-AI/aider · GitHub",
+      "bodySha256": "5503ed7a05b87d4b526d09ebd3ec705b04c4639901e26c991f405cd61c161cfd",
+      "capturedAt": "2026-06-27T22:51:31.938Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Aider-AI/aider",
+      "snapshotPath": "archive/evidence/o1-aider-pair-programming-cli/artifact-1-27b0817e8f72.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Aider-AI/aider: aider is AI pair programming in your terminal · GitHub",
+      "bodySha256": "6ae770e4f6d5faf2be108870a55b282e35a99a25dab80c3ccc48c74d76a7e1c9",
+      "capturedAt": "2026-06-27T22:51:32.916Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-2-upthink-image-alt-text",
+  "modelId": "solar-pro-2",
+  "modelName": "Solar Pro 2",
+  "title": "UpThink uses Solar Pro 2 to generate Korean alt text for Obsidian note images",
+  "evidenceFingerprint": "36b8496bd84cac63f9891ba51ec089e39c1fdeabb75c9ec8ec774e07f3e18837",
+  "capturedAt": "2026-06-27T23:24:36.131Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink#1%EF%B8%8F%E2%83%A3-image-alt-text-generation",
+      "snapshotPath": "archive/evidence/solar-pro-2-upthink-image-alt-text/original-evidence-ed2dbf17a70f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - geminii01/product-usecase-knowledge-management-upthink: [Upstage AI Ambassador] 개인 지식 관리 with Upstage Solar pro 2 · GitHub",
+      "bodySha256": "c68ad5f647c7df0e5fa44611a77c68e4a3fe20b307a0021013399e471ecfd7d0",
+      "capturedAt": "2026-06-27T23:24:33.950Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink/blob/main/backend/image_ocr/alt_text_generator.py",
+      "snapshotPath": "archive/evidence/solar-pro-2-upthink-image-alt-text/artifact-1-a6d1864a0e4a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "product-usecase-knowledge-management-upthink/backend/image_ocr/alt_text_generator.py at main · geminii01/product-usecase-knowledge-management-upthink · GitHub",
+      "bodySha256": "15a94dd600f826c41c216121cc250fcbf227ad1ce2f90c1456adbbd5dd2b2b7f",
+      "capturedAt": "2026-06-27T23:24:35.061Z",
+      "error": ""
+    }
+  ]
+}

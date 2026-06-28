@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-thinking-ai-co-id-chathermes",
+  "modelId": "kimi-k2-thinking",
+  "modelName": "Kimi K2 Thinking",
+  "title": "ai-co-id built the ChatHermes autonomous-agent SaaS on Hermes Agent and Kimi K2 Thinking",
+  "evidenceFingerprint": "911c9773ace7ce83cbdca3d71f1be5b316c21546da72ef362e7f128c1d7cc6fd",
+  "capturedAt": "2026-06-27T22:29:40.063Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ai-co-id/chathermes",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-ai-co-id-chathermes/original-evidence-bab0f230d3e5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ai-co-id/chathermes: Hermes Agent SaaS — the most complete open-source implementation of Nous Research&#39;s hermes-agent runtime. Multi-tenant, with shared and private Hermes Agent provisioning, 14 tools, vibe coding, mobile super",
+      "bodySha256": "b6ec0600ad813b512146377e9a2d73bf236f722839348eb2275ece1a1f4e5c39",
+      "capturedAt": "2026-06-27T22:29:37.915Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://chathermes.com",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-ai-co-id-chathermes/artifact-1-0852aa8ba144.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ChatHermes — the chat that doesn&#x27;t end when you close the tab",
+      "bodySha256": "42fe1744e906b3e18a185c55bd8d608e0b0e566b8a84d5c9d67a0917d6e5fbbe",
+      "capturedAt": "2026-06-27T22:29:39.010Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "m27-moonbags-crypto-exit-advisor",
+  "modelId": "minimax-m2-7",
+  "modelName": "MiniMax M2.7",
+  "title": "MoonBags: MiniMax M2.7 as LLM Exit Advisor for Solana Meme-Token Auto-Trading",
+  "evidenceFingerprint": "de3807d0f232d4107664cc4a57c092827dfc4b768e4dd88187b56f208465aa03",
+  "capturedAt": "2026-06-27T22:37:36.527Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/fciaf420/moonbags",
+      "snapshotPath": "archive/evidence/m27-moonbags-crypto-exit-advisor/original-evidence-4d935f201bc7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - fciaf420/moonbags: Solana meme-coin auto-trading bot with MiniMax M2.7 LLM exit advisor, Jupiter Ultra swaps, Telegram control, and a Pepe-on-Moon dashboard · GitHub",
+      "bodySha256": "564a221ab9921ed8a60c8d7234c81f5cc4b6a84149d9995cb326703cdc66bf09",
+      "capturedAt": "2026-06-27T22:37:34.551Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/fciaf420/moonbags",
+      "snapshotPath": "archive/evidence/m27-moonbags-crypto-exit-advisor/artifact-1-4d935f201bc7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - fciaf420/moonbags: Solana meme-coin auto-trading bot with MiniMax M2.7 LLM exit advisor, Jupiter Ultra swaps, Telegram control, and a Pepe-on-Moon dashboard · GitHub",
+      "bodySha256": "5af0278e43ae660cc720315b320bae97736d973e006ca3d048fc3946682b0098",
+      "capturedAt": "2026-06-27T22:37:35.932Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-1-0-yijianrugu2019-sai",
+  "modelId": "seedance-1-0",
+  "modelName": "Seedance 1.0",
+  "title": "SAI integrates Doubao-Seedance-1.0-pro for AI image and video generation inside a multipurpose web app",
+  "evidenceFingerprint": "a55cf469aae703203d7b28935577e116ce45d143f605e26dbf4fc8cb66fe0c24",
+  "capturedAt": "2026-06-27T21:28:04.877Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/YiJianRuGu2019/SAI/HEAD/README.md",
+      "snapshotPath": "archive/evidence/seedance-1-0-yijianrugu2019-sai/original-evidence-d529844ae535.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "aba2ae6be7739eb87e239bd401af002cb8c72c4460033125b35f238492c7ef01",
+      "capturedAt": "2026-06-27T21:28:03.300Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/YiJianRuGu2019/SAI",
+      "snapshotPath": "archive/evidence/seedance-1-0-yijianrugu2019-sai/artifact-1-af180f46c493.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - YiJianRuGu2019/SAI: SAI开源项目，有以下主要功能 1.AI对话（模型为deepseek） 2.AI在线搜索（模型为秘塔AI） 3.AI生成图片和视频（模型为Seedream-4.0，Grok-2-Image和Doubao-Seedance-1.0-pro） 4.AI在线生成文档并可编辑（ deepseek+使用的CKEditor 框架开源富文本编辑器框架） 5.3D全景卫星地图功能（使用了百度地图实现） 注意： 1.需要您自己申请相关a",
+      "bodySha256": "300870928db7facf0a7e2ae8dd32c829c40351578be7c66f1a1d34aafeec6518",
+      "capturedAt": "2026-06-27T21:28:03.625Z",
+      "error": ""
+    }
+  ]
+}

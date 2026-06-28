@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:11.008Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SillyTavern/SillyTavern/blob/release/default/content/presets/instruct/DeepSeek-V2.5.json",
+  "finalUrl": "https://github.com/SillyTavern/SillyTavern/blob/release/default/content/presets/instruct/DeepSeek-V2.5.json",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"036712a812f44f3b974598828caa6925\"",
+  "lastModified": null,
+  "bodyBytes": 256454,
+  "bodySha256": "d6924acd564cfa3ea2ed52aab712226b808eb1c45dafd7ea6511c7d58ff2ed78",
+  "title": "SillyTavern/default/content/presets/instruct/DeepSeek-V2.5.json at release · SillyTavern/SillyTavern · GitHub",
+  "github": {
+    "owner": "SillyTavern",
+    "repo": "SillyTavern",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:30.111Z",
+  "kind": "artifact-1",
+  "url": "https://auxiar.github.io/GoogleReviewHelper/",
+  "finalUrl": "https://auxiar.github.io/GoogleReviewHelper/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "1814",
+  "etag": "W/\"68e5de8f-1027\"",
+  "lastModified": "Wed, 08 Oct 2025 03:46:23 GMT",
+  "bodyBytes": 4135,
+  "bodySha256": "0ebe15879e9ef2b9dfde5515bda77fb868b5e8cdf1e3e006a9f3d2cd5423e416",
+  "title": "Google Review Helper",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-4-xhigh-kamakuracrypto-claude-codex-review",
+  "modelId": "gpt-5-4-xhigh",
+  "modelName": "GPT-5.4 (xhigh)",
+  "title": "KamakuraCrypto uses GPT-5.4 xhigh in a dual-Codex premortem review skill for Claude Code plans",
+  "evidenceFingerprint": "c93c3df40296628c68701b55502556a9de81fa900e2ee17a01b34a6db198d81a",
+  "capturedAt": "2026-06-27T21:14:47.398Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/KamakuraCrypto/claude-codex-review/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-kamakuracrypto-claude-codex-review/original-evidence-28293af7a5be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "91b50f12e6940ca7516e737d34b4a773e742fc56a6ebe00ffeef13f82e579b81",
+      "capturedAt": "2026-06-27T21:14:46.099Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/KamakuraCrypto/claude-codex-review",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-kamakuracrypto-claude-codex-review/artifact-1-a584eba3c838.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - KamakuraCrypto/claude-codex-review: Claude Code skill: dual-codex premortem review of plans (gpt-5.5 + gpt-5.4 xhigh, in parallel, until they converge) · GitHub",
+      "bodySha256": "dab9639c5c43797b4041bc3ff3060f23bdb5b68ba659f2cb8c0b907cc0f01f4e",
+      "capturedAt": "2026-06-27T21:14:46.439Z",
+      "error": ""
+    }
+  ]
+}

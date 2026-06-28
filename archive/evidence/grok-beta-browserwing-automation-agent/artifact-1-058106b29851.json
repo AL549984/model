@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:50.600Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/browserwing/browserwing",
+  "finalUrl": "https://github.com/browserwing/browserwing",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"98410eb5a3031e42f72ecd7b081030f0\"",
+  "lastModified": null,
+  "bodyBytes": 442559,
+  "bodySha256": "93c52e0c1a62b9e91a5c97b2bcc902f5315f22bbf63e8442aaebc01f000adeba",
+  "title": "GitHub - browserwing/browserwing: BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call",
+  "github": {
+    "owner": "browserwing",
+    "repo": "browserwing",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-mar-disler-aider-mcp-server",
+  "modelId": "gemini-2-5-pro-mar",
+  "modelName": "Gemini 2.5 Pro (Mar)",
+  "title": "Aider MCP Server defaults its AI coding tool to Gemini 2.5 Pro Experimental 03-25",
+  "evidenceFingerprint": "6119fc2cf673fb9597a7a59e05b8a43dd3e58b1a02e98d77be8fc52c6e89cd85",
+  "capturedAt": "2026-06-27T21:47:09.371Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/disler/aider-mcp-server/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-disler-aider-mcp-server/original-evidence-705555df44bf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "aider-mcp-server/README.md at main · disler/aider-mcp-server · GitHub",
+      "bodySha256": "831236e944f12b3c25b5983e49cf992d125d08f5b691b6c4ac3e21d02b0d2695",
+      "capturedAt": "2026-06-27T21:47:07.236Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/disler/aider-mcp-server",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-disler-aider-mcp-server/artifact-1-f4472d4bc2b1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - disler/aider-mcp-server: Minimal MCP Server for Aider · GitHub",
+      "bodySha256": "faf8b96395e76ab16c01fd7a98119cc430e592aa5b3122b1386ccce643fc2ff9",
+      "capturedAt": "2026-06-27T21:47:08.269Z",
+      "error": ""
+    }
+  ]
+}

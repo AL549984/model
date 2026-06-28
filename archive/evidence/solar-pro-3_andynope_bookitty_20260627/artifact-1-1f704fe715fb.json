@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:38.667Z",
+  "kind": "artifact-1",
+  "url": "https://bookitty.bidebliss.com",
+  "finalUrl": "https://bookitty.bidebliss.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": null,
+  "etag": "W/\"387-64f5261418870\"",
+  "lastModified": "Mon, 13 Apr 2026 07:24:57 GMT",
+  "bodyBytes": 903,
+  "bodySha256": "241b76d82ce90c94f1df040d65c8ed335acdb7da7f040043a3891d4d3c2dad71",
+  "title": "Bookitty",
+  "github": null
+}

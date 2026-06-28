@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:25.438Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/paquino11/chatpdf-rag-deepseek-r1",
+  "finalUrl": "https://github.com/paquino11/chatpdf-rag-deepseek-r1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"47964159f37b3c2e6953e942a12be3c5\"",
+  "lastModified": null,
+  "bodyBytes": 301089,
+  "bodySha256": "a9b5033822f0955f48a95366631f05014b001611bca9217679add4a0e7ae65de",
+  "title": "GitHub - paquino11/chatpdf-rag-deepseek-r1 · GitHub",
+  "github": {
+    "owner": "paquino11",
+    "repo": "chatpdf-rag-deepseek-r1",
+    "apiStatus": "unavailable"
+  }
+}

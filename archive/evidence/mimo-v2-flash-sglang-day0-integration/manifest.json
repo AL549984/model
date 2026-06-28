@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-flash-sglang-day0-integration",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "SGLang Day-0 Support for MiMo-V2-Flash with Optimized Inference",
+  "evidenceFingerprint": "143e091062b310c58cfe8ebcd51b24aff2057badfe69c761cb6c22426050625d",
+  "capturedAt": "2026-06-27T22:38:01.807Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://lmsys.org/blog/2025-12-16-mimo-v2-flash/",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-sglang-day0-integration/original-evidence-1a33c228be55.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "SGLang Day-0 Support for MiMo-V2-Flash Model - LMSYS Org",
+      "bodySha256": "4a77eb9c467fe859a0e656a934af4c682a3436bd6cfcd7af28ccd82b5860a738",
+      "capturedAt": "2026-06-27T22:37:55.332Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sgl-project/sglang/pull/15207",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-sglang-day0-integration/artifact-1-89a84b3ae28e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[Feature] Xiaomi `MiMo-V2-Flash` day0 support by acelyc111 · Pull Request #15207 · sgl-project/sglang · GitHub",
+      "bodySha256": "c1576a5de7a10a822cba166a71c2a58de3b53c8b78234eb4772deaace8259b61",
+      "capturedAt": "2026-06-27T22:37:58.155Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:44.328Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/fvegiard/omo-grok/blob/main/.opencode/agents/sisyphus-grok.md",
+  "finalUrl": "https://github.com/fvegiard/omo-grok/blob/main/.opencode/agents/sisyphus-grok.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"aabd955b88bc85de52da00bf9d93aecf\"",
+  "lastModified": null,
+  "bodyBytes": 244625,
+  "bodySha256": "8ffdd6b271075056c457ba78c65b2d9ba5a0ceeefcbef93fef13bbf72280b840",
+  "title": "omo-grok/.opencode/agents/sisyphus-grok.md at main · fvegiard/omo-grok · GitHub",
+  "github": {
+    "owner": "fvegiard",
+    "repo": "omo-grok",
+    "apiStatus": "unavailable"
+  }
+}

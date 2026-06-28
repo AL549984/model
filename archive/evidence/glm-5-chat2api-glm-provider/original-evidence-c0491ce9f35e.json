@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:37.039Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/xiaoY233/Chat2API/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/xiaoY233/Chat2API/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4306",
+  "etag": "W/\"bba2253f445ac40774beac41f0669923494deae8a67445f435139bdb904b16bd\"",
+  "lastModified": null,
+  "bodyBytes": 12395,
+  "bodySha256": "7d3c87b42a8d8a7641726b37a9e1f25b9813dbc91e074f79dd1c5fdda7b71cb9",
+  "title": "",
+  "github": null
+}

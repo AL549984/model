@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:36.325Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/microsoft/vscode",
+  "finalUrl": "https://github.com/microsoft/vscode",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cbf799fdbf11da26f7b4c29b6cf0bcba\"",
+  "lastModified": null,
+  "bodyBytes": 394604,
+  "bodySha256": "01776141370c4b891432b2a17b4af93ee384041628f137e15a5cd3acf5fe728f",
+  "title": "GitHub - microsoft/vscode: Visual Studio Code · GitHub",
+  "github": {
+    "owner": "microsoft",
+    "repo": "vscode",
+    "htmlUrl": "https://github.com/microsoft/vscode",
+    "defaultBranch": "main",
+    "defaultBranchSha": "9da4a9bba4e0a44669129b6b73ab7a587d728da9",
+    "pushedAt": "2026-06-27T21:54:54Z",
+    "updatedAt": "2026-06-27T21:51:15Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

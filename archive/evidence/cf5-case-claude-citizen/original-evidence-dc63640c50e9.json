@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:03.343Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/huiung/claude-citizen",
+  "finalUrl": "https://github.com/huiung/claude-citizen",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0c7c99d6053598036f6d21f3d52d4d2d\"",
+  "lastModified": null,
+  "bodyBytes": 333902,
+  "bodySha256": "252edb6bb8881dd11948c564529ec55cc96e936262c2db253e1383ad3103ec37",
+  "title": "GitHub - huiung/claude-citizen: An open-source attempt to finish Star Citizen before Star Citizen does. Built with Claude Fable 5. · GitHub",
+  "github": {
+    "owner": "huiung",
+    "repo": "claude-citizen",
+    "htmlUrl": "https://github.com/huiung/claude-citizen",
+    "defaultBranch": "main",
+    "defaultBranchSha": "49322f57bd53d9214e5cca1c15817826ad51a608",
+    "pushedAt": "2026-06-27T07:32:35Z",
+    "updatedAt": "2026-06-27T07:32:39Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

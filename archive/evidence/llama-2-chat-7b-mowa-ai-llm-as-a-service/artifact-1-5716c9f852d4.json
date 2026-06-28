@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:39.780Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mowa-ai/llm-as-a-service",
+  "finalUrl": "https://github.com/mowa-ai/llm-as-a-service",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a3807caceb3876490a2526922ea2140d\"",
+  "lastModified": null,
+  "bodyBytes": 283888,
+  "bodySha256": "9c4528bdc9cbd434f007022d58403dc085725ac148d1961706779ba7c7e6f2a4",
+  "title": "GitHub - mowa-ai/llm-as-a-service: Simple FastAPI service for LLAMA-2 7B chat model · GitHub",
+  "github": {
+    "owner": "mowa-ai",
+    "repo": "llm-as-a-service",
+    "apiStatus": "unavailable"
+  }
+}

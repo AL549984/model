@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:29.373Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio/blob/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1d6f9-hfsQCZZZOTKO2d5Fm20hXeE/dFM\"",
+  "lastModified": null,
+  "bodyBytes": 120569,
+  "bodySha256": "07c0cbf4fa6696552102ce0ba2eda893bd0223873ca8a910eb191d28a468b0bd",
+  "title": "app.py · akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio at main",
+  "github": null
+}

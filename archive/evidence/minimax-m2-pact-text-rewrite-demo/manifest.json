@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-pact-text-rewrite-demo",
+  "modelId": "minimax-m2",
+  "modelName": "MiniMax-M2",
+  "title": "PACT exposes MiniMax-M2.7 in a public text-rewriting dataset-construction demo",
+  "evidenceFingerprint": "758415808925cde38d47d04cb3a5b052000cac4dd786db6701ca96c1a4213087",
+  "capturedAt": "2026-06-27T22:44:56.111Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mrle0429/PACT/blob/master/README.md",
+      "snapshotPath": "archive/evidence/minimax-m2-pact-text-rewrite-demo/original-evidence-0f26bb8008cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "PACT/README.md at master · mrle0429/PACT · GitHub",
+      "bodySha256": "ea8fa3c82a6fd3fd6943563c4889eadbf46fdbe8b032b750cc830e997b2e8855",
+      "capturedAt": "2026-06-27T22:44:54.299Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://pact.mrlepro.com/",
+      "snapshotPath": "archive/evidence/minimax-m2-pact-text-rewrite-demo/artifact-1-2661a52f14d8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "PACT Dataset Demo",
+      "bodySha256": "630fa558cbb5f399cc22574c075933acddb694bd3da2322b224e8b848b6bc3d5",
+      "capturedAt": "2026-06-27T22:44:55.669Z",
+      "error": ""
+    }
+  ]
+}

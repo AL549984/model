@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-65b-kuleshov-minillm-4bit-generation",
+  "modelId": "llama-65b",
+  "modelName": "Llama 65B",
+  "title": "Kuleshov Group MiniLLM 发布 LLaMA 65B 4-bit 权重和命令行生成工具",
+  "evidenceFingerprint": "7e62ec43336cd0ac21d3a933ef2b65363098a2f8c930c6faa88595c69bc0f854",
+  "capturedAt": "2026-06-27T22:37:25.447Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kuleshov/minillm",
+      "snapshotPath": "archive/evidence/llama-65b-kuleshov-minillm-4bit-generation/original-evidence-15aff64f3aa0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kuleshov/minillm: MiniLLM is a minimal system for running modern LLMs on consumer-grade GPUs · GitHub",
+      "bodySha256": "c54caa02b9378733347551561ba5744ead1ee75fe847e365087b7524ab4be38a",
+      "capturedAt": "2026-06-27T22:37:23.456Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/kuleshov/llama-65b-4bit",
+      "snapshotPath": "archive/evidence/llama-65b-kuleshov-minillm-4bit-generation/artifact-1-fa76dc69afa2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "kuleshov/llama-65b-4bit · Hugging Face",
+      "bodySha256": "f3610525f1b09b137c78054ae12864faf1b375e3ca9d668e1ebc473de717f7f8",
+      "capturedAt": "2026-06-27T22:37:24.466Z",
+      "error": ""
+    }
+  ]
+}

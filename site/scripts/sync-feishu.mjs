@@ -369,6 +369,7 @@ function updateMetrics() {
   const publishableModels = models.filter((model) => model.publishability === "Publishable").length;
   const archiveModels = models.filter((model) => model.publishability === "Archive").length;
   const limitedModels = models.filter((model) => model.publishability === "Limited").length;
+  const holdModels = models.filter((model) => model.publishability === "Hold").length;
   const modelsWithCases = models.filter((model) => Number(model.aCaseCount ?? 0) > 0).length;
   const activeModelsWithCases = activeModels.filter((model) => Number(model.aCaseCount ?? 0) > 0).length;
   const modelsMeetingMinCaseCoverage = models.filter((model) => Number(model.aCaseCount ?? 0) >= MIN_A_CASES).length;
@@ -387,6 +388,8 @@ function updateMetrics() {
     publishableModels,
     limitedModels,
     archiveModels,
+    holdModels,
+    officialPatchModels: models.filter((model) => model.preserveOnFeishuSync === true || model.sourceKind === "official_patch").length,
     verifiedACases: cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible).length,
     modelsWithCases,
     modelsWithoutCases: models.length - modelsWithCases,
@@ -403,7 +406,7 @@ function updateMetrics() {
     activeCaseDeficitToMin,
     activeCaseDeficitToTarget,
     datasetCut: new Date().toISOString().slice(0, 10),
-    sourceNote: "Feishu Bitable sync + automatic evidence gate; missing fields remain explicit."
+    sourceNote: "Feishu Bitable sync + official patch preservation + automatic evidence gate; missing fields remain explicit."
   });
 }
 
@@ -428,6 +431,14 @@ const existingModelsById = new Map(existingModels.map((model) => [model.id, mode
 const token = await getTenantAccessToken();
 const modelRecords = await listBitableRecords({ token, appToken, tableId: modelTableId });
 let models = modelRecords.map((record) => mapModelRecord(record, existingModelsById));
+const syncedModelIds = new Set(models.map((model) => model.id));
+const preservedOfficialPatches = existingModels.filter((model) =>
+  !syncedModelIds.has(model.id) &&
+  (model.preserveOnFeishuSync === true || model.sourceKind === "official_patch")
+);
+if (preservedOfficialPatches.length > 0) {
+  models.push(...preservedOfficialPatches);
+}
 let modelsById = new Map(models.map((model) => [model.id, model]));
 const caseRecords = await listBitableRecords({ token, appToken, tableId: caseTableId });
 const cases = caseRecords.map((record) => mapCaseRecord(record, modelsById));

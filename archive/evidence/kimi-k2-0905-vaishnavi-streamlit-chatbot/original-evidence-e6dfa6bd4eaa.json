@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:27.645Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/VaishnaviAnalyzed/kimi-k2-ai-chatbot/blob/main/kimiapp.py",
+  "finalUrl": "https://github.com/VaishnaviAnalyzed/kimi-k2-ai-chatbot/blob/main/kimiapp.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1b229cef8eeebe4a9f6f55cd29688524\"",
+  "lastModified": null,
+  "bodyBytes": 257386,
+  "bodySha256": "6089cd3e97338ea354efd05c62544ad3981ec548010dd79ebae772060d48fc80",
+  "title": "kimi-k2-ai-chatbot/kimiapp.py at main · VaishnaviAnalyzed/kimi-k2-ai-chatbot · GitHub",
+  "github": {
+    "owner": "VaishnaviAnalyzed",
+    "repo": "kimi-k2-ai-chatbot",
+    "apiStatus": "unavailable"
+  }
+}

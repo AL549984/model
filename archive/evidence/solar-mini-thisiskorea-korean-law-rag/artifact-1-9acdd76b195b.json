@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:43.444Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/thisiskorea/upstage_solar_mini_law",
+  "finalUrl": "https://github.com/thisiskorea/upstage_solar_mini_law",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"48441551f318dac3bd73d5392b4711ea\"",
+  "lastModified": null,
+  "bodyBytes": 238575,
+  "bodySha256": "2475c65419443a2e72c7d5f6a6e6f85008ec30fcdb32ad38cb438f17f4df7235",
+  "title": "GitHub - thisiskorea/upstage_solar_mini_law · GitHub",
+  "github": {
+    "owner": "thisiskorea",
+    "repo": "upstage_solar_mini_law",
+    "apiStatus": "unavailable"
+  }
+}

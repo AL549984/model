@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:41:00.960Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/daymade/gemini-gif",
+  "finalUrl": "https://github.com/daymade/gemini-gif",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"766c297878c45fa5a084c2cc261dca76\"",
+  "lastModified": null,
+  "bodyBytes": 446299,
+  "bodySha256": "cc243d8189162aecbe8cc76fc63a4955c4d2bf49851791022250d5b76927a7aa",
+  "title": "GitHub - daymade/gemini-gif: A Python tool that uses Google&#39;s Gemini 2.0 Flash Exp API to generate animated GIFs from text prompts. · GitHub",
+  "github": {
+    "owner": "daymade",
+    "repo": "gemini-gif",
+    "apiStatus": "unavailable"
+  }
+}

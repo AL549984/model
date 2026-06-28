@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:50.414Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/OpenSquilla/opensquilla",
+  "finalUrl": "https://github.com/OpenSquilla/opensquilla",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1685aecdd371bccd5514642894259caa\"",
+  "lastModified": null,
+  "bodyBytes": 506612,
+  "bodySha256": "c9c62d954d6130840c19f3f76341dac5580b6792765dc6550c2012667b9ff91a",
+  "title": "GitHub - opensquilla/opensquilla: OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density · GitHub",
+  "github": {
+    "owner": "OpenSquilla",
+    "repo": "opensquilla",
+    "apiStatus": "unavailable"
+  }
+}

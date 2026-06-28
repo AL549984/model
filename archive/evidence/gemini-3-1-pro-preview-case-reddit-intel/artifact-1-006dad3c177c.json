@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:28.625Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/OmuNaman/reddit-trending-analysis",
+  "finalUrl": "https://github.com/OmuNaman/reddit-trending-analysis",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a51388c898e33638b4302486d26a5ff4\"",
+  "lastModified": null,
+  "bodyBytes": 287040,
+  "bodySha256": "c768b26b5629ac56112a6ee305518b65ff705320b28a6bab25d9a8b1474738f0",
+  "title": "GitHub - OmuNaman/reddit-trending-analysis: Terminal tool: scrape a subreddit every 30 min and analyse posts + comment threads + images with Gemini 3.1 Pro against a custom intent · GitHub",
+  "github": {
+    "owner": "OmuNaman",
+    "repo": "reddit-trending-analysis",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:48.834Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/maifeipin/lite_agent",
+  "finalUrl": "https://github.com/maifeipin/lite_agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a950312b43aa875674420e83496dbe7f\"",
+  "lastModified": null,
+  "bodyBytes": 329522,
+  "bodySha256": "343598f60b9e9110444d0d9eaa8157684c7c96e3955b6090b5086631dadd1a72",
+  "title": "GitHub - maifeipin/lite_agent: Lite Agent engine with Feishu WebSocket, DeepSeek V4 Pro support, and billing skills · GitHub",
+  "github": {
+    "owner": "maifeipin",
+    "repo": "lite_agent",
+    "apiStatus": "unavailable"
+  }
+}

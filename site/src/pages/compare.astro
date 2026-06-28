@@ -7,8 +7,14 @@ import TrustBoundary from "../components/data/TrustBoundary.astro";
 import CompareSummary from "../components/data/CompareSummary.astro";
 import DecisionPreset from "../components/data/DecisionPreset.astro";
 import DataCompletenessNote from "../components/data/DataCompletenessNote.astro";
+import { buildCaseNarrative } from "../lib/caseNarrative";
+import { buildEvidenceTrust } from "../lib/evidenceTrust";
+import { publicizeText } from "../lib/publicCopy";
+import { absoluteUrl } from "../lib/seo";
 import models from "../data/models.json";
+import cases from "../data/cases.json";
 import metrics from "../data/metrics.json";
+import evidenceArchive from "../data/evidence-archive.json";
 
 function isMissing(value: unknown) {
   if (value === null || value === undefined) return true;
@@ -21,6 +27,14 @@ function isCodingCandidate(model: (typeof models)[number]) {
   return String(model.capabilities?.codingAgent ?? "").toLowerCase().includes("agent") || String(model.reasoning ?? "").includes("是");
 }
 
+function statusLabel(status: string) {
+  if (status === "Publishable") return "已有真实案例";
+  if (status === "Archive") return "已归档";
+  if (status === "Hold") return "暂缓推荐";
+  if (status === "Limited") return "待补证据";
+  return status;
+}
+
 const withACases = models.filter((model) => model.aCaseCount > 0);
 const codingCandidates = models.filter(isCodingCandidate).sort((a, b) => (b.aCaseCount - a.aCaseCount) || ((b.score ?? 0) - (a.score ?? 0))).slice(0, 8);
 const highScoreModels = models.filter((model) => typeof model.score === "number").sort((a, b) => (b.score ?? 0) - (a.score ?? 0)).slice(0, 8);
@@ -28,14 +42,114 @@ const limitedCandidates = models.filter((model) => model.publishability === "Lim
 const missingPrice = models.filter((model) => isMissing(model.price)).length;
 const missingContext = models.filter((model) => isMissing(model.context)).length;
 const missingOfficial = models.filter((model) => isMissing(model.officialLink) || String(model.officialLink ?? "").includes("artificialanalysis.ai")).length;
+const aCases = cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible);
+const evidenceArchiveMap = new Map(evidenceArchive.cases.map((entry) => [entry.caseId, entry]));
+const compareModels = models.map((model) => {
+  const modelCases = aCases.filter((item) => item.modelId === model.id);
+  const modelArchiveEntries = modelCases.map((item) => evidenceArchiveMap.get(item.id)).filter(Boolean);
+  const snapshottedCaseCount = modelArchiveEntries.filter((entry) => entry?.snapshotStatus === "snapshotted").length;
+  const partialSnapshotCaseCount = modelArchiveEntries.filter((entry) => entry?.snapshotStatus === "partial_snapshot").length;
+  const snapshotAttentionCaseCount = modelArchiveEntries.filter((entry) => entry?.snapshotStatus === "snapshot_attention").length;
+  const pendingSnapshotCaseCount = modelCases.length - snapshottedCaseCount - partialSnapshotCaseCount - snapshotAttentionCaseCount;
+  const snapshotCoverage = modelCases.length ? Math.round((snapshottedCaseCount / modelCases.length) * 100) : 0;
+  const codingCaseCount = modelCases.filter((item) => /coding|agent|repo|github|pull request|PR|代码|代理/i.test(`${item.taskCategory} ${item.taskDescription} ${item.outputResult}`)).length;
+  const trustScores = modelCases.map((item) => buildEvidenceTrust(item));
+  const averageTrust = trustScores.length
+    ? Math.round(trustScores.reduce((sum, item) => sum + item.score, 0) / trustScores.length)
+    : 0;
+  const aplusCaseCount = trustScores.filter((item) => item.filterKey === "aplus").length;
+  const evidenceGaps = [
+    isMissing(model.price) && "价格",
+    isMissing(model.context) && "上下文",
+    isMissing(model.output) && "输出",
+    (isMissing(model.officialLink) || String(model.officialLink ?? "").includes("artificialanalysis.ai")) && "官方链接",
+    Number(model.aCaseCount ?? 0) === 0 && "案例"
+  ].filter(Boolean);
+  return {
+    id: model.id,
+    name: model.name,
+    slug: model.slug,
+    vendor: model.vendor,
+    publishability: model.publishability,
+    statusLabel: statusLabel(model.publishability),
+    score: typeof model.score === "number" ? model.score : null,
+    releaseDate: model.releaseDate,
+    aCaseCount: Number(model.aCaseCount ?? 0),
+    codingCaseCount,
+    context: model.context,
+    price: model.price,
+    modality: model.modality,
+    output: model.output,
+    reasoning: model.reasoning,
+    platform: model.capabilities?.openEcosystem ?? "暂无数据",
+    codingAgent: model.capabilities?.codingAgent ?? "暂无数据",
+    research: model.capabilities?.research ?? "暂无数据",
+    lifecycleRisk: model.capabilities?.lifecycleRisk ?? "暂无数据",
+    averageTrust,
+    aplusCaseCount,
+    snapshottedCaseCount,
+    partialSnapshotCaseCount,
+    pendingSnapshotCaseCount,
+    snapshotAttentionCaseCount,
+    snapshotCoverage,
+    fit: publicizeText(model.fit?.[0] ?? "作为模型资料入口"),
+    avoid: publicizeText(model.avoid?.[0] ?? "缺字段时不做推断"),
+    risk: publicizeText(model.riskNotes?.[0] ?? "暂无风险说明"),
+    evidenceGaps: evidenceGaps.length ? evidenceGaps.join(" / ") : "核心字段较完整",
+    proofSample: modelCases.slice(0, 2).map((item) => {
+      const narrative = buildCaseNarrative(item);
+      return {
+        title: narrative.displayTitle,
+        org: item.userOrOrg,
+        platform: narrative.useCaseLabel,
+        trust: buildEvidenceTrust(item),
+        href: `/cases/${item.id}`
+      };
+    })
+  };
+});
+const defaultCompareIds = [...compareModels]
+  .sort((a, b) => b.aCaseCount - a.aCaseCount || (b.score ?? 0) - (a.score ?? 0))
+  .slice(0, 4)
+  .map((model) => model.id);
+const scenarioPresets = [
+  ["general", "综合选型", "优先看 A 类案例、资料完整度和公开状态。"],
+  ["coding", "Coding Agent", "优先看代码/agentic coding 真实案例和推理信号。"],
+  ["research", "研究分析", "优先看推理、资料完整度和较少生命周期风险。"],
+  ["evidence", "证据优先", "只把公开可核验案例和来源完整度放在第一位。"]
+];
+const comparePayload = JSON.stringify({ compareModels, defaultCompareIds }).replace(/</g, "\\u003c");
+const compareJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Model Atlas 模型对比",
+  url: absoluteUrl("/compare"),
+  applicationCategory: "Decision Support Tool",
+  operatingSystem: "Web",
+  inLanguage: "zh-CN",
+  description: "按公开证据、真实案例、风险、数据缺口和场景适配对比 AI 模型。",
+  dateModified: metrics.datasetCut,
+  featureList: [
+    "2-4 个模型并排对比",
+    "按综合选型、Coding Agent、研究分析和证据优先切换场景",
+    "展示 A 类案例、Coding 案例、公开状态、风险和数据缺口",
+    "支持复制当前模型对比 URL",
+    "支持复制包含推荐理由、证据依据和复核链接的研究包摘要"
+  ],
+  about: {
+    "@type": "Dataset",
+    name: "Model Atlas 模型与案例证据",
+    url: absoluteUrl("/")
+  }
+};
 ---
 
-<BaseLayout title="模型对比 · Frontier Models Atlas" description="按公开证据、真实案例、风险和场景适配对比主流 AI 模型。">
+<BaseLayout title="模型对比 · Model Atlas 模型图谱" description="按公开证据、真实案例、风险和场景适配对比主流 AI 模型。" jsonLd={compareJsonLd}>
   <SectionHeader eyebrow="对比" title="从证据强度开始做模型选型" description={`对比页覆盖全部 ${metrics.models} 个模型，优先帮助判断证据状态、案例覆盖、Coding Agent 适配、风险原因和数据缺口。`} />
   <div class="mb-5">
     <TrustBoundary title="对比页可信边界" notes={["待补公开案例不是不能用，而是公开证据还没有达到推荐标准。", "暂无数据表示当前资料源未披露或尚未接入，不代表模型一定不支持。", `当前 ${metrics.modelsWithCases} 个模型有可核验 A 类案例。`]} />
   </div>
-  <div class="mb-5 rounded-lg border border-cyan-300/25 bg-cyan-300/10 p-4 text-sm leading-relaxed text-cyan-50">
+  <div class="compare-order-note mb-5">
     选型顺序：先看证据强度和 A 类案例，再看场景适配和 Coding Agent 信号，最后看风险、价格、平台和数据缺口。表中大量“暂无数据”表示当前资料源未披露或尚未完成证据接入，不代表模型一定不支持。
   </div>
 
@@ -48,6 +162,57 @@ const missingOfficial = models.filter((model) => isMissing(model.officialLink) |
       codingCandidateCount={models.filter(isCodingCandidate).length}
     />
   </div>
+
+  <section class="compare-workbench mb-5">
+    <div class="compare-workbench__head">
+      <div>
+        <p class="mono text-xs uppercase tracking-[0.16em] text-[#ff3b4e]">决策工作台</p>
+        <h2>选择 2-4 个模型，按真实证据并排判断。</h2>
+        <p>这个对比器不会给“万能第一名”。它会根据当前场景，把案例覆盖、Coding Agent 信号、公开状态、数据缺口和风险放在同一张档案表里。</p>
+      </div>
+      <div class="compare-verdict" aria-live="polite">
+        <span>当前建议</span>
+        <strong id="compare-verdict">等待选择</strong>
+        <em id="compare-verdict-note">至少选择 2 个模型。</em>
+        <button id="compare-copy-view" class="atlas-copy-button" type="button" data-copy-current-url data-copy-original="复制当前对比" data-copy-success="对比链接已复制">复制当前对比</button>
+        <button id="compare-copy-brief" class="atlas-copy-button" type="button" data-copy-url="" data-copy-original="复制研究包" data-copy-success="研究包已复制">复制研究包</button>
+      </div>
+    </div>
+
+    <div class="compare-scenarios" role="tablist" aria-label="对比场景">
+      {scenarioPresets.map(([id, label, note], index) => (
+        <button class={index === 0 ? "is-active" : ""} type="button" data-scenario={id} aria-pressed={index === 0 ? "true" : "false"}>
+          <span>{label}</span>
+          <em>{note}</em>
+        </button>
+      ))}
+    </div>
+
+    <div class="compare-rationale" id="compare-rationale" aria-live="polite"></div>
+
+    <div class="compare-controls">
+      {[0, 1, 2, 3].map((slot) => (
+        <label>
+          <span>模型 {slot + 1}</span>
+          <select class="compare-select" data-slot={slot}>
+            {compareModels.map((model) => (
+              <option value={model.id} selected={defaultCompareIds[slot] === model.id}>{model.name} / {model.vendor}</option>
+            ))}
+          </select>
+        </label>
+      ))}
+      <button id="compare-reset" type="button">恢复默认组合</button>
+    </div>
+
+    <div class="compare-board" id="compare-board" aria-live="polite"></div>
+
+    <div class="compare-matrix-wrap">
+      <table class="compare-matrix">
+        <thead id="compare-matrix-head"></thead>
+        <tbody id="compare-matrix-body"></tbody>
+      </table>
+    </div>
+  </section>
 
   <section class="mb-5 grid gap-4 xl:grid-cols-4">
     <DecisionPreset title="有 A 类案例" description="优先用于公开展示和高可信模型卡。" models={withACases} />
@@ -67,4 +232,687 @@ const missingOfficial = models.filter((model) => isMissing(model.officialLink) |
     <RiskNotice title="待补公开案例" tone="limited" notes={["可以展示，但必须带提示。", "进入推荐前需要公开 A 类案例。"]} />
     <RiskNotice title="暂缓推荐" tone="hold" notes={["存在生命周期或证据风险。", "不要作为主动模型选择推荐。"]} />
   </div>
+
+  <script is:inline id="compare-data" type="application/json" set:html={comparePayload}></script>
+  <script is:inline>
+    const compareDataElement = document.getElementById("compare-data");
+    const compareData = JSON.parse(compareDataElement?.textContent || "{}");
+    const models = Array.isArray(compareData.compareModels) ? compareData.compareModels : [];
+    const modelMap = new Map(models.map((model) => [model.id, model]));
+    const defaultIds = Array.isArray(compareData.defaultCompareIds) ? compareData.defaultCompareIds : [];
+    const selects = Array.from(document.querySelectorAll(".compare-select"));
+    const scenarioButtons = Array.from(document.querySelectorAll("[data-scenario]"));
+    const board = document.getElementById("compare-board");
+    const matrixHead = document.getElementById("compare-matrix-head");
+    const matrixBody = document.getElementById("compare-matrix-body");
+    const verdict = document.getElementById("compare-verdict");
+    const verdictNote = document.getElementById("compare-verdict-note");
+    const rationale = document.getElementById("compare-rationale");
+    const briefButton = document.getElementById("compare-copy-brief");
+    const reset = document.getElementById("compare-reset");
+    let scenario = new URLSearchParams(window.location.search).get("scenario") || "general";
+
+    const numericScore = (model) => typeof model.score === "number" ? model.score : 0;
+    const hasGap = (model) => model.evidenceGaps !== "核心字段较完整";
+    const scenarioLabel = () => scenarioButtons.find((button) => button.dataset.scenario === scenario)?.querySelector("span")?.textContent?.trim() || "综合选型";
+    const snapshotSummary = (model) => model.aCaseCount
+      ? `${model.snapshottedCaseCount}/${model.aCaseCount} 已快照`
+      : "暂无 A 类案例";
+    const snapshotReviewText = (model) => {
+      if (!model.aCaseCount) return "暂无 A 类案例，需先补足公开可核验证据。";
+      if (model.snapshotAttentionCaseCount > 0) return `${model.snapshotAttentionCaseCount} 条证据快照需要人工关注，建议先复核 URL、HTTP 状态和证据指纹。`;
+      if (model.pendingSnapshotCaseCount > 0) return `证据快照覆盖 ${snapshotSummary(model)}，仍有 ${model.pendingSnapshotCaseCount} 条案例需要落盘快照。`;
+      if (model.partialSnapshotCaseCount > 0) return `证据快照覆盖 ${snapshotSummary(model)}，另有 ${model.partialSnapshotCaseCount} 条案例只完成部分目标。`;
+      return `证据快照覆盖 ${snapshotSummary(model)}，当前模型的 A 类案例均已完成本地快照。`;
+    };
+
+    function scoreModel(model) {
+      const base = model.aCaseCount * 10 + numericScore(model) * 0.7 + (model.publishability === "Publishable" ? 18 : -10) - (hasGap(model) ? 8 : 0);
+      if (scenario === "coding") {
+        const codingSignal = `${model.codingAgent} ${model.reasoning}`.toLowerCase();
+        return base + model.codingCaseCount * 16 + (codingSignal.includes("agent") ? 18 : 0) + (codingSignal.includes("是") ? 10 : 0);
+      }
+      if (scenario === "research") {
+        const researchSignal = `${model.research} ${model.reasoning}`.toLowerCase();
+        return base + (researchSignal.includes("待核验") ? -6 : 14) + (String(model.lifecycleRisk).includes("低") ? 10 : 0);
+      }
+      if (scenario === "evidence") {
+        return model.aCaseCount * 18 + (hasGap(model) ? -16 : 12) + (model.publishability === "Publishable" ? 18 : -12);
+      }
+      return base;
+    }
+
+    function selectedModels() {
+      const ids = selects.map((select) => select.value).filter(Boolean);
+      const unique = Array.from(new Set(ids));
+      return unique.map((id) => modelMap.get(id)).filter(Boolean).slice(0, 4);
+    }
+
+    function syncUrl(items) {
+      const next = new URL(window.location.href);
+      next.searchParams.set("models", items.map((model) => model.id).join(","));
+      next.searchParams.set("scenario", scenario);
+      window.history.replaceState({}, "", next);
+    }
+
+    function renderCards(items) {
+      if (!board) return;
+      board.innerHTML = items.map((model, index) => {
+        const score = Math.round(scoreModel(model));
+        const proof = model.proofSample?.length
+          ? model.proofSample.map((item) => `<a href="${item.href}"><strong>${item.title}</strong><span>${item.org} / ${item.platform}</span></a>`).join("")
+          : `<p class="compare-proof-empty">暂无 A 类案例样本。</p>`;
+        return `
+          <article class="compare-card ${index === 0 ? "is-leading" : ""}">
+            <div class="compare-card__top">
+              <span>${model.vendor}</span>
+              <em>${score}</em>
+            </div>
+            <h3><a href="/models/${model.slug}">${model.name}</a></h3>
+            <p>${model.fit}</p>
+            <dl>
+              <div><dt>A 类案例</dt><dd>${model.aCaseCount}</dd></div>
+              <div><dt>A+ 案例</dt><dd>${model.aplusCaseCount}</dd></div>
+              <div><dt>Coding 案例</dt><dd>${model.codingCaseCount}</dd></div>
+              <div><dt>证据可信度</dt><dd>${model.averageTrust ? `${model.averageTrust}/100` : "暂无"}</dd></div>
+              <div><dt>证据快照</dt><dd>${snapshotSummary(model)}</dd></div>
+              <div><dt>AA 评分</dt><dd>${typeof model.score === "number" ? model.score : "暂无"}</dd></div>
+              <div><dt>公开状态</dt><dd>${model.statusLabel}</dd></div>
+            </dl>
+            <div class="compare-card__proof">${proof}</div>
+            <div class="compare-card__actions">
+              <a href="/models/${model.slug}">模型档案</a>
+              <a href="/cases?model=${model.id}">案例证据</a>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function renderMatrix(items) {
+      if (!matrixHead || !matrixBody) return;
+      matrixHead.innerHTML = `<tr><th>维度</th>${items.map((model) => `<th><a href="/models/${model.slug}">${model.name}</a></th>`).join("")}</tr>`;
+      const rows = [
+        ["选型建议", (model) => model.fit],
+        ["谨慎边界", (model) => model.avoid],
+        ["A 类案例", (model) => `${model.aCaseCount} 条公开可核验案例`],
+        ["证据可信度", (model) => model.averageTrust ? `${model.averageTrust}/100，A+ 完整链路 ${model.aplusCaseCount} 条` : "暂无 A 类案例"],
+        ["证据快照", (model) => model.aCaseCount ? `${snapshotSummary(model)}；待快照 ${model.pendingSnapshotCaseCount} 条；需关注 ${model.snapshotAttentionCaseCount} 条` : "暂无 A 类案例"],
+        ["Coding Agent", (model) => `${model.codingAgent} / Coding 案例 ${model.codingCaseCount}`],
+        ["研究分析", (model) => model.research],
+        ["价格", (model) => model.price],
+        ["上下文", (model) => model.context],
+        ["输出/模态", (model) => `${model.output} / ${model.modality}`],
+        ["平台生态", (model) => model.platform],
+        ["数据缺口", (model) => model.evidenceGaps],
+        ["风险备注", (model) => model.risk]
+      ];
+      matrixBody.innerHTML = rows.map(([label, getter]) => `
+        <tr>
+          <th>${label}</th>
+          ${items.map((model) => `<td>${getter(model)}</td>`).join("")}
+        </tr>
+      `).join("");
+    }
+
+    function decisionReasons(leader, runnerUp) {
+      const reasons = [];
+      if (leader.aCaseCount > (runnerUp?.aCaseCount ?? -1)) reasons.push(`A 类案例更多：${leader.aCaseCount} 条`);
+      if (leader.aplusCaseCount > (runnerUp?.aplusCaseCount ?? -1)) reasons.push(`A+ 完整链路更多：${leader.aplusCaseCount} 条`);
+      if (scenario === "coding" && leader.codingCaseCount > 0) reasons.push(`Coding/agentic coding 案例 ${leader.codingCaseCount} 条`);
+      if (leader.averageTrust >= 95) reasons.push(`平均证据可信度 ${leader.averageTrust}/100`);
+      if (leader.snapshottedCaseCount > 0) reasons.push(`已完成证据快照 ${leader.snapshottedCaseCount}/${leader.aCaseCount} 条`);
+      if (leader.publishability === "Publishable") reasons.push("公开状态可进入优先阅读");
+      if (!hasGap(leader)) reasons.push("核心字段较完整");
+      if (!reasons.length) reasons.push("当前场景综合分更高，但需要继续复核证据链");
+      return reasons.slice(0, 4);
+    }
+
+    function renderRationale(items) {
+      if (!rationale) return;
+      if (items.length < 2) {
+        rationale.innerHTML = `
+          <article>
+            <span>推荐栈</span>
+            <strong>至少选择 2 个模型</strong>
+            <p>对比器需要两个以上模型才能形成相对判断。</p>
+          </article>
+        `;
+        return;
+      }
+      const ranked = [...items].sort((a, b) => scoreModel(b) - scoreModel(a));
+      const leader = ranked[0];
+      const runnerUp = ranked[1];
+      const reasons = decisionReasons(leader, runnerUp);
+      const firstProof = leader.proofSample?.[0];
+      const evidenceHref = firstProof?.href || `/cases?model=${leader.id}`;
+      rationale.innerHTML = `
+        <article>
+          <span>推荐理由</span>
+          <strong>${leader.name}</strong>
+          <p>${scenarioLabel()} 场景下暂时领先。${runnerUp ? `相对 ${runnerUp.name} 的差值为 ${Math.round(scoreModel(leader) - scoreModel(runnerUp))} 分。` : ""}</p>
+        </article>
+        <article>
+          <span>证据依据</span>
+          <ul>${reasons.map((reason) => `<li>${reason}</li>`).join("")}</ul>
+        </article>
+        <article>
+          <span>下一步复核</span>
+          <p>${leader.risk}</p>
+          <p class="compare-rationale__snapshot">${snapshotReviewText(leader)}</p>
+          <div>
+            <a href="/models/${leader.slug}">打开模型档案</a>
+            <a href="${evidenceHref}">${firstProof ? "核验代表案例" : "查看案例筛选"}</a>
+            <a href="/cases?model=${leader.id}&snapshot=pending_snapshot">查看待快照案例</a>
+          </div>
+        </article>
+      `;
+    }
+
+    function buildResearchBrief(items) {
+      if (items.length < 2) return "Model Atlas 研究包\n至少选择 2 个模型后生成。";
+      const ranked = [...items].sort((a, b) => scoreModel(b) - scoreModel(a));
+      const leader = ranked[0];
+      const runnerUp = ranked[1];
+      const reasons = decisionReasons(leader, runnerUp);
+      const proof = leader.proofSample?.[0];
+      const proofLine = proof
+        ? `${proof.title}｜${proof.org}｜${proof.platform}｜${new URL(proof.href, window.location.origin).href}`
+        : `查看该模型案例筛选｜${new URL(`/cases?model=${leader.id}`, window.location.origin).href}`;
+      const modelLines = ranked.map((model, index) => {
+        const score = Math.round(scoreModel(model));
+        return `${index + 1}. ${model.name}｜${model.vendor}｜综合分 ${score}｜A 类 ${model.aCaseCount}｜A+ ${model.aplusCaseCount}｜证据可信度 ${model.averageTrust || "暂无"}/100｜证据快照 ${snapshotSummary(model)}｜${new URL(`/models/${model.slug}`, window.location.origin).href}`;
+      });
+      const gap = runnerUp ? Math.round(scoreModel(leader) - scoreModel(runnerUp)) : 0;
+      return [
+        "Model Atlas 研究包",
+        `生成时间：${new Date().toLocaleString("zh-CN", { hour12: false })}`,
+        `数据截点：${document.body.textContent?.match(/DATA CUT\\s*(\\d{4}-\\d{2}-\\d{2})/)?.[1] || "2026-06-27"}`,
+        `对比场景：${scenarioLabel()}`,
+        "",
+        `推荐模型：${leader.name}`,
+        runnerUp ? `领先差值：相对 ${runnerUp.name} 高 ${gap} 分` : "领先差值：暂无第二模型",
+        `推荐说明：${verdictNote?.textContent?.trim() || ""}`,
+        "",
+        "证据依据：",
+        ...reasons.map((reason) => `- ${reason}`),
+        `- 证据快照：${snapshotReviewText(leader)}`,
+        "",
+        "对比模型：",
+        ...modelLines,
+        "",
+        "代表证据：",
+        `- ${proofLine}`,
+        "",
+        "下一步复核：",
+        `- 模型档案：${new URL(`/models/${leader.slug}`, window.location.origin).href}`,
+        `- 当前对比：${window.location.href}`,
+        "",
+        "边界说明：Model Atlas 只依据公开可核验证据、模型资料和当前数据截点生成摘要；结论仍需进入模型档案和案例页复核。"
+      ].join("\n");
+    }
+
+    function renderVerdict(items) {
+      if (!verdict || !verdictNote) return;
+      if (items.length < 2) {
+        verdict.textContent = "至少选择 2 个模型";
+        verdictNote.textContent = "对比器需要两个以上模型才能形成相对判断。";
+        return;
+      }
+      const ranked = [...items].sort((a, b) => scoreModel(b) - scoreModel(a));
+      const leader = ranked[0];
+      verdict.textContent = leader.name;
+      const proofText = scenario === "coding"
+        ? `${leader.codingCaseCount} 条 Coding/agentic coding 案例`
+        : `${leader.aCaseCount} 条 A 类案例`;
+      verdictNote.textContent = `${proofText}，平均证据可信度 ${leader.averageTrust || "暂无"}/100，证据快照 ${snapshotSummary(leader)}。结论仍需进入模型档案和案例页复核。`;
+    }
+
+    function render() {
+      const items = selectedModels().sort((a, b) => scoreModel(b) - scoreModel(a));
+      renderVerdict(items);
+      renderRationale(items);
+      renderCards(items);
+      renderMatrix(items);
+      syncUrl(items);
+      if (briefButton) briefButton.dataset.copyUrl = buildResearchBrief(items);
+    }
+
+    function applyParams() {
+      const params = new URLSearchParams(window.location.search);
+      const ids = (params.get("models") || "").split(",").filter((id) => modelMap.has(id));
+      const nextIds = ids.length
+        ? [...ids, ...defaultIds.filter((id) => !ids.includes(id))].slice(0, 4)
+        : defaultIds;
+      const scenarioIds = scenarioButtons.map((button) => button.dataset.scenario).filter(Boolean);
+      if (!scenarioIds.includes(scenario)) scenario = "general";
+      selects.forEach((select, index) => {
+        select.value = nextIds[index] || defaultIds[index] || models[index]?.id || "";
+      });
+      scenarioButtons.forEach((button) => {
+        const active = button.dataset.scenario === scenario;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+    }
+
+    selects.forEach((select) => select.addEventListener("change", render));
+    scenarioButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        scenario = button.dataset.scenario || "general";
+        scenarioButtons.forEach((item) => {
+          const active = item === button;
+          item.classList.toggle("is-active", active);
+          item.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+        render();
+      });
+    });
+    reset?.addEventListener("click", () => {
+      scenario = "general";
+      window.history.replaceState({}, "", window.location.pathname);
+      applyParams();
+      render();
+    });
+
+    applyParams();
+    render();
+  </script>
+
+  <style is:global>
+    .compare-workbench {
+      border: 1px solid rgba(244, 241, 234, 0.18);
+      background: rgba(7, 7, 7, 0.82);
+    }
+
+    .compare-order-note {
+      border: 1px solid rgba(255, 59, 78, 0.5);
+      background: rgba(255, 59, 78, 0.06);
+      padding: 16px;
+      color: #f4f1ea;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .compare-workbench__head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+      gap: 24px;
+      border-bottom: 1px solid rgba(244, 241, 234, 0.16);
+      padding: clamp(20px, 3vw, 34px);
+    }
+
+    .compare-workbench__head h2 {
+      margin-top: 12px;
+      max-width: 860px;
+      color: #f4f1ea;
+      font-size: clamp(34px, 4.6vw, 72px);
+      font-weight: 900;
+      line-height: 1.05;
+    }
+
+    .compare-workbench__head p {
+      margin-top: 16px;
+      max-width: 760px;
+      color: #a8a29a;
+      line-height: 1.8;
+    }
+
+    .compare-verdict {
+      align-self: stretch;
+      border: 1px solid rgba(255, 59, 78, 0.45);
+      padding: 18px;
+      background: #050505;
+    }
+
+    .compare-verdict span,
+    .compare-verdict em {
+      display: block;
+      color: #a8a29a;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 11px;
+      font-style: normal;
+      letter-spacing: 0.1em;
+    }
+
+    .compare-verdict strong {
+      display: block;
+      margin-top: 18px;
+      color: #f4f1ea;
+      font-size: 30px;
+      line-height: 1.1;
+    }
+
+    .compare-verdict em {
+      margin-top: 14px;
+      line-height: 1.6;
+    }
+
+    #compare-copy-view,
+    #compare-copy-brief {
+      width: 100%;
+      margin-top: 18px;
+    }
+
+    #compare-copy-brief {
+      margin-top: 10px;
+    }
+
+    .compare-scenarios,
+    .compare-controls,
+    .compare-rationale,
+    .compare-board {
+      display: grid;
+      gap: 1px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .compare-scenarios {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .compare-rationale {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .compare-scenarios button,
+    .compare-controls label,
+    #compare-reset,
+    .compare-card,
+    .compare-rationale article {
+      border: 0;
+      border-radius: 0;
+      background: #050505;
+      color: #f4f1ea;
+    }
+
+    .compare-rationale article {
+      min-height: 176px;
+      padding: 20px;
+    }
+
+    .compare-rationale span {
+      color: #ff3b4e;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .compare-rationale strong {
+      display: block;
+      margin-top: 16px;
+      color: #f4f1ea;
+      font-size: clamp(24px, 2.4vw, 34px);
+      line-height: 1.08;
+    }
+
+    .compare-rationale p,
+    .compare-rationale li {
+      color: #a8a29a;
+      line-height: 1.65;
+    }
+
+    .compare-rationale p,
+    .compare-rationale ul,
+    .compare-rationale div {
+      margin-top: 14px;
+    }
+
+    .compare-rationale ul {
+      display: grid;
+      gap: 8px;
+      padding-left: 18px;
+    }
+
+    .compare-rationale div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .compare-rationale a {
+      border: 1px solid rgba(244, 241, 234, 0.18);
+      padding: 9px 11px;
+      color: #f4f1ea;
+      font-size: 12px;
+    }
+
+    .compare-rationale a:hover {
+      border-color: rgba(255, 59, 78, 0.64);
+      color: #ff3b4e;
+    }
+
+    .compare-scenarios button {
+      min-height: 112px;
+      padding: 18px;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .compare-scenarios button.is-active {
+      background: rgba(255, 59, 78, 0.1);
+      box-shadow: inset 0 0 0 1px rgba(255, 59, 78, 0.54);
+    }
+
+    .compare-scenarios span,
+    .compare-controls span {
+      display: block;
+      color: #f4f1ea;
+      font-weight: 700;
+    }
+
+    .compare-scenarios em {
+      display: block;
+      margin-top: 10px;
+      color: #a8a29a;
+      font-size: 13px;
+      font-style: normal;
+      line-height: 1.55;
+    }
+
+    .compare-controls {
+      grid-template-columns: repeat(4, minmax(0, 1fr)) 160px;
+    }
+
+    .compare-controls label {
+      display: grid;
+      gap: 10px;
+      padding: 18px;
+    }
+
+    .compare-select {
+      width: 100%;
+      min-width: 0;
+      border: 1px solid rgba(244, 241, 234, 0.22);
+      background: #050505;
+      color: #f4f1ea;
+      padding: 12px;
+    }
+
+    #compare-reset {
+      padding: 18px;
+      color: #f4f1ea;
+      cursor: pointer;
+    }
+
+    #compare-reset:hover,
+    .compare-select:focus {
+      border-color: rgba(255, 59, 78, 0.7);
+      outline: none;
+    }
+
+    .compare-board {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .compare-card {
+      min-height: 460px;
+      padding: 22px;
+    }
+
+    .compare-card.is-leading {
+      box-shadow: inset 0 0 0 1px rgba(255, 59, 78, 0.58);
+    }
+
+    .compare-card__top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      color: #ff3b4e;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+    }
+
+    .compare-card__top em {
+      color: #f4f1ea;
+      font-size: 20px;
+      font-style: normal;
+    }
+
+    .compare-card h3 {
+      margin-top: 22px;
+      color: #f4f1ea;
+      font-size: 28px;
+      line-height: 1.08;
+    }
+
+    .compare-card p {
+      margin-top: 14px;
+      color: #a8a29a;
+      line-height: 1.65;
+    }
+
+    .compare-card dl {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 20px;
+      background: rgba(244, 241, 234, 0.14);
+    }
+
+    .compare-card dl div {
+      background: #070707;
+      padding: 12px;
+    }
+
+    .compare-card dt {
+      color: #a8a29a;
+      font-size: 12px;
+    }
+
+    .compare-card dd {
+      margin: 6px 0 0;
+      color: #f4f1ea;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      overflow-wrap: anywhere;
+    }
+
+    .compare-card__proof {
+      display: grid;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .compare-card__proof a,
+    .compare-proof-empty {
+      border: 1px solid rgba(244, 241, 234, 0.14);
+      padding: 10px;
+      color: #a8a29a;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .compare-card__proof strong,
+    .compare-card__proof span {
+      display: block;
+    }
+
+    .compare-card__proof strong {
+      color: #f4f1ea;
+    }
+
+    .compare-card__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .compare-card__actions a {
+      border: 1px solid rgba(244, 241, 234, 0.18);
+      padding: 9px 11px;
+      color: #f4f1ea;
+      font-size: 12px;
+    }
+
+    .compare-card__actions a:hover,
+    .compare-card__proof a:hover {
+      border-color: rgba(255, 59, 78, 0.62);
+    }
+
+    .compare-matrix-wrap {
+      max-width: 100%;
+      overflow-x: auto;
+      border-top: 1px solid rgba(244, 241, 234, 0.16);
+    }
+
+    .compare-matrix {
+      width: 100%;
+      min-width: 980px;
+      border-collapse: collapse;
+      background: #050505;
+    }
+
+    .compare-matrix th,
+    .compare-matrix td {
+      border-bottom: 1px solid rgba(244, 241, 234, 0.14);
+      border-right: 1px solid rgba(244, 241, 234, 0.1);
+      padding: 14px;
+      color: #a8a29a;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.6;
+    }
+
+    .compare-matrix th {
+      color: #f4f1ea;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+    }
+
+    @media (max-width: 1180px) {
+      .compare-workbench__head,
+      .compare-scenarios,
+      .compare-controls,
+      .compare-rationale,
+      .compare-board {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      #compare-reset {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .compare-workbench__head,
+      .compare-scenarios,
+      .compare-controls,
+      .compare-rationale,
+      .compare-board {
+        grid-template-columns: 1fr;
+      }
+
+      .compare-workbench__head h2 {
+        font-size: clamp(36px, 12vw, 52px);
+      }
+
+      .compare-card {
+        min-height: auto;
+      }
+    }
+  </style>
 </BaseLayout>

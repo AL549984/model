@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:54.943Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/wxy2ab/akinterpreter",
+  "finalUrl": "https://github.com/wxy2ab/akinterpreter",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b8cd85db6101d5636a8482948c9b82bd\"",
+  "lastModified": null,
+  "bodyBytes": 364344,
+  "bodySha256": "685bd0dea5a328d68da3d9619b1892eb2659451bea0dee6dd4bc6b71de17e1e9",
+  "title": "GitHub - wxy2ab/akinterpreter: 基于 LLM API 的金融数据查询和分析工具 · GitHub",
+  "github": {
+    "owner": "wxy2ab",
+    "repo": "akinterpreter",
+    "apiStatus": "unavailable"
+  }
+}

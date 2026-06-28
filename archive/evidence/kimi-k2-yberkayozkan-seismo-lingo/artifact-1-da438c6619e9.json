@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:51.378Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant",
+  "finalUrl": "https://github.com/yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"56dcee9366f6da8a0b051cfeafc660e5\"",
+  "lastModified": null,
+  "bodyBytes": 348059,
+  "bodySha256": "f123e558f984e2779a42b32fdad6241b11f790600418462e517ddcb0fecdae1f",
+  "title": "GitHub - yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant: 🌍 Seismo-Lingo: Smart Geophysical Assistant - An intelligent AI-powered tool for analyzing seismic and well log data through natural language queries. Built with LangChain, St",
+  "github": {
+    "owner": "yberkayozkan",
+    "repo": "Seismo-Lingo-Smart-Geophysical-Assistant",
+    "apiStatus": "unavailable"
+  }
+}

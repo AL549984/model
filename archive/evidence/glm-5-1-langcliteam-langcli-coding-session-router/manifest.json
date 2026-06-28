@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-langcliteam-langcli-coding-session-router",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "Langcli integrates GLM 5.1 through LangRouter for switchable coding sessions",
+  "evidenceFingerprint": "3c63e01c1a78e255e3914da0b4c930ee2fe1a8ebe6738980b31e515424f84a2b",
+  "capturedAt": "2026-06-27T21:53:48.652Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/LangcliTeam/langcli",
+      "snapshotPath": "archive/evidence/glm-5-1-langcliteam-langcli-coding-session-router/original-evidence-e49ff3c92742.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LangcliTeam/langcli: Building agentic coding assistant in public · GitHub",
+      "bodySha256": "e6edc915b04e73f8a86ce2135c383e6522775131c30657eef39d0a6eedf23e2d",
+      "capturedAt": "2026-06-27T21:53:46.965Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/LangcliTeam/langcli",
+      "snapshotPath": "archive/evidence/glm-5-1-langcliteam-langcli-coding-session-router/artifact-1-e49ff3c92742.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LangcliTeam/langcli: Building agentic coding assistant in public · GitHub",
+      "bodySha256": "580f066b59b066c26dd7a1b33e92a746132175e17569c91c37b4fb8210474502",
+      "capturedAt": "2026-06-27T21:53:48.149Z",
+      "error": ""
+    }
+  ]
+}

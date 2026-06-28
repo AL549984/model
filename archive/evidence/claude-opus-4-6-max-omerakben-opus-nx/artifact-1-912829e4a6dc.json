@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:22.799Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/omerakben/opus-nx",
+  "finalUrl": "https://github.com/omerakben/opus-nx",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"535b86a474c9c106563b55cf9dc990c8\"",
+  "lastModified": null,
+  "bodyBytes": 445269,
+  "bodySha256": "fa77b888654edf6325387739bdefbf02e966882256918bace5e50c926f1284de",
+  "title": "GitHub - omerakben/opus-nx: 🧠 Open-source AI reasoning research platform — persistent reasoning graphs, multi-agent swarms, Graph-of-Thoughts, and MemGPT-style memory. Built with Claude Opus 4.6 by Anthropic. Explore, verify, and fork AI t",
+  "github": {
+    "owner": "omerakben",
+    "repo": "opus-nx",
+    "apiStatus": "unavailable"
+  }
+}

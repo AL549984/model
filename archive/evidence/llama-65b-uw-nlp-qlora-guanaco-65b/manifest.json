@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-65b-uw-nlp-qlora-guanaco-65b",
+  "modelId": "llama-65b",
+  "modelName": "Llama 65B",
+  "title": "University of Washington 用 LLaMA 65B 通过 QLoRA 训练 Guanaco 65B 指令聊天模型",
+  "evidenceFingerprint": "595b0f1e1c6d790ff29faeca9b846930475640c543a1808eba8833c736670ede",
+  "capturedAt": "2026-06-27T22:37:28.295Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/artidoro/qlora",
+      "snapshotPath": "archive/evidence/llama-65b-uw-nlp-qlora-guanaco-65b/original-evidence-8f3cc240c0cb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - artidoro/qlora: QLoRA: Efficient Finetuning of Quantized LLMs · GitHub",
+      "bodySha256": "5e84c88480c9017782ed5e8e9e4484f1f7d062de2b007f313fafe29adf0366d7",
+      "capturedAt": "2026-06-27T22:37:27.023Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/timdettmers/guanaco-65b-merged",
+      "snapshotPath": "archive/evidence/llama-65b-uw-nlp-qlora-guanaco-65b/artifact-1-db88fdf9a77f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "timdettmers/guanaco-65b-merged · Hugging Face",
+      "bodySha256": "454da044ad4b0a66f846c63d2fe79c527931650fbcb62c9a1313eee1da8a4f77",
+      "capturedAt": "2026-06-27T22:37:27.952Z",
+      "error": ""
+    }
+  ]
+}

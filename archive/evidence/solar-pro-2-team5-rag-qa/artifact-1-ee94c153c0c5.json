@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:32.981Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/juminsuh/Team5_NLP_Upstage/blob/main/run.py",
+  "finalUrl": "https://github.com/juminsuh/Team5_NLP_Upstage/blob/main/run.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1fea2b8b7415cd178ad0793e22d5cf6f\"",
+  "lastModified": null,
+  "bodyBytes": 303658,
+  "bodySha256": "38b3066c450411a6bf576d830f10e2a067c8632612108550016586fecf6586b4",
+  "title": "Team5_NLP_Upstage/run.py at main · juminsuh/Team5_NLP_Upstage · GitHub",
+  "github": {
+    "owner": "juminsuh",
+    "repo": "Team5_NLP_Upstage",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-preview-agent-laboratory-research-workflow-20260627",
+  "modelId": "o1-preview",
+  "modelName": "o1-preview",
+  "title": "Agent Laboratory offers o1-preview-backed autonomous research workflows",
+  "evidenceFingerprint": "44e0b22ab32651e8a63ef79cf98a3c75418b683d2ef34adf2a45bd677594a2bb",
+  "capturedAt": "2026-06-27T22:51:43.493Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o1-preview-agent-laboratory-research-workflow-20260627/original-evidence-8f0091291e3c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AgentLaboratory/README.md at main · SamuelSchmidgall/AgentLaboratory · GitHub",
+      "bodySha256": "2d98e353c0fd318ee99c09383292d4a7b695975d87dd7534cc552e4fd864035c",
+      "capturedAt": "2026-06-27T22:51:41.355Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+      "snapshotPath": "archive/evidence/o1-preview-agent-laboratory-research-workflow-20260627/artifact-1-a56b87884a2f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SamuelSchmidgall/AgentLaboratory: Agent Laboratory is an end-to-end autonomous research workflow meant to assist you as the human researcher toward implementing your research ideas · GitHub",
+      "bodySha256": "6d98c6887e76738955d216beed1d20860333397439fe3d1c82e007f8ca275a2e",
+      "capturedAt": "2026-06-27T22:51:42.424Z",
+      "error": ""
+    }
+  ]
+}

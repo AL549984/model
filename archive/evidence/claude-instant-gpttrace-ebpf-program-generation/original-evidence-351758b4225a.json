@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:55.754Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/eunomia-bpf/GPTtrace/blob/main/gpttrace/execute.py#L42-L48",
+  "finalUrl": "https://github.com/eunomia-bpf/GPTtrace/blob/main/gpttrace/execute.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f39748572872eed11d04570a7798ba7f\"",
+  "lastModified": null,
+  "bodyBytes": 281166,
+  "bodySha256": "e8a50ab4dd86d56b466f43e3db23c5a58c5c66505a454c551964a9f840cfc962",
+  "title": "GPTtrace/gpttrace/execute.py at main · eunomia-bpf/GPTtrace · GitHub",
+  "github": {
+    "owner": "eunomia-bpf",
+    "repo": "GPTtrace",
+    "apiStatus": "unavailable"
+  }
+}

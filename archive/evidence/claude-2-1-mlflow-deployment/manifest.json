@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-1-mlflow-deployment",
+  "modelId": "claude-2-1",
+  "modelName": "Claude 2.1",
+  "title": "MLflow adds Claude 2.1 chat and streaming support to its deployment server",
+  "evidenceFingerprint": "fcc5b1cf6aae6edd99767ebe1f0339f7371e30f740f0c57f3b741813a2c1c059",
+  "capturedAt": "2026-06-27T20:16:50.328Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mlflow/mlflow/pull/11195",
+      "snapshotPath": "archive/evidence/claude-2-1-mlflow-deployment/original-evidence-fdd3ae86db8e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Implement chat &amp; chat streaming for Anthropic in Deployments by gabrielfu · Pull Request #11195 · mlflow/mlflow · GitHub",
+      "bodySha256": "24c9506afe35a4d232fb3b52a4ebd93f88b3c3925df9e516b99a24d0b2769b81",
+      "capturedAt": "2026-06-27T20:16:47.444Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mlflow/mlflow/pull/11195",
+      "snapshotPath": "archive/evidence/claude-2-1-mlflow-deployment/artifact-1-fdd3ae86db8e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Implement chat &amp; chat streaming for Anthropic in Deployments by gabrielfu · Pull Request #11195 · mlflow/mlflow · GitHub",
+      "bodySha256": "3c7afb2aff424eb43a7a0cac04dd089dce68b03d37c7a01c090696fa39e7f5e2",
+      "capturedAt": "2026-06-27T20:16:49.786Z",
+      "error": ""
+    }
+  ]
+}

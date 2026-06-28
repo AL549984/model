@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-exp-comfyui-multimodal",
+  "modelId": "gemini-2-0-flash-exp",
+  "modelName": "Gemini 2.0 Flash (exp)",
+  "title": "ComfyUI-Gemini_Flash_2.0_Exp — Multimodal analysis and image generation node for ComfyUI workflows",
+  "evidenceFingerprint": "38e5f886b78fd68e1f91a19250a1808fdab54f8f6b8207a639c7037e67015a26",
+  "capturedAt": "2026-06-27T21:41:00.959Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-comfyui-multimodal/original-evidence-72824f4ffe37.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp: A ComfyUI custom node that integrates Google&#39;s Gemini Flash 2.0 Experimental model, enabling multimodal analysis of text, images, video frames, and audio directly within ComfyUI workflo",
+      "bodySha256": "47c4b7f718e2344a2656a864ed9682195743be13fc3b4f0170bba77de89e2c3b",
+      "capturedAt": "2026-06-27T21:40:59.512Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-comfyui-multimodal/artifact-1-72824f4ffe37.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp: A ComfyUI custom node that integrates Google&#39;s Gemini Flash 2.0 Experimental model, enabling multimodal analysis of text, images, video frames, and audio directly within ComfyUI workflo",
+      "bodySha256": "0462f25b4bc51ab4845cd5f972c5800e5c78d698022f65c74cfe257092c49a62",
+      "capturedAt": "2026-06-27T21:41:00.458Z",
+      "error": ""
+    }
+  ]
+}

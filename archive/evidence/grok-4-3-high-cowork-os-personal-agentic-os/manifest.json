@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-cowork-os-personal-agentic-os",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "CoWork-OS 将 Grok 4.3 接入本地优先个人 Agentic OS",
+  "evidenceFingerprint": "1bb95e008470ae271ee0269d4227326c6f260e327b7aa2b3f479a5da828605b6",
+  "capturedAt": "2026-06-27T21:15:03.668Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/CoWork-OS/CoWork-OS/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-cowork-os-personal-agentic-os/original-evidence-1ec0f6840984.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "23bc2c09bd3ed1ac13a045859c1d144170b59c9d0096d3f188a112f680e06412",
+      "capturedAt": "2026-06-27T21:15:00.960Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CoWork-OS/CoWork-OS",
+      "snapshotPath": "archive/evidence/grok-4-3-high-cowork-os-personal-agentic-os/artifact-1-2e5233e5a467.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CoWork-OS/CoWork-OS: Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and artifacts. · GitHub",
+      "bodySha256": "654dc4fc4e863412562d384741f4410127af2d2e7467f2d5c82405f763b3af31",
+      "capturedAt": "2026-06-27T21:15:01.375Z",
+      "error": ""
+    }
+  ]
+}

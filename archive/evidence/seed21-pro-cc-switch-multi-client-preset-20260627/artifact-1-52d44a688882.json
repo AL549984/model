@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:57.499Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/farion1231/cc-switch",
+  "finalUrl": "https://github.com/farion1231/cc-switch",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7e331e59429671ed2c6d5446b8048a8c\"",
+  "lastModified": null,
+  "bodyBytes": 520435,
+  "bodySha256": "d51582400aeeeaf9cadd00c07b90a6ecca840e65553fc8be49e444d4af20c320",
+  "title": "GitHub - farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI &amp; Hermes Agent. Only official website: ccswitch.io · GitHub",
+  "github": {
+    "owner": "farion1231",
+    "repo": "cc-switch",
+    "apiStatus": "unavailable"
+  }
+}

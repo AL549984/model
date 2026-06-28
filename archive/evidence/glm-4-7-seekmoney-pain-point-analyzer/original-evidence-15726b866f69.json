@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:33.828Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/liangdabiao/SeekMoney-ai",
+  "finalUrl": "https://github.com/liangdabiao/SeekMoney-ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b703cbdcea9b50de09ee74a959dfa4a2\"",
+  "lastModified": null,
+  "bodyBytes": 425631,
+  "bodySha256": "f8dd18409b2e94d0fa91212b0492a4defbec0ff81e3eaf10e07d170e6e1a26a6",
+  "title": "GitHub - liangdabiao/SeekMoney-ai: SeekMoney-ai ，找商机，覆盖全视频社交媒体渠道。- 多平台数据采集（抖音、小红书、TikTok、Bilibili、微信视频号、YouTube） - 基于 openai兼容/GLM + embedding + DBSCAN 的语义聚类算法 - 调用 openai兼容/GLM-4.7 思考模型深度分析用户痛点 - 智能优先级评分系统（需求强度 + 市场规模 + 竞争度） · GitHub",
+  "github": {
+    "owner": "liangdabiao",
+    "repo": "SeekMoney-ai",
+    "apiStatus": "unavailable"
+  }
+}

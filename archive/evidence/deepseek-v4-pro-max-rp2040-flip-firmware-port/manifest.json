@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v4-pro-max-rp2040-flip-firmware-port",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "DeepSeek V4 Pro Max used to port embedded firmware from CH32V203 to RP2040-Zero",
+  "evidenceFingerprint": "755da0ff75ab6008db7c555f24702c495ca3135882c7f652d08e6b94cb44e67d",
+  "capturedAt": "2026-06-27T21:34:34.167Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/86thAuspiciousVerse/RP2040-FLIP",
+      "snapshotPath": "archive/evidence/deepseek-v4-pro-max-rp2040-flip-firmware-port/original-evidence-c3a1ea348ad7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 86thAuspiciousVerse/RP2040-FLIP: Testing Deepseek-v4-pro-max coding capability: Porting fluid_vb from CH32V203 to RP2040-Zero · GitHub",
+      "bodySha256": "fadc37e913a88de106cbeefcbc6eabc17abe7024c72cf2096a72b9751486b48e",
+      "capturedAt": "2026-06-27T21:34:32.580Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/86thAuspiciousVerse/RP2040-FLIP",
+      "snapshotPath": "archive/evidence/deepseek-v4-pro-max-rp2040-flip-firmware-port/artifact-1-c3a1ea348ad7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 86thAuspiciousVerse/RP2040-FLIP: Testing Deepseek-v4-pro-max coding capability: Porting fluid_vb from CH32V203 to RP2040-Zero · GitHub",
+      "bodySha256": "799bb09f53f5f7c203c5bc4f58bfe84216889be42e6d12250f1d425d14e8d4ca",
+      "capturedAt": "2026-06-27T21:34:33.677Z",
+      "error": ""
+    }
+  ]
+}

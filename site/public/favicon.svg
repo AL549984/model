@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Frontier Models Atlas">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Model Atlas 模型图谱">
   <rect width="64" height="64" rx="14" fill="#101010"/>
   <path d="M16 18h32v6H16zM16 30h24v6H16zM16 42h32v6H16z" fill="#f5f2ea"/>
   <circle cx="48" cy="33" r="6" fill="#ff6b35"/>

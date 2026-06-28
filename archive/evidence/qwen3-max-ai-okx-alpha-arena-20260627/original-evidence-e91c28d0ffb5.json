@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:07.587Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ai-okx/alpha-arena-okx",
+  "finalUrl": "https://github.com/ai-okx/alpha-arena-okx",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b458ec5f283624afefc168f6c6f26143\"",
+  "lastModified": null,
+  "bodyBytes": 306514,
+  "bodySha256": "a106584a08595fc898540be189a114d937a4df47ed5f9266ca0e921f927964c5",
+  "title": "GitHub - ai-okx/alpha-arena-okx: 比特币BTC加密货币ai自动交易机器人，基于nof1:alphaarena项目，让ai模型deepseek或qwen3-max自动炒币的程序，支持欧易okx交易所。无需人工干预，请看演示网站（演示为新版本，正在持续测试中，稳定盈利后更新，请关注更新） · GitHub",
+  "github": {
+    "owner": "ai-okx",
+    "repo": "alpha-arena-okx",
+    "apiStatus": "unavailable"
+  }
+}

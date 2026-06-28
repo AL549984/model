@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:34.812Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/opencode-ai/opencode/blob/main/internal/llm/models/groq.go#L23",
+  "finalUrl": "https://github.com/opencode-ai/opencode/blob/main/internal/llm/models/groq.go",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1cc6a126c8a8f0463c126c624786a9df\"",
+  "lastModified": null,
+  "bodyBytes": 280308,
+  "bodySha256": "d8e9195d495e61d4069febbdca40362decb1a67ffd5bc7c780aa8036d620fce8",
+  "title": "opencode/internal/llm/models/groq.go at main · opencode-ai/opencode · GitHub",
+  "github": {
+    "owner": "opencode-ai",
+    "repo": "opencode",
+    "apiStatus": "unavailable"
+  }
+}

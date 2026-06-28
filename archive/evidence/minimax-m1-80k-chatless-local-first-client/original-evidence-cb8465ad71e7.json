@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:16.395Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kamjin3086/chatless/blob/main/src/lib/provider/staticModels.ts#L311-L314",
+  "finalUrl": "https://github.com/kamjin3086/chatless/blob/main/src/lib/provider/staticModels.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e6065d4e986cb02332909dbbc6b82cc5\"",
+  "lastModified": null,
+  "bodyBytes": 1006101,
+  "bodySha256": "303ecf33b79a532cb376a47a531d232f5e62f82be7c36aaded6250c55a48fd7e",
+  "title": "chatless/src/lib/provider/staticModels.ts at main · kamjin3086/chatless · GitHub",
+  "github": {
+    "owner": "kamjin3086",
+    "repo": "chatless",
+    "apiStatus": "unavailable"
+  }
+}

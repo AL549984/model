@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:46.615Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/chenzinuo2005/music_creator/blob/master/README.md",
+  "finalUrl": "https://github.com/chenzinuo2005/music_creator/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7b7a6ed75cd5f6e8c38d85ef914492af\"",
+  "lastModified": null,
+  "bodyBytes": 293686,
+  "bodySha256": "cdd971b8237147f520a2499db2f1db18962dae7ace1f2404efed6c141f6c5847",
+  "title": "music_creator/README.md at master · chenzinuo2005/music_creator · GitHub",
+  "github": {
+    "owner": "chenzinuo2005",
+    "repo": "music_creator",
+    "htmlUrl": "https://github.com/chenzinuo2005/music_creator",
+    "defaultBranch": "master",
+    "defaultBranchSha": "55174eb0896ecc77a623ae01289c88c62342c9da",
+    "pushedAt": "2026-05-02T08:09:25Z",
+    "updatedAt": "2026-05-16T16:08:51Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

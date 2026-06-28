@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gc5-comfyui-gemini-flash-node",
+  "modelId": "gemini-1-5-flash-may",
+  "modelName": "Gemini 1.5 Flash (May)",
+  "title": "ComfyUI_Gemini_Flash: Custom ComfyUI Node for Multimodal AI Workflows Using Gemini 1.5 Flash 002",
+  "evidenceFingerprint": "448a030cf48ed8cd8c01f7f2c624111eb83bb0d273f3f17398cef078cbd695ec",
+  "capturedAt": "2026-06-27T21:40:18.615Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ShmuelRonen/ComfyUI_Gemini_Flash",
+      "snapshotPath": "archive/evidence/gc5-comfyui-gemini-flash-node/original-evidence-dfa4240541d4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ShmuelRonen/ComfyUI_Gemini_Flash: A custom node for ComfyUI, that integrating the capabilities of the Gemini 1.5 Flash model. including vision and text · GitHub",
+      "bodySha256": "76e5353fba7e5691b3b43757a957c00a910592348123b138ccef3a1574572524",
+      "capturedAt": "2026-06-27T21:40:15.752Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ShmuelRonen/ComfyUI_Gemini_Flash",
+      "snapshotPath": "archive/evidence/gc5-comfyui-gemini-flash-node/artifact-1-dfa4240541d4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ShmuelRonen/ComfyUI_Gemini_Flash: A custom node for ComfyUI, that integrating the capabilities of the Gemini 1.5 Flash model. including vision and text · GitHub",
+      "bodySha256": "b645e9cc5683834c6ded57f756b842e3ef02626d24bc3d31785f3c34fb335025",
+      "capturedAt": "2026-06-27T21:40:18.154Z",
+      "error": ""
+    }
+  ]
+}

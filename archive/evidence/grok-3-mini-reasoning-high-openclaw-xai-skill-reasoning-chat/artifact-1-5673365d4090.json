@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:25.249Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mvanhorn/clawdbot-skill-xai",
+  "finalUrl": "https://github.com/mvanhorn/clawdbot-skill-xai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"73755f94384f12ed0c1f5b979c406c7e\"",
+  "lastModified": null,
+  "bodyBytes": 293298,
+  "bodySha256": "37c46e2a38b0b7997c2f55dac7907242ed971269382f4f56626bc9c0795f3274",
+  "title": "GitHub - mvanhorn/clawdbot-skill-xai: Chat with xAI Grok models - reasoning, vision analysis, code generation, multi-turn conversations. Supports Grok-4, Grok-4.20, Grok-3, Grok-3-mini. OpenClaw skill. · GitHub",
+  "github": {
+    "owner": "mvanhorn",
+    "repo": "clawdbot-skill-xai",
+    "apiStatus": "unavailable"
+  }
+}

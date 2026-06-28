@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-thinking-doriandarko-kimi-writer",
+  "modelId": "kimi-k2-thinking",
+  "modelName": "Kimi K2 Thinking",
+  "title": "Doriandarko built an autonomous creative-writing agent with Kimi K2 Thinking",
+  "evidenceFingerprint": "ab24f963240ead584eb4d43cfb8f4a485a1ff9184c358404f06909f303020604",
+  "capturedAt": "2026-06-27T22:29:42.179Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Doriandarko/kimi-writer/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-doriandarko-kimi-writer/original-evidence-b8c811d9da23.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "kimi-writer/README.md at main · Doriandarko/kimi-writer · GitHub",
+      "bodySha256": "b33ebd8c58b3c36373ced181b4da3c91ddfe38366014f68fc59287f6c983f35f",
+      "capturedAt": "2026-06-27T22:29:40.065Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Doriandarko/kimi-writer",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-doriandarko-kimi-writer/artifact-1-bd10e57ff7f7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Doriandarko/kimi-writer: AI writing agent powered by kimi-k2-thinking - autonomously creates novels and stories with deep reasoning · GitHub",
+      "bodySha256": "033e011694c7a8afb3aa6400d8f4b963171bbd7fe8ee1c1675c8751de3d8b593",
+      "capturedAt": "2026-06-27T22:29:41.068Z",
+      "error": ""
+    }
+  ]
+}

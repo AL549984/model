@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:35.962Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Christopher-Schulze/ClankWork/blob/main/README.md",
+  "finalUrl": "https://github.com/Christopher-Schulze/ClankWork/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f0154ae9db118ee94ec0ca43c203d84c\"",
+  "lastModified": null,
+  "bodyBytes": 347888,
+  "bodySha256": "92c5ad4e6d70ed0283dc7b0c853dfa5fe9c839f3220ed44eaa78c49305b3cfa0",
+  "title": "ClankWork/README.md at main · Christopher-Schulze/ClankWork · GitHub",
+  "github": {
+    "owner": "Christopher-Schulze",
+    "repo": "ClankWork",
+    "htmlUrl": "https://github.com/Christopher-Schulze/ClankWork",
+    "defaultBranch": "main",
+    "defaultBranchSha": "a17d51293772aed4f4462e85abc04766cc88b3a7",
+    "pushedAt": "2026-05-13T09:18:23Z",
+    "updatedAt": "2026-05-13T09:18:35Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

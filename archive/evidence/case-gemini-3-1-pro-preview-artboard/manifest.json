@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-gemini-3-1-pro-preview-artboard",
+  "modelId": "gemini-3-1-pro-preview",
+  "modelName": "Gemini 3.1 Pro Preview",
+  "title": "Gemini Artboard — Real-Time Creative Coding Playground Powered by Gemini 3.1 Pro",
+  "evidenceFingerprint": "d8f26a65e9042eb09fb7e52929b2169faeb8103f5b61ee2df1258b133510efb8",
+  "capturedAt": "2026-06-27T20:15:46.219Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Shubhamsaboo/gemini-artboard",
+      "snapshotPath": "archive/evidence/case-gemini-3-1-pro-preview-artboard/original-evidence-f4a8a8d5d9e6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Shubhamsaboo/gemini-artboard: Self-contained creative coding playground for Gemini 3.1 Pro · GitHub",
+      "bodySha256": "67562474fb599ab476bb948d742523f769ce38d60cfedc58d04428e9dbb1a14f",
+      "capturedAt": "2026-06-27T20:15:43.311Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Shubhamsaboo/gemini-artboard",
+      "snapshotPath": "archive/evidence/case-gemini-3-1-pro-preview-artboard/artifact-1-f4a8a8d5d9e6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Shubhamsaboo/gemini-artboard: Self-contained creative coding playground for Gemini 3.1 Pro · GitHub",
+      "bodySha256": "df131e8483c432aa41f8ceda4a664e0a8665128ca893a280ab33c4e119a3e605",
+      "capturedAt": "2026-06-27T20:15:45.530Z",
+      "error": ""
+    }
+  ]
+}

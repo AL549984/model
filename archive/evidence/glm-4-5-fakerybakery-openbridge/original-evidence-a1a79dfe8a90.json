@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:30.892Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/fakerybakery/openbridge/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/fakerybakery/openbridge/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "877",
+  "etag": "W/\"3564aff9da74db6d0acd2c3befac58a5fa2720c98d6874fcd9aa5565ae31256e\"",
+  "lastModified": null,
+  "bodyBytes": 1572,
+  "bodySha256": "adc21ea8d39c1e3b77663e4a9cb6e640493990da53759e10d95ad2bae85fbd9f",
+  "title": "",
+  "github": null
+}

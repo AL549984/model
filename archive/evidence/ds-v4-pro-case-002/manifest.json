@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v4-pro-case-002",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "Silicon Civilization Stock Trade: AI-Powered A-Share Trading Signal System",
+  "evidenceFingerprint": "d03de14ab9546d1b381da26dd0a142ef6ce156bce7636c21f4c3a13794b1f761",
+  "capturedAt": "2026-06-27T21:34:45.307Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/madeye/silicon-civilization-stock-trade",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-002/original-evidence-c07705dbf5c7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - madeye/silicon-civilization-stock-trade: 硅基文明消费股交易策略系统 · DeepSeek v4-pro · akshare · 回测 · Next.js · GitHub",
+      "bodySha256": "4cbab737700cbeecfe11e6e6ea8629a658b2e931e38e3d741767ff4f161b44ce",
+      "capturedAt": "2026-06-27T21:34:43.084Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://scs.maxlv.net",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-002/artifact-1-3eab0806c5f2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "硅基文明消费股 · 静态快照",
+      "bodySha256": "a853c33b502f2d54f05ebeb9e530d2de153f425a24bc5119ef2dd7cf1196b9f0",
+      "capturedAt": "2026-06-27T21:34:44.295Z",
+      "error": ""
+    }
+  ]
+}

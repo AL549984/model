@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:10.855Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Chanzhaoyu/chatgpt-web/blob/main/README.md#L41-L58",
+  "finalUrl": "https://github.com/Chanzhaoyu/chatgpt-web/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b7ef5e9dd21cad002b38c73b08dfee00\"",
+  "lastModified": null,
+  "bodyBytes": 394306,
+  "bodySha256": "19595cc1ae4bfff9e0c0f49477ac2f73e349e6907adc7e0f7127ebccd0b588b1",
+  "title": "chatgpt-web/README.md at main · Chanzhaoyu/chatgpt-web · GitHub",
+  "github": {
+    "owner": "Chanzhaoyu",
+    "repo": "chatgpt-web",
+    "apiStatus": "unavailable"
+  }
+}

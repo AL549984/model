@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:43.214Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/small-cactus/MagicTerminal/blob/main/README.md",
+  "finalUrl": "https://github.com/small-cactus/MagicTerminal/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"16dd47d0e7fdb07d1ee4fba2e88da726\"",
+  "lastModified": null,
+  "bodyBytes": 273957,
+  "bodySha256": "3765abed7e44a62d965ba09733302e9a1c41a6e5d1e3b4ce2f9847b0ceba5e4b",
+  "title": "MagicTerminal/README.md at main · small-cactus/MagicTerminal · GitHub",
+  "github": {
+    "owner": "small-cactus",
+    "repo": "MagicTerminal",
+    "apiStatus": "unavailable"
+  }
+}

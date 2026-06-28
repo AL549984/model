@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:41.698Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/NickYoung618/hunan-cultural-heritage-qa",
+  "finalUrl": "https://github.com/NickYoung618/hunan-cultural-heritage-qa",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6d5dc6ceddea39a62cff39f03530cd33\"",
+  "lastModified": null,
+  "bodyBytes": 343177,
+  "bodySha256": "828cd60a2cde94e91bd76cac23906b829b5abf567e1f13d8ceb9efd4717fad6e",
+  "title": "GitHub - NickYoung618/hunan-cultural-heritage-qa: 一个基于 LangGraph 状态机编排的多智能体混合检索（GraphRAG + VectorRAG）异构问答系统，旨在通过大模型（mimo-v2.5-pro）的路由分发能力，解决传统图谱在模糊语义下检索能力不足、以及在大规模数据长周期问答下的知识幻觉与兜底生存问题。 · GitHub",
+  "github": {
+    "owner": "NickYoung618",
+    "repo": "hunan-cultural-heritage-qa",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cf5-case-claude-citizen",
+  "modelId": "claude-fable-5",
+  "modelName": "Claude Fable 5",
+  "title": "Claude Citizen browser space MMO prototype",
+  "evidenceFingerprint": "31bb20f47eea83d98343349dc9cd2fa7b539b18d786bce93d7ac0c5ff228d1e0",
+  "capturedAt": "2026-06-27T20:16:12.655Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/huiung/claude-citizen",
+      "snapshotPath": "archive/evidence/cf5-case-claude-citizen/original-evidence-dc63640c50e9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - huiung/claude-citizen: An open-source attempt to finish Star Citizen before Star Citizen does. Built with Claude Fable 5. · GitHub",
+      "bodySha256": "252edb6bb8881dd11948c564529ec55cc96e936262c2db253e1383ad3103ec37",
+      "capturedAt": "2026-06-27T20:16:03.343Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://claudecitizen.com",
+      "snapshotPath": "archive/evidence/cf5-case-claude-citizen/artifact-1-8771f2fc18e0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude Citizen — finish Star Citizen before Star Citizen does",
+      "bodySha256": "5bad5ccbcf64409d9d90092faabf5cbf8d33fec2983149e6489e7bf56f1cf2f7",
+      "capturedAt": "2026-06-27T20:16:04.941Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-2",
+      "url": "https://github.com/huiung/claude-citizen/releases/download/v0.7-cinematic/claude-citizen-showcase-1080p.mp4",
+      "snapshotPath": "archive/evidence/cf5-case-claude-citizen/artifact-2-a1ef70672612.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "4c0c9d7b5028359247bcf645ce46fd60bd33313c9efeea7fc8c582f779172cbc",
+      "capturedAt": "2026-06-27T20:16:05.837Z",
+      "error": ""
+    }
+  ]
+}

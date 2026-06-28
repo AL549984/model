@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:28.808Z",
+  "kind": "artifact-1",
+  "url": "https://www.dingtalk.com/",
+  "finalUrl": "https://www.dingtalk.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 54356,
+  "bodySha256": "02470cd0f1ad894212ce651cb96c613fa696bf254aaa5f7a1dad1064695054f1",
+  "title": "钉钉，AI时代工作方式",
+  "github": null
+}

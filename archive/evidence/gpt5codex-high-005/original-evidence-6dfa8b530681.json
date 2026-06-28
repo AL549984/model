@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:19.120Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/openai/completions-responses-migration-pack",
+  "finalUrl": "https://github.com/openai/completions-responses-migration-pack",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0df970fb74b9aa98e9378d2b55f8c59f\"",
+  "lastModified": null,
+  "bodyBytes": 331721,
+  "bodySha256": "1cfdac9273f0826e99345c545da4dbf564f3cd8366ef6d0d1b6c66bdb3aba110",
+  "title": "GitHub - openai/completions-responses-migration-pack: Developer toolkit to migrate applications from the legacy OpenAI Completions/Chat Completions APIs to the unified Responses API, guided by Codex CLI · GitHub",
+  "github": {
+    "owner": "openai",
+    "repo": "completions-responses-migration-pack",
+    "apiStatus": "unavailable"
+  }
+}

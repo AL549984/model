@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:47.708Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/syaikhipin/KIMI-AI-Humanizer",
+  "finalUrl": "https://github.com/syaikhipin/KIMI-AI-Humanizer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"27aa32bb1ebf9308c85f159dd9c39245\"",
+  "lastModified": null,
+  "bodyBytes": 254582,
+  "bodySha256": "c040433cae4f9b049925d026f2d0cd8ecdcf4173b5c199203a02d28f1536ba8c",
+  "title": "GitHub - syaikhipin/KIMI-AI-Humanizer: Humanize Text Using Kimi K2 Thinking · GitHub",
+  "github": {
+    "owner": "syaikhipin",
+    "repo": "KIMI-AI-Humanizer",
+    "apiStatus": "unavailable"
+  }
+}

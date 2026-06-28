@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-vscode-azure-byok-20260523",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "VS Code forwards Azure BYOK GPT-5.1 high reasoning effort through the Responses API",
+  "evidenceFingerprint": "6d21c11c4470ba85d8bb1c7a7627264e958bf377574ed93ae05d6abc6642fec5",
+  "capturedAt": "2026-06-27T22:01:37.566Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/microsoft/vscode/pull/318118",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-vscode-azure-byok-20260523/original-evidence-281cb048ccbb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Azure BYOK: support configurable Entra auth provider and scopes by jimstrang · Pull Request #318118 · microsoft/vscode · GitHub",
+      "bodySha256": "e23f140542d3f3760fa91e1932f340e0b50fc42efc92ef6170afdc59b4ff2535",
+      "capturedAt": "2026-06-27T22:01:34.228Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/microsoft/vscode",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-vscode-azure-byok-20260523/artifact-1-0d8bce7e29a5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - microsoft/vscode: Visual Studio Code · GitHub",
+      "bodySha256": "01776141370c4b891432b2a17b4af93ee384041628f137e15a5cd3acf5fe728f",
+      "capturedAt": "2026-06-27T22:01:36.325Z",
+      "error": ""
+    }
+  ]
+}

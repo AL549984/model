@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:53.878Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Vidhyadhar75/rag-based-assistant/blob/main/README.md",
+  "finalUrl": "https://github.com/Vidhyadhar75/rag-based-assistant/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"238bef156bf8b9d9731ec32480a1947f\"",
+  "lastModified": null,
+  "bodyBytes": 275436,
+  "bodySha256": "1b7d81d73f5452b0df34c750a64e5331cdcad13c2496c0c9016c2111948558f0",
+  "title": "rag-based-assistant/README.md at main · Vidhyadhar75/rag-based-assistant · GitHub",
+  "github": {
+    "owner": "Vidhyadhar75",
+    "repo": "rag-based-assistant",
+    "apiStatus": "unavailable"
+  }
+}

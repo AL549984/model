@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-claude3opus-wshobson-financial-chat",
+  "modelId": "claude-3-opus",
+  "modelName": "Claude 3 Opus",
+  "title": "Seth Hobson 构建基于 LangChain + Claude 3 Opus 的智能股票分析对话工具",
+  "evidenceFingerprint": "fc2888b2a8dbb9a6289e5e887701bcde843ceca73642c14747283d3e22a17959",
+  "capturedAt": "2026-06-27T20:15:43.310Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://sethhobson.com/2024/03/building-an-agentic-stock-analysis-tool-with-langchain-openbb-and-claude-3-opus",
+      "snapshotPath": "archive/evidence/case-claude3opus-wshobson-financial-chat/original-evidence-d0a4de001229.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Building an Agentic Stock Analysis Tool with LangChain, OpenBB, and Claude 3 Opus » Seth Hobson",
+      "bodySha256": "6faf4239140d4366fdff701d206c5529298e5a19fcc57fa87aec6a43566bd97d",
+      "capturedAt": "2026-06-27T20:15:27.182Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/wshobson/financial-chat",
+      "snapshotPath": "archive/evidence/case-claude3opus-wshobson-financial-chat/artifact-1-38668bd8f16d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - wshobson/financial-chat: A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus. · GitHub",
+      "bodySha256": "8b475c5f34a55fcac7a5d020da79ca6df4be34587f2945426b205d50b626c23b",
+      "capturedAt": "2026-06-27T20:15:30.952Z",
+      "error": ""
+    }
+  ]
+}

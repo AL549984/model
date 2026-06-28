@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4o-aug-git-bob-github-issue-agent",
+  "modelId": "gpt-4o-aug",
+  "modelName": "GPT-4o (Aug)",
+  "title": "git-bob uses GPT-4o 2024-08-06 to solve GitHub issues and pull requests",
+  "evidenceFingerprint": "4efc46155613691c60d52d41e52e3b7bc6957730e17f1caca31767c01ea53291",
+  "capturedAt": "2026-06-27T22:00:58.049Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/haesleinhuepf/git-bob/blob/main/README.md#installation",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-git-bob-github-issue-agent/original-evidence-d1004b6c96be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "git-bob/README.md at main · haesleinhuepf/git-bob · GitHub",
+      "bodySha256": "6a47902eac15e47a1992d479b5d04ac863398ddad4b408f6e0fc9580dc803394",
+      "capturedAt": "2026-06-27T22:00:54.904Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/haesleinhuepf/git-bob",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-git-bob-github-issue-agent/artifact-1-0c9ebc126f77.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - haesleinhuepf/git-bob: git-bob uses AI to solve Github-issues. It runs inside the Github CI, no need to install anything on your computer. · GitHub",
+      "bodySha256": "3252caf43b984855ace11e4fedefb7200cb14636faf4ac4930b7ed5241946846",
+      "capturedAt": "2026-06-27T22:00:56.476Z",
+      "error": ""
+    }
+  ]
+}

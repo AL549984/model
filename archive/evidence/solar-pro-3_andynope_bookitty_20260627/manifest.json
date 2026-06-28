@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3_andynope_bookitty_20260627",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "Bookitty Kitty accounting chatbot with Solar Pro 3 first in fallback chain",
+  "evidenceFingerprint": "84569c56dc0b619002b43dc5c0ddeb0bbd526dba0ee401dfdd9a07fe2afd8279",
+  "capturedAt": "2026-06-27T23:24:41.162Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AndyNope/bookitty/blob/main/api/chat.php",
+      "snapshotPath": "archive/evidence/solar-pro-3_andynope_bookitty_20260627/original-evidence-0aad4c1fe802.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "bookitty/api/chat.php at main · AndyNope/bookitty · GitHub",
+      "bodySha256": "3fbb2d4d36b7e9d9f28700773a78b5f29e48d7b101623cab4f78f890a8ce7a8b",
+      "capturedAt": "2026-06-27T23:24:37.639Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://bookitty.bidebliss.com",
+      "snapshotPath": "archive/evidence/solar-pro-3_andynope_bookitty_20260627/artifact-1-1f704fe715fb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Bookitty",
+      "bodySha256": "241b76d82ce90c94f1df040d65c8ed335acdb7da7f040043a3891d4d3c2dad71",
+      "capturedAt": "2026-06-27T23:24:38.667Z",
+      "error": ""
+    }
+  ]
+}

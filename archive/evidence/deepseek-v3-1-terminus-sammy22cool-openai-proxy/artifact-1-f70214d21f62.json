@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:13.539Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sammy22cool/deepseek-terminus-proxy/blob/main/server.js",
+  "finalUrl": "https://github.com/sammy22cool/deepseek-terminus-proxy/blob/main/server.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4cc4ab18adfa62849c02270091b9f65c\"",
+  "lastModified": null,
+  "bodyBytes": 373074,
+  "bodySha256": "1ed9bf2fe8824e51f28342218d89736e9c2884232467374edf7b4ef42079962d",
+  "title": "deepseek-terminus-proxy/server.js at main · sammy22cool/deepseek-terminus-proxy · GitHub",
+  "github": {
+    "owner": "sammy22cool",
+    "repo": "deepseek-terminus-proxy",
+    "apiStatus": "unavailable"
+  }
+}

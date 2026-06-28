@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ktransformers-deepseek-v25-1210-local-inference",
+  "modelId": "deepseek-v2-5-dec",
+  "modelName": "DeepSeek-V2.5 (Dec)",
+  "title": "KTransformers 用户在消费级硬件上本地部署 DeepSeek-V2.5-1210 236B 实现高效推理",
+  "evidenceFingerprint": "085ffde62db7292ccc36d88aeb7cd9ed7cbe4c1356d2fde48bf8585a5ded55fb",
+  "capturedAt": "2026-06-27T22:29:59.242Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kvcache-ai/ktransformers/issues/701",
+      "snapshotPath": "archive/evidence/ktransformers-deepseek-v25-1210-local-inference/original-evidence-f619dcdba961.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Windows下测试完成！RTX 3090+96G DDR4+i7 10700K，跑236b模型速度能有5tps！671b的R1也能跑，不报错。 · Issue #701 · kvcache-ai/ktransformers · GitHub",
+      "bodySha256": "d4a28d50a2dab90e748ca3711a584cbd4b26d661ba64ca531a64cac359bbdb58",
+      "capturedAt": "2026-06-27T22:29:51.904Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "snapshotPath": "archive/evidence/ktransformers-deepseek-v25-1210-local-inference/artifact-1-cdbcdde49a4f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kvcache-ai/ktransformers: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations · GitHub",
+      "bodySha256": "2e438bf2c708b2f69a6a39972eb0bcfae95e4b7eee355e700ed2e2d0f3e12696",
+      "capturedAt": "2026-06-27T22:29:55.572Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-5-case-dgx-spark-self-hosted",
+  "modelId": "minimax-m2-5",
+  "modelName": "MiniMax-M2.5",
+  "title": "Self-hosted MiniMax M2.5 inference server on NVIDIA DGX Spark with OpenAI-compatible API",
+  "evidenceFingerprint": "54f53601c060611d01b67ec3957746894045041c6c5bc377866bae497df93f84",
+  "capturedAt": "2026-06-27T22:44:41.475Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/re-cinq/minimax-m2.5-nvidia-dgx",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-dgx-spark-self-hosted/original-evidence-db9ad58f2fd4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - re-cinq/minimax-m2.5-nvidia-dgx: Running MiniMax-M2.5 on a Nvidia DGX Spark with OpenCode on the remote machine · GitHub",
+      "bodySha256": "61d0692d2450b6a0390878c8eacae290d18746d13fc3b866271091eca67d31e5",
+      "capturedAt": "2026-06-27T22:44:39.609Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/re-cinq/minimax-m2.5-nvidia-dgx",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-dgx-spark-self-hosted/artifact-1-db9ad58f2fd4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - re-cinq/minimax-m2.5-nvidia-dgx: Running MiniMax-M2.5 on a Nvidia DGX Spark with OpenCode on the remote machine · GitHub",
+      "bodySha256": "2f5b4f1ac84e9672b46e2f79c186fcd3e63772ee8224502a1ab48662bf334080",
+      "capturedAt": "2026-06-27T22:44:40.992Z",
+      "error": ""
+    }
+  ]
+}

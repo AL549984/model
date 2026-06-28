@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-7-max-srichandrak-maieutic",
+  "modelId": "claude-opus-4-7-max",
+  "modelName": "Claude Opus 4.7 (max)",
+  "title": "Maieutic uses Claude Opus 4.7 to coach programming students and summarize learning signals for teachers",
+  "evidenceFingerprint": "219c2db90868c8551a2095c8012be65462e8076757511791ca8c5988379dd316",
+  "capturedAt": "2026-06-27T21:01:34.467Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/srichandrak/maieutic#readme",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-srichandrak-maieutic/original-evidence-0815084ca827.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - srichandrak/maieutic: Pedagogical IDE using Claude Opus 4.7 as a structured interlocutor — Anthropic Builder Hackathon MVP · GitHub",
+      "bodySha256": "12a37b93ca31d1238c43a835d45534f3c9bc0ba474f68bfb4aa83285f0a8b30e",
+      "capturedAt": "2026-06-27T21:01:31.962Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/srichandrak/maieutic",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-srichandrak-maieutic/artifact-1-f3df48a11887.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - srichandrak/maieutic: Pedagogical IDE using Claude Opus 4.7 as a structured interlocutor — Anthropic Builder Hackathon MVP · GitHub",
+      "bodySha256": "5e971539659142e4769c1fbb335536c51c173b8f3f604a8b28c78bf154221b85",
+      "capturedAt": "2026-06-27T21:01:33.870Z",
+      "error": ""
+    }
+  ]
+}

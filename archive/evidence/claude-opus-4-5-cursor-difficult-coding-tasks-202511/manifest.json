@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-5-cursor-difficult-coding-tasks-202511",
+  "modelId": "claude-opus-4-5",
+  "modelName": "Claude Opus 4.5",
+  "title": "Cursor 在困难编码任务中集成 Claude Opus 4.5",
+  "evidenceFingerprint": "9d27cdc7be215065066fff01adbb6036ef08452c981d5eadb8ec840126ac97e1",
+  "capturedAt": "2026-06-27T23:26:42.747Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5#cursor-michael-truell",
+      "snapshotPath": "archive/evidence/claude-opus-4-5-cursor-difficult-coding-tasks-202511/original-evidence-2e3ce649ce09.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "bodySha256": "9c178c1bc0438ea4cfacbf8eb34fb5da5cc3f47f00ad1ba2c56c63c744dac997",
+      "capturedAt": "2026-06-27T23:26:38.026Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://cursor.com/",
+      "snapshotPath": "archive/evidence/claude-opus-4-5-cursor-difficult-coding-tasks-202511/artifact-1-bbba856f6f33.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Cursor: AI coding agent",
+      "bodySha256": "24a79444af709d3fb3fe1d30d289a25697ad81f673221f687928571567294f58",
+      "capturedAt": "2026-06-27T23:26:41.913Z",
+      "error": ""
+    }
+  ]
+}

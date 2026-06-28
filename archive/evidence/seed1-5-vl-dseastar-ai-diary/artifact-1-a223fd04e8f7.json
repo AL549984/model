@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:53.323Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/DSeaStar/ai-diary",
+  "finalUrl": "https://github.com/DSeaStar/ai-diary",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e11c73b3895f41daa023043e654e1092\"",
+  "lastModified": null,
+  "bodyBytes": 258341,
+  "bodySha256": "416d571cd2fc4c1dd2b729240bfb27724b8b1969411280a5fa0c0a7433bb07a2",
+  "title": "GitHub - DSeaStar/ai-diary · GitHub",
+  "github": {
+    "owner": "DSeaStar",
+    "repo": "ai-diary",
+    "apiStatus": "unavailable"
+  }
+}

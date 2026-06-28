@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-6-max-thinkoff-clawwatch",
+  "modelId": "claude-opus-4-6-max",
+  "modelName": "Claude Opus 4.6 (max)",
+  "title": "ThinkOff 在 Galaxy Watch 上构建 ClawWatch 智能手表 Agent",
+  "evidenceFingerprint": "9341ed535a3b42f1e9d07669062cc66dba388d8272e074dca71029f5c5d92a64",
+  "capturedAt": "2026-06-27T21:01:18.796Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/ThinkOffApp/ClawWatch/main/README.md",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-thinkoff-clawwatch/original-evidence-235383003f5a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "5d7d75ea2488983d510f5a0ff0823a871925a2fff1a38102d025c834cca060dd",
+      "capturedAt": "2026-06-27T21:01:14.951Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ThinkOffApp/ClawWatch",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-thinkoff-clawwatch/artifact-1-f1548d873427.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ThinkOffApp/ClawWatch: The first intelligent AI agent running natively on a smartwatch — NullClaw + Vosk offline STT + Claude Opus 4.6 on Galaxy Watch · GitHub",
+      "bodySha256": "31bbc715e4ac9911ef2e4ed0ebd1b8de5b4bd818dca3020d6fe4168f7f12abd9",
+      "capturedAt": "2026-06-27T21:01:15.668Z",
+      "error": ""
+    }
+  ]
+}

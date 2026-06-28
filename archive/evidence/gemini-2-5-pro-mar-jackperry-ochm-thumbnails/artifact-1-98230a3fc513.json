@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:14.031Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/jackperry2187/ochm-thumbnails",
+  "finalUrl": "https://github.com/jackperry2187/ochm-thumbnails",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9c0f4409b58ae5b7d4f2ad6fe4d81f3a\"",
+  "lastModified": null,
+  "bodyBytes": 271636,
+  "bodySha256": "2ec2e762768aee891a9839e9650e9b054687d6538ff9a44099b75859ec5782a9",
+  "title": "GitHub - jackperry2187/ochm-thumbnails: A website created with Cursor and gemini-2.5-pro-exp-03-25 to automate the process of creating thumbnails for Ocean County Hive Mind. · GitHub",
+  "github": {
+    "owner": "jackperry2187",
+    "repo": "ochm-thumbnails",
+    "apiStatus": "unavailable"
+  }
+}

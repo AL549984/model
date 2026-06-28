@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:22.219Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/clawdbotatg/clawd-local-ai-chess/blob/main/chess/game.pgn",
+  "finalUrl": "https://github.com/clawdbotatg/clawd-local-ai-chess/blob/main/chess/game.pgn",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2017deaad0640cdac68d1a75a792eabd\"",
+  "lastModified": null,
+  "bodyBytes": 234351,
+  "bodySha256": "6cd790e7bfaef2e361e7dfe31c0addb4a489383350a64af6cb516fcb5461e7e8",
+  "title": "clawd-local-ai-chess/chess/game.pgn at main · clawdbotatg/clawd-local-ai-chess · GitHub",
+  "github": {
+    "owner": "clawdbotatg",
+    "repo": "clawd-local-ai-chess",
+    "apiStatus": "unavailable"
+  }
+}

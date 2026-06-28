@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-5-pro-nusashield-fraud-detection",
+  "modelId": "mimo-v2-5-pro",
+  "modelName": "MiMo-V2.5-Pro",
+  "title": "NusaShield AI: 印尼金融科技多智能体欺诈检测系统，以 MiMo-V2.5-Pro 驱动 QRIS/钓鱼/发票欺诈推理",
+  "evidenceFingerprint": "ae26b7b47d2dea105cd50756fc53a66dcc01f5c7f410985138a56bf3f06f2692",
+  "capturedAt": "2026-06-27T22:37:43.797Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Zeronuru404/nusashield-ai",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-nusashield-fraud-detection/original-evidence-3e6c9ccc54cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Zeronuru404/nusashield-ai: Multi-Agent Indonesian Fintech Fraud Detection Platform powered by Xiaomi MiMo V2.5 — QRIS, phishing, invoice fraud, WhatsApp scams · GitHub",
+      "bodySha256": "d487787f3bf34ef0527e0cb119629f3987269f0bf4d9651a0299fab402805779",
+      "capturedAt": "2026-06-27T22:37:42.224Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Zeronuru404/nusashield-ai",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-nusashield-fraud-detection/artifact-1-3e6c9ccc54cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Zeronuru404/nusashield-ai: Multi-Agent Indonesian Fintech Fraud Detection Platform powered by Xiaomi MiMo V2.5 — QRIS, phishing, invoice fraud, WhatsApp scams · GitHub",
+      "bodySha256": "24ee7c558a953c6fd258c7a3bc740a1ee380ddc56950fe79f33228678aacdb66",
+      "capturedAt": "2026-06-27T22:37:43.273Z",
+      "error": ""
+    }
+  ]
+}

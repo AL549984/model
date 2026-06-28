@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:50.145Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/grandcanyonsmith/deep-researcher-render/blob/main/README.md",
+  "finalUrl": "https://github.com/grandcanyonsmith/deep-researcher-render/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1da4858200f8ce22fc5e08ae55f4e8c3\"",
+  "lastModified": null,
+  "bodyBytes": 237269,
+  "bodySha256": "8746dd605dde873a404e5e84c5c46746542601f71c00272c1f645ac9544ade2b",
+  "title": "deep-researcher-render/README.md at main · grandcanyonsmith/deep-researcher-render · GitHub",
+  "github": {
+    "owner": "grandcanyonsmith",
+    "repo": "deep-researcher-render",
+    "apiStatus": "unavailable"
+  }
+}

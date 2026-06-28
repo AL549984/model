@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:09.506Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/SkyworkAI/DeepResearchAgent",
+  "finalUrl": "https://github.com/SkyworkAI/DeepResearchAgent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"333b15ed3534705a9dddb0c333d76854\"",
+  "lastModified": null,
+  "bodyBytes": 301806,
+  "bodySha256": "6aeb8372df122059f1cce35d6e661bca8a938920dd49e3cdaea991de9260ff4e",
+  "title": "GitHub - SkyworkAI/DeepResearchAgent: DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordina",
+  "github": {
+    "owner": "SkyworkAI",
+    "repo": "DeepResearchAgent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:07.329Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/BloopAI/vibe-kanban",
+  "finalUrl": "https://github.com/BloopAI/vibe-kanban",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bae6c9a219b12ae70a9351885024a1dc\"",
+  "lastModified": null,
+  "bodyBytes": 379864,
+  "bodySha256": "756326f96905d806685783c6599f4ebdabc5e96c0b8c0b41f601a501755c746f",
+  "title": "GitHub - BloopAI/vibe-kanban: Get 10X more out of Claude Code, Codex or any coding agent · GitHub",
+  "github": {
+    "owner": "BloopAI",
+    "repo": "vibe-kanban",
+    "apiStatus": "unavailable"
+  }
+}

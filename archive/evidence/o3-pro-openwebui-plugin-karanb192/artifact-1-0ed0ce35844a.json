@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:01.675Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/karanb192/openwebui-o1o3-pro-plugin",
+  "finalUrl": "https://github.com/karanb192/openwebui-o1o3-pro-plugin",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8ac3a827080956a72abb7b9107aacfc4\"",
+  "lastModified": null,
+  "bodyBytes": 282939,
+  "bodySha256": "0eb72b63b3a0656901013ff8aa86eb6ebbdeaacec8c0fa5b2709403a8f6fd392",
+  "title": "GitHub - karanb192/openwebui-o1o3-pro-plugin: Access OpenAI&#39;s most advanced reasoning models (o1-pro and o3-pro) with comprehensive token tracking and cost analytics in Open WebUI · GitHub",
+  "github": {
+    "owner": "karanb192",
+    "repo": "openwebui-o1o3-pro-plugin",
+    "apiStatus": "unavailable"
+  }
+}

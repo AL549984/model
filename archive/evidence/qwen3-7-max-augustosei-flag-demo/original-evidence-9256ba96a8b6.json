@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:53.080Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AugustOsei/qwen3.7_flag_demo/blob/main/README.md#-built-with",
+  "finalUrl": "https://github.com/AugustOsei/qwen3.7_flag_demo/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"eba19c0187946faed1412464fe6f2c9e\"",
+  "lastModified": null,
+  "bodyBytes": 270021,
+  "bodySha256": "7d9d58a23cefec70d926c07b28214429cf9d40c30ca41177e85e6f8b6d6d430e",
+  "title": "qwen3.7_flag_demo/README.md at main · AugustOsei/qwen3.7_flag_demo · GitHub",
+  "github": {
+    "owner": "AugustOsei",
+    "repo": "qwen3.7_flag_demo",
+    "htmlUrl": "https://github.com/AugustOsei/qwen3.7_flag_demo",
+    "defaultBranch": "main",
+    "defaultBranchSha": "43fe92bab9e2a5f9bc9328944b825e5ad72e704a",
+    "pushedAt": "2026-05-24T15:30:21Z",
+    "updatedAt": "2026-05-24T15:30:25Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

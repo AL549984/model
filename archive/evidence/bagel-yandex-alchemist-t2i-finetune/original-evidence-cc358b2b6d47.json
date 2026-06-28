@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:21.265Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/yandex/BAGEL-7B-MoT-alchemist/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/yandex/BAGEL-7B-MoT-alchemist/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e34992cddf1b180b2f9178ad0815158fad71b807\"",
+  "lastModified": null,
+  "bodyBytes": 6304,
+  "bodySha256": "2f179cf28ffbf657a318a511e5e1915ddf237aa97634eb0c6adb8922006e9188",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-5-case-teller-sentient-arena",
+  "modelId": "minimax-m2-5",
+  "modelName": "MiniMax-M2.5",
+  "title": "Teller — #1 Sentient Arena grounded reasoning agent for enterprise document QA",
+  "evidenceFingerprint": "77addac51642b019dbac9da48802c915f0e61ac30e0ab41ef788afc5c8889e09",
+  "capturedAt": "2026-06-27T22:44:48.867Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Leonwenhao/teller",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-teller-sentient-arena/original-evidence-7baeedb2268d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Leonwenhao/teller: Teller — #1 on Sentient Arena Cohort 0 (highest accuracy: 71.5%). Open-source grounded reasoning agent for enterprise document QA. Powered by Goose + MiniMax M2.5. · GitHub",
+      "bodySha256": "82a42ccc49c82809b36a8dd28aed1a9eb9305dface32e5bf12f8f8a3ae054268",
+      "capturedAt": "2026-06-27T22:44:46.724Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Leonwenhao/teller",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-teller-sentient-arena/artifact-1-7baeedb2268d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Leonwenhao/teller: Teller — #1 on Sentient Arena Cohort 0 (highest accuracy: 71.5%). Open-source grounded reasoning agent for enterprise document QA. Powered by Goose + MiniMax M2.5. · GitHub",
+      "bodySha256": "dd062de122125af2c5f1188cd020b932cd00a8b7daf34ae2221143dc7caf3274",
+      "capturedAt": "2026-06-27T22:44:48.137Z",
+      "error": ""
+    }
+  ]
+}

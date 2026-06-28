@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:09:00.831Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/com-wuqi/authServer_ai",
+  "finalUrl": "https://github.com/com-wuqi/authServer_ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5a4b6e8e3a6c2c5079298145e550df63\"",
+  "lastModified": null,
+  "bodyBytes": 335964,
+  "bodySha256": "1817844a5ed4bbc663f4b407d3b29b8494c5f4dac6315f277ee3101cf78ff43d",
+  "title": "GitHub - com-wuqi/authServer_ai: 由 claude code ( + siliconflow + DeepSeek-V3.1-Terminus ) 完成 · GitHub",
+  "github": {
+    "owner": "com-wuqi",
+    "repo": "authServer_ai",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:25.933Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/dair-ai/m2-deep-research/blob/main/README.md",
+  "finalUrl": "https://github.com/dair-ai/m2-deep-research/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6502338f96b33e481c7101462a83b641\"",
+  "lastModified": null,
+  "bodyBytes": 361321,
+  "bodySha256": "3e6be94a92c521b7fc6a88c430bc4bfa8e2c3a2a51c251fcdc6652c2f81589b5",
+  "title": "m2-deep-research/README.md at main · dair-ai/m2-deep-research · GitHub",
+  "github": {
+    "owner": "dair-ai",
+    "repo": "m2-deep-research",
+    "apiStatus": "unavailable"
+  }
+}

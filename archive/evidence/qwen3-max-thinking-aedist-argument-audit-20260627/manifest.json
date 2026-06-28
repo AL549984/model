@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-thinking-aedist-argument-audit-20260627",
+  "modelId": "qwen3-max-thinking",
+  "modelName": "Qwen3 Max Thinking",
+  "title": "AEDIST technical report 用 Qwen3 Max Thinking 产出论文论证审计原始报告",
+  "evidenceFingerprint": "7084e38365b1cfcbbe949371e00053306e7d328e5123d17259351c641a184bd8",
+  "capturedAt": "2026-06-27T23:15:15.074Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MinhHaDuong/aedist-technical-report/pull/316",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-aedist-argument-audit-20260627/original-evidence-554174f2fed8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ticket(0149): extract hypotheses from argument by MinhHaDuong · Pull Request #316 · MinhHaDuong/aedist-technical-report · GitHub",
+      "bodySha256": "514a0972b7bbe17c56169cb48c2471de87721ba05d9e4235891723fecfef4f97",
+      "capturedAt": "2026-06-27T23:15:11.712Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MinhHaDuong/aedist-technical-report/blob/main/docs/audit-responses/qwen_qwen3-max-thinking.md",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-aedist-argument-audit-20260627/artifact-1-8cefdf987547.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "aedist-technical-report/docs/audit-responses/qwen_qwen3-max-thinking.md at main · MinhHaDuong/aedist-technical-report · GitHub",
+      "bodySha256": "a32de24b062960a24cdefcbebbe11913b564025ee9ee77bc6563386635d97930",
+      "capturedAt": "2026-06-27T23:15:14.085Z",
+      "error": ""
+    }
+  ]
+}

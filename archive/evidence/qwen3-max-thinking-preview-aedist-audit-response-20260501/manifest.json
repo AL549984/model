@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-thinking-preview-aedist-audit-response-20260501",
+  "modelId": "qwen3-max-thinking-preview",
+  "modelName": "Qwen3 Max Thinking (Preview)",
+  "title": "AEDIST technical report used Qwen3 Max Thinking to audit claims in an energy-data AI benchmark paper",
+  "evidenceFingerprint": "ca28db67d0ed8cc6a28b4145ca020a5c7c4ee00190c4b1ec0796e5931ae236b7",
+  "capturedAt": "2026-06-27T23:15:30.783Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MinhHaDuong/aedist-technical-report/blob/c1b6730d8d114ba91c181870609cdb5f7b14cf8d/docs/audit-responses/qwen_qwen3-max-thinking.md",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-preview-aedist-audit-response-20260501/original-evidence-480db8fc2ad3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "aedist-technical-report/docs/audit-responses/qwen_qwen3-max-thinking.md at c1b6730d8d114ba91c181870609cdb5f7b14cf8d · MinhHaDuong/aedist-technical-report · GitHub",
+      "bodySha256": "08f8b1e45ee69e302fc3b33e3b68e62aa2cc04921fea5c4b12a1ad9615a58652",
+      "capturedAt": "2026-06-27T23:15:28.715Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MinhHaDuong/aedist-technical-report",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-preview-aedist-audit-response-20260501/artifact-1-a397c688aea3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MinhHaDuong/aedist-technical-report: AEDIST Technical Report - Technology assessment of LLMs for Vietnamese energy data · GitHub",
+      "bodySha256": "84e5eb7b486f53cec58d2c03fe4b3893d8196701e9b9aecdacc7f21026ccc8df",
+      "capturedAt": "2026-06-27T23:15:29.730Z",
+      "error": ""
+    }
+  ]
+}

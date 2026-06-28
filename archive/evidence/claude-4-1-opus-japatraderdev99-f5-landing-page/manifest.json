@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-1-opus-japatraderdev99-f5-landing-page",
+  "modelId": "claude-4-1-opus",
+  "modelName": "Claude 4.1 Opus",
+  "title": "japatraderdev99 built a Google Ads agency landing page with Claude Opus 4.1",
+  "evidenceFingerprint": "4134298007921e9d488da720227f0947f46abfedc2a9aeab540840661f4f841d",
+  "capturedAt": "2026-06-27T20:54:37.527Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/japatraderdev99/landing-pagr-f5-google",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-japatraderdev99-f5-landing-page/original-evidence-30baf18e8ad5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - japatraderdev99/landing-pagr-f5-google: versao lp feita com claude opus 4.1 · GitHub",
+      "bodySha256": "61edf458442f90df1143f67776306a10a5f806d20a33035b9d09af4919cd4e9e",
+      "capturedAt": "2026-06-27T20:54:34.905Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/japatraderdev99/landing-pagr-f5-google/blob/main/index.html",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-japatraderdev99-f5-landing-page/artifact-1-6c510767a07a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "landing-pagr-f5-google/index.html at main · japatraderdev99/landing-pagr-f5-google · GitHub",
+      "bodySha256": "31339a143506b4bd45c154b5d07b56dd6cbb005d61d69a595933759a44f1d639",
+      "capturedAt": "2026-06-27T20:54:36.197Z",
+      "error": ""
+    }
+  ]
+}

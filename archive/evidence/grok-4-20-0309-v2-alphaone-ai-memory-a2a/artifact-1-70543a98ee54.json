@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:43.242Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/alphaonedev/ai-memory-a2a-v0.7.0",
+  "finalUrl": "https://github.com/alphaonedev/ai-memory-a2a-v0.7.0",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cb2a535ad9f5eb71b1a9663ba82ff0e2\"",
+  "lastModified": null,
+  "bodyBytes": 301488,
+  "bodySha256": "715114b273351fd0a502ecd727b79c6f29f4f3650c892fffe7302e4ddd32538b",
+  "title": "GitHub - alphaonedev/ai-memory-a2a-v0.7.0: v0.7.0 A2A regression + net-new test campaign · openclaw ↔ hermes ↔ postgres+AGE on private VPC · Grok 4.2 reasoning · 2-round consecutive 100% GREEN gate · GitHub",
+  "github": {
+    "owner": "alphaonedev",
+    "repo": "ai-memory-a2a-v0.7.0",
+    "apiStatus": "unavailable"
+  }
+}

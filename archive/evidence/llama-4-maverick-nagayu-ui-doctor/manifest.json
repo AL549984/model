@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-4-maverick-nagayu-ui-doctor",
+  "modelId": "llama-4-maverick",
+  "modelName": "Llama 4 Maverick",
+  "title": "NagaYu uses Llama 4 Maverick to diagnose and fix React visual regressions",
+  "evidenceFingerprint": "af2434a461e81cd18bf8ba3113f030f308d0025dcc5a674a43e564ea1e5aff86",
+  "capturedAt": "2026-06-27T22:37:18.627Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/NagaYu/maverick-ui-doctor/blob/main/README.md",
+      "snapshotPath": "archive/evidence/llama-4-maverick-nagayu-ui-doctor/original-evidence-092fcf361be1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "maverick-ui-doctor/README.md at main · NagaYu/maverick-ui-doctor · GitHub",
+      "bodySha256": "27faad5de6d993a130846a4431d46b3db36dc7b6ee7ffc17b0daf30d95edb465",
+      "capturedAt": "2026-06-27T22:37:14.951Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/NagaYu/maverick-ui-doctor",
+      "snapshotPath": "archive/evidence/llama-4-maverick-nagayu-ui-doctor/artifact-1-d49903a68ddb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - NagaYu/maverick-ui-doctor: Visual UI regression agent for React: renders components with Playwright and uses Llama 4 Maverick (multimodal) to find visual defects and propose a unified-diff fix. · GitHub",
+      "bodySha256": "436c0794d00eb818eb76f3b764f46e76b217a557a305d6747c6f5a16df7ab865",
+      "capturedAt": "2026-06-27T22:37:17.461Z",
+      "error": ""
+    }
+  ]
+}

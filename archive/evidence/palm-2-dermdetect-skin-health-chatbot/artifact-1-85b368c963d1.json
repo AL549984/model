@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:05.681Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/z0CoolCS/vitality_squad",
+  "finalUrl": "https://github.com/z0CoolCS/vitality_squad",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bf59b3c956810c562688085c748bd61c\"",
+  "lastModified": null,
+  "bodyBytes": 267807,
+  "bodySha256": "4aa532816eb5fe549707d740132aa52617207e1c5ff2e9ae83c23d34c0466971",
+  "title": "GitHub - z0CoolCS/vitality_squad: This is a medical-oriented project using AI · GitHub",
+  "github": {
+    "owner": "z0CoolCS",
+    "repo": "vitality_squad",
+    "apiStatus": "unavailable"
+  }
+}

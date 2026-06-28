@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:24.466Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/kuleshov/llama-65b-4bit",
+  "finalUrl": "https://huggingface.co/kuleshov/llama-65b-4bit",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1d323-QM1RAnFrpeKQqiJgUYEXZB9ttUw\"",
+  "lastModified": null,
+  "bodyBytes": 119587,
+  "bodySha256": "f3610525f1b09b137c78054ae12864faf1b375e3ca9d668e1ebc473de717f7f8",
+  "title": "kuleshov/llama-65b-4bit · Hugging Face",
+  "github": null
+}

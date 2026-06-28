@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-72b-okupacolossal-tool-calling-assistant",
+  "modelId": "qwen2-5-72b",
+  "modelName": "Qwen2.5 72B",
+  "title": "Terminal AI assistant uses Qwen2.5-72B-Instruct for manual tool calling",
+  "evidenceFingerprint": "2e8f19fecfe08722252ce162bff7e23d2fd0dbf90f7a4c9a40a35feec879a42e",
+  "capturedAt": "2026-06-27T22:59:53.877Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/okupacolossal/ai-assistant-tool-calling/blob/master/README.md",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-okupacolossal-tool-calling-assistant/original-evidence-a4ca475ce6a7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-assistant-tool-calling/README.md at master · okupacolossal/ai-assistant-tool-calling · GitHub",
+      "bodySha256": "0411cf86b58e03a0f7c122223723d30f71f66841ce93018d07b16fc18fa1f0f4",
+      "capturedAt": "2026-06-27T22:59:51.686Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/okupacolossal/ai-assistant-tool-calling",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-okupacolossal-tool-calling-assistant/artifact-1-3c2c8d5cc264.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - okupacolossal/ai-assistant-tool-calling: Terminal AI assistant with a custom tool-calling pipeline built on Qwen2.5-72B and HuggingFace Inference API · GitHub",
+      "bodySha256": "cec7180b2f95922bfd9531fdd5555e4a1415767897462efb4a15cfc5d3f11291",
+      "capturedAt": "2026-06-27T22:59:52.830Z",
+      "error": ""
+    }
+  ]
+}

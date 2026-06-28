@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:32.469Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/hmjz100/Z.ai2api/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/hmjz100/Z.ai2api/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1309",
+  "etag": "W/\"4ea90c408319d92db8ee4dbffb3d7ef3f77c67a8809553e196006f1ef0dd7890\"",
+  "lastModified": null,
+  "bodyBytes": 2247,
+  "bodySha256": "5765358adf255c555d1972d851b932a8f70265b2e306387adbc28ccc5a3aa45c",
+  "title": "",
+  "github": null
+}

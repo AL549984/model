@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:51.424Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/aymenfurter/microagents",
+  "finalUrl": "https://github.com/aymenfurter/microagents",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2e5f945835ff3dc89b579bc1da5f756a\"",
+  "lastModified": null,
+  "bodyBytes": 353147,
+  "bodySha256": "f6f1094dff9a2f6addedaee6569d0ef953167f5ba92f2d400127586b21b6dc37",
+  "title": "GitHub - aymenfurter/microagents: Agents Capable of Self-Editing Their Prompts / Python Code · GitHub",
+  "github": {
+    "owner": "aymenfurter",
+    "repo": "microagents",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:03.374Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/raizamartin/gemini-code",
+  "finalUrl": "https://github.com/raizamartin/gemini-code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9cc4e1bcfe6cdd33d53d9b533a5d1bf0\"",
+  "lastModified": null,
+  "bodyBytes": 311102,
+  "bodySha256": "398cf57f27e30ee34334d29b78e76273a4ac875f0691c65840529e3a694be4c2",
+  "title": "GitHub - raizamartin/gemini-code: Gemini 2.5 Pro code assistant · GitHub",
+  "github": {
+    "owner": "raizamartin",
+    "repo": "gemini-code",
+    "apiStatus": "unavailable"
+  }
+}

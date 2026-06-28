@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:32.475Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/fmateoc/entity-matching/blob/master/README.md",
+  "finalUrl": "https://github.com/fmateoc/entity-matching/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0665e4eaf10732571768a41e4177f821\"",
+  "lastModified": null,
+  "bodyBytes": 272253,
+  "bodySha256": "7826407053822c88af47b074367d276a2e3812f58fa753fa21aada68c56fbe5f",
+  "title": "entity-matching/README.md at master · fmateoc/entity-matching · GitHub",
+  "github": {
+    "owner": "fmateoc",
+    "repo": "entity-matching",
+    "apiStatus": "unavailable"
+  }
+}

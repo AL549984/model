@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwq-32b-fastrtc-realtime-voice-agent-20260627",
+  "modelId": "qwq-32b",
+  "modelName": "QwQ-32B",
+  "title": "fastRTC Voice Agent uses QwQ-32B as its OpenRouter LLM for real-time voice conversations",
+  "evidenceFingerprint": "76b8c54a90e524540e8a6cde7e4464a44c94560cc6612a68383b247fad04de05",
+  "capturedAt": "2026-06-27T23:15:34.811Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/enricollen/fastRTC-voice-agent/blob/main/README.md#L251",
+      "snapshotPath": "archive/evidence/qwq-32b-fastrtc-realtime-voice-agent-20260627/original-evidence-a98f7db72836.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "fastRTC-voice-agent/README.md at main · enricollen/fastRTC-voice-agent · GitHub",
+      "bodySha256": "8e15d6c6cb137575372310fed195d0ebebdaf4a977129297499f6aaf113a7c2d",
+      "capturedAt": "2026-06-27T23:15:32.554Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/enricollen/fastRTC-voice-agent",
+      "snapshotPath": "archive/evidence/qwq-32b-fastrtc-realtime-voice-agent-20260627/artifact-1-9f85f93daf1c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - enricollen/fastRTC-voice-agent: Realtime voice-enabled AI assistant that can engage in natural conversations · GitHub",
+      "bodySha256": "9ee7ad64fd00626adfb475eba66223117704596a8966a27fc8c187e6d4921512",
+      "capturedAt": "2026-06-27T23:15:33.727Z",
+      "error": ""
+    }
+  ]
+}

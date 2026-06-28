@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:25.851Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yasinaky/glm-mcp-server/blob/main/README.md",
+  "finalUrl": "https://github.com/yasinaky/glm-mcp-server/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"47ed97adf4cc149a880ee357f79ab3ef\"",
+  "lastModified": null,
+  "bodyBytes": 385042,
+  "bodySha256": "41bd791376219fc8f8c5dddd0a788dec9f8c7f17934ef392f83c7d634e9e013e",
+  "title": "glm-mcp-server/README.md at main · yasinaky/glm-mcp-server · GitHub",
+  "github": {
+    "owner": "yasinaky",
+    "repo": "glm-mcp-server",
+    "apiStatus": "unavailable"
+  }
+}

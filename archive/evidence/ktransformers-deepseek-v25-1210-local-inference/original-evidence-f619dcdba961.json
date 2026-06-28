@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:51.904Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kvcache-ai/ktransformers/issues/701",
+  "finalUrl": "https://github.com/kvcache-ai/ktransformers/issues/701",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 288503,
+  "bodySha256": "d4a28d50a2dab90e748ca3711a584cbd4b26d661ba64ca531a64cac359bbdb58",
+  "title": "Windows下测试完成！RTX 3090+96G DDR4+i7 10700K，跑236b模型速度能有5tps！671b的R1也能跑，不报错。 · Issue #701 · kvcache-ai/ktransformers · GitHub",
+  "github": {
+    "owner": "kvcache-ai",
+    "repo": "ktransformers",
+    "apiStatus": "unavailable"
+  }
+}

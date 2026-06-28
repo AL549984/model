@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:32.066Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CyPack/ccglm-mcp",
+  "finalUrl": "https://github.com/CyPack/ccglm-mcp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3c2cedfa2aeab3e26373a1ef910d62e2\"",
+  "lastModified": null,
+  "bodyBytes": 365327,
+  "bodySha256": "3e2d7b06640b31931002df60b2d717940b5b3af776e98d2c23629fd4f8a7fcc9",
+  "title": "GitHub - CyPack/ccglm-mcp: MCP server for integrating Z.AI GLM-4.6 with Claude Code · GitHub",
+  "github": {
+    "owner": "CyPack",
+    "repo": "ccglm-mcp",
+    "apiStatus": "unavailable"
+  }
+}

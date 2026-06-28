@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3_arunlkumar_gone_task_automation_20260627",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "G-ONE personal task automation chatbot exposes Solar Pro 3 as a selectable OpenRouter model",
+  "evidenceFingerprint": "e9347ab1ec8ec3db49b1383d68e721076135e12a5220e49a12d268e3a3d33dbc",
+  "capturedAt": "2026-06-27T23:24:43.635Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ARUN-L-KUMAR/personal-task-automation/blob/main/backend/routers/chatbot_router.py",
+      "snapshotPath": "archive/evidence/solar-pro-3_arunlkumar_gone_task_automation_20260627/original-evidence-36d679a34953.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "personal-task-automation/backend/routers/chatbot_router.py at main · ARUN-L-KUMAR/personal-task-automation · GitHub",
+      "bodySha256": "dada024eec4d403fc990f86485f500605f6af85db5d8d539ad8bbb3e184a6452",
+      "capturedAt": "2026-06-27T23:24:41.163Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ARUN-L-KUMAR/personal-task-automation",
+      "snapshotPath": "archive/evidence/solar-pro-3_arunlkumar_gone_task_automation_20260627/artifact-1-592c8b4e7417.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ARUN-L-KUMAR/personal-task-automation · GitHub",
+      "bodySha256": "cfb5745e8f2ae1456989bb279751fb925a772fedb323e065982daad2a80b3020",
+      "capturedAt": "2026-06-27T23:24:42.526Z",
+      "error": ""
+    }
+  ]
+}

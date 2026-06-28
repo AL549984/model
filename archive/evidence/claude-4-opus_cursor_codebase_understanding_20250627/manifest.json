@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-opus_cursor_codebase_understanding_20250627",
+  "modelId": "claude-4-opus",
+  "modelName": "Claude 4 Opus",
+  "title": "Cursor uses Claude Opus 4 for complex codebase understanding in its AI code editor",
+  "evidenceFingerprint": "892ead4b6e521a0ff9b451cb4b5377eccc47b20c26250fa54178329e86693061",
+  "capturedAt": "2026-06-27T23:26:25.101Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-4#:~:text=Cursor%20calls%20it%20state-of-the-art%20for%20coding",
+      "snapshotPath": "archive/evidence/claude-4-opus_cursor_codebase_understanding_20250627/original-evidence-61ba937ea6c2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Introducing Claude 4 \\ Anthropic",
+      "bodySha256": "3b2a0e56ba6b6ca90197ab3c226f095f4b80cde0394b9508167edd8dd9ceecd6",
+      "capturedAt": "2026-06-27T23:26:19.234Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://cursor.com",
+      "snapshotPath": "archive/evidence/claude-4-opus_cursor_codebase_understanding_20250627/artifact-1-d8864b187c86.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Cursor: AI coding agent",
+      "bodySha256": "24a79444af709d3fb3fe1d30d289a25697ad81f673221f687928571567294f58",
+      "capturedAt": "2026-06-27T23:26:24.107Z",
+      "error": ""
+    }
+  ]
+}

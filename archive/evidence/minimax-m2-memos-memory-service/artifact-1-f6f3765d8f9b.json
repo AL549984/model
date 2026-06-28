@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:50.454Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MemTensor/MemOS",
+  "finalUrl": "https://github.com/MemTensor/MemOS",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3d04255104c533dcb5459c0c7211f72c\"",
+  "lastModified": null,
+  "bodyBytes": 481640,
+  "bodySha256": "a93de235a0509c7cc141e33a71ae829e4ad28a13d66c70bb210bb7a321c1c1e6",
+  "title": "GitHub - MemTensor/MemOS: Self-evolving memory OS for LLM &amp; AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings · GitHub",
+  "github": {
+    "owner": "MemTensor",
+    "repo": "MemOS",
+    "apiStatus": "unavailable"
+  }
+}

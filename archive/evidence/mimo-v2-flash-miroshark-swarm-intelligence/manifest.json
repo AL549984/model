@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-flash-miroshark-swarm-intelligence",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "MiroShark: MiMo-V2-Flash as Default Model for Swarm Intelligence Simulations",
+  "evidenceFingerprint": "3269663a8005ee791908b82a7bf14fd26145b4b9d4b94f6b68a33bef84d3acbc",
+  "capturedAt": "2026-06-27T22:37:55.331Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/aaronjmars/MiroShark/pull/207",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-miroshark-swarm-intelligence/original-evidence-8f31517e477a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "chore(models): switch default model from mimo-v2-flash to mimo-v2.5 by aaronjmars · Pull Request #207 · aaronjmars/MiroShark · GitHub",
+      "bodySha256": "ae2b32b175d03221fe7a3bb8b43cb297032e023f38dc2fd42f8524038c07e696",
+      "capturedAt": "2026-06-27T22:37:53.423Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/aaronjmars/MiroShark",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-miroshark-swarm-intelligence/artifact-1-4ed3c2c0b6e7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - aaronjmars/MiroShark: Simulate anything, for $1 &amp; less than 10 min - Universal Swarm Intelligence Engine · GitHub",
+      "bodySha256": "c0794ac30adeb7fe44d2e87b4c46dccdeb8509c4e1b9b12b7ce0714ca1f6e69f",
+      "capturedAt": "2026-06-27T22:37:54.301Z",
+      "error": ""
+    }
+  ]
+}

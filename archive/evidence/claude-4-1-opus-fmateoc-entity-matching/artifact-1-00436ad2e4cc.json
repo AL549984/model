@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:33.688Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/fmateoc/entity-matching",
+  "finalUrl": "https://github.com/fmateoc/entity-matching",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c3bd41795d45b9a50d94588e8e143b97\"",
+  "lastModified": null,
+  "bodyBytes": 295829,
+  "bodySha256": "2b321c812befba1b54ead7b7516a5e23a01c1ff835c9b42aa8b32fdf840fbe89",
+  "title": "GitHub - fmateoc/entity-matching: testing claude opus 4.1 code generation · GitHub",
+  "github": {
+    "owner": "fmateoc",
+    "repo": "entity-matching",
+    "apiStatus": "unavailable"
+  }
+}

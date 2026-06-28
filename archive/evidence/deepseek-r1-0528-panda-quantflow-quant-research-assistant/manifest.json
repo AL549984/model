@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-0528-panda-quantflow-quant-research-assistant",
+  "modelId": "deepseek-r1-0528",
+  "modelName": "DeepSeek R1 0528",
+  "title": "PandaAI QuantFlow 将 DeepSeek R1 0528 用于量化工作流平台的 LLM 能力",
+  "evidenceFingerprint": "cebbe3fba2aa62aa12101a8e5b0377c6bd93650b4b0073d7614103fba42f4e06",
+  "capturedAt": "2026-06-27T21:02:19.875Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/PandaAI-Tech/panda_quantflow/blob/main/src/panda_server/services/llm/enums/llm_model_type.py",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-panda-quantflow-quant-research-assistant/original-evidence-fb694e893638.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "panda_quantflow/src/panda_server/services/llm/enums/llm_model_type.py at main · PandaAI-Tech/panda_quantflow · GitHub",
+      "bodySha256": "e680de81ca0092c5c059ba48b04bf67897a9cb0b30dd57a0cfeaca09669ec369",
+      "capturedAt": "2026-06-27T21:02:17.412Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/PandaAI-Tech/panda_quantflow",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-panda-quantflow-quant-research-assistant/artifact-1-344ace6e0efa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - PandaAI-Tech/panda_quantflow · GitHub",
+      "bodySha256": "ddfd70181ea3bac47de509ae701895c1e7b831307495e4756f58be489af7d93d",
+      "capturedAt": "2026-06-27T21:02:18.630Z",
+      "error": ""
+    }
+  ]
+}

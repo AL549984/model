@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:32.554Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/enricollen/fastRTC-voice-agent/blob/main/README.md#L251",
+  "finalUrl": "https://github.com/enricollen/fastRTC-voice-agent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3e327325f888cc42ba1f8a564533661f\"",
+  "lastModified": null,
+  "bodyBytes": 398796,
+  "bodySha256": "8e15d6c6cb137575372310fed195d0ebebdaf4a977129297499f6aaf113a7c2d",
+  "title": "fastRTC-voice-agent/README.md at main · enricollen/fastRTC-voice-agent · GitHub",
+  "github": {
+    "owner": "enricollen",
+    "repo": "fastRTC-voice-agent",
+    "apiStatus": "unavailable"
+  }
+}

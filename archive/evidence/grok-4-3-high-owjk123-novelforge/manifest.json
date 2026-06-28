@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-owjk123-novelforge",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "NovelForge uses Grok 4.3 API to generate and continue long-form novel chapters in an Android app",
+  "evidenceFingerprint": "f7d067b16ab7ce75350e552039c9929a84423dec30bb601a066fc03b94cb33f3",
+  "capturedAt": "2026-06-27T21:15:09.461Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/owjk123/NovelForge/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-owjk123-novelforge/original-evidence-e6b23f34d64c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "a4a5258e456c0f36e83e76d579a9df1275eb0951e4b7b9471e2abe202e96414b",
+      "capturedAt": "2026-06-27T21:15:07.473Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/owjk123/NovelForge",
+      "snapshotPath": "archive/evidence/grok-4-3-high-owjk123-novelforge/artifact-1-7912bea79730.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - owjk123/NovelForge: AI Novel Generator powered by Grok 4.3 API - Android App · GitHub",
+      "bodySha256": "5375accce93047ac1919675b0c8a4f42b8b1cf4e295339260f9f2b968be0119a",
+      "capturedAt": "2026-06-27T21:15:07.829Z",
+      "error": ""
+    }
+  ]
+}

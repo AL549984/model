@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:18.881Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/Intel/BAGEL-7B-MoT-int4-AutoRound/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/Intel/BAGEL-7B-MoT-int4-AutoRound/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dd427ba4d6aaf327adda451b0286372207c66ed3\"",
+  "lastModified": null,
+  "bodyBytes": 3276,
+  "bodySha256": "78ab5921e5044488b42b3dff9bdb5837ea5d8274fc8b701d0f3b4e0bc083ef0e",
+  "title": "",
+  "github": null
+}

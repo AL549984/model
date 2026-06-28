@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-1-sourcegraph-cody",
+  "modelId": "claude-2-1",
+  "modelName": "Claude 2.1",
+  "title": "Sourcegraph Cody AI coding assistant integrates Claude 2.1 for code intelligence",
+  "evidenceFingerprint": "cb93204d25b4b515e0f7ddcd74390172a9b2169890024c6dcd079ec87f7baf7b",
+  "capturedAt": "2026-06-27T20:16:52.098Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sourcegraph/cody-public-snapshot/pull/1860",
+      "snapshotPath": "archive/evidence/claude-2-1-sourcegraph-cody/original-evidence-36c3aae90318.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat: add Claude model 2.0 and 2.1 by abeatrix · Pull Request #1860 · sourcegraph/cody-public-snapshot · GitHub",
+      "bodySha256": "6c0692dd45f76d0be6fa4ad5521e791e301f25b14438ce0ff25eafc347624112",
+      "capturedAt": "2026-06-27T20:16:50.329Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sourcegraph/cody-public-snapshot/pull/1860",
+      "snapshotPath": "archive/evidence/claude-2-1-sourcegraph-cody/artifact-1-36c3aae90318.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat: add Claude model 2.0 and 2.1 by abeatrix · Pull Request #1860 · sourcegraph/cody-public-snapshot · GitHub",
+      "bodySha256": "5deef9c9af640639761a4196342065a99d2c057a60c43d2ca54f4ae542b779d4",
+      "capturedAt": "2026-06-27T20:16:51.626Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:11.371Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/jordann6/aws-ai-inventory-tracker",
+  "finalUrl": "https://github.com/jordann6/aws-ai-inventory-tracker",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d2cbe91f58282f9b12dc83c67382ab64\"",
+  "lastModified": null,
+  "bodyBytes": 303167,
+  "bodySha256": "87884c9e27d26144e97ac2835411d9b818c01d9067867f8d6acb23f6261094af",
+  "title": "GitHub - jordann6/aws-ai-inventory-tracker: Serverless inventory API with AI reorder recommendations: API Gateway, Lambda, DynamoDB, and Bedrock (Claude 3.5 Haiku) with least-privilege IAM, all in Terraform · GitHub",
+  "github": {
+    "owner": "jordann6",
+    "repo": "aws-ai-inventory-tracker",
+    "apiStatus": "unavailable"
+  }
+}

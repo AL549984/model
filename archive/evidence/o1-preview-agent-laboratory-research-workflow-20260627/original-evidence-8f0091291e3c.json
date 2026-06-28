@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:41.355Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/main/README.md",
+  "finalUrl": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"09982fdfb731f57a9457999db8ce4d6b\"",
+  "lastModified": null,
+  "bodyBytes": 333617,
+  "bodySha256": "2d98e353c0fd318ee99c09383292d4a7b695975d87dd7534cc552e4fd864035c",
+  "title": "AgentLaboratory/README.md at main · SamuelSchmidgall/AgentLaboratory · GitHub",
+  "github": {
+    "owner": "SamuelSchmidgall",
+    "repo": "AgentLaboratory",
+    "apiStatus": "unavailable"
+  }
+}

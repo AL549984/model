@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:04.946Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/cedrickchee/vibe-jet/blob/main/README.md",
+  "finalUrl": "https://github.com/cedrickchee/vibe-jet/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4d635707dcf5500e9876e33c40383bc6\"",
+  "lastModified": null,
+  "bodyBytes": 379570,
+  "bodySha256": "e9e59dd0bc4c2abb2df5cf2fa685f6becd72ec75ce9d1cf8bb3363832eb1fd8d",
+  "title": "vibe-jet/README.md at main · cedrickchee/vibe-jet · GitHub",
+  "github": {
+    "owner": "cedrickchee",
+    "repo": "vibe-jet",
+    "apiStatus": "unavailable"
+  }
+}

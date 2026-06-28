@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:19.662Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/OpenBMB/PilotDeck",
+  "finalUrl": "https://github.com/OpenBMB/PilotDeck",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"78ce6c9e88257a34d266a32fc1740ffd\"",
+  "lastModified": null,
+  "bodyBytes": 421922,
+  "bodySha256": "e59d340dfed04af03f6937e33c8e6f72dc3a69a19761b0f79d23dfcbacf3bd1e",
+  "title": "GitHub - OpenBMB/PilotDeck: Task-oriented AI Agent productivity platform · GitHub",
+  "github": {
+    "owner": "OpenBMB",
+    "repo": "PilotDeck",
+    "htmlUrl": "https://github.com/OpenBMB/PilotDeck",
+    "defaultBranch": "main",
+    "defaultBranchSha": "d37b0995a0bc65ac621f5d5f4afb935b44acf649",
+    "pushedAt": "2026-06-27T08:49:25Z",
+    "updatedAt": "2026-06-27T16:30:29Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

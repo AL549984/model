@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-1-opus-fmateoc-entity-matching",
+  "modelId": "claude-4-1-opus",
+  "modelName": "Claude 4.1 Opus",
+  "title": "fmateoc used Claude Opus 4.1 to generate a rules-based entity matching application",
+  "evidenceFingerprint": "ffeef6a44b104d3722f768ade60c502633786e3395a1f465a0384a62809c5f12",
+  "capturedAt": "2026-06-27T20:54:34.904Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/fmateoc/entity-matching/blob/master/README.md",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-fmateoc-entity-matching/original-evidence-6594bd7d9849.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "entity-matching/README.md at master · fmateoc/entity-matching · GitHub",
+      "bodySha256": "7826407053822c88af47b074367d276a2e3812f58fa753fa21aada68c56fbe5f",
+      "capturedAt": "2026-06-27T20:54:32.475Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/fmateoc/entity-matching",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-fmateoc-entity-matching/artifact-1-00436ad2e4cc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - fmateoc/entity-matching: testing claude opus 4.1 code generation · GitHub",
+      "bodySha256": "2b321c812befba1b54ead7b7516a5e23a01c1ff835c9b42aa8b32fdf840fbe89",
+      "capturedAt": "2026-06-27T20:54:33.688Z",
+      "error": ""
+    }
+  ]
+}

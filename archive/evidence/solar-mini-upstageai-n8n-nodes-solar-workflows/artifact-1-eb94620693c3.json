@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:46.420Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/UpstageAI/n8n-nodes-solar",
+  "finalUrl": "https://github.com/UpstageAI/n8n-nodes-solar",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4c0405726fcd7a34969a3b60a7fea4c4\"",
+  "lastModified": null,
+  "bodyBytes": 340102,
+  "bodySha256": "b0f2b15b01463be608ae4ce5bc09b62bd631cebd60586172eea95ebdd93900d7",
+  "title": "GitHub - UpstageAI/n8n-nodes-solar: Solar LLM and Embeddings nodes for n8n workflow automation platform · GitHub",
+  "github": {
+    "owner": "UpstageAI",
+    "repo": "n8n-nodes-solar",
+    "apiStatus": "unavailable"
+  }
+}

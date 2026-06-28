@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:10.428Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu",
+  "finalUrl": "https://github.com/rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"aac10c4ff32b92e7e36324165fc86d8a\"",
+  "lastModified": null,
+  "bodyBytes": 375705,
+  "bodySha256": "3ce83b02216be30655fe65db93313ec1d6baeeed5b67207c09a82230d95c954c",
+  "title": "GitHub - rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu: Run DeepSeek-V3.1-Terminus (671B params, 405GB) on Intel MAX GPU 1550 using llama.cpp SYCL backend with multi-GPU layer splitting. 4.1 tok/s generation across 8 GPUs. · GitHub",
+  "github": {
+    "owner": "rick-stevens-ai",
+    "repo": "deepseek-v3.1-terminus-intel-max-gpu",
+    "apiStatus": "unavailable"
+  }
+}

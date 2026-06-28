@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:21.244Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/AdamXacur/CallCenterQualityEvaluator.py",
+  "finalUrl": "https://github.com/AdamXacur/CallCenterQualityEvaluator.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5bbe3abdf9b8d4e861e871375436d01b\"",
+  "lastModified": null,
+  "bodyBytes": 286764,
+  "bodySha256": "dae2c36531d9d6e7fbe80287a2aa5594b2ac7b054c30ea5c547bf9b89031b964",
+  "title": "GitHub - AdamXacur/CallCenterQualityEvaluator.py: AI-powered call center quality evaluator using Google&#39;s Gemini 1.5 Flash. Features audio transcription, performance analysis, customizable rubrics, and HTML report generation. Built with",
+  "github": {
+    "owner": "AdamXacur",
+    "repo": "CallCenterQualityEvaluator.py",
+    "apiStatus": "unavailable"
+  }
+}

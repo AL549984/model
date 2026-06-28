@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-max-pinu-hf-gradio-chat-demo",
+  "modelId": "qwen2-5-max",
+  "modelName": "Qwen2.5 Max",
+  "title": "pinu published a Hugging Face Gradio chatbot demo backed by Qwen2.5-Max",
+  "evidenceFingerprint": "e794c7cc42bfbb4c378bd806df83ccb307cfb627caed0922b06a280dad97fa8c",
+  "capturedAt": "2026-06-27T23:25:28.822Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/pinu/Qwen2.5-Max-Demo/blob/main/app.py",
+      "snapshotPath": "archive/evidence/qwen2-5-max-pinu-hf-gradio-chat-demo/original-evidence-001260248941.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "app.py · pinu/Qwen2.5-Max-Demo at main",
+      "bodySha256": "bcbfae2e861ee171262ca4d07f278ec440e0a2e85416e71264509c225d9e63f6",
+      "capturedAt": "2026-06-27T23:25:26.113Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://pinu-qwen2-5-max-demo.hf.space",
+      "snapshotPath": "archive/evidence/qwen2-5-max-pinu-hf-gradio-chat-demo/artifact-1-d47618274356.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Gradio",
+      "bodySha256": "7e9f43957f182e9eda2f1ca8e7e66a716fbb17175d8ef3013cb2557fba7b5f72",
+      "capturedAt": "2026-06-27T23:25:26.480Z",
+      "error": ""
+    }
+  ]
+}

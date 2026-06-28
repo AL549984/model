@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:38:01.808Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Miku-cy/MiMo-API-400-Fix",
+  "finalUrl": "https://github.com/Miku-cy/MiMo-API-400-Fix",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cdcddbbc451018eb6d69e69b2a2c8419\"",
+  "lastModified": null,
+  "bodyBytes": 351260,
+  "bodySha256": "41cd8c90abd66e74c6e55b59ac36bd78d55bf454bd91b8c4901342597e54368b",
+  "title": "GitHub - Miku-cy/MiMo-API-400-Fix: 🛠️ 小米 MiMo API 400报错 兼容性修复工具 - 解决 MiMo V2.5 系列模型在各类 AI 编程工具中的兼容性问题 · GitHub",
+  "github": {
+    "owner": "Miku-cy",
+    "repo": "MiMo-API-400-Fix",
+    "apiStatus": "unavailable"
+  }
+}

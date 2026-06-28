@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:09:01.337Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/QuantumNous/new-api/issues/1990",
+  "finalUrl": "https://github.com/QuantumNous/new-api/issues/1990",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 289628,
+  "bodySha256": "a660ed171c23600a5289bd332f20cce2c5861bae4527cd6ed0364a8a9cae1a91",
+  "title": "大小写引起的已绑定渠道匹配异常 · Issue #1990 · QuantumNous/new-api · GitHub",
+  "github": {
+    "owner": "QuantumNous",
+    "repo": "new-api",
+    "apiStatus": "unavailable"
+  }
+}

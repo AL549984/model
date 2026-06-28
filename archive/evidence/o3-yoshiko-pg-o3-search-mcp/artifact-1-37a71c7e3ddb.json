@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:03.423Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yoshiko-pg/o3-search-mcp",
+  "finalUrl": "https://github.com/yoshiko-pg/o3-search-mcp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dc38b421d7ae21a43368f0d8e533dff2\"",
+  "lastModified": null,
+  "bodyBytes": 332844,
+  "bodySha256": "543071c10bb7c5c1cfffd7861d9865740574a35d376f0831b63d13441e869c22",
+  "title": "GitHub - yoshiko-pg/o3-search-mcp: MCP server for OpenAI o3 web search · GitHub",
+  "github": {
+    "owner": "yoshiko-pg",
+    "repo": "o3-search-mcp",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-2-xhigh-prateek-ralph-anthropic-performance-takehome",
+  "modelId": "gpt-5-2-xhigh",
+  "modelName": "GPT-5.2 (xhigh)",
+  "title": "Prateek Rungta 用 Ralph + GPT-5.2-xhigh 迭代优化 Anthropic performance take-home 解法",
+  "evidenceFingerprint": "128eac1a2d491af2893e3d3e1a71cf88ec6ff8e018b24fad037355987d50215a",
+  "capturedAt": "2026-06-27T22:07:39.748Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/prateek/original_performance_takehome/pull/1",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-prateek-ralph-anthropic-performance-takehome/original-evidence-23c70bac1a16.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ralph bb. ralph by prateek · Pull Request #1 · prateek/original_performance_takehome · GitHub",
+      "bodySha256": "e9366ecc1a0dabf83e4f31a49064c915aca718ffa132c9fd359de87762e50141",
+      "capturedAt": "2026-06-27T22:07:35.887Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/prateek/original_performance_takehome/tree/GPT-5.2-xhigh",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-prateek-ralph-anthropic-performance-takehome/artifact-1-bd9fe9fff594.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - prateek/original_performance_takehome at GPT-5.2-xhigh · GitHub",
+      "bodySha256": "adc842e5fd02f3cbddddac926426d4980e8760b9f616db85bea8f675cea688be",
+      "capturedAt": "2026-06-27T22:07:38.485Z",
+      "error": ""
+    }
+  ]
+}

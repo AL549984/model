@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-coder-v2-rapid-mlx",
+  "modelId": "deepseek-coder-v2",
+  "modelName": "DeepSeek-Coder-V2-Lite-16B-4bit",
+  "title": "Rapid-MLX: Fastest Apple Silicon Local AI Engine with DeepSeek-Coder-V2-Lite Backend",
+  "evidenceFingerprint": "800ac984749de2d2835b7da245e9f1c021d0aa24104515f1e01627507c114aed",
+  "capturedAt": "2026-06-27T21:01:52.227Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-rapid-mlx/original-evidence-dde44e059578.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - raullenchai/Rapid-MLX: The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Wo",
+      "bodySha256": "8bed310bf30f7a99a015740918d7f94074978f50d67f75af84be383f6f9e6d7c",
+      "capturedAt": "2026-06-27T21:01:48.549Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/raullenchai/Rapid-MLX",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-rapid-mlx/artifact-1-dde44e059578.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - raullenchai/Rapid-MLX: The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Wo",
+      "bodySha256": "fe35802186767a1c88c959e4077c79a32b405c2b41f2dfb18d076c1aeabc2a2e",
+      "capturedAt": "2026-06-27T21:01:50.885Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:29.744Z",
+  "kind": "artifact-1",
+  "url": "https://ace0109.github.io/ace-nest-starter/",
+  "finalUrl": "https://ace0109.github.io/ace-nest-starter/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "7851",
+  "etag": "W/\"690739b9-77e1\"",
+  "lastModified": "Sun, 02 Nov 2025 11:00:09 GMT",
+  "bodyBytes": 30689,
+  "bodySha256": "6b5c876f59b7379763043b80fc02a0cd99711dc22bff4e8ae73c8bdae3f43a0b",
+  "title": "ACE NestJS Starter",
+  "github": null
+}

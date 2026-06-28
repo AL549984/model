@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:22.897Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/TheAnswerManIsHere/Overhypeme",
+  "finalUrl": "https://github.com/TheAnswerManIsHere/Overhypeme",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ae92726cd301e76d5b2d7da1d559a9ed\"",
+  "lastModified": null,
+  "bodyBytes": 312791,
+  "bodySha256": "a2ff7e27e396eb4df1cfd34b411daf895eb25cf05924db1b3bad99d319246877",
+  "title": "GitHub - TheAnswerManIsHere/Overhypeme: This is an online database of overhyped facts for users to create memes about themselves or their friends. · GitHub",
+  "github": {
+    "owner": "TheAnswerManIsHere",
+    "repo": "Overhypeme",
+    "htmlUrl": "https://github.com/TheAnswerManIsHere/Overhypeme",
+    "defaultBranch": "main",
+    "defaultBranchSha": "795ce0938252e7c70c94e48008e68e7cece4612b",
+    "pushedAt": "2026-06-27T21:53:34Z",
+    "updatedAt": "2026-06-27T21:50:58Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

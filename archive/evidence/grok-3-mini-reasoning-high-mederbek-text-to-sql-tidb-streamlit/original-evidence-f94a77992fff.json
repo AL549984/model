@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:21.921Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MederbekSuiundukov/AI-Agent-for-Relational-Database-System/blob/main/TECHNICAL_REPORT.md",
+  "finalUrl": "https://github.com/MederbekSuiundukov/AI-Agent-for-Relational-Database-System/blob/main/TECHNICAL_REPORT.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"549bf1cd527348b195dedd45b2155303\"",
+  "lastModified": null,
+  "bodyBytes": 335121,
+  "bodySha256": "f058c7d1e9aed6e8dcf43c1baae4d250665f162aac0b7f94c5bbe9dd8b0b4043",
+  "title": "AI-Agent-for-Relational-Database-System/TECHNICAL_REPORT.md at main · MederbekSuiundukov/AI-Agent-for-Relational-Database-System · GitHub",
+  "github": {
+    "owner": "MederbekSuiundukov",
+    "repo": "AI-Agent-for-Relational-Database-System",
+    "apiStatus": "unavailable"
+  }
+}

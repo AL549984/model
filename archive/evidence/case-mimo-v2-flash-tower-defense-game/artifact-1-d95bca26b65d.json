@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:59.144Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/AndreaPanzeriDev/tower-defense",
+  "finalUrl": "https://github.com/AndreaPanzeriDev/tower-defense",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f8ed408c39eb717389687f3e5608c4c\"",
+  "lastModified": null,
+  "bodyBytes": 271534,
+  "bodySha256": "4178413870075f29e9ba03f2b9faefb8f4883b8bea1492c5f267c06fdca3893f",
+  "title": "GitHub - AndreaPanzeriDev/tower-defense: 100% vide coded. Model: MiMo-V2-Flash (free). Prompt: realize a 2d game as a tower defense · GitHub",
+  "github": {
+    "owner": "AndreaPanzeriDev",
+    "repo": "tower-defense",
+    "htmlUrl": "https://github.com/AndreaPanzeriDev/tower-defense",
+    "defaultBranch": "master",
+    "defaultBranchSha": "41ce1c22576c4a34badd77056a22b6c2636b1fc4",
+    "pushedAt": "2026-01-18T15:31:49Z",
+    "updatedAt": "2026-01-18T15:31:52Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

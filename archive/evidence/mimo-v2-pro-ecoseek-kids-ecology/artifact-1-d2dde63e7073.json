@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:38:04.274Z",
+  "kind": "artifact-1",
+  "url": "https://kids.ecoseek.org",
+  "finalUrl": "https://kids.ecoseek.org/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Thu, 25 Jun 2026 17:54:18 GMT",
+  "bodyBytes": 5341,
+  "bodySha256": "55646e36b3cf9832304e81df6c43d68b254dd2a3596a162560093e3b4fe43681",
+  "title": "ecoSeek Kids — Scientific Agent for Ecology",
+  "github": null
+}

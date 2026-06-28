@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-5-xhigh-kirillshsh-shimplify",
+  "modelId": "gpt-5-5-xhigh",
+  "modelName": "GPT-5.5 (xhigh)",
+  "title": "shimplify 用三个 GPT-5.5 xhigh Codex 子代理清理 AI 代码冗余",
+  "evidenceFingerprint": "fc010a166bddff4d02526e7f078e393f03ad7b15c4a260032d43393e3dfc144c",
+  "capturedAt": "2026-06-27T21:14:54.748Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/kirillshsh/shimplify/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-kirillshsh-shimplify/original-evidence-62e40cad6d8c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "0a832ce482c2da85d22869cde7cdcc5769e4e43f414e712b7e6d3d7cc6966c6f",
+      "capturedAt": "2026-06-27T21:14:51.357Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kirillshsh/shimplify",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-kirillshsh-shimplify/artifact-1-1da527047bf6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kirillshsh/shimplify: Codex Simplify skill installer with GPT-5.5 xhigh explorer subagent · GitHub",
+      "bodySha256": "f6d98510818445e5461d91b3541bc91999a73e3bbfa5d6600aea1f87112f8a90",
+      "capturedAt": "2026-06-27T21:14:51.701Z",
+      "error": ""
+    }
+  ]
+}

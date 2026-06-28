@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-2-team5-rag-qa",
+  "modelId": "solar-pro-2",
+  "modelName": "Solar Pro 2",
+  "title": "Team5_NLP_Upstage built a RAG and prompt-routing QA pipeline with Solar Pro 2",
+  "evidenceFingerprint": "775b474d2a4587cc87bc4598fc4e688af3aa7c27c24b0e346767ccd3e67cb2ed",
+  "capturedAt": "2026-06-27T23:24:33.949Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/juminsuh/Team5_NLP_Upstage",
+      "snapshotPath": "archive/evidence/solar-pro-2-team5-rag-qa/original-evidence-b5243533d61e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - juminsuh/Team5_NLP_Upstage: [25-2 NLP] Term Project. Enhancing a QA performance of LLM (Solar Pro 2) using RAG and Prompt engineering. · GitHub",
+      "bodySha256": "ffe9b1f97c09e5b30e3d1b9ba4be0170c018e183f142860b2152aca13f304c22",
+      "capturedAt": "2026-06-27T23:24:30.248Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/juminsuh/Team5_NLP_Upstage/blob/main/run.py",
+      "snapshotPath": "archive/evidence/solar-pro-2-team5-rag-qa/artifact-1-ee94c153c0c5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Team5_NLP_Upstage/run.py at main · juminsuh/Team5_NLP_Upstage · GitHub",
+      "bodySha256": "38b3066c450411a6bf576d830f10e2a067c8632612108550016586fecf6586b4",
+      "capturedAt": "2026-06-27T23:24:32.981Z",
+      "error": ""
+    }
+  ]
+}

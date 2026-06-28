@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:58.803Z",
+  "kind": "artifact-1",
+  "url": "https://www.clay.com/",
+  "finalUrl": "https://www.clay.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 14:32:25 GMT",
+  "bodyBytes": 491774,
+  "bodySha256": "b4b9c9ce275369f10e0e35d7485d30b214faf054e3028411196f291ad8474f58",
+  "title": "Clay | Build systems to grow revenue",
+  "github": null
+}

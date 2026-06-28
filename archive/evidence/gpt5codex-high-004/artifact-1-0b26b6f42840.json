@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:18.335Z",
+  "kind": "artifact-1",
+  "url": "https://openai.github.io/euphony/",
+  "finalUrl": "https://openai.github.io/euphony/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "534",
+  "etag": "W/\"69e85cbc-46d\"",
+  "lastModified": "Wed, 22 Apr 2026 05:29:32 GMT",
+  "bodyBytes": 1133,
+  "bodySha256": "0f8f4fa1b10d2bf7a5409e11417a69315d2d2d68ee849d7d9acbfd8628474043",
+  "title": "Euphony: Visualize Chat Data in Your Browser",
+  "github": null
+}

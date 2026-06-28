@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:15.092Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Liam-Frost/AutoApply",
+  "finalUrl": "https://github.com/Liam-Frost/AutoApply",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"370cfd1b32db222ef8d180ee56b5fed0\"",
+  "lastModified": null,
+  "bodyBytes": 352471,
+  "bodySha256": "ebd12d498c6fcb82d48de415e3e3dd0ffa17350664753d3585a16f2fae0674c5",
+  "title": "GitHub - Liam-Frost/AutoApply: A personal job application AI Agent for job discovery, fit scoring, tailored materials, form filling, human-gated submission and application tracking. · GitHub",
+  "github": {
+    "owner": "Liam-Frost",
+    "repo": "AutoApply",
+    "apiStatus": "unavailable"
+  }
+}

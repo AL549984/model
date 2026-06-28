@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:48.996Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/frahlg/fusion/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/frahlg/fusion/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2752",
+  "etag": "W/\"1e45cbba794b3c31cde44cc686ad9e063232071a7b840c8f96de95a2d07355ea\"",
+  "lastModified": null,
+  "bodyBytes": 6414,
+  "bodySha256": "749fcd071906240a5a0cb257052e8eb888a28bb4f7d4a94c5fc011a622fcae98",
+  "title": "",
+  "github": null
+}

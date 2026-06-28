@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:05.611Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zakirkun/deep-eye/blob/main/docs/QUICKSTART.md#grok-xai",
+  "finalUrl": "https://github.com/zakirkun/deep-eye/blob/main/docs/QUICKSTART.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3740f8c5092d85084674cf548583abca\"",
+  "lastModified": null,
+  "bodyBytes": 415863,
+  "bodySha256": "4ed24f80ee00e3ad492b09553a6905ec4b8fc4bf57b21f87cded76d5d00f626b",
+  "title": "deep-eye/docs/QUICKSTART.md at main · zakirkun/deep-eye · GitHub",
+  "github": {
+    "owner": "zakirkun",
+    "repo": "deep-eye",
+    "apiStatus": "unavailable"
+  }
+}

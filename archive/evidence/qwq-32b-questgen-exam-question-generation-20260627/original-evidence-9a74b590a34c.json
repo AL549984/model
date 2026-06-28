@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:36.921Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/cRED-f/QuestGen-AI-Agent/blob/main/README.md#L131",
+  "finalUrl": "https://github.com/cRED-f/QuestGen-AI-Agent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2efa3cbe4a5872859bce860d5d53a5ea\"",
+  "lastModified": null,
+  "bodyBytes": 329251,
+  "bodySha256": "5b98f215348f141c971618b942834fcffa2bc20658df48ba9c71aa32e2e1054f",
+  "title": "QuestGen-AI-Agent/README.md at main · cRED-f/QuestGen-AI-Agent · GitHub",
+  "github": {
+    "owner": "cRED-f",
+    "repo": "QuestGen-AI-Agent",
+    "apiStatus": "unavailable"
+  }
+}

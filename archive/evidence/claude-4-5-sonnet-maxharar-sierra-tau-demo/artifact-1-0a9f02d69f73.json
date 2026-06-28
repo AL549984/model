@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:49.941Z",
+  "kind": "artifact-1",
+  "url": "https://maxharar.com/sierra",
+  "finalUrl": "https://maxharar.com/sierra",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"324390176dc7ec3d8ab722f3e791395e\"",
+  "lastModified": null,
+  "bodyBytes": 27172,
+  "bodySha256": "4b5fd48240518e89fa3ac876580785af916acbfdb701d24c9a79dad7421b0073",
+  "title": "Pass^1 | Max Harar",
+  "github": null
+}

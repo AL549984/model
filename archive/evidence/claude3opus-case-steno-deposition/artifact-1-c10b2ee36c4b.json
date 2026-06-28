@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:25.024Z",
+  "kind": "artifact-1",
+  "url": "https://www.steno.com/",
+  "finalUrl": "https://steno.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 03:43:27 GMT",
+  "bodyBytes": 80194,
+  "bodySha256": "ea2dfee03b5a2ebfe1fca3e593cb9b840aece009c8478d0b78450d397daa860d",
+  "title": "Exceptional court reporting and litigation services | Steno",
+  "github": null
+}

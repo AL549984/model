@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:57.264Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/zhayujie/CowAgent",
+  "finalUrl": "https://github.com/zhayujie/CowAgent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3502f1edd34a92238ce62871e31292af\"",
+  "lastModified": null,
+  "bodyBytes": 432492,
+  "bodySha256": "e61d68986e6dcd5e8ddc491109bd925a13aac14eb15fa941a3a767aeb2e78888",
+  "title": "GitHub - zhayujie/CowAgent: Open-source super AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly cha",
+  "github": {
+    "owner": "zhayujie",
+    "repo": "CowAgent",
+    "apiStatus": "unavailable"
+  }
+}

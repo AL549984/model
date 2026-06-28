@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-72b-lemonai-local-agent",
+  "modelId": "qwen-chat-72b",
+  "modelName": "Qwen Chat 72B",
+  "title": "Lemon AI configures a Qwen-72B-Chat-Int4 backend for local agent workflows",
+  "evidenceFingerprint": "b9ae9dd7ad90012ce41e77d8d74002918be1c0f72eea760b90885284918460d2",
+  "capturedAt": "2026-06-27T22:59:29.123Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/hexdocom/lemonai/blob/main/src/completion/configs.js",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-lemonai-local-agent/original-evidence-c7eb2a8d597f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "lemonai/src/completion/configs.js at main · hexdocom/lemonai · GitHub",
+      "bodySha256": "4d255fb74f40c2dfecff2d74748384b9c5dcfcee06f97eb391d975022bdaf3c4",
+      "capturedAt": "2026-06-27T22:59:26.933Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hexdocom/lemonai",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-lemonai-local-agent/artifact-1-ee2e7a0e15b4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hexdocom/lemonai: Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus &amp; Genspark AI.🔔 Official updates X(twitter) @LemonAI_cc · GitHub",
+      "bodySha256": "f35a2c90ab774de0f1287be9e41204fa88cd29c415eef9341c7caceb53f018a2",
+      "capturedAt": "2026-06-27T22:59:27.992Z",
+      "error": ""
+    }
+  ]
+}

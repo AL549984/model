@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-exp-gif-generator",
+  "modelId": "gemini-2-0-flash-exp",
+  "modelName": "Gemini 2.0 Flash (exp)",
+  "title": "Gemini GIF Generator — Python CLI tool on PyPI for animated GIF generation via Gemini 2.0 Flash",
+  "evidenceFingerprint": "5053b78d7568f8d2d4d7a5b50525e52471c1b5d37849c6f54d30d3cba86ae21c",
+  "capturedAt": "2026-06-27T21:41:02.895Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/daymade/gemini-gif",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-gif-generator/original-evidence-f2569d3beab7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - daymade/gemini-gif: A Python tool that uses Google&#39;s Gemini 2.0 Flash Exp API to generate animated GIFs from text prompts. · GitHub",
+      "bodySha256": "cc243d8189162aecbe8cc76fc63a4955c4d2bf49851791022250d5b76927a7aa",
+      "capturedAt": "2026-06-27T21:41:00.960Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://pypi.org/project/gemini-gif/",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-gif-generator/artifact-1-f02dfc293ad9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Client Challenge",
+      "bodySha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "capturedAt": "2026-06-27T21:41:02.129Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:05.207Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/deep-diver/hf-daily-paper-newsletter",
+  "finalUrl": "https://github.com/deep-diver/hf-daily-paper-newsletter",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a94ff0601d5c8a167112e301af98ad26\"",
+  "lastModified": null,
+  "bodyBytes": 293688,
+  "bodySha256": "ca462d64bcd814ff81bfcdeb51149c943fc05e46d7a5bb37fdc05ccd51223a6e",
+  "title": "GitHub - deep-diver/hf-daily-paper-newsletter: Newsletter bot for 🤗 Daily Papers · GitHub",
+  "github": {
+    "owner": "deep-diver",
+    "repo": "hf-daily-paper-newsletter",
+    "apiStatus": "unavailable"
+  }
+}

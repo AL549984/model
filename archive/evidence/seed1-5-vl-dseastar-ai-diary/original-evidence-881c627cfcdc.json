@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:52.335Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/DSeaStar/ai-diary/blob/main/ai_diary.py",
+  "finalUrl": "https://github.com/DSeaStar/ai-diary/blob/main/ai_diary.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"430ec532a219570aaf37b4c4130ec90b\"",
+  "lastModified": null,
+  "bodyBytes": 358979,
+  "bodySha256": "924fc1f379ef41c173d9c56ae04cd99f7df886bcc1c4d7acbeca7d927ae7d7cb",
+  "title": "ai-diary/ai_diary.py at main · DSeaStar/ai-diary · GitHub",
+  "github": {
+    "owner": "DSeaStar",
+    "repo": "ai-diary",
+    "apiStatus": "unavailable"
+  }
+}

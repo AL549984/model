@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:16.205Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zjunlp/EasyInstruct/blob/main/examples/kg2instruction/llm_cpl/src/utils/constants.py",
+  "finalUrl": "https://github.com/zjunlp/EasyInstruct/blob/main/examples/kg2instruction/llm_cpl/src/utils/constants.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b03205682eeb2311121ff04b8e26d1b1\"",
+  "lastModified": null,
+  "bodyBytes": 368759,
+  "bodySha256": "81a90abeb52499bc8c506a27ccde450a8dbaa42c4202f9dbd48840d10e3c7974",
+  "title": "EasyInstruct/examples/kg2instruction/llm_cpl/src/utils/constants.py at main · zjunlp/EasyInstruct · GitHub",
+  "github": {
+    "owner": "zjunlp",
+    "repo": "EasyInstruct",
+    "apiStatus": "unavailable"
+  }
+}

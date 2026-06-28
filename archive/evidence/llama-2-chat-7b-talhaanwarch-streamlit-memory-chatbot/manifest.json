@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-2-chat-7b-talhaanwarch-streamlit-memory-chatbot",
+  "modelId": "llama-2-chat-7b",
+  "modelName": "Llama 2 Chat 7B",
+  "title": "talhaanwarch 用 Llama-2-7B-Chat-GGML 构建带记忆的 Streamlit 聊天机器人",
+  "evidenceFingerprint": "c95bc6e46ac151d4680b9085aa2ff172034e6c047b6bb92d6e415609587c92d3",
+  "capturedAt": "2026-06-27T21:27:42.403Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/talhaanwarch/streamlit-llama/main/README.md",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-talhaanwarch-streamlit-memory-chatbot/original-evidence-062fe1551dda.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "6944eba8e2986e98303b5b94e32dea86b0c3307be36b5595af6e6a23be46d067",
+      "capturedAt": "2026-06-27T21:27:41.003Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/talhaanwarch/streamlit-llama",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-talhaanwarch-streamlit-memory-chatbot/artifact-1-095c5bd04c70.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - talhaanwarch/streamlit-llama: Streamlit chatbot with Llama-2-7B-chat · GitHub",
+      "bodySha256": "a0c8d50c3f7a79a00a6948276028aa498c89883e134a2919c831fa97e89cfb14",
+      "capturedAt": "2026-06-27T21:27:41.331Z",
+      "error": ""
+    }
+  ]
+}

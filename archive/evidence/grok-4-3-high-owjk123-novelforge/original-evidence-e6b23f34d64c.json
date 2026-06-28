@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:07.473Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/owjk123/NovelForge/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/owjk123/NovelForge/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1957",
+  "etag": "W/\"e5b8d6caf1665a5197866da287f8f04b3ef07b9a600193f9c94f3ec379af3068\"",
+  "lastModified": null,
+  "bodyBytes": 3775,
+  "bodySha256": "a4a5258e456c0f36e83e76d579a9df1275eb0951e4b7b9471e2abe202e96414b",
+  "title": "",
+  "github": null
+}

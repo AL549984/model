@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:26.616Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/marksunner/dgx-spark-step37-flash/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/marksunner/dgx-spark-step37-flash/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "7411",
+  "etag": "W/\"0a0bbc70b4c00def9be95f92f3526048dd76181e36902e1d93a55d548c409b63\"",
+  "lastModified": null,
+  "bodyBytes": 17768,
+  "bodySha256": "835bfc5b6a987a022273cd01f95d48730e006d122223df77739e77b02b390b52",
+  "title": "",
+  "github": null
+}

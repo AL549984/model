@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-gradient-chat-python-client",
+  "modelId": "qwen3-235b",
+  "modelName": "Qwen3 235B",
+  "title": "gradient-chat-python exposes Qwen3 235B chat and reasoning through a Python client for the Parallax decentralized inference network",
+  "evidenceFingerprint": "19625903a64a31b5bb55665f9452e24687e9ccaa63679b7d771098a137e01b5b",
+  "capturedAt": "2026-06-27T21:27:54.867Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/abswn/gradient-chat-python/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-235b-gradient-chat-python-client/original-evidence-2b9ce3ac5071.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ac6772757b7210c3faba64f85e4dacbd0185eb9743c1e0cc961ecce351d4af14",
+      "capturedAt": "2026-06-27T21:27:53.649Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/abswn/gradient-chat-python",
+      "snapshotPath": "archive/evidence/qwen3-235b-gradient-chat-python-client/artifact-1-c07e34042ec6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - abswn/gradient-chat-python: Unofficial Python client for Gradient Chat (supports gpt-oss-120b and qwen3-235b) · GitHub",
+      "bodySha256": "dfe9770e5e8edf3ad00e1c92ebe5fe93b00ae10fc327870f76910def5b38ccb8",
+      "capturedAt": "2026-06-27T21:27:53.972Z",
+      "error": ""
+    }
+  ]
+}

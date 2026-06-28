@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:46.044Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/loke-jad/minimax-agent",
+  "finalUrl": "https://github.com/loke-jad/minimax-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a39f54585fce9c4a2f924033590c4559\"",
+  "lastModified": null,
+  "bodyBytes": 253820,
+  "bodySha256": "61ab949f54750f84643df7d3e17a9834691bbf2da927a3a37a03fc4587dd7e6c",
+  "title": "GitHub - loke-jad/minimax-agent: Claude Agent SDK wired to a local llama-server (MiniMax-M2.5) via LiteLLM. MCP gateway + safety hooks. Dormant. · GitHub",
+  "github": {
+    "owner": "loke-jad",
+    "repo": "minimax-agent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:22.009Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/sourcegraph",
+  "finalUrl": "https://claude.com/customers/sourcegraph",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 18:57:33 GMT",
+  "bodyBytes": 595306,
+  "bodySha256": "b90b203a59a2d16280992a0f770a1b6c7f1c485bccc59119a226b68749dd5a85",
+  "title": "Sourcegraph Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

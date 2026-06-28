@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:26.508Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/turboderp/exllama",
+  "finalUrl": "https://github.com/turboderp/exllama",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5ae6053aca6fc4787104abae9ebe22af\"",
+  "lastModified": null,
+  "bodyBytes": 399162,
+  "bodySha256": "d0795d6c0e695ef2b817cb38a38a103d1c0d6a41eee9724735595cd8a95aab15",
+  "title": "GitHub - turboderp/exllama: A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. · GitHub",
+  "github": {
+    "owner": "turboderp",
+    "repo": "exllama",
+    "apiStatus": "unavailable"
+  }
+}

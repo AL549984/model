@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:18.617Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/rollingfruit/Free_Astra",
+  "finalUrl": "https://github.com/rollingfruit/Free_Astra",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"99506f26ec7061a3f1e52e52286dd36f\"",
+  "lastModified": null,
+  "bodyBytes": 302928,
+  "bodySha256": "1f4d1b1f9b0a1fba03543153c3ea44e42344cfb6df796d0a17347e956fd6819e",
+  "title": "GitHub - rollingfruit/Free_Astra: gpt-4o前两天发布会有了视频聊天版本，再模仿前两天谷歌发布会的多模态AI项目Project Astra，粗略挫了个视觉聊天模型。现在能跟他自由交谈，它会根据摄像头拍到的画面与使用者的语言进行反映，并实时声音输出。目前英语效果是最好的，中文也算能支持。演示程序未加速未剪辑，视觉反映过程比较快，但是文转声会有延迟。 在Github项目DIY-Astra的基础上进行改进，现在可以做到拿着摄像头自由聊天。 目前感",
+  "github": {
+    "owner": "rollingfruit",
+    "repo": "Free_Astra",
+    "apiStatus": "unavailable"
+  }
+}

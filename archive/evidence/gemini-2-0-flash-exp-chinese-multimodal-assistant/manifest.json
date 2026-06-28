@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-exp-chinese-multimodal-assistant",
+  "modelId": "gemini-2-0-flash-exp",
+  "modelName": "Gemini 2.0 Flash (exp)",
+  "title": "Gemini 2.0 Multimodal Assistant — Vue.js chat/image recognition/AI image generation app using gemini-2.0-flash-exp",
+  "evidenceFingerprint": "05cbb3bf8d4276cc4327722534dcfc1b0403cc008e9980db9d04fecae0a23991",
+  "capturedAt": "2026-06-27T21:40:59.511Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/lfglfg11/gemini-assistant",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-chinese-multimodal-assistant/original-evidence-496f870e1945.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lfglfg11/gemini-assistant: 基于 Google 最新的gemini-2.0-flash-exp模型、gemini-2.0-flash-exp-image-generation模型构建的多模态模型的轻量级智能对话应用。轻松实现图像编辑，生成图文并茂文档 · GitHub",
+      "bodySha256": "f94e04c454da53fcdb0f4de81019dd9ecad03dc53e780d0f4223f4d8f10d5379",
+      "capturedAt": "2026-06-27T21:40:57.936Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/lfglfg11/gemini-assistant",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-chinese-multimodal-assistant/artifact-1-496f870e1945.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lfglfg11/gemini-assistant: 基于 Google 最新的gemini-2.0-flash-exp模型、gemini-2.0-flash-exp-image-generation模型构建的多模态模型的轻量级智能对话应用。轻松实现图像编辑，生成图文并茂文档 · GitHub",
+      "bodySha256": "72ad9d652b8079a89d38a506d116f023c725eb0632092af269f27d94d2bc1bf6",
+      "capturedAt": "2026-06-27T21:40:59.028Z",
+      "error": ""
+    }
+  ]
+}

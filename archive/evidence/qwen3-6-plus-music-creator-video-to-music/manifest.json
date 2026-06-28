@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-plus-music-creator-video-to-music",
+  "modelId": "qwen3-6-plus",
+  "modelName": "Qwen3.6 Plus",
+  "title": "music_creator 用 Qwen3.6 Plus 分析视频并驱动 MiniMax Music2.6 生成背景音乐",
+  "evidenceFingerprint": "6366c6fc8425dd0a82aafb0bb639f8b782b8ce73b6b48a9c4d8da4af86b35f54",
+  "capturedAt": "2026-06-27T23:07:49.698Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/chenzinuo2005/music_creator/blob/master/README.md",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-music-creator-video-to-music/original-evidence-22a9ebe49b2c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "music_creator/README.md at master · chenzinuo2005/music_creator · GitHub",
+      "bodySha256": "cdd971b8237147f520a2499db2f1db18962dae7ace1f2404efed6c141f6c5847",
+      "capturedAt": "2026-06-27T23:07:46.615Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/chenzinuo2005/music_creator",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-music-creator-video-to-music/artifact-1-f5b21773cf73.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - chenzinuo2005/music_creator: 这是一个基于传送的视频制作符合该视频氛围的多agent小工具，由qwen3.6-plus与Minimax Music2.6配合完成， · GitHub",
+      "bodySha256": "251278e557f06400012f43ed852735d05dce296ce997a9fa808912bc73625d66",
+      "capturedAt": "2026-06-27T23:07:48.413Z",
+      "error": ""
+    }
+  ]
+}

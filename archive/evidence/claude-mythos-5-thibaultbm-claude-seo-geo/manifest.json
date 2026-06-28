@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-mythos-5-thibaultbm-claude-seo-geo",
+  "modelId": "claude-mythos-5",
+  "modelName": "Claude Mythos 5",
+  "title": "Claude SEO GEO：用 Claude Mythos 5 构建面向 Claude Code 的 SEO/GEO 技能包",
+  "evidenceFingerprint": "fb03f5e3306a1ed17c47c07c845183ce6625cc55a2479ad68b7b77e1b40d07f4",
+  "capturedAt": "2026-06-27T20:55:07.318Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Thibaultbm/claude-seo-geo/main/README.md",
+      "snapshotPath": "archive/evidence/claude-mythos-5-thibaultbm-claude-seo-geo/original-evidence-a7162aac2657.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "c2ad40549ac28e20d751ab4a84052b163cb5076ac7aabca10d11cf0409b9e59d",
+      "capturedAt": "2026-06-27T20:55:05.625Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Thibaultbm/claude-seo-geo",
+      "snapshotPath": "archive/evidence/claude-mythos-5-thibaultbm-claude-seo-geo/artifact-1-7321eb86e067.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Thibaultbm/claude-seo-geo: SEO &amp; GEO skills for Claude Code, built with Claude Mythos 5. Rank in Google AND in LLMs (ChatGPT, Perplexity, Gemini): technical audits, backlinks, AI-optimized content, local SEO, and social amplifi",
+      "bodySha256": "f31364f871c780e62326ab0ae4269f59f61b623072777397d372d327ccf8e0d0",
+      "capturedAt": "2026-06-27T20:55:05.942Z",
+      "error": ""
+    }
+  ]
+}

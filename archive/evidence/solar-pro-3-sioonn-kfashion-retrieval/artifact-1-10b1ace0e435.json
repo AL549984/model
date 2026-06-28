@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:20.690Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Sioonn/kfashion-t2i-retrieval",
+  "finalUrl": "https://github.com/Sioonn/kfashion-t2i-retrieval",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e51231c14a98d58a29427ae3e6e0a987\"",
+  "lastModified": null,
+  "bodyBytes": 278936,
+  "bodySha256": "eea7d753287ec0743d570536a17e387b398d3ff56a1399aa2ab26aaa8ba439be",
+  "title": "GitHub - Sioonn/kfashion-t2i-retrieval: Korean fashion text-to-image retrieval capstone. SigLIP 2 + text-only LoRA on Solar-pro3 augmented user-style queries. · GitHub",
+  "github": {
+    "owner": "Sioonn",
+    "repo": "kfashion-t2i-retrieval",
+    "apiStatus": "unavailable"
+  }
+}

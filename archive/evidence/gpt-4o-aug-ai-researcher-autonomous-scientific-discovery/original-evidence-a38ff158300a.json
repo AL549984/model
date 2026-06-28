@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:52.808Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/HKUDS/AI-Researcher/blob/main/research_agent/constant.py#L39",
+  "finalUrl": "https://github.com/HKUDS/AI-Researcher/blob/main/research_agent/constant.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b15f85594632ad3ce8080eea3a0dd873\"",
+  "lastModified": null,
+  "bodyBytes": 275974,
+  "bodySha256": "4fa46d091ad0923ee6b035f5bc2f04ae84fb8b76de8edfe5e79c4b358e78564e",
+  "title": "AI-Researcher/research_agent/constant.py at main · HKUDS/AI-Researcher · GitHub",
+  "github": {
+    "owner": "HKUDS",
+    "repo": "AI-Researcher",
+    "apiStatus": "unavailable"
+  }
+}

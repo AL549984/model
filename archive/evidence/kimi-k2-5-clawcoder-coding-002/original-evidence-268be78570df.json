@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:32.952Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/sangjiexun/clawcoder/blob/main/README.md",
+  "finalUrl": "https://github.com/sangjiexun/clawcoder/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f189eddc08eb6b16adeabb20b3a0bc58\"",
+  "lastModified": null,
+  "bodyBytes": 352125,
+  "bodySha256": "c9cdbbdeee92874f66d44e62d766cc1a505d799dc8b965445d4bbe8357ed8889",
+  "title": "clawcoder/README.md at main · sangjiexun/clawcoder · GitHub",
+  "github": {
+    "owner": "sangjiexun",
+    "repo": "clawcoder",
+    "apiStatus": "unavailable"
+  }
+}

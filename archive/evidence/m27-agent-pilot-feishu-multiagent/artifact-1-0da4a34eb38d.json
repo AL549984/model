@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:29.358Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/bcefghj/Agent-Pilot",
+  "finalUrl": "https://github.com/bcefghj/Agent-Pilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c2957972a0c5c4bd42369a4e44c52dd2\"",
+  "lastModified": null,
+  "bodyBytes": 446045,
+  "bodySha256": "aa4de1c657d0b1b3df4596c05bb93c897119cc1ac7f22886438cfa98523f3c4c",
+  "title": "GitHub - bcefghj/Agent-Pilot: Agent-Pilot · 飞书 AI 校园挑战赛 · 从 IM 对话到演示稿的一键智能闭环 | 6 Agent Multi-Agent Pipeline · MiniMax M2.7 Tool Calling · 飞书 Bot 全生态集成 · GitHub",
+  "github": {
+    "owner": "bcefghj",
+    "repo": "Agent-Pilot",
+    "apiStatus": "unavailable"
+  }
+}

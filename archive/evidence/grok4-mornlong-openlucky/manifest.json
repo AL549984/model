@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok4-mornlong-openlucky",
+  "modelId": "grok-4",
+  "modelName": "Grok 4",
+  "title": "AI-Powered Cryptocurrency Trading Bot with Grok-4",
+  "evidenceFingerprint": "2a8ce819cdc63b9cdd3dd8edd0392c97dde0933d62adfd5e3f2beb6fc75962e6",
+  "capturedAt": "2026-06-27T21:27:36.461Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/MORNLONG/OpenLucky/main/README.md",
+      "snapshotPath": "archive/evidence/grok4-mornlong-openlucky/original-evidence-77aa2a39e581.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "b9984702bfe20eb3dfaa31c4a7ee3fd2d223baab2d4a82ac2b45d639a5066cf0",
+      "capturedAt": "2026-06-27T21:27:34.726Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MORNLONG/OpenLucky",
+      "snapshotPath": "archive/evidence/grok4-mornlong-openlucky/artifact-1-5a6a8fac61de.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MORNLONG/OpenLucky: 🍀 AI-Powered Cryptocurrency Trading Bot with xAI Grok-4 and OKX API · GitHub",
+      "bodySha256": "f2dd448d3221a7311e0c24926852c447d459e0e5bca756ec9215f6ab1f003060",
+      "capturedAt": "2026-06-27T21:27:35.045Z",
+      "error": ""
+    }
+  ]
+}

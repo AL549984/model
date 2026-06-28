@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-max-preview-mllmcelltype-cell-annotation",
+  "modelId": "qwen3-6-max-preview",
+  "modelName": "Qwen3.6 Max Preview",
+  "title": "mLLMCelltype integrates Qwen3.6 Max Preview for consensus cell-type annotation of scRNA-seq marker genes",
+  "evidenceFingerprint": "1f7d71dc5aa99bb6702a47d9e5ff0719f6e349ab1ff65e6415202bd3097fb4eb",
+  "capturedAt": "2026-06-27T23:07:32.404Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/cafferychen777/mLLMCelltype/blob/e09db3ed430ba53bc13fdf8c12654bf01e66bb20/python/mllmcelltype/providers/qwen.py",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-mllmcelltype-cell-annotation/original-evidence-4f64a60aa02e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "mLLMCelltype/python/mllmcelltype/providers/qwen.py at e09db3ed430ba53bc13fdf8c12654bf01e66bb20 · cafferychen777/mLLMCelltype · GitHub",
+      "bodySha256": "a8a1882af9b0f28e327d08ee126f58deab71aa5361e1b74ad600fb4f3b330a36",
+      "capturedAt": "2026-06-27T23:07:29.233Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/cafferychen777/mLLMCelltype",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-mllmcelltype-cell-annotation/artifact-1-8f621cee39ec.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - cafferychen777/mLLMCelltype: Cell type annotation for single-cell RNA-seq using multi-LLM consensus · GitHub",
+      "bodySha256": "4ead541183eec426b52d6a7607a4b7832a882eabe497a8691b7a1a02163174ce",
+      "capturedAt": "2026-06-27T23:07:30.901Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-65b-bigscience-petals-distributed-prompt-tuning",
+  "modelId": "llama-65b",
+  "modelName": "Llama 65B",
+  "title": "BigScience Petals 支持分布式运行并 prompt-tune LLaMA 65B",
+  "evidenceFingerprint": "33a5c1f63c66fb7162f2858e4259f1d11b03dea5a58a80a7313613d246f9a686",
+  "capturedAt": "2026-06-27T22:37:23.455Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bigscience-workshop/petals",
+      "snapshotPath": "archive/evidence/llama-65b-bigscience-petals-distributed-prompt-tuning/original-evidence-8298d6e2b3a6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bigscience-workshop/petals: 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading · GitHub",
+      "bodySha256": "7ff84e36d1accdf07c3dc1209a2ec87c41ea3a9bad5b7b5158ff8419d62ff8e3",
+      "capturedAt": "2026-06-27T22:37:20.926Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://chat.petals.dev",
+      "snapshotPath": "archive/evidence/llama-65b-bigscience-petals-distributed-prompt-tuning/artifact-1-6e43ea5f4205.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Petals &ndash; Decentralized platform for running large language models",
+      "bodySha256": "817fed1c0fb7baaceb17c132c2b79a72871fe5efcbc966d0de3fccb533d98ce0",
+      "capturedAt": "2026-06-27T22:37:21.784Z",
+      "error": ""
+    }
+  ]
+}

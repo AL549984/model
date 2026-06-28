@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-dec-always-on-assistant-004",
+  "modelId": "deepseek-v3-dec",
+  "modelName": "DeepSeek V3 (Dec)",
+  "title": "Always-On AI Engineering Assistant — DeepSeek-V3 Powered Voice-Activated Development Tool",
+  "evidenceFingerprint": "dda0a6fe9c11995e3323f5aaa12fd3d95a56e02b73465cc1c0e45e743fbb7334",
+  "capturedAt": "2026-06-27T21:34:26.287Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/disler/always-on-ai-assistant",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-always-on-assistant-004/original-evidence-1309f12745e8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - disler/always-on-ai-assistant: A pattern for an always on AI Assistant powered by Deepseek-V3, RealtimeSTT, and Typer for engineering · GitHub",
+      "bodySha256": "c0d7d09336b2f54551e8807d8e9a598bc594b6fb52026aab51154ee26d06170a",
+      "capturedAt": "2026-06-27T21:34:24.583Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/disler/always-on-ai-assistant",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-always-on-assistant-004/artifact-1-1309f12745e8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - disler/always-on-ai-assistant: A pattern for an always on AI Assistant powered by Deepseek-V3, RealtimeSTT, and Typer for engineering · GitHub",
+      "bodySha256": "9999ac93acdd169710b0952a1fa257a14af08b7e408809b1aeb33ed8aea1dd6f",
+      "capturedAt": "2026-06-27T21:34:25.764Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:10.927Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Asish-baidya29/PaperTalk/blob/main/README.md",
+  "finalUrl": "https://github.com/Asish-baidya29/PaperTalk/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9ce71c33880d007913bccb2bc8613a62\"",
+  "lastModified": null,
+  "bodyBytes": 230870,
+  "bodySha256": "aef00da451e22b5591b6e40538f5ebd4a20709ecbcbffe583dcb44dd7aae0580",
+  "title": "PaperTalk/README.md at main · Asish-baidya29/PaperTalk · GitHub",
+  "github": {
+    "owner": "Asish-baidya29",
+    "repo": "PaperTalk",
+    "apiStatus": "unavailable"
+  }
+}

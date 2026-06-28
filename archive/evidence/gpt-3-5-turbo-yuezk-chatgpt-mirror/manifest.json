@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-3-5-turbo-yuezk-chatgpt-mirror",
+  "modelId": "gpt-3-5-turbo",
+  "modelName": "GPT-3.5 Turbo",
+  "title": "ChatGPT Mirror 基于 GPT-3.5 Turbo 提供自托管聊天镜像",
+  "evidenceFingerprint": "9e95096733e37c863e172b753836670931152d7df523a6a5104ead33589fef63",
+  "capturedAt": "2026-06-27T22:00:38.934Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yuezk/chatgpt-mirror/blob/main/README.md#L4-L24",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-yuezk-chatgpt-mirror/original-evidence-020d4d30841d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "chatgpt-mirror/README.md at main · yuezk/chatgpt-mirror · GitHub",
+      "bodySha256": "0c978546ee3d4935c7b82ce14cb73c71057e7e915035a6d959b4a6d6ce8da33b",
+      "capturedAt": "2026-06-27T22:00:37.078Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yuezk/chatgpt-mirror",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-yuezk-chatgpt-mirror/artifact-1-174e18040ddd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yuezk/chatgpt-mirror: A mirror of ChatGPT based on the gpt-3.5-turbo model. · GitHub",
+      "bodySha256": "b2764f37f2347320f07711cc786603846668861f1a5d08a1955cc20a95da9177",
+      "capturedAt": "2026-06-27T22:00:38.006Z",
+      "error": ""
+    }
+  ]
+}

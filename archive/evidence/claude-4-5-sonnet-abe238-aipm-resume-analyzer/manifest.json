@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-5-sonnet-abe238-aipm-resume-analyzer",
+  "modelId": "claude-4-5-sonnet",
+  "modelName": "Claude 4.5 Sonnet",
+  "title": "Abe Diaz built an AI PM resume analyzer that can use Claude Sonnet 4.5 for six-pillar hiring evaluations",
+  "evidenceFingerprint": "5e5f0f73098d103f0ba215505ff8ed89d7db4d0cf1f22558be43f171937acf3a",
+  "capturedAt": "2026-06-27T20:54:39.925Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/abe238/aipm-resume-analyzer/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-abe238-aipm-resume-analyzer/original-evidence-df2c0f0c5b18.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "aipm-resume-analyzer/README.md at main · abe238/aipm-resume-analyzer · GitHub",
+      "bodySha256": "d0afd5851a106385e58d5b04d6cd8a78260803c85425a38b33add2b2bce33a10",
+      "capturedAt": "2026-06-27T20:54:37.528Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://aipmframework.com/",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-abe238-aipm-resume-analyzer/artifact-1-8b2d48675761.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AI Product Manager Evaluation Framework 2026 | AI PM Hiring Guide",
+      "bodySha256": "b32d2549502c05e8bc0d143bed810a0b6d306c465be93de0d5963df80a804da5",
+      "capturedAt": "2026-06-27T20:54:38.758Z",
+      "error": ""
+    }
+  ]
+}

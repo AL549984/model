@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:29.883Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/workshop-labs-pbc/monkeypatch-train-kimi-k2-thinking-demo",
+  "finalUrl": "https://github.com/workshop-labs-pbc/monkeypatch-train-kimi-k2-thinking-demo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ddd8f0893b890855288bc9381dcdefbf\"",
+  "lastModified": null,
+  "bodyBytes": 271812,
+  "bodySha256": "55b89f577cb505b27c2e5bcf6af6284d6f578f828c1238c157ba213e3ad6a67a",
+  "title": "GitHub - workshop-labs-pbc/monkeypatch-train-kimi-k2-thinking-demo: A demo of what it takes to get Kimi K2 Thinking to train on top of HuggingFace · GitHub",
+  "github": {
+    "owner": "workshop-labs-pbc",
+    "repo": "monkeypatch-train-kimi-k2-thinking-demo",
+    "apiStatus": "unavailable"
+  }
+}

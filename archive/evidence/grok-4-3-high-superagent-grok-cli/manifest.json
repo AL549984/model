@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-superagent-grok-cli",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "superagent-ai 用 Grok 4.3 打造开源终端编码 Agent",
+  "evidenceFingerprint": "81807c397289c93ab961003cbbbe4e450ca76be6c1d3b318e614a48d9dd063c7",
+  "capturedAt": "2026-06-27T21:27:30.921Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/superagent-ai/grok-cli/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-superagent-grok-cli/original-evidence-74ce2592ac6f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "937bb00f20aa30e04f8863191586fdfa2cfafed1656998d237d8632b55240bee",
+      "capturedAt": "2026-06-27T21:27:29.643Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/superagent-ai/grok-cli",
+      "snapshotPath": "archive/evidence/grok-4-3-high-superagent-grok-cli/artifact-1-fbcaa9cd40a9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - superagent-ai/grok-cli: An open-source coding agent for the Grok API · GitHub",
+      "bodySha256": "0619df013795aaf93caf814e42e7958f325bee2630675e7f69c309d6557a7b1c",
+      "capturedAt": "2026-06-27T21:27:29.997Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:30.562Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/chouaibMo/ChatGemini/blob/main/shared/src/commonMain/kotlin/data/network/GeminiService.kt",
+  "finalUrl": "https://github.com/chouaibMo/ChatGemini/blob/main/shared/src/commonMain/kotlin/data/network/GeminiService.kt",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b76e4fd223b7bdfcef111765e77d1e55\"",
+  "lastModified": null,
+  "bodyBytes": 274951,
+  "bodySha256": "cb12806d1dfd7174ac6c09f7f01b1b86b7f2e0d5d73531452a2ace18607f159f",
+  "title": "ChatGemini/shared/src/commonMain/kotlin/data/network/GeminiService.kt at main · chouaibMo/ChatGemini · GitHub",
+  "github": {
+    "owner": "chouaibMo",
+    "repo": "ChatGemini",
+    "apiStatus": "unavailable"
+  }
+}

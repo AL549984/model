@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-prophethacks-grok-forecaster",
+  "modelId": "grok-4-20-0309",
+  "modelName": "Grok 4.20 0309",
+  "title": "ProphetHacks 将 Grok 4.20 作为 Kalshi/预测市场集成预测器的一路模型",
+  "evidenceFingerprint": "2577e793ea0f568e45079abf4af260ec7fe70d4ecc14e0435534511ddfce7b21",
+  "capturedAt": "2026-06-27T22:15:40.631Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/PrashanthBhaskara/ProphetHacks/blob/main/prophet-hacks-handoff/prep/src/prep/forecasters/grok.py",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-prophethacks-grok-forecaster/original-evidence-f8c5c7edc07c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ProphetHacks/prophet-hacks-handoff/prep/src/prep/forecasters/grok.py at main · PrashanthBhaskara/ProphetHacks · GitHub",
+      "bodySha256": "32a2ffcb91f9220126449168878e2b2f8cb936e4766e24216d21edcd4d52786c",
+      "capturedAt": "2026-06-27T22:15:38.518Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/PrashanthBhaskara/ProphetHacks/tree/main/prophet-hacks-handoff/prep",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-prophethacks-grok-forecaster/artifact-1-b91fd167e7df.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ProphetHacks/prophet-hacks-handoff/prep at main · PrashanthBhaskara/ProphetHacks · GitHub",
+      "bodySha256": "57fbcd9718bc3573b332c58ddee5bd59d133baa40f953b7264088120315dda4f",
+      "capturedAt": "2026-06-27T22:15:39.699Z",
+      "error": ""
+    }
+  ]
+}

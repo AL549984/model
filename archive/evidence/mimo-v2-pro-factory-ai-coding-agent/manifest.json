@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-pro-factory-ai-coding-agent",
+  "modelId": "mimo-v2-pro",
+  "modelName": "MiMo-V2-Pro",
+  "title": "Factory AI Coding Agent uses MiMo-V2-Pro for autonomous code generation",
+  "evidenceFingerprint": "a992aa4504b48b6eeb0cdcde8d2753178d7a04b28914f0a3b6314f4cf2e8a929",
+  "capturedAt": "2026-06-27T22:38:07.391Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Factory-AI/factory/issues/885",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-factory-ai-coding-agent/original-evidence-a89bbbb9253e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Xiaomi Mimo thinking content exposed in response output · Issue #885 · Factory-AI/factory · GitHub",
+      "bodySha256": "8830e807b92f9747b8d0e7be9753c124db55d75da5e6c8dc6a357515f64150c8",
+      "capturedAt": "2026-06-27T22:38:05.309Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Factory-AI/factory",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-factory-ai-coding-agent/artifact-1-c32ebb51c1b2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Factory-AI/factory: Factory - Agent-Native Software Development · GitHub",
+      "bodySha256": "abab03de10ce9a890f8bf5e770a32d2cf687297e74a4ba75bfc5c91e0cb1c6a2",
+      "capturedAt": "2026-06-27T22:38:06.364Z",
+      "error": ""
+    }
+  ]
+}

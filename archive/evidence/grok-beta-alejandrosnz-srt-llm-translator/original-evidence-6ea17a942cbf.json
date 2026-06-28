@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:46.353Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/alejandrosnz/srt-llm-translator/blob/main/README.md#xai-grok",
+  "finalUrl": "https://github.com/alejandrosnz/srt-llm-translator/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"030a82a7b18584ae27becd515557660d\"",
+  "lastModified": null,
+  "bodyBytes": 302619,
+  "bodySha256": "296a7f5757e05d327046da2fd5cbd3dbde124cfdd4d99e3d19127ca632429592",
+  "title": "srt-llm-translator/README.md at main · alejandrosnz/srt-llm-translator · GitHub",
+  "github": {
+    "owner": "alejandrosnz",
+    "repo": "srt-llm-translator",
+    "apiStatus": "unavailable"
+  }
+}

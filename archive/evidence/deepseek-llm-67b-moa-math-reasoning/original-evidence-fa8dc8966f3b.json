@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:02.079Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/togethercomputer/MoA/issues/41",
+  "finalUrl": "https://github.com/togethercomputer/MoA/issues/41",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 288558,
+  "bodySha256": "7c31e107d824303b52b385064ff0f9052ff45546d9e56d6b66099a767448d6c0",
+  "title": "seems that MoA does not work on MATH and QA with both weak and strong LLMs · Issue #41 · togethercomputer/MoA · GitHub",
+  "github": {
+    "owner": "togethercomputer",
+    "repo": "MoA",
+    "htmlUrl": "https://github.com/togethercomputer/MoA",
+    "defaultBranch": "main",
+    "defaultBranchSha": "1b5cab0f0905d9da821e37322ac6df96ba65e1a7",
+    "pushedAt": "2025-01-07T03:21:19Z",
+    "updatedAt": "2026-06-27T19:54:14Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

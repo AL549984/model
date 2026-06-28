@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:11.736Z",
+  "kind": "artifact-1",
+  "url": "https://block.github.io/goose/",
+  "finalUrl": "https://block.github.io/goose/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "297",
+  "etag": "W/\"69d4e2f1-1f2\"",
+  "lastModified": "Tue, 07 Apr 2026 10:56:49 GMT",
+  "bodyBytes": 498,
+  "bodySha256": "fa2d4d3122b94c8eb291a29f48ef9cdb4cdf389b8d46c2ae25115e9da66c1cb5",
+  "title": "goose has moved — Redirecting…",
+  "github": null
+}

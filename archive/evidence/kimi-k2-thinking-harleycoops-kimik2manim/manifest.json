@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-thinking-harleycoops-kimik2manim",
+  "modelId": "kimi-k2-thinking",
+  "modelName": "Kimi K2 Thinking",
+  "title": "HarleyCoops used Kimi K2 Thinking to generate Manim math and physics explainer animations",
+  "evidenceFingerprint": "050cb4c9011ba23d6be95d95506bc885789c06164df0394d39677b185107ae35",
+  "capturedAt": "2026-06-27T22:29:44.748Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/HarleyCoops/KimiK2Manim/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-harleycoops-kimik2manim/original-evidence-21a24bfb0669.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "KimiK2Manim/README.md at main · HarleyCoops/KimiK2Manim · GitHub",
+      "bodySha256": "2ee236c0c5a6672505e1a731881ffef92420768ae5a7a2f2914947bdf30888f5",
+      "capturedAt": "2026-06-27T22:29:42.180Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/HarleyCoops/KimiK2Manim",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-harleycoops-kimik2manim/artifact-1-98848e88504e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - HarleyCoops/KimiK2Manim: Create epic math and physics explainer animations with Kimi K2 Thinking. · GitHub",
+      "bodySha256": "b78a7198fddf61deb398ab534b4b5f174510cd7a6648e8fdd0d5af2be232c7da",
+      "capturedAt": "2026-06-27T22:29:43.545Z",
+      "error": ""
+    }
+  ]
+}

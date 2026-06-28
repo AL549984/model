@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:01.797Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/WebYeL/doubao-image-generator/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/WebYeL/doubao-image-generator/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "3546",
+  "etag": "W/\"57e0825ff0eee89b41c731bb3f2748a5577287a5cdab7d5504e07a78a81da3e3\"",
+  "lastModified": null,
+  "bodyBytes": 8355,
+  "bodySha256": "89de0e8e011b52101fee671840cfc0c371309abaa7261adc9614eadd1b109c0e",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-mar-xvnpw-ai-security-analyzer-threat-modeling",
+  "modelId": "gemini-2-5-pro-mar",
+  "modelName": "Gemini 2.5 Pro (Mar)",
+  "title": "AI Security Analyzer uses Gemini 2.5 Pro March experimental model to generate security documentation for AI Nutrition-Pro",
+  "evidenceFingerprint": "c7b42c3265a12d142bc1462b3a4e31bb29bc6127de13b230f4a875cd51c57718",
+  "capturedAt": "2026-06-27T21:47:17.550Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/xvnpw/ai-security-analyzer/blob/main/examples/file-threat-modeling-ai-nutrition-pro-gemini-2.5-pro-exp-03-25.md",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-xvnpw-ai-security-analyzer-threat-modeling/original-evidence-f68b92dde42d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-security-analyzer/examples/file-threat-modeling-ai-nutrition-pro-gemini-2.5-pro-exp-03-25.md at main · xvnpw/ai-security-analyzer · GitHub",
+      "bodySha256": "19c8fcb5ce6996ed48f212f63b92cd98e632e897a80fb84fb69ea6f6824b82f1",
+      "capturedAt": "2026-06-27T21:47:15.207Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/xvnpw/ai-security-analyzer/tree/main/examples",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-xvnpw-ai-security-analyzer-threat-modeling/artifact-1-51eeaed65805.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-security-analyzer/examples at main · xvnpw/ai-security-analyzer · GitHub",
+      "bodySha256": "c54d80d0e3afc2f12b059361e1ab8ca82fa185bdac9f431561cd7cbe171dd9b4",
+      "capturedAt": "2026-06-27T21:47:16.479Z",
+      "error": ""
+    }
+  ]
+}

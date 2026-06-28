@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-rod-trent-meme-explainer",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "Grok Meme Explainer & Infinite Generator 用 grok-beta vision 解释、吐槽并扩展 meme",
+  "evidenceFingerprint": "6ba7ec7fb150bc6c7a250e9712fb3be16e1dd0bf2b09ef4cd645a0fe81e1538e",
+  "capturedAt": "2026-06-27T22:22:01.402Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rod-trent/JunkDrawer/blob/main/meme%20explainer/readme.md",
+      "snapshotPath": "archive/evidence/grok-beta-rod-trent-meme-explainer/original-evidence-ed0d31487ead.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "JunkDrawer/meme explainer/readme.md at main · rod-trent/JunkDrawer · GitHub",
+      "bodySha256": "d5bedc9d9e8914f4aa58e8fc7ea12729269fa9f8ca5e672531bd2043003bbbc7",
+      "capturedAt": "2026-06-27T22:21:59.415Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rod-trent/JunkDrawer/tree/main/meme%20explainer",
+      "snapshotPath": "archive/evidence/grok-beta-rod-trent-meme-explainer/artifact-1-991ce608b908.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "JunkDrawer/meme explainer at main · rod-trent/JunkDrawer · GitHub",
+      "bodySha256": "b15f1232851dd0b1846ddbfdf8dcf18c9bbbf95b588c74c38bc894087f508e18",
+      "capturedAt": "2026-06-27T22:22:00.564Z",
+      "error": ""
+    }
+  ]
+}

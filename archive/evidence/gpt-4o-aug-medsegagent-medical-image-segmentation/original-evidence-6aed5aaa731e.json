@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:01.298Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/uni-medical/MedSegAgent/blob/main/README.md#llm-config",
+  "finalUrl": "https://github.com/uni-medical/MedSegAgent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4030e5311d7c516337ec0e96033d0db1\"",
+  "lastModified": null,
+  "bodyBytes": 305902,
+  "bodySha256": "ed254794229ee186094d34a0a2a99c033c5880e069f28e3d45a79016d9870258",
+  "title": "MedSegAgent/README.md at main · uni-medical/MedSegAgent · GitHub",
+  "github": {
+    "owner": "uni-medical",
+    "repo": "MedSegAgent",
+    "apiStatus": "unavailable"
+  }
+}

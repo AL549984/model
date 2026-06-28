@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5codex-high-001",
+  "modelId": "gpt-5-codex-high",
+  "modelName": "GPT-5 Codex (high)",
+  "title": "GPT-5 Codex 生成 TypeScript Cartpole 物理模拟游戏",
+  "evidenceFingerprint": "a7bc40edb55ddeb2ed29cb215237d81915429fbef158695aaeb4026698b071fd",
+  "capturedAt": "2026-06-27T22:08:11.474Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/haydenkz/cartpole-ts",
+      "snapshotPath": "archive/evidence/gpt5codex-high-001/original-evidence-61c103d82f24.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - haydenkz/cartpole-ts: gpt-5 codex cartpole · GitHub",
+      "bodySha256": "15bb7c461ff52143659df1b8cf7cd41747f39c8b0e802ea49c0c7762f2c5e383",
+      "capturedAt": "2026-06-27T22:08:09.607Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/haydenkz/cartpole-ts",
+      "snapshotPath": "archive/evidence/gpt5codex-high-001/artifact-1-61c103d82f24.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - haydenkz/cartpole-ts: gpt-5 codex cartpole · GitHub",
+      "bodySha256": "4672f5ce8c9f316d2b26eba060f459289527dfd8f9d0780657eed14fd4a8064a",
+      "capturedAt": "2026-06-27T22:08:10.851Z",
+      "error": ""
+    }
+  ]
+}

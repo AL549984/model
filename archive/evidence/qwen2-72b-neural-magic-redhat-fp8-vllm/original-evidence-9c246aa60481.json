@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:28.823Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/RedHatAI/Qwen2-72B-Instruct-FP8/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/RedHatAI/Qwen2-72B-Instruct-FP8/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c2092aabc997072ed46f0d9e452234e43aeb0468\"",
+  "lastModified": null,
+  "bodyBytes": 6158,
+  "bodySha256": "d211a453a98581b6ea1d761c689874f7f1ea8991e610be218adbee0eb976d1b4",
+  "title": "",
+  "github": null
+}

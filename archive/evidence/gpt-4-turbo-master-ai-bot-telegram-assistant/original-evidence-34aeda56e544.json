@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:46.179Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yesbhautik/Master-AI-BOT/blob/main/README.md",
+  "finalUrl": "https://github.com/yesbhautik/Master-AI-BOT/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"97cd7ad32cb661368c1e3e99a17277b7\"",
+  "lastModified": null,
+  "bodyBytes": 282582,
+  "bodySha256": "cee35dc524d22860ae40f53f5cb3a947a7f1b4208fa414c7c53c350c68c4dfba",
+  "title": "Master-AI-BOT/README.md at main · yesbhautik/Master-AI-BOT · GitHub",
+  "github": {
+    "owner": "yesbhautik",
+    "repo": "Master-AI-BOT",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:17.412Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/PandaAI-Tech/panda_quantflow/blob/main/src/panda_server/services/llm/enums/llm_model_type.py",
+  "finalUrl": "https://github.com/PandaAI-Tech/panda_quantflow/blob/main/src/panda_server/services/llm/enums/llm_model_type.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dfd1d3e0017d49547cf6d388b5be42db\"",
+  "lastModified": null,
+  "bodyBytes": 251928,
+  "bodySha256": "e680de81ca0092c5c059ba48b04bf67897a9cb0b30dd57a0cfeaca09669ec369",
+  "title": "panda_quantflow/src/panda_server/services/llm/enums/llm_model_type.py at main · PandaAI-Tech/panda_quantflow · GitHub",
+  "github": {
+    "owner": "PandaAI-Tech",
+    "repo": "panda_quantflow",
+    "apiStatus": "unavailable"
+  }
+}

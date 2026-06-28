@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:42.916Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/xorbitsai/inference/issues/1404",
+  "finalUrl": "https://github.com/xorbitsai/inference/issues/1404",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 432287,
+  "bodySha256": "5c5f009d357d160c3267f3f5553260ea6a196afb11bedccf1fbb69648b60bb2e",
+  "title": "NCCL Error when replica=2 · Issue #1404 · xorbitsai/inference · GitHub",
+  "github": {
+    "owner": "xorbitsai",
+    "repo": "inference",
+    "apiStatus": "unavailable"
+  }
+}

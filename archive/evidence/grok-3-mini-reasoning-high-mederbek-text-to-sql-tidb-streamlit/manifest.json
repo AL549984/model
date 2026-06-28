@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-3-mini-reasoning-high-mederbek-text-to-sql-tidb-streamlit",
+  "modelId": "grok-3-mini-reasoning-high",
+  "modelName": "Grok 3 mini Reasoning (high)",
+  "title": "Ala-Too internship project built a Grok-powered Text-to-SQL agent for Olist e-commerce analytics",
+  "evidenceFingerprint": "e9c85715bcd0839a56beeba1325330287035422bd554186cd8ebb278b0cb5fae",
+  "capturedAt": "2026-06-27T22:15:24.189Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MederbekSuiundukov/AI-Agent-for-Relational-Database-System/blob/main/TECHNICAL_REPORT.md",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-mederbek-text-to-sql-tidb-streamlit/original-evidence-f94a77992fff.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AI-Agent-for-Relational-Database-System/TECHNICAL_REPORT.md at main · MederbekSuiundukov/AI-Agent-for-Relational-Database-System · GitHub",
+      "bodySha256": "f058c7d1e9aed6e8dcf43c1baae4d250665f162aac0b7f94c5bbe9dd8b0b4043",
+      "capturedAt": "2026-06-27T22:15:21.921Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MederbekSuiundukov/AI-Agent-for-Relational-Database-System",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-mederbek-text-to-sql-tidb-streamlit/artifact-1-044e45777edd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MederbekSuiundukov/AI-Agent-for-Relational-Database-System: User Question │ ▼ Streamlit Chat UI (app.py) │ ▼ LangChain SQL Agent ←→ Grok-3-mini (xAI API) │ (schema inspect → SQL draft → check → execute) ▼ TiDB Serverless (MySQL) │ ",
+      "bodySha256": "9e692153b56be38e941938607273c6ef2cedd0d982dd85b40d47825abb3ae644",
+      "capturedAt": "2026-06-27T22:15:23.038Z",
+      "error": ""
+    }
+  ]
+}

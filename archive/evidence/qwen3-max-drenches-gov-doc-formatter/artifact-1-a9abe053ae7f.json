@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:13.053Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Drenches/gov-doc-formatter",
+  "finalUrl": "https://github.com/Drenches/gov-doc-formatter",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1ae58e1b6c1c5f19534c776bc0d11f20\"",
+  "lastModified": null,
+  "bodyBytes": 402112,
+  "bodySha256": "945f27c044cec029bdb4f81aa64d6624193b921fab447b22e91b8cb4a75fca33",
+  "title": "GitHub - Drenches/gov-doc-formatter: 基于 LLM agent 的党政机关公文自动排版工具 · GitHub",
+  "github": {
+    "owner": "Drenches",
+    "repo": "gov-doc-formatter",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-1-omnibus-hf-space-model-loader-demo-202403",
+  "modelId": "grok-1",
+  "modelName": "Grok-1",
+  "title": "Omnibus 在 Hugging Face Space 构建 Grok-1 模型加载与 Hub 信息检查 Demo",
+  "evidenceFingerprint": "a85af95f0ab681827d1749ecf88985dcc2ce059b177e7451be63837f89d49cc8",
+  "capturedAt": "2026-06-27T23:25:23.580Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/Omnibus/grok-1-test/raw/main/app.py",
+      "snapshotPath": "archive/evidence/grok-1-omnibus-hf-space-model-loader-demo-202403/original-evidence-21055249b36e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "0b88c1bb6734d566423a9f27daab313a067f5afc24498d4cf9daeedfe4ab24a2",
+      "capturedAt": "2026-06-27T23:25:23.078Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/Omnibus/grok-1-test",
+      "snapshotPath": "archive/evidence/grok-1-omnibus-hf-space-model-loader-demo-202403/artifact-1-cb7cdb55b888.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Grok 1 Test - a Hugging Face Space by Omnibus",
+      "bodySha256": "1bd5a47f9e20b4ae348e6c75d1161cf080130c548a242f605acd621ceb2dca4c",
+      "capturedAt": "2026-06-27T23:25:23.314Z",
+      "error": ""
+    }
+  ]
+}

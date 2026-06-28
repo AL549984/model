@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:47.128Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ph419/tackle-harness",
+  "finalUrl": "https://github.com/ph419/tackle-harness",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d94f1f3950ee5626fed6e21e0af98c15\"",
+  "lastModified": null,
+  "bodyBytes": 431004,
+  "bodySha256": "f0ad747e73c5aa27a6ec999fc4f0f533c4cb4c79d153b869bbaf5a4c2a0d5f44",
+  "title": "GitHub - ph419/tackle-harness: 让AI稳定的、高质量的、高自主性的做他本来就能做到的事。 · GitHub",
+  "github": {
+    "owner": "ph419",
+    "repo": "tackle-harness",
+    "apiStatus": "unavailable"
+  }
+}

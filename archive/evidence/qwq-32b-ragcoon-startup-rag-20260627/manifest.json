@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwq-32b-ragcoon-startup-rag-20260627",
+  "modelId": "qwq-32b",
+  "modelName": "QwQ-32B",
+  "title": "RAGcoon uses QwQ-32B as the ReAct query agent for startup-building RAG workflows",
+  "evidenceFingerprint": "928188b93541f81f8788c2e9dec0036b276e59c117772ccf0fccfce2f0f04c84",
+  "capturedAt": "2026-06-27T23:15:41.330Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AstraBert/ragcoon/blob/main/README.md#L101",
+      "snapshotPath": "archive/evidence/qwq-32b-ragcoon-startup-rag-20260627/original-evidence-1831b70727f2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ragcoon/README.md at main · AstraBert/ragcoon · GitHub",
+      "bodySha256": "67abd9f5f1dbef11cb2744c1bbc13d4b805f41914ea98971e934bcf42068ec2a",
+      "capturedAt": "2026-06-27T23:15:39.006Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AstraBert/ragcoon",
+      "snapshotPath": "archive/evidence/qwq-32b-ragcoon-startup-rag-20260627/artifact-1-22b9597dfc5a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AstraBert/ragcoon: Agentic RAG to help you build a startup🚀 · GitHub",
+      "bodySha256": "075c39799deff9c118b5de81ad0d28fb016a03922da56e4e12a10b2af4db7f34",
+      "capturedAt": "2026-06-27T23:15:40.055Z",
+      "error": ""
+    }
+  ]
+}

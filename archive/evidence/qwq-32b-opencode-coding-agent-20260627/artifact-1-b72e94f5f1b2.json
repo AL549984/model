@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:35.859Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/opencode-ai/opencode",
+  "finalUrl": "https://github.com/opencode-ai/opencode",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"342035bd1d4216259d04434636120370\"",
+  "lastModified": null,
+  "bodyBytes": 514707,
+  "bodySha256": "f232702cac27352f29eb5822ae0d8188e885578f14a850c13b9e5a70d7259048",
+  "title": "GitHub - opencode-ai/opencode: A powerful AI coding agent. Built for the terminal. · GitHub",
+  "github": {
+    "owner": "opencode-ai",
+    "repo": "opencode",
+    "apiStatus": "unavailable"
+  }
+}

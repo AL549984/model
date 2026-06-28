@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:45.059Z",
+  "kind": "artifact-1",
+  "url": "https://viaanthroposbenevolentia.github.io/gemini-2-live-api-demo/",
+  "finalUrl": "https://viaanthroposbenevolentia.github.io/gemini-2-live-api-demo/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "556",
+  "etag": "W/\"69862b25-583\"",
+  "lastModified": "Fri, 06 Feb 2026 17:55:49 GMT",
+  "bodyBytes": 1411,
+  "bodySha256": "e5378a766f69da80bf07cc5b7909e2531e22686d165dc736e42761ebcb358903",
+  "title": "Gemini Live",
+  "github": null
+}

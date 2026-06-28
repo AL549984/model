@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:44.749Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/prnake/kimi-deepresearch/blob/main/README.md",
+  "finalUrl": "https://github.com/prnake/kimi-deepresearch/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ed301566cd5c148f0472db7b30a3795d\"",
+  "lastModified": null,
+  "bodyBytes": 255925,
+  "bodySha256": "51e9fa356cef78fbd5c8e8eee5f77897b3b52a9430fd1ae81cf4f8ad884f78f1",
+  "title": "kimi-deepresearch/README.md at main · prnake/kimi-deepresearch · GitHub",
+  "github": {
+    "owner": "prnake",
+    "repo": "kimi-deepresearch",
+    "apiStatus": "unavailable"
+  }
+}

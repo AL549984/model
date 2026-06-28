@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "haiku-inventory-analysis-003",
+  "modelId": "claude-3-5-haiku",
+  "modelName": "Claude 3.5 Haiku",
+  "title": "AI-powered inventory reorder recommendations using Claude 3.5 Haiku on AWS Bedrock",
+  "evidenceFingerprint": "26f6929d58ad3813cb801462d0ec48ffce70e1a8b4b356bbe10c5cef6c8cc03c",
+  "capturedAt": "2026-06-27T22:22:13.144Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/jordann6/aws-ai-inventory-tracker",
+      "snapshotPath": "archive/evidence/haiku-inventory-analysis-003/original-evidence-222e3e96235e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jordann6/aws-ai-inventory-tracker: Serverless inventory API with AI reorder recommendations: API Gateway, Lambda, DynamoDB, and Bedrock (Claude 3.5 Haiku) with least-privilege IAM, all in Terraform · GitHub",
+      "bodySha256": "87884c9e27d26144e97ac2835411d9b818c01d9067867f8d6acb23f6261094af",
+      "capturedAt": "2026-06-27T22:22:11.371Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/jordann6/aws-ai-inventory-tracker",
+      "snapshotPath": "archive/evidence/haiku-inventory-analysis-003/artifact-1-222e3e96235e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jordann6/aws-ai-inventory-tracker: Serverless inventory API with AI reorder recommendations: API Gateway, Lambda, DynamoDB, and Bedrock (Claude 3.5 Haiku) with least-privilege IAM, all in Terraform · GitHub",
+      "bodySha256": "0cc8cadf078e1e44a3747827aa5637c64b3940698fead8afb9cbc4730d244e8b",
+      "capturedAt": "2026-06-27T22:22:12.621Z",
+      "error": ""
+    }
+  ]
+}

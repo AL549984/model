@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-openfree-deep-research-space",
+  "modelId": "qwen3-235b",
+  "modelName": "Qwen3 235B",
+  "title": "openfree built a Qwen3-235B-A22B real-time deep research Space",
+  "evidenceFingerprint": "b7aa0b61aa58f9995dc82eb1ed65bd6496be8c1e569d26f2e8136493fa5896f4",
+  "capturedAt": "2026-06-27T23:25:31.968Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/openfree/qwen3-235b-a22b-research/raw/main/app.py",
+      "snapshotPath": "archive/evidence/qwen3-235b-openfree-deep-research-space/original-evidence-a670bb097cdc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "de5b13a242d3d3aab02498d36e8b199f50e249d5c25f6da06675b83b4c8d5429",
+      "capturedAt": "2026-06-27T23:25:31.441Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/openfree/qwen3-235b-a22b-research",
+      "snapshotPath": "archive/evidence/qwen3-235b-openfree-deep-research-space/artifact-1-6a37eddeb42e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "qwen3-235b-a22b Research - a Hugging Face Space by openfree",
+      "bodySha256": "b9288562b58fcc1ff70e5d12cf128a9249cbad2d2669a55527dbe5012f944ad9",
+      "capturedAt": "2026-06-27T23:25:31.695Z",
+      "error": ""
+    }
+  ]
+}

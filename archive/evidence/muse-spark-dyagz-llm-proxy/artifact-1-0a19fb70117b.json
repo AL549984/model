@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:45:03.731Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/dyagz/LLM-Proxy-API",
+  "finalUrl": "https://github.com/dyagz/LLM-Proxy-API",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7908b3defd45d35eb6d3402fef3318bb\"",
+  "lastModified": null,
+  "bodyBytes": 302685,
+  "bodySha256": "32d16169e3dc9f3891b1332cbc44d6e8397d43cb18dab500f295158a6e92b5d0",
+  "title": "GitHub - dyagz/LLM-Proxy-API: LLM proxy API server built specifically to try and test Meta&#39;s Muse Spark via their UI · GitHub",
+  "github": {
+    "owner": "dyagz",
+    "repo": "LLM-Proxy-API",
+    "apiStatus": "unavailable"
+  }
+}

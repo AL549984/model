@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-latitude-azure-prompt-routing-20260515",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "Latitude fixes Azure GPT-5.1 high-effort prompt routing for its LLM platform",
+  "evidenceFingerprint": "9f13cf3c3324a2717f5b5590719b592ed96a9e9546fa0a0a658dc4680f0f7cca",
+  "capturedAt": "2026-06-27T22:01:15.616Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/latitude-dev/latitude-llm/pull/3140",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-latitude-azure-prompt-routing-20260515/original-evidence-dcb209c03e5b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "fix(core): route Azure provider options through the openai key by andresgutgon · Pull Request #3140 · latitude-dev/latitude-llm · GitHub",
+      "bodySha256": "0b9a5eaaf1c71a992249407801241cd5d8e7560fa18e496619950884c7949ace",
+      "capturedAt": "2026-06-27T22:01:13.270Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/latitude-dev/latitude-llm",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-latitude-azure-prompt-routing-20260515/artifact-1-0826c8d03385.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - latitude-dev/latitude-llm: Latitude is the open-source ai monitoring platform. · GitHub",
+      "bodySha256": "dcc89b30a4ed1e87b13bd33d97c34dc3707e58d3afedc66a4da7fef45bc616b0",
+      "capturedAt": "2026-06-27T22:01:14.503Z",
+      "error": ""
+    }
+  ]
+}

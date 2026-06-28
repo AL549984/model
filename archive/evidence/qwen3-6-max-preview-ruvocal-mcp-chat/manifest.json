@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-max-preview-ruvocal-mcp-chat",
+  "modelId": "qwen3-6-max-preview",
+  "modelName": "Qwen3.6 Max Preview",
+  "title": "RuVocal hosted MCP chat uses Qwen 3.6 Max Preview as a curated/default model for tool-using workflow automation",
+  "evidenceFingerprint": "76e6f420140c24a4ca2be4c4d0fdb793cac32da312f4309b84bf5330c7bc95ac",
+  "capturedAt": "2026-06-27T23:07:35.960Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ruvnet/ruflo/blob/41d475ee1cf2bb3bdf629c67e3de15cd0e00f48f/ruflo/src/ruvocal/README.md",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-ruvocal-mcp-chat/original-evidence-b796d7b4d584.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ruflo/ruflo/src/ruvocal/README.md at 41d475ee1cf2bb3bdf629c67e3de15cd0e00f48f · ruvnet/ruflo · GitHub",
+      "bodySha256": "45c7ea4e98713e75794eccd1ce1778e0e06bec0b65150a22b7efe1104d4cfc85",
+      "capturedAt": "2026-06-27T23:07:32.405Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://flo.ruv.io/",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-ruvocal-mcp-chat/artifact-1-7db74649d0e6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RuFlo - Chat with AI models",
+      "bodySha256": "e4117cc58420585f4e2cde732fb05797dec1a83bf1e45e0b348a0c52204e428c",
+      "capturedAt": "2026-06-27T23:07:34.266Z",
+      "error": ""
+    }
+  ]
+}

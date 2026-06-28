@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:15.616Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/8046cfb1618e1192198e426dfb6b049a4cfe4bad/packages/omo-opencode/src/hooks/think-mode/switcher.ts#L59-L64",
+  "finalUrl": "https://github.com/code-yeongyu/oh-my-openagent/blob/8046cfb1618e1192198e426dfb6b049a4cfe4bad/packages/omo-opencode/src/hooks/think-mode/switcher.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2e67b71ee588edbf3ea2ff491b5c8c95\"",
+  "lastModified": null,
+  "bodyBytes": 318428,
+  "bodySha256": "044761d7e9cbdcc9ce30d9992589c0f554e5be3a3e61008346436fe0b3c385da",
+  "title": "oh-my-openagent/packages/omo-opencode/src/hooks/think-mode/switcher.ts at 8046cfb1618e1192198e426dfb6b049a4cfe4bad · code-yeongyu/oh-my-openagent · GitHub",
+  "github": {
+    "owner": "code-yeongyu",
+    "repo": "oh-my-openagent",
+    "apiStatus": "unavailable"
+  }
+}

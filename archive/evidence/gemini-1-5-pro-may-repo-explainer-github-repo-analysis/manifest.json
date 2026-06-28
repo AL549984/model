@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-repo-explainer-github-repo-analysis",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "Repo Explainer 用 Gemini 1.5 Pro 分析并讲解 GitHub 仓库",
+  "evidenceFingerprint": "a4a1a16413afa5932716bec14e4abe4667e353d9830b5e5d2136daaa9634b1ff",
+  "capturedAt": "2026-06-27T21:40:40.976Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/gabrielchua/repo-explainer#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-repo-explainer-github-repo-analysis/original-evidence-f8d755f98987.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - gabrielchua/repo-explainer: Chat with a repo by adding the entire repo to gemini 1.5 pro&#39;s 1M context window 🔥 · GitHub",
+      "bodySha256": "7cd7f7908c32bcd5839e4df8c8dcd227d6874dcad5b825807ef174fc2afe5796",
+      "capturedAt": "2026-06-27T21:40:39.245Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/gabrielchua/repo-explainer",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-repo-explainer-github-repo-analysis/artifact-1-a30b7e69e5cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - gabrielchua/repo-explainer: Chat with a repo by adding the entire repo to gemini 1.5 pro&#39;s 1M context window 🔥 · GitHub",
+      "bodySha256": "1c85c5a999c5ffe6392a6e63221c6bd3cee1e47da9ace35cb33bc2cb188bc294",
+      "capturedAt": "2026-06-27T21:40:40.465Z",
+      "error": ""
+    }
+  ]
+}

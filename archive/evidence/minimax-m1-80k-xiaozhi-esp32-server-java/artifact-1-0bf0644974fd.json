@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:24.919Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java",
+  "finalUrl": "https://github.com/joey-zhou/xiaozhi-esp32-server-java",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2f0f3fa82d5389f9ba67c35dcc76fe20\"",
+  "lastModified": null,
+  "bodyBytes": 395347,
+  "bodySha256": "4fe71c102bd9aab30f4a5b2b8b50faf1d8dd4c669ceab07dc58bd587a192d398",
+  "title": "GitHub - joey-zhou/xiaozhi-esp32-server-java: 小智ESP32的Java企业级管理平台，提供设备监控、音色定制、角色切换和对话记录管理的前后端及服务端一体化解决方案 · GitHub",
+  "github": {
+    "owner": "joey-zhou",
+    "repo": "xiaozhi-esp32-server-java",
+    "apiStatus": "unavailable"
+  }
+}

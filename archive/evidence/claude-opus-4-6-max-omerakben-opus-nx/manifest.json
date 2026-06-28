@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-6-max-omerakben-opus-nx",
+  "modelId": "claude-opus-4-6-max",
+  "modelName": "Claude Opus 4.6 (max)",
+  "title": "Ozzy / TUEL AI 用 Claude Opus 4.6 构建持久化推理图平台 Opus Nx",
+  "evidenceFingerprint": "569a6d7d5d5489da7cd8cb4b3b21b8aa0fba57b7ad5a4d1c4563b51dbeba3534",
+  "capturedAt": "2026-06-27T20:55:23.357Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/omerakben/opus-nx",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-omerakben-opus-nx/original-evidence-912829e4a6dc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - omerakben/opus-nx: 🧠 Open-source AI reasoning research platform — persistent reasoning graphs, multi-agent swarms, Graph-of-Thoughts, and MemGPT-style memory. Built with Claude Opus 4.6 by Anthropic. Explore, verify, and fork AI t",
+      "bodySha256": "d6711c1e5d4a59dc65f785b015f9f41b74cf8f55294cfdda022cbccfd6cff4c5",
+      "capturedAt": "2026-06-27T20:55:20.932Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/omerakben/opus-nx",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-omerakben-opus-nx/artifact-1-912829e4a6dc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - omerakben/opus-nx: 🧠 Open-source AI reasoning research platform — persistent reasoning graphs, multi-agent swarms, Graph-of-Thoughts, and MemGPT-style memory. Built with Claude Opus 4.6 by Anthropic. Explore, verify, and fork AI t",
+      "bodySha256": "fa77b888654edf6325387739bdefbf02e966882256918bace5e50c926f1284de",
+      "capturedAt": "2026-06-27T20:55:22.799Z",
+      "error": ""
+    }
+  ]
+}

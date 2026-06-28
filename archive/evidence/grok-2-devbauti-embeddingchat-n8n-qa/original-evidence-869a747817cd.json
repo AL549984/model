@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:00.133Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/DevBauti/EmbeddingChat/blob/main/README.md",
+  "finalUrl": "https://github.com/DevBauti/EmbeddingChat/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c3ed0b1220924dd89e05d6426854255d\"",
+  "lastModified": null,
+  "bodyBytes": 274756,
+  "bodySha256": "e14ae00202907fd066fdcc3abfd7b527e56d140e1c46636a6c7a46d9743f48e6",
+  "title": "EmbeddingChat/README.md at main · DevBauti/EmbeddingChat · GitHub",
+  "github": {
+    "owner": "DevBauti",
+    "repo": "EmbeddingChat",
+    "apiStatus": "unavailable"
+  }
+}

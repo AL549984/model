@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-4-maverick-theoleecj-computer-use-agent",
+  "modelId": "llama-4-maverick",
+  "modelName": "Llama 4 Maverick",
+  "title": "TheoLeeCJ built an affordable computer-use agent with Llama 4 Maverick vision",
+  "evidenceFingerprint": "ee77f483728404d3ac9b4d6e9b6947e7db0e0899e5dedfd3f51745220ffce2f0",
+  "capturedAt": "2026-06-27T22:37:20.926Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/TheoLeeCJ/llama4-computer-use/blob/master/README.md",
+      "snapshotPath": "archive/evidence/llama-4-maverick-theoleecj-computer-use-agent/original-evidence-cb7deaa12e44.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "llama4-computer-use/README.md at master · TheoLeeCJ/llama4-computer-use · GitHub",
+      "bodySha256": "c1168ba2e1deef488e97869c6afbb97a8833546c2fa116bf370681f11b9fd63e",
+      "capturedAt": "2026-06-27T22:37:18.627Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://llama4.pages.dev/",
+      "snapshotPath": "archive/evidence/llama-4-maverick-theoleecj-computer-use-agent/artifact-1-1c6447f44f89.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Interaction Trajectories Viewer",
+      "bodySha256": "5babf11bc1dcd1eb71c395e772201758086444dd8c0335ec9b91602b314b128d",
+      "capturedAt": "2026-06-27T22:37:19.677Z",
+      "error": ""
+    }
+  ]
+}

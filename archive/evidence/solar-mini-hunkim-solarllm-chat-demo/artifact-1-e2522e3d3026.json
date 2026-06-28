@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:06.834Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/hunkim/SolarLLMChatDemo",
+  "finalUrl": "https://github.com/hunkim/SolarLLMChatDemo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"66ca96b8f7cc240c93c46efd21eac043\"",
+  "lastModified": null,
+  "bodyBytes": 305657,
+  "bodySha256": "46c441cc07ad66254b923f8ded5e8d1e02d083331fd52e1f16701f2048581d62",
+  "title": "GitHub - hunkim/SolarLLMChatDemo: Full Stack SolarLLM Zero to All · GitHub",
+  "github": {
+    "owner": "hunkim",
+    "repo": "SolarLLMChatDemo",
+    "apiStatus": "unavailable"
+  }
+}

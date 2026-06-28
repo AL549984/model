@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:48.297Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/junjunjunbong/upstage-SolarNote",
+  "finalUrl": "https://github.com/junjunjunbong/upstage-SolarNote",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"57dc51b963c91eb45d240ad6e033db13\"",
+  "lastModified": null,
+  "bodyBytes": 290050,
+  "bodySha256": "cb64533146798707b2ef01bdd8f4d359a4141226caef2e67ce0c46d994244667",
+  "title": "GitHub - junjunjunbong/upstage-SolarNote: AI 수학 오답 노트 자동 생성기 - Upstage Solar LLM 기반 Multi-Agent 시스템 · GitHub",
+  "github": {
+    "owner": "junjunjunbong",
+    "repo": "upstage-SolarNote",
+    "apiStatus": "unavailable"
+  }
+}

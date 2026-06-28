@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-5-xhigh-frahlg-fusion",
+  "modelId": "gpt-5-5-xhigh",
+  "modelName": "GPT-5.5 (xhigh)",
+  "title": "Fusion 用 GPT-5.5 xhigh 作为盲审 panelist 生成可审计答案",
+  "evidenceFingerprint": "3811a1f1ab4400aa6ba626666c343c9faeff205e4264636b03aeaa4ec8a41a67",
+  "capturedAt": "2026-06-27T21:14:51.356Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/frahlg/fusion/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-frahlg-fusion/original-evidence-98ed69a9a16a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "749fcd071906240a5a0cb257052e8eb888a28bb4f7d4a94c5fc011a622fcae98",
+      "capturedAt": "2026-06-27T21:14:48.996Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/frahlg/fusion",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-frahlg-fusion/artifact-1-0d4ccf51a194.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - frahlg/fusion: Fusion — a Claude Code skill: convene a panel of frontier models (Opus 4.8 + GPT-5.5 xhigh), judged into one grounded answer. Deep Thought, with receipts. · GitHub",
+      "bodySha256": "c44571c160709f110ec3f3831d950e36743bd84527b3c314b02a4453e3b0f4b6",
+      "capturedAt": "2026-06-27T21:14:49.312Z",
+      "error": ""
+    }
+  ]
+}

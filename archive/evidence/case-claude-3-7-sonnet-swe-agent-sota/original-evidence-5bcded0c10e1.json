@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:35.437Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SWE-agent/SWE-agent",
+  "finalUrl": "https://github.com/SWE-agent/SWE-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e0bccb657acb5baecafe5ceb21d94367\"",
+  "lastModified": null,
+  "bodyBytes": 351116,
+  "bodySha256": "800229b4124664650a3ff05d669330e694f838d7f73db5e1692f74ff27a7ed68",
+  "title": "GitHub - SWE-agent/SWE-agent: SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] · GitHub",
+  "github": {
+    "owner": "SWE-agent",
+    "repo": "SWE-agent",
+    "htmlUrl": "https://github.com/SWE-agent/SWE-agent",
+    "defaultBranch": "main",
+    "defaultBranchSha": "abd7d69724d1413b30fea43d4724bb5b463906b4",
+    "pushedAt": "2026-06-22T21:51:09Z",
+    "updatedAt": "2026-06-27T18:08:48Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

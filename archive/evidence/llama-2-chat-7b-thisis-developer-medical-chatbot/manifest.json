@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-2-chat-7b-thisis-developer-medical-chatbot",
+  "modelId": "llama-2-chat-7b",
+  "modelName": "Llama 2 Chat 7B",
+  "title": "ThisIs-Developer 用 Llama-2-7B-Chat-GGML 构建医学 PDF 问答聊天机器人",
+  "evidenceFingerprint": "d79dd6fe810c8dc500abf67a88eb7d1af13eb5a439086ecbd38a3b6d5ee09d57",
+  "capturedAt": "2026-06-27T21:27:43.962Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot/main/README.md",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-thisis-developer-medical-chatbot/original-evidence-e9d5e640a814.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "c59e6e5507369a655192dcb9aff9a4451593b06efb882e72284d8f9fd118c0e4",
+      "capturedAt": "2026-06-27T21:27:42.403Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-thisis-developer-medical-chatbot/artifact-1-a710a4047a87.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ThisIs-Developer/Llama-2-GGML-Medical-Chatbot: Llama2-Medical-Chatbot is a medical chatbot that uses the Llama-2-7B-Chat-GGML model and the pdf The Gale Encyclopedia of Medicine, Volume 1, 2nd Edition. It is still under development",
+      "bodySha256": "eedd718a8b83c024951a475003c1ebd1e890e502b5b938617d41fbdea71e07b7",
+      "capturedAt": "2026-06-27T21:27:42.722Z",
+      "error": ""
+    }
+  ]
+}

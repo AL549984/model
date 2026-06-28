@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:37.477Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/owjk123/GrokNovelApp",
+  "finalUrl": "https://github.com/owjk123/GrokNovelApp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d082e90a4d7db28eed53215055ffc1ca\"",
+  "lastModified": null,
+  "bodyBytes": 280864,
+  "bodySha256": "6ee99c2c836d47c0527a97cb9862b3b87c0032fa825d08ba149914b58473c96a",
+  "title": "GitHub - owjk123/GrokNovelApp: AI Novel Generator powered by Grok 4.20 - Android App with interactive storytelling · GitHub",
+  "github": {
+    "owner": "owjk123",
+    "repo": "GrokNovelApp",
+    "apiStatus": "unavailable"
+  }
+}

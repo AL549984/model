@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:25.014Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/2witstudios/PageSpace/pull/747",
+  "finalUrl": "https://github.com/2witstudios/PageSpace/pull/747",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 524108,
+  "bodySha256": "c4df9a3a59ffb61fe4d9b69290c6468cafb163e9600dd61e7ad705e2487aec53",
+  "title": "Add support for latest AI models (Claude 4.6, GPT-5.3, Gemini 3.1, Qwen3.5) by 2witstudios · Pull Request #747 · 2witstudios/PageSpace · GitHub",
+  "github": {
+    "owner": "2witstudios",
+    "repo": "PageSpace",
+    "apiStatus": "unavailable"
+  }
+}

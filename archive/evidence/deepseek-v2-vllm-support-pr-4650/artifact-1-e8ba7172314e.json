@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:31.932Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/vllm-project/vllm",
+  "finalUrl": "https://github.com/vllm-project/vllm",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f69e77d2dc0638f5391be15348bd0a6\"",
+  "lastModified": null,
+  "bodyBytes": 394545,
+  "bodySha256": "6081d0e1fcc6d590bb4b365020ea421dc28db00404bbec17a188eaf1821e0a33",
+  "title": "GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs · GitHub",
+  "github": {
+    "owner": "vllm-project",
+    "repo": "vllm",
+    "apiStatus": "unavailable"
+  }
+}

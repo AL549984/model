@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-upstageai-n8n-nodes-solar-workflows",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "UpstageAI n8n-nodes-solar adds Solar Mini chat completions to n8n workflows",
+  "evidenceFingerprint": "c979b79c4175773522f99aba2286330ef5d40c2dece9ef52d25fa155b8d87688",
+  "capturedAt": "2026-06-27T23:23:47.817Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/UpstageAI/n8n-nodes-solar/blob/main/README.md",
+      "snapshotPath": "archive/evidence/solar-mini-upstageai-n8n-nodes-solar-workflows/original-evidence-7c7994015036.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "n8n-nodes-solar/README.md at main · UpstageAI/n8n-nodes-solar · GitHub",
+      "bodySha256": "dd8dc901558c5c12843a4ab766c1e47efabedc9c5caae8e3eddc910bee888c37",
+      "capturedAt": "2026-06-27T23:23:44.859Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/UpstageAI/n8n-nodes-solar",
+      "snapshotPath": "archive/evidence/solar-mini-upstageai-n8n-nodes-solar-workflows/artifact-1-eb94620693c3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - UpstageAI/n8n-nodes-solar: Solar LLM and Embeddings nodes for n8n workflow automation platform · GitHub",
+      "bodySha256": "b0f2b15b01463be608ae4ce5bc09b62bd631cebd60586172eea95ebdd93900d7",
+      "capturedAt": "2026-06-27T23:23:46.420Z",
+      "error": ""
+    }
+  ]
+}

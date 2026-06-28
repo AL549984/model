@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:36.723Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/tobiasbischoff/openclawnews",
+  "finalUrl": "https://github.com/tobiasbischoff/openclawnews",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ed53ed64d53d35484121ca80cee0920d\"",
+  "lastModified": null,
+  "bodyBytes": 267564,
+  "bodySha256": "266e235a2057d74f2a9a275c129613c8a152d69b8975c63590cde9dab920bbb6",
+  "title": "GitHub - tobiasbischoff/openclawnews: Lobster-grade daily summaries of Clawdbot commits, issues, and PRs. · GitHub",
+  "github": {
+    "owner": "tobiasbischoff",
+    "repo": "openclawnews",
+    "apiStatus": "unavailable"
+  }
+}

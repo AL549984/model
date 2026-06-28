@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-opensquilla-zhipu-routing-complex-text",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "OpenSquilla routes Zhipu complex-text tiers to GLM-5.1",
+  "evidenceFingerprint": "0968a78afbf127d2affb03b5a7e4918d9bae51b9c6f7924534611373721bf2cb",
+  "capturedAt": "2026-06-27T21:53:51.449Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/OpenSquilla/opensquilla/blob/HEAD/src/opensquilla/gateway/config.py#L799-L807",
+      "snapshotPath": "archive/evidence/glm-5-1-opensquilla-zhipu-routing-complex-text/original-evidence-12699324ef0c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "opensquilla/src/opensquilla/gateway/config.py at 9fcc9e99aa23b71bffcd4c8666deb050144283e1 · opensquilla/opensquilla · GitHub",
+      "bodySha256": "58924e9d7fa6c8b5f2677494dd9a03c78e3df7154a9e930153516d4b2e7f78a9",
+      "capturedAt": "2026-06-27T21:53:48.653Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/OpenSquilla/opensquilla",
+      "snapshotPath": "archive/evidence/glm-5-1-opensquilla-zhipu-routing-complex-text/artifact-1-6de26180e9f0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - opensquilla/opensquilla: OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density · GitHub",
+      "bodySha256": "c9c62d954d6130840c19f3f76341dac5580b6792765dc6550c2012667b9ff91a",
+      "capturedAt": "2026-06-27T21:53:50.414Z",
+      "error": ""
+    }
+  ]
+}

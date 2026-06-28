@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-5-openparl-agent-swarm-005",
+  "modelId": "kimi-k2-5",
+  "modelName": "Kimi K2.5",
+  "title": "GuanxingLu reproduces Kimi K2.5 PARL Agent Swarm architecture on WideSearch with RL-trained orchestrator",
+  "evidenceFingerprint": "770db39cab0df7c46db3d36c04f6ff64fa45323dba5b3f9a7c0ecacba4159ddf",
+  "capturedAt": "2026-06-27T22:22:38.313Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/GuanxingLu/OpenPARL/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-5-openparl-agent-swarm-005/original-evidence-7e786c6ed94b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "OpenPARL/README.md at main · GuanxingLu/OpenPARL · GitHub",
+      "bodySha256": "2b7354721d2ed014838b624a97b900972e6b7ebaa4c00121887d6f993efce46b",
+      "capturedAt": "2026-06-27T22:22:35.696Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/GuanxingLu/OpenPARL",
+      "snapshotPath": "archive/evidence/kimi-k2-5-openparl-agent-swarm-005/artifact-1-2a7a87052e3c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - GuanxingLu/OpenPARL: Reproduction of Kimi K2.5 PARL Agent Swarm on WideSearch · GitHub",
+      "bodySha256": "b7711384f3a609623972435e4dc7020efd7fe35727c913bdd8d04cd33336176d",
+      "capturedAt": "2026-06-27T22:22:36.912Z",
+      "error": ""
+    }
+  ]
+}

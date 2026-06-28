@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:52.830Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/okupacolossal/ai-assistant-tool-calling",
+  "finalUrl": "https://github.com/okupacolossal/ai-assistant-tool-calling",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"020e29390d0453faea1bde641704d694\"",
+  "lastModified": null,
+  "bodyBytes": 279006,
+  "bodySha256": "cec7180b2f95922bfd9531fdd5555e4a1415767897462efb4a15cfc5d3f11291",
+  "title": "GitHub - okupacolossal/ai-assistant-tool-calling: Terminal AI assistant with a custom tool-calling pipeline built on Qwen2.5-72B and HuggingFace Inference API · GitHub",
+  "github": {
+    "owner": "okupacolossal",
+    "repo": "ai-assistant-tool-calling",
+    "apiStatus": "unavailable"
+  }
+}

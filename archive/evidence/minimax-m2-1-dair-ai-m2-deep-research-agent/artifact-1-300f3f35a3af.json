@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:26.979Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/dair-ai/m2-deep-research",
+  "finalUrl": "https://github.com/dair-ai/m2-deep-research",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"884b874f51ea74a972c7ef7ebd9606be\"",
+  "lastModified": null,
+  "bodyBytes": 353508,
+  "bodySha256": "3705aa6373d512761970d62ba4bb2fe890f67aeed44dca4addb6a70a47fd6a68",
+  "title": "GitHub - dair-ai/m2-deep-research: Deep research agents using MiniMax M2.1 interleaved thinking · GitHub",
+  "github": {
+    "owner": "dair-ai",
+    "repo": "m2-deep-research",
+    "apiStatus": "unavailable"
+  }
+}

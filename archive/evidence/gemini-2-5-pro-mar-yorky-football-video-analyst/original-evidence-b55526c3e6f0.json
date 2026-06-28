@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:17.551Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yYorky/FootballVideoAnalyst/blob/main/README.md",
+  "finalUrl": "https://github.com/yYorky/FootballVideoAnalyst/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5612a0c162f4750098b23db044ead39f\"",
+  "lastModified": null,
+  "bodyBytes": 286308,
+  "bodySha256": "92157e04e1afe033a54491f84958f783e924c8e21cbaa7f22a24b2c9663e1be4",
+  "title": "FootballVideoAnalyst/README.md at main · yYorky/FootballVideoAnalyst · GitHub",
+  "github": {
+    "owner": "yYorky",
+    "repo": "FootballVideoAnalyst",
+    "apiStatus": "unavailable"
+  }
+}

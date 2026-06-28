@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:39.922Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/vllm-project/vllm/issues/6239",
+  "finalUrl": "https://github.com/vllm-project/vllm/issues/6239",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 256539,
+  "bodySha256": "d28cfde0d92d34796e9610218829f595ff4ae2eb5fe7412dc0b1917552b20bf5",
+  "title": "[Usage]: low GPU usage in qwen1.5 110b int4 inference · Issue #6239 · vllm-project/vllm · GitHub",
+  "github": {
+    "owner": "vllm-project",
+    "repo": "vllm",
+    "apiStatus": "unavailable"
+  }
+}

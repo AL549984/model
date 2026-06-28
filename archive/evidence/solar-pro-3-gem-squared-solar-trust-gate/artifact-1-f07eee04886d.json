@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:11.618Z",
+  "kind": "artifact-1",
+  "url": "https://solar-trust-gate.fly.dev/",
+  "finalUrl": "https://solar-trust-gate.fly.dev/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 41769,
+  "bodySha256": "2c797fd9045689d4085d30a749414dbd8abf09c9fd15d59ff26acea094c0e49c",
+  "title": "Solar Trust Gate — 보험금 청구 심사",
+  "github": null
+}

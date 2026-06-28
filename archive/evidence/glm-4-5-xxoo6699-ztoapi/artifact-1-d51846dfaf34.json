@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:35.990Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/xxoo6699/ZtoApi",
+  "finalUrl": "https://github.com/xxoo6699/ZtoApi",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"21842e3fe34a8bf3549061212f12cfa9\"",
+  "lastModified": null,
+  "bodyBytes": 453407,
+  "bodySha256": "83474a7d56c260c36f7dd0796bd86d383e968f9340dce2e5f397da581679c335",
+  "title": "GitHub - xxoo6699/ZtoApi: OpenAI兼容API代理 for Z.ai GLM-4.5 · GitHub",
+  "github": {
+    "owner": "xxoo6699",
+    "repo": "ZtoApi",
+    "apiStatus": "unavailable"
+  }
+}

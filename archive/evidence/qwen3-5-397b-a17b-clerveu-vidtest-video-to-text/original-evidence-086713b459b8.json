@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:16.143Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Clerveu/vidtest/blob/master/README.md",
+  "finalUrl": "https://github.com/Clerveu/vidtest/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d0e58fe27d541ecff0fa51a1692477c9\"",
+  "lastModified": null,
+  "bodyBytes": 293931,
+  "bodySha256": "0c4c7a0e0901ac36c6cdbfae6cf4684cf8759182e3891d3e4178de40df24e73d",
+  "title": "vidtest/README.md at master · Clerveu/vidtest · GitHub",
+  "github": {
+    "owner": "Clerveu",
+    "repo": "vidtest",
+    "htmlUrl": "https://github.com/Clerveu/vidtest",
+    "defaultBranch": "master",
+    "defaultBranchSha": "2c8525bd53b075b2ae1b612d4ae8ada0a2ce4a06",
+    "pushedAt": "2026-05-07T13:47:32Z",
+    "updatedAt": "2026-05-07T13:52:18Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

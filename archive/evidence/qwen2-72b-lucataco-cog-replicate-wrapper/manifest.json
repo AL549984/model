@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-72b-lucataco-cog-replicate-wrapper",
+  "modelId": "qwen2-72b",
+  "modelName": "Qwen2 72B",
+  "title": "lucataco packaged Qwen2 72B Instruct GPTQ-Int4 as a Cog model",
+  "evidenceFingerprint": "87ac934dff058208aab1b369733ea25e943499efa300621e2a4ea8e2b977b455",
+  "capturedAt": "2026-06-27T21:27:52.232Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/lucataco/cog-qwen2-72b-instruct-4bit/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-72b-lucataco-cog-replicate-wrapper/original-evidence-3e3374f0f57c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "9d18a5ed175a971658bf0ff687a0114aec978023e0ee188cd58f37aa31a3ee73",
+      "capturedAt": "2026-06-27T21:27:51.769Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://raw.githubusercontent.com/lucataco/cog-qwen2-72b-instruct-4bit/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-72b-lucataco-cog-replicate-wrapper/artifact-1-3e3374f0f57c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "9d18a5ed175a971658bf0ff687a0114aec978023e0ee188cd58f37aa31a3ee73",
+      "capturedAt": "2026-06-27T21:27:52.083Z",
+      "error": ""
+    }
+  ]
+}

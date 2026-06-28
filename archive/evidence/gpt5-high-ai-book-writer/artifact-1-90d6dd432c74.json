@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:03.659Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/agruai/ai-book-writer",
+  "finalUrl": "https://github.com/agruai/ai-book-writer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a8b70e05b6fdead4dc9844f3f0d85937\"",
+  "lastModified": null,
+  "bodyBytes": 505411,
+  "bodySha256": "e00604da7cf43cf0b9461eef3d278a69b0fb5bcda39cdaa64fad6e6a9c93d28b",
+  "title": "GitHub - agruai/ai-book-writer: AI-powered book-writing system that converts ideas into full manuscripts in hours with multi-agent collaboration, real-time streaming, and built-in cost control. Tech Stack: FastAPI · PostgreSQL · Redis · Nex",
+  "github": {
+    "owner": "agruai",
+    "repo": "ai-book-writer",
+    "apiStatus": "unavailable"
+  }
+}

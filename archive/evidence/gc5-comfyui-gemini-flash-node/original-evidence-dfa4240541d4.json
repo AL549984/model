@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:15.752Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ShmuelRonen/ComfyUI_Gemini_Flash",
+  "finalUrl": "https://github.com/ShmuelRonen/ComfyUI_Gemini_Flash",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"88bd1cb9004837f6724129a08046e612\"",
+  "lastModified": null,
+  "bodyBytes": 327820,
+  "bodySha256": "76e5353fba7e5691b3b43757a957c00a910592348123b138ccef3a1574572524",
+  "title": "GitHub - ShmuelRonen/ComfyUI_Gemini_Flash: A custom node for ComfyUI, that integrating the capabilities of the Gemini 1.5 Flash model. including vision and text · GitHub",
+  "github": {
+    "owner": "ShmuelRonen",
+    "repo": "ComfyUI_Gemini_Flash",
+    "apiStatus": "unavailable"
+  }
+}

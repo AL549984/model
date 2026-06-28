@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-terminus-sammy22cool-openai-proxy",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "sammy22cool built an OpenAI-compatible proxy that routes requests to DeepSeek V3.1 Terminus via NVIDIA NIM",
+  "evidenceFingerprint": "6df07c220cc2e5edf3e95ce8106c7682f6553b134f26741204c8577f7c8e23c1",
+  "capturedAt": "2026-06-27T21:34:14.494Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sammy22cool/deepseek-terminus-proxy",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-sammy22cool-openai-proxy/original-evidence-8e31f91d6cf7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sammy22cool/deepseek-terminus-proxy: OpenAI compatible proxy for DeepSeek V3.1 Terminus · GitHub",
+      "bodySha256": "6fabcefd6883ebb5b55574a48d3a26aac0db205b734cef43fea3240655b0ef67",
+      "capturedAt": "2026-06-27T21:34:12.389Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sammy22cool/deepseek-terminus-proxy/blob/main/server.js",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-sammy22cool-openai-proxy/artifact-1-f70214d21f62.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "deepseek-terminus-proxy/server.js at main · sammy22cool/deepseek-terminus-proxy · GitHub",
+      "bodySha256": "1ed9bf2fe8824e51f28342218d89736e9c2884232467374edf7b4ef42079962d",
+      "capturedAt": "2026-06-27T21:34:13.539Z",
+      "error": ""
+    }
+  ]
+}

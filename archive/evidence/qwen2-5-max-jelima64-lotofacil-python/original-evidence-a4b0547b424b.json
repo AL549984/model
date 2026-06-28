@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:58.348Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Jelima64/Qwen2.5Max/blob/main/README.md",
+  "finalUrl": "https://github.com/Jelima64/Qwen2.5Max/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"486a44f01fb8978ee44a429f41a5c0c3\"",
+  "lastModified": null,
+  "bodyBytes": 231114,
+  "bodySha256": "43f3797f2585787bd322d48b670237a205680a5804e56a8a00827e651d7ab423",
+  "title": "Qwen2.5Max/README.md at main · Jelima64/Qwen2.5Max · GitHub",
+  "github": {
+    "owner": "Jelima64",
+    "repo": "Qwen2.5Max",
+    "apiStatus": "unavailable"
+  }
+}

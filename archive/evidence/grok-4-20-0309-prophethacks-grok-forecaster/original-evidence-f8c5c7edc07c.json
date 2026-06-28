@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:38.518Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/PrashanthBhaskara/ProphetHacks/blob/main/prophet-hacks-handoff/prep/src/prep/forecasters/grok.py",
+  "finalUrl": "https://github.com/PrashanthBhaskara/ProphetHacks/blob/main/prophet-hacks-handoff/prep/src/prep/forecasters/grok.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9a10c71c13945f18d17a24494d193455\"",
+  "lastModified": null,
+  "bodyBytes": 457700,
+  "bodySha256": "32a2ffcb91f9220126449168878e2b2f8cb936e4766e24216d21edcd4d52786c",
+  "title": "ProphetHacks/prophet-hacks-handoff/prep/src/prep/forecasters/grok.py at main · PrashanthBhaskara/ProphetHacks · GitHub",
+  "github": {
+    "owner": "PrashanthBhaskara",
+    "repo": "ProphetHacks",
+    "apiStatus": "unavailable"
+  }
+}

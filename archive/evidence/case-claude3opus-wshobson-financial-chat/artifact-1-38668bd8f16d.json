@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:30.952Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/wshobson/financial-chat",
+  "finalUrl": "https://github.com/wshobson/financial-chat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5e7b96022c3e950692922ffd3bd28926\"",
+  "lastModified": null,
+  "bodyBytes": 303808,
+  "bodySha256": "8b475c5f34a55fcac7a5d020da79ca6df4be34587f2945426b205d50b626c23b",
+  "title": "GitHub - wshobson/financial-chat: A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus. · GitHub",
+  "github": {
+    "owner": "wshobson",
+    "repo": "financial-chat",
+    "htmlUrl": "https://github.com/wshobson/financial-chat",
+    "defaultBranch": "main",
+    "defaultBranchSha": "55a12290cee8046462bf3c2be91875de3011318c",
+    "pushedAt": "2025-08-10T15:00:18Z",
+    "updatedAt": "2026-06-17T08:02:49Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

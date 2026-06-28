@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-3-codex-xhigh-x1colegal-p2phttp",
+  "modelId": "gpt-5-3-codex-xhigh",
+  "modelName": "GPT-5.3 Codex (xhigh)",
+  "title": "x1colegal vibe-coded the P2PHTTP peer-to-peer HTTP transport with GPT-5.3 Codex",
+  "evidenceFingerprint": "e9dd152ed7a59412ad378599365a65885c8d499f6496cdc913fad08ba05fb404",
+  "capturedAt": "2026-06-27T22:07:54.237Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/x1colegal/P2PHTTP",
+      "snapshotPath": "archive/evidence/gpt-5-3-codex-xhigh-x1colegal-p2phttp/original-evidence-3b22dd2dfd29.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - x1colegal/P2PHTTP: vibe-coded with GPT-5.3-Codex, yeah · GitHub",
+      "bodySha256": "0ce5bbfa7a1dc2d3ced7b373d34a3ecd8a8c36fd38094d68f49ad5ede290d04b",
+      "capturedAt": "2026-06-27T22:07:52.607Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/x1colegal/P2PHTTP",
+      "snapshotPath": "archive/evidence/gpt-5-3-codex-xhigh-x1colegal-p2phttp/artifact-1-3b22dd2dfd29.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - x1colegal/P2PHTTP: vibe-coded with GPT-5.3-Codex, yeah · GitHub",
+      "bodySha256": "e39fb4ac2762c3d481cd4017be3267dcdcfd67c6bb9d975a1c62402aab15a24b",
+      "capturedAt": "2026-06-27T22:07:53.817Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-thinking-pagespace-ai-chat-selector-20260627",
+  "modelId": "qwen3-max-thinking",
+  "modelName": "Qwen3 Max Thinking",
+  "title": "PageSpace 将 Qwen3 Max Thinking 接入 AI Chat 模型选择器和 OpenRouter 路由",
+  "evidenceFingerprint": "2612d249a470f0084eb579eaee01e2644f04b8186c52a73b5db244826ebe240c",
+  "capturedAt": "2026-06-27T23:15:28.714Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/2witstudios/PageSpace/pull/747",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-pagespace-ai-chat-selector-20260627/original-evidence-d67c308edbc4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Add support for latest AI models (Claude 4.6, GPT-5.3, Gemini 3.1, Qwen3.5) by 2witstudios · Pull Request #747 · 2witstudios/PageSpace · GitHub",
+      "bodySha256": "c4df9a3a59ffb61fe4d9b69290c6468cafb163e9600dd61e7ad705e2487aec53",
+      "capturedAt": "2026-06-27T23:15:25.014Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/2witstudios/PageSpace",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-pagespace-ai-chat-selector-20260627/artifact-1-e2b9531fab10.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 2witstudios/PageSpace: Talk to your projects · GitHub",
+      "bodySha256": "6a0408fc0113f2cb73bcf541fe15274e9a205bd03e50f5a92010fdf3177caf1e",
+      "capturedAt": "2026-06-27T23:15:27.488Z",
+      "error": ""
+    }
+  ]
+}

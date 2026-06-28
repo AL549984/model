@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-vizuara-paper-to-notebook",
+  "modelId": "gemini-2-5-pro",
+  "modelName": "Gemini 2.5 Pro",
+  "title": "VizuaraAI Paper2Notebook uses Gemini 2.5 Pro to convert research PDFs into executable Jupyter notebooks",
+  "evidenceFingerprint": "a8aa08c6ad0ba9ee03a082a039566319725687090bdfad51a46197c7f907be1f",
+  "capturedAt": "2026-06-27T21:47:21.992Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/VizuaraAI/paper-to-notebook/blob/main/backend/app.py",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-vizuara-paper-to-notebook/original-evidence-02c7c79a140b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "paper-to-notebook/backend/app.py at main · VizuaraAI/paper-to-notebook · GitHub",
+      "bodySha256": "beae61a4626e9f016364537cecb98f503568d080c04303fb9310ee8757e566b6",
+      "capturedAt": "2026-06-27T21:47:19.806Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/VizuaraAI/paper-to-notebook",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-vizuara-paper-to-notebook/artifact-1-67931e1dcb56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - VizuaraAI/paper-to-notebook: Upload a research paper PDF, get a runnable PyTorch notebook. Powered by Gemini 2.5 Pro. · GitHub",
+      "bodySha256": "cd67914eecb9c2d2631f4ce96c278c1732fbc58473050d485d6c18f9d3016370",
+      "capturedAt": "2026-06-27T21:47:21.008Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-6-max-anthropic-ccc-compiler",
+  "modelId": "claude-opus-4-6-max",
+  "modelName": "Claude Opus 4.6 (max)",
+  "title": "Anthropic 用 Claude Opus 4.6 从零编写多架构 C 编译器",
+  "evidenceFingerprint": "469ccfccc3027a72a20f9667b6cb810363610fb5f32b71e673744ba40ade723b",
+  "capturedAt": "2026-06-27T20:55:19.257Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/anthropics/claudes-c-compiler/main/README.md",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-anthropic-ccc-compiler/original-evidence-f51b494079ce.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "9ebb6f24e4c14896730f58e3d3e161af302adeae38ff43da7c3427ead1935f4c",
+      "capturedAt": "2026-06-27T20:55:17.605Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/anthropics/claudes-c-compiler",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-anthropic-ccc-compiler/artifact-1-d43891a17052.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - anthropics/claudes-c-compiler: Claude Opus 4.6 wrote a dependency-free C compiler in Rust, with backends targeting x86 (64- and 32-bit), ARM, and RISC-V, capable of compiling a booting Linux kernel. · GitHub",
+      "bodySha256": "97cbb537d7c7425cff2d881afeacf614af9a5417b5fcb4dfb3459c61a8d1f85d",
+      "capturedAt": "2026-06-27T20:55:18.259Z",
+      "error": ""
+    }
+  ]
+}

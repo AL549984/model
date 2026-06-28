@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:52.890Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/jeevesh415/nanobrowser/pull/6",
+  "finalUrl": "https://github.com/jeevesh415/nanobrowser/pull/6",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ade2891f6d8dd499a60f3fba19dc88f5\"",
+  "lastModified": null,
+  "bodyBytes": 341872,
+  "bodySha256": "ebbb30c0c1df1abd2ef2d9f8232b3a5ee25ac7fa27bef1f2e5f829b677ad202e",
+  "title": "Enable Gemini 2.0 Flash Thinking function calling support by jeevesh415 · Pull Request #6 · jeevesh415/nanobrowser · GitHub",
+  "github": {
+    "owner": "jeevesh415",
+    "repo": "nanobrowser",
+    "apiStatus": "unavailable"
+  }
+}

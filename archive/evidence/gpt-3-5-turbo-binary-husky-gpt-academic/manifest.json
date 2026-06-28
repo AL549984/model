@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-3-5-turbo-binary-husky-gpt-academic",
+  "modelId": "gpt-3-5-turbo",
+  "modelName": "GPT-3.5 Turbo",
+  "title": "GPT 学术优化用 GPT-3.5 Turbo 支持论文阅读、润色和代码解析",
+  "evidenceFingerprint": "5519165c23ca445b5d6a05b733dc2ed8bdd6c8784350ec3de84104482b25aa16",
+  "capturedAt": "2026-06-27T21:54:10.854Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/binary-husky/gpt_academic/blob/master/README.md#L104-L119",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-binary-husky-gpt-academic/original-evidence-c1cdcf04b85a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "gpt_academic/README.md at master · binary-husky/gpt_academic · GitHub",
+      "bodySha256": "c0b96977efc6a360468faebdd82217f8b306525cbf729f068a0f9a69a95c35c7",
+      "capturedAt": "2026-06-27T21:54:08.318Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/binary-husky/gpt_academic",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-binary-husky-gpt-academic/artifact-1-b26dff6fa7ef.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - binary-husky/gpt_academic: 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&amp;函数插件，支持Python和C++等项目剖析&amp;自译解功能，PDF/LaTex论文翻译&amp;总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claud",
+      "bodySha256": "5fd305f238ab67acb0b915a9714dcfb9439567962a15d1523d25bfc7a079bcfb",
+      "capturedAt": "2026-06-27T21:54:09.622Z",
+      "error": ""
+    }
+  ]
+}

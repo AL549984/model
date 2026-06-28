@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:54.749Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/phiraml/claude-codex-judge/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/phiraml/claude-codex-judge/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1244",
+  "etag": "W/\"618ee94cc53e422e3d0a2984429a5659aaa881cac8f7fc1e9a2fdca138d179e6\"",
+  "lastModified": null,
+  "bodyBytes": 2493,
+  "bodySha256": "f051db17b62736e250b7fc5f9abf0681280c7555a411fb16427b963bef58dc60",
+  "title": "",
+  "github": null
+}

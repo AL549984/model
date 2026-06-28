@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:41.913Z",
+  "kind": "artifact-1",
+  "url": "https://cursor.com/",
+  "finalUrl": "https://cursor.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 713026,
+  "bodySha256": "24a79444af709d3fb3fe1d30d289a25697ad81f673221f687928571567294f58",
+  "title": "Cursor: AI coding agent",
+  "github": null
+}

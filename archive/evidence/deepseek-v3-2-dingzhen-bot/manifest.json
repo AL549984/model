@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-2-dingzhen-bot",
+  "modelId": "deepseek-v3-2",
+  "modelName": "DeepSeek V3.2",
+  "title": "电子丁真: DeepSeek-V3.2 API 驱动的角色扮演聊天机器人 + MockingBird TTS",
+  "evidenceFingerprint": "64b2ca77d8e850278ea3ccae2d989fac61e75a98752ae17cb98f7e7978c635d6",
+  "capturedAt": "2026-06-27T21:34:20.717Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/DrowskoytayhulGuider/DingZhen-bot",
+      "snapshotPath": "archive/evidence/deepseek-v3-2-dingzhen-bot/original-evidence-b5ae64130481.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DrowskoytayhulGuider/DingZhen-bot: 接入了Deepseek-V3.2 API 注入丁真角色提示词并带有通过MockingBird训练的TTS语音模型的整活聊天机器人。 · GitHub",
+      "bodySha256": "d307140d02de6a2eb13fab430488dcf8f1b431002c930114d1ac22791c2a6865",
+      "capturedAt": "2026-06-27T21:34:18.972Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DrowskoytayhulGuider/DingZhen-bot",
+      "snapshotPath": "archive/evidence/deepseek-v3-2-dingzhen-bot/artifact-1-b5ae64130481.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DrowskoytayhulGuider/DingZhen-bot: 接入了Deepseek-V3.2 API 注入丁真角色提示词并带有通过MockingBird训练的TTS语音模型的整活聊天机器人。 · GitHub",
+      "bodySha256": "1bb99d9af6462dcdcae26b43299ee859b2c38460edee1cf8be7cb4b81d6ec00e",
+      "capturedAt": "2026-06-27T21:34:20.181Z",
+      "error": ""
+    }
+  ]
+}

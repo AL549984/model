@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:23.260Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/FAI-Solutions/Continue-NIM-Proxy/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/FAI-Solutions/Continue-NIM-Proxy/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1622",
+  "etag": "W/\"42c25796c182ceb617bb6c6408b4625db7532e8747311f3e0ca45113da1bbcd4\"",
+  "lastModified": null,
+  "bodyBytes": 3482,
+  "bodySha256": "e5057ec5a86e409c8d709fa35216ae93fcaf98d9dddd63b167473bbde9ada127",
+  "title": "",
+  "github": null
+}

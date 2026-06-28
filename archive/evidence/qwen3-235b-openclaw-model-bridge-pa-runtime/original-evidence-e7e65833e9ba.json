@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:54.867Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/bisdom-cell/openclaw-model-bridge/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/bisdom-cell/openclaw-model-bridge/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "19612",
+  "etag": "W/\"db69412e262303d754220006cc0a38882a0a83683272cc1ceff5bd1fdce7ac84\"",
+  "lastModified": null,
+  "bodyBytes": 49368,
+  "bodySha256": "88b5953355cb643e0894bd217760c7573bdcc8e39bc44d71382b8b4f44326718",
+  "title": "",
+  "github": null
+}

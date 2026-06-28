@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-5-pro-praxis-forge-modernization",
+  "modelId": "mimo-v2-5-pro",
+  "modelName": "MiMo-V2.5-Pro",
+  "title": "Praxis Forge: 7 智能体自动代码库现代化系统，MiMo-V2.5-Pro 作为核心编排器",
+  "evidenceFingerprint": "681803001b6c6942b5360767eaa1f165b3b39f590a35baf87d07c980ee92c41e",
+  "capturedAt": "2026-06-27T22:37:45.372Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ricoredfinger-png/praxis-forge",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-praxis-forge-modernization/original-evidence-1a37d18cc99b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ricoredfinger-png/praxis-forge: Autonomous multi-agent codebase modernization &amp; tech debt hunter — 7 specialized agents, 4-pass long-chain reasoning, powered by Xiaomi MiMo V2.5 · GitHub",
+      "bodySha256": "77a58a3552aec6815f9473da597eab61e4e34b21c241847eb479f0e7a37e26a0",
+      "capturedAt": "2026-06-27T22:37:43.799Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ricoredfinger-png/praxis-forge",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-praxis-forge-modernization/artifact-1-1a37d18cc99b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ricoredfinger-png/praxis-forge: Autonomous multi-agent codebase modernization &amp; tech debt hunter — 7 specialized agents, 4-pass long-chain reasoning, powered by Xiaomi MiMo V2.5 · GitHub",
+      "bodySha256": "ef6eb6b480d52a8cc7987820f28540d4d149557bb85b27e2e3998f391837456a",
+      "capturedAt": "2026-06-27T22:37:44.880Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:04.760Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/SidhuK/WardenApp",
+  "finalUrl": "https://github.com/SidhuK/WardenApp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"36445773a303402df2b36b8b364d9216\"",
+  "lastModified": null,
+  "bodyBytes": 318985,
+  "bodySha256": "8beb593bb8e3f619ef3b254b46e24a95af07568d1fef49ccccde18381526dd16",
+  "title": "GitHub - SidhuK/WardenApp: 🛡️ Warden - A Fully Native AI Chat App For macOS · GitHub",
+  "github": {
+    "owner": "SidhuK",
+    "repo": "WardenApp",
+    "apiStatus": "unavailable"
+  }
+}

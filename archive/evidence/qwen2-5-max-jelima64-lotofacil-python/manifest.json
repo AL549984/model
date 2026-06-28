@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-max-jelima64-lotofacil-python",
+  "modelId": "qwen2-5-max",
+  "modelName": "Qwen2.5 Max",
+  "title": "Qwen2.5Max generated a Python Lotofácil lottery-analysis program",
+  "evidenceFingerprint": "c99e3a1096f72d219cafdafba84ee033da34d0fa947f93f000cb25e6a2b6ae41",
+  "capturedAt": "2026-06-27T23:00:00.594Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Jelima64/Qwen2.5Max/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-5-max-jelima64-lotofacil-python/original-evidence-a4b0547b424b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Qwen2.5Max/README.md at main · Jelima64/Qwen2.5Max · GitHub",
+      "bodySha256": "43f3797f2585787bd322d48b670237a205680a5804e56a8a00827e651d7ab423",
+      "capturedAt": "2026-06-27T22:59:58.348Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Jelima64/Qwen2.5Max",
+      "snapshotPath": "archive/evidence/qwen2-5-max-jelima64-lotofacil-python/artifact-1-9ce92ac1bc05.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Jelima64/Qwen2.5Max: Programa em Python Lotofacil com IA · GitHub",
+      "bodySha256": "6925f39a80d84b829b2da61185823c2eb9683ba57f0db3a660e887d3a0510f93",
+      "capturedAt": "2026-06-27T22:59:59.475Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:26.933Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/hexdocom/lemonai/blob/main/src/completion/configs.js",
+  "finalUrl": "https://github.com/hexdocom/lemonai/blob/main/src/completion/configs.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cafb78305429b011734ca75279d9b648\"",
+  "lastModified": null,
+  "bodyBytes": 311592,
+  "bodySha256": "4d255fb74f40c2dfecff2d74748384b9c5dcfcee06f97eb391d975022bdaf3c4",
+  "title": "lemonai/src/completion/configs.js at main · hexdocom/lemonai · GitHub",
+  "github": {
+    "owner": "hexdocom",
+    "repo": "lemonai",
+    "apiStatus": "unavailable"
+  }
+}

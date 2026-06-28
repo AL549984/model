@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-1-arki05-gguf-quantizations-202403",
+  "modelId": "grok-1",
+  "modelName": "Grok-1",
+  "title": "Arki05 发布 Grok-1 GGUF 量化包用于 llama.cpp 本地加载",
+  "evidenceFingerprint": "fd484f8ec58c462dbd06ecb141ec5dd780fd68f499950f16f35202392034e518",
+  "capturedAt": "2026-06-27T23:25:22.512Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/Arki05/Grok-1-GGUF/raw/main/README.md",
+      "snapshotPath": "archive/evidence/grok-1-arki05-gguf-quantizations-202403/original-evidence-248daf493761.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "0eb7796d6c7f32a0c988b0d77960a397120b05225caade5a369a7578f6a9c0da",
+      "capturedAt": "2026-06-27T23:25:21.844Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/Arki05/Grok-1-GGUF",
+      "snapshotPath": "archive/evidence/grok-1-arki05-gguf-quantizations-202403/artifact-1-38cc3afd41a9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Arki05/Grok-1-GGUF · Hugging Face",
+      "bodySha256": "65b0196b2758e1524b669f2649e333730e252dd4b379d1d98bc4f669a0dd44e4",
+      "capturedAt": "2026-06-27T23:25:22.112Z",
+      "error": ""
+    }
+  ]
+}

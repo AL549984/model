@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-instant-ra-aid-autonomous-software-development-agent",
+  "modelId": "claude-instant",
+  "modelName": "Claude Instant",
+  "title": "RA.Aid tracks Claude Instant for autonomous software-development agent usage",
+  "evidenceFingerprint": "52fa1f1aea2dcca06903514a57a73f9f6ddadd9dff147f3089eb4f42bdd16b56",
+  "capturedAt": "2026-06-27T20:55:01.968Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ai-christianson/RA.Aid/blob/master/ra_aid/callbacks/default_callback_handler.py#L54-L57",
+      "snapshotPath": "archive/evidence/claude-instant-ra-aid-autonomous-software-development-agent/original-evidence-e93cf04d92bf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RA.Aid/ra_aid/callbacks/default_callback_handler.py at master · ai-christianson/RA.Aid · GitHub",
+      "bodySha256": "396efc0a58cdfd2657fb086ed6275041fea0e180e601a0698419e1fa66edaa19",
+      "capturedAt": "2026-06-27T20:54:59.860Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ai-christianson/RA.Aid",
+      "snapshotPath": "archive/evidence/claude-instant-ra-aid-autonomous-software-development-agent/artifact-1-c7469c44be21.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ai-christianson/RA.Aid: Develop software autonomously. · GitHub",
+      "bodySha256": "c299daf1478336ebc3ac9470cb9d0807330bc3a094745558507a0a9d8e88cbef",
+      "capturedAt": "2026-06-27T20:55:01.024Z",
+      "error": ""
+    }
+  ]
+}

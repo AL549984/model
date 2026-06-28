@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-claude3opus-simonw-files-to-prompt",
+  "modelId": "claude-3-opus",
+  "modelName": "Claude 3 Opus",
+  "title": "Simon Willison 构建 files-to-prompt CLI 工具，全程使用 Claude 3 Opus 编码",
+  "evidenceFingerprint": "b59f0dff88b4bb647fc55e8deb2a6da354c6e969f9e9a2bfbf322d74f7698be4",
+  "capturedAt": "2026-06-27T19:29:54.578Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://simonwillison.net/2024/Apr/8/files-to-prompt/",
+      "snapshotPath": "archive/evidence/case-claude3opus-simonw-files-to-prompt/original-evidence-275f0d2f858f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Building files-to-prompt entirely using Claude 3 Opus",
+      "bodySha256": "95ad59947018ab4584b9cbec57fe8300a2d45b9a8bce3d4ccba91eb50f04745e",
+      "capturedAt": "2026-06-27T19:29:52.153Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/simonw/files-to-prompt",
+      "snapshotPath": "archive/evidence/case-claude3opus-simonw-files-to-prompt/artifact-1-e04e510506fb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - simonw/files-to-prompt: Concatenate a directory full of files into a single prompt for use with LLMs · GitHub",
+      "bodySha256": "a4880dafc7109b6c87361e17e85729e889ee2f5582894a998b2de1a92fde5e8a",
+      "capturedAt": "2026-06-27T19:29:53.007Z",
+      "error": ""
+    }
+  ]
+}

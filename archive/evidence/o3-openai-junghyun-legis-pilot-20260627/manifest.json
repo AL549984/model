@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o3-openai-junghyun-legis-pilot-20260627",
+  "modelId": "o3",
+  "modelName": "o3",
+  "title": "Legis-Pilot uses OpenAI o3 to assess Korean legislative proposals and generate one-page review reports",
+  "evidenceFingerprint": "705c3572901a60faf51fc3f9c02f91c4716b0884494fcd3a8626cf4bf6a7e837",
+  "capturedAt": "2026-06-27T22:51:58.716Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/junghyun-coding/legis-pilot#%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84",
+      "snapshotPath": "archive/evidence/o3-openai-junghyun-legis-pilot-20260627/original-evidence-e5821bfe0bc7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - junghyun-coding/legis-pilot: 국민 입법제안을 국가법령정보와 대조해 시행령 정비 타당성을 AI(o3)가 검토하고 1페이지 리포트를 생성하는 GovTech 웹앱 · 제2회 법령데이터 활용 아이디어 공모전 · GitHub",
+      "bodySha256": "da339a9c1ca3e6aec9abec5d8e1e522e9f56d3b7e1cfe356fa7bf3303e14b210",
+      "capturedAt": "2026-06-27T22:51:56.658Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://legis-pilot.vercel.app",
+      "snapshotPath": "archive/evidence/o3-openai-junghyun-legis-pilot-20260627/artifact-1-fc0874728d31.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "법령이음 — 입법 제안·시행령 정비 검토 AI",
+      "bodySha256": "51b8360b36ffb8be55dfdcc674f9eee52349d71b2a46e727e18b11960cfb3160",
+      "capturedAt": "2026-06-27T22:51:57.816Z",
+      "error": ""
+    }
+  ]
+}

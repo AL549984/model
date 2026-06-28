@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:29.094Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Auxiar/GoogleReviewHelper",
+  "finalUrl": "https://github.com/Auxiar/GoogleReviewHelper",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"deaebc8e2d2d51704f610806bfcfa8c0\"",
+  "lastModified": null,
+  "bodyBytes": 235605,
+  "bodySha256": "d6a7287ce15456d5fe0626b4a2491857231f76b8e7c11955bdda32eb5c393282",
+  "title": "GitHub - Auxiar/GoogleReviewHelper: A quick and dirty webpage to contact Google&#39;s Places API in order to retrieve a direct &quot;Leave a Review&quot; Google link. Just supply your own Places API Key and you&#39;re off to the races. Quic",
+  "github": {
+    "owner": "Auxiar",
+    "repo": "GoogleReviewHelper",
+    "apiStatus": "unavailable"
+  }
+}

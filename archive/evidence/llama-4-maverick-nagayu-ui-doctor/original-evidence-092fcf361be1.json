@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:14.951Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/NagaYu/maverick-ui-doctor/blob/main/README.md",
+  "finalUrl": "https://github.com/NagaYu/maverick-ui-doctor/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8d40bbb8eaa911e62726abc34bc3c290\"",
+  "lastModified": null,
+  "bodyBytes": 369462,
+  "bodySha256": "27faad5de6d993a130846a4431d46b3db36dc7b6ee7ffc17b0daf30d95edb465",
+  "title": "maverick-ui-doctor/README.md at main · NagaYu/maverick-ui-doctor · GitHub",
+  "github": {
+    "owner": "NagaYu",
+    "repo": "maverick-ui-doctor",
+    "apiStatus": "unavailable"
+  }
+}

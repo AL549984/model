@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:48.149Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/LangcliTeam/langcli",
+  "finalUrl": "https://github.com/LangcliTeam/langcli",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cc3a44e09b28addc5d13151fda562789\"",
+  "lastModified": null,
+  "bodyBytes": 343854,
+  "bodySha256": "580f066b59b066c26dd7a1b33e92a746132175e17569c91c37b4fb8210474502",
+  "title": "GitHub - LangcliTeam/langcli: Building agentic coding assistant in public · GitHub",
+  "github": {
+    "owner": "LangcliTeam",
+    "repo": "langcli",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:54.848Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/jbexta/AgentPilot",
+  "finalUrl": "https://github.com/jbexta/AgentPilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8e71242ca49287d638fe999b2765a863\"",
+  "lastModified": null,
+  "bodyBytes": 349482,
+  "bodySha256": "d15ccd65c0211a6721314f57aa81b7cfbf83e11faa497470646db3b055acb6e9",
+  "title": "GitHub - jbexta/AgentPilot: A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows. · GitHub",
+  "github": {
+    "owner": "jbexta",
+    "repo": "AgentPilot",
+    "apiStatus": "unavailable"
+  }
+}

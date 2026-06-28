@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-flash-may-dev-d-gr8-textgenius",
+  "modelId": "gemini-1-5-flash-may",
+  "modelName": "Gemini 1.5 Flash (May)",
+  "title": "TextGenius iOS keyboard uses Gemini 1.5 Flash for instant answers and reply generation",
+  "evidenceFingerprint": "13dfc69213f1eeef8a399f6ba92985ed0ca40e8017f99347d97a9af82a459350",
+  "capturedAt": "2026-06-27T21:40:24.080Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/DEV-D-GR8/TextGenius/blob/main/SmartText/GenerativeModelManager.swift#L12-L38",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-dev-d-gr8-textgenius/original-evidence-43337d7b7b4a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "TextGenius/SmartText/GenerativeModelManager.swift at main · DEV-D-GR8/TextGenius · GitHub",
+      "bodySha256": "4dd6af2f87c66938d7e971dee835b20f70a072ac365546687e728a781414d238",
+      "capturedAt": "2026-06-27T21:40:22.337Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DEV-D-GR8/TextGenius",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-dev-d-gr8-textgenius/artifact-1-0944706c4cc0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DEV-D-GR8/TextGenius: This project provides a custom keyboard for iPhones, built using UIKit, and a companion app built with SwiftUI for customization options. The keyboard features a built-in search bar that integrates with the Ge",
+      "bodySha256": "ac77a7b6a425d375b073110dd081088b1e001ece447820e2a3431c5e801dc699",
+      "capturedAt": "2026-06-27T21:40:23.182Z",
+      "error": ""
+    }
+  ]
+}

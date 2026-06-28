@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:29.606Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/moriarthur/Doclos",
+  "finalUrl": "https://github.com/moriarthur/Doclos",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f5b49e21cf7eb2621840b0726080abd8\"",
+  "lastModified": null,
+  "bodyBytes": 314776,
+  "bodySha256": "386b6d10d95800237733956478eb5a7e5ee1c84a9e71b70356e8d01869076e0d",
+  "title": "GitHub - moriarthur/Doclos: AI-powered document automation SaaS — extract structured data from invoices, contracts &amp; delivery notes using GLM-4.7 + Tesseract OCR · GitHub",
+  "github": {
+    "owner": "moriarthur",
+    "repo": "Doclos",
+    "apiStatus": "unavailable"
+  }
+}

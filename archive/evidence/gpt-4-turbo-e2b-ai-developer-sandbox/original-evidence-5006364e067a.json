@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:41.069Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/e2b-dev/ai-developer-with-sandbox/blob/main/readme.md",
+  "finalUrl": "https://github.com/e2b-dev/ai-developer-with-sandbox/blob/main/readme.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e607446252f5bab80abadee34003b5d6\"",
+  "lastModified": null,
+  "bodyBytes": 253905,
+  "bodySha256": "a26d27df97dbc0f6197fedd12a353dc58936c072c74b7bac31bd819e12ae463f",
+  "title": "ai-developer-with-sandbox/readme.md at main · e2b-dev/ai-developer-with-sandbox · GitHub",
+  "github": {
+    "owner": "e2b-dev",
+    "repo": "ai-developer-with-sandbox",
+    "apiStatus": "unavailable"
+  }
+}

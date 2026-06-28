@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-owjk123-groknovelapp",
+  "modelId": "grok-4-20-0309",
+  "modelName": "Grok 4.20 0309",
+  "title": "owjk123 的 GrokNovelApp 使用 Grok 4.20 API 生成互动小说 Android 应用",
+  "evidenceFingerprint": "14a80d1521c4ad1733dfdf628880e6026a2bc03a212e9e70a84894cc39aa4479",
+  "capturedAt": "2026-06-27T22:15:38.517Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/owjk123/GrokNovelApp/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-owjk123-groknovelapp/original-evidence-ec3c7e865633.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GrokNovelApp/README.md at main · owjk123/GrokNovelApp · GitHub",
+      "bodySha256": "2cdf6e43b951f898a7d3b6f4ce69264dfb346ab87e874402791dbe0df1ebd412",
+      "capturedAt": "2026-06-27T22:15:36.429Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/owjk123/GrokNovelApp",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-owjk123-groknovelapp/artifact-1-1c5dc2c1fadb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - owjk123/GrokNovelApp: AI Novel Generator powered by Grok 4.20 - Android App with interactive storytelling · GitHub",
+      "bodySha256": "6ee99c2c836d47c0527a97cb9862b3b87c0032fa825d08ba149914b58473c96a",
+      "capturedAt": "2026-06-27T22:15:37.477Z",
+      "error": ""
+    }
+  ]
+}

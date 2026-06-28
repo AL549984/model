@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-3-1-pro-preview-case-004",
+  "modelId": "gemini-3-1-pro-preview",
+  "modelName": "Gemini 3.1 Pro Preview",
+  "title": "Multi-Agent Code Review Council with Gemini 3.1 Pro as Parallel Reviewer",
+  "evidenceFingerprint": "fa66492094afb30234c11720c34f8f1c08bc1040ba908e405c9da1f00b86b4d6",
+  "capturedAt": "2026-06-27T21:47:27.548Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yeameen/claude-code-review-council/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-004/original-evidence-9bf0b40cba23.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "claude-code-review-council/README.md at main · yeameen/claude-code-review-council · GitHub",
+      "bodySha256": "afd8ec87037f7ceb0c4818c50ced8e7fa432ce77917439e915d08d25e51c7918",
+      "capturedAt": "2026-06-27T21:47:25.470Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yeameen/claude-code-review-council",
+      "snapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-004/artifact-1-0e56bd109d4b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yeameen/claude-code-review-council: Multi-agent code review for Claude Code: parallel review by Codex (GPT-5.5), Gemini 3.1 Pro, and 4 Claude specialist subagents (security, performance, logic, regression) · GitHub",
+      "bodySha256": "b08d256a8443ea4c78f7496e9fc43cad53e0014e02b46f2d1bdadbecbcd51c73",
+      "capturedAt": "2026-06-27T21:47:26.486Z",
+      "error": ""
+    }
+  ]
+}

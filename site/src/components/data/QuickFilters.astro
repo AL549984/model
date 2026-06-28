@@ -15,17 +15,17 @@ const filters = [
     <button
       type="button"
       class:list={[
-        "quick-filter rounded-lg border border-slate-700/70 bg-slate-950/45 p-3 text-left transition hover:border-cyan-300/45 hover:bg-slate-900/70",
+        "quick-filter border border-[#f4f1ea]/20 bg-[#070707] p-3 text-left transition hover:border-[#ff3b4e]/60 hover:bg-[#f4f1ea]/[0.035]",
         filter.id === "all" && "quick-filter-active"
       ]}
       data-quick-filter={filter.id}
       aria-pressed={filter.id === "all" ? "true" : "false"}
     >
       <span class="flex items-center justify-between gap-3">
-        <span class="text-sm font-semibold text-slate-100">{filter.label}</span>
-        {filter.count !== null && <span class="font-mono text-xs text-cyan-100">{filter.count}</span>}
+        <span class="text-sm font-semibold text-[#f4f1ea]">{filter.label}</span>
+        {filter.count !== null && <span class="font-mono text-xs text-[#ff3b4e]">{filter.count}</span>}
       </span>
-      <span class="mt-1 block text-xs text-slate-400">{filter.detail}</span>
+      <span class="mt-1 block text-xs text-[#a8a29a]">{filter.detail}</span>
     </button>
   ))}
 </div>

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-schxar-librarysearch-vlm",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "LibrarySearch uses Seed1.5-VL/Doubao Thinking Vision Pro for image-content analysis inside an AI chat and library-search platform",
+  "evidenceFingerprint": "687bf1fddeda7dfaf92f9d2c160743461d9a2d51992217151141c50af78d2f56",
+  "capturedAt": "2026-06-27T23:23:07.294Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/schxar/LibrarySearch/blob/main/flask_openai_backend/vlm.py",
+      "snapshotPath": "archive/evidence/seed1-5-vl-schxar-librarysearch-vlm/original-evidence-c14bde702a2b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "LibrarySearch/flask_openai_backend/vlm.py at main · schxar/LibrarySearch · GitHub",
+      "bodySha256": "045e71c3344e5d6d891ff3da966f73c6a525a02b114f2c65ebced282f138e657",
+      "capturedAt": "2026-06-27T23:23:05.344Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/schxar/LibrarySearch",
+      "snapshotPath": "archive/evidence/seed1-5-vl-schxar-librarysearch-vlm/artifact-1-f2136b7f6b05.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - schxar/LibrarySearch: z library search test demo · GitHub",
+      "bodySha256": "3bbb32569db9679fb54879b712d12303eb6d3f8ad70fc9f3ae61ed6b75222c16",
+      "capturedAt": "2026-06-27T23:23:06.263Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:48.718Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MaxHarar/sierra-tau-demo/blob/main/README.md",
+  "finalUrl": "https://github.com/MaxHarar/sierra-tau-demo/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3618fb6468ed8d9262c6030b6fc706ec\"",
+  "lastModified": null,
+  "bodyBytes": 367708,
+  "bodySha256": "9a9a7aa4b067cb4b9db6ea4f5f50c0f7fba8115e8757c6a8d1ff3fa851e2d012",
+  "title": "sierra-tau-demo/README.md at main · MaxHarar/sierra-tau-demo · GitHub",
+  "github": {
+    "owner": "MaxHarar",
+    "repo": "sierra-tau-demo",
+    "apiStatus": "unavailable"
+  }
+}

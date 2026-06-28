@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:38.756Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/vllm-project/vllm-ascend/issues/9521",
+  "finalUrl": "https://github.com/vllm-project/vllm-ascend/issues/9521",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 275016,
+  "bodySha256": "90d6a32938978dcb83bc69026c352385858d433c32e2e298248847ca5e39a792",
+  "title": "[Bug]: 用vllm-ascend 0.18.0rc1部署DeepSeek-V3.1-Terminus-w4a8-mtp-QuaRot模型，在发送下述请求体的时候会概率性出现没有content的情况 · Issue #9521 · vllm-project/vllm-ascend · GitHub",
+  "github": {
+    "owner": "vllm-project",
+    "repo": "vllm-ascend",
+    "apiStatus": "unavailable"
+  }
+}

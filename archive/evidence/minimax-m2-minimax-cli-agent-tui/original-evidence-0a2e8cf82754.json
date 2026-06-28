@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:51.948Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Hmbown/MiniMax-CLI/blob/main/README.md",
+  "finalUrl": "https://github.com/Hmbown/MiniMax-CLI/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b30148a437bc8a6c03be672444dd8c31\"",
+  "lastModified": null,
+  "bodyBytes": 325063,
+  "bodySha256": "433a4b3fe8ff92b408f08022f23a8c3968f30a0a26bd86c0023b163174def8ba",
+  "title": "MiniMax-CLI/README.md at main · Hmbown/MiniMax-CLI · GitHub",
+  "github": {
+    "owner": "Hmbown",
+    "repo": "MiniMax-CLI",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,288 @@
+---
+import { buildCaseNarrative } from "../../lib/caseNarrative";
+
+type CaseItem = {
+  id: string;
+  title?: string;
+  modelName?: string;
+  userOrOrg?: string;
+  sourcePlatform?: string;
+  sourceType?: string;
+  taskCategory?: string;
+  taskDescription?: string;
+  outputResult?: string;
+  modelContribution?: string;
+  riskNotes?: string;
+  evidenceGrade?: string;
+  collectedAt?: string;
+  selectedForModelCard?: boolean;
+};
+
+const { modelName, modelId, cases: rawCases = [] } = Astro.props as { modelName?: string; modelId?: string; cases?: CaseItem[] };
+const modelCases = rawCases as CaseItem[];
+
+function countBy<T>(items: CaseItem[], getKey: (item: CaseItem) => T | undefined | null) {
+  const counts = new Map<string, number>();
+  for (const item of items) {
+    const key = String(getKey(item) ?? "").trim() || "未分类";
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+  return Array.from(counts.entries())
+    .map(([label, count]) => ({ label, count }))
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, "zh-Hans-CN"));
+}
+
+function reviewBucket(item: CaseItem) {
+  const raw = String(item.collectedAt ?? "").trim();
+  if (!raw) return "待复核";
+  return raw.slice(0, 7);
+}
+
+function maxCount(items: Array<{ count: number }>) {
+  return Math.max(1, ...items.map((item) => item.count));
+}
+
+const narrativeCases = modelCases.map((item) => ({ item, narrative: buildCaseNarrative(item) }));
+const useCases = countBy(modelCases, (item) => buildCaseNarrative(item).useCaseLabel).slice(0, 6);
+const platforms = countBy(modelCases, (item) => buildCaseNarrative(item).platformLabel).slice(0, 6);
+const reviewBatches = countBy(modelCases, reviewBucket).slice(0, 6);
+const maxUseCase = maxCount(useCases);
+const maxPlatform = maxCount(platforms);
+const maxReview = maxCount(reviewBatches);
+const recentCase = [...narrativeCases].sort((a, b) => String(b.item.collectedAt ?? "").localeCompare(String(a.item.collectedAt ?? "")))[0];
+const selectedCaseCount = modelCases.filter((item) => item.selectedForModelCard).length;
+---
+
+<section class="evidence-distribution panel p-4" data-evidence-distribution>
+  <div class="evidence-distribution__head">
+    <div>
+      <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Evidence Distribution</p>
+      <h2>案例证据分布</h2>
+      <p>
+        {modelCases.length
+          ? `${modelName ?? "该模型"} 当前关联 ${modelCases.length} 条 A 类案例；这里按任务、来源和复核时间观察证据结构。`
+          : `${modelName ?? "该模型"} 暂无 A 类案例，分布图将在案例入库后自动生成。`}
+      </p>
+    </div>
+    <div class="evidence-distribution__stamp">
+      <span>A CASES</span>
+      <strong>{modelCases.length}</strong>
+      <em>{selectedCaseCount} selected</em>
+    </div>
+  </div>
+
+  {modelCases.length ? (
+    <>
+      <div class="evidence-distribution__grid">
+        <article>
+          <span>任务类型</span>
+          <div class="evidence-distribution__bars">
+            {useCases.map((row) => (
+              <a href={`/cases?q=${encodeURIComponent(row.label)}${modelId ? `&model=${encodeURIComponent(modelId)}` : ""}`} style={`--w:${Math.max(8, Math.round((row.count / maxUseCase) * 100))}%`}>
+                <strong>{row.label}</strong>
+                <em>{row.count} 条</em>
+                <i></i>
+              </a>
+            ))}
+          </div>
+        </article>
+
+        <article>
+          <span>来源结构</span>
+          <div class="evidence-distribution__bars">
+            {platforms.map((row) => (
+              <a href={`/cases?q=${encodeURIComponent(row.label)}`} style={`--w:${Math.max(8, Math.round((row.count / maxPlatform) * 100))}%`}>
+                <strong>{row.label}</strong>
+                <em>{row.count} 条</em>
+                <i></i>
+              </a>
+            ))}
+          </div>
+        </article>
+
+        <article>
+          <span>复核批次</span>
+          <div class="evidence-distribution__bars">
+            {reviewBatches.map((row) => (
+              <a href={`/cases?q=${encodeURIComponent(row.label)}`} style={`--w:${Math.max(8, Math.round((row.count / maxReview) * 100))}%`}>
+                <strong>{row.label}</strong>
+                <em>{row.count} 条</em>
+                <i></i>
+              </a>
+            ))}
+          </div>
+        </article>
+      </div>
+
+      <div class="evidence-distribution__latest">
+        <span>最新证据</span>
+        <a href={`/cases/${recentCase.item.id}`}>
+          <strong>{recentCase.narrative.displayTitle}</strong>
+          <em>{recentCase.item.collectedAt} / {recentCase.narrative.useCaseLabel}</em>
+        </a>
+      </div>
+    </>
+  ) : (
+    <div class="evidence-distribution__empty">
+      <span>NO A CASES</span>
+      <p>暂无足够样本绘制分布。下一步应优先寻找具体使用者、具体任务、原始证据和可访问产物同时成立的公开案例。</p>
+    </div>
+  )}
+</section>
+
+<style>
+  .evidence-distribution {
+    overflow: hidden;
+  }
+
+  .evidence-distribution__head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 18px;
+    align-items: start;
+  }
+
+  .evidence-distribution h2 {
+    margin: 10px 0 0;
+    color: #f4f1ea;
+    font-size: clamp(28px, 3vw, 42px);
+    font-weight: 900;
+    line-height: 1.05;
+  }
+
+  .evidence-distribution__head p {
+    max-width: 760px;
+    margin-top: 12px;
+    color: #a8a29a;
+    line-height: 1.75;
+  }
+
+  .evidence-distribution__stamp {
+    min-width: 128px;
+    border: 1px solid rgba(255, 59, 78, 0.52);
+    padding: 12px;
+    text-align: right;
+  }
+
+  .evidence-distribution__stamp span,
+  .evidence-distribution__stamp em,
+  .evidence-distribution__grid > article > span,
+  .evidence-distribution__latest > span,
+  .evidence-distribution__empty span {
+    color: #ff3b4e;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .evidence-distribution__stamp strong {
+    display: block;
+    margin-top: 8px;
+    color: #f4f1ea;
+    font-size: 38px;
+    line-height: 1;
+  }
+
+  .evidence-distribution__stamp em {
+    display: block;
+    margin-top: 8px;
+    color: #a8a29a;
+    font-style: normal;
+  }
+
+  .evidence-distribution__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    margin-top: 20px;
+    background: rgba(244, 241, 234, 0.16);
+  }
+
+  .evidence-distribution__grid article {
+    min-width: 0;
+    background: #050505;
+    padding: 14px;
+  }
+
+  .evidence-distribution__bars {
+    display: grid;
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .evidence-distribution__bars a {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    align-items: center;
+    color: #f4f1ea;
+  }
+
+  .evidence-distribution__bars strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.9rem;
+  }
+
+  .evidence-distribution__bars em {
+    color: #a8a29a;
+    font-style: normal;
+    font-size: 0.82rem;
+  }
+
+  .evidence-distribution__bars i {
+    grid-column: 1 / -1;
+    height: 2px;
+    background: linear-gradient(90deg, #ff3b4e var(--w), rgba(244, 241, 234, 0.14) var(--w));
+  }
+
+  .evidence-distribution__latest,
+  .evidence-distribution__empty {
+    margin-top: 1px;
+    border: 1px solid rgba(244, 241, 234, 0.16);
+    border-top: 0;
+    padding: 14px;
+    background: #050505;
+  }
+
+  .evidence-distribution__latest a {
+    display: grid;
+    gap: 8px;
+    margin-top: 10px;
+    color: #f4f1ea;
+  }
+
+  .evidence-distribution__latest strong {
+    line-height: 1.35;
+  }
+
+  .evidence-distribution__latest em,
+  .evidence-distribution__empty p {
+    color: #a8a29a;
+    font-style: normal;
+    line-height: 1.7;
+  }
+
+  .evidence-distribution__empty p {
+    margin-top: 12px;
+  }
+
+  @media (max-width: 980px) {
+    .evidence-distribution__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .evidence-distribution__head {
+      grid-template-columns: 1fr;
+    }
+
+    .evidence-distribution__stamp {
+      width: 100%;
+      text-align: left;
+    }
+  }
+</style>

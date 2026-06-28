@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:00.533Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Pikago-hub/auto-prompt-videogen-seedance1.0pro",
+  "finalUrl": "https://github.com/Pikago-hub/auto-prompt-videogen-seedance1.0pro",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f8098c00f41188d151e065a5f21d0acc\"",
+  "lastModified": null,
+  "bodyBytes": 278299,
+  "bodySha256": "8653cce71157bd9ac1db6889fdc93078f634b4a6df27e2f677fc34206e513e7c",
+  "title": "GitHub - Pikago-hub/auto-prompt-videogen-seedance1.0pro: 自动优化seedance-1.0-pro提示词根据官方docs，一键生成无水印视频 · GitHub",
+  "github": {
+    "owner": "Pikago-hub",
+    "repo": "auto-prompt-videogen-seedance1.0pro",
+    "apiStatus": "unavailable"
+  }
+}

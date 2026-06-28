@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:55.428Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kweheliye/energetech-ai-assessment",
+  "finalUrl": "https://github.com/kweheliye/energetech-ai-assessment",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a0ad7651007a04d831002c623c8dc11b\"",
+  "lastModified": null,
+  "bodyBytes": 297749,
+  "bodySha256": "b4b8b37ef5fd5ad83d9358ba4b9eea28a7e27f8f27bfba6cc1354df8202bef77",
+  "title": "GitHub - kweheliye/energetech-ai-assessment: Deal confirmation processing agent, LangChain + OpenAI o3, FastAPI, Pydantic validation, mock credit check via tool use. · GitHub",
+  "github": {
+    "owner": "kweheliye",
+    "repo": "energetech-ai-assessment",
+    "apiStatus": "unavailable"
+  }
+}

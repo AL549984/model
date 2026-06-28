@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:42.362Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/wassim249/YT-Navigator",
+  "finalUrl": "https://github.com/wassim249/YT-Navigator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"67921ea95ad8882461a902aa06d145b1\"",
+  "lastModified": null,
+  "bodyBytes": 382656,
+  "bodySha256": "d9ec93c6c0d18db4781d761198d01738f52915de7a456ba623fc2c7f28050801",
+  "title": "GitHub - wassim249/YT-Navigator: YT Navigator: AI-powered YouTube content explorer that lets you search and chat with channel videos using AI agents. Extract insights from hours of content in seconds with semantic search and precise timesta",
+  "github": {
+    "owner": "wassim249",
+    "repo": "YT-Navigator",
+    "apiStatus": "unavailable"
+  }
+}

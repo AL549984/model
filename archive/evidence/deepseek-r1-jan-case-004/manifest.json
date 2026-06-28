@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-jan-case-004",
+  "modelId": "deepseek-r1-jan",
+  "modelName": "DeepSeek R1 (Jan)",
+  "title": "ChatPDF-RAG: Local PDF Question-Answering with DeepSeek R1 via Ollama",
+  "evidenceFingerprint": "e8488b891b6b8495e15c71309a5ff14d75b9cb01ff67873a72a48d88054ae719",
+  "capturedAt": "2026-06-27T21:02:25.963Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/paquino11/chatpdf-rag-deepseek-r1",
+      "snapshotPath": "archive/evidence/deepseek-r1-jan-case-004/original-evidence-21456ed0c774.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - paquino11/chatpdf-rag-deepseek-r1 · GitHub",
+      "bodySha256": "b467523130ecc6853714556c68e9024b8f2581e7380d2e9e03d9644ccd33bf16",
+      "capturedAt": "2026-06-27T21:02:24.209Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/paquino11/chatpdf-rag-deepseek-r1",
+      "snapshotPath": "archive/evidence/deepseek-r1-jan-case-004/artifact-1-21456ed0c774.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - paquino11/chatpdf-rag-deepseek-r1 · GitHub",
+      "bodySha256": "a9b5033822f0955f48a95366631f05014b001611bca9217679add4a0e7ae65de",
+      "capturedAt": "2026-06-27T21:02:25.438Z",
+      "error": ""
+    }
+  ]
+}

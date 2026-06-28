@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:57.381Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/IvanLark/openclaw-gpt-xhigh-shim",
+  "finalUrl": "https://github.com/IvanLark/openclaw-gpt-xhigh-shim",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6748d2984ed1869cbc438e38707a068e\"",
+  "lastModified": null,
+  "bodyBytes": 307301,
+  "bodySha256": "bfb19ede7e8e271c890fed0a571bd9139416306fcc0e2bc12580f08ef66e6155",
+  "title": "GitHub - IvanLark/openclaw-gpt-xhigh-shim: Non-invasive OpenClaw shim for enabling gpt-5.4 xhigh and optional fast-mode payload injection. · GitHub",
+  "github": {
+    "owner": "IvanLark",
+    "repo": "openclaw-gpt-xhigh-shim",
+    "apiStatus": "unavailable"
+  }
+}

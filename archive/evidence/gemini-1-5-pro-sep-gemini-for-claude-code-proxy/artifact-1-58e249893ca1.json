@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:51.118Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/coffeegrind123/gemini-for-claude-code",
+  "finalUrl": "https://github.com/coffeegrind123/gemini-for-claude-code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"edc512d4dad0ec62bf8a6a2734e82cfd\"",
+  "lastModified": null,
+  "bodyBytes": 347181,
+  "bodySha256": "6a351715ae578ba337497265c4ee5c51cae5722affbefc8b422ebc26bacb925e",
+  "title": "GitHub - coffeegrind123/gemini-for-claude-code: This python program allows you to use Claude Code with Google&#39;s Gemini models. · GitHub",
+  "github": {
+    "owner": "coffeegrind123",
+    "repo": "gemini-for-claude-code",
+    "apiStatus": "unavailable"
+  }
+}

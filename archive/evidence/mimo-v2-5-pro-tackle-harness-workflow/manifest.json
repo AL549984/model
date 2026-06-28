@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-5-pro-tackle-harness-workflow",
+  "modelId": "mimo-v2-5-pro",
+  "modelName": "MiMo-V2.5-Pro",
+  "title": "Tackle Harness: AI Agent 工作流框架将 MiMo-V2.5-Pro 作为核心执行模型用于任务编排与自动交付",
+  "evidenceFingerprint": "9335fc1bebda456ad11f6cc96c71243ff203ed5831da0553be5cef13e4b478e0",
+  "capturedAt": "2026-06-27T22:37:48.903Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ph419/tackle-harness",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-tackle-harness-workflow/original-evidence-08163e2851af.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ph419/tackle-harness: 让AI稳定的、高质量的、高自主性的做他本来就能做到的事。 · GitHub",
+      "bodySha256": "f0ad747e73c5aa27a6ec999fc4f0f533c4cb4c79d153b869bbaf5a4c2a0d5f44",
+      "capturedAt": "2026-06-27T22:37:47.128Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ph419/tackle-harness",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-tackle-harness-workflow/artifact-1-08163e2851af.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ph419/tackle-harness: 让AI稳定的、高质量的、高自主性的做他本来就能做到的事。 · GitHub",
+      "bodySha256": "760fd2cfe239020f35aff62b6ad19bc8ad6fd208149e24fb327c72afbb01a781",
+      "capturedAt": "2026-06-27T22:37:48.353Z",
+      "error": ""
+    }
+  ]
+}

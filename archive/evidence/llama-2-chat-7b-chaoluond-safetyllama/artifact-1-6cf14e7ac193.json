@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:36.808Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/chaoluond/safetyllama",
+  "finalUrl": "https://github.com/chaoluond/safetyllama",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e7cd41c407edfeae1b3bbb8fd28bd75f\"",
+  "lastModified": null,
+  "bodyBytes": 292131,
+  "bodySha256": "31cc24deff0428b2269bf665bef4e99eff0d36d3d3ecf72622a8efb87db180b6",
+  "title": "GitHub - chaoluond/safetyllama: Finetune LLaMA-2-7b-chat to perform safety evaluation of user-bot conversation · GitHub",
+  "github": {
+    "owner": "chaoluond",
+    "repo": "safetyllama",
+    "apiStatus": "unavailable"
+  }
+}

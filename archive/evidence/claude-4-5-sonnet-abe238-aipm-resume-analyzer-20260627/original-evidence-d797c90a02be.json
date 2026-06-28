@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:39.925Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/abe238/aipm-resume-analyzer/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/abe238/aipm-resume-analyzer/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "8535",
+  "etag": "W/\"a2b4e6d387d50a38c15de114860dd1558763a966fc00df8a7de57a6e7e940aed\"",
+  "lastModified": null,
+  "bodyBytes": 21960,
+  "bodySha256": "bfaf709dcff2ef109f68b0c502c042728a8f3def9e6af0281574c67be5e1a701",
+  "title": "",
+  "github": null
+}

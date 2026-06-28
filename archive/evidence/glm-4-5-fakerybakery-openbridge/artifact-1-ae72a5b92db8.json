@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:31.214Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/fakerybakery/openbridge",
+  "finalUrl": "https://github.com/fakerybakery/openbridge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a853888f58274cbbb275850b363da3b5\"",
+  "lastModified": null,
+  "bodyBytes": 260684,
+  "bodySha256": "9ab3003620ad3039ec5e93e152484766108de848d6e2220a94096c7338872235",
+  "title": "GitHub - fakerybakery/openbridge: Use Claude Code with any LLM provider - GLM-4.5, Kimi-K2, Qwen3-Coder, DeepSeek, etc. · GitHub",
+  "github": {
+    "owner": "fakerybakery",
+    "repo": "openbridge",
+    "apiStatus": "unavailable"
+  }
+}

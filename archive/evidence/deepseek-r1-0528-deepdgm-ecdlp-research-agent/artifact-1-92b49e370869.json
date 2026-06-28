@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:11.879Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/iluyobrainy/Deepdgm",
+  "finalUrl": "https://github.com/iluyobrainy/Deepdgm",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4e97393217b4f0a25f7f54edfc3de197\"",
+  "lastModified": null,
+  "bodyBytes": 290813,
+  "bodySha256": "38911101f59c53a9ddd608fde4bd9cbd6a1e6df980eb4e42604d2b0d5ef867ee",
+  "title": "GitHub - iluyobrainy/Deepdgm: Math agent made with DGM and Deepseek R1-0528 · GitHub",
+  "github": {
+    "owner": "iluyobrainy",
+    "repo": "Deepdgm",
+    "apiStatus": "unavailable"
+  }
+}

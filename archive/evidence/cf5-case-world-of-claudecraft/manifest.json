@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cf5-case-world-of-claudecraft",
+  "modelId": "claude-fable-5",
+  "modelName": "Claude Fable 5",
+  "title": "World of ClaudeCraft browser MMORPG",
+  "evidenceFingerprint": "cf5034352b100abb61e924ba15e0e2168d2c153e22a6b7a5802824b459794dd3",
+  "capturedAt": "2026-06-27T20:16:27.748Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u3m6a8/i_vibe_coded_the_first_mmorpg_with_fable_5/",
+      "snapshotPath": "archive/evidence/cf5-case-world-of-claudecraft/original-evidence-61758a9751b2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Reddit - Please wait for verification",
+      "bodySha256": "2f646acd9b5ec18758f6229b9eda84bbcd287627441dfbc7c29521f2c6d8241a",
+      "capturedAt": "2026-06-27T20:16:23.160Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://worldofclaudecraft.com/",
+      "snapshotPath": "archive/evidence/cf5-case-world-of-claudecraft/artifact-1-4a88042e19da.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "World of ClaudeCraft: Classic-Style Web MMO",
+      "bodySha256": "a3bb1154725df42a6035e3e80d37ef918a0a88f21844991c7b969ee2579b9be7",
+      "capturedAt": "2026-06-27T20:16:23.785Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-2",
+      "url": "https://github.com/levy-street/world-of-claudecraft",
+      "snapshotPath": "archive/evidence/cf5-case-world-of-claudecraft/artifact-2-5d740d3abcb9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - levy-street/world-of-claudecraft · GitHub",
+      "bodySha256": "a2beb665e08b54e6d312ec76b35255d3d61337468f6065db320a7664943308b5",
+      "capturedAt": "2026-06-27T20:16:25.177Z",
+      "error": ""
+    }
+  ]
+}

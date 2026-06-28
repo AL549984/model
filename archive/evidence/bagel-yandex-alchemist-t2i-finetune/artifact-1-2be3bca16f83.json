@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:21.506Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/yandex/BAGEL-7B-MoT-alchemist",
+  "finalUrl": "https://huggingface.co/yandex/BAGEL-7B-MoT-alchemist",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"272f1-pk+UzGVNVYuhVAZjiz54Y/99h2E\"",
+  "lastModified": null,
+  "bodyBytes": 160497,
+  "bodySha256": "019765706e9c4df05e8b760851f3c8c4ce445803dde120f8a32c4957ecd6899c",
+  "title": "yandex/BAGEL-7B-MoT-alchemist · Hugging Face",
+  "github": null
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:52.509Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Doriandarko/o1-engineer",
+  "finalUrl": "https://github.com/Doriandarko/o1-engineer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ca0fbd8afd16b743a07c4d1900940cbd\"",
+  "lastModified": null,
+  "bodyBytes": 299269,
+  "bodySha256": "40ed913d6c18d64fabcec70e510178b9276bc963a0c7ad303cc6e55e4655068b",
+  "title": "GitHub - Doriandarko/o1-engineer: o1-engineer is a command-line tool designed to assist developers in managing and interacting with their projects efficiently. Leveraging the power of OpenAI&#39;s API, this tool provides functionalities suc",
+  "github": {
+    "owner": "Doriandarko",
+    "repo": "o1-engineer",
+    "apiStatus": "unavailable"
+  }
+}

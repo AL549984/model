@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:58.995Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/colesmcintosh/meme-volatility-index/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/colesmcintosh/meme-volatility-index/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1627",
+  "etag": "W/\"d373a1645f66bc73ddeecd93b1bf96bef66e786ec39ca7fdd5d8180c0233cead\"",
+  "lastModified": null,
+  "bodyBytes": 3258,
+  "bodySha256": "1917176fb10c296b5a94b14e3c2ddccb4ccb95d445188e7443e842dbb2f86eab",
+  "title": "",
+  "github": null
+}

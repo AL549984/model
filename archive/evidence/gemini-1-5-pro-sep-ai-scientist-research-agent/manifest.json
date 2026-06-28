@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-sep-ai-scientist-research-agent",
+  "modelId": "gemini-1-5-pro-sep",
+  "modelName": "Gemini 1.5 Pro (Sep)",
+  "title": "Sakana AI AI-Scientist supports Gemini 1.5 Pro for automated scientific discovery workflows",
+  "evidenceFingerprint": "3cc6271ff2be411bc80a2d04dc85fd8504f81b7cb5149320249e9bad1b6dd873",
+  "capturedAt": "2026-06-27T21:40:49.937Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SakanaAI/AI-Scientist#google-gemini",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-ai-scientist-research-agent/original-evidence-1a419c8cf9ca.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SakanaAI/AI-Scientist: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬 · GitHub",
+      "bodySha256": "2fc147d46485226ae42a8e318da59b3dc949c75fc5d33002dad7495218d75394",
+      "capturedAt": "2026-06-27T21:40:48.311Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-ai-scientist-research-agent/artifact-1-d8b5b41bf681.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SakanaAI/AI-Scientist: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬 · GitHub",
+      "bodySha256": "f619d1d6279184a8e3a68afee74be95950511529a86904788b78cf0f3e398540",
+      "capturedAt": "2026-06-27T21:40:49.385Z",
+      "error": ""
+    }
+  ]
+}

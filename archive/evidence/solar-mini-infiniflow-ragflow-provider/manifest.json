@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-infiniflow-ragflow-provider",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "RAGFlow exposes Solar Mini as an Upstage LLM option for RAG applications",
+  "evidenceFingerprint": "b8da8979dad53806673932274eb5b08c2f72c075530ace2bd4adf8d7dd1106ca",
+  "capturedAt": "2026-06-27T21:28:09.674Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/infiniflow/ragflow/main/conf/llm_factories.json",
+      "snapshotPath": "archive/evidence/solar-mini-infiniflow-ragflow-provider/original-evidence-281763cda4c7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "794fb91607434199c17bb29cec0a34c768378db0c00997cd4079189c428345d4",
+      "capturedAt": "2026-06-27T21:28:08.100Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/infiniflow/ragflow",
+      "snapshotPath": "archive/evidence/solar-mini-infiniflow-ragflow-provider/artifact-1-5ff4bf30ae94.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs · GitHub",
+      "bodySha256": "4db6fb8d9372e96588c53249db981386c3b814aacf0cbaa683a056480bd64740",
+      "capturedAt": "2026-06-27T21:28:08.469Z",
+      "error": ""
+    }
+  ]
+}

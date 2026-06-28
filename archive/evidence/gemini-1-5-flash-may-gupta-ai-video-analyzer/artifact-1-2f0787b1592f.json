@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:24.967Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/gupta-v/ai-video-analyzer",
+  "finalUrl": "https://github.com/gupta-v/ai-video-analyzer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"38d2dcfbc1d4d9bc014039aef314cc3e\"",
+  "lastModified": null,
+  "bodyBytes": 303781,
+  "bodySha256": "750735520a4f6942762bd0cde8458b7caa8409a48d15a0c85d6513d19cd343af",
+  "title": "GitHub - gupta-v/ai-video-analyzer: AI Video Analyzer &amp; Chat Agent is a robust AI application built with Streamlit, Agno, &amp; Langchain&#39;s DuckDuckGo Tool. Integrating Gemini 1.5 Flash, it enables video analysis, insight extraction",
+  "github": {
+    "owner": "gupta-v",
+    "repo": "ai-video-analyzer",
+    "apiStatus": "unavailable"
+  }
+}

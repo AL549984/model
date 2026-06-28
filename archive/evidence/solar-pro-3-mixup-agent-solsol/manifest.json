@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3-mixup-agent-solsol",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "solsol builds a voice-based Korean mock interview service with Solar Pro3 multi-agent routing",
+  "evidenceFingerprint": "b9ce1f42a78922a6b683573c6156e21343edebe2e20710d504c49813063fa6ef",
+  "capturedAt": "2026-06-27T21:28:20.364Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Mixup-Agent/solsol/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3-mixup-agent-solsol/original-evidence-24b7716801e3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "71e27e95c69ca1b746495b7c065b5c30df6a9d2a681e4034fc9ba59af7e7133b",
+      "capturedAt": "2026-06-27T21:28:18.604Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Mixup-Agent/solsol",
+      "snapshotPath": "archive/evidence/solar-pro-3-mixup-agent-solsol/artifact-1-173c16c10190.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Mixup-Agent/solsol: 솔솔(solsol) — Solar Pro3 기반 모의 면접 서비스 · GitHub",
+      "bodySha256": "0945b5f038eb79853a917fcc7e1dd8d267f6ff4f94af5850c57b5aac6b18a612",
+      "capturedAt": "2026-06-27T21:28:18.948Z",
+      "error": ""
+    }
+  ]
+}

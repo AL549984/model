@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:01.629Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/SM649/Clothesline",
+  "finalUrl": "https://github.com/SM649/Clothesline",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"34394134753dd04dc753457bf04f3c8d\"",
+  "lastModified": null,
+  "bodyBytes": 237850,
+  "bodySha256": "c3b3738ae4be28da9e356f7503b35aaab52951af84ca30d34c9fd62f6a7a107e",
+  "title": "GitHub - SM649/Clothesline: Clothesline is an AI-generated clothing brand website built with HTML, CSS, JavaScript, Bootstrap, and Flask for page routing. The front-end and images were created using Google’s 2.5 Flash and Qwen2.5-Max. A mod",
+  "github": {
+    "owner": "SM649",
+    "repo": "Clothesline",
+    "apiStatus": "unavailable"
+  }
+}

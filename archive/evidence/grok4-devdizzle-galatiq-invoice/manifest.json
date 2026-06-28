@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok4-devdizzle-galatiq-invoice",
+  "modelId": "grok-4",
+  "modelName": "Grok 4",
+  "title": "Autonomous Multi-Agent Invoice Processing System",
+  "evidenceFingerprint": "faf9a1a3431092e05adf109539a4da4630c8fdf686d9336c757bd544dd1a5999",
+  "capturedAt": "2026-06-27T21:27:33.204Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/DevDizzle/galatiq-invoice-agent/main/README.md",
+      "snapshotPath": "archive/evidence/grok4-devdizzle-galatiq-invoice/original-evidence-d7692b5747d6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "41b886b64743b0738c5cb41af3de4d7de97440a476809b1f2e4a412b3ca2a06f",
+      "capturedAt": "2026-06-27T21:27:30.922Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DevDizzle/galatiq-invoice-agent",
+      "snapshotPath": "archive/evidence/grok4-devdizzle-galatiq-invoice/artifact-1-bfab537ca5e7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DevDizzle/galatiq-invoice-agent: Autonomous multi-agent system powered by xAI Grok 4.1 Fast Reasoning to automate invoice ingestion, validation, and approval workflows. · GitHub",
+      "bodySha256": "f870f4e4adf3c9794619e8c53e99f07cdd95b9ab5eed83857712be9787df56b7",
+      "capturedAt": "2026-06-27T21:27:31.233Z",
+      "error": ""
+    }
+  ]
+}

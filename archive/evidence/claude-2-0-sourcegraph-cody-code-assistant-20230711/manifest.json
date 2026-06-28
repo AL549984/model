@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-0-sourcegraph-cody-code-assistant-20230711",
+  "modelId": "claude-2-0",
+  "modelName": "Claude 2.0",
+  "title": "Sourcegraph Cody used Claude 2 for codebase-aware AI coding assistance",
+  "evidenceFingerprint": "23ce643f20ed34abf94e47abd9d9891165496a9c483980fb81947aa50579f1e6",
+  "capturedAt": "2026-06-27T23:26:00.517Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-2",
+      "snapshotPath": "archive/evidence/claude-2-0-sourcegraph-cody-code-assistant-20230711/original-evidence-39071a9443e5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude 2 \\ Anthropic",
+      "bodySha256": "90269696f66579f42466122927412d0daacf346b0e34c9cb2329044bb0ba6c44",
+      "capturedAt": "2026-06-27T23:25:54.409Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://sourcegraph.com/docs/cody",
+      "snapshotPath": "archive/evidence/claude-2-0-sourcegraph-cody-code-assistant-20230711/artifact-1-a74a72658c3c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Cody - Sourcegraph docs",
+      "bodySha256": "c007a52f2269a37b6747552912ea64a5f928677a2408dfec81bc91b0dee27b83",
+      "capturedAt": "2026-06-27T23:25:59.656Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:16.968Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/lobehub/lobehub/pull/16204",
+  "finalUrl": "https://github.com/lobehub/lobehub/pull/16204",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 460514,
+  "bodySha256": "c720c9b2e7811e3919f5f51213498e8a88a5734e568e34ed9a97bf482c26ac15",
+  "title": "💄 style(volcengine): Add new Doubao-Seed-2.1 models by sxjeru · Pull Request #16204 · lobehub/lobehub · GitHub",
+  "github": {
+    "owner": "lobehub",
+    "repo": "lobehub",
+    "apiStatus": "unavailable"
+  }
+}

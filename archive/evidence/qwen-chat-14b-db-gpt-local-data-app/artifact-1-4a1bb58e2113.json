@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:14.211Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/eosphoros-ai/DB-GPT",
+  "finalUrl": "https://github.com/eosphoros-ai/DB-GPT",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9f425356eb926404c40e9642bc08509e\"",
+  "lastModified": null,
+  "bodyBytes": 537119,
+  "bodySha256": "d766b0d54fdb84ad9d271153b1bcfbb9ef831d8ad01cf665f784c3764cf365e5",
+  "title": "GitHub - eosphoros-ai/DB-GPT: open-source agentic AI data assistant for the next generation of AI + Data products. · GitHub",
+  "github": {
+    "owner": "eosphoros-ai",
+    "repo": "DB-GPT",
+    "apiStatus": "unavailable"
+  }
+}

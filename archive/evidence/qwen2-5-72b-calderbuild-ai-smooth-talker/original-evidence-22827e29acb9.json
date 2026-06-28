@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:45.664Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/calderbuild/ai-smooth-talker/blob/main/README.md",
+  "finalUrl": "https://github.com/calderbuild/ai-smooth-talker/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"95925a191ac7842736dfe1492dc31a24\"",
+  "lastModified": null,
+  "bodyBytes": 342253,
+  "bodySha256": "c42c24c10ef37595a42225701220d3081ed29f8af54b605ace40af29db7c72c1",
+  "title": "ai-smooth-talker/README.md at main · calderbuild/ai-smooth-talker · GitHub",
+  "github": {
+    "owner": "calderbuild",
+    "repo": "ai-smooth-talker",
+    "apiStatus": "unavailable"
+  }
+}

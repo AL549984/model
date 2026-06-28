@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:10.000Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mino-park7/vllm-solar-plugin",
+  "finalUrl": "https://github.com/mino-park7/vllm-solar-plugin",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"197e6791a6a1bcc6e4d69e10a08e2a85\"",
+  "lastModified": null,
+  "bodyBytes": 289066,
+  "bodySha256": "85d3750c2549058cc28c161fc532b74d85019f59227d526410a512624888f07b",
+  "title": "GitHub - mino-park7/vllm-solar-plugin: vLLM plugin for Solar Open 100B model (Upstage) · GitHub",
+  "github": {
+    "owner": "mino-park7",
+    "repo": "vllm-solar-plugin",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-3-codex-xhigh-andreifie-flypervibe",
+  "modelId": "gpt-5-3-codex-xhigh",
+  "modelName": "GPT-5.3 Codex (xhigh)",
+  "title": "andreifie built the FLYPER VIBE educational game largely with GitHub Copilot and GPT-5.3 Codex",
+  "evidenceFingerprint": "b383e05528cfe44ee8ad9871e1e049a7a87bb15ca04496deb57652b8099b9a39",
+  "capturedAt": "2026-06-27T22:07:45.770Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/andreifie/flypervibe",
+      "snapshotPath": "archive/evidence/gpt-5-3-codex-xhigh-andreifie-flypervibe/original-evidence-0e6e196b4e41.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - andreifie/flypervibe: This is an project in inglish where we had to creater a learning app for engineering students. It is almost entirely vibecoded with github copilot + gpt-5.3-codex. Had to seed where it could get me · GitHub",
+      "bodySha256": "431b33344a345e25b877981de72821883e8ca6a86fce249d17af27eeb8684c41",
+      "capturedAt": "2026-06-27T22:07:42.089Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/andreifie/flypervibe",
+      "snapshotPath": "archive/evidence/gpt-5-3-codex-xhigh-andreifie-flypervibe/artifact-1-0e6e196b4e41.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - andreifie/flypervibe: This is an project in inglish where we had to creater a learning app for engineering students. It is almost entirely vibecoded with github copilot + gpt-5.3-codex. Had to seed where it could get me · GitHub",
+      "bodySha256": "8b5ea1feee3f58af215f1b659ad976c9447d3d54ba8a73bb7a8ceea73900c32c",
+      "capturedAt": "2026-06-27T22:07:44.146Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:34.606Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324",
+  "finalUrl": "https://github.com/Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b4d5e2f75169db03a1c8786696e1b3a4\"",
+  "lastModified": null,
+  "bodyBytes": 292730,
+  "bodySha256": "9fe4be249998be5e24693b8b185673484942f1ca197582ef9bc652a4b60f38ea",
+  "title": "GitHub - Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324: Panda Resume Critiquer uses DeepSeek V3 0324 to analyze resumes and provide AI-driven feedback. It evaluates structure, clarity, and impact, offering actionable suggest",
+  "github": {
+    "owner": "Ahnuf-Karim-Chowdhury",
+    "repo": "Panda-Resume-Critiquer-DeepSeek-V3-0324",
+    "apiStatus": "unavailable"
+  }
+}

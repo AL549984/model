@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:52.456Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/theopenco/llmgateway",
+  "finalUrl": "https://github.com/theopenco/llmgateway",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b14237037a482c1c3b32a9e09a5cc262\"",
+  "lastModified": null,
+  "bodyBytes": 383100,
+  "bodySha256": "3fe7ee32d15c0d8910bf30cdf21c4dca8090e52c6c7657e22853ec0bad8409c6",
+  "title": "GitHub - theopenco/llmgateway: Route, manage, and analyze your LLM requests across multiple providers with a unified API interface. · GitHub",
+  "github": {
+    "owner": "theopenco",
+    "repo": "llmgateway",
+    "apiStatus": "unavailable"
+  }
+}

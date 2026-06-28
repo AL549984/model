@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-1-opus-acao-cuyahoga-fiscal-flows",
+  "modelId": "claude-4-1-opus",
+  "modelName": "Claude 4.1 Opus",
+  "title": "acao generated an interactive Cuyahoga County fiscal-flows report with Claude Opus 4.1",
+  "evidenceFingerprint": "74c6d9002e46e33c22f6cedf58e23337d1398a6c27a23f9f5ae64ce93aaec5ad",
+  "capturedAt": "2026-06-27T20:54:27.561Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/acao/cuyahoga-county-fiscal-flows",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-acao-cuyahoga-fiscal-flows/original-evidence-f67e1e493484.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - acao/cuyahoga-county-fiscal-flows: Suburban Exploitation or Urban Drain? Fiscal Flows in Cuyahoga County (generated w/ Claude Opus 4.1) · GitHub",
+      "bodySha256": "e62a6a767fdc88b575b0dc947fa7676bdbb680de5945942b6b109e53af41de1a",
+      "capturedAt": "2026-06-27T20:54:23.314Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/acao/cuyahoga-county-fiscal-flows/blob/main/cuyahoga-fiscal-report.md",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-acao-cuyahoga-fiscal-flows/artifact-1-d835f7b044e0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "cuyahoga-county-fiscal-flows/cuyahoga-fiscal-report.md at main · acao/cuyahoga-county-fiscal-flows · GitHub",
+      "bodySha256": "665c55b81f180411fbcca544250335512cd144974e0d7abc1891785bfd656cdc",
+      "capturedAt": "2026-06-27T20:54:25.859Z",
+      "error": ""
+    }
+  ]
+}

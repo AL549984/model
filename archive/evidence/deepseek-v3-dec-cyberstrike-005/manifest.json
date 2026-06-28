@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-dec-cyberstrike-005",
+  "modelId": "deepseek-v3-dec",
+  "modelName": "DeepSeek V3 (Dec)",
+  "title": "CyberStrike — Autonomous Penetration Testing Agent with DeepSeek V3 Backend",
+  "evidenceFingerprint": "bce0ee59605a79d85641d6c2dcc733a07c5c3d32b36a1707bd68ccdbeb64bfc7",
+  "capturedAt": "2026-06-27T21:34:27.921Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CyberStrikeus/CyberStrike",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-cyberstrike-005/original-evidence-0e34ef926ae7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CyberStrikeus/CyberStrike: AI-powered offensive security agent with 7,300+ actionable security skills. Autonomous pentesting powered by MITRE ATT&amp;CK (2,000+ Atomic tests), CIS Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loa",
+      "bodySha256": "696a9ef8e56b05ef56158b4ceac81fda7af747137d863e933f3b7bc6326ac9f6",
+      "capturedAt": "2026-06-27T21:34:26.289Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CyberStrikeus/CyberStrike",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-cyberstrike-005/artifact-1-0e34ef926ae7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CyberStrikeus/CyberStrike: AI-powered offensive security agent with 7,300+ actionable security skills. Autonomous pentesting powered by MITRE ATT&amp;CK (2,000+ Atomic tests), CIS Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loa",
+      "bodySha256": "e2513caddf861ab3732a99b9df45112ee66a06420d8123c72b9e10fc6956fb5c",
+      "capturedAt": "2026-06-27T21:34:27.356Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-7-max-bedriyan-medkit-app",
+  "modelId": "claude-opus-4-7-max",
+  "modelName": "Claude Opus 4.7 (max)",
+  "title": "Medkit uses Claude Opus 4.7 as an attending grader for browser-based clinical training",
+  "evidenceFingerprint": "6352cd5370333b14e676729207a737fb41ad45c9dfaa6cb0fc95a71b7b99a9a8",
+  "capturedAt": "2026-06-27T21:01:26.711Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bedriyan/medkit-app#readme",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-bedriyan-medkit-app/original-evidence-1bc3033e1e1b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bedriyan/medkit-app: A voice-first AI patient simulator bringing the future of medical education to your browser, built with Claude Opus 4.7. · GitHub",
+      "bodySha256": "3822172c5c8b67b47568e3dd9b86e064b941464fdbcb395976f2ed5d9ecf01e6",
+      "capturedAt": "2026-06-27T21:01:21.939Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bedriyan/medkit-app",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-bedriyan-medkit-app/artifact-1-87443bf0580d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bedriyan/medkit-app: A voice-first AI patient simulator bringing the future of medical education to your browser, built with Claude Opus 4.7. · GitHub",
+      "bodySha256": "2fbbdbcd03e6295bc0b7552cc28f342509647210610d6bfc9d9ffad5e062e8e8",
+      "capturedAt": "2026-06-27T21:01:25.551Z",
+      "error": ""
+    }
+  ]
+}

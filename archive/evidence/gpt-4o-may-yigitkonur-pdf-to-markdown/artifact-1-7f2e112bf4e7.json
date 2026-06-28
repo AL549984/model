@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:05.052Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yigitkonur/api-llm-ocr",
+  "finalUrl": "https://github.com/yigitkonur/api-llm-ocr",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b53600d4923e055cb4a85d3bc34cac85\"",
+  "lastModified": null,
+  "bodyBytes": 319462,
+  "bodySha256": "fee60a73ff66f88b19028b85ac1d00baab8e0fc19190df9ba19d15583a1d167a",
+  "title": "GitHub - yigitkonur/api-llm-ocr: PDF to markdown using vision LLMs — tables, layouts, and structure preserved · GitHub",
+  "github": {
+    "owner": "yigitkonur",
+    "repo": "api-llm-ocr",
+    "apiStatus": "unavailable"
+  }
+}

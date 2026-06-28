@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-coder-v2-paper2code",
+  "modelId": "deepseek-coder-v2",
+  "modelName": "DeepSeek-Coder-V2-Lite-Instruct",
+  "title": "Paper2Code: Automated ML Paper-to-Code Generation Using DeepSeek-Coder-V2-Lite-Instruct",
+  "evidenceFingerprint": "a18a449d4b3fa996cce9692ab14790f51a4f7677330ffdb96021a072b69df057",
+  "capturedAt": "2026-06-27T21:01:48.549Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/going-doer/Paper2Code",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-paper2code/original-evidence-eaea962ad12a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - going-doer/Paper2Code: Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning · GitHub",
+      "bodySha256": "b3ae2f369c0110671a8498a9d55fdd40cf8ae06a93ccb7f45301ebe8ca20bf2b",
+      "capturedAt": "2026-06-27T21:01:45.095Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/going-doer/Paper2Code",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-paper2code/artifact-1-eaea962ad12a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - going-doer/Paper2Code: Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning · GitHub",
+      "bodySha256": "59c68b999e4a23491007049c3bf21bf20ff18d9cc49f487294734058517c808c",
+      "capturedAt": "2026-06-27T21:01:47.395Z",
+      "error": ""
+    }
+  ]
+}

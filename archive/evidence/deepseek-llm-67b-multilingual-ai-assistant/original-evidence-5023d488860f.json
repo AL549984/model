@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:05.175Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant/pull/1",
+  "finalUrl": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant/pull/1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 263499,
+  "bodySha256": "b20d49c3cc15dc88795e674e49107e89acfac76511e71655989c9e41a60e3da2",
+  "title": "Added additional languages, added a slightly better front end, miner code fixes. by TheX-23 · Pull Request #1 · ThingsIBuild/Multilingual-AI-Assistant · GitHub",
+  "github": {
+    "owner": "ThingsIBuild",
+    "repo": "Multilingual-AI-Assistant",
+    "htmlUrl": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant",
+    "defaultBranch": "master",
+    "defaultBranchSha": "55f56c9f5d2b4f8a860e5efba53857321dff91bb",
+    "pushedAt": "2025-04-17T14:25:58Z",
+    "updatedAt": "2025-10-18T15:06:14Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

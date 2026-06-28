@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-glm-quota-claude-code-statusline",
+  "modelId": "glm-5",
+  "modelName": "GLM-5",
+  "title": "glm-quota tracks GLM-5 family usage and context inside Claude Code statuslines",
+  "evidenceFingerprint": "85ea948254e814c97fbd5b55aa4500a7762efb311354eb0a7f1d2b8a74a24d46",
+  "capturedAt": "2026-06-27T21:14:39.650Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/MisterKarott/glm-quota/main/README.md",
+      "snapshotPath": "archive/evidence/glm-5-glm-quota-claude-code-statusline/original-evidence-0b889adc5e21.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "e168bf990f4410540f2fb604f19e90ee105c08a495a3169a1ebf0de17e63dae4",
+      "capturedAt": "2026-06-27T21:14:38.302Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MisterKarott/glm-quota",
+      "snapshotPath": "archive/evidence/glm-5-glm-quota-claude-code-statusline/artifact-1-815d0cbeb07b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MisterKarott/glm-quota: Claude Code plugin for Z.ai/GLM quota monitoring — statusline, detailed quota view, and MCP coherence check · GitHub",
+      "bodySha256": "8ca0ded13410653bc70b6afb3e42d721fb0b3850fa30daaf660abafa1da3bb8e",
+      "capturedAt": "2026-06-27T21:14:38.637Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "frontier-models-atlas-site",
+  "name": "model-atlas-site",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,15 +9,21 @@
     "sync:feishu": "node scripts/sync-feishu.mjs",
     "sync:feishu:dry-run": "node scripts/sync-feishu.mjs --dry-run",
     "hermes:tasks": "node scripts/export-hermes-tasks.mjs",
-    "atlas:auto": "npm run sync:feishu && npm run evidence:backfill && npm run hermes:tasks && npm run build",
+    "evidence:archive": "node scripts/generate-evidence-archive.mjs",
+    "evidence:snapshot": "node scripts/snapshot-evidence.mjs",
+    "qa:evidence": "node scripts/generate-evidence-archive.mjs --check",
+    "atlas:auto": "npm run sync:feishu && npm run evidence:backfill && npm run hermes:tasks && npm run evidence:archive && npm run build",
     "atlas:pipeline": "bash scripts/model_atlas_auto_pipeline.sh",
     "atlas:poll": "bash scripts/model_atlas_case_poll_once.sh",
     "atlas:push": "python3 scripts/push_model_atlas_site_to_github.py",
     "trigger:dev": "npx --yes trigger.dev@latest dev",
     "trigger:deploy": "npx --yes trigger.dev@latest deploy",
-    "build": "astro check && astro build",
-    "check": "astro check",
-    "check:links": "node scripts/check-links.mjs"
+    "build": "npm run check && astro build",
+    "check": "astro check && node scripts/content-qa.mjs && npm run qa:evidence",
+    "qa:content": "node scripts/content-qa.mjs",
+    "qa:ci": "npm run build && npm run qa:visual",
+    "check:links": "node scripts/check-links.mjs",
+    "qa:visual": "node scripts/visual-qa.mjs"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",
@@ -30,6 +36,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "@types/ssh2": "^1.15.5",
+    "playwright": "^1.57.0",
     "typescript": "^5.5.4"
   }
 }

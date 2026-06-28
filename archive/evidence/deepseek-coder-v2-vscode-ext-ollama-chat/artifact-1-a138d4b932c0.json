@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:54.341Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/thebuggybug/vsCode_ext",
+  "finalUrl": "https://github.com/thebuggybug/vsCode_ext",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9af4005aa3f188ac4a6adc9dd43c7de6\"",
+  "lastModified": null,
+  "bodyBytes": 318007,
+  "bodySha256": "bc6fb0a36d412c2acb5dfdbbdfb0391715272a7ba8db4a24fb96b4f4dd1152cb",
+  "title": "GitHub - thebuggybug/vsCode_ext: This project is a VS Code extension that provides a chatbot UI similar to ChatGPT, powered by the Ollama API and the DeepSeek-Coder-V2 model. Users can interact with a conversational AI and select any availa",
+  "github": {
+    "owner": "thebuggybug",
+    "repo": "vsCode_ext",
+    "htmlUrl": "https://github.com/thebuggybug/vsCode_ext",
+    "defaultBranch": "v1",
+    "defaultBranchSha": "53d0b9a42df06b06f6979cf8a23fa14de1b8cf12",
+    "pushedAt": "2025-01-31T11:48:56Z",
+    "updatedAt": "2025-04-12T00:51:45Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

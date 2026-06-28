@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-phazzie-skeptical-wombat",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "SkepticalWombat uses Grok 4.3 as a writing coach for gap detection, contradiction spotting, and story structuring",
+  "evidenceFingerprint": "c0ce74e5f15ee65c84909a648a121285ab5e0d85aafc8d6458aa937cf8de52d6",
+  "capturedAt": "2026-06-27T21:15:11.606Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Phazzie/skeptical-wombat/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-phazzie-skeptical-wombat/original-evidence-0d40616e8a57.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "4a737549214a63a66f1cc98e59ca85a08aa1c275ef287b9bb8719ed70d2f5b40",
+      "capturedAt": "2026-06-27T21:15:09.462Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Phazzie/skeptical-wombat",
+      "snapshotPath": "archive/evidence/grok-4-3-high-phazzie-skeptical-wombat/artifact-1-b06c92f24709.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Phazzie/skeptical-wombat: The AI writing coach that won&#39;t let you hide from your own story. Grok 4.3 + Stack Auth + Neon. · GitHub",
+      "bodySha256": "86899b80ea6112f521497764926719170eed0db6b218e4e3670ca26e6790b27e",
+      "capturedAt": "2026-06-27T21:15:09.767Z",
+      "error": ""
+    }
+  ]
+}

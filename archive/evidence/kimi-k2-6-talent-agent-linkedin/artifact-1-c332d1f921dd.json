@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:27.466Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yashb98/talent-agent",
+  "finalUrl": "https://github.com/yashb98/talent-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4e7fbbc71b211db3dff7668ea8c6706e\"",
+  "lastModified": null,
+  "bodyBytes": 328577,
+  "bodySha256": "4f29852ef54a1e28817310fd8fc34e8ec6cb2c92739d799d5d11742530ad97d5",
+  "title": "GitHub - yashb98/talent-agent: AI talent intelligence agent powered by Kimi K2.6 · GitHub",
+  "github": {
+    "owner": "yashb98",
+    "repo": "talent-agent",
+    "apiStatus": "unavailable"
+  }
+}

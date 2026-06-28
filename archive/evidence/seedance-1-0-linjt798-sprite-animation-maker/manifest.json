@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-1-0-linjt798-sprite-animation-maker",
+  "modelId": "seedance-1-0",
+  "modelName": "Seedance 1.0",
+  "title": "AI Animation Generator uses Doubao/Seedance to turn character descriptions into game sprite animations",
+  "evidenceFingerprint": "879dd1b57d33f61f666cc0cfb3d15d305da366469822027942cd243b1657f1c9",
+  "capturedAt": "2026-06-27T21:28:00.206Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/LinJT798/sprite-animation-maker/HEAD/README.md",
+      "snapshotPath": "archive/evidence/seedance-1-0-linjt798-sprite-animation-maker/original-evidence-d83d8b6589c5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "c3c3bc3eef5e599d849d731db42f334df0d08c4093bb80bb11655cd2c4993326",
+      "capturedAt": "2026-06-27T21:27:58.651Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/LinJT798/sprite-animation-maker",
+      "snapshotPath": "archive/evidence/seedance-1-0-linjt798-sprite-animation-maker/artifact-1-fa53350b2fd7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LinJT798/sprite-animation-maker: 用于快速生成精灵帧动画的简易工具，使用gpt-image-1以及doubao-seedance-1-0-pro生产资源 · GitHub",
+      "bodySha256": "c2bfaf20d0fd5765694f626137756689344f77192f59061b7ba52c4fd132f06f",
+      "capturedAt": "2026-06-27T21:27:58.979Z",
+      "error": ""
+    }
+  ]
+}

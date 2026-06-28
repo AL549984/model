@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:28.275Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yasinaky/glm-mcp-server",
+  "finalUrl": "https://github.com/yasinaky/glm-mcp-server",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f9533b81e36af57a42db22a7369377f\"",
+  "lastModified": null,
+  "bodyBytes": 368377,
+  "bodySha256": "66845129115ea59c319a055955adfa600a4ac4d15d0b95ee7f15d81d64cdb05d",
+  "title": "GitHub - yasinaky/glm-mcp-server: MCP server for Z.ai GLM 4.6 API integration with Claude Code CLI · GitHub",
+  "github": {
+    "owner": "yasinaky",
+    "repo": "glm-mcp-server",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "muse-spark-compnew2006-hermes-agent",
+  "modelId": "muse-spark",
+  "modelName": "Muse Spark",
+  "title": "compnew2006 built a Go API + React 19 frontend to run Muse Spark across Telegram, WhatsApp, and Web",
+  "evidenceFingerprint": "8bd37faf875db78fcd728d9f1a824af2eb0371dd06d97a682365425ae1851922",
+  "capturedAt": "2026-06-27T22:45:02.506Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/compnew2006/MetaAI-Free-Hermes-Agent",
+      "snapshotPath": "archive/evidence/muse-spark-compnew2006-hermes-agent/original-evidence-388488c073aa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - compnew2006/MetaAI-Free-Hermes-Agent: 🚀 Run Meta AI FREE with Hermes Agent — No API Keys, No Limits. Muse Spark LLM from Telegram, WhatsApp &amp; Web. · GitHub",
+      "bodySha256": "0473e1e78d3c021050a60955be5994d01c466d3e7cbe414f42285e610c46923e",
+      "capturedAt": "2026-06-27T22:45:00.617Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/compnew2006/MetaAI-Free-Hermes-Agent",
+      "snapshotPath": "archive/evidence/muse-spark-compnew2006-hermes-agent/artifact-1-388488c073aa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - compnew2006/MetaAI-Free-Hermes-Agent: 🚀 Run Meta AI FREE with Hermes Agent — No API Keys, No Limits. Muse Spark LLM from Telegram, WhatsApp &amp; Web. · GitHub",
+      "bodySha256": "b03bfce8642cca566339aa5884ff236b80b51ffac66bb9fe1cfcf2a2b9fa04ad",
+      "capturedAt": "2026-06-27T22:45:01.950Z",
+      "error": ""
+    }
+  ]
+}

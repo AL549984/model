@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:05.625Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Thibaultbm/claude-seo-geo/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Thibaultbm/claude-seo-geo/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "6070",
+  "etag": "W/\"3ff2585c52e3e19d93adab220224d50f67d57ec57209bef1c6da9d57ae0f2baa\"",
+  "lastModified": null,
+  "bodyBytes": 14161,
+  "bodySha256": "c2ad40549ac28e20d751ab4a84052b163cb5076ac7aabca10d11cf0409b9e59d",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm47-emotion-chatbot",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7-Flash",
+  "title": "Emotion Chatbot: Full-Stack Emotion Analysis Chatbot Powered by GLM-4.7-Flash",
+  "evidenceFingerprint": "55686bcd65ae5fa41672df7e82e6adaad7e56006349be8fc278ac4c8a61656af",
+  "capturedAt": "2026-06-27T21:54:04.731Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kittycheeseburger/emotion-chatbot",
+      "snapshotPath": "archive/evidence/glm47-emotion-chatbot/original-evidence-8c491dca8e65.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kittycheeseburger/emotion-chatbot: 基于 React、FastAPI、GLM-4.7-Flash、中文 RoBERTa 情绪分类模型和本地 RAG 的情绪分析聊天机器人网页应用。 · GitHub",
+      "bodySha256": "70e483c314e249678152b2637506c5a4f1a4e47324dab8bcce4f2dcfd2bbe987",
+      "capturedAt": "2026-06-27T21:54:03.049Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kittycheeseburger/emotion-chatbot",
+      "snapshotPath": "archive/evidence/glm47-emotion-chatbot/artifact-1-8c491dca8e65.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kittycheeseburger/emotion-chatbot: 基于 React、FastAPI、GLM-4.7-Flash、中文 RoBERTa 情绪分类模型和本地 RAG 的情绪分析聊天机器人网页应用。 · GitHub",
+      "bodySha256": "47c96ba22e12cfb518414349e2756c2446376885100bba20049a311bf5474224",
+      "capturedAt": "2026-06-27T21:54:04.258Z",
+      "error": ""
+    }
+  ]
+}

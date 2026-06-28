@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:46.658Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/syaikhipin/KIMI-AI-Humanizer/blob/main/README.md",
+  "finalUrl": "https://github.com/syaikhipin/KIMI-AI-Humanizer/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e156479d93024b47cbf8d61701bd7d1b\"",
+  "lastModified": null,
+  "bodyBytes": 246674,
+  "bodySha256": "fe80fbf5f83e0c3d2d74e8da676d5110e9754c48ebda94f65f501bd8c1c4a111",
+  "title": "KIMI-AI-Humanizer/README.md at main · syaikhipin/KIMI-AI-Humanizer · GitHub",
+  "github": {
+    "owner": "syaikhipin",
+    "repo": "KIMI-AI-Humanizer",
+    "apiStatus": "unavailable"
+  }
+}

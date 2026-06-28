@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-72b-openai-mini-chat-service",
+  "modelId": "qwen-chat-72b",
+  "modelName": "Qwen Chat 72B",
+  "title": "OpenAI.mini exposes Qwen-72B-Chat through an OpenAI-compatible API and ChatGPT-like web frontend",
+  "evidenceFingerprint": "4282f93f1d7d09e226a53ac8eac261acda5fed8a48f5f4e42b9d8089bdc31803",
+  "capturedAt": "2026-06-27T22:59:31.398Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/llmapp/openai/blob/master/src/models/__init__.py",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-openai-mini-chat-service/original-evidence-854bedb2006f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "openai/src/models/__init__.py at master · llmapp/openai · GitHub",
+      "bodySha256": "17f74cb570ef4ea8ea4fa634d3b87a922d3124f43c369c48d7cbbeeb55fb7a42",
+      "capturedAt": "2026-06-27T22:59:29.128Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/llmapp/openai",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-openai-mini-chat-service/artifact-1-48714e1b010a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - llmapp/openai: Implement OpenAI APIs and plugin-enabled ChatGPT with open source LLM and other models. · GitHub",
+      "bodySha256": "40223ed65ce66999f82ebb6c420adc2baf12063a51ec6e315143d11badd75ec1",
+      "capturedAt": "2026-06-27T22:59:30.159Z",
+      "error": ""
+    }
+  ]
+}

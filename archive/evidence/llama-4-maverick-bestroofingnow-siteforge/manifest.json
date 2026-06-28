@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-4-maverick-bestroofingnow-siteforge",
+  "modelId": "llama-4-maverick",
+  "modelName": "Llama 4 Maverick",
+  "title": "bestroofingnow's SiteForge uses Llama 4 Maverick via Groq for low-cost website generation",
+  "evidenceFingerprint": "ab29d3ef1cee115b4e5bbd85369964e6a8761d6fda096dd7aba2087a377b8be6",
+  "capturedAt": "2026-06-27T22:30:12.579Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bestroofingnow/siteforge/blob/main/README.md",
+      "snapshotPath": "archive/evidence/llama-4-maverick-bestroofingnow-siteforge/original-evidence-64dcb3a2caa2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "siteforge/README.md at main · bestroofingnow/siteforge · GitHub",
+      "bodySha256": "d8da70656404c47d3cf0298459d3ee3ff0b3f8fdf023e949f42ac95213283566",
+      "capturedAt": "2026-06-27T22:30:10.055Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bestroofingnow/siteforge",
+      "snapshotPath": "archive/evidence/llama-4-maverick-bestroofingnow-siteforge/artifact-1-acd64234e189.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bestroofingnow/siteforge: AI-powered website generator using Claude and Llama 4 Maverick · GitHub",
+      "bodySha256": "b54ccc6ef22964e7715656ab0ab6efafb6ab288a8f963405c38722a9bc2a28b3",
+      "capturedAt": "2026-06-27T22:30:11.300Z",
+      "error": ""
+    }
+  ]
+}

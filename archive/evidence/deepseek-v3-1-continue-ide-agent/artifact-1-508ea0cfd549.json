@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:51.326Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/continuedev/continue",
+  "finalUrl": "https://github.com/continuedev/continue",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1c5d7f013bd8f760f06276de4ec5f633\"",
+  "lastModified": null,
+  "bodyBytes": 375349,
+  "bodySha256": "92acb4bb30d6de6291a36f393cee9e67854c69c33c102f133d1693c0b3781c86",
+  "title": "GitHub - continuedev/continue: open-source coding agent · GitHub",
+  "github": {
+    "owner": "continuedev",
+    "repo": "continue",
+    "apiStatus": "unavailable"
+  }
+}

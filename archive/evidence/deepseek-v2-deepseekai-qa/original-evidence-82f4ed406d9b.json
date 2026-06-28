@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:14.313Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/tambehimanshu/DeepSeekAI-",
+  "finalUrl": "https://github.com/tambehimanshu/DeepSeekAI-",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b4f202ac46efbaa8ad2d572129ca6457\"",
+  "lastModified": null,
+  "bodyBytes": 248487,
+  "bodySha256": "35679946a91700a5cff30d1c166c216284b1b611bb3d49a7e84d67a54fdcabc9",
+  "title": "GitHub - tambehimanshu/DeepSeekAI-: Developed an intelligent question-answering system that processes long documents (PDFs, reports, articles) and answers user queries using DeepSeek-V2 and semantic search. · GitHub",
+  "github": {
+    "owner": "tambehimanshu",
+    "repo": "DeepSeekAI-",
+    "apiStatus": "unavailable"
+  }
+}

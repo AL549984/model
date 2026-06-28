@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:13.270Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/latitude-dev/latitude-llm/pull/3140",
+  "finalUrl": "https://github.com/latitude-dev/latitude-llm/pull/3140",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 288156,
+  "bodySha256": "0b9a5eaaf1c71a992249407801241cd5d8e7560fa18e496619950884c7949ace",
+  "title": "fix(core): route Azure provider options through the openai key by andresgutgon · Pull Request #3140 · latitude-dev/latitude-llm · GitHub",
+  "github": {
+    "owner": "latitude-dev",
+    "repo": "latitude-llm",
+    "apiStatus": "unavailable"
+  }
+}

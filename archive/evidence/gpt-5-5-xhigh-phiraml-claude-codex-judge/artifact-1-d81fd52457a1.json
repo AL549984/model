@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:55.063Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/phiraml/claude-codex-judge",
+  "finalUrl": "https://github.com/phiraml/claude-codex-judge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a1963db7f208a6c2b3abe40be1f10835\"",
+  "lastModified": null,
+  "bodyBytes": 257664,
+  "bodySha256": "7242191bac7d10e3b7aa6541b2d42a24167933623dafec2239c7b18112fc4a9b",
+  "title": "GitHub - phiraml/claude-codex-judge: Claude Code skill: use OpenAI codex (gpt-5.5, xhigh) as a read-only judging agent with conversation continuity. · GitHub",
+  "github": {
+    "owner": "phiraml",
+    "repo": "claude-codex-judge",
+    "apiStatus": "unavailable"
+  }
+}

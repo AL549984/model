@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:36.088Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/serithemage/solar-mcp/blob/main/README.md",
+  "finalUrl": "https://github.com/serithemage/solar-mcp/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7d65b31b1d37df46240c2bbe5f5b0f2f\"",
+  "lastModified": null,
+  "bodyBytes": 292279,
+  "bodySha256": "6c738238b32d40a34932375eb0ed20d5801d3e1a1629989854161c5d0b75c223",
+  "title": "solar-mcp/README.md at main · serithemage/solar-mcp · GitHub",
+  "github": {
+    "owner": "serithemage",
+    "repo": "solar-mcp",
+    "apiStatus": "unavailable"
+  }
+}

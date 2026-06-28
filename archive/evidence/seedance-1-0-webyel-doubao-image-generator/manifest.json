@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-1-0-webyel-doubao-image-generator",
+  "modelId": "seedance-1-0",
+  "modelName": "Seedance 1.0",
+  "title": "Doubao image/video generator uses doubao-seedance-1-0-pro-fast for text-to-video and image-to-video",
+  "evidenceFingerprint": "25580bf149adee6adc0f78d808e92149beaea5e45e55851935a8bee893c77b68",
+  "capturedAt": "2026-06-27T21:28:03.299Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/WebYeL/doubao-image-generator/HEAD/README.md",
+      "snapshotPath": "archive/evidence/seedance-1-0-webyel-doubao-image-generator/original-evidence-eeda2ebd4c83.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "89de0e8e011b52101fee671840cfc0c371309abaa7261adc9614eadd1b109c0e",
+      "capturedAt": "2026-06-27T21:28:01.797Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/WebYeL/doubao-image-generator",
+      "snapshotPath": "archive/evidence/seedance-1-0-webyel-doubao-image-generator/artifact-1-064782c72167.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - WebYeL/doubao-image-generator: 基于Doubao-Seedream-5.0-lite的AI图片生成和doubao-seedance-1-0-pro-fast的视频生成应用。 · GitHub",
+      "bodySha256": "ff6fd43a44a2fd7c0aadae67cb19f8724238d5f258c734dc0c52e7d3c65bf6d2",
+      "capturedAt": "2026-06-27T21:28:02.118Z",
+      "error": ""
+    }
+  ]
+}

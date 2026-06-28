@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-pro-mimocode-terminal-assistant",
+  "modelId": "mimo-v2-pro",
+  "modelName": "MiMo-V2-Pro",
+  "title": "MiMo-Code: Xiaomi's terminal-native AI coding assistant powered by MiMo-V2-Pro",
+  "evidenceFingerprint": "451edf4765e61340e043e78a00f179b17866b04e8d4b6a7deb99c391c4fea6f5",
+  "capturedAt": "2026-06-27T22:44:13.875Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-mimocode-terminal-assistant/original-evidence-bb9f0adb0966.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - XiaomiMiMo/MiMo-Code: MiMo Code: Where Models and Agents Co-Evolve · GitHub",
+      "bodySha256": "156cb0620cd16aa3e3313bcaa4f12febb23f704b228dc918d4fbc460463ea961",
+      "capturedAt": "2026-06-27T22:44:10.675Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-mimocode-terminal-assistant/artifact-1-bb9f0adb0966.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - XiaomiMiMo/MiMo-Code: MiMo Code: Where Models and Agents Co-Evolve · GitHub",
+      "bodySha256": "be2e54662ef942a994e59d373cddab53f0af804e905e338d48a07916b93cd6b8",
+      "capturedAt": "2026-06-27T22:44:13.141Z",
+      "error": ""
+    }
+  ]
+}

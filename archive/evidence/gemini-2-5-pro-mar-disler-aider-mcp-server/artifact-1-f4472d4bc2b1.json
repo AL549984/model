@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:08.269Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/disler/aider-mcp-server",
+  "finalUrl": "https://github.com/disler/aider-mcp-server",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"153bbf086469500e55f40d383e1082e1\"",
+  "lastModified": null,
+  "bodyBytes": 338992,
+  "bodySha256": "faf8b96395e76ab16c01fd7a98119cc430e592aa5b3122b1386ccce643fc2ff9",
+  "title": "GitHub - disler/aider-mcp-server: Minimal MCP Server for Aider · GitHub",
+  "github": {
+    "owner": "disler",
+    "repo": "aider-mcp-server",
+    "apiStatus": "unavailable"
+  }
+}

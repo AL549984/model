@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:40.069Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/delta-whiplash/zai-chat-desktop",
+  "finalUrl": "https://github.com/delta-whiplash/zai-chat-desktop",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b07ebb4304d78a99408ffda679520d5e\"",
+  "lastModified": null,
+  "bodyBytes": 272936,
+  "bodySha256": "63dd86fc64cee396a42f2cd0411ea105a0971fd7d2ccb98b0291ecc8e8f3ac67",
+  "title": "GitHub - delta-whiplash/zai-chat-desktop: Z.ai Desktop - AI Chatbot powered by GLM-5 &amp; GLM-4.7 (built with Pake) · GitHub",
+  "github": {
+    "owner": "delta-whiplash",
+    "repo": "zai-chat-desktop",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:23.472Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zwq2018/Data-Copilot/blob/main/lab_llms_call.py",
+  "finalUrl": "https://github.com/zwq2018/Data-Copilot/blob/main/lab_llms_call.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e02b398a773f523df3e08bea07422a22\"",
+  "lastModified": null,
+  "bodyBytes": 285527,
+  "bodySha256": "89e13645493f3e00f27f09010b4566cf978a80bd452d49ecfeba17e1ba65a404",
+  "title": "Data-Copilot/lab_llms_call.py at main · zwq2018/Data-Copilot · GitHub",
+  "github": {
+    "owner": "zwq2018",
+    "repo": "Data-Copilot",
+    "apiStatus": "unavailable"
+  }
+}

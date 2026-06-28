@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:07.296Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Skyvern-AI/skyvern/pull/2656",
+  "finalUrl": "https://github.com/Skyvern-AI/skyvern/pull/2656",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 708623,
+  "bodySha256": "d1453d38b26c4c8147c879f6f82a20367e0b2f8b0066591d28882a3813451655",
+  "title": "ui-tars integration by wyatt-halluminate · Pull Request #2656 · Skyvern-AI/skyvern · GitHub",
+  "github": {
+    "owner": "Skyvern-AI",
+    "repo": "skyvern",
+    "apiStatus": "unavailable"
+  }
+}

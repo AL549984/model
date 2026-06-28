@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-14b-easyinstruct-kg2instruction",
+  "modelId": "qwen-chat-14b",
+  "modelName": "Qwen Chat 14B",
+  "title": "EasyInstruct supports Qwen-14B-Chat for KG2Instruct and instruction-data generation workflows",
+  "evidenceFingerprint": "38b072e44dfed6e58455d1f3ade76d43ae08a2445f15dc651cc65b6d5e2b6432",
+  "capturedAt": "2026-06-27T22:59:18.780Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zjunlp/EasyInstruct/blob/main/examples/kg2instruction/llm_cpl/src/utils/constants.py",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-easyinstruct-kg2instruction/original-evidence-45c05daca1a9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "EasyInstruct/examples/kg2instruction/llm_cpl/src/utils/constants.py at main · zjunlp/EasyInstruct · GitHub",
+      "bodySha256": "81a90abeb52499bc8c506a27ccde450a8dbaa42c4202f9dbd48840d10e3c7974",
+      "capturedAt": "2026-06-27T22:59:16.205Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zjunlp/EasyInstruct",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-easyinstruct-kg2instruction/artifact-1-18433410bab6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zjunlp/EasyInstruct: [ACL 2024] An Easy-to-use Instruction Processing Framework for LLMs. · GitHub",
+      "bodySha256": "e3795a191a489ec96dc9d339ae0d45b18b1754ffb26d0b1501735143dbf1661b",
+      "capturedAt": "2026-06-27T22:59:17.490Z",
+      "error": ""
+    }
+  ]
+}

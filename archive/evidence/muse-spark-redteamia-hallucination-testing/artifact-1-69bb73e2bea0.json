@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:28.864Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/red-teamIA/Hallucination-of-Internal-Tooling-in-Meta-AI-s-Muse-Spark",
+  "finalUrl": "https://github.com/red-teamIA/Hallucination-of-Internal-Tooling-in-Meta-AI-s-Muse-Spark",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e1338a7693df309e9bbe594c8c880f9c\"",
+  "lastModified": null,
+  "bodyBytes": 247105,
+  "bodySha256": "a7b51e10fdab442fa161b9a3a52de9d354b314f09fc2f53742b2477c652c802a",
+  "title": "GitHub - red-teamIA/Hallucination-of-Internal-Tooling-in-Meta-AI-s-Muse-Spark: *Data de Descoberta:* 13/04/2026 Teste exploratório. Bug Report - Meta AI | 13/04/2026* Modelo afirmou ter “fila de revisão humana crítica” pra fraude. Falso: nã",
+  "github": {
+    "owner": "red-teamIA",
+    "repo": "Hallucination-of-Internal-Tooling-in-Meta-AI-s-Muse-Spark",
+    "apiStatus": "unavailable"
+  }
+}

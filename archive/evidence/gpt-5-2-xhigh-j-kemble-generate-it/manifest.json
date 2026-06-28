@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-2-xhigh-j-kemble-generate-it",
+  "modelId": "gpt-5-2-xhigh",
+  "modelName": "GPT-5.2 (xhigh)",
+  "title": "j-kemble 用 GPT-5.2 Codex xhigh reasoning 等模型构建本地凭证生成与加密管理工具 Generate It",
+  "evidenceFingerprint": "37d38c159916d4ffcb32f6e96e1ca70c655885dc9f704e4766a9c84fbe4d9cc7",
+  "capturedAt": "2026-06-27T22:01:42.810Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/j-kemble/Generate-It",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-j-kemble-generate-it/original-evidence-94a825ffae67.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - j-kemble/Generate-It: This is a credential generator and storage built with AI (Warp Terminal/GPT 5.2 codex xhigh reasoning &amp; Claude 4.5 haiku &amp; Gemini-CLI). It runs locally and sets up a secure database for your credential",
+      "bodySha256": "a254de10ad846e4942575228cfda7c77c9b5cf597a70e377cb00e8c08ce384fc",
+      "capturedAt": "2026-06-27T22:01:40.213Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/j-kemble/Generate-It",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-j-kemble-generate-it/artifact-1-94a825ffae67.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - j-kemble/Generate-It: This is a credential generator and storage built with AI (Warp Terminal/GPT 5.2 codex xhigh reasoning &amp; Claude 4.5 haiku &amp; Gemini-CLI). It runs locally and sets up a secure database for your credential",
+      "bodySha256": "5c84d03e4e49c9c78b4e040c161aacfbc4e96a91fde3ae71a62d7a8b81a575f2",
+      "capturedAt": "2026-06-27T22:01:42.097Z",
+      "error": ""
+    }
+  ]
+}

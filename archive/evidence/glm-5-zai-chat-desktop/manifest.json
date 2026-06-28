@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-zai-chat-desktop",
+  "modelId": "glm-5",
+  "modelName": "GLM-5",
+  "title": "Z.ai Desktop wraps the GLM-5-powered Z.ai chat product as a cross-platform desktop app",
+  "evidenceFingerprint": "44bbe81622ada9bb868d8c819d21f816c6bfb663a79e86d1b885a816defd147b",
+  "capturedAt": "2026-06-27T21:14:40.920Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/delta-whiplash/zai-chat-desktop/master/README.md",
+      "snapshotPath": "archive/evidence/glm-5-zai-chat-desktop/original-evidence-3199f080183d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "b613e56ddacf48dfdf698c0cc31b0de19d2cbcbdba79dffb49446feaea191878",
+      "capturedAt": "2026-06-27T21:14:39.651Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/delta-whiplash/zai-chat-desktop",
+      "snapshotPath": "archive/evidence/glm-5-zai-chat-desktop/artifact-1-435496e53059.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - delta-whiplash/zai-chat-desktop: Z.ai Desktop - AI Chatbot powered by GLM-5 &amp; GLM-4.7 (built with Pake) · GitHub",
+      "bodySha256": "63dd86fc64cee396a42f2cd0411ea105a0971fd7d2ccb98b0291ecc8e8f3ac67",
+      "capturedAt": "2026-06-27T21:14:40.069Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:00.531Z",
+  "kind": "artifact-1",
+  "url": "https://backroom-escape.vercel.app/",
+  "finalUrl": "https://backroom-escape.vercel.app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5938de724ad65a0ec32053169643c830\"",
+  "lastModified": null,
+  "bodyBytes": 18528,
+  "bodySha256": "ca6f45ef21577ab0b84feb7a7aa2dd66f91eb6eae9e6835d6ad7f1ed96b95fc9",
+  "title": "Backrooms: Level 0 — Free Browser Horror Game",
+  "github": null
+}

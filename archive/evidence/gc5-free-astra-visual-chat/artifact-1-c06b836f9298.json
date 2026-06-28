@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:19.690Z",
+  "kind": "artifact-1",
+  "url": "https://www.bilibili.com/video/BV1Nn4y1o7CK/",
+  "finalUrl": "https://www.bilibili.com/video/BV1Nn4y1o7CK/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 203327,
+  "bodySha256": "bc2ffc523e121e8b6e2f865574686f63c666e0ae55392ab909d6c57d10329816",
+  "title": "实现AI实时视频通话. 用Gemini 1.5 Flash仿GPT-4o、Astra_哔哩哔哩_bilibili",
+  "github": null
+}

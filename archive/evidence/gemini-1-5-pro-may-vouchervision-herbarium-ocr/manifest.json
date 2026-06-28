@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-vouchervision-herbarium-ocr",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "VoucherVision 用 Gemini 1.5 Pro 读取自然历史标本标签并结构化转录",
+  "evidenceFingerprint": "a6aed6824815929ec25372213f44e1c32d4844615381bb897e458e4ce49213a2",
+  "capturedAt": "2026-06-27T21:40:46.759Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Gene-Weaver/VoucherVision#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-vouchervision-herbarium-ocr/original-evidence-0cf10abbe100.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Gene-Weaver/VoucherVision: Initiated by the University of Michigan Herbarium, VoucherVision harnesses the power of large language models (LLMs) to transform the transcription process of natural history specimen labels. · GitHub",
+      "bodySha256": "a11513c54485c0813175aa358fc0f757226e9e280266f385254616ace5a12f4a",
+      "capturedAt": "2026-06-27T21:40:44.828Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Gene-Weaver/VoucherVision",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-vouchervision-herbarium-ocr/artifact-1-953a56e9a7ba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Gene-Weaver/VoucherVision: Initiated by the University of Michigan Herbarium, VoucherVision harnesses the power of large language models (LLMs) to transform the transcription process of natural history specimen labels. · GitHub",
+      "bodySha256": "99a0f0e99825a73176a3de95825a72a1ce8ee55c289b283e1de4c30b37d9da03",
+      "capturedAt": "2026-06-27T21:40:46.069Z",
+      "error": ""
+    }
+  ]
+}

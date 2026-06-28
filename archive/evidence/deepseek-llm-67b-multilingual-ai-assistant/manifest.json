@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-llm-67b-multilingual-ai-assistant",
+  "modelId": "deepseek-llm-67b-v1",
+  "modelName": "DeepSeek LLM 67B",
+  "title": "Multilingual AI Assistant with DeepSeek LLM 67B for Cross-Language Support",
+  "evidenceFingerprint": "cc6067376ad9952d7d28143668f4b465c273ed38eb0d8a806fb02e0377160ef2",
+  "capturedAt": "2026-06-27T21:02:08.475Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant/pull/1",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-multilingual-ai-assistant/original-evidence-5023d488860f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Added additional languages, added a slightly better front end, miner code fixes. by TheX-23 · Pull Request #1 · ThingsIBuild/Multilingual-AI-Assistant · GitHub",
+      "bodySha256": "b20d49c3cc15dc88795e674e49107e89acfac76511e71655989c9e41a60e3da2",
+      "capturedAt": "2026-06-27T21:02:05.175Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-multilingual-ai-assistant/artifact-1-4c38999c6a9b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ThingsIBuild/Multilingual-AI-Assistant: Multilingual AI Assistant · GitHub",
+      "bodySha256": "eda6585152b5f43723776eb40c31ce136c11578d7168eb5cb491778647d33b1b",
+      "capturedAt": "2026-06-27T21:02:06.978Z",
+      "error": ""
+    }
+  ]
+}

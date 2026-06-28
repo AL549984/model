@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:18.288Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/saitarrun/Genai-dev-assistant",
+  "finalUrl": "https://github.com/saitarrun/Genai-dev-assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"eb2a3aa1beeee5139382966d7aa15827\"",
+  "lastModified": null,
+  "bodyBytes": 347671,
+  "bodySha256": "8ab1f61138f3bd56142ae1dc023debed019ba38a132e9568abd9fe6db05783e5",
+  "title": "GitHub - saitarrun/Genai-dev-assistant: Serverless RAG system for semantic code search. Index repositories with language-aware chunking, query with Claude 3.5 Haiku via Amazon Bedrock, retrieve from Pinecone vectors. · GitHub",
+  "github": {
+    "owner": "saitarrun",
+    "repo": "Genai-dev-assistant",
+    "apiStatus": "unavailable"
+  }
+}

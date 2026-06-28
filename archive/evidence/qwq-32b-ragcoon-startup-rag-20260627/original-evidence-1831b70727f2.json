@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:39.006Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AstraBert/ragcoon/blob/main/README.md#L101",
+  "finalUrl": "https://github.com/AstraBert/ragcoon/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b7e9488bf7488e1681d39c0f749fae9e\"",
+  "lastModified": null,
+  "bodyBytes": 280632,
+  "bodySha256": "67abd9f5f1dbef11cb2744c1bbc13d4b805f41914ea98971e934bcf42068ec2a",
+  "title": "ragcoon/README.md at main · AstraBert/ragcoon · GitHub",
+  "github": {
+    "owner": "AstraBert",
+    "repo": "ragcoon",
+    "apiStatus": "unavailable"
+  }
+}

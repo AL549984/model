@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:59.475Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Jelima64/Qwen2.5Max",
+  "finalUrl": "https://github.com/Jelima64/Qwen2.5Max",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"031e10e74818a43900579b729f18edb8\"",
+  "lastModified": null,
+  "bodyBytes": 231224,
+  "bodySha256": "6925f39a80d84b829b2da61185823c2eb9683ba57f0db3a660e887d3a0510f93",
+  "title": "GitHub - Jelima64/Qwen2.5Max: Programa em Python Lotofacil com IA · GitHub",
+  "github": {
+    "owner": "Jelima64",
+    "repo": "Qwen2.5Max",
+    "apiStatus": "unavailable"
+  }
+}

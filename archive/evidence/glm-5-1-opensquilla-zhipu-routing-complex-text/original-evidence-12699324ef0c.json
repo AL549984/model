@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:48.653Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/OpenSquilla/opensquilla/blob/HEAD/src/opensquilla/gateway/config.py#L799-L807",
+  "finalUrl": "https://github.com/OpenSquilla/opensquilla/blob/HEAD/src/opensquilla/gateway/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2c846c0deaca87ff64583a0837717bbb\"",
+  "lastModified": null,
+  "bodyBytes": 1139616,
+  "bodySha256": "58924e9d7fa6c8b5f2677494dd9a03c78e3df7154a9e930153516d4b2e7f78a9",
+  "title": "opensquilla/src/opensquilla/gateway/config.py at 9fcc9e99aa23b71bffcd4c8666deb050144283e1 · opensquilla/opensquilla · GitHub",
+  "github": {
+    "owner": "OpenSquilla",
+    "repo": "opensquilla",
+    "apiStatus": "unavailable"
+  }
+}

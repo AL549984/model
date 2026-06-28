@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:47.905Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ai-asa/openai-o3-mcp/blob/main/README.md",
+  "finalUrl": "https://github.com/ai-asa/openai-o3-mcp/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cd63b31acf831f431850135cc315858a\"",
+  "lastModified": null,
+  "bodyBytes": 299211,
+  "bodySha256": "0e3b5fa2d04a7bbf5c0e56f9c76ac0ded80dc867596974e12cf64e97aa4a3483",
+  "title": "openai-o3-mcp/README.md at main · ai-asa/openai-o3-mcp · GitHub",
+  "github": {
+    "owner": "ai-asa",
+    "repo": "openai-o3-mcp",
+    "apiStatus": "unavailable"
+  }
+}

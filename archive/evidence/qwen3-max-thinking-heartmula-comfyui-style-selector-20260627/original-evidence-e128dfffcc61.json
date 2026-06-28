@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:20.726Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/benjiyaya/HeartMuLa_ComfyUI/issues/74",
+  "finalUrl": "https://github.com/benjiyaya/HeartMuLa_ComfyUI/issues/74",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 248280,
+  "bodySha256": "76d2cf93d87dd675ab9010e9d4c59289435c4d0cf9aaab8429d2154796260dea",
+  "title": "Add the 🎵 HeartMuLa Music Style Selector node · Issue #74 · benjiyaya/HeartMuLa_ComfyUI · GitHub",
+  "github": {
+    "owner": "benjiyaya",
+    "repo": "HeartMuLa_ComfyUI",
+    "apiStatus": "unavailable"
+  }
+}

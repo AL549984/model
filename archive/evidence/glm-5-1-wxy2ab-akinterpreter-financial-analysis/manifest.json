@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-wxy2ab-akinterpreter-financial-analysis",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "akinterpreter defaults its GLM client to GLM-5.1 for financial market analysis",
+  "evidenceFingerprint": "9a8395ad4177e3a8d7a4157bebe9127abe01e35a2f6edef928ea618d0bf56149",
+  "capturedAt": "2026-06-27T21:53:56.358Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/wxy2ab/akinterpreter/blob/HEAD/core/llms/glm_openai_client.py#L11-L18",
+      "snapshotPath": "archive/evidence/glm-5-1-wxy2ab-akinterpreter-financial-analysis/original-evidence-0ef8db1177fc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "akinterpreter/core/llms/glm_openai_client.py at 6fcad9df76735adbda3bd781652f92bbe715e8ac · wxy2ab/akinterpreter · GitHub",
+      "bodySha256": "b507451dbcacfb9321ae9414f184e8a22a9dcb7b03b07eef2853d1fd8f95fce6",
+      "capturedAt": "2026-06-27T21:53:53.895Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/wxy2ab/akinterpreter",
+      "snapshotPath": "archive/evidence/glm-5-1-wxy2ab-akinterpreter-financial-analysis/artifact-1-b971f711d048.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - wxy2ab/akinterpreter: 基于 LLM API 的金融数据查询和分析工具 · GitHub",
+      "bodySha256": "685bd0dea5a328d68da3d9619b1892eb2659451bea0dee6dd4bc6b71de17e1e9",
+      "capturedAt": "2026-06-27T21:53:54.943Z",
+      "error": ""
+    }
+  ]
+}

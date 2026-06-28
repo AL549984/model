@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-wangyingqi-workflow-showcase-agent-runtime",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "workflow-showcase-platform uses GLM-5.1 as the fallback model for a Java agent/workflow runtime",
+  "evidenceFingerprint": "dc293cad81b11611fe8d11339b2291de34a4ea7ba5c57aded0d48a22f35759d7",
+  "capturedAt": "2026-06-27T21:53:53.893Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/wangyingqi-x/workflow-showcase-platform/blob/HEAD/workflow-engine/src/main/java/com/itao/workflowEngine/agent/llm/OpenAiChatModelClient.java#L46-L52",
+      "snapshotPath": "archive/evidence/glm-5-1-wangyingqi-workflow-showcase-agent-runtime/original-evidence-723e7ca3b9a7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "workflow-showcase-platform/workflow-engine/src/main/java/com/itao/workflowEngine/agent/llm/OpenAiChatModelClient.java at 81d6cf126df7c234f2d23b5923b336b073b8cdb1 · wangyingqi-x/workflow-showcase-platform · GitHub",
+      "bodySha256": "77796ae6e0380d233d39542bd1244fb5abeb6ba22eb9b511810f9717f0218804",
+      "capturedAt": "2026-06-27T21:53:51.449Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/wangyingqi-x/workflow-showcase-platform",
+      "snapshotPath": "archive/evidence/glm-5-1-wangyingqi-workflow-showcase-agent-runtime/artifact-1-29a8cac9e884.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - wangyingqi-x/workflow-showcase-platform · GitHub",
+      "bodySha256": "35e54079602d1147fafb94f272b6b8988da3cac43197ff95d19e53c93261e0fd",
+      "capturedAt": "2026-06-27T21:53:52.870Z",
+      "error": ""
+    }
+  ]
+}

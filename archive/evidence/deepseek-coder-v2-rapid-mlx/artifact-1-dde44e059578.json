@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:50.885Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/raullenchai/Rapid-MLX",
+  "finalUrl": "https://github.com/raullenchai/Rapid-MLX",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ed783b511314403f038a2e58ef3a8bb2\"",
+  "lastModified": null,
+  "bodyBytes": 713512,
+  "bodySha256": "fe35802186767a1c88c959e4077c79a32b405c2b41f2dfb18d076c1aeabc2a2e",
+  "title": "GitHub - raullenchai/Rapid-MLX: The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Wo",
+  "github": {
+    "owner": "raullenchai",
+    "repo": "Rapid-MLX",
+    "htmlUrl": "https://github.com/raullenchai/Rapid-MLX",
+    "defaultBranch": "main",
+    "defaultBranchSha": "d6b59fb487318597b229e3ccfa29662b56ba3f21",
+    "pushedAt": "2026-06-27T18:41:01Z",
+    "updatedAt": "2026-06-27T20:44:52Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

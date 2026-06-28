@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "openai-o1-cooksleep-image-metadata-remover",
+  "modelId": "o1",
+  "modelName": "o1",
+  "title": "CookSleep used o1-preview and o1-mini to write an image metadata remover",
+  "evidenceFingerprint": "54d08dbd0889b651917d41ccedcc496a0975decf6b12d083edef70be25d9c0b5",
+  "capturedAt": "2026-06-27T21:27:50.439Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/CookSleep/ImageMetadataRemover/main/README.md",
+      "snapshotPath": "archive/evidence/openai-o1-cooksleep-image-metadata-remover/original-evidence-46ce14b4954b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "390d5ad1f7455d3f479fb20401178bc2e33c802254e8e94122c8067b02d5ba6b",
+      "capturedAt": "2026-06-27T21:27:48.905Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CookSleep/ImageMetadataRemover",
+      "snapshotPath": "archive/evidence/openai-o1-cooksleep-image-metadata-remover/artifact-1-4b94d8532b72.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CookSleep/ImageMetadataRemover: 图片元数据消除器是一个基于 PyQt5 开发的图形用户界面工具，旨在帮助用户轻松地从图片中移除所有元数据（如 EXIF、IPTC、XMP 信息），以保护隐私或减小文件大小。 该项目的代码主要由 OpenAI o1-preview OpenAI o1-mini 和 claude-3-5-sonnet 编写，我提供了非常多的功能设计提议和反馈。 · GitHub",
+      "bodySha256": "d74da026e7053a00fb11af272ad0cbc563ec4dd25a2418b43aef5a88f06d7f4f",
+      "capturedAt": "2026-06-27T21:27:49.390Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:36.912Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/GuanxingLu/OpenPARL",
+  "finalUrl": "https://github.com/GuanxingLu/OpenPARL",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"39cfd6240af97ec1fca34ed83ec2add8\"",
+  "lastModified": null,
+  "bodyBytes": 306310,
+  "bodySha256": "b7711384f3a609623972435e4dc7020efd7fe35727c913bdd8d04cd33336176d",
+  "title": "GitHub - GuanxingLu/OpenPARL: Reproduction of Kimi K2.5 PARL Agent Swarm on WideSearch · GitHub",
+  "github": {
+    "owner": "GuanxingLu",
+    "repo": "OpenPARL",
+    "apiStatus": "unavailable"
+  }
+}

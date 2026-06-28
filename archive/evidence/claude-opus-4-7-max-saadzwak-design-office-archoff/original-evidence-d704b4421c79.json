@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:29.357Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Saadzwak/design-office#readme",
+  "finalUrl": "https://github.com/Saadzwak/design-office",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"811ec3185fc541f24917ed89f6f32c9d\"",
+  "lastModified": null,
+  "bodyBytes": 405903,
+  "bodySha256": "ad9e4bcebafa098097215c20298b8b310314ebc42118c0d54b3b4efe5428a69b",
+  "title": "GitHub - Saadzwak/design-office: A quiet co-architect for office interiors. Built with Claude Opus 4.7 for the Anthropic Built with Opus 4.7 hackathon. Brief → 3D test fit → mood board → client argumentaire → DXF export, all driven by manag",
+  "github": {
+    "owner": "Saadzwak",
+    "repo": "design-office",
+    "htmlUrl": "https://github.com/Saadzwak/design-office",
+    "defaultBranch": "main",
+    "defaultBranchSha": "ba486528e4a91796e5d942edcbcf463ae379c4af",
+    "pushedAt": "2026-04-26T18:05:25Z",
+    "updatedAt": "2026-06-15T02:03:46Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

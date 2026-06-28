@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:09.767Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Phazzie/skeptical-wombat",
+  "finalUrl": "https://github.com/Phazzie/skeptical-wombat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"609fcf6b7592c1a6fd12a24ec15b4dd0\"",
+  "lastModified": null,
+  "bodyBytes": 317269,
+  "bodySha256": "86899b80ea6112f521497764926719170eed0db6b218e4e3670ca26e6790b27e",
+  "title": "GitHub - Phazzie/skeptical-wombat: The AI writing coach that won&#39;t let you hide from your own story. Grok 4.3 + Stack Auth + Neon. · GitHub",
+  "github": {
+    "owner": "Phazzie",
+    "repo": "skeptical-wombat",
+    "apiStatus": "unavailable"
+  }
+}

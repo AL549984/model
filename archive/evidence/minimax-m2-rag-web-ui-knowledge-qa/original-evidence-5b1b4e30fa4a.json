@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:58.719Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/rag-web-ui/rag-web-ui/blob/main/backend/app/core/config.py",
+  "finalUrl": "https://github.com/rag-web-ui/rag-web-ui/blob/main/backend/app/core/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7e31ef3d0b869fd0a4b359df693dc711\"",
+  "lastModified": null,
+  "bodyBytes": 307470,
+  "bodySha256": "eea255580e2509c9edf6d056d47227170123d9f87d0cc476c6fac046770cb453",
+  "title": "rag-web-ui/backend/app/core/config.py at main · rag-web-ui/rag-web-ui · GitHub",
+  "github": {
+    "owner": "rag-web-ui",
+    "repo": "rag-web-ui",
+    "apiStatus": "unavailable"
+  }
+}

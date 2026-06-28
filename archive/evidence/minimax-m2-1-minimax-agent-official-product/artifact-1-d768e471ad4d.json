@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:31.028Z",
+  "kind": "artifact-1",
+  "url": "https://agent.minimax.io/",
+  "finalUrl": "https://agent.minimax.io/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "6562",
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 21070,
+  "bodySha256": "b0b5384aa4774a0a789551b445fc1f922c14af3d7f41fafd0fe9b2001b8b7d9c",
+  "title": "MiniMax Agent: Minimize Effort, Maximize Intelligence",
+  "github": null
+}

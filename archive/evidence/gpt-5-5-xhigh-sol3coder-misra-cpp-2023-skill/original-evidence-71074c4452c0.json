@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:56.882Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Sol3Coder/misra-cpp-2023-skill/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Sol3Coder/misra-cpp-2023-skill/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "936",
+  "etag": "W/\"e67c4fee66d9a4fb3817c858e6c37da9be9b7dc0305ace2b6edadee626107b55\"",
+  "lastModified": null,
+  "bodyBytes": 1987,
+  "bodySha256": "d9fd1211affaec605283c16450d5423c568c9fc7dacaaa93cb5fc7663fbcf1ba",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:34.551Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/fciaf420/moonbags",
+  "finalUrl": "https://github.com/fciaf420/moonbags",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"072fe2403d4c76879a39ba6f0b753ff6\"",
+  "lastModified": null,
+  "bodyBytes": 599396,
+  "bodySha256": "564a221ab9921ed8a60c8d7234c81f5cc4b6a84149d9995cb326703cdc66bf09",
+  "title": "GitHub - fciaf420/moonbags: Solana meme-coin auto-trading bot with MiniMax M2.7 LLM exit advisor, Jupiter Ultra swaps, Telegram control, and a Pepe-on-Moon dashboard · GitHub",
+  "github": {
+    "owner": "fciaf420",
+    "repo": "moonbags",
+    "apiStatus": "unavailable"
+  }
+}

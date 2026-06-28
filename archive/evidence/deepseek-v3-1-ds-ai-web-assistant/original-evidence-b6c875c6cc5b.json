@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:52.549Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README.md",
+  "finalUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bce8bca3eb77e7649b8815b8c28d6c89\"",
+  "lastModified": null,
+  "bodyBytes": 920555,
+  "bodySha256": "28bd40aff6549101ce73157050a2c3e20f4d41e110516a1bac9d1bbe166c919c",
+  "title": "awesome-deepseek-integration/README.md at main · deepseek-ai/awesome-deepseek-integration · GitHub",
+  "github": {
+    "owner": "deepseek-ai",
+    "repo": "awesome-deepseek-integration",
+    "apiStatus": "unavailable"
+  }
+}

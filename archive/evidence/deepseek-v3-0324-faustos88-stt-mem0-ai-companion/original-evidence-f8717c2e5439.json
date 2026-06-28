@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:35.991Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/FaustoS88/STT-mem0/blob/main/README.md",
+  "finalUrl": "https://github.com/FaustoS88/STT-mem0/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a0458819512768bfbeb069ee2e797d13\"",
+  "lastModified": null,
+  "bodyBytes": 323285,
+  "bodySha256": "06968b60643dfac135617dc3990a13917ffca027ee34f7322617428618edf125",
+  "title": "STT-mem0/README.md at main · FaustoS88/STT-mem0 · GitHub",
+  "github": {
+    "owner": "FaustoS88",
+    "repo": "STT-mem0",
+    "apiStatus": "unavailable"
+  }
+}

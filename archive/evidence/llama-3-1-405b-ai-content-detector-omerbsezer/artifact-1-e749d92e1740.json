@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:01.197Z",
+  "kind": "artifact-1",
+  "url": "https://dev.to/omerberatsezer/open-source-ai-content-detector-app-with-aws-bedrock-to-separate-completely-ai-vs-human-generated-2de4",
+  "finalUrl": "https://dev.to/omerberatsezer/open-source-ai-content-detector-app-with-aws-bedrock-to-separate-completely-ai-vs-human-generated-2de4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "35964",
+  "etag": "W/\"91af531fc9f93364024abbc7cc0d8a5d\"",
+  "lastModified": null,
+  "bodyBytes": 221004,
+  "bodySha256": "86a8fc7c3595b00ea4f69367315d809cee0ed157cf802cf9fc25f2267a6fe7e5",
+  "title": "Open Source AI Content Detector APP with AWS Bedrock to separate COMPLETELY AI vs HUMAN generated posts: 🤖 vs 🧑 - DEV Community",
+  "github": null
+}

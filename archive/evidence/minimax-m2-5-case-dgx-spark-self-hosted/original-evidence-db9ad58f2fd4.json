@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:39.609Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/re-cinq/minimax-m2.5-nvidia-dgx",
+  "finalUrl": "https://github.com/re-cinq/minimax-m2.5-nvidia-dgx",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"94105256d4df08f2617e8c81f5049b18\"",
+  "lastModified": null,
+  "bodyBytes": 286872,
+  "bodySha256": "61d0692d2450b6a0390878c8eacae290d18746d13fc3b866271091eca67d31e5",
+  "title": "GitHub - re-cinq/minimax-m2.5-nvidia-dgx: Running MiniMax-M2.5 on a Nvidia DGX Spark with OpenCode on the remote machine · GitHub",
+  "github": {
+    "owner": "re-cinq",
+    "repo": "minimax-m2.5-nvidia-dgx",
+    "apiStatus": "unavailable"
+  }
+}

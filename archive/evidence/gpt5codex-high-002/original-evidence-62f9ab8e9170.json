@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:11.475Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/pkostelnik/divelog",
+  "finalUrl": "https://github.com/pkostelnik/divelog",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"80f4b80555c3273ada23e2fd872832de\"",
+  "lastModified": null,
+  "bodyBytes": 459481,
+  "bodySha256": "89db528b8a2f154f1ca08509ce158b077bae6090a8d1c1d8a5be7cad2de5e626",
+  "title": "GitHub - pkostelnik/divelog: Vibecoding an partially complex Webapp (for fun mostly) · GitHub",
+  "github": {
+    "owner": "pkostelnik",
+    "repo": "divelog",
+    "apiStatus": "unavailable"
+  }
+}

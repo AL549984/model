@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:37.355Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/xiaoY233/Chat2API",
+  "finalUrl": "https://github.com/xiaoY233/Chat2API",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b6be7981e173863977309abd1921967b\"",
+  "lastModified": null,
+  "bodyBytes": 393641,
+  "bodySha256": "576355af04ab9f3fb4557acef13f5959ac691861a46e9cc9ad4c616fcb9899b6",
+  "title": "GitHub - xiaoY233/Chat2API: Chat2API enables zero-cost access to leading AI models by leveraging official web UIs. It supports providers such as DeepSeek, GLM, Kimi, MiniMax, Qwen, and Z.ai, and seamlessly integrates with tools like openlca",
+  "github": {
+    "owner": "xiaoY233",
+    "repo": "Chat2API",
+    "apiStatus": "unavailable"
+  }
+}

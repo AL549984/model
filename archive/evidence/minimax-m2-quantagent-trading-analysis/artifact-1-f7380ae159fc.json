@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:57.560Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Y-Research-SBU/QuantAgent",
+  "finalUrl": "https://github.com/Y-Research-SBU/QuantAgent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"798f9fa25d6a3784ca809bbcc2896293\"",
+  "lastModified": null,
+  "bodyBytes": 407690,
+  "bodySha256": "68da7bade77c5a054e5e38ab625273daf9a99898364eb4d96cb5d239fe4001ec",
+  "title": "GitHub - Y-Research-SBU/QuantAgent: Official Repository for QuantAgent · GitHub",
+  "github": {
+    "owner": "Y-Research-SBU",
+    "repo": "QuantAgent",
+    "apiStatus": "unavailable"
+  }
+}

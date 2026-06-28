@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-3-mini-reasoning-high-frontend-builder-openrouter-html-generation",
+  "modelId": "grok-3-mini-reasoning-high",
+  "modelName": "Grok 3 mini Reasoning (high)",
+  "title": "Frontend_Builder uses Grok 3 Mini Beta to generate deployable HTML websites from prompts",
+  "evidenceFingerprint": "a0230ed1fa6ce0794cc51aa4ea85bf1838c8cdc3cfede80af667617c85454ee1",
+  "capturedAt": "2026-06-27T22:15:19.865Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/4yu5h-crtl/Frontend_Builder/blob/main/utils/api.py",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-frontend-builder-openrouter-html-generation/original-evidence-effd3e24770a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Frontend_Builder/utils/api.py at main · 4yu5h-crtl/Frontend_Builder · GitHub",
+      "bodySha256": "8b326a22573acd487b639d78d3c7c8e5222b6c3c215f4823755251bef86244b6",
+      "capturedAt": "2026-06-27T22:15:17.618Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/4yu5h-crtl/Frontend_Builder",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-frontend-builder-openrouter-html-generation/artifact-1-4a798e52a0cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 4yu5h-crtl/Frontend_Builder: ⚡️ Create, edit &amp; deploy HTML websites with ease! 💻 Featuring a sleek Monaco editor 🧠 AI-powered by Grok-3-mini-beta, and 🌐 instant deployment options. · GitHub",
+      "bodySha256": "ab9f8f9f867e22d6a83e2718cd0976e0e41f2a1940b057b749c7b885c4283e34",
+      "capturedAt": "2026-06-27T22:15:18.717Z",
+      "error": ""
+    }
+  ]
+}

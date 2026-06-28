@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-dec-dingtalk-ai-001",
+  "modelId": "deepseek-v3-dec",
+  "modelName": "DeepSeek V3 (Dec)",
+  "title": "DingTalk AI Assistant — Enterprise Communication Platform Offering DeepSeek-V3 671B as a Selectable Model",
+  "evidenceFingerprint": "a907535f66b82c6c1d8f194063eeb480c1cbf741e740fd3d604ac312b873f34f",
+  "capturedAt": "2026-06-27T21:34:29.121Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/dingtalk/README.md",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-dingtalk-ai-001/original-evidence-cd8b8ced3a31.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "awesome-deepseek-integration/docs/dingtalk/README.md at main · deepseek-ai/awesome-deepseek-integration · GitHub",
+      "bodySha256": "8d055089985b2a3c032a59ebc0d8b80785668fd50248bd6ee0f9b32875c1beba",
+      "capturedAt": "2026-06-27T21:34:27.921Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.dingtalk.com/",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-dingtalk-ai-001/artifact-1-45d5192022e4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "钉钉，AI时代工作方式",
+      "bodySha256": "02470cd0f1ad894212ce651cb96c613fa696bf254aaa5f7a1dad1064695054f1",
+      "capturedAt": "2026-06-27T21:34:28.808Z",
+      "error": ""
+    }
+  ]
+}

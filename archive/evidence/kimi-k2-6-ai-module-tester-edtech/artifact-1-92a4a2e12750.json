@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:19.047Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Fuhad-Lab/ai-module-tester",
+  "finalUrl": "https://github.com/Fuhad-Lab/ai-module-tester",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e92fa8f5cfcb884e15da300b0b8a6aad\"",
+  "lastModified": null,
+  "bodyBytes": 267503,
+  "bodySha256": "ef983904b653edac0e589fb0dd79c811eb14e520e2f5fd753535db7f53bc4165",
+  "title": "GitHub - Fuhad-Lab/ai-module-tester: AI-powered module creator and tester for Blue Horizon e-learning (Kimi K2.6 + Playwright) · GitHub",
+  "github": {
+    "owner": "Fuhad-Lab",
+    "repo": "ai-module-tester",
+    "apiStatus": "unavailable"
+  }
+}

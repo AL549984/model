@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:53.972Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/abswn/gradient-chat-python",
+  "finalUrl": "https://github.com/abswn/gradient-chat-python",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"78ec3d6e257e977c83abed50206ea793\"",
+  "lastModified": null,
+  "bodyBytes": 315161,
+  "bodySha256": "dfe9770e5e8edf3ad00e1c92ebe5fe93b00ae10fc327870f76910def5b38ccb8",
+  "title": "GitHub - abswn/gradient-chat-python: Unofficial Python client for Gradient Chat (supports gpt-oss-120b and qwen3-235b) · GitHub",
+  "github": {
+    "owner": "abswn",
+    "repo": "gradient-chat-python",
+    "apiStatus": "unavailable"
+  }
+}

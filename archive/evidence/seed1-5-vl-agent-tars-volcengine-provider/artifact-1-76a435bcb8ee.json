@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:48.952Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/bytedance/UI-TARS-desktop",
+  "finalUrl": "https://github.com/bytedance/UI-TARS-desktop",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5550e079cb98beb81f5ae0a82871593c\"",
+  "lastModified": null,
+  "bodyBytes": 486233,
+  "bodySha256": "e96f021ceb3d070c4c08c0321627f195d38b023dd446c81a7a59a416652786c2",
+  "title": "GitHub - bytedance/UI-TARS-desktop: The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra · GitHub",
+  "github": {
+    "owner": "bytedance",
+    "repo": "UI-TARS-desktop",
+    "apiStatus": "unavailable"
+  }
+}

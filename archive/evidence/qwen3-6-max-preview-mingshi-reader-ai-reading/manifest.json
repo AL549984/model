@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-max-preview-mingshi-reader-ai-reading",
+  "modelId": "qwen3-6-max-preview",
+  "modelName": "Qwen3.6 Max Preview",
+  "title": "明史阅读器 includes Qwen3.6 Max Preview for classical Chinese history reading assistance",
+  "evidenceFingerprint": "9cd083c140f64c4e99d9324a8ffa56271e239b34b19cbac142bb5ea1d76f68bc",
+  "capturedAt": "2026-06-27T23:07:29.232Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CanhuiLiPhy/History-Reader-for-Ming-Dynasty/blob/7cbc243b304451965fc60082824109dbb9532e65/backend/src/config/defaults.js",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-mingshi-reader-ai-reading/original-evidence-57778c569ae9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "History-Reader-for-Ming-Dynasty/backend/src/config/defaults.js at 7cbc243b304451965fc60082824109dbb9532e65 · CanhuiLiPhy/History-Reader-for-Ming-Dynasty · GitHub",
+      "bodySha256": "32c97b86b633ed2b77780b2e49931650111f87317e77f107c1abc2501cfc7fb9",
+      "capturedAt": "2026-06-27T23:07:25.840Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CanhuiLiPhy/History-Reader-for-Ming-Dynasty",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-mingshi-reader-ai-reading/artifact-1-a9983f511b17.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CanhuiLiPhy/History-Reader-for-Ming-Dynasty · GitHub",
+      "bodySha256": "51c2aa36d942db7e509efe645f80cb4db8153f02a70473dbae8adad9163febd8",
+      "capturedAt": "2026-06-27T23:07:27.945Z",
+      "error": ""
+    }
+  ]
+}

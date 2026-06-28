@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-krumjahn-healthai",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "healthai 将 xai/grok-beta 作为 Apple Health 数据对话分析模型选项",
+  "evidenceFingerprint": "78a17722f4e20ff89c2f0a71d44913f9738eef05a3905df93a512056f17bd734",
+  "capturedAt": "2026-06-27T22:21:56.918Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/krumjahn/applehealth/blob/main/src/healthai/cli.py",
+      "snapshotPath": "archive/evidence/grok-beta-krumjahn-healthai/original-evidence-05ac7f166892.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "applehealth/src/healthai/cli.py at main · krumjahn/applehealth · GitHub",
+      "bodySha256": "b32de234972468505d276d28a6d573689e55e386a1cdfec13f5d88a277082318",
+      "capturedAt": "2026-06-27T22:21:54.347Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://pypi.org/project/healthai/",
+      "snapshotPath": "archive/evidence/grok-beta-krumjahn-healthai/artifact-1-c8643eb78312.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Client Challenge",
+      "bodySha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "capturedAt": "2026-06-27T22:21:56.196Z",
+      "error": ""
+    }
+  ]
+}

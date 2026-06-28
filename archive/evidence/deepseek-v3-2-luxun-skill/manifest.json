@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-2-luxun-skill",
+  "modelId": "deepseek-v3-2",
+  "modelName": "DeepSeek V3.2",
+  "title": "Deep-LuXun-skill: 基于 V3.2 Reasoner 深度蒸馏的鲁迅认知框架复刻",
+  "evidenceFingerprint": "8b016d4b8e45e1b9ca1b6f0574561ff27d22a3e3dbab22509b3bfe58cfa9b58c",
+  "capturedAt": "2026-06-27T21:34:24.582Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Qcunyu/Deep-LuXun-skill",
+      "snapshotPath": "archive/evidence/deepseek-v3-2-luxun-skill/original-evidence-2a7c16c60b61.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Qcunyu/Deep-LuXun-skill: 基于 71k 字原始语料深度蒸馏的鲁迅思维框架。集成“女娲”Skill 体系，采用 DeepSeek-V3.2 Reasoner 建模。内置二难推理、归谬法等批判逻辑工具，拒绝平庸的 AI 复读，旨在提供最具穿透力的社会文化剖析视野。 · GitHub",
+      "bodySha256": "81697da11a314e33961c53dbff6bf21c4c7ebb186e07a3fb053e7d9f9e2a2d5a",
+      "capturedAt": "2026-06-27T21:34:22.810Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Qcunyu/Deep-LuXun-skill",
+      "snapshotPath": "archive/evidence/deepseek-v3-2-luxun-skill/artifact-1-2a7c16c60b61.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Qcunyu/Deep-LuXun-skill: 基于 71k 字原始语料深度蒸馏的鲁迅思维框架。集成“女娲”Skill 体系，采用 DeepSeek-V3.2 Reasoner 建模。内置二难推理、归谬法等批判逻辑工具，拒绝平庸的 AI 复读，旨在提供最具穿透力的社会文化剖析视野。 · GitHub",
+      "bodySha256": "d04b472336c7457f4fb44863e22e7d725bc36440ce48f74703b49b03714a3aa6",
+      "capturedAt": "2026-06-27T21:34:24.038Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:14:59.717Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/massgen/MassGen",
+  "finalUrl": "https://github.com/massgen/MassGen",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0568f86261ead89fa950689c9f35985d\"",
+  "lastModified": null,
+  "bodyBytes": 851581,
+  "bodySha256": "130c642da8cd86747156cab837339abe8c5dd3dc6d5c5df057f849adcd29952b",
+  "title": "GitHub - massgen/MassGen: 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Disco",
+  "github": {
+    "owner": "massgen",
+    "repo": "MassGen",
+    "apiStatus": "unavailable"
+  }
+}

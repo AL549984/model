@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "muse-spark-dyagz-llm-proxy",
+  "modelId": "muse-spark",
+  "modelName": "Muse Spark",
+  "title": "dyagz built a browser-backed LLM proxy exposing Muse Spark through OpenAI and Anthropic compatible APIs",
+  "evidenceFingerprint": "5e8b7ba2bf197524506e46f3f0dc39ce5a0926d1930361d78e1e318166296db3",
+  "capturedAt": "2026-06-27T22:45:04.239Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/dyagz/LLM-Proxy-API",
+      "snapshotPath": "archive/evidence/muse-spark-dyagz-llm-proxy/original-evidence-0a19fb70117b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - dyagz/LLM-Proxy-API: LLM proxy API server built specifically to try and test Meta&#39;s Muse Spark via their UI · GitHub",
+      "bodySha256": "6d0b0de578f5dcd7e0bd241af161cc63bb5f1fb870e6c7bafce9a0241689efaa",
+      "capturedAt": "2026-06-27T22:45:02.507Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/dyagz/LLM-Proxy-API",
+      "snapshotPath": "archive/evidence/muse-spark-dyagz-llm-proxy/artifact-1-0a19fb70117b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - dyagz/LLM-Proxy-API: LLM proxy API server built specifically to try and test Meta&#39;s Muse Spark via their UI · GitHub",
+      "bodySha256": "32d16169e3dc9f3891b1332cbc44d6e8397d43cb18dab500f295158a6e92b5d0",
+      "capturedAt": "2026-06-27T22:45:03.731Z",
+      "error": ""
+    }
+  ]
+}

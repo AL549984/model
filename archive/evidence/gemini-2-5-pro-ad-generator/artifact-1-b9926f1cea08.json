@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:01.029Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Alex-safari/Hollywood-Quality-UGC-Ad-Generator",
+  "finalUrl": "https://github.com/Alex-safari/Hollywood-Quality-UGC-Ad-Generator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f1cd0d8a21e4f034680031b801d0571c\"",
+  "lastModified": null,
+  "bodyBytes": 287806,
+  "bodySha256": "0fa7058079ee09837d2f2882a538c6d3a3c2ce88b80ee929902aba6036ca9d72",
+  "title": "GitHub - Alex-safari/Hollywood-Quality-UGC-Ad-Generator: An automated workflow built with n8n, Sora 2, GPT-4o, and Gemini 2.5 Pro that turns any product photo into a Hollywood-quality UGC video ad — complete with cinematic direction, camera",
+  "github": {
+    "owner": "Alex-safari",
+    "repo": "Hollywood-Quality-UGC-Ad-Generator",
+    "apiStatus": "unavailable"
+  }
+}

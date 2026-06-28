@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:40.633Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ghostwright/phantom",
+  "finalUrl": "https://github.com/ghostwright/phantom",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cff0b4ce1b52662f11d370ee90bdc9cc\"",
+  "lastModified": null,
+  "bodyBytes": 461052,
+  "bodySha256": "d686ac213aaf2903eef6a3891ca68b8458585b7e2c7ec34533a37a2181af29c0",
+  "title": "GitHub - ghostwright/phantom: An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK. · GitHub",
+  "github": {
+    "owner": "ghostwright",
+    "repo": "phantom",
+    "apiStatus": "unavailable"
+  }
+}

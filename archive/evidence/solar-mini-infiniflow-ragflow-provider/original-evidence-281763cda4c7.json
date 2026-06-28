@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:08.100Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/infiniflow/ragflow/main/conf/llm_factories.json",
+  "finalUrl": "https://raw.githubusercontent.com/infiniflow/ragflow/main/conf/llm_factories.json",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "13719",
+  "etag": "W/\"eb73efbddeba074995cfb7ae17649902e40b305b636d6fa7c8066fa9b5ed75d0\"",
+  "lastModified": null,
+  "bodyBytes": 287308,
+  "bodySha256": "794fb91607434199c17bb29cec0a34c768378db0c00997cd4079189c428345d4",
+  "title": "",
+  "github": null
+}

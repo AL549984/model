@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:51.228Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/langgenius/dify-official-plugins",
+  "finalUrl": "https://github.com/langgenius/dify-official-plugins",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6d07068e162fcca68629e313b3d1d9f1\"",
+  "lastModified": null,
+  "bodyBytes": 306024,
+  "bodySha256": "20e8afd0407e228039a91e78a21e1b715eb131ac35ad2ceb26a15e69870cf6eb",
+  "title": "GitHub - langgenius/dify-official-plugins · GitHub",
+  "github": {
+    "owner": "langgenius",
+    "repo": "dify-official-plugins",
+    "apiStatus": "unavailable"
+  }
+}

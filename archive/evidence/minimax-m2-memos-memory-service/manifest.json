@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-memos-memory-service",
+  "modelId": "minimax-m2",
+  "modelName": "MiniMax-M2",
+  "title": "MemOS supports MiniMax-M2.7 as the chat model for self-hosted memory services",
+  "evidenceFingerprint": "1e7217f9811814ae05115b238d063dfa3277ea16aa4c81452cbae04a26e0bdd7",
+  "capturedAt": "2026-06-27T22:44:51.947Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MemTensor/MemOS/blob/main/src/memos/api/config.py",
+      "snapshotPath": "archive/evidence/minimax-m2-memos-memory-service/original-evidence-43712de0e9cb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MemOS/src/memos/api/config.py at main · MemTensor/MemOS · GitHub",
+      "bodySha256": "966b33c61895445e7996e147e023f5c1d320c35adcc18c02602a142c4986a94e",
+      "capturedAt": "2026-06-27T22:44:48.869Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MemTensor/MemOS",
+      "snapshotPath": "archive/evidence/minimax-m2-memos-memory-service/artifact-1-f6f3765d8f9b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MemTensor/MemOS: Self-evolving memory OS for LLM &amp; AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings · GitHub",
+      "bodySha256": "a93de235a0509c7cc141e33a71ae829e4ad28a13d66c70bb210bb7a321c1c1e6",
+      "capturedAt": "2026-06-27T22:44:50.454Z",
+      "error": ""
+    }
+  ]
+}

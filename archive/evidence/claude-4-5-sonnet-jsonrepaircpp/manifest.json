@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-5-sonnet-jsonrepaircpp",
+  "modelId": "claude-4-5-sonnet",
+  "modelName": "Claude 4.5 Sonnet",
+  "title": "Mark2009 used Claude Sonnet 4.5 to port jsonrepair from JavaScript to C++",
+  "evidenceFingerprint": "729c70a7368d33424e5a5983937e05f78cd34bc7d39a1474149b1c86a25c559e",
+  "capturedAt": "2026-06-27T20:54:48.718Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Mark2009/jsonrepaircpp/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-jsonrepaircpp/original-evidence-c4b89de69459.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "jsonrepaircpp/README.md at main · Mark2009/jsonrepaircpp · GitHub",
+      "bodySha256": "bdb957ebcdda57faae8e1ae929987314a4a0bd2052f368bb479577e15cbf7727",
+      "capturedAt": "2026-06-27T20:54:46.491Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Mark2009/jsonrepaircpp",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-jsonrepaircpp/artifact-1-f20aefd23c68.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Mark2009/jsonrepaircpp: C++ port of jsonrepair https://github.com/josdejong/jsonrepair via Claude Sonnet 4.5 · GitHub",
+      "bodySha256": "c131604b31bdd51d3365f09c2d38c0bf136158d428452d02cfbad651a82febae",
+      "capturedAt": "2026-06-27T20:54:47.666Z",
+      "error": ""
+    }
+  ]
+}

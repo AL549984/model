@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "palm-2-gitesh-movie-recommendation-20260627",
+  "modelId": "palm-2",
+  "modelName": "PALM-2",
+  "title": "A movie recommendation app used PaLM 2 text-bison-001 to generate similar-title suggestions",
+  "evidenceFingerprint": "bcc8931d94e0748cbd1ca4d99f24668f1f3155b8a6bb29cefe345dfdfe8a9feb",
+  "capturedAt": "2026-06-27T22:52:08.388Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Gitesh08/Movie-Recommendation-System/blob/main/main.py",
+      "snapshotPath": "archive/evidence/palm-2-gitesh-movie-recommendation-20260627/original-evidence-4d55bb9cb1ee.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Movie-Recommendation-System/main.py at main · Gitesh08/Movie-Recommendation-System · GitHub",
+      "bodySha256": "5ee4e28bf960e8c46f466f8683b12624cd5744c4cfc4d122d419ec7d06cf6341",
+      "capturedAt": "2026-06-27T22:52:06.208Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Gitesh08/Movie-Recommendation-System",
+      "snapshotPath": "archive/evidence/palm-2-gitesh-movie-recommendation-20260627/artifact-1-a1d7bb67b7dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Gitesh08/Movie-Recommendation-System: Designed and implemented a Movie Recommendation System utilizing the Palm 2 API for parsing movie data, integrating TMDB API for comprehensive movie information, and deploying the project using",
+      "bodySha256": "0f306d1c961c1227cdb941d65ad229d497c44c2ebd96dc1c7bb44a5adc880296",
+      "capturedAt": "2026-06-27T22:52:07.257Z",
+      "error": ""
+    }
+  ]
+}

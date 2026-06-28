@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:53.827Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Josh-XT/AGiXT",
+  "finalUrl": "https://github.com/Josh-XT/AGiXT",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0528c1b204f50fe6c4d7be0803a7fc79\"",
+  "lastModified": null,
+  "bodyBytes": 342799,
+  "bodySha256": "f83b84212be98fe0f3d8258e27935fb9cddfc222113afdac68d6babcf0da7889",
+  "title": "GitHub - Josh-XT/AGiXT: AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile p",
+  "github": {
+    "owner": "Josh-XT",
+    "repo": "AGiXT",
+    "apiStatus": "unavailable"
+  }
+}

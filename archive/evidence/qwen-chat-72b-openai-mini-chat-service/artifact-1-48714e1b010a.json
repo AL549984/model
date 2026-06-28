@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:30.159Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/llmapp/openai",
+  "finalUrl": "https://github.com/llmapp/openai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"40d709d7c4ca57b59ce9edfe69eabf66\"",
+  "lastModified": null,
+  "bodyBytes": 403236,
+  "bodySha256": "40223ed65ce66999f82ebb6c420adc2baf12063a51ec6e315143d11badd75ec1",
+  "title": "GitHub - llmapp/openai: Implement OpenAI APIs and plugin-enabled ChatGPT with open source LLM and other models. · GitHub",
+  "github": {
+    "owner": "llmapp",
+    "repo": "openai",
+    "apiStatus": "unavailable"
+  }
+}

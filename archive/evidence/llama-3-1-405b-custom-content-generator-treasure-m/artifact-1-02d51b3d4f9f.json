@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:04.307Z",
+  "kind": "artifact-1",
+  "url": "https://custom-content-generator.onrender.com",
+  "finalUrl": "https://custom-content-generator.onrender.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "824",
+  "etag": "\"b016c1934ad12b16d7bc4f0e02cd0a87\"",
+  "lastModified": "Tue, 05 Aug 2025 13:45:56 UTC",
+  "bodyBytes": 2254,
+  "bodySha256": "f8c8686dc431e961b9052ee9ac2d5100ca91ae20dfaaeb665bff63c2dd2ffd7b",
+  "title": "Educational Content Generator",
+  "github": null
+}

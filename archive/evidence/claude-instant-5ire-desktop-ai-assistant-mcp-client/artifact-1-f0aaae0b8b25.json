@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:52.611Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/nanbingxyz/5ire",
+  "finalUrl": "https://github.com/nanbingxyz/5ire",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9f9b3109d2ed587d114dfbef246576af\"",
+  "lastModified": null,
+  "bodyBytes": 387086,
+  "bodySha256": "780436ead517739f16cb5458f8352b2f2d8811c71f9ac72c905ba71fbef7960b",
+  "title": "GitHub - nanbingxyz/5ire: 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, supports local knowledge base and tools via model context protocol servers . · GitHub",
+  "github": {
+    "owner": "nanbingxyz",
+    "repo": "5ire",
+    "apiStatus": "unavailable"
+  }
+}

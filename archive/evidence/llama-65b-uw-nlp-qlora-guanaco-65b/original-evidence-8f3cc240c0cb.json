@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:27.023Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/artidoro/qlora",
+  "finalUrl": "https://github.com/artidoro/qlora",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a9a04d9a0a5bcbbd630f4a3f4d9f5edb\"",
+  "lastModified": null,
+  "bodyBytes": 331021,
+  "bodySha256": "5e84c88480c9017782ed5e8e9e4484f1f7d062de2b007f313fafe29adf0366d7",
+  "title": "GitHub - artidoro/qlora: QLoRA: Efficient Finetuning of Quantized LLMs · GitHub",
+  "github": {
+    "owner": "artidoro",
+    "repo": "qlora",
+    "apiStatus": "unavailable"
+  }
+}

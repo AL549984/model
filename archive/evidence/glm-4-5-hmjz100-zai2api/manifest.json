@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-5-hmjz100-zai2api",
+  "modelId": "glm-4-5",
+  "modelName": "GLM-4.5",
+  "title": "Z.ai2api 将 Z.ai/GLM-4.5 转换为 OpenAI Compatible 服务",
+  "evidenceFingerprint": "8b0605ef84786b238d7d946f17c4e03069d266700747bcd46c30a8f9fd6d85d7",
+  "capturedAt": "2026-06-27T21:14:34.038Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/hmjz100/Z.ai2api/HEAD/README.md",
+      "snapshotPath": "archive/evidence/glm-4-5-hmjz100-zai2api/original-evidence-31dbffa7ad35.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "5765358adf255c555d1972d851b932a8f70265b2e306387adbc28ccc5a3aa45c",
+      "capturedAt": "2026-06-27T21:14:32.469Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hmjz100/Z.ai2api",
+      "snapshotPath": "archive/evidence/glm-4-5-hmjz100-zai2api/artifact-1-3d0c046c46cc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hmjz100/Z.ai2api: 将 Z.ai Chat 代理为 OpenAI/Anthropic Compatible 格式，支持多模型列表映射、免令牌、智能处理思考链、图片上传等功能；Z.ai ZtoApi z2api ZaitoApi zai X-Signature 签名 GLM 4.5 v 4.6 · GitHub",
+      "bodySha256": "879323a85a09bd481ce6f99654f92eb8c711a4cc38731a06deb61cb8cc64feae",
+      "capturedAt": "2026-06-27T21:14:32.990Z",
+      "error": ""
+    }
+  ]
+}

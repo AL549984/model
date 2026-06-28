@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "bagel-yandex-alchemist-t2i-finetune",
+  "modelId": "bagel",
+  "modelName": "BAGEL",
+  "title": "Yandex 用 Alchemist 数据集微调 BAGEL-7B-MoT 提升文生图美感与复杂度",
+  "evidenceFingerprint": "7630ffd2de3efe64cec33b18a796ad1e1b0ffc31dd3093fcf92ab729228056f6",
+  "capturedAt": "2026-06-27T23:25:21.842Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/yandex/BAGEL-7B-MoT-alchemist/raw/main/README.md",
+      "snapshotPath": "archive/evidence/bagel-yandex-alchemist-t2i-finetune/original-evidence-cc358b2b6d47.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "2f179cf28ffbf657a318a511e5e1915ddf237aa97634eb0c6adb8922006e9188",
+      "capturedAt": "2026-06-27T23:25:21.265Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/yandex/BAGEL-7B-MoT-alchemist",
+      "snapshotPath": "archive/evidence/bagel-yandex-alchemist-t2i-finetune/artifact-1-2be3bca16f83.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "yandex/BAGEL-7B-MoT-alchemist · Hugging Face",
+      "bodySha256": "019765706e9c4df05e8b760851f3c8c4ce445803dde120f8a32c4957ecd6899c",
+      "capturedAt": "2026-06-27T23:25:21.506Z",
+      "error": ""
+    }
+  ]
+}

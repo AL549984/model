@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:23.314Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/acao/cuyahoga-county-fiscal-flows",
+  "finalUrl": "https://github.com/acao/cuyahoga-county-fiscal-flows",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7586fa3aa6145b86ec4f73388caa5deb\"",
+  "lastModified": null,
+  "bodyBytes": 248443,
+  "bodySha256": "e62a6a767fdc88b575b0dc947fa7676bdbb680de5945942b6b109e53af41de1a",
+  "title": "GitHub - acao/cuyahoga-county-fiscal-flows: Suburban Exploitation or Urban Drain? Fiscal Flows in Cuyahoga County (generated w/ Claude Opus 4.1) · GitHub",
+  "github": {
+    "owner": "acao",
+    "repo": "cuyahoga-county-fiscal-flows",
+    "apiStatus": "unavailable"
+  }
+}

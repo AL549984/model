@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:26.480Z",
+  "kind": "artifact-1",
+  "url": "https://pinu-qwen2-5-max-demo.hf.space",
+  "finalUrl": "https://pinu-qwen2-5-max-demo.hf.space/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": "16492",
+  "etag": "\"12erx46\"",
+  "lastModified": null,
+  "bodyBytes": 16492,
+  "bodySha256": "7e9f43957f182e9eda2f1ca8e7e66a716fbb17175d8ef3013cb2557fba7b5f72",
+  "title": "Gradio",
+  "github": null
+}

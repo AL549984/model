@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-ds-ai-web-assistant",
+  "modelId": "deepseek-v3-1",
+  "modelName": "DeepSeek V3.1",
+  "title": "DS-AI Real-time Web-Access AI Assistant: DeepSeek V3.1 as Core Interface",
+  "evidenceFingerprint": "9f32c2dabe2d373a13a679c3f476200e061a4ecf8ce91d22a3800a211bf390e3",
+  "capturedAt": "2026-06-27T21:08:55.370Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README.md",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-ds-ai-web-assistant/original-evidence-b6c875c6cc5b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "awesome-deepseek-integration/README.md at main · deepseek-ai/awesome-deepseek-integration · GitHub",
+      "bodySha256": "28bd40aff6549101ce73157050a2c3e20f4d41e110516a1bac9d1bbe166c919c",
+      "capturedAt": "2026-06-27T21:08:52.549Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/jiqi136/Ai-Assistant",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-ds-ai-web-assistant/artifact-1-5772dd3c9860.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jiqi136/Ai-Assistant: [Open Source] Novel Writing &amp; AI Programming Assistant. 【公开源码】的小说写作与 AI 编程助手。Aggregates top large models from home and abroad聚合国内外顶尖大模型 (DeepSeek/Gemini/Claude/Kimi/ChatGPT, etc.) · GitHub",
+      "bodySha256": "ab604695e47d9ea8777b94de3732375bb3edabc95ff37c9f5e0895a40ade3dd5",
+      "capturedAt": "2026-06-27T21:08:54.107Z",
+      "error": ""
+    }
+  ]
+}

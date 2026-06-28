@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:25.223Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/hikarioyama/swarm-agent",
+  "finalUrl": "https://github.com/hikarioyama/swarm-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"27f431389ceb67615c40cd872bb2684d\"",
+  "lastModified": null,
+  "bodyBytes": 347564,
+  "bodySha256": "953a8ffdc59500648f037b492a278a0e43e5a7b2a29530dd58ddaa8e9135d4bc",
+  "title": "GitHub - hikarioyama/swarm-agent: High-concurrency goal-driven swarm harness for Step-3.7-Flash: conversational front door, stigmergic board, AIMD admission, recall, skills, web UI. · GitHub",
+  "github": {
+    "owner": "hikarioyama",
+    "repo": "swarm-agent",
+    "apiStatus": "unavailable"
+  }
+}

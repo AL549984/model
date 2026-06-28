@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:52.671Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Johnixr/graduate-subsidy-guide",
+  "finalUrl": "https://github.com/Johnixr/graduate-subsidy-guide",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bd7081a7d19e6e9692ce378129754991\"",
+  "lastModified": null,
+  "bodyBytes": 269688,
+  "bodySha256": "7314ec8aacffd89e178e2eaf146948d5c7c3c186d0347540eb43b0e6f1621dfa",
+  "title": "GitHub - Johnixr/graduate-subsidy-guide: 全国大学生就业补贴政策指南 | AI 自动采集整理 49 城市 242 条就业补贴政策 · GitHub",
+  "github": {
+    "owner": "Johnixr",
+    "repo": "graduate-subsidy-guide",
+    "apiStatus": "unavailable"
+  }
+}

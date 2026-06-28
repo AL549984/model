@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-claude-3-haiku-zerox-ocr",
+  "modelId": "claude-3-haiku",
+  "modelName": "Claude 3 Haiku",
+  "title": "Zerox OCR: Vision-based Document Extraction Using Claude 3 Haiku via AWS Bedrock",
+  "evidenceFingerprint": "76c86e918e82c023ab72b38838159b49dad62190fa5f57ba963bb3e7b435eeb4",
+  "capturedAt": "2026-06-27T19:30:36.061Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/getomni-ai/zerox",
+      "snapshotPath": "archive/evidence/case-claude-3-haiku-zerox-ocr/original-evidence-2c9cf50d6c5a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - getomni-ai/zerox: OCR &amp; Document Extraction using vision models · GitHub",
+      "bodySha256": "e4ff9bb4087a5dcf1cb78a16efb9894c8538ef330fced9923caa79756c174d05",
+      "capturedAt": "2026-06-27T19:30:31.586Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.npmjs.com/package/zerox",
+      "snapshotPath": "archive/evidence/case-claude-3-haiku-zerox-ocr/artifact-1-abd485b4c13b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "zerox",
+      "bodySha256": "8cbbd4e13b07add3e15506973782b85fffe25741e9d90a3d23295e0cd23cee0f",
+      "capturedAt": "2026-06-27T19:30:34.318Z",
+      "error": ""
+    }
+  ]
+}

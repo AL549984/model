@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:02.113Z",
+  "kind": "artifact-1",
+  "url": "https://arxiv.org/abs/2602.21456",
+  "finalUrl": "https://arxiv.org/abs/2602.21456",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "47916",
+  "etag": null,
+  "lastModified": "Tue, 23 Jun 2026 00:33:38 GMT",
+  "bodyBytes": 47916,
+  "bodySha256": "446423e09ba74dfc8959b14f808834eb835c93d3c576aba9235357dcbff29aef",
+  "title": "[2602.21456] Revisiting Text Ranking in Deep Research",
+  "github": null
+}

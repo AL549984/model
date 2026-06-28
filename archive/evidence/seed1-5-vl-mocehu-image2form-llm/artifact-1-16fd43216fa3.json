@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:02.248Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mocehu/image2form_llm",
+  "finalUrl": "https://github.com/mocehu/image2form_llm",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"56572cf281d85208599fa5a3f5b60f02\"",
+  "lastModified": null,
+  "bodyBytes": 288929,
+  "bodySha256": "ba045ffe5c3417771fe40b4692b6fcb67a47bf94a2725e26f4e778f81de802f5",
+  "title": "GitHub - mocehu/image2form_llm: 通过多模态大模型将图片转为表单 · GitHub",
+  "github": {
+    "owner": "mocehu",
+    "repo": "image2form_llm",
+    "apiStatus": "unavailable"
+  }
+}

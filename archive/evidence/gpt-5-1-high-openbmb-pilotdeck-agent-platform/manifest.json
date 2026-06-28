@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-openbmb-pilotdeck-agent-platform",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "OpenBMB PilotDeck exposes GPT-5.1 High for task-oriented AI agent workspaces",
+  "evidenceFingerprint": "dfab6e004189847b32aa7778f752dc29d80997833fe63c1225b492b30e8df9f0",
+  "capturedAt": "2026-06-27T22:01:20.982Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/OpenBMB/PilotDeck/blob/d37b0995a0bc65ac621f5d5f4afb935b44acf649/ui/shared/modelConstants.js#L33-L34",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-openbmb-pilotdeck-agent-platform/original-evidence-6946c2f3f141.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "PilotDeck/ui/shared/modelConstants.js at d37b0995a0bc65ac621f5d5f4afb935b44acf649 · OpenBMB/PilotDeck · GitHub",
+      "bodySha256": "c2830fd0693c5dd807fb9d8976c832a6b4e3f40721614fa58205c602c6f9e012",
+      "capturedAt": "2026-06-27T22:01:17.975Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/OpenBMB/PilotDeck",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-openbmb-pilotdeck-agent-platform/artifact-1-6fbacab720d0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - OpenBMB/PilotDeck: Task-oriented AI Agent productivity platform · GitHub",
+      "bodySha256": "e59d340dfed04af03f6937e33c8e6f72dc3a69a19761b0f79d23dfcbacf3bd1e",
+      "capturedAt": "2026-06-27T22:01:19.662Z",
+      "error": ""
+    }
+  ]
+}

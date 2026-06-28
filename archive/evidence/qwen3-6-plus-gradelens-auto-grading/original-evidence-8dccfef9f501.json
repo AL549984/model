@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:40.781Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zjkaaap/GradeLens-/blob/main/README.md",
+  "finalUrl": "https://github.com/zjkaaap/GradeLens-/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1384fa99cf7fa2287a2b025e72011fda\"",
+  "lastModified": null,
+  "bodyBytes": 343440,
+  "bodySha256": "453777ea2af85fae323edf291cea4998dcef0cd5b0aa2a5a742e60242c0e6ddc",
+  "title": "GradeLens-/README.md at main · zjkaaap/GradeLens- · GitHub",
+  "github": {
+    "owner": "zjkaaap",
+    "repo": "GradeLens-",
+    "htmlUrl": "https://github.com/zjkaaap/GradeLens-",
+    "defaultBranch": "main",
+    "defaultBranchSha": "46d41ee655d5513c779c319a236fc5fc09f01256",
+    "pushedAt": "2026-05-30T07:07:45Z",
+    "updatedAt": "2026-06-17T02:33:48Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

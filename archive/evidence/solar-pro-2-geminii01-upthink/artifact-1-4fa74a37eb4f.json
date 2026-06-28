@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:54.274Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink",
+  "finalUrl": "https://github.com/geminii01/product-usecase-knowledge-management-upthink",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cf99a67ec774ea351a913addd7e86097\"",
+  "lastModified": null,
+  "bodyBytes": 392576,
+  "bodySha256": "2ec4789e0a5af85cc98b442bfa01c07dfbdc0281aed0913d16964734b602e0d4",
+  "title": "GitHub - geminii01/product-usecase-knowledge-management-upthink: [Upstage AI Ambassador] 개인 지식 관리 with Upstage Solar pro 2 · GitHub",
+  "github": {
+    "owner": "geminii01",
+    "repo": "product-usecase-knowledge-management-upthink",
+    "apiStatus": "unavailable"
+  }
+}

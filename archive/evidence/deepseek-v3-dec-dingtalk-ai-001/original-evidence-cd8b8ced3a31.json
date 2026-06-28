@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:27.921Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/dingtalk/README.md",
+  "finalUrl": "https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/dingtalk/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5a1bf0817e39a8154a9e5dc369dfa75e\"",
+  "lastModified": null,
+  "bodyBytes": 243888,
+  "bodySha256": "8d055089985b2a3c032a59ebc0d8b80785668fd50248bd6ee0f9b32875c1beba",
+  "title": "awesome-deepseek-integration/docs/dingtalk/README.md at main · deepseek-ai/awesome-deepseek-integration · GitHub",
+  "github": {
+    "owner": "deepseek-ai",
+    "repo": "awesome-deepseek-integration",
+    "apiStatus": "unavailable"
+  }
+}

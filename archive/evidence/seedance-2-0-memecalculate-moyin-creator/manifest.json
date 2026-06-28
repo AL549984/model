@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-2-0-memecalculate-moyin-creator",
+  "modelId": "seedance-2-0",
+  "modelName": "Seedance 2.0",
+  "title": "魔因漫创用 Seedance 2.0 批量化生成短剧/动漫视频",
+  "evidenceFingerprint": "184ff0e0453951fbc9d8e7089a65a69f0c7a2cb4d9b44dc22d50785646a92496",
+  "capturedAt": "2026-06-27T23:23:22.384Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MemeCalculate/moyin-creator#readme",
+      "snapshotPath": "archive/evidence/seedance-2-0-memecalculate-moyin-creator/original-evidence-22d4d1005ea7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MemeCalculate/moyin-creator: AI 影视生产级工具 | 支持 Seedance 2.0 | 剧本到成片全流程批量化 | AI-powered film production tool with Seedance 2.0 support · GitHub",
+      "bodySha256": "c78cdd9ffae734cfdc998f2b0a53c86bae781303d6959fcbc6120ec0a036165b",
+      "capturedAt": "2026-06-27T23:23:20.850Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MemeCalculate/moyin-creator",
+      "snapshotPath": "archive/evidence/seedance-2-0-memecalculate-moyin-creator/artifact-1-09593406097b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MemeCalculate/moyin-creator: AI 影视生产级工具 | 支持 Seedance 2.0 | 剧本到成片全流程批量化 | AI-powered film production tool with Seedance 2.0 support · GitHub",
+      "bodySha256": "83d5ec0fa0058e80d7b43093bfd106201127bc497829d27d7682aa964122c68f",
+      "capturedAt": "2026-06-27T23:23:21.970Z",
+      "error": ""
+    }
+  ]
+}

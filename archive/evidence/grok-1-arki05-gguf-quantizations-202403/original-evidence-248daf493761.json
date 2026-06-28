@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:21.844Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/Arki05/Grok-1-GGUF/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/Arki05/Grok-1-GGUF/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"04d1e502cbb7fa00f798940420d0d57dad0fffe2\"",
+  "lastModified": null,
+  "bodyBytes": 5454,
+  "bodySha256": "0eb7796d6c7f32a0c988b0d77960a397120b05225caade5a369a7578f6a9c0da",
+  "title": "",
+  "github": null
+}

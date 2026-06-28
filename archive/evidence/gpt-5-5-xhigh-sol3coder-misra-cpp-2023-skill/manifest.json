@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-5-xhigh-sol3coder-misra-cpp-2023-skill",
+  "modelId": "gpt-5-5-xhigh",
+  "modelName": "GPT-5.5 (xhigh)",
+  "title": "MISRA C++:2023 Agent Skill 由 GPT-5.5 xhigh 创建用于 C++ 安全审查",
+  "evidenceFingerprint": "7a46a7dbe07d50831a48adbfcbe919b66ede7c30c2627dc9e76035c5a600762c",
+  "capturedAt": "2026-06-27T21:14:58.995Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Sol3Coder/misra-cpp-2023-skill/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-sol3coder-misra-cpp-2023-skill/original-evidence-71074c4452c0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "d9fd1211affaec605283c16450d5423c568c9fc7dacaaa93cb5fc7663fbcf1ba",
+      "capturedAt": "2026-06-27T21:14:56.882Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Sol3Coder/misra-cpp-2023-skill",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-sol3coder-misra-cpp-2023-skill/artifact-1-7aebae88083b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Sol3Coder/misra-cpp-2023-skill: misra cpp 2023 skill write by gpt-5.5 xhigh · GitHub",
+      "bodySha256": "9f172278287ee33508f8956c195ee163ead4e595913073defaf0fc077f52be06",
+      "capturedAt": "2026-06-27T21:14:57.309Z",
+      "error": ""
+    }
+  ]
+}

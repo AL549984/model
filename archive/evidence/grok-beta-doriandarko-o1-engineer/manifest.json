@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-doriandarko-o1-engineer",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "o1-engineer 的 Grok Engineer 脚本用 grok-beta 做代码生成、编辑和项目规划",
+  "evidenceFingerprint": "1274c506024a6a0c5652a44ec1e49b25ca5499212cfce8c9a113d7cac8746997",
+  "capturedAt": "2026-06-27T22:21:54.344Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Doriandarko/o1-engineer/blob/main/grok-eng.py",
+      "snapshotPath": "archive/evidence/grok-beta-doriandarko-o1-engineer/original-evidence-65fce1120692.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "o1-engineer/grok-eng.py at main · Doriandarko/o1-engineer · GitHub",
+      "bodySha256": "f2b9c4521b96efe28bc15bdb7fb37d93d3551e9e1195929b821cee17b3e8b3f4",
+      "capturedAt": "2026-06-27T22:21:51.463Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Doriandarko/o1-engineer",
+      "snapshotPath": "archive/evidence/grok-beta-doriandarko-o1-engineer/artifact-1-45ca22f1a01c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Doriandarko/o1-engineer: o1-engineer is a command-line tool designed to assist developers in managing and interacting with their projects efficiently. Leveraging the power of OpenAI&#39;s API, this tool provides functionalities suc",
+      "bodySha256": "40ed913d6c18d64fabcec70e510178b9276bc963a0c7ad303cc6e55e4655068b",
+      "capturedAt": "2026-06-27T22:21:52.509Z",
+      "error": ""
+    }
+  ]
+}

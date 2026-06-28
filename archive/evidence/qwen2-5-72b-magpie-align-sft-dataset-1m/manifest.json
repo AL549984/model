@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-72b-magpie-align-sft-dataset-1m",
+  "modelId": "qwen2-5-72b",
+  "modelName": "Qwen2.5 72B",
+  "title": "Magpie-Align 用 Qwen2.5 72B Instruct 生成 100 万条对齐训练对话数据",
+  "evidenceFingerprint": "f7a620149517a07667670f41beda8966b2993ee4d30983713e467af1d39fd8d8",
+  "capturedAt": "2026-06-27T22:59:51.685Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/magpie-align/magpie/blob/main/navigation.md",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-magpie-align-sft-dataset-1m/original-evidence-6898b7bdb760.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "magpie/navigation.md at main · magpie-align/magpie · GitHub",
+      "bodySha256": "9fdca0030146bdcaa2bedadaf5a96ac0d30874292113cddf315e2ff0275b0b89",
+      "capturedAt": "2026-06-27T22:59:48.301Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2.5-Pro-1M-v0.1",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-magpie-align-sft-dataset-1m/artifact-1-b3a88774950c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Magpie-Align/Magpie-Qwen2.5-Pro-1M-v0.1 · Datasets at Hugging Face",
+      "bodySha256": "0e72a2eaed56ee983249907a211aaf46ee087a1341cad59d61961db50c58291b",
+      "capturedAt": "2026-06-27T22:59:49.333Z",
+      "error": ""
+    }
+  ]
+}

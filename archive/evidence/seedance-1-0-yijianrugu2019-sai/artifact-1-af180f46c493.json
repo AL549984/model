@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:03.625Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/YiJianRuGu2019/SAI",
+  "finalUrl": "https://github.com/YiJianRuGu2019/SAI",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fac464d5d5e25c8ef49f6d5fbe5b4481\"",
+  "lastModified": null,
+  "bodyBytes": 275469,
+  "bodySha256": "300870928db7facf0a7e2ae8dd32c829c40351578be7c66f1a1d34aafeec6518",
+  "title": "GitHub - YiJianRuGu2019/SAI: SAI开源项目，有以下主要功能 1.AI对话（模型为deepseek） 2.AI在线搜索（模型为秘塔AI） 3.AI生成图片和视频（模型为Seedream-4.0，Grok-2-Image和Doubao-Seedance-1.0-pro） 4.AI在线生成文档并可编辑（ deepseek+使用的CKEditor 框架开源富文本编辑器框架） 5.3D全景卫星地图功能（使用了百度地图实现） 注意： 1.需要您自己申请相关a",
+  "github": {
+    "owner": "YiJianRuGu2019",
+    "repo": "SAI",
+    "apiStatus": "unavailable"
+  }
+}

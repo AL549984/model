@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:49.312Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/frahlg/fusion",
+  "finalUrl": "https://github.com/frahlg/fusion",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7055ca5707bfdf5299e519038c280d91\"",
+  "lastModified": null,
+  "bodyBytes": 290479,
+  "bodySha256": "c44571c160709f110ec3f3831d950e36743bd84527b3c314b02a4453e3b0f4b6",
+  "title": "GitHub - frahlg/fusion: Fusion — a Claude Code skill: convene a panel of frontier models (Opus 4.8 + GPT-5.5 xhigh), judged into one grounded answer. Deep Thought, with receipts. · GitHub",
+  "github": {
+    "owner": "frahlg",
+    "repo": "fusion",
+    "apiStatus": "unavailable"
+  }
+}

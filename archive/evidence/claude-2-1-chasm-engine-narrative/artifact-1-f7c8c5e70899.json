@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:44.275Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/atisharma/chasm_engine",
+  "finalUrl": "https://github.com/atisharma/chasm_engine",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a4da23d092623ffadde0345ed182a9ae\"",
+  "lastModified": null,
+  "bodyBytes": 296026,
+  "bodySha256": "d65127b6c7283f35a6df9cd7043b86ffa7a00d7af4dd5f9e4b9076f50e4126d2",
+  "title": "GitHub - atisharma/chasm_engine: CHAracter State Management - a generative text adventure (engine) · GitHub",
+  "github": {
+    "owner": "atisharma",
+    "repo": "chasm_engine",
+    "apiStatus": "unavailable"
+  }
+}

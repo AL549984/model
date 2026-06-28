@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:40.632Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/alphaonedev/ai-memory-a2a-v0.7.0/blob/main/scripts/grok_driver.py",
+  "finalUrl": "https://github.com/alphaonedev/ai-memory-a2a-v0.7.0/blob/main/scripts/grok_driver.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3f3c03b0a4861777c29f483611000705\"",
+  "lastModified": null,
+  "bodyBytes": 309823,
+  "bodySha256": "f0486925b70dde8747e810683c234b24019116d92cde2e53d673b7b0256297ba",
+  "title": "ai-memory-a2a-v0.7.0/scripts/grok_driver.py at main · alphaonedev/ai-memory-a2a-v0.7.0 · GitHub",
+  "github": {
+    "owner": "alphaonedev",
+    "repo": "ai-memory-a2a-v0.7.0",
+    "apiStatus": "unavailable"
+  }
+}

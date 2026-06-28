@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:21.897Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/clawdbotatg/clawd-local-ai-chess/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/clawdbotatg/clawd-local-ai-chess/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "843",
+  "etag": "W/\"60d0525ba7bf68a3cdb57d08669470c124f1fac5b29cee0c313a90bcef30b29f\"",
+  "lastModified": null,
+  "bodyBytes": 1557,
+  "bodySha256": "71c334b51e8f40cdc362cc1fe307ebb19c490cb24bac13aa022aaa9efc1baa57",
+  "title": "",
+  "github": null
+}

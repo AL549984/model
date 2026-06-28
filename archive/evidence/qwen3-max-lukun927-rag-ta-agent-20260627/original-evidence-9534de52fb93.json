@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:16.041Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/lukun927/RAG_TA_Agent/blob/main/config.py",
+  "finalUrl": "https://github.com/lukun927/RAG_TA_Agent/blob/main/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"83ba21bb985bc9ee87381d7faa52ea94\"",
+  "lastModified": null,
+  "bodyBytes": 243420,
+  "bodySha256": "976a7836b6ac3f72577b21087e5a83045185f31a007af206d6c5ca407c7f0959",
+  "title": "RAG_TA_Agent/config.py at main · lukun927/RAG_TA_Agent · GitHub",
+  "github": {
+    "owner": "lukun927",
+    "repo": "RAG_TA_Agent",
+    "apiStatus": "unavailable"
+  }
+}

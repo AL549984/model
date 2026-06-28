@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:48.690Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mshumer/gpt-investor",
+  "finalUrl": "https://github.com/mshumer/gpt-investor",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"22cf05d2ebcdf931295340293ff5717b\"",
+  "lastModified": null,
+  "bodyBytes": 267011,
+  "bodySha256": "f357ea43479bc42ce56081cdc41aa2998f8f14cb76317765597d8a553f1a10c8",
+  "title": "GitHub - mshumer/gpt-investor · GitHub",
+  "github": {
+    "owner": "mshumer",
+    "repo": "gpt-investor",
+    "htmlUrl": "https://github.com/mshumer/gpt-investor",
+    "defaultBranch": "main",
+    "defaultBranchSha": "316c70956987a8b6dc8d05a066a7be1f5906e82a",
+    "pushedAt": "2024-03-26T15:44:09Z",
+    "updatedAt": "2026-06-21T08:04:04Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

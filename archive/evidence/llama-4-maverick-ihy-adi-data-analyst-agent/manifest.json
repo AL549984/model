@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-4-maverick-ihy-adi-data-analyst-agent",
+  "modelId": "llama-4-maverick",
+  "modelName": "Llama 4 Maverick",
+  "title": "ihy-adi uses Together.ai Llama-4-Maverick-17B for a natural-language data analyst agent",
+  "evidenceFingerprint": "b0267ccdf2a4510126ffe8b3fd948eef6e9e01dd6624a8b77dcf7129fe05e0b6",
+  "capturedAt": "2026-06-27T22:30:19.872Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ihy-adi/data_analyst_agent/blob/main/README.md",
+      "snapshotPath": "archive/evidence/llama-4-maverick-ihy-adi-data-analyst-agent/original-evidence-c2c59288eb57.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "data_analyst_agent/README.md at main · ihy-adi/data_analyst_agent · GitHub",
+      "bodySha256": "01aa9692a5229162b4084cc618d94a85b6151a9ff8bae81a04bb6e6e02936dc5",
+      "capturedAt": "2026-06-27T22:30:17.301Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ihy-adi/data_analyst_agent",
+      "snapshotPath": "archive/evidence/llama-4-maverick-ihy-adi-data-analyst-agent/artifact-1-50c46c754c07.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ihy-adi/data_analyst_agent: Used API from Together.ai to make an AI agent, the Meta Llama 4 Maverick 17B 128E. · GitHub",
+      "bodySha256": "b2909adb32c955ad9b3242d18a047cd00f7655ec07a2530a9a520d8b0d2dc828",
+      "capturedAt": "2026-06-27T22:30:18.664Z",
+      "error": ""
+    }
+  ]
+}

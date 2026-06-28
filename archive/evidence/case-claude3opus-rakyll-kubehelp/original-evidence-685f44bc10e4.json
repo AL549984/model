@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:49.340Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/rakyll/kubehelp",
+  "finalUrl": "https://github.com/rakyll/kubehelp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cbe5bf218918e30598a86401a56878cb\"",
+  "lastModified": null,
+  "bodyBytes": 267446,
+  "bodySha256": "bffabf81e1064b617f55632a3ef38ec2284a5505484f3da714d767f435859454",
+  "title": "GitHub - rakyll/kubehelp: A command line tool that generates kubectl commands from a text description by using Claude 3 Opus. · GitHub",
+  "github": {
+    "owner": "rakyll",
+    "repo": "kubehelp",
+    "htmlUrl": "https://github.com/rakyll/kubehelp",
+    "defaultBranch": "main",
+    "defaultBranchSha": "25260c7850e8bd4161a02582490ef398957f9b9a",
+    "pushedAt": "2024-03-26T03:06:39Z",
+    "updatedAt": "2026-01-05T10:06:00Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

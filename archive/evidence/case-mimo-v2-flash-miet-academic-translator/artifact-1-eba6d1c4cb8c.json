@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:52.852Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/blessblissmari/miet-translator-v2",
+  "finalUrl": "https://github.com/blessblissmari/miet-translator-v2",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"44e67e1452dac25279eb084555f66e6c\"",
+  "lastModified": null,
+  "bodyBytes": 328494,
+  "bodySha256": "09341ad3d0711b6845cc4e9650ace7b64c84117175e63aee1ce58a9cc83d6ab1",
+  "title": "GitHub - blessblissmari/miet-translator-v2: MIET academic translator — v2 cascade pipeline (MiMo v2.5 omni → flash). Forked from blessblissmari/miet-translator-pro. · GitHub",
+  "github": {
+    "owner": "blessblissmari",
+    "repo": "miet-translator-v2",
+    "htmlUrl": "https://github.com/blessblissmari/miet-translator-v2",
+    "defaultBranch": "main",
+    "defaultBranchSha": "2e80b80698b3f28741a1aa04f7be4ead89c344ae",
+    "pushedAt": "2026-05-27T23:15:15Z",
+    "updatedAt": "2026-05-27T23:15:20Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

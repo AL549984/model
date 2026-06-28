@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:58.979Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/LinJT798/sprite-animation-maker",
+  "finalUrl": "https://github.com/LinJT798/sprite-animation-maker",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"857884ecfbb2af1ede48b2087654756f\"",
+  "lastModified": null,
+  "bodyBytes": 357843,
+  "bodySha256": "c2bfaf20d0fd5765694f626137756689344f77192f59061b7ba52c4fd132f06f",
+  "title": "GitHub - LinJT798/sprite-animation-maker: 用于快速生成精灵帧动画的简易工具，使用gpt-image-1以及doubao-seedance-1-0-pro生产资源 · GitHub",
+  "github": {
+    "owner": "LinJT798",
+    "repo": "sprite-animation-maker",
+    "apiStatus": "unavailable"
+  }
+}

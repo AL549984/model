@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-massgen-multi-agent-scaling",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "MassGen supports Qwen3 Max as an Alibaba/Qwen backend for multi-agent collaborative task solving",
+  "evidenceFingerprint": "febf5d0a43024c0e6dbd0b6f23d5993a8991c8dbd8ee39ad43dc43728cf0465c",
+  "capturedAt": "2026-06-27T23:15:00.931Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/massgen/utils/model_matcher.py",
+      "snapshotPath": "archive/evidence/qwen3-max-massgen-multi-agent-scaling/original-evidence-ad33a2dd7454.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MassGen/massgen/utils/model_matcher.py at 007bd8579298d7dc3ff2a43c378e27a284902f22 · massgen/MassGen · GitHub",
+      "bodySha256": "89cf6ff90e5ae5874b1201fbe8b7a49e8f3cf02557e7c926a31a811702d8c849",
+      "capturedAt": "2026-06-27T23:14:57.036Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/massgen/MassGen",
+      "snapshotPath": "archive/evidence/qwen3-max-massgen-multi-agent-scaling/artifact-1-27e3b1c9cd13.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - massgen/MassGen: 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Disco",
+      "bodySha256": "130c642da8cd86747156cab837339abe8c5dd3dc6d5c5df057f849adcd29952b",
+      "capturedAt": "2026-06-27T23:14:59.717Z",
+      "error": ""
+    }
+  ]
+}

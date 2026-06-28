@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:13.480Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/willie-yao/capz-prow-ai-dashboard-qwen/blob/main/README.md",
+  "finalUrl": "https://github.com/willie-yao/capz-prow-ai-dashboard-qwen/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"93f38f14bd406f1c81f140e6eabc4ddc\"",
+  "lastModified": null,
+  "bodyBytes": 271109,
+  "bodySha256": "4974deda14ad11250580bd8ffd211366099afca15e4c8f44f3d9fc7143d70d12",
+  "title": "capz-prow-ai-dashboard-qwen/README.md at main · willie-yao/capz-prow-ai-dashboard-qwen · GitHub",
+  "github": {
+    "owner": "willie-yao",
+    "repo": "capz-prow-ai-dashboard-qwen",
+    "htmlUrl": "https://github.com/willie-yao/capz-prow-ai-dashboard-qwen",
+    "defaultBranch": "main",
+    "defaultBranchSha": "5a1f7b6723d32c1e0617a1dba14497afae1ba2a7",
+    "pushedAt": "2026-06-25T16:28:06Z",
+    "updatedAt": "2026-06-25T16:27:47Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

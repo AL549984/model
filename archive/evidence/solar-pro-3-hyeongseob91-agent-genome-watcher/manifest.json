@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3-hyeongseob91-agent-genome-watcher",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "Agent Genome Watcher analyzes Moltbook AI-agent community discourse with Solar Pro 3",
+  "evidenceFingerprint": "ba1391a042194e7728f34f54afb006dd9903af9319ea668ef03b1ea48ac8ed34",
+  "capturedAt": "2026-06-27T21:28:18.603Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Hyeongseob91/upstage-agent-genome-watcher/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3-hyeongseob91-agent-genome-watcher/original-evidence-5cdd433adba9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "5383b88936a2ab871ce76dc0232cbed720ad2fb2a3eb350ff98444640a9db4e4",
+      "capturedAt": "2026-06-27T21:28:16.669Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Hyeongseob91/upstage-agent-genome-watcher",
+      "snapshotPath": "archive/evidence/solar-pro-3-hyeongseob91-agent-genome-watcher/artifact-1-c8d77ef29916.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Hyeongseob91/upstage-agent-genome-watcher: Upstage Solar Pro 3 모델을 이용한 Motlbook 분석 프로젝트 · GitHub",
+      "bodySha256": "5e25a11c15c95ec1da5c529ec0e6113359664a2a6024c04b3257b9cca269bbbc",
+      "capturedAt": "2026-06-27T21:28:17.013Z",
+      "error": ""
+    }
+  ]
+}

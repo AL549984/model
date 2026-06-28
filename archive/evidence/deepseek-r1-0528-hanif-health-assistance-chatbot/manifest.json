@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-0528-hanif-health-assistance-chatbot",
+  "modelId": "deepseek-r1-0528",
+  "modelName": "DeepSeek R1 0528",
+  "title": "St. Valentina AI Health Assistance 使用 DeepSeek R1 0528 提供健康问答聊天",
+  "evidenceFingerprint": "77c62f6784d802c0917f8f003141f42f14fdc6dde5b2ef142edefae184178771",
+  "capturedAt": "2026-06-27T21:02:15.152Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/hanif017363/Ai-Health-Assistance/blob/master/script.js",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-hanif-health-assistance-chatbot/original-evidence-611b1603e47f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Ai-Health-Assistance/script.js at master · hanif017363/Ai-Health-Assistance · GitHub",
+      "bodySha256": "889af434974e103e9a9d3fce09494ed1a1286b60f238bd6a1a728c134e8e42f7",
+      "capturedAt": "2026-06-27T21:02:12.913Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hanif017363/Ai-Health-Assistance",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-hanif-health-assistance-chatbot/artifact-1-cc89587d5170.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hanif017363/Ai-Health-Assistance: A simple web-based AI app built with HTML, CSS, and JavaScript. The AI responses are powered by the deepseek-r1-0528 model fetched via the OpenRouter API · GitHub",
+      "bodySha256": "48f58151d0a61368faad46750cbabc63ea43a30bcbd96992523502523c92cebd",
+      "capturedAt": "2026-06-27T21:02:14.013Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-5-kitiara666-gpu-client-runpod-large-model-service",
+  "modelId": "deepseek-v2-5",
+  "modelName": "DeepSeek-V2.5",
+  "title": "gpu-client-runpod packaged a RunPod-optimized GPU client service for DeepSeek V2.5 and other large models",
+  "evidenceFingerprint": "83d0ce8a7739417f9ac301da97e19e4b3cf6a5dc848a1dcddb103def9bcf4004",
+  "capturedAt": "2026-06-27T21:08:09.403Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Kitiara666/gpu-client-runpod",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-kitiara666-gpu-client-runpod-large-model-service/original-evidence-3fe2f58a7d56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Kitiara666/gpu-client-runpod: RunPod-optimized GPU Client service for large models like Qwen 3, Kimi K2, and DeepSeek V2.5 · GitHub",
+      "bodySha256": "83b09e83c5bae7e4fcda6e80c0548bbcdec3ed1116bf6214442ceeb21fb14341",
+      "capturedAt": "2026-06-27T21:08:08.024Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Kitiara666/gpu-client-runpod",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-kitiara666-gpu-client-runpod-large-model-service/artifact-1-3fe2f58a7d56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Kitiara666/gpu-client-runpod: RunPod-optimized GPU Client service for large models like Qwen 3, Kimi K2, and DeepSeek V2.5 · GitHub",
+      "bodySha256": "392693232a0e0792d0ac855c35664b8798452a818536410e5c0164c5222b2952",
+      "capturedAt": "2026-06-27T21:08:08.994Z",
+      "error": ""
+    }
+  ]
+}

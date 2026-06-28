@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:27.952Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/timdettmers/guanaco-65b-merged",
+  "finalUrl": "https://huggingface.co/timdettmers/guanaco-65b-merged",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"22344-JDDaSMGzS8r4sL6wn+fNBrV8xUw\"",
+  "lastModified": null,
+  "bodyBytes": 140100,
+  "bodySha256": "454da044ad4b0a66f846c63d2fe79c527931650fbcb62c9a1313eee1da8a4f77",
+  "title": "timdettmers/guanaco-65b-merged · Hugging Face",
+  "github": null
+}

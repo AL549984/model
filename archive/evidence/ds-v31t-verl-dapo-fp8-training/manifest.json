@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v31t-verl-dapo-fp8-training",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "AIR-hl RL training with DAPO on DeepSeek-V3.1-Terminus using FP8 quantization",
+  "evidenceFingerprint": "84ba34bbe4239e2592f9ca50e2888c94d0c95d3328f807ee9e7ed4f8b1df231d",
+  "capturedAt": "2026-06-27T21:34:38.756Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/verl-project/verl/issues/4822",
+      "snapshotPath": "archive/evidence/ds-v31t-verl-dapo-fp8-training/original-evidence-14546c6a3c83.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Dimension Mismatch FP8 training for DeepSeek-V3.1-Terminus · Issue #4822 · verl-project/verl · GitHub",
+      "bodySha256": "f4269cdef894c8e6890466078fc56cac758865faf7265ec1b962fa43cc002c4a",
+      "capturedAt": "2026-06-27T21:34:36.066Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/verl-project/verl",
+      "snapshotPath": "archive/evidence/ds-v31t-verl-dapo-fp8-training/artifact-1-cda1f9b0435e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - verl-project/verl: verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework · GitHub",
+      "bodySha256": "ee4ab352824e4b76069172b02526edb3593fcea8b0fc89cc7c4aae7c30387fa1",
+      "capturedAt": "2026-06-27T21:34:37.697Z",
+      "error": ""
+    }
+  ]
+}

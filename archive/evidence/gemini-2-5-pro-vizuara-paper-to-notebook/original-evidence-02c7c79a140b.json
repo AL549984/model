@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:19.806Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/VizuaraAI/paper-to-notebook/blob/main/backend/app.py",
+  "finalUrl": "https://github.com/VizuaraAI/paper-to-notebook/blob/main/backend/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9f7b208bda416e03e17c7afb713b872b\"",
+  "lastModified": null,
+  "bodyBytes": 825256,
+  "bodySha256": "beae61a4626e9f016364537cecb98f503568d080c04303fb9310ee8757e566b6",
+  "title": "paper-to-notebook/backend/app.py at main · VizuaraAI/paper-to-notebook · GitHub",
+  "github": {
+    "owner": "VizuaraAI",
+    "repo": "paper-to-notebook",
+    "apiStatus": "unavailable"
+  }
+}

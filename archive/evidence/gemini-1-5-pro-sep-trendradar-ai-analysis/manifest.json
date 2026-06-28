@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-sep-trendradar-ai-analysis",
+  "modelId": "gemini-1-5-pro-sep",
+  "modelName": "Gemini 1.5 Pro (Sep)",
+  "title": "TrendRadar uses Gemini 1.5 Pro for AI public-opinion monitoring, translation, and alert summaries",
+  "evidenceFingerprint": "ae8d41d257c13c409a6cc1ff2754b1c3e069455ed95e724d51d0bbbfb75d032e",
+  "capturedAt": "2026-06-27T21:40:57.935Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sansan0/TrendRadar#ai-%E6%99%BA%E8%83%BD%E5%88%86%E6%9E%90",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-trendradar-ai-analysis/original-evidence-8922bdd67917.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sansan0/TrendRadar: ⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然",
+      "bodySha256": "68b036429b18918ea52df9420713a699270d2a39fea2798bc2feea7c1d4e14aa",
+      "capturedAt": "2026-06-27T21:40:55.320Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-trendradar-ai-analysis/artifact-1-ae19178305e3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sansan0/TrendRadar: ⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然",
+      "bodySha256": "528d4d119861b83bfba5cee0edd0da9e4f4f745148c9adc6a2f620445423e880",
+      "capturedAt": "2026-06-27T21:40:57.059Z",
+      "error": ""
+    }
+  ]
+}

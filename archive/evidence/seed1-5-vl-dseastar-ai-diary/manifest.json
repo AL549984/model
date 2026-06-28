@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-dseastar-ai-diary",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "AI Diary uses Seed1.5-VL/Doubao Thinking Vision Pro to analyze screenshots and generate diary entries",
+  "evidenceFingerprint": "d66f7297670f1b71d715e3fc1748cb306344312bb37949249d9d02e54942dcbb",
+  "capturedAt": "2026-06-27T23:15:54.270Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/DSeaStar/ai-diary/blob/main/ai_diary.py",
+      "snapshotPath": "archive/evidence/seed1-5-vl-dseastar-ai-diary/original-evidence-881c627cfcdc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-diary/ai_diary.py at main · DSeaStar/ai-diary · GitHub",
+      "bodySha256": "924fc1f379ef41c173d9c56ae04cd99f7df886bcc1c4d7acbeca7d927ae7d7cb",
+      "capturedAt": "2026-06-27T23:15:52.335Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DSeaStar/ai-diary",
+      "snapshotPath": "archive/evidence/seed1-5-vl-dseastar-ai-diary/artifact-1-a223fd04e8f7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DSeaStar/ai-diary · GitHub",
+      "bodySha256": "416d571cd2fc4c1dd2b729240bfb27724b8b1969411280a5fa0c0a7433bb07a2",
+      "capturedAt": "2026-06-27T23:15:53.323Z",
+      "error": ""
+    }
+  ]
+}

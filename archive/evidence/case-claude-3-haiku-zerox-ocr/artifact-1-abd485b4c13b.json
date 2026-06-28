@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:30:34.318Z",
+  "kind": "npm-registry-fallback",
+  "url": "https://www.npmjs.com/package/zerox",
+  "finalUrl": "https://registry.npmjs.org/zerox",
+  "ok": true,
+  "httpStatus": 200,
+  "primaryHttpStatus": 403,
+  "primaryTitle": "Just a moment...",
+  "contentType": "application/json",
+  "contentLength": null,
+  "etag": "W/\"f2e346d977d8d789dec5b83318aea5a2\"",
+  "lastModified": "Tue, 20 May 2025 00:39:15 GMT",
+  "bodyBytes": 154414,
+  "bodySha256": "8cbbd4e13b07add3e15506973782b85fffe25741e9d90a3d23295e0cd23cee0f",
+  "title": "zerox",
+  "npm": {
+    "packageName": "zerox",
+    "latest": "1.1.20",
+    "modified": "2025-05-20T00:39:13.687Z",
+    "created": "2024-07-21T22:36:04.076Z",
+    "versions": 66,
+    "primaryBodySha256": "11a787c6c750f0069cf8759ebe114b3cacf8dbee87d449efb569b6810f743471"
+  }
+}

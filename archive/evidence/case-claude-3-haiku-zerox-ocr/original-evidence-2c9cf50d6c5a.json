@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:30:31.586Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/getomni-ai/zerox",
+  "finalUrl": "https://github.com/getomni-ai/zerox",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d0b87acd2747286e2211b287bafff792\"",
+  "lastModified": null,
+  "bodyBytes": 477161,
+  "bodySha256": "e4ff9bb4087a5dcf1cb78a16efb9894c8538ef330fced9923caa79756c174d05",
+  "title": "GitHub - getomni-ai/zerox: OCR &amp; Document Extraction using vision models · GitHub",
+  "github": {
+    "owner": "getomni-ai",
+    "repo": "zerox",
+    "htmlUrl": "https://github.com/getomni-ai/zerox",
+    "defaultBranch": "main",
+    "defaultBranchSha": "91bbb20c50de86067670aa13833afa1b8a73c22e",
+    "pushedAt": "2025-05-20T00:39:18Z",
+    "updatedAt": "2026-06-27T08:42:15Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

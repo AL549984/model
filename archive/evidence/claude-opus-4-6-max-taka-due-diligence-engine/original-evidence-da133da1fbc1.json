@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:23.359Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/taka-avantgarde/Due-diligence-engine",
+  "finalUrl": "https://github.com/taka-avantgarde/Due-diligence-engine",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3d568b67620b2d8f35c57cfea345ffbb\"",
+  "lastModified": null,
+  "bodyBytes": 430941,
+  "bodySha256": "5ab2c33a3970851c02eab34e5ddcc4b788e94aa50617d3a2699e3c7e76a03de8",
+  "title": "GitHub - taka-avantgarde/Due-diligence-engine: AI-Powered Technical Due Diligence Engine for Venture Capital — Verify startup claims, detect AI-washing, score with confidence. Built on Claude Opus 4.6 · GitHub",
+  "github": {
+    "owner": "taka-avantgarde",
+    "repo": "Due-diligence-engine",
+    "apiStatus": "unavailable"
+  }
+}

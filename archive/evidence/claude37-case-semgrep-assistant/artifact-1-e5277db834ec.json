@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:12.027Z",
+  "kind": "artifact-1",
+  "url": "https://semgrep.dev/",
+  "finalUrl": "https://semgrep.dev/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentLength": "101692",
+  "etag": "\"d2dc39c040cc636e04a6b02cd18be32e-ssl\"",
+  "lastModified": null,
+  "bodyBytes": 101692,
+  "bodySha256": "88bed88b51eded10bfe0879c5c3ed44faa0b023ba5416e77d4a5ea57ed4ea3cf",
+  "title": "Semgrep App Security Platform | AI-assisted SAST, SCA and Secrets Detection",
+  "github": null
+}

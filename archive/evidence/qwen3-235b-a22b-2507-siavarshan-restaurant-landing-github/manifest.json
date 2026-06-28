@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-a22b-2507-siavarshan-restaurant-landing-github",
+  "modelId": "qwen3-235b-a22b-2507",
+  "modelName": "Qwen3 235B A22B 2507",
+  "title": "Siavarshan21 用 Qwen3-235B-A22B-2507 构建餐厅 Landing Page",
+  "evidenceFingerprint": "fa1b521dbc55488d95df2202eaf0ef13a0980df2e7fafb7e430ad93d5a5c4c2d",
+  "capturedAt": "2026-06-27T23:07:09.175Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Siavarshan21/Restaurant-Landing1",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-siavarshan-restaurant-landing-github/original-evidence-ac66f9f4aef7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Siavarshan21/Restaurant-Landing1: profile Qwen3-235B-A22B-2507 5:06 pm Certainly! Here&#39;s a clean, professional, and engaging GitHub project description for a Restaurant Landing Page . You can copy and paste this directly into y",
+      "bodySha256": "2bddcf37124e01e86d7f5b798bd853a0f934087fe5c0862929412999242a3b32",
+      "capturedAt": "2026-06-27T23:07:04.923Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Siavarshan21/Restaurant-Landing1",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-siavarshan-restaurant-landing-github/artifact-1-ac66f9f4aef7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Siavarshan21/Restaurant-Landing1: profile Qwen3-235B-A22B-2507 5:06 pm Certainly! Here&#39;s a clean, professional, and engaging GitHub project description for a Restaurant Landing Page . You can copy and paste this directly into y",
+      "bodySha256": "5138fb628720d229b10e79de843ae25bf0c6981cd83dbec3b7a69262ebb29b67",
+      "capturedAt": "2026-06-27T23:07:08.406Z",
+      "error": ""
+    }
+  ]
+}

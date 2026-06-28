@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:25.587Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/vinilpolepalli/phantom-trader",
+  "finalUrl": "https://github.com/vinilpolepalli/phantom-trader",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a950f94d25bd80236f89adc554390812\"",
+  "lastModified": null,
+  "bodyBytes": 349048,
+  "bodySha256": "1bddd3725b86ce31a829064595587061415036632a03538dc3f3f6a37fa46ce0",
+  "title": "GitHub - vinilpolepalli/phantom-trader: Autonomous AI swing trading bot — 1,400+ stocks analyzed nightly by Kimi K2.6, trades placed automatically on Robinhood · GitHub",
+  "github": {
+    "owner": "vinilpolepalli",
+    "repo": "phantom-trader",
+    "apiStatus": "unavailable"
+  }
+}

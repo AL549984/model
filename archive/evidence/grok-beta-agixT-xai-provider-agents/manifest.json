@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-agixT-xai-provider-agents",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "AGiXT adds xAI Grok Beta as an agent LLM and vision provider",
+  "evidenceFingerprint": "df14d52e8a47d5cc460131896a19b3d3af10111e520af3faca3f8e20cf4596ec",
+  "capturedAt": "2026-06-27T22:15:55.027Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Josh-XT/AGiXT/blob/main/agixt/extensions/xai.py",
+      "snapshotPath": "archive/evidence/grok-beta-agixT-xai-provider-agents/original-evidence-9b23302e4066.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AGiXT/agixt/extensions/xai.py at main · Josh-XT/AGiXT · GitHub",
+      "bodySha256": "1ce0f6566418a21a1e8735de2cb290c454e812598febf3ee6eb3c1c6f5239041",
+      "capturedAt": "2026-06-27T22:15:52.687Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Josh-XT/AGiXT",
+      "snapshotPath": "archive/evidence/grok-beta-agixT-xai-provider-agents/artifact-1-8c31fe209a9c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Josh-XT/AGiXT: AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile p",
+      "bodySha256": "f83b84212be98fe0f3d8258e27935fb9cddfc222113afdac68d6babcf0da7889",
+      "capturedAt": "2026-06-27T22:15:53.827Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:46.760Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/di37/youtube-notes-generator#readme",
+  "finalUrl": "https://github.com/di37/youtube-notes-generator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b341f4bdd1b48a10e23458012611fd4b\"",
+  "lastModified": null,
+  "bodyBytes": 280772,
+  "bodySha256": "99ff8ef5d8f91e6eccf8cc3363771f649fc128492a8dd6f160fee1c96f514bab",
+  "title": "GitHub - di37/youtube-notes-generator: AI-powered YouTube Notes Generator: Create detailed notes from YouTube videos. Streamlit UI for easy use. · GitHub",
+  "github": {
+    "owner": "di37",
+    "repo": "youtube-notes-generator",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen1-5-chat-110b-lmdeploy-a800-api-server-1639",
+  "modelId": "qwen1-5-chat-110b",
+  "modelName": "Qwen1.5 Chat 110B",
+  "title": "LMDeploy user serves Qwen1.5-110B-Chat as an OpenAI-compatible chat API on A800 GPUs",
+  "evidenceFingerprint": "db551e0ba72946697ef85e95348df56ce7f8d2e94ea2a2178cf0a650d54fd528",
+  "capturedAt": "2026-06-27T22:59:39.921Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/InternLM/lmdeploy/issues/1639",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-lmdeploy-a800-api-server-1639/original-evidence-fd69fed301b3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "LMDeploy-0.4.1运行qwen1.5 110B，推理长时间无结果 · Issue #1639 · InternLM/lmdeploy · GitHub",
+      "bodySha256": "fe49b9532c29a895d1ccf0615313b5a6427ac49c63dc505dd78fb69561ee0bfd",
+      "capturedAt": "2026-06-27T22:59:38.146Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/InternLM/lmdeploy/issues/1639",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-lmdeploy-a800-api-server-1639/artifact-1-fd69fed301b3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "LMDeploy-0.4.1运行qwen1.5 110B，推理长时间无结果 · Issue #1639 · InternLM/lmdeploy · GitHub",
+      "bodySha256": "dcd7d38acec27d51047aba84847338e1888b50756fa929d07cc8b76548bc8e0d",
+      "capturedAt": "2026-06-27T22:59:39.384Z",
+      "error": ""
+    }
+  ]
+}

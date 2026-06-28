@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-xiaozhi-esp32-server-java",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "Xiaozhi ESP32 Server Java exposes MiniMax M1 80K for smart-hardware dialogue",
+  "evidenceFingerprint": "efb36f55f3369ae065e2bc2c1275aba237205e1dd562f9c849d2d4a863162a89",
+  "capturedAt": "2026-06-27T22:44:25.931Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/blob/main/web/src/config/llm_factories.json#L6044-L6049",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-xiaozhi-esp32-server-java/original-evidence-6bd680c2bd2a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "xiaozhi-esp32-server-java/web/src/config/llm_factories.json at main · joey-zhou/xiaozhi-esp32-server-java · GitHub",
+      "bodySha256": "72eb366874f58088f90a9948e24df0c13cca1b6b46db57ba973eb342f8bf736e",
+      "capturedAt": "2026-06-27T22:44:23.544Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-xiaozhi-esp32-server-java/artifact-1-0bf0644974fd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - joey-zhou/xiaozhi-esp32-server-java: 小智ESP32的Java企业级管理平台，提供设备监控、音色定制、角色切换和对话记录管理的前后端及服务端一体化解决方案 · GitHub",
+      "bodySha256": "4fe71c102bd9aab30f4a5b2b8b50faf1d8dd4c669ceab07dc58bd587a192d398",
+      "capturedAt": "2026-06-27T22:44:24.919Z",
+      "error": ""
+    }
+  ]
+}

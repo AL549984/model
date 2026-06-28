@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:14:58.252Z",
+  "kind": "artifact-1",
+  "url": "https://deepcellseek.kiz.ac.cn",
+  "finalUrl": "https://deepcellseek.kiz.ac.cn/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": null,
+  "etag": "W/\"1dc99757b1d1939\"",
+  "lastModified": "Mon, 09 Feb 2026 03:37:57 GMT",
+  "bodyBytes": 441,
+  "bodySha256": "eb7b18559c22490da5f60cae7208902632c9554bd036bfb47f3a3a9f8ee3899c",
+  "title": "DeepCellSeek",
+  "github": null
+}

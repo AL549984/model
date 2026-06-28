@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:29.243Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/straylabs-ai/deadend-cli",
+  "finalUrl": "https://github.com/straylabs-ai/deadend-cli",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f419a35ec510ed2289e8d537f9d7f29c\"",
+  "lastModified": null,
+  "bodyBytes": 458702,
+  "bodySha256": "ab20d715f707b0537f4ed142a2b8817ac5cf8f85f16bdf04f233a7f54e118800",
+  "title": "GitHub - straylabs-ai/deadend-cli: Agentic pentest tooling. Currently achieving 81% (KIMI K2.5) on XBOW&#39;s benchmark in full black-box. Completely Self-hosted. Every model available on LiteLLM (Ollama, anthropic, openai...) · GitHub",
+  "github": {
+    "owner": "straylabs-ai",
+    "repo": "deadend-cli",
+    "apiStatus": "unavailable"
+  }
+}

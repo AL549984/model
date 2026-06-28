@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:38.558Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kevgeoleo/RAG-Chatbot-pet-project/blob/master/README.md",
+  "finalUrl": "https://github.com/kevgeoleo/RAG-Chatbot-pet-project/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"317ad32b501ba8e9d1c5f372bbcb6300\"",
+  "lastModified": null,
+  "bodyBytes": 269977,
+  "bodySha256": "c1653fc08d530f41d3d56c214d343fad60af856dc9d54bb0348c00b0094ae160",
+  "title": "RAG-Chatbot-pet-project/README.md at master · kevgeoleo/RAG-Chatbot-pet-project · GitHub",
+  "github": {
+    "owner": "kevgeoleo",
+    "repo": "RAG-Chatbot-pet-project",
+    "apiStatus": "unavailable"
+  }
+}

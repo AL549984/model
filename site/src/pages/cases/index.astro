@@ -5,18 +5,108 @@ import CaseCard from "../../components/cards/CaseCard.astro";
 import TrustBoundary from "../../components/data/TrustBoundary.astro";
 import CaseQualityLegend from "../../components/data/CaseQualityLegend.astro";
 import CaseCoveragePanel from "../../components/data/CaseCoveragePanel.astro";
+import { buildCaseNarrative } from "../../lib/caseNarrative";
+import { buildEvidenceTrust } from "../../lib/evidenceTrust";
 import { publicizeText } from "../../lib/publicCopy";
+import { absoluteUrl } from "../../lib/seo";
 import cases from "../../data/cases.json";
 import models from "../../data/models.json";
 import metrics from "../../data/metrics.json";
+import evidenceArchive from "../../data/evidence-archive.json";
 
 const aCases = cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible);
 const noACaseModels = models.filter((model) => model.aCaseCount === 0);
 const coverageRate = `${Math.round((metrics.modelsWithCases / metrics.models) * 1000) / 10}%`;
 const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model) => model.name).slice(0, 6).join("、");
+const modelOptions = models
+  .filter((model) => model.aCaseCount > 0)
+  .map((model) => ({ id: model.id, label: model.name, count: aCases.filter((item) => item.modelId === model.id).length }))
+  .filter((model) => model.count > 0)
+  .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+const vendorOptions = Array.from(
+  new Map(aCases.map((item) => [item.vendorId, { id: item.vendorId, label: item.vendor, count: aCases.filter((caseItem) => caseItem.vendorId === item.vendorId).length }])).values()
+).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+const platformOptions = Array.from(
+  new Set(aCases.flatMap((item) => String(item.sourcePlatform ?? "").split(";").map((platform) => platform.trim()).filter(Boolean)))
+).sort((a, b) => a.localeCompare(b));
+const trustSummaries = aCases.map((item) => buildEvidenceTrust(item));
+const trustCounts = {
+  aplus: trustSummaries.filter((trust) => trust.filterKey === "aplus").length,
+  repo: trustSummaries.filter((trust) => trust.sourceKey === "repo").length,
+  official: trustSummaries.filter((trust) => trust.sourceKey === "official").length
+};
+const evidenceArchiveMap = new Map(evidenceArchive.cases.map((entry) => [entry.caseId, entry]));
+const snapshotCounts = {
+  snapshotted: aCases.filter((item) => evidenceArchiveMap.get(item.id)?.snapshotStatus === "snapshotted").length,
+  partial: aCases.filter((item) => evidenceArchiveMap.get(item.id)?.snapshotStatus === "partial_snapshot").length,
+  attention: aCases.filter((item) => evidenceArchiveMap.get(item.id)?.snapshotStatus === "snapshot_attention").length,
+  pending: aCases.filter((item) => !evidenceArchiveMap.get(item.id) || evidenceArchiveMap.get(item.id)?.snapshotStatus === "pending_snapshot").length
+};
+const caseArchivePayload = JSON.stringify({
+  cases: aCases.map((item) => ({
+    id: item.id,
+    title: item.title,
+    vendor: item.vendor,
+    vendorId: item.vendorId,
+    modelId: item.modelId,
+    modelName: item.modelName,
+    modelSlug: models.find((model) => model.id === item.modelId)?.slug ?? item.modelId,
+    userOrOrg: item.userOrOrg,
+    originalEvidenceUrl: item.originalEvidenceUrl,
+    artifactUrl: item.artifactUrl,
+    sourcePlatform: item.sourcePlatform,
+    sourceType: item.sourceType,
+    taskCategory: item.taskCategory,
+    taskDescription: item.taskDescription,
+    outputResult: item.outputResult,
+    modelContribution: item.modelContribution,
+    evidenceGrade: item.evidenceGrade,
+    selectedForModelCard: item.selectedForModelCard,
+    riskNotes: item.riskNotes,
+    collectedAt: item.collectedAt,
+    reviewStatus: item.reviewStatus,
+    evidenceTrust: buildEvidenceTrust(item),
+    evidenceArchive: evidenceArchiveMap.get(item.id),
+    narrative: buildCaseNarrative(item)
+  }))
+}).replace(/</g, "\\u003c");
+const casesJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "真实案例库 · Model Atlas 模型图谱",
+  url: absoluteUrl("/cases"),
+  description: "Model Atlas 收录绑定到具体模型、具体任务和公开产物链接的 A 类可核验 AI 模型使用案例。",
+  inLanguage: "zh-CN",
+  dateModified: metrics.datasetCut,
+  about: {
+    "@type": "Dataset",
+    name: "Model Atlas A 类真实案例库",
+    url: absoluteUrl("/cases")
+  },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: aCases.length,
+    itemListElement: aCases.slice(0, 20).map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: absoluteUrl(`/cases/${item.id}`),
+      item: {
+        "@type": "CreativeWork",
+        name: buildCaseNarrative(item).displayTitle,
+        description: buildCaseNarrative(item).summary,
+        dateCreated: item.collectedAt,
+        about: item.modelName,
+        author: {
+          "@type": "Organization",
+          name: item.userOrOrg
+        }
+      }
+    }))
+  }
+};
 ---
 
-<BaseLayout title="真实案例 · Frontier Models Atlas" description="只展示绑定到具体模型、具体任务和公开产物链接的可核验 AI 模型使用案例。">
+<BaseLayout title="真实案例 · Model Atlas 模型图谱" description="只展示绑定到具体模型、具体任务和公开产物链接的可核验 AI 模型使用案例。" jsonLd={casesJsonLd}>
   <SectionHeader eyebrow="证据库" title="只展示可核验公开模型使用案例" description={`当前收录 ${metrics.verifiedACases} 条 A 类案例，全部绑定到具体模型。案例库用于证明公开使用证据，不用集合页或 benchmark 补位。`} />
 
   <div class="mb-5">
@@ -35,16 +125,121 @@ const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model
     <CaseQualityLegend />
   </div>
 
-  <div class="mb-5 flex flex-wrap gap-2 text-xs text-slate-300">
-    <span class="rounded-md border border-emerald-300/35 bg-emerald-300/10 px-3 py-2">默认：A 类案例</span>
-    <span class="rounded-md border border-slate-700/70 px-3 py-2">模型筛选</span>
-    <span class="rounded-md border border-slate-700/70 px-3 py-2">厂商筛选</span>
-    <span class="rounded-md border border-slate-700/70 px-3 py-2">来源平台筛选</span>
-  </div>
+  <section class="panel mb-5 p-4">
+    <div class="grid gap-3 lg:grid-cols-[minmax(220px,1.35fr)_repeat(6,minmax(126px,1fr))]">
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">搜索案例 / 任务</span>
+        <input id="case-search" class="control-input" type="search" placeholder="输入 repo、任务、组织..." autocomplete="off" />
+      </label>
 
-  <section class="grid gap-3 lg:grid-cols-2">
-    {aCases.map((item) => <CaseCard item={item} />)}
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">模型</span>
+        <select id="case-model-filter" class="control-input">
+          <option value="all">全部模型</option>
+          {modelOptions.map((model) => <option value={model.id}>{model.label}（{model.count}）</option>)}
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">厂商</span>
+        <select id="case-vendor-filter" class="control-input">
+          <option value="all">全部厂商</option>
+          {vendorOptions.map((vendor) => <option value={vendor.id}>{vendor.label}（{vendor.count}）</option>)}
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">来源平台</span>
+        <select id="case-platform-filter" class="control-input">
+          <option value="all">全部来源</option>
+          {platformOptions.map((platform) => <option value={platform}>{platform}</option>)}
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">案例类型</span>
+        <select id="case-type-filter" class="control-input">
+          <option value="all">全部 A 类案例</option>
+          <option value="coding">Coding Agent / agentic coding</option>
+          <option value="selected">进入模型卡精选</option>
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">证据强度</span>
+        <select id="case-confidence-filter" class="control-input">
+          <option value="all">全部可信证据</option>
+          <option value="aplus">A+ 完整链路（{trustCounts.aplus}）</option>
+          <option value="repo">代码仓库证据（{trustCounts.repo}）</option>
+          <option value="official">官方/客户故事（{trustCounts.official}）</option>
+        </select>
+      </label>
+
+      <label class="grid gap-2 text-sm text-[#a8a29a]">
+        <span class="font-semibold text-[#f4f1ea]">快照状态</span>
+        <select id="case-snapshot-filter" class="control-input">
+          <option value="all">全部快照状态</option>
+          <option value="snapshotted">已快照（{snapshotCounts.snapshotted}）</option>
+          <option value="pending_snapshot">待快照（{snapshotCounts.pending}）</option>
+          <option value="partial_snapshot">部分快照（{snapshotCounts.partial}）</option>
+          <option value="snapshot_attention">需关注（{snapshotCounts.attention}）</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-sm text-[#a8a29a]">
+      <p>
+        当前显示 <span id="case-visible-count" class="font-mono text-[#ff3b4e]">{aCases.length}</span> / {aCases.length} 条 A 类案例。
+        <span>筛选视图：<span id="case-filter-label" class="text-[#f4f1ea]">全部 A 类案例</span>。</span>
+      </p>
+      <div class="flex flex-wrap gap-2">
+        <button class="atlas-copy-button" type="button" data-copy-current-url data-copy-original="复制当前视图" data-copy-success="视图链接已复制">复制当前视图</button>
+        <button id="case-reset-filters" class="border border-[#f4f1ea]/20 px-3 py-2 text-sm text-[#f4f1ea] hover:border-[#ff3b4e]/60" type="button">重置筛选</button>
+      </div>
+    </div>
   </section>
+
+  <section id="case-results" class="grid gap-3 lg:grid-cols-2">
+    {aCases.map((item) => (
+      (() => {
+        const evidenceTrust = buildEvidenceTrust(item);
+        const archiveEntry = evidenceArchiveMap.get(item.id);
+        return (
+          <article
+            class="case-result"
+            data-search={`${item.title} ${item.userOrOrg} ${item.modelName} ${item.vendor} ${item.taskCategory} ${item.taskDescription} ${item.outputResult} ${item.modelContribution}`.toLowerCase()}
+            data-model={item.modelId}
+            data-vendor={item.vendorId}
+            data-platform={item.sourcePlatform}
+            data-coding={/coding|agent|repo|github|pull request|PR|代码|代理/i.test(`${item.taskCategory} ${item.taskDescription} ${item.outputResult}`) ? "true" : "false"}
+            data-selected={item.selectedForModelCard ? "true" : "false"}
+            data-confidence={evidenceTrust.filterKey}
+            data-source-kind={evidenceTrust.sourceKey}
+            data-trust-score={evidenceTrust.score}
+            data-snapshot-status={archiveEntry?.snapshotStatus ?? "pending_snapshot"}
+          >
+            <CaseCard item={item} />
+          </article>
+        );
+      })()
+    ))}
+  </section>
+
+  <p id="case-empty" class="panel mt-4 hidden p-5 text-sm text-[#a8a29a]">
+    没有符合当前条件的 A 类案例。可以放宽搜索词、模型、厂商、来源平台、案例类型、证据强度或快照状态。
+  </p>
+
+  <div id="case-drawer-backdrop" class="case-drawer-backdrop" hidden></div>
+  <aside id="case-drawer" class="case-drawer" aria-hidden="true" aria-label="案例证据档案" hidden>
+    <div class="case-drawer__chrome">
+      <p class="mono text-xs uppercase tracking-[0.16em] text-[#ff3b4e]">Evidence Record</p>
+      <div class="case-drawer__actions">
+        <button class="atlas-copy-button" type="button" data-copy-current-url data-copy-original="复制证据链接" data-copy-success="证据链接已复制">复制证据链接</button>
+        <button id="case-drawer-close" type="button" aria-label="关闭证据档案">关闭</button>
+      </div>
+    </div>
+    <div id="case-drawer-content" class="case-drawer__content"></div>
+  </aside>
 
   <section class="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_360px]">
     <div class="panel mobile-scroll">
@@ -80,4 +275,638 @@ const caseModelNames = models.filter((model) => model.aCaseCount > 0).map((model
       <p class="mt-5 text-sm text-slate-400">暂无 A 类案例的模型数量：{noACaseModels.length}。模型详情页会逐一显示“暂无可核验 A 类案例”，并说明尚未找到符合 A 类标准的公开使用案例。</p>
     </aside>
   </section>
+
+  <script is:inline id="case-archive-data" type="application/json" set:html={caseArchivePayload}></script>
+  <script>
+    type CaseResultCard = HTMLElement & { dataset: DOMStringMap };
+    const getCaseControl = (selector: string) => document.querySelector(selector);
+    const params = new URLSearchParams(window.location.search);
+    const controls = {
+      search: getCaseControl("#case-search") as HTMLInputElement,
+      model: getCaseControl("#case-model-filter") as HTMLSelectElement,
+      vendor: getCaseControl("#case-vendor-filter") as HTMLSelectElement,
+      platform: getCaseControl("#case-platform-filter") as HTMLSelectElement,
+      type: getCaseControl("#case-type-filter") as HTMLSelectElement,
+      confidence: getCaseControl("#case-confidence-filter") as HTMLSelectElement,
+      snapshot: getCaseControl("#case-snapshot-filter") as HTMLSelectElement,
+      reset: getCaseControl("#case-reset-filters") as HTMLButtonElement,
+      count: getCaseControl("#case-visible-count") as HTMLElement,
+      label: getCaseControl("#case-filter-label") as HTMLElement,
+      results: getCaseControl("#case-results") as HTMLElement,
+      empty: getCaseControl("#case-empty") as HTMLElement
+    };
+    const cards = Array.from(document.querySelectorAll<HTMLElement>(".case-result")) as CaseResultCard[];
+
+    function syncCaseUrl() {
+      const next = new URL(window.location.href);
+      const setOrDelete = (key: string, value: string, emptyValue = "all") => {
+        if (!value || value === emptyValue) next.searchParams.delete(key);
+        else next.searchParams.set(key, value);
+      };
+      setOrDelete("q", String(controls.search.value ?? "").trim(), "");
+      setOrDelete("model", controls.model.value);
+      setOrDelete("vendor", controls.vendor.value);
+      setOrDelete("platform", controls.platform.value);
+      setOrDelete("type", controls.type.value);
+      setOrDelete("confidence", controls.confidence.value);
+      setOrDelete("snapshot", controls.snapshot.value);
+      window.history.replaceState({}, "", next);
+    }
+
+    function updateCaseLabel() {
+      const labels = [
+        controls.model.value !== "all" && controls.model.options[controls.model.selectedIndex]?.textContent,
+        controls.vendor.value !== "all" && controls.vendor.options[controls.vendor.selectedIndex]?.textContent,
+        controls.platform.value !== "all" && controls.platform.value,
+        controls.type.value !== "all" && controls.type.options[controls.type.selectedIndex]?.textContent,
+        controls.confidence.value !== "all" && controls.confidence.options[controls.confidence.selectedIndex]?.textContent,
+        controls.snapshot.value !== "all" && controls.snapshot.options[controls.snapshot.selectedIndex]?.textContent
+      ].filter(Boolean);
+      controls.label.textContent = labels.length ? labels.join(" / ") : "全部 A 类案例";
+    }
+
+    function applyCaseFilters() {
+      const query = String(controls.search.value ?? "").trim().toLowerCase();
+      const model = controls.model.value;
+      const vendor = controls.vendor.value;
+      const platform = controls.platform.value;
+      const type = controls.type.value;
+      const confidence = controls.confidence.value;
+      const snapshot = controls.snapshot.value;
+      const visible = cards.filter((card) => {
+        const matchesQuery = !query || String(card.dataset.search ?? "").includes(query);
+        const matchesModel = model === "all" || card.dataset.model === model;
+        const matchesVendor = vendor === "all" || card.dataset.vendor === vendor;
+        const matchesPlatform = platform === "all" || String(card.dataset.platform ?? "").includes(platform);
+        const matchesType =
+          type === "all" ||
+          (type === "coding" ? card.dataset.coding === "true" : card.dataset.selected === "true");
+        const matchesConfidence =
+          confidence === "all" ||
+          (confidence === "aplus"
+            ? card.dataset.confidence === "aplus"
+            : card.dataset.sourceKind === confidence);
+        const matchesSnapshot = snapshot === "all" || card.dataset.snapshotStatus === snapshot;
+        const show = matchesQuery && matchesModel && matchesVendor && matchesPlatform && matchesType && matchesConfidence && matchesSnapshot;
+        card.classList.toggle("hidden", !show);
+        return show;
+      });
+      controls.count.textContent = String(visible.length);
+      controls.empty.classList.toggle("hidden", visible.length !== 0);
+      updateCaseLabel();
+    }
+
+    [controls.search, controls.model, controls.vendor, controls.platform, controls.type, controls.confidence, controls.snapshot].forEach((control) => {
+      control.addEventListener("input", () => {
+        syncCaseUrl();
+        applyCaseFilters();
+      });
+      control.addEventListener("change", () => {
+        syncCaseUrl();
+        applyCaseFilters();
+      });
+    });
+
+    controls.reset.addEventListener("click", () => {
+      controls.search.value = "";
+      controls.model.value = "all";
+      controls.vendor.value = "all";
+      controls.platform.value = "all";
+      controls.type.value = "all";
+      controls.confidence.value = "all";
+      controls.snapshot.value = "all";
+      window.history.replaceState({}, "", window.location.pathname);
+      applyCaseFilters();
+    });
+
+    if (params.get("q")) controls.search.value = params.get("q") ?? "";
+    if (params.get("model")) controls.model.value = params.get("model") ?? "all";
+    if (params.get("modelId")) controls.model.value = params.get("modelId") ?? "all";
+    if (params.get("vendor")) controls.vendor.value = params.get("vendor") ?? "all";
+    if (params.get("platform")) controls.platform.value = params.get("platform") ?? "all";
+    if (params.get("type")) controls.type.value = params.get("type") ?? "all";
+    if (params.get("confidence")) controls.confidence.value = params.get("confidence") ?? "all";
+    if (params.get("snapshot")) controls.snapshot.value = params.get("snapshot") ?? "all";
+    applyCaseFilters();
+
+    type CaseArchiveItem = {
+      id: string;
+      title: string;
+      vendor: string;
+      vendorId: string;
+      modelId: string;
+      modelName: string;
+      modelSlug: string;
+      userOrOrg: string;
+      originalEvidenceUrl: string;
+      artifactUrl: string;
+      sourcePlatform: string;
+      sourceType: string;
+      taskCategory: string;
+      taskDescription: string;
+      outputResult: string;
+      modelContribution: string;
+      evidenceGrade: string;
+      selectedForModelCard: boolean;
+      riskNotes: string;
+      collectedAt: string;
+      reviewStatus: string;
+      evidenceArchive?: {
+        caseId: string;
+        snapshotStatus: string;
+        snapshotTargetCount?: number;
+        snapshotOkTargetCount?: number;
+        localSnapshotManifest: string;
+        targets: { kind: string; url: string; host: string; recommendedSnapshotPath: string }[];
+      };
+      evidenceTrust: {
+        score: number;
+        tier: string;
+        shortTier: string;
+        sourceKind: string;
+        sourceKey: string;
+        signals: string[];
+        filterKey: string;
+      };
+      narrative: {
+        displayTitle: string;
+        originalTitle: string;
+        deck: string;
+        summary: string;
+        useCaseLabel: string;
+        useCaseHeadline: string;
+        platformLabel: string;
+        taskBrief: string;
+        outputBrief: string;
+        contributionBrief: string;
+        riskBrief: string;
+        tags: string[];
+      };
+    };
+
+    const archiveDataElement = document.querySelector("#case-archive-data");
+    const archiveData = JSON.parse(archiveDataElement?.textContent || "{}") as { cases?: CaseArchiveItem[] };
+    const archiveCases = Array.isArray(archiveData.cases) ? archiveData.cases : [];
+    const archiveMap = new Map(archiveCases.map((item) => [item.id, item]));
+    const drawer = {
+      panel: document.querySelector("#case-drawer") as HTMLElement,
+      backdrop: document.querySelector("#case-drawer-backdrop") as HTMLElement,
+      close: document.querySelector("#case-drawer-close") as HTMLButtonElement,
+      content: document.querySelector("#case-drawer-content") as HTMLElement
+    };
+
+    const escapeHtml = (value: unknown) => String(value ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+
+    function splitArtifactLinks(item: CaseArchiveItem) {
+      return String(item.artifactUrl ?? "")
+        .split(" ; ")
+        .map((link) => link.trim())
+        .filter(Boolean);
+    }
+
+    function evidenceLinks(item: CaseArchiveItem) {
+      const artifactLinks = splitArtifactLinks(item);
+      return [
+        item.originalEvidenceUrl && `<a href="${escapeHtml(item.originalEvidenceUrl)}" target="_blank" rel="noreferrer">原始证据</a>`,
+        ...artifactLinks.map((link) => `<a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">产物链接</a>`)
+      ].filter(Boolean).join("");
+    }
+
+    function relatedCases(item: CaseArchiveItem) {
+      return archiveCases
+        .filter((candidate) => candidate.modelId === item.modelId && candidate.id !== item.id)
+        .slice(0, 5);
+    }
+
+    function archiveStatusLabel(status?: string) {
+      if (status === "snapshotted") return "已快照";
+      if (status === "partial_snapshot") return "部分快照";
+      if (status === "snapshot_attention") return "需关注";
+      return "待快照";
+    }
+
+    function archiveTargetSummary(item: CaseArchiveItem) {
+      const entry = item.evidenceArchive;
+      if (!entry) return "0 / 0 个证据目标";
+      return `${entry.snapshotOkTargetCount ?? 0} / ${entry.targets.length} 个证据目标`;
+    }
+
+    function archiveStatusCopy(item: CaseArchiveItem) {
+      const entry = item.evidenceArchive;
+      if (!entry) return "尚未进入证据归档清单。";
+      if (entry.snapshotStatus === "snapshotted") return `已完成快照：${archiveTargetSummary(item)}，可用本地 manifest 复核证据指纹。`;
+      if (entry.snapshotStatus === "partial_snapshot") return `已完成部分快照：${archiveTargetSummary(item)}，仍有证据目标需要补抓或人工复核。`;
+      if (entry.snapshotStatus === "snapshot_attention") return "当前快照需要关注，请检查证据指纹、URL 或 HTTP 状态。";
+      return `已列入归档队列，等待抓取 ${entry.targets.length} 个证据目标。`;
+    }
+
+    function syncCaseDeepLink(caseId?: string) {
+      const next = new URL(window.location.href);
+      if (caseId) next.searchParams.set("case", caseId);
+      else next.searchParams.delete("case");
+      window.history.replaceState({}, "", next);
+    }
+
+    function closeCaseDrawer({ sync = true } = {}) {
+      drawer.panel.hidden = true;
+      drawer.backdrop.hidden = true;
+      drawer.panel.setAttribute("aria-hidden", "true");
+      document.documentElement.classList.remove("case-drawer-open");
+      if (sync) syncCaseDeepLink();
+    }
+
+    function openCaseDrawer(caseId: string, { sync = true } = {}) {
+      const item = archiveMap.get(caseId);
+      if (!item) return;
+      const related = relatedCases(item);
+      drawer.content.innerHTML = `
+        <article class="case-record">
+          <div class="case-record__head">
+            <div>
+              <span>${escapeHtml(item.evidenceGrade)} 类证据 / ${escapeHtml(item.sourcePlatform)}</span>
+              <h2>${escapeHtml(item.narrative.displayTitle)}</h2>
+              <p>${escapeHtml(item.narrative.deck)}</p>
+              <p class="case-record__original">原始记录：${escapeHtml(item.narrative.originalTitle)}</p>
+            </div>
+            <div class="case-record__head-actions">
+              <a href="/cases/${escapeHtml(item.id)}">完整案例页</a>
+              <a href="/models/${escapeHtml(item.modelSlug)}">模型档案</a>
+            </div>
+          </div>
+
+          <div class="case-record__grid">
+            <div><span>厂商</span><strong>${escapeHtml(item.vendor)}</strong></div>
+            <div><span>任务类型</span><strong>${escapeHtml(item.narrative.useCaseLabel)}</strong></div>
+            <div><span>审核状态</span><strong>${escapeHtml(item.reviewStatus)}</strong></div>
+            <div><span>模型卡精选</span><strong>${item.selectedForModelCard ? "已进入" : "未进入"}</strong></div>
+            <div><span>证据可信度</span><strong>${escapeHtml(item.evidenceTrust.score)}/100 · ${escapeHtml(item.evidenceTrust.tier)}</strong></div>
+            <div><span>证据快照</span><strong>${escapeHtml(archiveStatusLabel(item.evidenceArchive?.snapshotStatus))} · ${escapeHtml(archiveTargetSummary(item))}</strong></div>
+          </div>
+
+          <section class="case-record__trust">
+            <span>可信信号</span>
+            <p>${escapeHtml(item.evidenceTrust.sourceKind)}；${item.evidenceTrust.signals.map((signal) => escapeHtml(signal)).join(" / ")}</p>
+          </section>
+
+          <section class="case-record__archive">
+            <span>证据快照</span>
+            <strong>${escapeHtml(archiveStatusLabel(item.evidenceArchive?.snapshotStatus))} · ${escapeHtml(archiveTargetSummary(item))}</strong>
+            <p>${escapeHtml(archiveStatusCopy(item))}</p>
+            ${item.evidenceArchive ? `<code>${escapeHtml(item.evidenceArchive.localSnapshotManifest)}</code>` : ""}
+          </section>
+
+          <section class="case-record__brief">
+            <span>中文导读</span>
+            <p>${escapeHtml(item.narrative.summary)}</p>
+            <div class="case-record__tags">
+              ${item.narrative.tags.map((tag) => `<em>${escapeHtml(tag)}</em>`).join("")}
+            </div>
+          </section>
+
+          <section>
+            <span>任务</span>
+            <p>${escapeHtml(item.narrative.taskBrief)}</p>
+          </section>
+          <section>
+            <span>公开产物</span>
+            <p>${escapeHtml(item.narrative.outputBrief)}</p>
+          </section>
+          <section>
+            <span>模型作用</span>
+            <p>${escapeHtml(item.narrative.contributionBrief)}</p>
+          </section>
+          <section>
+            <span>A 类理由</span>
+            <p>有具体使用者、具体任务、公开原始证据和可访问产物，可公开核验。</p>
+          </section>
+          <section>
+            <span>风险边界</span>
+            <p>${escapeHtml(item.narrative.riskBrief)}</p>
+          </section>
+
+          <div class="case-record__links">
+            ${evidenceLinks(item)}
+          </div>
+
+          <div class="case-record__related">
+            <span>同模型案例索引</span>
+            ${related.length ? related.map((candidate) => `
+              <button type="button" data-case-open data-case-id="${escapeHtml(candidate.id)}">
+                <strong>${escapeHtml(candidate.narrative.displayTitle)}</strong>
+                <em>${escapeHtml(candidate.userOrOrg)} / ${escapeHtml(candidate.sourcePlatform)}</em>
+              </button>
+            `).join("") : `<p>暂无更多同模型 A 类案例。</p>`}
+          </div>
+        </article>
+      `;
+      drawer.panel.hidden = false;
+      drawer.backdrop.hidden = false;
+      drawer.panel.setAttribute("aria-hidden", "false");
+      document.documentElement.classList.add("case-drawer-open");
+      if (sync) syncCaseDeepLink(caseId);
+    }
+
+    document.addEventListener("click", (event) => {
+      const target = event.target as HTMLElement | null;
+      const trigger = target?.closest("[data-case-open]") as HTMLElement | null;
+      if (trigger?.dataset.caseId) {
+        event.preventDefault();
+        openCaseDrawer(trigger.dataset.caseId);
+      }
+    });
+
+    drawer.close.addEventListener("click", () => closeCaseDrawer());
+    drawer.backdrop.addEventListener("click", () => closeCaseDrawer());
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && drawer.panel.getAttribute("aria-hidden") === "false") closeCaseDrawer();
+    });
+
+    if (params.get("case")) {
+      openCaseDrawer(params.get("case") ?? "", { sync: false });
+    }
+  </script>
+
+  <style is:global>
+    html.case-drawer-open {
+      overflow: hidden;
+    }
+
+    html.case-drawer-open body,
+    html.case-drawer-open .atlas-main,
+    html.case-drawer-open .mobile-scroll {
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
+
+    .case-drawer-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background: rgba(0, 0, 0, 0.72);
+    }
+
+    .case-drawer {
+      position: fixed;
+      inset: 0 0 0 auto;
+      z-index: 60;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      width: min(720px, calc(100vw - 24px));
+      max-width: 100vw;
+      overflow-x: hidden;
+      border-left: 1px solid rgba(255, 59, 78, 0.52);
+      background: #050505;
+      box-shadow: -32px 0 90px rgba(0, 0, 0, 0.48);
+    }
+
+    .case-drawer[hidden],
+    .case-drawer-backdrop[hidden] {
+      display: none;
+    }
+
+    .case-drawer__chrome {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      border-bottom: 1px solid rgba(244, 241, 234, 0.16);
+      padding: 18px 22px;
+    }
+
+    .case-drawer__actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .case-drawer__chrome button {
+      border: 1px solid rgba(244, 241, 234, 0.2);
+      background: transparent;
+      padding: 9px 13px;
+      color: #f4f1ea;
+      cursor: pointer;
+    }
+
+    .case-drawer__chrome button:hover {
+      border-color: rgba(255, 59, 78, 0.7);
+      color: #ff3b4e;
+    }
+
+    .case-drawer__content {
+      min-height: 0;
+      max-width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding: 22px;
+    }
+
+    .case-record,
+    .case-record * {
+      min-width: 0;
+    }
+
+    .case-record__head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: start;
+      border-bottom: 1px solid rgba(244, 241, 234, 0.16);
+      padding-bottom: 22px;
+    }
+
+    .case-record__head span,
+    .case-record section span,
+    .case-record__related > span,
+    .case-record__grid span {
+      color: #ff3b4e;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .case-record__head h2 {
+      margin: 14px 0 0;
+      color: #f4f1ea;
+      font-size: clamp(32px, 4vw, 54px);
+      font-weight: 900;
+      line-height: 1.06;
+      overflow-wrap: anywhere;
+    }
+
+    .case-record__head p,
+    .case-record section p,
+    .case-record__related p {
+      margin: 12px 0 0;
+      color: #a8a29a;
+      line-height: 1.75;
+    }
+
+    .case-record__original {
+      margin-top: 8px !important;
+      color: #6f6a62 !important;
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .case-record__brief {
+      background: rgba(244, 241, 234, 0.03);
+    }
+
+    .case-record__archive {
+      background: rgba(244, 241, 234, 0.025);
+    }
+
+    .case-record__archive strong {
+      display: block;
+      margin-top: 8px;
+      color: #f4f1ea;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .case-record__archive code {
+      display: block;
+      margin-top: 10px;
+      color: #6f6a62;
+      font-size: 12px;
+      overflow-wrap: anywhere;
+    }
+
+    .case-record__tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .case-record__tags em {
+      border: 1px solid rgba(244, 241, 234, 0.18);
+      padding: 7px 9px;
+      color: #a8a29a;
+      font-style: normal;
+      font-size: 12px;
+    }
+
+    .case-record__head-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .case-record__head a,
+    .case-record__links a {
+      border: 1px solid rgba(244, 241, 234, 0.2);
+      padding: 10px 12px;
+      color: #f4f1ea;
+      font-size: 13px;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    .case-record__head a:hover,
+    .case-record__links a:hover,
+    .case-record__related button:hover {
+      border-color: rgba(255, 59, 78, 0.68);
+    }
+
+    .case-record__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
+      gap: 1px;
+      margin-top: 22px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .case-record__grid div {
+      min-height: 104px;
+      background: #070707;
+      padding: 14px;
+    }
+
+    .case-record__grid strong {
+      display: block;
+      margin-top: 14px;
+      color: #f4f1ea;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .case-record section {
+      border-bottom: 1px solid rgba(244, 241, 234, 0.14);
+      padding: 22px 0;
+    }
+
+    .case-record__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 22px 0;
+    }
+
+    .case-record__related {
+      border: 1px solid rgba(244, 241, 234, 0.16);
+      padding: 16px;
+    }
+
+    .case-record__related button {
+      display: grid;
+      width: 100%;
+      gap: 6px;
+      margin-top: 12px;
+      border: 1px solid rgba(244, 241, 234, 0.14);
+      background: #050505;
+      padding: 12px;
+      color: #f4f1ea;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .case-record__related button strong {
+      color: #f4f1ea;
+      line-height: 1.45;
+    }
+
+    .case-record__related button em {
+      color: #a8a29a;
+      font-style: normal;
+      font-size: 12px;
+    }
+
+    @media (max-width: 720px) {
+      .case-drawer {
+        inset: 0;
+        width: 100%;
+        max-width: 100%;
+        border-left: 0;
+      }
+
+      .case-drawer__content {
+        padding: 18px;
+      }
+
+      .case-record__head,
+      .case-record__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .case-record__head a {
+        width: fit-content;
+      }
+
+      .case-record__head-actions {
+        justify-content: flex-start;
+      }
+    }
+  </style>
 </BaseLayout>

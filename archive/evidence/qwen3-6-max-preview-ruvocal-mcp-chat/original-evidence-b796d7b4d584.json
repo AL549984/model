@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:32.405Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ruvnet/ruflo/blob/41d475ee1cf2bb3bdf629c67e3de15cd0e00f48f/ruflo/src/ruvocal/README.md",
+  "finalUrl": "https://github.com/ruvnet/ruflo/blob/41d475ee1cf2bb3bdf629c67e3de15cd0e00f48f/ruflo/src/ruvocal/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7de82882dd5c146844d40c6cd91b6100\"",
+  "lastModified": null,
+  "bodyBytes": 336992,
+  "bodySha256": "45c7ea4e98713e75794eccd1ce1778e0e06bec0b65150a22b7efe1104d4cfc85",
+  "title": "ruflo/ruflo/src/ruvocal/README.md at 41d475ee1cf2bb3bdf629c67e3de15cd0e00f48f · ruvnet/ruflo · GitHub",
+  "github": {
+    "owner": "ruvnet",
+    "repo": "ruflo",
+    "htmlUrl": "https://github.com/ruvnet/ruflo",
+    "defaultBranch": "main",
+    "defaultBranchSha": "a63cdf05266317129a1917d084cc6f9595a9ddec",
+    "pushedAt": "2026-06-27T18:01:53Z",
+    "updatedAt": "2026-06-27T22:50:58Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

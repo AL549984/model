@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-0324-kevgeoleo-rag-chatbot",
+  "modelId": "deepseek-v3-0324",
+  "modelName": "DeepSeek V3 0324",
+  "title": "RAG chatbot answering dataset-specific questions with DeepSeek V3 0324 via OpenRouter",
+  "evidenceFingerprint": "85ff057596b1f72895b53950cad51b4e4209a17b1408ed94f1b3905f4b61f522",
+  "capturedAt": "2026-06-27T21:08:41.169Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kevgeoleo/RAG-Chatbot-pet-project/blob/master/README.md",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-kevgeoleo-rag-chatbot/original-evidence-a4da9286d43f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RAG-Chatbot-pet-project/README.md at master · kevgeoleo/RAG-Chatbot-pet-project · GitHub",
+      "bodySha256": "c1653fc08d530f41d3d56c214d343fad60af856dc9d54bb0348c00b0094ae160",
+      "capturedAt": "2026-06-27T21:08:38.558Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kevgeoleo/RAG-Chatbot-pet-project",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-kevgeoleo-rag-chatbot/artifact-1-bfddce3460ab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kevgeoleo/RAG-Chatbot-pet-project: A simple RAG chatbot using DeepSeek V3 0324 · GitHub",
+      "bodySha256": "e29a1299f421855762240db212d7a4b05abd2891fd48f97e054ea6ad180bb30b",
+      "capturedAt": "2026-06-27T21:08:39.775Z",
+      "error": ""
+    }
+  ]
+}

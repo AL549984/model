@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:19.783Z",
+  "kind": "artifact-1",
+  "url": "https://www.loom.com/share/c63c3a5668e2440e9dc67829299714f4",
+  "finalUrl": "https://www.loom.com/share/c63c3a5668e2440e9dc67829299714f4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8334-sCmh0kjdAsYZZUdpN75v8oOd4As\"",
+  "lastModified": null,
+  "bodyBytes": 33588,
+  "bodySha256": "4dcbfd4baf3ffb8b79d74cdfcbe7a5d5de50264e5ffca6e3c814166ebb08fcc6",
+  "title": "Voice Bot Walkthrough for Medical Clinic System | Loom",
+  "github": null
+}

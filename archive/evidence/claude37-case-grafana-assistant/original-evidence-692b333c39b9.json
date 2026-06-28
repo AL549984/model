@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:00.004Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/grafana",
+  "finalUrl": "https://claude.com/customers/grafana",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 21:28:34 GMT",
+  "bodyBytes": 595831,
+  "bodySha256": "508208d2c11857f5bfa272929e886e855b3e5975e04f2c1ca17276b9c2fcf393",
+  "title": "Grafana Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

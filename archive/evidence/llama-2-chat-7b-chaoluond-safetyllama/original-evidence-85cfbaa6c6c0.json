@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:36.462Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/chaoluond/safetyllama/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/chaoluond/safetyllama/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4146",
+  "etag": "W/\"a2bbe27418d4bceb5738a88940983856d44eceff343734f6732290381f0fa4b7\"",
+  "lastModified": null,
+  "bodyBytes": 10141,
+  "bodySha256": "7a6c0da4113d79418c7abe85b43845ceebf9ba14ff67acb035ef8ba3e91e388c",
+  "title": "",
+  "github": null
+}

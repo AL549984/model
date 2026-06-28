@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-dec-vaultguard-003",
+  "modelId": "deepseek-v3-dec",
+  "modelName": "DeepSeek V3 (Dec)",
+  "title": "LAON VaultGuard — Multi-LLM Cross-Validated Secret Detection",
+  "evidenceFingerprint": "8b6e03dcd510fa97fbfcc4d57027c514cc558544d76a36d053c80213c4aabbea",
+  "capturedAt": "2026-06-27T21:34:30.858Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/gameworkerkim/vibe-investing/tree/main/LAON_VaultGuard",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-vaultguard-003/original-evidence-e2903936cd69.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "vibe-investing/LAON_VaultGuard at main · gameworkerkim/vibe-investing · GitHub",
+      "bodySha256": "daaa10cf9f71c93d3076b6c551b9e2bab3d23747a3c8566e68dfbaa9ef3d6e7c",
+      "capturedAt": "2026-06-27T21:34:29.122Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/gameworkerkim/vibe-investing/tree/main/LAON_VaultGuard",
+      "snapshotPath": "archive/evidence/deepseek-v3-dec-vaultguard-003/artifact-1-e2903936cd69.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "vibe-investing/LAON_VaultGuard at main · gameworkerkim/vibe-investing · GitHub",
+      "bodySha256": "b9e276a4b393a8bdf0da82097824530c170b81a40a891ba2c7674b03235a4054",
+      "capturedAt": "2026-06-27T21:34:30.279Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:13.876Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/openclaw/openclaw/issues/59225",
+  "finalUrl": "https://github.com/openclaw/openclaw/issues/59225",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 318577,
+  "bodySha256": "a6cd3963f43dfd01dadbc0316b20353ef39f471b66551923144da8134c828d27",
+  "title": "Feature: Per-agent tool schema parameter filtering (slim tool definitions for subagents) · Issue #59225 · openclaw/openclaw · GitHub",
+  "github": {
+    "owner": "openclaw",
+    "repo": "openclaw",
+    "apiStatus": "unavailable"
+  }
+}

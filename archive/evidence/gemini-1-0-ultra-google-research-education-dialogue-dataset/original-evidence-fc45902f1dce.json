@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:25.929Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/google-research-datasets/Education-Dialogue-Dataset/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/google-research-datasets/Education-Dialogue-Dataset/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1122",
+  "etag": "W/\"c476bbc10bb7ab3d0789ec31cd2b378e54531500a343f0ba6ee72381f7066650\"",
+  "lastModified": null,
+  "bodyBytes": 2793,
+  "bodySha256": "2f1a933300a0d73c2239722ecba28f0df55a027f70b20887b9444b0074568cf8",
+  "title": "",
+  "github": null
+}

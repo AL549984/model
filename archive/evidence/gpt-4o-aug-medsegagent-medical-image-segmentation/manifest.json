@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4o-aug-medsegagent-medical-image-segmentation",
+  "modelId": "gpt-4o-aug",
+  "modelName": "GPT-4o (Aug)",
+  "title": "MedSegAgent uses GPT-4o 2024-08-06 for instructive medical image segmentation model selection",
+  "evidenceFingerprint": "da5c2186261068f9fdf8a49af6dbe36a228270ea4be6aed114409ed0e0ed2bda",
+  "capturedAt": "2026-06-27T22:01:03.814Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/uni-medical/MedSegAgent/blob/main/README.md#llm-config",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-medsegagent-medical-image-segmentation/original-evidence-6aed5aaa731e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MedSegAgent/README.md at main · uni-medical/MedSegAgent · GitHub",
+      "bodySha256": "ed254794229ee186094d34a0a2a99c033c5880e069f28e3d45a79016d9870258",
+      "capturedAt": "2026-06-27T22:01:01.298Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/uni-medical/MedSegAgent",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-medsegagent-medical-image-segmentation/artifact-1-5e8f68426ebd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - uni-medical/MedSegAgent: IEEE JBHI 2026 | MedSegAgent: A Universal and Scalable Multi-Agent System for Instructive Medical Image Segmentation · GitHub",
+      "bodySha256": "9cadb9173e45866d4ca03182e370764850a63f70afa623438dc37270bacde382",
+      "capturedAt": "2026-06-27T22:01:02.520Z",
+      "error": ""
+    }
+  ]
+}

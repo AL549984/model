@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-terminus-com-wuqi-fastapi-auth-server",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "com-wuqi published a FastAPI user-management and authentication service built with DeepSeek V3.1 Terminus through SiliconFlow",
+  "evidenceFingerprint": "244495f47c779e0a36a7ec3bc664f9c977684410121cfe3322ee5a8d09b8660d",
+  "capturedAt": "2026-06-27T21:09:01.336Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/com-wuqi/authServer_ai",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-com-wuqi-fastapi-auth-server/original-evidence-99d22d151c1a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - com-wuqi/authServer_ai: 由 claude code ( + siliconflow + DeepSeek-V3.1-Terminus ) 完成 · GitHub",
+      "bodySha256": "719ffb3f5835922d3e356ab418cb55813c8fca12d23c9d46a4af0aa68df663af",
+      "capturedAt": "2026-06-27T21:08:59.578Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/com-wuqi/authServer_ai",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-com-wuqi-fastapi-auth-server/artifact-1-99d22d151c1a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - com-wuqi/authServer_ai: 由 claude code ( + siliconflow + DeepSeek-V3.1-Terminus ) 完成 · GitHub",
+      "bodySha256": "1817844a5ed4bbc663f4b407d3b29b8494c5f4dac6315f277ee3101cf78ff43d",
+      "capturedAt": "2026-06-27T21:09:00.831Z",
+      "error": ""
+    }
+  ]
+}

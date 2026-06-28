@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:28:56.936Z",
+  "kind": "artifact-1",
+  "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+  "finalUrl": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 1262862,
+  "bodySha256": "82b7df570bd5e4dba2181e851392e73ed06b17131955809600e26a23963c431e",
+  "title": "",
+  "github": null
+}

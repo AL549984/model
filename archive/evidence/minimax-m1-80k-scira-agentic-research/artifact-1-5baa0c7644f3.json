@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:22.028Z",
+  "kind": "artifact-1",
+  "url": "https://scira.ai",
+  "finalUrl": "https://scira.ai/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a84eb9c0912f855c1ea1e7b29850a37d\"",
+  "lastModified": null,
+  "bodyBytes": 84546,
+  "bodySha256": "134f89865036c093ad68d619f543bc7f3954211808bfe9350d691a390f116f71",
+  "title": "Scira - AI Search | Scira AI",
+  "github": null
+}

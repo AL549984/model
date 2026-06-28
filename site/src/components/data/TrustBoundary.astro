@@ -12,13 +12,13 @@ const {
 } = Astro.props;
 
 const toneClass = tone === "amber"
-  ? "border-amber-300/25 bg-amber-300/10 text-amber-50"
-  : "border-cyan-300/25 bg-cyan-300/10 text-cyan-50";
+  ? "border-[#ff3b4e]/45 bg-[#ff3b4e]/[0.06] text-[#f4f1ea]"
+  : "border-[#f4f1ea]/20 bg-[#070707] text-[#f4f1ea]";
 ---
 
-<aside class={`rounded-lg border p-4 text-sm leading-relaxed ${toneClass}`}>
-  <p class="font-semibold text-slate-50">{publicizeText(title)}</p>
-  <ul class="mt-3 space-y-2">
+<aside class={`border p-4 text-sm leading-relaxed ${toneClass}`}>
+  <p class="font-semibold text-[#f4f1ea]">{publicizeText(title)}</p>
+  <ul class="mt-3 space-y-2 text-[#a8a29a]">
     {notes.map((note: string) => <li>- {publicizeText(note)}</li>)}
   </ul>
 </aside>

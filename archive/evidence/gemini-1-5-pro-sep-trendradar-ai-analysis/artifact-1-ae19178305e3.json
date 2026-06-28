@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:57.059Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sansan0/TrendRadar",
+  "finalUrl": "https://github.com/sansan0/TrendRadar",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"499e779f8a454f17cf55e22e81c47c54\"",
+  "lastModified": null,
+  "bodyBytes": 1434698,
+  "bodySha256": "528d4d119861b83bfba5cee0edd0da9e4f4f745148c9adc6a2f620445423e880",
+  "title": "GitHub - sansan0/TrendRadar: ⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然",
+  "github": {
+    "owner": "sansan0",
+    "repo": "TrendRadar",
+    "apiStatus": "unavailable"
+  }
+}

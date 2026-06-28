@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:04.684Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/shubhamsinghrathore/CLAUDE-SKILLS",
+  "finalUrl": "https://github.com/shubhamsinghrathore/CLAUDE-SKILLS",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"88bc60bb739a9de22053018cf6eedcaf\"",
+  "lastModified": null,
+  "bodyBytes": 245062,
+  "bodySha256": "aab435e1203fad41622e3e4210678780eac2351be30d8c919cdb04631e4afae0",
+  "title": "GitHub - shubhamsinghrathore/CLAUDE-SKILLS: I have created Claude skills with the use of Mythos 5 model to debug and issue · GitHub",
+  "github": {
+    "owner": "shubhamsinghrathore",
+    "repo": "CLAUDE-SKILLS",
+    "apiStatus": "unavailable"
+  }
+}

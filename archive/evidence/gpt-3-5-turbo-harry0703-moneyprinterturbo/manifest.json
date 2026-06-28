@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-3-5-turbo-harry0703-moneyprinterturbo",
+  "modelId": "gpt-3-5-turbo",
+  "modelName": "GPT-3.5 Turbo",
+  "title": "MoneyPrinterTurbo 用 GPT-3.5 Turbo 生成短视频文案并自动产出高清视频",
+  "evidenceFingerprint": "716c7389980045bc192703ec8c1efba7836ce37143e3ea7d82182f810f54b310",
+  "capturedAt": "2026-06-27T21:54:15.568Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/config.example.toml#L138-L145",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-harry0703-moneyprinterturbo/original-evidence-432ae98fd1e6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MoneyPrinterTurbo/config.example.toml at main · harry0703/MoneyPrinterTurbo · GitHub",
+      "bodySha256": "42f2060df5c3d7558b8b67962ae861d8c14f4a357e16af9ceb25ea93514c958f",
+      "capturedAt": "2026-06-27T21:54:13.011Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-harry0703-moneyprinterturbo/artifact-1-0604d6a7a7d7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. · GitHub",
+      "bodySha256": "b635995980c9bbe8d3e3b1bc4312008ff087fe4b3662ada2cfc8337b37ee49c2",
+      "capturedAt": "2026-06-27T21:54:14.013Z",
+      "error": ""
+    }
+  ]
+}

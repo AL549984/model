@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:20.674Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7f4b2e53ef3f8680d04226ba9ae720563ae73b6c\"",
+  "lastModified": null,
+  "bodyBytes": 7134,
+  "bodySha256": "85cde7e2792ec912e6c82f8c0f1c69079bffb106d59a5a574da2b5aa45b6b15f",
+  "title": "",
+  "github": null
+}

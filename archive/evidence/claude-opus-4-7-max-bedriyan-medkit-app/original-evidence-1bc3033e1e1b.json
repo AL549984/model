@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:21.939Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/bedriyan/medkit-app#readme",
+  "finalUrl": "https://github.com/bedriyan/medkit-app",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"222aa529b4e621cb50b408e42582a2fd\"",
+  "lastModified": null,
+  "bodyBytes": 339261,
+  "bodySha256": "3822172c5c8b67b47568e3dd9b86e064b941464fdbcb395976f2ed5d9ecf01e6",
+  "title": "GitHub - bedriyan/medkit-app: A voice-first AI patient simulator bringing the future of medical education to your browser, built with Claude Opus 4.7. · GitHub",
+  "github": {
+    "owner": "bedriyan",
+    "repo": "medkit-app",
+    "htmlUrl": "https://github.com/bedriyan/medkit-app",
+    "defaultBranch": "main",
+    "defaultBranchSha": "3f637a8afd76b81e520bfeae3af9fbf32b601594",
+    "pushedAt": "2026-04-26T00:40:41Z",
+    "updatedAt": "2026-06-27T12:27:32Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

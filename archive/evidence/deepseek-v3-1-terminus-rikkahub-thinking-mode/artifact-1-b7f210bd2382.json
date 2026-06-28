@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:11.964Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/rikkahub/rikkahub/issues/686",
+  "finalUrl": "https://github.com/rikkahub/rikkahub/issues/686",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 289353,
+  "bodySha256": "31c8c8598be430a1143e7de171d37de7955998c19eb95714b62dbebbfbcfaf9f",
+  "title": "Thinking按钮对部分模型无效 · Issue #686 · rikkahub/rikkahub · GitHub",
+  "github": {
+    "owner": "rikkahub",
+    "repo": "rikkahub",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:43.598Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/tiankongzhise/is_seo_word/blob/main/README.md",
+  "finalUrl": "https://github.com/tiankongzhise/is_seo_word/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4fdf72d689eaf6c0a0f0211d19ddf561\"",
+  "lastModified": null,
+  "bodyBytes": 230430,
+  "bodySha256": "466199608227cd109b31aaf26c1c36aa68cfb8530a3e542077810baf45c89d94",
+  "title": "is_seo_word/README.md at main · tiankongzhise/is_seo_word · GitHub",
+  "github": {
+    "owner": "tiankongzhise",
+    "repo": "is_seo_word",
+    "apiStatus": "unavailable"
+  }
+}

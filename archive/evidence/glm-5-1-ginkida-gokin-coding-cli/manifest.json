@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-ginkida-gokin-coding-cli",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "Gokin offers a GLM Coding Plan mode using GLM-5.1 for daily coding assistance",
+  "evidenceFingerprint": "53e88fac764527f6c9b60754a1f4909a68f53093a904620dd324ce21cc31d2a7",
+  "capturedAt": "2026-06-27T21:53:42.897Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ginkida/gokin#model-options",
+      "snapshotPath": "archive/evidence/glm-5-1-ginkida-gokin-coding-cli/original-evidence-dbefc01b1943.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ginkida/gokin: A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps with file operations, code search, shell commands, git workflows, task management, and more - all thr",
+      "bodySha256": "c464e8582b8b9cb288bc95f92d81badc5cd7cfcfe0c452e15474b6417534a9ce",
+      "capturedAt": "2026-06-27T21:53:41.198Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ginkida/gokin",
+      "snapshotPath": "archive/evidence/glm-5-1-ginkida-gokin-coding-cli/artifact-1-1c54b219dec9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ginkida/gokin: A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps with file operations, code search, shell commands, git workflows, task management, and more - all thr",
+      "bodySha256": "eb75efe0bf40b6bfa9529b68c32269d2d936b5038738ed4f4487e0ad9da76adb",
+      "capturedAt": "2026-06-27T21:53:42.267Z",
+      "error": ""
+    }
+  ]
+}

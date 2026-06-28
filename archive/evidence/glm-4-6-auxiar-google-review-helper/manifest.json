@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-6-auxiar-google-review-helper",
+  "modelId": "glm-4-6",
+  "modelName": "GLM-4.6",
+  "title": "GoogleReviewHelper web app coded with assistance from GLM-4.6",
+  "evidenceFingerprint": "7a036d2b3703e4d38c8a45ee5ad48fa0eeb4ce051a470ae45090b4ed41b0ca6e",
+  "capturedAt": "2026-06-27T21:47:30.919Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Auxiar/GoogleReviewHelper",
+      "snapshotPath": "archive/evidence/glm-4-6-auxiar-google-review-helper/original-evidence-e14c54c299cc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Auxiar/GoogleReviewHelper: A quick and dirty webpage to contact Google&#39;s Places API in order to retrieve a direct &quot;Leave a Review&quot; Google link. Just supply your own Places API Key and you&#39;re off to the races. Quic",
+      "bodySha256": "d6a7287ce15456d5fe0626b4a2491857231f76b8e7c11955bdda32eb5c393282",
+      "capturedAt": "2026-06-27T21:47:29.094Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://auxiar.github.io/GoogleReviewHelper/",
+      "snapshotPath": "archive/evidence/glm-4-6-auxiar-google-review-helper/artifact-1-2c350d05c0bb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Google Review Helper",
+      "bodySha256": "0ebe15879e9ef2b9dfde5515bda77fb868b5e8cdf1e3e006a9f3d2cd5423e416",
+      "capturedAt": "2026-06-27T21:47:30.111Z",
+      "error": ""
+    }
+  ]
+}

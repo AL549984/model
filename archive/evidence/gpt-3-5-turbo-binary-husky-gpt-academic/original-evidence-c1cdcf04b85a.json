@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:08.318Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/binary-husky/gpt_academic/blob/master/README.md#L104-L119",
+  "finalUrl": "https://github.com/binary-husky/gpt_academic/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"169d380ae7f12bbbef3c52efdea24d9b\"",
+  "lastModified": null,
+  "bodyBytes": 477371,
+  "bodySha256": "c0b96977efc6a360468faebdd82217f8b306525cbf729f068a0f9a69a95c35c7",
+  "title": "gpt_academic/README.md at master · binary-husky/gpt_academic · GitHub",
+  "github": {
+    "owner": "binary-husky",
+    "repo": "gpt_academic",
+    "apiStatus": "unavailable"
+  }
+}

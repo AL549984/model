@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-1-opus-cloudstreet-git-well-soon",
+  "modelId": "claude-4-1-opus",
+  "modelName": "Claude 4.1 Opus",
+  "title": "cloudstreet-dev published a beginner Git book written with Claude Opus 4.1",
+  "evidenceFingerprint": "57aeff628caf8b4d7b8c04c53f8c2aae7a4b046d7ebf9a4cd872c35a3423574c",
+  "capturedAt": "2026-06-27T20:54:32.475Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/cloudstreet-dev/Git-Well-Soon",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-cloudstreet-git-well-soon/original-evidence-ea772de34fcb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - cloudstreet-dev/Git-Well-Soon: A book written by Claude Opus 4.1 on how to work with Git. · GitHub",
+      "bodySha256": "582759b8c3444e85bc26cabfcd1bbe8b017f15a754ab3731b75abadf4976390c",
+      "capturedAt": "2026-06-27T20:54:30.715Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/cloudstreet-dev/Git-Well-Soon",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-cloudstreet-git-well-soon/artifact-1-ea772de34fcb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - cloudstreet-dev/Git-Well-Soon: A book written by Claude Opus 4.1 on how to work with Git. · GitHub",
+      "bodySha256": "bda3c9a7f07821e7201a800c5e9548e6d5be1aec02bd97f1844b13344aae3a84",
+      "capturedAt": "2026-06-27T20:54:31.953Z",
+      "error": ""
+    }
+  ]
+}

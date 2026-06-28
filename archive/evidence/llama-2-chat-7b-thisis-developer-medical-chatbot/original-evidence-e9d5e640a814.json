@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:42.403Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1887",
+  "etag": "W/\"bce3e2f3a0f75c7c30d73afd4b7533203ad1e22d8180127a7ec57b3e782233fe\"",
+  "lastModified": null,
+  "bodyBytes": 4401,
+  "bodySha256": "c59e6e5507369a655192dcb9aff9a4451593b06efb882e72284d8f9fd118c0e4",
+  "title": "",
+  "github": null
+}

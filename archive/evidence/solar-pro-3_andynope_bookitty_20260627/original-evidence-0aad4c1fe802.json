@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:37.639Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AndyNope/bookitty/blob/main/api/chat.php",
+  "finalUrl": "https://github.com/AndyNope/bookitty/blob/main/api/chat.php",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"65890da6bf8bee518f7c14bb91d8e33c\"",
+  "lastModified": null,
+  "bodyBytes": 307482,
+  "bodySha256": "3fbb2d4d36b7e9d9f28700773a78b5f29e48d7b101623cab4f78f890a8ce7a8b",
+  "title": "bookitty/api/chat.php at main · AndyNope/bookitty · GitHub",
+  "github": {
+    "owner": "AndyNope",
+    "repo": "bookitty",
+    "apiStatus": "unavailable"
+  }
+}

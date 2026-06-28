@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:26.127Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/smarvela/lutheran-qa-app/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/smarvela/lutheran-qa-app/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2060",
+  "etag": "W/\"574de9d4f7747a5dd245999302463ede8aa07dfd80fa1b619d9df1f25224b7f9\"",
+  "lastModified": null,
+  "bodyBytes": 4122,
+  "bodySha256": "821806087b03a0befd52891cd1cab9f0e906f59fb4bc8a09265342162f3296e8",
+  "title": "",
+  "github": null
+}

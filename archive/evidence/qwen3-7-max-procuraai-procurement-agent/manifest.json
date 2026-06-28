@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-7-max-procuraai-procurement-agent",
+  "modelId": "qwen3-7-max",
+  "modelName": "Qwen3.7 Max",
+  "title": "ProcuraAI 用 Qwen3.7-Max 构建企业采购 Agent",
+  "evidenceFingerprint": "10a4d7d32e8c690fbd8f629a85898c02a55cb47a40daef0642905a1207026547",
+  "capturedAt": "2026-06-27T23:08:07.586Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MM1ng/ProcuraAI/blob/main/README.md#features",
+      "snapshotPath": "archive/evidence/qwen3-7-max-procuraai-procurement-agent/original-evidence-d9bab4d5c447.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ProcuraAI/README.md at main · MM1ng/ProcuraAI · GitHub",
+      "bodySha256": "0fed504bd50cbefce6910938dfc7b415f14291da62f347593c4b0c0ecd40dc5f",
+      "capturedAt": "2026-06-27T23:08:05.408Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MM1ng/ProcuraAI",
+      "snapshotPath": "archive/evidence/qwen3-7-max-procuraai-procurement-agent/artifact-1-0a15acb4fba0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MM1ng/ProcuraAI: Enterprise Procurement Agent powered by Qwen3.7-Max, Agentic RAG, and Multi-turn Workflow Planning. · GitHub",
+      "bodySha256": "30eab00e8e757bd9ec1932e1187189d89dead74e579cf555d2f65b7c467315c4",
+      "capturedAt": "2026-06-27T23:08:06.438Z",
+      "error": ""
+    }
+  ]
+}

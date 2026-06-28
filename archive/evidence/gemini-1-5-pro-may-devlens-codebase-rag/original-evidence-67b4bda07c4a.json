@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:34.134Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AliSajid55/DevLens-Chat-with-Your-Codebase#readme",
+  "finalUrl": "https://github.com/AliSajid55/DevLens-Chat-with-Your-Codebase",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7ee9b7090b40c3370ccc3f370c533116\"",
+  "lastModified": null,
+  "bodyBytes": 371003,
+  "bodySha256": "63e373eb989a1382954bc27de8587afb07b5d23de695629bcaefdf181c206d97",
+  "title": "GitHub - AliSajid55/DevLens-Chat-with-Your-Codebase: Chat with any GitHub codebase in natural language. Built with FastAPI, LangChain, Google Gemini 1.5 Pro &amp; Vector Database(Pinecone). Paste a repo URL, ask questions, get answers with ",
+  "github": {
+    "owner": "AliSajid55",
+    "repo": "DevLens-Chat-with-Your-Codebase",
+    "apiStatus": "unavailable"
+  }
+}

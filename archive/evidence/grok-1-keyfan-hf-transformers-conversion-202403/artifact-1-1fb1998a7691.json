@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:22.752Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/keyfan/grok-1-hf",
+  "finalUrl": "https://huggingface.co/keyfan/grok-1-hf",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"20c8b-HLPToUK5gM1mxqrH2igXuEOmDDc\"",
+  "lastModified": null,
+  "bodyBytes": 134283,
+  "bodySha256": "0b9dd1605d2e5078d159ee50895f23e89fab54252b072aca3e20455f98ed15eb",
+  "title": "keyfan/grok-1-hf · Hugging Face",
+  "github": null
+}

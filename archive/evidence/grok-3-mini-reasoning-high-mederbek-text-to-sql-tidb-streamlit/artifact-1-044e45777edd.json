@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:23.038Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MederbekSuiundukov/AI-Agent-for-Relational-Database-System",
+  "finalUrl": "https://github.com/MederbekSuiundukov/AI-Agent-for-Relational-Database-System",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6549879adef66b80395eff3d04ff6448\"",
+  "lastModified": null,
+  "bodyBytes": 284325,
+  "bodySha256": "9e692153b56be38e941938607273c6ef2cedd0d982dd85b40d47825abb3ae644",
+  "title": "GitHub - MederbekSuiundukov/AI-Agent-for-Relational-Database-System: User Question │ ▼ Streamlit Chat UI (app.py) │ ▼ LangChain SQL Agent ←→ Grok-3-mini (xAI API) │ (schema inspect → SQL draft → check → execute) ▼ TiDB Serverless (MySQL) │ ",
+  "github": {
+    "owner": "MederbekSuiundukov",
+    "repo": "AI-Agent-for-Relational-Database-System",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-ai-okx-alpha-arena-20260627",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "ai-okx 在 Alpha Arena OKX 自动交易机器人中提供 qwen3-max 决策选项",
+  "evidenceFingerprint": "db40025c0fb0b5f152317a2f71a12bd03cf7f6494bf391644d317a3ab047dd51",
+  "capturedAt": "2026-06-27T23:08:09.599Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ai-okx/alpha-arena-okx",
+      "snapshotPath": "archive/evidence/qwen3-max-ai-okx-alpha-arena-20260627/original-evidence-e91c28d0ffb5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ai-okx/alpha-arena-okx: 比特币BTC加密货币ai自动交易机器人，基于nof1:alphaarena项目，让ai模型deepseek或qwen3-max自动炒币的程序，支持欧易okx交易所。无需人工干预，请看演示网站（演示为新版本，正在持续测试中，稳定盈利后更新，请关注更新） · GitHub",
+      "bodySha256": "a106584a08595fc898540be189a114d937a4df47ed5f9266ca0e921f927964c5",
+      "capturedAt": "2026-06-27T23:08:07.587Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ai-okx/alpha-arena-okx",
+      "snapshotPath": "archive/evidence/qwen3-max-ai-okx-alpha-arena-20260627/artifact-1-e91c28d0ffb5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ai-okx/alpha-arena-okx: 比特币BTC加密货币ai自动交易机器人，基于nof1:alphaarena项目，让ai模型deepseek或qwen3-max自动炒币的程序，支持欧易okx交易所。无需人工干预，请看演示网站（演示为新版本，正在持续测试中，稳定盈利后更新，请关注更新） · GitHub",
+      "bodySha256": "cefd974aa87e18213c3c38423dd191fb82ca4bcbedb67d4a264df8977e12ac94",
+      "capturedAt": "2026-06-27T23:08:09.118Z",
+      "error": ""
+    }
+  ]
+}

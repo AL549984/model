@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:24.484Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/steno",
+  "finalUrl": "https://claude.com/customers/steno",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 16:59:57 GMT",
+  "bodyBytes": 594346,
+  "bodySha256": "066a5333b93a811a5c7b1647c8968fa9bdc0915fd6068dd0a634824ce6fe9b83",
+  "title": "Steno Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

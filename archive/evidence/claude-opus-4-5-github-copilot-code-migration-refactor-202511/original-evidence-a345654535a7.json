@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:07.318Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-opus-4-5#github-copilot-mario-rodriguez",
+  "finalUrl": "https://www.anthropic.com/news/claude-opus-4-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 302872,
+  "bodySha256": "9f36ed4675e7876fe64d792ad384c5957889720e454c8f0d862984476c1c4fa3",
+  "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+  "github": null
+}

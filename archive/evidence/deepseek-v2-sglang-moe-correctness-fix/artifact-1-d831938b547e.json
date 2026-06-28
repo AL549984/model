@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:24.185Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sgl-project/sglang",
+  "finalUrl": "https://github.com/sgl-project/sglang",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fd8ddfd9254b2515dd0f953c347e9f52\"",
+  "lastModified": null,
+  "bodyBytes": 360876,
+  "bodySha256": "6f94ee03cc87958a7d1775b4879a678e6f74923994b67ee44b62726160072b73",
+  "title": "GitHub - sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub",
+  "github": {
+    "owner": "sgl-project",
+    "repo": "sglang",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen1-5-chat-110b-llamafactory-sft-a40-3583",
+  "modelId": "qwen1-5-chat-110b",
+  "modelName": "Qwen1.5 Chat 110B",
+  "title": "LLaMA-Factory user attempts SFT fine-tuning of Qwen1.5-110B-Chat with DeepSpeed ZeRO-3 on 4×A40",
+  "evidenceFingerprint": "4eab09d65ce3bcc7b4598f29cab65d7e41bec316336f11f8319f0c45221b0984",
+  "capturedAt": "2026-06-27T22:59:38.146Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/hiyouga/LLaMA-Factory/issues/3583",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-llamafactory-sft-a40-3583/original-evidence-6ec66444aa30.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "最新的代码，deepspeed (0.14.2)4*A40 采用deepspeed zero3_offload，调试Qwen110B，系统报错：RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu · Issue #3583 · hiyouga/LlamaFactory · GitHub",
+      "bodySha256": "84290ce00f60e142d5ee6c442a147022a0f4322836493cc4ffaec12c8be554ad",
+      "capturedAt": "2026-06-27T22:59:35.533Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hiyouga/LLaMA-Factory/issues/3583",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-llamafactory-sft-a40-3583/artifact-1-6ec66444aa30.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "最新的代码，deepspeed (0.14.2)4*A40 采用deepspeed zero3_offload，调试Qwen110B，系统报错：RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu · Issue #3583 · hiyouga/LlamaFactory · GitHub",
+      "bodySha256": "49a1ee26a609b3231293124a5b161fbc7d7c25f3af8f32a00f0183852b7a3e2b",
+      "capturedAt": "2026-06-27T22:59:37.454Z",
+      "error": ""
+    }
+  ]
+}

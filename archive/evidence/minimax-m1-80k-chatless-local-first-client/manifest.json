@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-chatless-local-first-client",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "chatless adds MiniMax M1 80K to a local-first desktop AI client",
+  "evidenceFingerprint": "a310108d8b0013bd565b23a6d0a07f19d5b4afd76079da38ae9122eed9dd4134",
+  "capturedAt": "2026-06-27T22:44:18.865Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kamjin3086/chatless/blob/main/src/lib/provider/staticModels.ts#L311-L314",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-chatless-local-first-client/original-evidence-cb8465ad71e7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "chatless/src/lib/provider/staticModels.ts at main · kamjin3086/chatless · GitHub",
+      "bodySha256": "303ecf33b79a532cb376a47a531d232f5e62f82be7c36aaded6250c55a48fd7e",
+      "capturedAt": "2026-06-27T22:44:16.395Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kamjin3086/chatless",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-chatless-local-first-client/artifact-1-6db43b04c00d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kamjin3086/chatless: 💻一款简洁实用轻量级的本地AI对话客户端，采用Tauri2.0和Next.js编写 A simple, practical, and lightweight local AI chat client, written in Tauri 2.0 &amp; Next.js. · GitHub",
+      "bodySha256": "54a57f53a3e33e4a646875db47259b3ee251711c7c608d9c97f031b3426933f6",
+      "capturedAt": "2026-06-27T22:44:17.932Z",
+      "error": ""
+    }
+  ]
+}

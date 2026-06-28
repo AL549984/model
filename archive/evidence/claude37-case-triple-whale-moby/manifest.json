@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude37-case-triple-whale-moby",
+  "modelId": "claude-3-7-sonnet",
+  "modelName": "Claude 3.7 Sonnet",
+  "title": "Triple Whale Moby ecommerce intelligence agent",
+  "evidenceFingerprint": "24604a987ae47b9e6b52306d491be3991151043fed6a1dbc24fc07d4dd72a7d9",
+  "capturedAt": "2026-06-27T23:27:16.180Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/triple-whale",
+      "snapshotPath": "archive/evidence/claude37-case-triple-whale-moby/original-evidence-644943ce5bab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Triple Whale Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "30c9d1fa45c1e4c88c9510d8e873ab39f68e7b8214b14e15504d615bdfaa6bd1",
+      "capturedAt": "2026-06-27T23:27:13.498Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.triplewhale.com/",
+      "snapshotPath": "archive/evidence/claude37-case-triple-whale-moby/artifact-1-ef74e38bd2e2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Triple Whale",
+      "bodySha256": "b969fadace4ee59e4a3d144bd2a3583101bd6da29880c3945e20567db8b0a59c",
+      "capturedAt": "2026-06-27T23:27:14.693Z",
+      "error": ""
+    }
+  ]
+}

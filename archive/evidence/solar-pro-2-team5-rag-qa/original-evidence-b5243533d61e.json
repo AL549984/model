@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:30.248Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/juminsuh/Team5_NLP_Upstage",
+  "finalUrl": "https://github.com/juminsuh/Team5_NLP_Upstage",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1004763a51992b07d4b46b0636b82713\"",
+  "lastModified": null,
+  "bodyBytes": 286263,
+  "bodySha256": "ffe9b1f97c09e5b30e3d1b9ba4be0170c018e183f142860b2152aca13f304c22",
+  "title": "GitHub - juminsuh/Team5_NLP_Upstage: [25-2 NLP] Term Project. Enhancing a QA performance of LLM (Solar Pro 2) using RAG and Prompt engineering. · GitHub",
+  "github": {
+    "owner": "juminsuh",
+    "repo": "Team5_NLP_Upstage",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-ginipick-hf-inference-demo",
+  "modelId": "qwen3-235b",
+  "modelName": "Qwen3 235B",
+  "title": "ginipick published a Hugging Face Inference Provider demo for Qwen3-235B-A22B",
+  "evidenceFingerprint": "a2465b29ab60ffa21a7b9b5bedc09ac7f824e476bee94d145a8148af395781c4",
+  "capturedAt": "2026-06-27T23:25:31.440Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/ginipick/Qwen3-235B-A22B/raw/main/app.py",
+      "snapshotPath": "archive/evidence/qwen3-235b-ginipick-hf-inference-demo/original-evidence-cd4d81692550.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ca2d37779902ecf8f50248ddf39b468002d0a29aafa93da791fb9dd3338d2d9b",
+      "capturedAt": "2026-06-27T23:25:30.935Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/ginipick/Qwen3-235B-A22B",
+      "snapshotPath": "archive/evidence/qwen3-235b-ginipick-hf-inference-demo/artifact-1-9b87de2cd4c9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Qwen3-235B-A22B - a Hugging Face Space by ginipick",
+      "bodySha256": "93ea5d42c583d8fbd7bd897141ad72b4f159c65365f586299855780542b6cd53",
+      "capturedAt": "2026-06-27T23:25:31.183Z",
+      "error": ""
+    }
+  ]
+}

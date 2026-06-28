@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-0528-video2game-educational-video-game-generation",
+  "modelId": "deepseek-r1-0528",
+  "modelName": "DeepSeek R1 0528",
+  "title": "Video2Game 使用 DeepSeek R1 0528 将教学视频生成互动游戏",
+  "evidenceFingerprint": "24fcc3b9ac7b3c0a031a716e8b08e6ce6a1690488107a98c2d03c958c93a506d",
+  "capturedAt": "2026-06-27T21:02:22.013Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Hrishikesh332/Video2Game/blob/main/backend/config.py",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-video2game-educational-video-game-generation/original-evidence-b1cf15c08ec3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Video2Game/backend/config.py at main · Hrishikesh332/Video2Game · GitHub",
+      "bodySha256": "daaba352b5d23051bbf1b2412505ea71d23f2000cf135ea28aaecad16e6cca12",
+      "capturedAt": "2026-06-27T21:02:19.875Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Hrishikesh332/Video2Game",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-video2game-educational-video-game-generation/artifact-1-0c6950201f79.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Hrishikesh332/Video2Game: Video2Game is an application which takes educational videos (like lectures, tutorials, or any type of the explainer videos) and transforms them into interactive games · GitHub",
+      "bodySha256": "0347e50a67440d13f3120fb674574ab9a79f135741761bfcb24231980573701f",
+      "capturedAt": "2026-06-27T21:02:20.923Z",
+      "error": ""
+    }
+  ]
+}

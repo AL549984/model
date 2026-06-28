@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:20.221Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AdamXacur/CallCenterQualityEvaluator.py/blob/main/main.py#L168-L223",
+  "finalUrl": "https://github.com/AdamXacur/CallCenterQualityEvaluator.py/blob/main/main.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c7cef9dff60bde7e4d2fba3a3f61854f\"",
+  "lastModified": null,
+  "bodyBytes": 618491,
+  "bodySha256": "9d2f71301cf9ade1eb182d4a4b725ec4b2d5923a9f2d79e461b203fd228a6fb9",
+  "title": "CallCenterQualityEvaluator.py/main.py at main · AdamXacur/CallCenterQualityEvaluator.py · GitHub",
+  "github": {
+    "owner": "AdamXacur",
+    "repo": "CallCenterQualityEvaluator.py",
+    "apiStatus": "unavailable"
+  }
+}

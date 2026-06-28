@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:36.653Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink/blob/main/backend/tag_suggest/tag_generator.py",
+  "finalUrl": "https://github.com/geminii01/product-usecase-knowledge-management-upthink/blob/main/backend/tag_suggest/tag_generator.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bff069cd9c7bfab7c9e6a61470624a16\"",
+  "lastModified": null,
+  "bodyBytes": 362170,
+  "bodySha256": "17ab34034d431b4e45f196a7533e39c8cff5947900a65694e5ceab335356832b",
+  "title": "product-usecase-knowledge-management-upthink/backend/tag_suggest/tag_generator.py at main · geminii01/product-usecase-knowledge-management-upthink · GitHub",
+  "github": {
+    "owner": "geminii01",
+    "repo": "product-usecase-knowledge-management-upthink",
+    "apiStatus": "unavailable"
+  }
+}

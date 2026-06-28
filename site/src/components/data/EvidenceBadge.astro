@@ -4,14 +4,14 @@ const { grade } = Astro.props;
 const normalized = String(grade ?? "").toUpperCase();
 const classes =
   normalized === "A"
-    ? "border-emerald-400/50 bg-emerald-400/15 text-emerald-100"
+    ? "border-[#ff3b4e]/70 text-[#ff3b4e]"
     : normalized === "B"
-      ? "border-sky-400/50 bg-sky-400/12 text-sky-100"
+      ? "border-[#f4f1ea]/30 text-[#f4f1ea]"
       : normalized === "C"
-        ? "border-slate-400/40 bg-slate-400/10 text-slate-200"
-        : "border-rose-400/45 bg-rose-400/12 text-rose-100";
+        ? "border-[#f4f1ea]/25 text-[#a8a29a]"
+        : "border-[#ff3b4e]/40 text-[#ff3b4e]";
 ---
 
-<span class={`inline-flex min-w-8 items-center justify-center rounded-md border px-2 py-1 font-mono text-xs font-bold ${classes}`}>
+<span class={`inline-flex min-w-8 items-center justify-center border bg-transparent px-2 py-1 font-mono text-xs font-bold ${classes}`}>
   {normalized}
 </span>

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:30.972Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/packages/data-schemas/src/methods/tx.ts",
+  "finalUrl": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/packages/data-schemas/src/methods/tx.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4490",
+  "etag": "W/\"0ba1168d7f9660617548a21b4646c36e75ff0dbd86f6337ae94e884363cf8d51\"",
+  "lastModified": null,
+  "bodyBytes": 24436,
+  "bodySha256": "e9fed96da8210891d63b04b2b3dd1d4b2b1e12e1bdc3ec4e8553df55910978cb",
+  "title": "",
+  "github": null
+}

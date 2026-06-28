@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "haiku-voice-agent-stress-test-001",
+  "modelId": "claude-3-5-haiku",
+  "modelName": "Claude 3.5 Haiku",
+  "title": "Claude 3.5 Haiku as adversarial patient persona generator for voice agent stress testing",
+  "evidenceFingerprint": "12844a9b6956fa800383002a13c729d0c9486b5bd42ec169a18613e6da020a4a",
+  "capturedAt": "2026-06-27T22:22:20.810Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Ericklzam/Voice-bot-challenge",
+      "snapshotPath": "archive/evidence/haiku-voice-agent-stress-test-001/original-evidence-6a60b88674e9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Ericklzam/Voice-bot-challenge: An automated testing suite designed to call and stress-test the Pivot Point Orthopaedics AI voice agent. It uses a custom Anthropic Claude 3.5 Haiku agent connected via WebSockets to simulate chaotic,",
+      "bodySha256": "5ec7d9e2c1c253a60b498c19b859fb9206ec98c662830eee8524eeca6d952114",
+      "capturedAt": "2026-06-27T22:22:18.756Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.loom.com/share/c63c3a5668e2440e9dc67829299714f4",
+      "snapshotPath": "archive/evidence/haiku-voice-agent-stress-test-001/artifact-1-dfb84983a02b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Voice Bot Walkthrough for Medical Clinic System | Loom",
+      "bodySha256": "4dcbfd4baf3ffb8b79d74cdfcbe7a5d5de50264e5ffca6e3c814166ebb08fcc6",
+      "capturedAt": "2026-06-27T22:22:19.783Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-0905-yousefhafed-openclaw-agent",
+  "modelId": "kimi-k2-0905",
+  "modelName": "Kimi K2 0905",
+  "title": "yousefhafed2222-gif 用 Kimi K2 0905 接入 OpenClaw 风格聊天 Agent",
+  "evidenceFingerprint": "d22e8efefb1cea95bd8db87b80186cc5ba6dcc4c054cd3d036d610d9846aebf0",
+  "capturedAt": "2026-06-27T22:22:32.951Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yousefhafed2222-gif/openclaw-agent/blob/main/index.js",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-yousefhafed-openclaw-agent/original-evidence-267dd20f07ae.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "openclaw-agent/index.js at main · yousefhafed2222-gif/openclaw-agent · GitHub",
+      "bodySha256": "5a284270a0207c7f2e92c5f86790e93bc21a023c0f6df7a91a05e679015dc362",
+      "capturedAt": "2026-06-27T22:22:30.447Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yousefhafed2222-gif/openclaw-agent",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-yousefhafed-openclaw-agent/artifact-1-d017c352d534.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yousefhafed2222-gif/openclaw-agent: OpenClaw-style AI Agent connected to Groq Kimi K2-0905 · GitHub",
+      "bodySha256": "475da863e40ee148cbf347ee89fb3efd1818fcaaf6d4e9099bce6237168ad53f",
+      "capturedAt": "2026-06-27T22:22:31.700Z",
+      "error": ""
+    }
+  ]
+}

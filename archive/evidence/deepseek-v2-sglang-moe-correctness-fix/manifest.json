@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-sglang-moe-correctness-fix",
+  "modelId": "deepseek-v2",
+  "modelName": "DeepSeek-V2",
+  "title": "SGLang fixes DeepSeek-V2 MoE/MLA correctness and performance with padded forward batches",
+  "evidenceFingerprint": "08cd521fa34252f8fe3b5d6da05e187fc856539964f33b07fabb633eee3f500d",
+  "capturedAt": "2026-06-27T21:08:26.488Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sgl-project/sglang/pull/26133",
+      "snapshotPath": "archive/evidence/deepseek-v2-sglang-moe-correctness-fix/original-evidence-4507fa2740b7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Fix DeepSeek-V2 MoE/MLA correctness + perf with padded forward batches by klshuster · Pull Request #26133 · sgl-project/sglang · GitHub",
+      "bodySha256": "59e3847c540774f6bd936557c1c1aed27c857c95838854759884be8f44b72c69",
+      "capturedAt": "2026-06-27T21:08:21.935Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sgl-project/sglang",
+      "snapshotPath": "archive/evidence/deepseek-v2-sglang-moe-correctness-fix/artifact-1-d831938b547e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub",
+      "bodySha256": "6f94ee03cc87958a7d1775b4879a678e6f74923994b67ee44b62726160072b73",
+      "capturedAt": "2026-06-27T21:08:24.185Z",
+      "error": ""
+    }
+  ]
+}

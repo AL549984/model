@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-coder-v2-network-analyzer",
+  "modelId": "deepseek-coder-v2",
+  "modelName": "DeepSeek-Code-V2-Lite-Instruct",
+  "title": "DeepSeek Morpheus Analyzer: Real-Time Network Security Classification with DeepSeek-Code-V2-Lite",
+  "evidenceFingerprint": "fd31d6c079af7aea8dca60418bda967a77bdb2ac0277e3b9ec2702436201c582",
+  "capturedAt": "2026-06-27T21:01:45.094Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/PR0F3S50R/Real-Time-Network-Analysis-Tool",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-network-analyzer/original-evidence-440c2feac75c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - PR0F3S50R/Real-Time-Network-Analysis-Tool: A real-time network traffic and system log analysis pipeline powered by the DeepSeek-Code-V2-Lite-Instruct local LLM, integrated with NVIDIA Morpheus and deployable via Triton Inference Se",
+      "bodySha256": "fb362749c223ab00d4e81ee2adbedbae033c972abf0a99b3f52f5bdb252d2d31",
+      "capturedAt": "2026-06-27T21:01:40.164Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/PR0F3S50R/Real-Time-Network-Analysis-Tool",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-network-analyzer/artifact-1-440c2feac75c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - PR0F3S50R/Real-Time-Network-Analysis-Tool: A real-time network traffic and system log analysis pipeline powered by the DeepSeek-Code-V2-Lite-Instruct local LLM, integrated with NVIDIA Morpheus and deployable via Triton Inference Se",
+      "bodySha256": "86aa2241c19bcb8af87a124e4132ce3f122c569a7cfb4dcc9ff86d7f24e977d4",
+      "capturedAt": "2026-06-27T21:01:43.467Z",
+      "error": ""
+    }
+  ]
+}

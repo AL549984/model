@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:18.439Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/chuancyzhang/deepseek-cowork",
+  "finalUrl": "https://github.com/chuancyzhang/deepseek-cowork",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"451c95c48d53de10715112a515908712\"",
+  "lastModified": null,
+  "bodyBytes": 321842,
+  "bodySha256": "30ce506d272ed982ae0baf7da2c64b0e01f94485e22762ea6d962f4ace0ecf50",
+  "title": "GitHub - chuancyzhang/deepseek-cowork: DeepSeek Cowork is a Windows desktop agent framework built on DeepSeek-V3.2 Interleaved Chain-of-Thought. It combines reasoning with tool use to plan, execute, and refine tasks across files, apps, and ",
+  "github": {
+    "owner": "chuancyzhang",
+    "repo": "deepseek-cowork",
+    "apiStatus": "unavailable"
+  }
+}

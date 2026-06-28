@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-3-1-405b-nutlope-llamacoder",
+  "modelId": "llama-3-1-405b",
+  "modelName": "Llama 3.1 405B",
+  "title": "Nutlope LlamaCoder: Open-Source Claude Artifacts Clone Powered by Llama 3.1 405B",
+  "evidenceFingerprint": "09b2a53da780ecad4ef7c67df25c5fd370cf9606f0f739a73fea85302ae4d871",
+  "capturedAt": "2026-06-27T22:30:07.663Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Nutlope/llamacoder",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-nutlope-llamacoder/original-evidence-2c07815bb5dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Nutlope/llamacoder: Open source Claude Artifacts – built with Llama 3.1 405B · GitHub",
+      "bodySha256": "84ff43cc434240501da44f719fb8e7d5662f5053f02b6333fe679f9ce347c29d",
+      "capturedAt": "2026-06-27T22:30:05.196Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Nutlope/llamacoder",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-nutlope-llamacoder/artifact-1-2c07815bb5dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Nutlope/llamacoder: Open source Claude Artifacts – built with Llama 3.1 405B · GitHub",
+      "bodySha256": "31b39c279f83ae63d4dc5dc7d2cbc0fc72fb1465208f19baf7b3839b8d32c598",
+      "capturedAt": "2026-06-27T22:30:06.757Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-sep-gemini-for-claude-code-proxy",
+  "modelId": "gemini-1-5-pro-sep",
+  "modelName": "Gemini 1.5 Pro (Sep)",
+  "title": "gemini-for-claude-code maps Claude Code big-model requests to Gemini 1.5 Pro Latest",
+  "evidenceFingerprint": "bf9baa6ff9163eb1c6cd41b7b05e2bad9af9020837a2388ddf7a31412ee60543",
+  "capturedAt": "2026-06-27T21:40:51.642Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/coffeegrind123/gemini-for-claude-code#configuration",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-gemini-for-claude-code-proxy/original-evidence-2224e7883530.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - coffeegrind123/gemini-for-claude-code: This python program allows you to use Claude Code with Google&#39;s Gemini models. · GitHub",
+      "bodySha256": "5b0da318db494d05f1104f10a261556d1846a1c1edba7d6f3a60bb4ab6b35184",
+      "capturedAt": "2026-06-27T21:40:49.938Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/coffeegrind123/gemini-for-claude-code",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-gemini-for-claude-code-proxy/artifact-1-58e249893ca1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - coffeegrind123/gemini-for-claude-code: This python program allows you to use Claude Code with Google&#39;s Gemini models. · GitHub",
+      "bodySha256": "6a351715ae578ba337497265c4ee5c51cae5722affbefc8b422ebc26bacb925e",
+      "capturedAt": "2026-06-27T21:40:51.118Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-terminus-rick-stevens-intel-max-gpu",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "rick-stevens-ai 在 8 张 Intel Data Center GPU Max 1550 上运行 DeepSeek-V3.1-Terminus",
+  "evidenceFingerprint": "51281ed7d3a314bdce5ebc12c848be5dfd57c66713fe3a08a6525f0b0cb7cfac",
+  "capturedAt": "2026-06-27T21:34:10.868Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-rick-stevens-intel-max-gpu/original-evidence-d77e7d737893.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu: Run DeepSeek-V3.1-Terminus (671B params, 405GB) on Intel MAX GPU 1550 using llama.cpp SYCL backend with multi-GPU layer splitting. 4.1 tok/s generation across 8 GPUs. · GitHub",
+      "bodySha256": "48918a8cba65e4ac89e1c4c6ff39c7f4c712738de9056944b3da1cc7e22ff80d",
+      "capturedAt": "2026-06-27T21:34:07.708Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-rick-stevens-intel-max-gpu/artifact-1-d77e7d737893.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rick-stevens-ai/deepseek-v3.1-terminus-intel-max-gpu: Run DeepSeek-V3.1-Terminus (671B params, 405GB) on Intel MAX GPU 1550 using llama.cpp SYCL backend with multi-GPU layer splitting. 4.1 tok/s generation across 8 GPUs. · GitHub",
+      "bodySha256": "3ce83b02216be30655fe65db93313ec1d6baeeed5b67207c09a82230d95c954c",
+      "capturedAt": "2026-06-27T21:34:10.428Z",
+      "error": ""
+    }
+  ]
+}

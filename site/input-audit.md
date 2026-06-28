@@ -1,4 +1,4 @@
-# Frontier Models Atlas Site Input Audit
+# Model Atlas 模型图谱 Site Input Audit
 
 > Stage A output  
 > Date: 2026-06-25  

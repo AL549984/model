@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:42.206Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/e2b-dev/ai-developer-with-sandbox",
+  "finalUrl": "https://github.com/e2b-dev/ai-developer-with-sandbox",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"044f3be79cb86ba9314c0da50c581710\"",
+  "lastModified": null,
+  "bodyBytes": 294575,
+  "bodySha256": "f19d2abb3639a214c53c74604239c844c6d6d190135a049126b75999cc8c7dc0",
+  "title": "GitHub - e2b-dev/ai-developer-with-sandbox: AI Developer is an AI agent powered by GPT-4-Turbo that&#39;s using custom E2B Sandbox · GitHub",
+  "github": {
+    "owner": "e2b-dev",
+    "repo": "ai-developer-with-sandbox",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:37.053Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/FanaHOVA/openai-o1-code-interpreter/blob/main/README.md",
+  "finalUrl": "https://github.com/FanaHOVA/openai-o1-code-interpreter/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a85850504697be8af5bd21fc6f5f03ba\"",
+  "lastModified": null,
+  "bodyBytes": 237260,
+  "bodySha256": "d15c9c22bdaada7e7ad4e8e964163f9cd91c32e5cf1d70c0ad15e6238985d6de",
+  "title": "openai-o1-code-interpreter/README.md at main · FanaHOVA/openai-o1-code-interpreter · GitHub",
+  "github": {
+    "owner": "FanaHOVA",
+    "repo": "openai-o1-code-interpreter",
+    "apiStatus": "unavailable"
+  }
+}

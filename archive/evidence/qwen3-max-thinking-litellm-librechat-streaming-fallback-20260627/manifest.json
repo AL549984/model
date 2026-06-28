@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-thinking-litellm-librechat-streaming-fallback-20260627",
+  "modelId": "qwen3-max-thinking",
+  "modelName": "Qwen3 Max Thinking",
+  "title": "LibreChat/LiteLLM 用户用 Qwen3 Max Thinking 复现并修补 DashScope 流式内容策略回退问题",
+  "evidenceFingerprint": "1df8a1c66cf472a98dfecb1c1542b62f17a27f9833a5d6fd0cb1ae83b89793e9",
+  "capturedAt": "2026-06-27T23:15:25.014Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/BerriAI/litellm/issues/28599",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-litellm-librechat-streaming-fallback-20260627/original-evidence-cffc2f9edd14.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[Bug] Streaming requests bypass content_policy_fallbacks: 4xx filter in streaming_handler raises ContentPolicyViolationError directly · Issue #28599 · BerriAI/litellm · GitHub",
+      "bodySha256": "4dee332cdd05542600653cbbc9df6ac95f152df5391911aa37f61c40b1e5ea46",
+      "capturedAt": "2026-06-27T23:15:23.292Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/BerriAI/litellm/issues/28599",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-litellm-librechat-streaming-fallback-20260627/artifact-1-cffc2f9edd14.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[Bug] Streaming requests bypass content_policy_fallbacks: 4xx filter in streaming_handler raises ContentPolicyViolationError directly · Issue #28599 · BerriAI/litellm · GitHub",
+      "bodySha256": "44940f5068cf971c24144d711a8584ad4e7ee33bd84cd72364ac513e15f1ee34",
+      "capturedAt": "2026-06-27T23:15:24.394Z",
+      "error": ""
+    }
+  ]
+}

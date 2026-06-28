@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:50.329Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/sourcegraph/cody-public-snapshot/pull/1860",
+  "finalUrl": "https://github.com/sourcegraph/cody-public-snapshot/pull/1860",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 279814,
+  "bodySha256": "6c0692dd45f76d0be6fa4ad5521e791e301f25b14438ce0ff25eafc347624112",
+  "title": "feat: add Claude model 2.0 and 2.1 by abeatrix · Pull Request #1860 · sourcegraph/cody-public-snapshot · GitHub",
+  "github": {
+    "owner": "sourcegraph",
+    "repo": "cody-public-snapshot",
+    "apiStatus": "unavailable"
+  }
+}

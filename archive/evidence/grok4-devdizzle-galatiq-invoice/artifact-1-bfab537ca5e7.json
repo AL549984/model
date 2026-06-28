@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:31.233Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/DevDizzle/galatiq-invoice-agent",
+  "finalUrl": "https://github.com/DevDizzle/galatiq-invoice-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b437875cd2d197031ef4923f8b161acb\"",
+  "lastModified": null,
+  "bodyBytes": 290505,
+  "bodySha256": "f870f4e4adf3c9794619e8c53e99f07cdd95b9ab5eed83857712be9787df56b7",
+  "title": "GitHub - DevDizzle/galatiq-invoice-agent: Autonomous multi-agent system powered by xAI Grok 4.1 Fast Reasoning to automate invoice ingestion, validation, and approval workflows. · GitHub",
+  "github": {
+    "owner": "DevDizzle",
+    "repo": "galatiq-invoice-agent",
+    "apiStatus": "unavailable"
+  }
+}

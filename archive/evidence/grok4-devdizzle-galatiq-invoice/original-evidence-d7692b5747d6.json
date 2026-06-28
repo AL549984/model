@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:30.922Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/DevDizzle/galatiq-invoice-agent/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/DevDizzle/galatiq-invoice-agent/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1305",
+  "etag": "W/\"325ff8a0d170d2f8eebf539a400a1fdb73816eae9f7a30a92a7cf101ec12d3de\"",
+  "lastModified": null,
+  "bodyBytes": 2473,
+  "bodySha256": "41b886b64743b0738c5cb41af3de4d7de97440a476809b1f2e4a412b3ca2a06f",
+  "title": "",
+  "github": null
+}

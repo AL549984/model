@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:59.654Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/noosi21/codex-solidity",
+  "finalUrl": "https://github.com/noosi21/codex-solidity",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a3963d340d40e3ae4c70aee060227d7e\"",
+  "lastModified": null,
+  "bodyBytes": 497487,
+  "bodySha256": "7fbbfde5cdd4d79e3a49a88ae52e93715f378e7306debe444a035934d141baeb",
+  "title": "GitHub - noosi21/codex-solidity: Codex Solidity - Smart Contract Audit CLI with 34 skills, GPT-5.4 xhigh reasoning, symbolic execution, fuzzing (Echidna/Medusa), invariant checker, cross-contract analysis, GitHub URL targets, Foundry PoC, K",
+  "github": {
+    "owner": "noosi21",
+    "repo": "codex-solidity",
+    "apiStatus": "unavailable"
+  }
+}

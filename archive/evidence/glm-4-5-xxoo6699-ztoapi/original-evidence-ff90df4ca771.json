@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:35.612Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/xxoo6699/ZtoApi/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/xxoo6699/ZtoApi/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "5614",
+  "etag": "W/\"fdab70f7d6c4d3660870b276d351c87788a1509c670cab82c5687c360efa1bd4\"",
+  "lastModified": null,
+  "bodyBytes": 14595,
+  "bodySha256": "820a92f007fb95d685462ec367eecb66c0b84d4fae3edbd3cb2c714bdf5e6c04",
+  "title": "",
+  "github": null
+}

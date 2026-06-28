@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-vllm-support-pr-4650",
+  "modelId": "deepseek-v2",
+  "modelName": "DeepSeek-V2",
+  "title": "vLLM merged DeepSeek-V2 support for high-throughput open-source inference",
+  "evidenceFingerprint": "be3ebb7629dca45f7f4ae541c2bb60ff40e964eb8b2b8debe72866c05d959933",
+  "capturedAt": "2026-06-27T21:08:33.306Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/vllm-project/vllm/pull/4650",
+      "snapshotPath": "archive/evidence/deepseek-v2-vllm-support-pr-4650/original-evidence-e7f7d72e09b4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Support Deepseek-V2 by zwd003 · Pull Request #4650 · vllm-project/vllm · GitHub",
+      "bodySha256": "eaa112cf75a850356d4d5603174d47f24f6e4cf6305d591afd9b45a18e6e72f2",
+      "capturedAt": "2026-06-27T21:08:26.490Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/vllm-project/vllm",
+      "snapshotPath": "archive/evidence/deepseek-v2-vllm-support-pr-4650/artifact-1-e8ba7172314e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs · GitHub",
+      "bodySha256": "6081d0e1fcc6d590bb4b365020ea421dc28db00404bbec17a188eaf1821e0a33",
+      "capturedAt": "2026-06-27T21:08:31.932Z",
+      "error": ""
+    }
+  ]
+}

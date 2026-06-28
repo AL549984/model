@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-continue-ide-agent",
+  "modelId": "deepseek-v3-1",
+  "modelName": "DeepSeek V3.1",
+  "title": "Continue.dev IDE Extension: DeepSeek V3.1 as Primary Coding Model Backend",
+  "evidenceFingerprint": "86c9e7374a87620bd178e05b12d93d4fe56d0718805eb29c0fa74d899396c340",
+  "capturedAt": "2026-06-27T21:08:52.548Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/continuedev/continue/issues/11661",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-continue-ide-agent/original-evidence-ca9d6cd3aaea.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Error: deepseek-v3.1:671b-cloud - Unknown error · Issue #11661 · continuedev/continue · GitHub",
+      "bodySha256": "c55a1a1dcf7e4b14463e2f2e8e597a9c42ef74812a65c71c059afbd6568f35c7",
+      "capturedAt": "2026-06-27T21:08:50.153Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/continuedev/continue",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-continue-ide-agent/artifact-1-508ea0cfd549.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - continuedev/continue: open-source coding agent · GitHub",
+      "bodySha256": "92acb4bb30d6de6291a36f393cee9e67854c69c33c102f133d1693c0b3781c86",
+      "capturedAt": "2026-06-27T21:08:51.326Z",
+      "error": ""
+    }
+  ]
+}

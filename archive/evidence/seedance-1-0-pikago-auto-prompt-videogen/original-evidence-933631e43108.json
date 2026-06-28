@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:00.208Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Pikago-hub/auto-prompt-videogen-seedance1.0pro/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Pikago-hub/auto-prompt-videogen-seedance1.0pro/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1305",
+  "etag": "W/\"80e93ecc058a3f6f52677a1bcc3522660562fa58d24c9a77dd712fa8ce83e7b6\"",
+  "lastModified": null,
+  "bodyBytes": 2329,
+  "bodySha256": "73bb2ab098d0c7a30d2594425177a16e56affdd196def8241329dd15c28d0c42",
+  "title": "",
+  "github": null
+}

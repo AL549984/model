@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5codex-high-003",
+  "modelId": "gpt-5-codex-high",
+  "modelName": "GPT-5 Codex (high)",
+  "title": "OpenAI 使用 Codex 构建 ImageGenCam 数字相机硬件项目",
+  "evidenceFingerprint": "79ae0477c1b2c2a9ebbd6251a4b2ead786db547690422da42c51078ddb94c957",
+  "capturedAt": "2026-06-27T22:08:17.061Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/openai/imagegencam",
+      "snapshotPath": "archive/evidence/gpt5codex-high-003/original-evidence-305197cb4d55.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - openai/imagegencam: A digital camera you can build yourself with Codex. · GitHub",
+      "bodySha256": "8271f2605f5ec7bb052b3e75db2abf6a861fa800bb1d1c7315a71ea4ec939f4d",
+      "capturedAt": "2026-06-27T22:08:15.199Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/openai/imagegencam",
+      "snapshotPath": "archive/evidence/gpt5codex-high-003/artifact-1-305197cb4d55.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - openai/imagegencam: A digital camera you can build yourself with Codex. · GitHub",
+      "bodySha256": "058b81b2f34014d062943a07c6fe8e24564015287bb2bdc6bc123abf045846c1",
+      "capturedAt": "2026-06-27T22:08:16.360Z",
+      "error": ""
+    }
+  ]
+}

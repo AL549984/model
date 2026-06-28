@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:05.678Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/IuriiD/viral2viral",
+  "finalUrl": "https://github.com/IuriiD/viral2viral",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a28df00e5afcda15cde4f47e51b133d6\"",
+  "lastModified": null,
+  "bodyBytes": 321268,
+  "bodySha256": "f659c88050696ddfa470cc552abd47be655498d7d45d63cced40ff5a658f6b0d",
+  "title": "GitHub - IuriiD/viral2viral: AI-cloner for UGC videos (POC), built with GH Spec Kit · GitHub",
+  "github": {
+    "owner": "IuriiD",
+    "repo": "viral2viral",
+    "apiStatus": "unavailable"
+  }
+}

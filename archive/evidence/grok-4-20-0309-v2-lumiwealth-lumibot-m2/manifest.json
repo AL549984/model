@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-v2-lumiwealth-lumibot-m2",
+  "modelId": "grok-4-20-0309-v2",
+  "modelName": "Grok 4.20 0309 v2",
+  "title": "Lumiwealth 的 Lumibot 示例用 Grok 4.20 0309 Reasoning 做 M2 流动性交易策略分析",
+  "evidenceFingerprint": "05852f610548faf828b6a0e129ace3cf23698e4e46358af8469e17f4948f2c1a",
+  "capturedAt": "2026-06-27T22:15:50.595Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Lumiwealth/lumibot/blob/ac0a93745bb03f00833a789fc3d5d5593be6b289/lumibot/example_strategies/agent_m2_liquidity_grok.py",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-lumiwealth-lumibot-m2/original-evidence-4e0c3f84982f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "lumibot/lumibot/example_strategies/agent_m2_liquidity_grok.py at ac0a93745bb03f00833a789fc3d5d5593be6b289 · Lumiwealth/lumibot · GitHub",
+      "bodySha256": "790b1d6f29815878551397dedd0421a62c34606d8f27be8b9063baf058caed0f",
+      "capturedAt": "2026-06-27T22:15:48.492Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Lumiwealth/lumibot",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-lumiwealth-lumibot-m2/artifact-1-e1953b61e60e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Lumiwealth/lumibot: Backtestable AI trading agents and Python algorithmic trading strategies for stocks, options, crypto, futures, forex, SEC filings, FRED macro data, and real brokers. · GitHub",
+      "bodySha256": "49778689b532be89877deef5b2a79b7e3355b4e1a9d8b3a2a1d6a9e42b4dae5d",
+      "capturedAt": "2026-06-27T22:15:49.545Z",
+      "error": ""
+    }
+  ]
+}

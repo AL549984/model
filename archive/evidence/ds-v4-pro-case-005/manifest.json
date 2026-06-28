@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v4-pro-case-005",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "Lite Agent: Multi-Channel AI Assistant Engine with Feishu/Telegram/DingTalk Integration",
+  "evidenceFingerprint": "8c192e70f211c750b4c1d613ff49498c95459ca7cdac42de03291b3978174501",
+  "capturedAt": "2026-06-27T21:34:50.590Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/maifeipin/lite_agent",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-005/original-evidence-7c4d1ddbcfba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - maifeipin/lite_agent: Lite Agent engine with Feishu WebSocket, DeepSeek V4 Pro support, and billing skills · GitHub",
+      "bodySha256": "343598f60b9e9110444d0d9eaa8157684c7c96e3955b6090b5086631dadd1a72",
+      "capturedAt": "2026-06-27T21:34:48.834Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/maifeipin/lite_agent",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-005/artifact-1-7c4d1ddbcfba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - maifeipin/lite_agent: Lite Agent engine with Feishu WebSocket, DeepSeek V4 Pro support, and billing skills · GitHub",
+      "bodySha256": "115b5890d2586109f544472d6b772cdc09b20e10b31adb735cff11b51081b1d1",
+      "capturedAt": "2026-06-27T21:34:50.062Z",
+      "error": ""
+    }
+  ]
+}

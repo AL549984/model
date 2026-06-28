@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:20.459Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/lucataco/cog-DeepSeek-V2",
+  "finalUrl": "https://github.com/lucataco/cog-DeepSeek-V2",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c5863077a37f2204fdc055f3bc0ecd10\"",
+  "lastModified": null,
+  "bodyBytes": 246318,
+  "bodySha256": "a0202023b90000334990ea1e1c1f4187107a53ccb520d2488cb3782805e096ec",
+  "title": "GitHub - lucataco/cog-DeepSeek-V2: WIP - Cog wrapper for deepseek-ai/DeepSeek-V2 · GitHub",
+  "github": {
+    "owner": "lucataco",
+    "repo": "cog-DeepSeek-V2",
+    "apiStatus": "unavailable"
+  }
+}

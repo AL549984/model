@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-maxinexiong-openai-api-web-apps-chatbot",
+  "modelId": "o1",
+  "modelName": "o1",
+  "title": "OpenAI API Web Apps exposes o1 in a Streamlit Talk to GPT chatbot",
+  "evidenceFingerprint": "8a729c7ad032117b4d5bd1488ce4b1ee098e380547999d7de0b0f4fbce9d2792",
+  "capturedAt": "2026-06-27T22:51:41.355Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MaxineXiong/OpenAI-API-Web-Apps/blob/master/README.md#talk-to-gpt",
+      "snapshotPath": "archive/evidence/o1-maxinexiong-openai-api-web-apps-chatbot/original-evidence-38e2a18826ed.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "OpenAI-API-Web-Apps/README.md at master · MaxineXiong/OpenAI-API-Web-Apps · GitHub",
+      "bodySha256": "d3230ca6394cf73116d09876d02b9f8c828a70d791dcb27b479885b0771c6185",
+      "capturedAt": "2026-06-27T22:51:39.169Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/MaxineXiong/OpenAI-API-Web-Apps",
+      "snapshotPath": "archive/evidence/o1-maxinexiong-openai-api-web-apps-chatbot/artifact-1-5e5b50967f59.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - MaxineXiong/OpenAI-API-Web-Apps: This repository hosts a collection of custom web applications powered by OpenAI&#39;s GPT models (incl. o1, o3-mini, GPT-4.5, GPT-4o, and GPT-4o mini), Whisper model, and TTS model. These apps inclu",
+      "bodySha256": "5d8df9b2fa2613197d8013a2ec5ad898e59f02f6f81ac9b40a6072c92b40c4c5",
+      "capturedAt": "2026-06-27T22:51:40.253Z",
+      "error": ""
+    }
+  ]
+}

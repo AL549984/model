@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:18.626Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yYorky/FootballVideoAnalyst",
+  "finalUrl": "https://github.com/yYorky/FootballVideoAnalyst",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2eddb652760f856074578d9beb2fb1da\"",
+  "lastModified": null,
+  "bodyBytes": 296940,
+  "bodySha256": "f8c015d683dde85b0438c750c9ccbb7f814acefa38bfc0af2dcc10bc397a487b",
+  "title": "GitHub - yYorky/FootballVideoAnalyst: A Football Video Analyst using Gemini 2.5 Pro · GitHub",
+  "github": {
+    "owner": "yYorky",
+    "repo": "FootballVideoAnalyst",
+    "apiStatus": "unavailable"
+  }
+}

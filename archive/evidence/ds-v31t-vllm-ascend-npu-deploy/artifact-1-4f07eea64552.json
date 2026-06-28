@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:39.986Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/vllm-project/vllm-ascend",
+  "finalUrl": "https://github.com/vllm-project/vllm-ascend",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ab0002d2bd754ccfca512063bc031ac0\"",
+  "lastModified": null,
+  "bodyBytes": 400773,
+  "bodySha256": "9f99d668a9ad115a3322022c0c5ec3cd17c520d5e02ea0bdddaaf1eb820df5af",
+  "title": "GitHub - vllm-project/vllm-ascend: Community maintained hardware plugin for vLLM on Ascend · GitHub",
+  "github": {
+    "owner": "vllm-project",
+    "repo": "vllm-ascend",
+    "apiStatus": "unavailable"
+  }
+}

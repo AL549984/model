@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:44.260Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/small-cactus/MagicTerminal",
+  "finalUrl": "https://github.com/small-cactus/MagicTerminal",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c0f35493a30474276fe63c90671affd3\"",
+  "lastModified": null,
+  "bodyBytes": 287990,
+  "bodySha256": "c439fb7def098c0630be3d535e0011e909b3ddce49bcca979b43faf92a72af5f",
+  "title": "GitHub - small-cactus/MagicTerminal: Command line magic for MacOS. EXPECT BUGS. Available for MacOS, powered by GPT-4-Turbo. · GitHub",
+  "github": {
+    "owner": "small-cactus",
+    "repo": "MagicTerminal",
+    "apiStatus": "unavailable"
+  }
+}

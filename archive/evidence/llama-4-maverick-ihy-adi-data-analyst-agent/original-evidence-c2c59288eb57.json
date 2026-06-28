@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:17.301Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ihy-adi/data_analyst_agent/blob/main/README.md",
+  "finalUrl": "https://github.com/ihy-adi/data_analyst_agent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bc3bdce608016cd4482cb0fb9651391e\"",
+  "lastModified": null,
+  "bodyBytes": 408826,
+  "bodySha256": "01aa9692a5229162b4084cc618d94a85b6151a9ff8bae81a04bb6e6e02936dc5",
+  "title": "data_analyst_agent/README.md at main · ihy-adi/data_analyst_agent · GitHub",
+  "github": {
+    "owner": "ihy-adi",
+    "repo": "data_analyst_agent",
+    "apiStatus": "unavailable"
+  }
+}

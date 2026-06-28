@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:51.589Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/zjcolacode/video-auto-edit-agent",
+  "finalUrl": "https://github.com/zjcolacode/video-auto-edit-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dfcc519fbb8417679a76bf7c542688bf\"",
+  "lastModified": null,
+  "bodyBytes": 385585,
+  "bodySha256": "69dff3cc61560673b327f6f16611a5ef7e06682a5101e88602d61c906424094a",
+  "title": "GitHub - zjcolacode/video-auto-edit-agent: Multi-agent video highlight extractor powered by Aliyun Bailian Coding Plan (qwen3.6-plus, OpenAI-compatible) · GitHub",
+  "github": {
+    "owner": "zjcolacode",
+    "repo": "video-auto-edit-agent",
+    "htmlUrl": "https://github.com/zjcolacode/video-auto-edit-agent",
+    "defaultBranch": "main",
+    "defaultBranchSha": "cf3d9a6f339015f6ef982dbf47d98356be84f815",
+    "pushedAt": "2026-05-30T12:34:35Z",
+    "updatedAt": "2026-05-30T12:34:39Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:19.400Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/qzw881130/AI-NovelFlow/blob/59282fb03e7e6ba4283887eccde7c594082fa7e7/frontend/my-app/src/pages/Settings/utils.ts",
+  "finalUrl": "https://github.com/qzw881130/AI-NovelFlow/blob/59282fb03e7e6ba4283887eccde7c594082fa7e7/frontend/my-app/src/pages/Settings/utils.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0d5907390b411e0d3024685a4149f175\"",
+  "lastModified": null,
+  "bodyBytes": 392924,
+  "bodySha256": "4b5d018bf4e03d7db2fe8d7311406b9c6ba7acbfb312b7e0895032906946a7d8",
+  "title": "AI-NovelFlow/frontend/my-app/src/pages/Settings/utils.ts at 59282fb03e7e6ba4283887eccde7c594082fa7e7 · qzw881130/AI-NovelFlow · GitHub",
+  "github": {
+    "owner": "qzw881130",
+    "repo": "AI-NovelFlow",
+    "htmlUrl": "https://github.com/qzw881130/AI-NovelFlow",
+    "defaultBranch": "main",
+    "defaultBranchSha": "59282fb03e7e6ba4283887eccde7c594082fa7e7",
+    "pushedAt": "2026-05-10T08:41:44Z",
+    "updatedAt": "2026-06-25T09:28:39Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

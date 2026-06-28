@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-upstageai-n8n-nodes-upstage-agent-workflows",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "UpstageAI n8n-nodes-upstage uses Solar Mini for n8n AI-agent and automation nodes",
+  "evidenceFingerprint": "66ba3e290f6868d128038442e68df3f6113dd00e9dcd01ba3ad4647c5ee772d1",
+  "capturedAt": "2026-06-27T23:23:50.766Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/UpstageAI/n8n-nodes-upstage/blob/main/README.md",
+      "snapshotPath": "archive/evidence/solar-mini-upstageai-n8n-nodes-upstage-agent-workflows/original-evidence-952aed3ded7c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "n8n-nodes-upstage/README.md at main · UpstageAI/n8n-nodes-upstage · GitHub",
+      "bodySha256": "ecffac16b7570fecf0cd0aa0a627e857928acb336a660b235bcf86422c849af4",
+      "capturedAt": "2026-06-27T23:23:47.818Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/UpstageAI/n8n-nodes-upstage",
+      "snapshotPath": "archive/evidence/solar-mini-upstageai-n8n-nodes-upstage-agent-workflows/artifact-1-f2cc17752ef9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - UpstageAI/n8n-nodes-upstage: Upstage LLM and Embeddings nodes for n8n · GitHub",
+      "bodySha256": "46f444a9dbd554345dfe81d280b705d39698cb1a34d8a30950563c3fee41e4c2",
+      "capturedAt": "2026-06-27T23:23:49.381Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-snowchat-natural-language-to-snowflake-sql",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "snowChat offers Grok 2 for natural-language querying of Snowflake data",
+  "evidenceFingerprint": "017bb841fee507aaea10f3f4295a8853d101e10d04a96a2183bcc68fa7c301b7",
+  "capturedAt": "2026-06-27T22:15:15.450Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kaarthik108/snowChat/blob/main/agent.py#L38-L42",
+      "snapshotPath": "archive/evidence/grok-2-snowchat-natural-language-to-snowflake-sql/original-evidence-642f71f3f874.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "snowChat/agent.py at main · kaarthik108/snowChat · GitHub",
+      "bodySha256": "06b8bb708d315d530cbbf54db22677bf14810ed459c217e17eac7d1c86f62718",
+      "capturedAt": "2026-06-27T22:15:13.175Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kaarthik108/snowChat",
+      "snapshotPath": "archive/evidence/grok-2-snowchat-natural-language-to-snowflake-sql/artifact-1-8a561a25ba6c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kaarthik108/snowChat: Chat snowflake - Text to SQL · GitHub",
+      "bodySha256": "69d77bb10c7aa683b87d782b62b624bd0aee0bc98183116cb35d2f5724813ebf",
+      "capturedAt": "2026-06-27T22:15:14.226Z",
+      "error": ""
+    }
+  ]
+}

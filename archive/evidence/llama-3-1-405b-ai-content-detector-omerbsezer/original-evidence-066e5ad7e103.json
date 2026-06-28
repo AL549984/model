@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:59.242Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/omerbsezer/AI-Content-Detector",
+  "finalUrl": "https://github.com/omerbsezer/AI-Content-Detector",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e4d3f8aee445c556dba2915cde51c4e9\"",
+  "lastModified": null,
+  "bodyBytes": 292878,
+  "bodySha256": "804c5ca5259bfbdc45db174fd777a01472fc331daee87309d74fb330e61f64f0",
+  "title": "GitHub - omerbsezer/AI-Content-Detector: Tool to give AI generated score, to analyze with patterns how much input text is AI generated using AWS Bedrock Llama 3.1 405B · GitHub",
+  "github": {
+    "owner": "omerbsezer",
+    "repo": "AI-Content-Detector",
+    "apiStatus": "unavailable"
+  }
+}

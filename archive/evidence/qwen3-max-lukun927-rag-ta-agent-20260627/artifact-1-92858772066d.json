@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:17.079Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/lukun927/RAG_TA_Agent",
+  "finalUrl": "https://github.com/lukun927/RAG_TA_Agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e6d9edde2b4d50fcda411bb6364f9336\"",
+  "lastModified": null,
+  "bodyBytes": 272687,
+  "bodySha256": "fbb170c8c99e1276b0d78731a097802bf8a2885886d1f958d9d8613cdeb38346",
+  "title": "GitHub - lukun927/RAG_TA_Agent: Based on qwen3-max and local RAG, implement a class TA agent. · GitHub",
+  "github": {
+    "owner": "lukun927",
+    "repo": "RAG_TA_Agent",
+    "apiStatus": "unavailable"
+  }
+}

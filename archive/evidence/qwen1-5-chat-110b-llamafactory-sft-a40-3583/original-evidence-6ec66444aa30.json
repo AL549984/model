@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:35.533Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/hiyouga/LLaMA-Factory/issues/3583",
+  "finalUrl": "https://github.com/hiyouga/LlamaFactory/issues/3583",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 306252,
+  "bodySha256": "84290ce00f60e142d5ee6c442a147022a0f4322836493cc4ffaec12c8be554ad",
+  "title": "最新的代码，deepspeed (0.14.2)4*A40 采用deepspeed zero3_offload，调试Qwen110B，系统报错：RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu · Issue #3583 · hiyouga/LlamaFactory · GitHub",
+  "github": {
+    "owner": "hiyouga",
+    "repo": "LLaMA-Factory",
+    "apiStatus": "unavailable"
+  }
+}

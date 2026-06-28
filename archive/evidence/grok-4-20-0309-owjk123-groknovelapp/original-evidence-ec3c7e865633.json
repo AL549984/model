@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:36.429Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/owjk123/GrokNovelApp/blob/main/README.md",
+  "finalUrl": "https://github.com/owjk123/GrokNovelApp/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4f991996330386d3978d15ce040df73f\"",
+  "lastModified": null,
+  "bodyBytes": 264663,
+  "bodySha256": "2cdf6e43b951f898a7d3b6f4ce69264dfb346ab87e874402791dbe0df1ebd412",
+  "title": "GrokNovelApp/README.md at main · owjk123/GrokNovelApp · GitHub",
+  "github": {
+    "owner": "owjk123",
+    "repo": "GrokNovelApp",
+    "apiStatus": "unavailable"
+  }
+}

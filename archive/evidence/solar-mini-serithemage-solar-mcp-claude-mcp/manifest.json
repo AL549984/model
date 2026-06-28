@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-serithemage-solar-mcp-claude-mcp",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "solar-mcp exposes Solar Mini as an MCP chat tool for Claude clients",
+  "evidenceFingerprint": "de2d967cf0cfbcd0ff1d896a32436c2e1c44cba7bb5fce3d825b4b8fcbd482cc",
+  "capturedAt": "2026-06-27T23:23:41.792Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/serithemage/solar-mcp/blob/main/README.md",
+      "snapshotPath": "archive/evidence/solar-mini-serithemage-solar-mcp-claude-mcp/original-evidence-e643e423e8c6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "solar-mcp/README.md at main · serithemage/solar-mcp · GitHub",
+      "bodySha256": "6c738238b32d40a34932375eb0ed20d5801d3e1a1629989854161c5d0b75c223",
+      "capturedAt": "2026-06-27T23:23:36.088Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/serithemage/solar-mcp",
+      "snapshotPath": "archive/evidence/solar-mini-serithemage-solar-mcp-claude-mcp/artifact-1-c170f65d8d31.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - serithemage/solar-mcp: MCP server for Upstage Solar Pro2 and Solar Mini models · GitHub",
+      "bodySha256": "9249ca13444cc39f23ddd3f38ce30f5254e27b03f8a1096d21357f669ba7c413",
+      "capturedAt": "2026-06-27T23:23:39.740Z",
+      "error": ""
+    }
+  ]
+}

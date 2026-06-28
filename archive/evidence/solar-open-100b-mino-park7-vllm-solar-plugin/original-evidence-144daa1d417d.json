@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:09.676Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/mino-park7/vllm-solar-plugin/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/mino-park7/vllm-solar-plugin/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1522",
+  "etag": "W/\"c4413128d822cdaa4ff0d84d1cc65d85d3e09e9751823c9bc448f235eca94bef\"",
+  "lastModified": null,
+  "bodyBytes": 3506,
+  "bodySha256": "c24aadd7f5717eacafffdc7910820807b26d547734596b44ba85fd4f10fee4a4",
+  "title": "",
+  "github": null
+}

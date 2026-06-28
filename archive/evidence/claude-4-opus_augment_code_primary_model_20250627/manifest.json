@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-opus_augment_code_primary_model_20250627",
+  "modelId": "claude-4-opus",
+  "modelName": "Claude 4 Opus",
+  "title": "Augment Code uses Claude Opus 4 as a top choice for complex coding tasks",
+  "evidenceFingerprint": "ac7a979010e4dc369df73de5f2202194766f6c600dccb63df7fd26672ad296e2",
+  "capturedAt": "2026-06-27T23:26:07.163Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-4#:~:text=Augment%20Code%20reports%20higher%20success%20rates%2C%20more%20surgical%20code%20edits%2C%20and%20more%20careful%20work%20through%20complex%20tasks",
+      "snapshotPath": "archive/evidence/claude-4-opus_augment_code_primary_model_20250627/original-evidence-f1138a0ca522.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Introducing Claude 4 \\ Anthropic",
+      "bodySha256": "515a6c8b38aacce31385c1fa5a7be91351469b88134a215563aa4709695be743",
+      "capturedAt": "2026-06-27T23:26:00.518Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.augmentcode.com",
+      "snapshotPath": "archive/evidence/claude-4-opus_augment_code_primary_model_20250627/artifact-1-394659b22ff2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Augment Code: Agentic software development at organizational scale",
+      "bodySha256": "9dd73a3bf7bf72c2679cc576376a74e8b21fc89c34c6169ad49f039a5f267723",
+      "capturedAt": "2026-06-27T23:26:05.776Z",
+      "error": ""
+    }
+  ]
+}

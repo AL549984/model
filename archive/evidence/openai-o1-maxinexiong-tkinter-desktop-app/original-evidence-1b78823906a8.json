@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:50.440Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/MaxineXiong/ChatGPT-Tkinter-Desktop-App/master/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/MaxineXiong/ChatGPT-Tkinter-Desktop-App/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2754",
+  "etag": "W/\"ed53cf308c261cf473a9170f3757dd7c43aa941a88b4070558c1078653e64363\"",
+  "lastModified": null,
+  "bodyBytes": 6961,
+  "bodySha256": "0fee18f521dac81752c1607bb78b27fc84b2cfaa8ab0f2ffeeac04f80262819c",
+  "title": "",
+  "github": null
+}

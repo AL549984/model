@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:57.383Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Bluenot3/Qwen2.5max",
+  "finalUrl": "https://github.com/Bluenot3/Qwen2.5max",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6aa7fc289de2d6f209b89024bc9695d9\"",
+  "lastModified": null,
+  "bodyBytes": 233729,
+  "bodySha256": "5faeb3e130f3eafc4b37046fdc19c69c985003d1ed5174903e670f8fff58d85a",
+  "title": "GitHub - Bluenot3/Qwen2.5max: Qwen 2.5 Max · GitHub",
+  "github": {
+    "owner": "Bluenot3",
+    "repo": "Qwen2.5max",
+    "apiStatus": "unavailable"
+  }
+}

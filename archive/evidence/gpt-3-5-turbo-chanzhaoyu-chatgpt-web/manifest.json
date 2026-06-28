@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-3-5-turbo-chanzhaoyu-chatgpt-web",
+  "modelId": "gpt-3-5-turbo",
+  "modelName": "GPT-3.5 Turbo",
+  "title": "ChatGPT Web 用 GPT-3.5 Turbo 搭建开源 ChatGPT 网页客户端",
+  "evidenceFingerprint": "d96940ae3a50193f580e971b0576ca7715732e6760fa94d974919eecbc333491",
+  "capturedAt": "2026-06-27T21:54:13.011Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Chanzhaoyu/chatgpt-web/blob/main/README.md#L41-L58",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-chanzhaoyu-chatgpt-web/original-evidence-554f41119760.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "chatgpt-web/README.md at main · Chanzhaoyu/chatgpt-web · GitHub",
+      "bodySha256": "19595cc1ae4bfff9e0c0f49477ac2f73e349e6907adc7e0f7127ebccd0b588b1",
+      "capturedAt": "2026-06-27T21:54:10.855Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Chanzhaoyu/chatgpt-web",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-chanzhaoyu-chatgpt-web/artifact-1-84b73fa51369.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Chanzhaoyu/chatgpt-web: 用 Express 和 Vue3 搭建的 ChatGPT 演示网页 · GitHub",
+      "bodySha256": "66f0750284e673d739e7012761b2d2cdb6f01cfb93100ac30617a219e97c5e89",
+      "capturedAt": "2026-06-27T21:54:11.933Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:21.088Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zaidmukaddam/scira/blob/main/ai/providers.ts#L362-L365",
+  "finalUrl": "https://github.com/zaidmukaddam/scira/blob/main/ai/providers.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"733b26cae613881322aa36508f76c3a7\"",
+  "lastModified": null,
+  "bodyBytes": 548068,
+  "bodySha256": "84c042cb6ad8d4ad38c1c08884452b8c3056e38ce25222deba249dac11492c5f",
+  "title": "scira/ai/providers.ts at main · zaidmukaddam/scira · GitHub",
+  "github": {
+    "owner": "zaidmukaddam",
+    "repo": "scira",
+    "apiStatus": "unavailable"
+  }
+}

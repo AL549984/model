@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-3-1-405b-nvidia-pdf-to-podcast",
+  "modelId": "llama-3-1-405b",
+  "modelName": "Llama 3.1 405B",
+  "title": "NVIDIA AI Blueprint: PDF-to-Podcast with Llama 3.1 405B Ensemble",
+  "evidenceFingerprint": "89af4c880f5d256e6eadd5ce0f2ce82ab1fde814be75ff3a8963b063c4ac6f71",
+  "capturedAt": "2026-06-27T22:30:10.054Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-nvidia-pdf-to-podcast/original-evidence-de7fc7320f63.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - NVIDIA-AI-Blueprints/pdf-to-podcast: Transform PDFs into AI podcasts for engaging on-the-go audio content. · GitHub",
+      "bodySha256": "11e7b671b6f5abdb1ac1adce0e5153116ae33e9f69c2463df17619a826b2a706",
+      "capturedAt": "2026-06-27T22:30:07.664Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-nvidia-pdf-to-podcast/artifact-1-de7fc7320f63.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - NVIDIA-AI-Blueprints/pdf-to-podcast: Transform PDFs into AI podcasts for engaging on-the-go audio content. · GitHub",
+      "bodySha256": "0b5b8aaa41ddfcf1e8493d457b578ce61e8908f9161613d0ad3c67e79d45d7b4",
+      "capturedAt": "2026-06-27T22:30:09.203Z",
+      "error": ""
+    }
+  ]
+}

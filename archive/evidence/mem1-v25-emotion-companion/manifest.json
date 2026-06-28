@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mem1-v25-emotion-companion",
+  "modelId": "deepseek-v2-5-dec",
+  "modelName": "DeepSeek-V2.5 (Dec)",
+  "title": "Mem1: DeepSeek-V2.5 as LLM Backend for Emotion Companion Memory Extraction",
+  "evidenceFingerprint": "10f90688cc7c15fd88f377bac5f32d3978c48c0fd98786964e2fd09502ac4675",
+  "capturedAt": "2026-06-27T22:37:40.538Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/1596941391qq/Mem1/blob/master/README.md",
+      "snapshotPath": "archive/evidence/mem1-v25-emotion-companion/original-evidence-e0eefefdc910.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Mem1/README.md at master · 1596941391qq/Mem1 · GitHub",
+      "bodySha256": "f0c45243998639deac961769c3a6204a9f808fa44d70c2ed7ece792e40e7770e",
+      "capturedAt": "2026-06-27T22:37:38.553Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/1596941391qq/Mem1",
+      "snapshotPath": "archive/evidence/mem1-v25-emotion-companion/artifact-1-47fd3ddc6ae6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 1596941391qq/Mem1: mem1是mem0的魔改版本。我的魔改能让它生成效果更可用和更适合做情感陪伴项目 · GitHub",
+      "bodySha256": "6a6fd26ec0f53e476c8fbe92c6cc516fa8c67773b6593fe66947ca9bba926660",
+      "capturedAt": "2026-06-27T22:37:39.603Z",
+      "error": ""
+    }
+  ]
+}

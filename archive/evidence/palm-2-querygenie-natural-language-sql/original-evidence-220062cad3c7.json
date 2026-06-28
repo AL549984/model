@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:13.071Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL",
+  "finalUrl": "https://github.com/Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"de427328d7f5f40e55604f9103bcc44f\"",
+  "lastModified": null,
+  "bodyBytes": 241404,
+  "bodySha256": "106037c8e6ec2801cd293ab6766934b843a0bd07fef3a95f20d482a38ef9faff",
+  "title": "GitHub - Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL: QueryGenie empowers users to ask complex database questions in plain English and get precise answers without writing a single line of SQL. Powered by Google PaLM 2, LangChain, Huggin",
+  "github": {
+    "owner": "Poorna-Chandra-D",
+    "repo": "QueryGenie-Ask-SQL-Without-SQL",
+    "apiStatus": "unavailable"
+  }
+}

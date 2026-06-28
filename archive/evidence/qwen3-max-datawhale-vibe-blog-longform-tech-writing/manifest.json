@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-datawhale-vibe-blog-longform-tech-writing",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "Datawhale vibe-blog uses Qwen3 Max family to generate long-form technical blog/tutorial content",
+  "evidenceFingerprint": "be98af41b309764d401ced21151baaafd1a3b4962e0d637e2b712344230209e9",
+  "capturedAt": "2026-06-27T23:08:11.948Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/datawhalechina/vibe-blog/blob/cc4b4c564aa6c39f8fd59ae75e03b2e5fc7ac491/README.md",
+      "snapshotPath": "archive/evidence/qwen3-max-datawhale-vibe-blog-longform-tech-writing/original-evidence-bfc5dd3e8565.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "vibe-blog/README.md at cc4b4c564aa6c39f8fd59ae75e03b2e5fc7ac491 · datawhalechina/vibe-blog · GitHub",
+      "bodySha256": "b7e362f4e070039e2126591bc8f5ad153ba3c606a26bc58498239b0819a5d4b4",
+      "capturedAt": "2026-06-27T23:08:09.599Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://lailoo.github.io/Hello-LLM-FineTuning/",
+      "snapshotPath": "archive/evidence/qwen3-max-datawhale-vibe-blog-longform-tech-writing/artifact-1-c5172b3bed66.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Hello LLM Fine-Tuning | 大模型微调技术全栈指南",
+      "bodySha256": "23f82de5ced2f850cb38bb648e4b66542f0e59c3ae13d6dc9e7518438cd967ec",
+      "capturedAt": "2026-06-27T23:08:11.079Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:45.842Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/lesteroliver911/pdfgenius-gemini-2.0-flash-exp",
+  "finalUrl": "https://github.com/lesteroliver911/pdfgenius-gemini-2.0-flash-exp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2d93f874b98b026a44efad1cbb7ef747\"",
+  "lastModified": null,
+  "bodyBytes": 271625,
+  "bodySha256": "d1f7c30f7c8ab1cb3b4182d869c4131d9143e157a654493dfac4e37a9fa6319e",
+  "title": "GitHub - lesteroliver911/pdfgenius-gemini-2.0-flash-exp: A Python-based RAG application that uses Google&#39;s Gemini-2.0-flash-exp API to analyze PDF documents and answer questions about their content. Turn any PDF into an interactive know",
+  "github": {
+    "owner": "lesteroliver911",
+    "repo": "pdfgenius-gemini-2.0-flash-exp",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:08.476Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Shopify/reasonableai/issues/27",
+  "finalUrl": "https://github.com/Shopify/reasonableai/issues/27",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 599685,
+  "bodySha256": "3075bfc9911e5443a69b22d29478926b9a029024caf87b187b24d117cf852ef3",
+  "title": "Benchmarking results · Issue #27 · Shopify/reasonableai · GitHub",
+  "github": {
+    "owner": "Shopify",
+    "repo": "reasonableai",
+    "apiStatus": "unavailable"
+  }
+}

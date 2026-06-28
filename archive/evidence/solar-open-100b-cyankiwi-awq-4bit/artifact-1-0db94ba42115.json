@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:33.750Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/cyankiwi/Solar-Open-100B-AWQ-4bit",
+  "finalUrl": "https://huggingface.co/cyankiwi/Solar-Open-100B-AWQ-4bit",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"30b4c-YdRiwDGHjXmT5svRoDcBym8XtRE\"",
+  "lastModified": null,
+  "bodyBytes": 199500,
+  "bodySha256": "3d876d36ac9f933974ed8897c45db36fb44294dc2d500f4bcbf86174498ae1a8",
+  "title": "cyankiwi/Solar-Open-100B-AWQ-4bit · Hugging Face",
+  "github": null
+}

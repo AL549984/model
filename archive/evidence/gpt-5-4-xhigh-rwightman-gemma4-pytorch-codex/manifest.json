@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-4-xhigh-rwightman-gemma4-pytorch-codex",
+  "modelId": "gpt-5-4-xhigh",
+  "modelName": "GPT-5.4 (xhigh)",
+  "title": "rwightman produced a standalone Gemma 4 PyTorch implementation using Codex with GPT-5.4 xhigh",
+  "evidenceFingerprint": "c4c03cb660dad509cdfa2885a10fec5b0726db353c76a50560d5c2f59cf5da38",
+  "capturedAt": "2026-06-27T22:08:02.452Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rwightman/gemma4_pytorch_codex",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-rwightman-gemma4-pytorch-codex/original-evidence-c7bd11ba553f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rwightman/gemma4_pytorch_codex: Standalone Gemma4 PyTorch Model using Codex (GPT-5.4 xhigh) · GitHub",
+      "bodySha256": "adfa2f7ffb4c27c67e5929ff556b385788266bd61c7950bba3bf8f172022a4d2",
+      "capturedAt": "2026-06-27T22:08:00.915Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rwightman/gemma4_pytorch_codex",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-rwightman-gemma4-pytorch-codex/artifact-1-c7bd11ba553f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rwightman/gemma4_pytorch_codex: Standalone Gemma4 PyTorch Model using Codex (GPT-5.4 xhigh) · GitHub",
+      "bodySha256": "4608ad11df148f70881d3473fdc48c29c7abd8ed0f396aa65ab78a4fba92880b",
+      "capturedAt": "2026-06-27T22:08:02.022Z",
+      "error": ""
+    }
+  ]
+}

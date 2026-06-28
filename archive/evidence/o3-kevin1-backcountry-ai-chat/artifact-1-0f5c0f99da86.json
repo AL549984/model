@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:53.178Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kevin1/backcountry-ai-chat",
+  "finalUrl": "https://github.com/kevin1/backcountry-ai-chat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fac4aa0db75d2e5aaec7db1c015c135e\"",
+  "lastModified": null,
+  "bodyBytes": 263635,
+  "bodySha256": "b23779d6bc33874b26ccf8d1e95e4de35a3e0da629e47e9bc4b4f90e289213bf",
+  "title": "GitHub - kevin1/backcountry-ai-chat: Chatbot for weather forecast &amp; general knowledge over SMS built w/ OpenAI o3 + Cloudflare Workers · GitHub",
+  "github": {
+    "owner": "kevin1",
+    "repo": "backcountry-ai-chat",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-2-chat-7b-chaoluond-safetyllama",
+  "modelId": "llama-2-chat-7b",
+  "modelName": "Llama 2 Chat 7B",
+  "title": "chaoluond 基于 Llama 2 7B Chat 微调 Safety LLaMA 做聊天安全评估",
+  "evidenceFingerprint": "be3b9110083a415aa7a6c47a143784ada174d0ad7c3d0949bf57cc72d952b328",
+  "capturedAt": "2026-06-27T21:27:38.034Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/chaoluond/safetyllama/main/README.md",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-chaoluond-safetyllama/original-evidence-85cfbaa6c6c0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7a6c0da4113d79418c7abe85b43845ceebf9ba14ff67acb035ef8ba3e91e388c",
+      "capturedAt": "2026-06-27T21:27:36.462Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/chaoluond/safetyllama",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-chaoluond-safetyllama/artifact-1-6cf14e7ac193.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - chaoluond/safetyllama: Finetune LLaMA-2-7b-chat to perform safety evaluation of user-bot conversation · GitHub",
+      "bodySha256": "31cc24deff0428b2269bf665bef4e99eff0d36d3d3ecf72622a8efb87db180b6",
+      "capturedAt": "2026-06-27T21:27:36.808Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:26.499Z",
+  "kind": "original-evidence",
+  "url": "https://hpc-ai.com/blog/314-billion-parameter-grok-1-inference-accelerated-by-3.8x-efficient-and-easy-to-use-pytorchhuggingface-version-is-here",
+  "finalUrl": "https://hpc-ai.com/blog/314-billion-parameter-grok-1-inference-accelerated-by-3.8x-efficient-and-easy-to-use-pytorchhuggingface-version-is-here",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 134416,
+  "bodySha256": "f8f805a60f585784d2a8c7cdd4a63769167f1d6091c49b51d4304d1ed2d0db90",
+  "title": "HPC-AI Tech Blog | Insights on GPU Cloud, AI Training &amp; HPC compute",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude37-case-semgrep-assistant",
+  "modelId": "claude-3-7-sonnet",
+  "modelName": "Claude 3.7 Sonnet",
+  "title": "Semgrep code security analysis",
+  "evidenceFingerprint": "73bd8de616d41ba0567ac84e004d3bac4aba52af2fbc9d1b247f7a7696817e32",
+  "capturedAt": "2026-06-27T23:27:13.497Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/semgrep",
+      "snapshotPath": "archive/evidence/claude37-case-semgrep-assistant/original-evidence-697ed6e15bfb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Semgrep Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "389182ac85ff2d7c67cc2d1526260b2281ebc50b7c1e38c3bd97b796538eda3b",
+      "capturedAt": "2026-06-27T23:27:06.894Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://semgrep.dev/",
+      "snapshotPath": "archive/evidence/claude37-case-semgrep-assistant/artifact-1-e5277db834ec.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Semgrep App Security Platform | AI-assisted SAST, SCA and Secrets Detection",
+      "bodySha256": "88bed88b51eded10bfe0879c5c3ed44faa0b023ba5416e77d4a5ea57ed4ea3cf",
+      "capturedAt": "2026-06-27T23:27:12.027Z",
+      "error": ""
+    }
+  ]
+}

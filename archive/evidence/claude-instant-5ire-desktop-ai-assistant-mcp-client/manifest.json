@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-instant-5ire-desktop-ai-assistant-mcp-client",
+  "modelId": "claude-instant",
+  "modelName": "Claude Instant",
+  "title": "5ire exposes Claude Instant in a desktop AI assistant and MCP client",
+  "evidenceFingerprint": "44282779170e780b7000c71364b3aa65c0a350a051449578fbf634c8b85d51da",
+  "capturedAt": "2026-06-27T20:54:53.550Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/nanbingxyz/5ire/blob/main/src/utils/util.ts#L209-L211",
+      "snapshotPath": "archive/evidence/claude-instant-5ire-desktop-ai-assistant-mcp-client/original-evidence-5085bf45af57.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "5ire/src/utils/util.ts at main · nanbingxyz/5ire · GitHub",
+      "bodySha256": "5aa62cb44428c1efa8a9813dd23db6d794e5afd3f256462117cdb7162fc1d053",
+      "capturedAt": "2026-06-27T20:54:51.158Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/nanbingxyz/5ire",
+      "snapshotPath": "archive/evidence/claude-instant-5ire-desktop-ai-assistant-mcp-client/artifact-1-f0aaae0b8b25.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - nanbingxyz/5ire: 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, supports local knowledge base and tools via model context protocol servers . · GitHub",
+      "bodySha256": "780436ead517739f16cb5458f8352b2f2d8811c71f9ac72c905ba71fbef7960b",
+      "capturedAt": "2026-06-27T20:54:52.611Z",
+      "error": ""
+    }
+  ]
+}

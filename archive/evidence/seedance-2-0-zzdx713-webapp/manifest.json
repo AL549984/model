@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-2-0-zzdx713-webapp",
+  "modelId": "seedance-2-0",
+  "modelName": "Seedance 2.0",
+  "title": "zzdx713 开源 Seedance 2.0 参考图视频生成 Web 应用",
+  "evidenceFingerprint": "a66805fa02b51c773ebdbd1da7c32bcc7db7d5efada0d4d6e74ef118a4736b06",
+  "capturedAt": "2026-06-27T23:23:29.365Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zzdx713/seedance2.0#readme",
+      "snapshotPath": "archive/evidence/seedance-2-0-zzdx713-webapp/original-evidence-45f04ae17c65.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zzdx713/seedance2.0: 基于即梦 Seedance 2.0 模型的 AI 视频生成 Web 应用。支持多图参考、双模型选择、6种画面比例、4-15秒时长，React + Express 前后端架构，支持 Docker 一键部署。 · GitHub",
+      "bodySha256": "47536e4c57b0689e3951362cfd3d4a382b8c17d737e64e881dc45801f01a4a7d",
+      "capturedAt": "2026-06-27T23:23:26.200Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zzdx713/seedance2.0",
+      "snapshotPath": "archive/evidence/seedance-2-0-zzdx713-webapp/artifact-1-92d1dd62837d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zzdx713/seedance2.0: 基于即梦 Seedance 2.0 模型的 AI 视频生成 Web 应用。支持多图参考、双模型选择、6种画面比例、4-15秒时长，React + Express 前后端架构，支持 Docker 一键部署。 · GitHub",
+      "bodySha256": "791f9358809fddbb650dcbea074513fc62c447e245d8cd40a2740da1a3f1b7a3",
+      "capturedAt": "2026-06-27T23:23:28.930Z",
+      "error": ""
+    }
+  ]
+}

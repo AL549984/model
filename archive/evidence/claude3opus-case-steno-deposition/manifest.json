@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude3opus-case-steno-deposition",
+  "modelId": "claude-3-opus",
+  "modelName": "Claude 3 Opus",
+  "title": "Steno deposition preparation assistant",
+  "evidenceFingerprint": "a797fd0a2535349e812c4ae3167f4860ec0a0acf546e36e233c39d46679b2a10",
+  "capturedAt": "2026-06-27T23:27:26.748Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/steno",
+      "snapshotPath": "archive/evidence/claude3opus-case-steno-deposition/original-evidence-5dce859b0ee4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Steno Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "066a5333b93a811a5c7b1647c8968fa9bdc0915fd6068dd0a634824ce6fe9b83",
+      "capturedAt": "2026-06-27T23:27:24.484Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.steno.com/",
+      "snapshotPath": "archive/evidence/claude3opus-case-steno-deposition/artifact-1-c10b2ee36c4b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Exceptional court reporting and litigation services | Steno",
+      "bodySha256": "ea2dfee03b5a2ebfe1fca3e593cb9b840aece009c8478d0b78450d397daa860d",
+      "capturedAt": "2026-06-27T23:27:25.024Z",
+      "error": ""
+    }
+  ]
+}

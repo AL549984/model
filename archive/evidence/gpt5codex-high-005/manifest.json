@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5codex-high-005",
+  "modelId": "gpt-5-codex-high",
+  "modelName": "GPT-5 Codex (high)",
+  "title": "OpenAI 使用 Codex 构建 Completions→Responses API 迁移工具包",
+  "evidenceFingerprint": "26e67f8eda2d2c267792ac6e9338d793ec97e5884f5c0b46978226e6b597806f",
+  "capturedAt": "2026-06-27T22:08:20.823Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/openai/completions-responses-migration-pack",
+      "snapshotPath": "archive/evidence/gpt5codex-high-005/original-evidence-6dfa8b530681.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - openai/completions-responses-migration-pack: Developer toolkit to migrate applications from the legacy OpenAI Completions/Chat Completions APIs to the unified Responses API, guided by Codex CLI · GitHub",
+      "bodySha256": "1cfdac9273f0826e99345c545da4dbf564f3cd8366ef6d0d1b6c66bdb3aba110",
+      "capturedAt": "2026-06-27T22:08:19.120Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/openai/completions-responses-migration-pack",
+      "snapshotPath": "archive/evidence/gpt5codex-high-005/artifact-1-6dfa8b530681.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - openai/completions-responses-migration-pack: Developer toolkit to migrate applications from the legacy OpenAI Completions/Chat Completions APIs to the unified Responses API, guided by Codex CLI · GitHub",
+      "bodySha256": "30051c723f2a8e2c40aaf0a4cf912741c9d7fa906713ffa07d979a36827823a6",
+      "capturedAt": "2026-06-27T22:08:20.240Z",
+      "error": ""
+    }
+  ]
+}

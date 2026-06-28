@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:25.851Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/shravya004/PitchPerfectAI/blob/main/app.py#L12-L157",
+  "finalUrl": "https://github.com/shravya004/PitchPerfectAI/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6b930fc014c0d4bc59316ea4efd440bf\"",
+  "lastModified": null,
+  "bodyBytes": 311137,
+  "bodySha256": "04daf634518899a75859822da2e41a2f47e8c8aae3e915586146ffbaaf261920",
+  "title": "PitchPerfectAI/app.py at main · shravya004/PitchPerfectAI · GitHub",
+  "github": {
+    "owner": "shravya004",
+    "repo": "PitchPerfectAI",
+    "apiStatus": "unavailable"
+  }
+}

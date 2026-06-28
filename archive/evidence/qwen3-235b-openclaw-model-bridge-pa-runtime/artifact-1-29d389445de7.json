@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:55.301Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/bisdom-cell/openclaw-model-bridge",
+  "finalUrl": "https://github.com/bisdom-cell/openclaw-model-bridge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c2ab4219016f981d6efa918a2146111b\"",
+  "lastModified": null,
+  "bodyBytes": 771155,
+  "bodySha256": "d842a02ac88ed5cec3d9fca253cdf9442bf084b24e8cf5f4cbb6715477505436",
+  "title": "GitHub - bisdom-cell/openclaw-model-bridge: Connect any LLM to OpenClaw — production-tested middleware for Qwen3-235B and beyond · GitHub",
+  "github": {
+    "owner": "bisdom-cell",
+    "repo": "openclaw-model-bridge",
+    "apiStatus": "unavailable"
+  }
+}

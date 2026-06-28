@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "openai-o1-colemurray-swarmjs",
+  "modelId": "o1",
+  "modelName": "o1",
+  "title": "Cole Murray used o1-mini to generate a TypeScript Swarm implementation",
+  "evidenceFingerprint": "cb796b77ff35253d5ab0d2c82e752b2ede5a8f568d2e6da9b2b78e57f44d4084",
+  "capturedAt": "2026-06-27T21:27:48.904Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/ColeMurray/swarmjs/main/README.md",
+      "snapshotPath": "archive/evidence/openai-o1-colemurray-swarmjs/original-evidence-e84be3a0fa05.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "da9f3852b6d259033173d4c2170c184150fb415722d697d12ed9c0ef573626aa",
+      "capturedAt": "2026-06-27T21:27:47.139Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ColeMurray/swarmjs",
+      "snapshotPath": "archive/evidence/openai-o1-colemurray-swarmjs/artifact-1-39ef63f83f1d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ColeMurray/swarmjs: A typescript Implementation of OpenAI swarm generated with o1-mini · GitHub",
+      "bodySha256": "3a76d1285576858e555bb0bfd7c6b1becc8cd88cb2b0533e5f766118333fe7e6",
+      "capturedAt": "2026-06-27T21:27:47.483Z",
+      "error": ""
+    }
+  ]
+}

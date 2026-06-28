@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-case-005-workshop-labs-finetuning",
+  "modelId": "kimi-k2",
+  "modelName": "Kimi K2 Thinking",
+  "title": "Workshop Labs 使用 LoRA 微调 Kimi K2 Thinking 的实践",
+  "evidenceFingerprint": "64c339d0275540580afc04a44113c814df5f197c9570abb0526367b8253995b3",
+  "capturedAt": "2026-06-27T22:29:33.443Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/workshop-labs-pbc/monkeypatch-train-kimi-k2-thinking-demo",
+      "snapshotPath": "archive/evidence/kimi-k2-case-005-workshop-labs-finetuning/original-evidence-fd4e31f6059f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - workshop-labs-pbc/monkeypatch-train-kimi-k2-thinking-demo: A demo of what it takes to get Kimi K2 Thinking to train on top of HuggingFace · GitHub",
+      "bodySha256": "55b89f577cb505b27c2e5bcf6af6284d6f578f828c1238c157ba213e3ad6a67a",
+      "capturedAt": "2026-06-27T22:29:29.883Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://workshoplabs.ai/blog/open-weights-open-training",
+      "snapshotPath": "archive/evidence/kimi-k2-case-005-workshop-labs-finetuning/artifact-1-c1ac6ff6f99b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Open Weights isn&#x27;t Open Training",
+      "bodySha256": "0db1e1e59c7e102c434ea3f6b61bc6b6393488249e45d1839a6c03323bd730d2",
+      "capturedAt": "2026-06-27T22:29:30.977Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v3-dec-case-sympcheck-healthcare",
+  "modelId": "deepseek-v3-dec",
+  "modelName": "DeepSeek V3 (Dec)",
+  "title": "SympCheck Healthcare Chatbot Using DeepSeek V3 API",
+  "evidenceFingerprint": "cc9f8c8b3fb7c5db0d4451aaf83a1c0f2082f04afaf6bc35e300705fd2f85bbf",
+  "capturedAt": "2026-06-27T21:34:36.065Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/tanishq-ctrl/sympcheck-helper",
+      "snapshotPath": "archive/evidence/ds-v3-dec-case-sympcheck-healthcare/original-evidence-910873a44c6e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tanishq-ctrl/sympcheck-helper: SympCheck Helper is a modern healthcare consultation chatbot that leverages the power of DeepSeek V3 API and Supabase to provide intelligent health-related assistance. Built with cutting-edge technolo",
+      "bodySha256": "2b7b5642a877af7f32e950c1d5678b3f1d91625b6efe2b524daccbc58799e798",
+      "capturedAt": "2026-06-27T21:34:34.168Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/tanishq-ctrl/sympcheck-helper",
+      "snapshotPath": "archive/evidence/ds-v3-dec-case-sympcheck-healthcare/artifact-1-910873a44c6e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tanishq-ctrl/sympcheck-helper: SympCheck Helper is a modern healthcare consultation chatbot that leverages the power of DeepSeek V3 API and Supabase to provide intelligent health-related assistance. Built with cutting-edge technolo",
+      "bodySha256": "217d4ac26626ac882a895a03ae4402dc380f51e724e3aaf2d91573640756e27a",
+      "capturedAt": "2026-06-27T21:34:35.545Z",
+      "error": ""
+    }
+  ]
+}

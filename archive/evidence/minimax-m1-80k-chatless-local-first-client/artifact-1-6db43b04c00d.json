@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:17.932Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kamjin3086/chatless",
+  "finalUrl": "https://github.com/kamjin3086/chatless",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"14745e6b72c32f9a3af62c32021a8299\"",
+  "lastModified": null,
+  "bodyBytes": 379625,
+  "bodySha256": "54a57f53a3e33e4a646875db47259b3ee251711c7c608d9c97f031b3426933f6",
+  "title": "GitHub - kamjin3086/chatless: 💻一款简洁实用轻量级的本地AI对话客户端，采用Tauri2.0和Next.js编写 A simple, practical, and lightweight local AI chat client, written in Tauri 2.0 &amp; Next.js. · GitHub",
+  "github": {
+    "owner": "kamjin3086",
+    "repo": "chatless",
+    "apiStatus": "unavailable"
+  }
+}

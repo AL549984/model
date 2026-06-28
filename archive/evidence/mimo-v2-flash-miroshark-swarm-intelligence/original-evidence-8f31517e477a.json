@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:53.423Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/aaronjmars/MiroShark/pull/207",
+  "finalUrl": "https://github.com/aaronjmars/MiroShark/pull/207",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 266018,
+  "bodySha256": "ae2b32b175d03221fe7a3bb8b43cb297032e023f38dc2fd42f8524038c07e696",
+  "title": "chore(models): switch default model from mimo-v2-flash to mimo-v2.5 by aaronjmars · Pull Request #207 · aaronjmars/MiroShark · GitHub",
+  "github": {
+    "owner": "aaronjmars",
+    "repo": "MiroShark",
+    "apiStatus": "unavailable"
+  }
+}

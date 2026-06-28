@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-flash-may-yashwenth27-gitme",
+  "modelId": "gemini-1-5-flash-may",
+  "modelName": "Gemini 1.5 Flash (May)",
+  "title": "GitMe uses Gemini 1.5 Flash to generate README files from public GitHub repositories",
+  "evidenceFingerprint": "8b0e579a7101298d6d6abcaeb3a27bd8387b21b0b004fae09e25710280cd5d87",
+  "capturedAt": "2026-06-27T21:40:30.560Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Yashwenth27/GitMe/blob/main/main.py#L10-L128",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-yashwenth27-gitme/original-evidence-892518323712.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitMe/main.py at main · Yashwenth27/GitMe · GitHub",
+      "bodySha256": "6d96024d00e0147adff747eb77c5d13d4d0313458fb523891c040d8f589a7474",
+      "capturedAt": "2026-06-27T21:40:27.845Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Yashwenth27/GitMe",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-yashwenth27-gitme/artifact-1-a383d43fcd01.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Yashwenth27/GitMe: GitMe is a Streamlit-powered tool that uses Gemini 1.5 Flash to auto-generate elegant, informative, and markdown-rich README.md files from any public GitHub repository. Whether you&#39;re a solo dev or part of a ",
+      "bodySha256": "917cc6eacf1e71e8b57c48ec3e6ab21a31ab1f88b6475b65f022cba37bc60bb3",
+      "capturedAt": "2026-06-27T21:40:29.625Z",
+      "error": ""
+    }
+  ]
+}

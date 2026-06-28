@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-flash-llmgateway-routing",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "LLMGateway: MiMo-V2-Flash as Routed Model in Multi-Provider LLM Gateway",
+  "evidenceFingerprint": "4acad617b47cefb11e1c9c5a6f4c8083ba81237f7584253158e8a7444bee8a5b",
+  "capturedAt": "2026-06-27T22:37:53.421Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/theopenco/llmgateway/pull/2648",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-llmgateway-routing/original-evidence-1a08b0fe8899.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "fix(models): deactivate mimo-v2-flash at Xiaomi switch by steebchen · Pull Request #2648 · theopenco/llmgateway · GitHub",
+      "bodySha256": "019d24046552ad57f5c9d845c53eb16e6cf9c7393e939b4dceb2960485cff951",
+      "capturedAt": "2026-06-27T22:37:51.137Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/theopenco/llmgateway",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-llmgateway-routing/artifact-1-b0f8b4b08aed.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - theopenco/llmgateway: Route, manage, and analyze your LLM requests across multiple providers with a unified API interface. · GitHub",
+      "bodySha256": "3fe7ee32d15c0d8910bf30cdf21c4dca8090e52c6c7657e22853ec0bad8409c6",
+      "capturedAt": "2026-06-27T22:37:52.456Z",
+      "error": ""
+    }
+  ]
+}

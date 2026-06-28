@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:23.844Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/spaces/arunjayzui/MiniMaxAI-MiniMax-M1-80k",
+  "finalUrl": "https://huggingface.co/spaces/arunjayzui/MiniMaxAI-MiniMax-M1-80k",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9860-WZs7t+c1eMoyDGjWniwbWycfksY\"",
+  "lastModified": null,
+  "bodyBytes": 39008,
+  "bodySha256": "084277f23743ce3bc3c2a2fee1f174ea11dbbae8ecb5f50a83e44941634063aa",
+  "title": "MiniMaxAI MiniMax M1 80k - a Hugging Face Space by arunjayzui",
+  "github": null
+}

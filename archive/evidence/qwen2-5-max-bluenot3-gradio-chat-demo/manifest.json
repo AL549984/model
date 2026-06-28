@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-max-bluenot3-gradio-chat-demo",
+  "modelId": "qwen2-5-max",
+  "modelName": "Qwen2.5 Max",
+  "title": "Bluenot3 published a Gradio chat interface backed by Qwen2.5-Max",
+  "evidenceFingerprint": "798c2d61b1eef3d238017edefeef26d52e5177dd9401cedc4c501a9e3a05c11a",
+  "capturedAt": "2026-06-27T22:59:58.347Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Bluenot3/Qwen2.5max/blob/main/app.py",
+      "snapshotPath": "archive/evidence/qwen2-5-max-bluenot3-gradio-chat-demo/original-evidence-1fedd86877d5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Qwen2.5max/app.py at main · Bluenot3/Qwen2.5max · GitHub",
+      "bodySha256": "7a9cae3cdeab08590cc7a387a16f69c0301ca42663b8c2babf2743b42743b9e6",
+      "capturedAt": "2026-06-27T22:59:56.004Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Bluenot3/Qwen2.5max",
+      "snapshotPath": "archive/evidence/qwen2-5-max-bluenot3-gradio-chat-demo/artifact-1-8c81666b80fb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Bluenot3/Qwen2.5max: Qwen 2.5 Max · GitHub",
+      "bodySha256": "5faeb3e130f3eafc4b37046fdc19c69c985003d1ed5174903e670f8fff58d85a",
+      "capturedAt": "2026-06-27T22:59:57.383Z",
+      "error": ""
+    }
+  ]
+}

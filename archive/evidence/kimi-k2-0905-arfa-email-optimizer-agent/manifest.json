@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-0905-arfa-email-optimizer-agent",
+  "modelId": "kimi-k2-0905",
+  "modelName": "Kimi K2 0905",
+  "title": "Arfa-Ahsan 用 Kimi K2 Instruct 0905 构建邮件内容优化 Agent",
+  "evidenceFingerprint": "6e37f36572de921606d56df03d8f17db5beec82b18f608e0d877ee357b907036",
+  "capturedAt": "2026-06-27T22:22:22.944Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Arfa-Ahsan/Email_Optimizer_Agent/blob/main/email_optimizer.py",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-arfa-email-optimizer-agent/original-evidence-90a2f26bc6fd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Email_Optimizer_Agent/email_optimizer.py at main · Arfa-Ahsan/Email_Optimizer_Agent · GitHub",
+      "bodySha256": "71c8dd06d21f197a427c654211e6fcabb977ff21cd41e0147eedf3ae9c426100",
+      "capturedAt": "2026-06-27T22:22:20.811Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Arfa-Ahsan/Email_Optimizer_Agent",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-arfa-email-optimizer-agent/artifact-1-12cb1c95354b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Arfa-Ahsan/Email_Optimizer_Agent: Email Content Optimizer is an AI-powered app that helps you write, evaluate, and improve professional emails. It uses Groq Langchain, LangGraph agents, and the MoonshotAI Kimi K2 Instruct 0905 mode",
+      "bodySha256": "37875c914ac40dccae5bf5b5348148ea88122cfc46c44f2e391b4c785b65a850",
+      "capturedAt": "2026-06-27T22:22:21.856Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-1-litellm-gateway",
+  "modelId": "claude-2-1",
+  "modelName": "Claude 2.1",
+  "title": "BerriAI LiteLLM enables multi-provider access to Claude 2.1 through unified proxy",
+  "evidenceFingerprint": "5dbccef9941ee2577b1412fbfe5d016e925fa1bede9cfb1e0a254d9280255e7f",
+  "capturedAt": "2026-06-27T20:16:47.444Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/BerriAI/litellm/issues/2016",
+      "snapshotPath": "archive/evidence/claude-2-1-litellm-gateway/original-evidence-fa6a72300749.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[Bug]: Using Anthropic; model claude-2.1, ends in AnthropicException · Issue #2016 · BerriAI/litellm · GitHub",
+      "bodySha256": "e4095f740f4a58abe4ab6e3b5f01ade5be170529af3c5e425cf1111d9cb67293",
+      "capturedAt": "2026-06-27T20:16:45.280Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/BerriAI/litellm",
+      "snapshotPath": "archive/evidence/claude-2-1-litellm-gateway/artifact-1-dab892839df4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - BerriAI/litellm: Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, ",
+      "bodySha256": "ac5511ab8be9e41f36c8afa9046298db303d3f2f505097f9f0b0e6c316ed6b4c",
+      "capturedAt": "2026-06-27T20:16:46.339Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:47.440Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/khalimanja/omni-bot",
+  "finalUrl": "https://github.com/khalimanja/omni-bot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5a4830f919bada857e47dbedaac62aa1\"",
+  "lastModified": null,
+  "bodyBytes": 228084,
+  "bodySha256": "5ab7ab36ba6cf050ea22d46d1e3ff598669f53c588618092586622a94c63f1c3",
+  "title": "GitHub - khalimanja/omni-bot: Autonomous AI Freelance Empire Bot running on Grok 4.20 · GitHub",
+  "github": {
+    "owner": "khalimanja",
+    "repo": "omni-bot",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-3-1-pro-preview-case-reddit-intel",
+  "modelId": "gemini-3-1-pro-preview",
+  "modelName": "Gemini 3.1 Pro Preview",
+  "title": "Reddit Community Intelligence Scanner: Multimodal Sentiment Analysis with Gemini 3.1 Pro Preview",
+  "evidenceFingerprint": "70e731bf538104bf276079a4cd2c4064197b339f878d744ecfbed8daa6872426",
+  "capturedAt": "2026-06-27T21:47:29.092Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/OmuNaman/reddit-trending-analysis",
+      "snapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-reddit-intel/original-evidence-006dad3c177c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - OmuNaman/reddit-trending-analysis: Terminal tool: scrape a subreddit every 30 min and analyse posts + comment threads + images with Gemini 3.1 Pro against a custom intent · GitHub",
+      "bodySha256": "1e041b55f992d151db457efe7196585725ffd97682025a1bcdde21511b85d364",
+      "capturedAt": "2026-06-27T21:47:27.549Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/OmuNaman/reddit-trending-analysis",
+      "snapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-reddit-intel/artifact-1-006dad3c177c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - OmuNaman/reddit-trending-analysis: Terminal tool: scrape a subreddit every 30 min and analyse posts + comment threads + images with Gemini 3.1 Pro against a custom intent · GitHub",
+      "bodySha256": "c768b26b5629ac56112a6ee305518b65ff705320b28a6bab25d9a8b1474738f0",
+      "capturedAt": "2026-06-27T21:47:28.625Z",
+      "error": ""
+    }
+  ]
+}

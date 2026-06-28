@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-skyvern-ui-tars-20250611",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "Skyvern integrates Seed1.5-VL / Doubao thinking-vision for UI-TARS browser automation actions",
+  "evidenceFingerprint": "891a86ed34c295b02bc00c93ee357ca0ad3afdbe635cea9c34d17cd20af08f6f",
+  "capturedAt": "2026-06-27T23:23:11.012Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Skyvern-AI/skyvern/pull/2656",
+      "snapshotPath": "archive/evidence/seed1-5-vl-skyvern-ui-tars-20250611/original-evidence-12eb942c674d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ui-tars integration by wyatt-halluminate · Pull Request #2656 · Skyvern-AI/skyvern · GitHub",
+      "bodySha256": "d1453d38b26c4c8147c879f6f82a20367e0b2f8b0066591d28882a3813451655",
+      "capturedAt": "2026-06-27T23:23:07.296Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "snapshotPath": "archive/evidence/seed1-5-vl-skyvern-ui-tars-20250611/artifact-1-1ca4fd1db630.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Skyvern-AI/skyvern: Automate browser based workflows with AI · GitHub",
+      "bodySha256": "8077215b29d166c7af2091eb1e1216902923d30ab83642885e805e7aae02c9d2",
+      "capturedAt": "2026-06-27T23:23:10.059Z",
+      "error": ""
+    }
+  ]
+}

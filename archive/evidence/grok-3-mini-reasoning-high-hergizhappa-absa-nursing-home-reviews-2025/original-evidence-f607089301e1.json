@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:19.866Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/HerGizHappa/Grok3Mini/blob/main/README.md",
+  "finalUrl": "https://github.com/HerGizHappa/Grok3Mini/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2d75e3c8a28d6f0fa43162218ef3a520\"",
+  "lastModified": null,
+  "bodyBytes": 260112,
+  "bodySha256": "f25c476b88a7574f6467c255e5a8f9ba5354728384c3bfceb5f944bf77b9475a",
+  "title": "Grok3Mini/README.md at main · HerGizHappa/Grok3Mini · GitHub",
+  "github": {
+    "owner": "HerGizHappa",
+    "repo": "Grok3Mini",
+    "apiStatus": "unavailable"
+  }
+}

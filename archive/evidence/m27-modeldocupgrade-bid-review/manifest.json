@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "m27-modeldocupgrade-bid-review",
+  "modelId": "minimax-m2-7",
+  "modelName": "MiniMax M2.7",
+  "title": "ModelDocUpgrade: Word Document Rule Compliance Checker Using MiniMax-M2.7-highspeed",
+  "evidenceFingerprint": "c217d24d5816cf14c7f0fede672acf6b0bc4f8147ecaee88bda4426492cb38fd",
+  "capturedAt": "2026-06-27T22:37:34.550Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/xiaoyza/ModelDocUpgrade",
+      "snapshotPath": "archive/evidence/m27-modeldocupgrade-bid-review/original-evidence-fa4e88d78798.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - xiaoyza/ModelDocUpgrade: Word规则审查器 - 基于MiniMax-M2.7的智能文档审查工具，支持规则文档抽取+响应文档逐条审查 · GitHub",
+      "bodySha256": "c5f3d1753afff9d3440fd17e3111aaec5a4d85b49f390f6b659bf23c909a1127",
+      "capturedAt": "2026-06-27T22:37:32.786Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/xiaoyza/ModelDocUpgrade",
+      "snapshotPath": "archive/evidence/m27-modeldocupgrade-bid-review/artifact-1-fa4e88d78798.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - xiaoyza/ModelDocUpgrade: Word规则审查器 - 基于MiniMax-M2.7的智能文档审查工具，支持规则文档抽取+响应文档逐条审查 · GitHub",
+      "bodySha256": "4ca9dee2f2a80ad395b41b8f98b5c394105e08bd9f67cfc784be3d388a32e0f2",
+      "capturedAt": "2026-06-27T22:37:34.017Z",
+      "error": ""
+    }
+  ]
+}

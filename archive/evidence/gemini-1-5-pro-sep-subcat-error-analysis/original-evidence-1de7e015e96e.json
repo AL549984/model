@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:53.743Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/duty1g/subcat#use-ai-analysis-for-errors",
+  "finalUrl": "https://github.com/duty1g/subcat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"137f194c73b19883a2060e9ec816eaf1\"",
+  "lastModified": null,
+  "bodyBytes": 363718,
+  "bodySha256": "94d11c72339e058b1f878ccfc68c9fa6774d690c6fedc6a8da5b078391c932ea",
+  "title": "GitHub - duty1g/subcat: Lightning-fast passive subdomain discovery tool for security professionals and bug bounty hunters. · GitHub",
+  "github": {
+    "owner": "duty1g",
+    "repo": "subcat",
+    "apiStatus": "unavailable"
+  }
+}

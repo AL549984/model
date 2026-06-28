@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:34.291Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sangjiexun/clawcoder",
+  "finalUrl": "https://github.com/sangjiexun/clawcoder",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d230f01e86182afaecc96d53694bafa9\"",
+  "lastModified": null,
+  "bodyBytes": 370648,
+  "bodySha256": "2729cf47ae75ec6bb6fb2ee7ef5cb685d363567c1454b3b5d9b183675e6616a8",
+  "title": "GitHub - sangjiexun/clawcoder: ClawCoder - AI-Powered Coding Assistant powered by Kimi K2.5. An interactive command-line coding assistant with file operations, code execution, and AI-assisted editing. · GitHub",
+  "github": {
+    "owner": "sangjiexun",
+    "repo": "clawcoder",
+    "apiStatus": "unavailable"
+  }
+}

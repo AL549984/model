@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:30.264Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sci-freak/phd-tracker-lite/releases",
+  "finalUrl": "https://github.com/sci-freak/phd-tracker-lite/releases",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c497af7fd0e9234f0037db89b790295b\"",
+  "lastModified": null,
+  "bodyBytes": 208380,
+  "bodySha256": "7e002173b76610fa45e411f74187c62a799e3431e7a47786d0e3554139c96b35",
+  "title": "Releases · sci-freak/phd-tracker-lite · GitHub",
+  "github": {
+    "owner": "sci-freak",
+    "repo": "phd-tracker-lite",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:43.963Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Integuru-AI/Integuru/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Integuru-AI/Integuru/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2513",
+  "etag": "W/\"e2b00fe569d96198071f2e6bcca05c847a4431fbc094fcfea3fd6c59b860ff0b\"",
+  "lastModified": null,
+  "bodyBytes": 6002,
+  "bodySha256": "84d084de0f2d3f5df8bb6e17181ec4bead54e9ccf6c050ef5631a5e7db2e901e",
+  "title": "",
+  "github": null
+}

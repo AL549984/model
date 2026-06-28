@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-6-max-firecrawl-coupon-finder",
+  "modelId": "claude-opus-4-6-max",
+  "modelName": "Claude Opus 4.6 (max)",
+  "title": "Firecrawl 用 Claude Opus 4.6 Agent Teams 构建优惠码查找 Chrome 扩展",
+  "evidenceFingerprint": "b77dae539d741dd03f998909693c290ac51ede88223baaf3c96df16ab2a4943c",
+  "capturedAt": "2026-06-27T20:55:20.931Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/firecrawl/firecrawl-coupon-finder",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-firecrawl-coupon-finder/original-evidence-eef1fbfe07be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - firecrawl/firecrawl-coupon-finder: A Chrome extension built with Claude Opus 4.6 Agent Teams and Firecrawl Agents to automatically find and validate coupons. · GitHub",
+      "bodySha256": "ba2d62ca4ca5db84f09650cb2d64ddecc2a6bb170e2f06492f5392a21ecec786",
+      "capturedAt": "2026-06-27T20:55:19.257Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/firecrawl/firecrawl-coupon-finder",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-firecrawl-coupon-finder/artifact-1-eef1fbfe07be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - firecrawl/firecrawl-coupon-finder: A Chrome extension built with Claude Opus 4.6 Agent Teams and Firecrawl Agents to automatically find and validate coupons. · GitHub",
+      "bodySha256": "5e48a9df37cd722fc82b3c483e27cce934d1a5ab67f76288fd70b490bc64b1b4",
+      "capturedAt": "2026-06-27T20:55:20.406Z",
+      "error": ""
+    }
+  ]
+}

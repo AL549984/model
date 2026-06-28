@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:17.931Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/eosphoros-ai/DB-GPT-Hub",
+  "finalUrl": "https://github.com/eosphoros-ai/DB-GPT-Hub",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"64d2106d6f621bbae3532a879408918b\"",
+  "lastModified": null,
+  "bodyBytes": 442672,
+  "bodySha256": "e0bee16016d21c832902399fb6182c661ca2c8b25a919f1ec7592b2a455b1112",
+  "title": "GitHub - eosphoros-ai/DB-GPT-Hub: A repository that contains models, datasets, and fine-tuning techniques for DB-GPT, with the purpose of enhancing model performance in Text-to-SQL · GitHub",
+  "github": {
+    "owner": "eosphoros-ai",
+    "repo": "DB-GPT-Hub",
+    "apiStatus": "unavailable"
+  }
+}

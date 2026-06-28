@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:55.479Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/web-infra-dev/midscene",
+  "finalUrl": "https://github.com/web-infra-dev/midscene",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"66b7938c1d448135a0539f7e6169a1b5\"",
+  "lastModified": null,
+  "bodyBytes": 363835,
+  "bodySha256": "f4ec893cbff46562d110c3a531b6a1af8dc28f7f8782836d7940a7ba9e82f3e7",
+  "title": "GitHub - web-infra-dev/midscene: AI-powered, vision-driven UI automation for every platform. · GitHub",
+  "github": {
+    "owner": "web-infra-dev",
+    "repo": "midscene",
+    "apiStatus": "unavailable"
+  }
+}

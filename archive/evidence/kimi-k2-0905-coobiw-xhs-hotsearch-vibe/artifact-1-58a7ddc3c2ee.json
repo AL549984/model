@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:23.948Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Coobiw/xhs-hotsearch-vibe",
+  "finalUrl": "https://github.com/Coobiw/xhs-hotsearch-vibe",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"41b2136e71a48bd3c93fd631a6e05f7b\"",
+  "lastModified": null,
+  "bodyBytes": 312770,
+  "bodySha256": "1e6a09dd36ff4faeb760ee2c6c41f67fad9f4a56091c3b33efbfcf729bf949f6",
+  "title": "GitHub - Coobiw/xhs-hotsearch-vibe: Kimi-K2-0905 Vibe-Coding Test: Get XiaoHongShu hot-search, analyze, then output a html report. All the project is completed by Kimi-K2-0905 + Claude Code. · GitHub",
+  "github": {
+    "owner": "Coobiw",
+    "repo": "xhs-hotsearch-vibe",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:04.923Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Siavarshan21/Restaurant-Landing1",
+  "finalUrl": "https://github.com/Siavarshan21/Restaurant-Landing1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"67dd576e1c981948e8bdcb2185a213df\"",
+  "lastModified": null,
+  "bodyBytes": 278160,
+  "bodySha256": "2bddcf37124e01e86d7f5b798bd853a0f934087fe5c0862929412999242a3b32",
+  "title": "GitHub - Siavarshan21/Restaurant-Landing1: profile Qwen3-235B-A22B-2507 5:06 pm Certainly! Here&#39;s a clean, professional, and engaging GitHub project description for a Restaurant Landing Page . You can copy and paste this directly into y",
+  "github": {
+    "owner": "Siavarshan21",
+    "repo": "Restaurant-Landing1",
+    "htmlUrl": "https://github.com/Siavarshan21/Restaurant-Landing1",
+    "defaultBranch": "master",
+    "defaultBranchSha": "4ec347134eb0717197770318769ffc3d8057b15e",
+    "pushedAt": "2025-07-22T16:08:04Z",
+    "updatedAt": "2025-07-22T16:08:09Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

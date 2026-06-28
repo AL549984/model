@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-3-1-pro-preview-case-003",
+  "modelId": "gemini-3-1-pro-preview",
+  "modelName": "Gemini 3.1 Pro Preview",
+  "title": "ARIS: Autonomous ML Research Pipeline with Gemini 3.1 Pro as Core Model",
+  "evidenceFingerprint": "61325fe0d53c3ebf0ed2e429af08532e9ce27a1a22b98df00a76297746a45983",
+  "capturedAt": "2026-06-27T21:47:25.469Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/docs/ANTIGRAVITY_ADAPTATION.md",
+      "snapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-003/original-evidence-98233122e267.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Auto-claude-code-research-in-sleep/docs/ANTIGRAVITY_ADAPTATION.md at main · wanshuiyin/Auto-claude-code-research-in-sleep · GitHub",
+      "bodySha256": "ab3e9fbfe18a00852218d52a4b9be13add4dc621933dbb0dbfac6287645cbbd1",
+      "capturedAt": "2026-06-27T21:47:21.995Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "snapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-003/artifact-1-cbaa9ddabf56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - wanshuiyin/Auto-claude-code-research-in-sleep: ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lo",
+      "bodySha256": "d40b10250ac4d7e50ce7fff2e9934824984351bffee986cd54c09539c32dcc9d",
+      "capturedAt": "2026-06-27T21:47:23.121Z",
+      "error": ""
+    }
+  ]
+}

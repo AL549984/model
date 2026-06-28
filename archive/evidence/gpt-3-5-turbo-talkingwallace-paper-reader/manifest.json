@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-3-5-turbo-talkingwallace-paper-reader",
+  "modelId": "gpt-3-5-turbo",
+  "modelName": "GPT-3.5 Turbo",
+  "title": "ChatGPT-Paper-Reader 用 GPT-3.5 Turbo 阅读和总结 PDF 学术论文",
+  "evidenceFingerprint": "8c6dbc086821532e7dfba6e51072d0d789864fbbfe62ec280fbea9e10038c492",
+  "capturedAt": "2026-06-27T22:00:37.076Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/talkingwallace/ChatGPT-Paper-Reader/blob/main/README.md#L7-L20",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-talkingwallace-paper-reader/original-evidence-49bb68d61625.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ChatGPT-Paper-Reader/README.md at main · talkingwallace/ChatGPT-Paper-Reader · GitHub",
+      "bodySha256": "72a0d19de90e15dca94d5f526c4ff1694db1d79c477640a1ce8590168c12ee5f",
+      "capturedAt": "2026-06-27T22:00:33.771Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/talkingwallace/ChatGPT-Paper-Reader",
+      "snapshotPath": "archive/evidence/gpt-3-5-turbo-talkingwallace-paper-reader/artifact-1-d4ae90124cbf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - talkingwallace/ChatGPT-Paper-Reader: This repo offers a simple interface that helps you to read&amp;summerize research papers in pdf format. You can ask some questions after reading. This interface is developed based on openai API ",
+      "bodySha256": "e249dcceec7fe06d15e50e11ddc4ba4a4a043e04e855a09e8890fe0fdbeecbce",
+      "capturedAt": "2026-06-27T22:00:36.112Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-midscene-ui-automation-docs-202506",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "Midscene documents Doubao-1.5-thinking-vision-pro for vision-driven UI automation",
+  "evidenceFingerprint": "9cf58f01c6e3810d7e6100ff3f95418fd1e48e7e195c292b687982fa4cd56b59",
+  "capturedAt": "2026-06-27T23:15:56.655Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Stars1233/midscene/pull/25",
+      "snapshotPath": "archive/evidence/seed1-5-vl-midscene-ui-automation-docs-202506/original-evidence-d188d67d9555.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[pull] main from web-infra-dev:main by pull[bot] · Pull Request #25 · Stars1233/midscene · GitHub",
+      "bodySha256": "53de4f9b8dd9ac9002da943e4d4cdb0c29035d47f4ae99798f5b8714a92defc1",
+      "capturedAt": "2026-06-27T23:15:54.271Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/web-infra-dev/midscene",
+      "snapshotPath": "archive/evidence/seed1-5-vl-midscene-ui-automation-docs-202506/artifact-1-e8aa3f087956.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - web-infra-dev/midscene: AI-powered, vision-driven UI automation for every platform. · GitHub",
+      "bodySha256": "f4ec893cbff46562d110c3a531b6a1af8dc28f7f8782836d7940a7ba9e82f3e7",
+      "capturedAt": "2026-06-27T23:15:55.479Z",
+      "error": ""
+    }
+  ]
+}

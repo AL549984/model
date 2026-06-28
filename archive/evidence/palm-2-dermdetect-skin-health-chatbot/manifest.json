@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "palm-2-dermdetect-skin-health-chatbot",
+  "modelId": "palm-2",
+  "modelName": "PALM-2",
+  "title": "Vitality Squad built DermDetect with a PaLM 2 chatbot for skin-health conversations",
+  "evidenceFingerprint": "226251bd1192a983c900764115b7fbcbfc1ca156d7979ea82e433f54776000f1",
+  "capturedAt": "2026-06-27T22:52:06.207Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/z0CoolCS/vitality_squad",
+      "snapshotPath": "archive/evidence/palm-2-dermdetect-skin-health-chatbot/original-evidence-85b368c963d1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - z0CoolCS/vitality_squad: This is a medical-oriented project using AI · GitHub",
+      "bodySha256": "66f3d3129f85a3dfebfba246d235dfa74fd701c028d04bd0d27c2bba65e96fd0",
+      "capturedAt": "2026-06-27T22:52:04.456Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/z0CoolCS/vitality_squad",
+      "snapshotPath": "archive/evidence/palm-2-dermdetect-skin-health-chatbot/artifact-1-85b368c963d1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - z0CoolCS/vitality_squad: This is a medical-oriented project using AI · GitHub",
+      "bodySha256": "4aa532816eb5fe549707d740132aa52617207e1c5ff2e9ae83c23d34c0466971",
+      "capturedAt": "2026-06-27T22:52:05.681Z",
+      "error": ""
+    }
+  ]
+}

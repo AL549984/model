@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-5-397b-a17b-clerveu-vidtest-video-to-text",
+  "modelId": "qwen3-5-397b-a17b",
+  "modelName": "Qwen3.5 397B A17B",
+  "title": "Clerveu 用 Qwen3.5-397B-A17B 构建视频转文本分析流水线",
+  "evidenceFingerprint": "e69b79fc265378a20e15aff414bcd4a8e4492d6114905f4e899aebd5c3d6360b",
+  "capturedAt": "2026-06-27T23:07:19.399Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Clerveu/vidtest/blob/master/README.md",
+      "snapshotPath": "archive/evidence/qwen3-5-397b-a17b-clerveu-vidtest-video-to-text/original-evidence-086713b459b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "vidtest/README.md at master · Clerveu/vidtest · GitHub",
+      "bodySha256": "0c4c7a0e0901ac36c6cdbfae6cf4684cf8759182e3891d3e4178de40df24e73d",
+      "capturedAt": "2026-06-27T23:07:16.143Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Clerveu/vidtest",
+      "snapshotPath": "archive/evidence/qwen3-5-397b-a17b-clerveu-vidtest-video-to-text/artifact-1-149f976dffeb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Clerveu/vidtest: Video-to-text pipeline using OpenRouter Qwen3.5-397B-A17B vision model + VLC remote for real-time interaction · GitHub",
+      "bodySha256": "b724ddafb14e01f83d3b063e510938334e6249b4e9a9998b17af32629e1fd982",
+      "capturedAt": "2026-06-27T23:07:17.988Z",
+      "error": ""
+    }
+  ]
+}

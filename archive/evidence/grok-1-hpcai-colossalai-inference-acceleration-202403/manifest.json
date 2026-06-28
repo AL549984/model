@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-1-hpcai-colossalai-inference-acceleration-202403",
+  "modelId": "grok-1",
+  "modelName": "Grok-1",
+  "title": "HPC-AI Tech 用 ColossalAI 将 Grok-1 转为 PyTorch/Hugging Face 推理并加速 3.8x",
+  "evidenceFingerprint": "47d910a8e6d313a9c0cba6c4e9acdbf8679a3e24bed7d7a8d94c0176546e5598",
+  "capturedAt": "2026-06-27T22:08:31.230Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://hpc-ai.com/blog/314-billion-parameter-grok-1-inference-accelerated-by-3.8x-efficient-and-easy-to-use-pytorchhuggingface-version-is-here",
+      "snapshotPath": "archive/evidence/grok-1-hpcai-colossalai-inference-acceleration-202403/original-evidence-3da77fb2e219.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "HPC-AI Tech Blog | Insights on GPU Cloud, AI Training &amp; HPC compute",
+      "bodySha256": "f8f805a60f585784d2a8c7cdd4a63769167f1d6091c49b51d4304d1ed2d0db90",
+      "capturedAt": "2026-06-27T22:08:26.499Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hpcaitech/ColossalAI/tree/main/examples/language/grok-1",
+      "snapshotPath": "archive/evidence/grok-1-hpcai-colossalai-inference-acceleration-202403/artifact-1-6a6d02ddd564.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ColossalAI/examples/language/grok-1 at main · hpcaitech/ColossalAI · GitHub",
+      "bodySha256": "fc4199090426d15f0e6b8f8a1a91763ae73465125be6c38becb13d1294745059",
+      "capturedAt": "2026-06-27T22:08:29.199Z",
+      "error": ""
+    }
+  ]
+}

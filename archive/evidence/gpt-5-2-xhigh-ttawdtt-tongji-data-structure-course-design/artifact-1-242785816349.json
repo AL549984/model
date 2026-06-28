@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:41.461Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/TTAWDTT/tongji_software_engineering_data_structure_course_designing",
+  "finalUrl": "https://github.com/TTAWDTT/tongji_software_engineering_data_structure_course_designing",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"feb09bb8ea8053758f44b7d3b2d37bfb\"",
+  "lastModified": null,
+  "bodyBytes": 246474,
+  "bodySha256": "142a6719125d83a6d525117d19177b9c8b16daab5b37aa9940d3bcaaa404ec77",
+  "title": "GitHub - TTAWDTT/tongji_software_engineering_data_structure_course_designing: 同济大学2025数据结构课程设计所有作业答案，采用gpt-5.2-xhigh + codex生成 · GitHub",
+  "github": {
+    "owner": "TTAWDTT",
+    "repo": "tongji_software_engineering_data_structure_course_designing",
+    "htmlUrl": "https://github.com/TTAWDTT/tongji_software_engineering_data_structure_course_designing",
+    "defaultBranch": "main",
+    "defaultBranchSha": "df8e01adccdd5d42f9b52110f5273edf6c2b16b9",
+    "pushedAt": "2025-12-22T05:11:46Z",
+    "updatedAt": "2025-12-22T05:11:50Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

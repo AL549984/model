@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:38.381Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/growingpenguin/hw-llama-2-7B-nsmc/tree/main",
+  "finalUrl": "https://huggingface.co/growingpenguin/hw-llama-2-7B-nsmc/tree/main",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"156f6-bWYYCHHHstNqve8PCnd/tRG6Kww\"",
+  "lastModified": null,
+  "bodyBytes": 87798,
+  "bodySha256": "fe1b0c3a73b8ec56f36f866055f3fd45ed570c04cc2e947ef93267b5eed99bea",
+  "title": "growingpenguin/hw-llama-2-7B-nsmc at main",
+  "github": null
+}

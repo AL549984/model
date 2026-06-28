@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-3-1-405b-ai-content-detector-omerbsezer",
+  "modelId": "llama-3-1-405b",
+  "modelName": "Llama 3.1 405B",
+  "title": "AI Content Detector — AWS Bedrock + Llama 3.1 405B for AI-generated text detection",
+  "evidenceFingerprint": "b71dac5cdcedb30a84fd0c02839791c5852275843227c5f8efab7625866712e1",
+  "capturedAt": "2026-06-27T22:30:02.660Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/omerbsezer/AI-Content-Detector",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-ai-content-detector-omerbsezer/original-evidence-066e5ad7e103.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - omerbsezer/AI-Content-Detector: Tool to give AI generated score, to analyze with patterns how much input text is AI generated using AWS Bedrock Llama 3.1 405B · GitHub",
+      "bodySha256": "804c5ca5259bfbdc45db174fd777a01472fc331daee87309d74fb330e61f64f0",
+      "capturedAt": "2026-06-27T22:29:59.242Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://dev.to/omerberatsezer/open-source-ai-content-detector-app-with-aws-bedrock-to-separate-completely-ai-vs-human-generated-2de4",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-ai-content-detector-omerbsezer/artifact-1-e749d92e1740.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Open Source AI Content Detector APP with AWS Bedrock to separate COMPLETELY AI vs HUMAN generated posts: 🤖 vs 🧑 - DEV Community",
+      "bodySha256": "86a8fc7c3595b00ea4f69367315d809cee0ed157cf802cf9fc25f2267a6fe7e5",
+      "capturedAt": "2026-06-27T22:30:01.197Z",
+      "error": ""
+    }
+  ]
+}

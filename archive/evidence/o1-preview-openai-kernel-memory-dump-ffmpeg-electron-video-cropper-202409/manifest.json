@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-preview-openai-kernel-memory-dump-ffmpeg-electron-video-cropper-202409",
+  "modelId": "o1-preview",
+  "modelName": "o1-preview",
+  "title": "kernel-memory-dump generated an Electron FFmpeg video cropper with a single ChatGPT o1-preview prompt",
+  "evidenceFingerprint": "75e63dff90bad37aacf85f876365957344fa49c2706b1523e5886bb59df961f8",
+  "capturedAt": "2026-06-27T22:51:45.823Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kernel-memory-dump/ffmpeg-electron-demo-chatgpt/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o1-preview-openai-kernel-memory-dump-ffmpeg-electron-video-cropper-202409/original-evidence-e99a8a3269c2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ffmpeg-electron-demo-chatgpt/README.md at main · kernel-memory-dump/ffmpeg-electron-demo-chatgpt · GitHub",
+      "bodySha256": "68f5727a45628ea751464927ab812a300f57171cbd89db20ab86179de8f09d9e",
+      "capturedAt": "2026-06-27T22:51:43.493Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kernel-memory-dump/ffmpeg-electron-demo-chatgpt",
+      "snapshotPath": "archive/evidence/o1-preview-openai-kernel-memory-dump-ffmpeg-electron-video-cropper-202409/artifact-1-3cee193a0133.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kernel-memory-dump/ffmpeg-electron-demo-chatgpt: Video Cropper FFMPEG 100% generated with a single ChatGPT o1-preview prompt This is a desktop application built with **Electron** and **FFmpeg** that allows users to visually select ",
+      "bodySha256": "050584836b066d4a23e064c51ed76ca8f9e09f0748fc915ec6d309cdb9bc5123",
+      "capturedAt": "2026-06-27T22:51:44.545Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-thinking-exp-jan-search-agent",
+  "modelId": "gemini-2-0-flash-thinking-exp-jan",
+  "modelName": "Gemini 2.0 Flash Thinking exp. (Jan)",
+  "title": "arham-kk built a search-augmented answering agent with Gemini 2.0 Flash Thinking",
+  "evidenceFingerprint": "e97c554020ef8c9b840151e191175859e8019815caf2ab9df4e57f57dea5067d",
+  "capturedAt": "2026-06-27T21:47:00.021Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/arham-kk/gemini-thinking-search-agent/blob/main/agent.py",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-search-agent/original-evidence-8a90e92e5e19.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "gemini-thinking-search-agent/agent.py at main · arham-kk/gemini-thinking-search-agent · GitHub",
+      "bodySha256": "beef591ecd747ead04b831b5a80bf4be35b9a36747148e585101c10067cc04ee",
+      "capturedAt": "2026-06-27T21:46:57.979Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/arham-kk/gemini-thinking-search-agent",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-search-agent/artifact-1-3156e93b74bf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - arham-kk/gemini-thinking-search-agent: A Python-based agent showcasing the use of Google&#39;s Gemini 2.0 Flash Thinking Experimental model to reason by combining search results with user queries · GitHub",
+      "bodySha256": "549f2a9a88b6c5891b85ae0d0a8fa8f0e3eb626beeb02d14c6d65f0c0f7128f5",
+      "capturedAt": "2026-06-27T21:46:58.998Z",
+      "error": ""
+    }
+  ]
+}

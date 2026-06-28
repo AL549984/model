@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:30.447Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yousefhafed2222-gif/openclaw-agent/blob/main/index.js",
+  "finalUrl": "https://github.com/yousefhafed2222-gif/openclaw-agent/blob/main/index.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"21c921c49edfcc59e56abe168ef6f6ff\"",
+  "lastModified": null,
+  "bodyBytes": 251455,
+  "bodySha256": "5a284270a0207c7f2e92c5f86790e93bc21a023c0f6df7a91a05e679015dc362",
+  "title": "openclaw-agent/index.js at main · yousefhafed2222-gif/openclaw-agent · GitHub",
+  "github": {
+    "owner": "yousefhafed2222-gif",
+    "repo": "openclaw-agent",
+    "apiStatus": "unavailable"
+  }
+}

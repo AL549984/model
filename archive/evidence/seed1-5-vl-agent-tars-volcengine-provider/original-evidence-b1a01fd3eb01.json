@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:47.881Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+  "finalUrl": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"65f4a63cc215081fcb783f5a3792c87b\"",
+  "lastModified": null,
+  "bodyBytes": 403819,
+  "bodySha256": "1d6b22d9ca874d199c6c51d0d674c80af64f6984e9b5c07526deb890cefc8da1",
+  "title": "UI-TARS-desktop/README.md at main · bytedance/UI-TARS-desktop · GitHub",
+  "github": {
+    "owner": "bytedance",
+    "repo": "UI-TARS-desktop",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:11.300Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/bestroofingnow/siteforge",
+  "finalUrl": "https://github.com/bestroofingnow/siteforge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0180934a2653aa958e85ce6cf6c3f1a9\"",
+  "lastModified": null,
+  "bodyBytes": 297888,
+  "bodySha256": "b54ccc6ef22964e7715656ab0ab6efafb6ab288a8f963405c38722a9bc2a28b3",
+  "title": "GitHub - bestroofingnow/siteforge: AI-powered website generator using Claude and Llama 4 Maverick · GitHub",
+  "github": {
+    "owner": "bestroofingnow",
+    "repo": "siteforge",
+    "apiStatus": "unavailable"
+  }
+}

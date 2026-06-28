@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-pro-openclaw-dispatcher-agent",
+  "modelId": "mimo-v2-pro",
+  "modelName": "MiMo-V2-Pro",
+  "title": "OpenClaw user JanPlessow builds mechanical dispatcher agent using MiMo-V2-Pro for tool-call parameter filtering",
+  "evidenceFingerprint": "d8ba2cab4a659ef968ded4826b3c9db7e99cb9a3de564fd7c28e4512c62c9429",
+  "capturedAt": "2026-06-27T22:44:16.390Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/openclaw/openclaw/issues/59225",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-openclaw-dispatcher-agent/original-evidence-7c298d3a0936.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Feature: Per-agent tool schema parameter filtering (slim tool definitions for subagents) · Issue #59225 · openclaw/openclaw · GitHub",
+      "bodySha256": "a6cd3963f43dfd01dadbc0316b20353ef39f471b66551923144da8134c828d27",
+      "capturedAt": "2026-06-27T22:44:13.876Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/openclaw/openclaw",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-openclaw-dispatcher-agent/artifact-1-0b5c4741d1c1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 · GitHub",
+      "bodySha256": "9f5f66588838e416d0d9c25fe2bf69610b2f36d70379bdb0992d42273f75020f",
+      "capturedAt": "2026-06-27T22:44:15.137Z",
+      "error": ""
+    }
+  ]
+}

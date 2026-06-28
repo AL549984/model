@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:19.476Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ZacharyZhang-NY/FlowBoard-Showdown",
+  "finalUrl": "https://github.com/ZacharyZhang-NY/FlowBoard-Showdown",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"538108ecadfabe04fede107a0a49871d\"",
+  "lastModified": null,
+  "bodyBytes": 252738,
+  "bodySha256": "6f1eda62dece703230b5e31311e2789d579c982fef83226f8beb146af2374bb1",
+  "title": "GitHub - ZacharyZhang-NY/FlowBoard-Showdown: Same PRD, four AI models. FlowBoard built by GLM 5.1, Kimi K2.6, Claude Opus 4.6, and Codex GPT 5.4. · GitHub",
+  "github": {
+    "owner": "ZacharyZhang-NY",
+    "repo": "FlowBoard-Showdown",
+    "apiStatus": "unavailable"
+  }
+}

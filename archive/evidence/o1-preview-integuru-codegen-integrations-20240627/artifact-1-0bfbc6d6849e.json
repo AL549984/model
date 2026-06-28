@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:44.398Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Integuru-AI/Integuru",
+  "finalUrl": "https://github.com/Integuru-AI/Integuru",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c51f997a7a29b67f00006285c054e72e\"",
+  "lastModified": null,
+  "bodyBytes": 317358,
+  "bodySha256": "1ba52e488c577acbf12fcc3e42ec3f4fed30acdb065eadcd8d34fc32eca9f1be",
+  "title": "GitHub - Integuru-AI/Integuru: The first AI agent that builds permissionless integrations through reverse engineering platforms&#39; internal APIs. · GitHub",
+  "github": {
+    "owner": "Integuru-AI",
+    "repo": "Integuru",
+    "apiStatus": "unavailable"
+  }
+}

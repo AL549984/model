@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-browserwing-automation-agent",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "BrowserWing lists Grok Beta for browser automation agent workflows",
+  "evidenceFingerprint": "2dded9bfe6aa1b90720899a9008d94318c284baeedf88d1f2b703170a7fd5eed",
+  "capturedAt": "2026-06-27T22:21:51.463Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/browserwing/browserwing/blob/main/backend/agent/agent_llm.go",
+      "snapshotPath": "archive/evidence/grok-beta-browserwing-automation-agent/original-evidence-87616eebbf88.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "browserwing/backend/agent/agent_llm.go at main · browserwing/browserwing · GitHub",
+      "bodySha256": "9e9d550524a8a703040a6883760d81a17ec6c067c0a9058d02328bf6abc3f35c",
+      "capturedAt": "2026-06-27T22:21:49.596Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/browserwing/browserwing",
+      "snapshotPath": "archive/evidence/grok-beta-browserwing-automation-agent/artifact-1-058106b29851.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - browserwing/browserwing: BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call",
+      "bodySha256": "93c52e0c1a62b9e91a5c97b2bcc902f5315f22bbf63e8442aaebc01f000adeba",
+      "capturedAt": "2026-06-27T22:21:50.600Z",
+      "error": ""
+    }
+  ]
+}

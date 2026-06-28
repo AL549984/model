@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm47-case-005",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7-Flash",
+  "title": "SIGIR 2026: GLM-4.7-Flash 作为深度研究 Agent 进行文本排序评估",
+  "evidenceFingerprint": "f4648eef230f025b63635a4a2650271f67a6a3e6c63409e53f15d7e0052c670c",
+  "capturedAt": "2026-06-27T21:54:03.048Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ChuanMeng/text-ranking-in-deep-research",
+      "snapshotPath": "archive/evidence/glm47-case-005/original-evidence-4b4e9bc6b8de.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ChuanMeng/text-ranking-in-deep-research: Official repository for the SIGIR 2026 paper &quot;Revisiting Text Ranking in Deep Research&quot; · GitHub",
+      "bodySha256": "1023d729de6c958a436b7ca156cfb7012defbe9e0542c4f27c428e8a4ea81083",
+      "capturedAt": "2026-06-27T21:54:01.037Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://arxiv.org/abs/2602.21456",
+      "snapshotPath": "archive/evidence/glm47-case-005/artifact-1-2954163856f0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[2602.21456] Revisiting Text Ranking in Deep Research",
+      "bodySha256": "446423e09ba74dfc8959b14f808834eb835c93d3c576aba9235357dcbff29aef",
+      "capturedAt": "2026-06-27T21:54:02.113Z",
+      "error": ""
+    }
+  ]
+}

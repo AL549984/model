@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:33.205Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/mikedemarais/grok-skill/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/mikedemarais/grok-skill/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "3127",
+  "etag": "W/\"da1ba031f9548f20a2393adc1bcb4c284506872873852308d22fee6233536fb3\"",
+  "lastModified": null,
+  "bodyBytes": 6876,
+  "bodySha256": "2195195af08c4aaf2effe7630d1fe72296700c288267cb96f5a1cf5168d3b013",
+  "title": "",
+  "github": null
+}

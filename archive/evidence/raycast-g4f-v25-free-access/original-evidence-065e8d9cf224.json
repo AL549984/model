@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:43.363Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/XInTheDark/raycast-g4f/blob/main/README.md",
+  "finalUrl": "https://github.com/XInTheDark/raycast-g4f/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6b50ea962ef4b83bcc0fcb308b2c40b5\"",
+  "lastModified": null,
+  "bodyBytes": 475654,
+  "bodySha256": "aa6ff720d2f336f4c2bc95a031d0be9f498461ced0bbb64552c7bf2d32c06e91",
+  "title": "raycast-g4f/README.md at main · XInTheDark/raycast-g4f · GitHub",
+  "github": {
+    "owner": "XInTheDark",
+    "repo": "raycast-g4f",
+    "apiStatus": "unavailable"
+  }
+}

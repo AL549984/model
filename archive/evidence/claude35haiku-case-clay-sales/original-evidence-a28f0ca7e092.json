@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:54.517Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/clay",
+  "finalUrl": "https://claude.com/customers/clay",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 18:57:33 GMT",
+  "bodyBytes": 594500,
+  "bodySha256": "01e380ed10c2cf2271bbcc80eabf7831b34d6fdd0e57253d5b3c72d4aaf333bb",
+  "title": "Clay Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

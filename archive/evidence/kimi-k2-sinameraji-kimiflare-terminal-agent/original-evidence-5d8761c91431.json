@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:35.489Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/sinameraji/kimiflare/blob/main/README.md",
+  "finalUrl": "https://github.com/sinameraji/kimiflare/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"06e7592650be25e2f780854cc5494349\"",
+  "lastModified": null,
+  "bodyBytes": 426232,
+  "bodySha256": "e185de9d1de49e06aad47d9be92311de100d9177ea61da3f7419d23d09c1e48d",
+  "title": "kimiflare/README.md at main · sinameraji/kimiflare · GitHub",
+  "github": {
+    "owner": "sinameraji",
+    "repo": "kimiflare",
+    "apiStatus": "unavailable"
+  }
+}

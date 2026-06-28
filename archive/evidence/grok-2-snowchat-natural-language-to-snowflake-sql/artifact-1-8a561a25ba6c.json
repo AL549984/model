@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:14.226Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kaarthik108/snowChat",
+  "finalUrl": "https://github.com/kaarthik108/snowChat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6ef3140f3851aa4bf1389304c34002e7\"",
+  "lastModified": null,
+  "bodyBytes": 321158,
+  "bodySha256": "69d77bb10c7aa683b87d782b62b624bd0aee0bc98183116cb35d2f5724813ebf",
+  "title": "GitHub - kaarthik108/snowChat: Chat snowflake - Text to SQL · GitHub",
+  "github": {
+    "owner": "kaarthik108",
+    "repo": "snowChat",
+    "apiStatus": "unavailable"
+  }
+}

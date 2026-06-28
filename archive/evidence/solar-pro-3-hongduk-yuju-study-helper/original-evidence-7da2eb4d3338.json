@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:14.385Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Hongduk/tutor-app/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Hongduk/tutor-app/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "3311",
+  "etag": "W/\"0c0a192b98ca75408777508eeb4740525cc865b27e6a4cd9325f09be93743b5a\"",
+  "lastModified": null,
+  "bodyBytes": 6621,
+  "bodySha256": "7f2a0fbc54d712fa2a55483fced677c0fee43e313911f38794cdceecd67a52a7",
+  "title": "",
+  "github": null
+}

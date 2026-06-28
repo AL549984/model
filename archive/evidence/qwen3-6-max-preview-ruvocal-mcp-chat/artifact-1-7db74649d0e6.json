@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:34.266Z",
+  "kind": "artifact-1",
+  "url": "https://flo.ruv.io/",
+  "finalUrl": "https://flo.ruv.io/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": "30731",
+  "etag": "\"1mt9l68\"",
+  "lastModified": null,
+  "bodyBytes": 30731,
+  "bodySha256": "e4117cc58420585f4e2cde732fb05797dec1a83bf1e45e0b348a0c52204e428c",
+  "title": "RuFlo - Chat with AI models",
+  "github": null
+}

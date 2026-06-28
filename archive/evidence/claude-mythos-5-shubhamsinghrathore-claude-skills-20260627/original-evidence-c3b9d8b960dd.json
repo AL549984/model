@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:03.769Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/shubhamsinghrathore/CLAUDE-SKILLS/blob/main/README.md",
+  "finalUrl": "https://github.com/shubhamsinghrathore/CLAUDE-SKILLS/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8fd1c043f230f1ab9461842cbb032f72\"",
+  "lastModified": null,
+  "bodyBytes": 230524,
+  "bodySha256": "02d2e08caa75d6c11b5fb78c306bd1bcca675767b0ab71dd92bea21ea60411ce",
+  "title": "CLAUDE-SKILLS/README.md at main · shubhamsinghrathore/CLAUDE-SKILLS · GitHub",
+  "github": {
+    "owner": "shubhamsinghrathore",
+    "repo": "CLAUDE-SKILLS",
+    "apiStatus": "unavailable"
+  }
+}

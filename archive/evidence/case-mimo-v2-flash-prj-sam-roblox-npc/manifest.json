@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-mimo-v2-flash-prj-sam-roblox-npc",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "Project Sam: AI-Powered Roblox NPC Conversations via MiMo-V2-Flash",
+  "evidenceFingerprint": "54a631f3d0a7a4c56370fcb491bb6ecdb5e17eb9c53e8ad3fb3c5b25257ee99b",
+  "capturedAt": "2026-06-27T20:15:56.173Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/serenemm/ProjectSam",
+      "snapshotPath": "archive/evidence/case-mimo-v2-flash-prj-sam-roblox-npc/original-evidence-cd804a117146.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - serenemm/ProjectSam: Sam is a Roblox AI powered by a cloud-hosted large language model (MiMo v2 Flash from OpenRouter), enabling dynamic, natural language interactions. The backend is hosted on Railway and communicates with Roblox ",
+      "bodySha256": "9e4289136c8c31734d5ff110d311d752e140073ff8013d28d315da4d6034e560",
+      "capturedAt": "2026-06-27T20:15:53.557Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/serenemm/ProjectSam",
+      "snapshotPath": "archive/evidence/case-mimo-v2-flash-prj-sam-roblox-npc/artifact-1-cd804a117146.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - serenemm/ProjectSam: Sam is a Roblox AI powered by a cloud-hosted large language model (MiMo v2 Flash from OpenRouter), enabling dynamic, natural language interactions. The backend is hosted on Railway and communicates with Roblox ",
+      "bodySha256": "42decb5ccc4013f2be495ebadc96900df1636d1824541c2225762054010bb2af",
+      "capturedAt": "2026-06-27T20:15:55.472Z",
+      "error": ""
+    }
+  ]
+}

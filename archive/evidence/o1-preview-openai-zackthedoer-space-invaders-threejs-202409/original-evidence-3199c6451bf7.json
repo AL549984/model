@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:45.824Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ZackTheDoer/o1-preview-space-invaders/blob/main/README.md",
+  "finalUrl": "https://github.com/ZackTheDoer/o1-preview-space-invaders/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5eb61bef13fcc7be0740cec7df12adec\"",
+  "lastModified": null,
+  "bodyBytes": 243810,
+  "bodySha256": "0018cbafb00a64ef7c24f64fa21e3144139959757f626b709c1b91445d805306",
+  "title": "o1-preview-space-invaders/README.md at main · ZackTheDoer/o1-preview-space-invaders · GitHub",
+  "github": {
+    "owner": "ZackTheDoer",
+    "repo": "o1-preview-space-invaders",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:24.189Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/mvanhorn/clawdbot-skill-xai/blob/main/README.md",
+  "finalUrl": "https://github.com/mvanhorn/clawdbot-skill-xai/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"763670544571e192ec42aba4ef7eaba3\"",
+  "lastModified": null,
+  "bodyBytes": 264792,
+  "bodySha256": "28281961902861eea779fae061a89f1cf4970b1aaffff146300ff544f0ffb96f",
+  "title": "clawdbot-skill-xai/README.md at main · mvanhorn/clawdbot-skill-xai · GitHub",
+  "github": {
+    "owner": "mvanhorn",
+    "repo": "clawdbot-skill-xai",
+    "apiStatus": "unavailable"
+  }
+}

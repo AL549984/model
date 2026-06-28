@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:25.484Z",
+  "kind": "artifact-1",
+  "url": "https://replit.com/ai",
+  "finalUrl": "https://replit.com/ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 220418,
+  "bodySha256": "464116de9b20c9850d5c4c669ba32531acf61a7c35e4a40f3d71dbee5c5061f9",
+  "title": "Replit AI – Turn natural language into apps and websites",
+  "github": null
+}

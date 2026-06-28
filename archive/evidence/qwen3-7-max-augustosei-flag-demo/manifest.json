@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-7-max-augustosei-flag-demo",
+  "modelId": "qwen3-7-max",
+  "modelName": "Qwen3.7 Max",
+  "title": "AugustOsei 用 Qwen Code qwen3.7-max 开发 WebGL 交互旗帜仿真 Demo",
+  "evidenceFingerprint": "36e38ca8086a96b4abd866c94635c132cc47dcc39a650e01a02541d82f3d6aad",
+  "capturedAt": "2026-06-27T23:07:55.927Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AugustOsei/qwen3.7_flag_demo/blob/main/README.md#-built-with",
+      "snapshotPath": "archive/evidence/qwen3-7-max-augustosei-flag-demo/original-evidence-9256ba96a8b6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "qwen3.7_flag_demo/README.md at main · AugustOsei/qwen3.7_flag_demo · GitHub",
+      "bodySha256": "7d9d58a23cefec70d926c07b28214429cf9d40c30ca41177e85e6f8b6d6d430e",
+      "capturedAt": "2026-06-27T23:07:53.080Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://qwen3-7-flag-demo.vercel.app",
+      "snapshotPath": "archive/evidence/qwen3-7-max-augustosei-flag-demo/artifact-1-f6e843cbd71c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "August Wheel — Interactive Flag Lab",
+      "bodySha256": "14397d4d997fe75554baabd6ff3276a4eda50763bd7ec09d06de236c1cc1c0ff",
+      "capturedAt": "2026-06-27T23:07:54.781Z",
+      "error": ""
+    }
+  ]
+}

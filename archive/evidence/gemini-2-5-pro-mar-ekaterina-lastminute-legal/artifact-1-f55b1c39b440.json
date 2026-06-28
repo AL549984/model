@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:11.240Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ekaterina-ya/lastminute_legal",
+  "finalUrl": "https://github.com/ekaterina-ya/lastminute_legal",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c8201d9233088a79a8e9da8460e867e7\"",
+  "lastModified": null,
+  "bodyBytes": 278691,
+  "bodySha256": "9c873f4a4496b32dbcfd7904c49af4afb93b683917a936fd123c6b1d95620813",
+  "title": "GitHub - ekaterina-ya/lastminute_legal: Telegram bot for automated compliance review of advertising creatives with Russian advertising legislation. Powered by Gemini 2.5 Pro API and Retrieval-Augmented Generation (RAG) for enhanced legal re",
+  "github": {
+    "owner": "ekaterina-ya",
+    "repo": "lastminute_legal",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-3-mini-reasoning-high-simon-boucher-cli-agent-persistent-conversations",
+  "modelId": "grok-3-mini-reasoning-high",
+  "modelName": "Grok 3 mini Reasoning (high)",
+  "title": "Grok CLI Agent uses Grok 3 Mini for persistent multi-session command-line assistants",
+  "evidenceFingerprint": "706335e43baebc4b693a5d41401617434ac3d63ea5362893c0a9204ea1232316",
+  "capturedAt": "2026-06-27T22:15:28.903Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/simonpierreboucher02/grok-cli-agent/blob/main/config.py",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-simon-boucher-cli-agent-persistent-conversations/original-evidence-b6db0fd887e1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "grok-cli-agent/config.py at main · simonpierreboucher02/grok-cli-agent · GitHub",
+      "bodySha256": "d9082b1c386e9ab959907406b5cb9e794756f55c0fb491909776fd18cc308bba",
+      "capturedAt": "2026-06-27T22:15:26.471Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/simonpierreboucher02/grok-cli-agent",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-simon-boucher-cli-agent-persistent-conversations/artifact-1-60b1584bfdd5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - simonpierreboucher02/grok-cli-agent: A Python CLI agent for Grok models (Grok 3, Grok 3 Mini, Grok 4) · GitHub",
+      "bodySha256": "35dc26cb3297d2a8747dc40662a60c896307e319471e7d1795cb5a6465ad8a8e",
+      "capturedAt": "2026-06-27T22:15:27.515Z",
+      "error": ""
+    }
+  ]
+}

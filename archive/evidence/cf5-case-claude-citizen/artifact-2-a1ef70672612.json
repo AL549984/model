@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:05.837Z",
+  "kind": "artifact-2",
+  "url": "https://github.com/huiung/claude-citizen/releases/download/v0.7-cinematic/claude-citizen-showcase-1080p.mp4",
+  "finalUrl": "https://release-assets.githubusercontent.com/github-production-release-asset/1267193003/02f1ea13-739a-45f2-a9b7-cd52e9968ee0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-06-27T21%3A09%3A06Z&rscd=attachment%3B+filename%3Dclaude-citizen-showcase-1080p.mp4&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-06-27T20%3A09%3A03Z&ske=2026-06-27T21%3A09%3A06Z&sks=b&skv=2018-11-09&sig=v8vUlG2QjmFuB%2BRreQ71AWMozNBS4tlo7PPEcxIId6o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MjU5MzE2NiwibmJmIjoxNzgyNTkxMzY2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.z1R_eE9Vvv20iNj6Dzv5FG2ncNOgUftZsNhlXpwW_ug&response-content-disposition=attachment%3B%20filename%3Dclaude-citizen-showcase-1080p.mp4&response-content-type=application%2Foctet-stream",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "application/octet-stream",
+  "contentLength": "21447969",
+  "etag": "\"0x8DECAA52B679520\"",
+  "lastModified": "Mon, 15 Jun 2026 06:13:07 GMT",
+  "bodyBytes": 21447969,
+  "bodySha256": "4c0c9d7b5028359247bcf645ce46fd60bd33313c9efeea7fc8c582f779172cbc",
+  "title": "",
+  "github": {
+    "owner": "huiung",
+    "repo": "claude-citizen",
+    "htmlUrl": "https://github.com/huiung/claude-citizen",
+    "defaultBranch": "main",
+    "defaultBranchSha": "49322f57bd53d9214e5cca1c15817826ad51a608",
+    "pushedAt": "2026-06-27T07:32:35Z",
+    "updatedAt": "2026-06-27T07:32:39Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

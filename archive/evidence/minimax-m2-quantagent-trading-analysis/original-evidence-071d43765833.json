@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:56.111Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Y-Research-SBU/QuantAgent/blob/main/web_interface.py",
+  "finalUrl": "https://github.com/Y-Research-SBU/QuantAgent/blob/main/web_interface.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d96e391f335c950ac7b0c32f0885e098\"",
+  "lastModified": null,
+  "bodyBytes": 880052,
+  "bodySha256": "ffe9ec61253ea51a61a0156c183cf26d76335517f5404026edece497192c3271",
+  "title": "QuantAgent/web_interface.py at main · Y-Research-SBU/QuantAgent · GitHub",
+  "github": {
+    "owner": "Y-Research-SBU",
+    "repo": "QuantAgent",
+    "apiStatus": "unavailable"
+  }
+}

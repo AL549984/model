@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:17.825Z",
+  "kind": "artifact-1",
+  "url": "https://devin.ai",
+  "finalUrl": "https://devin.ai/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b0a90d6b11461cbf62a2eb0922abe299\"",
+  "lastModified": "Sat, 27 Jun 2026 05:09:08 GMT",
+  "bodyBytes": 410856,
+  "bodySha256": "d7208e4d70d3c8d8e3ec3af1403292fed8282b402f2edd8de9a24948d41efcb0",
+  "title": "Devin | The AI Software Engineer",
+  "github": null
+}

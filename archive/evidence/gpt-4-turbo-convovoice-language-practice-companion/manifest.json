@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4-turbo-convovoice-language-practice-companion",
+  "modelId": "gpt-4-turbo",
+  "modelName": "GPT-4 Turbo",
+  "title": "ConvoVoice backend uses GPT-4 Turbo for a friendly language-practice companion",
+  "evidenceFingerprint": "f8b6520ec119728932440ccd4e3a9c491f754c828945812c7ced437ae3ae1c36",
+  "capturedAt": "2026-06-27T22:00:41.068Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/4arjun/convovoice-backend/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-convovoice-language-practice-companion/original-evidence-70bc4801a6e2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "convovoice-backend/README.md at main · 4arjun/convovoice-backend · GitHub",
+      "bodySha256": "4177c92b9de4dae6047823c03f7ecad065948f415a0298debf6b34a49b63b104",
+      "capturedAt": "2026-06-27T22:00:38.934Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/4arjun/convovoice-backend",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-convovoice-language-practice-companion/artifact-1-3bc6db44840d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 4arjun/convovoice-backend: This project is a language learning chat application built with React and Django, utilizing the OpenAI GPT-4 Turbo API and Whisper API. It offers a friendly and supportive environment for users to practic",
+      "bodySha256": "08a6ff384d1dabdedeba064c35a27ecb51035a755a25a7f8df890cfc9c634b31",
+      "capturedAt": "2026-06-27T22:00:39.986Z",
+      "error": ""
+    }
+  ]
+}

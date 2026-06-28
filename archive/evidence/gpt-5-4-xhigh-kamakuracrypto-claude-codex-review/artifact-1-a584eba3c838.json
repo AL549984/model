@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:46.439Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/KamakuraCrypto/claude-codex-review",
+  "finalUrl": "https://github.com/KamakuraCrypto/claude-codex-review",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5485339885e5755913df85998a03267c\"",
+  "lastModified": null,
+  "bodyBytes": 292065,
+  "bodySha256": "dab9639c5c43797b4041bc3ff3060f23bdb5b68ba659f2cb8c0b907cc0f01f4e",
+  "title": "GitHub - KamakuraCrypto/claude-codex-review: Claude Code skill: dual-codex premortem review of plans (gpt-5.5 + gpt-5.4 xhigh, in parallel, until they converge) · GitHub",
+  "github": {
+    "owner": "KamakuraCrypto",
+    "repo": "claude-codex-review",
+    "apiStatus": "unavailable"
+  }
+}

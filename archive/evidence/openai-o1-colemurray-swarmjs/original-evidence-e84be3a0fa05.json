@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:47.139Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/ColeMurray/swarmjs/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/ColeMurray/swarmjs/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4646",
+  "etag": "W/\"46a9aa2214b7fce45f3d345f944db0123e0509f833ae0cb6faf45290a639d43f\"",
+  "lastModified": null,
+  "bodyBytes": 13013,
+  "bodySha256": "da9f3852b6d259033173d4c2170c184150fb415722d697d12ed9c0ef573626aa",
+  "title": "",
+  "github": null
+}

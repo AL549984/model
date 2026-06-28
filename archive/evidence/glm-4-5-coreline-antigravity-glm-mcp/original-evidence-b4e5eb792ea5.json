@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:29.199Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/coreline-ai/antigravity_glm_mcp/HEAD/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/coreline-ai/antigravity_glm_mcp/HEAD/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4489",
+  "etag": "W/\"7a77a791262ef88b98f54d1a42ac72ff8adbaaa826c30d12994ead20fc0edc12\"",
+  "lastModified": null,
+  "bodyBytes": 11177,
+  "bodySha256": "296fc3e14dfd0cdd489883d44e95f70cb5d8787c61239e39f08f61564c8286d3",
+  "title": "",
+  "github": null
+}

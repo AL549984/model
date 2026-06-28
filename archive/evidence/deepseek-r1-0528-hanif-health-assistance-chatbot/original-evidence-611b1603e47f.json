@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:12.913Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/hanif017363/Ai-Health-Assistance/blob/master/script.js",
+  "finalUrl": "https://github.com/hanif017363/Ai-Health-Assistance/blob/master/script.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"87c320c4134c663fbce99db707a4373e\"",
+  "lastModified": null,
+  "bodyBytes": 276542,
+  "bodySha256": "889af434974e103e9a9d3fce09494ed1a1286b60f238bd6a1a728c134e8e42f7",
+  "title": "Ai-Health-Assistance/script.js at master · hanif017363/Ai-Health-Assistance · GitHub",
+  "github": {
+    "owner": "hanif017363",
+    "repo": "Ai-Health-Assistance",
+    "apiStatus": "unavailable"
+  }
+}

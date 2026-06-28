@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-solana-ai-rewind-wallet-roast",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "Solana-AI-Rewind uses Grok Beta to analyze and roast Solana wallet activity",
+  "evidenceFingerprint": "9a0ad66a55b8332b8ed02dae53a257058008633221e5dee95076f601b597568b",
+  "capturedAt": "2026-06-27T22:22:03.391Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Hrishikesh332/Solana-AI-Rewind/blob/main/server.js",
+      "snapshotPath": "archive/evidence/grok-beta-solana-ai-rewind-wallet-roast/original-evidence-6cfe66be349c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Solana-AI-Rewind/server.js at main · Hrishikesh332/Solana-AI-Rewind · GitHub",
+      "bodySha256": "51dba4a09ffb4dfd66668c16129841b391e5a55327d306c7969dd30a1b7f5fab",
+      "capturedAt": "2026-06-27T22:22:01.403Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Hrishikesh332/Solana-AI-Rewind",
+      "snapshotPath": "archive/evidence/grok-beta-solana-ai-rewind-wallet-roast/artifact-1-5508a0f3ecbc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Hrishikesh332/Solana-AI-Rewind · GitHub",
+      "bodySha256": "c0112ef036989131a0f8cea20826dbb011a374afa76b1d5f40ae857f8b378557",
+      "capturedAt": "2026-06-27T22:22:02.483Z",
+      "error": ""
+    }
+  ]
+}

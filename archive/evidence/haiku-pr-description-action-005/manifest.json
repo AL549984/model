@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "haiku-pr-description-action-005",
+  "modelId": "claude-3-5-haiku",
+  "modelName": "Claude 3.5 Haiku",
+  "title": "GitHub Action for automated PR description generation using Claude 3.5 Haiku",
+  "evidenceFingerprint": "616aa76613ded21553d63e5b069a46569c5ab703986b0f8482e26d0dc18dbeac",
+  "capturedAt": "2026-06-27T22:22:15.497Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/abhinavchadaga/claude-automated-pr-desc-action",
+      "snapshotPath": "archive/evidence/haiku-pr-description-action-005/original-evidence-fa9857ee6859.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - abhinavchadaga/claude-automated-pr-desc-action: github action that uses claude 3.5 haiku to automate writing and updating PR descriptions · GitHub",
+      "bodySha256": "d15380557f0a53785455ac110eecd90922764287b24523ecf7315aec40714192",
+      "capturedAt": "2026-06-27T22:22:13.145Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/abhinavchadaga/claude-automated-pr-desc-action",
+      "snapshotPath": "archive/evidence/haiku-pr-description-action-005/artifact-1-fa9857ee6859.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - abhinavchadaga/claude-automated-pr-desc-action: github action that uses claude 3.5 haiku to automate writing and updating PR descriptions · GitHub",
+      "bodySha256": "4e2416b9d4bf4a7e0320d60d3a04d9ce0989fddf6d05e8333cfc3aa1c8ba73ea",
+      "capturedAt": "2026-06-27T22:22:15.034Z",
+      "error": ""
+    }
+  ]
+}

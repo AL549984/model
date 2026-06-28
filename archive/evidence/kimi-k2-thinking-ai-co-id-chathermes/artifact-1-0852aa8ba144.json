@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:39.010Z",
+  "kind": "artifact-1",
+  "url": "https://chathermes.com",
+  "finalUrl": "https://chathermes.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 98718,
+  "bodySha256": "42fe1744e906b3e18a185c55bd8d608e0b0e566b8a84d5c9d67a0917d6e5fbbe",
+  "title": "ChatHermes — the chat that doesn&#x27;t end when you close the tab",
+  "github": null
+}

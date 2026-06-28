@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:48.680Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/alejandrosnz/srt-llm-translator",
+  "finalUrl": "https://github.com/alejandrosnz/srt-llm-translator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"52d2f5e79c87e0a226d2c5a27faf5948\"",
+  "lastModified": null,
+  "bodyBytes": 308053,
+  "bodySha256": "fa480f63e17b209fb3d3456e162dacf97184161a4d3060e97cf514005557b505",
+  "title": "GitHub - alejandrosnz/srt-llm-translator: AI-powered SRT subtitle translator with Python script and n8n workflow · GitHub",
+  "github": {
+    "owner": "alejandrosnz",
+    "repo": "srt-llm-translator",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:27.891Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/fsgeek/yanantin/blob/main/docs/cairn/scout_3042_20260225_minimax-m2.1.md",
+  "finalUrl": "https://github.com/fsgeek/yanantin/blob/main/docs/cairn/scout_3042_20260225_minimax-m2.1.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ea4668855a718bfe76dc7604c94ffc21\"",
+  "lastModified": null,
+  "bodyBytes": 407191,
+  "bodySha256": "8df048b19d16c7ca50873f4a8fb182939baa518a797f37aca79181747dd32e7f",
+  "title": "yanantin/docs/cairn/scout_3042_20260225_minimax-m2.1.md at main · fsgeek/yanantin · GitHub",
+  "github": {
+    "owner": "fsgeek",
+    "repo": "yanantin",
+    "apiStatus": "unavailable"
+  }
+}

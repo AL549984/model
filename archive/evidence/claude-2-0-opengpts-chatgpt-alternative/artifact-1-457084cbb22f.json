@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:38.989Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/langchain-ai/opengpts",
+  "finalUrl": "https://github.com/langchain-ai/opengpts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8c3dfa9824cf141b14dc1ae614ea7a20\"",
+  "lastModified": null,
+  "bodyBytes": 395031,
+  "bodySha256": "c7c224a45f0f2a3acdabd3ac037bfa3bd65a1ae85727881fa8b472f3fd296a4d",
+  "title": "GitHub - langchain-ai/opengpts · GitHub",
+  "github": {
+    "owner": "langchain-ai",
+    "repo": "opengpts",
+    "htmlUrl": "https://github.com/langchain-ai/opengpts",
+    "defaultBranch": "main",
+    "defaultBranchSha": "8e7fef72e1f7fd1cd3518b4c6e1d6fbb33a4fe2c",
+    "pushedAt": "2025-06-26T04:17:28Z",
+    "updatedAt": "2026-06-26T21:45:21Z",
+    "archived": true,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

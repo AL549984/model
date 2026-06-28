@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:50.948Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Samson-U/Tax-Preparation-Assistant",
+  "finalUrl": "https://github.com/Samson-U/Tax-Preparation-Assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"af78525179d7f83ea1fc2cbc18649b88\"",
+  "lastModified": null,
+  "bodyBytes": 275450,
+  "bodySha256": "d15998d5b10eba0fbebdab8c19fe756d3317922f1921578e072e063747f31565",
+  "title": "GitHub - Samson-U/Tax-Preparation-Assistant · GitHub",
+  "github": {
+    "owner": "Samson-U",
+    "repo": "Tax-Preparation-Assistant",
+    "apiStatus": "unavailable"
+  }
+}

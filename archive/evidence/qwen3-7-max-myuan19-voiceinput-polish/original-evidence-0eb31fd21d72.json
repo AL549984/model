@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:03.107Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/myuan19/voiceInput/blob/main/README.md#%EF%B8%8F-%E9%85%8D%E7%BD%AE%E6%A6%82%E8%A7%88",
+  "finalUrl": "https://github.com/myuan19/voiceInput/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"78445cd628d349083af5e8d814f4bdf6\"",
+  "lastModified": null,
+  "bodyBytes": 303995,
+  "bodySha256": "d2a610ec6a7fb222d0d77e0a27744b056b4a48ee442a8ebb53f133a1d4b69390",
+  "title": "voiceInput/README.md at main · myuan19/voiceInput · GitHub",
+  "github": {
+    "owner": "myuan19",
+    "repo": "voiceInput",
+    "apiStatus": "unavailable"
+  }
+}

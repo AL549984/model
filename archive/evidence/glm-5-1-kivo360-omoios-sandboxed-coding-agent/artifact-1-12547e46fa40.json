@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:45.872Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kivo360/OmoiOS",
+  "finalUrl": "https://github.com/kivo360/OmoiOS",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6f16a61daa013f8a8c2a49dec9510d73\"",
+  "lastModified": null,
+  "bodyBytes": 565455,
+  "bodySha256": "37ff3fcd1dbe6f0ec009dc9ccfcb663afae51383d13da226ad3f4e7ca628cc4e",
+  "title": "GitHub - kivo360/OmoiOS: Turn feature specs into merged PRs with a self-supervising swarm of coding agents — parallel execution, isolated sandboxes, DAG dependencies. Open-source, self-hostable, model-agnostic (Claude / Gemini / Codex). · G",
+  "github": {
+    "owner": "kivo360",
+    "repo": "OmoiOS",
+    "apiStatus": "unavailable"
+  }
+}

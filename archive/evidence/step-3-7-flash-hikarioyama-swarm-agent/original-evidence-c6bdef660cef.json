@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:24.906Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/hikarioyama/swarm-agent/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/hikarioyama/swarm-agent/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "5648",
+  "etag": "W/\"844a209c0564da6542cb36cd1cdbfa4c6ad2c629f5fff85e19ea4cbdcd155530\"",
+  "lastModified": null,
+  "bodyBytes": 12228,
+  "bodySha256": "50543f9081bec8427ec249edf6b44fc9ea17dea146cf2d4a06568ab0d1e4bbd7",
+  "title": "",
+  "github": null
+}

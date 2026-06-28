@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed21-cherry-studio-desktop",
+  "modelId": "seed-2-1-pro-preview",
+  "modelName": "Seed-2.1-Pro-Preview",
+  "title": "Cherry Studio desktop AI chat client adds Doubao-Seed-2.1 with thinking-level control",
+  "evidenceFingerprint": "e24a6f9a1c16fe4eaa4bdc3792f1cf5f7698f4ce611868b7111f31ce0f57b7d6",
+  "capturedAt": "2026-06-27T23:23:14.531Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CherryHQ/cherry-studio/pull/16464",
+      "snapshotPath": "archive/evidence/seed21-cherry-studio-desktop/original-evidence-f26155d2346a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat(provider-registry): add support for doubao-seed-2-1 and doubao-seed-evolving models by GeorgeDong32 · Pull Request #16464 · CherryHQ/cherry-studio · GitHub",
+      "bodySha256": "9a7b8cbc1b02b9518c722feaf46e5a41247b543fdedfec5bf1964cca5dc0e513",
+      "capturedAt": "2026-06-27T23:23:12.572Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "snapshotPath": "archive/evidence/seed21-cherry-studio-desktop/artifact-1-b1b1542da472.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CherryHQ/cherry-studio: AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs · GitHub",
+      "bodySha256": "7c8f64469c53f552d3e6367a3f004b21eebe1a3a9825b4bc3470b31d05d321bc",
+      "capturedAt": "2026-06-27T23:23:13.573Z",
+      "error": ""
+    }
+  ]
+}

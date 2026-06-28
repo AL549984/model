@@ -1,52 +1,73 @@
 ---
 import EvidenceBadge from "../data/EvidenceBadge.astro";
+import EvidenceTrustScore from "../data/EvidenceTrustScore.astro";
 import PublishabilityBadge from "../data/PublishabilityBadge.astro";
+import models from "../../data/models.json";
+import evidenceArchive from "../../data/evidence-archive.json";
+import { buildCaseNarrative } from "../../lib/caseNarrative";
+import { buildEvidenceTrust } from "../../lib/evidenceTrust";
+import { archiveStatusCopy, archiveStatusLabel, archiveStatusTone, archiveTargetSummary } from "../../lib/evidenceArchive";
 
 const { item } = Astro.props;
 const artifactLinks = String(item.artifactUrl ?? "").split(" ; ").filter(Boolean);
 const aReason = "有具体使用者、具体任务、公开原始证据和可访问产物，可公开核验。";
-const modelHref = `/models/${item.modelId}`;
+const modelSlug = models.find((model) => model.id === item.modelId)?.slug ?? item.modelId;
+const modelHref = `/models/${modelSlug}`;
 const vendorHref = `/vendors/${item.vendorId}`;
+const narrative = buildCaseNarrative(item);
+const evidenceTrust = buildEvidenceTrust(item);
+const archiveEntry = evidenceArchive.cases.find((entry) => entry.caseId === item.id);
+const archiveTone = archiveStatusTone(archiveEntry?.snapshotStatus);
 ---
 
-<article class="rounded-lg border border-slate-700/70 bg-slate-950/45 p-4">
+<article class="border border-[#f4f1ea]/20 bg-[#070707] p-5">
   <div class="flex items-start justify-between gap-3">
     <div>
-      <p class="text-base font-semibold text-slate-50">{item.title}</p>
-      <p class="mt-1 text-sm text-slate-400">
-        {item.userOrOrg} · <a class="text-cyan-100 hover:text-cyan-200" href={modelHref}>{item.modelName}</a>
+      <p class="text-lg font-semibold leading-tight text-[#f4f1ea]">{narrative.displayTitle}</p>
+      <p class="mono mt-2 text-[11px] uppercase tracking-[0.12em] text-[#a8a29a]">
+        {item.userOrOrg} · <a class="hover:text-[#ff3b4e]" href={modelHref}>{item.modelName}</a>
       </p>
     </div>
     <EvidenceBadge grade={item.evidenceGrade} />
   </div>
 
-  <div class="mt-4 grid gap-2 text-xs text-slate-300 sm:grid-cols-2">
-    <a class="rounded-md border border-slate-700/70 px-2 py-1 text-cyan-100 hover:border-cyan-300/40" href={vendorHref}>厂商：{item.vendor}</a>
-    <a class="rounded-md border border-slate-700/70 px-2 py-1 text-cyan-100 hover:border-cyan-300/40" href={modelHref}>模型：{item.modelName}</a>
-    <span class="rounded-md border border-slate-700/70 px-2 py-1">来源平台：{item.sourcePlatform}</span>
-    <span class="rounded-md border border-slate-700/70 px-2 py-1">来源类型：{item.sourceType}</span>
-    <span class="rounded-md border border-slate-700/70 px-2 py-1">审核状态：{item.reviewStatus}</span>
-    <span class="rounded-md border border-slate-700/70 px-2 py-1">最后复核：{item.collectedAt}</span>
+  <div class="mt-5 grid gap-px bg-[#f4f1ea]/20 text-xs text-[#a8a29a] sm:grid-cols-2">
+    <a class="bg-[#050505] px-3 py-2 hover:text-[#ff3b4e]" href={vendorHref}>厂商：{item.vendor}</a>
+    <a class="bg-[#050505] px-3 py-2 hover:text-[#ff3b4e]" href={modelHref}>模型：{item.modelName}</a>
+    <span class="bg-[#050505] px-3 py-2">来源平台：{item.sourcePlatform}</span>
+    <span class="bg-[#050505] px-3 py-2">最后复核：{item.collectedAt}</span>
+    <span class={`ma-archive-tone ma-archive-tone--${archiveTone} bg-[#050505] px-3 py-2`}>证据快照：{archiveStatusLabel(archiveEntry?.snapshotStatus)} · {archiveTargetSummary(archiveEntry)}</span>
+    <span class="bg-[#050505] px-3 py-2">归档说明：{archiveStatusCopy(archiveEntry)}</span>
   </div>
 
-  <div class="mt-4 space-y-3 text-sm leading-relaxed text-slate-300">
-    <p><span class="font-semibold text-slate-100">任务：</span>{item.taskDescription}</p>
-    <p><span class="font-semibold text-slate-100">输出：</span>{item.outputResult}</p>
-    <p><span class="font-semibold text-slate-100">模型发挥点：</span>{item.modelContribution}</p>
-    <p><span class="font-semibold text-slate-100">为什么算 A 类：</span>{aReason}</p>
-    <p class="text-slate-400"><span class="font-semibold text-slate-300">风险备注：</span>{item.riskNotes}</p>
+  <div class="mt-4">
+    <EvidenceTrustScore trust={evidenceTrust} compact />
   </div>
 
-  <div class="mt-4 flex flex-wrap gap-2 text-xs">
+  <div class="mt-5 space-y-3 text-sm leading-relaxed text-[#a8a29a]">
+    <p class="text-[#d8d3ca]">{narrative.summary}</p>
+    <p><span class="font-semibold text-[#f4f1ea]">任务：</span>{narrative.taskBrief}</p>
+    <p><span class="font-semibold text-[#f4f1ea]">公开产物：</span>{narrative.outputBrief}</p>
+    <p><span class="font-semibold text-[#f4f1ea]">模型作用：</span>{narrative.contributionBrief}</p>
+    <p><span class="font-semibold text-[#ff3b4e]">A 类理由：</span>{aReason}</p>
+    <p><span class="font-semibold text-[#f4f1ea]">风险边界：</span>{narrative.riskBrief}</p>
+    <p class="text-xs text-[#6f6a62]">原始记录：{narrative.originalTitle}</p>
+  </div>
+
+  <div class="mt-5 flex flex-wrap gap-2 text-xs">
     <PublishabilityBadge status={item.showcaseEligible ? "Publishable" : "Limited"} />
-    <span class="rounded-md border border-slate-700/70 px-2 py-1 text-slate-300">{item.taskCategory}</span>
-    <span class="rounded-md border border-slate-700/70 px-2 py-1 text-slate-300">{item.reviewStatus}</span>
-    {item.selectedForModelCard && <span class="rounded-md border border-cyan-300/30 px-2 py-1 text-cyan-100">进入模型卡精选</span>}
+    {narrative.tags.map((tag) => (
+      <span class="border border-[#f4f1ea]/20 px-2 py-1 text-[#a8a29a]">{tag}</span>
+    ))}
+    <span class="border border-[#f4f1ea]/20 px-2 py-1 text-[#a8a29a]">{item.reviewStatus}</span>
+    {item.selectedForModelCard && <span class="border border-[#ff3b4e]/50 px-2 py-1 text-[#f4f1ea]">进入模型卡精选</span>}
   </div>
   <div class="mt-4 grid gap-2 text-sm md:grid-cols-2">
-    <a class="link-accent truncate" href={item.originalEvidenceUrl} target="_blank" rel="noreferrer">原始证据</a>
+    <a class="border border-[#ff3b4e]/55 px-3 py-2 text-[#f4f1ea] hover:bg-[#ff3b4e]/10" href={`/cases?case=${item.id}`} data-case-open data-case-id={item.id}>证据档案</a>
+    <a class="border border-[#f4f1ea]/20 px-3 py-2 text-[#f4f1ea] hover:border-[#ff3b4e]/60" href={`/cases/${item.id}`}>完整案例页</a>
+    <a class="link-accent break-all" href={item.originalEvidenceUrl} target="_blank" rel="noreferrer">原始证据</a>
     {artifactLinks.map((link) => (
-      <a class="link-accent truncate" href={link} target="_blank" rel="noreferrer">产物链接</a>
+      <a class="link-accent break-all" href={link} target="_blank" rel="noreferrer">产物链接</a>
     ))}
   </div>
 </article>

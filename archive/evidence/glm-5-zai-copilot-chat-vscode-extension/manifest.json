@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-zai-copilot-chat-vscode-extension",
+  "modelId": "glm-5",
+  "modelName": "GLM-5",
+  "title": "Z.AI for GitHub Copilot Chat exposes GLM-5 models inside VS Code Copilot Chat",
+  "evidenceFingerprint": "364faba4fffce2c3175452668eef35538579a54de72b3737c316d58b09d3c67d",
+  "capturedAt": "2026-06-27T21:14:42.308Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/ltmoerdani/zai-copilot-chat/main/README.md",
+      "snapshotPath": "archive/evidence/glm-5-zai-copilot-chat-vscode-extension/original-evidence-c6958eaf6374.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "84ebdc29f3bd906f7418706c2556d41b11ceaf9538b37efaa20f4e64f966f527",
+      "capturedAt": "2026-06-27T21:14:40.920Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ltmoerdani/zai-copilot-chat",
+      "snapshotPath": "archive/evidence/glm-5-zai-copilot-chat-vscode-extension/artifact-1-31634106c269.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ltmoerdani/zai-copilot-chat: Bring your own Z.AI API key to VS Code Copilot Chat. Adds Z.AI GLM models (GLM-4.7, GLM-5, GLM-5.1, GLM-4.5) through the Language Model Chat Provider API. · GitHub",
+      "bodySha256": "6a3de8e7ef4fc53df82f4080c90a2624bfd99b4f01f8f4d19fd5819c4e18130a",
+      "capturedAt": "2026-06-27T21:14:41.279Z",
+      "error": ""
+    }
+  ]
+}

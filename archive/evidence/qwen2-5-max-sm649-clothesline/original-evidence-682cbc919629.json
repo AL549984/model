@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:00.595Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SM649/Clothesline/blob/main/README.md",
+  "finalUrl": "https://github.com/SM649/Clothesline/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dc18705a58bb454d8616b271db152f4a\"",
+  "lastModified": null,
+  "bodyBytes": 230233,
+  "bodySha256": "2cce80daf14d01a6e8c4a9afa3f67506c9dcebb6ac9551692d6bded8c4e8fbbd",
+  "title": "Clothesline/README.md at main · SM649/Clothesline · GitHub",
+  "github": {
+    "owner": "SM649",
+    "repo": "Clothesline",
+    "apiStatus": "unavailable"
+  }
+}

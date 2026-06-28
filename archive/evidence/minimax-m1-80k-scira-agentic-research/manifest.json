@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-scira-agentic-research",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "Scira uses MiniMax M1 80K as a selectable model for agentic cited research",
+  "evidenceFingerprint": "262450f9f4b61e286124a8386d80dd17870fd38a8a1d62cf029f45c3aaf3904b",
+  "capturedAt": "2026-06-27T22:44:23.542Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zaidmukaddam/scira/blob/main/ai/providers.ts#L362-L365",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-scira-agentic-research/original-evidence-33a51d70a40e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "scira/ai/providers.ts at main · zaidmukaddam/scira · GitHub",
+      "bodySha256": "84c042cb6ad8d4ad38c1c08884452b8c3056e38ce25222deba249dac11492c5f",
+      "capturedAt": "2026-06-27T22:44:21.088Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://scira.ai",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-scira-agentic-research/artifact-1-5baa0c7644f3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Scira - AI Search | Scira AI",
+      "bodySha256": "134f89865036c093ad68d619f543bc7f3954211808bfe9350d691a390f116f71",
+      "capturedAt": "2026-06-27T22:44:22.028Z",
+      "error": ""
+    }
+  ]
+}

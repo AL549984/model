@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:41.170Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/PratiekSonare/DailyTaskSummarizer/blob/master/NoteEditor.cpp",
+  "finalUrl": "https://github.com/PratiekSonare/DailyTaskSummarizer/blob/master/NoteEditor.cpp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bbe98e57eb5fb020557791fe79b7415e\"",
+  "lastModified": null,
+  "bodyBytes": 449123,
+  "bodySha256": "acf12509cb7ac02e225815798b8f4a26d53862576f04638c9dd9ee3964c2b835",
+  "title": "DailyTaskSummarizer/NoteEditor.cpp at master · PratiekSonare/DailyTaskSummarizer · GitHub",
+  "github": {
+    "owner": "PratiekSonare",
+    "repo": "DailyTaskSummarizer",
+    "apiStatus": "unavailable"
+  }
+}

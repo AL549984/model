@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:33.662Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=Novel%20hypotheses%20in%20molecular%20biology",
+  "finalUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 299185,
+  "bodySha256": "99cbf22fbf98703851710c7d39088f93dbd86417af3565345d1af83f361dc6bd",
+  "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+  "github": null
+}

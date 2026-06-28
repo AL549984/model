@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:01.969Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/coasty-ai/open-cowork/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/coasty-ai/open-cowork/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "6266",
+  "etag": "W/\"0ab8b0190d4294c684095267d14e6fccf31c1c206e116a374e2589499bd0882b\"",
+  "lastModified": null,
+  "bodyBytes": 14975,
+  "bodySha256": "0502d2e720080fb0011471071fed6ac49caf4d14960b99a50f306282fb806b8a",
+  "title": "",
+  "github": null
+}

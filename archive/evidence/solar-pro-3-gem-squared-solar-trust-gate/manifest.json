@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3-gem-squared-solar-trust-gate",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "Solar Trust Gate uses Solar Pro 3 to adjudicate and audit Korean insurance claims",
+  "evidenceFingerprint": "5065a1dfdfdfc5d43fbeeb83181a3439d9502be30dd1d70dd014011e9ba377ec",
+  "capturedAt": "2026-06-27T21:28:14.385Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/gem-squared/solar-trust-gate/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3-gem-squared-solar-trust-gate/original-evidence-3527bed2b5d7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "00e677a6836c15bb663103c03ff1fd53d425b9f1e1003aec56b25d17c1975597",
+      "capturedAt": "2026-06-27T21:28:11.288Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://solar-trust-gate.fly.dev/",
+      "snapshotPath": "archive/evidence/solar-pro-3-gem-squared-solar-trust-gate/artifact-1-f07eee04886d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Solar Trust Gate — 보험금 청구 심사",
+      "bodySha256": "2c797fd9045689d4085d30a749414dbd8abf09c9fd15d59ff26acea094c0e49c",
+      "capturedAt": "2026-06-27T21:28:11.618Z",
+      "error": ""
+    }
+  ]
+}

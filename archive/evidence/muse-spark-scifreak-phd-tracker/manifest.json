@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "muse-spark-scifreak-phd-tracker",
+  "modelId": "muse-spark",
+  "modelName": "Muse Spark",
+  "title": "sci-freak built a cross-platform PhD progress tracker app (Windows + Android) using Muse Spark",
+  "evidenceFingerprint": "af1dfbf0d6376d11ca9a252f6b5a3da5a39aa0b22177ee0e4bfa248edc36e2af",
+  "capturedAt": "2026-06-27T22:51:31.938Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sci-freak/phd-tracker-lite",
+      "snapshotPath": "archive/evidence/muse-spark-scifreak-phd-tracker/original-evidence-506d80213624.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sci-freak/phd-tracker-lite: PhD Tracker Lite - Made with Meta AI (Muse Spark) · GitHub",
+      "bodySha256": "0059ab330fdf670d0c1a8471c41ceb5e6414b67ef8001b23d79ee808a40360bc",
+      "capturedAt": "2026-06-27T22:51:29.319Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sci-freak/phd-tracker-lite/releases",
+      "snapshotPath": "archive/evidence/muse-spark-scifreak-phd-tracker/artifact-1-ef0c9580e360.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Releases · sci-freak/phd-tracker-lite · GitHub",
+      "bodySha256": "7e002173b76610fa45e411f74187c62a799e3431e7a47786d0e3554139c96b35",
+      "capturedAt": "2026-06-27T22:51:30.264Z",
+      "error": ""
+    }
+  ]
+}

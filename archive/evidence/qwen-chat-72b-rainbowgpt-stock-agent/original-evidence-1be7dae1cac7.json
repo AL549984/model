@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:31.399Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ZhuJD-China/RainbowGPT/blob/master/examples/Stock_Agent_demo/StockGPTAnalysis_ui.py",
+  "finalUrl": "https://github.com/ZhuJD-China/RainbowGPT/blob/master/examples/Stock_Agent_demo/StockGPTAnalysis_ui.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f5917ba391e7b0dd65c4022f0587d4f6\"",
+  "lastModified": null,
+  "bodyBytes": 519678,
+  "bodySha256": "5885ed779d7f0b13de37aca9cc4751fc71eccc5508808cc93fb2c0dce86f2000",
+  "title": "RainbowGPT/examples/Stock_Agent_demo/StockGPTAnalysis_ui.py at master · ZhuJD-China/RainbowGPT · GitHub",
+  "github": {
+    "owner": "ZhuJD-China",
+    "repo": "RainbowGPT",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-claude3opus-rakyll-kubehelp",
+  "modelId": "claude-3-opus",
+  "modelName": "Claude 3 Opus",
+  "title": "Burak Bekci 使用 Claude 3 Opus 构建 kubehelp — 自然语言生成 kubectl 命令",
+  "evidenceFingerprint": "758437a29d94a4a118751017cfe838f7fb040b11c815d157a3701bc26a4fa135",
+  "capturedAt": "2026-06-27T19:29:52.152Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rakyll/kubehelp",
+      "snapshotPath": "archive/evidence/case-claude3opus-rakyll-kubehelp/original-evidence-685f44bc10e4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rakyll/kubehelp: A command line tool that generates kubectl commands from a text description by using Claude 3 Opus. · GitHub",
+      "bodySha256": "bffabf81e1064b617f55632a3ef38ec2284a5505484f3da714d767f435859454",
+      "capturedAt": "2026-06-27T19:29:49.340Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rakyll/kubehelp",
+      "snapshotPath": "archive/evidence/case-claude3opus-rakyll-kubehelp/artifact-1-685f44bc10e4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rakyll/kubehelp: A command line tool that generates kubectl commands from a text description by using Claude 3 Opus. · GitHub",
+      "bodySha256": "9b57a64d27842aefdbe267a08d69a89c442ed10998a4586e4535e043e242e3dc",
+      "capturedAt": "2026-06-27T19:29:51.466Z",
+      "error": ""
+    }
+  ]
+}

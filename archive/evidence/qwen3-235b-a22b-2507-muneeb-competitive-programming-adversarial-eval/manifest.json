@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-a22b-2507-muneeb-competitive-programming-adversarial-eval",
+  "modelId": "qwen3-235b-a22b-2507",
+  "modelName": "Qwen3 235B A22B 2507",
+  "title": "Muneeb007j 用 Qwen3-235B-A22B-2507 进行竞赛题对抗测试",
+  "evidenceFingerprint": "64be6ab720fc957df900f53881ccb6ff75baf05898e652567b17618de761fce5",
+  "capturedAt": "2026-06-27T23:00:09.085Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Muneeb007j/competitive-programming-problem/blob/main/qwen/conversations.md",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-muneeb-competitive-programming-adversarial-eval/original-evidence-50a3724adb76.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "competitive-programming-problem/qwen/conversations.md at main · Muneeb007j/competitive-programming-problem · GitHub",
+      "bodySha256": "b509ef4a3a5b0ec1a20900224d5741d8c1cb10ab571000a1a29102b9e19752d2",
+      "capturedAt": "2026-06-27T23:00:06.832Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Muneeb007j/competitive-programming-problem",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-muneeb-competitive-programming-adversarial-eval/artifact-1-897db94c7e7c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Muneeb007j/competitive-programming-problem: Original Div1/Div2-level competitive programming problem which is designed in way that Qwen_AI model Qwen3-235B-A22B-2507 with thinking disabled should fail on three plausible attempts (s",
+      "bodySha256": "ddd371346831c57c9a94e5f45fa22d08abf8e933773d4c10346ae19c235cc785",
+      "capturedAt": "2026-06-27T23:00:07.828Z",
+      "error": ""
+    }
+  ]
+}

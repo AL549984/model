@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-sinameraji-kimiflare-terminal-agent",
+  "modelId": "kimi-k2",
+  "modelName": "Kimi K2",
+  "title": "sinameraji built KimiFlare, a terminal coding agent powered by Kimi K2 on Cloudflare Workers AI",
+  "evidenceFingerprint": "9820eff2b513472ceafb3d6a9d035dc386ce53b1d053e9a8374078b79898a4c0",
+  "capturedAt": "2026-06-27T22:29:37.914Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sinameraji/kimiflare/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-sinameraji-kimiflare-terminal-agent/original-evidence-5d8761c91431.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "kimiflare/README.md at main · sinameraji/kimiflare · GitHub",
+      "bodySha256": "e185de9d1de49e06aad47d9be92311de100d9177ea61da3f7419d23d09c1e48d",
+      "capturedAt": "2026-06-27T22:29:35.489Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sinameraji/kimiflare",
+      "snapshotPath": "archive/evidence/kimi-k2-sinameraji-kimiflare-terminal-agent/artifact-1-18daf38a2749.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sinameraji/kimiflare: kimi k2.7 terminal based coding agent &amp; harness running on your own Cloudflare account. · GitHub",
+      "bodySha256": "09a14ac82318e0fa71fe4c004fd6ee2256ca5d0ade5c32caeb0024b4587ece47",
+      "capturedAt": "2026-06-27T22:29:36.746Z",
+      "error": ""
+    }
+  ]
+}

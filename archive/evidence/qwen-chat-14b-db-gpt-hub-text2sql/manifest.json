@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-14b-db-gpt-hub-text2sql",
+  "modelId": "qwen-chat-14b",
+  "modelName": "Qwen Chat 14B",
+  "title": "DB-GPT-Hub fine-tunes and evaluates Qwen-14B-Chat for Text-to-SQL generation",
+  "evidenceFingerprint": "3f13a801f1f4623d46187056c7fe2741d33add33de0ff379862450696b06c2a3",
+  "capturedAt": "2026-06-27T22:52:19.123Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/eosphoros-ai/DB-GPT-Hub/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-db-gpt-hub-text2sql/original-evidence-ce61e4e2c05a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DB-GPT-Hub/README.md at main · eosphoros-ai/DB-GPT-Hub · GitHub",
+      "bodySha256": "b5a6afdd2b62e37600bad43dec6d7bd825dc26c6545c030486d2337073fe0443",
+      "capturedAt": "2026-06-27T22:52:16.692Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/eosphoros-ai/DB-GPT-Hub",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-db-gpt-hub-text2sql/artifact-1-53008382d9a8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - eosphoros-ai/DB-GPT-Hub: A repository that contains models, datasets, and fine-tuning techniques for DB-GPT, with the purpose of enhancing model performance in Text-to-SQL · GitHub",
+      "bodySha256": "e0bee16016d21c832902399fb6182c661ca2c8b25a919f1ec7592b2a455b1112",
+      "capturedAt": "2026-06-27T22:52:17.931Z",
+      "error": ""
+    }
+  ]
+}

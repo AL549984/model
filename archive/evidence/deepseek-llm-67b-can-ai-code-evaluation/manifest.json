@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-llm-67b-can-ai-code-evaluation",
+  "modelId": "deepseek-llm-67b-v1",
+  "modelName": "DeepSeek LLM 67B Base",
+  "title": "Can AI Code: DeepSeek LLM 67B Base Code Generation Evaluation",
+  "evidenceFingerprint": "0505559cdbb38c2f4fb99feba8ae52d0fe2d31a80304b746a4bb3a947c44ac58",
+  "capturedAt": "2026-06-27T21:02:02.078Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/the-crypt-keeper/can-ai-code/issues/119",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-can-ai-code-evaluation/original-evidence-53f3d4bf1078.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Evaluate deepseek-ai/deepseek-llm-67b-base · Issue #119 · the-crypt-keeper/can-ai-code · GitHub",
+      "bodySha256": "5b99fa7e0f0be870a41ea7c465cc7fab8727e8f937ec68df46a494e6a5195f0c",
+      "capturedAt": "2026-06-27T21:01:59.220Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/the-crypt-keeper/can-ai-code",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-can-ai-code-evaluation/artifact-1-0a4cbb0b0aa3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - the-crypt-keeper/can-ai-code: Self-evaluating interview for AI coders · GitHub",
+      "bodySha256": "db2fc3e095453d91b60c4238d880114d51f9685e69ca31ff4dce3826bb0faa7e",
+      "capturedAt": "2026-06-27T21:02:00.853Z",
+      "error": ""
+    }
+  ]
+}

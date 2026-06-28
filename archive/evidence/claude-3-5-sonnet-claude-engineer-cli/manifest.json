@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-3-5-sonnet-claude-engineer-cli",
+  "modelId": "claude-3-5-sonnet",
+  "modelName": "Claude 3.5 Sonnet",
+  "title": "Claude Engineer: 11K-star open-source CLI leveraging Claude 3.5 Sonnet for autonomous software development assistance",
+  "evidenceFingerprint": "1b0283256a82f9d60a8ab22b043f5c3d8fa4a2a252b8f164c63184fc06936b56",
+  "capturedAt": "2026-06-27T20:16:55.278Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Doriandarko/claude-engineer",
+      "snapshotPath": "archive/evidence/claude-3-5-sonnet-claude-engineer-cli/original-evidence-178a5a560b51.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Doriandarko/claude-engineer: Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic&#39;s Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude",
+      "bodySha256": "f880651096b00d4bd336ffd2f924b9338dadd21c7c0e2d6785401f5270f103e9",
+      "capturedAt": "2026-06-27T20:16:53.856Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Doriandarko/claude-engineer",
+      "snapshotPath": "archive/evidence/claude-3-5-sonnet-claude-engineer-cli/artifact-1-178a5a560b51.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Doriandarko/claude-engineer: Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic&#39;s Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude",
+      "bodySha256": "d605993347e2861f051752f3b95222e368772a7df43d60a91aa49b7f50e9bea9",
+      "capturedAt": "2026-06-27T20:16:54.800Z",
+      "error": ""
+    }
+  ]
+}

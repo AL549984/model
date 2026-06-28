@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:23.228Z",
+  "kind": "artifact-1",
+  "url": "https://www.modelscope.cn/models/ZJUAISafety/DeepSeek-R1-Safe",
+  "finalUrl": "https://www.modelscope.cn/models/ZJUAISafety/DeepSeek-R1-Safe",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 8757,
+  "bodySha256": "5d5865599d51142266f6edc4bb363aa6aadbfffcfd281908bb3281d9170edfbe",
+  "title": "DeepSeek-R1-Safe",
+  "github": null
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:31.025Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/aws-samples/serverless-genai-food-analyzer-app",
+  "finalUrl": "https://github.com/aws-samples/serverless-genai-food-analyzer-app",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bd23163571da84f1f4f99d4076689406\"",
+  "lastModified": null,
+  "bodyBytes": 425170,
+  "bodySha256": "da75fe58beca23d0dccefe9cdc3cb3316192ddab173b27c31c8e07f4a9253060",
+  "title": "GitHub - aws-samples/serverless-genai-food-analyzer-app: Personalized nutritional app, serverless, tailored to your shopping and cooking needs, empowered by generative AI technology (Amazon Bedrock, Anthropic, Claude Haiku, Claude Sonnet) u",
+  "github": {
+    "owner": "aws-samples",
+    "repo": "serverless-genai-food-analyzer-app",
+    "htmlUrl": "https://github.com/aws-samples/serverless-genai-food-analyzer-app",
+    "defaultBranch": "main",
+    "defaultBranchSha": "b4c6737b2fd5092314a0c156eb3de55da2b0f479",
+    "pushedAt": "2026-04-06T20:02:45Z",
+    "updatedAt": "2026-05-05T21:09:47Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

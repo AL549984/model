@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "bagel-sensenova-consistcompose-layout-control",
+  "modelId": "bagel",
+  "modelName": "BAGEL",
+  "title": "ConsistCompose 基于 BAGEL 做布局可控的多实例图像合成",
+  "evidenceFingerprint": "a164b344bcbfb1ab05355deb027c55d0d8f577c0db1281c77f5fbe540dc95618",
+  "capturedAt": "2026-06-27T23:25:20.673Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/sensenova/ConsistCompose-BAGEL-7B-MoT/raw/main/README.md",
+      "snapshotPath": "archive/evidence/bagel-sensenova-consistcompose-layout-control/original-evidence-b30a71836166.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "768a17eaedd2cc11a3bbbbf0ba9767a18262c1d6cd26ff918f4827dfff9f1670",
+      "capturedAt": "2026-06-27T23:25:19.470Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://opensensenova.github.io/ConsistCompose/",
+      "snapshotPath": "archive/evidence/bagel-sensenova-consistcompose-layout-control/artifact-1-19d2f1ac38d7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ConsistCompose — Unified Multimodal Layout Control",
+      "bodySha256": "551763790b3cf350554b4ae332c594aac6e2be63285ff70031e315268f928604",
+      "capturedAt": "2026-06-27T23:25:19.796Z",
+      "error": ""
+    }
+  ]
+}

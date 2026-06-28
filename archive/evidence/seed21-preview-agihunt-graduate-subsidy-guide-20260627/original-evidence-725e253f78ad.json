@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:52.053Z",
+  "kind": "original-evidence",
+  "url": "https://news.qq.com/rain/a/20260624A02Q7Z00",
+  "finalUrl": "https://news.qq.com/rain/a/20260624A02Q7Z00",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "47692",
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 345143,
+  "bodySha256": "84b639275ae2f79ec361030b9c9a7b8c550ffde1113f3bc66e143bfac890e672",
+  "title": "实测 Seed 2.1 Pro：从零到一，开源一个大学生就业补贴的公益网站_腾讯新闻",
+  "github": null
+}

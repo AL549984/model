@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:56.736Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/eunomia-bpf/GPTtrace",
+  "finalUrl": "https://github.com/eunomia-bpf/GPTtrace",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a929aff5bde9742767c6720b90c4422f\"",
+  "lastModified": null,
+  "bodyBytes": 355072,
+  "bodySha256": "43da3d82748b26558939e678e91af4da6100de830842664a69dc48f58a8bb041",
+  "title": "GitHub - eunomia-bpf/GPTtrace: Generate eBPF programs and tracing with ChatGPT · GitHub",
+  "github": {
+    "owner": "eunomia-bpf",
+    "repo": "GPTtrace",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:21.856Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Arfa-Ahsan/Email_Optimizer_Agent",
+  "finalUrl": "https://github.com/Arfa-Ahsan/Email_Optimizer_Agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d4af17597e4c69919c336e51b4a139bb\"",
+  "lastModified": null,
+  "bodyBytes": 271154,
+  "bodySha256": "37875c914ac40dccae5bf5b5348148ea88122cfc46c44f2e391b4c785b65a850",
+  "title": "GitHub - Arfa-Ahsan/Email_Optimizer_Agent: Email Content Optimizer is an AI-powered app that helps you write, evaluate, and improve professional emails. It uses Groq Langchain, LangGraph agents, and the MoonshotAI Kimi K2 Instruct 0905 mode",
+  "github": {
+    "owner": "Arfa-Ahsan",
+    "repo": "Email_Optimizer_Agent",
+    "apiStatus": "unavailable"
+  }
+}

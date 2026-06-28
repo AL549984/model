@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:15.076Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/chronosllc0-ai/aegis-ui-agent/pull/79",
+  "finalUrl": "https://github.com/chronosllc0-ai/aegis-ui-agent/pull/79",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 513624,
+  "bodySha256": "7c9b5fd29fc4c68d1d4f98cd9906ede32518aed48f043fa72170fed67053d6b2",
+  "title": "fix: action log resize, chat persistence, stop button, tool permissions, chat message fixes by chronosllc0-ai · Pull Request #79 · chronosllc0-ai/aegis-ui-agent · GitHub",
+  "github": {
+    "owner": "chronosllc0-ai",
+    "repo": "aegis-ui-agent",
+    "apiStatus": "unavailable"
+  }
+}

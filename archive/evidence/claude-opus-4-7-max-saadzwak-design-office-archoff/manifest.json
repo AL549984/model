@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-7-max-saadzwak-design-office-archoff",
+  "modelId": "claude-opus-4-7-max",
+  "modelName": "Claude Opus 4.7 (max)",
+  "title": "Archoff uses Claude Opus 4.7 to generate office interior programs, 3D test fits, pitch decks, and DXF exports",
+  "evidenceFingerprint": "eb3cd60b7e67753e0376bbff7bc539f283b0d21251466ccbbbfc858b3c30cb08",
+  "capturedAt": "2026-06-27T21:01:31.961Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Saadzwak/design-office#readme",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-saadzwak-design-office-archoff/original-evidence-d704b4421c79.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Saadzwak/design-office: A quiet co-architect for office interiors. Built with Claude Opus 4.7 for the Anthropic Built with Opus 4.7 hackathon. Brief → 3D test fit → mood board → client argumentaire → DXF export, all driven by manag",
+      "bodySha256": "ad9e4bcebafa098097215c20298b8b310314ebc42118c0d54b3b4efe5428a69b",
+      "capturedAt": "2026-06-27T21:01:29.357Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Saadzwak/design-office",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-saadzwak-design-office-archoff/artifact-1-527ba38bd4b3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Saadzwak/design-office: A quiet co-architect for office interiors. Built with Claude Opus 4.7 for the Anthropic Built with Opus 4.7 hackathon. Brief → 3D test fit → mood board → client argumentaire → DXF export, all driven by manag",
+      "bodySha256": "6df88d8945f94450a7539eaacce109e5acd856a4dcc0deb0f353aa2d68d9e9ee",
+      "capturedAt": "2026-06-27T21:01:31.278Z",
+      "error": ""
+    }
+  ]
+}

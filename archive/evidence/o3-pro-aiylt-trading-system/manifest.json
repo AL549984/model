@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o3-pro-aiylt-trading-system",
+  "modelId": "o3-pro",
+  "modelName": "o3-pro",
+  "title": "AIYLT 构建基于 o3-pro 的美股智能交易策略系统",
+  "evidenceFingerprint": "f074eb7507109f48ef1c1eebc7093a9a330880bc23a56c99de1e159d1db0f3f4",
+  "capturedAt": "2026-06-27T22:52:00.520Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AIYLT/o3-pro-trading",
+      "snapshotPath": "archive/evidence/o3-pro-aiylt-trading-system/original-evidence-68cfba99e313.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AIYLT/o3-pro-trading: O3 Pro智能交易策略系统 - 使用OpenAI o3-2025-04-16模型进行股票分析，集成11个专业策略模块，支持GPT Action · GitHub",
+      "bodySha256": "06f4ce613ecf43923dd549f966cb09add42b8069229121f6407ed5aa07dca353",
+      "capturedAt": "2026-06-27T22:51:58.717Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AIYLT/o3-pro-trading",
+      "snapshotPath": "archive/evidence/o3-pro-aiylt-trading-system/artifact-1-68cfba99e313.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AIYLT/o3-pro-trading: O3 Pro智能交易策略系统 - 使用OpenAI o3-2025-04-16模型进行股票分析，集成11个专业策略模块，支持GPT Action · GitHub",
+      "bodySha256": "9c832d089a35eb32cc087f451121d33e496fdd7943efa3ea7db3baa5d48b4f57",
+      "capturedAt": "2026-06-27T22:51:59.986Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:13.903Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Yash2003Bisht/Null",
+  "finalUrl": "https://github.com/Yash2003Bisht/Null",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9f9f8656173216bf74a5229026f8793c\"",
+  "lastModified": null,
+  "bodyBytes": 284161,
+  "bodySha256": "d510c2dbda2e51df6776a8f16eeadfb7963bca8f0195f7db1b7f0f8362a71544",
+  "title": "GitHub - Yash2003Bisht/Null: Null vscode extension for code completion using AI (90% of the code is written by GPT, Claude and Deepseek v2.5) · GitHub",
+  "github": {
+    "owner": "Yash2003Bisht",
+    "repo": "Null",
+    "apiStatus": "unavailable"
+  }
+}

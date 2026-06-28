@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-flash-may-adamxacur-call-center-quality-evaluator",
+  "modelId": "gemini-1-5-flash-may",
+  "modelName": "Gemini 1.5 Flash (May)",
+  "title": "CallCenterQualityEvaluator uses Gemini 1.5 Flash to score call-center agent performance from transcripts",
+  "evidenceFingerprint": "17864a9dc40be54e73275f7227a75ca52d1b97a877e4f51d547382763f55ec28",
+  "capturedAt": "2026-06-27T21:40:22.335Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AdamXacur/CallCenterQualityEvaluator.py/blob/main/main.py#L168-L223",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-adamxacur-call-center-quality-evaluator/original-evidence-d25ff25736ad.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "CallCenterQualityEvaluator.py/main.py at main · AdamXacur/CallCenterQualityEvaluator.py · GitHub",
+      "bodySha256": "9d2f71301cf9ade1eb182d4a4b725ec4b2d5923a9f2d79e461b203fd228a6fb9",
+      "capturedAt": "2026-06-27T21:40:20.221Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AdamXacur/CallCenterQualityEvaluator.py",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-adamxacur-call-center-quality-evaluator/artifact-1-9b90c1ea643b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AdamXacur/CallCenterQualityEvaluator.py: AI-powered call center quality evaluator using Google&#39;s Gemini 1.5 Flash. Features audio transcription, performance analysis, customizable rubrics, and HTML report generation. Built with",
+      "bodySha256": "dae2c36531d9d6e7fbe80287a2aa5594b2ac7b054c30ea5c547bf9b89031b964",
+      "capturedAt": "2026-06-27T21:40:21.244Z",
+      "error": ""
+    }
+  ]
+}

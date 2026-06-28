@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:18.866Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/CherryHQ/cherry-studio-app/blob/main/src/config/models/default.ts#L335-L340",
+  "finalUrl": "https://github.com/CherryHQ/cherry-studio-app/blob/main/src/config/models/default.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e8104763417367e342e772ed28d508ee\"",
+  "lastModified": null,
+  "bodyBytes": 791254,
+  "bodySha256": "8d9dfdf6f77922d8c3ee305534ed1ec2377946906449ae32302373966ddf9581",
+  "title": "cherry-studio-app/src/config/models/default.ts at main · CherryHQ/cherry-studio-app · GitHub",
+  "github": {
+    "owner": "CherryHQ",
+    "repo": "cherry-studio-app",
+    "apiStatus": "unavailable"
+  }
+}

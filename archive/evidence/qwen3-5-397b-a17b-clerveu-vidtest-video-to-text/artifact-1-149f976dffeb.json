@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:17.988Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Clerveu/vidtest",
+  "finalUrl": "https://github.com/Clerveu/vidtest",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"684490aa8b7a08269e418cee14e74a68\"",
+  "lastModified": null,
+  "bodyBytes": 300187,
+  "bodySha256": "b724ddafb14e01f83d3b063e510938334e6249b4e9a9998b17af32629e1fd982",
+  "title": "GitHub - Clerveu/vidtest: Video-to-text pipeline using OpenRouter Qwen3.5-397B-A17B vision model + VLC remote for real-time interaction · GitHub",
+  "github": {
+    "owner": "Clerveu",
+    "repo": "vidtest",
+    "htmlUrl": "https://github.com/Clerveu/vidtest",
+    "defaultBranch": "master",
+    "defaultBranchSha": "2c8525bd53b075b2ae1b612d4ae8ada0a2ce4a06",
+    "pushedAt": "2026-05-07T13:47:32Z",
+    "updatedAt": "2026-05-07T13:52:18Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

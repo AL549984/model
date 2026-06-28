@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "step-3-7-flash-hikarioyama-swarm-agent",
+  "modelId": "step-3-7-flash",
+  "modelName": "Step 3.7 Flash",
+  "title": "hikarioyama built a high-concurrency swarm-agent harness around Step-3.7-Flash",
+  "evidenceFingerprint": "181ca9fe085a2c8110c840c8c325132eb9157b93699cac82fb5386909006d1cd",
+  "capturedAt": "2026-06-27T21:28:26.615Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/hikarioyama/swarm-agent/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/step-3-7-flash-hikarioyama-swarm-agent/original-evidence-c6bdef660cef.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "50543f9081bec8427ec249edf6b44fc9ea17dea146cf2d4a06568ab0d1e4bbd7",
+      "capturedAt": "2026-06-27T21:28:24.906Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hikarioyama/swarm-agent",
+      "snapshotPath": "archive/evidence/step-3-7-flash-hikarioyama-swarm-agent/artifact-1-2c2660198fac.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hikarioyama/swarm-agent: High-concurrency goal-driven swarm harness for Step-3.7-Flash: conversational front door, stigmergic board, AIMD admission, recall, skills, web UI. · GitHub",
+      "bodySha256": "953a8ffdc59500648f037b492a278a0e43e5a7b2a29530dd58ddaa8e9135d4bc",
+      "capturedAt": "2026-06-27T21:28:25.223Z",
+      "error": ""
+    }
+  ]
+}

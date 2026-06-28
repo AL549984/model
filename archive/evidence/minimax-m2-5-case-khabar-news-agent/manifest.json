@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-5-case-khabar-news-agent",
+  "modelId": "minimax-m2-5",
+  "modelName": "MiniMax-M2.5",
+  "title": "Khabar — Daily AI news agent delivering curated briefs to Telegram via MiniMax M2.5",
+  "evidenceFingerprint": "14d0da813155c9493731efbbb6b65066c4078ed628b37d9c57ec7eebcf7fa4d7",
+  "capturedAt": "2026-06-27T22:44:43.416Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Rahul4u-stack/khabar",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-khabar-news-agent/original-evidence-d53402cdc757.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Rahul4u-stack/khabar: Personal AI news agent — delivers a curated daily AI brief to my Telegram at 9 AM IST. Built on Hermes 3 + OpenRouter (MiniMax M2.5) + Telegram Bot API. · GitHub",
+      "bodySha256": "21b8883913724090cf838e03653968d50db44cdd7cd7cd5411058b7b7378ed15",
+      "capturedAt": "2026-06-27T22:44:41.476Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Rahul4u-stack/khabar",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-khabar-news-agent/artifact-1-d53402cdc757.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Rahul4u-stack/khabar: Personal AI news agent — delivers a curated daily AI brief to my Telegram at 9 AM IST. Built on Hermes 3 + OpenRouter (MiniMax M2.5) + Telegram Bot API. · GitHub",
+      "bodySha256": "388f5ce5de01d2d7c29b7b5e105aef5ac4cfa0486868bab26592a52945972156",
+      "capturedAt": "2026-06-27T22:44:42.709Z",
+      "error": ""
+    }
+  ]
+}

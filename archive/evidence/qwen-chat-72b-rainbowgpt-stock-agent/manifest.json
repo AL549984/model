@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-72b-rainbowgpt-stock-agent",
+  "modelId": "qwen-chat-72b",
+  "modelName": "Qwen Chat 72B",
+  "title": "RainbowGPT uses qwen-72b-chat for stock-analysis agent responses",
+  "evidenceFingerprint": "fa0daa46a2609981999d71ff93304af4e077e3490f7532e5234d6c2519e49bd8",
+  "capturedAt": "2026-06-27T22:59:33.604Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ZhuJD-China/RainbowGPT/blob/master/examples/Stock_Agent_demo/StockGPTAnalysis_ui.py",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-rainbowgpt-stock-agent/original-evidence-1be7dae1cac7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RainbowGPT/examples/Stock_Agent_demo/StockGPTAnalysis_ui.py at master · ZhuJD-China/RainbowGPT · GitHub",
+      "bodySha256": "5885ed779d7f0b13de37aca9cc4751fc71eccc5508808cc93fb2c0dce86f2000",
+      "capturedAt": "2026-06-27T22:59:31.399Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ZhuJD-China/RainbowGPT",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-rainbowgpt-stock-agent/artifact-1-ea6701e671ed.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ZhuJD-China/RainbowGPT: 🌈RainbowGPT AI Agent &amp; Dalle3 free &amp; Stock Analysis &amp; GPT-4 Free API &amp; Private LLM Application &amp; SQL Agent for Everyone · GitHub",
+      "bodySha256": "7c980f2c7cb867cdc10a3d88b95f9480d95ecc9786e5b0be051c676d90e1dd99",
+      "capturedAt": "2026-06-27T22:59:32.559Z",
+      "error": ""
+    }
+  ]
+}

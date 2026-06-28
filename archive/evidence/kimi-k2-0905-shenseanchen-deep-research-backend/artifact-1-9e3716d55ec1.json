@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:26.287Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ShenSeanChen/launch-DeepResearch-Backend",
+  "finalUrl": "https://github.com/ShenSeanChen/launch-DeepResearch-Backend",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"10e0acb22fcf63adb8c7c8872b115e3d\"",
+  "lastModified": null,
+  "bodyBytes": 387007,
+  "bodySha256": "7ff5a5be2c837f0badc60e7ea1cbf11d83c86389c8b7a8a1e84e5f6718946d21",
+  "title": "GitHub - ShenSeanChen/launch-DeepResearch-Backend: You Can Learn Deep Research AI Agent Design &amp; Launch In 25 Min | Kimi K2 0905, LangChain, OpenSource · GitHub",
+  "github": {
+    "owner": "ShenSeanChen",
+    "repo": "launch-DeepResearch-Backend",
+    "apiStatus": "unavailable"
+  }
+}

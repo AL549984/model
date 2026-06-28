@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:17.618Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/4yu5h-crtl/Frontend_Builder/blob/main/utils/api.py",
+  "finalUrl": "https://github.com/4yu5h-crtl/Frontend_Builder/blob/main/utils/api.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ffdcf6989f4cb677faaee67b10571221\"",
+  "lastModified": null,
+  "bodyBytes": 313986,
+  "bodySha256": "8b326a22573acd487b639d78d3c7c8e5222b6c3c215f4823755251bef86244b6",
+  "title": "Frontend_Builder/utils/api.py at main · 4yu5h-crtl/Frontend_Builder · GitHub",
+  "github": {
+    "owner": "4yu5h-crtl",
+    "repo": "Frontend_Builder",
+    "apiStatus": "unavailable"
+  }
+}

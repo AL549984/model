@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:39.699Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/PrashanthBhaskara/ProphetHacks/tree/main/prophet-hacks-handoff/prep",
+  "finalUrl": "https://github.com/PrashanthBhaskara/ProphetHacks/tree/main/prophet-hacks-handoff/prep",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"08aea38c2adc6462d930bcc09a85aa11\"",
+  "lastModified": null,
+  "bodyBytes": 324970,
+  "bodySha256": "57fbcd9718bc3573b332c58ddee5bd59d133baa40f953b7264088120315dda4f",
+  "title": "ProphetHacks/prophet-hacks-handoff/prep at main · PrashanthBhaskara/ProphetHacks · GitHub",
+  "github": {
+    "owner": "PrashanthBhaskara",
+    "repo": "ProphetHacks",
+    "apiStatus": "unavailable"
+  }
+}

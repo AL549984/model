@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-v2-alphaone-ai-memory-a2a",
+  "modelId": "grok-4-20-0309-v2",
+  "modelName": "Grok 4.20 0309 v2",
+  "title": "AlphaOne 的 ai-memory-a2a 用 Grok 4.20 0309 Reasoning 驱动记忆场景推理",
+  "evidenceFingerprint": "3fe4fd59415fe71e1227065d0e9ba5387c9d0fd2dde51b02f45eeaeb874d7b58",
+  "capturedAt": "2026-06-27T22:15:44.327Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/alphaonedev/ai-memory-a2a-v0.7.0/blob/main/scripts/grok_driver.py",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-alphaone-ai-memory-a2a/original-evidence-7087207e0567.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-memory-a2a-v0.7.0/scripts/grok_driver.py at main · alphaonedev/ai-memory-a2a-v0.7.0 · GitHub",
+      "bodySha256": "f0486925b70dde8747e810683c234b24019116d92cde2e53d673b7b0256297ba",
+      "capturedAt": "2026-06-27T22:15:40.632Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/alphaonedev/ai-memory-a2a-v0.7.0",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-alphaone-ai-memory-a2a/artifact-1-70543a98ee54.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - alphaonedev/ai-memory-a2a-v0.7.0: v0.7.0 A2A regression + net-new test campaign · openclaw ↔ hermes ↔ postgres+AGE on private VPC · Grok 4.2 reasoning · 2-round consecutive 100% GREEN gate · GitHub",
+      "bodySha256": "715114b273351fd0a502ecd727b79c6f29f4f3650c892fffe7302e4ddd32538b",
+      "capturedAt": "2026-06-27T22:15:43.242Z",
+      "error": ""
+    }
+  ]
+}

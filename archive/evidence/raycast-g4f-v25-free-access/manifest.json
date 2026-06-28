@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "raycast-g4f-v25-free-access",
+  "modelId": "deepseek-v2-5-dec",
+  "modelName": "DeepSeek-V2.5 (Dec)",
+  "title": "Raycast G4F Extension: Free DeepSeek-V2.5 Access via DeepInfra in Raycast",
+  "evidenceFingerprint": "ad71c304dcc9191efc09e454898334e05e0fb1acdb2bf9d950a8a4b397c9742a",
+  "capturedAt": "2026-06-27T23:15:45.481Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/XInTheDark/raycast-g4f/blob/main/README.md",
+      "snapshotPath": "archive/evidence/raycast-g4f-v25-free-access/original-evidence-065e8d9cf224.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "raycast-g4f/README.md at main · XInTheDark/raycast-g4f · GitHub",
+      "bodySha256": "aa6ff720d2f336f4c2bc95a031d0be9f498461ced0bbb64552c7bf2d32c06e91",
+      "capturedAt": "2026-06-27T23:15:43.363Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/XInTheDark/raycast-g4f",
+      "snapshotPath": "archive/evidence/raycast-g4f-v25-free-access/artifact-1-28ee9ec964b0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - XInTheDark/raycast-g4f: Raycast extension to use GPT, Claude, Llama, and more... all for FREE! + Full support for custom APIs. · GitHub",
+      "bodySha256": "0c3a0d33d1747949970b1f6797da560d82f1ddfe0db7a9c5393d68cfcdc7cc81",
+      "capturedAt": "2026-06-27T23:15:44.452Z",
+      "error": ""
+    }
+  ]
+}

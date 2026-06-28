@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:18.604Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Mixup-Agent/solsol/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Mixup-Agent/solsol/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "6421",
+  "etag": "W/\"26a21be10b874f5beb348c85e9598342453502cb4583e478a71cbc03a7bccdde\"",
+  "lastModified": null,
+  "bodyBytes": 16190,
+  "bodySha256": "71e27e95c69ca1b746495b7c065b5c30df6a9d2a681e4034fc9ba59af7e7133b",
+  "title": "",
+  "github": null
+}

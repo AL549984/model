@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-2-ho323-korean-modernization",
+  "modelId": "solar-pro-2",
+  "modelName": "Solar Pro 2",
+  "title": "MixUP Upstage project uses Solar Pro2 for Korean historical-text modernization",
+  "evidenceFingerprint": "612c55833021e3621d9b4008814e45732d87c00c9d6220fa0c307748ac1dcd58",
+  "capturedAt": "2026-06-27T23:23:56.977Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ho323/mixup-upstage-korean-modernization#readme",
+      "snapshotPath": "archive/evidence/solar-pro-2-ho323-korean-modernization/original-evidence-1c16309e9f56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ho323/mixup-upstage-korean-modernization: Solar Pro2 prompt engineering pipeline for Korean text modernization in the MixUP Upstage promptathon. · GitHub",
+      "bodySha256": "e1fa3a02533cae0bf160b31f36ddfdb28ae699f0b2ff2fda7b20ac250fb69e06",
+      "capturedAt": "2026-06-27T23:23:54.931Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ho323/mixup-upstage-korean-modernization",
+      "snapshotPath": "archive/evidence/solar-pro-2-ho323-korean-modernization/artifact-1-af0369ce32ed.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ho323/mixup-upstage-korean-modernization: Solar Pro2 prompt engineering pipeline for Korean text modernization in the MixUP Upstage promptathon. · GitHub",
+      "bodySha256": "cc12e20cb50218052d25a3c52c30108db670644080dabb004fa36554edb88d82",
+      "capturedAt": "2026-06-27T23:23:56.379Z",
+      "error": ""
+    }
+  ]
+}

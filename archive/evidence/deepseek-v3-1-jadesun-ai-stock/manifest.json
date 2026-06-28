@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-jadesun-ai-stock",
+  "modelId": "deepseek-v3-1",
+  "modelName": "DeepSeek V3.1",
+  "title": "jadesun/ai_stock: AI-powered stock recommendation system using DeepSeek-V3.1 for financial news analysis",
+  "evidenceFingerprint": "3f2cc4d090b51a85be6e7fa665d6770f573ecfdbaa7ab1cd20ea9f8fc7baaba4",
+  "capturedAt": "2026-06-27T21:08:57.463Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/jadesun/ai_stock",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-jadesun-ai-stock/original-evidence-215f47e71edf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jadesun/ai_stock: 一个基于人工智能的股票推荐系统，通过自动爬取财经新闻并使用DeepSeek-v3.1大语言模型进行分析，为用户提供智能化的股票投资建议。系统完全Docker化，支持一键部署，24小时自动运行。 · GitHub",
+      "bodySha256": "fb132e549fb2b6fb14b860198721a9799521a882d3fa3776ff3b6131a9a7a62c",
+      "capturedAt": "2026-06-27T21:08:55.371Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/jadesun/ai_stock",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-jadesun-ai-stock/artifact-1-215f47e71edf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jadesun/ai_stock: 一个基于人工智能的股票推荐系统，通过自动爬取财经新闻并使用DeepSeek-v3.1大语言模型进行分析，为用户提供智能化的股票投资建议。系统完全Docker化，支持一键部署，24小时自动运行。 · GitHub",
+      "bodySha256": "c28597424742e19526dc117e985e5b1088a50cb88acbfe48f33bcfc7b5b3f506",
+      "capturedAt": "2026-06-27T21:08:56.897Z",
+      "error": ""
+    }
+  ]
+}

@@ -3,21 +3,30 @@ import PublishabilityBadge from "../data/PublishabilityBadge.astro";
 import { publicizeText } from "../../lib/publicCopy";
 
 const { model, compact = false } = Astro.props;
+const summary = publicizeText(model.summary);
+const modelHref = `/models/${model.slug}`;
+const compareHref = `/compare?models=${encodeURIComponent(model.id)}`;
 ---
 
-<a href={`/models/${model.slug}`} class="group block rounded-lg border border-slate-700/70 bg-slate-950/45 p-4 transition hover:-translate-y-0.5 hover:border-cyan-300/45 hover:bg-slate-900/70">
+<article class="group flex min-h-full flex-col border border-[#f4f1ea]/20 bg-[#070707] p-5 transition hover:border-[#ff3b4e]/70 hover:bg-[#f4f1ea]/[0.035]">
   <div class="flex items-start justify-between gap-3">
     <div>
-      <p class="text-base font-semibold text-slate-50">{model.name}</p>
-      <p class="mt-1 text-sm text-slate-400">{model.vendor}</p>
+      <h3 class="text-lg font-semibold leading-tight text-[#f4f1ea]">
+        <a href={modelHref} class="transition hover:text-[#ff3b4e] focus:text-[#ff3b4e] focus:outline-none">{model.name}</a>
+      </h3>
+      <p class="mono mt-2 text-[11px] uppercase tracking-[0.12em] text-[#a8a29a]">{model.vendor}</p>
     </div>
     <PublishabilityBadge status={model.publishability} />
   </div>
-  <p class="mt-3 text-sm leading-relaxed text-slate-300">{publicizeText(model.summary)}</p>
+  <p class="mt-5 flex-1 text-sm leading-relaxed text-[#a8a29a]">{summary}</p>
   {!compact && (
-    <div class="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-300">
-      <span class="rounded-md border border-slate-700/70 bg-slate-950/40 px-2 py-1">A 类案例：{model.aCaseCount}</span>
-      <span class="rounded-md border border-slate-700/70 bg-slate-950/40 px-2 py-1">{model.capabilities.codingAgent}</span>
+    <div class="mt-5 grid grid-cols-2 gap-px bg-[#f4f1ea]/20 text-xs text-[#a8a29a]">
+      <span class="bg-[#050505] px-3 py-2">A 类案例：{model.aCaseCount}</span>
+      <span class="bg-[#050505] px-3 py-2">{model.capabilities.codingAgent}</span>
     </div>
   )}
-</a>
+  <div class="mt-5 flex flex-wrap gap-2">
+    <a href={modelHref} class="mono inline-flex min-h-9 items-center border border-[#f4f1ea]/20 px-3 text-[11px] uppercase tracking-[0.08em] text-[#f4f1ea] transition hover:border-[#ff3b4e]/70 hover:text-[#ff3b4e] focus:border-[#ff3b4e]/70 focus:text-[#ff3b4e] focus:outline-none">模型档案</a>
+    <a href={compareHref} class="mono inline-flex min-h-9 items-center border border-[#ff3b4e]/55 bg-[#ff3b4e]/10 px-3 text-[11px] uppercase tracking-[0.08em] text-[#f4f1ea] transition hover:bg-[#ff3b4e]/16 hover:text-[#ff3b4e] focus:text-[#ff3b4e] focus:outline-none" data-model-compare>加入对比</a>
+  </div>
+</article>

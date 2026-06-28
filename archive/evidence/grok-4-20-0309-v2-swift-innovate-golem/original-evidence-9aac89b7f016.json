@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:50.596Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/swift-innovate/golem/blob/main/llm/grok.py",
+  "finalUrl": "https://github.com/swift-innovate/golem/blob/main/llm/grok.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e46f98b6f5c500fdaa4926111e6b8cdd\"",
+  "lastModified": null,
+  "bodyBytes": 364902,
+  "bodySha256": "12b1581ee75e5b79cc552240ef6c1d669474015763cdb38e6ed69b30bac91ff1",
+  "title": "golem/llm/grok.py at main · swift-innovate/golem · GitHub",
+  "github": {
+    "owner": "swift-innovate",
+    "repo": "golem",
+    "apiStatus": "unavailable"
+  }
+}

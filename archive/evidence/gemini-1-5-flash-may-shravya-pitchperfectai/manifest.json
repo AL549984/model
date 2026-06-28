@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-flash-may-shravya-pitchperfectai",
+  "modelId": "gemini-1-5-flash-may",
+  "modelName": "Gemini 1.5 Flash (May)",
+  "title": "PitchPerfectAI uses Gemini 1.5 Flash to generate tailored cover letters and ATS feedback",
+  "evidenceFingerprint": "6b74ff96833f5b0dd040c8132545e300dabd56984f7bd0d1fa4894efde837420",
+  "capturedAt": "2026-06-27T21:40:27.844Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/shravya004/PitchPerfectAI/blob/main/app.py#L12-L157",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-shravya-pitchperfectai/original-evidence-7be2260c4968.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "PitchPerfectAI/app.py at main · shravya004/PitchPerfectAI · GitHub",
+      "bodySha256": "04daf634518899a75859822da2e41a2f47e8c8aae3e915586146ffbaaf261920",
+      "capturedAt": "2026-06-27T21:40:25.851Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/shravya004/PitchPerfectAI",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-shravya-pitchperfectai/artifact-1-0f2d3975c6df.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - shravya004/PitchPerfectAI: 🎯 PitchPerfectAI is a smart, customizable web app built with Streamlit and powered by Google&#39;s Gemini 1.5 Flash model. It generates polished, ATS-friendly cover letters tailored to your job title, ex",
+      "bodySha256": "a069f474095856c96edf2edea7518fa0a816274a9871388af6083633d9082be1",
+      "capturedAt": "2026-06-27T21:40:26.741Z",
+      "error": ""
+    }
+  ]
+}

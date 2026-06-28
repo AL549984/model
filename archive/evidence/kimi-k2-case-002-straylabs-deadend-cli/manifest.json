@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-case-002-straylabs-deadend-cli",
+  "modelId": "kimi-k2",
+  "modelName": "Kimi K2.5",
+  "title": "Kimi K2.5 驱动的自主渗透测试代理",
+  "evidenceFingerprint": "64c18b83149f86949c936cdc0c11665c3fb43f4bb6be7178ad561309fa77365e",
+  "capturedAt": "2026-06-27T22:29:29.883Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/straylabs-ai/deadend-cli",
+      "snapshotPath": "archive/evidence/kimi-k2-case-002-straylabs-deadend-cli/original-evidence-8f3e4bc721a8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - straylabs-ai/deadend-cli: Agentic pentest tooling. Currently achieving 81% (KIMI K2.5) on XBOW&#39;s benchmark in full black-box. Completely Self-hosted. Every model available on LiteLLM (Ollama, anthropic, openai...) · GitHub",
+      "bodySha256": "8815e2301b6e3b27d24a40f552f3a5899646408b9b28adea6cb8b991f3718c48",
+      "capturedAt": "2026-06-27T22:29:28.036Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/straylabs-ai/deadend-cli",
+      "snapshotPath": "archive/evidence/kimi-k2-case-002-straylabs-deadend-cli/artifact-1-8f3e4bc721a8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - straylabs-ai/deadend-cli: Agentic pentest tooling. Currently achieving 81% (KIMI K2.5) on XBOW&#39;s benchmark in full black-box. Completely Self-hosted. Every model available on LiteLLM (Ollama, anthropic, openai...) · GitHub",
+      "bodySha256": "ab20d715f707b0537f4ed142a2b8817ac5cf8f85f16bdf04f233a7f54e118800",
+      "capturedAt": "2026-06-27T22:29:29.243Z",
+      "error": ""
+    }
+  ]
+}

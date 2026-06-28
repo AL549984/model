@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:42.621Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/teremterem/claude-code-gpt-5-codex",
+  "finalUrl": "https://github.com/teremterem/claude-code-gpt-5-codex",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"01a68aaf5aac7906b5be5856c41afa7a\"",
+  "lastModified": null,
+  "bodyBytes": 352217,
+  "bodySha256": "993f5f983c0d89a1dea5f8dd054c7cc401e96b946dac19dc04247d84228ed641",
+  "title": "GitHub - teremterem/claude-code-gpt-5-codex: Run Anthropic&#39;s Claude Code CLI with OpenAI models such as GPT-5-Codex, GPT-5.1, and others via a local LiteLLM proxy. · GitHub",
+  "github": {
+    "owner": "teremterem",
+    "repo": "claude-code-gpt-5-codex",
+    "apiStatus": "unavailable"
+  }
+}

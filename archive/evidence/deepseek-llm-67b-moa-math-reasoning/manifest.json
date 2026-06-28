@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-llm-67b-moa-math-reasoning",
+  "modelId": "deepseek-llm-67b-v1",
+  "modelName": "DeepSeek LLM 67B Chat",
+  "title": "Researcher uses DeepSeek LLM 67B Chat as intermediate layer in Mixture of Agents for GSM8K math reasoning",
+  "evidenceFingerprint": "1adf945ab90dd313c8730822868593740565029f74c6d9796a3f7d0ee602d52d",
+  "capturedAt": "2026-06-27T21:02:05.174Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/togethercomputer/MoA/issues/41",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-moa-math-reasoning/original-evidence-fa8dc8966f3b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "seems that MoA does not work on MATH and QA with both weak and strong LLMs · Issue #41 · togethercomputer/MoA · GitHub",
+      "bodySha256": "7c31e107d824303b52b385064ff0f9052ff45546d9e56d6b66099a767448d6c0",
+      "capturedAt": "2026-06-27T21:02:02.079Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/togethercomputer/MoA",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-moa-math-reasoning/artifact-1-e942ba76ae68.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - togethercomputer/MoA: Together Mixture-Of-Agents (MoA) – 65.1% on AlpacaEval with OSS models · GitHub",
+      "bodySha256": "7cdb13f1724fc388933d4aacf162b4b64617df1d8f1342b5a81e44903b00a973",
+      "capturedAt": "2026-06-27T21:02:03.800Z",
+      "error": ""
+    }
+  ]
+}

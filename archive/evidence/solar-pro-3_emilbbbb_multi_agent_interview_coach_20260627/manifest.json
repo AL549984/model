@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3_emilbbbb_multi_agent_interview_coach_20260627",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "Multi-Agent Interview Coach configured with Solar Pro 3",
+  "evidenceFingerprint": "4d132c898776a62aa116b2a30bf276017866ecd52145c4ddebdc57e449cee94a",
+  "capturedAt": "2026-06-27T23:24:47.079Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/EmilBBbbbbbb/Multi-Agent-Interview-Coach/blob/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3_emilbbbb_multi_agent_interview_coach_20260627/original-evidence-08044ab8ccfb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Multi-Agent-Interview-Coach/README.md at main · EmilBBbbbbbb/Multi-Agent-Interview-Coach · GitHub",
+      "bodySha256": "9769b1cfaa94ebcfeb2722c78289a57d9c02fc43fb6824a9630f28fae96b3969",
+      "capturedAt": "2026-06-27T23:24:43.656Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/EmilBBbbbbbb/Multi-Agent-Interview-Coach",
+      "snapshotPath": "archive/evidence/solar-pro-3_emilbbbb_multi_agent_interview_coach_20260627/artifact-1-d0b457283808.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - EmilBBbbbbbb/Multi-Agent-Interview-Coach · GitHub",
+      "bodySha256": "286c07f19247e9916331e96025c18f7214af3b793df9c09b1e970766a6021fb5",
+      "capturedAt": "2026-06-27T23:24:44.741Z",
+      "error": ""
+    }
+  ]
+}

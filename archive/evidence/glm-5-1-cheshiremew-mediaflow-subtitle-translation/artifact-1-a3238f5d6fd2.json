@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:38.361Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CheshireMew/MediaFlow",
+  "finalUrl": "https://github.com/CheshireMew/MediaFlow",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c129c20040088e61a6e558eec6f4a4fb\"",
+  "lastModified": null,
+  "bodyBytes": 350359,
+  "bodySha256": "7ff256799eca25da20da28c9182e156cf59f22de266b8dbccb29949f3dab90a3",
+  "title": "GitHub - CheshireMew/MediaFlow · GitHub",
+  "github": {
+    "owner": "CheshireMew",
+    "repo": "MediaFlow",
+    "apiStatus": "unavailable"
+  }
+}

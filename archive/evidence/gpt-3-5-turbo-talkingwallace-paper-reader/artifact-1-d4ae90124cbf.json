@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:36.112Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/talkingwallace/ChatGPT-Paper-Reader",
+  "finalUrl": "https://github.com/talkingwallace/ChatGPT-Paper-Reader",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1d7f3fa31594304a94c75dfef406b5cd\"",
+  "lastModified": null,
+  "bodyBytes": 301588,
+  "bodySha256": "e249dcceec7fe06d15e50e11ddc4ba4a4a043e04e855a09e8890fe0fdbeecbce",
+  "title": "GitHub - talkingwallace/ChatGPT-Paper-Reader: This repo offers a simple interface that helps you to read&amp;summerize research papers in pdf format. You can ask some questions after reading. This interface is developed based on openai API ",
+  "github": {
+    "owner": "talkingwallace",
+    "repo": "ChatGPT-Paper-Reader",
+    "apiStatus": "unavailable"
+  }
+}

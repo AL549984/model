@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:24.583Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/disler/always-on-ai-assistant",
+  "finalUrl": "https://github.com/disler/always-on-ai-assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"995140db343ad6ba96c3c38a15b2ad41\"",
+  "lastModified": null,
+  "bodyBytes": 313332,
+  "bodySha256": "c0d7d09336b2f54551e8807d8e9a598bc594b6fb52026aab51154ee26d06170a",
+  "title": "GitHub - disler/always-on-ai-assistant: A pattern for an always on AI Assistant powered by Deepseek-V3, RealtimeSTT, and Typer for engineering · GitHub",
+  "github": {
+    "owner": "disler",
+    "repo": "always-on-ai-assistant",
+    "apiStatus": "unavailable"
+  }
+}

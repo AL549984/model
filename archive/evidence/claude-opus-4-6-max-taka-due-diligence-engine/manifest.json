@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-6-max-taka-due-diligence-engine",
+  "modelId": "claude-opus-4-6-max",
+  "modelName": "Claude Opus 4.6 (max)",
+  "title": "taka-avantgarde 用 Claude Opus 4.6 构建 VC 技术尽调引擎",
+  "evidenceFingerprint": "eabf35cd2da068b525c0685cb56dc1fa1b8a63a936c24b7aa74dc5579e86e41c",
+  "capturedAt": "2026-06-27T20:55:25.126Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/taka-avantgarde/Due-diligence-engine",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-taka-due-diligence-engine/original-evidence-da133da1fbc1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - taka-avantgarde/Due-diligence-engine: AI-Powered Technical Due Diligence Engine for Venture Capital — Verify startup claims, detect AI-washing, score with confidence. Built on Claude Opus 4.6 · GitHub",
+      "bodySha256": "5ab2c33a3970851c02eab34e5ddcc4b788e94aa50617d3a2699e3c7e76a03de8",
+      "capturedAt": "2026-06-27T20:55:23.359Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/taka-avantgarde/Due-diligence-engine",
+      "snapshotPath": "archive/evidence/claude-opus-4-6-max-taka-due-diligence-engine/artifact-1-da133da1fbc1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - taka-avantgarde/Due-diligence-engine: AI-Powered Technical Due Diligence Engine for Venture Capital — Verify startup claims, detect AI-washing, score with confidence. Built on Claude Opus 4.6 · GitHub",
+      "bodySha256": "5e46934a6110efa21052cfc2aa3184dca0cf0858f2161bc255abc22eb61eaa18",
+      "capturedAt": "2026-06-27T20:55:24.538Z",
+      "error": ""
+    }
+  ]
+}

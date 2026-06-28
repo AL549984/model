@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "g3ph-line-girl-effect-python-2025-12",
+  "modelId": "gemini-3-pro-preview-high",
+  "modelName": "Gemini 3 Pro Preview (high)",
+  "title": "Developer codes Line Girl visual effect in Python using Gemini 3 Pro",
+  "evidenceFingerprint": "f8d9e4cc1667d3eafc2f3d430605755c1992ac65eb7967ab26f088a561a2be84",
+  "capturedAt": "2026-06-27T21:34:52.335Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/letmutex/line-girl-effect",
+      "snapshotPath": "archive/evidence/g3ph-line-girl-effect-python-2025-12/original-evidence-8cb6b19e8a93.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - letmutex/line-girl-effect: the Line Girl effect in Python. · GitHub",
+      "bodySha256": "d0abece44ea3ac61370293fe656eaa7e423c41916abebdcd746ca2f376f077bb",
+      "capturedAt": "2026-06-27T21:34:50.591Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/letmutex/line-girl-effect",
+      "snapshotPath": "archive/evidence/g3ph-line-girl-effect-python-2025-12/artifact-1-8cb6b19e8a93.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - letmutex/line-girl-effect: the Line Girl effect in Python. · GitHub",
+      "bodySha256": "da9de87f2fbd6d93372de1fd6c557b2579badeb23b9c4990f8954bb7120a24d8",
+      "capturedAt": "2026-06-27T21:34:51.718Z",
+      "error": ""
+    }
+  ]
+}

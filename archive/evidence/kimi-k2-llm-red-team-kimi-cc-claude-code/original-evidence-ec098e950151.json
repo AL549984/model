@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:33.443Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/LLM-Red-Team/kimi-cc/blob/main/README.md",
+  "finalUrl": "https://github.com/LLM-Red-Team/kimi-cc/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e1ceb9edf184570275dc6fcf540f990d\"",
+  "lastModified": null,
+  "bodyBytes": 240118,
+  "bodySha256": "5bcacd7f955761f3d0ec5ec5f889a1b67aa898d27e1405824fe946e611721d92",
+  "title": "kimi-cc/README.md at main · LLM-Red-Team/kimi-cc · GitHub",
+  "github": {
+    "owner": "LLM-Red-Team",
+    "repo": "kimi-cc",
+    "apiStatus": "unavailable"
+  }
+}

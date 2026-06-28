@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:10.851Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/haydenkz/cartpole-ts",
+  "finalUrl": "https://github.com/haydenkz/cartpole-ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6dac6f34213dd0282410e5c164d6e589\"",
+  "lastModified": null,
+  "bodyBytes": 258783,
+  "bodySha256": "4672f5ce8c9f316d2b26eba060f459289527dfd8f9d0780657eed14fd4a8064a",
+  "title": "GitHub - haydenkz/cartpole-ts: gpt-5 codex cartpole · GitHub",
+  "github": {
+    "owner": "haydenkz",
+    "repo": "cartpole-ts",
+    "apiStatus": "unavailable"
+  }
+}

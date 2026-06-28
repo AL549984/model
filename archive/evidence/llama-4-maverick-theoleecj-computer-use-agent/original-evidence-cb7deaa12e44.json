@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:18.627Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/TheoLeeCJ/llama4-computer-use/blob/master/README.md",
+  "finalUrl": "https://github.com/TheoLeeCJ/llama4-computer-use/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"833a95e24c44b32dea6d9ed0a6b48e9c\"",
+  "lastModified": null,
+  "bodyBytes": 292018,
+  "bodySha256": "c1168ba2e1deef488e97869c6afbb97a8833546c2fa116bf370681f11b9fd63e",
+  "title": "llama4-computer-use/README.md at master · TheoLeeCJ/llama4-computer-use · GitHub",
+  "github": {
+    "owner": "TheoLeeCJ",
+    "repo": "llama4-computer-use",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-5-pro-production-gateway-9router",
+  "modelId": "mimo-v2-5-pro",
+  "modelName": "MiMo-V2.5-Pro",
+  "title": "Hermes 9Router: 腾讯云生产环境 AI 网关以 MiMo V2.5 Pro 为首选 Tier 1 模型",
+  "evidenceFingerprint": "e87fc927e07ec191aedd2b9365ce3609d05fa542264759ba591a1c98805858ca",
+  "capturedAt": "2026-06-27T22:37:47.127Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/esparpol4-eng/hermes-9router-mimo",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-production-gateway-9router/original-evidence-fab3d8611df8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - esparpol4-eng/hermes-9router-mimo: Production AI gateway powered by Xiaomi MiMo v2.5-pro — Tier 1 of a 7-tier multi-model failover combo · GitHub",
+      "bodySha256": "580fc21244b555aa85c25ad360ff1c364e4aa49f9fac49483d6a87969a83a380",
+      "capturedAt": "2026-06-27T22:37:45.372Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/esparpol4-eng/hermes-9router-mimo",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-production-gateway-9router/artifact-1-fab3d8611df8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - esparpol4-eng/hermes-9router-mimo: Production AI gateway powered by Xiaomi MiMo v2.5-pro — Tier 1 of a 7-tier multi-model failover combo · GitHub",
+      "bodySha256": "a8bf293d8659ae3417ab4a6a7a67f69223283cc4508108621994b77fd108e01a",
+      "capturedAt": "2026-06-27T22:37:46.603Z",
+      "error": ""
+    }
+  ]
+}

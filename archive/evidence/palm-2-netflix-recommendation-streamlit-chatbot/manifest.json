@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "palm-2-netflix-recommendation-streamlit-chatbot",
+  "modelId": "palm-2",
+  "modelName": "PALM-2",
+  "title": "A Streamlit chatbot used the PaLM-2 API to recommend Netflix movies and shows from input data",
+  "evidenceFingerprint": "f0dd8e91520620fe3ba9f5088b1bbb9517e06cd90089632f4a14200baa29ec7c",
+  "capturedAt": "2026-06-27T22:52:10.926Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/keanteng/chatbot",
+      "snapshotPath": "archive/evidence/palm-2-netflix-recommendation-streamlit-chatbot/original-evidence-1d96f3079938.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - keanteng/chatbot: 🤖 A Streamlit Chatbot Using PaLM-2 · GitHub",
+      "bodySha256": "429d1614e4b18da07faddacc647452d7fd4b0c2be55977147558a5546aedbaaf",
+      "capturedAt": "2026-06-27T22:52:08.388Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/keanteng/chatbot",
+      "snapshotPath": "archive/evidence/palm-2-netflix-recommendation-streamlit-chatbot/artifact-1-1d96f3079938.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - keanteng/chatbot: 🤖 A Streamlit Chatbot Using PaLM-2 · GitHub",
+      "bodySha256": "b14605dbb86817ca7c9a6eac46950ffd5d5432e5fe218c498d1fb6ea32014bda",
+      "capturedAt": "2026-06-27T22:52:09.538Z",
+      "error": ""
+    }
+  ]
+}

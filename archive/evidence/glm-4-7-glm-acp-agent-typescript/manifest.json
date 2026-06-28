@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-7-glm-acp-agent-typescript",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7",
+  "title": "glm-acp-agent: TypeScript ACP agent using GLM-4.7 as reasoning core for IDE-integrated coding assistance with file system and terminal tools",
+  "evidenceFingerprint": "4d9f22b7a74643f96e6ffc39560ac9d59a17c7758baedf6647e0819a6209749a",
+  "capturedAt": "2026-06-27T21:53:33.826Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/stefandevo/glm-acp-agent",
+      "snapshotPath": "archive/evidence/glm-4-7-glm-acp-agent-typescript/original-evidence-638714110e3c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - stefandevo/glm-acp-agent: ACP agent in TypeScript that uses the Zhipu AI GLM series (specifically GLM-5.1 and GLM-4.7) as the reasoning core · GitHub",
+      "bodySha256": "626034fa43a916f0a1a6e8a8e3b0d0daf6919a86ade2ef6e9ec45b217836868f",
+      "capturedAt": "2026-06-27T21:53:31.083Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/stefandevo/glm-acp-agent",
+      "snapshotPath": "archive/evidence/glm-4-7-glm-acp-agent-typescript/artifact-1-638714110e3c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - stefandevo/glm-acp-agent: ACP agent in TypeScript that uses the Zhipu AI GLM series (specifically GLM-5.1 and GLM-4.7) as the reasoning core · GitHub",
+      "bodySha256": "9ee6e86c51b775d667b80d78f90f17fa4214be7a9b782a2c8b025c8abbe5f1d9",
+      "capturedAt": "2026-06-27T21:53:33.132Z",
+      "error": ""
+    }
+  ]
+}

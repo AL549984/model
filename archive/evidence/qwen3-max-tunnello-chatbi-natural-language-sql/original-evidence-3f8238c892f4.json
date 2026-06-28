@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:30.784Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Tunnello/ChatBI/blob/6f6f633d692a8c3de24f516d8bc5c5c56aa067f1/API_INTERFACE.md",
+  "finalUrl": "https://github.com/Tunnello/ChatBI/blob/6f6f633d692a8c3de24f516d8bc5c5c56aa067f1/API_INTERFACE.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"23f1b8815fef82a8c3c47840cabafb10\"",
+  "lastModified": null,
+  "bodyBytes": 564163,
+  "bodySha256": "6b4c054b21992ae529d8578ee497dc6d0535bbf0b898fa86d2128ecca8036a39",
+  "title": "ChatBI/API_INTERFACE.md at 6f6f633d692a8c3de24f516d8bc5c5c56aa067f1 · Tunnello/ChatBI · GitHub",
+  "github": {
+    "owner": "Tunnello",
+    "repo": "ChatBI",
+    "apiStatus": "unavailable"
+  }
+}

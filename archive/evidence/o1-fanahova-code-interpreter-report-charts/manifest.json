@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-fanahova-code-interpreter-report-charts",
+  "modelId": "o1",
+  "modelName": "o1",
+  "title": "OpenAI O1 Code Interpreter wraps o1 with E2B to create reports and charts",
+  "evidenceFingerprint": "5ab725ecc2b08aa5f6268f9065a682014bc960107afc77d795fc2c83f6fafa34",
+  "capturedAt": "2026-06-27T22:51:39.166Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/FanaHOVA/openai-o1-code-interpreter/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o1-fanahova-code-interpreter-report-charts/original-evidence-d39c367b3509.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "openai-o1-code-interpreter/README.md at main · FanaHOVA/openai-o1-code-interpreter · GitHub",
+      "bodySha256": "d15c9c22bdaada7e7ad4e8e964163f9cd91c32e5cf1d70c0ad15e6238985d6de",
+      "capturedAt": "2026-06-27T22:51:37.053Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/FanaHOVA/openai-o1-code-interpreter",
+      "snapshotPath": "archive/evidence/o1-fanahova-code-interpreter-report-charts/artifact-1-fcb713f32662.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - FanaHOVA/openai-o1-code-interpreter: Code interpreter support for o1 · GitHub",
+      "bodySha256": "06a55bd57ca20fb5856a19f3733f4f4bf75eb37946b001dda483c34b33cf80be",
+      "capturedAt": "2026-06-27T22:51:38.085Z",
+      "error": ""
+    }
+  ]
+}

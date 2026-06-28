@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:42.780Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ViaAnthroposBenevolentia/gemini-2-live-api-demo",
+  "finalUrl": "https://github.com/ViaAnthroposBenevolentia/gemini-2-live-api-demo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5c6a43902e18b15061b88efe3da72eae\"",
+  "lastModified": null,
+  "bodyBytes": 272499,
+  "bodySha256": "4ae12478c4b0eaa48d3055da3590936b9f2cce027149349ac7184867a0c9497e",
+  "title": "GitHub - ViaAnthroposBenevolentia/gemini-2-live-api-demo: Vanilla JS web interface for Gemini 2.0 flash-exp Multimodal API with text, audio, camera, screen inputs and audio responses and function calling · GitHub",
+  "github": {
+    "owner": "ViaAnthroposBenevolentia",
+    "repo": "gemini-2-live-api-demo",
+    "apiStatus": "unavailable"
+  }
+}

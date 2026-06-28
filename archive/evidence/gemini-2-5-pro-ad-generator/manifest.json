@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-ad-generator",
+  "modelId": "gemini-2-5-pro",
+  "modelName": "Gemini 2.5 Pro",
+  "title": "Hollywood-Quality UGC Ad Generator: Automated Video Ad Workflow with Gemini 2.5 Pro",
+  "evidenceFingerprint": "9efa9e96ee88a11d04aa8df5ef9527606fadec36423b68c72d708e3a72e9000f",
+  "capturedAt": "2026-06-27T21:47:01.631Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Alex-safari/Hollywood-Quality-UGC-Ad-Generator",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-ad-generator/original-evidence-b9926f1cea08.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Alex-safari/Hollywood-Quality-UGC-Ad-Generator: An automated workflow built with n8n, Sora 2, GPT-4o, and Gemini 2.5 Pro that turns any product photo into a Hollywood-quality UGC video ad — complete with cinematic direction, camera",
+      "bodySha256": "483b7df04bed85bccebb86aa847e605a33abbdea76085945c53c0db99ea385e6",
+      "capturedAt": "2026-06-27T21:47:00.023Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Alex-safari/Hollywood-Quality-UGC-Ad-Generator",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-ad-generator/artifact-1-b9926f1cea08.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Alex-safari/Hollywood-Quality-UGC-Ad-Generator: An automated workflow built with n8n, Sora 2, GPT-4o, and Gemini 2.5 Pro that turns any product photo into a Hollywood-quality UGC video ad — complete with cinematic direction, camera",
+      "bodySha256": "0fa7058079ee09837d2f2882a538c6d3a3c2ce88b80ee929902aba6036ca9d72",
+      "capturedAt": "2026-06-27T21:47:01.029Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:14:57.036Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/massgen/utils/model_matcher.py",
+  "finalUrl": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/massgen/utils/model_matcher.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"87ec5673c8722398a4a164ba7e83c415\"",
+  "lastModified": null,
+  "bodyBytes": 356350,
+  "bodySha256": "89cf6ff90e5ae5874b1201fbe8b7a49e8f3cf02557e7c926a31a811702d8c849",
+  "title": "MassGen/massgen/utils/model_matcher.py at 007bd8579298d7dc3ff2a43c378e27a284902f22 · massgen/MassGen · GitHub",
+  "github": {
+    "owner": "massgen",
+    "repo": "MassGen",
+    "apiStatus": "unavailable"
+  }
+}

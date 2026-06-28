@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:58.998Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/arham-kk/gemini-thinking-search-agent",
+  "finalUrl": "https://github.com/arham-kk/gemini-thinking-search-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5a1e0f48ffece5bbe92667d6d0ab9f36\"",
+  "lastModified": null,
+  "bodyBytes": 273625,
+  "bodySha256": "549f2a9a88b6c5891b85ae0d0a8fa8f0e3eb626beeb02d14c6d65f0c0f7128f5",
+  "title": "GitHub - arham-kk/gemini-thinking-search-agent: A Python-based agent showcasing the use of Google&#39;s Gemini 2.0 Flash Thinking Experimental model to reason by combining search results with user queries · GitHub",
+  "github": {
+    "owner": "arham-kk",
+    "repo": "gemini-thinking-search-agent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:23.314Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/spaces/Omnibus/grok-1-test",
+  "finalUrl": "https://huggingface.co/spaces/Omnibus/grok-1-test",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9191-QlEALAtkPPtfxE+TktJdvu7YRPU\"",
+  "lastModified": null,
+  "bodyBytes": 37265,
+  "bodySha256": "1bd5a47f9e20b4ae348e6c75d1161cf080130c548a242f605acd621ceb2dca4c",
+  "title": "Grok 1 Test - a Hugging Face Space by Omnibus",
+  "github": null
+}

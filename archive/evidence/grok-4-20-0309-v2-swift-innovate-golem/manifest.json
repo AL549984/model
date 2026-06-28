@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-v2-swift-innovate-golem",
+  "modelId": "grok-4-20-0309-v2",
+  "modelName": "Grok 4.20 0309 v2",
+  "title": "swift-innovate 的 GOLEM 使用 Grok 4.20 0309 Reasoning 作为自改进 LangGraph Agent 主脑",
+  "evidenceFingerprint": "6f5d351dda59792193833cbef395d55b96b5022a92587403ec84a114ba6aba66",
+  "capturedAt": "2026-06-27T22:15:52.685Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/swift-innovate/golem/blob/main/llm/grok.py",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-swift-innovate-golem/original-evidence-9aac89b7f016.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "golem/llm/grok.py at main · swift-innovate/golem · GitHub",
+      "bodySha256": "12b1581ee75e5b79cc552240ef6c1d669474015763cdb38e6ed69b30bac91ff1",
+      "capturedAt": "2026-06-27T22:15:50.596Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/swift-innovate/golem",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-swift-innovate-golem/artifact-1-2b8373e39fb2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - swift-innovate/golem: Self-improving LangGraph agent with Grok 4.20 brain · GitHub",
+      "bodySha256": "f5ecf7e3e15bba8c569aa3daca9981ce3c63541a614f9a6b0a9b9702a42382e6",
+      "capturedAt": "2026-06-27T22:15:51.727Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:11.262Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CBIhalsen/PolyglotPDF",
+  "finalUrl": "https://github.com/CBIhalsen/PolyglotPDF",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"116f3375f9b6f2545a3de7a0c9cb70d8\"",
+  "lastModified": null,
+  "bodyBytes": 470527,
+  "bodySha256": "8fe4bf1feeb47ce90ef1adc6baa4e7726934f1197182bd5ef0fc3f7004bde441",
+  "title": "GitHub - CBIhalsen/PolyglotPDF: (eBook，PDFs Translation) A multilingual eBook processing tool supporting all eBook formats. Features online and offline translation while preserving original layouts. Compatible with both scanned and digital ",
+  "github": {
+    "owner": "CBIhalsen",
+    "repo": "PolyglotPDF",
+    "apiStatus": "unavailable"
+  }
+}

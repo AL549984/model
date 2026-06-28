@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "step-3-7-flash-video-vision-hermes-tool",
+  "modelId": "step-3-7-flash",
+  "modelName": "Step 3.7 Flash",
+  "title": "video-vision adds Step-3.7-Flash video analysis to Hermes Agent",
+  "evidenceFingerprint": "ee4a90edb9154c3c910ae05620fdae9ad82b62ab5501dcc8f169ce7fa65c27e6",
+  "capturedAt": "2026-06-27T21:28:30.116Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/sjusjdkzhsiqjqbz-rgb/video-vision/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/step-3-7-flash-video-vision-hermes-tool/original-evidence-bbb1454392ca.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "12babd6dd1528ab6ab5514d955bf7d05461bcaa5aa642c35a29edd43642d4517",
+      "capturedAt": "2026-06-27T21:28:28.585Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sjusjdkzhsiqjqbz-rgb/video-vision",
+      "snapshotPath": "archive/evidence/step-3-7-flash-video-vision-hermes-tool/artifact-1-660c498f2173.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sjusjdkzhsiqjqbz-rgb/video-vision: StepFun video analysis tool for Hermes Agent — step-3.7-flash with reasoning_effort, stepfile://, Files API, ffmpeg auto-normalization · GitHub",
+      "bodySha256": "7335836d614743600630a2e6e36a24c457702c1c5a25343fbe89acf26a91439a",
+      "capturedAt": "2026-06-27T21:28:28.907Z",
+      "error": ""
+    }
+  ]
+}

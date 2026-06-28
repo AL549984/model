@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:10.675Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+  "finalUrl": "https://github.com/XiaomiMiMo/MiMo-Code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"537844011b451f81c9f9e20ae3f16521\"",
+  "lastModified": null,
+  "bodyBytes": 410114,
+  "bodySha256": "156cb0620cd16aa3e3313bcaa4f12febb23f704b228dc918d4fbc460463ea961",
+  "title": "GitHub - XiaomiMiMo/MiMo-Code: MiMo Code: Where Models and Agents Co-Evolve · GitHub",
+  "github": {
+    "owner": "XiaomiMiMo",
+    "repo": "MiMo-Code",
+    "apiStatus": "unavailable"
+  }
+}

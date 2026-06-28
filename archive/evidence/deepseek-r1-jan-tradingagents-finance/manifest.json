@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-jan-tradingagents-finance",
+  "modelId": "deepseek-r1-jan",
+  "modelName": "DeepSeek R1 (Jan)",
+  "title": "TradingAgents: 88K-Star Multi-Agent Financial Trading Framework with DeepSeek R1 Reasoning Backbone",
+  "evidenceFingerprint": "af2ffbf9b97f5bbd903ffc6118523b726b8bced9c944a681a779957e3149c03a",
+  "capturedAt": "2026-06-27T21:08:08.022Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "snapshotPath": "archive/evidence/deepseek-r1-jan-tradingagents-finance/original-evidence-626a5e4fcb23.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - TauricResearch/TradingAgents: TradingAgents: Multi-Agents LLM Financial Trading Framework · GitHub",
+      "bodySha256": "0c6fb52f6d35c5c586318f60aaadb8f7c981cf7b69b861a7fc88febf92b3690b",
+      "capturedAt": "2026-06-27T21:08:06.229Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://arxiv.org/abs/2412.20138",
+      "snapshotPath": "archive/evidence/deepseek-r1-jan-tradingagents-finance/artifact-1-cdb48f3834f0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[2412.20138] TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "bodySha256": "65a91df83e73dd3c405e5e179ccfc79350507101cfe37152468ff2e04c99b0fd",
+      "capturedAt": "2026-06-27T21:08:07.135Z",
+      "error": ""
+    }
+  ]
+}

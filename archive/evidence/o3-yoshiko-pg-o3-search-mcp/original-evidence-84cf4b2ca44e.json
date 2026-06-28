@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:02.202Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yoshiko-pg/o3-search-mcp/blob/main/README.md",
+  "finalUrl": "https://github.com/yoshiko-pg/o3-search-mcp/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4757722b88ddc6e559c27d75a75870af\"",
+  "lastModified": null,
+  "bodyBytes": 302114,
+  "bodySha256": "d90f7525b2a3fc542f8e2770d0284e56bbc45309604751ce3812cba37ccd566d",
+  "title": "o3-search-mcp/README.md at main · yoshiko-pg/o3-search-mcp · GitHub",
+  "github": {
+    "owner": "yoshiko-pg",
+    "repo": "o3-search-mcp",
+    "apiStatus": "unavailable"
+  }
+}

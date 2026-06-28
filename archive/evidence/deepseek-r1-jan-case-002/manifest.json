@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-jan-case-002",
+  "modelId": "deepseek-r1-jan",
+  "modelName": "DeepSeek R1 (Jan)",
+  "title": "DeepSeek-R1-Safe: Safety-Aligned DeepSeek R1 Fine-Tuned on Huawei Ascend 910B",
+  "evidenceFingerprint": "4aa378b8b88f593c89ae775e2aa49fbf90dad4ad81d3efa021ebec1c1f3ac483",
+  "capturedAt": "2026-06-27T21:02:24.208Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ZJUAISafety/DeepSeek-R1-Safe",
+      "snapshotPath": "archive/evidence/deepseek-r1-jan-case-002/original-evidence-e3699c3460e8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ZJUAISafety/DeepSeek-R1-Safe · GitHub",
+      "bodySha256": "fcb85e99bbfb8c8b7d4807075282361aa302e28425a5ddb11df63059c33e7e12",
+      "capturedAt": "2026-06-27T21:02:22.013Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.modelscope.cn/models/ZJUAISafety/DeepSeek-R1-Safe",
+      "snapshotPath": "archive/evidence/deepseek-r1-jan-case-002/artifact-1-386788af9eb2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DeepSeek-R1-Safe",
+      "bodySha256": "5d5865599d51142266f6edc4bb363aa6aadbfffcfd281908bb3281d9170edfbe",
+      "capturedAt": "2026-06-27T21:02:23.228Z",
+      "error": ""
+    }
+  ]
+}

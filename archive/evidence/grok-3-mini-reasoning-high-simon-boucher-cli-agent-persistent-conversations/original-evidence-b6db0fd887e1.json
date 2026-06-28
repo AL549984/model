@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:26.471Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/simonpierreboucher02/grok-cli-agent/blob/main/config.py",
+  "finalUrl": "https://github.com/simonpierreboucher02/grok-cli-agent/blob/main/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"339de7ed1621d6d3eb4180a267c07352\"",
+  "lastModified": null,
+  "bodyBytes": 305825,
+  "bodySha256": "d9082b1c386e9ab959907406b5cb9e794756f55c0fb491909776fd18cc308bba",
+  "title": "grok-cli-agent/config.py at main · simonpierreboucher02/grok-cli-agent · GitHub",
+  "github": {
+    "owner": "simonpierreboucher02",
+    "repo": "grok-cli-agent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-max-preview-deepdrone-natural-language-control",
+  "modelId": "qwen3-6-max-preview",
+  "modelName": "Qwen3.6 Max Preview",
+  "title": "DeepDrone exposes Qwen3.6 Max Preview for natural-language drone control and simulator/real-flight command generation",
+  "evidenceFingerprint": "14eb8dddb775859360bb1c08d1d796fd5a33953f565cbce2534b4bcd19b721bd",
+  "capturedAt": "2026-06-27T23:07:25.839Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/LeaderOnePro/deepdrone/blob/06d5f4ac0c90ac55a4168c6c12dc384c80241d2c/drone/interactive_setup.py",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-deepdrone-natural-language-control/original-evidence-d36309f71842.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "deepdrone/drone/interactive_setup.py at 06d5f4ac0c90ac55a4168c6c12dc384c80241d2c · LeaderOnePro/deepdrone · GitHub",
+      "bodySha256": "a33549f40dc75bc35f7d4d2719578209c6901b5f394218da7860c6d6de283e11",
+      "capturedAt": "2026-06-27T23:07:22.666Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/LeaderOnePro/deepdrone",
+      "snapshotPath": "archive/evidence/qwen3-6-max-preview-deepdrone-natural-language-control/artifact-1-9edde7a00fd0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LeaderOnePro/deepdrone: An AI agent to control drones · GitHub",
+      "bodySha256": "d975d90ff33da626e829413f0fd20e6387c6972c91a3180df1374a0080f738f8",
+      "capturedAt": "2026-06-27T23:07:24.521Z",
+      "error": ""
+    }
+  ]
+}

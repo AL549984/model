@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-dakshjain-multiagent-simulator",
+  "modelId": "grok-4-20-0309",
+  "modelName": "Grok 4.20 0309",
+  "title": "grok-multiagent-simulator 用 Grok 4.20 Multi-Agent 串联 Researcher/Analyst/Synthesizer",
+  "evidenceFingerprint": "72c8a194eb6130968f253bd23518465efae025aabe2945712fad0435d98ceea7",
+  "capturedAt": "2026-06-27T22:15:34.176Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/dakshjain-1616/grok-multiagent-simulator/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-dakshjain-multiagent-simulator/original-evidence-df110647de8e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "grok-multiagent-simulator/README.md at main · dakshjain-1616/grok-multiagent-simulator · GitHub",
+      "bodySha256": "f179e0e59c7a48f791d31d68bad2fbdaa4908efd4d8904b0d09b4b11036e10ec",
+      "capturedAt": "2026-06-27T22:15:31.962Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/dakshjain-1616/grok-multiagent-simulator",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-dakshjain-multiagent-simulator/artifact-1-87c784f0aed3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - dakshjain-1616/grok-multiagent-simulator: Sequential multi-agent simulator using x-ai/grok-4.20-multi-agent-beta via OpenRouter. Researcher, Analyst, and Synthesizer agents stream into a live CLI dashboard powered by plotext and ri",
+      "bodySha256": "3b67f8a8f69bf67ac20b0433162b942c379c817744922a2c9ac75087e6ad376f",
+      "capturedAt": "2026-06-27T22:15:33.099Z",
+      "error": ""
+    }
+  ]
+}

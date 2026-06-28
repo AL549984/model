@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:50.024Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/langgenius/dify-official-plugins/pull/909",
+  "finalUrl": "https://github.com/langgenius/dify-official-plugins/pull/909",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 275351,
+  "bodySha256": "ce8e8bc375a3c71f8b946d37f0f1e661202720f5d273f90d3363c60a55238e69",
+  "title": "feat: add Doubao-1.5-thinking-vision-pro model by jiangbo721 · Pull Request #909 · langgenius/dify-official-plugins · GitHub",
+  "github": {
+    "owner": "langgenius",
+    "repo": "dify-official-plugins",
+    "apiStatus": "unavailable"
+  }
+}

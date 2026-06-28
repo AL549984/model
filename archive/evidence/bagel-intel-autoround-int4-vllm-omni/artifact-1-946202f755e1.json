@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:19.122Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/Intel/BAGEL-7B-MoT-int4-AutoRound",
+  "finalUrl": "https://huggingface.co/Intel/BAGEL-7B-MoT-int4-AutoRound",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"254ea-ggYH9ZfZpLJsXu2LfcFJ9vWa58M\"",
+  "lastModified": null,
+  "bodyBytes": 152810,
+  "bodySha256": "5ac693d9fd36b093667baf4a113095945dea9a30025a334e85a3d4096ae8a52c",
+  "title": "Intel/BAGEL-7B-MoT-int4-AutoRound · Hugging Face",
+  "github": null
+}

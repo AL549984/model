@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:32.328Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/juyongjiang/CodeSolar",
+  "finalUrl": "https://github.com/juyongjiang/CodeSolar",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6c57114e33e26ee272fbe51749978a3c\"",
+  "lastModified": null,
+  "bodyBytes": 271370,
+  "bodySha256": "31d317e183fb6e7ff4a6c5cf5622a45d39049b9db18c22e6e2a31ac2a2660a2f",
+  "title": "GitHub - juyongjiang/CodeSolar: Making coding accessible to all with CodeSolar. · GitHub",
+  "github": {
+    "owner": "juyongjiang",
+    "repo": "CodeSolar",
+    "apiStatus": "unavailable"
+  }
+}

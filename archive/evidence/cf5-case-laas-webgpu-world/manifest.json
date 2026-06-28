@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cf5-case-laas-webgpu-world",
+  "modelId": "claude-fable-5",
+  "modelName": "Claude Fable 5",
+  "title": "LAAS: 4x4km procedural WebGPU open world",
+  "evidenceFingerprint": "d5f729f264040eb04876e55ce3df1f47d8473b67f14e8fab32ac75e94b683ea2",
+  "capturedAt": "2026-06-27T20:16:20.434Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Braffolk/fable5-world-demo",
+      "snapshotPath": "archive/evidence/cf5-case-laas-webgpu-world/original-evidence-b6b2b3e05152.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Braffolk/fable5-world-demo: 3D world built by Claude Fable 5 to test its capabilities using three.js · GitHub",
+      "bodySha256": "17581225a58ef90f9bbad8e705a8522e78d6bb006b0f036c7b5adf72a1254da7",
+      "capturedAt": "2026-06-27T20:16:16.100Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://dc5fzrbo8ssfx.cloudfront.net/laas/",
+      "snapshotPath": "archive/evidence/cf5-case-laas-webgpu-world/artifact-1-099f5f05556f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "LAAS",
+      "bodySha256": "0d4b78107dd4934ec6f4fa9102150d3fce9c4a388ba16c45097a07239feebdf3",
+      "capturedAt": "2026-06-27T20:16:19.080Z",
+      "error": ""
+    }
+  ]
+}

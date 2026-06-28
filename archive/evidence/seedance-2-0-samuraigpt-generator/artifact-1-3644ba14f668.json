@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:23.689Z",
+  "kind": "artifact-1",
+  "url": "https://seedance-2-generator.vercel.app/",
+  "finalUrl": "https://seedance-2-generator.vercel.app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8a48990406cf481de1e1a7a0fc089300\"",
+  "lastModified": null,
+  "bodyBytes": 24125,
+  "bodySha256": "5f4da91a83d4ac27a5af99f3cb2a64a14e2925974b8c575734723ff05f941ca0",
+  "title": "Seedance v2.0 - Premium AI Generator",
+  "github": null
+}

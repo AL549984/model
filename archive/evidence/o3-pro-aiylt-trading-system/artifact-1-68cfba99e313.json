@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:59.986Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/AIYLT/o3-pro-trading",
+  "finalUrl": "https://github.com/AIYLT/o3-pro-trading",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fd4d1c72670618c54e2045b709e9aecc\"",
+  "lastModified": null,
+  "bodyBytes": 361697,
+  "bodySha256": "9c832d089a35eb32cc087f451121d33e496fdd7943efa3ea7db3baa5d48b4f57",
+  "title": "GitHub - AIYLT/o3-pro-trading: O3 Pro智能交易策略系统 - 使用OpenAI o3-2025-04-16模型进行股票分析，集成11个专业策略模块，支持GPT Action · GitHub",
+  "github": {
+    "owner": "AIYLT",
+    "repo": "o3-pro-trading",
+    "apiStatus": "unavailable"
+  }
+}

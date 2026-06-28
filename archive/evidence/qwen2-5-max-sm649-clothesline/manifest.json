@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-max-sm649-clothesline",
+  "modelId": "qwen2-5-max",
+  "modelName": "Qwen2.5 Max",
+  "title": "SM649 用 Qwen2.5-Max 辅助生成 Clothesline 服装品牌网站前端与图像素材",
+  "evidenceFingerprint": "f39fa9358186c3df0b444db0798d3cf6dd8e88fd2bdda96a55e9e86d967e4eaf",
+  "capturedAt": "2026-06-27T23:00:02.788Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SM649/Clothesline/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-5-max-sm649-clothesline/original-evidence-682cbc919629.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Clothesline/README.md at main · SM649/Clothesline · GitHub",
+      "bodySha256": "2cce80daf14d01a6e8c4a9afa3f67506c9dcebb6ac9551692d6bded8c4e8fbbd",
+      "capturedAt": "2026-06-27T23:00:00.595Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SM649/Clothesline",
+      "snapshotPath": "archive/evidence/qwen2-5-max-sm649-clothesline/artifact-1-494b89d3e715.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SM649/Clothesline: Clothesline is an AI-generated clothing brand website built with HTML, CSS, JavaScript, Bootstrap, and Flask for page routing. The front-end and images were created using Google’s 2.5 Flash and Qwen2.5-Max. A mod",
+      "bodySha256": "c3b3738ae4be28da9e356f7503b35aaab52951af84ca30d34c9fd62f6a7a107e",
+      "capturedAt": "2026-06-27T23:00:01.629Z",
+      "error": ""
+    }
+  ]
+}

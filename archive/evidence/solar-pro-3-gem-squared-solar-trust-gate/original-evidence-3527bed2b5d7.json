@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:11.288Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/gem-squared/solar-trust-gate/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/gem-squared/solar-trust-gate/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2812",
+  "etag": "W/\"24580e4a9efe6b4e4758322b8d9c210f5c50382dc6878caf6b69e24ca5e318e1\"",
+  "lastModified": null,
+  "bodyBytes": 6257,
+  "bodySha256": "00e677a6836c15bb663103c03ff1fd53d425b9f1e1003aec56b25d17c1975597",
+  "title": "",
+  "github": null
+}

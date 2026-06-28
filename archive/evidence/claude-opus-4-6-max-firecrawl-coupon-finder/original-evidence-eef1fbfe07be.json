@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:19.257Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/firecrawl/firecrawl-coupon-finder",
+  "finalUrl": "https://github.com/firecrawl/firecrawl-coupon-finder",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f944f3568f04cfa5dfb1119bae5f4a7d\"",
+  "lastModified": null,
+  "bodyBytes": 301347,
+  "bodySha256": "ba2d62ca4ca5db84f09650cb2d64ddecc2a6bb170e2f06492f5392a21ecec786",
+  "title": "GitHub - firecrawl/firecrawl-coupon-finder: A Chrome extension built with Claude Opus 4.6 Agent Teams and Firecrawl Agents to automatically find and validate coupons. · GitHub",
+  "github": {
+    "owner": "firecrawl",
+    "repo": "firecrawl-coupon-finder",
+    "apiStatus": "unavailable"
+  }
+}

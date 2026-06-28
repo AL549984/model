@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-gemini-3-1-pro-preview-video-captioning",
+  "modelId": "gemini-3-1-pro-preview",
+  "modelName": "Gemini 3.1 Pro Preview",
+  "title": "Batch Video Captioning Pipeline for Google Drive Videos Using Gemini 3.1 Pro Preview",
+  "evidenceFingerprint": "1641079e818b452eee82d56b94ae18cd3b159d3dae0b7b236aceb7023b233e67",
+  "capturedAt": "2026-06-27T20:15:48.751Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/nishit-2611/video-captioning-pipeline",
+      "snapshotPath": "archive/evidence/case-gemini-3-1-pro-preview-video-captioning/original-evidence-2bd99b72cb82.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - nishit-2611/video-captioning-pipeline: Batch video captioning from Google Drive links using Gemini 3.1 Pro Preview. Streamlit UI with configurable system prompts and hyperparameters. · GitHub",
+      "bodySha256": "95c3e8c7147346d1a0c23b43601a318f520933c7ca9355a69bc43b11cb7a99b7",
+      "capturedAt": "2026-06-27T20:15:46.220Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/nishit-2611/video-captioning-pipeline",
+      "snapshotPath": "archive/evidence/case-gemini-3-1-pro-preview-video-captioning/artifact-1-2bd99b72cb82.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - nishit-2611/video-captioning-pipeline: Batch video captioning from Google Drive links using Gemini 3.1 Pro Preview. Streamlit UI with configurable system prompts and hyperparameters. · GitHub",
+      "bodySha256": "c8b40d73e15c2b612b0a6c96791d1abb74170c876014e47e179e77f509fd4fcb",
+      "capturedAt": "2026-06-27T20:15:48.131Z",
+      "error": ""
+    }
+  ]
+}

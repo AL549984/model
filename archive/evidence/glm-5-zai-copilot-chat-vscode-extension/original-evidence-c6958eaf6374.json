@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:40.920Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/ltmoerdani/zai-copilot-chat/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/ltmoerdani/zai-copilot-chat/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "9358",
+  "etag": "W/\"32d70bbb379848eb46e8d289f81585031b02d4eedacd5d64984b63769e704b68\"",
+  "lastModified": null,
+  "bodyBytes": 23876,
+  "bodySha256": "84ebdc29f3bd906f7418706c2556d41b11ceaf9538b37efaa20f4e64f966f527",
+  "title": "",
+  "github": null
+}

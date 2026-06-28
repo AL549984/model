@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:31.231Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/mluggy/apify-deep-research/blob/main/README.md#supported-llm-models",
+  "finalUrl": "https://github.com/mluggy/apify-deep-research/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5413eb73c4a242f592f85dd887ab2ddc\"",
+  "lastModified": null,
+  "bodyBytes": 269691,
+  "bodySha256": "a31adf70b782539703b5f4caac12b9187569a48e450ef097a32d65d17ceafecf",
+  "title": "apify-deep-research/README.md at main · mluggy/apify-deep-research · GitHub",
+  "github": {
+    "owner": "mluggy",
+    "repo": "apify-deep-research",
+    "apiStatus": "unavailable"
+  }
+}

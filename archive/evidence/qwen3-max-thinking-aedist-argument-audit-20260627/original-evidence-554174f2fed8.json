@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:11.712Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MinhHaDuong/aedist-technical-report/pull/316",
+  "finalUrl": "https://github.com/MinhHaDuong/aedist-technical-report/pull/316",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 578991,
+  "bodySha256": "514a0972b7bbe17c56169cb48c2471de87721ba05d9e4235891723fecfef4f97",
+  "title": "ticket(0149): extract hypotheses from argument by MinhHaDuong · Pull Request #316 · MinhHaDuong/aedist-technical-report · GitHub",
+  "github": {
+    "owner": "MinhHaDuong",
+    "repo": "aedist-technical-report",
+    "apiStatus": "unavailable"
+  }
+}

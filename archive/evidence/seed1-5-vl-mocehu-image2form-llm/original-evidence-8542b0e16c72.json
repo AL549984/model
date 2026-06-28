@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:22:59.808Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/mocehu/image2form_llm/blob/master/src/stores/modelStore.ts",
+  "finalUrl": "https://github.com/mocehu/image2form_llm/blob/master/src/stores/modelStore.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7f6c7e988309563daf5b506351c241f9\"",
+  "lastModified": null,
+  "bodyBytes": 362893,
+  "bodySha256": "23265f5e38992d9558de53ea7c07243a3aff19505abd18ddc9360ff7ca9d093c",
+  "title": "image2form_llm/src/stores/modelStore.ts at master · mocehu/image2form_llm · GitHub",
+  "github": {
+    "owner": "mocehu",
+    "repo": "image2form_llm",
+    "apiStatus": "unavailable"
+  }
+}

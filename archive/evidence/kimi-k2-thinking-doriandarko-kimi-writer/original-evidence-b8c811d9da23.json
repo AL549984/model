@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:40.065Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Doriandarko/kimi-writer/blob/main/README.md",
+  "finalUrl": "https://github.com/Doriandarko/kimi-writer/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0ee37431f295ae863a976c0da4dfb1a7\"",
+  "lastModified": null,
+  "bodyBytes": 357657,
+  "bodySha256": "b33ebd8c58b3c36373ced181b4da3c91ddfe38366014f68fc59287f6c983f35f",
+  "title": "kimi-writer/README.md at main · Doriandarko/kimi-writer · GitHub",
+  "github": {
+    "owner": "Doriandarko",
+    "repo": "kimi-writer",
+    "apiStatus": "unavailable"
+  }
+}

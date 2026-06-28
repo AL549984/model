@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3-hongduk-yuju-study-helper",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "Korean middle-school personal tutor app uses Solar Pro 3 long context over textbook units",
+  "evidenceFingerprint": "7405b1aea45035a70a3844efdacaaa2cdb48a5d707974553cec16b90aa4ab962",
+  "capturedAt": "2026-06-27T21:28:16.668Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Hongduk/tutor-app/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3-hongduk-yuju-study-helper/original-evidence-7da2eb4d3338.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7f2a0fbc54d712fa2a55483fced677c0fee43e313911f38794cdceecd67a52a7",
+      "capturedAt": "2026-06-27T21:28:14.385Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Hongduk/tutor-app",
+      "snapshotPath": "archive/evidence/solar-pro-3-hongduk-yuju-study-helper/artifact-1-93571e0d2fbd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Hongduk/tutor-app: AI 개인 과외 앱 — Upstage Document Parse + Solar Pro 3 · GitHub",
+      "bodySha256": "cbc11705529a4c6cbd4fdc2cec5a5c3138d4c3ebb6751ba7e8270e8f0216fd87",
+      "capturedAt": "2026-06-27T21:28:14.708Z",
+      "error": ""
+    }
+  ]
+}

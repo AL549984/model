@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:21.214Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/YiwenAI/AutoSAT/blob/master/main_MultiAgent.py",
+  "finalUrl": "https://github.com/YiwenAI/AutoSAT/blob/master/main_MultiAgent.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c7e405e9f74fbd32d134e780bfb56760\"",
+  "lastModified": null,
+  "bodyBytes": 545024,
+  "bodySha256": "832f00443bb8beb35e6942f93e1bb49f8b0e737272d539e160fbe1c515f5aa97",
+  "title": "AutoSAT/main_MultiAgent.py at master · YiwenAI/AutoSAT · GitHub",
+  "github": {
+    "owner": "YiwenAI",
+    "repo": "AutoSAT",
+    "apiStatus": "unavailable"
+  }
+}

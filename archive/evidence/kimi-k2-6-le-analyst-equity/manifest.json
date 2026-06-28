@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-6-le-analyst-equity",
+  "modelId": "kimi-k2-6",
+  "modelName": "Kimi K2.6",
+  "title": "Le Analyst — CLI equity research assistant with WeChat mini-app using Kimi K2.6",
+  "evidenceFingerprint": "891610bf8a8af9513df0694115897e14f79f8845f44ce58d27dae308590a64de",
+  "capturedAt": "2026-06-27T22:29:24.396Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Yogurto710/le-analyst",
+      "snapshotPath": "archive/evidence/kimi-k2-6-le-analyst-equity/original-evidence-7691796f0e1d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Yogurto710/le-analyst: CLI research assistant for public equities — sourced briefs and initiation reports powered by Kimi K2.6, Tavily, and SEC EDGAR. · GitHub",
+      "bodySha256": "afab22136513dfcdcda4334b2725ec91fe690b8ef8d29102a8d4cb6ab58d9e3b",
+      "capturedAt": "2026-06-27T22:29:21.416Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Yogurto710/le-analyst",
+      "snapshotPath": "archive/evidence/kimi-k2-6-le-analyst-equity/artifact-1-7691796f0e1d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Yogurto710/le-analyst: CLI research assistant for public equities — sourced briefs and initiation reports powered by Kimi K2.6, Tavily, and SEC EDGAR. · GitHub",
+      "bodySha256": "a70b8eac1b1839952426b5c82c0072dc1a12f6682fcaa8dc18930e4986fa9b64",
+      "capturedAt": "2026-06-27T22:29:23.819Z",
+      "error": ""
+    }
+  ]
+}

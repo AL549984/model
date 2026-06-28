@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-arunjayzui-hf-space-chat-demo",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "arunjayzui 发布 MiniMax-M1-80k Hugging Face Gradio 推理 Demo",
+  "evidenceFingerprint": "b9147524c69b33878340ac94e6fae1686495567433ac94c1f8153a42c944906c",
+  "capturedAt": "2026-06-27T23:25:24.107Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/arunjayzui/MiniMaxAI-MiniMax-M1-80k/raw/main/app.py",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-arunjayzui-hf-space-chat-demo/original-evidence-5b9b2d4c58b1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7f5a5ecdd00bcac7ee5766471f5d529fe6711a5edc1063077661e3c3339fd901",
+      "capturedAt": "2026-06-27T23:25:23.581Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/arunjayzui/MiniMaxAI-MiniMax-M1-80k",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-arunjayzui-hf-space-chat-demo/artifact-1-2f669e7e8913.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MiniMaxAI MiniMax M1 80k - a Hugging Face Space by arunjayzui",
+      "bodySha256": "084277f23743ce3bc3c2a2fee1f174ea11dbbae8ecb5f50a83e44941634063aa",
+      "capturedAt": "2026-06-27T23:25:23.844Z",
+      "error": ""
+    }
+  ]
+}

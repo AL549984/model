@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-7-strix-halo-local-deployment",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7",
+  "title": "GLM-4.7-Flash on AMD Strix Halo: Local deployment achieving near-Claude-Code speed via llama.cpp ROCm with Vulkan acceleration",
+  "evidenceFingerprint": "0fc500ec104959b8fc407bfd56df335e32674b3cd861e08cbd32459d31ba3b7d",
+  "capturedAt": "2026-06-27T21:53:37.142Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ndom91/GLM-4.7-Flash-Strix-Halo",
+      "snapshotPath": "archive/evidence/glm-4-7-strix-halo-local-deployment/original-evidence-aad6b972b00b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ndom91/GLM-4.7-Flash-Strix-Halo: Strix Halo setup for GLM-4.7 Flash using llama.cpp · GitHub",
+      "bodySha256": "188a4e3c8415426b4e1e2663b2ca6dcec8d50a1c8ff928314327dce0f72465e7",
+      "capturedAt": "2026-06-27T21:53:35.595Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ndom91/GLM-4.7-Flash-Strix-Halo",
+      "snapshotPath": "archive/evidence/glm-4-7-strix-halo-local-deployment/artifact-1-aad6b972b00b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ndom91/GLM-4.7-Flash-Strix-Halo: Strix Halo setup for GLM-4.7 Flash using llama.cpp · GitHub",
+      "bodySha256": "144690abdcc42b6d52d9eaaace75403d4c2e6600f83535c6d0e1e8df5b086bef",
+      "capturedAt": "2026-06-27T21:53:36.622Z",
+      "error": ""
+    }
+  ]
+}

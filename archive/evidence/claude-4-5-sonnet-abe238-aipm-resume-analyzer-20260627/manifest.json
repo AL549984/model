@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-5-sonnet-abe238-aipm-resume-analyzer-20260627",
+  "modelId": "claude-4-5-sonnet",
+  "modelName": "Claude 4.5 Sonnet",
+  "title": "AI PM Resume Analyzer uses Claude Sonnet 4.5 to score resumes against a six-pillar AI PM hiring framework",
+  "evidenceFingerprint": "53b87bacad8b23e9c20f75bfeb2452292402f2b7deb61162a049cdd58cf0f8c1",
+  "capturedAt": "2026-06-27T20:54:42.089Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/abe238/aipm-resume-analyzer/main/README.md",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-abe238-aipm-resume-analyzer-20260627/original-evidence-d797c90a02be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "bfaf709dcff2ef109f68b0c502c042728a8f3def9e6af0281574c67be5e1a701",
+      "capturedAt": "2026-06-27T20:54:39.925Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/abe238/aipm-resume-analyzer",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-abe238-aipm-resume-analyzer-20260627/artifact-1-80974ff9994b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - abe238/aipm-resume-analyzer: CLI tool to analyze resumes against AI PM framework using GPT-5, Claude Sonnet 4.5, or Gemini 2.5 Pro · GitHub",
+      "bodySha256": "c7ad3535a4e7418880f7460649fb2c41c11ca7e37f527140ca8434815c8d7743",
+      "capturedAt": "2026-06-27T20:54:40.676Z",
+      "error": ""
+    }
+  ]
+}

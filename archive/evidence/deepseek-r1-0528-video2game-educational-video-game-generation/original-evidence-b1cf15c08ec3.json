@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:19.875Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Hrishikesh332/Video2Game/blob/main/backend/config.py",
+  "finalUrl": "https://github.com/Hrishikesh332/Video2Game/blob/main/backend/config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d94503d2008dce8d30c51527274c97bb\"",
+  "lastModified": null,
+  "bodyBytes": 262431,
+  "bodySha256": "daaba352b5d23051bbf1b2412505ea71d23f2000cf135ea28aaecad16e6cca12",
+  "title": "Video2Game/backend/config.py at main · Hrishikesh332/Video2Game · GitHub",
+  "github": {
+    "owner": "Hrishikesh332",
+    "repo": "Video2Game",
+    "apiStatus": "unavailable"
+  }
+}

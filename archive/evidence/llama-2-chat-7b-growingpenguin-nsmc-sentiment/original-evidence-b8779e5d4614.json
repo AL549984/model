@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:38.035Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/growingpenguin/NSMC-Sentiment-Fine-Tuning/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/growingpenguin/NSMC-Sentiment-Fine-Tuning/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1067",
+  "etag": "W/\"bb925f4bfae9bf9e2334f07264d60d1f68b25511e777d88298714972c5d4ab6a\"",
+  "lastModified": null,
+  "bodyBytes": 2370,
+  "bodySha256": "da7eeb7fc227e4ce3c73689b58e02cba9841fb70f1ffd4d0b1af025133067f68",
+  "title": "",
+  "github": null
+}

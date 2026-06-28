@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:02.789Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/xescodes/calligrai-App/blob/main/README.md",
+  "finalUrl": "https://github.com/xescodes/calligrai-App/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"19dfa459fce3c0aca98bb20d7473903d\"",
+  "lastModified": null,
+  "bodyBytes": 254060,
+  "bodySha256": "e6d3e8ce63f99ac0dd8934f7b133b7f41795e77ef4e93a4318074e0720051d52",
+  "title": "calligrai-App/README.md at main · xescodes/calligrai-App · GitHub",
+  "github": {
+    "owner": "xescodes",
+    "repo": "calligrai-App",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-bloop-vibe-kanban-coding-agents",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "Bloop Vibe Kanban maps GPT-5.1 with high reasoning to gpt-5.1-high for coding-agent workspaces",
+  "evidenceFingerprint": "49e9b99078a2f4e65dbd73433b04cd86b53ccd5e994bdfd67dca9745a65fec63",
+  "capturedAt": "2026-06-27T22:01:08.340Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/BloopAI/vibe-kanban/blob/4deb7eca8f381f7cbc1f9d15515a9ab8f8009053/crates/executors/src/executors/cursor.rs#L96-L121",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-bloop-vibe-kanban-coding-agents/original-evidence-d99fff0bc864.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "vibe-kanban/crates/executors/src/executors/cursor.rs at 4deb7eca8f381f7cbc1f9d15515a9ab8f8009053 · BloopAI/vibe-kanban · GitHub",
+      "bodySha256": "c6b9772b3780599b45c8c9f283bf497b385b7b5533a0b352f65bef00c884c79d",
+      "capturedAt": "2026-06-27T22:01:05.655Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-bloop-vibe-kanban-coding-agents/artifact-1-18ccedbf973d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - BloopAI/vibe-kanban: Get 10X more out of Claude Code, Codex or any coding agent · GitHub",
+      "bodySha256": "756326f96905d806685783c6599f4ebdabc5e96c0b8c0b41f601a501755c746f",
+      "capturedAt": "2026-06-27T22:01:07.329Z",
+      "error": ""
+    }
+  ]
+}

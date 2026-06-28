@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:31.969Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/nvidia/Qwen3.5-397B-A17B-NVFP4",
+  "finalUrl": "https://huggingface.co/nvidia/Qwen3.5-397B-A17B-NVFP4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"333d2-dvdXf/ph7IkJ7MGXjX2e9e/5uWM\"",
+  "lastModified": null,
+  "bodyBytes": 209874,
+  "bodySha256": "4d28a6f7e24073e87c161e83cd591f5008188f413ffdb3827134da513a8c94e5",
+  "title": "nvidia/Qwen3.5-397B-A17B-NVFP4 · Hugging Face",
+  "github": null
+}

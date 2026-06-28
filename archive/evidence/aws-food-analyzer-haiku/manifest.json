@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "aws-food-analyzer-haiku",
+  "modelId": "claude-3-haiku",
+  "modelName": "Claude 3 Haiku",
+  "title": "AWS Food Analyzer: Serverless Nutrition App Uses Claude 3 Haiku for Real-Time Ingredient Analysis and Recipe Generation",
+  "evidenceFingerprint": "d10e834ea9d98aed7e234a849388e4da86375fac879f0b8923b7303b355a56f7",
+  "capturedAt": "2026-06-27T19:29:35.436Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/aws-samples/serverless-genai-food-analyzer-app",
+      "snapshotPath": "archive/evidence/aws-food-analyzer-haiku/original-evidence-c34526395824.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - aws-samples/serverless-genai-food-analyzer-app: Personalized nutritional app, serverless, tailored to your shopping and cooking needs, empowered by generative AI technology (Amazon Bedrock, Anthropic, Claude Haiku, Claude Sonnet) u",
+      "bodySha256": "da75fe58beca23d0dccefe9cdc3cb3316192ddab173b27c31c8e07f4a9253060",
+      "capturedAt": "2026-06-27T19:29:31.025Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/aws-samples/serverless-genai-food-analyzer-app",
+      "snapshotPath": "archive/evidence/aws-food-analyzer-haiku/artifact-1-c34526395824.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - aws-samples/serverless-genai-food-analyzer-app: Personalized nutritional app, serverless, tailored to your shopping and cooking needs, empowered by generative AI technology (Amazon Bedrock, Anthropic, Claude Haiku, Claude Sonnet) u",
+      "bodySha256": "b4c06507202c870f5eb5059bd8ddf4bb2df5b96d0223447c610b6176f9d3f67f",
+      "capturedAt": "2026-06-27T19:29:34.406Z",
+      "error": ""
+    }
+  ]
+}

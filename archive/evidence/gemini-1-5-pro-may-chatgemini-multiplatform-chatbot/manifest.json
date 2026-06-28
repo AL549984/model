@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-chatgemini-multiplatform-chatbot",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "ChatGemini 用 Gemini 1.5 Pro 实现跨 Android/iOS/Desktop 的多模态聊天应用",
+  "evidenceFingerprint": "84529c0901017d08888e6c3a6c59e54842ba05973225dea8b3a389c64a2fbbbc",
+  "capturedAt": "2026-06-27T21:40:32.524Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/chouaibMo/ChatGemini/blob/main/shared/src/commonMain/kotlin/data/network/GeminiService.kt",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-chatgemini-multiplatform-chatbot/original-evidence-41638d9659db.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ChatGemini/shared/src/commonMain/kotlin/data/network/GeminiService.kt at main · chouaibMo/ChatGemini · GitHub",
+      "bodySha256": "cb12806d1dfd7174ac6c09f7f01b1b86b7f2e0d5d73531452a2ace18607f159f",
+      "capturedAt": "2026-06-27T21:40:30.562Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/chouaibMo/ChatGemini",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-chatgemini-multiplatform-chatbot/artifact-1-44e8826f8769.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - chouaibMo/ChatGemini: A multiplatform chatbot app (Android, iOS and Desktop) built with Compose Multiplatform and powered by Gemini 1.5 Pro API. · GitHub",
+      "bodySha256": "1274cc42034ac7e4ea4ea7ce6a944db0280830599451a484d28037d7159e3642",
+      "capturedAt": "2026-06-27T21:40:31.582Z",
+      "error": ""
+    }
+  ]
+}

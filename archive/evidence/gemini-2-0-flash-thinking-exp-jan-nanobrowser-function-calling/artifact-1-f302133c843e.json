@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:54.459Z",
+  "kind": "artifact-1",
+  "url": "https://chromewebstore.google.com/detail/nanobrowser-ai-web-agent/imbddededgmcgfhfpcjmijokokekbkal",
+  "finalUrl": "https://chromewebstore.google.com/detail/nanobrowser-ai-web-agent/imbddededgmcgfhfpcjmijokokekbkal",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 702234,
+  "bodySha256": "88df08b5c7b8535826ad3b8b21f51a9d00196bbdff55653753275bdf221f3dff",
+  "title": "Nanobrowser: AI Web Agent &amp; Automation - Chrome Web Store",
+  "github": null
+}

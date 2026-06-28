@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:29.366Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/qinscode/SeekSpider/blob/main/README.md",
+  "finalUrl": "https://github.com/qinscode/SeekSpider/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ad04b9820c109a9780c6c9b108fd82eb\"",
+  "lastModified": null,
+  "bodyBytes": 313357,
+  "bodySha256": "2c8b0c5767479022b9aa17fab87d05d1d72177a4d8a31b1733f89d6203689d8e",
+  "title": "SeekSpider/README.md at main · qinscode/SeekSpider · GitHub",
+  "github": {
+    "owner": "qinscode",
+    "repo": "SeekSpider",
+    "apiStatus": "unavailable"
+  }
+}

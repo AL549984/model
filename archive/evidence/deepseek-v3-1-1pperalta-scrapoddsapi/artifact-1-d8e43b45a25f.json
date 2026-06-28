@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:47.117Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/1pperalta/ScrapOddsAPI",
+  "finalUrl": "https://github.com/1pperalta/ScrapOddsAPI",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1f5b61e63fb783faf8d1826ab91870ce\"",
+  "lastModified": null,
+  "bodyBytes": 316018,
+  "bodySha256": "ded6783f6cda36b5d43fa37e356814dcd138b78b4be2f2197ea5e6179717a678",
+  "title": "GitHub - 1pperalta/ScrapOddsAPI: Full-stack platform that scrapes, stores, and analyzes sports betting odds in real time using a LangGraph AI agent powered by DeepSeek V3.1. · GitHub",
+  "github": {
+    "owner": "1pperalta",
+    "repo": "ScrapOddsAPI",
+    "apiStatus": "unavailable"
+  }
+}

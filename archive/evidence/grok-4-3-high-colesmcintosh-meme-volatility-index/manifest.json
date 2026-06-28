@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-colesmcintosh-meme-volatility-index",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "Meme Volatility Index uses x-ai/grok-4.3 plus xSearch to score live meme-stock hype from X posts",
+  "evidenceFingerprint": "5be8b0138dfe1a9fb5699135d6a3029f491d3c932384575dc451641a54e99155",
+  "capturedAt": "2026-06-27T21:15:00.960Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/colesmcintosh/meme-volatility-index/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-colesmcintosh-meme-volatility-index/original-evidence-bbe69e0e10c8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "1917176fb10c296b5a94b14e3c2ddccb4ccb95d445188e7443e842dbb2f86eab",
+      "capturedAt": "2026-06-27T21:14:58.995Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/colesmcintosh/meme-volatility-index",
+      "snapshotPath": "archive/evidence/grok-4-3-high-colesmcintosh-meme-volatility-index/artifact-1-8d610b994175.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - colesmcintosh/meme-volatility-index: Real-time meme hype ticker — OpenRouter, Grok 4.3, xSearch, Next.js · GitHub",
+      "bodySha256": "b1d6e775c6294f90be2e65702e299a8650e558008dec23ed77d64826bfe80e19",
+      "capturedAt": "2026-06-27T21:14:59.333Z",
+      "error": ""
+    }
+  ]
+}

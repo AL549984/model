@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-ghostwright-phantom-ai-coworker",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "Phantom adds Z.AI GLM-5.1 as a BYOM backend for an AI co-worker that operates its own computer",
+  "evidenceFingerprint": "dba77a5ba51f65f7f21b4b43ba2cbe41b9892a1bb5fc23a255fea82f3e6df903",
+  "capturedAt": "2026-06-27T21:53:41.198Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ghostwright/phantom#bring-your-own-model",
+      "snapshotPath": "archive/evidence/glm-5-1-ghostwright-phantom-ai-coworker/original-evidence-2e3b7b6a7c89.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ghostwright/phantom: An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK. · GitHub",
+      "bodySha256": "10b292e9ae79153e54b71caee1d48ea26afeff6fd4a81b629e8525310c96d05b",
+      "capturedAt": "2026-06-27T21:53:39.448Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ghostwright/phantom",
+      "snapshotPath": "archive/evidence/glm-5-1-ghostwright-phantom-ai-coworker/artifact-1-77d3c2e6be82.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ghostwright/phantom: An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK. · GitHub",
+      "bodySha256": "d686ac213aaf2903eef6a3891ca68b8458585b7e2c7ec34533a37a2181af29c0",
+      "capturedAt": "2026-06-27T21:53:40.633Z",
+      "error": ""
+    }
+  ]
+}

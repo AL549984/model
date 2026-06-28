@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:45:04.240Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/o1ie12/Meta-AI-Muse-Spark-Website-Test",
+  "finalUrl": "https://github.com/o1ie12/Meta-AI-Muse-Spark-Website-Test",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"16801d25c8206473c3303c161d3ad3fc\"",
+  "lastModified": null,
+  "bodyBytes": 253837,
+  "bodySha256": "fdbb34934a78d619e599f4920af2351d10053a64e6cae0a214fd32b9beffdf0e",
+  "title": "GitHub - o1ie12/Meta-AI-Muse-Spark-Website-Test: Here is what it built after about 5-6 prompts later. No code, no manual edits, just pure prompt coding. · GitHub",
+  "github": {
+    "owner": "o1ie12",
+    "repo": "Meta-AI-Muse-Spark-Website-Test",
+    "apiStatus": "unavailable"
+  }
+}

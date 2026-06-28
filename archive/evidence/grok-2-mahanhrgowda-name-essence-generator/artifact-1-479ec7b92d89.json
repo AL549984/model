@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:05.532Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mahanhrgowda/name-essence-generator",
+  "finalUrl": "https://github.com/mahanhrgowda/name-essence-generator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3eb283024dc28101d83164d64e222bc4\"",
+  "lastModified": null,
+  "bodyBytes": 268896,
+  "bodySha256": "0e7b1bd87aa62408dbaf71e5a9d5df355293efd835d85d7bae195a910065c83d",
+  "title": "GitHub - mahanhrgowda/name-essence-generator: A Streamlit app that maps English phonemes to chakras, Bhavas, and Rasas, generating lore and images based on a name’s emotive essence using xAI’s Grok 2-1212 and Grok 2 Image Gen APIs. · GitHub",
+  "github": {
+    "owner": "mahanhrgowda",
+    "repo": "name-essence-generator",
+    "apiStatus": "unavailable"
+  }
+}

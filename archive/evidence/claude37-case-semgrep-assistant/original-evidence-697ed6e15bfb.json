@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:06.894Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/semgrep",
+  "finalUrl": "https://claude.com/customers/semgrep",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 19:02:20 GMT",
+  "bodyBytes": 598024,
+  "bodySha256": "389182ac85ff2d7c67cc2d1526260b2281ebc50b7c1e38c3bd97b796538eda3b",
+  "title": "Semgrep Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

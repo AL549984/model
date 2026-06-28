@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:16.596Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/h2oai/h2ogpt-research-oasst1-llama-65b/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/h2oai/h2ogpt-research-oasst1-llama-65b/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"decb451d6b548834b6f5f480caedd57746842964\"",
+  "lastModified": null,
+  "bodyBytes": 7271,
+  "bodySha256": "ce3767801973cd02c049d55eb421d2e78540177d18c48bcfeb41566243f81abd",
+  "title": "",
+  "github": null
+}

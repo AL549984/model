@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude35-case-perplexity-search",
+  "modelId": "claude-3-5-sonnet",
+  "modelName": "Claude 3.5 Sonnet",
+  "title": "Perplexity answer engine Claude model routing",
+  "evidenceFingerprint": "c20eff888e2916ac05f54574296414bffd79b3662c8d904f3cac02f2d281bda1",
+  "capturedAt": "2026-06-27T23:28:58.087Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/perplexity",
+      "snapshotPath": "archive/evidence/claude35-case-perplexity-search/original-evidence-736fe9a750f7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Perplexity Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "6808569d04c229bfc7c0a87e0c4c32d3e8e09eb3b2e5d4d2dc26ab486ff62eb6",
+      "capturedAt": "2026-06-27T23:28:50.425Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+      "snapshotPath": "archive/evidence/claude35-case-perplexity-search/artifact-1-bf35ba419e30.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "82b7df570bd5e4dba2181e851392e73ed06b17131955809600e26a23963c431e",
+      "capturedAt": "2026-06-27T23:28:56.936Z",
+      "error": ""
+    }
+  ]
+}

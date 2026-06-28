@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:29.730Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MinhHaDuong/aedist-technical-report",
+  "finalUrl": "https://github.com/MinhHaDuong/aedist-technical-report",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"158ec6ca62e626e9b91f21d19242d48d\"",
+  "lastModified": null,
+  "bodyBytes": 341650,
+  "bodySha256": "84e5eb7b486f53cec58d2c03fe4b3893d8196701e9b9aecdacc7f21026ccc8df",
+  "title": "GitHub - MinhHaDuong/aedist-technical-report: AEDIST Technical Report - Technology assessment of LLMs for Vietnamese energy data · GitHub",
+  "github": {
+    "owner": "MinhHaDuong",
+    "repo": "aedist-technical-report",
+    "apiStatus": "unavailable"
+  }
+}

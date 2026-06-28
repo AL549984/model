@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:30.045Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507/blob/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1770c-S1cl995SQIZpgwfIjLQLR5UMA3I\"",
+  "lastModified": null,
+  "bodyBytes": 96012,
+  "bodySha256": "28b60161efd34a02a5043e846be8a4b942afe4a6770dfd3d155544ce91b83d21",
+  "title": "app.py · lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507 at main",
+  "github": null
+}

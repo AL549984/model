@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwq-32b-questgen-exam-question-generation-20260627",
+  "modelId": "qwq-32b",
+  "modelName": "QwQ-32B",
+  "title": "QuestGen AI Agent uses QwQ-32B to generate customized exam questions from uploaded PDFs",
+  "evidenceFingerprint": "cca08cc8a0063cf2d6a2a7686c0fde7281737b27a6acf562b122847801545e84",
+  "capturedAt": "2026-06-27T23:15:39.005Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/cRED-f/QuestGen-AI-Agent/blob/main/README.md#L131",
+      "snapshotPath": "archive/evidence/qwq-32b-questgen-exam-question-generation-20260627/original-evidence-9a74b590a34c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "QuestGen-AI-Agent/README.md at main · cRED-f/QuestGen-AI-Agent · GitHub",
+      "bodySha256": "5b98f215348f141c971618b942834fcffa2bc20658df48ba9c71aa32e2e1054f",
+      "capturedAt": "2026-06-27T23:15:36.921Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/cRED-f/QuestGen-AI-Agent",
+      "snapshotPath": "archive/evidence/qwq-32b-questgen-exam-question-generation-20260627/artifact-1-95d114ee8da5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - cRED-f/QuestGen-AI-Agent: QuestGen-AI is an advanced exam question generation platform that leverages AI-Agent to automatically create customized question papers from user-uploaded PDF content · GitHub",
+      "bodySha256": "3e750b3e4f4de3530327ae5766b96bd199ecfe16112044b50f00a19b4cac0321",
+      "capturedAt": "2026-06-27T23:15:37.865Z",
+      "error": ""
+    }
+  ]
+}

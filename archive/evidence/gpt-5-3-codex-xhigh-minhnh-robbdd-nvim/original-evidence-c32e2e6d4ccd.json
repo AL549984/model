@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:48.052Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/minhnh/robbdd-nvim",
+  "finalUrl": "https://github.com/minhnh/robbdd-nvim",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d1fed0e74ddef2d852900500e38af209\"",
+  "lastModified": null,
+  "bodyBytes": 270117,
+  "bodySha256": "44c74948ac71dd1beab615a2785b22f46bf360ba831370f0d8c51278a3e3d33b",
+  "title": "GitHub - minhnh/robbdd-nvim: Neovim plugin for minhnh/robbdd created using GPT 5.3-Codex · GitHub",
+  "github": {
+    "owner": "minhnh",
+    "repo": "robbdd-nvim",
+    "htmlUrl": "https://github.com/minhnh/robbdd-nvim",
+    "defaultBranch": "main",
+    "defaultBranchSha": "32afc57da5013b01189b2a97af3ad050a3dcbaf2",
+    "pushedAt": "2026-04-21T16:27:47Z",
+    "updatedAt": "2026-04-21T16:27:51Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

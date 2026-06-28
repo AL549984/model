@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-teremterem-claude-code-proxy",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "teremterem 将 Claude Code CLI 通过 LiteLLM 代理映射到 GPT-5.1 high reasoning",
+  "evidenceFingerprint": "a1c0021923f91c8919f4a28707de5d6a903349f5126d03295e6f58eec83669bd",
+  "capturedAt": "2026-06-27T21:14:44.526Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/teremterem/claude-code-gpt-5-codex/main/.env.template",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-teremterem-claude-code-proxy/original-evidence-522c5cabb6ff.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "f1565ef2f0ec199abd8125bd84a3edb1f5cb352106f77e192d51cb05401a6699",
+      "capturedAt": "2026-06-27T21:14:42.309Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/teremterem/claude-code-gpt-5-codex",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-teremterem-claude-code-proxy/artifact-1-e3eb0cf3eb83.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - teremterem/claude-code-gpt-5-codex: Run Anthropic&#39;s Claude Code CLI with OpenAI models such as GPT-5-Codex, GPT-5.1, and others via a local LiteLLM proxy. · GitHub",
+      "bodySha256": "993f5f983c0d89a1dea5f8dd054c7cc401e96b946dac19dc04247d84228ed641",
+      "capturedAt": "2026-06-27T21:14:42.621Z",
+      "error": ""
+    }
+  ]
+}

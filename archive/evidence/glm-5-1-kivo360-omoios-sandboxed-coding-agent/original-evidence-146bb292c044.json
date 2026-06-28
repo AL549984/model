@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:44.722Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kivo360/OmoiOS/blob/HEAD/backend/omoi_os/services/sandboxed_agent.py#L60",
+  "finalUrl": "https://github.com/kivo360/OmoiOS/blob/HEAD/backend/omoi_os/services/sandboxed_agent.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b9ad2075282ba7dc0bededa31c5c19d3\"",
+  "lastModified": null,
+  "bodyBytes": 644861,
+  "bodySha256": "f15f7c4eff653dc41417661482e83c6bdea6bddbe5383dad6cb1b695636cf5a6",
+  "title": "OmoiOS/backend/omoi_os/services/sandboxed_agent.py at 65d8f5eff4fd129e33ba18b6b9ba144aa4eea38f · kivo360/OmoiOS · GitHub",
+  "github": {
+    "owner": "kivo360",
+    "repo": "OmoiOS",
+    "apiStatus": "unavailable"
+  }
+}

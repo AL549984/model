@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "g3ph-pokemon-crystal-beaten-2025-12",
+  "modelId": "gemini-3-pro-preview-high",
+  "modelName": "Gemini 3 Pro Preview (high)",
+  "title": "Gemini 3 Pro completes Pokemon Crystal without losing a single battle",
+  "evidenceFingerprint": "6a6ab80c25077381b1ac1cc4d527e659cd6c5bcc53c09db6c38b15d004c9f50e",
+  "capturedAt": "2026-06-27T21:34:56.171Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://blog.jcz.dev/gemini-3-pro-vs-25-pro-in-pokemon-crystal",
+      "snapshotPath": "archive/evidence/g3ph-pokemon-crystal-beaten-2025-12/original-evidence-5871a526ff8e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "How Gemini 3 Pro Beat Pokemon Crystal (and 2.5 Pro didn&#x27;t)",
+      "bodySha256": "1761ae4c1d05e7638ddc2c36300a7afa4030b8e8ed086818625ddd30fc6ca017",
+      "capturedAt": "2026-06-27T21:34:52.336Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/waylaidwanderer/gemini-plays-pokemon-public",
+      "snapshotPath": "archive/evidence/g3ph-pokemon-crystal-beaten-2025-12/artifact-1-5321177a79a2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - waylaidwanderer/gemini-plays-pokemon-public · GitHub",
+      "bodySha256": "e56f835d44e03a6952e8b5ee27fe116134f6c7aabed0df1ecec3fca9a2eaa6cc",
+      "capturedAt": "2026-06-27T21:34:55.129Z",
+      "error": ""
+    }
+  ]
+}

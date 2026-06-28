@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:54.347Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/krumjahn/applehealth/blob/main/src/healthai/cli.py",
+  "finalUrl": "https://github.com/krumjahn/applehealth/blob/main/src/healthai/cli.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"956bcb7f7f63bb48261a18e6d6bc2dba\"",
+  "lastModified": null,
+  "bodyBytes": 1190352,
+  "bodySha256": "b32de234972468505d276d28a6d573689e55e386a1cdfec13f5d88a277082318",
+  "title": "applehealth/src/healthai/cli.py at main · krumjahn/applehealth · GitHub",
+  "github": {
+    "owner": "krumjahn",
+    "repo": "applehealth",
+    "apiStatus": "unavailable"
+  }
+}

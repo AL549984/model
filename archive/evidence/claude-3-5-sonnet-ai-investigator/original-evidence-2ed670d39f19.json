@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:52.099Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/muratcankoylan/AI-Investigator",
+  "finalUrl": "https://github.com/muratcankoylan/AI-Investigator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1e1e43d11fff671731a8d7fbc7b3fa43\"",
+  "lastModified": null,
+  "bodyBytes": 361378,
+  "bodySha256": "bf1884adb555772970b7aff8997a360bd09692f2054a715daa1cbf868489d6a6",
+  "title": "GitHub - muratcankoylan/AI-Investigator: An automated AI system (Python framework) designed to analyze any type of website content and generate structured reports using Claude 3.5 Sonnet API and Firecrawl. While currently configured for ent",
+  "github": {
+    "owner": "muratcankoylan",
+    "repo": "AI-Investigator",
+    "apiStatus": "unavailable"
+  }
+}

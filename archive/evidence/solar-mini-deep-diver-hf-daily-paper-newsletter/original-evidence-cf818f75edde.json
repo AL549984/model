@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:04.879Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/deep-diver/hf-daily-paper-newsletter/main/src/internal/solar.go",
+  "finalUrl": "https://raw.githubusercontent.com/deep-diver/hf-daily-paper-newsletter/main/src/internal/solar.go",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "984",
+  "etag": "W/\"6ce1463ade57519ebb8e1e09b0c9617792885441ae4b661c8bb9af966d7988c9\"",
+  "lastModified": null,
+  "bodyBytes": 2174,
+  "bodySha256": "c4f653187914615161e0059b7c533d9c8cfe5a5fa39263a3d637a879ce4b2610",
+  "title": "",
+  "github": null
+}

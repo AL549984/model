@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:00.564Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/rod-trent/JunkDrawer/tree/main/meme%20explainer",
+  "finalUrl": "https://github.com/rod-trent/JunkDrawer/tree/main/meme%20explainer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"285caaeeb608edc217bc96508ab96a83\"",
+  "lastModified": null,
+  "bodyBytes": 332347,
+  "bodySha256": "b15f1232851dd0b1846ddbfdf8dcf18c9bbbf95b588c74c38bc894087f508e18",
+  "title": "JunkDrawer/meme explainer at main · rod-trent/JunkDrawer · GitHub",
+  "github": {
+    "owner": "rod-trent",
+    "repo": "JunkDrawer",
+    "apiStatus": "unavailable"
+  }
+}

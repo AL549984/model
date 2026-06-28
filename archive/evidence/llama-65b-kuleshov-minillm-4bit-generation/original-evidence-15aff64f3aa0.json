@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:23.456Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kuleshov/minillm",
+  "finalUrl": "https://github.com/kuleshov/minillm",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"aefb2390780fcc46c3e2424177abd6d0\"",
+  "lastModified": null,
+  "bodyBytes": 335770,
+  "bodySha256": "c54caa02b9378733347551561ba5744ead1ee75fe847e365087b7524ab4be38a",
+  "title": "GitHub - kuleshov/minillm: MiniLLM is a minimal system for running modern LLMs on consumer-grade GPUs · GitHub",
+  "github": {
+    "owner": "kuleshov",
+    "repo": "minillm",
+    "apiStatus": "unavailable"
+  }
+}

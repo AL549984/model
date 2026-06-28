@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-opus_cognition_devin_complex_challenges_20250627",
+  "modelId": "claude-4-opus",
+  "modelName": "Claude 4 Opus",
+  "title": "Cognition uses Claude Opus 4 to improve Devin on complex software tasks",
+  "evidenceFingerprint": "35fe4f363825b6a3362358ff9ba533d72795abaac5579233cf57b94ff6870926",
+  "capturedAt": "2026-06-27T23:26:19.233Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-4#:~:text=Cognition%20notes%20Opus%204%20excels%20at%20solving%20complex%20challenges%20that%20other%20models%20can't",
+      "snapshotPath": "archive/evidence/claude-4-opus_cognition_devin_complex_challenges_20250627/original-evidence-b824c8cf78f9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Introducing Claude 4 \\ Anthropic",
+      "bodySha256": "d966713feef4e2ceb1287ceb90b0343873c277be8479be24eb98759d2a27568a",
+      "capturedAt": "2026-06-27T23:26:12.647Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://devin.ai",
+      "snapshotPath": "archive/evidence/claude-4-opus_cognition_devin_complex_challenges_20250627/artifact-1-39b6206623a4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Devin | The AI Software Engineer",
+      "bodySha256": "d7208e4d70d3c8d8e3ec3af1403292fed8282b402f2edd8de9a24948d41efcb0",
+      "capturedAt": "2026-06-27T23:26:17.825Z",
+      "error": ""
+    }
+  ]
+}

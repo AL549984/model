@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-kivo360-omoios-sandboxed-coding-agent",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "OmoiOS uses GLM-5.1 as the default model for sandboxed coding-agent execution",
+  "evidenceFingerprint": "67178777fc839e62faef473289487a17e12406088911a7a166d8138da202cda1",
+  "capturedAt": "2026-06-27T21:53:46.965Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kivo360/OmoiOS/blob/HEAD/backend/omoi_os/services/sandboxed_agent.py#L60",
+      "snapshotPath": "archive/evidence/glm-5-1-kivo360-omoios-sandboxed-coding-agent/original-evidence-146bb292c044.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "OmoiOS/backend/omoi_os/services/sandboxed_agent.py at 65d8f5eff4fd129e33ba18b6b9ba144aa4eea38f · kivo360/OmoiOS · GitHub",
+      "bodySha256": "f15f7c4eff653dc41417661482e83c6bdea6bddbe5383dad6cb1b695636cf5a6",
+      "capturedAt": "2026-06-27T21:53:44.722Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kivo360/OmoiOS",
+      "snapshotPath": "archive/evidence/glm-5-1-kivo360-omoios-sandboxed-coding-agent/artifact-1-12547e46fa40.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kivo360/OmoiOS: Turn feature specs into merged PRs with a self-supervising swarm of coding agents — parallel execution, isolated sandboxes, DAG dependencies. Open-source, self-hostable, model-agnostic (Claude / Gemini / Codex). · G",
+      "bodySha256": "37ff3fcd1dbe6f0ec009dc9ccfcb663afae51383d13da226ad3f4e7ca628cc4e",
+      "capturedAt": "2026-06-27T21:53:45.872Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:41.088Z",
+  "kind": "artifact-1",
+  "url": "https://modelscope.cn/models/qwen/Qwen1.5-110B-Chat-GPTQ-Int4",
+  "finalUrl": "https://modelscope.cn/models/qwen/Qwen1.5-110B-Chat-GPTQ-Int4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 16578,
+  "bodySha256": "fb0e2c674a71e5c4fbff93fcc9dbab0aead4f28a674776c761683c12391a0ab6",
+  "title": "千问1.5-110B-Chat-GPTQ-Int4",
+  "github": null
+}

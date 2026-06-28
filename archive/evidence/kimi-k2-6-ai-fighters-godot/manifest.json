@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-6-ai-fighters-godot",
+  "modelId": "kimi-k2-6",
+  "modelName": "Kimi K2.6",
+  "title": "Kimi K2.6 builds a SF6-style fighting game with 20 characters via OpenCode multi-agent workflow",
+  "evidenceFingerprint": "cf901475816d7e92e2abf1b98f68e3ecf989eae88ebd8daad17dcea071b6b9e2",
+  "capturedAt": "2026-06-27T22:22:40.234Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/matsumotokohei/ai_fighters",
+      "snapshotPath": "archive/evidence/kimi-k2-6-ai-fighters-godot/original-evidence-c37e74646ff0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - matsumotokohei/ai_fighters: DIY 2D fighting game made with OpenCode (Model Kimi K2.6) · GitHub",
+      "bodySha256": "58b8fc27807bc8b06f9b1aec13ab56326f95441139d71f78a677beefc71a2fce",
+      "capturedAt": "2026-06-27T22:22:38.314Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/matsumotokohei/ai_fighters",
+      "snapshotPath": "archive/evidence/kimi-k2-6-ai-fighters-godot/artifact-1-c37e74646ff0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - matsumotokohei/ai_fighters: DIY 2D fighting game made with OpenCode (Model Kimi K2.6) · GitHub",
+      "bodySha256": "6c333e20142b86930bcef7dcd0e58c4fa2fb502a9f21a3a93505859293cdc09c",
+      "capturedAt": "2026-06-27T22:22:39.531Z",
+      "error": ""
+    }
+  ]
+}

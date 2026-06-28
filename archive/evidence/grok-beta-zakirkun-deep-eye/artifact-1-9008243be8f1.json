@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:06.679Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/zakirkun/deep-eye",
+  "finalUrl": "https://github.com/zakirkun/deep-eye",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"34cc36e98dcb0d769fb1f3d6b0a813c5\"",
+  "lastModified": null,
+  "bodyBytes": 421791,
+  "bodySha256": "fb82272eb8586c4a69ef43672b98a595defe66f8d9dfaf9600e5c92a2fc95b48",
+  "title": "GitHub - zakirkun/deep-eye: Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, LiteLLM, LM Studio) for intelligent payload generation, scans targets for 45+ vulnerability types, and",
+  "github": {
+    "owner": "zakirkun",
+    "repo": "deep-eye",
+    "apiStatus": "unavailable"
+  }
+}

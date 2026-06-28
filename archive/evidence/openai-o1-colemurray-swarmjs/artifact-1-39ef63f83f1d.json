@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:47.483Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ColeMurray/swarmjs",
+  "finalUrl": "https://github.com/ColeMurray/swarmjs",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a025470cf3f94f36ae0085732096224d\"",
+  "lastModified": null,
+  "bodyBytes": 426838,
+  "bodySha256": "3a76d1285576858e555bb0bfd7c6b1becc8cd88cb2b0533e5f766118333fe7e6",
+  "title": "GitHub - ColeMurray/swarmjs: A typescript Implementation of OpenAI swarm generated with o1-mini · GitHub",
+  "github": {
+    "owner": "ColeMurray",
+    "repo": "swarmjs",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed21-preview-agihunt-graduate-subsidy-guide-20260627",
+  "modelId": "seed-2-1-pro-preview",
+  "modelName": "Seed-2.1-Pro-Preview",
+  "title": "AGIHunt 用 Seed 2.1 Pro 从零构建全国大学生就业补贴公益网站",
+  "evidenceFingerprint": "c2b2f9e2d584c2743144b3a6d3f3b03e2f39267ae3ea1e19650c64c14128f85a",
+  "capturedAt": "2026-06-27T23:24:53.881Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://news.qq.com/rain/a/20260624A02Q7Z00",
+      "snapshotPath": "archive/evidence/seed21-preview-agihunt-graduate-subsidy-guide-20260627/original-evidence-725e253f78ad.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "实测 Seed 2.1 Pro：从零到一，开源一个大学生就业补贴的公益网站_腾讯新闻",
+      "bodySha256": "84b639275ae2f79ec361030b9c9a7b8c550ffde1113f3bc66e143bfac890e672",
+      "capturedAt": "2026-06-27T23:24:52.053Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Johnixr/graduate-subsidy-guide",
+      "snapshotPath": "archive/evidence/seed21-preview-agihunt-graduate-subsidy-guide-20260627/artifact-1-d0310dbd2eeb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Johnixr/graduate-subsidy-guide: 全国大学生就业补贴政策指南 | AI 自动采集整理 49 城市 242 条就业补贴政策 · GitHub",
+      "bodySha256": "7314ec8aacffd89e178e2eaf146948d5c7c3c186d0347540eb43b0e6f1621dfa",
+      "capturedAt": "2026-06-27T23:24:52.671Z",
+      "error": ""
+    }
+  ]
+}

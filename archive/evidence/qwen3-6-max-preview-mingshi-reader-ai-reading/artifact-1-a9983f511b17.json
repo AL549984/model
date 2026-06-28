@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:27.945Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CanhuiLiPhy/History-Reader-for-Ming-Dynasty",
+  "finalUrl": "https://github.com/CanhuiLiPhy/History-Reader-for-Ming-Dynasty",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6198497ad4175f2ce030dddfa38509a9\"",
+  "lastModified": null,
+  "bodyBytes": 314915,
+  "bodySha256": "51c2aa36d942db7e509efe645f80cb4db8153f02a70473dbae8adad9163febd8",
+  "title": "GitHub - CanhuiLiPhy/History-Reader-for-Ming-Dynasty · GitHub",
+  "github": {
+    "owner": "CanhuiLiPhy",
+    "repo": "History-Reader-for-Ming-Dynasty",
+    "htmlUrl": "https://github.com/CanhuiLiPhy/History-Reader-for-Ming-Dynasty",
+    "defaultBranch": "main",
+    "defaultBranchSha": "7cbc243b304451965fc60082824109dbb9532e65",
+    "pushedAt": "2026-06-04T05:58:39Z",
+    "updatedAt": "2026-06-04T05:58:43Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

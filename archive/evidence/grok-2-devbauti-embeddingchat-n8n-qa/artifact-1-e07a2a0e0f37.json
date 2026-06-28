@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:01.118Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/DevBauti/EmbeddingChat",
+  "finalUrl": "https://github.com/DevBauti/EmbeddingChat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"271759140ff09f445a2e40929c666048\"",
+  "lastModified": null,
+  "bodyBytes": 274218,
+  "bodySha256": "427bada068dc28f69b43908af2f51370c09ad9a42c3f07841f3b0f5c3806836c",
+  "title": "GitHub - DevBauti/EmbeddingChat: n8n workflow that downloads a PDF from Google Drive, generates embeddings with Cohere, and stores them in Supabase. Includes a chat with GrokAPI (grok-2-1212) to answer questions based on the document. · Git",
+  "github": {
+    "owner": "DevBauti",
+    "repo": "EmbeddingChat",
+    "apiStatus": "unavailable"
+  }
+}

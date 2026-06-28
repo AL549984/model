@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:33.099Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/dakshjain-1616/grok-multiagent-simulator",
+  "finalUrl": "https://github.com/dakshjain-1616/grok-multiagent-simulator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"42c04db8a6878cc9533b6f322a9daa0e\"",
+  "lastModified": null,
+  "bodyBytes": 354343,
+  "bodySha256": "3b67f8a8f69bf67ac20b0433162b942c379c817744922a2c9ac75087e6ad376f",
+  "title": "GitHub - dakshjain-1616/grok-multiagent-simulator: Sequential multi-agent simulator using x-ai/grok-4.20-multi-agent-beta via OpenRouter. Researcher, Analyst, and Synthesizer agents stream into a live CLI dashboard powered by plotext and ri",
+  "github": {
+    "owner": "dakshjain-1616",
+    "repo": "grok-multiagent-simulator",
+    "apiStatus": "unavailable"
+  }
+}

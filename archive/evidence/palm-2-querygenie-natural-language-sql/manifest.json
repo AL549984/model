@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "palm-2-querygenie-natural-language-sql",
+  "modelId": "palm-2",
+  "modelName": "PALM-2",
+  "title": "QueryGenie used Google PaLM 2 to turn plain-English business questions into SQL answers",
+  "evidenceFingerprint": "f6b345630aaf077d6f9bf0331a51d4f0150977b053bcdc0321373511fcff122c",
+  "capturedAt": "2026-06-27T22:52:14.658Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL",
+      "snapshotPath": "archive/evidence/palm-2-querygenie-natural-language-sql/original-evidence-220062cad3c7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL: QueryGenie empowers users to ask complex database questions in plain English and get precise answers without writing a single line of SQL. Powered by Google PaLM 2, LangChain, Huggin",
+      "bodySha256": "106037c8e6ec2801cd293ab6766934b843a0bd07fef3a95f20d482a38ef9faff",
+      "capturedAt": "2026-06-27T22:52:13.071Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL",
+      "snapshotPath": "archive/evidence/palm-2-querygenie-natural-language-sql/artifact-1-220062cad3c7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL: QueryGenie empowers users to ask complex database questions in plain English and get precise answers without writing a single line of SQL. Powered by Google PaLM 2, LangChain, Huggin",
+      "bodySha256": "647bd735e2e39acc59d7caf81dafba8ef46a95993a8aa805e004057258b260b7",
+      "capturedAt": "2026-06-27T22:52:14.146Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:24.394Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/BerriAI/litellm/issues/28599",
+  "finalUrl": "https://github.com/BerriAI/litellm/issues/28599",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 285106,
+  "bodySha256": "44940f5068cf971c24144d711a8584ad4e7ee33bd84cd72364ac513e15f1ee34",
+  "title": "[Bug] Streaming requests bypass content_policy_fallbacks: 4xx filter in streaming_handler raises ContentPolicyViolationError directly · Issue #28599 · BerriAI/litellm · GitHub",
+  "github": {
+    "owner": "BerriAI",
+    "repo": "litellm",
+    "apiStatus": "unavailable"
+  }
+}

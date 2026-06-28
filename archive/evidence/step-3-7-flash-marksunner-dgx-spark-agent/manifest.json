@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "step-3-7-flash-marksunner-dgx-spark-agent",
+  "modelId": "step-3-7-flash",
+  "modelName": "Step 3.7 Flash",
+  "title": "marksunner ran Step 3.7 Flash on a DGX Spark for Hermes agent use",
+  "evidenceFingerprint": "21c30b7033f2f841c7ecb94bb4a100d180bdc3e4405b7e1a5b8cf77f0862bb82",
+  "capturedAt": "2026-06-27T21:28:28.584Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/marksunner/dgx-spark-step37-flash/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/step-3-7-flash-marksunner-dgx-spark-agent/original-evidence-206275427987.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "835bfc5b6a987a022273cd01f95d48730e006d122223df77739e77b02b390b52",
+      "capturedAt": "2026-06-27T21:28:26.616Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/marksunner/dgx-spark-step37-flash",
+      "snapshotPath": "archive/evidence/step-3-7-flash-marksunner-dgx-spark-agent/artifact-1-b4b1f16f0688.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - marksunner/dgx-spark-step37-flash: Step 3.7 Flash (198B MoE) on a single DGX Spark — 27 tok/s, 128K context, agent-ready · GitHub",
+      "bodySha256": "12f50dbfc672a94173ef95879274ddb383ede88e7e3fd2742e7e44089190c103",
+      "capturedAt": "2026-06-27T21:28:26.962Z",
+      "error": ""
+    }
+  ]
+}

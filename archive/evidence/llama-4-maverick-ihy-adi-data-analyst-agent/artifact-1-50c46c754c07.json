@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:18.664Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ihy-adi/data_analyst_agent",
+  "finalUrl": "https://github.com/ihy-adi/data_analyst_agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7623a2ecf0604443960aa770a9680d5e\"",
+  "lastModified": null,
+  "bodyBytes": 378294,
+  "bodySha256": "b2909adb32c955ad9b3242d18a047cd00f7655ec07a2530a9a520d8b0d2dc828",
+  "title": "GitHub - ihy-adi/data_analyst_agent: Used API from Together.ai to make an AI agent, the Meta Llama 4 Maverick 17B 128E. · GitHub",
+  "github": {
+    "owner": "ihy-adi",
+    "repo": "data_analyst_agent",
+    "apiStatus": "unavailable"
+  }
+}

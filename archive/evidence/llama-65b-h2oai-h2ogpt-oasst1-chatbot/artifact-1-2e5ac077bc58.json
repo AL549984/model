@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:17.616Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/h2oai/h2ogpt-research-oasst1-llama-65b",
+  "finalUrl": "https://huggingface.co/h2oai/h2ogpt-research-oasst1-llama-65b",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2f0ba-M+RaAJoU8eFNPr8tc8lvD4LvX4o\"",
+  "lastModified": null,
+  "bodyBytes": 192698,
+  "bodySha256": "b01ac621cd1690a97df5cbe12de414f2dc80f9106ca08997d98e63fcff7c5bf6",
+  "title": "h2oai/h2ogpt-research-oasst1-llama-65b · Hugging Face",
+  "github": null
+}

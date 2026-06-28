@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:06.229Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/TauricResearch/TradingAgents",
+  "finalUrl": "https://github.com/TauricResearch/TradingAgents",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f4b4505ad4170d78bf9c4f734403f7cb\"",
+  "lastModified": null,
+  "bodyBytes": 402531,
+  "bodySha256": "0c6fb52f6d35c5c586318f60aaadb8f7c981cf7b69b861a7fc88febf92b3690b",
+  "title": "GitHub - TauricResearch/TradingAgents: TradingAgents: Multi-Agents LLM Financial Trading Framework · GitHub",
+  "github": {
+    "owner": "TauricResearch",
+    "repo": "TradingAgents",
+    "apiStatus": "unavailable"
+  }
+}

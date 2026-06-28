@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-a22b-2507-iris-passwordcreate-github",
+  "modelId": "qwen3-235b-a22b-2507",
+  "modelName": "Qwen3 235B A22B 2507",
+  "title": "IrisY2012 用 Qwen3-235B-A22B-2507 生成确定性密码生成器",
+  "evidenceFingerprint": "3dbf721550339a58bc827f1c747fbdad938124df0a345975a185dd6cb338e713",
+  "capturedAt": "2026-06-27T23:00:06.830Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/IrisY2012/passwordCreate",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-iris-passwordcreate-github/original-evidence-466e68eda922.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - IrisY2012/passwordCreate: Made with AI(Qwen3-235B-A22B-2507) · GitHub",
+      "bodySha256": "5c26012677362e043904dd5236e4c0b664c8a1c4153c36ad09df76e75ccffe8c",
+      "capturedAt": "2026-06-27T23:00:05.088Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/IrisY2012/passwordCreate",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-iris-passwordcreate-github/artifact-1-466e68eda922.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - IrisY2012/passwordCreate: Made with AI(Qwen3-235B-A22B-2507) · GitHub",
+      "bodySha256": "1c3af433c85b45662add07c711221d6e9ad2477f2df2f4e326261b41b070a669",
+      "capturedAt": "2026-06-27T23:00:06.249Z",
+      "error": ""
+    }
+  ]
+}

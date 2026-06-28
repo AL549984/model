@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:21.784Z",
+  "kind": "artifact-1",
+  "url": "https://chat.petals.dev",
+  "finalUrl": "https://chat.petals.dev/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 5227,
+  "bodySha256": "817fed1c0fb7baaceb17c132c2b79a72871fe5efcbc966d0de3fccb533d98ce0",
+  "title": "Petals &ndash; Decentralized platform for running large language models",
+  "github": null
+}

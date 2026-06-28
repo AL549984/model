@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:57.816Z",
+  "kind": "artifact-1",
+  "url": "https://legis-pilot.vercel.app",
+  "finalUrl": "https://legis-pilot.vercel.app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7d63561543ebba028074c266820f1be8\"",
+  "lastModified": null,
+  "bodyBytes": 13972,
+  "bodySha256": "51b8360b36ffb8be55dfdcc674f9eee52349d71b2a46e727e18b11960cfb3160",
+  "title": "법령이음 — 입법 제안·시행령 정비 검토 AI",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-mythos-5-anthropic-molecular-biology-hypotheses-20260627",
+  "modelId": "claude-mythos-5",
+  "modelName": "Claude Mythos 5",
+  "title": "Anthropic scientists used Claude Mythos 5 to generate molecular-biology hypotheses for experimental follow-up",
+  "evidenceFingerprint": "78b378dfcdc560601fa90f540e7ce392f45057f3591901f3bca6dbbeae4487ce",
+  "capturedAt": "2026-06-27T23:26:38.025Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=Novel%20hypotheses%20in%20molecular%20biology",
+      "snapshotPath": "archive/evidence/claude-mythos-5-anthropic-molecular-biology-hypotheses-20260627/original-evidence-458200f601e4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "bodySha256": "99cbf22fbf98703851710c7d39088f93dbd86417af3565345d1af83f361dc6bd",
+      "capturedAt": "2026-06-27T23:26:33.662Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=one%20Mythos%20hypothesis%E2%80%94a%20novel%20mechanism%20for%20an%20E.%20coli%20protein",
+      "snapshotPath": "archive/evidence/claude-mythos-5-anthropic-molecular-biology-hypotheses-20260627/artifact-1-419079331ad6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "bodySha256": "278df5195331c904c5775799534b77dec4b4414d6f72d11659111c93ba1e0e5d",
+      "capturedAt": "2026-06-27T23:26:37.432Z",
+      "error": ""
+    }
+  ]
+}

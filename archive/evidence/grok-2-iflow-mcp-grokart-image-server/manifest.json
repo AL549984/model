@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-iflow-mcp-grokart-image-server",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "GrokArt MCP server exposes Grok-2-image generation as an MCP tool",
+  "evidenceFingerprint": "c311948196bf3229a5b6a3154d1fa80472523309acef15afdb467e05c7c3c0e0",
+  "capturedAt": "2026-06-27T22:15:04.611Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/iflow-mcp/Grok-MCP-1/blob/main/src/index.ts",
+      "snapshotPath": "archive/evidence/grok-2-iflow-mcp-grokart-image-server/original-evidence-c6fd74cb9749.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Grok-MCP-1/src/index.ts at main · iflow-mcp/Grok-MCP-1 · GitHub",
+      "bodySha256": "727643b9445c0b8970be40f24f5ed91f16c5cc2ac59016c0666f28ea298e2230",
+      "capturedAt": "2026-06-27T22:15:02.539Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/iflow-mcp/Grok-MCP-1",
+      "snapshotPath": "archive/evidence/grok-2-iflow-mcp-grokart-image-server/artifact-1-8f8b8cbca11e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - iflow-mcp/Grok-MCP-1: A server that connects to the xAI/Grok image generation API that provides endpoints for text and image analysis using X.AI&#39;s Grok models. ## Features - Text analysis using Grok-2 - Image analysis using Gro",
+      "bodySha256": "24e7eab660dee4569692b294ab05e9fa9071f56f4e43b418438e71047f8253ce",
+      "capturedAt": "2026-06-27T22:15:03.507Z",
+      "error": ""
+    }
+  ]
+}

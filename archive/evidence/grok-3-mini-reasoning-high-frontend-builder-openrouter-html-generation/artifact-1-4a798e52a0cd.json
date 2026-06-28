@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:18.717Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/4yu5h-crtl/Frontend_Builder",
+  "finalUrl": "https://github.com/4yu5h-crtl/Frontend_Builder",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f54b60e09807986475c3420506ebd491\"",
+  "lastModified": null,
+  "bodyBytes": 324020,
+  "bodySha256": "ab9f8f9f867e22d6a83e2718cd0976e0e41f2a1940b057b749c7b885c4283e34",
+  "title": "GitHub - 4yu5h-crtl/Frontend_Builder: ⚡️ Create, edit &amp; deploy HTML websites with ease! 💻 Featuring a sleek Monaco editor 🧠 AI-powered by Grok-3-mini-beta, and 🌐 instant deployment options. · GitHub",
+  "github": {
+    "owner": "4yu5h-crtl",
+    "repo": "Frontend_Builder",
+    "apiStatus": "unavailable"
+  }
+}

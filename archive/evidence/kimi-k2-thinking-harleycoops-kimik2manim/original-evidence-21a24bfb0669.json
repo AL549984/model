@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:42.180Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/HarleyCoops/KimiK2Manim/blob/main/README.md",
+  "finalUrl": "https://github.com/HarleyCoops/KimiK2Manim/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e3996ef9c092043e739cb77087423666\"",
+  "lastModified": null,
+  "bodyBytes": 741946,
+  "bodySha256": "2ee236c0c5a6672505e1a731881ffef92420768ae5a7a2f2914947bdf30888f5",
+  "title": "KimiK2Manim/README.md at main · HarleyCoops/KimiK2Manim · GitHub",
+  "github": {
+    "owner": "HarleyCoops",
+    "repo": "KimiK2Manim",
+    "apiStatus": "unavailable"
+  }
+}

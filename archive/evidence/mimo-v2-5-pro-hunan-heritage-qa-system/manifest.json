@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-5-pro-hunan-heritage-qa-system",
+  "modelId": "mimo-v2-5-pro",
+  "modelName": "MiMo-V2.5-Pro",
+  "title": "湖湘文化遗产数字化交互系统: 基于 MiMo-V2.5-Pro 的 GraphRAG 多智能体知识问答平台",
+  "evidenceFingerprint": "818d223cbb604d82d07a6bd64571a875beef1ada347cba761cfcce2617d02422",
+  "capturedAt": "2026-06-27T22:37:42.223Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/NickYoung618/hunan-cultural-heritage-qa",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-hunan-heritage-qa-system/original-evidence-c025fd09422f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - NickYoung618/hunan-cultural-heritage-qa: 一个基于 LangGraph 状态机编排的多智能体混合检索（GraphRAG + VectorRAG）异构问答系统，旨在通过大模型（mimo-v2.5-pro）的路由分发能力，解决传统图谱在模糊语义下检索能力不足、以及在大规模数据长周期问答下的知识幻觉与兜底生存问题。 · GitHub",
+      "bodySha256": "8035f818355259cd92f6bc258e632ab4d0c2f161c8af29ec8143fab73ff1d19d",
+      "capturedAt": "2026-06-27T22:37:40.539Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/NickYoung618/hunan-cultural-heritage-qa",
+      "snapshotPath": "archive/evidence/mimo-v2-5-pro-hunan-heritage-qa-system/artifact-1-c025fd09422f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - NickYoung618/hunan-cultural-heritage-qa: 一个基于 LangGraph 状态机编排的多智能体混合检索（GraphRAG + VectorRAG）异构问答系统，旨在通过大模型（mimo-v2.5-pro）的路由分发能力，解决传统图谱在模糊语义下检索能力不足、以及在大规模数据长周期问答下的知识幻觉与兜底生存问题。 · GitHub",
+      "bodySha256": "828cd60a2cde94e91bd76cac23906b829b5abf567e1f13d8ceb9efd4717fad6e",
+      "capturedAt": "2026-06-27T22:37:41.698Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-5-case-loke-jad-claude-agent-sdk",
+  "modelId": "minimax-m2-5",
+  "modelName": "MiniMax-M2.5",
+  "title": "Claude Agent SDK + local MiniMax M2.5 via LiteLLM — MCP gateway coding agent with safety hooks",
+  "evidenceFingerprint": "f9852c0fd3696ded77dcee42a984c635161d7c78c8c5a69621d109e6a2cf3665",
+  "capturedAt": "2026-06-27T22:44:46.723Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/loke-jad/minimax-agent",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-loke-jad-claude-agent-sdk/original-evidence-35009ab1e2cc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - loke-jad/minimax-agent: Claude Agent SDK wired to a local llama-server (MiniMax-M2.5) via LiteLLM. MCP gateway + safety hooks. Dormant. · GitHub",
+      "bodySha256": "7980b5688d30036cb3fe61e60cae2529d68ab592f69b934f808464491d35efed",
+      "capturedAt": "2026-06-27T22:44:43.417Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/loke-jad/minimax-agent",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-loke-jad-claude-agent-sdk/artifact-1-35009ab1e2cc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - loke-jad/minimax-agent: Claude Agent SDK wired to a local llama-server (MiniMax-M2.5) via LiteLLM. MCP gateway + safety hooks. Dormant. · GitHub",
+      "bodySha256": "61ab949f54750f84643df7d3e17a9834691bbf2da927a3a37a03fc4587dd7e6c",
+      "capturedAt": "2026-06-27T22:44:46.044Z",
+      "error": ""
+    }
+  ]
+}

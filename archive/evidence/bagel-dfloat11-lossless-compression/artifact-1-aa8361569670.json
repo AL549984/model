@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:18.529Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/DFloat11/BAGEL-7B-MoT-DF11",
+  "finalUrl": "https://huggingface.co/DFloat11/BAGEL-7B-MoT-DF11",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"24254-QpHAC4W0Qw3ubK1a2LBaPdPr+4U\"",
+  "lastModified": null,
+  "bodyBytes": 148052,
+  "bodySha256": "56f2d87fb171bff9851072ab60f84ecc0813bc1708c614e07b5597d2a52c0fd5",
+  "title": "DFloat11/BAGEL-7B-MoT-DF11 · Hugging Face",
+  "github": null
+}

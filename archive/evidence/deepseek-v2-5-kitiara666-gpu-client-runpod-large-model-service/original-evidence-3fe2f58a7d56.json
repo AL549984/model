@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:08.024Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Kitiara666/gpu-client-runpod",
+  "finalUrl": "https://github.com/Kitiara666/gpu-client-runpod",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"73556b648dcbf5b961ef714c18df7f76\"",
+  "lastModified": null,
+  "bodyBytes": 326622,
+  "bodySha256": "83b09e83c5bae7e4fcda6e80c0548bbcdec3ed1116bf6214442ceeb21fb14341",
+  "title": "GitHub - Kitiara666/gpu-client-runpod: RunPod-optimized GPU Client service for large models like Qwen 3, Kimi K2, and DeepSeek V2.5 · GitHub",
+  "github": {
+    "owner": "Kitiara666",
+    "repo": "gpu-client-runpod",
+    "apiStatus": "unavailable"
+  }
+}

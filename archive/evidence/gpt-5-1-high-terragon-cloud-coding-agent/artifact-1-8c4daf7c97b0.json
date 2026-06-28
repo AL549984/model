@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:29.174Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/terragon-labs/terragon-oss",
+  "finalUrl": "https://github.com/terragon-labs/terragon-oss",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f67b6ee2a3ab71e26f81872842dc0154\"",
+  "lastModified": null,
+  "bodyBytes": 326030,
+  "bodySha256": "308eb69afe2b857b892bb75dd2f1739d8dde18464a97e592d0f6965723fc61ab",
+  "title": "GitHub - terragon-labs/terragon-oss: This is the website formally known as Terragon Labs. It was a remote background agent orchestrator for running Claude Code, Codex, and other coding clis in the cloud. · GitHub",
+  "github": {
+    "owner": "terragon-labs",
+    "repo": "terragon-oss",
+    "htmlUrl": "https://github.com/terragon-labs/terragon-oss",
+    "defaultBranch": "main",
+    "defaultBranchSha": "83142a17f3970df3e14d1879234a603db6e4f615",
+    "pushedAt": "2026-02-10T16:29:02Z",
+    "updatedAt": "2026-06-24T18:07:36Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

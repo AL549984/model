@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:01.632Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/hylarucoder/ai-flavor-remover",
+  "finalUrl": "https://github.com/hylarucoder/ai-flavor-remover",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"078e0887726336f209b34cc7d65abf86\"",
+  "lastModified": null,
+  "bodyBytes": 262603,
+  "bodySha256": "a1517f796d475a3837238c9053d45ac57eb6b05b0839587baf8fd5fff3695a9b",
+  "title": "GitHub - hylarucoder/ai-flavor-remover: AI 味去除 - 仅在 Gemini 2.5 Pro 上测试通过 · GitHub",
+  "github": {
+    "owner": "hylarucoder",
+    "repo": "ai-flavor-remover",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-1-chasm-engine-narrative",
+  "modelId": "claude-2-1",
+  "modelName": "Claude 2.1",
+  "title": "Chasm Engine uses Claude 2.1 for generative text adventure narrative generation",
+  "evidenceFingerprint": "f9600094b7ecb5abfd82fec0c28ffee24031d9e20f9f5acc3c1a66651224e7e8",
+  "capturedAt": "2026-06-27T20:16:45.279Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/atisharma/chasm_engine/issues/11",
+      "snapshotPath": "archive/evidence/claude-2-1-chasm-engine-narrative/original-evidence-4afbe1ca1ffa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude v2.1 API access · Issue #11 · atisharma/chasm_engine · GitHub",
+      "bodySha256": "9e1ba18ab77562d27a5a008328e94440d67b57a4387c1a80b5120560f94ec905",
+      "capturedAt": "2026-06-27T20:16:43.371Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/atisharma/chasm_engine",
+      "snapshotPath": "archive/evidence/claude-2-1-chasm-engine-narrative/artifact-1-f7c8c5e70899.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - atisharma/chasm_engine: CHAracter State Management - a generative text adventure (engine) · GitHub",
+      "bodySha256": "d65127b6c7283f35a6df9cd7043b86ffa7a00d7af4dd5f9e4b9076f50e4126d2",
+      "capturedAt": "2026-06-27T20:16:44.275Z",
+      "error": ""
+    }
+  ]
+}

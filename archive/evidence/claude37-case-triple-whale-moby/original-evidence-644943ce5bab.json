@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:13.498Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/triple-whale",
+  "finalUrl": "https://claude.com/customers/triple-whale",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 20:20:39 GMT",
+  "bodyBytes": 595390,
+  "bodySha256": "30c9d1fa45c1e4c88c9510d8e873ab39f68e7b8214b14e15504d615bdfaa6bd1",
+  "title": "Triple Whale Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

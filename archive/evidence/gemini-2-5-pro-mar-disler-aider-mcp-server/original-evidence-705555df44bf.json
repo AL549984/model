@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:07.236Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/disler/aider-mcp-server/blob/main/README.md",
+  "finalUrl": "https://github.com/disler/aider-mcp-server/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fcd2a178ae14c29284c64bce0c2a6248\"",
+  "lastModified": null,
+  "bodyBytes": 336808,
+  "bodySha256": "831236e944f12b3c25b5983e49cf992d125d08f5b691b6c4ac3e21d02b0d2695",
+  "title": "aider-mcp-server/README.md at main · disler/aider-mcp-server · GitHub",
+  "github": {
+    "owner": "disler",
+    "repo": "aider-mcp-server",
+    "apiStatus": "unavailable"
+  }
+}

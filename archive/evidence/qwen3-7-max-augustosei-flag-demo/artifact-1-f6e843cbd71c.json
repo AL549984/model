@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:54.781Z",
+  "kind": "artifact-1",
+  "url": "https://qwen3-7-flag-demo.vercel.app",
+  "finalUrl": "https://qwen3-7-flag-demo.vercel.app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"71b41d38136504e89b2e65fc5edfd660\"",
+  "lastModified": "Tue, 02 Jun 2026 17:22:11 GMT",
+  "bodyBytes": 175929,
+  "bodySha256": "14397d4d997fe75554baabd6ff3276a4eda50763bd7ec09d06de236c1cc1c0ff",
+  "title": "August Wheel — Interactive Flag Lab",
+  "github": null
+}

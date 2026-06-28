@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:31.695Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/spaces/openfree/qwen3-235b-a22b-research",
+  "finalUrl": "https://huggingface.co/spaces/openfree/qwen3-235b-a22b-research",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b5f8-/2To+m3m2rASP7mpJv0AlAPI8Iw\"",
+  "lastModified": null,
+  "bodyBytes": 46584,
+  "bodySha256": "b9288562b58fcc1ff70e5d12cf128a9249cbad2d2669a55527dbe5012f944ad9",
+  "title": "qwen3-235b-a22b Research - a Hugging Face Space by openfree",
+  "github": null
+}

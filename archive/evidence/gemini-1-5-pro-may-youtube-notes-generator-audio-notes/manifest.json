@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-youtube-notes-generator-audio-notes",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "YouTube Notes Generator 用 Gemini 1.5 Pro 从视频音频生成学习笔记",
+  "evidenceFingerprint": "274d577c27172d73238e7f34294440ce4bcc9e9aea473810e0a19867438ff8db",
+  "capturedAt": "2026-06-27T21:40:48.310Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/di37/youtube-notes-generator#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-youtube-notes-generator-audio-notes/original-evidence-05bc0e7c25ba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - di37/youtube-notes-generator: AI-powered YouTube Notes Generator: Create detailed notes from YouTube videos. Streamlit UI for easy use. · GitHub",
+      "bodySha256": "99ff8ef5d8f91e6eccf8cc3363771f649fc128492a8dd6f160fee1c96f514bab",
+      "capturedAt": "2026-06-27T21:40:46.760Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/di37/youtube-notes-generator",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-youtube-notes-generator-audio-notes/artifact-1-3383361db445.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - di37/youtube-notes-generator: AI-powered YouTube Notes Generator: Create detailed notes from YouTube videos. Streamlit UI for easy use. · GitHub",
+      "bodySha256": "5db03573d1afdfab52c94f6b86645a5e75266c3dfff8bc3b3684c9c33cbd828b",
+      "capturedAt": "2026-06-27T21:40:47.804Z",
+      "error": ""
+    }
+  ]
+}

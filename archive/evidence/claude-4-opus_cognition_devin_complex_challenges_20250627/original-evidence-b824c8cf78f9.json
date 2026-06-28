@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:12.647Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-4#:~:text=Cognition%20notes%20Opus%204%20excels%20at%20solving%20complex%20challenges%20that%20other%20models%20can't",
+  "finalUrl": "https://www.anthropic.com/news/claude-4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 154098,
+  "bodySha256": "d966713feef4e2ceb1287ceb90b0343873c277be8479be24eb98759d2a27568a",
+  "title": "Introducing Claude 4 \\ Anthropic",
+  "github": null
+}

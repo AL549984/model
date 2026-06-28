@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:42.309Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/teremterem/claude-code-gpt-5-codex/main/.env.template",
+  "finalUrl": "https://raw.githubusercontent.com/teremterem/claude-code-gpt-5-codex/main/.env.template",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1596",
+  "etag": "W/\"a9dccfbf6d162b6b414d3d66f20542d0c2c2c173af319d7e9704bac9016618a5\"",
+  "lastModified": null,
+  "bodyBytes": 3262,
+  "bodySha256": "f1565ef2f0ec199abd8125bd84a3edb1f5cb352106f77e192d51cb05401a6699",
+  "title": "",
+  "github": null
+}

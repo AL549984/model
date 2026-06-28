@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-tunnello-chatbi-natural-language-sql",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "Tunnello ChatBI offers a Qwen3 Max Preview powered conversational BI agent for natural-language SQL and charts",
+  "evidenceFingerprint": "dbc7af59cede556d6b676a8fa598d1c0a30c59ecad07ff3479164e3269e5ba7f",
+  "capturedAt": "2026-06-27T23:15:32.553Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Tunnello/ChatBI/blob/6f6f633d692a8c3de24f516d8bc5c5c56aa067f1/API_INTERFACE.md",
+      "snapshotPath": "archive/evidence/qwen3-max-tunnello-chatbi-natural-language-sql/original-evidence-3f8238c892f4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ChatBI/API_INTERFACE.md at 6f6f633d692a8c3de24f516d8bc5c5c56aa067f1 · Tunnello/ChatBI · GitHub",
+      "bodySha256": "6b4c054b21992ae529d8578ee497dc6d0535bbf0b898fa86d2128ecca8036a39",
+      "capturedAt": "2026-06-27T23:15:30.784Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.bilibili.com/video/BV1UAnVznEA5/",
+      "snapshotPath": "archive/evidence/qwen3-max-tunnello-chatbi-natural-language-sql/artifact-1-d84b17899634.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Text2SQL实战-对话式商业智能分析Agent应用_哔哩哔哩_bilibili",
+      "bodySha256": "461f7487d1c2d99e2c586590d4bad1ead83b7d65d2b3ac958f9b17d50f0d1f56",
+      "capturedAt": "2026-06-27T23:15:32.021Z",
+      "error": ""
+    }
+  ]
+}

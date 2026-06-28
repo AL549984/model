@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:49.090Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ai-asa/openai-o3-mcp",
+  "finalUrl": "https://github.com/ai-asa/openai-o3-mcp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9627acb67c3ea5ff586f79a69d005eac\"",
+  "lastModified": null,
+  "bodyBytes": 306666,
+  "bodySha256": "2a66f9f65dcffcd5d3f65c5ddb0e2560d83b1f3ae8ade0e159f2671a3d705e8a",
+  "title": "GitHub - ai-asa/openai-o3-mcp · GitHub",
+  "github": {
+    "owner": "ai-asa",
+    "repo": "openai-o3-mcp",
+    "apiStatus": "unavailable"
+  }
+}

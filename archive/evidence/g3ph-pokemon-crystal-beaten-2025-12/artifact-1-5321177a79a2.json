@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:55.129Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/waylaidwanderer/gemini-plays-pokemon-public",
+  "finalUrl": "https://github.com/waylaidwanderer/gemini-plays-pokemon-public",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"afa3da3a881f7514c711872121d2c016\"",
+  "lastModified": null,
+  "bodyBytes": 276689,
+  "bodySha256": "e56f835d44e03a6952e8b5ee27fe116134f6c7aabed0df1ecec3fca9a2eaa6cc",
+  "title": "GitHub - waylaidwanderer/gemini-plays-pokemon-public · GitHub",
+  "github": {
+    "owner": "waylaidwanderer",
+    "repo": "gemini-plays-pokemon-public",
+    "apiStatus": "unavailable"
+  }
+}

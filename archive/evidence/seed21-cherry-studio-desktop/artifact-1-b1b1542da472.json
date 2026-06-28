@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:13.573Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CherryHQ/cherry-studio",
+  "finalUrl": "https://github.com/CherryHQ/cherry-studio",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"400860c3110f087d174979ba382d7be5\"",
+  "lastModified": null,
+  "bodyBytes": 508665,
+  "bodySha256": "7c8f64469c53f552d3e6367a3f004b21eebe1a3a9825b4bc3470b31d05d321bc",
+  "title": "GitHub - CherryHQ/cherry-studio: AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs · GitHub",
+  "github": {
+    "owner": "CherryHQ",
+    "repo": "cherry-studio",
+    "apiStatus": "unavailable"
+  }
+}

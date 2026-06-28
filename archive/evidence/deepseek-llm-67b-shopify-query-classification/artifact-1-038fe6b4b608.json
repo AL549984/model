@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:09.549Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Shopify/reasonableai",
+  "finalUrl": "https://github.com/Shopify/reasonableai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a1950775b46e600051a7dbf893609af7\"",
+  "lastModified": null,
+  "bodyBytes": 321722,
+  "bodySha256": "e95ac78dedb606ec80b870a1fa4e62f6c83bc6c40b1e6a863e7065d63f4ef95b",
+  "title": "GitHub - Shopify/reasonableai: An auditable generative AI framework · GitHub",
+  "github": {
+    "owner": "Shopify",
+    "repo": "reasonableai",
+    "apiStatus": "unavailable"
+  }
+}

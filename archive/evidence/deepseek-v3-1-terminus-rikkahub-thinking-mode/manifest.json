@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-terminus-rikkahub-thinking-mode",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "RikkaHub 用户验证 DeepSeek-V3.1-Terminus 在 SiliconFlow/DeepSeek API 下的 thinking 参数支持",
+  "evidenceFingerprint": "364d2a3608fba24fe1d3f834a2b71f7f7160bb08d157f48c494f34331942161b",
+  "capturedAt": "2026-06-27T21:34:12.389Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rikkahub/rikkahub/issues/686",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-rikkahub-thinking-mode/original-evidence-b7f210bd2382.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Thinking按钮对部分模型无效 · Issue #686 · rikkahub/rikkahub · GitHub",
+      "bodySha256": "25d405741bcfd9352e5147915dff8c3b47d768ae51a59a84d00dfb4de5a0bfd3",
+      "capturedAt": "2026-06-27T21:34:10.869Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rikkahub/rikkahub/issues/686",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-rikkahub-thinking-mode/artifact-1-b7f210bd2382.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Thinking按钮对部分模型无效 · Issue #686 · rikkahub/rikkahub · GitHub",
+      "bodySha256": "31c8c8598be430a1143e7de171d37de7955998c19eb95714b62dbebbfbcfaf9f",
+      "capturedAt": "2026-06-27T21:34:11.964Z",
+      "error": ""
+    }
+  ]
+}

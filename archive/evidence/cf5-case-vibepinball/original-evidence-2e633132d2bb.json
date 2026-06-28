@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:20.434Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Randroids-Dojo/VibePinball",
+  "finalUrl": "https://github.com/Randroids-Dojo/VibePinball",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"42ea74488cea77f8ce67ef1c3ad4835a\"",
+  "lastModified": null,
+  "bodyBytes": 276432,
+  "bodySha256": "8967c7f4d91496cead62c0f29a665f0512b11edcfe11c300fb5889e3ec98f5ee",
+  "title": "GitHub - Randroids-Dojo/VibePinball: A vibe coded Pinball web native game. Built with Claude Fable 5 while on stream! · GitHub",
+  "github": {
+    "owner": "Randroids-Dojo",
+    "repo": "VibePinball",
+    "htmlUrl": "https://github.com/Randroids-Dojo/VibePinball",
+    "defaultBranch": "main",
+    "defaultBranchSha": "a9c324d13dac567fb1c490f345cad16dc5bba136",
+    "pushedAt": "2026-06-14T19:59:24Z",
+    "updatedAt": "2026-06-14T19:59:27Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

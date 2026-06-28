@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:27.182Z",
+  "kind": "original-evidence",
+  "url": "https://sethhobson.com/2024/03/building-an-agentic-stock-analysis-tool-with-langchain-openbb-and-claude-3-opus",
+  "finalUrl": "https://sethhobson.com/2024/03/building-an-agentic-stock-analysis-tool-with-langchain-openbb-and-claude-3-opus/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 198334,
+  "bodySha256": "6faf4239140d4366fdff701d206c5529298e5a19fcc57fa87aec6a43566bd97d",
+  "title": "Building an Agentic Stock Analysis Tool with LangChain, OpenBB, and Claude 3 Opus » Seth Hobson",
+  "github": null
+}

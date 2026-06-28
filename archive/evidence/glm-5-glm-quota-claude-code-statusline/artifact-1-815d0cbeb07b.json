@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:38.637Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MisterKarott/glm-quota",
+  "finalUrl": "https://github.com/MisterKarott/glm-quota",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"408fb36b32502273093370092fd578d7\"",
+  "lastModified": null,
+  "bodyBytes": 274405,
+  "bodySha256": "8ca0ded13410653bc70b6afb3e42d721fb0b3850fa30daaf660abafa1da3bb8e",
+  "title": "GitHub - MisterKarott/glm-quota: Claude Code plugin for Z.ai/GLM quota monitoring — statusline, detailed quota view, and MCP coherence check · GitHub",
+  "github": {
+    "owner": "MisterKarott",
+    "repo": "glm-quota",
+    "apiStatus": "unavailable"
+  }
+}

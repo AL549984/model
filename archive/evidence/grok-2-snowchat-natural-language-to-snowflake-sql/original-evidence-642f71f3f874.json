@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:13.175Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kaarthik108/snowChat/blob/main/agent.py#L38-L42",
+  "finalUrl": "https://github.com/kaarthik108/snowChat/blob/main/agent.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b78fae5b93ae2a12493b3c7dad652993\"",
+  "lastModified": null,
+  "bodyBytes": 295204,
+  "bodySha256": "06b8bb708d315d530cbbf54db22677bf14810ed459c217e17eac7d1c86f62718",
+  "title": "snowChat/agent.py at main · kaarthik108/snowChat · GitHub",
+  "github": {
+    "owner": "kaarthik108",
+    "repo": "snowChat",
+    "apiStatus": "unavailable"
+  }
+}

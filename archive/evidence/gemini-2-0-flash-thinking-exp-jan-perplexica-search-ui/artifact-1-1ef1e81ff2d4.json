@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:56.738Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/data5650/Perplexica",
+  "finalUrl": "https://github.com/data5650/Perplexica",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8f3f0cd71394a05109515ad609eafb6d\"",
+  "lastModified": null,
+  "bodyBytes": 357374,
+  "bodySha256": "5187de17407ce2b96dc7a1f79d68d7b89f78219265f2c12c909190b3c9d222c0",
+  "title": "GitHub - data5650/Perplexica: Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI · GitHub",
+  "github": {
+    "owner": "data5650",
+    "repo": "Perplexica",
+    "apiStatus": "unavailable"
+  }
+}

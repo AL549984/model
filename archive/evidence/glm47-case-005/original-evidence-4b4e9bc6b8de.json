@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:01.037Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ChuanMeng/text-ranking-in-deep-research",
+  "finalUrl": "https://github.com/ChuanMeng/text-ranking-in-deep-research",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"98fe30af1299dd500d2a25a1476b0d2d\"",
+  "lastModified": null,
+  "bodyBytes": 422404,
+  "bodySha256": "1023d729de6c958a436b7ca156cfb7012defbe9e0542c4f27c428e8a4ea81083",
+  "title": "GitHub - ChuanMeng/text-ranking-in-deep-research: Official repository for the SIGIR 2026 paper &quot;Revisiting Text Ranking in Deep Research&quot; · GitHub",
+  "github": {
+    "owner": "ChuanMeng",
+    "repo": "text-ranking-in-deep-research",
+    "apiStatus": "unavailable"
+  }
+}

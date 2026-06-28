@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:04.933Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SherlockHao/summary-pipeline/blob/main/docs/architecture.md",
+  "finalUrl": "https://github.com/SherlockHao/summary-pipeline/blob/main/docs/architecture.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cb61ce561dfda5200d861b9a19259846\"",
+  "lastModified": null,
+  "bodyBytes": 997622,
+  "bodySha256": "c23bea2d92b88caabeb7082c6df91fd6673458c27ed09d13cb94e8554e08f163",
+  "title": "summary-pipeline/docs/architecture.md at main · SherlockHao/summary-pipeline · GitHub",
+  "github": {
+    "owner": "SherlockHao",
+    "repo": "summary-pipeline",
+    "apiStatus": "unavailable"
+  }
+}

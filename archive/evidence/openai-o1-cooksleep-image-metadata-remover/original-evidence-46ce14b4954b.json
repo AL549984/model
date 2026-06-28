@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:48.905Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/CookSleep/ImageMetadataRemover/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/CookSleep/ImageMetadataRemover/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1904",
+  "etag": "W/\"4f6cddeeec67be045bd7874cdd5b45b29c74621bbb6b0c8257e3c9aca7a7a77a\"",
+  "lastModified": null,
+  "bodyBytes": 3556,
+  "bodySha256": "390d5ad1f7455d3f479fb20401178bc2e33c802254e8e94122c8067b02d5ba6b",
+  "title": "",
+  "github": null
+}

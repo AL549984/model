@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-3-1-405b-custom-content-generator-treasure-m",
+  "modelId": "llama-3-1-405b",
+  "modelName": "Llama 3.1 405B",
+  "title": "Custom Content Generator — Educational content creation with Llama 3.1 405B via OpenRouter",
+  "evidenceFingerprint": "b5731fe1c8124588742b896a5805c4bfd5e022c4c7f5e0010c80ac79604838d6",
+  "capturedAt": "2026-06-27T22:30:05.195Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Treasure-M/Custom-Content-Generator",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-custom-content-generator-treasure-m/original-evidence-6e479e5bf7f1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Treasure-M/Custom-Content-Generator: A simple browser-based tool for creating instructional content that makes use of OpenRouter.ai and the meta-llama/llama-3.1-405b-instruct model. Create grade-level and topic-specific lesson plan",
+      "bodySha256": "a70e6c8f7cc6b5e3f938deb380b4c9503ccb8cc3b0eabed0b71787af7632230d",
+      "capturedAt": "2026-06-27T22:30:02.661Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://custom-content-generator.onrender.com",
+      "snapshotPath": "archive/evidence/llama-3-1-405b-custom-content-generator-treasure-m/artifact-1-02d51b3d4f9f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Educational Content Generator",
+      "bodySha256": "f8c8686dc431e961b9052ee9ac2d5100ca91ae20dfaaeb665bff63c2dd2ffd7b",
+      "capturedAt": "2026-06-27T22:30:04.307Z",
+      "error": ""
+    }
+  ]
+}

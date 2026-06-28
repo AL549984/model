@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:32.559Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ZhuJD-China/RainbowGPT",
+  "finalUrl": "https://github.com/ZhuJD-China/RainbowGPT",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"628cf5ef8d844c95402debb4b017737b\"",
+  "lastModified": null,
+  "bodyBytes": 343130,
+  "bodySha256": "7c980f2c7cb867cdc10a3d88b95f9480d95ecc9786e5b0be051c676d90e1dd99",
+  "title": "GitHub - ZhuJD-China/RainbowGPT: 🌈RainbowGPT AI Agent &amp; Dalle3 free &amp; Stock Analysis &amp; GPT-4 Free API &amp; Private LLM Application &amp; SQL Agent for Everyone · GitHub",
+  "github": {
+    "owner": "ZhuJD-China",
+    "repo": "RainbowGPT",
+    "apiStatus": "unavailable"
+  }
+}

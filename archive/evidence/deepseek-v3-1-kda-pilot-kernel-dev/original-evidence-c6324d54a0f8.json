@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:57.464Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/BBuf/KDA-Pilot/pull/118",
+  "finalUrl": "https://github.com/BBuf/KDA-Pilot/pull/118",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 262694,
+  "bodySha256": "989af5ec9b6aea4f31cfacaf81fffdab7a3f5a59654632d923cb5308ada7d32f",
+  "title": "[e2e_kernel_tasks] deepseek_v31 — profile-filtered kernel tasks by BBuf · Pull Request #118 · BBuf/KDA-Pilot · GitHub",
+  "github": {
+    "owner": "BBuf",
+    "repo": "KDA-Pilot",
+    "apiStatus": "unavailable"
+  }
+}

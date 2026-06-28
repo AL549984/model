@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:05.784Z",
+  "kind": "artifact-1",
+  "url": "https://grafana.com/products/cloud/",
+  "finalUrl": "https://grafana.com/products/cloud/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"14665jf5hgwbkw6\"",
+  "lastModified": null,
+  "bodyBytes": 540463,
+  "bodySha256": "9b4290fb2117bd9c9dc30423e9620a12160050b9b01887ced4e08de96c368cb4",
+  "title": "Grafana Cloud | AI-Powered Full-Stack Observability | Grafana Labs",
+  "github": null
+}

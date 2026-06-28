@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:49.094Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/cline/cline",
+  "finalUrl": "https://github.com/cline/cline",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"455744935cb467569c22c86358a4b24a\"",
+  "lastModified": null,
+  "bodyBytes": 409045,
+  "bodySha256": "09a8e628360bb9bdcb73567804dd8fcb0d0c044fe298249b8897dc1d8e22dc5b",
+  "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant. · GitHub",
+  "github": {
+    "owner": "cline",
+    "repo": "cline",
+    "apiStatus": "unavailable"
+  }
+}

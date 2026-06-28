@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:01.375Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CoWork-OS/CoWork-OS",
+  "finalUrl": "https://github.com/CoWork-OS/CoWork-OS",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"36c78df27ac00f28b6c325f12c09566a\"",
+  "lastModified": null,
+  "bodyBytes": 707231,
+  "bodySha256": "654dc4fc4e863412562d384741f4410127af2d2e7467f2d5c82405f763b3af31",
+  "title": "GitHub - CoWork-OS/CoWork-OS: Local-first personal agentic OS and everything app for coding, knowledge work, web design, automations, and artifacts. · GitHub",
+  "github": {
+    "owner": "CoWork-OS",
+    "repo": "CoWork-OS",
+    "apiStatus": "unavailable"
+  }
+}

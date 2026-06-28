@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:18.948Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Mixup-Agent/solsol",
+  "finalUrl": "https://github.com/Mixup-Agent/solsol",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4396c93d0f110355d8711cfce05c7c38\"",
+  "lastModified": null,
+  "bodyBytes": 383235,
+  "bodySha256": "0945b5f038eb79853a917fcc7e1dd8d267f6ff4f94af5850c57b5aac6b18a612",
+  "title": "GitHub - Mixup-Agent/solsol: 솔솔(solsol) — Solar Pro3 기반 모의 면접 서비스 · GitHub",
+  "github": {
+    "owner": "Mixup-Agent",
+    "repo": "solsol",
+    "apiStatus": "unavailable"
+  }
+}

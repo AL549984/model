@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:56.919Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/gusibi/MoliTodo/blob/main/src/renderer/src/components/settings/AISettings.vue",
+  "finalUrl": "https://github.com/gusibi/MoliTodo/blob/main/src/renderer/src/components/settings/AISettings.vue",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"06172b7bc47965e866e63dd2677946b3\"",
+  "lastModified": null,
+  "bodyBytes": 745657,
+  "bodySha256": "b0410e26efd41e940529f8e216b944abfd787b57c17c842d1cb5e4845c6f0984",
+  "title": "MoliTodo/src/renderer/src/components/settings/AISettings.vue at main · gusibi/MoliTodo · GitHub",
+  "github": {
+    "owner": "gusibi",
+    "repo": "MoliTodo",
+    "apiStatus": "unavailable"
+  }
+}

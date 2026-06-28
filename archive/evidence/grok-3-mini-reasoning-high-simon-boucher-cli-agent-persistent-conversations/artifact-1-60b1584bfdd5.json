@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:27.515Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/simonpierreboucher02/grok-cli-agent",
+  "finalUrl": "https://github.com/simonpierreboucher02/grok-cli-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"45287a8d14d85960ce72bcfaaade095c\"",
+  "lastModified": null,
+  "bodyBytes": 443001,
+  "bodySha256": "35dc26cb3297d2a8747dc40662a60c896307e319471e7d1795cb5a6465ad8a8e",
+  "title": "GitHub - simonpierreboucher02/grok-cli-agent: A Python CLI agent for Grok models (Grok 3, Grok 3 Mini, Grok 4) · GitHub",
+  "github": {
+    "owner": "simonpierreboucher02",
+    "repo": "grok-cli-agent",
+    "apiStatus": "unavailable"
+  }
+}

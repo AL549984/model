@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-sep-subcat-error-analysis",
+  "modelId": "gemini-1-5-pro-sep",
+  "modelName": "Gemini 1.5 Pro (Sep)",
+  "title": "SubCat uses Gemini 1.5 Pro for AI analysis of passive subdomain-discovery errors",
+  "evidenceFingerprint": "6f9415b827efb72bdc4281ec9acc00c014f0e0753b2ac83575eba94ad5c643ec",
+  "capturedAt": "2026-06-27T21:40:55.319Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/duty1g/subcat#use-ai-analysis-for-errors",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-subcat-error-analysis/original-evidence-1de7e015e96e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - duty1g/subcat: Lightning-fast passive subdomain discovery tool for security professionals and bug bounty hunters. · GitHub",
+      "bodySha256": "94d11c72339e058b1f878ccfc68c9fa6774d690c6fedc6a8da5b078391c932ea",
+      "capturedAt": "2026-06-27T21:40:53.743Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/duty1g/subcat",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-subcat-error-analysis/artifact-1-c67a2647c3e0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - duty1g/subcat: Lightning-fast passive subdomain discovery tool for security professionals and bug bounty hunters. · GitHub",
+      "bodySha256": "30e18ad7c9ad08ebdedbc228dcc1511672ec84554c20d08c1dc899cb6d6cc0de",
+      "capturedAt": "2026-06-27T21:40:54.795Z",
+      "error": ""
+    }
+  ]
+}

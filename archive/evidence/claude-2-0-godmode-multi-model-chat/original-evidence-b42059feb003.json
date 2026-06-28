@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:27.752Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/smol-ai/GodMode/blob/main/README.md",
+  "finalUrl": "https://github.com/smol-ai/GodMode/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"233cd840080aae9af4be418f65a53087\"",
+  "lastModified": null,
+  "bodyBytes": 324011,
+  "bodySha256": "f954d9258e17ce9f926bab05ea866f6655a16ff67d87789d25cfcbf59c40badb",
+  "title": "GodMode/README.md at main · smol-ai/GodMode · GitHub",
+  "github": {
+    "owner": "smol-ai",
+    "repo": "GodMode",
+    "htmlUrl": "https://github.com/smol-ai/GodMode",
+    "defaultBranch": "main",
+    "defaultBranchSha": "8ac3ffde96ab72d992b5d5cf1743673e610cb07b",
+    "pushedAt": "2024-07-29T00:31:03Z",
+    "updatedAt": "2026-06-27T19:35:11Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

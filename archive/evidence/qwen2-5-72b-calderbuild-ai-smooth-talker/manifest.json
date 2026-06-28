@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-72b-calderbuild-ai-smooth-talker",
+  "modelId": "qwen2-5-72b",
+  "modelName": "Qwen2.5 72B",
+  "title": "calderbuild 用 Qwen2.5 72B Instruct 构建高情商回复生成助手 AI Smooth Talker",
+  "evidenceFingerprint": "e9f553c5355806b2b61da180f8bb5704d1350a797ffbfc9a8eefdb14dc6f0829",
+  "capturedAt": "2026-06-27T22:59:48.300Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/calderbuild/ai-smooth-talker/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-calderbuild-ai-smooth-talker/original-evidence-22827e29acb9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-smooth-talker/README.md at main · calderbuild/ai-smooth-talker · GitHub",
+      "bodySha256": "c42c24c10ef37595a42225701220d3081ed29f8af54b605ace40af29db7c72c1",
+      "capturedAt": "2026-06-27T22:59:45.664Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://bvw1eq2hw657.trickle.host/",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-calderbuild-ai-smooth-talker/artifact-1-0c34f3f7a047.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "🔥撩妹神器 - 3秒让直男变情话高手 | 10万+兄弟都在用",
+      "bodySha256": "313ee7989bd24a269d5e81699744f067af2f006602bc361d26ac40ad7db7502e",
+      "capturedAt": "2026-06-27T22:59:46.715Z",
+      "error": ""
+    }
+  ]
+}

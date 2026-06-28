@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:38.758Z",
+  "kind": "artifact-1",
+  "url": "https://aipmframework.com/",
+  "finalUrl": "https://aipmframework.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "13230",
+  "etag": "W/\"6a194816-d656\"",
+  "lastModified": "Fri, 29 May 2026 08:02:30 GMT",
+  "bodyBytes": 54870,
+  "bodySha256": "b32d2549502c05e8bc0d143bed810a0b6d306c465be93de0d5963df80a804da5",
+  "title": "AI Product Manager Evaluation Framework 2026 | AI PM Hiring Guide",
+  "github": null
+}

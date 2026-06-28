@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:44.856Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Tinghecui/gpt-cc",
+  "finalUrl": "https://github.com/Tinghecui/gpt-cc",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"57c94bbb7eb8c47bb133b13390f974f2\"",
+  "lastModified": null,
+  "bodyBytes": 325643,
+  "bodySha256": "73705f27eb4853d306e0ffbbf86b5d64244d12874790d1c49193e5cfcbdb556b",
+  "title": "GitHub - Tinghecui/gpt-cc · GitHub",
+  "github": {
+    "owner": "Tinghecui",
+    "repo": "gpt-cc",
+    "apiStatus": "unavailable"
+  }
+}

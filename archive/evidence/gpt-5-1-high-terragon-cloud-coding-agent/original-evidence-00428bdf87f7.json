@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:27.185Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/terragon-labs/terragon-oss/blob/83142a17f3970df3e14d1879234a603db6e4f615/packages/agent/src/utils.ts#L129-L139",
+  "finalUrl": "https://github.com/terragon-labs/terragon-oss/blob/83142a17f3970df3e14d1879234a603db6e4f615/packages/agent/src/utils.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a3645bedb8701ca9c6e5379b5a0d715f\"",
+  "lastModified": null,
+  "bodyBytes": 730534,
+  "bodySha256": "807d1143708da1c25bc0cca3f3cc5438b4b82810575c9f9778dda15facb0c468",
+  "title": "terragon-oss/packages/agent/src/utils.ts at 83142a17f3970df3e14d1879234a603db6e4f615 · terragon-labs/terragon-oss · GitHub",
+  "github": {
+    "owner": "terragon-labs",
+    "repo": "terragon-oss",
+    "htmlUrl": "https://github.com/terragon-labs/terragon-oss",
+    "defaultBranch": "main",
+    "defaultBranchSha": "83142a17f3970df3e14d1879234a603db6e4f615",
+    "pushedAt": "2026-02-10T16:29:02Z",
+    "updatedAt": "2026-06-24T18:07:36Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

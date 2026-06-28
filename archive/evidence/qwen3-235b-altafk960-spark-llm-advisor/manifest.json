@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-altafk960-spark-llm-advisor",
+  "modelId": "qwen3-235b",
+  "modelName": "Qwen3 235B",
+  "title": "Altafk960 在 Apache Spark 调度器中接入 Cerebras Qwen3-235B 做实时任务放置决策",
+  "evidenceFingerprint": "0a818d579c475ac0d4e0f32fb01dc6325200150dcdd3fab1ddefc44e35c6dd46",
+  "capturedAt": "2026-06-27T23:07:13.479Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Altafk960/spark-llm-advisor/blob/master/README.md",
+      "snapshotPath": "archive/evidence/qwen3-235b-altafk960-spark-llm-advisor/original-evidence-98a860c37c6d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "spark-llm-advisor/README.md at master · Altafk960/spark-llm-advisor · GitHub",
+      "bodySha256": "cd1b4aec90ef46d07110b65d1164b1d7558be3ce97593a5ff52198b0c7eff153",
+      "capturedAt": "2026-06-27T23:07:09.176Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Altafk960/spark-llm-advisor",
+      "snapshotPath": "archive/evidence/qwen3-235b-altafk960-spark-llm-advisor/artifact-1-e4f4d094a1d1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Altafk960/spark-llm-advisor: LLM-driven scheduling advisor embedded inside Apache Spark&#39;s DAGScheduler and TaskSetManager. Uses Cerebras Qwen3-235B for real-time task placement decisions. · GitHub",
+      "bodySha256": "858f0eec2c6002214de11a97558c1d6924bc0b61bab63d78d924b3c90ae752f2",
+      "capturedAt": "2026-06-27T23:07:11.995Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-paperclip-agent-management",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "Paperclip integrates gpt-5.1-high for managing teams of work agents",
+  "evidenceFingerprint": "db59b6e9a1e99c6eade3a42e51336224c9a8bc03b49417474e086e99ef82093d",
+  "capturedAt": "2026-06-27T22:01:27.184Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/paperclipai/paperclip/blob/4c6c0c6ad048838dda4a67e1aca43aa37a6fcf0d/packages/adapters/cursor-local/src/index.ts#L39-L43",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-paperclip-agent-management/original-evidence-65dfc7b45ba9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "paperclip/packages/adapters/cursor-local/src/index.ts at 4c6c0c6ad048838dda4a67e1aca43aa37a6fcf0d · paperclipai/paperclip · GitHub",
+      "bodySha256": "9cc3ef6fd88a179e03523db3e52adcc6b41466165b88bd876e8d5f01d1782568",
+      "capturedAt": "2026-06-27T22:01:24.130Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/paperclipai/paperclip",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-paperclip-agent-management/artifact-1-a5e43b1572bf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - paperclipai/paperclip: The open-source app everyone uses to manage agents at work · GitHub",
+      "bodySha256": "8e2767c15fb4fc59ba7171269804de8fc2a5b6d4d6177dd589e255ca6fca1eeb",
+      "capturedAt": "2026-06-27T22:01:25.857Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-thinking-emilykangdev-stower-fusion-audit-20260627",
+  "modelId": "qwen3-max-thinking",
+  "modelName": "Qwen3 Max Thinking",
+  "title": "Stower 用 Qwen3 Max Thinking 作为独立 Judge 复核多模型代码审计结论",
+  "evidenceFingerprint": "5f7564543ecd0ec59351036752cdf504bbdc0a43ae6000eaa719f06cc42cb46c",
+  "capturedAt": "2026-06-27T23:15:20.725Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/emilykangdev/stower/pull/9",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-emilykangdev-stower-fusion-audit-20260627/original-evidence-c0f9647c26d7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "SLM runtime seam: remove heuristic reply judge; attachment debts by emilykangdev · Pull Request #9 · emilykangdev/stower · GitHub",
+      "bodySha256": "d0cd61d2107dbbca889b4d4c2b2f2ae1be09217f350d3d7983eb74911393596d",
+      "capturedAt": "2026-06-27T23:15:18.034Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/emilykangdev/stower/pull/9",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-emilykangdev-stower-fusion-audit-20260627/artifact-1-c0f9647c26d7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "SLM runtime seam: remove heuristic reply judge; attachment debts by emilykangdev · Pull Request #9 · emilykangdev/stower · GitHub",
+      "bodySha256": "3986772ac3a9f52058c03eff77e442a23c1354fe35759c6b90f554ed5e1e85e1",
+      "capturedAt": "2026-06-27T23:15:20.133Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:42.089Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/andreifie/flypervibe",
+  "finalUrl": "https://github.com/andreifie/flypervibe",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dfeeec3a67b8bbec258f44d274c5ce71\"",
+  "lastModified": null,
+  "bodyBytes": 302537,
+  "bodySha256": "431b33344a345e25b877981de72821883e8ca6a86fce249d17af27eeb8684c41",
+  "title": "GitHub - andreifie/flypervibe: This is an project in inglish where we had to creater a learning app for engineering students. It is almost entirely vibecoded with github copilot + gpt-5.3-codex. Had to seed where it could get me · GitHub",
+  "github": {
+    "owner": "andreifie",
+    "repo": "flypervibe",
+    "htmlUrl": "https://github.com/andreifie/flypervibe",
+    "defaultBranch": "main",
+    "defaultBranchSha": "9368576341a2926997fd2a6c656cc0e00da92fe2",
+    "pushedAt": "2026-03-30T22:51:05Z",
+    "updatedAt": "2026-03-30T22:51:08Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:30.977Z",
+  "kind": "artifact-1",
+  "url": "https://workshoplabs.ai/blog/open-weights-open-training",
+  "finalUrl": "https://www.workshoplabs.ai/blog/open-weights-open-training",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 131320,
+  "bodySha256": "0db1e1e59c7e102c434ea3f6b61bc6b6393488249e45d1839a6c03323bd730d2",
+  "title": "Open Weights isn&#x27;t Open Training",
+  "github": null
+}

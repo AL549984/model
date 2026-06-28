@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:08.469Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/infiniflow/ragflow",
+  "finalUrl": "https://github.com/infiniflow/ragflow",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e4c0cd7b768fd53b97760814f938cc0b\"",
+  "lastModified": null,
+  "bodyBytes": 522632,
+  "bodySha256": "4db6fb8d9372e96588c53249db981386c3b814aacf0cbaa683a056480bd64740",
+  "title": "GitHub - infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs · GitHub",
+  "github": {
+    "owner": "infiniflow",
+    "repo": "ragflow",
+    "apiStatus": "unavailable"
+  }
+}

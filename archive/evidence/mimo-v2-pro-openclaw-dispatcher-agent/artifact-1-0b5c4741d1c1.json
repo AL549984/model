@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:15.137Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/openclaw/openclaw",
+  "finalUrl": "https://github.com/openclaw/openclaw",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fd08056bdd20775aa37f41d2a5828590\"",
+  "lastModified": null,
+  "bodyBytes": 722673,
+  "bodySha256": "9f5f66588838e416d0d9c25fe2bf69610b2f36d70379bdb0992d42273f75020f",
+  "title": "GitHub - openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 · GitHub",
+  "github": {
+    "owner": "openclaw",
+    "repo": "openclaw",
+    "apiStatus": "unavailable"
+  }
+}

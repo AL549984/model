@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:45.673Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/prnake/kimi-deepresearch",
+  "finalUrl": "https://github.com/prnake/kimi-deepresearch",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f4dcf7df2f6084234baf9393688fd939\"",
+  "lastModified": null,
+  "bodyBytes": 281586,
+  "bodySha256": "60d49264cd578b4fcdeba7241b492bb6faa46e9996efb2146e05bb2bb0248adc",
+  "title": "GitHub - prnake/kimi-deepresearch: Kimi K2 Thinking Agentic Search Unofficial Implementation · GitHub",
+  "github": {
+    "owner": "prnake",
+    "repo": "kimi-deepresearch",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-mythos-5-anthropic-autonomous-genomics-research-20260627",
+  "modelId": "claude-mythos-5",
+  "modelName": "Claude Mythos 5",
+  "title": "Anthropic used Claude Mythos 5 for week-long autonomous genomics research across 138 animal species",
+  "evidenceFingerprint": "42b5c4d9db59ac5d7a15248d3ba1a9ca89972acbc03573a424c9b97e1adda1f0",
+  "capturedAt": "2026-06-27T23:26:33.661Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=Novel%20research%20in%20genomics",
+      "snapshotPath": "archive/evidence/claude-mythos-5-anthropic-autonomous-genomics-research-20260627/original-evidence-9f9cf598d093.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "bodySha256": "3d40c7c40d208fbf94970e1019e29130bd212c482fc4560e3bd1b20313eae28b",
+      "capturedAt": "2026-06-27T23:26:26.438Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=assembled%20single-cell%20data%20for%20millions%20of%20cells%20spanning%20138%20animal%20species",
+      "snapshotPath": "archive/evidence/claude-mythos-5-anthropic-autonomous-genomics-research-20260627/artifact-1-2eecec5450ce.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+      "bodySha256": "5f28691160ba6094b373cf28df452687d35c0637ce1a9da117602ec0033f81d1",
+      "capturedAt": "2026-06-27T23:26:28.241Z",
+      "error": ""
+    }
+  ]
+}

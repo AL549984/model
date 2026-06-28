@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:08.388Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/keanteng/chatbot",
+  "finalUrl": "https://github.com/keanteng/chatbot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d8efad8e1eddfb56862531a555126d72\"",
+  "lastModified": null,
+  "bodyBytes": 268997,
+  "bodySha256": "429d1614e4b18da07faddacc647452d7fd4b0c2be55977147558a5546aedbaaf",
+  "title": "GitHub - keanteng/chatbot: 🤖 A Streamlit Chatbot Using PaLM-2 · GitHub",
+  "github": {
+    "owner": "keanteng",
+    "repo": "chatbot",
+    "apiStatus": "unavailable"
+  }
+}

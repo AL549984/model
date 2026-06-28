@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-72b-neural-magic-redhat-fp8-vllm",
+  "modelId": "qwen2-72b",
+  "modelName": "Qwen2 72B",
+  "title": "Neural Magic / Red Hat AI created an FP8 vLLM-ready Qwen2 72B Instruct artifact",
+  "evidenceFingerprint": "cb2bacc01d6b33f196ec85868d324af91fb547eeb2e4053224ef6224c29480ba",
+  "capturedAt": "2026-06-27T23:25:29.372Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/RedHatAI/Qwen2-72B-Instruct-FP8/raw/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-72b-neural-magic-redhat-fp8-vllm/original-evidence-9c246aa60481.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "d211a453a98581b6ea1d761c689874f7f1ea8991e610be218adbee0eb976d1b4",
+      "capturedAt": "2026-06-27T23:25:28.823Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/RedHatAI/Qwen2-72B-Instruct-FP8",
+      "snapshotPath": "archive/evidence/qwen2-72b-neural-magic-redhat-fp8-vllm/artifact-1-395ebd5d4956.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RedHatAI/Qwen2-72B-Instruct-FP8 · Hugging Face",
+      "bodySha256": "6642d7d1cc2c05565e9ac65c9f0b71f1430a708379746a44f0a87d7fb626fce5",
+      "capturedAt": "2026-06-27T23:25:29.055Z",
+      "error": ""
+    }
+  ]
+}

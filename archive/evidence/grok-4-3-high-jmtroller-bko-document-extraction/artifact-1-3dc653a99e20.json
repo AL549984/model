@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:06.019Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/jmtroller/bko-document-extraction",
+  "finalUrl": "https://github.com/jmtroller/bko-document-extraction",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f2a6498226f5326f296477131ec87e31\"",
+  "lastModified": null,
+  "bodyBytes": 275281,
+  "bodySha256": "9810cedc6dec3e730faad0282f3ca7f84f18267e9f5d1cdd8f3b810b47f7d02b",
+  "title": "GitHub - jmtroller/bko-document-extraction: Structured extraction of data from bankruptcy (PACER) PDF documents. Grok 4.3 default, Wasabi + Mongo. Python port of Laravel Intel layer. · GitHub",
+  "github": {
+    "owner": "jmtroller",
+    "repo": "bko-document-extraction",
+    "apiStatus": "unavailable"
+  }
+}

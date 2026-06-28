@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:18.972Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/DrowskoytayhulGuider/DingZhen-bot",
+  "finalUrl": "https://github.com/DrowskoytayhulGuider/DingZhen-bot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"99601bbfa04ac3073486418cd4044f41\"",
+  "lastModified": null,
+  "bodyBytes": 306590,
+  "bodySha256": "d307140d02de6a2eb13fab430488dcf8f1b431002c930114d1ac22791c2a6865",
+  "title": "GitHub - DrowskoytayhulGuider/DingZhen-bot: 接入了Deepseek-V3.2 API 注入丁真角色提示词并带有通过MockingBird训练的TTS语音模型的整活聊天机器人。 · GitHub",
+  "github": {
+    "owner": "DrowskoytayhulGuider",
+    "repo": "DingZhen-bot",
+    "apiStatus": "unavailable"
+  }
+}

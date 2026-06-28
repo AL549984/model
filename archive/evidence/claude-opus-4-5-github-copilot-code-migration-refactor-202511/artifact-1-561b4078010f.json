@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:14.226Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/features/copilot",
+  "finalUrl": "https://github.com/features/copilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f977b5e1d2121fc105a50bfef67db809\"",
+  "lastModified": null,
+  "bodyBytes": 846251,
+  "bodySha256": "8b19cad4e79f7a7db9f722cc89994611ebd2094ef705abc2cb607a3fbe4d2df1",
+  "title": "GitHub Copilot · Your AI pair programmer · GitHub",
+  "github": {
+    "owner": "features",
+    "repo": "copilot",
+    "apiStatus": "unavailable"
+  }
+}

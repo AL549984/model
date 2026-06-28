@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-tinghecui-gpt-cc",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "Tinghecui/gpt-cc 用 GPT-5.1 high reasoning 作为 Claude Code 的 OpenAI 后端",
+  "evidenceFingerprint": "91e04da4aaded8dd7a1ffbebd7145afa6140bfb5c0caae2554b27914c8a6fd07",
+  "capturedAt": "2026-06-27T21:14:46.097Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Tinghecui/gpt-cc/main/.env.template",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-tinghecui-gpt-cc/original-evidence-87adcc0ccdf9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "85407339ebe15769341e3861458d5ed84c5671931bdaa8bbc839d58a94ab40b6",
+      "capturedAt": "2026-06-27T21:14:44.528Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Tinghecui/gpt-cc",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-tinghecui-gpt-cc/artifact-1-8af3381bc419.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Tinghecui/gpt-cc · GitHub",
+      "bodySha256": "73705f27eb4853d306e0ffbbf86b5d64244d12874790d1c49193e5cfcbdb556b",
+      "capturedAt": "2026-06-27T21:14:44.856Z",
+      "error": ""
+    }
+  ]
+}

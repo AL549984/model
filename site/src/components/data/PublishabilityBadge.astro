@@ -13,13 +13,13 @@ const statusKeys: Record<string, string> = {
 const label = publicStatusLabel(statusKeys[normalized] ?? String(status ?? "待定"));
 const classes =
   normalized === "publishable"
-    ? "border-emerald-400/40 bg-emerald-400/12 text-emerald-200"
+    ? "border-[#ff3b4e]/60 text-[#f4f1ea]"
     : normalized === "limited"
-      ? "border-amber-300/40 bg-amber-300/12 text-amber-100"
-      : "border-rose-300/40 bg-rose-300/12 text-rose-100";
+      ? "border-[#f4f1ea]/30 text-[#a8a29a]"
+      : "border-[#ff3b4e]/40 text-[#ff3b4e]";
 ---
 
-<span class={`inline-flex items-center gap-1 rounded-md border px-2.5 py-1 text-xs font-semibold ${classes}`}>
+<span class={`mono inline-flex items-center gap-1 border bg-transparent px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] ${classes}`}>
   <span class="h-1.5 w-1.5 rounded-full bg-current"></span>
   {label}
 </span>

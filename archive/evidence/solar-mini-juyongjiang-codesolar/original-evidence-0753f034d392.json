@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:31.422Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/juyongjiang/CodeSolar/blob/master/README.md",
+  "finalUrl": "https://github.com/juyongjiang/CodeSolar/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fe5ba837ca39f7ac10b0b55c75d8bdc3\"",
+  "lastModified": null,
+  "bodyBytes": 256360,
+  "bodySha256": "3d560f3afb749e85f568989f4c7c1afdc2b429065c3525eab54dcc1ee206ed0a",
+  "title": "CodeSolar/README.md at master · juyongjiang/CodeSolar · GitHub",
+  "github": {
+    "owner": "juyongjiang",
+    "repo": "CodeSolar",
+    "apiStatus": "unavailable"
+  }
+}

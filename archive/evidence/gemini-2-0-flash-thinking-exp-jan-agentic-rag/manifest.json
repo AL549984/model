@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-thinking-exp-jan-agentic-rag",
+  "modelId": "gemini-2-0-flash-thinking-exp-jan",
+  "modelName": "Gemini 2.0 Flash Thinking exp. (Jan)",
+  "title": "Abdulraqib20 built an Agentic RAG app powered by Gemini 2.0 Flash Thinking",
+  "evidenceFingerprint": "6bb141d047054e73bb481b53edc6a02d0e5b63da72515867b2833ecee6b1dc84",
+  "capturedAt": "2026-06-27T21:46:50.446Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-agentic-rag/original-evidence-75c9386b8de6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Agentic-RAG-with-Gemini-2.0-Flash/README.md at main · Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash · GitHub",
+      "bodySha256": "f891626f56d0f7f5f872eba041805717e57622be778080ac795a193a8b770547",
+      "capturedAt": "2026-06-27T21:46:48.353Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-agentic-rag/artifact-1-6d39966225f4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash: An intelligent RAG system powered by Google&#39;s Gemini 2.0 Flash Thinking, Qdrant vector storage, and Agno agent orchestration. Upload documents, process web pages, and get AI-assis",
+      "bodySha256": "b22de4f8b148a646c8e6cc65456c33d269464bc05eb7193cc0dac26c9e504633",
+      "capturedAt": "2026-06-27T21:46:49.404Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "step-3-7-flash-clawd-local-ai-chess",
+  "modelId": "step-3-7-flash",
+  "modelName": "Step 3.7 Flash",
+  "title": "clawd-local-ai-chess ran Step-3.7-Flash as a local chess-playing LLM",
+  "evidenceFingerprint": "28c075ad9b4260a094bf89995de4d28b7a3d0320f90dbb36ea5564b185c44b0f",
+  "capturedAt": "2026-06-27T21:28:23.259Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/clawdbotatg/clawd-local-ai-chess/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/step-3-7-flash-clawd-local-ai-chess/original-evidence-c5e12f5f9ac5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "71c334b51e8f40cdc362cc1fe307ebb19c490cb24bac13aa022aaa9efc1baa57",
+      "capturedAt": "2026-06-27T21:28:21.897Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/clawdbotatg/clawd-local-ai-chess/blob/main/chess/game.pgn",
+      "snapshotPath": "archive/evidence/step-3-7-flash-clawd-local-ai-chess/artifact-1-f076b30d2f15.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "clawd-local-ai-chess/chess/game.pgn at main · clawdbotatg/clawd-local-ai-chess · GitHub",
+      "bodySha256": "6cd790e7bfaef2e361e7dfe31c0addb4a489383350a64af6cb516fcb5461e7e8",
+      "capturedAt": "2026-06-27T21:28:22.219Z",
+      "error": ""
+    }
+  ]
+}

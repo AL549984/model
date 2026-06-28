@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-openclaw-model-bridge-pa-runtime",
+  "modelId": "qwen3-235b",
+  "modelName": "Qwen3 235B",
+  "title": "openclaw-model-bridge uses Qwen3-235B as the primary LLM in a production personal-assistant control plane",
+  "evidenceFingerprint": "58d39ae205c7a5336087301f5b0bea5e164589cb0fb688081033aaea9f9b4e88",
+  "capturedAt": "2026-06-27T21:27:56.732Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/bisdom-cell/openclaw-model-bridge/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-235b-openclaw-model-bridge-pa-runtime/original-evidence-e7e65833e9ba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "88b5953355cb643e0894bd217760c7573bdcc8e39bc44d71382b8b4f44326718",
+      "capturedAt": "2026-06-27T21:27:54.867Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bisdom-cell/openclaw-model-bridge",
+      "snapshotPath": "archive/evidence/qwen3-235b-openclaw-model-bridge-pa-runtime/artifact-1-29d389445de7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bisdom-cell/openclaw-model-bridge: Connect any LLM to OpenClaw — production-tested middleware for Qwen3-235B and beyond · GitHub",
+      "bodySha256": "d842a02ac88ed5cec3d9fca253cdf9442bf084b24e8cf5f4cbb6715477505436",
+      "capturedAt": "2026-06-27T21:27:55.301Z",
+      "error": ""
+    }
+  ]
+}

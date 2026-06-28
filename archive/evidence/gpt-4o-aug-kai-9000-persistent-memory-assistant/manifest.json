@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4o-aug-kai-9000-persistent-memory-assistant",
+  "modelId": "gpt-4o-aug",
+  "modelName": "GPT-4o (Aug)",
+  "title": "Kai 9000 exposes GPT-4o 2024-08-06 in a cross-platform persistent-memory AI assistant",
+  "evidenceFingerprint": "653d93858a7ea5e7ba32169437e159d8d9bcf77f15b0f4b81396e34cb9042ed4",
+  "capturedAt": "2026-06-27T22:01:01.297Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SimonSchubert/Kai/blob/main/composeApp/src/commonMain/kotlin/com/inspiredandroid/kai/data/ModelCatalog.kt#L93",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-kai-9000-persistent-memory-assistant/original-evidence-cc8003bd0837.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Kai/composeApp/src/commonMain/kotlin/com/inspiredandroid/kai/data/ModelCatalog.kt at main · SimonSchubert/Kai · GitHub",
+      "bodySha256": "8d08373ba9c5e1bc3614fcdc66722caab8640aacda4b3e74ac6ecbcfd546003d",
+      "capturedAt": "2026-06-27T22:00:58.050Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://kai9000.com/app/",
+      "snapshotPath": "archive/evidence/gpt-4o-aug-kai-9000-persistent-memory-assistant/artifact-1-03482d8d88d1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Kai",
+      "bodySha256": "2d716d38b64adb7329f572a8617d809e90736d94098116755d675f04b88e9c1c",
+      "capturedAt": "2026-06-27T22:01:00.055Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:30.671Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/spaces/lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507",
+  "finalUrl": "https://huggingface.co/spaces/lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b8de-sYa9j8yb7/qPJKeaHpi3QHl+NM0\"",
+  "lastModified": null,
+  "bodyBytes": 47326,
+  "bodySha256": "7cc36be814cba37b3634185b719ff2596da7d67cc4c0b89cfd3519c6f733b774",
+  "title": "Qwen Qwen3 235B A22B Instruct 2507 - a Hugging Face Space by lalopenguin",
+  "github": null
+}

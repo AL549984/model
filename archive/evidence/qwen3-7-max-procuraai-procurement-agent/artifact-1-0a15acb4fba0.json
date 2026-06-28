@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:06.438Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MM1ng/ProcuraAI",
+  "finalUrl": "https://github.com/MM1ng/ProcuraAI",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"38c38af3bf401ae2519ecab209f61056\"",
+  "lastModified": null,
+  "bodyBytes": 321484,
+  "bodySha256": "30eab00e8e757bd9ec1932e1187189d89dead74e579cf555d2f65b7c467315c4",
+  "title": "GitHub - MM1ng/ProcuraAI: Enterprise Procurement Agent powered by Qwen3.7-Max, Agentic RAG, and Multi-turn Workflow Planning. · GitHub",
+  "github": {
+    "owner": "MM1ng",
+    "repo": "ProcuraAI",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:13.011Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/config.example.toml#L138-L145",
+  "finalUrl": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/config.example.toml",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"84b2789c34ae673984f3fecb25380919\"",
+  "lastModified": null,
+  "bodyBytes": 454959,
+  "bodySha256": "42f2060df5c3d7558b8b67962ae861d8c14f4a357e16af9ceb25ea93514c958f",
+  "title": "MoneyPrinterTurbo/config.example.toml at main · harry0703/MoneyPrinterTurbo · GitHub",
+  "github": {
+    "owner": "harry0703",
+    "repo": "MoneyPrinterTurbo",
+    "apiStatus": "unavailable"
+  }
+}

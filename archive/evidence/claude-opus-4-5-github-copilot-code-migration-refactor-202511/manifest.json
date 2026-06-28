@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-5-github-copilot-code-migration-refactor-202511",
+  "modelId": "claude-opus-4-5",
+  "modelName": "Claude Opus 4.5",
+  "title": "GitHub Copilot 使用 Claude Opus 4.5 支撑代码迁移与重构类 agentic workflow",
+  "evidenceFingerprint": "853548a97ff243d67e1544f109decfdfab48b28412dc4884380b99c63f2fccac",
+  "capturedAt": "2026-06-27T20:55:17.604Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5#github-copilot-mario-rodriguez",
+      "snapshotPath": "archive/evidence/claude-opus-4-5-github-copilot-code-migration-refactor-202511/original-evidence-a345654535a7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "bodySha256": "9f36ed4675e7876fe64d792ad384c5957889720e454c8f0d862984476c1c4fa3",
+      "capturedAt": "2026-06-27T20:55:07.318Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/features/copilot",
+      "snapshotPath": "archive/evidence/claude-opus-4-5-github-copilot-code-migration-refactor-202511/artifact-1-561b4078010f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub Copilot · Your AI pair programmer · GitHub",
+      "bodySha256": "8b19cad4e79f7a7db9f722cc89994611ebd2094ef705abc2cb607a3fbe4d2df1",
+      "capturedAt": "2026-06-27T20:55:14.226Z",
+      "error": ""
+    }
+  ]
+}

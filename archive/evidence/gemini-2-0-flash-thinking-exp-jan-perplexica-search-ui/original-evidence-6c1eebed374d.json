@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:55.676Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/data5650/Perplexica/pull/1",
+  "finalUrl": "https://github.com/data5650/Perplexica/pull/1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 254702,
+  "bodySha256": "a71c496dbf296efe6b45d98bb03037b9a68d41474e938c800c2e6965e008cb23",
+  "title": "feat: add Gemini 2.0 Flash Exp models by data5650 · Pull Request #1 · data5650/Perplexica · GitHub",
+  "github": {
+    "owner": "data5650",
+    "repo": "Perplexica",
+    "apiStatus": "unavailable"
+  }
+}

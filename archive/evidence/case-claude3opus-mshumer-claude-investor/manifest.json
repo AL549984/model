@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-claude3opus-mshumer-claude-investor",
+  "modelId": "claude-3-opus",
+  "modelName": "Claude 3 Opus",
+  "title": "Matt Shumer 使用 Claude 3 Opus 构建 Claude-Investor 智能投资分析 Agent",
+  "evidenceFingerprint": "8856f5d1fb1daee23961a8e2a7e908e7bc360c78f656fb1ed649271bd81ff2df",
+  "capturedAt": "2026-06-27T19:29:49.339Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mshumer/gpt-investor",
+      "snapshotPath": "archive/evidence/case-claude3opus-mshumer-claude-investor/original-evidence-15359defac0d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mshumer/gpt-investor · GitHub",
+      "bodySha256": "a5aba4aef68a3e469c29358d355f5865e0d5be114414ee0840072d32356982c8",
+      "capturedAt": "2026-06-27T19:29:46.927Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mshumer/gpt-investor",
+      "snapshotPath": "archive/evidence/case-claude3opus-mshumer-claude-investor/artifact-1-15359defac0d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mshumer/gpt-investor · GitHub",
+      "bodySha256": "f357ea43479bc42ce56081cdc41aa2998f8f14cb76317765597d8a553f1a10c8",
+      "capturedAt": "2026-06-27T19:29:48.690Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:09.404Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/otispm2020-dotcom/HTML_Slides_Copilot",
+  "finalUrl": "https://github.com/otispm2020-dotcom/HTML_Slides_Copilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"19577ba96050664eebe8b33e907c447c\"",
+  "lastModified": null,
+  "bodyBytes": 315874,
+  "bodySha256": "b9551016c4e38fda6bf94e1db77be97c7134a9ddecf7feb6b23b13ff97744bba",
+  "title": "GitHub - otispm2020-dotcom/HTML_Slides_Copilot: It is a Chrome extension that enables users to control web browsers and extract information through natural language commands. By leveraging the SiliconFlow large language model API (DeepSeek-",
+  "github": {
+    "owner": "otispm2020-dotcom",
+    "repo": "HTML_Slides_Copilot",
+    "apiStatus": "unavailable"
+  }
+}

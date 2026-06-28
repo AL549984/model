@@ -5,15 +5,15 @@ const { title = "风险提示", tone = "limited", notes: rawNotes = [] } = Astro
 const notes = rawNotes as string[];
 const toneClass =
   tone === "hold"
-    ? "border-rose-400/30 bg-rose-500/10"
+    ? "border-[#ff3b4e]/45 bg-[#ff3b4e]/[0.06]"
     : tone === "neutral"
-      ? "border-slate-400/25 bg-slate-500/10"
-      : "border-amber-300/30 bg-amber-400/10";
+      ? "border-[#f4f1ea]/20 bg-[#070707]"
+      : "border-[#ff3b4e]/35 bg-[#ff3b4e]/[0.045]";
 ---
 
-<aside class={`rounded-lg border p-4 ${toneClass}`}>
-  <p class="mono text-xs uppercase tracking-[0.12em] text-slate-300">{publicizeText(title)}</p>
-  <ul class="mt-3 space-y-2 text-sm text-slate-200">
+<aside class={`border p-4 ${toneClass}`}>
+  <p class="mono text-xs uppercase tracking-[0.12em] text-[#ff3b4e]">{publicizeText(title)}</p>
+  <ul class="mt-3 space-y-2 text-sm text-[#a8a29a]">
     {notes.map((note: string) => <li class="leading-relaxed">- {publicizeText(note)}</li>)}
   </ul>
 </aside>

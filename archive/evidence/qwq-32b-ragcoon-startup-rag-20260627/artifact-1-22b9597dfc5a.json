@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:40.055Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/AstraBert/ragcoon",
+  "finalUrl": "https://github.com/AstraBert/ragcoon",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7020daa9adae28bc972ead95bcb9cf1b\"",
+  "lastModified": null,
+  "bodyBytes": 322231,
+  "bodySha256": "075c39799deff9c118b5de81ad0d28fb016a03922da56e4e12a10b2af4db7f34",
+  "title": "GitHub - AstraBert/ragcoon: Agentic RAG to help you build a startup🚀 · GitHub",
+  "github": {
+    "owner": "AstraBert",
+    "repo": "ragcoon",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-coder-v2-blade-algo",
+  "modelId": "deepseek-coder-v2",
+  "modelName": "DeepSeek-Coder-V2-16B",
+  "title": "BLADE: LLM-Driven Automated Algorithm Design Using DeepSeek-Coder-V2 as Code Evolution Engine",
+  "evidenceFingerprint": "60e8bf98753737a6ff301df165ef4a055d5f02e71a76674859773d7662577eca",
+  "capturedAt": "2026-06-27T21:01:40.163Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/XAI-liacs/BLADE",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-blade-algo/original-evidence-31c7712912fa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - XAI-liacs/BLADE: Benchmarking Llm Assisted Design &amp; Evolution of algorithms · GitHub",
+      "bodySha256": "e3240bc25abbfa0c21bc293a0534e3c99f16de06e603a46fcae47d4171b50973",
+      "capturedAt": "2026-06-27T21:01:37.791Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/XAI-liacs/BLADE",
+      "snapshotPath": "archive/evidence/deepseek-coder-v2-blade-algo/artifact-1-31c7712912fa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - XAI-liacs/BLADE: Benchmarking Llm Assisted Design &amp; Evolution of algorithms · GitHub",
+      "bodySha256": "30a3d81c712bf3a68dbc94347ea3548b89bc099a6a6c1b115f603da6e3324376",
+      "capturedAt": "2026-06-27T21:01:39.527Z",
+      "error": ""
+    }
+  ]
+}

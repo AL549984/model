@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:32.789Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mluggy/apify-deep-research",
+  "finalUrl": "https://github.com/mluggy/apify-deep-research",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f8375eb72959018fab924d304064010f\"",
+  "lastModified": null,
+  "bodyBytes": 280593,
+  "bodySha256": "433920804711a108cc572f4ac7ed5a2e96154a5658fe95d05ad67881831ef667",
+  "title": "GitHub - mluggy/apify-deep-research · GitHub",
+  "github": {
+    "owner": "mluggy",
+    "repo": "apify-deep-research",
+    "apiStatus": "unavailable"
+  }
+}

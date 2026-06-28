@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-65b-h2oai-h2ogpt-oasst1-chatbot",
+  "modelId": "llama-65b",
+  "modelName": "Llama 65B",
+  "title": "H2O.ai 基于 LLaMA 65B 微调 h2oGPT OASST1 指令聊天模型",
+  "evidenceFingerprint": "e5341a2cc48d9899968df6aafdb086a6e4a4a5db2f052214a7e11ebd3d6226f7",
+  "capturedAt": "2026-06-27T23:25:18.290Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/h2oai/h2ogpt-research-oasst1-llama-65b/raw/main/README.md",
+      "snapshotPath": "archive/evidence/llama-65b-h2oai-h2ogpt-oasst1-chatbot/original-evidence-ba33ff894371.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ce3767801973cd02c049d55eb421d2e78540177d18c48bcfeb41566243f81abd",
+      "capturedAt": "2026-06-27T23:25:16.596Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/h2oai/h2ogpt-research-oasst1-llama-65b",
+      "snapshotPath": "archive/evidence/llama-65b-h2oai-h2ogpt-oasst1-chatbot/artifact-1-2e5ac077bc58.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "h2oai/h2ogpt-research-oasst1-llama-65b · Hugging Face",
+      "bodySha256": "b01ac621cd1690a97df5cbe12de414f2dc80f9106ca08997d98e63fcff7c5bf6",
+      "capturedAt": "2026-06-27T23:25:17.616Z",
+      "error": ""
+    }
+  ]
+}

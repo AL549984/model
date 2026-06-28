@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-1-keyfan-hf-transformers-conversion-202403",
+  "modelId": "grok-1",
+  "modelName": "Grok-1",
+  "title": "keyfan 将 Grok-1 开源权重转换为 Hugging Face Transformers 格式",
+  "evidenceFingerprint": "9aeaf2beb3216c3f04c19e820b53360e5bf3f47cd0f90c7df63b75ce1b937247",
+  "capturedAt": "2026-06-27T23:25:23.074Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/keyfan/grok-1-hf/raw/main/README.md",
+      "snapshotPath": "archive/evidence/grok-1-keyfan-hf-transformers-conversion-202403/original-evidence-09ed2bc2f53b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "1302a1cca5efd400f0c0a161d14db18da1245102d42a329e2b06234d462fab21",
+      "capturedAt": "2026-06-27T23:25:22.512Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/keyfan/grok-1-hf",
+      "snapshotPath": "archive/evidence/grok-1-keyfan-hf-transformers-conversion-202403/artifact-1-1fb1998a7691.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "keyfan/grok-1-hf · Hugging Face",
+      "bodySha256": "0b9dd1605d2e5078d159ee50895f23e89fab54252b072aca3e20455f98ed15eb",
+      "capturedAt": "2026-06-27T23:25:22.752Z",
+      "error": ""
+    }
+  ]
+}

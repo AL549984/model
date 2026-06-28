@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:29.122Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/gameworkerkim/vibe-investing/tree/main/LAON_VaultGuard",
+  "finalUrl": "https://github.com/gameworkerkim/vibe-investing/tree/main/LAON_VaultGuard",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6e70fe92a4d89fa3ac7b040960f9aea7\"",
+  "lastModified": null,
+  "bodyBytes": 496204,
+  "bodySha256": "daaa10cf9f71c93d3076b6c551b9e2bab3d23747a3c8566e68dfbaa9ef3d6e7c",
+  "title": "vibe-investing/LAON_VaultGuard at main · gameworkerkim/vibe-investing · GitHub",
+  "github": {
+    "owner": "gameworkerkim",
+    "repo": "vibe-investing",
+    "apiStatus": "unavailable"
+  }
+}

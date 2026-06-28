@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:39.357Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Christopher-Schulze/ClankWork",
+  "finalUrl": "https://github.com/Christopher-Schulze/ClankWork",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4a2464ce0da26862c36ff0f891ebe6d9\"",
+  "lastModified": null,
+  "bodyBytes": 340992,
+  "bodySha256": "9d446e252011b2d5e23c54f37f1b7215c9a59776bed2094a0ab495789c5c9de8",
+  "title": "GitHub - Christopher-Schulze/ClankWork: Always-on macOS AI agent controlled via Telegram, powered by Qwen3.6 Plus with 1M context, computer use, vision, and cost-efficient inference. · GitHub",
+  "github": {
+    "owner": "Christopher-Schulze",
+    "repo": "ClankWork",
+    "htmlUrl": "https://github.com/Christopher-Schulze/ClankWork",
+    "defaultBranch": "main",
+    "defaultBranchSha": "a17d51293772aed4f4462e85abc04766cc88b3a7",
+    "pushedAt": "2026-05-13T09:18:23Z",
+    "updatedAt": "2026-05-13T09:18:35Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

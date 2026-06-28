@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:37.865Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/cRED-f/QuestGen-AI-Agent",
+  "finalUrl": "https://github.com/cRED-f/QuestGen-AI-Agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"16fa5929275f3536b4575595efa57cdf\"",
+  "lastModified": null,
+  "bodyBytes": 354710,
+  "bodySha256": "3e750b3e4f4de3530327ae5766b96bd199ecfe16112044b50f00a19b4cac0321",
+  "title": "GitHub - cRED-f/QuestGen-AI-Agent: QuestGen-AI is an advanced exam question generation platform that leverages AI-Agent to automatically create customized question papers from user-uploaded PDF content · GitHub",
+  "github": {
+    "owner": "cRED-f",
+    "repo": "QuestGen-AI-Agent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:20.982Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/TheAnswerManIsHere/Overhypeme/pull/74",
+  "finalUrl": "https://github.com/TheAnswerManIsHere/Overhypeme/pull/74",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 307425,
+  "bodySha256": "c4360e0da5f745ffa1f2c1ccd9c3c69e82258f0045cfa87e546005468033c758",
+  "title": "Add GPT-5 reasoning models + reasoning-effort lever to the AI prompts by TheAnswerManIsHere · Pull Request #74 · TheAnswerManIsHere/Overhypeme · GitHub",
+  "github": {
+    "owner": "TheAnswerManIsHere",
+    "repo": "Overhypeme",
+    "htmlUrl": "https://github.com/TheAnswerManIsHere/Overhypeme",
+    "defaultBranch": "main",
+    "defaultBranchSha": "795ce0938252e7c70c94e48008e68e7cece4612b",
+    "pushedAt": "2026-06-27T21:53:34Z",
+    "updatedAt": "2026-06-27T21:50:58Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:48.087Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yesbhautik/Master-AI-BOT",
+  "finalUrl": "https://github.com/yesbhautik/Master-AI-BOT",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"17656f274a6d596777d9cf017ad365aa\"",
+  "lastModified": null,
+  "bodyBytes": 322508,
+  "bodySha256": "41a1434685e6e43a5f033d4c20b5b54e7d3e649ab96aac0fa4db9ce374df583a",
+  "title": "GitHub - yesbhautik/Master-AI-BOT: Master AI BOT 🤖: Unleash the power of GPT-4 Turbo with our fast and limitless Telegram bot. Say goodbye to daily usage limits and laggy interfaces. Explore special chat modes, group chat support, and DALL",
+  "github": {
+    "owner": "yesbhautik",
+    "repo": "Master-AI-BOT",
+    "apiStatus": "unavailable"
+  }
+}

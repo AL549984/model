@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-openmyeyesxz-image-renamed-by-ai-ocr",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "Image-Renamd_By_AI-OCR uses Seed1.5-VL/Doubao Thinking Vision Pro for field-trial label OCR and batch image renaming",
+  "evidenceFingerprint": "e8b17b75953e6980f02658dee6fd67cf95d81a07978d610e6553c054d7471809",
+  "capturedAt": "2026-06-27T23:23:05.342Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Openmyeyesxz/Image-Renamd_By_AI-OCR/blob/main/AI_Tags_OCR.py",
+      "snapshotPath": "archive/evidence/seed1-5-vl-openmyeyesxz-image-renamed-by-ai-ocr/original-evidence-0fd2e14cee5e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Image-Renamd_By_AI-OCR/AI_Tags_OCR.py at main · Openmyeyesxz/Image-Renamd_By_AI-OCR · GitHub",
+      "bodySha256": "314a77e0bd1200614d9c5b81b325f1dafe7e55c4b98d41f02dda9c0fd74b1c48",
+      "capturedAt": "2026-06-27T23:23:03.281Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Openmyeyesxz/Image-Renamd_By_AI-OCR",
+      "snapshotPath": "archive/evidence/seed1-5-vl-openmyeyesxz-image-renamed-by-ai-ocr/artifact-1-250fa2763a05.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Openmyeyesxz/Image-Renamd_By_AI-OCR: During field trials, sample names or sample codes are typically displayed on rigid labels of various colours. To reduce labour costs, minimise time expenditure, and enhance operational efficienc",
+      "bodySha256": "cbd835b8358de1f8cd41ac6e550ed4044764669fc536679a20bab7b801249868",
+      "capturedAt": "2026-06-27T23:23:04.290Z",
+      "error": ""
+    }
+  ]
+}

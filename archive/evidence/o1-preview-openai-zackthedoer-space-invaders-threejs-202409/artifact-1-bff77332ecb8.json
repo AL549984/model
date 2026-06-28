@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:46.812Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ZackTheDoer/o1-preview-space-invaders",
+  "finalUrl": "https://github.com/ZackTheDoer/o1-preview-space-invaders",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a27975f547ed8f137ba0cb144d72e2cc\"",
+  "lastModified": null,
+  "bodyBytes": 245415,
+  "bodySha256": "ff36bcaa0c9cdc1822bb28c725ef9296f7c5effe0fecc839994fb43308e03e69",
+  "title": "GitHub - ZackTheDoer/o1-preview-space-invaders: Space invaders in a single index.html file created with o1-preview-space-invaders in a single prompt. · GitHub",
+  "github": {
+    "owner": "ZackTheDoer",
+    "repo": "o1-preview-space-invaders",
+    "apiStatus": "unavailable"
+  }
+}

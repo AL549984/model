@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-cherry-studio-mobile-assistant",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "Cherry Studio App lists MiniMax M1 80K for mobile multi-LLM chat",
+  "evidenceFingerprint": "912354ffacff52281211a9a129dacc35cd32d50c4e9b96780c53ecf40a3283da",
+  "capturedAt": "2026-06-27T22:44:21.087Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CherryHQ/cherry-studio-app/blob/main/src/config/models/default.ts#L335-L340",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-cherry-studio-mobile-assistant/original-evidence-fc3bd3752c64.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "cherry-studio-app/src/config/models/default.ts at main · CherryHQ/cherry-studio-app · GitHub",
+      "bodySha256": "8d9dfdf6f77922d8c3ee305534ed1ec2377946906449ae32302373966ddf9581",
+      "capturedAt": "2026-06-27T22:44:18.866Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CherryHQ/cherry-studio-app",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-cherry-studio-mobile-assistant/artifact-1-7baf4ac611d4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CherryHQ/cherry-studio-app: 🍒 This is the mobile version of Cherry Studio. · GitHub",
+      "bodySha256": "2ff9ce4b8b239836713aa39414cb8191836564c84f547f7f43b11164e9a31634",
+      "capturedAt": "2026-06-27T22:44:20.072Z",
+      "error": ""
+    }
+  ]
+}

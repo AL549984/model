@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:14.013Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "finalUrl": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"670dfa50d91c40e2c28808f16a29ce40\"",
+  "lastModified": null,
+  "bodyBytes": 496422,
+  "bodySha256": "b635995980c9bbe8d3e3b1bc4312008ff087fe4b3662ada2cfc8337b37ee49c2",
+  "title": "GitHub - harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. · GitHub",
+  "github": {
+    "owner": "harry0703",
+    "repo": "MoneyPrinterTurbo",
+    "apiStatus": "unavailable"
+  }
+}

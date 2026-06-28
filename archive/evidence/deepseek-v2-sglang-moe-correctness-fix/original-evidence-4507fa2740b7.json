@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:21.935Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/sgl-project/sglang/pull/26133",
+  "finalUrl": "https://github.com/sgl-project/sglang/pull/26133",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 521277,
+  "bodySha256": "59e3847c540774f6bd936557c1c1aed27c857c95838854759884be8f44b72c69",
+  "title": "Fix DeepSeek-V2 MoE/MLA correctness + perf with padded forward batches by klshuster · Pull Request #26133 · sgl-project/sglang · GitHub",
+  "github": {
+    "owner": "sgl-project",
+    "repo": "sglang",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:38.553Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/1596941391qq/Mem1/blob/master/README.md",
+  "finalUrl": "https://github.com/1596941391qq/Mem1/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bda162ac7a7f2e60b54118b7788396b8\"",
+  "lastModified": null,
+  "bodyBytes": 258198,
+  "bodySha256": "f0c45243998639deac961769c3a6204a9f808fa44d70c2ed7ece792e40e7770e",
+  "title": "Mem1/README.md at master · 1596941391qq/Mem1 · GitHub",
+  "github": {
+    "owner": "1596941391qq",
+    "repo": "Mem1",
+    "apiStatus": "unavailable"
+  }
+}

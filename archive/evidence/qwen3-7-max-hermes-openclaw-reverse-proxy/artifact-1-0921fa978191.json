@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:01.817Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ada682/hermes-openclaw",
+  "finalUrl": "https://github.com/ada682/hermes-openclaw",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9da47896b5d95a86331cf7a3c526366e\"",
+  "lastModified": null,
+  "bodyBytes": 289827,
+  "bodySha256": "91790f062a09969b043147c4511a99f7234c3d700708781005df6f59f4dc1b0a",
+  "title": "GitHub - ada682/hermes-openclaw: Kimi K2.6 &amp; Qwen3.7-max / Deepseek V4pro reverse API — unlimited token pool, Hermes agents, Openclaw agents. OpenAI-compatible API · GitHub",
+  "github": {
+    "owner": "ada682",
+    "repo": "hermes-openclaw",
+    "htmlUrl": "https://github.com/ada682/hermes-openclaw",
+    "defaultBranch": "main",
+    "defaultBranchSha": "09cb2b36b9fb9b1dcd1d16e96fd863c2eefcd1b5",
+    "pushedAt": "2026-06-26T07:15:55Z",
+    "updatedAt": "2026-06-26T07:15:58Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

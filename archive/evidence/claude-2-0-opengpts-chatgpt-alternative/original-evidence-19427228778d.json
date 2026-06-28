@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:37.098Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/langchain-ai/opengpts/blob/main/README.md",
+  "finalUrl": "https://github.com/langchain-ai/opengpts/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d5eb522ed709af18d348b5fa762a4dc8\"",
+  "lastModified": null,
+  "bodyBytes": 375954,
+  "bodySha256": "10a7c02a5c8cf60b3d4d70ec846984e5e763436341c27a9c76fbeb8198b8ce48",
+  "title": "opengpts/README.md at main · langchain-ai/opengpts · GitHub",
+  "github": {
+    "owner": "langchain-ai",
+    "repo": "opengpts",
+    "htmlUrl": "https://github.com/langchain-ai/opengpts",
+    "defaultBranch": "main",
+    "defaultBranchSha": "8e7fef72e1f7fd1cd3518b4c6e1d6fbb33a4fe2c",
+    "pushedAt": "2025-06-26T04:17:28Z",
+    "updatedAt": "2026-06-26T21:45:21Z",
+    "archived": true,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

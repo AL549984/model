@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:39.531Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/matsumotokohei/ai_fighters",
+  "finalUrl": "https://github.com/matsumotokohei/ai_fighters",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f29f694a36b4f695d43ee0f9c3280945\"",
+  "lastModified": null,
+  "bodyBytes": 264326,
+  "bodySha256": "6c333e20142b86930bcef7dcd0e58c4fa2fb502a9f21a3a93505859293cdc09c",
+  "title": "GitHub - matsumotokohei/ai_fighters: DIY 2D fighting game made with OpenCode (Model Kimi K2.6) · GitHub",
+  "github": {
+    "owner": "matsumotokohei",
+    "repo": "ai_fighters",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5-high-viral2viral-ugc",
+  "modelId": "gpt-5-high",
+  "modelName": "GPT-5 (high)",
+  "title": "viral2viral AI UGC Advertisement Video Generator",
+  "evidenceFingerprint": "917fe5bcb8e8b974d800c263434b203734d0659f4ff0c708e268c7bc2cd03c59",
+  "capturedAt": "2026-06-27T22:08:07.271Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/IuriiD/viral2viral",
+      "snapshotPath": "archive/evidence/gpt5-high-viral2viral-ugc/original-evidence-27fa34b8e90a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - IuriiD/viral2viral: AI-cloner for UGC videos (POC), built with GH Spec Kit · GitHub",
+      "bodySha256": "f659c88050696ddfa470cc552abd47be655498d7d45d63cced40ff5a658f6b0d",
+      "capturedAt": "2026-06-27T22:08:05.678Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/IuriiD/viral2viral",
+      "snapshotPath": "archive/evidence/gpt5-high-viral2viral-ugc/artifact-1-27fa34b8e90a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - IuriiD/viral2viral: AI-cloner for UGC videos (POC), built with GH Spec Kit · GitHub",
+      "bodySha256": "4f856908acbea86f92752ca886ddacc6b858b01e6a5175c5c47674beb2623870",
+      "capturedAt": "2026-06-27T22:08:06.720Z",
+      "error": ""
+    }
+  ]
+}

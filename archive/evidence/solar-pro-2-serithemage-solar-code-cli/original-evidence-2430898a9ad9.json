@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:56.978Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/serithemage/solar-code#readme",
+  "finalUrl": "https://github.com/serithemage/solar-code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ca13e780a546e454250882a0d13f06c1\"",
+  "lastModified": null,
+  "bodyBytes": 456209,
+  "bodySha256": "c965c54cd98e8738674af00ffe360d8599f9262c7d7bad7b16eb7faac00fa730",
+  "title": "GitHub - serithemage/solar-code: Solar Pro2 powered code assistant based on Gemini CLI · GitHub",
+  "github": {
+    "owner": "serithemage",
+    "repo": "solar-code",
+    "apiStatus": "unavailable"
+  }
+}

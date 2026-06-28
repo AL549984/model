@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "bagel-sensenova-si-spatial-intelligence",
+  "modelId": "bagel",
+  "modelName": "BAGEL",
+  "title": "SenseNova-SI 基于 BAGEL 构建空间智能多模态模型",
+  "evidenceFingerprint": "4f3b9303ffcb04efd154ab06c5767def8c71e2e00ebc669d9b7969f94d0eedb5",
+  "capturedAt": "2026-06-27T23:25:21.264Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT/raw/main/README.md",
+      "snapshotPath": "archive/evidence/bagel-sensenova-si-spatial-intelligence/original-evidence-79714f1e6ba1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "85cde7e2792ec912e6c82f8c0f1c69079bffb106d59a5a574da2b5aa45b6b15f",
+      "capturedAt": "2026-06-27T23:25:20.674Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT",
+      "snapshotPath": "archive/evidence/bagel-sensenova-si-spatial-intelligence/artifact-1-247bc65a238c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT · Hugging Face",
+      "bodySha256": "0e6e5a0b06ffb11450d4ecffc208233ff54283cd3f27a4daea7f73cc77fc6776",
+      "capturedAt": "2026-06-27T23:25:20.913Z",
+      "error": ""
+    }
+  ]
+}

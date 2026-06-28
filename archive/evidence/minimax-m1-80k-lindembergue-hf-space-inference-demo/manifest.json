@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-lindembergue-hf-space-inference-demo",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "lindembergue 发布 MiniMax-M1-80k Hugging Face 推理测试 Space",
+  "evidenceFingerprint": "6033c5c11dbd4fdb3465f02d410a341a7cb12f9d78416b08ca06fce20295eb38",
+  "capturedAt": "2026-06-27T23:25:25.102Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/lindembergue/MiniMaxAI-MiniMax-M1-80k/raw/main/app.py",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-lindembergue-hf-space-inference-demo/original-evidence-731f94f3661b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7f5a5ecdd00bcac7ee5766471f5d529fe6711a5edc1063077661e3c3339fd901",
+      "capturedAt": "2026-06-27T23:25:24.614Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/lindembergue/MiniMaxAI-MiniMax-M1-80k",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-lindembergue-hf-space-inference-demo/artifact-1-023ce3f2a6ab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MiniMaxAI MiniMax M1 80k - a Hugging Face Space by lindembergue",
+      "bodySha256": "8aa2c0fafdec0bd2ba0522fb33ade171e843f973635213b422187e8493f37809",
+      "capturedAt": "2026-06-27T23:25:24.843Z",
+      "error": ""
+    }
+  ]
+}

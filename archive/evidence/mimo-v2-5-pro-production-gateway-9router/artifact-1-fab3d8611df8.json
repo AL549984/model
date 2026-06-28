@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:46.603Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/esparpol4-eng/hermes-9router-mimo",
+  "finalUrl": "https://github.com/esparpol4-eng/hermes-9router-mimo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"412275e235dd8c6dc701716adfe6a5fc\"",
+  "lastModified": null,
+  "bodyBytes": 327523,
+  "bodySha256": "a8bf293d8659ae3417ab4a6a7a67f69223283cc4508108621994b77fd108e01a",
+  "title": "GitHub - esparpol4-eng/hermes-9router-mimo: Production AI gateway powered by Xiaomi MiMo v2.5-pro — Tier 1 of a 7-tier multi-model failover combo · GitHub",
+  "github": {
+    "owner": "esparpol4-eng",
+    "repo": "hermes-9router-mimo",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:57.772Z",
+  "kind": "artifact-1",
+  "url": "https://arxiv.org/abs/2309.03242",
+  "finalUrl": "https://arxiv.org/abs/2309.03242",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "46539",
+  "etag": null,
+  "lastModified": "Fri, 08 Sep 2023 00:00:56 GMT",
+  "bodyBytes": 46539,
+  "bodySha256": "b9efc3ce1c0b4e59439bca49f1d28f08f7edea424ae21cdf6e41a8b8e4e7dfa3",
+  "title": "[2309.03242] Automated Bioinformatics Analysis via AutoBA",
+  "github": null
+}

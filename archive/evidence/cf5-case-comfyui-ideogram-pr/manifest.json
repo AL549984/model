@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cf5-case-comfyui-ideogram-pr",
+  "modelId": "claude-fable-5",
+  "modelName": "Claude Fable 5",
+  "title": "Ideogram 4 Prompt Builder KJ V2 PR for ComfyUI-KJNodes",
+  "evidenceFingerprint": "1b387271100fd124f1de5dbfe64e332eed6cd28430dc356abf11b5bd7a69c5dd",
+  "capturedAt": "2026-06-27T20:16:16.100Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kijai/ComfyUI-KJNodes/pull/668",
+      "snapshotPath": "archive/evidence/cf5-case-comfyui-ideogram-pr/original-evidence-87eed8340e29.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat: Add Ideogram 4 Prompt Builder KJ V2 (Freehand drawing &amp; Canvas tools) by Pluventi · Pull Request #668 · kijai/ComfyUI-KJNodes · GitHub",
+      "bodySha256": "c93fa95bd97d327a3fe2d940ac75bc88ed2e45e3fb263a2d701b75e0830582ec",
+      "capturedAt": "2026-06-27T20:16:12.656Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kijai/ComfyUI-KJNodes/pull/668",
+      "snapshotPath": "archive/evidence/cf5-case-comfyui-ideogram-pr/artifact-1-87eed8340e29.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat: Add Ideogram 4 Prompt Builder KJ V2 (Freehand drawing &amp; Canvas tools) by Pluventi · Pull Request #668 · kijai/ComfyUI-KJNodes · GitHub",
+      "bodySha256": "b3e08f97ffbff8c4a60f5c5d1b49b432693548e4083d5db74e7a8dad70a47c72",
+      "capturedAt": "2026-06-27T20:16:15.399Z",
+      "error": ""
+    }
+  ]
+}

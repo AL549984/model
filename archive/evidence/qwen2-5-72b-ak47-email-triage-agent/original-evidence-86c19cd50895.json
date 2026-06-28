@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:43.443Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AK47-tech656/emailagent/blob/main/app.py",
+  "finalUrl": "https://github.com/AK47-tech656/emailagent/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"051eeb682fee333a07fbce7cee0abc98\"",
+  "lastModified": null,
+  "bodyBytes": 276328,
+  "bodySha256": "e55a2694e133e167ac2516b6a44e1220827a783e5d5653d12fd250bfb6c40eda",
+  "title": "emailagent/app.py at main · AK47-tech656/emailagent · GitHub",
+  "github": {
+    "owner": "AK47-tech656",
+    "repo": "emailagent",
+    "apiStatus": "unavailable"
+  }
+}

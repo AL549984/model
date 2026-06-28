@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-jmtroller-bko-document-extraction",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "jmtroller 用 Grok 4.3 为破产案件 PACER PDF 做结构化抽取",
+  "evidenceFingerprint": "0c75dcb5eb6d5974b4b5782bb200429e46c20c2f1942d6faa6df1ca56724cf53",
+  "capturedAt": "2026-06-27T21:15:07.472Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/jmtroller/bko-document-extraction/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-jmtroller-bko-document-extraction/original-evidence-37802cb6c7c1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "beb67a3a609cec617f30978aae50386512ee99e0a1203902d4ea154a4919667f",
+      "capturedAt": "2026-06-27T21:15:05.704Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/jmtroller/bko-document-extraction",
+      "snapshotPath": "archive/evidence/grok-4-3-high-jmtroller-bko-document-extraction/artifact-1-3dc653a99e20.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jmtroller/bko-document-extraction: Structured extraction of data from bankruptcy (PACER) PDF documents. Grok 4.3 default, Wasabi + Mongo. Python port of Laravel Intel layer. · GitHub",
+      "bodySha256": "9810cedc6dec3e730faad0282f3ca7f84f18267e9f5d1cdd8f3b810b47f7d02b",
+      "capturedAt": "2026-06-27T21:15:06.019Z",
+      "error": ""
+    }
+  ]
+}

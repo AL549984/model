@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:29.625Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Yashwenth27/GitMe",
+  "finalUrl": "https://github.com/Yashwenth27/GitMe",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9bb7a080c2aeb32338d0c149b9def5a1\"",
+  "lastModified": null,
+  "bodyBytes": 265632,
+  "bodySha256": "917cc6eacf1e71e8b57c48ec3e6ab21a31ab1f88b6475b65f022cba37bc60bb3",
+  "title": "GitHub - Yashwenth27/GitMe: GitMe is a Streamlit-powered tool that uses Gemini 1.5 Flash to auto-generate elegant, informative, and markdown-rich README.md files from any public GitHub repository. Whether you&#39;re a solo dev or part of a ",
+  "github": {
+    "owner": "Yashwenth27",
+    "repo": "GitMe",
+    "apiStatus": "unavailable"
+  }
+}

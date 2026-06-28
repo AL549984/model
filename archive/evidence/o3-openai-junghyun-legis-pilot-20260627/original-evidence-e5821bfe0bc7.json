@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:56.658Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/junghyun-coding/legis-pilot#%ED%95%B5%EC%8B%AC-%ED%9D%90%EB%A6%84",
+  "finalUrl": "https://github.com/junghyun-coding/legis-pilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"57a58efe4dc95abac8e1914622196708\"",
+  "lastModified": null,
+  "bodyBytes": 374260,
+  "bodySha256": "da339a9c1ca3e6aec9abec5d8e1e522e9f56d3b7e1cfe356fa7bf3303e14b210",
+  "title": "GitHub - junghyun-coding/legis-pilot: 국민 입법제안을 국가법령정보와 대조해 시행령 정비 타당성을 AI(o3)가 검토하고 1페이지 리포트를 생성하는 GovTech 웹앱 · 제2회 법령데이터 활용 아이디어 공모전 · GitHub",
+  "github": {
+    "owner": "junghyun-coding",
+    "repo": "legis-pilot",
+    "apiStatus": "unavailable"
+  }
+}

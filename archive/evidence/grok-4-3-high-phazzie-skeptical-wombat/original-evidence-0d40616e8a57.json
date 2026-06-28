@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:09.462Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Phazzie/skeptical-wombat/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Phazzie/skeptical-wombat/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2821",
+  "etag": "W/\"49060d6f315ca422de6d2fadc8e2703439d47b90c09df2caac7f3c8441cc1a62\"",
+  "lastModified": null,
+  "bodyBytes": 6122,
+  "bodySha256": "4a737549214a63a66f1cc98e59ca85a08aa1c275ef287b9bb8719ed70d2f5b40",
+  "title": "",
+  "github": null
+}

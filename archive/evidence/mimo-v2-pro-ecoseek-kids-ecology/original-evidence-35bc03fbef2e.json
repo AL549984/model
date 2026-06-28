@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:38:03.376Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/alrobles/ecoseek-kids",
+  "finalUrl": "https://github.com/alrobles/ecoseek-kids",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c48118be8c5c84b6237e7f2fddd0fb67\"",
+  "lastModified": null,
+  "bodyBytes": 295286,
+  "bodySha256": "928e51ec6cc4b030bedf23b83d78a6d547aeaad17cfe37c1c555619067f1f5cb",
+  "title": "GitHub - alrobles/ecoseek-kids: ecoSeek Kids — Kid-friendly study assistant powered by MiMo · GitHub",
+  "github": {
+    "owner": "alrobles",
+    "repo": "ecoseek-kids",
+    "apiStatus": "unavailable"
+  }
+}

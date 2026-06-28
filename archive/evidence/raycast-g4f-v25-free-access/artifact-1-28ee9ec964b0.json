@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:44.452Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/XInTheDark/raycast-g4f",
+  "finalUrl": "https://github.com/XInTheDark/raycast-g4f",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8a05724a8d637d29e363cc811574e338\"",
+  "lastModified": null,
+  "bodyBytes": 462342,
+  "bodySha256": "0c3a0d33d1747949970b1f6797da560d82f1ddfe0db7a9c5393d68cfcdc7cc81",
+  "title": "GitHub - XInTheDark/raycast-g4f: Raycast extension to use GPT, Claude, Llama, and more... all for FREE! + Full support for custom APIs. · GitHub",
+  "github": {
+    "owner": "XInTheDark",
+    "repo": "raycast-g4f",
+    "apiStatus": "unavailable"
+  }
+}

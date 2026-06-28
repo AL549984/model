@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-preview-integuru-codegen-integrations-20240627",
+  "modelId": "o1-preview",
+  "modelName": "o1-preview",
+  "title": "Integuru 自动切换到 o1-preview 生成调用内部 API 的集成代码",
+  "evidenceFingerprint": "e651883ea09a52c048c570d7b34979fc6248593a339814409c98f7cb23880415",
+  "capturedAt": "2026-06-27T21:27:45.719Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Integuru-AI/Integuru/main/README.md",
+      "snapshotPath": "archive/evidence/o1-preview-integuru-codegen-integrations-20240627/original-evidence-f12b56554a79.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "84d084de0f2d3f5df8bb6e17181ec4bead54e9ccf6c050ef5631a5e7db2e901e",
+      "capturedAt": "2026-06-27T21:27:43.963Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Integuru-AI/Integuru",
+      "snapshotPath": "archive/evidence/o1-preview-integuru-codegen-integrations-20240627/artifact-1-0bfbc6d6849e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Integuru-AI/Integuru: The first AI agent that builds permissionless integrations through reverse engineering platforms&#39; internal APIs. · GitHub",
+      "bodySha256": "1ba52e488c577acbf12fcc3e42ec3f4fed30acdb065eadcd8d34fc32eca9f1be",
+      "capturedAt": "2026-06-27T21:27:44.398Z",
+      "error": ""
+    }
+  ]
+}

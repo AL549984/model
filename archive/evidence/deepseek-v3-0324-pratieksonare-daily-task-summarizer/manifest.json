@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-0324-pratieksonare-daily-task-summarizer",
+  "modelId": "deepseek-v3-0324",
+  "modelName": "DeepSeek V3 0324",
+  "title": "Desktop daily schedule optimizer using DeepSeek V3 0324 for Pomodoro planning",
+  "evidenceFingerprint": "ac59b71fe66706b8aab1a25b65906fe8e52144da5a3557e88f29c30d10854421",
+  "capturedAt": "2026-06-27T21:08:43.597Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/PratiekSonare/DailyTaskSummarizer/blob/master/NoteEditor.cpp",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-pratieksonare-daily-task-summarizer/original-evidence-c71a16e589fb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DailyTaskSummarizer/NoteEditor.cpp at master · PratiekSonare/DailyTaskSummarizer · GitHub",
+      "bodySha256": "acf12509cb7ac02e225815798b8f4a26d53862576f04638c9dd9ee3964c2b835",
+      "capturedAt": "2026-06-27T21:08:41.170Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/PratiekSonare/DailyTaskSummarizer",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-pratieksonare-daily-task-summarizer/artifact-1-44508106f118.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - PratiekSonare/DailyTaskSummarizer: Connected my daily schedule to an LLM (Deepseek V3 0324) to optimise my mundane routine, incorporating Pomodoro technique for enhanced productivity and mood &lt;3 · GitHub",
+      "bodySha256": "6d2f7b4da24ca8fb43c28e967eb55ee96dc0ea2af97434dd2efe88275932f4fa",
+      "capturedAt": "2026-06-27T21:08:42.401Z",
+      "error": ""
+    }
+  ]
+}

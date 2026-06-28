@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:13.972Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/emmytronix/codementor-ai-agent",
+  "finalUrl": "https://github.com/emmytronix/codementor-ai-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dfe1ffd657dc05b425428f50eaeb3e31\"",
+  "lastModified": null,
+  "bodyBytes": 389769,
+  "bodySha256": "cebd8c80fdea35d8687d42918aae4254036aadf35537039c51a6144d1bb50e20",
+  "title": "GitHub - emmytronix/codementor-ai-agent: 🤖 AI-powered interactive programming tutor with gamification, coding challenges, and progress tracking. Built for Telex.im with Llama 4 Maverick AI. · GitHub",
+  "github": {
+    "owner": "emmytronix",
+    "repo": "codementor-ai-agent",
+    "apiStatus": "unavailable"
+  }
+}

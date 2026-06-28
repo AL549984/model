@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:44.295Z",
+  "kind": "artifact-1",
+  "url": "https://scs.maxlv.net",
+  "finalUrl": "https://scs.maxlv.net/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Wed, 24 Jun 2026 07:13:24 GMT",
+  "bodyBytes": 5517,
+  "bodySha256": "a853c33b502f2d54f05ebeb9e530d2de153f425a24bc5119ef2dd7cf1196b9f0",
+  "title": "硅基文明消费股 · 静态快照",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-mimo-v2-flash-discord-translator-bot",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "Discord AI Translator: Context-Aware Multilingual Bot Powered by MiMo-V2-Flash",
+  "evidenceFingerprint": "647471036a534e81b075554a2212dc7c71da1d263c59f6e57dbfa22dda92c99f",
+  "capturedAt": "2026-06-27T20:15:50.984Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/herointene/ai-translator-discord",
+      "snapshotPath": "archive/evidence/case-mimo-v2-flash-discord-translator-bot/original-evidence-05ccc8a4aae3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - herointene/ai-translator-discord: A smart, context-aware Discord translation bot powered by MiMo-V2-Flash (Feb 2026). · GitHub",
+      "bodySha256": "402992f7a89d8f2e5bd6de2c2094449ba171e5a35d7e528d6f0c06ee50ee2c34",
+      "capturedAt": "2026-06-27T20:15:48.753Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/herointene/ai-translator-discord",
+      "snapshotPath": "archive/evidence/case-mimo-v2-flash-discord-translator-bot/artifact-1-05ccc8a4aae3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - herointene/ai-translator-discord: A smart, context-aware Discord translation bot powered by MiMo-V2-Flash (Feb 2026). · GitHub",
+      "bodySha256": "2b084d8ad34c1bf1c53305552e83666299ab2b9b3efa95b4e10fafafca1b7e5b",
+      "capturedAt": "2026-06-27T20:15:50.366Z",
+      "error": ""
+    }
+  ]
+}

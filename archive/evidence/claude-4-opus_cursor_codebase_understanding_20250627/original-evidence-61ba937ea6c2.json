@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:19.234Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-4#:~:text=Cursor%20calls%20it%20state-of-the-art%20for%20coding",
+  "finalUrl": "https://www.anthropic.com/news/claude-4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 154098,
+  "bodySha256": "3b2a0e56ba6b6ca90197ab3c226f095f4b80cde0394b9508167edd8dd9ceecd6",
+  "title": "Introducing Claude 4 \\ Anthropic",
+  "github": null
+}

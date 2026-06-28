@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:11.013Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AndyJerry-kk/AI-camera-assistant-v0.1",
+  "finalUrl": "https://github.com/AndyJerry-kk/AI-camera-assistant-v0.1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c6e1305c3cb16ce5e313004ecde8e774\"",
+  "lastModified": null,
+  "bodyBytes": 330127,
+  "bodySha256": "4b95079dd6585df02431fdcc91e524d276cc802249c8025759d44310da343b21",
+  "title": "GitHub - AndyJerry-kk/AI-camera-assistant-v0.1: A Doubao-Seed-2.1-Pro powered AI photography assistant prototype. · GitHub",
+  "github": {
+    "owner": "AndyJerry-kk",
+    "repo": "AI-camera-assistant-v0.1",
+    "apiStatus": "unavailable"
+  }
+}

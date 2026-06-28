@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed21-fastgpt-knowledge-base",
+  "modelId": "seed-2-1-pro-preview",
+  "modelName": "Seed-2.1-Pro-Preview",
+  "title": "FastGPT open-source knowledge base system adds Doubao-Seed-2.1 model preset",
+  "evidenceFingerprint": "7edd69a1772313218676e7eaf13b5616646c45fef5853c9f9188af2c4a7c357d",
+  "capturedAt": "2026-06-27T23:23:16.967Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/labring/fastgpt-plugin/pull/477",
+      "snapshotPath": "archive/evidence/seed21-fastgpt-knowledge-base/original-evidence-4e26ba6ca11a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[codex] Update Groq and Doubao model presets by c121914yu · Pull Request #477 · labring/fastgpt-plugin · GitHub",
+      "bodySha256": "e5579c60c2f508ce8ecca1387c0bc0a6b27c0e50785b6863d57b7349fdd1deb9",
+      "capturedAt": "2026-06-27T23:23:14.532Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/labring/fastgpt-plugin",
+      "snapshotPath": "archive/evidence/seed21-fastgpt-knowledge-base/artifact-1-77b198141764.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - labring/fastgpt-plugin: FastGPT plugin system. Provide model presets, system tools and other extended functions for FastGPT. · GitHub",
+      "bodySha256": "79b851ae368a50faa03c0c637da2db76f4bc3feebb6a44a712ea5fdcdbc1840a",
+      "capturedAt": "2026-06-27T23:23:15.840Z",
+      "error": ""
+    }
+  ]
+}

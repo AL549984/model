@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:38.085Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/FanaHOVA/openai-o1-code-interpreter",
+  "finalUrl": "https://github.com/FanaHOVA/openai-o1-code-interpreter",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"108da1da8e4445c19b05f04120a9864b\"",
+  "lastModified": null,
+  "bodyBytes": 253335,
+  "bodySha256": "06a55bd57ca20fb5856a19f3733f4f4bf75eb37946b001dda483c34b33cf80be",
+  "title": "GitHub - FanaHOVA/openai-o1-code-interpreter: Code interpreter support for o1 · GitHub",
+  "github": {
+    "owner": "FanaHOVA",
+    "repo": "openai-o1-code-interpreter",
+    "apiStatus": "unavailable"
+  }
+}

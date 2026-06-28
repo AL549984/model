@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:35.402Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kvsdileep/model_council_v2",
+  "finalUrl": "https://github.com/kvsdileep/model_council_v2",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"93e0bab825ec71b601e70a6dabd50dc5\"",
+  "lastModified": null,
+  "bodyBytes": 313705,
+  "bodySha256": "6b4625dac2b76249b1f23cfcb781024df9db223e35a08ac7acb3c1b5d055ae15",
+  "title": "GitHub - kvsdileep/model_council_v2: Model Council — local multi-LLM debate app. 4 council models (Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Grok 4.20) → peer critique → Opus synthesizer with structured multi-format output + on-demand refine flow.",
+  "github": {
+    "owner": "kvsdileep",
+    "repo": "model_council_v2",
+    "apiStatus": "unavailable"
+  }
+}

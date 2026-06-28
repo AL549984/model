@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-5-sillytavern-instruct-preset",
+  "modelId": "deepseek-v2-5",
+  "modelName": "DeepSeek-V2.5",
+  "title": "SillyTavern 为 DeepSeek-V2.5 提供内置 instruct 预设以支持角色对话",
+  "evidenceFingerprint": "67222413c8e48da9e9950537a020a7f2892e855237d9f5b2f83b8f1fb748df60",
+  "capturedAt": "2026-06-27T21:08:12.666Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SillyTavern/SillyTavern/blob/release/default/content/presets/instruct/DeepSeek-V2.5.json",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-sillytavern-instruct-preset/original-evidence-106eacff5d87.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "SillyTavern/default/content/presets/instruct/DeepSeek-V2.5.json at release · SillyTavern/SillyTavern · GitHub",
+      "bodySha256": "d6924acd564cfa3ea2ed52aab712226b808eb1c45dafd7ea6511c7d58ff2ed78",
+      "capturedAt": "2026-06-27T21:08:11.008Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://raw.githubusercontent.com/SillyTavern/SillyTavern/release/default/content/presets/instruct/DeepSeek-V2.5.json",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-sillytavern-instruct-preset/artifact-1-e1dc1c279c5c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7d41b202fb5de660bdfa64f5d79fb680ed5b46b47921345c3f01aa7dd96e942f",
+      "capturedAt": "2026-06-27T21:08:11.831Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:16.669Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Hyeongseob91/upstage-agent-genome-watcher/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Hyeongseob91/upstage-agent-genome-watcher/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1965",
+  "etag": "W/\"da13a221c9c9cebbd854c7b8aa31a7a1b856fd6e137e41ce7c05ca0aa51f5583\"",
+  "lastModified": null,
+  "bodyBytes": 4366,
+  "bodySha256": "5383b88936a2ab871ce76dc0232cbed720ad2fb2a3eb350ff98444640a9db4e4",
+  "title": "",
+  "github": null
+}

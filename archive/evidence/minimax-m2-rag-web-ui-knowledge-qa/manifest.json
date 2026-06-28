@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-rag-web-ui-knowledge-qa",
+  "modelId": "minimax-m2",
+  "modelName": "MiniMax-M2",
+  "title": "RAG Web UI uses MiniMax-M2.7 for knowledge-base question answering",
+  "evidenceFingerprint": "f91b4e77c24a81e8b84b0bc99687ec00e0aba0ed336ccc6e27d0977c66308f7b",
+  "capturedAt": "2026-06-27T22:45:00.616Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/rag-web-ui/rag-web-ui/blob/main/backend/app/core/config.py",
+      "snapshotPath": "archive/evidence/minimax-m2-rag-web-ui-knowledge-qa/original-evidence-5b1b4e30fa4a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "rag-web-ui/backend/app/core/config.py at main · rag-web-ui/rag-web-ui · GitHub",
+      "bodySha256": "eea255580e2509c9edf6d056d47227170123d9f87d0cc476c6fac046770cb453",
+      "capturedAt": "2026-06-27T22:44:58.719Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/rag-web-ui/rag-web-ui",
+      "snapshotPath": "archive/evidence/minimax-m2-rag-web-ui-knowledge-qa/artifact-1-7676dd7d8829.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - rag-web-ui/rag-web-ui: RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology. · GitHub",
+      "bodySha256": "770ae0ab794e27c3d7d194499c07c74a99ac0f63bf1ecc053d5211650ab38cab",
+      "capturedAt": "2026-06-27T22:44:59.748Z",
+      "error": ""
+    }
+  ]
+}

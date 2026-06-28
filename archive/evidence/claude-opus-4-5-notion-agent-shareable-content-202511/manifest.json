@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-5-notion-agent-shareable-content-202511",
+  "modelId": "claude-opus-4-5",
+  "modelName": "Claude Opus 4.5",
+  "title": "Notion Agent 使用 Claude Opus 4.5 一次生成可分享内容",
+  "evidenceFingerprint": "0bad6b8201b500ffc06894187d8abb78fe623e00b7bc44ffb82ed767ed038520",
+  "capturedAt": "2026-06-27T23:26:48.491Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5#notion-agent-sarah-sachs",
+      "snapshotPath": "archive/evidence/claude-opus-4-5-notion-agent-shareable-content-202511/original-evidence-6c70a19d6288.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+      "bodySha256": "482db11b96479be775dc90be102afe2c84a97903084efc7b6d82e9ca7fe97566",
+      "capturedAt": "2026-06-27T23:26:42.748Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.notion.com/product/ai",
+      "snapshotPath": "archive/evidence/claude-opus-4-5-notion-agent-shareable-content-202511/artifact-1-b6e05bf458eb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Meet your AI team | Notion",
+      "bodySha256": "5b4eb512bd09bc83995211f8119a9a2f8ea28282884b4b1cf584abef51bcc55a",
+      "capturedAt": "2026-06-27T23:26:47.249Z",
+      "error": ""
+    }
+  ]
+}

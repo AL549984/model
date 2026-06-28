@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-yberkayozkan-seismo-lingo",
+  "modelId": "kimi-k2",
+  "modelName": "Kimi K2",
+  "title": "Seismo-Lingo uses Kimi-K2 for natural-language geophysical data analysis",
+  "evidenceFingerprint": "31723474f0ee14434bd784335e650311bb41bad693af4e3fd088e28e626caa67",
+  "capturedAt": "2026-06-27T22:29:51.904Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant#readme",
+      "snapshotPath": "archive/evidence/kimi-k2-yberkayozkan-seismo-lingo/original-evidence-b52b00f4c4de.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant: 🌍 Seismo-Lingo: Smart Geophysical Assistant - An intelligent AI-powered tool for analyzing seismic and well log data through natural language queries. Built with LangChain, St",
+      "bodySha256": "006bc98c50bbebb806c821f1967810c18548e7cb3f2b54c1d70ad096c499fecd",
+      "capturedAt": "2026-06-27T22:29:50.332Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant",
+      "snapshotPath": "archive/evidence/kimi-k2-yberkayozkan-seismo-lingo/artifact-1-da438c6619e9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yberkayozkan/Seismo-Lingo-Smart-Geophysical-Assistant: 🌍 Seismo-Lingo: Smart Geophysical Assistant - An intelligent AI-powered tool for analyzing seismic and well log data through natural language queries. Built with LangChain, St",
+      "bodySha256": "f123e558f984e2779a42b32fdad6241b11f790600418462e517ddcb0fecdae1f",
+      "capturedAt": "2026-06-27T22:29:51.378Z",
+      "error": ""
+    }
+  ]
+}

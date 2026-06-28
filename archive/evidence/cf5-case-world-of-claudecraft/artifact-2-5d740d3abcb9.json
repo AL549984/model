@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:25.177Z",
+  "kind": "artifact-2",
+  "url": "https://github.com/levy-street/world-of-claudecraft",
+  "finalUrl": "https://github.com/levy-street/world-of-claudecraft",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"666fb62ec2b153b81b6ef0056056177b\"",
+  "lastModified": null,
+  "bodyBytes": 518875,
+  "bodySha256": "a2beb665e08b54e6d312ec76b35255d3d61337468f6065db320a7664943308b5",
+  "title": "GitHub - levy-street/world-of-claudecraft · GitHub",
+  "github": {
+    "owner": "levy-street",
+    "repo": "world-of-claudecraft",
+    "htmlUrl": "https://github.com/levy-street/world-of-claudecraft",
+    "defaultBranch": "main",
+    "defaultBranchSha": "35dfa87e47d9f640b58a680e09cc69210be1bd13",
+    "pushedAt": "2026-06-27T01:03:02Z",
+    "updatedAt": "2026-06-27T19:37:31Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

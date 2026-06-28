@@ -29,6 +29,6 @@ export function publicizeText(value: unknown) {
     .replaceAll("飞书同步", "资料同步")
     .replaceAll("Phase 3A", "资料建档")
     .replaceAll("Phase 3B", "案例复核")
-    .replaceAll("Atlas Command Center", "公开模型图谱")
+    .replaceAll("Signal Observatory x Living Archive", "信号观测档案")
     .replaceAll("补证", "补公开证据");
 }

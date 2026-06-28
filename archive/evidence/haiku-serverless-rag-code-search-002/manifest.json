@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "haiku-serverless-rag-code-search-002",
+  "modelId": "claude-3-5-haiku",
+  "modelName": "Claude 3.5 Haiku",
+  "title": "Serverless RAG system for semantic code search using Claude 3.5 Haiku on AWS Bedrock",
+  "evidenceFingerprint": "caa267cc534aaef71dfcdfc6203a52afc567060520819e0062a5bc75e79762ca",
+  "capturedAt": "2026-06-27T22:22:18.755Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/saitarrun/Genai-dev-assistant",
+      "snapshotPath": "archive/evidence/haiku-serverless-rag-code-search-002/original-evidence-610745d379c6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - saitarrun/Genai-dev-assistant: Serverless RAG system for semantic code search. Index repositories with language-aware chunking, query with Claude 3.5 Haiku via Amazon Bedrock, retrieve from Pinecone vectors. · GitHub",
+      "bodySha256": "2ad78000ee23405321319ba87d8f430fa6f44d658fa3696a319c28e6cd25225c",
+      "capturedAt": "2026-06-27T22:22:17.120Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/saitarrun/Genai-dev-assistant",
+      "snapshotPath": "archive/evidence/haiku-serverless-rag-code-search-002/artifact-1-610745d379c6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - saitarrun/Genai-dev-assistant: Serverless RAG system for semantic code search. Index repositories with language-aware chunking, query with Claude 3.5 Haiku via Amazon Bedrock, retrieve from Pinecone vectors. · GitHub",
+      "bodySha256": "8ab1f61138f3bd56142ae1dc023debed019ba38a132e9568abd9fe6db05783e5",
+      "capturedAt": "2026-06-27T22:22:18.288Z",
+      "error": ""
+    }
+  ]
+}

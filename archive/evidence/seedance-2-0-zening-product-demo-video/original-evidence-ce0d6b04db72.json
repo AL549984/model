@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:24.533Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zening-cmd/product-demo-video#readme",
+  "finalUrl": "https://github.com/zening-cmd/product-demo-video",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cd5ab7043246d502d082b9f81b297640\"",
+  "lastModified": null,
+  "bodyBytes": 444494,
+  "bodySha256": "6a874547e294ae2bea82b0aeb217a6bc771e8b2c4cb6551f4c1996cfe9c82665",
+  "title": "GitHub - zening-cmd/product-demo-video: Create polished product demo videos with animated motion graphics (HTML+GSAP), AI digital human presenter (Seedance 2.0), PIP compositing, and background music. End-to-end pipeline from UI screenshot ",
+  "github": {
+    "owner": "zening-cmd",
+    "repo": "product-demo-video",
+    "apiStatus": "unavailable"
+  }
+}

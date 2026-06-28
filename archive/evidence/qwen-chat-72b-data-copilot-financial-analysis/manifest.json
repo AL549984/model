@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-72b-data-copilot-financial-analysis",
+  "modelId": "qwen-chat-72b",
+  "modelName": "Qwen Chat 72B",
+  "title": "Data-Copilot uses Qwen-72B-Chat to autonomously query, analyze, predict, and visualize Chinese financial-market data",
+  "evidenceFingerprint": "32d81394fd331778acfea17d809329718c22d95f9767e126409607074a019f9f",
+  "capturedAt": "2026-06-27T22:59:26.932Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zwq2018/Data-Copilot/blob/main/lab_llms_call.py",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-data-copilot-financial-analysis/original-evidence-e0b577b5ed74.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Data-Copilot/lab_llms_call.py at main · zwq2018/Data-Copilot · GitHub",
+      "bodySha256": "89e13645493f3e00f27f09010b4566cf978a80bd452d49ecfeba17e1ba65a404",
+      "capturedAt": "2026-06-27T22:59:23.472Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zwq2018/Data-Copilot",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-data-copilot-financial-analysis/artifact-1-c53a01e10994.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zwq2018/Data-Copilot: Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow · GitHub",
+      "bodySha256": "fd0ebaf723c8ef02ca31f703d7dd5a0104fabed77e3a75e3515d9d8105c6e9c0",
+      "capturedAt": "2026-06-27T22:59:24.514Z",
+      "error": ""
+    }
+  ]
+}

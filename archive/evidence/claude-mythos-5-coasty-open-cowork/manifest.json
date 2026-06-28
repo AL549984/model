@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-mythos-5-coasty-open-cowork",
+  "modelId": "claude-mythos-5",
+  "modelName": "Claude Mythos 5",
+  "title": "Coasty AI open-cowork：用 Claude Mythos 5 构建开源 AI coworker 桌面/浏览器自动化项目",
+  "evidenceFingerprint": "2b6a46a26a879406b2a56425e7b2a224c9565e9e6f465765757607f35455f416",
+  "capturedAt": "2026-06-27T20:55:03.768Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/coasty-ai/open-cowork/main/README.md",
+      "snapshotPath": "archive/evidence/claude-mythos-5-coasty-open-cowork/original-evidence-5edd0807ae27.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "0502d2e720080fb0011471071fed6ac49caf4d14960b99a50f306282fb806b8a",
+      "capturedAt": "2026-06-27T20:55:01.969Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/coasty-ai/open-cowork",
+      "snapshotPath": "archive/evidence/claude-mythos-5-coasty-open-cowork/artifact-1-3cb3ef6e3c4e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - coasty-ai/open-cowork: Open-source alternative to Claude Co-Work built by Claude Mythos 5. with BYOK · GitHub",
+      "bodySha256": "eea92b7ba4ccb1a646e80d5d77bcdd8ebb87fc5454c159477c125f1a111637c5",
+      "capturedAt": "2026-06-27T20:55:02.693Z",
+      "error": ""
+    }
+  ]
+}

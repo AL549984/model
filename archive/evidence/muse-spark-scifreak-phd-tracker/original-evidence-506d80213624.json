@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:29.319Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/sci-freak/phd-tracker-lite",
+  "finalUrl": "https://github.com/sci-freak/phd-tracker-lite",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"49d5e0f1c947a28959a5b9f5e82d01c8\"",
+  "lastModified": null,
+  "bodyBytes": 279570,
+  "bodySha256": "0059ab330fdf670d0c1a8471c41ceb5e6414b67ef8001b23d79ee808a40360bc",
+  "title": "GitHub - sci-freak/phd-tracker-lite: PhD Tracker Lite - Made with Meta AI (Muse Spark) · GitHub",
+  "github": {
+    "owner": "sci-freak",
+    "repo": "phd-tracker-lite",
+    "apiStatus": "unavailable"
+  }
+}

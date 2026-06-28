@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:02.844Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/qihaozh/StartUp_Advisor/blob/main/README.md",
+  "finalUrl": "https://github.com/qihaozh/StartUp_Advisor/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a874cc7fdacb8a42c3331aac266e5825\"",
+  "lastModified": null,
+  "bodyBytes": 367548,
+  "bodySha256": "fab526fabc0c1c84acea79fbe60957520f313031c7f1f7fc172e5044d2c816bc",
+  "title": "StartUp_Advisor/README.md at main · qihaozh/StartUp_Advisor · GitHub",
+  "github": {
+    "owner": "qihaozh",
+    "repo": "StartUp_Advisor",
+    "apiStatus": "unavailable"
+  }
+}

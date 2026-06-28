@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:51.727Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/swift-innovate/golem",
+  "finalUrl": "https://github.com/swift-innovate/golem",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1716883d8068ac1f71ac19e6c1ede8e8\"",
+  "lastModified": null,
+  "bodyBytes": 257783,
+  "bodySha256": "f5ecf7e3e15bba8c569aa3daca9981ce3c63541a614f9a6b0a9b9702a42382e6",
+  "title": "GitHub - swift-innovate/golem: Self-improving LangGraph agent with Grok 4.20 brain · GitHub",
+  "github": {
+    "owner": "swift-innovate",
+    "repo": "golem",
+    "apiStatus": "unavailable"
+  }
+}

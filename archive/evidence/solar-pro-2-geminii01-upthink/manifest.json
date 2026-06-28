@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-2-geminii01-upthink",
+  "modelId": "solar-pro-2",
+  "modelName": "Solar Pro 2",
+  "title": "UpThink uses Solar Pro 2 to automate Obsidian personal knowledge management",
+  "evidenceFingerprint": "5dfcc371be583022f8ab7506e76056de5782adbe49c2336b316e5ae17b37bd4b",
+  "capturedAt": "2026-06-27T23:23:54.930Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink#readme",
+      "snapshotPath": "archive/evidence/solar-pro-2-geminii01-upthink/original-evidence-78b5ea074e06.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - geminii01/product-usecase-knowledge-management-upthink: [Upstage AI Ambassador] 개인 지식 관리 with Upstage Solar pro 2 · GitHub",
+      "bodySha256": "db9762209013734b298b1a2e51c1604146d193dd7e9472c2b1f889974821dcda",
+      "capturedAt": "2026-06-27T23:23:52.744Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink",
+      "snapshotPath": "archive/evidence/solar-pro-2-geminii01-upthink/artifact-1-4fa74a37eb4f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - geminii01/product-usecase-knowledge-management-upthink: [Upstage AI Ambassador] 개인 지식 관리 with Upstage Solar pro 2 · GitHub",
+      "bodySha256": "2ec4789e0a5af85cc98b442bfa01c07dfbdc0281aed0913d16964734b602e0d4",
+      "capturedAt": "2026-06-27T23:23:54.274Z",
+      "error": ""
+    }
+  ]
+}

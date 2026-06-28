@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed-2-1-pro-preview-luwill-claude-code-model-router-20260627",
+  "modelId": "seed-2-1-pro-preview",
+  "modelName": "Seed-2.1-Pro-Preview",
+  "title": "Claude Code Model Router integrates Doubao Seed 2.1 Pro for third-party Claude Code coding sessions",
+  "evidenceFingerprint": "85698cb968f5478aa8bb2ab1d406adb7ca428487505dd87e2696c84a0964299c",
+  "capturedAt": "2026-06-27T23:15:47.880Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/luwill/Claude-Code-Model-Router/blob/99cd211414abba232ff46d4aa5e1ad3c97120652/src/config.ts#L333-L350",
+      "snapshotPath": "archive/evidence/seed-2-1-pro-preview-luwill-claude-code-model-router-20260627/original-evidence-f09a9e0f9f5b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Claude-Code-Model-Router/src/config.ts at 99cd211414abba232ff46d4aa5e1ad3c97120652 · luwill/Claude-Code-Model-Router · GitHub",
+      "bodySha256": "08f166f8f20ae2149ba9a6eb62506b169ef698705fb65efe5e8089100c00d84b",
+      "capturedAt": "2026-06-27T23:15:45.482Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/luwill/Claude-Code-Model-Router",
+      "snapshotPath": "archive/evidence/seed-2-1-pro-preview-luwill-claude-code-model-router-20260627/artifact-1-bee742c96b5a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - luwill/Claude-Code-Model-Router: A lightweight API gateway that lets you switch to third-party AI models when using Claude Code. · GitHub",
+      "bodySha256": "97c9e0a6a5878e514a2a09270d0736e9ca669dfe692ad24233ee3c8b2acbc898",
+      "capturedAt": "2026-06-27T23:15:46.864Z",
+      "error": ""
+    }
+  ]
+}

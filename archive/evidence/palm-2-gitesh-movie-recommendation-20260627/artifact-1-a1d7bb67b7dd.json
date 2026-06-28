@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:07.257Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Gitesh08/Movie-Recommendation-System",
+  "finalUrl": "https://github.com/Gitesh08/Movie-Recommendation-System",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4faef3bcfd381edfcaf60cd61a310af6\"",
+  "lastModified": null,
+  "bodyBytes": 230841,
+  "bodySha256": "0f306d1c961c1227cdb941d65ad229d497c44c2ebd96dc1c7bb44a5adc880296",
+  "title": "GitHub - Gitesh08/Movie-Recommendation-System: Designed and implemented a Movie Recommendation System utilizing the Palm 2 API for parsing movie data, integrating TMDB API for comprehensive movie information, and deploying the project using",
+  "github": {
+    "owner": "Gitesh08",
+    "repo": "Movie-Recommendation-System",
+    "apiStatus": "unavailable"
+  }
+}

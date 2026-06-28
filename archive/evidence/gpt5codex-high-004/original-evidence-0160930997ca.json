@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:17.061Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/openai/euphony",
+  "finalUrl": "https://github.com/openai/euphony",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9779758f3b6d17e412e12301a959ea10\"",
+  "lastModified": null,
+  "bodyBytes": 338556,
+  "bodySha256": "8f4057499c651b4058fd2f8815ec19e12cf5e50b439e5270085554e374da919d",
+  "title": "GitHub - openai/euphony: Visualize harmony chat data and codex sessions in your browser · GitHub",
+  "github": {
+    "owner": "openai",
+    "repo": "euphony",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "m27-qq-codememory-bot",
+  "modelId": "minimax-m2-7",
+  "modelName": "MiniMax M2.7",
+  "title": "qq-codememory-bot: QQ Group AI Bot with Local Code Search and Long-Term Memory Powered by MiniMax M2",
+  "evidenceFingerprint": "0f5f6d52fc4e7ba941a4223acea0d4b0cff710c132384b4bd171fb2aa9df55d7",
+  "capturedAt": "2026-06-27T22:37:38.552Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/EricSun0218/qq-codememory-bot",
+      "snapshotPath": "archive/evidence/m27-qq-codememory-bot/original-evidence-d847cb8c0ef4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - EricSun0218/qq-codememory-bot: QQ 群 AI 数字分身机器人 · NapCat + OneBot v11 + MiniMax M2 · 本地代码库记忆 + 长期记忆 · GitHub",
+      "bodySha256": "4aa1e28db60f470c8e194e62fb7517eea62962656f1fe9ca94ad1b8da040bf87",
+      "capturedAt": "2026-06-27T22:37:36.528Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/EricSun0218/qq-codememory-bot",
+      "snapshotPath": "archive/evidence/m27-qq-codememory-bot/artifact-1-d847cb8c0ef4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - EricSun0218/qq-codememory-bot: QQ 群 AI 数字分身机器人 · NapCat + OneBot v11 + MiniMax M2 · 本地代码库记忆 + 长期记忆 · GitHub",
+      "bodySha256": "f703b362c95eeef2a86748245e59a4078fb21cfc7eb313a39ac3dfa6603e230a",
+      "capturedAt": "2026-06-27T22:37:38.029Z",
+      "error": ""
+    }
+  ]
+}

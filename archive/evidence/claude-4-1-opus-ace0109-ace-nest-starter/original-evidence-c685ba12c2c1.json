@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:27.562Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ace0109/ace-nest-starter",
+  "finalUrl": "https://github.com/ace0109/ace-nest-starter",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"44874407527cb636d827969008c6f8a4\"",
+  "lastModified": null,
+  "bodyBytes": 397105,
+  "bodySha256": "14b6c76b46c9bbaad04d2d1231167f94fb3a0f596fa572ff15050a76bf0ccf82",
+  "title": "GitHub - ace0109/ace-nest-starter: 🚀 Production-ready NestJS starter with JWT Auth, RBAC, Prisma, Redis, WebSocket, and more. Built in 48 hours with Claude Opus 4.1 AI (1.34M tokens, $600 cost). · GitHub",
+  "github": {
+    "owner": "ace0109",
+    "repo": "ace-nest-starter",
+    "apiStatus": "unavailable"
+  }
+}

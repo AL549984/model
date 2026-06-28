@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-2-easyrag",
+  "modelId": "deepseek-v3-2",
+  "modelName": "DeepSeek V3.2",
+  "title": "EasyRAG: 通用中文 RAG 助手使用 DeepSeek-V3.2-Exp 非思考模式生成答案",
+  "evidenceFingerprint": "6d035cf218bbad6d0622a784208f5c26b98aaa433d7b998528fbb378a7d98dba",
+  "capturedAt": "2026-06-27T21:34:22.810Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/HOWILLMAKEIT/EasyRAG",
+      "snapshotPath": "archive/evidence/deepseek-v3-2-easyrag/original-evidence-83d537f2fc98.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - HOWILLMAKEIT/EasyRAG: 一个轻量、简洁的通用中文 RAG 助手，支持多个独立知识库的管理，采用qwen text-embedding-v4模型构建向量嵌入，采用deepseek-V3.2-Exp的非思考模式生成优质答案。 · GitHub",
+      "bodySha256": "9a6d6ed24d6a548c8ad8628c64df1efd94f597abcc79b18bcecf9d32be0b90bc",
+      "capturedAt": "2026-06-27T21:34:20.718Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/HOWILLMAKEIT/EasyRAG/releases",
+      "snapshotPath": "archive/evidence/deepseek-v3-2-easyrag/artifact-1-52cfd395594a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Releases · HOWILLMAKEIT/EasyRAG · GitHub",
+      "bodySha256": "89c8c1f503b4788d1097abee27ab6132b9baec8aae878c9cef9c5f2071af2b2d",
+      "capturedAt": "2026-06-27T21:34:21.928Z",
+      "error": ""
+    }
+  ]
+}

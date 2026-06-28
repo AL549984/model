@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-0324-tiankongzhise-is-seo-word",
+  "modelId": "deepseek-v3-0324",
+  "modelName": "DeepSeek V3 0324",
+  "title": "SEO keyword classifier using DeepSeek V3 0324 to identify artificially generated SEO terms",
+  "evidenceFingerprint": "c2766eb4e4e921c1d6314140223f20dd9c366f199ba016bf48fe7d9b50c67704",
+  "capturedAt": "2026-06-27T21:08:45.744Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/tiankongzhise/is_seo_word/blob/main/README.md",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-tiankongzhise-is-seo-word/original-evidence-e503a8e0f28d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "is_seo_word/README.md at main · tiankongzhise/is_seo_word · GitHub",
+      "bodySha256": "466199608227cd109b31aaf26c1c36aa68cfb8530a3e542077810baf45c89d94",
+      "capturedAt": "2026-06-27T21:08:43.598Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/tiankongzhise/is_seo_word",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-tiankongzhise-is-seo-word/artifact-1-c7a9c4eb2f1d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tiankongzhise/is_seo_word: 让deepseek_v3 0324来判断关键词是否是seo生造词,降低筛选关键词难度 · GitHub",
+      "bodySha256": "0bf96ddd648bd1b0bf796dae85739f1bb005abae82f799cd3328e5c6de43c45e",
+      "capturedAt": "2026-06-27T21:08:44.673Z",
+      "error": ""
+    }
+  ]
+}

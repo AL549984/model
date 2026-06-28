@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:44.421Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/asimniazi63/due-diligence-deepagents/blob/main/README.md",
+  "finalUrl": "https://github.com/asimniazi63/due-diligence-deepagents/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"61cd03e7e10bb8d6023e985740f42d56\"",
+  "lastModified": null,
+  "bodyBytes": 362290,
+  "bodySha256": "6fd830b43750db7188cef02c6bb22ebc5240b08a35f354b65e503ac7c441b2dc",
+  "title": "due-diligence-deepagents/README.md at main · asimniazi63/due-diligence-deepagents · GitHub",
+  "github": {
+    "owner": "asimniazi63",
+    "repo": "due-diligence-deepagents",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:45.280Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/BerriAI/litellm/issues/2016",
+  "finalUrl": "https://github.com/BerriAI/litellm/issues/2016",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 271149,
+  "bodySha256": "e4095f740f4a58abe4ab6e3b5f01ade5be170529af3c5e425cf1111d9cb67293",
+  "title": "[Bug]: Using Anthropic; model claude-2.1, ends in AnthropicException · Issue #2016 · BerriAI/litellm · GitHub",
+  "github": {
+    "owner": "BerriAI",
+    "repo": "litellm",
+    "apiStatus": "unavailable"
+  }
+}

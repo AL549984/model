@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:33.433Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/edouardfoussier/gosim-zai-hack-winner/blob/main/README.md",
+  "finalUrl": "https://github.com/edouardfoussier/gosim-zai-hack-winner/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d181e2196f059880a92a85c862d6e52d\"",
+  "lastModified": null,
+  "bodyBytes": 318309,
+  "bodySha256": "007790ec4a18b43e6754abaab31d12f7f0dea1b6d0cd89dfaaa06433d9364e4f",
+  "title": "gosim-zai-hack-winner/README.md at main · edouardfoussier/gosim-zai-hack-winner · GitHub",
+  "github": {
+    "owner": "edouardfoussier",
+    "repo": "gosim-zai-hack-winner",
+    "apiStatus": "unavailable"
+  }
+}

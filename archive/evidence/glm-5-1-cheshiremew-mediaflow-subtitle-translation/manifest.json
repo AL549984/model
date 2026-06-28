@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-cheshiremew-mediaflow-subtitle-translation",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "MediaFlow configures GLM-5.1 as a default Zhipu model for local video subtitle workflows",
+  "evidenceFingerprint": "5b78141ff5d02abe871eeb3a03358744b4b23f67b14be9083d11ae9dd7939740",
+  "capturedAt": "2026-06-27T21:53:39.448Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CheshireMew/MediaFlow/blob/HEAD/frontend/src/config/llmProviderPresets.ts#L31",
+      "snapshotPath": "archive/evidence/glm-5-1-cheshiremew-mediaflow-subtitle-translation/original-evidence-a2398a307532.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MediaFlow/frontend/src/config/llmProviderPresets.ts at 0c94b05adebddddba4c7ab7f7604621666d7bc69 · CheshireMew/MediaFlow · GitHub",
+      "bodySha256": "0337cdd673d1dd0534ef435b81ebc3b8ca0ebd96793820d75cf380d3bc4ca6a3",
+      "capturedAt": "2026-06-27T21:53:37.146Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CheshireMew/MediaFlow",
+      "snapshotPath": "archive/evidence/glm-5-1-cheshiremew-mediaflow-subtitle-translation/artifact-1-a3238f5d6fd2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CheshireMew/MediaFlow · GitHub",
+      "bodySha256": "7ff256799eca25da20da28c9182e156cf59f22de266b8dbccb29949f3dab90a3",
+      "capturedAt": "2026-06-27T21:53:38.361Z",
+      "error": ""
+    }
+  ]
+}

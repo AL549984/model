@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-1-tobiasbischoff-openclawnews-github-summarizer",
+  "modelId": "minimax-m2-1",
+  "modelName": "MiniMax-M2.1",
+  "title": "OpenClawNews uses MiniMax-M2.1 as the default model for GitHub commit and issue news summaries",
+  "evidenceFingerprint": "27a4b5e4fceb4a362ccbfc508c9f62f8bd96dc7c48befe76fc949f474d6180ad",
+  "capturedAt": "2026-06-27T22:44:37.844Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/tobiasbischoff/openclawnews/blob/530d08132f0e4aac7cfe01e509bf220c0ef935c5/server.js",
+      "snapshotPath": "archive/evidence/minimax-m2-1-tobiasbischoff-openclawnews-github-summarizer/original-evidence-1a371cfcfea9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "openclawnews/server.js at 530d08132f0e4aac7cfe01e509bf220c0ef935c5 · tobiasbischoff/openclawnews · GitHub",
+      "bodySha256": "e014b5076773dbf581ff7904d83b6a158de65ac42a72c7e2cc2e6ad01e50332f",
+      "capturedAt": "2026-06-27T22:44:34.723Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/tobiasbischoff/openclawnews",
+      "snapshotPath": "archive/evidence/minimax-m2-1-tobiasbischoff-openclawnews-github-summarizer/artifact-1-16e33d453761.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tobiasbischoff/openclawnews: Lobster-grade daily summaries of Clawdbot commits, issues, and PRs. · GitHub",
+      "bodySha256": "266e235a2057d74f2a9a275c129613c8a152d69b8975c63590cde9dab920bbb6",
+      "capturedAt": "2026-06-27T22:44:36.723Z",
+      "error": ""
+    }
+  ]
+}

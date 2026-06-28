@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:26.861Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/smarvela/lutheran-qa-app",
+  "finalUrl": "https://github.com/smarvela/lutheran-qa-app",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cdb85e97b81eabc2fe98a162b8fcbae6\"",
+  "lastModified": null,
+  "bodyBytes": 279686,
+  "bodySha256": "f9a3f1898d591afab8d39c13f2bb87356b31c41a8f06c2f1b54a0953fe0abaa3",
+  "title": "GitHub - smarvela/lutheran-qa-app: Lutheran Confessional Q&amp;A — RAG chat app grounded in Book of Concord and KJV Bible with Grok 4.3 · GitHub",
+  "github": {
+    "owner": "smarvela",
+    "repo": "lutheran-qa-app",
+    "apiStatus": "unavailable"
+  }
+}

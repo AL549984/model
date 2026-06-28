@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:30.192Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Bondartsov/grok-critic-mcp",
+  "finalUrl": "https://github.com/Bondartsov/grok-critic-mcp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"81e4e7160559896f91328d44b1bdc61a\"",
+  "lastModified": null,
+  "bodyBytes": 481039,
+  "bodySha256": "e1ba18e571b2942c2b7d86bbab7b5abe17b086cf26fcecaa2301551428ff963b",
+  "title": "GitHub - Bondartsov/grok-critic-mcp: MCP server for deep code review, architecture analysis and security audit via grok-4.20-multi-agent (16 reasoning agents). Works with Kilo Code, Claude Code, Cursor. · GitHub",
+  "github": {
+    "owner": "Bondartsov",
+    "repo": "grok-critic-mcp",
+    "apiStatus": "unavailable"
+  }
+}

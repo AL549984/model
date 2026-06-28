@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-terminus-quantumnous-new-api-channel-case-matching",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "QuantumNous/new-api 用户配置 DeepSeek V3.1 Terminus 的 SiliconFlow 与 NVIDIA 双渠道并暴露大小写匹配问题",
+  "evidenceFingerprint": "88d520832523aa0bddee188772d1cf80b616b161d461bae3aacf66b711c58f94",
+  "capturedAt": "2026-06-27T21:09:03.189Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/QuantumNous/new-api/issues/1990",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-quantumnous-new-api-channel-case-matching/original-evidence-e2cfc31b69a2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "大小写引起的已绑定渠道匹配异常 · Issue #1990 · QuantumNous/new-api · GitHub",
+      "bodySha256": "a660ed171c23600a5289bd332f20cce2c5861bae4527cd6ed0364a8a9cae1a91",
+      "capturedAt": "2026-06-27T21:09:01.337Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/QuantumNous/new-api/issues/1990",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-terminus-quantumnous-new-api-channel-case-matching/artifact-1-e2cfc31b69a2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "大小写引起的已绑定渠道匹配异常 · Issue #1990 · QuantumNous/new-api · GitHub",
+      "bodySha256": "62c3a1c34f8f137adfee7d150c67fd36f22db6f0ff19456820fbc0da203484ea",
+      "capturedAt": "2026-06-27T21:09:02.664Z",
+      "error": ""
+    }
+  ]
+}

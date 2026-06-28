@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:34.399Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/mike-ravkine/Solar-Open-100B-FP8-Dynamic",
+  "finalUrl": "https://huggingface.co/mike-ravkine/Solar-Open-100B-FP8-Dynamic",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"285b2-XzI1tfaQKljxZf/S5hJsQBeZDG8\"",
+  "lastModified": null,
+  "bodyBytes": 165298,
+  "bodySha256": "a70c81235f84d6af48bce396aa914c1d2f751b18b4e78a4cce05184bc8c678ec",
+  "title": "mike-ravkine/Solar-Open-100B-FP8-Dynamic · Hugging Face",
+  "github": null
+}

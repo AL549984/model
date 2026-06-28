@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4-turbo-e2b-ai-developer-sandbox",
+  "modelId": "gpt-4-turbo",
+  "modelName": "GPT-4 Turbo",
+  "title": "E2B AI Developer uses GPT-4 Turbo and the Assistants API to modify GitHub repositories inside sandboxes",
+  "evidenceFingerprint": "bc961159f9db3fef0b0cebcc0c66ac1cf146013d8d20523b3f1468d95783bbcc",
+  "capturedAt": "2026-06-27T22:00:43.213Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/e2b-dev/ai-developer-with-sandbox/blob/main/readme.md",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-e2b-ai-developer-sandbox/original-evidence-5006364e067a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-developer-with-sandbox/readme.md at main · e2b-dev/ai-developer-with-sandbox · GitHub",
+      "bodySha256": "a26d27df97dbc0f6197fedd12a353dc58936c072c74b7bac31bd819e12ae463f",
+      "capturedAt": "2026-06-27T22:00:41.069Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/e2b-dev/ai-developer-with-sandbox",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-e2b-ai-developer-sandbox/artifact-1-0c3be88f4ccd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - e2b-dev/ai-developer-with-sandbox: AI Developer is an AI agent powered by GPT-4-Turbo that&#39;s using custom E2B Sandbox · GitHub",
+      "bodySha256": "f19d2abb3639a214c53c74604239c844c6d6d190135a049126b75999cc8c7dc0",
+      "capturedAt": "2026-06-27T22:00:42.206Z",
+      "error": ""
+    }
+  ]
+}

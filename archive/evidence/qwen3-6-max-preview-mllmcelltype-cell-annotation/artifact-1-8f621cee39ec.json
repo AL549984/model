@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:30.901Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/cafferychen777/mLLMCelltype",
+  "finalUrl": "https://github.com/cafferychen777/mLLMCelltype",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"37fbcf64d254f293137e856efe5cb732\"",
+  "lastModified": null,
+  "bodyBytes": 774288,
+  "bodySha256": "4ead541183eec426b52d6a7607a4b7832a882eabe497a8691b7a1a02163174ce",
+  "title": "GitHub - cafferychen777/mLLMCelltype: Cell type annotation for single-cell RNA-seq using multi-LLM consensus · GitHub",
+  "github": {
+    "owner": "cafferychen777",
+    "repo": "mLLMCelltype",
+    "htmlUrl": "https://github.com/cafferychen777/mLLMCelltype",
+    "defaultBranch": "main",
+    "defaultBranchSha": "34b25899983bb7e72c448a53c14e47d1079219c5",
+    "pushedAt": "2026-06-27T19:51:19Z",
+    "updatedAt": "2026-06-27T19:51:23Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

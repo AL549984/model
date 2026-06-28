@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:44.828Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Gene-Weaver/VoucherVision#readme",
+  "finalUrl": "https://github.com/Gene-Weaver/VoucherVision",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2c3d2242f3969b7bcd179038cdaafb02\"",
+  "lastModified": null,
+  "bodyBytes": 524493,
+  "bodySha256": "a11513c54485c0813175aa358fc0f757226e9e280266f385254616ace5a12f4a",
+  "title": "GitHub - Gene-Weaver/VoucherVision: Initiated by the University of Michigan Herbarium, VoucherVision harnesses the power of large language models (LLMs) to transform the transcription process of natural history specimen labels. · GitHub",
+  "github": {
+    "owner": "Gene-Weaver",
+    "repo": "VoucherVision",
+    "apiStatus": "unavailable"
+  }
+}

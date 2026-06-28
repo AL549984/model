@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:33.727Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/enricollen/fastRTC-voice-agent",
+  "finalUrl": "https://github.com/enricollen/fastRTC-voice-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5594c4cf29cebf18b0ba6016f156625b\"",
+  "lastModified": null,
+  "bodyBytes": 398534,
+  "bodySha256": "9ee7ad64fd00626adfb475eba66223117704596a8966a27fc8c187e6d4921512",
+  "title": "GitHub - enricollen/fastRTC-voice-agent: Realtime voice-enabled AI assistant that can engage in natural conversations · GitHub",
+  "github": {
+    "owner": "enricollen",
+    "repo": "fastRTC-voice-agent",
+    "apiStatus": "unavailable"
+  }
+}

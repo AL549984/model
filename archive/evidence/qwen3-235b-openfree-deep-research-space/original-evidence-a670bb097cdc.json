@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:31.441Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/openfree/qwen3-235b-a22b-research/raw/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/openfree/qwen3-235b-a22b-research/raw/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c531020072d91d862eb9671a9e8fee8bd70de156\"",
+  "lastModified": null,
+  "bodyBytes": 16923,
+  "bodySha256": "de5b13a242d3d3aab02498d36e8b199f50e249d5c25f6da06675b83b4c8d5429",
+  "title": "",
+  "github": null
+}

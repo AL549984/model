@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:08.650Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/EswarDivi/NarrateIt",
+  "finalUrl": "https://github.com/EswarDivi/NarrateIt",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ef9c068acb4d5195a09bbd582798a33b\"",
+  "lastModified": null,
+  "bodyBytes": 242340,
+  "bodySha256": "c7a1a3dd615385afd68e5095b0d362c17738a2f807f6f1a124580e30d1b2b388",
+  "title": "GitHub - EswarDivi/NarrateIt: https://narrateit.streamlit.app/ · GitHub",
+  "github": {
+    "owner": "EswarDivi",
+    "repo": "NarrateIt",
+    "apiStatus": "unavailable"
+  }
+}

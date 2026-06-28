@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:24.081Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/gupta-v/ai-video-analyzer/blob/main/app.py#L81-L107",
+  "finalUrl": "https://github.com/gupta-v/ai-video-analyzer/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b1f7701fea02ee39e94c37bfdb5cf5f5\"",
+  "lastModified": null,
+  "bodyBytes": 363604,
+  "bodySha256": "22a58f94f99ede3ae0e41d5dfe25130dba0b7ea1538f161a2af5c1e81cc43ddc",
+  "title": "ai-video-analyzer/app.py at main · gupta-v/ai-video-analyzer · GitHub",
+  "github": {
+    "owner": "gupta-v",
+    "repo": "ai-video-analyzer",
+    "apiStatus": "unavailable"
+  }
+}

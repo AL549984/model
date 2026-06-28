@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-6-ai-module-tester-edtech",
+  "modelId": "kimi-k2-6",
+  "modelName": "Kimi K2.6",
+  "title": "AI Module Tester — E-learning module generation and visual testing with Kimi K2.6",
+  "evidenceFingerprint": "3c1506750d3bd9510b0c5e023b4362aa3bce64885b88e08119fb74d2780ceaf6",
+  "capturedAt": "2026-06-27T22:29:19.475Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Fuhad-Lab/ai-module-tester",
+      "snapshotPath": "archive/evidence/kimi-k2-6-ai-module-tester-edtech/original-evidence-92a4a2e12750.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Fuhad-Lab/ai-module-tester: AI-powered module creator and tester for Blue Horizon e-learning (Kimi K2.6 + Playwright) · GitHub",
+      "bodySha256": "358a471a087bc3553b70e379a09282f60dc61c9dab629c3beffe3b553cc6bd7b",
+      "capturedAt": "2026-06-27T22:29:16.487Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Fuhad-Lab/ai-module-tester",
+      "snapshotPath": "archive/evidence/kimi-k2-6-ai-module-tester-edtech/artifact-1-92a4a2e12750.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Fuhad-Lab/ai-module-tester: AI-powered module creator and tester for Blue Horizon e-learning (Kimi K2.6 + Playwright) · GitHub",
+      "bodySha256": "ef983904b653edac0e589fb0dd79c811eb14e520e2f5fd753535db7f53bc4165",
+      "capturedAt": "2026-06-27T22:29:19.047Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:25.603Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/Udayxyz/MiniMaxAI-MiniMax-M1-80k/raw/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/Udayxyz/MiniMaxAI-MiniMax-M1-80k/raw/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "440",
+  "etag": "\"1c597f7eb6723d3911aeb40903059df427e8f204\"",
+  "lastModified": null,
+  "bodyBytes": 440,
+  "bodySha256": "7f5a5ecdd00bcac7ee5766471f5d529fe6711a5edc1063077661e3c3339fd901",
+  "title": "",
+  "github": null
+}

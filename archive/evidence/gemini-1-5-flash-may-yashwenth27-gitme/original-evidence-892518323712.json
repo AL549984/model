@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:27.845Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Yashwenth27/GitMe/blob/main/main.py#L10-L128",
+  "finalUrl": "https://github.com/Yashwenth27/GitMe/blob/main/main.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3b8016021a5ed9bd81d261d59bf46096\"",
+  "lastModified": null,
+  "bodyBytes": 316542,
+  "bodySha256": "6d96024d00e0147adff747eb77c5d13d4d0313458fb523891c040d8f589a7474",
+  "title": "GitMe/main.py at main · Yashwenth27/GitMe · GitHub",
+  "github": {
+    "owner": "Yashwenth27",
+    "repo": "GitMe",
+    "apiStatus": "unavailable"
+  }
+}

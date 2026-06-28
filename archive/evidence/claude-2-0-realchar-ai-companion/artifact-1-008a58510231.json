@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:42.021Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Shaunwei/RealChar",
+  "finalUrl": "https://github.com/Shaunwei/RealChar",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"346635c492568883045a017c6a5ab591\"",
+  "lastModified": null,
+  "bodyBytes": 444165,
+  "bodySha256": "e8782382fd23e6ee3a0aaa1d0a319b18ddce9d964922c8b994aafa092cf39898",
+  "title": "GitHub - Shaunwei/RealChar: 🎙️🤖Create, Customize and Talk to your AI Character/Companion in Realtime (All in One Codebase!). Have a natural seamless conversation with AI everywhere (mobile, web and terminal) using LLM OpenAI GPT3.5/4, Ant",
+  "github": {
+    "owner": "Shaunwei",
+    "repo": "RealChar",
+    "apiStatus": "unavailable"
+  }
+}

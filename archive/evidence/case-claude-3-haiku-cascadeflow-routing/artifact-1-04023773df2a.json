@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:40.519Z",
+  "kind": "artifact-1",
+  "url": "https://pypi.org/project/cascadeflow/",
+  "finalUrl": "https://pypi.org/project/cascadeflow/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "contentLength": "27589",
+  "etag": "\"8elaqkAZrJBAzE2cYLthBg\"",
+  "lastModified": null,
+  "bodyBytes": 158260,
+  "bodySha256": "bdf126d2e906d09438fcebcc8811010a33221d1dbb78022373653c9611bd0f82",
+  "title": "cascadeflow · PyPI",
+  "github": null
+}

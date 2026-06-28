@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-7-max-leventilo-mobius",
+  "modelId": "claude-opus-4-7-max",
+  "modelName": "Claude Opus 4.7 (max)",
+  "title": "Mobius uses a Claude Opus 4.7 orchestrator to turn physics papers into interactive simulators",
+  "evidenceFingerprint": "fc7208c2cf815abc75afb6cd95a05d8aa2543b73c037c7273a3f75632784960c",
+  "capturedAt": "2026-06-27T21:01:29.355Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/leventilo/mobius#readme",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-leventilo-mobius/original-evidence-837525e68dde.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - leventilo/mobius: Drop a physics paper, get a Ciechanowski-grade interactive simulator with the paper&#39;s real physics under the hood. Built with Claude Opus 4.7 + Managed Agents + Skills for the Cerebral Valley hackathon (Apr 20",
+      "bodySha256": "018ff234f653831933c5c7c4b9a4ef5a3aa4909168e888b2f848fae87c04a139",
+      "capturedAt": "2026-06-27T21:01:26.712Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/leventilo/mobius",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-leventilo-mobius/artifact-1-259e9ebced4c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - leventilo/mobius: Drop a physics paper, get a Ciechanowski-grade interactive simulator with the paper&#39;s real physics under the hood. Built with Claude Opus 4.7 + Managed Agents + Skills for the Cerebral Valley hackathon (Apr 20",
+      "bodySha256": "961624241644277d7d69cef1fb5660549ca6495ab192ff7fb8250c8b644311cc",
+      "capturedAt": "2026-06-27T21:01:28.657Z",
+      "error": ""
+    }
+  ]
+}

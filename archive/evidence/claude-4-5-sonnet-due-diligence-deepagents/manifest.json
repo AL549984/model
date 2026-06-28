@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-5-sonnet-due-diligence-deepagents",
+  "modelId": "claude-4-5-sonnet",
+  "modelName": "Claude 4.5 Sonnet",
+  "title": "DeepAgents uses Claude Sonnet 4.5 for autonomous enhanced due-diligence investigations",
+  "evidenceFingerprint": "545fc69a7035b032bf9c2b55bae95474aebcd4952b9fd16342b5cb13f5291aa2",
+  "capturedAt": "2026-06-27T20:54:46.490Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/asimniazi63/due-diligence-deepagents/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-due-diligence-deepagents/original-evidence-cf8f4db09446.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "due-diligence-deepagents/README.md at main · asimniazi63/due-diligence-deepagents · GitHub",
+      "bodySha256": "6fd830b43750db7188cef02c6bb22ebc5240b08a35f354b65e503ac7c441b2dc",
+      "capturedAt": "2026-06-27T20:54:44.421Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/asimniazi63/due-diligence-deepagents",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-due-diligence-deepagents/artifact-1-36020748bfea.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - asimniazi63/due-diligence-deepagents: A production-ready autonomous AI system for Enhanced Due Diligence (EDD) investigations using graph-based workflow orchestration with LangGraph and multi-model AI architecture (Claude Sonnet 4.",
+      "bodySha256": "d723d0b138b20267b96fe9b5d57b00affe75eb91b9d27ceaee46ad3061dd7809",
+      "capturedAt": "2026-06-27T20:54:45.577Z",
+      "error": ""
+    }
+  ]
+}

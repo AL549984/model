@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-thinking-exp-jan-nanobrowser-function-calling",
+  "modelId": "gemini-2-0-flash-thinking-exp-jan",
+  "modelName": "Gemini 2.0 Flash Thinking exp. (Jan)",
+  "title": "Nanobrowser enabled Gemini 2.0 Flash Thinking 01-21 for browser-agent function calling",
+  "evidenceFingerprint": "bfa21b890a706f36c89dc40ec1a1b8f44838bb1d0d1da23e173522364a911ad0",
+  "capturedAt": "2026-06-27T21:46:55.675Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/jeevesh415/nanobrowser/pull/6",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-nanobrowser-function-calling/original-evidence-2f78e4e3c4dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Enable Gemini 2.0 Flash Thinking function calling support by jeevesh415 · Pull Request #6 · jeevesh415/nanobrowser · GitHub",
+      "bodySha256": "ebbb30c0c1df1abd2ef2d9f8232b3a5ee25ac7fa27bef1f2e5f829b677ad202e",
+      "capturedAt": "2026-06-27T21:46:52.890Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://chromewebstore.google.com/detail/nanobrowser-ai-web-agent/imbddededgmcgfhfpcjmijokokekbkal",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-nanobrowser-function-calling/artifact-1-f302133c843e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Nanobrowser: AI Web Agent &amp; Automation - Chrome Web Store",
+      "bodySha256": "88df08b5c7b8535826ad3b8b21f51a9d00196bbdff55653753275bdf221f3dff",
+      "capturedAt": "2026-06-27T21:46:54.459Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:15.152Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/main/edge-functions/api/edgeai/chat/completions.ts",
+  "finalUrl": "https://github.com/DayuanJiang/next-ai-draw-io/blob/main/edge-functions/api/edgeai/chat/completions.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3e7c25767d9667f8e49b49d304d6e564\"",
+  "lastModified": null,
+  "bodyBytes": 406756,
+  "bodySha256": "1978a45dc2bbf91039393e6e3c691cab869dd3355b895098cb9176ee377d17fc",
+  "title": "next-ai-draw-io/edge-functions/api/edgeai/chat/completions.ts at main · DayuanJiang/next-ai-draw-io · GitHub",
+  "github": {
+    "owner": "DayuanJiang",
+    "repo": "next-ai-draw-io",
+    "apiStatus": "unavailable"
+  }
+}

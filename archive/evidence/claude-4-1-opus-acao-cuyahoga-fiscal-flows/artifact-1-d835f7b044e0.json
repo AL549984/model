@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:25.859Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/acao/cuyahoga-county-fiscal-flows/blob/main/cuyahoga-fiscal-report.md",
+  "finalUrl": "https://github.com/acao/cuyahoga-county-fiscal-flows/blob/main/cuyahoga-fiscal-report.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fc620a7d2385604fe3935dc8d44bdccc\"",
+  "lastModified": null,
+  "bodyBytes": 746804,
+  "bodySha256": "665c55b81f180411fbcca544250335512cd144974e0d7abc1891785bfd656cdc",
+  "title": "cuyahoga-county-fiscal-flows/cuyahoga-fiscal-report.md at main · acao/cuyahoga-county-fiscal-flows · GitHub",
+  "github": {
+    "owner": "acao",
+    "repo": "cuyahoga-county-fiscal-flows",
+    "apiStatus": "unavailable"
+  }
+}

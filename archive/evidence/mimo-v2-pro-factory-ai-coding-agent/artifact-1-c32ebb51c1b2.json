@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:38:06.364Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Factory-AI/factory",
+  "finalUrl": "https://github.com/Factory-AI/factory",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"48328bc82225545add06736002dc6ad5\"",
+  "lastModified": null,
+  "bodyBytes": 270309,
+  "bodySha256": "abab03de10ce9a890f8bf5e770a32d2cf687297e74a4ba75bfc5c91e0cb1c6a2",
+  "title": "GitHub - Factory-AI/factory: Factory - Agent-Native Software Development · GitHub",
+  "github": {
+    "owner": "Factory-AI",
+    "repo": "factory",
+    "apiStatus": "unavailable"
+  }
+}

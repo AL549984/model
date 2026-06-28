@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:36.622Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ndom91/GLM-4.7-Flash-Strix-Halo",
+  "finalUrl": "https://github.com/ndom91/GLM-4.7-Flash-Strix-Halo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fa7b79e86025771960476a87bc1f5f8e\"",
+  "lastModified": null,
+  "bodyBytes": 260601,
+  "bodySha256": "144690abdcc42b6d52d9eaaace75403d4c2e6600f83535c6d0e1e8df5b086bef",
+  "title": "GitHub - ndom91/GLM-4.7-Flash-Strix-Halo: Strix Halo setup for GLM-4.7 Flash using llama.cpp · GitHub",
+  "github": {
+    "owner": "ndom91",
+    "repo": "GLM-4.7-Flash-Strix-Halo",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-5-yash2003bisht-null-vscode-code-completion",
+  "modelId": "deepseek-v2-5",
+  "modelName": "DeepSeek-V2.5",
+  "title": "Null VS Code extension used DeepSeek V2.5 as part of AI-assisted code-completion development",
+  "evidenceFingerprint": "76a61d8acad18266ce5854281a26d3ae798db82728e7062492edc43f5cb267c2",
+  "capturedAt": "2026-06-27T21:08:14.312Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Yash2003Bisht/Null",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-yash2003bisht-null-vscode-code-completion/original-evidence-d7da6d9cf2ab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Yash2003Bisht/Null: Null vscode extension for code completion using AI (90% of the code is written by GPT, Claude and Deepseek v2.5) · GitHub",
+      "bodySha256": "eb1e111bcbeb3da739ac088ed5ac86cd34c96b46f0e5ac95d7312cb85f03eff8",
+      "capturedAt": "2026-06-27T21:08:12.667Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Yash2003Bisht/Null",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-yash2003bisht-null-vscode-code-completion/artifact-1-d7da6d9cf2ab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Yash2003Bisht/Null: Null vscode extension for code completion using AI (90% of the code is written by GPT, Claude and Deepseek v2.5) · GitHub",
+      "bodySha256": "d510c2dbda2e51df6776a8f16eeadfb7963bca8f0195f7db1b7f0f8362a71544",
+      "capturedAt": "2026-06-27T21:08:13.903Z",
+      "error": ""
+    }
+  ]
+}

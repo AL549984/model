@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:26.113Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/pinu/Qwen2.5-Max-Demo/blob/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/pinu/Qwen2.5-Max-Demo/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2309f-LGjBCBhpD6EAwWSvfAOkGqKkCD8\"",
+  "lastModified": null,
+  "bodyBytes": 143519,
+  "bodySha256": "bcbfae2e861ee171262ca4d07f278ec440e0a2e85416e71264509c225d9e63f6",
+  "title": "app.py · pinu/Qwen2.5-Max-Demo at main",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-sep-minuet-code-completion",
+  "modelId": "gemini-1-5-pro-sep",
+  "modelName": "Gemini 1.5 Pro (Sep)",
+  "title": "Minuet AI Neovim plugin uses Gemini 1.5 Pro Latest as a selectable code-completion model",
+  "evidenceFingerprint": "b319b9ee5c023d84c94294e1a4f5162b9c3f01d0336491485c30706848bd2f98",
+  "capturedAt": "2026-06-27T21:40:53.742Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/milanglacier/minuet-ai.nvim#minuet-change_model",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-minuet-code-completion/original-evidence-c69b6eb5e169.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - milanglacier/minuet-ai.nvim: 💃 Dance with Intelligence in Your Code. Minuet offers code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more. · GitHub",
+      "bodySha256": "0ebf1f3a7da1f2c64107596ed59f6f2fe3f5ea88848ed35ff8be2e8b8652d70b",
+      "capturedAt": "2026-06-27T21:40:51.643Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/milanglacier/minuet-ai.nvim",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-sep-minuet-code-completion/artifact-1-953dca06f162.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - milanglacier/minuet-ai.nvim: 💃 Dance with Intelligence in Your Code. Minuet offers code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more. · GitHub",
+      "bodySha256": "b34bf3b864c290f68355c079872417de1e1b04e89093d3861fe2a7ec2fc0de2c",
+      "capturedAt": "2026-06-27T21:40:53.051Z",
+      "error": ""
+    }
+  ]
+}

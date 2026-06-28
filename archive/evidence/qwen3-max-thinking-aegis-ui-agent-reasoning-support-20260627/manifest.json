@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-thinking-aegis-ui-agent-reasoning-support-20260627",
+  "modelId": "qwen3-max-thinking",
+  "modelName": "Qwen3 Max Thinking",
+  "title": "Aegis UI Agent 在通用网页操作代理中为 Qwen3 Max Thinking 接入 reasoning/thinking 流式展示",
+  "evidenceFingerprint": "fd36efe1bfb8cf369dd4832ae404631f9c8129264193786a8542ca82d8b67546",
+  "capturedAt": "2026-06-27T23:15:18.034Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/chronosllc0-ai/aegis-ui-agent/pull/79",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-aegis-ui-agent-reasoning-support-20260627/original-evidence-f8e8cdb05907.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "fix: action log resize, chat persistence, stop button, tool permissions, chat message fixes by chronosllc0-ai · Pull Request #79 · chronosllc0-ai/aegis-ui-agent · GitHub",
+      "bodySha256": "7c9b5fd29fc4c68d1d4f98cd9906ede32518aed48f043fa72170fed67053d6b2",
+      "capturedAt": "2026-06-27T23:15:15.076Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/chronosllc0-ai/aegis-ui-agent",
+      "snapshotPath": "archive/evidence/qwen3-max-thinking-aegis-ui-agent-reasoning-support-20260627/artifact-1-14cb64c99762.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - chronosllc0-ai/aegis-ui-agent: 🧭Aegis — An AI-powered universal UI navigator that sees, understands, and operates any website through natural language. Built with Gemini 3 Pro vision, Google ADK, and the Live API for real-time voi",
+      "bodySha256": "cc5599d4efe9ff21933fb5c5843eb44f5d172cc89202191b53aa297f2219794e",
+      "capturedAt": "2026-06-27T23:15:16.894Z",
+      "error": ""
+    }
+  ]
+}

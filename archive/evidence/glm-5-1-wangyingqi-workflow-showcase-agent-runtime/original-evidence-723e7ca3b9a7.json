@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:51.449Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/wangyingqi-x/workflow-showcase-platform/blob/HEAD/workflow-engine/src/main/java/com/itao/workflowEngine/agent/llm/OpenAiChatModelClient.java#L46-L52",
+  "finalUrl": "https://github.com/wangyingqi-x/workflow-showcase-platform/blob/HEAD/workflow-engine/src/main/java/com/itao/workflowEngine/agent/llm/OpenAiChatModelClient.java",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3c071c71763dcebc02e0eec7ac467223\"",
+  "lastModified": null,
+  "bodyBytes": 950619,
+  "bodySha256": "77796ae6e0380d233d39542bd1244fb5abeb6ba22eb9b511810f9717f0218804",
+  "title": "workflow-showcase-platform/workflow-engine/src/main/java/com/itao/workflowEngine/agent/llm/OpenAiChatModelClient.java at 81d6cf126df7c234f2d23b5923b336b073b8cdb1 · wangyingqi-x/workflow-showcase-platform · GitHub",
+  "github": {
+    "owner": "wangyingqi-x",
+    "repo": "workflow-showcase-platform",
+    "apiStatus": "unavailable"
+  }
+}

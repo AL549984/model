@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:09.176Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Altafk960/spark-llm-advisor/blob/master/README.md",
+  "finalUrl": "https://github.com/Altafk960/spark-llm-advisor/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f2b13a0f0ecb8a2c11a6c6743682b67c\"",
+  "lastModified": null,
+  "bodyBytes": 300699,
+  "bodySha256": "cd1b4aec90ef46d07110b65d1164b1d7558be3ce97593a5ff52198b0c7eff153",
+  "title": "spark-llm-advisor/README.md at master · Altafk960/spark-llm-advisor · GitHub",
+  "github": {
+    "owner": "Altafk960",
+    "repo": "spark-llm-advisor",
+    "htmlUrl": "https://github.com/Altafk960/spark-llm-advisor",
+    "defaultBranch": "master",
+    "defaultBranchSha": "0faf4ff51bd4e823157af8e4d17dfc57b680b101",
+    "pushedAt": "2026-04-12T11:53:13Z",
+    "updatedAt": "2026-04-12T11:53:17Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

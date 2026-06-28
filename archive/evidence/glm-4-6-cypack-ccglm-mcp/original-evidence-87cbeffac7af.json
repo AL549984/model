@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:30.920Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/CyPack/ccglm-mcp/blob/main/README.md",
+  "finalUrl": "https://github.com/CyPack/ccglm-mcp/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"91b4c74f7ee425d59b789d979e7a9061\"",
+  "lastModified": null,
+  "bodyBytes": 326092,
+  "bodySha256": "83afbdf4bfdf4ec74d397eebcc900ed8e1e3277f47ec8c59fe2941e28d82ab59",
+  "title": "ccglm-mcp/README.md at main · CyPack/ccglm-mcp · GitHub",
+  "github": {
+    "owner": "CyPack",
+    "repo": "ccglm-mcp",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:14.085Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MinhHaDuong/aedist-technical-report/blob/main/docs/audit-responses/qwen_qwen3-max-thinking.md",
+  "finalUrl": "https://github.com/MinhHaDuong/aedist-technical-report/blob/main/docs/audit-responses/qwen_qwen3-max-thinking.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2311c41811920412d86a8b1f85ada871\"",
+  "lastModified": null,
+  "bodyBytes": 258493,
+  "bodySha256": "a32de24b062960a24cdefcbebbe11913b564025ee9ee77bc6563386635d97930",
+  "title": "aedist-technical-report/docs/audit-responses/qwen_qwen3-max-thinking.md at main · MinhHaDuong/aedist-technical-report · GitHub",
+  "github": {
+    "owner": "MinhHaDuong",
+    "repo": "aedist-technical-report",
+    "apiStatus": "unavailable"
+  }
+}

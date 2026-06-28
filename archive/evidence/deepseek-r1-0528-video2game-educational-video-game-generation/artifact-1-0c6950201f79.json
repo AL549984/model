@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:20.923Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Hrishikesh332/Video2Game",
+  "finalUrl": "https://github.com/Hrishikesh332/Video2Game",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f754fa155e603d0b0d9c833dc9a0e48d\"",
+  "lastModified": null,
+  "bodyBytes": 290552,
+  "bodySha256": "0347e50a67440d13f3120fb674574ab9a79f135741761bfcb24231980573701f",
+  "title": "GitHub - Hrishikesh332/Video2Game: Video2Game is an application which takes educational videos (like lectures, tutorials, or any type of the explainer videos) and transforms them into interactive games · GitHub",
+  "github": {
+    "owner": "Hrishikesh332",
+    "repo": "Video2Game",
+    "apiStatus": "unavailable"
+  }
+}

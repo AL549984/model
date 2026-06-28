@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:08.824Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/tahangz/Vapi-AI-Voice-Assistant",
+  "finalUrl": "https://github.com/tahangz/Vapi-AI-Voice-Assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4c9f1d8841cbce95fdaf95e704bd7eec\"",
+  "lastModified": null,
+  "bodyBytes": 281583,
+  "bodySha256": "e5e4d3a30d8cb8d926523bfb1600c76a250f937bedb0d351af98eabd0c4a53c7",
+  "title": "GitHub - tahangz/Vapi-AI-Voice-Assistant: A full-stack voice assistant application built with Vite + React on the frontend and Flask on the backend, integrated with Vapi and powered by GPT-5. The app allows users to fill in personal details",
+  "github": {
+    "owner": "tahangz",
+    "repo": "Vapi-AI-Voice-Assistant",
+    "apiStatus": "unavailable"
+  }
+}

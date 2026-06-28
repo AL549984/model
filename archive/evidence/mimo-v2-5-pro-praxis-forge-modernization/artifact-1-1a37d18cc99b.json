@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:44.880Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ricoredfinger-png/praxis-forge",
+  "finalUrl": "https://github.com/ricoredfinger-png/praxis-forge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1e9cb80a3a17932d96e853e96eb97e1b\"",
+  "lastModified": null,
+  "bodyBytes": 323299,
+  "bodySha256": "ef6eb6b480d52a8cc7987820f28540d4d149557bb85b27e2e3998f391837456a",
+  "title": "GitHub - ricoredfinger-png/praxis-forge: Autonomous multi-agent codebase modernization &amp; tech debt hunter — 7 specialized agents, 4-pass long-chain reasoning, powered by Xiaomi MiMo V2.5 · GitHub",
+  "github": {
+    "owner": "ricoredfinger-png",
+    "repo": "praxis-forge",
+    "apiStatus": "unavailable"
+  }
+}

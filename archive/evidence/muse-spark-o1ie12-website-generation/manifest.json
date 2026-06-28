@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "muse-spark-o1ie12-website-generation",
+  "modelId": "muse-spark",
+  "modelName": "Muse Spark",
+  "title": "o1ie12 built a complete marketing website using only Muse Spark prompts — no manual code edits",
+  "evidenceFingerprint": "f851d25b01b064066228f54d0b310099d097cdb30bf1da760a959c29279d38a2",
+  "capturedAt": "2026-06-27T22:45:06.466Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/o1ie12/Meta-AI-Muse-Spark-Website-Test",
+      "snapshotPath": "archive/evidence/muse-spark-o1ie12-website-generation/original-evidence-8ef0384fdcd2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - o1ie12/Meta-AI-Muse-Spark-Website-Test: Here is what it built after about 5-6 prompts later. No code, no manual edits, just pure prompt coding. · GitHub",
+      "bodySha256": "fdbb34934a78d619e599f4920af2351d10053a64e6cae0a214fd32b9beffdf0e",
+      "capturedAt": "2026-06-27T22:45:04.240Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://o1ie12.github.io/Meta-AI-Muse-Spark-Website-Test/",
+      "snapshotPath": "archive/evidence/muse-spark-o1ie12-website-generation/artifact-1-b26861bcc426.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Northstar Consulting — Strategy with soul",
+      "bodySha256": "c9fdd9525c0aa83585a7e7d2a148f533807c83c1497ff176ae94ad509e452c6a",
+      "capturedAt": "2026-06-27T22:45:05.619Z",
+      "error": ""
+    }
+  ]
+}

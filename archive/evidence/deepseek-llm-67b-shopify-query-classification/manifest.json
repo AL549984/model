@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-llm-67b-shopify-query-classification",
+  "modelId": "deepseek-llm-67b-v1",
+  "modelName": "DeepSeek LLM 67B Chat",
+  "title": "Shopify ReasonableAI benchmarks DeepSeek LLM 67B Chat for query classification in customer support",
+  "evidenceFingerprint": "a50dcb915e24cd359d7ebd1f7f1710b18c52c4359cea104a2f05dea2206a83db",
+  "capturedAt": "2026-06-27T21:02:10.843Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Shopify/reasonableai/issues/27",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-shopify-query-classification/original-evidence-ac1d93e14037.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Benchmarking results · Issue #27 · Shopify/reasonableai · GitHub",
+      "bodySha256": "3075bfc9911e5443a69b22d29478926b9a029024caf87b187b24d117cf852ef3",
+      "capturedAt": "2026-06-27T21:02:08.476Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Shopify/reasonableai",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-shopify-query-classification/artifact-1-038fe6b4b608.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Shopify/reasonableai: An auditable generative AI framework · GitHub",
+      "bodySha256": "e95ac78dedb606ec80b870a1fa4e62f6c83bc6c40b1e6a863e7065d63f4ef95b",
+      "capturedAt": "2026-06-27T21:02:09.549Z",
+      "error": ""
+    }
+  ]
+}

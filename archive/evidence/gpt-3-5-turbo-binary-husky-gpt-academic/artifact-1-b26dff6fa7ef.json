@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:09.622Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/binary-husky/gpt_academic",
+  "finalUrl": "https://github.com/binary-husky/gpt_academic",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a4aa586516f1ced0b03bb0fa321be56f\"",
+  "lastModified": null,
+  "bodyBytes": 492981,
+  "bodySha256": "5fd305f238ab67acb0b915a9714dcfb9439567962a15d1523d25bfc7a079bcfb",
+  "title": "GitHub - binary-husky/gpt_academic: 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&amp;函数插件，支持Python和C++等项目剖析&amp;自译解功能，PDF/LaTex论文翻译&amp;总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claud",
+  "github": {
+    "owner": "binary-husky",
+    "repo": "gpt_academic",
+    "apiStatus": "unavailable"
+  }
+}

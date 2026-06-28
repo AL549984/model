@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:51.686Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/okupacolossal/ai-assistant-tool-calling/blob/master/README.md",
+  "finalUrl": "https://github.com/okupacolossal/ai-assistant-tool-calling/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"91d4891b013e04b118609192ee69b7ea\"",
+  "lastModified": null,
+  "bodyBytes": 265744,
+  "bodySha256": "0411cf86b58e03a0f7c122223723d30f71f66841ce93018d07b16fc18fa1f0f4",
+  "title": "ai-assistant-tool-calling/README.md at master · okupacolossal/ai-assistant-tool-calling · GitHub",
+  "github": {
+    "owner": "okupacolossal",
+    "repo": "ai-assistant-tool-calling",
+    "apiStatus": "unavailable"
+  }
+}

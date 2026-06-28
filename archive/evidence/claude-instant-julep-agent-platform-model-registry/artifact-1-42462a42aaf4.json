@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:58.909Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/julep-ai/julep",
+  "finalUrl": "https://github.com/julep-ai/julep",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b7e2d0ed6051a93baf644d2c26113f00\"",
+  "lastModified": null,
+  "bodyBytes": 355124,
+  "bodySha256": "76b8e8db33bc15c4115bb7262747ec778ffdbb500f758f748413bd3101905359",
+  "title": "GitHub - julep-ai/julep: Firebase for AI agents · GitHub",
+  "github": {
+    "owner": "julep-ai",
+    "repo": "julep",
+    "apiStatus": "unavailable"
+  }
+}

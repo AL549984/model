@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:02.693Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/coasty-ai/open-cowork",
+  "finalUrl": "https://github.com/coasty-ai/open-cowork",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8d8f8b99e00dceebbff2379c1aedf242\"",
+  "lastModified": null,
+  "bodyBytes": 413934,
+  "bodySha256": "eea92b7ba4ccb1a646e80d5d77bcdd8ebb87fc5454c159477c125f1a111637c5",
+  "title": "GitHub - coasty-ai/open-cowork: Open-source alternative to Claude Co-Work built by Claude Mythos 5. with BYOK · GitHub",
+  "github": {
+    "owner": "coasty-ai",
+    "repo": "open-cowork",
+    "apiStatus": "unavailable"
+  }
+}

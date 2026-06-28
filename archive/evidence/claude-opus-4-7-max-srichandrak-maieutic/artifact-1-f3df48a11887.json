@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:33.870Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/srichandrak/maieutic",
+  "finalUrl": "https://github.com/srichandrak/maieutic",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"95fc56475af5810a74753359aecb10be\"",
+  "lastModified": null,
+  "bodyBytes": 314980,
+  "bodySha256": "5e971539659142e4769c1fbb335536c51c173b8f3f604a8b28c78bf154221b85",
+  "title": "GitHub - srichandrak/maieutic: Pedagogical IDE using Claude Opus 4.7 as a structured interlocutor — Anthropic Builder Hackathon MVP · GitHub",
+  "github": {
+    "owner": "srichandrak",
+    "repo": "maieutic",
+    "htmlUrl": "https://github.com/srichandrak/maieutic",
+    "defaultBranch": "main",
+    "defaultBranchSha": "7c095f8fe1aee183b1519a1820005561e61e9022",
+    "pushedAt": "2026-04-26T14:55:52Z",
+    "updatedAt": "2026-04-28T17:44:02Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

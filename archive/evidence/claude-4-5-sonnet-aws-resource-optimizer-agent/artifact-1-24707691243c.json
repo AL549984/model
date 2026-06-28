@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:43.292Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mohamedsorour1998/AWS-Resource-Optimizer-Agent",
+  "finalUrl": "https://github.com/mohamedsorour1998/AWS-Resource-Optimizer-Agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e5e3d566e8bfb5f1ba04efc9769e7005\"",
+  "lastModified": null,
+  "bodyBytes": 457014,
+  "bodySha256": "5c96ff5106a2d57a81fb454b6708fc07b85e2a927946519a2a788e3e9abaefc0",
+  "title": "GitHub - mohamedsorour1998/AWS-Resource-Optimizer-Agent: Production-ready AI agent for AWS resource monitoring and optimization, Built with Amazon Bedrock AgentCore Gateway, Claude Sonnet 4.5, and Strands Agents SDK. · GitHub",
+  "github": {
+    "owner": "mohamedsorour1998",
+    "repo": "AWS-Resource-Optimizer-Agent",
+    "apiStatus": "unavailable"
+  }
+}

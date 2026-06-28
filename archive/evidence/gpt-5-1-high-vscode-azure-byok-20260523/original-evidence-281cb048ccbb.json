@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:34.228Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/microsoft/vscode/pull/318118",
+  "finalUrl": "https://github.com/microsoft/vscode/pull/318118",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 371927,
+  "bodySha256": "e23f140542d3f3760fa91e1932f340e0b50fc42efc92ef6170afdc59b4ff2535",
+  "title": "Azure BYOK: support configurable Entra auth provider and scopes by jimstrang · Pull Request #318118 · microsoft/vscode · GitHub",
+  "github": {
+    "owner": "microsoft",
+    "repo": "vscode",
+    "htmlUrl": "https://github.com/microsoft/vscode",
+    "defaultBranch": "main",
+    "defaultBranchSha": "9da4a9bba4e0a44669129b6b73ab7a587d728da9",
+    "pushedAt": "2026-06-27T21:54:54Z",
+    "updatedAt": "2026-06-27T21:51:15Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

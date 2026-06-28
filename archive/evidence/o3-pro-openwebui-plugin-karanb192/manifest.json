@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o3-pro-openwebui-plugin-karanb192",
+  "modelId": "o3-pro",
+  "modelName": "o3-pro",
+  "title": "Developer builds Open WebUI plugin for o3-pro reasoning model access with cost tracking",
+  "evidenceFingerprint": "59bc626f347006e558ca59f366f7a7cba2bab9634ca10d4aab4fa9c866a4f43b",
+  "capturedAt": "2026-06-27T22:52:02.201Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/karanb192/openwebui-o1o3-pro-plugin",
+      "snapshotPath": "archive/evidence/o3-pro-openwebui-plugin-karanb192/original-evidence-0ed0ce35844a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - karanb192/openwebui-o1o3-pro-plugin: Access OpenAI&#39;s most advanced reasoning models (o1-pro and o3-pro) with comprehensive token tracking and cost analytics in Open WebUI · GitHub",
+      "bodySha256": "3c52d0d6160057e0bb1be26c281159fc325a9c4e78082261429eea3e21e6e75c",
+      "capturedAt": "2026-06-27T22:52:00.521Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/karanb192/openwebui-o1o3-pro-plugin",
+      "snapshotPath": "archive/evidence/o3-pro-openwebui-plugin-karanb192/artifact-1-0ed0ce35844a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - karanb192/openwebui-o1o3-pro-plugin: Access OpenAI&#39;s most advanced reasoning models (o1-pro and o3-pro) with comprehensive token tracking and cost analytics in Open WebUI · GitHub",
+      "bodySha256": "0eb72b63b3a0656901013ff8aa86eb6ebbdeaacec8c0fa5b2709403a8f6fd392",
+      "capturedAt": "2026-06-27T22:52:01.675Z",
+      "error": ""
+    }
+  ]
+}

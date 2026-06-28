@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:44.545Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kernel-memory-dump/ffmpeg-electron-demo-chatgpt",
+  "finalUrl": "https://github.com/kernel-memory-dump/ffmpeg-electron-demo-chatgpt",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"02fcb2bb85690e8ad1b7fbaab3717581\"",
+  "lastModified": null,
+  "bodyBytes": 292861,
+  "bodySha256": "050584836b066d4a23e064c51ed76ca8f9e09f0748fc915ec6d309cdb9bc5123",
+  "title": "GitHub - kernel-memory-dump/ffmpeg-electron-demo-chatgpt: Video Cropper FFMPEG 100% generated with a single ChatGPT o1-preview prompt This is a desktop application built with **Electron** and **FFmpeg** that allows users to visually select ",
+  "github": {
+    "owner": "kernel-memory-dump",
+    "repo": "ffmpeg-electron-demo-chatgpt",
+    "apiStatus": "unavailable"
+  }
+}

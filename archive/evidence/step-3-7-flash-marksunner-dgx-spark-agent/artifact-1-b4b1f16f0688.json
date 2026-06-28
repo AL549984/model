@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:26.962Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/marksunner/dgx-spark-step37-flash",
+  "finalUrl": "https://github.com/marksunner/dgx-spark-step37-flash",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"69de7b6fb5e3626a7e307860402de738\"",
+  "lastModified": null,
+  "bodyBytes": 358086,
+  "bodySha256": "12f50dbfc672a94173ef95879274ddb383ede88e7e3fd2742e7e44089190c103",
+  "title": "GitHub - marksunner/dgx-spark-step37-flash: Step 3.7 Flash (198B MoE) on a single DGX Spark — 27 tok/s, 128K context, agent-ready · GitHub",
+  "github": {
+    "owner": "marksunner",
+    "repo": "dgx-spark-step37-flash",
+    "apiStatus": "unavailable"
+  }
+}

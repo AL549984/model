@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-open-100b-aaryank-gguf",
+  "modelId": "solar-open-100b",
+  "modelName": "Solar Open 100B",
+  "title": "AaryanK converted Solar Open 100B to GGUF for llama.cpp-style local inference",
+  "evidenceFingerprint": "52f31a84e0867c032f82947e93909ae8266249052c9fc74eac05764aaeb6d778",
+  "capturedAt": "2026-06-27T23:25:33.396Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/AaryanK/Solar-Open-100B-GGUF/raw/main/README.md",
+      "snapshotPath": "archive/evidence/solar-open-100b-aaryank-gguf/original-evidence-90e300ccdd05.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ee9ff273a7b06bf230e6e6e24cf78e49f09d3c1f618bcc99fb53ada8ceb97fc7",
+      "capturedAt": "2026-06-27T23:25:32.763Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/AaryanK/Solar-Open-100B-GGUF",
+      "snapshotPath": "archive/evidence/solar-open-100b-aaryank-gguf/artifact-1-24d5e73555e6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AaryanK/Solar-Open-100B-GGUF · Hugging Face",
+      "bodySha256": "71e5bd2acd70768e2bc4f28f46c4a1d7784a032ee7ce31e88315dcdf2b8e424a",
+      "capturedAt": "2026-06-27T23:25:33.037Z",
+      "error": ""
+    }
+  ]
+}

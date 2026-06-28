@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude37-case-vanta-remediation",
+  "modelId": "claude-3-7-sonnet",
+  "modelName": "Claude 3.7 Sonnet",
+  "title": "Vanta engineering remediation with Cursor",
+  "evidenceFingerprint": "69213881fc04d13ca5a88b892f8c1712d09ae0c65c7d159c58141edecbb4263e",
+  "capturedAt": "2026-06-27T23:27:22.008Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/vanta",
+      "snapshotPath": "archive/evidence/claude37-case-vanta-remediation/original-evidence-3c4fc5324f26.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Vanta Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "be362400e8f9e05a14e3d6ad44780005562cdc4a46d319e712376b0bf178e54b",
+      "capturedAt": "2026-06-27T23:27:16.183Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.vanta.com/",
+      "snapshotPath": "archive/evidence/claude37-case-vanta-remediation/artifact-1-4aa14ef0db3c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "SOC 2, HIPAA, ISO 27001, PCI, and GDPR Compliance",
+      "bodySha256": "070dee6ce0a0312afc0339b1b89971c619e3a8048d4c9e72a79c50329b05f9db",
+      "capturedAt": "2026-06-27T23:27:20.672Z",
+      "error": ""
+    }
+  ]
+}

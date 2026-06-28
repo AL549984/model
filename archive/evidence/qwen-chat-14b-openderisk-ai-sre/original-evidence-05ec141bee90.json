@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:18.781Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/derisk-ai/OpenDerisk/blob/main/packages/derisk-core/src/derisk/configs/model_config.py",
+  "finalUrl": "https://github.com/derisk-ai/OpenDerisk/blob/main/packages/derisk-core/src/derisk/configs/model_config.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"31b4abb8ca56c23e3066d85ca64aa3d7\"",
+  "lastModified": null,
+  "bodyBytes": 473350,
+  "bodySha256": "af3e3e41dcbcad742911e29035d0ef03aa2f81f63163dd609ac523d3e0898bba",
+  "title": "OpenDerisk/packages/derisk-core/src/derisk/configs/model_config.py at main · derisk-ai/OpenDerisk · GitHub",
+  "github": {
+    "owner": "derisk-ai",
+    "repo": "OpenDerisk",
+    "apiStatus": "unavailable"
+  }
+}

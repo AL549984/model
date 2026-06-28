@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:22.810Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Qcunyu/Deep-LuXun-skill",
+  "finalUrl": "https://github.com/Qcunyu/Deep-LuXun-skill",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dc87ab2e62222938b909a80d560a9330\"",
+  "lastModified": null,
+  "bodyBytes": 290642,
+  "bodySha256": "81697da11a314e33961c53dbff6bf21c4c7ebb186e07a3fb053e7d9f9e2a2d5a",
+  "title": "GitHub - Qcunyu/Deep-LuXun-skill: 基于 71k 字原始语料深度蒸馏的鲁迅思维框架。集成“女娲”Skill 体系，采用 DeepSeek-V3.2 Reasoner 建模。内置二难推理、归谬法等批判逻辑工具，拒绝平庸的 AI 复读，旨在提供最具穿透力的社会文化剖析视野。 · GitHub",
+  "github": {
+    "owner": "Qcunyu",
+    "repo": "Deep-LuXun-skill",
+    "apiStatus": "unavailable"
+  }
+}

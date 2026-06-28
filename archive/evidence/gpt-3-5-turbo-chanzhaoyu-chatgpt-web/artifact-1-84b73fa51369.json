@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:54:11.933Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Chanzhaoyu/chatgpt-web",
+  "finalUrl": "https://github.com/Chanzhaoyu/chatgpt-web",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dd5ea741c79fe713918e3bac3c66777b\"",
+  "lastModified": null,
+  "bodyBytes": 449475,
+  "bodySha256": "66f0750284e673d739e7012761b2d2cdb6f01cfb93100ac30617a219e97c5e89",
+  "title": "GitHub - Chanzhaoyu/chatgpt-web: 用 Express 和 Vue3 搭建的 ChatGPT 演示网页 · GitHub",
+  "github": {
+    "owner": "Chanzhaoyu",
+    "repo": "chatgpt-web",
+    "apiStatus": "unavailable"
+  }
+}

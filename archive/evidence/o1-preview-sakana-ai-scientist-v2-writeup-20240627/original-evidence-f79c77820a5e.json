@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:45.721Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v2/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v2/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "5547",
+  "etag": "W/\"d180b3caa40051ec5e34d6586b3fadf703b61073adfffa53340cb597a1c49986\"",
+  "lastModified": null,
+  "bodyBytes": 13586,
+  "bodySha256": "ed4ae4b9353641dff469679f14cbffd6547f7a6137b9d5b397f3be9a367b4e82",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:18.292Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/DFloat11/BAGEL-7B-MoT-DF11/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/DFloat11/BAGEL-7B-MoT-DF11/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f7e504316560c8e3f8c16f4657ae987c08f4d289\"",
+  "lastModified": null,
+  "bodyBytes": 1833,
+  "bodySha256": "ad7100d1a929bc128dda39e0e2deb4f3b0d59780ef6bfbf0fa66f01aa23dbf84",
+  "title": "",
+  "github": null
+}

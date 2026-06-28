@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:44.741Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/EmilBBbbbbbb/Multi-Agent-Interview-Coach",
+  "finalUrl": "https://github.com/EmilBBbbbbbb/Multi-Agent-Interview-Coach",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"264a46d1958efb2bc2f4b4c03a25c1ed\"",
+  "lastModified": null,
+  "bodyBytes": 407736,
+  "bodySha256": "286c07f19247e9916331e96025c18f7214af3b793df9c09b1e970766a6021fb5",
+  "title": "GitHub - EmilBBbbbbbb/Multi-Agent-Interview-Coach · GitHub",
+  "github": {
+    "owner": "EmilBBbbbbbb",
+    "repo": "Multi-Agent-Interview-Coach",
+    "apiStatus": "unavailable"
+  }
+}

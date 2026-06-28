@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:29.199Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/hpcaitech/ColossalAI/tree/main/examples/language/grok-1",
+  "finalUrl": "https://github.com/hpcaitech/ColossalAI/tree/main/examples/language/grok-1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bf7eea620830b6e4527d011cf455c35d\"",
+  "lastModified": null,
+  "bodyBytes": 275923,
+  "bodySha256": "fc4199090426d15f0e6b8f8a1a91763ae73465125be6c38becb13d1294745059",
+  "title": "ColossalAI/examples/language/grok-1 at main · hpcaitech/ColossalAI · GitHub",
+  "github": {
+    "owner": "hpcaitech",
+    "repo": "ColossalAI",
+    "apiStatus": "unavailable"
+  }
+}

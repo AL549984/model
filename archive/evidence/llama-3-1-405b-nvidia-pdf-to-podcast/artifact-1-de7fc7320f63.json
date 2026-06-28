@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:09.203Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast",
+  "finalUrl": "https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8d220cf156769d400bd6e1aa7fdc1988\"",
+  "lastModified": null,
+  "bodyBytes": 360459,
+  "bodySha256": "0b5b8aaa41ddfcf1e8493d457b578ce61e8908f9161613d0ad3c67e79d45d7b4",
+  "title": "GitHub - NVIDIA-AI-Blueprints/pdf-to-podcast: Transform PDFs into AI podcasts for engaging on-the-go audio content. · GitHub",
+  "github": {
+    "owner": "NVIDIA-AI-Blueprints",
+    "repo": "pdf-to-podcast",
+    "apiStatus": "unavailable"
+  }
+}

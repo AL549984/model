@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:45.804Z",
+  "kind": "artifact-1",
+  "url": "https://3d-sound-journey-builder.vercel.app/",
+  "finalUrl": "https://3d-sound-journey-builder.vercel.app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"60831058da618d6325225209239d57fc\"",
+  "lastModified": "Sat, 27 Jun 2026 08:59:04 GMT",
+  "bodyBytes": 24048,
+  "bodySha256": "4d972e41549cda6b7ed2112165d93da11c12d7c7151e98286912a82e7ac8e413",
+  "title": "3D Sound Journey Builder",
+  "github": null
+}

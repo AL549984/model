@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5codex-high-004",
+  "modelId": "gpt-5-codex-high",
+  "modelName": "GPT-5 Codex (high)",
+  "title": "OpenAI 使用 Codex 构建 Euphony Codex 会话可视化工具",
+  "evidenceFingerprint": "d652e442d4da9524f04ef39b869ed0f7ca26ade14f8eac5b5defdfd6ded25736",
+  "capturedAt": "2026-06-27T22:08:19.119Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/openai/euphony",
+      "snapshotPath": "archive/evidence/gpt5codex-high-004/original-evidence-0160930997ca.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - openai/euphony: Visualize harmony chat data and codex sessions in your browser · GitHub",
+      "bodySha256": "8f4057499c651b4058fd2f8815ec19e12cf5e50b439e5270085554e374da919d",
+      "capturedAt": "2026-06-27T22:08:17.061Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://openai.github.io/euphony/",
+      "snapshotPath": "archive/evidence/gpt5codex-high-004/artifact-1-0b26b6f42840.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Euphony: Visualize Chat Data in Your Browser",
+      "bodySha256": "0f8f4fa1b10d2bf7a5409e11417a69315d2d2d68ee849d7d9acbfd8628474043",
+      "capturedAt": "2026-06-27T22:08:18.335Z",
+      "error": ""
+    }
+  ]
+}

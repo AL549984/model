@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-5-otispm2020-html-slides-copilot-dom-control",
+  "modelId": "deepseek-v2-5",
+  "modelName": "DeepSeek-V2.5",
+  "title": "HTML Slides Copilot used DeepSeek-V2.5 via SiliconFlow to turn natural-language commands into browser DOM operations",
+  "evidenceFingerprint": "583f8d9c713f7814e23647f7dfb3eb95cfee0b502e977fbb196711de4c0c6fd0",
+  "capturedAt": "2026-06-27T21:08:11.007Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/otispm2020-dotcom/HTML_Slides_Copilot",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-otispm2020-html-slides-copilot-dom-control/original-evidence-28ff191a8c00.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - otispm2020-dotcom/HTML_Slides_Copilot: It is a Chrome extension that enables users to control web browsers and extract information through natural language commands. By leveraging the SiliconFlow large language model API (DeepSeek-",
+      "bodySha256": "b9551016c4e38fda6bf94e1db77be97c7134a9ddecf7feb6b23b13ff97744bba",
+      "capturedAt": "2026-06-27T21:08:09.404Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/otispm2020-dotcom/HTML_Slides_Copilot",
+      "snapshotPath": "archive/evidence/deepseek-v2-5-otispm2020-html-slides-copilot-dom-control/artifact-1-28ff191a8c00.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - otispm2020-dotcom/HTML_Slides_Copilot: It is a Chrome extension that enables users to control web browsers and extract information through natural language commands. By leveraging the SiliconFlow large language model API (DeepSeek-",
+      "bodySha256": "787464593721d9801432ddc6bea8affa67a21732c2367618ddfa41c24b17b003",
+      "capturedAt": "2026-06-27T21:08:10.594Z",
+      "error": ""
+    }
+  ]
+}

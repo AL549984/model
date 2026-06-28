@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:19.796Z",
+  "kind": "artifact-1",
+  "url": "https://opensensenova.github.io/ConsistCompose/",
+  "finalUrl": "https://opensensenova.github.io/ConsistCompose/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "12100",
+  "etag": "W/\"69cc9145-baf3\"",
+  "lastModified": "Wed, 01 Apr 2026 03:30:13 GMT",
+  "bodyBytes": 47859,
+  "bodySha256": "551763790b3cf350554b4ae332c594aac6e2be63285ff70031e315268f928604",
+  "title": "ConsistCompose — Unified Multimodal Layout Control",
+  "github": null
+}

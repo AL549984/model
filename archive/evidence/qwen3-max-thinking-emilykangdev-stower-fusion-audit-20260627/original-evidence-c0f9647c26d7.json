@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:18.034Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/emilykangdev/stower/pull/9",
+  "finalUrl": "https://github.com/emilykangdev/stower/pull/9",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 531917,
+  "bodySha256": "d0cd61d2107dbbca889b4d4c2b2f2ae1be09217f350d3d7983eb74911393596d",
+  "title": "SLM runtime seam: remove heuristic reply judge; attachment debts by emilykangdev · Pull Request #9 · emilykangdev/stower · GitHub",
+  "github": {
+    "owner": "emilykangdev",
+    "repo": "stower",
+    "apiStatus": "unavailable"
+  }
+}

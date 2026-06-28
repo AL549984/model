@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-5-coreline-antigravity-glm-mcp",
+  "modelId": "glm-4-5",
+  "modelName": "GLM-4.5",
+  "title": "Antigravity GLM MCP 将 Gemini/Antigravity 编码代理桥接到 GLM-4.5",
+  "evidenceFingerprint": "97075729082734aad86bff24daab324cd4c72f14ab57378cab4d303c4404e32a",
+  "capturedAt": "2026-06-27T21:14:30.891Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/coreline-ai/antigravity_glm_mcp/HEAD/README.md",
+      "snapshotPath": "archive/evidence/glm-4-5-coreline-antigravity-glm-mcp/original-evidence-b4e5eb792ea5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "296fc3e14dfd0cdd489883d44e95f70cb5d8787c61239e39f08f61564c8286d3",
+      "capturedAt": "2026-06-27T21:14:29.199Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/coreline-ai/antigravity_glm_mcp",
+      "snapshotPath": "archive/evidence/glm-4-5-coreline-antigravity-glm-mcp/artifact-1-f99cf2e3f1f6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - coreline-ai/antigravity_glm_mcp: Gemini/Antigravity ↔ GLM-4.5 브릿지 MCP 서버와 코딩 자동화 도구 | MCP bridge and coding automation tools connecting Gemini/Antigravity with GLM-4.5 · GitHub",
+      "bodySha256": "06a2be7f1c6df627f0f2a7197d87b858259defd52c870c47b5c3052034903b96",
+      "capturedAt": "2026-06-27T21:14:29.521Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-lukun927-rag-ta-agent-20260627",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "lukun927 用 Qwen3-Max 和本地 RAG 实现课程助教 Agent",
+  "evidenceFingerprint": "efc02d7801ceb683ea3fb721793917b8394600a1a4b15b9d7c3bb30cb06ac750",
+  "capturedAt": "2026-06-27T23:08:18.086Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/lukun927/RAG_TA_Agent/blob/main/config.py",
+      "snapshotPath": "archive/evidence/qwen3-max-lukun927-rag-ta-agent-20260627/original-evidence-9534de52fb93.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "RAG_TA_Agent/config.py at main · lukun927/RAG_TA_Agent · GitHub",
+      "bodySha256": "976a7836b6ac3f72577b21087e5a83045185f31a007af206d6c5ca407c7f0959",
+      "capturedAt": "2026-06-27T23:08:16.041Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/lukun927/RAG_TA_Agent",
+      "snapshotPath": "archive/evidence/qwen3-max-lukun927-rag-ta-agent-20260627/artifact-1-92858772066d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lukun927/RAG_TA_Agent: Based on qwen3-max and local RAG, implement a class TA agent. · GitHub",
+      "bodySha256": "fbb170c8c99e1276b0d78731a097802bf8a2885886d1f958d9d8613cdeb38346",
+      "capturedAt": "2026-06-27T23:08:17.079Z",
+      "error": ""
+    }
+  ]
+}

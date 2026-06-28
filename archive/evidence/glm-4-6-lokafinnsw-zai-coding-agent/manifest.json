@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-6-lokafinnsw-zai-coding-agent",
+  "modelId": "glm-4-6",
+  "modelName": "GLM-4.6",
+  "title": "Z.ai Coding Agent CLI using GLM-4.6 for large-codebase coding tasks",
+  "evidenceFingerprint": "27da7820d97259d982e31b2b90adcc9873ce112f43b2ca43ca0f58cdf1a61e06",
+  "capturedAt": "2026-06-27T21:47:39.408Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/lokafinnsw/zai/blob/main/README.md",
+      "snapshotPath": "archive/evidence/glm-4-6-lokafinnsw-zai-coding-agent/original-evidence-75b78c4d9b45.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "zai/README.md at main · lokafinnsw/zai · GitHub",
+      "bodySha256": "ee9e67c305de0226ff6288f7090427a1df6cf07128456de47579cca0ccbefb55",
+      "capturedAt": "2026-06-27T21:47:36.836Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/lokafinnsw/zai",
+      "snapshotPath": "archive/evidence/glm-4-6-lokafinnsw-zai-coding-agent/artifact-1-56db7bf2f0a2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lokafinnsw/zai: Z.ai Coding Agent - AI-powered coding assistant using Z.ai GLM-4.6 · GitHub",
+      "bodySha256": "5e14ed89920237fd6fa0294b1d12bdda604470ef9a98e5909e6130b4163a8364",
+      "capturedAt": "2026-06-27T21:47:38.039Z",
+      "error": ""
+    }
+  ]
+}

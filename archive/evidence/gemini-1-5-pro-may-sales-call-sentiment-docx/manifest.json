@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-sales-call-sentiment-docx",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "Sentiment-Analysis 用 Gemini 1.5 Pro 分析销售电话 DOCX 转录稿",
+  "evidenceFingerprint": "5cbb882eace684c1938eb9edf973c228f993dc88014aa4ca3866c4ea8e9ef0f1",
+  "capturedAt": "2026-06-27T21:40:44.827Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AntraTripathi74/Sentiment-Anlaysis/blob/main/app.py",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-sales-call-sentiment-docx/original-evidence-05eb3e397550.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Sentiment-Anlaysis/app.py at main · AntraTripathi74/Sentiment-Anlaysis · GitHub",
+      "bodySha256": "a5ea59277b9d1235dff319646a69b4402b243d451b7fce281099a0098cbf2a9c",
+      "capturedAt": "2026-06-27T21:40:40.977Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AntraTripathi74/Sentiment-Anlaysis",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-sales-call-sentiment-docx/artifact-1-b28fabf1a94d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AntraTripathi74/Sentiment-Anlaysis: Sentiment Analysis application built with Python. It leverages Google&#39;s Gemini 1.5 Pro LLM to analyze uploaded call transcripts · GitHub",
+      "bodySha256": "f56ce1597c90b9fa25fcb2b1067aeef2c1c1ddc05b79e8bfab94f0da49964277",
+      "capturedAt": "2026-06-27T21:40:42.040Z",
+      "error": ""
+    }
+  ]
+}

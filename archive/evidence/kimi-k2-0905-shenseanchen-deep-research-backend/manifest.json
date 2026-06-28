@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-0905-shenseanchen-deep-research-backend",
+  "modelId": "kimi-k2-0905",
+  "modelName": "Kimi K2 0905",
+  "title": "ShenSeanChen 用 Kimi K2 0905 集成 Deep Research Agent 后端",
+  "evidenceFingerprint": "a73ee90bb3ffd2776872817bef020e96475692fbc4576b6eb5a9a3c3477a34c8",
+  "capturedAt": "2026-06-27T22:22:27.645Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ShenSeanChen/launch-DeepResearch-Backend/blob/main/KIMI_K2_INTEGRATION.md",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-shenseanchen-deep-research-backend/original-evidence-19d5bf975bb2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "launch-DeepResearch-Backend/KIMI_K2_INTEGRATION.md at main · ShenSeanChen/launch-DeepResearch-Backend · GitHub",
+      "bodySha256": "3dada335f27627f8d69a0bbd321f132080078ce5e3ea6cbf6aff4c5e8afdc538",
+      "capturedAt": "2026-06-27T22:22:25.083Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ShenSeanChen/launch-DeepResearch-Backend",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-shenseanchen-deep-research-backend/artifact-1-9e3716d55ec1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ShenSeanChen/launch-DeepResearch-Backend: You Can Learn Deep Research AI Agent Design &amp; Launch In 25 Min | Kimi K2 0905, LangChain, OpenSource · GitHub",
+      "bodySha256": "7ff5a5be2c837f0badc60e7ea1cbf11d83c86389c8b7a8a1e84e5f6718946d21",
+      "capturedAt": "2026-06-27T22:22:26.287Z",
+      "error": ""
+    }
+  ]
+}

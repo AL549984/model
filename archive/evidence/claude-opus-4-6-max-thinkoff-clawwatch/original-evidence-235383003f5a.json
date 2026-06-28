@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:14.951Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/ThinkOffApp/ClawWatch/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/ThinkOffApp/ClawWatch/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "5600",
+  "etag": "W/\"d9f6d08ff0b9597871d177b38503f246511cfb94d8f8b19fc0a0984e397254cf\"",
+  "lastModified": null,
+  "bodyBytes": 12577,
+  "bodySha256": "5d7d75ea2488983d510f5a0ff0823a871925a2fff1a38102d025c834cca060dd",
+  "title": "",
+  "github": null
+}

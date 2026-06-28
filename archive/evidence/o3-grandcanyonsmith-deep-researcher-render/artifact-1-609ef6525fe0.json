@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:51.188Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/grandcanyonsmith/deep-researcher-render",
+  "finalUrl": "https://github.com/grandcanyonsmith/deep-researcher-render",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2a1b80218ff41371f8d1d5518f7e5180\"",
+  "lastModified": null,
+  "bodyBytes": 248278,
+  "bodySha256": "4b808e0dc1c4c010ad8f266f408a8fef9fa6c94d219cf42471d0dd4eccb1ab45",
+  "title": "GitHub - grandcanyonsmith/deep-researcher-render: FastAPI + OpenAI o3 deep research service for Render (Docker). · GitHub",
+  "github": {
+    "owner": "grandcanyonsmith",
+    "repo": "deep-researcher-render",
+    "apiStatus": "unavailable"
+  }
+}

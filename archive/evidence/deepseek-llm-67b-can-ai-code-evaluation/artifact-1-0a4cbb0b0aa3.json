@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:00.853Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/the-crypt-keeper/can-ai-code",
+  "finalUrl": "https://github.com/the-crypt-keeper/can-ai-code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"65669ddd2fdec90035c3b656220dc7c2\"",
+  "lastModified": null,
+  "bodyBytes": 349111,
+  "bodySha256": "db2fc3e095453d91b60c4238d880114d51f9685e69ca31ff4dce3826bb0faa7e",
+  "title": "GitHub - the-crypt-keeper/can-ai-code: Self-evaluating interview for AI coders · GitHub",
+  "github": {
+    "owner": "the-crypt-keeper",
+    "repo": "can-ai-code",
+    "htmlUrl": "https://github.com/the-crypt-keeper/can-ai-code",
+    "defaultBranch": "main",
+    "defaultBranchSha": "aa5a2f6d3fabb2aba9173902371cb8307e664c0f",
+    "pushedAt": "2025-06-21T23:59:40Z",
+    "updatedAt": "2026-06-26T17:19:16Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

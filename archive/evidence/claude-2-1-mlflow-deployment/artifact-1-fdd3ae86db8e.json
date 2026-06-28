@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:49.786Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/mlflow/mlflow/pull/11195",
+  "finalUrl": "https://github.com/mlflow/mlflow/pull/11195",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 557482,
+  "bodySha256": "3c7afb2aff424eb43a7a0cac04dd089dce68b03d37c7a01c090696fa39e7f5e2",
+  "title": "Implement chat &amp; chat streaming for Anthropic in Deployments by gabrielfu · Pull Request #11195 · mlflow/mlflow · GitHub",
+  "github": {
+    "owner": "mlflow",
+    "repo": "mlflow",
+    "apiStatus": "unavailable"
+  }
+}

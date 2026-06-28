@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:54.271Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Stars1233/midscene/pull/25",
+  "finalUrl": "https://github.com/Stars1233/midscene/pull/25",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 328658,
+  "bodySha256": "53de4f9b8dd9ac9002da943e4d4cdb0c29035d47f4ae99798f5b8714a92defc1",
+  "title": "[pull] main from web-infra-dev:main by pull[bot] · Pull Request #25 · Stars1233/midscene · GitHub",
+  "github": {
+    "owner": "Stars1233",
+    "repo": "midscene",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-virona-shawq-creative-chat-20260109",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "Virona ShawQ Dashboard adds GPT-5.1 high-effort reasoning to Creative Intelligence chat",
+  "evidenceFingerprint": "e9c20b38bf46d93b0af8b95066ca679a11fa8b4477a0c6323a9a80197aa87c3a",
+  "capturedAt": "2026-06-27T22:01:34.228Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard/pull/339",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-virona-shawq-creative-chat-20260109/original-evidence-b890f6cddc4c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Add GPT-5.1 option with reasoning effort in Creative Analysis chat by elmorshedy-del · Pull Request #339 · elmorshedy-del/Virona-ShawQ-Dashboard · GitHub",
+      "bodySha256": "077e0981ad9bc5e8801547050bf523ece6ebe51e91f06e28aa13d11a94abb846",
+      "capturedAt": "2026-06-27T22:01:30.410Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-virona-shawq-creative-chat-20260109/artifact-1-c89a7b2be6a4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - elmorshedy-del/Virona-ShawQ-Dashboard · GitHub",
+      "bodySha256": "1812ae01e18a2db369c73ee680418b76e4890424220c106a67747dd62520852d",
+      "capturedAt": "2026-06-27T22:01:32.872Z",
+      "error": ""
+    }
+  ]
+}

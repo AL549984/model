@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3_samsonu_tax_preparation_assistant_20260627",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "Tax Preparation Assistant using Solar Pro 3 via OpenRouter",
+  "evidenceFingerprint": "b9e59925a6910e0aae52991dd134b8b6ba18b9e4c8e3c8f933634e98d14d9a9b",
+  "capturedAt": "2026-06-27T23:24:52.051Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Samson-U/Tax-Preparation-Assistant/blob/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3_samsonu_tax_preparation_assistant_20260627/original-evidence-fb7a6ec3f6c6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Tax-Preparation-Assistant/README.md at main · Samson-U/Tax-Preparation-Assistant · GitHub",
+      "bodySha256": "7ff32e80f58ebc3c4947653b420dc062a4fe90a78650f773955880b9f39245a8",
+      "capturedAt": "2026-06-27T23:24:49.865Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Samson-U/Tax-Preparation-Assistant",
+      "snapshotPath": "archive/evidence/solar-pro-3_samsonu_tax_preparation_assistant_20260627/artifact-1-b1afa752b5d2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Samson-U/Tax-Preparation-Assistant · GitHub",
+      "bodySha256": "d15998d5b10eba0fbebdab8c19fe756d3317922f1921578e072e063747f31565",
+      "capturedAt": "2026-06-27T23:24:50.948Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-2-chat-7b-growingpenguin-nsmc-sentiment",
+  "modelId": "llama-2-chat-7b",
+  "modelName": "Llama 2 Chat 7B",
+  "title": "growingpenguin 基于 meta-llama/Llama-2-7b-chat-hf 微调韩文电影评论情感分析适配器",
+  "evidenceFingerprint": "6fe0955ff09119dcd4a80a415cf821d49f67b19194e7b3fe2a818553421ff3a5",
+  "capturedAt": "2026-06-27T21:27:39.448Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/growingpenguin/NSMC-Sentiment-Fine-Tuning/main/README.md",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-growingpenguin-nsmc-sentiment/original-evidence-b8779e5d4614.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "da7eeb7fc227e4ce3c73689b58e02cba9841fb70f1ffd4d0b1af025133067f68",
+      "capturedAt": "2026-06-27T21:27:38.035Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/growingpenguin/hw-llama-2-7B-nsmc/tree/main",
+      "snapshotPath": "archive/evidence/llama-2-chat-7b-growingpenguin-nsmc-sentiment/artifact-1-e322f00352d5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "growingpenguin/hw-llama-2-7B-nsmc at main",
+      "bodySha256": "fe1b0c3a73b8ec56f36f866055f3fd45ed570c04cc2e947ef93267b5eed99bea",
+      "capturedAt": "2026-06-27T21:27:38.381Z",
+      "error": ""
+    }
+  ]
+}

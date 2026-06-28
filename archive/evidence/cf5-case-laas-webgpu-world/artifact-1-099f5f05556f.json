@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:19.080Z",
+  "kind": "artifact-1",
+  "url": "https://dc5fzrbo8ssfx.cloudfront.net/laas/",
+  "finalUrl": "https://dc5fzrbo8ssfx.cloudfront.net/laas/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html",
+  "contentLength": "1769",
+  "etag": "\"c52a35eb95d0fd7d9647f7e4e8fec45f\"",
+  "lastModified": "Fri, 12 Jun 2026 16:22:24 GMT",
+  "bodyBytes": 1769,
+  "bodySha256": "0d4b78107dd4934ec6f4fa9102150d3fce9c4a388ba16c45097a07239feebdf3",
+  "title": "LAAS",
+  "github": null
+}

@@ -7,6 +7,7 @@ import TrustBoundary from "../../components/data/TrustBoundary.astro";
 import QuickFilters from "../../components/data/QuickFilters.astro";
 import BackToTop from "../../components/data/BackToTop.astro";
 import { publicStatusLabel } from "../../lib/publicCopy";
+import { absoluteUrl } from "../../lib/seo";
 import models from "../../data/models.json";
 import vendors from "../../data/vendors.json";
 import metrics from "../../data/metrics.json";
@@ -42,9 +43,36 @@ function riskSortValue(value: string) {
 }
 
 const codingCandidateCount = models.filter(isCodingCandidate).length;
+const modelsJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "模型库 · Model Atlas 模型图谱",
+  url: absoluteUrl("/models"),
+  description: "按厂商、状态、A 类案例、Coding Agent 信号和评分浏览 AI 模型档案。",
+  inLanguage: "zh-CN",
+  dateModified: metrics.datasetCut,
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: models.length,
+    itemListElement: models.slice(0, 30).map((model, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: absoluteUrl(`/models/${model.slug}`),
+      item: {
+        "@type": "SoftwareApplication",
+        name: model.name,
+        applicationCategory: "AI Model",
+        provider: {
+          "@type": "Organization",
+          name: model.vendor
+        }
+      }
+    }))
+  }
+};
 ---
 
-<BaseLayout title="模型 · Frontier Models Atlas">
+<BaseLayout title="模型 · Model Atlas 模型图谱" jsonLd={modelsJsonLd}>
   <div id="model-index-top"></div>
   <SectionHeader eyebrow="模型索引" title={`在 ${metrics.models} 个模型里快速定位候选`} description="搜索模型名或厂商名；按真实案例、公开资料状态和场景信号筛选。缺字段保持“暂无数据 / 官方未披露”，不猜测。" />
 
@@ -165,7 +193,8 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
       limited: "待补公开案例",
       coding: "Coding Agent 候选"
     };
-    let quickFilter = "all";
+    const params = new URLSearchParams(window.location.search);
+    let quickFilter = params.get("quick") ?? "all";
 
     const controls = {
       search: getControl("#model-search") as HTMLInputElement,
@@ -182,6 +211,21 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
 
     const cards = Array.from(document.querySelectorAll<HTMLElement>(".model-result")) as ModelResultCard[];
     const quickButtons = Array.from(document.querySelectorAll<HTMLElement>("[data-quick-filter]"));
+
+    function syncUrl() {
+      const next = new URL(window.location.href);
+      const setOrDelete = (key: string, value: string, emptyValue = "all") => {
+        if (!value || value === emptyValue) next.searchParams.delete(key);
+        else next.searchParams.set(key, value);
+      };
+      setOrDelete("q", String(controls.search.value ?? "").trim(), "");
+      setOrDelete("vendor", controls.vendor.value);
+      setOrDelete("status", controls.status.value);
+      setOrDelete("cases", controls.cases.value);
+      setOrDelete("sort", controls.sort.value, "score");
+      setOrDelete("quick", quickFilter);
+      window.history.replaceState({}, "", next);
+    }
 
     function valueOf(card: ModelResultCard, key: string) {
       const value = card.dataset[key] ?? "";
@@ -237,13 +281,20 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
     }
 
     [controls.search, controls.vendor, controls.status, controls.cases, controls.sort].forEach((control) => {
-      control.addEventListener("input", applyFilters);
-      control.addEventListener("change", applyFilters);
+      control.addEventListener("input", () => {
+        syncUrl();
+        applyFilters();
+      });
+      control.addEventListener("change", () => {
+        syncUrl();
+        applyFilters();
+      });
     });
 
     quickButtons.forEach((button) => {
       button.addEventListener("click", () => {
         quickFilter = button.dataset.quickFilter ?? "all";
+        syncUrl();
         updateQuickButtons();
         applyFilters();
       });
@@ -256,10 +307,17 @@ const codingCandidateCount = models.filter(isCodingCandidate).length;
       controls.cases.value = "all";
       controls.sort.value = "score";
       quickFilter = "all";
+      window.history.replaceState({}, "", window.location.pathname);
       updateQuickButtons();
       applyFilters();
     });
 
+    if (params.get("q")) controls.search.value = params.get("q") ?? "";
+    if (params.get("vendor")) controls.vendor.value = params.get("vendor") ?? "all";
+    if (params.get("status")) controls.status.value = params.get("status") ?? "all";
+    if (params.get("cases")) controls.cases.value = params.get("cases") ?? "all";
+    if (params.get("sort")) controls.sort.value = params.get("sort") ?? "score";
+    if (!quickLabels[quickFilter]) quickFilter = "all";
     updateQuickButtons();
     applyFilters();
   </script>

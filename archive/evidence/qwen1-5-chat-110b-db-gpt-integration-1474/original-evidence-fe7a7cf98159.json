@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:33.605Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/eosphoros-ai/DB-GPT/pull/1474",
+  "finalUrl": "https://github.com/eosphoros-ai/DB-GPT/pull/1474",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 316920,
+  "bodySha256": "a8881fd477b01ae0b529f267a5fff1efe110659464ee08221ea6d2c013fa443a",
+  "title": "feat(model): Qwen110B by yyhhyyyyyy · Pull Request #1474 · eosphoros-ai/DB-GPT · GitHub",
+  "github": {
+    "owner": "eosphoros-ai",
+    "repo": "DB-GPT",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm47-paper-polisher",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7-Flash",
+  "title": "Paper Polisher MVP: Academic Thesis Polishing and Auto-Formatting Tool Using GLM-4.7-Flash",
+  "evidenceFingerprint": "a31156d0dd28819869b725775570ff1e3bc302b54d45ef7307535d02e94537e1",
+  "capturedAt": "2026-06-27T21:54:08.317Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash",
+      "snapshotPath": "archive/evidence/glm47-paper-polisher/original-evidence-baaf1e044773.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash: 在撰写本科毕业论文时，我花费大量时间手动调整字体、字号、标题层级等基础格式。 当时 Manus 等 AI Agent 正在兴起，但实测发现它们无法满足高校对文档格式的基本要求。 因此，我尝试构建一个轻量级工具，仅解决我能用代码实现的部分。 · GitHub",
+      "bodySha256": "765172fb7f9ba367ad82f6cae5fe1eeb6692c6cea867361e7161a4bb94c4c677",
+      "capturedAt": "2026-06-27T21:54:06.488Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash",
+      "snapshotPath": "archive/evidence/glm47-paper-polisher/artifact-1-baaf1e044773.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tljcpa/Paper-Polisher-MVP--GLM-4.7-Flash: 在撰写本科毕业论文时，我花费大量时间手动调整字体、字号、标题层级等基础格式。 当时 Manus 等 AI Agent 正在兴起，但实测发现它们无法满足高校对文档格式的基本要求。 因此，我尝试构建一个轻量级工具，仅解决我能用代码实现的部分。 · GitHub",
+      "bodySha256": "43cb439df8e0dc36d982bbe44daca9b984e340589e1a038bf572b48b8b03262c",
+      "capturedAt": "2026-06-27T21:54:07.705Z",
+      "error": ""
+    }
+  ]
+}

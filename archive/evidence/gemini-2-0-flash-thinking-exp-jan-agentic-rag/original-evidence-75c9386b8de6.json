@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:48.353Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash/blob/main/README.md",
+  "finalUrl": "https://github.com/Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c82d9cedd601ac83277996c5d05bbfaf\"",
+  "lastModified": null,
+  "bodyBytes": 247506,
+  "bodySha256": "f891626f56d0f7f5f872eba041805717e57622be778080ac795a193a8b770547",
+  "title": "Agentic-RAG-with-Gemini-2.0-Flash/README.md at main · Abdulraqib20/Agentic-RAG-with-Gemini-2.0-Flash · GitHub",
+  "github": {
+    "owner": "Abdulraqib20",
+    "repo": "Agentic-RAG-with-Gemini-2.0-Flash",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:44.673Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/tiankongzhise/is_seo_word",
+  "finalUrl": "https://github.com/tiankongzhise/is_seo_word",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"12f8a410d9bd49e43c5813559b880a87\"",
+  "lastModified": null,
+  "bodyBytes": 258115,
+  "bodySha256": "0bf96ddd648bd1b0bf796dae85739f1bb005abae82f799cd3328e5c6de43c45e",
+  "title": "GitHub - tiankongzhise/is_seo_word: 让deepseek_v3 0324来判断关键词是否是seo生造词,降低筛选关键词难度 · GitHub",
+  "github": {
+    "owner": "tiankongzhise",
+    "repo": "is_seo_word",
+    "apiStatus": "unavailable"
+  }
+}

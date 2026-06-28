@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:58.213Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/gusibi/MoliTodo",
+  "finalUrl": "https://github.com/gusibi/MoliTodo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d0f75e0f266b89c7e9396f6700d8576f\"",
+  "lastModified": null,
+  "bodyBytes": 555296,
+  "bodySha256": "81d27a83e9b076137cf2052e56a3c9062228dc5de6f36df65b0ac6eb8dbd159a",
+  "title": "GitHub - gusibi/MoliTodo: 一款常驻在桌面边缘的悬浮式待办事项应用，旨在提供最快速的任务查看和添加体验。 · GitHub",
+  "github": {
+    "owner": "gusibi",
+    "repo": "MoliTodo",
+    "apiStatus": "unavailable"
+  }
+}

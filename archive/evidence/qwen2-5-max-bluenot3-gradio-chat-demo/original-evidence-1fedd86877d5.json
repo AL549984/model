@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:56.004Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Bluenot3/Qwen2.5max/blob/main/app.py",
+  "finalUrl": "https://github.com/Bluenot3/Qwen2.5max/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"300fee561f0f71b1f39629164cd8afe3\"",
+  "lastModified": null,
+  "bodyBytes": 294803,
+  "bodySha256": "7a9cae3cdeab08590cc7a387a16f69c0301ca42663b8c2babf2743b42743b9e6",
+  "title": "Qwen2.5max/app.py at main · Bluenot3/Qwen2.5max · GitHub",
+  "github": {
+    "owner": "Bluenot3",
+    "repo": "Qwen2.5max",
+    "apiStatus": "unavailable"
+  }
+}

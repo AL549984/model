@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:45.095Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/going-doer/Paper2Code",
+  "finalUrl": "https://github.com/going-doer/Paper2Code",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c9e6b41cfd505a22199b55b9f1abf735\"",
+  "lastModified": null,
+  "bodyBytes": 323727,
+  "bodySha256": "b3ae2f369c0110671a8498a9d55fdd40cf8ae06a93ccb7f45301ebe8ca20bf2b",
+  "title": "GitHub - going-doer/Paper2Code: Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning · GitHub",
+  "github": {
+    "owner": "going-doer",
+    "repo": "Paper2Code",
+    "htmlUrl": "https://github.com/going-doer/Paper2Code",
+    "defaultBranch": "master",
+    "defaultBranchSha": "ba9169978043d5799c8d4f4a0963e6b66a24c2e1",
+    "pushedAt": "2026-03-25T01:00:05Z",
+    "updatedAt": "2026-06-27T17:18:54Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

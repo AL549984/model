@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:20.864Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/HerGizHappa/Grok3Mini",
+  "finalUrl": "https://github.com/HerGizHappa/Grok3Mini",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e65b15b3652d1fd4bd051b59e3e1e22f\"",
+  "lastModified": null,
+  "bodyBytes": 270400,
+  "bodySha256": "db318d555beff62c6a9c5959b03fe6687f9f7351e4292236acbf9b4eb5f88ea6",
+  "title": "GitHub - HerGizHappa/Grok3Mini: aspect-based sentimentanalysis with LLM Grok 3 Mini · GitHub",
+  "github": {
+    "owner": "HerGizHappa",
+    "repo": "Grok3Mini",
+    "apiStatus": "unavailable"
+  }
+}

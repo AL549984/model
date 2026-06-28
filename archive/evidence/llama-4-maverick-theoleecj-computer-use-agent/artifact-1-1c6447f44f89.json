@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:19.677Z",
+  "kind": "artifact-1",
+  "url": "https://llama4.pages.dev/",
+  "finalUrl": "https://llama4.pages.dev/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 16136,
+  "bodySha256": "5babf11bc1dcd1eb71c395e772201758086444dd8c0335ec9b91602b314b128d",
+  "title": "Interaction Trajectories Viewer",
+  "github": null
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:02.118Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/WebYeL/doubao-image-generator",
+  "finalUrl": "https://github.com/WebYeL/doubao-image-generator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5776c199bc9f85547e83f7ecaa9a7579\"",
+  "lastModified": null,
+  "bodyBytes": 357356,
+  "bodySha256": "ff6fd43a44a2fd7c0aadae67cb19f8724238d5f258c734dc0c52e7d3c65bf6d2",
+  "title": "GitHub - WebYeL/doubao-image-generator: 基于Doubao-Seedream-5.0-lite的AI图片生成和doubao-seedance-1-0-pro-fast的视频生成应用。 · GitHub",
+  "github": {
+    "owner": "WebYeL",
+    "repo": "doubao-image-generator",
+    "apiStatus": "unavailable"
+  }
+}

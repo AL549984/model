@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v31t-vllm-ascend-npu-deploy",
+  "modelId": "deepseek-v3-1-terminus",
+  "modelName": "DeepSeek V3.1 Terminus",
+  "title": "April-99 deploying DeepSeek-V3.1-Terminus on Huawei Ascend NPUs with vllm-ascend",
+  "evidenceFingerprint": "0722bdd5e484eb4efa2a89c1df34928cc19d43943759089f7d043986328c11bc",
+  "capturedAt": "2026-06-27T21:34:41.012Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/vllm-project/vllm-ascend/issues/9521",
+      "snapshotPath": "archive/evidence/ds-v31t-vllm-ascend-npu-deploy/original-evidence-03a9b4546a38.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[Bug]: 用vllm-ascend 0.18.0rc1部署DeepSeek-V3.1-Terminus-w4a8-mtp-QuaRot模型，在发送下述请求体的时候会概率性出现没有content的情况 · Issue #9521 · vllm-project/vllm-ascend · GitHub",
+      "bodySha256": "90d6a32938978dcb83bc69026c352385858d433c32e2e298248847ca5e39a792",
+      "capturedAt": "2026-06-27T21:34:38.756Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/vllm-project/vllm-ascend",
+      "snapshotPath": "archive/evidence/ds-v31t-vllm-ascend-npu-deploy/artifact-1-4f07eea64552.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - vllm-project/vllm-ascend: Community maintained hardware plugin for vLLM on Ascend · GitHub",
+      "bodySha256": "9f99d668a9ad115a3322022c0c5ec3cd17c520d5e02ea0bdddaaf1eb820df5af",
+      "capturedAt": "2026-06-27T21:34:39.986Z",
+      "error": ""
+    }
+  ]
+}

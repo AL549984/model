@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:30.935Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/ginipick/Qwen3-235B-A22B/raw/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/ginipick/Qwen3-235B-A22B/raw/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "432",
+  "etag": "\"a7b209319288373ffa6c579f127890708a9a115b\"",
+  "lastModified": null,
+  "bodyBytes": 432,
+  "bodySha256": "ca2d37779902ecf8f50248ddf39b468002d0a29aafa93da791fb9dd3338d2d9b",
+  "title": "",
+  "github": null
+}

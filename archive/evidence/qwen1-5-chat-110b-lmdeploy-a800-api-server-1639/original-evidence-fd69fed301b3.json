@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:38.146Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/InternLM/lmdeploy/issues/1639",
+  "finalUrl": "https://github.com/InternLM/lmdeploy/issues/1639",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 282535,
+  "bodySha256": "fe49b9532c29a895d1ccf0615313b5a6427ac49c63dc505dd78fb69561ee0bfd",
+  "title": "LMDeploy-0.4.1运行qwen1.5 110B，推理长时间无结果 · Issue #1639 · InternLM/lmdeploy · GitHub",
+  "github": {
+    "owner": "InternLM",
+    "repo": "lmdeploy",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:15.207Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/xvnpw/ai-security-analyzer/blob/main/examples/file-threat-modeling-ai-nutrition-pro-gemini-2.5-pro-exp-03-25.md",
+  "finalUrl": "https://github.com/xvnpw/ai-security-analyzer/blob/main/examples/file-threat-modeling-ai-nutrition-pro-gemini-2.5-pro-exp-03-25.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"78c90be21f6e82652d6a1bcbe47a8496\"",
+  "lastModified": null,
+  "bodyBytes": 330319,
+  "bodySha256": "19c8fcb5ce6996ed48f212f63b92cd98e632e897a80fb84fb69ea6f6824b82f1",
+  "title": "ai-security-analyzer/examples/file-threat-modeling-ai-nutrition-pro-gemini-2.5-pro-exp-03-25.md at main · xvnpw/ai-security-analyzer · GitHub",
+  "github": {
+    "owner": "xvnpw",
+    "repo": "ai-security-analyzer",
+    "apiStatus": "unavailable"
+  }
+}

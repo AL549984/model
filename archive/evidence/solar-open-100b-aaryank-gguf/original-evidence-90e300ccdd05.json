@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:32.763Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/AaryanK/Solar-Open-100B-GGUF/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/AaryanK/Solar-Open-100B-GGUF/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3085b1abcbf9e58d43d43c6bcabfff316539bed2\"",
+  "lastModified": null,
+  "bodyBytes": 2066,
+  "bodySha256": "ee9ff273a7b06bf230e6e6e24cf78e49f09d3c1f618bcc99fb53ada8ceb97fc7",
+  "title": "",
+  "github": null
+}

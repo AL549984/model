@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:59.860Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ai-christianson/RA.Aid/blob/master/ra_aid/callbacks/default_callback_handler.py#L54-L57",
+  "finalUrl": "https://github.com/ai-christianson/RA.Aid/blob/master/ra_aid/callbacks/default_callback_handler.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c8ecd15cb54b43fc8475cb8ff2426068\"",
+  "lastModified": null,
+  "bodyBytes": 710457,
+  "bodySha256": "396efc0a58cdfd2657fb086ed6275041fea0e180e601a0698419e1fa66edaa19",
+  "title": "RA.Aid/ra_aid/callbacks/default_callback_handler.py at master · ai-christianson/RA.Aid · GitHub",
+  "github": {
+    "owner": "ai-christianson",
+    "repo": "RA.Aid",
+    "apiStatus": "unavailable"
+  }
+}

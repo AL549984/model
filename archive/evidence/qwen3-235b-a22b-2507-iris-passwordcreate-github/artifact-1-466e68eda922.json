@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:06.249Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/IrisY2012/passwordCreate",
+  "finalUrl": "https://github.com/IrisY2012/passwordCreate",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fc7a90d066cacec6caec9377d204ee7a\"",
+  "lastModified": null,
+  "bodyBytes": 311922,
+  "bodySha256": "1c3af433c85b45662add07c711221d6e9ad2477f2df2f4e326261b41b070a669",
+  "title": "GitHub - IrisY2012/passwordCreate: Made with AI(Qwen3-235B-A22B-2507) · GitHub",
+  "github": {
+    "owner": "IrisY2012",
+    "repo": "passwordCreate",
+    "apiStatus": "unavailable"
+  }
+}

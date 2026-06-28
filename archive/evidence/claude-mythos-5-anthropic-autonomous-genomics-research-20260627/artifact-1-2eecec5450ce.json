@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:28.241Z",
+  "kind": "artifact-1",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=assembled%20single-cell%20data%20for%20millions%20of%20cells%20spanning%20138%20animal%20species",
+  "finalUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 299185,
+  "bodySha256": "5f28691160ba6094b373cf28df452687d35c0637ce1a9da117602ec0033f81d1",
+  "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+  "github": null
+}

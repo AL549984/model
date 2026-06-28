@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:54.337Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kweheliye/energetech-ai-assessment/blob/main/README.md",
+  "finalUrl": "https://github.com/kweheliye/energetech-ai-assessment/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a419019001962ebe627d157a855c18f1\"",
+  "lastModified": null,
+  "bodyBytes": 276504,
+  "bodySha256": "38b82cc93ce9f58d840503eb273f743f95b204f69c2ce5916bdb6938311736eb",
+  "title": "energetech-ai-assessment/README.md at main · kweheliye/energetech-ai-assessment · GitHub",
+  "github": {
+    "owner": "kweheliye",
+    "repo": "energetech-ai-assessment",
+    "apiStatus": "unavailable"
+  }
+}

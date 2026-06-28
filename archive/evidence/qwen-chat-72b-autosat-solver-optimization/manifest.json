@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-72b-autosat-solver-optimization",
+  "modelId": "qwen-chat-72b",
+  "modelName": "Qwen Chat 72B",
+  "title": "AutoSAT uses Qwen-72B-Chat as a local LLM to optimize SAT solver heuristics",
+  "evidenceFingerprint": "d4e0c499a17b1503df70cfb0fe6e81a11ca82f7adc27999a7042d1417e74335d",
+  "capturedAt": "2026-06-27T22:59:23.471Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/YiwenAI/AutoSAT/blob/master/main_MultiAgent.py",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-autosat-solver-optimization/original-evidence-6efb0da4c924.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AutoSAT/main_MultiAgent.py at master · YiwenAI/AutoSAT · GitHub",
+      "bodySha256": "832f00443bb8beb35e6942f93e1bb49f8b0e737272d539e160fbe1c515f5aa97",
+      "capturedAt": "2026-06-27T22:59:21.214Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/YiwenAI/AutoSAT",
+      "snapshotPath": "archive/evidence/qwen-chat-72b-autosat-solver-optimization/artifact-1-9c45473d340b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - YiwenAI/AutoSAT · GitHub",
+      "bodySha256": "4d64365328663b5b762246fbd5dc4a8513e8ce6aee000e0c5123113624089098",
+      "capturedAt": "2026-06-27T22:59:22.419Z",
+      "error": ""
+    }
+  ]
+}

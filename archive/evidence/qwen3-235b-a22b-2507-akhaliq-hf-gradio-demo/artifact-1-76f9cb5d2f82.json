@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:29.775Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/spaces/akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio",
+  "finalUrl": "https://huggingface.co/spaces/akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b618-KuPoBAGJIP2NqmkwqPdUmHspbEw\"",
+  "lastModified": null,
+  "bodyBytes": 46616,
+  "bodySha256": "35be7c6b644de0577c164e229772f9ca60fb9397537e1b18cfa52a89f826eff3",
+  "title": "Qwen3 235B A22B Instruct 2507 Gradio - a Hugging Face Space by akhaliq",
+  "github": null
+}

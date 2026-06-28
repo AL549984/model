@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:35.887Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/prateek/original_performance_takehome/pull/1",
+  "finalUrl": "https://github.com/prateek/original_performance_takehome/pull/1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 744040,
+  "bodySha256": "e9366ecc1a0dabf83e4f31a49064c915aca718ffa132c9fd359de87762e50141",
+  "title": "ralph bb. ralph by prateek · Pull Request #1 · prateek/original_performance_takehome · GitHub",
+  "github": {
+    "owner": "prateek",
+    "repo": "original_performance_takehome",
+    "htmlUrl": "https://github.com/prateek/original_performance_takehome",
+    "defaultBranch": "main",
+    "defaultBranchSha": "ae678ec0d16110f48f38d776061fbaacef62321e",
+    "pushedAt": "2026-01-31T06:47:43Z",
+    "updatedAt": "2026-01-31T06:47:46Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

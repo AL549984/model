@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:52.079Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/bnyoun/biztone-converter",
+  "finalUrl": "https://github.com/bnyoun/biztone-converter",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d0a9e526e932a123d8dee7d49a2d05f1\"",
+  "lastModified": null,
+  "bodyBytes": 283165,
+  "bodySha256": "8f16295d1c1555d04231a8a1b04448eb263993a02f73ba4d018baa93699fbbfd",
+  "title": "GitHub - bnyoun/biztone-converter: AI-based business tone converter using FastAPI and Upstage Solar-Pro2. · GitHub",
+  "github": {
+    "owner": "bnyoun",
+    "repo": "biztone-converter",
+    "apiStatus": "unavailable"
+  }
+}

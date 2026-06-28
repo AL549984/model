@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:46.864Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/luwill/Claude-Code-Model-Router",
+  "finalUrl": "https://github.com/luwill/Claude-Code-Model-Router",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fdbe54aed9ba2f92b5d029ff2b981517\"",
+  "lastModified": null,
+  "bodyBytes": 421194,
+  "bodySha256": "97c9e0a6a5878e514a2a09270d0736e9ca669dfe692ad24233ee3c8b2acbc898",
+  "title": "GitHub - luwill/Claude-Code-Model-Router: A lightweight API gateway that lets you switch to third-party AI models when using Claude Code. · GitHub",
+  "github": {
+    "owner": "luwill",
+    "repo": "Claude-Code-Model-Router",
+    "apiStatus": "unavailable"
+  }
+}

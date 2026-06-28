@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cf5-case-backrooms-escape",
+  "modelId": "claude-fable-5",
+  "modelName": "Claude Fable 5",
+  "title": "Backrooms Escape browser horror game",
+  "evidenceFingerprint": "2f444df208074affd69d5e9f186bb22041824736a9c1eb488787b9582978b0f3",
+  "capturedAt": "2026-06-27T20:16:03.342Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u29a22/claude_fable_5_built_an_entire_backrooms_escape/",
+      "snapshotPath": "archive/evidence/cf5-case-backrooms-escape/original-evidence-d57898d26576.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Reddit - Please wait for verification",
+      "bodySha256": "650cb65f13df676b5fccdf19c5e115e1715ece25d210e2bac99d8b6f06f1aee5",
+      "capturedAt": "2026-06-27T20:15:59.892Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://backroom-escape.vercel.app/",
+      "snapshotPath": "archive/evidence/cf5-case-backrooms-escape/artifact-1-7a627985e6dc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Backrooms: Level 0 — Free Browser Horror Game",
+      "bodySha256": "ca6f45ef21577ab0b84feb7a7aa2dd66f91eb6eae9e6835d6ad7f1ed96b95fc9",
+      "capturedAt": "2026-06-27T20:16:00.531Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-2",
+      "url": "https://github.com/StarKnightt/Backroom-Escape",
+      "snapshotPath": "archive/evidence/cf5-case-backrooms-escape/artifact-2-714fa5c416c3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - StarKnightt/Backroom-Escape: Backroom Game, using three js and claude fable 5 · GitHub",
+      "bodySha256": "f205aadff947fd18e0e3ce11596f32321fad9fa0b4b2c8478fd85d1369704ba5",
+      "capturedAt": "2026-06-27T20:16:01.380Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:06.208Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Gitesh08/Movie-Recommendation-System/blob/main/main.py",
+  "finalUrl": "https://github.com/Gitesh08/Movie-Recommendation-System/blob/main/main.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bac01845a73befd8564e347b41e0eae8\"",
+  "lastModified": null,
+  "bodyBytes": 286373,
+  "bodySha256": "5ee4e28bf960e8c46f466f8683b12624cd5744c4cfc4d122d419ec7d06cf6341",
+  "title": "Movie-Recommendation-System/main.py at main · Gitesh08/Movie-Recommendation-System · GitHub",
+  "github": {
+    "owner": "Gitesh08",
+    "repo": "Movie-Recommendation-System",
+    "apiStatus": "unavailable"
+  }
+}

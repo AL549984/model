@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:31.738Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/danny-avila/LibreChat",
+  "finalUrl": "https://github.com/danny-avila/LibreChat",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"eb519b80d66ad0a0828dc61153424dfc\"",
+  "lastModified": null,
+  "bodyBytes": 414136,
+  "bodySha256": "7552a5ecdd9f448a38f59c680acfb845bcb86bffa037c5bace3699acd34f00f1",
+  "title": "GitHub - danny-avila/LibreChat: Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message se",
+  "github": {
+    "owner": "danny-avila",
+    "repo": "LibreChat",
+    "htmlUrl": "https://github.com/danny-avila/LibreChat",
+    "defaultBranch": "main",
+    "defaultBranchSha": "9e74cc0e57b395926122bd4062c1fcedc48ed465",
+    "pushedAt": "2026-06-27T13:02:43Z",
+    "updatedAt": "2026-06-27T20:04:29Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

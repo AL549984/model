@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:56.359Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.0.7",
+  "finalUrl": "https://github.com/zhayujie/CowAgent/releases/tag/2.0.7",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"94cc926ce0978d3482b551d6e38fc22e\"",
+  "lastModified": null,
+  "bodyBytes": 223974,
+  "bodySha256": "2f1b6b071391761855caa3133771e86bc5694b90a1375acc913bf01a19a97b27",
+  "title": "Release 2.0.7 · zhayujie/CowAgent · GitHub",
+  "github": {
+    "owner": "zhayujie",
+    "repo": "CowAgent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "llama-65b-turboderp-exllama-dual-gpu-inference",
+  "modelId": "llama-65b",
+  "modelName": "Llama 65B",
+  "title": "ExLlama 为量化 LLaMA 65B 提供双 GPU 本地推理运行时",
+  "evidenceFingerprint": "7227af4c62e2a64628ce91d8548ea3a0b40ade164718c69d84a49515010a7998",
+  "capturedAt": "2026-06-27T22:37:27.022Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/turboderp/exllama",
+      "snapshotPath": "archive/evidence/llama-65b-turboderp-exllama-dual-gpu-inference/original-evidence-813157927c58.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - turboderp/exllama: A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. · GitHub",
+      "bodySha256": "b364917da6910309b489355aad6cf7e36d9518c408a5c0dcd1dffbecdc3217ac",
+      "capturedAt": "2026-06-27T22:37:25.448Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/turboderp/exllama",
+      "snapshotPath": "archive/evidence/llama-65b-turboderp-exllama-dual-gpu-inference/artifact-1-813157927c58.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - turboderp/exllama: A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. · GitHub",
+      "bodySha256": "d0795d6c0e695ef2b817cb38a38a103d1c0d6a41eee9724735595cd8a95aab15",
+      "capturedAt": "2026-06-27T22:37:26.508Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:44.001Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/leopardcodeai/3d-sound-journey-builder/blob/main/README.md",
+  "finalUrl": "https://github.com/leopardcodeai/3d-sound-journey-builder/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3bfeae858f2c5725e221d449f5830089\"",
+  "lastModified": null,
+  "bodyBytes": 292518,
+  "bodySha256": "6471536b46a0201271a7c1a7f141da197ee509602d90526bffc17a9ed77c6447",
+  "title": "3d-sound-journey-builder/README.md at main · leopardcodeai/3d-sound-journey-builder · GitHub",
+  "github": {
+    "owner": "leopardcodeai",
+    "repo": "3d-sound-journey-builder",
+    "htmlUrl": "https://github.com/leopardcodeai/3d-sound-journey-builder",
+    "defaultBranch": "main",
+    "defaultBranchSha": "fa2548598a5a558e30c1861e18f9fd1c12f46a5f",
+    "pushedAt": "2026-06-14T08:35:38Z",
+    "updatedAt": "2026-06-14T08:35:43Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

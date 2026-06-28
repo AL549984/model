@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:30.507Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/qinscode/SeekSpider",
+  "finalUrl": "https://github.com/qinscode/SeekSpider",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b105da998655394dbb5f56caeaa1870b\"",
+  "lastModified": null,
+  "bodyBytes": 355044,
+  "bodySha256": "af09d5ebba32df7995be9afa0708980624d0e313570c56738a08fc6d67b96f6d",
+  "title": "GitHub - qinscode/SeekSpider: Seekspider: A Scrapy Project for Job Scraping · GitHub",
+  "github": {
+    "owner": "qinscode",
+    "repo": "SeekSpider",
+    "apiStatus": "unavailable"
+  }
+}

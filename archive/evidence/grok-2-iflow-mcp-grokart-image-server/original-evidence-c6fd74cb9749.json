@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:02.539Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/iflow-mcp/Grok-MCP-1/blob/main/src/index.ts",
+  "finalUrl": "https://github.com/iflow-mcp/Grok-MCP-1/blob/main/src/index.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f21c82149f15a6a992fd72acc5009515\"",
+  "lastModified": null,
+  "bodyBytes": 338053,
+  "bodySha256": "727643b9445c0b8970be40f24f5ed91f16c5cc2ac59016c0666f28ea298e2230",
+  "title": "Grok-MCP-1/src/index.ts at main · iflow-mcp/Grok-MCP-1 · GitHub",
+  "github": {
+    "owner": "iflow-mcp",
+    "repo": "Grok-MCP-1",
+    "apiStatus": "unavailable"
+  }
+}

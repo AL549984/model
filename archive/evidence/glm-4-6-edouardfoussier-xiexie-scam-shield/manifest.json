@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-6-edouardfoussier-xiexie-scam-shield",
+  "modelId": "glm-4-6",
+  "modelName": "GLM-4.6",
+  "title": "Xiexie: senior scam-shield macOS companion built for GOSIM Agentic Hackathon",
+  "evidenceFingerprint": "2aa0127db77e0c8c4a684352fe434c982e1b45e71edec9f03c5a6c386bd967dc",
+  "capturedAt": "2026-06-27T21:47:36.835Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/edouardfoussier/gosim-zai-hack-winner/blob/main/README.md",
+      "snapshotPath": "archive/evidence/glm-4-6-edouardfoussier-xiexie-scam-shield/original-evidence-4c8fd2bbc3d8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "gosim-zai-hack-winner/README.md at main · edouardfoussier/gosim-zai-hack-winner · GitHub",
+      "bodySha256": "007790ec4a18b43e6754abaab31d12f7f0dea1b6d0cd89dfaaa06433d9364e4f",
+      "capturedAt": "2026-06-27T21:47:33.433Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://getxiexie.com/demo",
+      "snapshotPath": "archive/evidence/glm-4-6-edouardfoussier-xiexie-scam-shield/artifact-1-d9b1977959b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Xie Xie App Stops Grandparent Scams Quickly 🛡️ | Loom",
+      "bodySha256": "34880da5cb0d61dd987576c6b13d5a7efe203d7e62df9eb8205f5cbc3a0a0ca3",
+      "capturedAt": "2026-06-27T21:47:34.901Z",
+      "error": ""
+    }
+  ]
+}

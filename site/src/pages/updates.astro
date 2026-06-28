@@ -1,0 +1,944 @@
+---
+import BaseLayout from "../components/layout/BaseLayout.astro";
+import SectionHeader from "../components/sections/SectionHeader.astro";
+import metrics from "../data/metrics.json";
+import models from "../data/models.json";
+import cases from "../data/cases.json";
+import evidenceArchive from "../data/evidence-archive.json";
+import evidenceArchiveHistory from "../data/evidence-archive-history.json";
+import { buildCaseNarrative } from "../lib/caseNarrative";
+import { absoluteUrl } from "../lib/seo";
+
+const aCases = cases.filter((item) => item.evidenceGrade === "A" && item.showcaseEligible);
+const parseTime = (value: unknown) => {
+  const time = Date.parse(String(value ?? ""));
+  return Number.isFinite(time) ? time : 0;
+};
+const formatDate = (value: unknown) => String(value ?? "").slice(0, 10) || "待复核";
+const latestCases = [...aCases]
+  .sort((a, b) => parseTime(b.collectedAt) - parseTime(a.collectedAt))
+  .slice(0, 12);
+const latestModels = [...models]
+  .filter((model) => model.releaseDate && model.releaseDate !== "暂无数据")
+  .sort((a, b) => parseTime(b.releaseDate) - parseTime(a.releaseDate))
+  .slice(0, 10);
+const approvedCases = cases.filter((item) => String(item.reviewStatus ?? "").includes("approved"));
+const latestCaseMs = Math.max(...cases.map((item) => parseTime(item.collectedAt)));
+const datasetCutMs = parseTime(metrics.datasetCut);
+const daysSinceLatestCase = Math.max(0, Math.floor((datasetCutMs - latestCaseMs) / 86400000));
+
+function countBy<T>(items: T[], getKey: (item: T) => string) {
+  const counts = new Map<string, number>();
+  for (const item of items) {
+    const key = getKey(item).trim() || "未分类";
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+  return Array.from(counts.entries())
+    .map(([label, count]) => ({ label, count }))
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, "zh-Hans-CN"));
+}
+
+const reviewBatches = countBy(aCases, (item) => formatDate(item.collectedAt).slice(0, 7)).slice(0, 8);
+const sourceStructure = countBy(aCases, (item) => buildCaseNarrative(item).platformLabel).slice(0, 8);
+const useCaseStructure = countBy(aCases, (item) => buildCaseNarrative(item).useCaseLabel).slice(0, 8);
+const maxBatch = Math.max(1, ...reviewBatches.map((item) => item.count));
+const maxSource = Math.max(1, ...sourceStructure.map((item) => item.count));
+const maxUseCase = Math.max(1, ...useCaseStructure.map((item) => item.count));
+
+const archiveHostMap = new Map<
+  string,
+  {
+    host: string;
+    caseIds: Set<string>;
+    pendingCaseIds: Set<string>;
+    snapshottedCaseIds: Set<string>;
+    attentionCaseIds: Set<string>;
+    targets: number;
+    pendingTargets: number;
+    highPriorityTargets: number;
+  }
+>();
+
+for (const entry of evidenceArchive.cases) {
+  const snapshotStatus = String(entry.snapshotStatus ?? "pending_snapshot");
+  for (const target of entry.targets ?? []) {
+    const host = String(target.host ?? "unknown").trim() || "unknown";
+    const row = archiveHostMap.get(host) ?? {
+      host,
+      caseIds: new Set<string>(),
+      pendingCaseIds: new Set<string>(),
+      snapshottedCaseIds: new Set<string>(),
+      attentionCaseIds: new Set<string>(),
+      targets: 0,
+      pendingTargets: 0,
+      highPriorityTargets: 0
+    };
+    row.caseIds.add(entry.caseId);
+    row.targets += 1;
+    if (snapshotStatus === "snapshotted") {
+      row.snapshottedCaseIds.add(entry.caseId);
+    } else {
+      row.pendingCaseIds.add(entry.caseId);
+      row.pendingTargets += 1;
+      if (entry.priority === "high") row.highPriorityTargets += 1;
+      if (snapshotStatus === "snapshot_attention") row.attentionCaseIds.add(entry.caseId);
+    }
+    archiveHostMap.set(host, row);
+  }
+}
+
+const archiveHostQueue = Array.from(archiveHostMap.values())
+  .map((row) => ({
+    host: row.host,
+    cases: row.caseIds.size,
+    targets: row.targets,
+    pendingCases: row.pendingCaseIds.size,
+    pendingTargets: row.pendingTargets,
+    snapshottedCases: row.snapshottedCaseIds.size,
+    attentionCases: row.attentionCaseIds.size,
+    highPriorityTargets: row.highPriorityTargets
+  }))
+  .filter((row) => row.pendingTargets > 0)
+  .sort((a, b) => b.pendingTargets - a.pendingTargets || b.highPriorityTargets - a.highPriorityTargets || a.host.localeCompare(b.host))
+  .slice(0, 8);
+const maxPendingTargets = Math.max(1, ...archiveHostQueue.map((row) => row.pendingTargets));
+const nextArchiveHost = archiveHostQueue[0];
+const snapshotIssueQueue = [...(evidenceArchive.snapshotIssues ?? [])]
+  .sort((a, b) => Number(b.cases ?? 0) - Number(a.cases ?? 0) || Number(b.targets ?? 0) - Number(a.targets ?? 0) || String(a.label).localeCompare(String(b.label), "zh-Hans-CN"));
+const maxIssueCases = Math.max(1, ...snapshotIssueQueue.map((row) => Number(row.cases ?? 0)));
+const topSnapshotIssue = snapshotIssueQueue[0];
+const archiveHistory = [...(evidenceArchiveHistory.snapshots ?? [])]
+  .sort((a, b) => {
+    const dateCompare = String(a.date).localeCompare(String(b.date));
+    if (dateCompare !== 0) return dateCompare;
+    const progressCompare = Number(a.snapshottedCases ?? 0) - Number(b.snapshottedCases ?? 0);
+    if (progressCompare !== 0) return progressCompare;
+    const aIsCurrent = String(a.id ?? "").startsWith("current-");
+    const bIsCurrent = String(b.id ?? "").startsWith("current-");
+    if (aIsCurrent !== bIsCurrent) return aIsCurrent ? 1 : -1;
+    return String(a.id).localeCompare(String(b.id));
+  });
+const maxHistorySnapshotted = Math.max(1, ...archiveHistory.map((row) => Number(row.snapshottedCases ?? 0)));
+const latestHistory = archiveHistory.at(-1);
+const previousHistory = archiveHistory.at(-2);
+const latestCoverage = latestHistory ? Math.round((Number(latestHistory.snapshottedCases ?? 0) / Math.max(1, Number(latestHistory.aCaseCount ?? 1))) * 100) : 0;
+const historyDelta = latestHistory && previousHistory ? Number(latestHistory.snapshottedCases ?? 0) - Number(previousHistory.snapshottedCases ?? 0) : 0;
+
+const updateCards = [
+  ["数据截点", metrics.datasetCut, "当前构建使用的数据切片。"],
+  ["最近案例入库", `${daysSinceLatestCase} 天内`, `${formatDate(latestCases[0]?.collectedAt)} / ${latestCases[0]?.modelName ?? "公开案例"}`],
+  ["自动 Gate 通过", approvedCases.length, "reviewStatus 已标记 approved 的案例档案。"],
+  ["覆盖目标缺口", metrics.activeCaseDeficitToTarget ?? 0, "活跃模型达到 5 条 A 类案例目标后的剩余缺口。"],
+  ["证据快照", `${evidenceArchive.summary.snapshottedCases}/${evidenceArchive.summary.aCaseCount}`, `${evidenceArchive.summary.pendingSnapshotCases} 条案例仍在快照队列。`]
+];
+
+const automation = [
+  ["01", "Hermes", "抓取公开模型资料和真实使用案例候选；云文档作为模型卡草稿和溯源档案。"],
+  ["02", "飞书结构化主表", "维护模型卡、证据等级、审核状态、原始链接和人工复核字段；主表记录才进入发布链路。"],
+  ["03", "Astro 静态生成", "把本地 JSON 转成首页、模型档案、案例详情、对比页和机器可读端点。"],
+  ["04", "Vercel 部署", "将构建后的静态站点发布出去，sitemap、robots 和 llms.txt 同步更新。"]
+];
+
+const updatesJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: "Model Atlas 数据更新日志",
+  url: absoluteUrl("/updates"),
+  description: "Model Atlas 模型图谱的数据截点、最近案例入库、最近模型发布和自动化链路状态。",
+  inLanguage: "zh-CN",
+  dateModified: metrics.datasetCut,
+  variableMeasured: [
+    { "@type": "PropertyValue", name: "活跃模型", value: metrics.activeModels },
+    { "@type": "PropertyValue", name: "A 类精选案例", value: metrics.verifiedACases },
+    { "@type": "PropertyValue", name: "自动 Gate 通过", value: approvedCases.length },
+    { "@type": "PropertyValue", name: "证据快照案例", value: evidenceArchive.summary.snapshottedCases },
+    { "@type": "PropertyValue", name: "证据快照覆盖率", value: `${latestCoverage}%` },
+    { "@type": "PropertyValue", name: "证据快照主要待处理原因", value: topSnapshotIssue?.label ?? "暂无待处理原因" },
+    { "@type": "PropertyValue", name: "下一批证据快照 host", value: nextArchiveHost?.host ?? "暂无待快照 host" },
+    { "@type": "PropertyValue", name: "最近案例入库", value: formatDate(latestCases[0]?.collectedAt) }
+  ]
+};
+---
+
+<BaseLayout title="数据更新日志 · Model Atlas 模型图谱" description="查看 Model Atlas 的数据截点、最近案例入库、最近模型发布、证据分布和自动化链路状态。" jsonLd={updatesJsonLd}>
+  <section class="updates-hero panel p-5">
+    <div>
+      <p class="mono text-xs uppercase tracking-[0.16em] text-[#ff3b4e]">DATA LOG / LIVING ARCHIVE</p>
+      <h1>数据更新日志</h1>
+      <p>把 Model Atlas 的数据截点、最近入库、证据分布和自动化链路公开出来。这个页面用于判断资料库是否仍在维护，而不是装饰性的发布日志。</p>
+    </div>
+    <div class="updates-hero__stamp">
+      <span>DATA CUT</span>
+      <strong>{metrics.datasetCut}</strong>
+      <em>{metrics.activeModels} 活跃模型 / {metrics.verifiedACases} A 类案例</em>
+    </div>
+  </section>
+
+  <section class="updates-grid mt-5" aria-label="更新指标概览">
+    {updateCards.map(([title, value, copy]) => (
+      <article class="panel p-4">
+        <span>{title}</span>
+        <strong>{value}</strong>
+        <p>{copy}</p>
+      </article>
+    ))}
+  </section>
+
+  <section class="updates-layout mt-5">
+    <div class="page-grid">
+      <section class="panel p-5">
+        <SectionHeader eyebrow="最近入库" title="最近进入 A 类口径的案例" description="这些记录都绑定到具体模型、具体任务和公开证据。点击可进入完整案例页；抽屉深链仍保留在案例库中。" />
+        <div class="updates-feed">
+          {latestCases.map((item, index) => {
+            const narrative = buildCaseNarrative(item);
+            return (
+              <a href={`/cases/${item.id}`}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <div>
+                  <strong>{narrative.displayTitle}</strong>
+                  <p>{narrative.summary}</p>
+                  <em>{formatDate(item.collectedAt)} / {item.modelName} / {narrative.useCaseLabel}</em>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
+      <section class="panel p-5">
+        <SectionHeader eyebrow="模型发布" title="最近进入索引的模型发布时间" description="模型发布时间来自公开资料字段；不代表 Model Atlas 首次收录时间，但可帮助判断当前模型路线的新鲜度。" />
+        <div class="updates-models">
+          {latestModels.map((model) => (
+            <a href={`/models/${model.slug}`}>
+              <strong>{model.name}</strong>
+              <span>{model.vendor}</span>
+              <em>{formatDate(model.releaseDate)} / {model.aCaseCount ?? 0} 条 A 类案例</em>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <aside class="page-grid">
+      <section class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Automation Chain</p>
+        <div class="updates-chain">
+          {automation.map(([step, title, copy]) => (
+            <article>
+              <span>{step}</span>
+              <strong>{title}</strong>
+              <p>{copy}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Evidence Archive</p>
+        <div class="updates-archive">
+          <strong>{evidenceArchive.summary.snapshottedCases} / {evidenceArchive.summary.aCaseCount}</strong>
+          <p>已完成证据快照案例；{evidenceArchive.summary.targets} 个证据目标进入归档清单。</p>
+          <span>{evidenceArchive.summary.pendingSnapshotCases} 待快照 / {evidenceArchive.summary.snapshotAttentionCases} 需关注</span>
+          <a class="updates-link" href="/evidence-archive.json">打开归档 JSON</a>
+        </div>
+      </section>
+
+      <section class="panel p-4 updates-queue" data-updates-archive-queue>
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Archive Queue</p>
+        <h2>下一批证据快照队列</h2>
+        <p>按来源 host 聚合仍未落盘的证据目标，优先处理待快照目标多、且高优先级案例集中的来源。</p>
+        {nextArchiveHost && (
+          <div class="updates-queue__command">
+            <span>建议命令</span>
+            <code>npm run evidence:snapshot -- --host {nextArchiveHost.host} --limit 24</code>
+          </div>
+        )}
+        <div class="updates-queue__list">
+          {archiveHostQueue.map((row) => (
+            <a href={`/cases?snapshot=pending_snapshot&q=${encodeURIComponent(row.host)}`} style={`--w:${Math.max(8, Math.round((row.pendingTargets / maxPendingTargets) * 100))}%`}>
+              <span>{row.host}</span>
+              <strong>{row.pendingTargets} targets</strong>
+              <em>{row.pendingCases} cases / {row.highPriorityTargets} high / {row.snapshottedCases} done</em>
+              <i></i>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="panel p-4 updates-issues" data-updates-snapshot-issues>
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Snapshot Reasons</p>
+        <h2>待处理原因队列</h2>
+        <p>把快照缺口拆成可行动原因，区分尚未开始、部分成功、字段变化和 manifest 异常。</p>
+        <div class="updates-issues__list">
+          {snapshotIssueQueue.map((issue) => (
+            <article style={`--w:${Math.max(8, Math.round((Number(issue.cases ?? 0) / maxIssueCases) * 100))}%`}>
+              <div>
+                <strong>{issue.label}</strong>
+                <em>{issue.cases} cases / {issue.targets} targets / {issue.highPriorityCases} high</em>
+              </div>
+              <p>{issue.description}</p>
+              <span>{issue.action}</span>
+              <small>{issue.hosts.slice(0, 3).map((host) => `${host.host} ${host.targets}`).join(" / ")}</small>
+              <i></i>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Review Policy</p>
+        <p class="mt-3 text-sm leading-relaxed text-[#a8a29a]">A 类案例必须同时具备具体主体、具体任务、原始证据和可访问产物。B/C/D、benchmark、教程、发布说明和集合页不会被包装成真实案例。</p>
+        <div class="mt-4 flex flex-wrap gap-2 text-sm">
+          <a class="updates-link" href="/methodology">查看证据规则</a>
+          <a class="updates-link" href="/cases">进入案例库</a>
+        </div>
+      </section>
+    </aside>
+  </section>
+
+  <section class="updates-distribution panel mt-5 p-5" aria-label="证据分布">
+    <SectionHeader eyebrow="证据分布" title="从入库批次、来源结构和任务类型看更新质量" description="不是所有更新都同等有价值。这里用分布条观察最近资料是否集中在单一来源、单一任务，或是否覆盖更广的真实使用场景。" />
+    <div class="updates-distribution__grid">
+      <article>
+        <span>复核批次</span>
+        {reviewBatches.map((row) => (
+          <a href={`/cases?q=${encodeURIComponent(row.label)}`} style={`--w:${Math.max(8, Math.round((row.count / maxBatch) * 100))}%`}>
+            <strong>{row.label}</strong>
+            <em>{row.count} 条</em>
+            <i></i>
+          </a>
+        ))}
+      </article>
+      <article>
+        <span>来源结构</span>
+        {sourceStructure.map((row) => (
+          <a href={`/cases?q=${encodeURIComponent(row.label)}`} style={`--w:${Math.max(8, Math.round((row.count / maxSource) * 100))}%`}>
+            <strong>{row.label}</strong>
+            <em>{row.count} 条</em>
+            <i></i>
+          </a>
+        ))}
+      </article>
+      <article>
+        <span>任务类型</span>
+        {useCaseStructure.map((row) => (
+          <a href={`/cases?q=${encodeURIComponent(row.label)}`} style={`--w:${Math.max(8, Math.round((row.count / maxUseCase) * 100))}%`}>
+            <strong>{row.label}</strong>
+            <em>{row.count} 条</em>
+            <i></i>
+          </a>
+        ))}
+      </article>
+    </div>
+  </section>
+
+  <section class="updates-history panel mt-5 p-5" data-updates-archive-history aria-label="证据快照进度历史">
+    <SectionHeader eyebrow="归档趋势" title="证据快照正在变成可追踪资产" description="Model Atlas 不只展示当前归档数量，也保留每一批快照推进后的状态。维护者可以看到快照覆盖率、批次增量和待处理压力是否真的在下降。" />
+    <div class="updates-history__grid">
+      <article class="updates-history__summary">
+        <span>SNAPSHOT COVERAGE</span>
+        <strong>{latestCoverage}%</strong>
+        <p>{archiveHistory.length} 个进度节点；{evidenceArchive.summary.snapshottedCases} 条案例已完成快照；较上一记录增加 {Math.max(0, historyDelta)} 条，仍有 {evidenceArchive.summary.pendingSnapshotCases} 条案例在队列中。</p>
+        <a class="updates-link" href="/evidence-archive-history.json">打开历史 JSON</a>
+      </article>
+      <div class="updates-history__timeline">
+        {archiveHistory.map((row, index) => (
+          <article data-history-snapshotted={row.snapshottedCases} style={`--w:${Math.max(8, Math.round((Number(row.snapshottedCases ?? 0) / maxHistorySnapshotted) * 100))}%`}>
+            <span>{String(index + 1).padStart(2, "0")} / {row.date}</span>
+            <div>
+              <strong>{row.label}</strong>
+              <em>{row.snapshottedCases} 已快照 / {row.pendingSnapshotCases} 待快照 / {row.snapshotAttentionCases} 需关注</em>
+            </div>
+            <i></i>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="updates-final panel mt-5 p-5">
+    <p class="mono text-xs uppercase tracking-[0.16em] text-[#ff3b4e]">下一步复核</p>
+    <h2>从更新日志继续进入证据复核。</h2>
+    <div>
+      <a href="/models?quick=with-cases">浏览有证据模型</a>
+      <a href="/cases?type=coding">查看 Coding Agent 案例</a>
+      <a href="/compare">进入模型对比</a>
+    </div>
+  </section>
+
+  <style>
+    .updates-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+      gap: 24px;
+      align-items: start;
+      background:
+        radial-gradient(circle at 82% 12%, rgba(255, 59, 78, 0.14), transparent 28rem),
+        #070707;
+    }
+
+    .updates-hero h1 {
+      margin: 16px 0 0;
+      color: #f4f1ea;
+      font-size: clamp(54px, 8vw, 118px);
+      font-weight: 900;
+      line-height: 0.96;
+    }
+
+    .updates-hero p {
+      max-width: 760px;
+      margin-top: 18px;
+      color: #a8a29a;
+      font-size: 1.05rem;
+      line-height: 1.8;
+    }
+
+    .updates-hero__stamp {
+      border: 1px solid rgba(255, 59, 78, 0.56);
+      padding: 16px;
+      text-align: right;
+    }
+
+    .updates-hero__stamp span,
+    .updates-grid span,
+    .updates-chain span,
+    .updates-distribution__grid article > span,
+    .updates-queue__command span,
+    .updates-history__summary span,
+    .updates-history__timeline span {
+      color: #ff3b4e;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .updates-hero__stamp strong {
+      display: block;
+      margin-top: 14px;
+      color: #f4f1ea;
+      font-size: 34px;
+      line-height: 1.1;
+      overflow-wrap: anywhere;
+    }
+
+    .updates-hero__stamp em {
+      display: block;
+      margin-top: 12px;
+      color: #a8a29a;
+      font-style: normal;
+    }
+
+    .updates-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 1px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-grid article {
+      background: #050505;
+      border: 0;
+    }
+
+    .updates-grid strong {
+      display: block;
+      margin-top: 14px;
+      color: #f4f1ea;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1;
+      overflow-wrap: anywhere;
+    }
+
+    .updates-grid p,
+    .updates-chain p,
+    .updates-feed p {
+      color: #a8a29a;
+      line-height: 1.7;
+    }
+
+    .updates-grid p {
+      margin-top: 12px;
+      font-size: 0.92rem;
+    }
+
+    .updates-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(310px, 380px);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .updates-feed {
+      display: grid;
+      gap: 1px;
+      margin-top: 18px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-feed a {
+      display: grid;
+      grid-template-columns: 48px minmax(0, 1fr);
+      gap: 14px;
+      background: #050505;
+      padding: 16px;
+    }
+
+    .updates-feed a:hover,
+    .updates-models a:hover,
+    .updates-queue__list a:hover,
+    .updates-distribution__grid a:hover,
+    .updates-history__summary a:hover,
+    .updates-final a:hover,
+    .updates-link:hover {
+      border-color: rgba(255, 59, 78, 0.68);
+      color: #ff3b4e;
+    }
+
+    .updates-feed a > span {
+      color: #ff3b4e;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 12px;
+    }
+
+    .updates-feed strong,
+    .updates-models strong,
+    .updates-chain strong,
+    .updates-queue h2,
+    .updates-queue__list strong,
+    .updates-issues h2,
+    .updates-issues strong,
+    .updates-history__summary strong,
+    .updates-history__timeline strong,
+    .updates-final h2 {
+      color: #f4f1ea;
+    }
+
+    .updates-feed strong {
+      display: block;
+      font-size: 1.15rem;
+      line-height: 1.35;
+    }
+
+    .updates-feed p {
+      margin-top: 8px;
+      font-size: 0.94rem;
+    }
+
+    .updates-feed em,
+    .updates-models em,
+    .updates-models span {
+      display: block;
+      color: #a8a29a;
+      font-style: normal;
+      font-size: 0.82rem;
+    }
+
+    .updates-feed em {
+      margin-top: 10px;
+    }
+
+    .updates-models {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .updates-models a,
+    .updates-link,
+    .updates-final a {
+      border: 1px solid rgba(244, 241, 234, 0.18);
+      background: #050505;
+      color: #f4f1ea;
+    }
+
+    .updates-models a {
+      display: grid;
+      gap: 6px;
+      padding: 14px;
+    }
+
+    .updates-chain {
+      display: grid;
+      gap: 1px;
+      margin-top: 16px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-chain article {
+      background: #050505;
+      padding: 14px;
+    }
+
+    .updates-chain strong {
+      display: block;
+      margin-top: 8px;
+    }
+
+    .updates-chain p {
+      margin-top: 8px;
+      font-size: 0.9rem;
+    }
+
+    .updates-link {
+      padding: 9px 11px;
+    }
+
+    .updates-archive {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .updates-archive strong {
+      color: #f4f1ea;
+      font-size: 36px;
+      line-height: 1;
+    }
+
+    .updates-archive p,
+    .updates-archive span,
+    .updates-queue p,
+    .updates-queue__list em,
+    .updates-issues p,
+    .updates-issues em,
+    .updates-issues span,
+    .updates-issues small,
+    .updates-history__summary p,
+    .updates-history__timeline em {
+      color: #a8a29a;
+      line-height: 1.65;
+    }
+
+    .updates-queue {
+      overflow: hidden;
+    }
+
+    .updates-queue h2,
+    .updates-issues h2 {
+      margin-top: 12px;
+      font-size: clamp(24px, 2vw, 32px);
+      font-weight: 900;
+      line-height: 1.1;
+    }
+
+    .updates-queue > p:not(.mono),
+    .updates-issues > p:not(.mono) {
+      margin-top: 10px;
+      font-size: 0.92rem;
+    }
+
+    .updates-queue__command {
+      display: grid;
+      gap: 8px;
+      margin-top: 16px;
+      border: 1px solid rgba(255, 59, 78, 0.42);
+      background: #050505;
+      padding: 12px;
+    }
+
+    .updates-queue__command code {
+      min-width: 0;
+      color: #f4f1ea;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.78rem;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+    }
+
+    .updates-queue__list {
+      display: grid;
+      gap: 1px;
+      margin-top: 14px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-queue__list a {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px 10px;
+      min-width: 0;
+      background: #050505;
+      padding: 12px;
+      color: #f4f1ea;
+    }
+
+    .updates-queue__list span,
+    .updates-queue__list strong,
+    .updates-queue__list em {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .updates-queue__list span {
+      color: #f4f1ea;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.82rem;
+    }
+
+    .updates-queue__list strong {
+      justify-self: end;
+      font-size: 0.86rem;
+      white-space: nowrap;
+    }
+
+    .updates-queue__list em {
+      grid-column: 1 / -1;
+      font-style: normal;
+      font-size: 0.78rem;
+    }
+
+    .updates-queue__list i {
+      grid-column: 1 / -1;
+      height: 2px;
+      background: linear-gradient(90deg, #ff3b4e var(--w), rgba(244, 241, 234, 0.14) var(--w));
+    }
+
+    .updates-issues {
+      overflow: hidden;
+    }
+
+    .updates-issues__list {
+      display: grid;
+      gap: 1px;
+      margin-top: 14px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-issues__list article {
+      display: grid;
+      gap: 9px;
+      min-width: 0;
+      background: #050505;
+      padding: 12px;
+    }
+
+    .updates-issues__list div {
+      display: grid;
+      gap: 5px;
+      min-width: 0;
+    }
+
+    .updates-issues strong,
+    .updates-issues em,
+    .updates-issues p,
+    .updates-issues span,
+    .updates-issues small {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .updates-issues strong {
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+
+    .updates-issues em,
+    .updates-issues small {
+      font-style: normal;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.76rem;
+    }
+
+    .updates-issues p,
+    .updates-issues span {
+      font-size: 0.86rem;
+    }
+
+    .updates-issues span {
+      color: #f4f1ea;
+    }
+
+    .updates-issues i {
+      height: 2px;
+      background: linear-gradient(90deg, #ff3b4e var(--w), rgba(244, 241, 234, 0.14) var(--w));
+    }
+
+    .updates-distribution__grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 18px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-distribution__grid article {
+      display: grid;
+      gap: 12px;
+      min-width: 0;
+      background: #050505;
+      padding: 14px;
+    }
+
+    .updates-distribution__grid a {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      color: #f4f1ea;
+    }
+
+    .updates-distribution__grid strong {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .updates-distribution__grid em {
+      color: #a8a29a;
+      font-style: normal;
+      font-size: 0.82rem;
+    }
+
+    .updates-distribution__grid i {
+      grid-column: 1 / -1;
+      height: 2px;
+      background: linear-gradient(90deg, #ff3b4e var(--w), rgba(244, 241, 234, 0.14) var(--w));
+    }
+
+    .updates-history__grid {
+      display: grid;
+      grid-template-columns: minmax(240px, 0.42fr) minmax(0, 1fr);
+      gap: 1px;
+      margin-top: 18px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .updates-history__summary,
+    .updates-history__timeline {
+      min-width: 0;
+      background: #050505;
+      padding: 16px;
+    }
+
+    .updates-history__summary {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+    }
+
+    .updates-history__summary strong {
+      font-size: clamp(54px, 7vw, 96px);
+      font-weight: 900;
+      line-height: 0.92;
+    }
+
+    .updates-history__summary p {
+      font-size: 0.95rem;
+    }
+
+    .updates-history__summary a {
+      justify-self: start;
+      margin-top: 4px;
+    }
+
+    .updates-history__timeline {
+      display: grid;
+      gap: 14px;
+    }
+
+    .updates-history__timeline article {
+      display: grid;
+      grid-template-columns: 110px minmax(0, 1fr);
+      gap: 12px 18px;
+      min-width: 0;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(244, 241, 234, 0.14);
+    }
+
+    .updates-history__timeline article:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .updates-history__timeline strong,
+    .updates-history__timeline em {
+      display: block;
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .updates-history__timeline strong {
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+
+    .updates-history__timeline em {
+      margin-top: 6px;
+      font-style: normal;
+      font-size: 0.86rem;
+    }
+
+    .updates-history__timeline i {
+      grid-column: 1 / -1;
+      height: 2px;
+      background: linear-gradient(90deg, #ff3b4e var(--w), rgba(244, 241, 234, 0.14) var(--w));
+    }
+
+    .updates-final {
+      display: grid;
+      gap: 18px;
+      background:
+        radial-gradient(circle at 86% 0%, rgba(255, 59, 78, 0.12), transparent 30rem),
+        #070707;
+    }
+
+    .updates-final h2 {
+      max-width: 820px;
+      font-size: clamp(36px, 5vw, 76px);
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .updates-final div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .updates-final a {
+      padding: 12px 14px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 1100px) {
+      .updates-grid,
+      .updates-history__grid,
+      .updates-distribution__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .updates-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .updates-hero,
+      .updates-grid,
+      .updates-history__grid,
+      .updates-distribution__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .updates-hero h1 {
+        font-size: clamp(44px, 13vw, 52px);
+        line-height: 1.04;
+        word-break: keep-all;
+        text-wrap: balance;
+      }
+
+      .updates-hero__stamp {
+        text-align: left;
+      }
+
+      .updates-feed a {
+        grid-template-columns: 1fr;
+      }
+
+      .updates-history__timeline article {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</BaseLayout>

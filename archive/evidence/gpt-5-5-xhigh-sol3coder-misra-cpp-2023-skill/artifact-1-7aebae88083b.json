@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:57.309Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Sol3Coder/misra-cpp-2023-skill",
+  "finalUrl": "https://github.com/Sol3Coder/misra-cpp-2023-skill",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d60c85cff092e02146a2fccabada5baf\"",
+  "lastModified": null,
+  "bodyBytes": 260112,
+  "bodySha256": "9f172278287ee33508f8956c195ee163ead4e595913073defaf0fc077f52be06",
+  "title": "GitHub - Sol3Coder/misra-cpp-2023-skill: misra cpp 2023 skill write by gpt-5.5 xhigh · GitHub",
+  "github": {
+    "owner": "Sol3Coder",
+    "repo": "misra-cpp-2023-skill",
+    "apiStatus": "unavailable"
+  }
+}

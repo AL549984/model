@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m1-80k-jpaul02-hf-space-chat-demo",
+  "modelId": "minimax-m1-80k",
+  "modelName": "MiniMax M1 80k",
+  "title": "JPaul02 发布 MiniMax-M1-80k Hugging Face Gradio 推理 Demo",
+  "evidenceFingerprint": "7fedce1fe0987c660670381f2f038d9be0cec269c33fcf05f67b4ff17c1fe669",
+  "capturedAt": "2026-06-27T23:25:24.614Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/JPaul02/MiniMaxAI-MiniMax-M1-80k/raw/main/app.py",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-jpaul02-hf-space-chat-demo/original-evidence-3fdbd6675178.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7f5a5ecdd00bcac7ee5766471f5d529fe6711a5edc1063077661e3c3339fd901",
+      "capturedAt": "2026-06-27T23:25:24.108Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/JPaul02/MiniMaxAI-MiniMax-M1-80k",
+      "snapshotPath": "archive/evidence/minimax-m1-80k-jpaul02-hf-space-chat-demo/artifact-1-a2edfc18e7bf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MiniMaxAI MiniMax M1 80k - a Hugging Face Space by JPaul02",
+      "bodySha256": "39869a699e0ff1ef5c04ab1c988b175e80a5a7a678fb88404507a7074ebfc3ec",
+      "capturedAt": "2026-06-27T23:25:24.356Z",
+      "error": ""
+    }
+  ]
+}

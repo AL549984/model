@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:43.493Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kernel-memory-dump/ffmpeg-electron-demo-chatgpt/blob/main/README.md",
+  "finalUrl": "https://github.com/kernel-memory-dump/ffmpeg-electron-demo-chatgpt/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"585a3820a74ee96f5652247a5d8dbc2d\"",
+  "lastModified": null,
+  "bodyBytes": 281934,
+  "bodySha256": "68f5727a45628ea751464927ab812a300f57171cbd89db20ab86179de8f09d9e",
+  "title": "ffmpeg-electron-demo-chatgpt/README.md at main · kernel-memory-dump/ffmpeg-electron-demo-chatgpt · GitHub",
+  "github": {
+    "owner": "kernel-memory-dump",
+    "repo": "ffmpeg-electron-demo-chatgpt",
+    "apiStatus": "unavailable"
+  }
+}

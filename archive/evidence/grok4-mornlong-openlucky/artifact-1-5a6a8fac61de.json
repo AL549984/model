@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:35.045Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/MORNLONG/OpenLucky",
+  "finalUrl": "https://github.com/MORNLONG/OpenLucky",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a093461ee5aaac9174f8852e8069c376\"",
+  "lastModified": null,
+  "bodyBytes": 385709,
+  "bodySha256": "f2dd448d3221a7311e0c24926852c447d459e0e5bca756ec9215f6ab1f003060",
+  "title": "GitHub - MORNLONG/OpenLucky: 🍀 AI-Powered Cryptocurrency Trading Bot with xAI Grok-4 and OKX API · GitHub",
+  "github": {
+    "owner": "MORNLONG",
+    "repo": "OpenLucky",
+    "apiStatus": "unavailable"
+  }
+}

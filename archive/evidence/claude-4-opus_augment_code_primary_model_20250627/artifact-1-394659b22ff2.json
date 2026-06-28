@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:05.776Z",
+  "kind": "artifact-1",
+  "url": "https://www.augmentcode.com",
+  "finalUrl": "https://www.augmentcode.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"v2avpujo9t7dzs\"",
+  "lastModified": null,
+  "bodyBytes": 344826,
+  "bodySha256": "9dd73a3bf7bf72c2679cc576376a74e8b21fc89c34c6169ad49f039a5f267723",
+  "title": "Augment Code: Agentic software development at organizational scale",
+  "github": null
+}

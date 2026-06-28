@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:26.200Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zzdx713/seedance2.0#readme",
+  "finalUrl": "https://github.com/zzdx713/seedance2.0",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8bbbc3f73c87719d78176e5685a0d45c\"",
+  "lastModified": null,
+  "bodyBytes": 444629,
+  "bodySha256": "47536e4c57b0689e3951362cfd3d4a382b8c17d737e64e881dc45801f01a4a7d",
+  "title": "GitHub - zzdx713/seedance2.0: 基于即梦 Seedance 2.0 模型的 AI 视频生成 Web 应用。支持多图参考、双模型选择、6种画面比例、4-15秒时长，React + Express 前后端架构，支持 Docker 一键部署。 · GitHub",
+  "github": {
+    "owner": "zzdx713",
+    "repo": "seedance2.0",
+    "apiStatus": "unavailable"
+  }
+}

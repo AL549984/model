@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-6-yasinaky-glm-mcp-server",
+  "modelId": "glm-4-6",
+  "modelName": "GLM-4.6",
+  "title": "GLM MCP Server for delegating Claude Code tasks to GLM-4.6",
+  "evidenceFingerprint": "4cd0ca45648d9bf741ba01207d62afab06ab9e55d4f3e2c5ea4c1ce70c17e877",
+  "capturedAt": "2026-06-27T21:53:29.606Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yasinaky/glm-mcp-server/blob/main/README.md",
+      "snapshotPath": "archive/evidence/glm-4-6-yasinaky-glm-mcp-server/original-evidence-19ff456e3fc0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "glm-mcp-server/README.md at main · yasinaky/glm-mcp-server · GitHub",
+      "bodySha256": "41bd791376219fc8f8c5dddd0a788dec9f8c7f17934ef392f83c7d634e9e013e",
+      "capturedAt": "2026-06-27T21:53:25.851Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yasinaky/glm-mcp-server",
+      "snapshotPath": "archive/evidence/glm-4-6-yasinaky-glm-mcp-server/artifact-1-2a2368ff7a53.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yasinaky/glm-mcp-server: MCP server for Z.ai GLM 4.6 API integration with Claude Code CLI · GitHub",
+      "bodySha256": "66845129115ea59c319a055955adfa600a4ac4d15d0b95ee7f15d81d64cdb05d",
+      "capturedAt": "2026-06-27T21:53:28.275Z",
+      "error": ""
+    }
+  ]
+}

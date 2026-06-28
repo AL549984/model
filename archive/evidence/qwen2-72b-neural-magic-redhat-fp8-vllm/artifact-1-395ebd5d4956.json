@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:29.055Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/RedHatAI/Qwen2-72B-Instruct-FP8",
+  "finalUrl": "https://huggingface.co/RedHatAI/Qwen2-72B-Instruct-FP8",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2946c-pyclfObMlY9o8mer+k61vq0U2Ls\"",
+  "lastModified": null,
+  "bodyBytes": 169068,
+  "bodySha256": "6642d7d1cc2c05565e9ac65c9f0b71f1430a708379746a44f0a87d7fb626fce5",
+  "title": "RedHatAI/Qwen2-72B-Instruct-FP8 · Hugging Face",
+  "github": null
+}

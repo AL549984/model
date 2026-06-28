@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-5-xxoo6699-ztoapi",
+  "modelId": "glm-4-5",
+  "modelName": "GLM-4.5",
+  "title": "ZtoApi 为 Z.ai GLM-4.5 提供 OpenAI 兼容 API 代理和监控面板",
+  "evidenceFingerprint": "9739c94615b90b08dc2dee937c907442352b1be2ceca12c70169f42681e67182",
+  "capturedAt": "2026-06-27T21:14:37.038Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/xxoo6699/ZtoApi/HEAD/README.md",
+      "snapshotPath": "archive/evidence/glm-4-5-xxoo6699-ztoapi/original-evidence-ff90df4ca771.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "820a92f007fb95d685462ec367eecb66c0b84d4fae3edbd3cb2c714bdf5e6c04",
+      "capturedAt": "2026-06-27T21:14:35.612Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/xxoo6699/ZtoApi",
+      "snapshotPath": "archive/evidence/glm-4-5-xxoo6699-ztoapi/artifact-1-d51846dfaf34.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - xxoo6699/ZtoApi: OpenAI兼容API代理 for Z.ai GLM-4.5 · GitHub",
+      "bodySha256": "83474a7d56c260c36f7dd0796bd86d383e968f9340dce2e5f397da581679c335",
+      "capturedAt": "2026-06-27T21:14:35.990Z",
+      "error": ""
+    }
+  ]
+}

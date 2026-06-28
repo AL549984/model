@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:09.839Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/CBIhalsen/PolyglotPDF/blob/main/static/setup.js#L315-L322",
+  "finalUrl": "https://github.com/CBIhalsen/PolyglotPDF/blob/main/static/setup.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5ba57df254c4e44310cffaf8e325641a\"",
+  "lastModified": null,
+  "bodyBytes": 524319,
+  "bodySha256": "07d295647e3476503939765cad4f1d5ab2cb2ce314d4c485b9b97b4900e9ff30",
+  "title": "PolyglotPDF/static/setup.js at main · CBIhalsen/PolyglotPDF · GitHub",
+  "github": {
+    "owner": "CBIhalsen",
+    "repo": "PolyglotPDF",
+    "apiStatus": "unavailable"
+  }
+}

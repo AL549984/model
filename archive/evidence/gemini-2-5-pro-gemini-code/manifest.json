@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-gemini-code",
+  "modelId": "gemini-2-5-pro",
+  "modelName": "Gemini 2.5 Pro",
+  "title": "Gemini Code: Terminal AI Coding Assistant Powered by Gemini 2.5 Pro",
+  "evidenceFingerprint": "0fe5b6dc3e40321e1e8856416a637cf3f9cf504c5363ad6251dd92027311ee40",
+  "capturedAt": "2026-06-27T21:47:04.945Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/raizamartin/gemini-code",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-gemini-code/original-evidence-5a785cad52ba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - raizamartin/gemini-code: Gemini 2.5 Pro code assistant · GitHub",
+      "bodySha256": "398cf57f27e30ee34334d29b78e76273a4ac875f0691c65840529e3a694be4c2",
+      "capturedAt": "2026-06-27T21:47:03.374Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/raizamartin/gemini-code",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-gemini-code/artifact-1-5a785cad52ba.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - raizamartin/gemini-code: Gemini 2.5 Pro code assistant · GitHub",
+      "bodySha256": "0edc7e68de073c7681bee171e2fbe94f823b9429c8921734e4037689e6d7db25",
+      "capturedAt": "2026-06-27T21:47:04.421Z",
+      "error": ""
+    }
+  ]
+}

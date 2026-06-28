@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:36.836Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/lokafinnsw/zai/blob/main/README.md",
+  "finalUrl": "https://github.com/lokafinnsw/zai/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0fb9408fb52ca6fcb5b2c954ce42c23f\"",
+  "lastModified": null,
+  "bodyBytes": 270404,
+  "bodySha256": "ee9e67c305de0226ff6288f7090427a1df6cf07128456de47579cca0ccbefb55",
+  "title": "zai/README.md at main · lokafinnsw/zai · GitHub",
+  "github": {
+    "owner": "lokafinnsw",
+    "repo": "zai",
+    "apiStatus": "unavailable"
+  }
+}

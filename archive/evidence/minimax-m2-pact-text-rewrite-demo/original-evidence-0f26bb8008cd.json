@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:54.299Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/mrle0429/PACT/blob/master/README.md",
+  "finalUrl": "https://github.com/mrle0429/PACT/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"531edd48240e678d53148ffda5a30363\"",
+  "lastModified": null,
+  "bodyBytes": 302394,
+  "bodySha256": "ea8fa3c82a6fd3fd6943563c4889eadbf46fdbe8b032b750cc830e997b2e8855",
+  "title": "PACT/README.md at master · mrle0429/PACT · GitHub",
+  "github": {
+    "owner": "mrle0429",
+    "repo": "PACT",
+    "apiStatus": "unavailable"
+  }
+}

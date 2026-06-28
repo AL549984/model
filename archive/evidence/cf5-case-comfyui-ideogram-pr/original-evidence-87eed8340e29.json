@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:12.656Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/kijai/ComfyUI-KJNodes/pull/668",
+  "finalUrl": "https://github.com/kijai/ComfyUI-KJNodes/pull/668",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 341874,
+  "bodySha256": "c93fa95bd97d327a3fe2d940ac75bc88ed2e45e3fb263a2d701b75e0830582ec",
+  "title": "feat: Add Ideogram 4 Prompt Builder KJ V2 (Freehand drawing &amp; Canvas tools) by Pluventi · Pull Request #668 · kijai/ComfyUI-KJNodes · GitHub",
+  "github": {
+    "owner": "kijai",
+    "repo": "ComfyUI-KJNodes",
+    "htmlUrl": "https://github.com/kijai/ComfyUI-KJNodes",
+    "defaultBranch": "main",
+    "defaultBranchSha": "bc8e4ce4254bcd0050383386ee2f9d753dbf1fa5",
+    "pushedAt": "2026-06-27T09:49:22Z",
+    "updatedAt": "2026-06-27T14:31:01Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

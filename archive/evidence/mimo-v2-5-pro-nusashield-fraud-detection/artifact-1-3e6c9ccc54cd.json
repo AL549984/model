@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:43.273Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Zeronuru404/nusashield-ai",
+  "finalUrl": "https://github.com/Zeronuru404/nusashield-ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2f7c15be7be50e7b188dd7aed232b8e8\"",
+  "lastModified": null,
+  "bodyBytes": 275109,
+  "bodySha256": "24ee7c558a953c6fd258c7a3bc740a1ee380ddc56950fe79f33228678aacdb66",
+  "title": "GitHub - Zeronuru404/nusashield-ai: Multi-Agent Indonesian Fintech Fraud Detection Platform powered by Xiaomi MiMo V2.5 — QRIS, phishing, invoice fraud, WhatsApp scams · GitHub",
+  "github": {
+    "owner": "Zeronuru404",
+    "repo": "nusashield-ai",
+    "apiStatus": "unavailable"
+  }
+}

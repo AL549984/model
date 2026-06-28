@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-0905-coobiw-xhs-hotsearch-vibe",
+  "modelId": "kimi-k2-0905",
+  "modelName": "Kimi K2 0905",
+  "title": "Coobiw 用 Kimi K2 0905 辅助完成小红书热搜爬虫与分析报告项目",
+  "evidenceFingerprint": "bd2fe8a8030314e5f3cd6b4acabc10f6cbb0ea9c74366e20d4cbbb3fad6928d1",
+  "capturedAt": "2026-06-27T22:22:25.082Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Coobiw/xhs-hotsearch-vibe/blob/master/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-coobiw-xhs-hotsearch-vibe/original-evidence-01d942462829.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "xhs-hotsearch-vibe/README.md at master · Coobiw/xhs-hotsearch-vibe · GitHub",
+      "bodySha256": "6d3e86f18d9f47cd2c8fc136708976e9ed1a75a9776aa50bf2ac202bbf5f7386",
+      "capturedAt": "2026-06-27T22:22:22.952Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Coobiw/xhs-hotsearch-vibe",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-coobiw-xhs-hotsearch-vibe/artifact-1-58a7ddc3c2ee.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Coobiw/xhs-hotsearch-vibe: Kimi-K2-0905 Vibe-Coding Test: Get XiaoHongShu hot-search, analyze, then output a html report. All the project is completed by Kimi-K2-0905 + Claude Code. · GitHub",
+      "bodySha256": "1e6a09dd36ff4faeb760ee2c6c41f67fad9f4a56091c3b33efbfcf729bf949f6",
+      "capturedAt": "2026-06-27T22:22:23.948Z",
+      "error": ""
+    }
+  ]
+}

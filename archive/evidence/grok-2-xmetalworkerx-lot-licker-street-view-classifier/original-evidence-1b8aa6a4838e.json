@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:15.451Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/xMetalWorkerx/lot_licker/blob/master/README.md",
+  "finalUrl": "https://github.com/xMetalWorkerx/lot_licker/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"28687631a8084545ee19a987a42b326c\"",
+  "lastModified": null,
+  "bodyBytes": 272205,
+  "bodySha256": "52e65cd80110c0c8078a3324a1beeb7a0739f94bdc42cfb5817589925e61009a",
+  "title": "lot_licker/README.md at master · xMetalWorkerx/lot_licker · GitHub",
+  "github": {
+    "owner": "xMetalWorkerx",
+    "repo": "lot_licker",
+    "apiStatus": "unavailable"
+  }
+}

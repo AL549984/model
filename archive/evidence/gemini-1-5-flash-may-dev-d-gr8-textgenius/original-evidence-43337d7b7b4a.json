@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:22.337Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/DEV-D-GR8/TextGenius/blob/main/SmartText/GenerativeModelManager.swift#L12-L38",
+  "finalUrl": "https://github.com/DEV-D-GR8/TextGenius/blob/main/SmartText/GenerativeModelManager.swift",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f08304bd892c3b73ca6ed008752bb089\"",
+  "lastModified": null,
+  "bodyBytes": 261480,
+  "bodySha256": "4dd6af2f87c66938d7e971dee835b20f70a072ac365546687e728a781414d238",
+  "title": "TextGenius/SmartText/GenerativeModelManager.swift at main · DEV-D-GR8/TextGenius · GitHub",
+  "github": {
+    "owner": "DEV-D-GR8",
+    "repo": "TextGenius",
+    "apiStatus": "unavailable"
+  }
+}

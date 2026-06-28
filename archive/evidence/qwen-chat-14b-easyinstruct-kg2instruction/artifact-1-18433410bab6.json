@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:17.490Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/zjunlp/EasyInstruct",
+  "finalUrl": "https://github.com/zjunlp/EasyInstruct",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"15d9ae61337b4e1047fee02ed8ea7344\"",
+  "lastModified": null,
+  "bodyBytes": 413119,
+  "bodySha256": "e3795a191a489ec96dc9d339ae0d45b18b1754ffb26d0b1501735143dbf1661b",
+  "title": "GitHub - zjunlp/EasyInstruct: [ACL 2024] An Easy-to-use Instruction Processing Framework for LLMs. · GitHub",
+  "github": {
+    "owner": "zjunlp",
+    "repo": "EasyInstruct",
+    "apiStatus": "unavailable"
+  }
+}

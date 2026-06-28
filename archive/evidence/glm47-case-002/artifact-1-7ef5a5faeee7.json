@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:59.033Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/JonniTech/Perplexity-Clone",
+  "finalUrl": "https://github.com/JonniTech/Perplexity-Clone",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9f7285b29eebe1b743af92b0d4d6eb5c\"",
+  "lastModified": null,
+  "bodyBytes": 345769,
+  "bodySha256": "8b070bb332ca4b7eae274a07bdd75159eb7eea26b21049433395c1a715529495",
+  "title": "GitHub - JonniTech/Perplexity-Clone: A high-fidelity Perplexity AI clone built with React 19, TypeScript, and Tailwind CSS. Features a real-time RAG pipeline (SerpAPI + GLM-4.7-Flash), streaming responses, markdown rendering with syntax hig",
+  "github": {
+    "owner": "JonniTech",
+    "repo": "Perplexity-Clone",
+    "apiStatus": "unavailable"
+  }
+}

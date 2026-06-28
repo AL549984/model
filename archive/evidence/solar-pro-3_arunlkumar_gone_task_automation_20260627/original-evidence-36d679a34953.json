@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:41.163Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ARUN-L-KUMAR/personal-task-automation/blob/main/backend/routers/chatbot_router.py",
+  "finalUrl": "https://github.com/ARUN-L-KUMAR/personal-task-automation/blob/main/backend/routers/chatbot_router.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"26d13e52d7bed0a9696a7e6ba4209f3b\"",
+  "lastModified": null,
+  "bodyBytes": 710149,
+  "bodySha256": "dada024eec4d403fc990f86485f500605f6af85db5d8d539ad8bbb3e184a6452",
+  "title": "personal-task-automation/backend/routers/chatbot_router.py at main · ARUN-L-KUMAR/personal-task-automation · GitHub",
+  "github": {
+    "owner": "ARUN-L-KUMAR",
+    "repo": "personal-task-automation",
+    "apiStatus": "unavailable"
+  }
+}

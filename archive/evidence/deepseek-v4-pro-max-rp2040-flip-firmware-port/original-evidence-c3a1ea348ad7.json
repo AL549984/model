@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:32.580Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/86thAuspiciousVerse/RP2040-FLIP",
+  "finalUrl": "https://github.com/86thAuspiciousVerse/RP2040-FLIP",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0537f38aa076745c68fb06b8b03289e6\"",
+  "lastModified": null,
+  "bodyBytes": 259559,
+  "bodySha256": "fadc37e913a88de106cbeefcbc6eabc17abe7024c72cf2096a72b9751486b48e",
+  "title": "GitHub - 86thAuspiciousVerse/RP2040-FLIP: Testing Deepseek-v4-pro-max coding capability: Porting fluid_vb from CH32V203 to RP2040-Zero · GitHub",
+  "github": {
+    "owner": "86thAuspiciousVerse",
+    "repo": "RP2040-FLIP",
+    "apiStatus": "unavailable"
+  }
+}

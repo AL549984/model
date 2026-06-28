@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:33.132Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/stefandevo/glm-acp-agent",
+  "finalUrl": "https://github.com/stefandevo/glm-acp-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b7316090f8b81947dbc4ce18e0715be8\"",
+  "lastModified": null,
+  "bodyBytes": 403994,
+  "bodySha256": "9ee6e86c51b775d667b80d78f90f17fa4214be7a9b782a2c8b025c8abbe5f1d9",
+  "title": "GitHub - stefandevo/glm-acp-agent: ACP agent in TypeScript that uses the Zhipu AI GLM series (specifically GLM-5.1 and GLM-4.7) as the reasoning core · GitHub",
+  "github": {
+    "owner": "stefandevo",
+    "repo": "glm-acp-agent",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:34.723Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/tobiasbischoff/openclawnews/blob/530d08132f0e4aac7cfe01e509bf220c0ef935c5/server.js",
+  "finalUrl": "https://github.com/tobiasbischoff/openclawnews/blob/530d08132f0e4aac7cfe01e509bf220c0ef935c5/server.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8840b0d0256ddd2b3a79c06c95815b51\"",
+  "lastModified": null,
+  "bodyBytes": 1158153,
+  "bodySha256": "e014b5076773dbf581ff7904d83b6a158de65ac42a72c7e2cc2e6ad01e50332f",
+  "title": "openclawnews/server.js at 530d08132f0e4aac7cfe01e509bf220c0ef935c5 · tobiasbischoff/openclawnews · GitHub",
+  "github": {
+    "owner": "tobiasbischoff",
+    "repo": "openclawnews",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,5 +1,6 @@
 ---
-import { Activity, Boxes, BrainCircuit, Database, GitCompare, House, Network, ShieldCheck } from "@lucide/astro";
+import { Activity, Boxes, BrainCircuit, Database, GitCompare, History, House, Network, Search, ShieldCheck } from "@lucide/astro";
+import metrics from "../../data/metrics.json";
 
 const navItems = [
   { href: "/", label: "首页", icon: House },
@@ -7,45 +8,66 @@ const navItems = [
   { href: "/models", label: "模型", icon: Network },
   { href: "/cases", label: "案例", icon: Database },
   { href: "/compare", label: "对比", icon: GitCompare },
+  { href: "/updates", label: "更新", icon: History },
   { href: "/topics/coding-agent", label: "Coding Agent", icon: BrainCircuit },
   { href: "/methodology", label: "方法论", icon: ShieldCheck }
 ];
 ---
 
-<aside class="sticky top-0 hidden h-screen border-r border-slate-700/60 bg-slate-950/50 px-4 py-6 backdrop-blur-xl lg:block">
+<aside class="sticky top-0 hidden h-screen border-r border-[#f4f1ea]/15 bg-[#050505]/88 px-4 py-6 backdrop-blur-xl lg:block">
   <a href="/" class="mb-7 flex items-center gap-3">
-    <span class="grid h-9 w-9 place-items-center rounded-md border border-cyan-300/35 bg-cyan-300/10 text-cyan-200">
+    <span class="grid h-9 w-9 place-items-center border border-[#ff3b4e]/70 bg-transparent text-[#ff3b4e]">
       <Activity size={18} />
     </span>
-    <span class="mono text-sm font-semibold tracking-[0.28em] text-cyan-100">ATLAS</span>
+    <span class="mono text-sm font-semibold tracking-[0.18em] text-[#f4f1ea]">MODEL ATLAS</span>
   </a>
   <nav class="space-y-2">
+    <button type="button" class="flex w-full items-center gap-3 border border-[#ff3b4e]/45 bg-[#ff3b4e]/10 px-3 py-3 text-left text-sm text-[#f4f1ea] transition hover:bg-[#ff3b4e]/15" data-command-open>
+      <Search size={17} />
+      检索档案
+    </button>
     {navItems.map((item) => {
       const Icon = item.icon;
       return (
-        <a href={item.href} class="flex items-center gap-3 rounded-md border border-transparent px-3 py-3 text-sm text-slate-300 transition hover:border-cyan-300/30 hover:bg-cyan-300/10 hover:text-cyan-100">
+        <a href={item.href} class="flex items-center gap-3 border border-transparent px-3 py-3 text-sm text-[#a8a29a] transition hover:border-[#ff3b4e]/45 hover:bg-[#f4f1ea]/5 hover:text-[#f4f1ea]">
           <Icon size={17} />
           {item.label}
         </a>
       );
     })}
   </nav>
-  <div class="absolute bottom-5 left-4 right-4 rounded-lg border border-slate-700/70 bg-slate-950/60 p-3">
-    <div class="flex items-center gap-2 text-sm font-medium">
-      <ShieldCheck size={16} class="text-emerald-300" />
-      公开方法
+  <div class="atlas-sync-card absolute bottom-5 left-4 right-4">
+    <p>DATA CUT</p>
+    <strong>{metrics.datasetCut}</strong>
+    <span><i></i>自动同步链路正常</span>
+    <div>
+      <em>{metrics.activeModels} 活跃模型</em>
+      <em>{metrics.verifiedACases} A 类案例</em>
     </div>
-    <p class="mt-2 text-xs leading-relaxed text-slate-400">只把可追溯来源的公开案例标为 A 类。</p>
+    <a href="/methodology" class="mt-3 flex items-center gap-2 text-sm font-medium">
+      <ShieldCheck size={16} class="text-[#ff3b4e]" />
+      公开方法
+    </a>
+    <p class="mt-2 text-xs leading-relaxed text-[#a8a29a]">只把可追溯来源的公开案例标为 A 类。</p>
   </div>
 </aside>
 
-<header class="sticky top-0 z-20 border-b border-slate-700/60 bg-slate-950/85 px-4 py-3 backdrop-blur-xl lg:hidden">
+<header class="sticky top-0 z-20 border-b border-[#f4f1ea]/15 bg-[#050505]/90 px-4 py-3 backdrop-blur-xl lg:hidden">
   <div class="flex items-center justify-between">
-    <a href="/" class="mono text-sm font-semibold tracking-[0.22em] text-cyan-100">ATLAS</a>
-    <div class="flex gap-3 text-xs text-slate-300">
+    <a href="/" class="mono text-sm font-semibold tracking-[0.16em] text-[#f4f1ea]">MODEL ATLAS</a>
+    <div class="flex items-center gap-3 text-xs text-[#a8a29a]">
+      <button type="button" class="border border-[#ff3b4e]/45 px-2 py-1 text-[#f4f1ea]" data-command-open aria-label="打开全站检索">
+        搜索
+      </button>
       <a href="/models">模型</a>
       <a href="/cases">案例</a>
       <a href="/compare">对比</a>
+      <a href="/updates">更新</a>
     </div>
+  </div>
+  <div class="mt-2 flex flex-wrap items-center gap-2 text-[11px] leading-none text-[#a8a29a]">
+    <span class="mono text-[#ff3b4e]">DATA CUT {metrics.datasetCut}</span>
+    <span>{metrics.activeModels} 活跃模型</span>
+    <span>{metrics.verifiedACases} A 类案例</span>
   </div>
 </header>

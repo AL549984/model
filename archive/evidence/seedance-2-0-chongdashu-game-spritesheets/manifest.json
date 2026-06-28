@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-2-0-chongdashu-game-spritesheets",
+  "modelId": "seedance-2-0",
+  "modelName": "Seedance 2.0",
+  "title": "chongdashu 用 Seedance 2.0 管线生成游戏角色动画精灵表",
+  "evidenceFingerprint": "0eb7210d7d869f1616a38de1e7b4b04302dc2df0135869828923ff842984c53b",
+  "capturedAt": "2026-06-27T23:23:20.849Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/chongdashu/ai-game-spritesheets#readme",
+      "snapshotPath": "archive/evidence/seedance-2-0-chongdashu-game-spritesheets/original-evidence-4ead27cd5224.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - chongdashu/ai-game-spritesheets: Generate character sprites using AI (Images 2.0 + Seedance 2.0) · GitHub",
+      "bodySha256": "9d8d296f788f5470e29b40c9ac1795e5b33c84f34945af24f875fd26df707707",
+      "capturedAt": "2026-06-27T23:23:19.558Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/chongdashu/ai-game-spritesheets",
+      "snapshotPath": "archive/evidence/seedance-2-0-chongdashu-game-spritesheets/artifact-1-7df067bad4b9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - chongdashu/ai-game-spritesheets: Generate character sprites using AI (Images 2.0 + Seedance 2.0) · GitHub",
+      "bodySha256": "50d4e496462b112542d118181600d11d74e5881c2cd3dabf868161d0750d1aeb",
+      "capturedAt": "2026-06-27T23:23:20.446Z",
+      "error": ""
+    }
+  ]
+}

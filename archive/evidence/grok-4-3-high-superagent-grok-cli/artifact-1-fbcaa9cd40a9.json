@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:29.997Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/superagent-ai/grok-cli",
+  "finalUrl": "https://github.com/superagent-ai/grok-cli",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c307a1cdfe295acba9e5fa549abb197f\"",
+  "lastModified": null,
+  "bodyBytes": 424086,
+  "bodySha256": "0619df013795aaf93caf814e42e7958f325bee2630675e7f69c309d6557a7b1c",
+  "title": "GitHub - superagent-ai/grok-cli: An open-source coding agent for the Grok API · GitHub",
+  "github": {
+    "owner": "superagent-ai",
+    "repo": "grok-cli",
+    "apiStatus": "unavailable"
+  }
+}

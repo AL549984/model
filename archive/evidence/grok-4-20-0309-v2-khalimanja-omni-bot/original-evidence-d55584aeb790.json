@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:46.394Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/khalimanja/omni-bot/blob/main/omni_bot.py",
+  "finalUrl": "https://github.com/khalimanja/omni-bot/blob/main/omni_bot.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6d9f35e7acd276136601c55e473b841b\"",
+  "lastModified": null,
+  "bodyBytes": 257527,
+  "bodySha256": "f26d4e95f981eb7517851d26f71f3f3123578eb2915067ed909b91e7f74ab066",
+  "title": "omni-bot/omni_bot.py at main · khalimanja/omni-bot · GitHub",
+  "github": {
+    "owner": "khalimanja",
+    "repo": "omni-bot",
+    "apiStatus": "unavailable"
+  }
+}

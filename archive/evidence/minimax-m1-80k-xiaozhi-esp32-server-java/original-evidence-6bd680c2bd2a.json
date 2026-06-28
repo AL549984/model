@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:23.544Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/blob/main/web/src/config/llm_factories.json#L6044-L6049",
+  "finalUrl": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/blob/main/web/src/config/llm_factories.json",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c605fd031e73c7a661a30b36caff0c2e\"",
+  "lastModified": null,
+  "bodyBytes": 1199095,
+  "bodySha256": "72eb366874f58088f90a9948e24df0c13cca1b6b46db57ba973eb342f8bf736e",
+  "title": "xiaozhi-esp32-server-java/web/src/config/llm_factories.json at main · joey-zhou/xiaozhi-esp32-server-java · GitHub",
+  "github": {
+    "owner": "joey-zhou",
+    "repo": "xiaozhi-esp32-server-java",
+    "apiStatus": "unavailable"
+  }
+}

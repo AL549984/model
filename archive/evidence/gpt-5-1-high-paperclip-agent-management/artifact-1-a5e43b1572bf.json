@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:25.857Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/paperclipai/paperclip",
+  "finalUrl": "https://github.com/paperclipai/paperclip",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c7461996da53911454dc5336dad79020\"",
+  "lastModified": null,
+  "bodyBytes": 472222,
+  "bodySha256": "8e2767c15fb4fc59ba7171269804de8fc2a5b6d4d6177dd589e255ca6fca1eeb",
+  "title": "GitHub - paperclipai/paperclip: The open-source app everyone uses to manage agents at work · GitHub",
+  "github": {
+    "owner": "paperclipai",
+    "repo": "paperclip",
+    "htmlUrl": "https://github.com/paperclipai/paperclip",
+    "defaultBranch": "master",
+    "defaultBranchSha": "4c6c0c6ad048838dda4a67e1aca43aa37a6fcf0d",
+    "pushedAt": "2026-06-27T04:14:02Z",
+    "updatedAt": "2026-06-27T21:46:41Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

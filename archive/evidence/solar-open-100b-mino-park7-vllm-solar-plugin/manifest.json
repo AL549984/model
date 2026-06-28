@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-open-100b-mino-park7-vllm-solar-plugin",
+  "modelId": "solar-open-100b",
+  "modelName": "Solar Open 100B",
+  "title": "mino-park7 packaged Solar Open 100B support as an out-of-tree vLLM plugin",
+  "evidenceFingerprint": "8b8afb7dcec9a4247b6effc828cebc27ed3e25df974e9196809fb406d1f40c44",
+  "capturedAt": "2026-06-27T21:28:11.287Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/mino-park7/vllm-solar-plugin/main/README.md",
+      "snapshotPath": "archive/evidence/solar-open-100b-mino-park7-vllm-solar-plugin/original-evidence-144daa1d417d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "c24aadd7f5717eacafffdc7910820807b26d547734596b44ba85fd4f10fee4a4",
+      "capturedAt": "2026-06-27T21:28:09.676Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mino-park7/vllm-solar-plugin",
+      "snapshotPath": "archive/evidence/solar-open-100b-mino-park7-vllm-solar-plugin/artifact-1-f2123a24057e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mino-park7/vllm-solar-plugin: vLLM plugin for Solar Open 100B model (Upstage) · GitHub",
+      "bodySha256": "85d3750c2549058cc28c161fc532b74d85019f59227d526410a512624888f07b",
+      "capturedAt": "2026-06-27T21:28:10.000Z",
+      "error": ""
+    }
+  ]
+}

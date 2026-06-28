@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:06.517Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/hunkim/SolarLLMChatDemo/main/chatopenai.py",
+  "finalUrl": "https://raw.githubusercontent.com/hunkim/SolarLLMChatDemo/main/chatopenai.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "489",
+  "etag": "W/\"7654dea7a0bcf76c4c87cbba7cd0d409f1e8fca4ca3a7b2ece94c3344671d16b\"",
+  "lastModified": null,
+  "bodyBytes": 1081,
+  "bodySha256": "11d5e878545e542d74d29c52c72326428eb94ee8ad0b5b8abf827adde63de55e",
+  "title": "",
+  "github": null
+}

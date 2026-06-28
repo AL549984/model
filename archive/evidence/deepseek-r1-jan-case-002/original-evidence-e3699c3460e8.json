@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:22.013Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ZJUAISafety/DeepSeek-R1-Safe",
+  "finalUrl": "https://github.com/ZJUAISafety/DeepSeek-R1-Safe",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fd7be893da2d5360afbaa763e6299de2\"",
+  "lastModified": null,
+  "bodyBytes": 275103,
+  "bodySha256": "fcb85e99bbfb8c8b7d4807075282361aa302e28425a5ddb11df63059c33e7e12",
+  "title": "GitHub - ZJUAISafety/DeepSeek-R1-Safe · GitHub",
+  "github": {
+    "owner": "ZJUAISafety",
+    "repo": "DeepSeek-R1-Safe",
+    "apiStatus": "unavailable"
+  }
+}

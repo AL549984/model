@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-1-fsgeek-yanantin-scout-3042",
+  "modelId": "minimax-m2-1",
+  "modelName": "MiniMax-M2.1",
+  "title": "Yanantin Chasqui Scout used MiniMax-M2.1 to inspect a codebase and produce an epistemic observability report",
+  "evidenceFingerprint": "177d867edb0a6244e2e3afff869de991b7df993c474e4b6c808abf4cb83d9b11",
+  "capturedAt": "2026-06-27T22:44:29.809Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/fsgeek/yanantin/blob/main/docs/cairn/scout_3042_20260225_minimax-m2.1.md",
+      "snapshotPath": "archive/evidence/minimax-m2-1-fsgeek-yanantin-scout-3042/original-evidence-383f174b8b62.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "yanantin/docs/cairn/scout_3042_20260225_minimax-m2.1.md at main · fsgeek/yanantin · GitHub",
+      "bodySha256": "8df048b19d16c7ca50873f4a8fb182939baa518a797f37aca79181747dd32e7f",
+      "capturedAt": "2026-06-27T22:44:27.891Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/fsgeek/yanantin/blob/main/docs/cairn/scout_3042_20260225_minimax-m2.1.md",
+      "snapshotPath": "archive/evidence/minimax-m2-1-fsgeek-yanantin-scout-3042/artifact-1-383f174b8b62.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "yanantin/docs/cairn/scout_3042_20260225_minimax-m2.1.md at main · fsgeek/yanantin · GitHub",
+      "bodySha256": "52cbf24e0cb341c2477be0a94e4ccd26dfc9d3284576f100a72686df981c32a6",
+      "capturedAt": "2026-06-27T22:44:29.256Z",
+      "error": ""
+    }
+  ]
+}

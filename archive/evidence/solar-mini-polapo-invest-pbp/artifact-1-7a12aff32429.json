@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:34.404Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Polapo-Invest/Polapo-Invest-PBP",
+  "finalUrl": "https://github.com/Polapo-Invest/Polapo-Invest-PBP",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fd6c3fa867317619f6f9a192912dec00\"",
+  "lastModified": null,
+  "bodyBytes": 313458,
+  "bodySha256": "9f365c78e4ae62edc1077e6a401c87dfed363662d57ccca3994322f3c21ecdfc",
+  "title": "GitHub - Polapo-Invest/Polapo-Invest-PBP: Polapo Invest Portfolio Backtesting Platform · GitHub",
+  "github": {
+    "owner": "Polapo-Invest",
+    "repo": "Polapo-Invest-PBP",
+    "apiStatus": "unavailable"
+  }
+}

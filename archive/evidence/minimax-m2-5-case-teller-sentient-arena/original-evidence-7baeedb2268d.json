@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:46.724Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Leonwenhao/teller",
+  "finalUrl": "https://github.com/Leonwenhao/teller",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"36ff5f52edb2072330b20accf439fc86\"",
+  "lastModified": null,
+  "bodyBytes": 365797,
+  "bodySha256": "82a42ccc49c82809b36a8dd28aed1a9eb9305dface32e5bf12f8f8a3ae054268",
+  "title": "GitHub - Leonwenhao/teller: Teller — #1 on Sentient Arena Cohort 0 (highest accuracy: 71.5%). Open-source grounded reasoning agent for enterprise document QA. Powered by Goose + MiniMax M2.5. · GitHub",
+  "github": {
+    "owner": "Leonwenhao",
+    "repo": "teller",
+    "apiStatus": "unavailable"
+  }
+}

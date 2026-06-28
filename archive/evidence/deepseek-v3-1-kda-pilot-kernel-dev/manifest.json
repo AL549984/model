@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-kda-pilot-kernel-dev",
+  "modelId": "deepseek-v3-1",
+  "modelName": "DeepSeek V3.1",
+  "title": "KDA-Pilot: DeepSeek V3.1 for Automated CUDA Kernel Profiling and Optimization",
+  "evidenceFingerprint": "02c01a6f29e8db5e58dcebf2d8ab49b786c3b1518746f897f07d18889d14d174",
+  "capturedAt": "2026-06-27T21:08:59.577Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/BBuf/KDA-Pilot/pull/118",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-kda-pilot-kernel-dev/original-evidence-c6324d54a0f8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[e2e_kernel_tasks] deepseek_v31 — profile-filtered kernel tasks by BBuf · Pull Request #118 · BBuf/KDA-Pilot · GitHub",
+      "bodySha256": "989af5ec9b6aea4f31cfacaf81fffdab7a3f5a59654632d923cb5308ada7d32f",
+      "capturedAt": "2026-06-27T21:08:57.464Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/BBuf/KDA-Pilot",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-kda-pilot-kernel-dev/artifact-1-53604fd4ba2e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - BBuf/KDA-Pilot · GitHub",
+      "bodySha256": "5a94caa62508b90851d0e6a480998da7d38f305e45cf4aef870d8979552c7210",
+      "capturedAt": "2026-06-27T21:08:58.470Z",
+      "error": ""
+    }
+  ]
+}

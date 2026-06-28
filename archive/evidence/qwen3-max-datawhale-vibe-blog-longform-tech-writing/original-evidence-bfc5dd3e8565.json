@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:09.599Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/datawhalechina/vibe-blog/blob/cc4b4c564aa6c39f8fd59ae75e03b2e5fc7ac491/README.md",
+  "finalUrl": "https://github.com/datawhalechina/vibe-blog/blob/cc4b4c564aa6c39f8fd59ae75e03b2e5fc7ac491/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b6396e7117ce2d64da17f22766696f79\"",
+  "lastModified": null,
+  "bodyBytes": 586173,
+  "bodySha256": "b7e362f4e070039e2126591bc8f5ad153ba3c606a26bc58498239b0819a5d4b4",
+  "title": "vibe-blog/README.md at cc4b4c564aa6c39f8fd59ae75e03b2e5fc7ac491 · datawhalechina/vibe-blog · GitHub",
+  "github": {
+    "owner": "datawhalechina",
+    "repo": "vibe-blog",
+    "apiStatus": "unavailable"
+  }
+}

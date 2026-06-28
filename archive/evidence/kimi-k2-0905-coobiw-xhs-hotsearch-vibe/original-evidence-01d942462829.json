@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:22.952Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Coobiw/xhs-hotsearch-vibe/blob/master/README.md",
+  "finalUrl": "https://github.com/Coobiw/xhs-hotsearch-vibe/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"48f9ff7fef2b2129e11702938a4ffcde\"",
+  "lastModified": null,
+  "bodyBytes": 297821,
+  "bodySha256": "6d3e86f18d9f47cd2c8fc136708976e9ed1a75a9776aa50bf2ac202bbf5f7386",
+  "title": "xhs-hotsearch-vibe/README.md at master · Coobiw/xhs-hotsearch-vibe · GitHub",
+  "github": {
+    "owner": "Coobiw",
+    "repo": "xhs-hotsearch-vibe",
+    "apiStatus": "unavailable"
+  }
+}

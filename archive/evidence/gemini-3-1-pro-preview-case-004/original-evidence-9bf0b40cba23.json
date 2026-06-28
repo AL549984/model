@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:25.470Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yeameen/claude-code-review-council/blob/main/README.md",
+  "finalUrl": "https://github.com/yeameen/claude-code-review-council/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"855968e68288c650a4792e30c18e8153\"",
+  "lastModified": null,
+  "bodyBytes": 288313,
+  "bodySha256": "afd8ec87037f7ceb0c4818c50ced8e7fa432ce77917439e915d08d25e51c7918",
+  "title": "claude-code-review-council/README.md at main · yeameen/claude-code-review-council · GitHub",
+  "github": {
+    "owner": "yeameen",
+    "repo": "claude-code-review-council",
+    "apiStatus": "unavailable"
+  }
+}

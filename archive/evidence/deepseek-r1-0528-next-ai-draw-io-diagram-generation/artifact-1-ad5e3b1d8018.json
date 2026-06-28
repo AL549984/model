@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:16.338Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+  "finalUrl": "https://github.com/DayuanJiang/next-ai-draw-io",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2fa72e8311ead072e9b4626ebbcda7df\"",
+  "lastModified": null,
+  "bodyBytes": 433632,
+  "bodySha256": "5a601c6327ab2109158222e6dcd6da6c5044baece788c4d35250c67247ad8574",
+  "title": "GitHub - DayuanJiang/next-ai-draw-io: A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualizati",
+  "github": {
+    "owner": "DayuanJiang",
+    "repo": "next-ai-draw-io",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:35.061Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink/blob/main/backend/image_ocr/alt_text_generator.py",
+  "finalUrl": "https://github.com/geminii01/product-usecase-knowledge-management-upthink/blob/main/backend/image_ocr/alt_text_generator.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"692f4dd5e976b82af1a29ac215860d4b\"",
+  "lastModified": null,
+  "bodyBytes": 295251,
+  "bodySha256": "15a94dd600f826c41c216121cc250fcbf227ad1ce2f90c1456adbbd5dd2b2b7f",
+  "title": "product-usecase-knowledge-management-upthink/backend/image_ocr/alt_text_generator.py at main · geminii01/product-usecase-knowledge-management-upthink · GitHub",
+  "github": {
+    "owner": "geminii01",
+    "repo": "product-usecase-knowledge-management-upthink",
+    "apiStatus": "unavailable"
+  }
+}

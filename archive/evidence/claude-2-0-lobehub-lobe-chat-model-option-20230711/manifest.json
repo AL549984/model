@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-0-lobehub-lobe-chat-model-option-20230711",
+  "modelId": "claude-2-0",
+  "modelName": "Claude 2.0",
+  "title": "LobeHub LobeChat exposed Claude 2.0 as a selectable model for open-source AI chat workflows",
+  "evidenceFingerprint": "3d67e0e1b5aab1fefbfd5b7e46a6f65e77ce8119512da7e533131ab97ffd1c08",
+  "capturedAt": "2026-06-27T20:16:37.097Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/lobehub/lobe-chat/main/packages/model-bank/src/aiModels/higress.ts",
+      "snapshotPath": "archive/evidence/claude-2-0-lobehub-lobe-chat-model-option-20230711/original-evidence-017a52b033b3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "742baae822d096532b2a81d83a34117c1196b259166562dc5c50bff90bd56545",
+      "capturedAt": "2026-06-27T20:16:33.271Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/lobehub/lobe-chat",
+      "snapshotPath": "archive/evidence/claude-2-0-lobehub-lobe-chat-model-option-20230711/artifact-1-cf36b23b6ff3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lobehub/lobehub: 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. · GitHub",
+      "bodySha256": "ca5fd014db4f16b39119d97884ee92918c777f081fc522b6074456a19a8ab926",
+      "capturedAt": "2026-06-27T20:16:33.604Z",
+      "error": ""
+    }
+  ]
+}

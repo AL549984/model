@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:34.392Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/LLM-Red-Team/kimi-cc",
+  "finalUrl": "https://github.com/LLM-Red-Team/kimi-cc",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bf013a10a79821935d55484de451ad40\"",
+  "lastModified": null,
+  "bodyBytes": 259342,
+  "bodySha256": "ab470554c60007676646f7e9ba4dd698e3a75502290b0e878c2baef23bc8fd65",
+  "title": "GitHub - LLM-Red-Team/kimi-cc: Use Kimi latest model(kimi-k2-0711-preview) to drive your Claude Code. · GitHub",
+  "github": {
+    "owner": "LLM-Red-Team",
+    "repo": "kimi-cc",
+    "apiStatus": "unavailable"
+  }
+}

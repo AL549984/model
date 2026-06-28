@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-alejandrosnz-srt-llm-translator",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "SRT LLM Translator 使用 grok-beta 批量翻译字幕并保留时间轴",
+  "evidenceFingerprint": "d9c5845ac85771fe7e683e09fa189675d34050cff70086a5a795f4e128693f65",
+  "capturedAt": "2026-06-27T22:21:49.595Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/alejandrosnz/srt-llm-translator/blob/main/README.md#xai-grok",
+      "snapshotPath": "archive/evidence/grok-beta-alejandrosnz-srt-llm-translator/original-evidence-6ea17a942cbf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "srt-llm-translator/README.md at main · alejandrosnz/srt-llm-translator · GitHub",
+      "bodySha256": "296a7f5757e05d327046da2fd5cbd3dbde124cfdd4d99e3d19127ca632429592",
+      "capturedAt": "2026-06-27T22:21:46.353Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/alejandrosnz/srt-llm-translator",
+      "snapshotPath": "archive/evidence/grok-beta-alejandrosnz-srt-llm-translator/artifact-1-0f1bd9e442db.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - alejandrosnz/srt-llm-translator: AI-powered SRT subtitle translator with Python script and n8n workflow · GitHub",
+      "bodySha256": "fa480f63e17b209fb3d3456e162dacf97184161a4d3060e97cf514005557b505",
+      "capturedAt": "2026-06-27T22:21:48.680Z",
+      "error": ""
+    }
+  ]
+}

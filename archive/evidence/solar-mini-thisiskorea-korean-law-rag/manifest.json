@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-thisiskorea-korean-law-rag",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "upstage_solar_mini_law answers Korean legal questions over law PDFs",
+  "evidenceFingerprint": "68ad0509094f4a7c63415719fb341076da2ba0b5f20c338ab4719a1d16a7b7fd",
+  "capturedAt": "2026-06-27T23:23:44.858Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/thisiskorea/upstage_solar_mini_law/blob/main/upstage.ipynb",
+      "snapshotPath": "archive/evidence/solar-mini-thisiskorea-korean-law-rag/original-evidence-b879ef1b218d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "upstage_solar_mini_law/upstage.ipynb at main · thisiskorea/upstage_solar_mini_law · GitHub",
+      "bodySha256": "cc9c922214b20f2280c289355c3e389f2d80f474929f0f311548bc6e735cb187",
+      "capturedAt": "2026-06-27T23:23:41.793Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/thisiskorea/upstage_solar_mini_law",
+      "snapshotPath": "archive/evidence/solar-mini-thisiskorea-korean-law-rag/artifact-1-9acdd76b195b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - thisiskorea/upstage_solar_mini_law · GitHub",
+      "bodySha256": "2475c65419443a2e72c7d5f6a6e6f85008ec30fcdb32ad38cb438f17f4df7235",
+      "capturedAt": "2026-06-27T23:23:43.444Z",
+      "error": ""
+    }
+  ]
+}

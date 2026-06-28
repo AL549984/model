@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-2-bnyoun-biztone-converter",
+  "modelId": "solar-pro-2",
+  "modelName": "Solar Pro 2",
+  "title": "BizTone Converter uses Solar-Pro2 to rewrite rough drafts into business communication",
+  "evidenceFingerprint": "ddb286682826cf2c93e4e402d37205a9c916f58b6dae82f27929644939e8db62",
+  "capturedAt": "2026-06-27T23:23:52.742Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bnyoun/biztone-converter#readme",
+      "snapshotPath": "archive/evidence/solar-pro-2-bnyoun-biztone-converter/original-evidence-dfb4bb3367fd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bnyoun/biztone-converter: AI-based business tone converter using FastAPI and Upstage Solar-Pro2. · GitHub",
+      "bodySha256": "6d1217b743c68fcfd5df0095dfbd1604dd356d0c0ba39e42719f0d03c488d610",
+      "capturedAt": "2026-06-27T23:23:50.766Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bnyoun/biztone-converter",
+      "snapshotPath": "archive/evidence/solar-pro-2-bnyoun-biztone-converter/artifact-1-2be636f16e35.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bnyoun/biztone-converter: AI-based business tone converter using FastAPI and Upstage Solar-Pro2. · GitHub",
+      "bodySha256": "8f16295d1c1555d04231a8a1b04448eb263993a02f73ba4d018baa93699fbbfd",
+      "capturedAt": "2026-06-27T23:23:52.079Z",
+      "error": ""
+    }
+  ]
+}

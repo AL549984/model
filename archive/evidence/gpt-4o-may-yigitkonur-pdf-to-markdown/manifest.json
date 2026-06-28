@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4o-may-yigitkonur-pdf-to-markdown",
+  "modelId": "gpt-4o-may",
+  "modelName": "GPT-4o (May)",
+  "title": "api-llm-ocr: Production PDF-to-Markdown Conversion Using GPT-4o Vision",
+  "evidenceFingerprint": "a3f03c574a14556cfa1bf72024e2301ae03290abe3bf647f1c658da52c4ab448",
+  "capturedAt": "2026-06-27T22:01:05.654Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yigitkonur/api-llm-ocr",
+      "snapshotPath": "archive/evidence/gpt-4o-may-yigitkonur-pdf-to-markdown/original-evidence-7f2e112bf4e7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yigitkonur/api-llm-ocr: PDF to markdown using vision LLMs — tables, layouts, and structure preserved · GitHub",
+      "bodySha256": "56da072575a3d0120c520da5b2234c6b5acab5247b935f1e0b22b2fadb0e42e1",
+      "capturedAt": "2026-06-27T22:01:03.815Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yigitkonur/api-llm-ocr",
+      "snapshotPath": "archive/evidence/gpt-4o-may-yigitkonur-pdf-to-markdown/artifact-1-7f2e112bf4e7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yigitkonur/api-llm-ocr: PDF to markdown using vision LLMs — tables, layouts, and structure preserved · GitHub",
+      "bodySha256": "fee60a73ff66f88b19028b85ac1d00baab8e0fc19190df9ba19d15583a1d167a",
+      "capturedAt": "2026-06-27T22:01:05.052Z",
+      "error": ""
+    }
+  ]
+}

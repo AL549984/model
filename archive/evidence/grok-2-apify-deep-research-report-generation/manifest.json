@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-apify-deep-research-report-generation",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "Apify Deep Research uses Grok 2.1212 to generate research reports from Apify crawls",
+  "evidenceFingerprint": "2719ca84f96507ab95f5a65ccb7ca2d782e4571a9f4ee99c6702ae5f2626ddee",
+  "capturedAt": "2026-06-27T22:08:33.734Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mluggy/apify-deep-research/blob/main/README.md#supported-llm-models",
+      "snapshotPath": "archive/evidence/grok-2-apify-deep-research-report-generation/original-evidence-aaa206266d6c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "apify-deep-research/README.md at main · mluggy/apify-deep-research · GitHub",
+      "bodySha256": "a31adf70b782539703b5f4caac12b9187569a48e450ef097a32d65d17ceafecf",
+      "capturedAt": "2026-06-27T22:08:31.231Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mluggy/apify-deep-research",
+      "snapshotPath": "archive/evidence/grok-2-apify-deep-research-report-generation/artifact-1-de72b4006ae7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mluggy/apify-deep-research · GitHub",
+      "bodySha256": "433920804711a108cc572f4ac7ed5a2e96154a5658fe95d05ad67881831ef667",
+      "capturedAt": "2026-06-27T22:08:32.789Z",
+      "error": ""
+    }
+  ]
+}

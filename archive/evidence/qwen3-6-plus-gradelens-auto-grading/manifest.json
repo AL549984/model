@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-plus-gradelens-auto-grading",
+  "modelId": "qwen3-6-plus",
+  "modelName": "Qwen3.6 Plus",
+  "title": "GradeLens 智阅用 Qwen3.6 Plus 多模态能力实现端到端自动阅卷",
+  "evidenceFingerprint": "b92e8fd5db5de43f1e3494e378c712ab620d510f2a80b203b847742a81bd1fa3",
+  "capturedAt": "2026-06-27T23:07:44.000Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zjkaaap/GradeLens-/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-gradelens-auto-grading/original-evidence-8dccfef9f501.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GradeLens-/README.md at main · zjkaaap/GradeLens- · GitHub",
+      "bodySha256": "453777ea2af85fae323edf291cea4998dcef0cd5b0aa2a5a742e60242c0e6ddc",
+      "capturedAt": "2026-06-27T23:07:40.781Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zjkaaap/GradeLens-",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-gradelens-auto-grading/artifact-1-f2d500bbe61d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zjkaaap/GradeLens-: GradeLens（智阅） 是一个端到端的 AI 自动阅卷应用。教师上传 .docx 试卷后，系统自动解析出每道题的题干、标准答案与分值；学生作答只需拍照上传，多模态大模型 qwen3.6-plus 便直接&quot;看图—理解手写—对照评分&quot;一步到位，输出结构化的得分、扣分点与评语。 与传统&quot;OCR + 文本大模型&quot;的两段式方案不同，GradeLens 让模型直接读取原始作答图片，避免了",
+      "bodySha256": "33e70e5329c7c6840e1ff4428c797ee8d54654bc9a8a35746cbaa53e6fd7995c",
+      "capturedAt": "2026-06-27T23:07:42.587Z",
+      "error": ""
+    }
+  ]
+}

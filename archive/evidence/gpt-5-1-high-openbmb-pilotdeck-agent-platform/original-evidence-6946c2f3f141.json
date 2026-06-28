@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:17.975Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/OpenBMB/PilotDeck/blob/d37b0995a0bc65ac621f5d5f4afb935b44acf649/ui/shared/modelConstants.js#L33-L34",
+  "finalUrl": "https://github.com/OpenBMB/PilotDeck/blob/d37b0995a0bc65ac621f5d5f4afb935b44acf649/ui/shared/modelConstants.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"532e7cd32d24a8a97520b7fef689c053\"",
+  "lastModified": null,
+  "bodyBytes": 286758,
+  "bodySha256": "c2830fd0693c5dd807fb9d8976c832a6b4e3f40721614fa58205c602c6f9e012",
+  "title": "PilotDeck/ui/shared/modelConstants.js at d37b0995a0bc65ac621f5d5f4afb935b44acf649 · OpenBMB/PilotDeck · GitHub",
+  "github": {
+    "owner": "OpenBMB",
+    "repo": "PilotDeck",
+    "htmlUrl": "https://github.com/OpenBMB/PilotDeck",
+    "defaultBranch": "main",
+    "defaultBranchSha": "d37b0995a0bc65ac621f5d5f4afb935b44acf649",
+    "pushedAt": "2026-06-27T08:49:25Z",
+    "updatedAt": "2026-06-27T16:30:29Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

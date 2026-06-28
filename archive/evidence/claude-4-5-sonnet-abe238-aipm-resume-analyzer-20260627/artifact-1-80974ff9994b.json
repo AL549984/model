@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:40.676Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/abe238/aipm-resume-analyzer",
+  "finalUrl": "https://github.com/abe238/aipm-resume-analyzer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"72b1bec770c8edcfe076a64c555889e6\"",
+  "lastModified": null,
+  "bodyBytes": 473140,
+  "bodySha256": "c7ad3535a4e7418880f7460649fb2c41c11ca7e37f527140ca8434815c8d7743",
+  "title": "GitHub - abe238/aipm-resume-analyzer: CLI tool to analyze resumes against AI PM framework using GPT-5, Claude Sonnet 4.5, or Gemini 2.5 Pro · GitHub",
+  "github": {
+    "owner": "abe238",
+    "repo": "aipm-resume-analyzer",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:07.780Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/buckster123/ApexOrchestrator",
+  "finalUrl": "https://github.com/buckster123/ApexOrchestrator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"76e7194cd33b8a5e165643c9d15eb668\"",
+  "lastModified": null,
+  "bodyBytes": 396860,
+  "bodySha256": "bc9e81a062d94d882b6ea27228372ab2aa2b5e8aa5d24fecffeea94e85e6fcae",
+  "title": "GitHub - buckster123/ApexOrchestrator: Autonomous AI Agent - Raspberry Pi-5 - Grok-4-Fast and Grok-4 · GitHub",
+  "github": {
+    "owner": "buckster123",
+    "repo": "ApexOrchestrator",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwq-32b-yt-navigator-youtube-search-chat-20260627",
+  "modelId": "qwq-32b",
+  "modelName": "QwQ-32B",
+  "title": "YT Navigator uses QwQ-32B for YouTube-channel search and chat agents",
+  "evidenceFingerprint": "0329642f67c748451578428c348b23165d761012e428f7387037e8ee4b6c3493",
+  "capturedAt": "2026-06-27T23:15:43.363Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/wassim249/YT-Navigator/blob/master/README.md#L132",
+      "snapshotPath": "archive/evidence/qwq-32b-yt-navigator-youtube-search-chat-20260627/original-evidence-d5e274e183fd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "YT-Navigator/README.md at master · wassim249/YT-Navigator · GitHub",
+      "bodySha256": "d0332258374fda1768bf05b8948353a675d0f7f5a5a9ee977d5a8e4069d1dd1c",
+      "capturedAt": "2026-06-27T23:15:41.331Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/wassim249/YT-Navigator",
+      "snapshotPath": "archive/evidence/qwq-32b-yt-navigator-youtube-search-chat-20260627/artifact-1-d2d9153a659b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - wassim249/YT-Navigator: YT Navigator: AI-powered YouTube content explorer that lets you search and chat with channel videos using AI agents. Extract insights from hours of content in seconds with semantic search and precise timesta",
+      "bodySha256": "d9ec93c6c0d18db4781d761198d01738f52915de7a456ba623fc2c7f28050801",
+      "capturedAt": "2026-06-27T23:15:42.362Z",
+      "error": ""
+    }
+  ]
+}

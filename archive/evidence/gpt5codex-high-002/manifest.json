@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5codex-high-002",
+  "modelId": "gpt-5-codex-high",
+  "modelName": "GPT-5 Codex (high)",
+  "title": "GPT-5 Codex 构建 DiveLog Studio 全功能潜水日志 Web 平台",
+  "evidenceFingerprint": "eb4f7e17eb2355cd7d1346815999eaf40fc6aac8ae7280c65698e4371a4c9f2d",
+  "capturedAt": "2026-06-27T22:08:15.199Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/pkostelnik/divelog",
+      "snapshotPath": "archive/evidence/gpt5codex-high-002/original-evidence-62f9ab8e9170.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - pkostelnik/divelog: Vibecoding an partially complex Webapp (for fun mostly) · GitHub",
+      "bodySha256": "89db528b8a2f154f1ca08509ce158b077bae6090a8d1c1d8a5be7cad2de5e626",
+      "capturedAt": "2026-06-27T22:08:11.475Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://divelog.copilot.ovh",
+      "snapshotPath": "archive/evidence/gpt5codex-high-002/artifact-1-3627e864e5ab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DiveLog Studio",
+      "bodySha256": "fced4c5b54404fdecf447dbb57506715a8bf93eb58f2d70cf4188c2858ce46fe",
+      "capturedAt": "2026-06-27T22:08:12.885Z",
+      "error": ""
+    }
+  ]
+}

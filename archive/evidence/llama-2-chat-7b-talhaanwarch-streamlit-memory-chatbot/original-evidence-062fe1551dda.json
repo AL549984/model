@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:41.003Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/talhaanwarch/streamlit-llama/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/talhaanwarch/streamlit-llama/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1700",
+  "etag": "W/\"93826e95163427259096075c356e4dee0237439abf25da0d647071aaa5a6177e\"",
+  "lastModified": null,
+  "bodyBytes": 4049,
+  "bodySha256": "6944eba8e2986e98303b5b94e32dea86b0c3307be36b5595af6e6a23be46d067",
+  "title": "",
+  "github": null
+}

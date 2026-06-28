@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:31.616Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/KaishuShito/vibecheck",
+  "finalUrl": "https://github.com/KaishuShito/vibecheck",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"139d8ec8ff8b0eac38108d9c1af0c059\"",
+  "lastModified": null,
+  "bodyBytes": 251076,
+  "bodySha256": "e4583a3ac9b5407a6969b2e431e8fbaf9e74391d9e22960a64675a9118cfcc3a",
+  "title": "GitHub - KaishuShito/vibecheck: VibeCheck: AI Model Comparison — Claude Opus 4.6 / GPT-5.3 Codex / GPT-5.2 xhigh / Gemini 3.1 Pro · GitHub",
+  "github": {
+    "owner": "KaishuShito",
+    "repo": "vibecheck",
+    "htmlUrl": "https://github.com/KaishuShito/vibecheck",
+    "defaultBranch": "main",
+    "defaultBranchSha": "0fda663dda33857336a450eb6f8465d80aa8f2a5",
+    "pushedAt": "2026-02-20T02:16:27Z",
+    "updatedAt": "2026-02-20T02:16:30Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

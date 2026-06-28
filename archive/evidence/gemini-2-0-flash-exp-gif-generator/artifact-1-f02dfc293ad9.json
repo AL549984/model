@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:41:02.129Z",
+  "kind": "artifact-1",
+  "url": "https://pypi.org/project/gemini-gif/",
+  "finalUrl": "https://pypi.org/project/gemini-gif/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "3038",
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 3038,
+  "bodySha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+  "title": "Client Challenge",
+  "github": null
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:41.331Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/wassim249/YT-Navigator/blob/master/README.md#L132",
+  "finalUrl": "https://github.com/wassim249/YT-Navigator/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1989b373127bfc61a8798ffdaedaa4e4\"",
+  "lastModified": null,
+  "bodyBytes": 353448,
+  "bodySha256": "d0332258374fda1768bf05b8948353a675d0f7f5a5a9ee977d5a8e4069d1dd1c",
+  "title": "YT-Navigator/README.md at master · wassim249/YT-Navigator · GitHub",
+  "github": {
+    "owner": "wassim249",
+    "repo": "YT-Navigator",
+    "apiStatus": "unavailable"
+  }
+}

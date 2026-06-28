@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-0324-faustos88-stt-mem0-ai-companion",
+  "modelId": "deepseek-v3-0324",
+  "modelName": "DeepSeek V3 0324",
+  "title": "Speech-to-text AI companion with long-term memory using DeepSeek V3 0324",
+  "evidenceFingerprint": "8b7b789f7c23cb78cdfae2ff860430352e4814e6dbe206e35fc84e301a01521e",
+  "capturedAt": "2026-06-27T21:08:38.557Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/FaustoS88/STT-mem0/blob/main/README.md",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-faustos88-stt-mem0-ai-companion/original-evidence-f8717c2e5439.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "STT-mem0/README.md at main · FaustoS88/STT-mem0 · GitHub",
+      "bodySha256": "06968b60643dfac135617dc3990a13917ffca027ee34f7322617428618edf125",
+      "capturedAt": "2026-06-27T21:08:35.991Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/FaustoS88/STT-mem0",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-faustos88-stt-mem0-ai-companion/artifact-1-33539a6108ec.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - FaustoS88/STT-mem0: A conversational AI system combining Faster-Whisper speech recognition with Mem0 long-term memory. Features PostgreSQL pgvector storage, Deepseek v3 0324 and hybrid memory architecture for enhanced contextual aw",
+      "bodySha256": "8345ac32ec1066220350ba96a5fc19a4489862c3ca9bb180a746090c8e652ec6",
+      "capturedAt": "2026-06-27T21:08:37.235Z",
+      "error": ""
+    }
+  ]
+}

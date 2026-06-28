@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:29.128Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/llmapp/openai/blob/master/src/models/__init__.py",
+  "finalUrl": "https://github.com/llmapp/openai/blob/master/src/models/__init__.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4020c3854274d5e6f7276219e4d9ad09\"",
+  "lastModified": null,
+  "bodyBytes": 276458,
+  "bodySha256": "17f74cb570ef4ea8ea4fa634d3b87a922d3124f43c369c48d7cbbeeb55fb7a42",
+  "title": "openai/src/models/__init__.py at master · llmapp/openai · GitHub",
+  "github": {
+    "owner": "llmapp",
+    "repo": "openai",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:19.470Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/sensenova/ConsistCompose-BAGEL-7B-MoT/raw/main/README.md",
+  "finalUrl": "https://huggingface.co/sensenova/ConsistCompose-BAGEL-7B-MoT/raw/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8ff0d35d27cbc319d89e1d8a511d2cd388662fbf\"",
+  "lastModified": null,
+  "bodyBytes": 9153,
+  "bodySha256": "768a17eaedd2cc11a3bbbbf0ba9767a18262c1d6cd26ff918f4827dfff9f1670",
+  "title": "",
+  "github": null
+}

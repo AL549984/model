@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-2-upthink-tag-recommendation",
+  "modelId": "solar-pro-2",
+  "modelName": "Solar Pro 2",
+  "title": "UpThink uses Solar Pro 2 to recommend consistent tags for Obsidian markdown notes",
+  "evidenceFingerprint": "849e1cca27b2fafbd0ed05e491f232a069ce829149622882719366661d120192",
+  "capturedAt": "2026-06-27T23:24:37.638Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink#2%EF%B8%8F%E2%83%A3-tag-recommendation",
+      "snapshotPath": "archive/evidence/solar-pro-2-upthink-tag-recommendation/original-evidence-c32dbed156e0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - geminii01/product-usecase-knowledge-management-upthink: [Upstage AI Ambassador] 개인 지식 관리 with Upstage Solar pro 2 · GitHub",
+      "bodySha256": "13b870d127f71d2f420b49d8e00aaba45b73e3680b1a6b796e6340cdefe707ee",
+      "capturedAt": "2026-06-27T23:24:36.135Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/geminii01/product-usecase-knowledge-management-upthink/blob/main/backend/tag_suggest/tag_generator.py",
+      "snapshotPath": "archive/evidence/solar-pro-2-upthink-tag-recommendation/artifact-1-d99329bc262e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "product-usecase-knowledge-management-upthink/backend/tag_suggest/tag_generator.py at main · geminii01/product-usecase-knowledge-management-upthink · GitHub",
+      "bodySha256": "17ab34034d431b4e45f196a7533e39c8cff5947900a65694e5ceab335356832b",
+      "capturedAt": "2026-06-27T23:24:36.653Z",
+      "error": ""
+    }
+  ]
+}

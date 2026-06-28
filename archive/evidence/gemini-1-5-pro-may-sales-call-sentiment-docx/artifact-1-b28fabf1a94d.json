@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:42.040Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/AntraTripathi74/Sentiment-Anlaysis",
+  "finalUrl": "https://github.com/AntraTripathi74/Sentiment-Anlaysis",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"604f23f93c42db6cbdb3c436166569cb\"",
+  "lastModified": null,
+  "bodyBytes": 253929,
+  "bodySha256": "f56ce1597c90b9fa25fcb2b1067aeef2c1c1ddc05b79e8bfab94f0da49964277",
+  "title": "GitHub - AntraTripathi74/Sentiment-Anlaysis: Sentiment Analysis application built with Python. It leverages Google&#39;s Gemini 1.5 Pro LLM to analyze uploaded call transcripts · GitHub",
+  "github": {
+    "owner": "AntraTripathi74",
+    "repo": "Sentiment-Anlaysis",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:58.534Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/noosi21/codex-solidity/blob/main/README.md",
+  "finalUrl": "https://github.com/noosi21/codex-solidity/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"02857d0c7c5de167c3e1e3ac68c2f74b\"",
+  "lastModified": null,
+  "bodyBytes": 520044,
+  "bodySha256": "bf5e68b2920c41d09d085b8f89d426bb02d87321a875c2a356a5d6616e39b633",
+  "title": "codex-solidity/README.md at main · noosi21/codex-solidity · GitHub",
+  "github": {
+    "owner": "noosi21",
+    "repo": "codex-solidity",
+    "apiStatus": "unavailable"
+  }
+}

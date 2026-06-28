@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:32.055Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/KYJCASTER/feedsystem_v4pro_optimize",
+  "finalUrl": "https://github.com/KYJCASTER/feedsystem_v4pro_optimize",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bf2874498ca790f5ab26c1a17296c26e\"",
+  "lastModified": null,
+  "bodyBytes": 316385,
+  "bodySha256": "5211791d1cc00dca88a20b4fa9e752cbc781abad941559d249d5e63ec94aa708",
+  "title": "GitHub - KYJCASTER/feedsystem_v4pro_optimize: https://github.com/LeoninCS/feedsystem_video_go&#39;s deepseek v4 pro(max) version · GitHub",
+  "github": {
+    "owner": "KYJCASTER",
+    "repo": "feedsystem_v4pro_optimize",
+    "apiStatus": "unavailable"
+  }
+}

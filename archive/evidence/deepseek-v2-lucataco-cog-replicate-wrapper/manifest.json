@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v2-lucataco-cog-replicate-wrapper",
+  "modelId": "deepseek-v2",
+  "modelName": "DeepSeek-V2",
+  "title": "lucataco packaged DeepSeek-V2 as a Cog model for Replicate-style deployment",
+  "evidenceFingerprint": "fd05699e36659d34aff9ff455d8435ab2c8552ffe940edc62c8b44a6c8c5c329",
+  "capturedAt": "2026-06-27T21:08:21.934Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/lucataco/cog-DeepSeek-V2",
+      "snapshotPath": "archive/evidence/deepseek-v2-lucataco-cog-replicate-wrapper/original-evidence-bcc646a7b16c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lucataco/cog-DeepSeek-V2: WIP - Cog wrapper for deepseek-ai/DeepSeek-V2 · GitHub",
+      "bodySha256": "5475d16f8d776fa46f15a5302b58e92667a6f6e8749dd168fb31cafe0d7654f6",
+      "capturedAt": "2026-06-27T21:08:19.583Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/lucataco/cog-DeepSeek-V2",
+      "snapshotPath": "archive/evidence/deepseek-v2-lucataco-cog-replicate-wrapper/artifact-1-bcc646a7b16c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lucataco/cog-DeepSeek-V2: WIP - Cog wrapper for deepseek-ai/DeepSeek-V2 · GitHub",
+      "bodySha256": "a0202023b90000334990ea1e1c1f4187107a53ccb520d2488cb3782805e096ec",
+      "capturedAt": "2026-06-27T21:08:20.459Z",
+      "error": ""
+    }
+  ]
+}

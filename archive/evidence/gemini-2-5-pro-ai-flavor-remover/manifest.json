@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-ai-flavor-remover",
+  "modelId": "gemini-2-5-pro",
+  "modelName": "Gemini 2.5 Pro",
+  "title": "hylarucoder AI味去除: Chinese AI Text Humanization on Gemini 2.5 Pro",
+  "evidenceFingerprint": "4a38af540d113a52c76d13799ea841248496ded98266b531054b9785b0449fef",
+  "capturedAt": "2026-06-27T21:47:03.372Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/hylarucoder/ai-flavor-remover",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-ai-flavor-remover/original-evidence-d3d13d828cbd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hylarucoder/ai-flavor-remover: AI 味去除 - 仅在 Gemini 2.5 Pro 上测试通过 · GitHub",
+      "bodySha256": "a1517f796d475a3837238c9053d45ac57eb6b05b0839587baf8fd5fff3695a9b",
+      "capturedAt": "2026-06-27T21:47:01.632Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hylarucoder/ai-flavor-remover",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-ai-flavor-remover/artifact-1-d3d13d828cbd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hylarucoder/ai-flavor-remover: AI 味去除 - 仅在 Gemini 2.5 Pro 上测试通过 · GitHub",
+      "bodySha256": "6e18f4e277caf1ebac35aa58d6882b2ea673423dbf8d3df39a62fbe84139d8f0",
+      "capturedAt": "2026-06-27T21:47:02.848Z",
+      "error": ""
+    }
+  ]
+}

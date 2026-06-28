@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:59.415Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/rod-trent/JunkDrawer/blob/main/meme%20explainer/readme.md",
+  "finalUrl": "https://github.com/rod-trent/JunkDrawer/blob/main/meme%20explainer/readme.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2bc5d13e8bed200d7984d0800018cfc3\"",
+  "lastModified": null,
+  "bodyBytes": 350735,
+  "bodySha256": "d5bedc9d9e8914f4aa58e8fc7ea12729269fa9f8ca5e672531bd2043003bbbc7",
+  "title": "JunkDrawer/meme explainer/readme.md at main · rod-trent/JunkDrawer · GitHub",
+  "github": {
+    "owner": "rod-trent",
+    "repo": "JunkDrawer",
+    "apiStatus": "unavailable"
+  }
+}

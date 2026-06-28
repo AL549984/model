@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:48.301Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/magpie-align/magpie/blob/main/navigation.md",
+  "finalUrl": "https://github.com/magpie-align/magpie/blob/main/navigation.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a5e34ac10d3b4d43460685c4d06bb329\"",
+  "lastModified": null,
+  "bodyBytes": 325431,
+  "bodySha256": "9fdca0030146bdcaa2bedadaf5a96ac0d30874292113cddf315e2ff0275b0b89",
+  "title": "magpie/navigation.md at main · magpie-align/magpie · GitHub",
+  "github": {
+    "owner": "magpie-align",
+    "repo": "magpie",
+    "apiStatus": "unavailable"
+  }
+}

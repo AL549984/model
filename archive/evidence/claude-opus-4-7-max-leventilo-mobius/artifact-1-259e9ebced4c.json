@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:28.657Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/leventilo/mobius",
+  "finalUrl": "https://github.com/leventilo/mobius",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5556784d07db2a17ea14fa24beae269d\"",
+  "lastModified": null,
+  "bodyBytes": 375318,
+  "bodySha256": "961624241644277d7d69cef1fb5660549ca6495ab192ff7fb8250c8b644311cc",
+  "title": "GitHub - leventilo/mobius: Drop a physics paper, get a Ciechanowski-grade interactive simulator with the paper&#39;s real physics under the hood. Built with Claude Opus 4.7 + Managed Agents + Skills for the Cerebral Valley hackathon (Apr 20",
+  "github": {
+    "owner": "leventilo",
+    "repo": "mobius",
+    "htmlUrl": "https://github.com/leventilo/mobius",
+    "defaultBranch": "main",
+    "defaultBranchSha": "2e99f4a5077cd5e25d892d0b674f5daaedf8fba9",
+    "pushedAt": "2026-04-27T01:28:22Z",
+    "updatedAt": "2026-05-25T23:41:15Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

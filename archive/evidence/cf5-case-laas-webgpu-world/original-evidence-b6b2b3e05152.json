@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:16.100Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Braffolk/fable5-world-demo",
+  "finalUrl": "https://github.com/Braffolk/fable5-world-demo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d00783ab9aae3d25e490d726a80a9424\"",
+  "lastModified": null,
+  "bodyBytes": 295199,
+  "bodySha256": "17581225a58ef90f9bbad8e705a8522e78d6bb006b0f036c7b5adf72a1254da7",
+  "title": "GitHub - Braffolk/fable5-world-demo: 3D world built by Claude Fable 5 to test its capabilities using three.js · GitHub",
+  "github": {
+    "owner": "Braffolk",
+    "repo": "fable5-world-demo",
+    "htmlUrl": "https://github.com/Braffolk/fable5-world-demo",
+    "defaultBranch": "main",
+    "defaultBranchSha": "fd75fdb718996908aad3d22b59dfa297dc94298d",
+    "pushedAt": "2026-06-27T16:10:23Z",
+    "updatedAt": "2026-06-27T17:03:17Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

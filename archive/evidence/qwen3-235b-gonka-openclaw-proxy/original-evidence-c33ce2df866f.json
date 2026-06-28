@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:52.232Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/nikinrussia-ui/gonka-openclaw/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/nikinrussia-ui/gonka-openclaw/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1979",
+  "etag": "W/\"5dad39d7eeedc5f11431b5d2bba201ad045a0cd0b19fbae6a357968cd238794c\"",
+  "lastModified": null,
+  "bodyBytes": 4670,
+  "bodySha256": "df6efb0402e72b109eb526ab75e8ff999f641283b026001a439d4a30ea5e01fe",
+  "title": "",
+  "github": null
+}

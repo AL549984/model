@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-mesakurax-hotel-pricing-add-20260627",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "mesakurax 用 Qwen3-Max 生成酒店定价系统 ADD 3.0 架构设计交付物",
+  "evidenceFingerprint": "c7ffe1ef0cfb7a2cfc53c5593afedb8a2e302c21099613cc1681ad4b49dda716",
+  "capturedAt": "2026-06-27T23:15:02.841Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mesakurax/hotel-pricing-add-qwen3-max/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-max-mesakurax-hotel-pricing-add-20260627/original-evidence-6d96a2e96ac5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "hotel-pricing-add-qwen3-max/README.md at main · mesakurax/hotel-pricing-add-qwen3-max · GitHub",
+      "bodySha256": "951fc3592c765bb6adeff6ffa0d7453baae0327736c736ee83a6d5935fbac53f",
+      "capturedAt": "2026-06-27T23:15:00.932Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mesakurax/hotel-pricing-add-qwen3-max",
+      "snapshotPath": "archive/evidence/qwen3-max-mesakurax-hotel-pricing-add-20260627/artifact-1-3c6e88b010ad.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mesakurax/hotel-pricing-add-qwen3-max: Direct Qwen3-Max ADD 3.0 runner for Hotel Pricing System architecture assignment · GitHub",
+      "bodySha256": "a66879111cfe2d43800400b95c5fb97dcc842a8592e866653ab4fcd6983ed862",
+      "capturedAt": "2026-06-27T23:15:01.946Z",
+      "error": ""
+    }
+  ]
+}

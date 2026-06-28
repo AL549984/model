@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-agent-tars-volcengine-provider",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "Agent TARS uses Seed1.5-VL/Doubao Thinking Vision Pro as a Volcengine provider option for multimodal computer and browser agents",
+  "evidenceFingerprint": "3da06fafd78da49c878b89e233e3e5455b1da957bb39a561cd76d96b757bc573",
+  "capturedAt": "2026-06-27T23:15:50.024Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bytedance/UI-TARS-desktop/blob/main/README.md",
+      "snapshotPath": "archive/evidence/seed1-5-vl-agent-tars-volcengine-provider/original-evidence-b1a01fd3eb01.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "UI-TARS-desktop/README.md at main · bytedance/UI-TARS-desktop · GitHub",
+      "bodySha256": "1d6b22d9ca874d199c6c51d0d674c80af64f6984e9b5c07526deb890cefc8da1",
+      "capturedAt": "2026-06-27T23:15:47.881Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "snapshotPath": "archive/evidence/seed1-5-vl-agent-tars-volcengine-provider/artifact-1-76a435bcb8ee.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bytedance/UI-TARS-desktop: The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra · GitHub",
+      "bodySha256": "e96f021ceb3d070c4c08c0321627f195d38b023dd446c81a7a59a416652786c2",
+      "capturedAt": "2026-06-27T23:15:48.952Z",
+      "error": ""
+    }
+  ]
+}

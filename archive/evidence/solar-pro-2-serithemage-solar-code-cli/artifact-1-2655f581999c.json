@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:58.469Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/serithemage/solar-code/blob/main/packages/core/src/config/models.ts",
+  "finalUrl": "https://github.com/serithemage/solar-code/blob/main/packages/core/src/config/models.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2757eaa3a445afb13aa651d205fc87a7\"",
+  "lastModified": null,
+  "bodyBytes": 249379,
+  "bodySha256": "dac08955ba075b23b03952ebcf9bda4525d163a1c2406bbc29b5240975c87f05",
+  "title": "solar-code/packages/core/src/config/models.ts at main · serithemage/solar-code · GitHub",
+  "github": {
+    "owner": "serithemage",
+    "repo": "solar-code",
+    "apiStatus": "unavailable"
+  }
+}

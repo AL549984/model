@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:29.810Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MiniMax-AI/MiniMax-M2.1/blob/main/README.md",
+  "finalUrl": "https://github.com/MiniMax-AI/MiniMax-M2.1/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a053c1ef3a4e95ecd9664676630d32fb\"",
+  "lastModified": null,
+  "bodyBytes": 320880,
+  "bodySha256": "d4562ff9ec433bc3ea5c4d86833746befd37f9cf9dac17b06cc011e03d934069",
+  "title": "MiniMax-M2.1/README.md at main · MiniMax-AI/MiniMax-M2.1 · GitHub",
+  "github": {
+    "owner": "MiniMax-AI",
+    "repo": "MiniMax-M2.1",
+    "apiStatus": "unavailable"
+  }
+}

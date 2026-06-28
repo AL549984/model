@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:47.081Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/junjunjunbong/upstage-SolarNote/blob/master/README.md",
+  "finalUrl": "https://github.com/junjunjunbong/upstage-SolarNote/blob/master/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e9119e5690ceb6031b52a193370213b8\"",
+  "lastModified": null,
+  "bodyBytes": 275655,
+  "bodySha256": "bd956d8aff5e61fda716d6826f627a178bda68c9eec2f2406c257cec276c9492",
+  "title": "upstage-SolarNote/README.md at master · junjunjunbong/upstage-SolarNote · GitHub",
+  "github": {
+    "owner": "junjunjunbong",
+    "repo": "upstage-SolarNote",
+    "apiStatus": "unavailable"
+  }
+}

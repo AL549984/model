@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:21.292Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/adindamochamad/omnibridge",
+  "finalUrl": "https://github.com/adindamochamad/omnibridge",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"66da84784cda1ccbd8e9203bce42488e\"",
+  "lastModified": null,
+  "bodyBytes": 407464,
+  "bodySha256": "4193b53ed4d5623a91cacce5b80bcd59bbd86733b605e1f9d645bc8ade908781",
+  "title": "GitHub - adindamochamad/omnibridge: An AI agent that identifies legacy serial device protocols autonomously. Built for Claude Opus 4.7 Hackathon 2026. · GitHub",
+  "github": {
+    "owner": "adindamochamad",
+    "repo": "omnibridge",
+    "htmlUrl": "https://github.com/adindamochamad/omnibridge",
+    "defaultBranch": "main",
+    "defaultBranchSha": "c059e37ba1c8036f77c78075530f3d85f47d9929",
+    "pushedAt": "2026-06-27T06:22:36Z",
+    "updatedAt": "2026-06-27T06:22:40Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

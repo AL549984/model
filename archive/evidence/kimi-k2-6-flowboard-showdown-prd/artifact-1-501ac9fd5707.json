@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:20.502Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ZacharyZhang-NY/FlowBoard-Showdown/tree/main/Kimi-K2.6",
+  "finalUrl": "https://github.com/ZacharyZhang-NY/FlowBoard-Showdown/tree/main/Kimi-K2.6",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"feca50d822db1ff74ba15546794f5cb3\"",
+  "lastModified": null,
+  "bodyBytes": 285710,
+  "bodySha256": "b594dc1d3f45c2d34fc6060aaaabe75c5bfe45ef2d38486c87d5854088a367a5",
+  "title": "FlowBoard-Showdown/Kimi-K2.6 at main · ZacharyZhang-NY/FlowBoard-Showdown · GitHub",
+  "github": {
+    "owner": "ZacharyZhang-NY",
+    "repo": "FlowBoard-Showdown",
+    "apiStatus": "unavailable"
+  }
+}

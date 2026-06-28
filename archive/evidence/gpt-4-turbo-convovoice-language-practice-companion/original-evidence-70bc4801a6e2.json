@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:38.934Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/4arjun/convovoice-backend/blob/main/README.md",
+  "finalUrl": "https://github.com/4arjun/convovoice-backend/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3d76ccc2d851885834ab04798209fc4f\"",
+  "lastModified": null,
+  "bodyBytes": 289195,
+  "bodySha256": "4177c92b9de4dae6047823c03f7ecad065948f415a0298debf6b34a49b63b104",
+  "title": "convovoice-backend/README.md at main · 4arjun/convovoice-backend · GitHub",
+  "github": {
+    "owner": "4arjun",
+    "repo": "convovoice-backend",
+    "apiStatus": "unavailable"
+  }
+}

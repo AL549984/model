@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-open-100b-cyankiwi-awq-4bit",
+  "modelId": "solar-open-100b",
+  "modelName": "Solar Open 100B",
+  "title": "cyankiwi published a 4-bit AWQ Solar Open 100B variant for text generation",
+  "evidenceFingerprint": "7e35d8222b8aaa09ab2c16994ab8f4abc95b73fc3c96ce61fd9442e15f75d79d",
+  "capturedAt": "2026-06-27T23:25:34.131Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/cyankiwi/Solar-Open-100B-AWQ-4bit/raw/main/README.md",
+      "snapshotPath": "archive/evidence/solar-open-100b-cyankiwi-awq-4bit/original-evidence-e48ac8dd7874.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "5dc3aecea213b43cade55faf90af152ae5f31c45502c868d1c45ecca89d5b1d2",
+      "capturedAt": "2026-06-27T23:25:33.399Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/cyankiwi/Solar-Open-100B-AWQ-4bit",
+      "snapshotPath": "archive/evidence/solar-open-100b-cyankiwi-awq-4bit/artifact-1-0db94ba42115.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "cyankiwi/Solar-Open-100B-AWQ-4bit · Hugging Face",
+      "bodySha256": "3d876d36ac9f933974ed8897c45db36fb44294dc2d500f4bcbf86174498ae1a8",
+      "capturedAt": "2026-06-27T23:25:33.750Z",
+      "error": ""
+    }
+  ]
+}

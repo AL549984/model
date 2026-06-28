@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok4-apexorchestrator-multi-agent",
+  "modelId": "grok-4",
+  "modelName": "Grok 4",
+  "title": "ApexOrchestrator — Multi-Agent AI Orchestration Framework with Dialectical Swarms on Raspberry Pi",
+  "evidenceFingerprint": "964ee567ae9d8ff3e1fd1f208168f66b2e8033614b39efd04cc871e67d1ccdf7",
+  "capturedAt": "2026-06-27T22:22:09.647Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/buckster123/ApexOrchestrator",
+      "snapshotPath": "archive/evidence/grok4-apexorchestrator-multi-agent/original-evidence-0917a2913d56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - buckster123/ApexOrchestrator: Autonomous AI Agent - Raspberry Pi-5 - Grok-4-Fast and Grok-4 · GitHub",
+      "bodySha256": "bc9e81a062d94d882b6ea27228372ab2aa2b5e8aa5d24fecffeea94e85e6fcae",
+      "capturedAt": "2026-06-27T22:22:07.780Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/buckster123/ApexOrchestrator",
+      "snapshotPath": "archive/evidence/grok4-apexorchestrator-multi-agent/artifact-1-0917a2913d56.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - buckster123/ApexOrchestrator: Autonomous AI Agent - Raspberry Pi-5 - Grok-4-Fast and Grok-4 · GitHub",
+      "bodySha256": "0dbc1887521408d167d8d009d45a3f7be96313d2dec8472057f54f5ed5bda0e8",
+      "capturedAt": "2026-06-27T22:22:08.995Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:59.748Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/rag-web-ui/rag-web-ui",
+  "finalUrl": "https://github.com/rag-web-ui/rag-web-ui",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fa1f96508667371836a3bc90f776b11d\"",
+  "lastModified": null,
+  "bodyBytes": 403453,
+  "bodySha256": "770ae0ab794e27c3d7d194499c07c74a99ac0f63bf1ecc053d5211650ab38cab",
+  "title": "GitHub - rag-web-ui/rag-web-ui: RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology. · GitHub",
+  "github": {
+    "owner": "rag-web-ui",
+    "repo": "rag-web-ui",
+    "apiStatus": "unavailable"
+  }
+}

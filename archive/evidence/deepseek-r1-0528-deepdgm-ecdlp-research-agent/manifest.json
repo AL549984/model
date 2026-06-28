@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-0528-deepdgm-ecdlp-research-agent",
+  "modelId": "deepseek-r1-0528",
+  "modelName": "DeepSeek R1 0528",
+  "title": "Deepdgm 使用 DeepSeek R1 0528 构建 ECDLP 数学研究 Agent",
+  "evidenceFingerprint": "83a28ae2231614622843a7fc496fc7bf5671da04a280e17a167504b82fbd9c18",
+  "capturedAt": "2026-06-27T21:02:12.912Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/iluyobrainy/Deepdgm/blob/main/llm_withtools.py",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-deepdgm-ecdlp-research-agent/original-evidence-650eca1de644.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Deepdgm/llm_withtools.py at main · iluyobrainy/Deepdgm · GitHub",
+      "bodySha256": "7fee08d67d428e6e82ff96d97e6ee873f7368887dd70e76dcdefb923a5de93d9",
+      "capturedAt": "2026-06-27T21:02:10.843Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/iluyobrainy/Deepdgm",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-deepdgm-ecdlp-research-agent/artifact-1-92b49e370869.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - iluyobrainy/Deepdgm: Math agent made with DGM and Deepseek R1-0528 · GitHub",
+      "bodySha256": "38911101f59c53a9ddd608fde4bd9cbd6a1e6df980eb4e42604d2b0d5ef867ee",
+      "capturedAt": "2026-06-27T21:02:11.879Z",
+      "error": ""
+    }
+  ]
+}

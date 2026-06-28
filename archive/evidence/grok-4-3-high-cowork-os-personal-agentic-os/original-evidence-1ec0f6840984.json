@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:00.960Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/CoWork-OS/CoWork-OS/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/CoWork-OS/CoWork-OS/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "24363",
+  "etag": "W/\"6b9ab86aaa60b0102c09cdb572290eb270faeef14e94854a27cb45a9cefecced\"",
+  "lastModified": null,
+  "bodyBytes": 70554,
+  "bodySha256": "23bc2c09bd3ed1ac13a045859c1d144170b59c9d0096d3f188a112f680e06412",
+  "title": "",
+  "github": null
+}

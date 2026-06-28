@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-3-mini-reasoning-high-hergizhappa-absa-nursing-home-reviews-2025",
+  "modelId": "grok-3-mini-reasoning-high",
+  "modelName": "Grok 3 mini Reasoning (high)",
+  "title": "Hochschule Hannover bachelor project used Grok 3 Mini for aspect-based sentiment analysis of German nursing-home reviews",
+  "evidenceFingerprint": "dc734d6f6f1c7db6b8fe3432636ed99d330529cbd1e134ee77aad9632d53794b",
+  "capturedAt": "2026-06-27T22:15:21.921Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/HerGizHappa/Grok3Mini/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-hergizhappa-absa-nursing-home-reviews-2025/original-evidence-f607089301e1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Grok3Mini/README.md at main · HerGizHappa/Grok3Mini · GitHub",
+      "bodySha256": "f25c476b88a7574f6467c255e5a8f9ba5354728384c3bfceb5f944bf77b9475a",
+      "capturedAt": "2026-06-27T22:15:19.866Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/HerGizHappa/Grok3Mini",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-hergizhappa-absa-nursing-home-reviews-2025/artifact-1-7999950e6401.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - HerGizHappa/Grok3Mini: aspect-based sentimentanalysis with LLM Grok 3 Mini · GitHub",
+      "bodySha256": "db318d555beff62c6a9c5959b03fe6687f9f7351e4292236acbf9b4eb5f88ea6",
+      "capturedAt": "2026-06-27T22:15:20.864Z",
+      "error": ""
+    }
+  ]
+}

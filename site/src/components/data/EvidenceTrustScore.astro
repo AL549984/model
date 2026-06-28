@@ -1,0 +1,80 @@
+---
+import { buildEvidenceTrust, type EvidenceTrust } from "../../lib/evidenceTrust";
+
+const { item, trust: providedTrust, compact = false } = Astro.props;
+const trust = (providedTrust ?? buildEvidenceTrust(item)) as EvidenceTrust;
+---
+
+<div class:list={["evidence-trust", compact && "is-compact"]} data-evidence-trust>
+  <div>
+    <span>证据可信度</span>
+    <strong>{trust.score}<em>/100</em></strong>
+  </div>
+  <p>{trust.tier} · {trust.sourceKind}</p>
+  <div class="evidence-trust__signals">
+    {trust.signals.map((signal) => <small>{signal}</small>)}
+  </div>
+</div>
+
+<style>
+  .evidence-trust {
+    display: grid;
+    gap: 10px;
+    border: 1px solid rgba(244, 241, 234, 0.18);
+    background: #050505;
+    padding: 12px;
+  }
+
+  .evidence-trust > div:first-child {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .evidence-trust span {
+    color: #ff3b4e;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .evidence-trust strong {
+    color: #f4f1ea;
+    font-size: 30px;
+    line-height: 0.9;
+  }
+
+  .evidence-trust em {
+    margin-left: 2px;
+    color: #a8a29a;
+    font-size: 12px;
+    font-style: normal;
+  }
+
+  .evidence-trust p {
+    margin: 0;
+    color: #d8d3ca;
+    font-size: 0.86rem;
+    line-height: 1.5;
+  }
+
+  .evidence-trust__signals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .evidence-trust small {
+    border: 1px solid rgba(244, 241, 234, 0.16);
+    padding: 5px 7px;
+    color: #a8a29a;
+    font-size: 11px;
+    line-height: 1;
+  }
+
+  .evidence-trust.is-compact strong {
+    font-size: 24px;
+  }
+</style>

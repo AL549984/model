@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-dvd-rental-assistant-database-agent",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "DVD Rental Assistant 用 Gemini 1.5 Pro 驱动电影租赁数据库问答与操作代理",
+  "evidenceFingerprint": "f3c0cbf63f28cebcf65f92037f0b133d7e172ae65a73413777a213efa56adcb2",
+  "capturedAt": "2026-06-27T21:40:37.544Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/arjunprabhulal/gemini-toolbox-dvd-rental-assistant#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-dvd-rental-assistant-database-agent/original-evidence-17a8e1a9b0ef.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - arjunprabhulal/gemini-toolbox-dvd-rental-assistant: An intelligent, conversational AI assistant for managing DVD rental operations using Google Gemini 1.5 Pro , LlamaIndex, and GenAI Toolbox. · GitHub",
+      "bodySha256": "94d569d64ae6ba4caacd65488e6b170ff828b1d70d743a5a5ff6e37014a392d4",
+      "capturedAt": "2026-06-27T21:40:35.755Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/arjunprabhulal/gemini-toolbox-dvd-rental-assistant",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-dvd-rental-assistant-database-agent/artifact-1-7292cea84180.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - arjunprabhulal/gemini-toolbox-dvd-rental-assistant: An intelligent, conversational AI assistant for managing DVD rental operations using Google Gemini 1.5 Pro , LlamaIndex, and GenAI Toolbox. · GitHub",
+      "bodySha256": "2b76c2d1b34ed1e8b7671ccaf2c3df4d54804b209ce9f9a045e71c15e3fd558b",
+      "capturedAt": "2026-06-27T21:40:37.004Z",
+      "error": ""
+    }
+  ]
+}

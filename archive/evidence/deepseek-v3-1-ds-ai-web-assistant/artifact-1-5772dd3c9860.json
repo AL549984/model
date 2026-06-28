@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:54.107Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/jiqi136/Ai-Assistant",
+  "finalUrl": "https://github.com/jiqi136/Ai-Assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bb195438154e1db29cd6be43c3efe9e4\"",
+  "lastModified": null,
+  "bodyBytes": 318825,
+  "bodySha256": "ab604695e47d9ea8777b94de3732375bb3edabc95ff37c9f5e0895a40ade3dd5",
+  "title": "GitHub - jiqi136/Ai-Assistant: [Open Source] Novel Writing &amp; AI Programming Assistant. 【公开源码】的小说写作与 AI 编程助手。Aggregates top large models from home and abroad聚合国内外顶尖大模型 (DeepSeek/Gemini/Claude/Kimi/ChatGPT, etc.) · GitHub",
+  "github": {
+    "owner": "jiqi136",
+    "repo": "Ai-Assistant",
+    "apiStatus": "unavailable"
+  }
+}

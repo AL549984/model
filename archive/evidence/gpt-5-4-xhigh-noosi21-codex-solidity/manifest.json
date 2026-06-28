@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-4-xhigh-noosi21-codex-solidity",
+  "modelId": "gpt-5-4-xhigh",
+  "modelName": "GPT-5.4 (xhigh)",
+  "title": "noosi21 uses GPT-5.4 xhigh in Codex Solidity for smart-contract audit workflows",
+  "evidenceFingerprint": "ac4a7db42dda2ab6966df3044d95151fbe60e783599def8337bcbb98cc348798",
+  "capturedAt": "2026-06-27T22:08:00.915Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/noosi21/codex-solidity/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-noosi21-codex-solidity/original-evidence-5fbf520a1982.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "codex-solidity/README.md at main · noosi21/codex-solidity · GitHub",
+      "bodySha256": "bf5e68b2920c41d09d085b8f89d426bb02d87321a875c2a356a5d6616e39b633",
+      "capturedAt": "2026-06-27T22:07:58.534Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/noosi21/codex-solidity",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-noosi21-codex-solidity/artifact-1-1ae2d67ef312.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - noosi21/codex-solidity: Codex Solidity - Smart Contract Audit CLI with 34 skills, GPT-5.4 xhigh reasoning, symbolic execution, fuzzing (Echidna/Medusa), invariant checker, cross-contract analysis, GitHub URL targets, Foundry PoC, K",
+      "bodySha256": "7fbbfde5cdd4d79e3a49a88ae52e93715f378e7306debe444a035934d141baeb",
+      "capturedAt": "2026-06-27T22:07:59.654Z",
+      "error": ""
+    }
+  ]
+}

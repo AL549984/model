@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5-high-ai-book-writer",
+  "modelId": "gpt-5-high",
+  "modelName": "GPT-5 (high)",
+  "title": "Book.ai Multi-Agent AI Book Writing System",
+  "evidenceFingerprint": "b726131c6d6c7d88399b9789ce1f08f08ca4a694205f0e80bb24bec10f4de0f5",
+  "capturedAt": "2026-06-27T22:08:04.108Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/agruai/ai-book-writer",
+      "snapshotPath": "archive/evidence/gpt5-high-ai-book-writer/original-evidence-90d6dd432c74.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - agruai/ai-book-writer: AI-powered book-writing system that converts ideas into full manuscripts in hours with multi-agent collaboration, real-time streaming, and built-in cost control. Tech Stack: FastAPI · PostgreSQL · Redis · Nex",
+      "bodySha256": "7c403d63aade3b50a07c43fd695701e3b35d2d0ddfcebe4a950cdbb5f461648a",
+      "capturedAt": "2026-06-27T22:08:02.453Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/agruai/ai-book-writer",
+      "snapshotPath": "archive/evidence/gpt5-high-ai-book-writer/artifact-1-90d6dd432c74.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - agruai/ai-book-writer: AI-powered book-writing system that converts ideas into full manuscripts in hours with multi-agent collaboration, real-time streaming, and built-in cost control. Tech Stack: FastAPI · PostgreSQL · Redis · Nex",
+      "bodySha256": "e00604da7cf43cf0b9461eef3d278a69b0fb5bcda39cdaa64fad6e6a9c93d28b",
+      "capturedAt": "2026-06-27T22:08:03.659Z",
+      "error": ""
+    }
+  ]
+}

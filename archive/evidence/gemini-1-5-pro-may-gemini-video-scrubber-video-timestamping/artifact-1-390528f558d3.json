@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:38.723Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/trippedout/gemini-video-scrubber",
+  "finalUrl": "https://github.com/trippedout/gemini-video-scrubber",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c6124bb5a1de75376d483975665fc915\"",
+  "lastModified": null,
+  "bodyBytes": 297327,
+  "bodySha256": "03296dcb116aefb4baf7f2307a04441c63677ebcdf42ae70a512be53a788b0d4",
+  "title": "GitHub - trippedout/gemini-video-scrubber: A simple demo application showcasing the power of Gemini 1.5 Pro&#39;s video understanding capabilities. · GitHub",
+  "github": {
+    "owner": "trippedout",
+    "repo": "gemini-video-scrubber",
+    "apiStatus": "unavailable"
+  }
+}

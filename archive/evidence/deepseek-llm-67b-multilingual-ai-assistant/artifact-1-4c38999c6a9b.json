@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:06.978Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant",
+  "finalUrl": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"2fa9aed3bd3d6ddf504c77938df4415b\"",
+  "lastModified": null,
+  "bodyBytes": 279697,
+  "bodySha256": "eda6585152b5f43723776eb40c31ce136c11578d7168eb5cb491778647d33b1b",
+  "title": "GitHub - ThingsIBuild/Multilingual-AI-Assistant: Multilingual AI Assistant · GitHub",
+  "github": {
+    "owner": "ThingsIBuild",
+    "repo": "Multilingual-AI-Assistant",
+    "htmlUrl": "https://github.com/ThingsIBuild/Multilingual-AI-Assistant",
+    "defaultBranch": "master",
+    "defaultBranchSha": "55f56c9f5d2b4f8a860e5efba53857321dff91bb",
+    "pushedAt": "2025-04-17T14:25:58Z",
+    "updatedAt": "2025-10-18T15:06:14Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

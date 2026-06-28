@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:59.557Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ada682/hermes-openclaw/blob/main/reverse-proxy.js#L53",
+  "finalUrl": "https://github.com/ada682/hermes-openclaw/blob/main/reverse-proxy.js",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"943c97c93e5b1c00380c5bc3fee987bb\"",
+  "lastModified": null,
+  "bodyBytes": 1097374,
+  "bodySha256": "6783651b97fef81acec256dac09fc3335ea4269d5420be0bcc4e66d74c0fd648",
+  "title": "hermes-openclaw/reverse-proxy.js at main · ada682/hermes-openclaw · GitHub",
+  "github": {
+    "owner": "ada682",
+    "repo": "hermes-openclaw",
+    "htmlUrl": "https://github.com/ada682/hermes-openclaw",
+    "defaultBranch": "main",
+    "defaultBranchSha": "09cb2b36b9fb9b1dcd1d16e96fd863c2eefcd1b5",
+    "pushedAt": "2026-06-26T07:15:55Z",
+    "updatedAt": "2026-06-26T07:15:58Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

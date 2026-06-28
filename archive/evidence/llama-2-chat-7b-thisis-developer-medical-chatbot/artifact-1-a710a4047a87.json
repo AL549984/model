@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:42.722Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot",
+  "finalUrl": "https://github.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"15f5045ce2543e6579e3d115092e984b\"",
+  "lastModified": null,
+  "bodyBytes": 325401,
+  "bodySha256": "eedd718a8b83c024951a475003c1ebd1e890e502b5b938617d41fbdea71e07b7",
+  "title": "GitHub - ThisIs-Developer/Llama-2-GGML-Medical-Chatbot: Llama2-Medical-Chatbot is a medical chatbot that uses the Llama-2-7B-Chat-GGML model and the pdf The Gale Encyclopedia of Medicine, Volume 1, 2nd Edition. It is still under development",
+  "github": {
+    "owner": "ThisIs-Developer",
+    "repo": "Llama-2-GGML-Medical-Chatbot",
+    "apiStatus": "unavailable"
+  }
+}

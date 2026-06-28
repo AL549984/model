@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:37.791Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/XAI-liacs/BLADE",
+  "finalUrl": "https://github.com/XAI-liacs/BLADE",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9eb420f1bfda10c523f16d6d4049e1ed\"",
+  "lastModified": null,
+  "bodyBytes": 402711,
+  "bodySha256": "e3240bc25abbfa0c21bc293a0534e3c99f16de06e603a46fcae47d4171b50973",
+  "title": "GitHub - XAI-liacs/BLADE: Benchmarking Llm Assisted Design &amp; Evolution of algorithms · GitHub",
+  "github": {
+    "owner": "XAI-liacs",
+    "repo": "BLADE",
+    "htmlUrl": "https://github.com/XAI-liacs/BLADE",
+    "defaultBranch": "main",
+    "defaultBranchSha": "da94bfc512040a74154e1f0baeadecdc65d1bff8",
+    "pushedAt": "2026-06-25T11:45:07Z",
+    "updatedAt": "2026-06-25T11:39:22Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

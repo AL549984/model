@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:35.986Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/tree/master/RiskAnalysisWithOpenAIReasoning/Output/o1",
+  "finalUrl": "https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/tree/master/RiskAnalysisWithOpenAIReasoning/Output/o1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a068af31a99228cd5a2bea44eb9e67a6\"",
+  "lastModified": null,
+  "bodyBytes": 262874,
+  "bodySha256": "3f34afebff9a8417e1c474e692a5caa72f90c5e75bfcbae728c3b92d04f8f601",
+  "title": "RiskAnalysisWithGenerativeAIReasoning/RiskAnalysisWithOpenAIReasoning/Output/o1 at master · bartczernicki/RiskAnalysisWithGenerativeAIReasoning · GitHub",
+  "github": {
+    "owner": "bartczernicki",
+    "repo": "RiskAnalysisWithGenerativeAIReasoning",
+    "apiStatus": "unavailable"
+  }
+}

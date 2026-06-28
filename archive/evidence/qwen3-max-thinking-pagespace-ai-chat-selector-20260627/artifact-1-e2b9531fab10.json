@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:27.488Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/2witstudios/PageSpace",
+  "finalUrl": "https://github.com/2witstudios/PageSpace",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9b9d295255e417ab071b6e4912413abc\"",
+  "lastModified": null,
+  "bodyBytes": 435922,
+  "bodySha256": "6a0408fc0113f2cb73bcf541fe15274e9a205bd03e50f5a92010fdf3177caf1e",
+  "title": "GitHub - 2witstudios/PageSpace: Talk to your projects · GitHub",
+  "github": {
+    "owner": "2witstudios",
+    "repo": "PageSpace",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,402 @@
+---
+import BaseLayout from "../../components/layout/BaseLayout.astro";
+import SectionHeader from "../../components/sections/SectionHeader.astro";
+import EvidenceBadge from "../../components/data/EvidenceBadge.astro";
+import EvidenceTrustScore from "../../components/data/EvidenceTrustScore.astro";
+import SourceLinkBlock from "../../components/data/SourceLinkBlock.astro";
+import cases from "../../data/cases.json";
+import models from "../../data/models.json";
+import evidenceArchive from "../../data/evidence-archive.json";
+import { buildCaseNarrative } from "../../lib/caseNarrative";
+import { buildEvidenceTrust } from "../../lib/evidenceTrust";
+import { archiveStatusCopy, archiveStatusLabel, archiveStatusTone, archiveTargetSummary } from "../../lib/evidenceArchive";
+import { absoluteUrl, httpLinks } from "../../lib/seo";
+
+export function getStaticPaths() {
+  return cases
+    .filter((item) => item.evidenceGrade === "A" && item.showcaseEligible)
+    .map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const narrative = buildCaseNarrative(item);
+const evidenceTrust = buildEvidenceTrust(item);
+const archiveEntry = evidenceArchive.cases.find((entry) => entry.caseId === item.id);
+const archiveTone = archiveStatusTone(archiveEntry?.snapshotStatus);
+const model = models.find((candidate) => candidate.id === item.modelId);
+const modelSlug = model?.slug ?? item.modelId;
+const modelHref = `/models/${modelSlug}`;
+const drawerHref = `/cases?case=${item.id}`;
+const artifactLinks = String(item.artifactUrl ?? "")
+  .split(" ; ")
+  .map((link) => link.trim())
+  .filter(Boolean);
+const relatedCases = cases
+  .filter((candidate) => candidate.modelId === item.modelId && candidate.id !== item.id && candidate.evidenceGrade === "A" && candidate.showcaseEligible)
+  .slice(0, 6);
+const evidenceSources = [item.originalEvidenceUrl, ...artifactLinks].filter(Boolean);
+const caseJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  name: narrative.displayTitle,
+  headline: narrative.displayTitle,
+  url: absoluteUrl(`/cases/${item.id}`),
+  description: narrative.summary,
+  dateModified: item.collectedAt,
+  inLanguage: "zh-CN",
+  about: {
+    "@type": "SoftwareApplication",
+    name: item.modelName,
+    url: absoluteUrl(modelHref)
+  },
+  author: {
+    "@type": "Organization",
+    name: item.userOrOrg
+  },
+  provider: {
+    "@type": "Organization",
+    name: item.vendor
+  },
+  isPartOf: {
+    "@type": "Dataset",
+    name: "Model Atlas A 类真实案例库",
+    url: absoluteUrl("/cases")
+  },
+  citation: httpLinks(evidenceSources),
+  additionalProperty: [
+    { "@type": "PropertyValue", name: "证据等级", value: item.evidenceGrade },
+    { "@type": "PropertyValue", name: "来源平台", value: item.sourcePlatform },
+    { "@type": "PropertyValue", name: "来源类型", value: item.sourceType },
+    { "@type": "PropertyValue", name: "审核状态", value: item.reviewStatus },
+    { "@type": "PropertyValue", name: "证据可信度", value: `${evidenceTrust.score}/100 · ${evidenceTrust.tier}` },
+    { "@type": "PropertyValue", name: "证据来源类型", value: evidenceTrust.sourceKind },
+    { "@type": "PropertyValue", name: "任务类型", value: item.taskCategory },
+    { "@type": "PropertyValue", name: "中文任务类型", value: narrative.useCaseLabel },
+    { "@type": "PropertyValue", name: "原始标题", value: narrative.originalTitle },
+    { "@type": "PropertyValue", name: "证据快照状态", value: archiveStatusLabel(archiveEntry?.snapshotStatus) },
+    { "@type": "PropertyValue", name: "模型贡献", value: narrative.contributionBrief }
+  ]
+};
+---
+
+<BaseLayout title={`${narrative.displayTitle} · 案例证据 · Model Atlas`} description={narrative.summary} jsonLd={caseJsonLd}>
+  <section class="case-detail-hero panel p-5">
+    <div class="case-detail-hero__top">
+      <div>
+        <p class="mono text-xs uppercase tracking-[0.16em] text-[#ff3b4e]">CASE EVIDENCE / A RECORD</p>
+        <h1>{narrative.displayTitle}</h1>
+        <p>{narrative.deck}</p>
+        <p class="case-detail-original">原始记录：{narrative.originalTitle}</p>
+      </div>
+      <EvidenceBadge grade={item.evidenceGrade} />
+    </div>
+    <div class="case-detail-actions">
+      <a class="case-detail-primary" href={drawerHref}>打开证据抽屉</a>
+      <a href={modelHref}>模型档案</a>
+      <a href={`/vendors/${item.vendorId}`}>厂商路线</a>
+      <button class="atlas-copy-button" type="button" data-copy-current-url data-copy-original="复制案例页" data-copy-success="案例页链接已复制">复制案例页</button>
+    </div>
+  </section>
+
+  <section class="case-detail-grid mt-5">
+    <article class="panel p-4">
+      <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Chinese Brief</p>
+      <h2>中文案例导读</h2>
+      <p>{narrative.summary} Model Atlas 不把 benchmark、教程、发布说明或集合页包装成真实案例。</p>
+      <div class="case-detail-metrics">
+        <div><span>厂商</span><strong>{item.vendor}</strong></div>
+        <div><span>模型</span><strong>{item.modelName}</strong></div>
+        <div><span>任务类型</span><strong>{narrative.useCaseLabel}</strong></div>
+        <div><span>审核状态</span><strong>{item.reviewStatus}</strong></div>
+      </div>
+    </article>
+
+    <aside class="panel p-4">
+      <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">Canonical Record</p>
+      <dl class="case-detail-kv">
+        <div><dt>案例 ID</dt><dd>{item.id}</dd></div>
+        <div><dt>来源</dt><dd>{narrative.platformLabel}</dd></div>
+        <div><dt>任务类型</dt><dd>{item.taskCategory}</dd></div>
+        <div><dt>模型卡精选</dt><dd>{item.selectedForModelCard ? "已进入" : "未进入"}</dd></div>
+        <div><dt>证据快照</dt><dd>{archiveStatusLabel(archiveEntry?.snapshotStatus)} · {archiveTargetSummary(archiveEntry)}</dd></div>
+      </dl>
+    </aside>
+  </section>
+
+  <section class="case-detail-body mt-5">
+    <div class="panel p-5">
+      <SectionHeader eyebrow="任务" title="真实任务背景" description={narrative.taskBrief} />
+      <div class="case-detail-tags" aria-label="案例标签">
+        {narrative.tags.map((tag) => <span>{tag}</span>)}
+      </div>
+      <div class="case-detail-section">
+        <span>公开产物</span>
+        <p>{narrative.outputBrief}</p>
+      </div>
+      <div class="case-detail-section">
+        <span>模型作用</span>
+        <p>{narrative.contributionBrief}</p>
+      </div>
+      <div class="case-detail-section">
+        <span>风险边界</span>
+        <p>{narrative.riskBrief}</p>
+      </div>
+    </div>
+
+    <aside class="case-detail-side">
+      <EvidenceTrustScore trust={evidenceTrust} />
+      <div class={`panel case-detail-archive case-detail-archive--${archiveTone} p-4`}>
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">证据快照</p>
+        <strong>{archiveStatusLabel(archiveEntry?.snapshotStatus)} · {archiveTargetSummary(archiveEntry)}</strong>
+        <p>{archiveStatusCopy(archiveEntry)}</p>
+        {archiveEntry && <code>{archiveEntry.localSnapshotManifest}</code>}
+      </div>
+      <SourceLinkBlock sources={evidenceSources} />
+      <div class="panel p-4">
+        <p class="mono text-xs uppercase tracking-[0.14em] text-[#ff3b4e]">同模型案例索引</p>
+        <div class="mt-3 grid gap-2">
+          {relatedCases.length ? relatedCases.map((candidate) => (
+            <a class="case-detail-related" href={`/cases/${candidate.id}`}>
+              <strong>{buildCaseNarrative(candidate).displayTitle}</strong>
+              <span>{candidate.userOrOrg} / {candidate.sourcePlatform}</span>
+            </a>
+          )) : <p class="text-sm leading-relaxed text-[#a8a29a]">暂无更多同模型 A 类案例。</p>}
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <style>
+    .case-detail-hero {
+      background:
+        radial-gradient(circle at 86% 18%, rgba(255, 59, 78, 0.13), transparent 28rem),
+        #070707;
+    }
+
+    .case-detail-hero__top {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .case-detail-hero h1 {
+      max-width: 1050px;
+      margin: 16px 0 0;
+      color: #f4f1ea;
+      font-size: clamp(42px, 5.8vw, 86px);
+      font-weight: 900;
+      line-height: 1.02;
+      overflow-wrap: anywhere;
+    }
+
+    .case-detail-hero p,
+    .case-detail-grid p,
+    .case-detail-section p {
+      color: #a8a29a;
+      line-height: 1.75;
+    }
+
+    .case-detail-hero__top > div > p:last-child {
+      margin-top: 18px;
+      font-size: 1rem;
+    }
+
+    .case-detail-original {
+      margin-top: 10px !important;
+      color: #6f6a62 !important;
+      font-size: 0.86rem !important;
+      overflow-wrap: anywhere;
+    }
+
+    .case-detail-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 26px;
+    }
+
+    .case-detail-actions a {
+      display: inline-flex;
+      min-height: 38px;
+      align-items: center;
+      border: 1px solid rgba(244, 241, 234, 0.2);
+      padding: 0 13px;
+      color: #f4f1ea;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+    }
+
+    .case-detail-actions a:hover,
+    .case-detail-actions .case-detail-primary {
+      border-color: rgba(255, 59, 78, 0.72);
+      color: #ff3b4e;
+    }
+
+    .case-detail-grid,
+    .case-detail-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .case-detail-grid h2 {
+      margin: 14px 0 0;
+      color: #f4f1ea;
+      font-size: clamp(30px, 3.4vw, 54px);
+      font-weight: 900;
+      line-height: 1.05;
+    }
+
+    .case-detail-grid article > p:last-of-type {
+      max-width: 820px;
+      margin-top: 16px;
+    }
+
+    .case-detail-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 24px;
+      background: rgba(244, 241, 234, 0.16);
+    }
+
+    .case-detail-metrics div {
+      min-height: 112px;
+      background: #050505;
+      padding: 14px;
+    }
+
+    .case-detail-metrics span,
+    .case-detail-kv dt,
+    .case-detail-section span {
+      color: #ff3b4e;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .case-detail-metrics strong {
+      display: block;
+      margin-top: 16px;
+      color: #f4f1ea;
+      line-height: 1.3;
+      overflow-wrap: anywhere;
+    }
+
+    .case-detail-kv {
+      margin: 14px 0 0;
+    }
+
+    .case-detail-kv div {
+      border-top: 1px solid rgba(244, 241, 234, 0.14);
+      padding: 14px 0;
+    }
+
+    .case-detail-kv dd {
+      margin: 8px 0 0;
+      color: #f4f1ea;
+      overflow-wrap: anywhere;
+    }
+
+    .case-detail-section {
+      border-top: 1px solid rgba(244, 241, 234, 0.14);
+      padding: 22px 0;
+    }
+
+    .case-detail-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 18px 0 6px;
+    }
+
+    .case-detail-tags span {
+      border: 1px solid rgba(244, 241, 234, 0.2);
+      padding: 7px 9px;
+      color: #a8a29a;
+      font-size: 0.78rem;
+    }
+
+    .case-detail-section p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .case-detail-side {
+      display: grid;
+      gap: 18px;
+    }
+
+    .case-detail-archive {
+      display: grid;
+      gap: 10px;
+    }
+
+    .case-detail-archive strong {
+      color: #f4f1ea;
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .case-detail-archive p {
+      color: #a8a29a;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .case-detail-archive code {
+      color: #6f6a62;
+      font-size: 0.76rem;
+      overflow-wrap: anywhere;
+    }
+
+    .case-detail-related {
+      display: grid;
+      gap: 6px;
+      border: 1px solid rgba(244, 241, 234, 0.14);
+      background: #050505;
+      padding: 12px;
+    }
+
+    .case-detail-related:hover {
+      border-color: rgba(255, 59, 78, 0.62);
+    }
+
+    .case-detail-related strong {
+      color: #f4f1ea;
+      line-height: 1.45;
+    }
+
+    .case-detail-related span {
+      color: #a8a29a;
+      font-size: 0.75rem;
+    }
+
+    @media (max-width: 980px) {
+      .case-detail-grid,
+      .case-detail-body {
+        grid-template-columns: 1fr;
+      }
+
+      .case-detail-metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .case-detail-hero__top,
+      .case-detail-metrics {
+        grid-template-columns: 1fr;
+      }
+
+      .case-detail-actions a,
+      .case-detail-actions button {
+        width: 100%;
+      }
+    }
+  </style>
+</BaseLayout>

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:36.066Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/verl-project/verl/issues/4822",
+  "finalUrl": "https://github.com/verl-project/verl/issues/4822",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 354565,
+  "bodySha256": "f4269cdef894c8e6890466078fc56cac758865faf7265ec1b962fa43cc002c4a",
+  "title": "Dimension Mismatch FP8 training for DeepSeek-V3.1-Terminus · Issue #4822 · verl-project/verl · GitHub",
+  "github": {
+    "owner": "verl-project",
+    "repo": "verl",
+    "apiStatus": "unavailable"
+  }
+}

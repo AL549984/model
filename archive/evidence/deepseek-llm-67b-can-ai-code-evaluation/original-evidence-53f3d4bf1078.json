@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:59.220Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/the-crypt-keeper/can-ai-code/issues/119",
+  "finalUrl": "https://github.com/the-crypt-keeper/can-ai-code/issues/119",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 244337,
+  "bodySha256": "5b99fa7e0f0be870a41ea7c465cc7fab8727e8f937ec68df46a494e6a5195f0c",
+  "title": "Evaluate deepseek-ai/deepseek-llm-67b-base · Issue #119 · the-crypt-keeper/can-ai-code · GitHub",
+  "github": {
+    "owner": "the-crypt-keeper",
+    "repo": "can-ai-code",
+    "htmlUrl": "https://github.com/the-crypt-keeper/can-ai-code",
+    "defaultBranch": "main",
+    "defaultBranchSha": "aa5a2f6d3fabb2aba9173902371cb8307e664c0f",
+    "pushedAt": "2025-06-21T23:59:40Z",
+    "updatedAt": "2026-06-26T17:19:16Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

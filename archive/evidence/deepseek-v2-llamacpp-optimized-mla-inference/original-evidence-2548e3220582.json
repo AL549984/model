@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:15.878Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ggml-org/llama.cpp/pull/11446",
+  "finalUrl": "https://github.com/ggml-org/llama.cpp/pull/11446",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 844046,
+  "bodySha256": "c6ce30826407c3bd260dd4c41df4bec5642efedcf1aca4d43c79b0467e49f152",
+  "title": "Optimized DeepSeek V2/V3 implementation (MLA) by fairydreaming · Pull Request #11446 · ggml-org/llama.cpp · GitHub",
+  "github": {
+    "owner": "ggml-org",
+    "repo": "llama.cpp",
+    "apiStatus": "unavailable"
+  }
+}

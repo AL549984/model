@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-drenches-gov-doc-formatter",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "Drenches gov-doc-formatter defaults to Qwen3 Max for official-document structure recognition and formatting",
+  "evidenceFingerprint": "7d4f2e8058a0d3cfaa9caa2d69abf558359dd06bdba184b68ef794311dd6bb87",
+  "capturedAt": "2026-06-27T23:08:14.089Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Drenches/gov-doc-formatter/blob/dc83bb664c4def044fb078aaf82303d51f937e70/app/config.py",
+      "snapshotPath": "archive/evidence/qwen3-max-drenches-gov-doc-formatter/original-evidence-3597c726e711.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "gov-doc-formatter/app/config.py at dc83bb664c4def044fb078aaf82303d51f937e70 · Drenches/gov-doc-formatter · GitHub",
+      "bodySha256": "d1be21a37e580037836bebf84512a6895ce3f23bd813d18cda5aaeab910be994",
+      "capturedAt": "2026-06-27T23:08:11.949Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Drenches/gov-doc-formatter",
+      "snapshotPath": "archive/evidence/qwen3-max-drenches-gov-doc-formatter/artifact-1-a9abe053ae7f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Drenches/gov-doc-formatter: 基于 LLM agent 的党政机关公文自动排版工具 · GitHub",
+      "bodySha256": "945f27c044cec029bdb4f81aa64d6624193b921fab447b22e91b8cb4a75fca33",
+      "capturedAt": "2026-06-27T23:08:13.053Z",
+      "error": ""
+    }
+  ]
+}

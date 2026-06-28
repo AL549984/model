@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:48.753Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/herointene/ai-translator-discord",
+  "finalUrl": "https://github.com/herointene/ai-translator-discord",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fb5771a8e05f9bbfcdcefce0831bf10d\"",
+  "lastModified": null,
+  "bodyBytes": 267158,
+  "bodySha256": "402992f7a89d8f2e5bd6de2c2094449ba171e5a35d7e528d6f0c06ee50ee2c34",
+  "title": "GitHub - herointene/ai-translator-discord: A smart, context-aware Discord translation bot powered by MiMo-V2-Flash (Feb 2026). · GitHub",
+  "github": {
+    "owner": "herointene",
+    "repo": "ai-translator-discord",
+    "htmlUrl": "https://github.com/herointene/ai-translator-discord",
+    "defaultBranch": "main",
+    "defaultBranchSha": "686f9bb5ef5fceb5e01cb1dcea3f1b382dc12bcb",
+    "pushedAt": "2026-03-01T09:35:24Z",
+    "updatedAt": "2026-03-01T09:35:28Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

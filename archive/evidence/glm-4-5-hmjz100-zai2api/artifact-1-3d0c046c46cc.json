@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:32.990Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/hmjz100/Z.ai2api",
+  "finalUrl": "https://github.com/hmjz100/Z.ai2api",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"daf2fe5af0ec107c0afe0de7ef89c2df\"",
+  "lastModified": null,
+  "bodyBytes": 286777,
+  "bodySha256": "879323a85a09bd481ce6f99654f92eb8c711a4cc38731a06deb61cb8cc64feae",
+  "title": "GitHub - hmjz100/Z.ai2api: 将 Z.ai Chat 代理为 OpenAI/Anthropic Compatible 格式，支持多模型列表映射、免令牌、智能处理思考链、图片上传等功能；Z.ai ZtoApi z2api ZaitoApi zai X-Signature 签名 GLM 4.5 v 4.6 · GitHub",
+  "github": {
+    "owner": "hmjz100",
+    "repo": "Z.ai2api",
+    "apiStatus": "unavailable"
+  }
+}

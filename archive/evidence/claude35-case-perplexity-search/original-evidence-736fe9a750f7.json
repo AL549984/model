@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:28:50.425Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/perplexity",
+  "finalUrl": "https://claude.com/customers/perplexity",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 20:46:29 GMT",
+  "bodyBytes": 594011,
+  "bodySha256": "6808569d04c229bfc7c0a87e0c4c32d3e8e09eb3b2e5d4d2dc26ab486ff62eb6",
+  "title": "Perplexity Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

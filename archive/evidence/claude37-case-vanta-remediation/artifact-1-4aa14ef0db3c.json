@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:20.672Z",
+  "kind": "artifact-1",
+  "url": "https://www.vanta.com/",
+  "finalUrl": "https://www.vanta.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Fri, 26 Jun 2026 20:55:46 GMT",
+  "bodyBytes": 468976,
+  "bodySha256": "070dee6ce0a0312afc0339b1b89971c619e3a8048d4c9e72a79c50329b05f9db",
+  "title": "SOC 2, HIPAA, ISO 27001, PCI, and GDPR Compliance",
+  "github": null
+}

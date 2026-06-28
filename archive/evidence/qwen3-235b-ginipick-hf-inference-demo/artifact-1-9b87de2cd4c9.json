@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:31.183Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/spaces/ginipick/Qwen3-235B-A22B",
+  "finalUrl": "https://huggingface.co/spaces/ginipick/Qwen3-235B-A22B",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b6dc-nt40IU+fB8p77Di89gidnbcTcts\"",
+  "lastModified": null,
+  "bodyBytes": 46812,
+  "bodySha256": "93ea5d42c583d8fbd7bd897141ad72b4f159c65365f586299855780542b6cd53",
+  "title": "Qwen3-235B-A22B - a Hugging Face Space by ginipick",
+  "github": null
+}

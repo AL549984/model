@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-minimax-cli-agent-tui",
+  "modelId": "minimax-m2",
+  "modelName": "MiniMax-M2",
+  "title": "MiniMax CLI uses the MiniMax-M2 line for terminal chat and tool-using agents",
+  "evidenceFingerprint": "8227d6ed68da19ca17840759cbe474936b61cb588c784b127bba3e34a65c99d5",
+  "capturedAt": "2026-06-27T22:44:54.297Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Hmbown/MiniMax-CLI/blob/main/README.md",
+      "snapshotPath": "archive/evidence/minimax-m2-minimax-cli-agent-tui/original-evidence-0a2e8cf82754.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MiniMax-CLI/README.md at main · Hmbown/MiniMax-CLI · GitHub",
+      "bodySha256": "433a4b3fe8ff92b408f08022f23a8c3968f30a0a26bd86c0023b163174def8ba",
+      "capturedAt": "2026-06-27T22:44:51.948Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Hmbown/MiniMax-CLI",
+      "snapshotPath": "archive/evidence/minimax-m2-minimax-cli-agent-tui/artifact-1-32c561d96533.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Hmbown/MiniMax-CLI · GitHub",
+      "bodySha256": "c610ebe227720bd7f6b66969fee9c4f49b09face6eb059b484f6b6bf6d337c9d",
+      "capturedAt": "2026-06-27T22:44:53.088Z",
+      "error": ""
+    }
+  ]
+}

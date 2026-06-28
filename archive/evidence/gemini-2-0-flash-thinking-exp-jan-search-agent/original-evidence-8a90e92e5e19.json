@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:46:57.979Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/arham-kk/gemini-thinking-search-agent/blob/main/agent.py",
+  "finalUrl": "https://github.com/arham-kk/gemini-thinking-search-agent/blob/main/agent.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1c3b5a0cf7415c499aeab185342d1ac3\"",
+  "lastModified": null,
+  "bodyBytes": 278368,
+  "bodySha256": "beef591ecd747ead04b831b5a80bf4be35b9a36747148e585101c10067cc04ee",
+  "title": "gemini-thinking-search-agent/agent.py at main · arham-kk/gemini-thinking-search-agent · GitHub",
+  "github": {
+    "owner": "arham-kk",
+    "repo": "gemini-thinking-search-agent",
+    "apiStatus": "unavailable"
+  }
+}

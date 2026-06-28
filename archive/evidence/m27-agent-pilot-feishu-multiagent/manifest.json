@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "m27-agent-pilot-feishu-multiagent",
+  "modelId": "minimax-m2-7",
+  "modelName": "MiniMax M2.7",
+  "title": "Agent-Pilot: 6-Agent Multi-Agent Pipeline for Feishu IM-to-Presentation Automation Using MiniMax M2.7",
+  "evidenceFingerprint": "7332939d157fc1bddd4c4bc11ea4ea969741c5ee1d0cf61502bc65bebe2970a4",
+  "capturedAt": "2026-06-27T22:37:30.940Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/bcefghj/Agent-Pilot",
+      "snapshotPath": "archive/evidence/m27-agent-pilot-feishu-multiagent/original-evidence-0da4a34eb38d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bcefghj/Agent-Pilot: Agent-Pilot · 飞书 AI 校园挑战赛 · 从 IM 对话到演示稿的一键智能闭环 | 6 Agent Multi-Agent Pipeline · MiniMax M2.7 Tool Calling · 飞书 Bot 全生态集成 · GitHub",
+      "bodySha256": "3a4bade17d37980c8496e36a5ebfe6de5fd1020920acb44c8e43013a1c852e8d",
+      "capturedAt": "2026-06-27T22:37:28.296Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/bcefghj/Agent-Pilot",
+      "snapshotPath": "archive/evidence/m27-agent-pilot-feishu-multiagent/artifact-1-0da4a34eb38d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - bcefghj/Agent-Pilot: Agent-Pilot · 飞书 AI 校园挑战赛 · 从 IM 对话到演示稿的一键智能闭环 | 6 Agent Multi-Agent Pipeline · MiniMax M2.7 Tool Calling · 飞书 Bot 全生态集成 · GitHub",
+      "bodySha256": "aa4de1c657d0b1b3df4596c05bb93c897119cc1ac7f22886438cfa98523f3c4c",
+      "capturedAt": "2026-06-27T22:37:29.358Z",
+      "error": ""
+    }
+  ]
+}

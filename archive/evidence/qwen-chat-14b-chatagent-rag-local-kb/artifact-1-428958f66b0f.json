@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:15.656Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/junyuyang7/ChatAgent_RAG",
+  "finalUrl": "https://github.com/junyuyang7/ChatAgent_RAG",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ee886a2a8fbf3f18c5970d071903107e\"",
+  "lastModified": null,
+  "bodyBytes": 292565,
+  "bodySha256": "ab331bea912a23294547b4f3578106b444122744c68c85a96be04c47e6f5da79",
+  "title": "GitHub - junyuyang7/ChatAgent_RAG: 离线部署大模型，构建一个可以上传本地知识库进行RAG问答且可以自行调用工具的Agent。 · GitHub",
+  "github": {
+    "owner": "junyuyang7",
+    "repo": "ChatAgent_RAG",
+    "apiStatus": "unavailable"
+  }
+}

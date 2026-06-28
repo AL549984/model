@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:11.975Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Asish-baidya29/PaperTalk",
+  "finalUrl": "https://github.com/Asish-baidya29/PaperTalk",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a4317879044926d50442eaf9a4c344bd\"",
+  "lastModified": null,
+  "bodyBytes": 256228,
+  "bodySha256": "95103b799deeffec39e3e9876035a66cb5f6c74ed9020ee3d35accc2d459e267",
+  "title": "GitHub - Asish-baidya29/PaperTalk: 📝 PaperTalk An interactive PDF-based information retrieval system built with PaLM 2, FAISS, and LangChain. Upload a PDF, get smart summaries, and chat with your documents — all through a simple Streamlit ",
+  "github": {
+    "owner": "Asish-baidya29",
+    "repo": "PaperTalk",
+    "apiStatus": "unavailable"
+  }
+}

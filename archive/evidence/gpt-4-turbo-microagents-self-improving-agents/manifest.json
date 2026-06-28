@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4-turbo-microagents-self-improving-agents",
+  "modelId": "gpt-4-turbo",
+  "modelName": "GPT-4 Turbo",
+  "title": "Microagents uses GPT-4 Turbo to generate and assess self-improving task-specific agents",
+  "evidenceFingerprint": "77178b9f75effc35f0b3f587e35b8f206fc440c3522d2ae39b285ff0e3305158",
+  "capturedAt": "2026-06-27T22:00:52.807Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/aymenfurter/microagents/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-microagents-self-improving-agents/original-evidence-ed0a475735a1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "microagents/README.md at main · aymenfurter/microagents · GitHub",
+      "bodySha256": "2676fa314e12ead4def296fe5e6811e5b171e9577ca912cfca4adb5b6d357add",
+      "capturedAt": "2026-06-27T22:00:49.708Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/aymenfurter/microagents",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-microagents-self-improving-agents/artifact-1-82940d8cf4a6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - aymenfurter/microagents: Agents Capable of Self-Editing Their Prompts / Python Code · GitHub",
+      "bodySha256": "f6f1094dff9a2f6addedaee6569d0ef953167f5ba92f2d400127586b21b6dc37",
+      "capturedAt": "2026-06-27T22:00:51.424Z",
+      "error": ""
+    }
+  ]
+}

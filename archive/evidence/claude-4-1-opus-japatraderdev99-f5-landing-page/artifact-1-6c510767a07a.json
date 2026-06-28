@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:36.197Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/japatraderdev99/landing-pagr-f5-google/blob/main/index.html",
+  "finalUrl": "https://github.com/japatraderdev99/landing-pagr-f5-google/blob/main/index.html",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"edd45897e9d45ab1edc2710e434ecab9\"",
+  "lastModified": null,
+  "bodyBytes": 945766,
+  "bodySha256": "31339a143506b4bd45c154b5d07b56dd6cbb005d61d69a595933759a44f1d639",
+  "title": "landing-pagr-f5-google/index.html at main · japatraderdev99/landing-pagr-f5-google · GitHub",
+  "github": {
+    "owner": "japatraderdev99",
+    "repo": "landing-pagr-f5-google",
+    "apiStatus": "unavailable"
+  }
+}

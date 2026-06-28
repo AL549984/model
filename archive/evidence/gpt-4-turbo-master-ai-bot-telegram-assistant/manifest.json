@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4-turbo-master-ai-bot-telegram-assistant",
+  "modelId": "gpt-4-turbo",
+  "modelName": "GPT-4 Turbo",
+  "title": "Master AI BOT uses GPT-4 Turbo to power a Telegram assistant with streaming, roles, and voice features",
+  "evidenceFingerprint": "c9714f50ad29efdc36c44f2b3ad5bbd12d8cacc9b5c234a19784f386aa058acc",
+  "capturedAt": "2026-06-27T22:00:49.707Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yesbhautik/Master-AI-BOT/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-master-ai-bot-telegram-assistant/original-evidence-34aeda56e544.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Master-AI-BOT/README.md at main · yesbhautik/Master-AI-BOT · GitHub",
+      "bodySha256": "cee35dc524d22860ae40f53f5cb3a947a7f1b4208fa414c7c53c350c68c4dfba",
+      "capturedAt": "2026-06-27T22:00:46.179Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yesbhautik/Master-AI-BOT",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-master-ai-bot-telegram-assistant/artifact-1-8a52df25b33a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yesbhautik/Master-AI-BOT: Master AI BOT 🤖: Unleash the power of GPT-4 Turbo with our fast and limitless Telegram bot. Say goodbye to daily usage limits and laggy interfaces. Explore special chat modes, group chat support, and DALL",
+      "bodySha256": "41a1434685e6e43a5f033d4c20b5b54e7d3e649ab96aac0fa4db9ce374df583a",
+      "capturedAt": "2026-06-27T22:00:48.087Z",
+      "error": ""
+    }
+  ]
+}

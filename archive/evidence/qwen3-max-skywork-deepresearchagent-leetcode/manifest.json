@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-skywork-deepresearchagent-leetcode",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "SkyworkAI DeepResearchAgent includes Qwen3 Max as a selectable model for coding-agent LeetCode solving",
+  "evidenceFingerprint": "b13e8943e6ea30281b935a3bcc88ac66e1b749c5cd58d7c933fe26c71c5e278b",
+  "capturedAt": "2026-06-27T23:15:11.712Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SkyworkAI/DeepResearchAgent/blob/5e3c95d14266f8c4aa6a5deae1fe165c7cd1b87b/examples/run_leetcode_agent.py",
+      "snapshotPath": "archive/evidence/qwen3-max-skywork-deepresearchagent-leetcode/original-evidence-64699fba34be.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DeepResearchAgent/examples/run_leetcode_agent.py at 5e3c95d14266f8c4aa6a5deae1fe165c7cd1b87b · SkyworkAI/DeepResearchAgent · GitHub",
+      "bodySha256": "a0ec42809f0a13c5d4fdab751e1d662738ad9a17c23e77a63dc77eb32fb19062",
+      "capturedAt": "2026-06-27T23:15:08.520Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SkyworkAI/DeepResearchAgent",
+      "snapshotPath": "archive/evidence/qwen3-max-skywork-deepresearchagent-leetcode/artifact-1-757d9b54f9ff.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SkyworkAI/DeepResearchAgent: DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordina",
+      "bodySha256": "6aeb8372df122059f1cce35d6e661bca8a938920dd49e3cdaea991de9260ff4e",
+      "capturedAt": "2026-06-27T23:15:09.506Z",
+      "error": ""
+    }
+  ]
+}

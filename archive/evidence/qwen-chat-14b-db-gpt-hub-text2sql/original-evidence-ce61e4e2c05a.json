@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:52:16.692Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/eosphoros-ai/DB-GPT-Hub/blob/main/README.md",
+  "finalUrl": "https://github.com/eosphoros-ai/DB-GPT-Hub/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"36e80e0671df5390ca264729b6540cd4\"",
+  "lastModified": null,
+  "bodyBytes": 474226,
+  "bodySha256": "b5a6afdd2b62e37600bad43dec6d7bd825dc26c6545c030486d2337073fe0443",
+  "title": "DB-GPT-Hub/README.md at main · eosphoros-ai/DB-GPT-Hub · GitHub",
+  "github": {
+    "owner": "eosphoros-ai",
+    "repo": "DB-GPT-Hub",
+    "apiStatus": "unavailable"
+  }
+}

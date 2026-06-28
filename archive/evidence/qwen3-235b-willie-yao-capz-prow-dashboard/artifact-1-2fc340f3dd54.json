@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:15.347Z",
+  "kind": "artifact-1",
+  "url": "https://willie-yao.github.io/capz-prow-ai-dashboard-qwen/",
+  "finalUrl": "https://willie-yao.github.io/capz-prow-ai-dashboard-qwen/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "771",
+  "etag": "W/\"6a35b311-5fc\"",
+  "lastModified": "Fri, 19 Jun 2026 21:22:25 GMT",
+  "bodyBytes": 1532,
+  "bodySha256": "40016f7d633a6df0c9345887c4726f97c8f4e6e1eb60a04d2864b59548a0cba9",
+  "title": "Prow AI Dashboard",
+  "github": null
+}

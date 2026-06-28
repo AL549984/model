@@ -1,8 +1,8 @@
 # Build Report
 
-> Frontier Models Atlas website implementation  
+> Model Atlas 模型图谱 website implementation  
 > Date: 2026-06-26  
-> Visual direction: Atlas Command Center
+> Visual direction: Signal Observatory x Living Archive
 
 ## Commands
 

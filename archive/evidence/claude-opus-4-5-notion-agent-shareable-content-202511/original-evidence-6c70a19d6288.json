@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:42.748Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-opus-4-5#notion-agent-sarah-sachs",
+  "finalUrl": "https://www.anthropic.com/news/claude-opus-4-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 302872,
+  "bodySha256": "482db11b96479be775dc90be102afe2c84a97903084efc7b6d82e9ca7fe97566",
+  "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+  "github": null
+}

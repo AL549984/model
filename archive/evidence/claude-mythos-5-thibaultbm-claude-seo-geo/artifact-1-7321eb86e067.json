@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:05.942Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Thibaultbm/claude-seo-geo",
+  "finalUrl": "https://github.com/Thibaultbm/claude-seo-geo",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a6f7d0d5f1a906cdcebdf24d6198151c\"",
+  "lastModified": null,
+  "bodyBytes": 343070,
+  "bodySha256": "f31364f871c780e62326ab0ae4269f59f61b623072777397d372d327ccf8e0d0",
+  "title": "GitHub - Thibaultbm/claude-seo-geo: SEO &amp; GEO skills for Claude Code, built with Claude Mythos 5. Rank in Google AND in LLMs (ChatGPT, Perplexity, Gemini): technical audits, backlinks, AI-optimized content, local SEO, and social amplifi",
+  "github": {
+    "owner": "Thibaultbm",
+    "repo": "claude-seo-geo",
+    "apiStatus": "unavailable"
+  }
+}

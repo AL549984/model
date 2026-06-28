@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-7-doclos-document-automation",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7",
+  "title": "Doclos: AI-powered document automation SaaS extracting structured data from German business PDFs using GLM-4.7-Flash",
+  "evidenceFingerprint": "ca4bf3551b1b9eacf973dcae66fa8b2fd7e79233333ef704fca935542d7c83f1",
+  "capturedAt": "2026-06-27T21:53:31.082Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/moriarthur/Doclos",
+      "snapshotPath": "archive/evidence/glm-4-7-doclos-document-automation/original-evidence-2c618f81c672.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - moriarthur/Doclos: AI-powered document automation SaaS — extract structured data from invoices, contracts &amp; delivery notes using GLM-4.7 + Tesseract OCR · GitHub",
+      "bodySha256": "386b6d10d95800237733956478eb5a7e5ee1c84a9e71b70356e8d01869076e0d",
+      "capturedAt": "2026-06-27T21:53:29.606Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/moriarthur/Doclos",
+      "snapshotPath": "archive/evidence/glm-4-7-doclos-document-automation/artifact-1-2c618f81c672.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - moriarthur/Doclos: AI-powered document automation SaaS — extract structured data from invoices, contracts &amp; delivery notes using GLM-4.7 + Tesseract OCR · GitHub",
+      "bodySha256": "54116a8e4b34c35ce495f581dc7279a73cc777d4f1dbd8b336c59f0e604082b4",
+      "capturedAt": "2026-06-27T21:53:30.654Z",
+      "error": ""
+    }
+  ]
+}

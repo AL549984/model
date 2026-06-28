@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:24.521Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/LeaderOnePro/deepdrone",
+  "finalUrl": "https://github.com/LeaderOnePro/deepdrone",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f6267c08ea218af952540b766a606870\"",
+  "lastModified": null,
+  "bodyBytes": 366852,
+  "bodySha256": "d975d90ff33da626e829413f0fd20e6387c6972c91a3180df1374a0080f738f8",
+  "title": "GitHub - LeaderOnePro/deepdrone: An AI agent to control drones · GitHub",
+  "github": {
+    "owner": "LeaderOnePro",
+    "repo": "deepdrone",
+    "htmlUrl": "https://github.com/LeaderOnePro/deepdrone",
+    "defaultBranch": "main",
+    "defaultBranchSha": "06d5f4ac0c90ac55a4168c6c12dc384c80241d2c",
+    "pushedAt": "2026-05-04T08:10:05Z",
+    "updatedAt": "2026-05-04T08:10:10Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

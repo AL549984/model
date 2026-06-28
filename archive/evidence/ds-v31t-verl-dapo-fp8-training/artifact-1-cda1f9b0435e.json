@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:37.697Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/verl-project/verl",
+  "finalUrl": "https://github.com/verl-project/verl",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5d0ca3677d275502a703eac824cf472a\"",
+  "lastModified": null,
+  "bodyBytes": 530950,
+  "bodySha256": "ee4ab352824e4b76069172b02526edb3593fcea8b0fc89cc7c4aae7c30387fa1",
+  "title": "GitHub - verl-project/verl: verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework · GitHub",
+  "github": {
+    "owner": "verl-project",
+    "repo": "verl",
+    "apiStatus": "unavailable"
+  }
+}

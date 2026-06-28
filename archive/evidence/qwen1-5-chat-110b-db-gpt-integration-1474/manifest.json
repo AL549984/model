@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen1-5-chat-110b-db-gpt-integration-1474",
+  "modelId": "qwen1-5-chat-110b",
+  "modelName": "Qwen1.5 Chat 110B",
+  "title": "DB-GPT integrates Qwen1.5-110B-Chat as a supported LLM backend",
+  "evidenceFingerprint": "f9dcca9513f7218a865cdae03af0a62b4c390bc750519133585d863752222530",
+  "capturedAt": "2026-06-27T22:59:35.532Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/eosphoros-ai/DB-GPT/pull/1474",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-db-gpt-integration-1474/original-evidence-fe7a7cf98159.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat(model): Qwen110B by yyhhyyyyyy · Pull Request #1474 · eosphoros-ai/DB-GPT · GitHub",
+      "bodySha256": "a8881fd477b01ae0b529f267a5fff1efe110659464ee08221ea6d2c013fa443a",
+      "capturedAt": "2026-06-27T22:59:33.605Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/eosphoros-ai/DB-GPT/pull/1474",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-db-gpt-integration-1474/artifact-1-fe7a7cf98159.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat(model): Qwen110B by yyhhyyyyyy · Pull Request #1474 · eosphoros-ai/DB-GPT · GitHub",
+      "bodySha256": "9adf1a675bbada77ec6f99ec3137cd392e3c97c6067e3bb8ad560be89307ba84",
+      "capturedAt": "2026-06-27T22:59:35.007Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # QA Report
 
-> Frontier Models Atlas static site  
+> Model Atlas 模型图谱 static site  
 > Date: 2026-06-26
 
 ## Scope

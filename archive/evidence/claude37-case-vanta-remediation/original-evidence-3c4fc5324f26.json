@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:27:16.183Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/customers/vanta",
+  "finalUrl": "https://claude.com/customers/vanta",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 17:05:09 GMT",
+  "bodyBytes": 595931,
+  "bodySha256": "be362400e8f9e05a14e3d6ad44780005562cdc4a46d319e712376b0bf178e54b",
+  "title": "Vanta Claude Platform (API) case study | Claude by Anthropic",
+  "github": null
+}

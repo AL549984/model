@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:59.333Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/colesmcintosh/meme-volatility-index",
+  "finalUrl": "https://github.com/colesmcintosh/meme-volatility-index",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"90182eaa6e933e246c3c9bf038065678\"",
+  "lastModified": null,
+  "bodyBytes": 319805,
+  "bodySha256": "b1d6e775c6294f90be2e65702e299a8650e558008dec23ed77d64826bfe80e19",
+  "title": "GitHub - colesmcintosh/meme-volatility-index: Real-time meme hype ticker — OpenRouter, Grok 4.3, xSearch, Next.js · GitHub",
+  "github": {
+    "owner": "colesmcintosh",
+    "repo": "meme-volatility-index",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:29.046Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/VaishnaviAnalyzed/kimi-k2-ai-chatbot",
+  "finalUrl": "https://github.com/VaishnaviAnalyzed/kimi-k2-ai-chatbot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"061970a11f46351ec759234b46b344cd\"",
+  "lastModified": null,
+  "bodyBytes": 254775,
+  "bodySha256": "d8819323ca8a400ee63e5b284cc75c92328c0bcad04a11cb671afde6ce574edb",
+  "title": "GitHub - VaishnaviAnalyzed/kimi-k2-ai-chatbot: Kimi Chatbot AI 🤖 A sleek, conversational chatbot interface built using Streamlit and powered by the Groq API utilizing the `moonshotai/kimi-k2-instruct-0905` model. This application supports ",
+  "github": {
+    "owner": "VaishnaviAnalyzed",
+    "repo": "kimi-k2-ai-chatbot",
+    "apiStatus": "unavailable"
+  }
+}

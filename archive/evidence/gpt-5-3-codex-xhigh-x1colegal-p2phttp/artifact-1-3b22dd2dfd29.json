@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:53.817Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/x1colegal/P2PHTTP",
+  "finalUrl": "https://github.com/x1colegal/P2PHTTP",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"536b1f3b682559ecc00b5d86f7c8ff94\"",
+  "lastModified": null,
+  "bodyBytes": 304011,
+  "bodySha256": "e39fb4ac2762c3d481cd4017be3267dcdcfd67c6bb9d975a1c62402aab15a24b",
+  "title": "GitHub - x1colegal/P2PHTTP: vibe-coded with GPT-5.3-Codex, yeah · GitHub",
+  "github": {
+    "owner": "x1colegal",
+    "repo": "P2PHTTP",
+    "apiStatus": "unavailable"
+  }
+}

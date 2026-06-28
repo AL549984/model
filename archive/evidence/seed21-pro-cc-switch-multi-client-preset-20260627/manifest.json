@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed21-pro-cc-switch-multi-client-preset-20260627",
+  "modelId": "seed-2-1-pro-preview",
+  "modelName": "Seed-2.1-Pro-Preview",
+  "title": "CC Switch 将 Doubao Seed 2.1 Pro 设为六类 AI 编程客户端的内置预设",
+  "evidenceFingerprint": "7b5faf1f49e2d69f1b1e6857de28af77801ace93df34cee93be126b8ad8b14a8",
+  "capturedAt": "2026-06-27T21:27:58.650Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/farion1231/cc-switch/main/CHANGELOG.md",
+      "snapshotPath": "archive/evidence/seed21-pro-cc-switch-multi-client-preset-20260627/original-evidence-2434cbeccded.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "374b2938f6cf36986312c46279d773e52900f5d89241b612c7986f33067ab681",
+      "capturedAt": "2026-06-27T21:27:56.733Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/farion1231/cc-switch",
+      "snapshotPath": "archive/evidence/seed21-pro-cc-switch-multi-client-preset-20260627/artifact-1-52d44a688882.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI &amp; Hermes Agent. Only official website: ccswitch.io · GitHub",
+      "bodySha256": "d51582400aeeeaf9cadd00c07b90a6ecca840e65553fc8be49e444d4af20c320",
+      "capturedAt": "2026-06-27T21:27:57.499Z",
+      "error": ""
+    }
+  ]
+}

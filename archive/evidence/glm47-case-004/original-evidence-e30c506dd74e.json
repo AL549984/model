@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:59.508Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/applex250/mtrans",
+  "finalUrl": "https://github.com/applex250/mtrans",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"161d942a82e7a7539ddb15a7501b58c5\"",
+  "lastModified": null,
+  "bodyBytes": 364129,
+  "bodySha256": "2346e63661e27ee18acf7b50461d254e12aea271c6516ea1747a521a1645bb7a",
+  "title": "GitHub - applex250/mtrans: 基于MinerU和智谱 GLM-4.7 的英文学术文献 Markdown 翻译工具，支持智能分段、并发翻译和 Web 可视化界面 · GitHub",
+  "github": {
+    "owner": "applex250",
+    "repo": "mtrans",
+    "apiStatus": "unavailable"
+  }
+}

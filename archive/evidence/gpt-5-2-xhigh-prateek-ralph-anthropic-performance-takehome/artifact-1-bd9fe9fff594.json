@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:38.485Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/prateek/original_performance_takehome/tree/GPT-5.2-xhigh",
+  "finalUrl": "https://github.com/prateek/original_performance_takehome/tree/GPT-5.2-xhigh",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d4ad59c7e0447f548ef8d3d19b353ec1\"",
+  "lastModified": null,
+  "bodyBytes": 292044,
+  "bodySha256": "adc842e5fd02f3cbddddac926426d4980e8760b9f616db85bea8f675cea688be",
+  "title": "GitHub - prateek/original_performance_takehome at GPT-5.2-xhigh · GitHub",
+  "github": {
+    "owner": "prateek",
+    "repo": "original_performance_takehome",
+    "htmlUrl": "https://github.com/prateek/original_performance_takehome",
+    "defaultBranch": "main",
+    "defaultBranchSha": "ae678ec0d16110f48f38d776061fbaacef62321e",
+    "pushedAt": "2026-01-31T06:47:43Z",
+    "updatedAt": "2026-01-31T06:47:46Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:36.369Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/opendilab/CleanS2S",
+  "finalUrl": "https://github.com/opendilab/CleanS2S",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ee94b320f50831f7e2fad78783491197\"",
+  "lastModified": null,
+  "bodyBytes": 386652,
+  "bodySha256": "a4ca66d9d7b48445f1bd39ac0e5bc92b35d1001591f7255eabb5d9f3858b393a",
+  "title": "GitHub - opendilab/CleanS2S: High-quality and streaming Speech-to-Speech interactive agent in a single file. 只用一个文件实现的流式全双工语音交互原型智能体！ · GitHub",
+  "github": {
+    "owner": "opendilab",
+    "repo": "CleanS2S",
+    "htmlUrl": "https://github.com/opendilab/CleanS2S",
+    "defaultBranch": "main",
+    "defaultBranchSha": "5b6bc398dd6b5fdb24cd85dbaf9f9dd551692c18",
+    "pushedAt": "2026-04-07T08:39:02Z",
+    "updatedAt": "2026-06-26T03:50:17Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-2-xhigh-kaishushito-vibecheck-openai-outputs",
+  "modelId": "gpt-5-2-xhigh",
+  "modelName": "GPT-5.2 (xhigh)",
+  "title": "KaishuShito 在 VibeCheck 中用 GPT-5.2 xhigh 生成网页、SVG、3D 游戏与写作输出用于模型对比",
+  "evidenceFingerprint": "39f0a5cc6bec253fd1882b2deddab1b426f02242a2c3de9724481f8a192fa0cd",
+  "capturedAt": "2026-06-27T22:07:35.886Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/KaishuShito/vibecheck",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-kaishushito-vibecheck-openai-outputs/original-evidence-59a22f26f941.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - KaishuShito/vibecheck: VibeCheck: AI Model Comparison — Claude Opus 4.6 / GPT-5.3 Codex / GPT-5.2 xhigh / Gemini 3.1 Pro · GitHub",
+      "bodySha256": "e4583a3ac9b5407a6969b2e431e8fbaf9e74391d9e22960a64675a9118cfcc3a",
+      "capturedAt": "2026-06-27T22:07:31.616Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/KaishuShito/vibecheck/tree/main/outputs/openai",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-kaishushito-vibecheck-openai-outputs/artifact-1-bf91c2fb2836.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "vibecheck/outputs/openai at main · KaishuShito/vibecheck · GitHub",
+      "bodySha256": "9d038fe1c75f9b8727278b7164cba3b269222d66b1c361d56a3dc1405036d46b",
+      "capturedAt": "2026-06-27T22:07:34.751Z",
+      "error": ""
+    }
+  ]
+}

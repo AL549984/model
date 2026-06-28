@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:53.088Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Hmbown/MiniMax-CLI",
+  "finalUrl": "https://github.com/Hmbown/MiniMax-CLI",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"84f3a47bf474ede1dd3bd949a8e3783e\"",
+  "lastModified": null,
+  "bodyBytes": 351553,
+  "bodySha256": "c610ebe227720bd7f6b66969fee9c4f49b09face6eb059b484f6b6bf6d337c9d",
+  "title": "GitHub - Hmbown/MiniMax-CLI · GitHub",
+  "github": {
+    "owner": "Hmbown",
+    "repo": "MiniMax-CLI",
+    "apiStatus": "unavailable"
+  }
+}

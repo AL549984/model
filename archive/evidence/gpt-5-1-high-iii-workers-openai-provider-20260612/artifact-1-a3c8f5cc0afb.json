@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:12.206Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/iii-hq/workers",
+  "finalUrl": "https://github.com/iii-hq/workers",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c2ff6488e298df5aa239507b435317ff\"",
+  "lastModified": null,
+  "bodyBytes": 390164,
+  "bodySha256": "a2834303027c87d286337cccabd5d88a6a2c671604246984dbb940acfac58b98",
+  "title": "GitHub - iii-hq/workers · GitHub",
+  "github": {
+    "owner": "iii-hq",
+    "repo": "workers",
+    "apiStatus": "unavailable"
+  }
+}

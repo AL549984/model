@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:00.932Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/mesakurax/hotel-pricing-add-qwen3-max/blob/main/README.md",
+  "finalUrl": "https://github.com/mesakurax/hotel-pricing-add-qwen3-max/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3f2c3cf602aff4e1fe8ba8c283522cfd\"",
+  "lastModified": null,
+  "bodyBytes": 261422,
+  "bodySha256": "951fc3592c765bb6adeff6ffa0d7453baae0327736c736ee83a6d5935fbac53f",
+  "title": "hotel-pricing-add-qwen3-max/README.md at main · mesakurax/hotel-pricing-add-qwen3-max · GitHub",
+  "github": {
+    "owner": "mesakurax",
+    "repo": "hotel-pricing-add-qwen3-max",
+    "apiStatus": "unavailable"
+  }
+}

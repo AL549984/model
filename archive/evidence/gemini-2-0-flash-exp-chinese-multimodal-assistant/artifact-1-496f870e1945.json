@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:59.028Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/lfglfg11/gemini-assistant",
+  "finalUrl": "https://github.com/lfglfg11/gemini-assistant",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d821e583dd6f45e093c574958c3eeebf\"",
+  "lastModified": null,
+  "bodyBytes": 299692,
+  "bodySha256": "72ad9d652b8079a89d38a506d116f023c725eb0632092af269f27d94d2bc1bf6",
+  "title": "GitHub - lfglfg11/gemini-assistant: 基于 Google 最新的gemini-2.0-flash-exp模型、gemini-2.0-flash-exp-image-generation模型构建的多模态模型的轻量级智能对话应用。轻松实现图像编辑，生成图文并茂文档 · GitHub",
+  "github": {
+    "owner": "lfglfg11",
+    "repo": "gemini-assistant",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:23.819Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Yogurto710/le-analyst",
+  "finalUrl": "https://github.com/Yogurto710/le-analyst",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f47f6e4b169e7dbdd09b8cf6f792f91a\"",
+  "lastModified": null,
+  "bodyBytes": 310819,
+  "bodySha256": "a70b8eac1b1839952426b5c82c0072dc1a12f6682fcaa8dc18930e4986fa9b64",
+  "title": "GitHub - Yogurto710/le-analyst: CLI research assistant for public equities — sourced briefs and initiation reports powered by Kimi K2.6, Tavily, and SEC EDGAR. · GitHub",
+  "github": {
+    "owner": "Yogurto710",
+    "repo": "le-analyst",
+    "apiStatus": "unavailable"
+  }
+}

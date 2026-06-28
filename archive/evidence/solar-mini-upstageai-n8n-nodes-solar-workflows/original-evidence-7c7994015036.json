@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:44.859Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/UpstageAI/n8n-nodes-solar/blob/main/README.md",
+  "finalUrl": "https://github.com/UpstageAI/n8n-nodes-solar/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"780e981f5b9f875c11dde68091f8aa66\"",
+  "lastModified": null,
+  "bodyBytes": 318536,
+  "bodySha256": "dd8dc901558c5c12843a4ab766c1e47efabedc9c5caae8e3eddc910bee888c37",
+  "title": "n8n-nodes-solar/README.md at main · UpstageAI/n8n-nodes-solar · GitHub",
+  "github": {
+    "owner": "UpstageAI",
+    "repo": "n8n-nodes-solar",
+    "apiStatus": "unavailable"
+  }
+}

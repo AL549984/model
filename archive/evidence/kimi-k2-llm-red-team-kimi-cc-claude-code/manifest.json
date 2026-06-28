@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-llm-red-team-kimi-cc-claude-code",
+  "modelId": "kimi-k2",
+  "modelName": "Kimi K2",
+  "title": "LLM-Red-Team built Kimi CC to run Claude Code on Kimi K2 0711 Preview",
+  "evidenceFingerprint": "781c99ef0f1ddb19cce5224b6dc0beb22ed290ce3583c9608e9c3dab918ebd9d",
+  "capturedAt": "2026-06-27T22:29:35.487Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/LLM-Red-Team/kimi-cc/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-llm-red-team-kimi-cc-claude-code/original-evidence-ec098e950151.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "kimi-cc/README.md at main · LLM-Red-Team/kimi-cc · GitHub",
+      "bodySha256": "5bcacd7f955761f3d0ec5ec5f889a1b67aa898d27e1405824fe946e611721d92",
+      "capturedAt": "2026-06-27T22:29:33.443Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/LLM-Red-Team/kimi-cc",
+      "snapshotPath": "archive/evidence/kimi-k2-llm-red-team-kimi-cc-claude-code/artifact-1-74364e60b363.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - LLM-Red-Team/kimi-cc: Use Kimi latest model(kimi-k2-0711-preview) to drive your Claude Code. · GitHub",
+      "bodySha256": "ab470554c60007676646f7e9ba4dd698e3a75502290b0e878c2baef23bc8fd65",
+      "capturedAt": "2026-06-27T22:29:34.392Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:38.039Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/lokafinnsw/zai",
+  "finalUrl": "https://github.com/lokafinnsw/zai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"74ba77302ac217c29a3f0d2d63946d16\"",
+  "lastModified": null,
+  "bodyBytes": 375134,
+  "bodySha256": "5e14ed89920237fd6fa0294b1d12bdda604470ef9a98e5909e6130b4163a8364",
+  "title": "GitHub - lokafinnsw/zai: Z.ai Coding Agent - AI-powered coding assistant using Z.ai GLM-4.6 · GitHub",
+  "github": {
+    "owner": "lokafinnsw",
+    "repo": "zai",
+    "apiStatus": "unavailable"
+  }
+}

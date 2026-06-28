@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:32.916Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Aider-AI/aider",
+  "finalUrl": "https://github.com/Aider-AI/aider",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0a744fec3831400dacc89a928e78b702\"",
+  "lastModified": null,
+  "bodyBytes": 372421,
+  "bodySha256": "6ae770e4f6d5faf2be108870a55b282e35a99a25dab80c3ccc48c74d76a7e1c9",
+  "title": "GitHub - Aider-AI/aider: aider is AI pair programming in your terminal · GitHub",
+  "github": {
+    "owner": "Aider-AI",
+    "repo": "aider",
+    "apiStatus": "unavailable"
+  }
+}

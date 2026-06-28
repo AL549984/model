@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt5-high-voice-assistant-vapi",
+  "modelId": "gpt-5-high",
+  "modelName": "GPT-5 (high)",
+  "title": "Vapi-Powered Voice Assistant with GPT-5 for Job Screening",
+  "evidenceFingerprint": "c4420681d213c5e15cbe174ba96b04fa52b02a795bbd38130420971dba498443",
+  "capturedAt": "2026-06-27T22:08:09.606Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/tahangz/Vapi-AI-Voice-Assistant",
+      "snapshotPath": "archive/evidence/gpt5-high-voice-assistant-vapi/original-evidence-5c4bb94fb7b6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tahangz/Vapi-AI-Voice-Assistant: A full-stack voice assistant application built with Vite + React on the frontend and Flask on the backend, integrated with Vapi and powered by GPT-5. The app allows users to fill in personal details",
+      "bodySha256": "c97875bb6303d57648ba14e3cad6175d044d893b51c31afb66019aa4d71ea681",
+      "capturedAt": "2026-06-27T22:08:07.272Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/tahangz/Vapi-AI-Voice-Assistant",
+      "snapshotPath": "archive/evidence/gpt5-high-voice-assistant-vapi/artifact-1-5c4bb94fb7b6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - tahangz/Vapi-AI-Voice-Assistant: A full-stack voice assistant application built with Vite + React on the frontend and Flask on the backend, integrated with Vapi and powered by GPT-5. The app allows users to fill in personal details",
+      "bodySha256": "e5e4d3a30d8cb8d926523bfb1600c76a250f937bedb0d351af98eabd0c4a53c7",
+      "capturedAt": "2026-06-27T22:08:08.824Z",
+      "error": ""
+    }
+  ]
+}

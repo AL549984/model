@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-claude-3-haiku-cascadeflow-routing",
+  "modelId": "claude-3-haiku",
+  "modelName": "Claude 3 Haiku",
+  "title": "CascadeFlow: Claude 3 Haiku as Speculative Execution Model in Agent Cascading Runtime",
+  "evidenceFingerprint": "382f09cfa58e354767e87f819c0986d2ed941c5b4cfb13daf5b0b97e2246112e",
+  "capturedAt": "2026-06-27T19:29:41.472Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/lemony-ai/cascadeflow",
+      "snapshotPath": "archive/evidence/case-claude-3-haiku-cascadeflow-routing/original-evidence-9a4881d71141.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - lemony-ai/cascadeflow: Cascading runtime for AI agents. Optimize cost, latency, quality, and policy decisions inside the agent loop. · GitHub",
+      "bodySha256": "bf85965e953d27670f16a5c0a04bb5abedb7261cc9b6f824902d4e0ae067a958",
+      "capturedAt": "2026-06-27T19:29:38.668Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://pypi.org/project/cascadeflow/",
+      "snapshotPath": "archive/evidence/case-claude-3-haiku-cascadeflow-routing/artifact-1-04023773df2a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "cascadeflow · PyPI",
+      "bodySha256": "bdf126d2e906d09438fcebcc8811010a33221d1dbb78022373653c9611bd0f82",
+      "capturedAt": "2026-06-27T19:29:40.519Z",
+      "error": ""
+    }
+  ]
+}

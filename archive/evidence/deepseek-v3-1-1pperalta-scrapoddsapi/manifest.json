@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-1pperalta-scrapoddsapi",
+  "modelId": "deepseek-v3-1",
+  "modelName": "DeepSeek V3.1",
+  "title": "1pperalta/ScrapOddsAPI: LangGraph AI agent for real-time sports betting odds analysis powered by DeepSeek V3.1",
+  "evidenceFingerprint": "7261d3b05a3733b397e5cdaa46fa69f6a96dc3a2359a1816d21dcbba4037305e",
+  "capturedAt": "2026-06-27T21:08:47.680Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/1pperalta/ScrapOddsAPI",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-1pperalta-scrapoddsapi/original-evidence-d8e43b45a25f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 1pperalta/ScrapOddsAPI: Full-stack platform that scrapes, stores, and analyzes sports betting odds in real time using a LangGraph AI agent powered by DeepSeek V3.1. · GitHub",
+      "bodySha256": "df5253933036e4ed0e834bce434258115ce717a9729b9a5047ea56fbb002c2dc",
+      "capturedAt": "2026-06-27T21:08:45.744Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/1pperalta/ScrapOddsAPI",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-1pperalta-scrapoddsapi/artifact-1-d8e43b45a25f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 1pperalta/ScrapOddsAPI: Full-stack platform that scrapes, stores, and analyzes sports betting odds in real time using a LangGraph AI agent powered by DeepSeek V3.1. · GitHub",
+      "bodySha256": "ded6783f6cda36b5d43fa37e356814dcd138b78b4be2f2197ea5e6179717a678",
+      "capturedAt": "2026-06-27T21:08:47.117Z",
+      "error": ""
+    }
+  ]
+}

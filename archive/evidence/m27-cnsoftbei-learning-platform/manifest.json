@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "m27-cnsoftbei-learning-platform",
+  "modelId": "minimax-m2-7",
+  "modelName": "MiniMax M2.7",
+  "title": "cnsoftbei: Multi-Agent AI Personalized Learning Platform for China Software Cup Using MiniMax-M2.7",
+  "evidenceFingerprint": "78519cc1e9b62d543ff49485165157e54115744d883d38fc6e73650aeff37267",
+  "capturedAt": "2026-06-27T22:37:32.785Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/DanoAndHolidays/cnsoftbei",
+      "snapshotPath": "archive/evidence/m27-cnsoftbei-learning-platform/original-evidence-858913858b5d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DanoAndHolidays/cnsoftbei: 它是一个 AI 驱动的个性化学习平台，通过多智能体协作（画像构建、资源生成、路径规划、智能辅导、学习评估）提供学习支持。前端使用 React + TypeScript + Vite + Ant Design，后端调用 MiniMax-M2.7 大模型（兼容 Anthropic API 格式）。 · GitHub",
+      "bodySha256": "d784a7029ae4037dcb015ddaae0ee1b7ed6a9d38ed3c4523297e45d35d30eea4",
+      "capturedAt": "2026-06-27T22:37:30.941Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DanoAndHolidays/cnsoftbei",
+      "snapshotPath": "archive/evidence/m27-cnsoftbei-learning-platform/artifact-1-858913858b5d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DanoAndHolidays/cnsoftbei: 它是一个 AI 驱动的个性化学习平台，通过多智能体协作（画像构建、资源生成、路径规划、智能辅导、学习评估）提供学习支持。前端使用 React + TypeScript + Vite + Ant Design，后端调用 MiniMax-M2.7 大模型（兼容 Anthropic API 格式）。 · GitHub",
+      "bodySha256": "5291be745847e13dfcd23bce4171f19246c705856f89a5d1bf46772e13a9447c",
+      "capturedAt": "2026-06-27T22:37:32.170Z",
+      "error": ""
+    }
+  ]
+}

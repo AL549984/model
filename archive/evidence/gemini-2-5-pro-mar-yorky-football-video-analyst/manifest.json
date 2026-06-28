@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-mar-yorky-football-video-analyst",
+  "modelId": "gemini-2-5-pro-mar",
+  "modelName": "Gemini 2.5 Pro (Mar)",
+  "title": "FootballVideoAnalyst uses Gemini 2.5 Pro Experimental to analyze YouTube football highlights",
+  "evidenceFingerprint": "4c8c9ac1cbda337cac8f4e7c9ada0c00e0deb3d719e3333f35c8c005ff987650",
+  "capturedAt": "2026-06-27T21:47:19.805Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yYorky/FootballVideoAnalyst/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-yorky-football-video-analyst/original-evidence-b55526c3e6f0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "FootballVideoAnalyst/README.md at main · yYorky/FootballVideoAnalyst · GitHub",
+      "bodySha256": "92157e04e1afe033a54491f84958f783e924c8e21cbaa7f22a24b2c9663e1be4",
+      "capturedAt": "2026-06-27T21:47:17.551Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yYorky/FootballVideoAnalyst",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-yorky-football-video-analyst/artifact-1-944443ce6a48.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yYorky/FootballVideoAnalyst: A Football Video Analyst using Gemini 2.5 Pro · GitHub",
+      "bodySha256": "f8c015d683dde85b0438c750c9ccbb7f814acefa38bfc0af2dcc10bc397a487b",
+      "capturedAt": "2026-06-27T21:47:18.626Z",
+      "error": ""
+    }
+  ]
+}

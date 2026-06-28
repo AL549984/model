@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:53.895Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/wxy2ab/akinterpreter/blob/HEAD/core/llms/glm_openai_client.py#L11-L18",
+  "finalUrl": "https://github.com/wxy2ab/akinterpreter/blob/HEAD/core/llms/glm_openai_client.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"05c17bc052e6d0217f1be6754715da7d\"",
+  "lastModified": null,
+  "bodyBytes": 257616,
+  "bodySha256": "b507451dbcacfb9321ae9414f184e8a22a9dcb7b03b07eef2853d1fd8f95fce6",
+  "title": "akinterpreter/core/llms/glm_openai_client.py at 6fcad9df76735adbda3bd781652f92bbe715e8ac · wxy2ab/akinterpreter · GitHub",
+  "github": {
+    "owner": "wxy2ab",
+    "repo": "akinterpreter",
+    "apiStatus": "unavailable"
+  }
+}

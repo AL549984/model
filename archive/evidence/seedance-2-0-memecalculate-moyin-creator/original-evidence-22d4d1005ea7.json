@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:20.850Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MemeCalculate/moyin-creator#readme",
+  "finalUrl": "https://github.com/MemeCalculate/moyin-creator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"04a0a33714975dcdd50b11517e22f38d\"",
+  "lastModified": null,
+  "bodyBytes": 421725,
+  "bodySha256": "c78cdd9ffae734cfdc998f2b0a53c86bae781303d6959fcbc6120ec0a036165b",
+  "title": "GitHub - MemeCalculate/moyin-creator: AI 影视生产级工具 | 支持 Seedance 2.0 | 剧本到成片全流程批量化 | AI-powered film production tool with Seedance 2.0 support · GitHub",
+  "github": {
+    "owner": "MemeCalculate",
+    "repo": "moyin-creator",
+    "apiStatus": "unavailable"
+  }
+}

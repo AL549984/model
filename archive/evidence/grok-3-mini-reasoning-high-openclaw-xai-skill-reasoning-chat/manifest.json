@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-3-mini-reasoning-high-openclaw-xai-skill-reasoning-chat",
+  "modelId": "grok-3-mini-reasoning-high",
+  "modelName": "Grok 3 mini Reasoning (high)",
+  "title": "OpenClaw xAI skill added Grok 3 Mini chat and reasoning workflows for agent users",
+  "evidenceFingerprint": "bedb4d671609f4973cbfc5a15e1330406ee021505d999809bb7306c4d3f45dcb",
+  "capturedAt": "2026-06-27T22:15:26.470Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/mvanhorn/clawdbot-skill-xai/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-openclaw-xai-skill-reasoning-chat/original-evidence-e40a6b84485c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "clawdbot-skill-xai/README.md at main · mvanhorn/clawdbot-skill-xai · GitHub",
+      "bodySha256": "28281961902861eea779fae061a89f1cf4970b1aaffff146300ff544f0ffb96f",
+      "capturedAt": "2026-06-27T22:15:24.189Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mvanhorn/clawdbot-skill-xai",
+      "snapshotPath": "archive/evidence/grok-3-mini-reasoning-high-openclaw-xai-skill-reasoning-chat/artifact-1-5673365d4090.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mvanhorn/clawdbot-skill-xai: Chat with xAI Grok models - reasoning, vision analysis, code generation, multi-turn conversations. Supports Grok-4, Grok-4.20, Grok-3, Grok-3-mini. OpenClaw skill. · GitHub",
+      "bodySha256": "37c46e2a38b0b7997c2f55dac7907242ed971269382f4f56626bc9c0795f3274",
+      "capturedAt": "2026-06-27T22:15:25.249Z",
+      "error": ""
+    }
+  ]
+}

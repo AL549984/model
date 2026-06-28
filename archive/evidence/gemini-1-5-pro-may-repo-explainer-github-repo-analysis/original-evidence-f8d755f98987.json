@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:39.245Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/gabrielchua/repo-explainer#readme",
+  "finalUrl": "https://github.com/gabrielchua/repo-explainer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"755b3dfe1c3eee2e9297525b5cf41d52\"",
+  "lastModified": null,
+  "bodyBytes": 264562,
+  "bodySha256": "7cd7f7908c32bcd5839e4df8c8dcd227d6874dcad5b825807ef174fc2afe5796",
+  "title": "GitHub - gabrielchua/repo-explainer: Chat with a repo by adding the entire repo to gemini 1.5 pro&#39;s 1M context window 🔥 · GitHub",
+  "github": {
+    "owner": "gabrielchua",
+    "repo": "repo-explainer",
+    "apiStatus": "unavailable"
+  }
+}

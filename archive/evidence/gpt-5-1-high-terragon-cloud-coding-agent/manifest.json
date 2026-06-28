@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-terragon-cloud-coding-agent",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "Terragon cloud coding-agent orchestrator supports GPT-5.1 High for delegated development tasks",
+  "evidenceFingerprint": "100faf6772a942287411f339c071a7b90ccda529dcfd6964e46a8a9a56b6fb39",
+  "capturedAt": "2026-06-27T22:01:30.409Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/terragon-labs/terragon-oss/blob/83142a17f3970df3e14d1879234a603db6e4f615/packages/agent/src/utils.ts#L129-L139",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-terragon-cloud-coding-agent/original-evidence-00428bdf87f7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "terragon-oss/packages/agent/src/utils.ts at 83142a17f3970df3e14d1879234a603db6e4f615 · terragon-labs/terragon-oss · GitHub",
+      "bodySha256": "807d1143708da1c25bc0cca3f3cc5438b4b82810575c9f9778dda15facb0c468",
+      "capturedAt": "2026-06-27T22:01:27.185Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/terragon-labs/terragon-oss",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-terragon-cloud-coding-agent/artifact-1-8c4daf7c97b0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - terragon-labs/terragon-oss: This is the website formally known as Terragon Labs. It was a remote background agent orchestrator for running Claude Code, Codex, and other coding clis in the cloud. · GitHub",
+      "bodySha256": "308eb69afe2b857b892bb75dd2f1739d8dde18464a97e592d0f6965723fc61ab",
+      "capturedAt": "2026-06-27T22:01:29.174Z",
+      "error": ""
+    }
+  ]
+}

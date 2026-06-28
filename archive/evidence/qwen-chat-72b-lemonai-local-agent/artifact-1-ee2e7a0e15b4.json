@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:27.992Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/hexdocom/lemonai",
+  "finalUrl": "https://github.com/hexdocom/lemonai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"27faf3636c3c1fa9bfefdbf4d3398af3\"",
+  "lastModified": null,
+  "bodyBytes": 425273,
+  "bodySha256": "f35a2c90ab774de0f1287be9e41204fa88cd29c415eef9341c7caceb53f018a2",
+  "title": "GitHub - hexdocom/lemonai: Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus &amp; Genspark AI.🔔 Official updates X(twitter) @LemonAI_cc · GitHub",
+  "github": {
+    "owner": "hexdocom",
+    "repo": "lemonai",
+    "apiStatus": "unavailable"
+  }
+}

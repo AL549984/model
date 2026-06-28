@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:55.572Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kvcache-ai/ktransformers",
+  "finalUrl": "https://github.com/kvcache-ai/ktransformers",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d837642fcdc1e524074c8d0746eb86bc\"",
+  "lastModified": null,
+  "bodyBytes": 360516,
+  "bodySha256": "2e438bf2c708b2f69a6a39972eb0bcfae95e4b7eee355e700ed2e2d0f3e12696",
+  "title": "GitHub - kvcache-ai/ktransformers: A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations · GitHub",
+  "github": {
+    "owner": "kvcache-ai",
+    "repo": "ktransformers",
+    "apiStatus": "unavailable"
+  }
+}

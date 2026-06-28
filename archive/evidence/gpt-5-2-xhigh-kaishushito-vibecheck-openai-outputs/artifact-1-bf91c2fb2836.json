@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:34.751Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/KaishuShito/vibecheck/tree/main/outputs/openai",
+  "finalUrl": "https://github.com/KaishuShito/vibecheck/tree/main/outputs/openai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"9a945e7c176ea1416e21644019841fb6\"",
+  "lastModified": null,
+  "bodyBytes": 235663,
+  "bodySha256": "9d038fe1c75f9b8727278b7164cba3b269222d66b1c361d56a3dc1405036d46b",
+  "title": "vibecheck/outputs/openai at main · KaishuShito/vibecheck · GitHub",
+  "github": {
+    "owner": "KaishuShito",
+    "repo": "vibecheck",
+    "htmlUrl": "https://github.com/KaishuShito/vibecheck",
+    "defaultBranch": "main",
+    "defaultBranchSha": "0fda663dda33857336a450eb6f8465d80aa8f2a5",
+    "pushedAt": "2026-02-20T02:16:27Z",
+    "updatedAt": "2026-02-20T02:16:30Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

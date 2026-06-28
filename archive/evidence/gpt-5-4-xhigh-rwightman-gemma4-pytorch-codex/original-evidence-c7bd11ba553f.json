@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:00.915Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/rwightman/gemma4_pytorch_codex",
+  "finalUrl": "https://github.com/rwightman/gemma4_pytorch_codex",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b5585bf91804b5d988e6e303fa080536\"",
+  "lastModified": null,
+  "bodyBytes": 386491,
+  "bodySha256": "adfa2f7ffb4c27c67e5929ff556b385788266bd61c7950bba3bf8f172022a4d2",
+  "title": "GitHub - rwightman/gemma4_pytorch_codex: Standalone Gemma4 PyTorch Model using Codex (GPT-5.4 xhigh) · GitHub",
+  "github": {
+    "owner": "rwightman",
+    "repo": "gemma4_pytorch_codex",
+    "apiStatus": "unavailable"
+  }
+}

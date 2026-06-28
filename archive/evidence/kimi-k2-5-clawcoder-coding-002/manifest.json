@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-5-clawcoder-coding-002",
+  "modelId": "kimi-k2-5",
+  "modelName": "Kimi K2.5",
+  "title": "sangjiexun builds ClawCoder CLI coding assistant powered by Kimi K2.5 via LangGraph",
+  "evidenceFingerprint": "fcb1922f6c90b97803fb0391ce6b27eb486617383e87bc90259b4863ec0c516b",
+  "capturedAt": "2026-06-27T22:22:35.695Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/sangjiexun/clawcoder/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-5-clawcoder-coding-002/original-evidence-268be78570df.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "clawcoder/README.md at main · sangjiexun/clawcoder · GitHub",
+      "bodySha256": "c9cdbbdeee92874f66d44e62d766cc1a505d799dc8b965445d4bbe8357ed8889",
+      "capturedAt": "2026-06-27T22:22:32.952Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/sangjiexun/clawcoder",
+      "snapshotPath": "archive/evidence/kimi-k2-5-clawcoder-coding-002/artifact-1-97086ed8dae9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - sangjiexun/clawcoder: ClawCoder - AI-Powered Coding Assistant powered by Kimi K2.5. An interactive command-line coding assistant with file operations, code execution, and AI-assisted editing. · GitHub",
+      "bodySha256": "2729cf47ae75ec6bb6fb2ee7ef5cb685d363567c1454b3b5d9b183675e6616a8",
+      "capturedAt": "2026-06-27T22:22:34.291Z",
+      "error": ""
+    }
+  ]
+}

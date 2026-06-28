@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:41.476Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Rahul4u-stack/khabar",
+  "finalUrl": "https://github.com/Rahul4u-stack/khabar",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"269de222d7d7a655649d2776063d3431\"",
+  "lastModified": null,
+  "bodyBytes": 274029,
+  "bodySha256": "21b8883913724090cf838e03653968d50db44cdd7cd7cd5411058b7b7378ed15",
+  "title": "GitHub - Rahul4u-stack/khabar: Personal AI news agent — delivers a curated daily AI brief to my Telegram at 9 AM IST. Built on Hermes 3 + OpenRouter (MiniMax M2.5) + Telegram Bot API. · GitHub",
+  "github": {
+    "owner": "Rahul4u-stack",
+    "repo": "khabar",
+    "apiStatus": "unavailable"
+  }
+}

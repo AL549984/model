@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-0324-ahnuf-panda-resume-critiquer",
+  "modelId": "deepseek-v3-0324",
+  "modelName": "DeepSeek V3 0324",
+  "title": "Panda Resume Critiquer uses DeepSeek V3 0324 to analyze resumes and return actionable feedback",
+  "evidenceFingerprint": "a556b8e1ec83e440094cec51454beb30371c3e110254cddd1c546ee6b0b1904c",
+  "capturedAt": "2026-06-27T21:08:35.989Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324/blob/main/README.md",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-ahnuf-panda-resume-critiquer/original-evidence-b4142f02c91c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Panda-Resume-Critiquer-DeepSeek-V3-0324/README.md at main · Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324 · GitHub",
+      "bodySha256": "2ee5f5475e973876438492a757d5aca928bec90622ce6c4c8ddf08057f09b99e",
+      "capturedAt": "2026-06-27T21:08:33.306Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324",
+      "snapshotPath": "archive/evidence/deepseek-v3-0324-ahnuf-panda-resume-critiquer/artifact-1-59f34feeabd9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Ahnuf-Karim-Chowdhury/Panda-Resume-Critiquer-DeepSeek-V3-0324: Panda Resume Critiquer uses DeepSeek V3 0324 to analyze resumes and provide AI-driven feedback. It evaluates structure, clarity, and impact, offering actionable suggest",
+      "bodySha256": "9fe4be249998be5e24693b8b185673484942f1ca197582ef9bc652a4b60f38ea",
+      "capturedAt": "2026-06-27T21:08:34.606Z",
+      "error": ""
+    }
+  ]
+}

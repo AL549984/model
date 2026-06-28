@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:56.733Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/farion1231/cc-switch/main/CHANGELOG.md",
+  "finalUrl": "https://raw.githubusercontent.com/farion1231/cc-switch/main/CHANGELOG.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "74861",
+  "etag": "W/\"1fbc670cf1a596c758fed9c54ea28c1881ed47d7db449b41354eb5b0d4926416\"",
+  "lastModified": null,
+  "bodyBytes": 212433,
+  "bodySha256": "374b2938f6cf36986312c46279d773e52900f5d89241b612c7986f33067ab681",
+  "title": "",
+  "github": null
+}

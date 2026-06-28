@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-4-xhigh-ivanlark-openclaw-shim",
+  "modelId": "gpt-5-4-xhigh",
+  "modelName": "GPT-5.4 (xhigh)",
+  "title": "IvanLark built an OpenClaw shim to keep gpt-5.4 xhigh enabled through provider capability checks",
+  "evidenceFingerprint": "94ce5f8f622efd15c30a4fb6943622b83f02c61eae0b80ac1a5e00bb199bdd09",
+  "capturedAt": "2026-06-27T22:07:58.533Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/IvanLark/openclaw-gpt-xhigh-shim/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-ivanlark-openclaw-shim/original-evidence-a9625adce57d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "openclaw-gpt-xhigh-shim/README.md at main · IvanLark/openclaw-gpt-xhigh-shim · GitHub",
+      "bodySha256": "0ca78a6e179edd5ef7c8bda98559c8e6b963a2dbcdec6536b3bc274be8d78d8f",
+      "capturedAt": "2026-06-27T22:07:56.288Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/IvanLark/openclaw-gpt-xhigh-shim",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-ivanlark-openclaw-shim/artifact-1-35fc1af192a2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - IvanLark/openclaw-gpt-xhigh-shim: Non-invasive OpenClaw shim for enabling gpt-5.4 xhigh and optional fast-mode payload injection. · GitHub",
+      "bodySha256": "bfb19ede7e8e271c890fed0a571bd9139416306fcc0e2bc12580f08ef66e6155",
+      "capturedAt": "2026-06-27T22:07:57.381Z",
+      "error": ""
+    }
+  ]
+}

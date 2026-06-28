@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-5-case-cuantox-coding-agent",
+  "modelId": "minimax-m2-5",
+  "modelName": "MiniMax-M2.5",
+  "title": "Cuantox-AI — Agentic CLI coding companion powered by MiniMax M2.5 via NVIDIA API",
+  "evidenceFingerprint": "f4956f0cb8577f1172ce8320a018c0795c1535d39b0c9bdc9571b4a7ef87848e",
+  "capturedAt": "2026-06-27T22:44:39.608Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Cuantox/cuantox-ai",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-cuantox-coding-agent/original-evidence-07f15e8867f9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Cuantox/cuantox-ai: CLI-based AI Agent using the NVIDIA API (Minimax-M2.5). Features autonomous file I/O, terminal command execution, and a stylized interactive UI with Rich. · GitHub",
+      "bodySha256": "54b4a0ab637291c34aa0ae8a9f3729c4f24259e80527e1ee51c2019806d1e94d",
+      "capturedAt": "2026-06-27T22:44:37.844Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Cuantox/cuantox-ai",
+      "snapshotPath": "archive/evidence/minimax-m2-5-case-cuantox-coding-agent/artifact-1-07f15e8867f9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Cuantox/cuantox-ai: CLI-based AI Agent using the NVIDIA API (Minimax-M2.5). Features autonomous file I/O, terminal command execution, and a stylized interactive UI with Rich. · GitHub",
+      "bodySha256": "4870377cad45883eb59d710447286783af1b43f211f31fe16fcd4b8ca5faef50",
+      "capturedAt": "2026-06-27T22:44:39.037Z",
+      "error": ""
+    }
+  ]
+}

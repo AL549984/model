@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-6-talent-agent-linkedin",
+  "modelId": "kimi-k2-6",
+  "modelName": "Kimi K2.6",
+  "title": "Talent Intelligence Agent — LinkedIn candidate discovery and scoring with Kimi K2.6",
+  "evidenceFingerprint": "fa3e2def46ccd93df81d060d9d11bac5f3f1a9617d9992010f6e6074a39870d7",
+  "capturedAt": "2026-06-27T22:29:28.036Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yashb98/talent-agent",
+      "snapshotPath": "archive/evidence/kimi-k2-6-talent-agent-linkedin/original-evidence-c332d1f921dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yashb98/talent-agent: AI talent intelligence agent powered by Kimi K2.6 · GitHub",
+      "bodySha256": "4975174bf9d1f756d1c31ca8aada45af24d8036d412fd6c9ae1dfedcffeac1b2",
+      "capturedAt": "2026-06-27T22:29:26.216Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yashb98/talent-agent",
+      "snapshotPath": "archive/evidence/kimi-k2-6-talent-agent-linkedin/artifact-1-c332d1f921dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yashb98/talent-agent: AI talent intelligence agent powered by Kimi K2.6 · GitHub",
+      "bodySha256": "4f29852ef54a1e28817310fd8fc34e8ec6cb2c92739d799d5d11742530ad97d5",
+      "capturedAt": "2026-06-27T22:29:27.466Z",
+      "error": ""
+    }
+  ]
+}

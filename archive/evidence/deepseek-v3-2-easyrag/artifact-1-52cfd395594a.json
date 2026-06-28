@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:21.928Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/HOWILLMAKEIT/EasyRAG/releases",
+  "finalUrl": "https://github.com/HOWILLMAKEIT/EasyRAG/releases",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"163761c3debf4361cb649662315350bd\"",
+  "lastModified": null,
+  "bodyBytes": 209016,
+  "bodySha256": "89c8c1f503b4788d1097abee27ab6132b9baec8aae878c9cef9c5f2071af2b2d",
+  "title": "Releases · HOWILLMAKEIT/EasyRAG · GitHub",
+  "github": {
+    "owner": "HOWILLMAKEIT",
+    "repo": "EasyRAG",
+    "apiStatus": "unavailable"
+  }
+}

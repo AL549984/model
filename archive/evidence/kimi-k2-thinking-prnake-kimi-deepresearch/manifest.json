@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-thinking-prnake-kimi-deepresearch",
+  "modelId": "kimi-k2-thinking",
+  "modelName": "Kimi K2 Thinking",
+  "title": "prnake recreated Kimi K2 Thinking agentic search as a runnable deep-research tool",
+  "evidenceFingerprint": "f4833726acb539b3ab39e0d75a1833f7c6d1e9547681eb4ea456f7f73405af59",
+  "capturedAt": "2026-06-27T22:29:46.657Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/prnake/kimi-deepresearch/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-prnake-kimi-deepresearch/original-evidence-631402b8f8b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "kimi-deepresearch/README.md at main · prnake/kimi-deepresearch · GitHub",
+      "bodySha256": "51e9fa356cef78fbd5c8e8eee5f77897b3b52a9430fd1ae81cf4f8ad884f78f1",
+      "capturedAt": "2026-06-27T22:29:44.749Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/prnake/kimi-deepresearch",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-prnake-kimi-deepresearch/artifact-1-89d003bb3c06.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - prnake/kimi-deepresearch: Kimi K2 Thinking Agentic Search Unofficial Implementation · GitHub",
+      "bodySha256": "60d49264cd578b4fcdeba7241b492bb6faa46e9996efb2146e05bb2bb0248adc",
+      "capturedAt": "2026-06-27T22:29:45.673Z",
+      "error": ""
+    }
+  ]
+}

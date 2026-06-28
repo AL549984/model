@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-xmetalworkerx-lot-licker-street-view-classifier",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "Lot Licker uses Grok-2-Vision to classify Google Street View properties",
+  "evidenceFingerprint": "99fb8b60d1c034096a08a09766db4bcf1dedc0bbba5168112d554ca17ec88022",
+  "capturedAt": "2026-06-27T22:15:17.617Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/xMetalWorkerx/lot_licker/blob/master/README.md",
+      "snapshotPath": "archive/evidence/grok-2-xmetalworkerx-lot-licker-street-view-classifier/original-evidence-1b8aa6a4838e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "lot_licker/README.md at master · xMetalWorkerx/lot_licker · GitHub",
+      "bodySha256": "52e65cd80110c0c8078a3324a1beeb7a0739f94bdc42cfb5817589925e61009a",
+      "capturedAt": "2026-06-27T22:15:15.451Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/xMetalWorkerx/lot_licker",
+      "snapshotPath": "archive/evidence/grok-2-xmetalworkerx-lot-licker-street-view-classifier/artifact-1-3f0f0ce116a0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - xMetalWorkerx/lot_licker: Analyze street view images using Google Maps and xAI&#39;s Grok-2-Vision model. · GitHub",
+      "bodySha256": "9732e7448a7b84091f977ffe31c4503050ff6dc66f76fc4f6a868b2db3184505",
+      "capturedAt": "2026-06-27T22:15:16.516Z",
+      "error": ""
+    }
+  ]
+}

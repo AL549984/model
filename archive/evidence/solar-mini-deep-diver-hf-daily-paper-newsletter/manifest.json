@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-deep-diver-hf-daily-paper-newsletter",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "Hugging Face Daily Papers newsletter bot uses Solar Mini to summarize research abstracts",
+  "evidenceFingerprint": "c6de9e0904b832ccdb34f2dcc934669e0df6f7b113741b0da6c5ec054d03c581",
+  "capturedAt": "2026-06-27T21:28:06.516Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/deep-diver/hf-daily-paper-newsletter/main/src/internal/solar.go",
+      "snapshotPath": "archive/evidence/solar-mini-deep-diver-hf-daily-paper-newsletter/original-evidence-cf818f75edde.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "c4f653187914615161e0059b7c533d9c8cfe5a5fa39263a3d637a879ce4b2610",
+      "capturedAt": "2026-06-27T21:28:04.879Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/deep-diver/hf-daily-paper-newsletter",
+      "snapshotPath": "archive/evidence/solar-mini-deep-diver-hf-daily-paper-newsletter/artifact-1-e7c60ad1dc02.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - deep-diver/hf-daily-paper-newsletter: Newsletter bot for 🤗 Daily Papers · GitHub",
+      "bodySha256": "ca462d64bcd814ff81bfcdeb51149c943fc05e46d7a5bb37fdc05ccd51223a6e",
+      "capturedAt": "2026-06-27T21:28:05.207Z",
+      "error": ""
+    }
+  ]
+}

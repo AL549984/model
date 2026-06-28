@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:52.153Z",
+  "kind": "original-evidence",
+  "url": "https://simonwillison.net/2024/Apr/8/files-to-prompt/",
+  "finalUrl": "https://simonwillison.net/2024/Apr/8/files-to-prompt/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": "Sat, 27 Jun 2026 08:23:43 GMT",
+  "bodyBytes": 58043,
+  "bodySha256": "95ad59947018ab4584b9cbec57fe8300a2d45b9a8bce3d4ccba91eb50f04745e",
+  "title": "Building files-to-prompt entirely using Claude 3 Opus",
+  "github": null
+}

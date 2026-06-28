@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:12.580Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/emmytronix/codementor-ai-agent/blob/main/README.md",
+  "finalUrl": "https://github.com/emmytronix/codementor-ai-agent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a306629ed954502c51627bbd89bf8888\"",
+  "lastModified": null,
+  "bodyBytes": 412533,
+  "bodySha256": "0e5998340ef7cb0045f99a71e6000c48a3d61c235fa3d48cc3d65ba4c8780678",
+  "title": "codementor-ai-agent/README.md at main · emmytronix/codementor-ai-agent · GitHub",
+  "github": {
+    "owner": "emmytronix",
+    "repo": "codementor-ai-agent",
+    "apiStatus": "unavailable"
+  }
+}

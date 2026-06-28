@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:28.907Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sjusjdkzhsiqjqbz-rgb/video-vision",
+  "finalUrl": "https://github.com/sjusjdkzhsiqjqbz-rgb/video-vision",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d44607257c6a2802dcab13b50d40de7b\"",
+  "lastModified": null,
+  "bodyBytes": 282556,
+  "bodySha256": "7335836d614743600630a2e6e36a24c457702c1c5a25343fbe89acf26a91439a",
+  "title": "GitHub - sjusjdkzhsiqjqbz-rgb/video-vision: StepFun video analysis tool for Hermes Agent — step-3.7-flash with reasoning_effort, stepfile://, Files API, ffmpeg auto-normalization · GitHub",
+  "github": {
+    "owner": "sjusjdkzhsiqjqbz-rgb",
+    "repo": "video-vision",
+    "apiStatus": "unavailable"
+  }
+}

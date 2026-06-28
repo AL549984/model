@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:20.913Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT",
+  "finalUrl": "https://huggingface.co/sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"313f4-WPWvLYJlZ+LUtkrNlxHnsUrQd4g\"",
+  "lastModified": null,
+  "bodyBytes": 201716,
+  "bodySha256": "0e6e5a0b06ffb11450d4ecffc208233ff54283cd3f27a4daea7f73cc77fc6776",
+  "title": "sensenova/SenseNova-SI-1.1-BAGEL-7B-MoT · Hugging Face",
+  "github": null
+}

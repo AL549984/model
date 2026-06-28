@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-quantagent-trading-analysis",
+  "modelId": "minimax-m2",
+  "modelName": "MiniMax-M2",
+  "title": "QuantAgent uses MiniMax-M2.7 for multi-agent trading analysis",
+  "evidenceFingerprint": "355f6754ced35b8e2f792465b969222e1a2bca1b5f99b3283249b3fcbc342754",
+  "capturedAt": "2026-06-27T22:44:58.718Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Y-Research-SBU/QuantAgent/blob/main/web_interface.py",
+      "snapshotPath": "archive/evidence/minimax-m2-quantagent-trading-analysis/original-evidence-071d43765833.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "QuantAgent/web_interface.py at main · Y-Research-SBU/QuantAgent · GitHub",
+      "bodySha256": "ffe9ec61253ea51a61a0156c183cf26d76335517f5404026edece497192c3271",
+      "capturedAt": "2026-06-27T22:44:56.111Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Y-Research-SBU/QuantAgent",
+      "snapshotPath": "archive/evidence/minimax-m2-quantagent-trading-analysis/artifact-1-f7380ae159fc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Y-Research-SBU/QuantAgent: Official Repository for QuantAgent · GitHub",
+      "bodySha256": "68da7bade77c5a054e5e38ab625273daf9a99898364eb4d96cb5d239fe4001ec",
+      "capturedAt": "2026-06-27T22:44:57.560Z",
+      "error": ""
+    }
+  ]
+}

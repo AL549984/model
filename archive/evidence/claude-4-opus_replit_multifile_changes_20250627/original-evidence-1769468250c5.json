@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:25.102Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-4#:~:text=Replit%20reports%20improved%20precision%20and%20dramatic%20advancements%20for%20complex%20changes%20across%20multiple%20files",
+  "finalUrl": "https://www.anthropic.com/news/claude-4",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 154098,
+  "bodySha256": "1a7e4c2c41cfc95852d3cf0507d626241fa7e9242a1e3df5684e12873e2c96bb",
+  "title": "Introducing Claude 4 \\ Anthropic",
+  "github": null
+}

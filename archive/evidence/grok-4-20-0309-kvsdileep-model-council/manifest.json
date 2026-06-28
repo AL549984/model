@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-kvsdileep-model-council",
+  "modelId": "grok-4-20-0309",
+  "modelName": "Grok 4.20 0309",
+  "title": "Model Council 用 Grok 4.20 参与多模型辩论和同伴评审",
+  "evidenceFingerprint": "47a11e0c316d53639a8025d0193d91027ce578319d1b4419b0da0709a3814fd1",
+  "capturedAt": "2026-06-27T22:15:36.428Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kvsdileep/model_council_v2/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-kvsdileep-model-council/original-evidence-1e2cc24a5ca7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "model_council_v2/README.md at main · kvsdileep/model_council_v2 · GitHub",
+      "bodySha256": "cad6074cefc529e40b9a6cee00536c76e766a8f2b30bc4fa596c52dccc886dae",
+      "capturedAt": "2026-06-27T22:15:34.177Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kvsdileep/model_council_v2",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-kvsdileep-model-council/artifact-1-681a8c06f60e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kvsdileep/model_council_v2: Model Council — local multi-LLM debate app. 4 council models (Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Grok 4.20) → peer critique → Opus synthesizer with structured multi-format output + on-demand refine flow.",
+      "bodySha256": "6b4625dac2b76249b1f23cfcb781024df9db223e35a08ac7acb3c1b5d055ae15",
+      "capturedAt": "2026-06-27T22:15:35.402Z",
+      "error": ""
+    }
+  ]
+}

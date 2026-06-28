@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:48.311Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SakanaAI/AI-Scientist#google-gemini",
+  "finalUrl": "https://github.com/SakanaAI/AI-Scientist",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c39c9b9c4c9d302d2cff1f485869a0ab\"",
+  "lastModified": null,
+  "bodyBytes": 408615,
+  "bodySha256": "2fc147d46485226ae42a8e318da59b3dc949c75fc5d33002dad7495218d75394",
+  "title": "GitHub - SakanaAI/AI-Scientist: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬 · GitHub",
+  "github": {
+    "owner": "SakanaAI",
+    "repo": "AI-Scientist",
+    "apiStatus": "unavailable"
+  }
+}

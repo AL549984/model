@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-r1-0528-next-ai-draw-io-diagram-generation",
+  "modelId": "deepseek-r1-0528",
+  "modelName": "DeepSeek R1 0528",
+  "title": "Next AI Draw.io 将 DeepSeek R1 0528 接入自然语言图表生成工具",
+  "evidenceFingerprint": "7f051098866381675480aa734601e2dce1aa6f8449079658f6897318fc947bcc",
+  "capturedAt": "2026-06-27T21:02:17.411Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/main/edge-functions/api/edgeai/chat/completions.ts",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-next-ai-draw-io-diagram-generation/original-evidence-bf3da10ac59c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "next-ai-draw-io/edge-functions/api/edgeai/chat/completions.ts at main · DayuanJiang/next-ai-draw-io · GitHub",
+      "bodySha256": "1978a45dc2bbf91039393e6e3c691cab869dd3355b895098cb9176ee377d17fc",
+      "capturedAt": "2026-06-27T21:02:15.152Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "snapshotPath": "archive/evidence/deepseek-r1-0528-next-ai-draw-io-diagram-generation/artifact-1-ad5e3b1d8018.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DayuanJiang/next-ai-draw-io: A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualizati",
+      "bodySha256": "5a601c6327ab2109158222e6dcd6da6c5044baece788c4d35250c67247ad8574",
+      "capturedAt": "2026-06-27T21:02:16.338Z",
+      "error": ""
+    }
+  ]
+}

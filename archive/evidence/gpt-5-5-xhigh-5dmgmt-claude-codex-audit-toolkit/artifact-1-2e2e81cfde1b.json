@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:47.761Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/5dmgmt/claude-codex-audit-toolkit",
+  "finalUrl": "https://github.com/5dmgmt/claude-codex-audit-toolkit",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f34ad47305e4e58ff8f8cab490b4272\"",
+  "lastModified": null,
+  "bodyBytes": 363101,
+  "bodySha256": "788432cd0b79403bcc18e20bc9329e61da94988fa8c6c8053d9cd6f7a4d908cd",
+  "title": "GitHub - 5dmgmt/claude-codex-audit-toolkit: Claude Code で書いた成果物を Codex CLI で監査する際の運用ツールキット (五月雨防止プロンプト v2 / 5 つの決定的対策 / 収束判定基準) · GitHub",
+  "github": {
+    "owner": "5dmgmt",
+    "repo": "claude-codex-audit-toolkit",
+    "apiStatus": "unavailable"
+  }
+}

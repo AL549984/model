@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:04.001Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio",
+  "finalUrl": "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8ca1a55c15cc469fe92e6e3e6dec03c9\"",
+  "lastModified": null,
+  "bodyBytes": 428025,
+  "bodySha256": "36f7ae9dd21f9f4030180e1ea04159ee8de9bb57ef25cf617cc01e62114fd37e",
+  "title": "GitHub - FineComputer14451/Grok-Imagine-Cinematic-Studio: The most advanced multi-agent cinematic production system for Grok 4.3 (v3.6) · GitHub",
+  "github": {
+    "owner": "FineComputer14451",
+    "repo": "Grok-Imagine-Cinematic-Studio",
+    "apiStatus": "unavailable"
+  }
+}

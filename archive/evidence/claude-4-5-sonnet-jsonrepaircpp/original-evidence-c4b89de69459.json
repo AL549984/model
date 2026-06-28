@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:46.491Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Mark2009/jsonrepaircpp/blob/main/README.md",
+  "finalUrl": "https://github.com/Mark2009/jsonrepaircpp/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ecde02e313ca056212f39a3d819465dc\"",
+  "lastModified": null,
+  "bodyBytes": 276356,
+  "bodySha256": "bdb957ebcdda57faae8e1ae929987314a4a0bd2052f368bb479577e15cbf7727",
+  "title": "jsonrepaircpp/README.md at main · Mark2009/jsonrepaircpp · GitHub",
+  "github": {
+    "owner": "Mark2009",
+    "repo": "jsonrepaircpp",
+    "apiStatus": "unavailable"
+  }
+}

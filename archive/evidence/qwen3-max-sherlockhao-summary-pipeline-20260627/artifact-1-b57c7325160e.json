@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:07.582Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/SherlockHao/summary-pipeline",
+  "finalUrl": "https://github.com/SherlockHao/summary-pipeline",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"38622cb220837f71a7b8a3fc191c4a57\"",
+  "lastModified": null,
+  "bodyBytes": 227705,
+  "bodySha256": "93fdab96149c4d0174959a602b5f8076c3f46fd9292cb4218d20ff46fc9b422f",
+  "title": "GitHub - SherlockHao/summary-pipeline: 全天录音智能摘要系统 - DingTalk A1/AI听记 + Qwen3-Max 262K · GitHub",
+  "github": {
+    "owner": "SherlockHao",
+    "repo": "summary-pipeline",
+    "apiStatus": "unavailable"
+  }
+}

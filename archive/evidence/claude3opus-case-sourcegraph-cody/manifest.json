@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude3opus-case-sourcegraph-cody",
+  "modelId": "claude-3-opus",
+  "modelName": "Claude 3 Opus",
+  "title": "Sourcegraph Cody large-codebase context",
+  "evidenceFingerprint": "5474ec93dc75b5dd6af4d0ad8250747a18163a7ff6cb606fe9b358994b27760f",
+  "capturedAt": "2026-06-27T23:27:24.484Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/sourcegraph",
+      "snapshotPath": "archive/evidence/claude3opus-case-sourcegraph-cody/original-evidence-df28c92cdc77.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Sourcegraph Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "b90b203a59a2d16280992a0f770a1b6c7f1c485bccc59119a226b68749dd5a85",
+      "capturedAt": "2026-06-27T23:27:22.009Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://sourcegraph.com/cody",
+      "snapshotPath": "archive/evidence/claude3opus-case-sourcegraph-cody/artifact-1-f7f69b7ff439.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Cody - Sourcegraph docs",
+      "bodySha256": "c007a52f2269a37b6747552912ea64a5f928677a2408dfec81bc91b0dee27b83",
+      "capturedAt": "2026-06-27T23:27:22.904Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:38.668Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/lemony-ai/cascadeflow",
+  "finalUrl": "https://github.com/lemony-ai/cascadeflow",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"637ed8a2d77067e10b8ed94154e8ffb4\"",
+  "lastModified": null,
+  "bodyBytes": 639861,
+  "bodySha256": "bf85965e953d27670f16a5c0a04bb5abedb7261cc9b6f824902d4e0ae067a958",
+  "title": "GitHub - lemony-ai/cascadeflow: Cascading runtime for AI agents. Optimize cost, latency, quality, and policy decisions inside the agent loop. · GitHub",
+  "github": {
+    "owner": "lemony-ai",
+    "repo": "cascadeflow",
+    "htmlUrl": "https://github.com/lemony-ai/cascadeflow",
+    "defaultBranch": "main",
+    "defaultBranchSha": "f61a1ebd8d07a722a0fc4753db7767473f4fecc8",
+    "pushedAt": "2026-05-16T21:00:22Z",
+    "updatedAt": "2026-06-27T17:31:55Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

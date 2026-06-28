@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:36.528Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/EricSun0218/qq-codememory-bot",
+  "finalUrl": "https://github.com/EricSun0218/qq-codememory-bot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"77bdd9945921cac4320eb94aba341b7b\"",
+  "lastModified": null,
+  "bodyBytes": 301133,
+  "bodySha256": "4aa1e28db60f470c8e194e62fb7517eea62962656f1fe9ca94ad1b8da040bf87",
+  "title": "GitHub - EricSun0218/qq-codememory-bot: QQ 群 AI 数字分身机器人 · NapCat + OneBot v11 + MiniMax M2 · 本地代码库记忆 + 长期记忆 · GitHub",
+  "github": {
+    "owner": "EricSun0218",
+    "repo": "qq-codememory-bot",
+    "apiStatus": "unavailable"
+  }
+}

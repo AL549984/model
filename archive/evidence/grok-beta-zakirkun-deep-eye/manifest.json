@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-beta-zakirkun-deep-eye",
+  "modelId": "grok-beta",
+  "modelName": "Grok Beta",
+  "title": "Deep Eye 渗透测试工具接入 grok-beta 生成安全测试 payload、误报 triage 和报告",
+  "evidenceFingerprint": "438f29ba106bb62abf86211b58771490a153742e9c364cd52c02ca6b1cc4147a",
+  "capturedAt": "2026-06-27T22:22:07.779Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zakirkun/deep-eye/blob/main/docs/QUICKSTART.md#grok-xai",
+      "snapshotPath": "archive/evidence/grok-beta-zakirkun-deep-eye/original-evidence-b0fb1b728322.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "deep-eye/docs/QUICKSTART.md at main · zakirkun/deep-eye · GitHub",
+      "bodySha256": "4ed24f80ee00e3ad492b09553a6905ec4b8fc4bf57b21f87cded76d5d00f626b",
+      "capturedAt": "2026-06-27T22:22:05.611Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zakirkun/deep-eye",
+      "snapshotPath": "archive/evidence/grok-beta-zakirkun-deep-eye/artifact-1-9008243be8f1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zakirkun/deep-eye: Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, LiteLLM, LM Studio) for intelligent payload generation, scans targets for 45+ vulnerability types, and",
+      "bodySha256": "fb82272eb8586c4a69ef43672b98a595defe66f8d9dfaf9600e5c92a2fc95b48",
+      "capturedAt": "2026-06-27T22:22:06.679Z",
+      "error": ""
+    }
+  ]
+}

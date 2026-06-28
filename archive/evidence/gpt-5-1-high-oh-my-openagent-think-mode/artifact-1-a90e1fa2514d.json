@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:16.738Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/code-yeongyu/oh-my-openagent",
+  "finalUrl": "https://github.com/code-yeongyu/oh-my-openagent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a0fee2d737f84a6d882aa9daff851dac\"",
+  "lastModified": null,
+  "bodyBytes": 525025,
+  "bodySha256": "a76f4c2e48674250e6196f686ab714295437738b848efc147ba9807e6391dd90",
+  "title": "GitHub - code-yeongyu/oh-my-openagent: omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode · GitHub",
+  "github": {
+    "owner": "code-yeongyu",
+    "repo": "oh-my-openagent",
+    "apiStatus": "unavailable"
+  }
+}

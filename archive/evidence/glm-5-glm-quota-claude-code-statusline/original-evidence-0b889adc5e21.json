@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:38.302Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/MisterKarott/glm-quota/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/MisterKarott/glm-quota/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "1293",
+  "etag": "W/\"cd3eb04e520b845028902e5a7c41a134cc818b4cf3a7f4c7490d9c622b3a0ee7\"",
+  "lastModified": null,
+  "bodyBytes": 2518,
+  "bodySha256": "e168bf990f4410540f2fb604f19e90ee105c08a495a3169a1ebf0de17e63dae4",
+  "title": "",
+  "github": null
+}

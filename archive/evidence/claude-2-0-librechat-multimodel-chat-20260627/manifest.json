@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-0-librechat-multimodel-chat-20260627",
+  "modelId": "claude-2-0",
+  "modelName": "Claude 2.0",
+  "title": "LibreChat supported Claude 2 as an Anthropic model option for self-hosted multi-model chat",
+  "evidenceFingerprint": "1d95b343e4f0946dfcaaf57bdb3af41bbeea46286470d1d1169b9b4bc669e1b6",
+  "capturedAt": "2026-06-27T20:16:33.270Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/packages/data-schemas/src/methods/tx.ts",
+      "snapshotPath": "archive/evidence/claude-2-0-librechat-multimodel-chat-20260627/original-evidence-210ebf135cab.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "e9fed96da8210891d63b04b2b3dd1d4b2b1e12e1bdc3ec4e8553df55910978cb",
+      "capturedAt": "2026-06-27T20:16:30.972Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "snapshotPath": "archive/evidence/claude-2-0-librechat-multimodel-chat-20260627/artifact-1-bc0fb2ea1445.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - danny-avila/LibreChat: Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message se",
+      "bodySha256": "7552a5ecdd9f448a38f59c680acfb845bcb86bffa037c5bace3699acd34f00f1",
+      "capturedAt": "2026-06-27T20:16:31.738Z",
+      "error": ""
+    }
+  ]
+}

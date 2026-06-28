@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cleans2s-v25-speech-agent",
+  "modelId": "deepseek-v2-5-dec",
+  "modelName": "DeepSeek-V2.5 (Dec)",
+  "title": "CleanS2S: DeepSeek-V2.5 as LLM Backend for Streaming Speech-to-Speech Agent",
+  "evidenceFingerprint": "fc0d64ed695df671c023cf308027a72d5e6523d2a02522080cee3229c5477f13",
+  "capturedAt": "2026-06-27T21:01:37.788Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/opendilab/CleanS2S/blob/main/README.md",
+      "snapshotPath": "archive/evidence/cleans2s-v25-speech-agent/original-evidence-58acd32fbb19.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "CleanS2S/README.md at main · opendilab/CleanS2S · GitHub",
+      "bodySha256": "c4e64aac33910661a94c601adf05d0f2b3a9bccb7e87b17f4800ffad3e941441",
+      "capturedAt": "2026-06-27T21:01:34.469Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/opendilab/CleanS2S",
+      "snapshotPath": "archive/evidence/cleans2s-v25-speech-agent/artifact-1-458a6b7a262f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - opendilab/CleanS2S: High-quality and streaming Speech-to-Speech interactive agent in a single file. 只用一个文件实现的流式全双工语音交互原型智能体！ · GitHub",
+      "bodySha256": "a4ca66d9d7b48445f1bd39ac0e5bc92b35d1001591f7255eabb5d9f3858b393a",
+      "capturedAt": "2026-06-27T21:01:36.369Z",
+      "error": ""
+    }
+  ]
+}

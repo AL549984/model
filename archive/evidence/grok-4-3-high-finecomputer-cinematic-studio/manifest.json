@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-finecomputer-cinematic-studio",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "FineComputer14451 用 Grok 4.3 构建多智能体影视制作工作流",
+  "evidenceFingerprint": "09977eeb540aff36e0f27ad50c7768d89dd0c417c88ff291bbf01e4ca3cdac69",
+  "capturedAt": "2026-06-27T21:15:05.703Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-finecomputer-cinematic-studio/original-evidence-a70b39139d58.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "e433a2fe2def191108ce45d40fddd95ba68e1e1bc38de723e50fa76cc4fd68d2",
+      "capturedAt": "2026-06-27T21:15:03.669Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio",
+      "snapshotPath": "archive/evidence/grok-4-3-high-finecomputer-cinematic-studio/artifact-1-6e34285df869.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - FineComputer14451/Grok-Imagine-Cinematic-Studio: The most advanced multi-agent cinematic production system for Grok 4.3 (v3.6) · GitHub",
+      "bodySha256": "36f7ae9dd21f9f4030180e1ea04159ee8de9bb57ef25cf617cc01e62114fd37e",
+      "capturedAt": "2026-06-27T21:15:04.001Z",
+      "error": ""
+    }
+  ]
+}

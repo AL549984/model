@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:04.109Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/dr-ridwanoladipo/drug-interaction-ai",
+  "finalUrl": "https://github.com/dr-ridwanoladipo/drug-interaction-ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8eab35161345d4da8b7bc01737184848\"",
+  "lastModified": null,
+  "bodyBytes": 355141,
+  "bodySha256": "f5956d6941776d9ebb38fcd66013c0c6474e27fbf8c72bb8021d91c14149c2d6",
+  "title": "GitHub - dr-ridwanoladipo/drug-interaction-ai: 💊 Drug Interaction AI — hospital-grade clinical decision support system for polypharmacy safety. Combines DrugBank + RxNorm (170k pairs) with RAG retrieval (OpenAI &amp; AWS Bedrock), GPT-5 re",
+  "github": {
+    "owner": "dr-ridwanoladipo",
+    "repo": "drug-interaction-ai",
+    "apiStatus": "unavailable"
+  }
+}

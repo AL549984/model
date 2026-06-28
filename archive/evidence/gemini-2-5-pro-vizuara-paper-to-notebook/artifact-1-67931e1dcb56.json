@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:21.008Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/VizuaraAI/paper-to-notebook",
+  "finalUrl": "https://github.com/VizuaraAI/paper-to-notebook",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c08a72c02c1f47eae700579c6321d114\"",
+  "lastModified": null,
+  "bodyBytes": 298199,
+  "bodySha256": "cd67914eecb9c2d2631f4ce96c278c1732fbc58473050d485d6c18f9d3016370",
+  "title": "GitHub - VizuaraAI/paper-to-notebook: Upload a research paper PDF, get a runnable PyTorch notebook. Powered by Gemini 2.5 Pro. · GitHub",
+  "github": {
+    "owner": "VizuaraAI",
+    "repo": "paper-to-notebook",
+    "apiStatus": "unavailable"
+  }
+}

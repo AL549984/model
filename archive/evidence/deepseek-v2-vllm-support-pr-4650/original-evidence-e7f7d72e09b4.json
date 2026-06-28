@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:26.490Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/vllm-project/vllm/pull/4650",
+  "finalUrl": "https://github.com/vllm-project/vllm/pull/4650",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 1265766,
+  "bodySha256": "eaa112cf75a850356d4d5603174d47f24f6e4cf6305d591afd9b45a18e6e72f2",
+  "title": "Support Deepseek-V2 by zwd003 · Pull Request #4650 · vllm-project/vllm · GitHub",
+  "github": {
+    "owner": "vllm-project",
+    "repo": "vllm",
+    "apiStatus": "unavailable"
+  }
+}

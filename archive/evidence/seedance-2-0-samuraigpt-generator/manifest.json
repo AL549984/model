@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-2-0-samuraigpt-generator",
+  "modelId": "seedance-2-0",
+  "modelName": "Seedance 2.0",
+  "title": "SamurAIGPT 开源 Seedance 2 Generator 视频生成 SaaS 工作台",
+  "evidenceFingerprint": "6089058ccc3ac9501d4ba16d293ab8280d28a0b73bd8c14c191dd3b3b224547a",
+  "capturedAt": "2026-06-27T23:23:24.532Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SamurAIGPT/seedance-2-generator#readme",
+      "snapshotPath": "archive/evidence/seedance-2-0-samuraigpt-generator/original-evidence-a353b1167fb4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SamurAIGPT/seedance-2-generator: Open-source Next.js SaaS for Seedance 2.0 , Seedance 2.5 and Seedance 2 Mini video generation — Stripe billing, credits, NextAuth, and Prisma out of the box. · GitHub",
+      "bodySha256": "5f91304be900c20d64f76a5db2c55f385fa1bc26af2c412d76debf314a8f4444",
+      "capturedAt": "2026-06-27T23:23:22.384Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://seedance-2-generator.vercel.app/",
+      "snapshotPath": "archive/evidence/seedance-2-0-samuraigpt-generator/artifact-1-3644ba14f668.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Seedance v2.0 - Premium AI Generator",
+      "bodySha256": "5f4da91a83d4ac27a5af99f3cb2a64a14e2925974b8c575734723ff05f941ca0",
+      "capturedAt": "2026-06-27T23:23:23.689Z",
+      "error": ""
+    }
+  ]
+}

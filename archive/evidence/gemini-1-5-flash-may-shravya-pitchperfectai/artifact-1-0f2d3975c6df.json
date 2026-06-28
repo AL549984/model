@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:26.741Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/shravya004/PitchPerfectAI",
+  "finalUrl": "https://github.com/shravya004/PitchPerfectAI",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"6a2b5c9afbeb67195b8a2838e4946889\"",
+  "lastModified": null,
+  "bodyBytes": 262753,
+  "bodySha256": "a069f474095856c96edf2edea7518fa0a816274a9871388af6083633d9082be1",
+  "title": "GitHub - shravya004/PitchPerfectAI: 🎯 PitchPerfectAI is a smart, customizable web app built with Streamlit and powered by Google&#39;s Gemini 1.5 Flash model. It generates polished, ATS-friendly cover letters tailored to your job title, ex",
+  "github": {
+    "owner": "shravya004",
+    "repo": "PitchPerfectAI",
+    "apiStatus": "unavailable"
+  }
+}

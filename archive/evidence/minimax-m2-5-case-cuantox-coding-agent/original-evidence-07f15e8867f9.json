@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:37.844Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Cuantox/cuantox-ai",
+  "finalUrl": "https://github.com/Cuantox/cuantox-ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e36a97a78c4d1cade7aefae45bb73b46\"",
+  "lastModified": null,
+  "bodyBytes": 273787,
+  "bodySha256": "54b4a0ab637291c34aa0ae8a9f3729c4f24259e80527e1ee51c2019806d1e94d",
+  "title": "GitHub - Cuantox/cuantox-ai: CLI-based AI Agent using the NVIDIA API (Minimax-M2.5). Features autonomous file I/O, terminal command execution, and a stylized interactive UI with Rich. · GitHub",
+  "github": {
+    "owner": "Cuantox",
+    "repo": "cuantox-ai",
+    "apiStatus": "unavailable"
+  }
+}

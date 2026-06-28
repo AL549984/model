@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:40.977Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/AntraTripathi74/Sentiment-Anlaysis/blob/main/app.py",
+  "finalUrl": "https://github.com/AntraTripathi74/Sentiment-Anlaysis/blob/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"911946c883e592288a6b8605fd8e16f5\"",
+  "lastModified": null,
+  "bodyBytes": 278797,
+  "bodySha256": "a5ea59277b9d1235dff319646a69b4402b243d451b7fce281099a0098cbf2a9c",
+  "title": "Sentiment-Anlaysis/app.py at main · AntraTripathi74/Sentiment-Anlaysis · GitHub",
+  "github": {
+    "owner": "AntraTripathi74",
+    "repo": "Sentiment-Anlaysis",
+    "apiStatus": "unavailable"
+  }
+}

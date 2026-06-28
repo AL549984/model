@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:15.199Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/openai/imagegencam",
+  "finalUrl": "https://github.com/openai/imagegencam",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cb934614709fd08d0e0d9ef4ba878510\"",
+  "lastModified": null,
+  "bodyBytes": 307930,
+  "bodySha256": "8271f2605f5ec7bb052b3e75db2abf6a861fa800bb1d1c7315a71ea4ec939f4d",
+  "title": "GitHub - openai/imagegencam: A digital camera you can build yourself with Codex. · GitHub",
+  "github": {
+    "owner": "openai",
+    "repo": "imagegencam",
+    "apiStatus": "unavailable"
+  }
+}

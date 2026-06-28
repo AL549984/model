@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:56.476Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/haesleinhuepf/git-bob",
+  "finalUrl": "https://github.com/haesleinhuepf/git-bob",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ce2d57e148dcdb2ea8910868f9d5d8bc\"",
+  "lastModified": null,
+  "bodyBytes": 423004,
+  "bodySha256": "3252caf43b984855ace11e4fedefb7200cb14636faf4ac4930b7ed5241946846",
+  "title": "GitHub - haesleinhuepf/git-bob: git-bob uses AI to solve Github-issues. It runs inside the Github CI, no need to install anything on your computer. · GitHub",
+  "github": {
+    "owner": "haesleinhuepf",
+    "repo": "git-bob",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:33.604Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/lobehub/lobe-chat",
+  "finalUrl": "https://github.com/lobehub/lobehub",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d23a141959d6f15fb48293a4b36a15e8\"",
+  "lastModified": null,
+  "bodyBytes": 656802,
+  "bodySha256": "ca5fd014db4f16b39119d97884ee92918c777f081fc522b6074456a19a8ab926",
+  "title": "GitHub - lobehub/lobehub: 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. · GitHub",
+  "github": {
+    "owner": "lobehub",
+    "repo": "lobe-chat",
+    "htmlUrl": "https://github.com/lobehub/lobehub",
+    "defaultBranch": "canary",
+    "defaultBranchSha": "7a9e3181ec8943141e08b86296bde55237644c52",
+    "pushedAt": "2026-06-27T18:12:02Z",
+    "updatedAt": "2026-06-27T19:04:06Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,4 +1,4 @@
-# Frontier Models Atlas V2 Maintenance
+# Model Atlas 模型图谱 V2 Maintenance
 
 This document is the operating checklist for maintaining the V2 static site. It is intentionally conservative: do not upgrade model status, case grade or public recommendations without evidence.
 

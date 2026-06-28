@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-3-codex-xhigh-minhnh-robbdd-nvim",
+  "modelId": "gpt-5-3-codex-xhigh",
+  "modelName": "GPT-5.3 Codex (xhigh)",
+  "title": "minhnh created a Neovim plugin for robbdd/TextX languages using GPT-5.3 Codex",
+  "evidenceFingerprint": "d12da726bb6f88bca6aa01ba6da5cf9ca8f0c1c37be39a8dd4e1e7925f7dfaf8",
+  "capturedAt": "2026-06-27T22:07:50.322Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/minhnh/robbdd-nvim",
+      "snapshotPath": "archive/evidence/gpt-5-3-codex-xhigh-minhnh-robbdd-nvim/original-evidence-c32e2e6d4ccd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - minhnh/robbdd-nvim: Neovim plugin for minhnh/robbdd created using GPT 5.3-Codex · GitHub",
+      "bodySha256": "44c74948ac71dd1beab615a2785b22f46bf360ba831370f0d8c51278a3e3d33b",
+      "capturedAt": "2026-06-27T22:07:48.052Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/minhnh/robbdd-nvim",
+      "snapshotPath": "archive/evidence/gpt-5-3-codex-xhigh-minhnh-robbdd-nvim/artifact-1-c32e2e6d4ccd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - minhnh/robbdd-nvim: Neovim plugin for minhnh/robbdd created using GPT 5.3-Codex · GitHub",
+      "bodySha256": "4486222c3800dab67a4b7ba583d0bc7a4fde3b3277a1d8cdd222f4414d1446ec",
+      "capturedAt": "2026-06-27T22:07:49.692Z",
+      "error": ""
+    }
+  ]
+}

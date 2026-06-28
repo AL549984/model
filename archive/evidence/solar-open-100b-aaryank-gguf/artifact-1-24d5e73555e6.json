@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:33.037Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/AaryanK/Solar-Open-100B-GGUF",
+  "finalUrl": "https://huggingface.co/AaryanK/Solar-Open-100B-GGUF",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3cb8a-CHeL/7luuJ5N8z6LjEwzNTME3rs\"",
+  "lastModified": null,
+  "bodyBytes": 248714,
+  "bodySha256": "71e5bd2acd70768e2bc4f28f46c4a1d7784a032ee7ce31e88315dcdf2b8e424a",
+  "title": "AaryanK/Solar-Open-100B-GGUF · Hugging Face",
+  "github": null
+}

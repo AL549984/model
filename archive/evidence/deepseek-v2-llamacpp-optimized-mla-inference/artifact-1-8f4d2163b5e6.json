@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:18.468Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "finalUrl": "https://github.com/ggml-org/llama.cpp",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a6148058adb1375f5e76cf0ce5fe00bb\"",
+  "lastModified": null,
+  "bodyBytes": 595950,
+  "bodySha256": "82f51317fcafa68db373d288bc142f5fba06ec0ab7e57ccdd1dde784b2ea3377",
+  "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++ · GitHub",
+  "github": {
+    "owner": "ggml-org",
+    "repo": "llama.cpp",
+    "apiStatus": "unavailable"
+  }
+}

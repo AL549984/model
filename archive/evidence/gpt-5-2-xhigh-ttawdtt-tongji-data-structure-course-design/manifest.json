@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-2-xhigh-ttawdtt-tongji-data-structure-course-design",
+  "modelId": "gpt-5-2-xhigh",
+  "modelName": "GPT-5.2 (xhigh)",
+  "title": "TTAWDTT 用 GPT-5.2 xhigh + Codex 生成同济软件工程数据结构课程设计答案仓库",
+  "evidenceFingerprint": "9969152fd21302003a59613670c9530c51ec410a54544ba56647b97cc1520c9b",
+  "capturedAt": "2026-06-27T22:07:42.089Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/TTAWDTT/tongji_software_engineering_data_structure_course_designing",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-ttawdtt-tongji-data-structure-course-design/original-evidence-242785816349.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - TTAWDTT/tongji_software_engineering_data_structure_course_designing: 同济大学2025数据结构课程设计所有作业答案，采用gpt-5.2-xhigh + codex生成 · GitHub",
+      "bodySha256": "c490da19e51d4cfea2a8d681799f5ad040aedc1de9cca83ed4173293756595a5",
+      "capturedAt": "2026-06-27T22:07:39.749Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/TTAWDTT/tongji_software_engineering_data_structure_course_designing",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-ttawdtt-tongji-data-structure-course-design/artifact-1-242785816349.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - TTAWDTT/tongji_software_engineering_data_structure_course_designing: 同济大学2025数据结构课程设计所有作业答案，采用gpt-5.2-xhigh + codex生成 · GitHub",
+      "bodySha256": "142a6719125d83a6d525117d19177b9c8b16daab5b37aa9940d3bcaaa404ec77",
+      "capturedAt": "2026-06-27T22:07:41.461Z",
+      "error": ""
+    }
+  ]
+}

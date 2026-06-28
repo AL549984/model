@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:49.596Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/browserwing/browserwing/blob/main/backend/agent/agent_llm.go",
+  "finalUrl": "https://github.com/browserwing/browserwing/blob/main/backend/agent/agent_llm.go",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3b4153bb06b8c0a32cfbf5028d174775\"",
+  "lastModified": null,
+  "bodyBytes": 550678,
+  "bodySha256": "9e9d550524a8a703040a6883760d81a17ec6c067c0a9058d02328bf6abc3f35c",
+  "title": "browserwing/backend/agent/agent_llm.go at main · browserwing/browserwing · GitHub",
+  "github": {
+    "owner": "browserwing",
+    "repo": "browserwing",
+    "apiStatus": "unavailable"
+  }
+}

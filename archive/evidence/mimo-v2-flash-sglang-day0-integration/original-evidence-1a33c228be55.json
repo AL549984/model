@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:55.332Z",
+  "kind": "original-evidence",
+  "url": "https://lmsys.org/blog/2025-12-16-mimo-v2-flash/",
+  "finalUrl": "https://www.lmsys.org/blog/2025-12-16-mimo-v2-flash/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"fe8171d6b39446b308ee466238ae739a\"",
+  "lastModified": null,
+  "bodyBytes": 60990,
+  "bodySha256": "4a77eb9c467fe859a0e656a934af4c682a3436bd6cfcd7af28ccd82b5860a738",
+  "title": "SGLang Day-0 Support for MiMo-V2-Flash Model - LMSYS Org",
+  "github": null
+}

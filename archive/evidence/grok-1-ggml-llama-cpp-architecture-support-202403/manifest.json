@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-1-ggml-llama-cpp-architecture-support-202403",
+  "modelId": "grok-1",
+  "modelName": "Grok-1",
+  "title": "ggml-org / llama.cpp 为 Grok-1 增加本地 GGUF 推理架构支持",
+  "evidenceFingerprint": "d4ab15ae5528d22ea29e13268046ee43d36ef3ad785a3857433e6a8e73dd262d",
+  "capturedAt": "2026-06-27T22:08:26.498Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ggerganov/llama.cpp/pull/6204",
+      "snapshotPath": "archive/evidence/grok-1-ggml-llama-cpp-architecture-support-202403/original-evidence-f3690b59a1cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Add grok-1 support by arki05 · Pull Request #6204 · ggml-org/llama.cpp · GitHub",
+      "bodySha256": "761209dc73d71e0863123ab91377a0eba9a4c0954aefe8ffea31e33f71138af3",
+      "capturedAt": "2026-06-27T22:08:20.824Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ggerganov/llama.cpp/pull/6204.patch",
+      "snapshotPath": "archive/evidence/grok-1-ggml-llama-cpp-architecture-support-202403/artifact-1-9a5366cc18b0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "4088503600e6c74df77a8f352ef3b02abb4a124371e149fbdb2081c98f4d15a0",
+      "capturedAt": "2026-06-27T22:08:24.580Z",
+      "error": ""
+    }
+  ]
+}

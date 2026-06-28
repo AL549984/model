@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:37.078Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yuezk/chatgpt-mirror/blob/main/README.md#L4-L24",
+  "finalUrl": "https://github.com/yuezk/chatgpt-mirror/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"13c71c477a528de4ef08849dd92d91eb\"",
+  "lastModified": null,
+  "bodyBytes": 262596,
+  "bodySha256": "0c978546ee3d4935c7b82ce14cb73c71057e7e915035a6d959b4a6d6ce8da33b",
+  "title": "chatgpt-mirror/README.md at main · yuezk/chatgpt-mirror · GitHub",
+  "github": {
+    "owner": "yuezk",
+    "repo": "chatgpt-mirror",
+    "apiStatus": "unavailable"
+  }
+}

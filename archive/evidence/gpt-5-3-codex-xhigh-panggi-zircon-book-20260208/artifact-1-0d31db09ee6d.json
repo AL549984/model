@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:07:52.024Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/panggi/zircon-book-20260208",
+  "finalUrl": "https://github.com/panggi/zircon-book-20260208",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"69c06759ff07f0ab462085d0f1843423\"",
+  "lastModified": null,
+  "bodyBytes": 233560,
+  "bodySha256": "9e105368ed895958eb30b802a955f9efe414caa40656d089a1c197bd481c69b9",
+  "title": "GitHub - panggi/zircon-book-20260208: Generated books of Zircon Common Lisp using Claude Code (opus-4.6), Codex (gpt-5.3-codex xhigh), Kimi Code (kimi-k2.5) · GitHub",
+  "github": {
+    "owner": "panggi",
+    "repo": "zircon-book-20260208",
+    "htmlUrl": "https://github.com/panggi/zircon-book-20260208",
+    "defaultBranch": "main",
+    "defaultBranchSha": "0cf9e3c962a74c1eecabf718a80ed698e2bc4838",
+    "pushedAt": "2026-02-10T07:45:37Z",
+    "updatedAt": "2026-02-10T07:45:41Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

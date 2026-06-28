@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:39.487Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-",
+  "finalUrl": "https://github.com/Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4cbaf734df8e6b09ce0f91ffe9355612\"",
+  "lastModified": null,
+  "bodyBytes": 329115,
+  "bodySha256": "dcc610be841c0c7f81520974b1fbdb83842d63f6a4147b7c95ecc1560f471694",
+  "title": "GitHub - Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-: gpt5.2-codex_xhigh proof of concept GBA emulator in assembly · GitHub",
+  "github": {
+    "owner": "Healthy-Nebula-3603",
+    "repo": "gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-",
+    "htmlUrl": "https://github.com/Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-",
+    "defaultBranch": "main",
+    "defaultBranchSha": "17e5e7f68a522c6714c1906fd32e5c4bfefd0ad7",
+    "pushedAt": "2026-02-15T01:21:35Z",
+    "updatedAt": "2026-04-01T06:20:43Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

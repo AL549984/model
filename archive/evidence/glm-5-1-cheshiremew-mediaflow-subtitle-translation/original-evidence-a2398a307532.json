@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:37.146Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/CheshireMew/MediaFlow/blob/HEAD/frontend/src/config/llmProviderPresets.ts#L31",
+  "finalUrl": "https://github.com/CheshireMew/MediaFlow/blob/HEAD/frontend/src/config/llmProviderPresets.ts",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5e541512180dafd5b0ee86a40a4e461f\"",
+  "lastModified": null,
+  "bodyBytes": 298581,
+  "bodySha256": "0337cdd673d1dd0534ef435b81ebc3b8ca0ebd96793820d75cf380d3bc4ca6a3",
+  "title": "MediaFlow/frontend/src/config/llmProviderPresets.ts at 0c94b05adebddddba4c7ab7f7604621666d7bc69 · CheshireMew/MediaFlow · GitHub",
+  "github": {
+    "owner": "CheshireMew",
+    "repo": "MediaFlow",
+    "apiStatus": "unavailable"
+  }
+}

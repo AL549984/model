@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:15.034Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/abhinavchadaga/claude-automated-pr-desc-action",
+  "finalUrl": "https://github.com/abhinavchadaga/claude-automated-pr-desc-action",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3117e36408267e963afbc8da218cab36\"",
+  "lastModified": null,
+  "bodyBytes": 350911,
+  "bodySha256": "4e2416b9d4bf4a7e0320d60d3a04d9ce0989fddf6d05e8333cfc3aa1c8ba73ea",
+  "title": "GitHub - abhinavchadaga/claude-automated-pr-desc-action: github action that uses claude 3.5 haiku to automate writing and updating PR descriptions · GitHub",
+  "github": {
+    "owner": "abhinavchadaga",
+    "repo": "claude-automated-pr-desc-action",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:39.775Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/kevgeoleo/RAG-Chatbot-pet-project",
+  "finalUrl": "https://github.com/kevgeoleo/RAG-Chatbot-pet-project",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a9f0991d1e6eba8b1bcf9e5d6a009e9d\"",
+  "lastModified": null,
+  "bodyBytes": 276600,
+  "bodySha256": "e29a1299f421855762240db212d7a4b05abd2891fd48f97e054ea6ad180bb30b",
+  "title": "GitHub - kevgeoleo/RAG-Chatbot-pet-project: A simple RAG chatbot using DeepSeek V3 0324 · GitHub",
+  "github": {
+    "owner": "kevgeoleo",
+    "repo": "RAG-Chatbot-pet-project",
+    "apiStatus": "unavailable"
+  }
+}

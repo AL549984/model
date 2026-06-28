@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-14b-db-gpt-local-data-app",
+  "modelId": "qwen-chat-14b",
+  "modelName": "Qwen Chat 14B",
+  "title": "DB-GPT supports Qwen-14B-Chat for private data chat, Text2SQL and knowledge-base QA",
+  "evidenceFingerprint": "74a0dd6f31a1d9ad109b0f9c84413843de4acc409047d4be237174a7b771468a",
+  "capturedAt": "2026-06-27T22:59:16.204Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/eosphoros-ai/DB-GPT/blob/main/docs/docs/modules/smmf.md",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-db-gpt-local-data-app/original-evidence-1b15ce150bb8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DB-GPT/docs/docs/modules/smmf.md at main · eosphoros-ai/DB-GPT · GitHub",
+      "bodySha256": "4f1bbc362542689a0e3bde3640f5cc1ea0fb672e967e26db6419eba592d7d7cb",
+      "capturedAt": "2026-06-27T22:59:11.259Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/eosphoros-ai/DB-GPT",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-db-gpt-local-data-app/artifact-1-4a1bb58e2113.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - eosphoros-ai/DB-GPT: open-source agentic AI data assistant for the next generation of AI + Data products. · GitHub",
+      "bodySha256": "d766b0d54fdb84ad9d271153b1bcfbb9ef831d8ad01cf665f784c3764cf365e5",
+      "capturedAt": "2026-06-27T22:59:14.211Z",
+      "error": ""
+    }
+  ]
+}

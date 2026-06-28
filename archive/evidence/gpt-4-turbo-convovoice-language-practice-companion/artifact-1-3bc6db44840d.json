@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:39.986Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/4arjun/convovoice-backend",
+  "finalUrl": "https://github.com/4arjun/convovoice-backend",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"85ee2cf5da630f6b524bae8e00a0eddd\"",
+  "lastModified": null,
+  "bodyBytes": 308495,
+  "bodySha256": "08a6ff384d1dabdedeba064c35a27ecb51035a755a25a7f8df890cfc9c634b31",
+  "title": "GitHub - 4arjun/convovoice-backend: This project is a language learning chat application built with React and Django, utilizing the OpenAI GPT-4 Turbo API and Whisper API. It offers a friendly and supportive environment for users to practic",
+  "github": {
+    "owner": "4arjun",
+    "repo": "convovoice-backend",
+    "apiStatus": "unavailable"
+  }
+}

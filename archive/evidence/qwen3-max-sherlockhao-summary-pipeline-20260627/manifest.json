@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-max-sherlockhao-summary-pipeline-20260627",
+  "modelId": "qwen3-max",
+  "modelName": "Qwen3 Max",
+  "title": "SherlockHao 用 Qwen3-Max 262K 构建全天录音智能摘要系统",
+  "evidenceFingerprint": "f93fccf49126f4a8b33dd2bea2fc5abf5aaabdca502c1111d8b5c843eb1e420d",
+  "capturedAt": "2026-06-27T23:15:08.516Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/SherlockHao/summary-pipeline/blob/main/docs/architecture.md",
+      "snapshotPath": "archive/evidence/qwen3-max-sherlockhao-summary-pipeline-20260627/original-evidence-94fdd953edfa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "summary-pipeline/docs/architecture.md at main · SherlockHao/summary-pipeline · GitHub",
+      "bodySha256": "c23bea2d92b88caabeb7082c6df91fd6673458c27ed09d13cb94e8554e08f163",
+      "capturedAt": "2026-06-27T23:15:04.933Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/SherlockHao/summary-pipeline",
+      "snapshotPath": "archive/evidence/qwen3-max-sherlockhao-summary-pipeline-20260627/artifact-1-b57c7325160e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - SherlockHao/summary-pipeline: 全天录音智能摘要系统 - DingTalk A1/AI听记 + Qwen3-Max 262K · GitHub",
+      "bodySha256": "93fdab96149c4d0174959a602b5f8076c3f46fd9292cb4218d20ff46fc9b422f",
+      "capturedAt": "2026-06-27T23:15:07.582Z",
+      "error": ""
+    }
+  ]
+}

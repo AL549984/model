@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:49.545Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Lumiwealth/lumibot",
+  "finalUrl": "https://github.com/Lumiwealth/lumibot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"faae727f56c3fcfaf8507f9b7bded97d\"",
+  "lastModified": null,
+  "bodyBytes": 540004,
+  "bodySha256": "49778689b532be89877deef5b2a79b7e3355b4e1a9d8b3a2a1d6a9e42b4dae5d",
+  "title": "GitHub - Lumiwealth/lumibot: Backtestable AI trading agents and Python algorithmic trading strategies for stocks, options, crypto, futures, forex, SEC filings, FRED macro data, and real brokers. · GitHub",
+  "github": {
+    "owner": "Lumiwealth",
+    "repo": "lumibot",
+    "apiStatus": "unavailable"
+  }
+}

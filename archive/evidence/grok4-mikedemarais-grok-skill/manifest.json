@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok4-mikedemarais-grok-skill",
+  "modelId": "grok-4",
+  "modelName": "Grok 4",
+  "title": "Claude Code Skill for Real-Time X/Twitter Search via Grok 4",
+  "evidenceFingerprint": "954e5805da2a042d7ef728d786502afaedf4668b0b946b83f7c2a4e26a1fe4ee",
+  "capturedAt": "2026-06-27T21:27:34.725Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/mikedemarais/grok-skill/refs/heads/main/README.md",
+      "snapshotPath": "archive/evidence/grok4-mikedemarais-grok-skill/original-evidence-f616d145a8a6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "2195195af08c4aaf2effe7630d1fe72296700c288267cb96f5a1cf5168d3b013",
+      "capturedAt": "2026-06-27T21:27:33.205Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/mikedemarais/grok-skill",
+      "snapshotPath": "archive/evidence/grok4-mikedemarais-grok-skill/artifact-1-9628c8216f93.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - mikedemarais/grok-skill: Claude Code Skill that routes Twitter/X prompts to Grok-4 Live Search. · GitHub",
+      "bodySha256": "7c9bdf08180992ba5090a11781c3cbb73039cde1d371f0291ff1724dbed4aa97",
+      "capturedAt": "2026-06-27T21:27:33.519Z",
+      "error": ""
+    }
+  ]
+}

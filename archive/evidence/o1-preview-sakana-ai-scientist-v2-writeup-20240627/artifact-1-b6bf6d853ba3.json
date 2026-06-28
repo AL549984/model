@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:46.036Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+  "finalUrl": "https://github.com/SakanaAI/AI-Scientist-v2",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"544ba2f0863e726f6147f756c3204d20\"",
+  "lastModified": null,
+  "bodyBytes": 337318,
+  "bodySha256": "5273cbd6627141c8f0d5eb2d37e2a1a73ef25cfbd602dbe382db35d41491c7e0",
+  "title": "GitHub - SakanaAI/AI-Scientist-v2: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search · GitHub",
+  "github": {
+    "owner": "SakanaAI",
+    "repo": "AI-Scientist-v2",
+    "apiStatus": "unavailable"
+  }
+}

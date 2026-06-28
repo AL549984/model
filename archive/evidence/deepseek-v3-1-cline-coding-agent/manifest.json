@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-v3-1-cline-coding-agent",
+  "modelId": "deepseek-v3-1",
+  "modelName": "DeepSeek V3.1",
+  "title": "Cline AI Coding Agent: DeepSeek V3.1 as Autonomous Coding Backend",
+  "evidenceFingerprint": "e116454f245730106699a0b09b5f8fcb5b1f70be171104fcac9e01bd647556c1",
+  "capturedAt": "2026-06-27T21:08:50.153Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/cline/cline/issues/8365",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-cline-coding-agent/original-evidence-3f57b7aae808.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DeepSeek V3.2 always put its XML tool calling in reasoning content · Issue #8365 · cline/cline · GitHub",
+      "bodySha256": "4f40c9ea0baadfb67c7a688aaeca382a9044e3669994468731d0ca746a993e31",
+      "capturedAt": "2026-06-27T21:08:47.681Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/cline/cline",
+      "snapshotPath": "archive/evidence/deepseek-v3-1-cline-coding-agent/artifact-1-533d51d9d3de.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant. · GitHub",
+      "bodySha256": "09a8e628360bb9bdcb73567804dd8fcb0d0c044fe298249b8897dc1d8e22dc5b",
+      "capturedAt": "2026-06-27T21:08:49.094Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-5-pro-mar-ekaterina-lastminute-legal",
+  "modelId": "gemini-2-5-pro-mar",
+  "modelName": "Gemini 2.5 Pro (Mar)",
+  "title": "lastminute_legal uses Gemini 2.5 Pro API plus RAG to check Russian advertising creatives for compliance",
+  "evidenceFingerprint": "477cf763828947175b7a8de00c305f5ac795bf59b463f0c4b35b29fc53a8c77a",
+  "capturedAt": "2026-06-27T21:47:12.573Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ekaterina-ya/lastminute_legal/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-ekaterina-lastminute-legal/original-evidence-322280002b10.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "lastminute_legal/README.md at main · ekaterina-ya/lastminute_legal · GitHub",
+      "bodySha256": "1dee0fd10946c4cfaab8d51ce5545c7c3ba1d4dacc66f1d9b274170dda9ecae1",
+      "capturedAt": "2026-06-27T21:47:09.373Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ekaterina-ya/lastminute_legal",
+      "snapshotPath": "archive/evidence/gemini-2-5-pro-mar-ekaterina-lastminute-legal/artifact-1-f55b1c39b440.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ekaterina-ya/lastminute_legal: Telegram bot for automated compliance review of advertising creatives with Russian advertising legislation. Powered by Gemini 2.5 Pro API and Retrieval-Augmented Generation (RAG) for enhanced legal re",
+      "bodySha256": "9c873f4a4496b32dbcfd7904c49af4afb93b683917a936fd123c6b1d95620813",
+      "capturedAt": "2026-06-27T21:47:11.240Z",
+      "error": ""
+    }
+  ]
+}

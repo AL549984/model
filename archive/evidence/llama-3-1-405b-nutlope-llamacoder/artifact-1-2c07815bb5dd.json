@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:06.757Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Nutlope/llamacoder",
+  "finalUrl": "https://github.com/Nutlope/llamacoder",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"870174651fdcb2884e7452ee94c4292e\"",
+  "lastModified": null,
+  "bodyBytes": 297392,
+  "bodySha256": "31b39c279f83ae63d4dc5dc7d2cbc0fc72fb1465208f19baf7b3839b8d32c598",
+  "title": "GitHub - Nutlope/llamacoder: Open source Claude Artifacts – built with Llama 3.1 405B · GitHub",
+  "github": {
+    "owner": "Nutlope",
+    "repo": "llamacoder",
+    "apiStatus": "unavailable"
+  }
+}

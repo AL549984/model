@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-thinking-exp-jan-perplexica-search-ui",
+  "modelId": "gemini-2-0-flash-thinking-exp-jan",
+  "modelName": "Gemini 2.0 Flash Thinking exp. (Jan)",
+  "title": "Perplexica fork added Gemini 2.0 Flash Thinking 01-21 as a selectable search-answering model",
+  "evidenceFingerprint": "937e3113e8352ac5565f54823f3f9cdb9a07c6d9c91e4cba48cc66fa2e91f6c4",
+  "capturedAt": "2026-06-27T21:46:57.978Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/data5650/Perplexica/pull/1",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-perplexica-search-ui/original-evidence-6c1eebed374d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat: add Gemini 2.0 Flash Exp models by data5650 · Pull Request #1 · data5650/Perplexica · GitHub",
+      "bodySha256": "a71c496dbf296efe6b45d98bb03037b9a68d41474e938c800c2e6965e008cb23",
+      "capturedAt": "2026-06-27T21:46:55.676Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/data5650/Perplexica",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-thinking-exp-jan-perplexica-search-ui/artifact-1-1ef1e81ff2d4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - data5650/Perplexica: Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI · GitHub",
+      "bodySha256": "5187de17407ce2b96dc7a1f79d68d7b89f78219265f2c12c909190b3c9d222c0",
+      "capturedAt": "2026-06-27T21:46:56.738Z",
+      "error": ""
+    }
+  ]
+}

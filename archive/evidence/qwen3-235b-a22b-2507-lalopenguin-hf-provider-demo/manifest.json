@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-a22b-2507-lalopenguin-hf-provider-demo",
+  "modelId": "qwen3-235b-a22b-2507",
+  "modelName": "Qwen3 235B A22B 2507",
+  "title": "lalopenguin 在 Hugging Face Space 发布 Qwen3-235B-A22B-Instruct-2507 推理 Demo",
+  "evidenceFingerprint": "23d75b5daea19db71fdb10a29ad4b8775088c98d46d936e04972e4b34934611b",
+  "capturedAt": "2026-06-27T23:25:30.934Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507/blob/main/app.py",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-lalopenguin-hf-provider-demo/original-evidence-dc4ff453d0a0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "app.py · lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507 at main",
+      "bodySha256": "28b60161efd34a02a5043e846be8a4b942afe4a6770dfd3d155544ce91b83d21",
+      "capturedAt": "2026-06-27T23:25:30.045Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/lalopenguin/Qwen-Qwen3-235B-A22B-Instruct-2507",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-lalopenguin-hf-provider-demo/artifact-1-d817c3463963.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Qwen Qwen3 235B A22B Instruct 2507 - a Hugging Face Space by lalopenguin",
+      "bodySha256": "7cc36be814cba37b3634185b719ff2596da7d67cc4c0b89cfd3519c6f733b774",
+      "capturedAt": "2026-06-27T23:25:30.671Z",
+      "error": ""
+    }
+  ]
+}

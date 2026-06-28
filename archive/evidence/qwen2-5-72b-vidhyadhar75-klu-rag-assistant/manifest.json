@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen2-5-72b-vidhyadhar75-klu-rag-assistant",
+  "modelId": "qwen2-5-72b",
+  "modelName": "Qwen2.5 72B",
+  "title": "KL University RAG-based Assistant uses Qwen2.5-72B-Instruct for campus Q&A",
+  "evidenceFingerprint": "b4195d9ddaae93254a689055b029db6bb413c9b5f236d888daf1f05e1fd95b4d",
+  "capturedAt": "2026-06-27T22:59:56.003Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Vidhyadhar75/rag-based-assistant/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-vidhyadhar75-klu-rag-assistant/original-evidence-aed8e71050bc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "rag-based-assistant/README.md at main · Vidhyadhar75/rag-based-assistant · GitHub",
+      "bodySha256": "1b7d81d73f5452b0df34c750a64e5331cdcad13c2496c0c9016c2111948558f0",
+      "capturedAt": "2026-06-27T22:59:53.878Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Vidhyadhar75/rag-based-assistant",
+      "snapshotPath": "archive/evidence/qwen2-5-72b-vidhyadhar75-klu-rag-assistant/artifact-1-5544cead08b2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Vidhyadhar75/rag-based-assistant: A Streamlit-based Retrieval-Augmented Generation (RAG) assistant that answers user queries using semantic search on a custom document (Text_File.txt) and responds via Hugging Face&#39;s Qwen2.5-72B",
+      "bodySha256": "14a6c8c0070a431342c5a6d3023588277a362c6ca257a9ed45a1f45a5e868ffb",
+      "capturedAt": "2026-06-27T22:59:54.923Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-pro-ecoseek-kids-ecology",
+  "modelId": "mimo-v2-pro",
+  "modelName": "MiMo-V2-Pro",
+  "title": "ecoSeek Kids: Kid-friendly ecology study chatbot powered by MiMo V2 Pro",
+  "evidenceFingerprint": "8c17ccc4c2a1dd7e1dff7a256e7e99a363699ae0312fd6e46bda1d798a1c62c7",
+  "capturedAt": "2026-06-27T22:38:05.308Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/alrobles/ecoseek-kids",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-ecoseek-kids-ecology/original-evidence-35bc03fbef2e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - alrobles/ecoseek-kids: ecoSeek Kids — Kid-friendly study assistant powered by MiMo · GitHub",
+      "bodySha256": "928e51ec6cc4b030bedf23b83d78a6d547aeaad17cfe37c1c555619067f1f5cb",
+      "capturedAt": "2026-06-27T22:38:03.376Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://kids.ecoseek.org",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-ecoseek-kids-ecology/artifact-1-d2dde63e7073.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ecoSeek Kids — Scientific Agent for Ecology",
+      "bodySha256": "55646e36b3cf9832304e81df6c43d68b254dd2a3596a162560093e3b4fe43681",
+      "capturedAt": "2026-06-27T22:38:04.274Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:23.078Z",
+  "kind": "original-evidence",
+  "url": "https://huggingface.co/spaces/Omnibus/grok-1-test/raw/main/app.py",
+  "finalUrl": "https://huggingface.co/spaces/Omnibus/grok-1-test/raw/main/app.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"131cd6cabd52503200e979c6f57efa711ebe7ee5\"",
+  "lastModified": null,
+  "bodyBytes": 1501,
+  "bodySha256": "0b88c1bb6734d566423a9f27daab313a067f5afc24498d4cf9daeedfe4ab24a2",
+  "title": "",
+  "github": null
+}

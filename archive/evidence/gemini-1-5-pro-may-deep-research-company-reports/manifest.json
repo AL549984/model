@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-deep-research-company-reports",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "AI-agent-based Deep Research 用 Gemini 1.5 Pro 自动生成公司研究报告和 PDF",
+  "evidenceFingerprint": "f4a5e632b1271f6100ca673e3c4f0a91084b15cfb783b7fedff6d32f41ed6de1",
+  "capturedAt": "2026-06-27T21:40:34.133Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Jatin-Mehra119/AI-agent-based-Deep-Research#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-deep-research-company-reports/original-evidence-5e288fcb300f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Jatin-Mehra119/AI-agent-based-Deep-Research: Agentic system built with LangGraph, LangChain, Gemini 1.5 Pro, Tavily API, FPDF &amp; Streamlit — automates deep company research, performs intelligent web crawling, and generates struc",
+      "bodySha256": "2e16773453d77bfca9e0dc9fb262586787d0f97b3e4264ffaf017bc3ce62e9d6",
+      "capturedAt": "2026-06-27T21:40:32.524Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Jatin-Mehra119/AI-agent-based-Deep-Research",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-deep-research-company-reports/artifact-1-7b5f5d046bde.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Jatin-Mehra119/AI-agent-based-Deep-Research: Agentic system built with LangGraph, LangChain, Gemini 1.5 Pro, Tavily API, FPDF &amp; Streamlit — automates deep company research, performs intelligent web crawling, and generates struc",
+      "bodySha256": "9a61aeb2602d7e2607f1da9093bd6d43860c8a922992cbfd59f9ef0597b28e15",
+      "capturedAt": "2026-06-27T21:40:33.716Z",
+      "error": ""
+    }
+  ]
+}

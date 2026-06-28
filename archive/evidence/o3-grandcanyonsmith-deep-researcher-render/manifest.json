@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o3-grandcanyonsmith-deep-researcher-render",
+  "modelId": "o3",
+  "modelName": "o3",
+  "title": "deep-researcher-render exposes an OpenAI o3-deep-research web service on Render",
+  "evidenceFingerprint": "7109d0ff76e05353002527e3f1ced3766a3d3056eda8b7b8128581a6764957ba",
+  "capturedAt": "2026-06-27T22:51:52.237Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/grandcanyonsmith/deep-researcher-render/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o3-grandcanyonsmith-deep-researcher-render/original-evidence-105c0e66ac52.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "deep-researcher-render/README.md at main · grandcanyonsmith/deep-researcher-render · GitHub",
+      "bodySha256": "8746dd605dde873a404e5e84c5c46746542601f71c00272c1f645ac9544ade2b",
+      "capturedAt": "2026-06-27T22:51:50.145Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/grandcanyonsmith/deep-researcher-render",
+      "snapshotPath": "archive/evidence/o3-grandcanyonsmith-deep-researcher-render/artifact-1-609ef6525fe0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - grandcanyonsmith/deep-researcher-render: FastAPI + OpenAI o3 deep research service for Render (Docker). · GitHub",
+      "bodySha256": "4b808e0dc1c4c010ad8f266f408a8fef9fa6c94d219cf42471d0dd4eccb1ab45",
+      "capturedAt": "2026-06-27T22:51:51.188Z",
+      "error": ""
+    }
+  ]
+}

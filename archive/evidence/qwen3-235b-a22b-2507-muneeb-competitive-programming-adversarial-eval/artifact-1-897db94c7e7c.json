@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:00:07.828Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Muneeb007j/competitive-programming-problem",
+  "finalUrl": "https://github.com/Muneeb007j/competitive-programming-problem",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a3e38d18aa11b987deeb86da51e02635\"",
+  "lastModified": null,
+  "bodyBytes": 258906,
+  "bodySha256": "ddd371346831c57c9a94e5f45fa22d08abf8e933773d4c10346ae19c235cc785",
+  "title": "GitHub - Muneeb007j/competitive-programming-problem: Original Div1/Div2-level competitive programming problem which is designed in way that Qwen_AI model Qwen3-235B-A22B-2507 with thinking disabled should fail on three plausible attempts (s",
+  "github": {
+    "owner": "Muneeb007j",
+    "repo": "competitive-programming-problem",
+    "apiStatus": "unavailable"
+  }
+}

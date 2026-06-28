@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:53:42.267Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/ginkida/gokin",
+  "finalUrl": "https://github.com/ginkida/gokin",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0f4854502d18ee19ede707344bae9b7f\"",
+  "lastModified": null,
+  "bodyBytes": 422291,
+  "bodySha256": "eb75efe0bf40b6bfa9529b68c32269d2d936b5038738ed4f4487e0ad9da76adb",
+  "title": "GitHub - ginkida/gokin: A powerful CLI tool that brings AI assistance directly to your terminal. Gokin understands your codebase and helps with file operations, code search, shell commands, git workflows, task management, and more - all thr",
+  "github": {
+    "owner": "ginkida",
+    "repo": "gokin",
+    "apiStatus": "unavailable"
+  }
+}

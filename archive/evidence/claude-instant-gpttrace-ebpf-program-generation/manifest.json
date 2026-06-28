@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-instant-gpttrace-ebpf-program-generation",
+  "modelId": "claude-instant",
+  "modelName": "Claude Instant",
+  "title": "GPTtrace uses Claude Instant to generate eBPF tracing programs from natural language",
+  "evidenceFingerprint": "2a60b51792465d613d961e59b553978da96901027d122190a05290a1130be2f0",
+  "capturedAt": "2026-06-27T20:54:57.852Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/eunomia-bpf/GPTtrace/blob/main/gpttrace/execute.py#L42-L48",
+      "snapshotPath": "archive/evidence/claude-instant-gpttrace-ebpf-program-generation/original-evidence-351758b4225a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GPTtrace/gpttrace/execute.py at main · eunomia-bpf/GPTtrace · GitHub",
+      "bodySha256": "e8a50ab4dd86d56b466f43e3db23c5a58c5c66505a454c551964a9f840cfc962",
+      "capturedAt": "2026-06-27T20:54:55.754Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/eunomia-bpf/GPTtrace",
+      "snapshotPath": "archive/evidence/claude-instant-gpttrace-ebpf-program-generation/artifact-1-daed04b405d7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - eunomia-bpf/GPTtrace: Generate eBPF programs and tracing with ChatGPT · GitHub",
+      "bodySha256": "43da3d82748b26558939e678e91af4da6100de830842664a69dc48f58a8bb041",
+      "capturedAt": "2026-06-27T20:54:56.736Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-v2-khalimanja-omni-bot",
+  "modelId": "grok-4-20-0309-v2",
+  "modelName": "Grok 4.20 0309 v2",
+  "title": "khalimanja 的 omni-bot 使用 Grok 4.20 Reasoning 自动回复销售线索 Webhook",
+  "evidenceFingerprint": "a3bf8463c19a2437975ab33b75b7c8314f55985d4defa4d2cfd78788bd58489f",
+  "capturedAt": "2026-06-27T22:15:48.491Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/khalimanja/omni-bot/blob/main/omni_bot.py",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-khalimanja-omni-bot/original-evidence-d55584aeb790.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "omni-bot/omni_bot.py at main · khalimanja/omni-bot · GitHub",
+      "bodySha256": "f26d4e95f981eb7517851d26f71f3f3123578eb2915067ed909b91e7f74ab066",
+      "capturedAt": "2026-06-27T22:15:46.394Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/khalimanja/omni-bot",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-v2-khalimanja-omni-bot/artifact-1-e4ef6724cdb7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - khalimanja/omni-bot: Autonomous AI Freelance Empire Bot running on Grok 4.20 · GitHub",
+      "bodySha256": "5ab7ab36ba6cf050ea22d46d1e3ff598669f53c588618092586622a94c63f1c3",
+      "capturedAt": "2026-06-27T22:15:47.440Z",
+      "error": ""
+    }
+  ]
+}

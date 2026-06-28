@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:51:31.938Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Aider-AI/aider/blob/main/README.md#features",
+  "finalUrl": "https://github.com/Aider-AI/aider/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"16a99c7892b48ee232cc20b6ff87378b\"",
+  "lastModified": null,
+  "bodyBytes": 345203,
+  "bodySha256": "5503ed7a05b87d4b526d09ebd3ec705b04c4639901e26c991f405cd61c161cfd",
+  "title": "aider/README.md at main · Aider-AI/aider · GitHub",
+  "github": {
+    "owner": "Aider-AI",
+    "repo": "aider",
+    "apiStatus": "unavailable"
+  }
+}

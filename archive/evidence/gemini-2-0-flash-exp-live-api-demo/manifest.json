@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-2-0-flash-exp-live-api-demo",
+  "modelId": "gemini-2-0-flash-exp",
+  "modelName": "Gemini 2.0 Flash (exp)",
+  "title": "Gemini 2.0 Flash Multimodal Live API Demo — Real-time audio/video/screen interaction client",
+  "evidenceFingerprint": "0c60859b37eb560705908c6a9139da1828846e1cbf3d4e00088d2f3790d408a5",
+  "capturedAt": "2026-06-27T21:46:45.841Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ViaAnthroposBenevolentia/gemini-2-live-api-demo",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-live-api-demo/original-evidence-97af110a6c87.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ViaAnthroposBenevolentia/gemini-2-live-api-demo: Vanilla JS web interface for Gemini 2.0 flash-exp Multimodal API with text, audio, camera, screen inputs and audio responses and function calling · GitHub",
+      "bodySha256": "4ae12478c4b0eaa48d3055da3590936b9f2cce027149349ac7184867a0c9497e",
+      "capturedAt": "2026-06-27T21:46:42.780Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://viaanthroposbenevolentia.github.io/gemini-2-live-api-demo/",
+      "snapshotPath": "archive/evidence/gemini-2-0-flash-exp-live-api-demo/artifact-1-572335df266c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Gemini Live",
+      "bodySha256": "e5378a766f69da80bf07cc5b7909e2531e22686d165dc736e42761ebcb358903",
+      "capturedAt": "2026-06-27T21:46:45.059Z",
+      "error": ""
+    }
+  ]
+}

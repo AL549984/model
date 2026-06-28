@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:53.649Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/abswn/gradient-chat-python/refs/heads/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/abswn/gradient-chat-python/refs/heads/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2258",
+  "etag": "W/\"0fb3652e42d8f7aa76671943d53fbd9b750ff7cd4431249a41ef2f7a06d5a721\"",
+  "lastModified": null,
+  "bodyBytes": 5807,
+  "bodySha256": "ac6772757b7210c3faba64f85e4dacbd0185eb9743c1e0cc961ecce351d4af14",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:47.399Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/5dmgmt/claude-codex-audit-toolkit/main/docs/01-overview.md",
+  "finalUrl": "https://raw.githubusercontent.com/5dmgmt/claude-codex-audit-toolkit/main/docs/01-overview.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4486",
+  "etag": "W/\"ef0d9a2afc6c469a00978d4138ffe24a5271ed29d1d1148a5e66fd3497ea1154\"",
+  "lastModified": null,
+  "bodyBytes": 10120,
+  "bodySha256": "ec015dcdb47d700f9ea98b7c6bb6812f006ff256d37a5c4ea0f5b6132e0f663f",
+  "title": "",
+  "github": null
+}

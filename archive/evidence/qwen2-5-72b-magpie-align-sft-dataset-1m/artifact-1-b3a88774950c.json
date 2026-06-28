@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:49.333Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2.5-Pro-1M-v0.1",
+  "finalUrl": "https://huggingface.co/datasets/Magpie-Align/Magpie-Qwen2.5-Pro-1M-v0.1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e3ecc-jaXq0t8aBcSwUljje+5YMjVq9mI\"",
+  "lastModified": null,
+  "bodyBytes": 933580,
+  "bodySha256": "0e72a2eaed56ee983249907a211aaf46ee087a1341cad59d61961db50c58291b",
+  "title": "Magpie-Align/Magpie-Qwen2.5-Pro-1M-v0.1 · Datasets at Hugging Face",
+  "github": null
+}

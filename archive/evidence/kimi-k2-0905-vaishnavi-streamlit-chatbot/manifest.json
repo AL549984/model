@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-0905-vaishnavi-streamlit-chatbot",
+  "modelId": "kimi-k2-0905",
+  "modelName": "Kimi K2 0905",
+  "title": "VaishnaviAnalyzed 用 Kimi K2 Instruct 0905 构建 Streamlit 聊天机器人",
+  "evidenceFingerprint": "cdf57b5d53a2cfe495992b7de27c1f8c24fdd10a2d169071e77481a7fad75dbe",
+  "capturedAt": "2026-06-27T22:22:30.446Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/VaishnaviAnalyzed/kimi-k2-ai-chatbot/blob/main/kimiapp.py",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-vaishnavi-streamlit-chatbot/original-evidence-e6dfa6bd4eaa.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "kimi-k2-ai-chatbot/kimiapp.py at main · VaishnaviAnalyzed/kimi-k2-ai-chatbot · GitHub",
+      "bodySha256": "6089cd3e97338ea354efd05c62544ad3981ec548010dd79ebae772060d48fc80",
+      "capturedAt": "2026-06-27T22:22:27.645Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/VaishnaviAnalyzed/kimi-k2-ai-chatbot",
+      "snapshotPath": "archive/evidence/kimi-k2-0905-vaishnavi-streamlit-chatbot/artifact-1-26f301bd1df3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - VaishnaviAnalyzed/kimi-k2-ai-chatbot: Kimi Chatbot AI 🤖 A sleek, conversational chatbot interface built using Streamlit and powered by the Groq API utilizing the `moonshotai/kimi-k2-instruct-0905` model. This application supports ",
+      "bodySha256": "d8819323ca8a400ee63e5b284cc75c92328c0bcad04a11cb671afde6ce574edb",
+      "capturedAt": "2026-06-27T22:22:29.046Z",
+      "error": ""
+    }
+  ]
+}

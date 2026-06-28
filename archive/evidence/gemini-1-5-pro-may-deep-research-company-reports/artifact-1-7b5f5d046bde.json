@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:33.716Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Jatin-Mehra119/AI-agent-based-Deep-Research",
+  "finalUrl": "https://github.com/Jatin-Mehra119/AI-agent-based-Deep-Research",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"bd65ecc3340402f74c09d128132b6502\"",
+  "lastModified": null,
+  "bodyBytes": 343721,
+  "bodySha256": "9a61aeb2602d7e2607f1da9093bd6d43860c8a922992cbfd59f9ef0597b28e15",
+  "title": "GitHub - Jatin-Mehra119/AI-agent-based-Deep-Research: Agentic system built with LangGraph, LangChain, Gemini 1.5 Pro, Tavily API, FPDF &amp; Streamlit — automates deep company research, performs intelligent web crawling, and generates struc",
+  "github": {
+    "owner": "Jatin-Mehra119",
+    "repo": "AI-agent-based-Deep-Research",
+    "apiStatus": "unavailable"
+  }
+}

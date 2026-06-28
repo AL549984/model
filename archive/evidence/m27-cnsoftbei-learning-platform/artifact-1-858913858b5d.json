@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:32.170Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/DanoAndHolidays/cnsoftbei",
+  "finalUrl": "https://github.com/DanoAndHolidays/cnsoftbei",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"50edb4332ffc702dd7b69d42a44a3b4d\"",
+  "lastModified": null,
+  "bodyBytes": 341614,
+  "bodySha256": "5291be745847e13dfcd23bce4171f19246c705856f89a5d1bf46772e13a9447c",
+  "title": "GitHub - DanoAndHolidays/cnsoftbei: 它是一个 AI 驱动的个性化学习平台，通过多智能体协作（画像构建、资源生成、路径规划、智能辅导、学习评估）提供学习支持。前端使用 React + TypeScript + Vite + Ant Design，后端调用 MiniMax-M2.7 大模型（兼容 Anthropic API 格式）。 · GitHub",
+  "github": {
+    "owner": "DanoAndHolidays",
+    "repo": "cnsoftbei",
+    "apiStatus": "unavailable"
+  }
+}

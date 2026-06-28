@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-5-xhigh-5dmgmt-claude-codex-audit-toolkit",
+  "modelId": "gpt-5-5-xhigh",
+  "modelName": "GPT-5.5 (xhigh)",
+  "title": "5dmgmt 用 GPT-5.5 xhigh/Codex CLI 审计 Claude Code 产出的文档与代码库",
+  "evidenceFingerprint": "fdd8bc645a55fba6311d6d6841771de8d3ec44e2b5e8f61d5651afdf78f337b8",
+  "capturedAt": "2026-06-27T21:14:48.995Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/5dmgmt/claude-codex-audit-toolkit/main/docs/01-overview.md",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-5dmgmt-claude-codex-audit-toolkit/original-evidence-1be7b9afe66c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ec015dcdb47d700f9ea98b7c6bb6812f006ff256d37a5c4ea0f5b6132e0f663f",
+      "capturedAt": "2026-06-27T21:14:47.399Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/5dmgmt/claude-codex-audit-toolkit",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-5dmgmt-claude-codex-audit-toolkit/artifact-1-2e2e81cfde1b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - 5dmgmt/claude-codex-audit-toolkit: Claude Code で書いた成果物を Codex CLI で監査する際の運用ツールキット (五月雨防止プロンプト v2 / 5 つの決定的対策 / 収束判定基準) · GitHub",
+      "bodySha256": "788432cd0b79403bcc18e20bc9329e61da94988fa8c6c8053d9cd6f7a4d908cd",
+      "capturedAt": "2026-06-27T21:14:47.761Z",
+      "error": ""
+    }
+  ]
+}

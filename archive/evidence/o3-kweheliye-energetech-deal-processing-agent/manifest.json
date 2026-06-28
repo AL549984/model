@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o3-kweheliye-energetech-deal-processing-agent",
+  "modelId": "o3",
+  "modelName": "o3",
+  "title": "Energetech deal processing agent uses OpenAI o3 to extract and validate energy trade memos",
+  "evidenceFingerprint": "ad279a8bca39b8273c2072179381d20faa450600b62d17c236e7856ecc618c09",
+  "capturedAt": "2026-06-27T22:51:56.658Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/kweheliye/energetech-ai-assessment/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o3-kweheliye-energetech-deal-processing-agent/original-evidence-230b3b6d5163.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "energetech-ai-assessment/README.md at main · kweheliye/energetech-ai-assessment · GitHub",
+      "bodySha256": "38b82cc93ce9f58d840503eb273f743f95b204f69c2ce5916bdb6938311736eb",
+      "capturedAt": "2026-06-27T22:51:54.337Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/kweheliye/energetech-ai-assessment",
+      "snapshotPath": "archive/evidence/o3-kweheliye-energetech-deal-processing-agent/artifact-1-a2f6ad3fcd73.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - kweheliye/energetech-ai-assessment: Deal confirmation processing agent, LangChain + OpenAI o3, FastAPI, Pydantic validation, mock credit check via tool use. · GitHub",
+      "bodySha256": "b4b8b37ef5fd5ad83d9358ba4b9eea28a7e27f8f27bfba6cc1354df8202bef77",
+      "capturedAt": "2026-06-27T22:51:55.428Z",
+      "error": ""
+    }
+  ]
+}

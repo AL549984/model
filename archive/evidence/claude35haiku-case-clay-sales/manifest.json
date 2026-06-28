@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude35haiku-case-clay-sales",
+  "modelId": "claude-3-haiku",
+  "modelName": "Claude 3 Haiku",
+  "title": "Clay sales enrichment and messaging",
+  "evidenceFingerprint": "406727475d96cdf04e21853dd3241a3f3da2795bcfcbb4f5009ac9e89af6dceb",
+  "capturedAt": "2026-06-27T23:27:00.002Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://www.anthropic.com/customers/clay",
+      "snapshotPath": "archive/evidence/claude35haiku-case-clay-sales/original-evidence-a28f0ca7e092.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Clay Claude Platform (API) case study | Claude by Anthropic",
+      "bodySha256": "01e380ed10c2cf2271bbcc80eabf7831b34d6fdd0e57253d5b3c72d4aaf333bb",
+      "capturedAt": "2026-06-27T23:26:54.517Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://www.clay.com/",
+      "snapshotPath": "archive/evidence/claude35haiku-case-clay-sales/artifact-1-908f51377908.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Clay | Build systems to grow revenue",
+      "bodySha256": "b4b9c9ce275369f10e0e35d7485d30b214faf054e3028411196f291ad8474f58",
+      "capturedAt": "2026-06-27T23:26:58.803Z",
+      "error": ""
+    }
+  ]
+}

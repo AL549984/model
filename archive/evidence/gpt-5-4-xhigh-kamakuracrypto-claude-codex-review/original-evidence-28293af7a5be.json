@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:14:46.099Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/KamakuraCrypto/claude-codex-review/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/KamakuraCrypto/claude-codex-review/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "3563",
+  "etag": "W/\"b9096c5face68cc1805387187b33d720b62c061ef60143d9a426b00946198887\"",
+  "lastModified": null,
+  "bodyBytes": 7735,
+  "bodySha256": "91b50f12e6940ca7516e737d34b4a773e742fc56a6ebe00ffeef13f82e579b81",
+  "title": "",
+  "github": null
+}

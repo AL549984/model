@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:15:05.704Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/jmtroller/bko-document-extraction/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/jmtroller/bko-document-extraction/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2206",
+  "etag": "W/\"c944d17b0d32bdab3c5a6b001978b0c5c88c169ce68688ac8c898e25109d62e2\"",
+  "lastModified": null,
+  "bodyBytes": 4748,
+  "bodySha256": "beb67a3a609cec617f30978aae50386512ee99e0a1203902d4ea154a4919667f",
+  "title": "",
+  "github": null
+}

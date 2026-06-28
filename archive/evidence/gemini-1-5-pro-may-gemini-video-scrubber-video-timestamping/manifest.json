@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-pro-may-gemini-video-scrubber-video-timestamping",
+  "modelId": "gemini-1-5-pro-may",
+  "modelName": "Gemini 1.5 Pro (May)",
+  "title": "Gemini Video Scrubber 用 Gemini 1.5 Pro 定位长视频片段时间戳",
+  "evidenceFingerprint": "70613c8c8e396f2bbac9ca980e14ee28836e1e5489f4f39cd059f655a5429b53",
+  "capturedAt": "2026-06-27T21:40:39.244Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/trippedout/gemini-video-scrubber#readme",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-gemini-video-scrubber-video-timestamping/original-evidence-10ebead5df0d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - trippedout/gemini-video-scrubber: A simple demo application showcasing the power of Gemini 1.5 Pro&#39;s video understanding capabilities. · GitHub",
+      "bodySha256": "d6da5a5a230fbaa19ab3d4cd372c976c185e1e2a48e8417d55cefda9c8f92a98",
+      "capturedAt": "2026-06-27T21:40:37.545Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/trippedout/gemini-video-scrubber",
+      "snapshotPath": "archive/evidence/gemini-1-5-pro-may-gemini-video-scrubber-video-timestamping/artifact-1-390528f558d3.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - trippedout/gemini-video-scrubber: A simple demo application showcasing the power of Gemini 1.5 Pro&#39;s video understanding capabilities. · GitHub",
+      "bodySha256": "03296dcb116aefb4baf7f2307a04441c63677ebcdf42ae70a512be53a788b0d4",
+      "capturedAt": "2026-06-27T21:40:38.723Z",
+      "error": ""
+    }
+  ]
+}

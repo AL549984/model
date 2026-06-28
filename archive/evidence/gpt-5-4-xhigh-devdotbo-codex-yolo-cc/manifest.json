@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-4-xhigh-devdotbo-codex-yolo-cc",
+  "modelId": "gpt-5-4-xhigh",
+  "modelName": "GPT-5.4 (xhigh)",
+  "title": "devdotbo forces GPT 5.4 xhigh in a Claude Code Codex YOLO plugin for execution and dual review",
+  "evidenceFingerprint": "26147629f4e92b8c141c63df440c46f16629f271f3b11336860256101868f3d1",
+  "capturedAt": "2026-06-27T22:07:56.287Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/devdotbo/codex-yolo-cc/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-devdotbo-codex-yolo-cc/original-evidence-5c6e9c63a9ec.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "codex-yolo-cc/README.md at main · devdotbo/codex-yolo-cc · GitHub",
+      "bodySha256": "88f906b0e447c32142001d0ef0f9b4ce638d43d74a952fa9c94101236dcf8f08",
+      "capturedAt": "2026-06-27T22:07:54.238Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/devdotbo/codex-yolo-cc",
+      "snapshotPath": "archive/evidence/gpt-5-4-xhigh-devdotbo-codex-yolo-cc/artifact-1-1852e2a30e0b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - devdotbo/codex-yolo-cc: Codex YOLO plugin for Claude Code - GPT 5.4 xhigh, full-access execute, dual-review workflow. Fork of openai/codex-plugin-cc. · GitHub",
+      "bodySha256": "6ec475ababb02a2b2ba63cfe777bf8771fba22d904c09f3b0404d93075dbacdf",
+      "capturedAt": "2026-06-27T22:07:55.203Z",
+      "error": ""
+    }
+  ]
+}

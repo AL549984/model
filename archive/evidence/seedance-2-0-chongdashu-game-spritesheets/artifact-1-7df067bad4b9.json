@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:20.446Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/chongdashu/ai-game-spritesheets",
+  "finalUrl": "https://github.com/chongdashu/ai-game-spritesheets",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"40632cd44e8c4608c22c14f0cdc60085\"",
+  "lastModified": null,
+  "bodyBytes": 282337,
+  "bodySha256": "50d4e496462b112542d118181600d11d74e5881c2cd3dabf868161d0750d1aeb",
+  "title": "GitHub - chongdashu/ai-game-spritesheets: Generate character sprites using AI (Images 2.0 + Seedance 2.0) · GitHub",
+  "github": {
+    "owner": "chongdashu",
+    "repo": "ai-game-spritesheets",
+    "apiStatus": "unavailable"
+  }
+}

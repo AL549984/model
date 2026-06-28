@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:23.182Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/DEV-D-GR8/TextGenius",
+  "finalUrl": "https://github.com/DEV-D-GR8/TextGenius",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ad9233a504514570656b87299791a0ac\"",
+  "lastModified": null,
+  "bodyBytes": 293123,
+  "bodySha256": "ac77a7b6a425d375b073110dd081088b1e001ece447820e2a3431c5e801dc699",
+  "title": "GitHub - DEV-D-GR8/TextGenius: This project provides a custom keyboard for iPhones, built using UIKit, and a companion app built with SwiftUI for customization options. The keyboard features a built-in search bar that integrates with the Ge",
+  "github": {
+    "owner": "DEV-D-GR8",
+    "repo": "TextGenius",
+    "apiStatus": "unavailable"
+  }
+}

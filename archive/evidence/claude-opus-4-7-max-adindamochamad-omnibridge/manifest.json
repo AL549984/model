@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-opus-4-7-max-adindamochamad-omnibridge",
+  "modelId": "claude-opus-4-7-max",
+  "modelName": "Claude Opus 4.7 (max)",
+  "title": "OmniBridge uses Claude Opus 4.7 to identify undocumented legacy serial-device protocols",
+  "evidenceFingerprint": "91cf45134c746f39b4765c7b4104584ecacf05329e5c53bb06b39defafdd2b62",
+  "capturedAt": "2026-06-27T21:01:21.939Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/adindamochamad/omnibridge#readme",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-adindamochamad-omnibridge/original-evidence-663704977abf.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - adindamochamad/omnibridge: An AI agent that identifies legacy serial device protocols autonomously. Built for Claude Opus 4.7 Hackathon 2026. · GitHub",
+      "bodySha256": "04ac9ba0bed7cc65f2ca63d5407a55268dd2d2343103c1941d8daab22db5b6e8",
+      "capturedAt": "2026-06-27T21:01:18.796Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/adindamochamad/omnibridge",
+      "snapshotPath": "archive/evidence/claude-opus-4-7-max-adindamochamad-omnibridge/artifact-1-3c486009a99d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - adindamochamad/omnibridge: An AI agent that identifies legacy serial device protocols autonomously. Built for Claude Opus 4.7 Hackathon 2026. · GitHub",
+      "bodySha256": "4193b53ed4d5623a91cacce5b80bcd59bbd86733b605e1f9d645bc8ade908781",
+      "capturedAt": "2026-06-27T21:01:21.292Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:22.384Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/SamurAIGPT/seedance-2-generator#readme",
+  "finalUrl": "https://github.com/SamurAIGPT/seedance-2-generator",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e798245f165dde04a521d5ef47e9d6be\"",
+  "lastModified": null,
+  "bodyBytes": 323069,
+  "bodySha256": "5f91304be900c20d64f76a5db2c55f385fa1bc26af2c412d76debf314a8f4444",
+  "title": "GitHub - SamurAIGPT/seedance-2-generator: Open-source Next.js SaaS for Seedance 2.0 , Seedance 2.5 and Seedance 2 Mini video generation — Stripe billing, credits, NextAuth, and Prisma out of the box. · GitHub",
+  "github": {
+    "owner": "SamurAIGPT",
+    "repo": "seedance-2-generator",
+    "apiStatus": "unavailable"
+  }
+}

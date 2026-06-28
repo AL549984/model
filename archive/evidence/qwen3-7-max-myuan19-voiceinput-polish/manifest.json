@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-7-max-myuan19-voiceinput-polish",
+  "modelId": "qwen3-7-max",
+  "modelName": "Qwen3.7 Max",
+  "title": "myuan19 VoiceInput 用 Qwen3.7 Max 做语音转文字后的文本润色模型",
+  "evidenceFingerprint": "70fe0f6c717a06239519d6a3e9f3a1cb11ac0ba3c9508ffb6c73dd3f99cef435",
+  "capturedAt": "2026-06-27T23:08:05.407Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/myuan19/voiceInput/blob/main/README.md#%EF%B8%8F-%E9%85%8D%E7%BD%AE%E6%A6%82%E8%A7%88",
+      "snapshotPath": "archive/evidence/qwen3-7-max-myuan19-voiceinput-polish/original-evidence-0eb31fd21d72.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "voiceInput/README.md at main · myuan19/voiceInput · GitHub",
+      "bodySha256": "d2a610ec6a7fb222d0d77e0a27744b056b4a48ee442a8ebb53f133a1d4b69390",
+      "capturedAt": "2026-06-27T23:08:03.107Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/myuan19/voiceInput",
+      "snapshotPath": "archive/evidence/qwen3-7-max-myuan19-voiceinput-polish/artifact-1-5b2e5db863bc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - myuan19/voiceInput: Windows AI 语音输入🎙 — 按快捷键说话即输入，支持润色。摆脱打字限制，实现无拘束、高效率的表达。 · GitHub",
+      "bodySha256": "c87c7297568d76d6a98635d893f8a2318e901c40001dc7e69a6436b2f799830b",
+      "capturedAt": "2026-06-27T23:08:04.265Z",
+      "error": ""
+    }
+  ]
+}

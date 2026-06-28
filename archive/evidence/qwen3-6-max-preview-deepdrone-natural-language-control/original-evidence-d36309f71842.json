@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:22.666Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/LeaderOnePro/deepdrone/blob/06d5f4ac0c90ac55a4168c6c12dc384c80241d2c/drone/interactive_setup.py",
+  "finalUrl": "https://github.com/LeaderOnePro/deepdrone/blob/06d5f4ac0c90ac55a4168c6c12dc384c80241d2c/drone/interactive_setup.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b9d33cfb7772dbec3435cfc3923d627a\"",
+  "lastModified": null,
+  "bodyBytes": 618687,
+  "bodySha256": "a33549f40dc75bc35f7d4d2719578209c6901b5f394218da7860c6d6de283e11",
+  "title": "deepdrone/drone/interactive_setup.py at 06d5f4ac0c90ac55a4168c6c12dc384c80241d2c · LeaderOnePro/deepdrone · GitHub",
+  "github": {
+    "owner": "LeaderOnePro",
+    "repo": "deepdrone",
+    "htmlUrl": "https://github.com/LeaderOnePro/deepdrone",
+    "defaultBranch": "main",
+    "defaultBranchSha": "06d5f4ac0c90ac55a4168c6c12dc384c80241d2c",
+    "pushedAt": "2026-05-04T08:10:05Z",
+    "updatedAt": "2026-05-04T08:10:10Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

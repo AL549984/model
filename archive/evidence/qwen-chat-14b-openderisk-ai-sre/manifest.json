@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen-chat-14b-openderisk-ai-sre",
+  "modelId": "qwen-chat-14b",
+  "modelName": "Qwen Chat 14B",
+  "title": "OpenDerisk includes Qwen-14B-Chat as a local model for AI-driven SRE risk intelligence",
+  "evidenceFingerprint": "81ab77a8d587a2cdad3fb81d59843845fd4ad1b081a44cb0faf78a327828f768",
+  "capturedAt": "2026-06-27T22:59:21.213Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/derisk-ai/OpenDerisk/blob/main/packages/derisk-core/src/derisk/configs/model_config.py",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-openderisk-ai-sre/original-evidence-05ec141bee90.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "OpenDerisk/packages/derisk-core/src/derisk/configs/model_config.py at main · derisk-ai/OpenDerisk · GitHub",
+      "bodySha256": "af3e3e41dcbcad742911e29035d0ef03aa2f81f63163dd609ac523d3e0898bba",
+      "capturedAt": "2026-06-27T22:59:18.781Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/derisk-ai/OpenDerisk",
+      "snapshotPath": "archive/evidence/qwen-chat-14b-openderisk-ai-sre/artifact-1-d02d306ad843.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - derisk-ai/OpenDerisk: AI-Native Risk Intelligence Systems, OpenDeRisk——Your application system risk intelligent manager provides 7* 24-hour comprehensive and in-depth protection. · GitHub",
+      "bodySha256": "2e6833830c0b3feac9516e0113b212e77a8c2d5ed1b40ab2bd776adac463e51e",
+      "capturedAt": "2026-06-27T22:59:20.021Z",
+      "error": ""
+    }
+  ]
+}

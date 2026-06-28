@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:08.341Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/iii-hq/workers/pull/252",
+  "finalUrl": "https://github.com/iii-hq/workers/pull/252",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 845328,
+  "bodySha256": "ffe53b4c0fb70ae40373d1e2503cee48cef9a2e37cccbf0c4139b0da0677f4c0",
+  "title": "feat(provider-openai): standalone OpenAI Chat Completions provider worker by ytallo · Pull Request #252 · iii-hq/workers · GitHub",
+  "github": {
+    "owner": "iii-hq",
+    "repo": "workers",
+    "apiStatus": "unavailable"
+  }
+}

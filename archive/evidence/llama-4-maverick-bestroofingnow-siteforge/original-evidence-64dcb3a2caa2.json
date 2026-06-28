@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:30:10.055Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/bestroofingnow/siteforge/blob/main/README.md",
+  "finalUrl": "https://github.com/bestroofingnow/siteforge/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dcbe9e509743b7e9c0d45e75c9ecfba1\"",
+  "lastModified": null,
+  "bodyBytes": 279395,
+  "bodySha256": "d8da70656404c47d3cf0298459d3ee3ff0b3f8fdf023e949f42ac95213283566",
+  "title": "siteforge/README.md at main · bestroofingnow/siteforge · GitHub",
+  "github": {
+    "owner": "bestroofingnow",
+    "repo": "siteforge",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok4-firecrawl-data-enrichment",
+  "modelId": "grok-4",
+  "modelName": "Grok 4",
+  "title": "Firecrawl Grok 4 Fire Enrich — AI-Powered Email-to-Company Data Enrichment",
+  "evidenceFingerprint": "fcd252db99a6d11106a9306fef34de3dc9619b63312d4a411047d072a330a1a1",
+  "capturedAt": "2026-06-27T22:22:11.369Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/firecrawl/grok-4-fire-enrich",
+      "snapshotPath": "archive/evidence/grok4-firecrawl-data-enrichment/original-evidence-a2a19b275637.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - firecrawl/grok-4-fire-enrich · GitHub",
+      "bodySha256": "8b9e3e6839b25f612f7d4c516066d61f6066a055f2c27b2f9be02f9a0a755c15",
+      "capturedAt": "2026-06-27T22:22:09.651Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/firecrawl/grok-4-fire-enrich",
+      "snapshotPath": "archive/evidence/grok4-firecrawl-data-enrichment/artifact-1-a2a19b275637.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - firecrawl/grok-4-fire-enrich · GitHub",
+      "bodySha256": "8198e4682b159d616e36f97d51876bc2521c745789e83f34c22dbfcebf3554d1",
+      "capturedAt": "2026-06-27T22:22:10.878Z",
+      "error": ""
+    }
+  ]
+}

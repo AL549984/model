@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "bagel-dfloat11-lossless-compression",
+  "modelId": "bagel",
+  "modelName": "BAGEL",
+  "title": "DFloat11 发布 BAGEL-7B-MoT 的无损压缩版以降低显存门槛",
+  "evidenceFingerprint": "f2429d71293e00133eae6b735b56abee755aacac872fa9d68a41353dbb383c40",
+  "capturedAt": "2026-06-27T23:25:18.880Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/DFloat11/BAGEL-7B-MoT-DF11/raw/main/README.md",
+      "snapshotPath": "archive/evidence/bagel-dfloat11-lossless-compression/original-evidence-dc43496e9190.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "ad7100d1a929bc128dda39e0e2deb4f3b0d59780ef6bfbf0fa66f01aa23dbf84",
+      "capturedAt": "2026-06-27T23:25:18.292Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/DFloat11/BAGEL-7B-MoT-DF11",
+      "snapshotPath": "archive/evidence/bagel-dfloat11-lossless-compression/artifact-1-aa8361569670.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DFloat11/BAGEL-7B-MoT-DF11 · Hugging Face",
+      "bodySha256": "56f2d87fb171bff9851072ab60f84ecc0813bc1708c614e07b5597d2a52c0fd5",
+      "capturedAt": "2026-06-27T23:25:18.529Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-instant-julep-agent-platform-model-registry",
+  "modelId": "claude-instant",
+  "modelName": "Claude Instant",
+  "title": "Julep includes Claude Instant in its AI agent platform model registry",
+  "evidenceFingerprint": "ceddccb875b4b409c77e0b9610657b38803d522eca73c605b63dcfe6aa5cb1b1",
+  "capturedAt": "2026-06-27T20:54:59.859Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/julep-ai/julep/blob/dev/src/agents-api/agents_api/model_registry.py#L74-L79",
+      "snapshotPath": "archive/evidence/claude-instant-julep-agent-platform-model-registry/original-evidence-8c0099f1b4b1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "julep/src/agents-api/agents_api/model_registry.py at dev · julep-ai/julep · GitHub",
+      "bodySha256": "321c0a498e4f40ff71bbb7e838a5add13aa543bfafb6055b1962dd040d5d0479",
+      "capturedAt": "2026-06-27T20:54:57.853Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/julep-ai/julep",
+      "snapshotPath": "archive/evidence/claude-instant-julep-agent-platform-model-registry/artifact-1-42462a42aaf4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - julep-ai/julep: Firebase for AI agents · GitHub",
+      "bodySha256": "76b8e8db33bc15c4115bb7262747ec778ffdbb500f758f748413bd3101905359",
+      "capturedAt": "2026-06-27T20:54:58.909Z",
+      "error": ""
+    }
+  ]
+}

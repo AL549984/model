@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:49.699Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/zjcolacode/video-auto-edit-agent/blob/main/README.md",
+  "finalUrl": "https://github.com/zjcolacode/video-auto-edit-agent/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"95f0c8093ad37651e855df055e181fdf\"",
+  "lastModified": null,
+  "bodyBytes": 387319,
+  "bodySha256": "2caa74dba96eafa6cc717d119138711dd0ae690839b08a2d694b94a23f1c6644",
+  "title": "video-auto-edit-agent/README.md at main · zjcolacode/video-auto-edit-agent · GitHub",
+  "github": {
+    "owner": "zjcolacode",
+    "repo": "video-auto-edit-agent",
+    "htmlUrl": "https://github.com/zjcolacode/video-auto-edit-agent",
+    "defaultBranch": "main",
+    "defaultBranchSha": "cf3d9a6f339015f6ef982dbf47d98356be84f815",
+    "pushedAt": "2026-05-30T12:34:35Z",
+    "updatedAt": "2026-05-30T12:34:39Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:40:51.643Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/milanglacier/minuet-ai.nvim#minuet-change_model",
+  "finalUrl": "https://github.com/milanglacier/minuet-ai.nvim",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0aeedbf7496d6adcc8aedd328ff9822b\"",
+  "lastModified": null,
+  "bodyBytes": 895300,
+  "bodySha256": "0ebf1f3a7da1f2c64107596ed59f6f2fe3f5ea88848ed35ff8be2e8b8652d70b",
+  "title": "GitHub - milanglacier/minuet-ai.nvim: 💃 Dance with Intelligence in Your Code. Minuet offers code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more. · GitHub",
+  "github": {
+    "owner": "milanglacier",
+    "repo": "minuet-ai.nvim",
+    "apiStatus": "unavailable"
+  }
+}

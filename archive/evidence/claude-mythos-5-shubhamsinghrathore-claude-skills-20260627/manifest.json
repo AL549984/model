@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-mythos-5-shubhamsinghrathore-claude-skills-20260627",
+  "modelId": "claude-mythos-5",
+  "modelName": "Claude Mythos 5",
+  "title": "shubhamsinghrathore 用 Claude Mythos 5 创建 DevOps 调试类 Claude Skills",
+  "evidenceFingerprint": "45e3e6d6f9eced78b75f0e5d985264c8dd14ed8452a219e52548537615fd975b",
+  "capturedAt": "2026-06-27T20:55:05.624Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/shubhamsinghrathore/CLAUDE-SKILLS/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-mythos-5-shubhamsinghrathore-claude-skills-20260627/original-evidence-c3b9d8b960dd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "CLAUDE-SKILLS/README.md at main · shubhamsinghrathore/CLAUDE-SKILLS · GitHub",
+      "bodySha256": "02d2e08caa75d6c11b5fb78c306bd1bcca675767b0ab71dd92bea21ea60411ce",
+      "capturedAt": "2026-06-27T20:55:03.769Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/shubhamsinghrathore/CLAUDE-SKILLS",
+      "snapshotPath": "archive/evidence/claude-mythos-5-shubhamsinghrathore-claude-skills-20260627/artifact-1-5853890d5729.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - shubhamsinghrathore/CLAUDE-SKILLS: I have created Claude skills with the use of Mythos 5 model to debug and issue · GitHub",
+      "bodySha256": "aab435e1203fad41622e3e4210678780eac2351be30d8c919cdb04631e4afae0",
+      "capturedAt": "2026-06-27T20:55:04.684Z",
+      "error": ""
+    }
+  ]
+}

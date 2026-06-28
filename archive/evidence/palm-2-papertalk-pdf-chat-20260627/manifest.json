@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "palm-2-papertalk-pdf-chat-20260627",
+  "modelId": "palm-2",
+  "modelName": "PALM-2",
+  "title": "PaperTalk used PaLM 2, FAISS and LangChain for PDF summarization and document chat",
+  "evidenceFingerprint": "85d786d39bd0538cd4aa16f0b39f21683404b11783c9f54b83ef933d099aeabc",
+  "capturedAt": "2026-06-27T22:52:13.070Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Asish-baidya29/PaperTalk/blob/main/README.md",
+      "snapshotPath": "archive/evidence/palm-2-papertalk-pdf-chat-20260627/original-evidence-fd73b87b7ac5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "PaperTalk/README.md at main · Asish-baidya29/PaperTalk · GitHub",
+      "bodySha256": "aef00da451e22b5591b6e40538f5ebd4a20709ecbcbffe583dcb44dd7aae0580",
+      "capturedAt": "2026-06-27T22:52:10.927Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Asish-baidya29/PaperTalk",
+      "snapshotPath": "archive/evidence/palm-2-papertalk-pdf-chat-20260627/artifact-1-208441966dd4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Asish-baidya29/PaperTalk: 📝 PaperTalk An interactive PDF-based information retrieval system built with PaLM 2, FAISS, and LangChain. Upload a PDF, get smart summaries, and chat with your documents — all through a simple Streamlit ",
+      "bodySha256": "95103b799deeffec39e3e9876035a66cb5f6c74ed9020ee3d35accc2d459e267",
+      "capturedAt": "2026-06-27T22:52:11.975Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:39.449Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/mowa-ai/llm-as-a-service/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/mowa-ai/llm-as-a-service/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "639",
+  "etag": "W/\"76dbf2b53a1a0175eeb77393b0900e3883df88724d80dc4f8abf5589a4b175a9\"",
+  "lastModified": null,
+  "bodyBytes": 1017,
+  "bodySha256": "1d6540c93acebe5e8899a3a32de82e2349d8aa390a04386e658255caa0120a7d",
+  "title": "",
+  "github": null
+}

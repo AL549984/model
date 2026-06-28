@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-2-0-opengpts-chatgpt-alternative",
+  "modelId": "claude-2-0",
+  "modelName": "Claude 2.0",
+  "title": "LangChain OpenGPTs integrates Claude 2 as LLM backend for custom GPT creation",
+  "evidenceFingerprint": "ae7e6d829f49b26a3912a18553949f66a1ba859fd2b525c8e90cd5e97733b8be",
+  "capturedAt": "2026-06-27T20:16:40.397Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/langchain-ai/opengpts/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-2-0-opengpts-chatgpt-alternative/original-evidence-19427228778d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "opengpts/README.md at main · langchain-ai/opengpts · GitHub",
+      "bodySha256": "10a7c02a5c8cf60b3d4d70ec846984e5e763436341c27a9c76fbeb8198b8ce48",
+      "capturedAt": "2026-06-27T20:16:37.098Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/langchain-ai/opengpts",
+      "snapshotPath": "archive/evidence/claude-2-0-opengpts-chatgpt-alternative/artifact-1-457084cbb22f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - langchain-ai/opengpts · GitHub",
+      "bodySha256": "c7c224a45f0f2a3acdabd3ac037bfa3bd65a1ae85727881fa8b472f3fd296a4d",
+      "capturedAt": "2026-06-27T20:16:38.989Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:21:51.463Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Doriandarko/o1-engineer/blob/main/grok-eng.py",
+  "finalUrl": "https://github.com/Doriandarko/o1-engineer/blob/main/grok-eng.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cd5b7e0a56e9b0f9b2d0385c93affef9\"",
+  "lastModified": null,
+  "bodyBytes": 661903,
+  "bodySha256": "f2b9c4521b96efe28bc15bdb7fb37d93d3551e9e1195929b821cee17b3e8b3f4",
+  "title": "o1-engineer/grok-eng.py at main · Doriandarko/o1-engineer · GitHub",
+  "github": {
+    "owner": "Doriandarko",
+    "repo": "o1-engineer",
+    "apiStatus": "unavailable"
+  }
+}

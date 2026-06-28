@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:43.371Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/atisharma/chasm_engine/issues/11",
+  "finalUrl": "https://github.com/atisharma/chasm_engine/issues/11",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 245497,
+  "bodySha256": "9e1ba18ab77562d27a5a008328e94440d67b57a4387c1a80b5120560f94ec905",
+  "title": "Claude v2.1 API access · Issue #11 · atisharma/chasm_engine · GitHub",
+  "github": {
+    "owner": "atisharma",
+    "repo": "chasm_engine",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gemini-1-5-flash-may-gupta-ai-video-analyzer",
+  "modelId": "gemini-1-5-flash-may",
+  "modelName": "Gemini 1.5 Flash (May)",
+  "title": "AI Video Analyzer & Chat Agent uses Gemini 1.5 Flash for uploaded-video understanding",
+  "evidenceFingerprint": "ef3787e38c7738525accdef672ecd9ab8a57e9f20aeebfaea20eb6518af163b1",
+  "capturedAt": "2026-06-27T21:40:25.851Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/gupta-v/ai-video-analyzer/blob/main/app.py#L81-L107",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-gupta-ai-video-analyzer/original-evidence-db16b7cbab70.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ai-video-analyzer/app.py at main · gupta-v/ai-video-analyzer · GitHub",
+      "bodySha256": "22a58f94f99ede3ae0e41d5dfe25130dba0b7ea1538f161a2af5c1e81cc43ddc",
+      "capturedAt": "2026-06-27T21:40:24.081Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/gupta-v/ai-video-analyzer",
+      "snapshotPath": "archive/evidence/gemini-1-5-flash-may-gupta-ai-video-analyzer/artifact-1-2f0787b1592f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - gupta-v/ai-video-analyzer: AI Video Analyzer &amp; Chat Agent is a robust AI application built with Streamlit, Agno, &amp; Langchain&#39;s DuckDuckGo Tool. Integrating Gemini 1.5 Flash, it enables video analysis, insight extraction",
+      "bodySha256": "750735520a4f6942762bd0cde8458b7caa8409a48d15a0c85d6513d19cd343af",
+      "capturedAt": "2026-06-27T21:40:24.967Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:55.669Z",
+  "kind": "artifact-1",
+  "url": "https://pact.mrlepro.com/",
+  "finalUrl": "https://pact.mrlepro.com/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "402",
+  "etag": "\"08644023ffa684ce0a9621f7f98e5d7d\"",
+  "lastModified": "Sat, 06 Jun 2026 07:19:28 GMT",
+  "bodyBytes": 402,
+  "bodySha256": "630fa558cbb5f399cc22574c075933acddb694bd3da2322b224e8b848b6bc3d5",
+  "title": "PACT Dataset Demo",
+  "github": null
+}

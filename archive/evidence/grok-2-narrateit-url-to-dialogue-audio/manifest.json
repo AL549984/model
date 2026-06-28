@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-narrateit-url-to-dialogue-audio",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "NarrateIt uses Grok 2.1212 to transform URL text into a two-speaker audio narration",
+  "evidenceFingerprint": "170bf227110c416e95817345e614a9151bc23d4d00ccfcd9522159020f7851fd",
+  "capturedAt": "2026-06-27T22:15:09.838Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/EswarDivi/NarrateIt/blob/main/Readme.md#L1-L3",
+      "snapshotPath": "archive/evidence/grok-2-narrateit-url-to-dialogue-audio/original-evidence-813980329ea6.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "NarrateIt/Readme.md at main · EswarDivi/NarrateIt · GitHub",
+      "bodySha256": "60f7171219ddedaf5b32847d29f256f1944a51cfa390397c11676bd295b8a060",
+      "capturedAt": "2026-06-27T22:15:07.595Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/EswarDivi/NarrateIt",
+      "snapshotPath": "archive/evidence/grok-2-narrateit-url-to-dialogue-audio/artifact-1-33c469530045.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - EswarDivi/NarrateIt: https://narrateit.streamlit.app/ · GitHub",
+      "bodySha256": "c7a1a3dd615385afd68e5095b0d362c17738a2f807f6f1a124580e30d1b2b388",
+      "capturedAt": "2026-06-27T22:15:08.650Z",
+      "error": ""
+    }
+  ]
+}

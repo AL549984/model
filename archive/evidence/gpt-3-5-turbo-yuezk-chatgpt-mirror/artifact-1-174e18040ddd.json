@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:00:38.006Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/yuezk/chatgpt-mirror",
+  "finalUrl": "https://github.com/yuezk/chatgpt-mirror",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7a57d3d1f58dba7de86ee58f2e0d546b\"",
+  "lastModified": null,
+  "bodyBytes": 306484,
+  "bodySha256": "b2764f37f2347320f07711cc786603846668861f1a5d08a1955cc20a95da9177",
+  "title": "GitHub - yuezk/chatgpt-mirror: A mirror of ChatGPT based on the gpt-3.5-turbo model. · GitHub",
+  "github": {
+    "owner": "yuezk",
+    "repo": "chatgpt-mirror",
+    "apiStatus": "unavailable"
+  }
+}

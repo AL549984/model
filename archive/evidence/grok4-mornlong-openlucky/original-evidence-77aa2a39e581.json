@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:34.726Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/MORNLONG/OpenLucky/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/MORNLONG/OpenLucky/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "4625",
+  "etag": "W/\"fc7751593b5cf7fe6de349ed6d2a2810d021231ada42f42d4108d78e04313ad8\"",
+  "lastModified": null,
+  "bodyBytes": 9236,
+  "bodySha256": "b9984702bfe20eb3dfaa31c4a7ee3fd2d223baab2d4a82ac2b45d639a5066cf0",
+  "title": "",
+  "github": null
+}

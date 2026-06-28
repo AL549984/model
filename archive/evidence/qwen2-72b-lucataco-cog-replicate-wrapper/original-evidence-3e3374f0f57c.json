@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:51.769Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/lucataco/cog-qwen2-72b-instruct-4bit/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/lucataco/cog-qwen2-72b-instruct-4bit/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "318",
+  "etag": "W/\"85324f01b07ff4578e931b1fefd2c4d5f543f03ba7c1ff0adc9910ce1c73b402\"",
+  "lastModified": null,
+  "bodyBytes": 582,
+  "bodySha256": "9d18a5ed175a971658bf0ff687a0114aec978023e0ee188cd58f37aa31a3ee73",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-deepcellseek-single-cell-annotation",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "DeepCellSeek sets Grok 2.1212 as the default Grok model for single-cell RNA-seq annotation",
+  "evidenceFingerprint": "c1d5da30c3b46372da80cf96f6d9dc626f112aeb41f461e6741993c46c5f2993",
+  "capturedAt": "2026-06-27T22:15:00.129Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ZhangLab-Kiz/DeepCellSeek/blob/main/R/model_config.R#L44-L50",
+      "snapshotPath": "archive/evidence/grok-2-deepcellseek-single-cell-annotation/original-evidence-220172381bb2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DeepCellSeek/R/model_config.R at main · ZhangLab-Kiz/DeepCellSeek · GitHub",
+      "bodySha256": "cd5d27769c86755168fad4033a1fb2e6abe0703947a32cb4a22f25e4b24ff05a",
+      "capturedAt": "2026-06-27T22:14:55.824Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://deepcellseek.kiz.ac.cn",
+      "snapshotPath": "archive/evidence/grok-2-deepcellseek-single-cell-annotation/artifact-1-ceaa1b852f69.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "DeepCellSeek",
+      "bodySha256": "eb7b18559c22490da5f60cae7208902632c9554bd036bfb47f3a3a9f8ee3899c",
+      "capturedAt": "2026-06-27T22:14:58.252Z",
+      "error": ""
+    }
+  ]
+}

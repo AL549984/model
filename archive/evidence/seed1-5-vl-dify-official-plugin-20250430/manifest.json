@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seed1-5-vl-dify-official-plugin-20250430",
+  "modelId": "seed1-5-vl",
+  "modelName": "Seed1.5 VL",
+  "title": "Dify official Volcengine MaaS plugin adds Doubao-1.5-thinking-vision-pro for multimodal app workflows",
+  "evidenceFingerprint": "918e299b73f31cab5004abcf8ce6b013845178140f2bce200e347f89f0842544",
+  "capturedAt": "2026-06-27T23:15:52.334Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/langgenius/dify-official-plugins/pull/909",
+      "snapshotPath": "archive/evidence/seed1-5-vl-dify-official-plugin-20250430/original-evidence-4f612fcc76d0.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "feat: add Doubao-1.5-thinking-vision-pro model by jiangbo721 · Pull Request #909 · langgenius/dify-official-plugins · GitHub",
+      "bodySha256": "ce8e8bc375a3c71f8b946d37f0f1e661202720f5d273f90d3363c60a55238e69",
+      "capturedAt": "2026-06-27T23:15:50.024Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/langgenius/dify-official-plugins",
+      "snapshotPath": "archive/evidence/seed1-5-vl-dify-official-plugin-20250430/artifact-1-fce2bb5e7c13.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - langgenius/dify-official-plugins · GitHub",
+      "bodySha256": "20e8afd0407e228039a91e78a21e1b715eb131ac35ad2ceb26a15e69870cf6eb",
+      "capturedAt": "2026-06-27T23:15:51.228Z",
+      "error": ""
+    }
+  ]
+}

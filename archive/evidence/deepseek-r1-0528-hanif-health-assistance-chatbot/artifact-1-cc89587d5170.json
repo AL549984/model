@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:14.013Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/hanif017363/Ai-Health-Assistance",
+  "finalUrl": "https://github.com/hanif017363/Ai-Health-Assistance",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7205ca03b2e69e37d1da9d489faead65\"",
+  "lastModified": null,
+  "bodyBytes": 250823,
+  "bodySha256": "48f58151d0a61368faad46750cbabc63ea43a30bcbd96992523502523c92cebd",
+  "title": "GitHub - hanif017363/Ai-Health-Assistance: A simple web-based AI app built with HTML, CSS, and JavaScript. The AI responses are powered by the deepseek-r1-0528 model fetched via the OpenRouter API · GitHub",
+  "github": {
+    "owner": "hanif017363",
+    "repo": "Ai-Health-Assistance",
+    "apiStatus": "unavailable"
+  }
+}

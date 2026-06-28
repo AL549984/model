@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "kimi-k2-thinking-syaikhipin-kimi-ai-humanizer",
+  "modelId": "kimi-k2-thinking",
+  "modelName": "Kimi K2 Thinking",
+  "title": "syaikhipin built a Gradio human-text rewriting app with Kimi K2 Thinking",
+  "evidenceFingerprint": "89a841eb017f1f0d3f8ca094b4747607afbaf681d7499ba523fd665bfa41a73f",
+  "capturedAt": "2026-06-27T22:29:48.756Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/syaikhipin/KIMI-AI-Humanizer/blob/main/README.md",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-syaikhipin-kimi-ai-humanizer/original-evidence-e7a7622c189e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "KIMI-AI-Humanizer/README.md at main · syaikhipin/KIMI-AI-Humanizer · GitHub",
+      "bodySha256": "fe80fbf5f83e0c3d2d74e8da676d5110e9754c48ebda94f65f501bd8c1c4a111",
+      "capturedAt": "2026-06-27T22:29:46.658Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/syaikhipin/KIMI-AI-Humanizer",
+      "snapshotPath": "archive/evidence/kimi-k2-thinking-syaikhipin-kimi-ai-humanizer/artifact-1-a30cb76f15d1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - syaikhipin/KIMI-AI-Humanizer: Humanize Text Using Kimi K2 Thinking · GitHub",
+      "bodySha256": "c040433cae4f9b049925d026f2d0cd8ecdcf4173b5c199203a02d28f1536ba8c",
+      "capturedAt": "2026-06-27T22:29:47.708Z",
+      "error": ""
+    }
+  ]
+}

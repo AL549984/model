@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:54.409Z",
+  "kind": "original-evidence",
+  "url": "https://www.anthropic.com/news/claude-2",
+  "finalUrl": "https://www.anthropic.com/news/claude-2",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 141807,
+  "bodySha256": "90269696f66579f42466122927412d0daacf346b0e34c9cb2329044bb0ba6c44",
+  "title": "Claude 2 \\ Anthropic",
+  "github": null
+}

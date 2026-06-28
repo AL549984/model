@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:43.084Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/madeye/silicon-civilization-stock-trade",
+  "finalUrl": "https://github.com/madeye/silicon-civilization-stock-trade",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b252e349772993aa9b9cccf839516842\"",
+  "lastModified": null,
+  "bodyBytes": 308514,
+  "bodySha256": "4cbab737700cbeecfe11e6e6ea8629a658b2e931e38e3d741767ff4f161b44ce",
+  "title": "GitHub - madeye/silicon-civilization-stock-trade: 硅基文明消费股交易策略系统 · DeepSeek v4-pro · akshare · 回测 · Next.js · GitHub",
+  "github": {
+    "owner": "madeye",
+    "repo": "silicon-civilization-stock-trade",
+    "apiStatus": "unavailable"
+  }
+}

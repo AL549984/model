@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:57.853Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/julep-ai/julep/blob/dev/src/agents-api/agents_api/model_registry.py#L74-L79",
+  "finalUrl": "https://github.com/julep-ai/julep/blob/dev/src/agents-api/agents_api/model_registry.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a2bb3bef4e4b0358c44026687b41795a\"",
+  "lastModified": null,
+  "bodyBytes": 299438,
+  "bodySha256": "321c0a498e4f40ff71bbb7e838a5add13aa543bfafb6055b1962dd040d5d0479",
+  "title": "julep/src/agents-api/agents_api/model_registry.py at dev · julep-ai/julep · GitHub",
+  "github": {
+    "owner": "julep-ai",
+    "repo": "julep",
+    "apiStatus": "unavailable"
+  }
+}

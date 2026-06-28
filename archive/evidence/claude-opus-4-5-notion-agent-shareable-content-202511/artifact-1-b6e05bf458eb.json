@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:47.249Z",
+  "kind": "artifact-1",
+  "url": "https://www.notion.com/product/ai",
+  "finalUrl": "https://www.notion.com/product/ai",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 237663,
+  "bodySha256": "5b4eb512bd09bc83995211f8119a9a2f8ea28282884b4b1cf584abef51bcc55a",
+  "title": "Meet your AI team | Notion",
+  "github": null
+}

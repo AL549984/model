@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:36.746Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/sinameraji/kimiflare",
+  "finalUrl": "https://github.com/sinameraji/kimiflare",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"962528d2efdde6548b9f8bbfdcfc59da\"",
+  "lastModified": null,
+  "bodyBytes": 451580,
+  "bodySha256": "09a14ac82318e0fa71fe4c004fd6ee2256ca5d0ade5c32caeb0024b4587ece47",
+  "title": "GitHub - sinameraji/kimiflare: kimi k2.7 terminal based coding agent &amp; harness running on your own Cloudflare account. · GitHub",
+  "github": {
+    "owner": "sinameraji",
+    "repo": "kimiflare",
+    "apiStatus": "unavailable"
+  }
+}

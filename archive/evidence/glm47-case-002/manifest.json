@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm47-case-002",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7-Flash",
+  "title": "Perplexity Clone: 基于 GLM-4.7-Flash 的 RAG 搜索引擎",
+  "evidenceFingerprint": "23d0c65980546a1f72b63e6e5750505cd4883e7960948dd906e07fd5ba3bb7f4",
+  "capturedAt": "2026-06-27T21:53:59.507Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/JonniTech/Perplexity-Clone",
+      "snapshotPath": "archive/evidence/glm47-case-002/original-evidence-7ef5a5faeee7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - JonniTech/Perplexity-Clone: A high-fidelity Perplexity AI clone built with React 19, TypeScript, and Tailwind CSS. Features a real-time RAG pipeline (SerpAPI + GLM-4.7-Flash), streaming responses, markdown rendering with syntax hig",
+      "bodySha256": "c386164cd9d1d3cd0ce8c64550426549188f258b3322b2d14bc48961ad9fabd8",
+      "capturedAt": "2026-06-27T21:53:58.125Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/JonniTech/Perplexity-Clone",
+      "snapshotPath": "archive/evidence/glm47-case-002/artifact-1-7ef5a5faeee7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - JonniTech/Perplexity-Clone: A high-fidelity Perplexity AI clone built with React 19, TypeScript, and Tailwind CSS. Features a real-time RAG pipeline (SerpAPI + GLM-4.7-Flash), streaming responses, markdown rendering with syntax hig",
+      "bodySha256": "8b070bb332ca4b7eae274a07bdd75159eb7eea26b21049433395c1a715529495",
+      "capturedAt": "2026-06-27T21:53:59.033Z",
+      "error": ""
+    }
+  ]
+}

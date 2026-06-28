@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:35.696Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/GuanxingLu/OpenPARL/blob/main/README.md",
+  "finalUrl": "https://github.com/GuanxingLu/OpenPARL/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"a102000195ed12fe272056d4350279b4\"",
+  "lastModified": null,
+  "bodyBytes": 277850,
+  "bodySha256": "2b7354721d2ed014838b624a97b900972e6b7ebaa4c00121887d6f993efce46b",
+  "title": "OpenPARL/README.md at main · GuanxingLu/OpenPARL · GitHub",
+  "github": {
+    "owner": "GuanxingLu",
+    "repo": "OpenPARL",
+    "apiStatus": "unavailable"
+  }
+}

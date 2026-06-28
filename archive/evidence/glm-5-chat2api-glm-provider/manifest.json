@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-chat2api-glm-provider",
+  "modelId": "glm-5",
+  "modelName": "GLM-5",
+  "title": "Chat2API includes GLM/Z.ai support to expose GLM-5 family chat through OpenAI-compatible APIs",
+  "evidenceFingerprint": "b722ede0787918d3bd3e94c6852978160e8ac24545122975d0d4f1a22d60bbc3",
+  "capturedAt": "2026-06-27T21:14:38.301Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/xiaoY233/Chat2API/main/README.md",
+      "snapshotPath": "archive/evidence/glm-5-chat2api-glm-provider/original-evidence-c0491ce9f35e.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "7d3c87b42a8d8a7641726b37a9e1f25b9813dbc91e074f79dd1c5fdda7b71cb9",
+      "capturedAt": "2026-06-27T21:14:37.039Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/xiaoY233/Chat2API",
+      "snapshotPath": "archive/evidence/glm-5-chat2api-glm-provider/artifact-1-0a740b135bf2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - xiaoY233/Chat2API: Chat2API enables zero-cost access to leading AI models by leveraging official web UIs. It supports providers such as DeepSeek, GLM, Kimi, MiniMax, Qwen, and Z.ai, and seamlessly integrates with tools like openlca",
+      "bodySha256": "576355af04ab9f3fb4557acef13f5959ac691861a46e9cc9ad4c616fcb9899b6",
+      "capturedAt": "2026-06-27T21:14:37.355Z",
+      "error": ""
+    }
+  ]
+}

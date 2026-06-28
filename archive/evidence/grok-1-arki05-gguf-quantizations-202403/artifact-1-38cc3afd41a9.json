@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:25:22.112Z",
+  "kind": "artifact-1",
+  "url": "https://huggingface.co/Arki05/Grok-1-GGUF",
+  "finalUrl": "https://huggingface.co/Arki05/Grok-1-GGUF",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"3a31b-lGmLb5h5TuJeydlTsLoV1LEwf7Y\"",
+  "lastModified": null,
+  "bodyBytes": 238363,
+  "bodySha256": "65b0196b2758e1524b669f2649e333730e252dd4b379d1d98bc4f669a0dd44e4",
+  "title": "Arki05/Grok-1-GGUF · Hugging Face",
+  "github": null
+}

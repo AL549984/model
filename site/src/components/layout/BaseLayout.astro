@@ -1,16 +1,49 @@
 ---
 import Sidebar from "../navigation/Sidebar.astro";
 import Footer from "./Footer.astro";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, type JsonLdNode } from "../../lib/seo";
 import "../../styles/global.css";
 
 const {
-  title = "Frontier Models Atlas",
-  description = "追踪主流 AI 模型、厂商路线、真实案例和公开证据等级的中文模型情报站。",
-  image = "/favicon.svg"
+  title = SITE_NAME,
+  description = SITE_DESCRIPTION,
+  image = "/favicon.svg",
+  jsonLd = []
 } = Astro.props;
-const siteUrl = "https://model-seven-blond.vercel.app";
+const siteUrl = SITE_URL;
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const imageUrl = new URL(image, siteUrl).toString();
+const pageJsonLd = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+const structuredData: JsonLdNode[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
+    inLanguage: "zh-CN",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/models?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: title,
+    url: canonicalUrl,
+    description,
+    inLanguage: "zh-CN",
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL
+    }
+  },
+  ...pageJsonLd.filter(Boolean)
+];
+const structuredDataJson = JSON.stringify(structuredData).replace(/</g, "\\u003c");
 ---
 
 <!doctype html>
@@ -22,7 +55,7 @@ const imageUrl = new URL(image, siteUrl).toString();
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Frontier Models Atlas" />
+    <meta property="og:site_name" content="Model Atlas 模型图谱" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
@@ -30,7 +63,8 @@ const imageUrl = new URL(image, siteUrl).toString();
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="theme-color" content="#020617" />
+    <meta name="theme-color" content="#050505" />
+    <script is:inline type="application/ld+json" set:html={structuredDataJson}></script>
     <title>{title}</title>
   </head>
   <body>
@@ -41,5 +75,521 @@ const imageUrl = new URL(image, siteUrl).toString();
         <Footer />
       </main>
     </div>
+    <div id="command-palette" class="command-palette" aria-hidden="true">
+      <button class="command-palette__backdrop" type="button" aria-label="关闭全站检索" data-command-close></button>
+      <section class="command-palette__panel" aria-label="全站档案检索">
+        <div class="command-palette__head">
+          <div>
+            <p class="mono command-palette__eyebrow">ATLAS COMMAND</p>
+            <h2>检索模型、案例与证据</h2>
+          </div>
+          <button type="button" class="command-palette__close" data-command-close>关闭</button>
+        </div>
+        <input id="command-search-input" class="command-palette__input" type="search" autocomplete="off" placeholder="输入模型、厂商、任务或证据关键词" />
+        <div class="command-palette__meta">
+          <span id="command-result-count">等待检索</span>
+          <span class="mono">MODEL ATLAS / LIVE INDEX</span>
+        </div>
+        <div id="command-results" class="command-palette__results" role="listbox"></div>
+      </section>
+    </div>
+    <div id="copy-toast" class="copy-toast" role="status" aria-live="polite" hidden>链接已复制</div>
+    <script is:inline>
+      (() => {
+        const root = document.getElementById("command-palette");
+        const input = document.getElementById("command-search-input");
+        const results = document.getElementById("command-results");
+        const count = document.getElementById("command-result-count");
+        if (!root || !input || !results || !count) return;
+
+        let items = [];
+        let indexRequest = null;
+        let indexReady = false;
+        let activeIndex = 0;
+        let visibleItems = [];
+
+        const escapeHtml = (value) => String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+
+        const normalize = (value) => String(value ?? "").toLowerCase().replace(/\s+/g, " ").trim();
+
+        const setStatus = (message) => {
+          count.textContent = message;
+        };
+
+        const setEmpty = (message) => {
+          results.innerHTML = `<div class="command-palette__empty">${escapeHtml(message)}</div>`;
+        };
+
+        const loadIndex = () => {
+          if (indexReady) return Promise.resolve(items);
+          if (indexRequest) return indexRequest;
+
+          root.dataset.indexState = "loading";
+          setStatus("正在加载索引");
+          setEmpty("正在读取模型、案例与证据索引。");
+          indexRequest = fetch("/command-index.json", { headers: { Accept: "application/json" } })
+            .then((response) => {
+              if (!response.ok) throw new Error(`Command index failed: ${response.status}`);
+              return response.json();
+            })
+            .then((payload) => {
+              items = Array.isArray(payload.items) ? payload.items : [];
+              indexReady = true;
+              root.dataset.indexState = "loaded";
+              return items;
+            })
+            .catch(() => {
+              root.dataset.indexState = "error";
+              indexRequest = null;
+              setStatus("索引加载失败");
+              setEmpty("暂时无法读取检索索引。可以先通过左侧导航进入模型库或案例库。");
+              return [];
+            });
+          return indexRequest;
+        };
+
+        const scoreItem = (item, query) => {
+          if (!query) return item.type === "入口" ? 5 : item.type === "专题" ? 4 : 1;
+          const title = normalize(item.title);
+          const subtitle = normalize(item.subtitle);
+          const keywords = normalize(item.keywords);
+          let score = 0;
+          if (title === query) score += 100;
+          if (title.includes(query)) score += 45;
+          if (subtitle.includes(query)) score += 24;
+          if (keywords.includes(query)) score += 16;
+          query.split(" ").filter(Boolean).forEach((part) => {
+            if (title.includes(part)) score += 14;
+            if (subtitle.includes(part)) score += 7;
+            if (keywords.includes(part)) score += 5;
+          });
+          if (item.type === "模型") score += 3;
+          if (item.type === "案例") score += 2;
+          return score;
+        };
+
+        const render = () => {
+          if (!indexReady) {
+            setStatus("正在加载索引");
+            setEmpty("正在读取模型、案例与证据索引。");
+            return;
+          }
+
+          const query = normalize(input.value);
+          visibleItems = items
+            .map((item) => ({ ...item, score: scoreItem(item, query) }))
+            .filter((item) => item.score > 0)
+            .sort((a, b) => b.score - a.score || String(a.title).localeCompare(String(b.title), "zh-CN"))
+            .slice(0, 10);
+          activeIndex = Math.min(activeIndex, Math.max(visibleItems.length - 1, 0));
+
+          count.textContent = query ? `${visibleItems.length} 条匹配结果` : "推荐入口";
+          if (!visibleItems.length) {
+            results.innerHTML = '<div class="command-palette__empty">没有找到匹配档案。可以尝试模型名、厂商名、任务类型或证据来源。</div>';
+            return;
+          }
+
+          results.innerHTML = visibleItems.map((item, index) => `
+            <a class="command-palette__result ${index === activeIndex ? "is-active" : ""}" href="${escapeHtml(item.href)}" data-command-result role="option" aria-selected="${index === activeIndex}">
+              <span class="command-palette__dot" aria-hidden="true"></span>
+              <span class="command-palette__copy">
+                <span class="command-palette__title">${escapeHtml(item.title)}</span>
+                <span class="command-palette__subtitle">${escapeHtml(item.subtitle)}</span>
+              </span>
+              <span class="mono command-palette__type">${escapeHtml(item.type)}</span>
+            </a>
+          `).join("");
+        };
+
+        const open = () => {
+          root.setAttribute("aria-hidden", "false");
+          document.documentElement.classList.add("command-palette-open");
+          input.value = "";
+          activeIndex = 0;
+          render();
+          window.setTimeout(() => input.focus(), 40);
+          loadIndex().then(render);
+        };
+
+        const close = () => {
+          root.setAttribute("aria-hidden", "true");
+          document.documentElement.classList.remove("command-palette-open");
+        };
+
+        document.addEventListener("click", (event) => {
+          const target = event.target;
+          if (!(target instanceof Element)) return;
+          if (target.closest("[data-command-open]")) {
+            event.preventDefault();
+            open();
+          }
+          if (target.closest("[data-command-close]")) {
+            event.preventDefault();
+            close();
+          }
+        });
+
+        input.addEventListener("input", () => {
+          activeIndex = 0;
+          if (!indexReady) {
+            loadIndex().then(render);
+            return;
+          }
+          render();
+        });
+
+        input.addEventListener("keydown", (event) => {
+          if (event.key === "ArrowDown") {
+            event.preventDefault();
+            activeIndex = Math.min(activeIndex + 1, Math.max(visibleItems.length - 1, 0));
+            render();
+          }
+          if (event.key === "ArrowUp") {
+            event.preventDefault();
+            activeIndex = Math.max(activeIndex - 1, 0);
+            render();
+          }
+          if (event.key === "Enter" && visibleItems[activeIndex]) {
+            window.location.href = visibleItems[activeIndex].href;
+          }
+        });
+
+        document.addEventListener("keydown", (event) => {
+          const isOpen = root.getAttribute("aria-hidden") === "false";
+          const target = event.target;
+          const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
+          if (event.key === "Escape" && isOpen) close();
+          if ((event.key === "/" && !isTyping) || ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k")) {
+            event.preventDefault();
+            open();
+          }
+        });
+
+        root.dataset.indexState = "idle";
+      })();
+    </script>
+    <script is:inline>
+      (() => {
+        const toast = document.getElementById("copy-toast");
+        let toastTimer = 0;
+
+        const showToast = (message) => {
+          if (!toast) return;
+          toast.textContent = message;
+          toast.hidden = false;
+          window.clearTimeout(toastTimer);
+          toastTimer = window.setTimeout(() => {
+            toast.hidden = true;
+          }, 1800);
+        };
+
+        const fallbackCopy = (value) => {
+          const input = document.createElement("textarea");
+          input.value = value;
+          input.setAttribute("readonly", "true");
+          input.style.position = "fixed";
+          input.style.left = "-9999px";
+          document.body.appendChild(input);
+          input.select();
+          const legacyCopy = Reflect.get(document, "exec" + "Command");
+          if (typeof legacyCopy === "function") legacyCopy.call(document, "copy");
+          input.remove();
+        };
+
+        const copyText = async (value) => {
+          if (navigator.clipboard?.writeText && window.isSecureContext) {
+            try {
+              await navigator.clipboard.writeText(value);
+              return;
+            } catch {
+              fallbackCopy(value);
+              return;
+            }
+          }
+          fallbackCopy(value);
+        };
+
+        document.addEventListener("click", async (event) => {
+          const target = event.target;
+          if (!(target instanceof Element)) return;
+          const trigger = target.closest("[data-copy-current-url], [data-copy-url]");
+          if (!(trigger instanceof HTMLElement)) return;
+          event.preventDefault();
+
+          const value = trigger.dataset.copyUrl || window.location.href;
+          const originalLabel = trigger.dataset.copyOriginal || trigger.textContent || "复制链接";
+          const successLabel = trigger.dataset.copySuccess || "已复制";
+
+          try {
+            await copyText(value);
+            trigger.dataset.copyState = "copied";
+            trigger.textContent = successLabel;
+            showToast(successLabel);
+            window.setTimeout(() => {
+              trigger.dataset.copyState = "";
+              trigger.textContent = originalLabel;
+            }, 1400);
+          } catch {
+            showToast("复制失败，请手动复制地址栏链接");
+          }
+        });
+      })();
+    </script>
+    <style is:global>
+      html.command-palette-open {
+        overflow: hidden;
+      }
+
+      .command-palette {
+        position: fixed;
+        inset: 0;
+        z-index: 80;
+        display: grid;
+        place-items: start center;
+        padding: 8vh 18px 24px;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 180ms ease;
+      }
+
+      .command-palette[aria-hidden="false"] {
+        pointer-events: auto;
+        opacity: 1;
+      }
+
+      .command-palette__backdrop {
+        position: absolute;
+        inset: 0;
+        border: 0;
+        background:
+          radial-gradient(circle at 72% 18%, rgba(255, 59, 78, 0.13), transparent 25rem),
+          rgba(0, 0, 0, 0.74);
+      }
+
+      .command-palette__panel {
+        position: relative;
+        width: min(860px, 100%);
+        border: 1px solid rgba(244, 241, 234, 0.22);
+        background: rgba(5, 5, 5, 0.96);
+        box-shadow: 0 28px 90px rgba(0, 0, 0, 0.72);
+        transform: translateY(-10px);
+        transition: transform 180ms ease;
+      }
+
+      .command-palette[aria-hidden="false"] .command-palette__panel {
+        transform: translateY(0);
+      }
+
+      .command-palette__panel::before {
+        content: "";
+        position: absolute;
+        inset: 12px;
+        border: 1px solid rgba(244, 241, 234, 0.08);
+        pointer-events: none;
+      }
+
+      .command-palette__head {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 18px;
+        border-bottom: 1px solid rgba(244, 241, 234, 0.16);
+        padding: 24px;
+      }
+
+      .command-palette__eyebrow {
+        margin: 0 0 8px;
+        color: #ff3b4e;
+        font-size: 0.72rem;
+        letter-spacing: 0.18em;
+      }
+
+      .command-palette__head h2 {
+        margin: 0;
+        max-width: 12em;
+        font-size: clamp(2rem, 5vw, 4.8rem);
+        font-weight: 750;
+        line-height: 0.94;
+        letter-spacing: 0;
+      }
+
+      .command-palette__close {
+        flex: 0 0 auto;
+        border: 1px solid rgba(244, 241, 234, 0.2);
+        background: transparent;
+        padding: 0.68rem 0.82rem;
+        color: #f4f1ea;
+        font-size: 0.82rem;
+      }
+
+      .command-palette__close:hover {
+        border-color: rgba(255, 59, 78, 0.62);
+        background: rgba(255, 59, 78, 0.08);
+      }
+
+      .command-palette__input {
+        width: calc(100% - 48px);
+        margin: 22px 24px 0;
+        border: 1px solid rgba(244, 241, 234, 0.24);
+        background: #050505;
+        padding: 1rem 1.05rem;
+        color: #f4f1ea;
+        font-size: 1rem;
+        outline: 0;
+      }
+
+      .command-palette__input:focus {
+        border-color: rgba(255, 59, 78, 0.72);
+        box-shadow: 0 0 0 3px rgba(255, 59, 78, 0.12);
+      }
+
+      .command-palette__input::placeholder {
+        color: rgba(168, 162, 154, 0.72);
+      }
+
+      .command-palette__meta {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        border-bottom: 1px solid rgba(244, 241, 234, 0.14);
+        padding: 12px 24px 18px;
+        color: #a8a29a;
+        font-size: 0.78rem;
+      }
+
+      .command-palette__results {
+        display: grid;
+        max-height: min(48vh, 520px);
+        overflow-y: auto;
+        padding: 8px 24px 24px;
+      }
+
+      .command-palette__result {
+        display: grid;
+        grid-template-columns: 10px minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 14px;
+        border-bottom: 1px solid rgba(244, 241, 234, 0.11);
+        padding: 14px 0;
+        color: #f4f1ea;
+      }
+
+      .command-palette__result:hover,
+      .command-palette__result.is-active {
+        color: #fff;
+      }
+
+      .command-palette__result:hover .command-palette__dot,
+      .command-palette__result.is-active .command-palette__dot {
+        background: #ff3b4e;
+        box-shadow: 0 0 18px rgba(255, 59, 78, 0.75);
+      }
+
+      .command-palette__dot {
+        width: 7px;
+        height: 7px;
+        border: 1px solid rgba(244, 241, 234, 0.5);
+        background: transparent;
+      }
+
+      .command-palette__copy {
+        display: grid;
+        min-width: 0;
+        gap: 5px;
+      }
+
+      .command-palette__title,
+      .command-palette__subtitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .command-palette__title {
+        font-size: 0.98rem;
+        font-weight: 640;
+      }
+
+      .command-palette__subtitle {
+        color: #a8a29a;
+        font-size: 0.78rem;
+      }
+
+      .command-palette__type {
+        border: 1px solid rgba(244, 241, 234, 0.16);
+        padding: 0.32rem 0.5rem;
+        color: #a8a29a;
+        font-size: 0.68rem;
+        letter-spacing: 0.08em;
+      }
+
+      .command-palette__empty {
+        border: 1px solid rgba(244, 241, 234, 0.14);
+        padding: 18px;
+        color: #a8a29a;
+        line-height: 1.7;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .command-palette,
+        .command-palette__panel {
+          transition: none;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .command-palette {
+          place-items: stretch;
+          padding: 0;
+        }
+
+        .command-palette__panel {
+          min-height: 100vh;
+          width: 100%;
+          border-left: 0;
+          border-right: 0;
+        }
+
+        .command-palette__head {
+          padding: 20px 18px;
+        }
+
+        .command-palette__head h2 {
+          font-size: clamp(2rem, 13vw, 3.4rem);
+          line-height: 1;
+        }
+
+        .command-palette__input {
+          width: calc(100% - 36px);
+          margin: 18px 18px 0;
+        }
+
+        .command-palette__meta {
+          align-items: start;
+          flex-direction: column;
+          padding: 12px 18px 16px;
+        }
+
+        .command-palette__results {
+          max-height: calc(100vh - 245px);
+          padding: 6px 18px 24px;
+        }
+
+        .command-palette__result {
+          grid-template-columns: 9px minmax(0, 1fr);
+        }
+
+        .command-palette__type {
+          grid-column: 2;
+          justify-self: start;
+          margin-top: 2px;
+        }
+      }
+    </style>
   </body>
 </html>

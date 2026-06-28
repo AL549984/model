@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o3-ai-asa-openai-o3-mcp",
+  "modelId": "o3",
+  "modelName": "o3",
+  "title": "ai-asa openai-o3-mcp connects Claude Desktop and Claude Code to OpenAI o3",
+  "evidenceFingerprint": "fa8a580b35420ec8b104fac67b79bf507a452d3acef680e4509d886cba2b87e8",
+  "capturedAt": "2026-06-27T22:51:50.144Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ai-asa/openai-o3-mcp/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o3-ai-asa-openai-o3-mcp/original-evidence-43dc150d0443.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "openai-o3-mcp/README.md at main · ai-asa/openai-o3-mcp · GitHub",
+      "bodySha256": "0e3b5fa2d04a7bbf5c0e56f9c76ac0ded80dc867596974e12cf64e97aa4a3483",
+      "capturedAt": "2026-06-27T22:51:47.905Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ai-asa/openai-o3-mcp",
+      "snapshotPath": "archive/evidence/o3-ai-asa-openai-o3-mcp/artifact-1-357fb0be3a65.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ai-asa/openai-o3-mcp · GitHub",
+      "bodySha256": "2a66f9f65dcffcd5d3f65c5ddb0e2560d83b1f3ae8ade0e159f2671a3d705e8a",
+      "capturedAt": "2026-06-27T22:51:49.090Z",
+      "error": ""
+    }
+  ]
+}

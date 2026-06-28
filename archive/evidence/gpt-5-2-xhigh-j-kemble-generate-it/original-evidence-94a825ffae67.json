@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:40.213Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/j-kemble/Generate-It",
+  "finalUrl": "https://github.com/j-kemble/Generate-It",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d4e6a624dc9a4180208b6bb1525aee4b\"",
+  "lastModified": null,
+  "bodyBytes": 316941,
+  "bodySha256": "a254de10ad846e4942575228cfda7c77c9b5cf597a70e377cb00e8c08ce384fc",
+  "title": "GitHub - j-kemble/Generate-It: This is a credential generator and storage built with AI (Warp Terminal/GPT 5.2 codex xhigh reasoning &amp; Claude 4.5 haiku &amp; Gemini-CLI). It runs locally and sets up a secure database for your credential",
+  "github": {
+    "owner": "j-kemble",
+    "repo": "Generate-It",
+    "htmlUrl": "https://github.com/j-kemble/Generate-It",
+    "defaultBranch": "main",
+    "defaultBranchSha": "bba2f422fa7d78f429a895678accc6786b76401d",
+    "pushedAt": "2026-04-29T07:51:29Z",
+    "updatedAt": "2026-03-20T00:52:54Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-20-0309-bondartsov-grok-critic-mcp",
+  "modelId": "grok-4-20-0309",
+  "modelName": "Grok 4.20 0309",
+  "title": "Bondartsov 的 grok-critic-mcp 用 Grok 4.20 Multi-Agent 做代码审查、架构分析和安全审计",
+  "evidenceFingerprint": "26f2e1df10f1c7d33480d8aa898e24ff5c35250d9f42eeec4a47c7b9d2560e88",
+  "capturedAt": "2026-06-27T22:15:31.961Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Bondartsov/grok-critic-mcp/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-bondartsov-grok-critic-mcp/original-evidence-fff06692792c.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "grok-critic-mcp/README.md at main · Bondartsov/grok-critic-mcp · GitHub",
+      "bodySha256": "4a07419738ee9c0efbb769923b07a1e7dbd1ad6e7f871b65646dd1cca4b12ba4",
+      "capturedAt": "2026-06-27T22:15:28.903Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Bondartsov/grok-critic-mcp",
+      "snapshotPath": "archive/evidence/grok-4-20-0309-bondartsov-grok-critic-mcp/artifact-1-7fd6984e70ca.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Bondartsov/grok-critic-mcp: MCP server for deep code review, architecture analysis and security audit via grok-4.20-multi-agent (16 reasoning agents). Works with Kilo Code, Claude Code, Cursor. · GitHub",
+      "bodySha256": "e1ba18e571b2942c2b7d86bbab7b5abe17b086cf26fcecaa2301551428ff963b",
+      "capturedAt": "2026-06-27T22:15:30.192Z",
+      "error": ""
+    }
+  ]
+}

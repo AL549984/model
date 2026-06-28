@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:48.492Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Lumiwealth/lumibot/blob/ac0a93745bb03f00833a789fc3d5d5593be6b289/lumibot/example_strategies/agent_m2_liquidity_grok.py",
+  "finalUrl": "https://github.com/Lumiwealth/lumibot/blob/ac0a93745bb03f00833a789fc3d5d5593be6b289/lumibot/example_strategies/agent_m2_liquidity_grok.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"c986271bbabf096937032b24fcd58359\"",
+  "lastModified": null,
+  "bodyBytes": 305857,
+  "bodySha256": "790b1d6f29815878551397dedd0421a62c34606d8f27be8b9063baf058caed0f",
+  "title": "lumibot/lumibot/example_strategies/agent_m2_liquidity_grok.py at ac0a93745bb03f00833a789fc3d5d5593be6b289 · Lumiwealth/lumibot · GitHub",
+  "github": {
+    "owner": "Lumiwealth",
+    "repo": "lumibot",
+    "apiStatus": "unavailable"
+  }
+}

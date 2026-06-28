@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "case-mimo-v2-flash-tower-defense-game",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "Tower Defense Game 100% AI-Coded Using MiMo-V2-Flash",
+  "evidenceFingerprint": "b410f4019ffe0f15eaa00beff1f26c8736378a31c02edf3f2ce2aa458e8575cb",
+  "capturedAt": "2026-06-27T20:15:59.892Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/AndreaPanzeriDev/tower-defense",
+      "snapshotPath": "archive/evidence/case-mimo-v2-flash-tower-defense-game/original-evidence-d95bca26b65d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AndreaPanzeriDev/tower-defense: 100% vide coded. Model: MiMo-V2-Flash (free). Prompt: realize a 2d game as a tower defense · GitHub",
+      "bodySha256": "49333e353c9471e443ee55bb61c972e948106e55a759114eddd946682a6cd4d2",
+      "capturedAt": "2026-06-27T20:15:56.174Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/AndreaPanzeriDev/tower-defense",
+      "snapshotPath": "archive/evidence/case-mimo-v2-flash-tower-defense-game/artifact-1-d95bca26b65d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - AndreaPanzeriDev/tower-defense: 100% vide coded. Model: MiMo-V2-Flash (free). Prompt: realize a 2d game as a tower defense · GitHub",
+      "bodySha256": "4178413870075f29e9ba03f2b9faefb8f4883b8bea1492c5f267c06fdca3893f",
+      "capturedAt": "2026-06-27T20:15:59.144Z",
+      "error": ""
+    }
+  ]
+}

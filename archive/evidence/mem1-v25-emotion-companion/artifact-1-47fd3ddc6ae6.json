@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:39.603Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/1596941391qq/Mem1",
+  "finalUrl": "https://github.com/1596941391qq/Mem1",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"f935539237eaa3220a08e7bf750cc38d\"",
+  "lastModified": null,
+  "bodyBytes": 276395,
+  "bodySha256": "6a6fd26ec0f53e476c8fbe92c6cc516fa8c67773b6593fe66947ca9bba926660",
+  "title": "GitHub - 1596941391qq/Mem1: mem1是mem0的魔改版本。我的魔改能让它生成效果更可用和更适合做情感陪伴项目 · GitHub",
+  "github": {
+    "owner": "1596941391qq",
+    "repo": "Mem1",
+    "apiStatus": "unavailable"
+  }
+}

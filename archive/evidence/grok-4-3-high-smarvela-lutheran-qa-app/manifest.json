@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-4-3-high-smarvela-lutheran-qa-app",
+  "modelId": "grok-4-3-high",
+  "modelName": "Grok 4.3 (high)",
+  "title": "Lutheran Confessional Q&A uses Grok 4.3 with RAG to answer questions grounded in confessional texts and the KJV Bible",
+  "evidenceFingerprint": "809e9a8a9e9ed8a4076eb0054613eee7e9ec614c907aa58c89bc9ada681ec439",
+  "capturedAt": "2026-06-27T21:27:29.642Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/smarvela/lutheran-qa-app/main/README.md",
+      "snapshotPath": "archive/evidence/grok-4-3-high-smarvela-lutheran-qa-app/original-evidence-2852b2ffed7a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "821806087b03a0befd52891cd1cab9f0e906f59fb4bc8a09265342162f3296e8",
+      "capturedAt": "2026-06-27T21:27:26.127Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/smarvela/lutheran-qa-app",
+      "snapshotPath": "archive/evidence/grok-4-3-high-smarvela-lutheran-qa-app/artifact-1-457e20b98418.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - smarvela/lutheran-qa-app: Lutheran Confessional Q&amp;A — RAG chat app grounded in Book of Concord and KJV Bible with Grok 4.3 · GitHub",
+      "bodySha256": "f9a3f1898d591afab8d39c13f2bb87356b31c41a8f06c2f1b54a0953fe0abaa3",
+      "capturedAt": "2026-06-27T21:27:26.861Z",
+      "error": ""
+    }
+  ]
+}

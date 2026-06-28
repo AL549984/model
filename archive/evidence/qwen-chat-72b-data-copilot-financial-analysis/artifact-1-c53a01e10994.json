@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:24.514Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/zwq2018/Data-Copilot",
+  "finalUrl": "https://github.com/zwq2018/Data-Copilot",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"e573bdd2f8d6c2d490e02e4038222b37\"",
+  "lastModified": null,
+  "bodyBytes": 359799,
+  "bodySha256": "fd0ebaf723c8ef02ca31f703d7dd5a0104fabed77e3a75e3515d9d8105c6e9c0",
+  "title": "GitHub - zwq2018/Data-Copilot: Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow · GitHub",
+  "github": {
+    "owner": "zwq2018",
+    "repo": "Data-Copilot",
+    "apiStatus": "unavailable"
+  }
+}

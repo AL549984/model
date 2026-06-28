@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-6-cypack-ccglm-mcp",
+  "modelId": "glm-4-6",
+  "modelName": "GLM-4.6",
+  "title": "CCGLM MCP Server routing Claude Code prompts to Z.AI GLM-4.6",
+  "evidenceFingerprint": "4855c0f2440a22aded2a1f58c07e9853419bda4d973efe40d9cf5267a4c43a14",
+  "capturedAt": "2026-06-27T21:47:33.432Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/CyPack/ccglm-mcp/blob/main/README.md",
+      "snapshotPath": "archive/evidence/glm-4-6-cypack-ccglm-mcp/original-evidence-87cbeffac7af.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ccglm-mcp/README.md at main · CyPack/ccglm-mcp · GitHub",
+      "bodySha256": "83afbdf4bfdf4ec74d397eebcc900ed8e1e3277f47ec8c59fe2941e28d82ab59",
+      "capturedAt": "2026-06-27T21:47:30.920Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/CyPack/ccglm-mcp",
+      "snapshotPath": "archive/evidence/glm-4-6-cypack-ccglm-mcp/artifact-1-c83a2f2a563d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - CyPack/ccglm-mcp: MCP server for integrating Z.AI GLM-4.6 with Claude Code · GitHub",
+      "bodySha256": "3e2d7b06640b31931002df60b2d717940b5b3af776e98d2c23629fd4f8a7fcc9",
+      "capturedAt": "2026-06-27T21:47:32.066Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen1-5-chat-110b-vllm-a100-int4-throughput-6239",
+  "modelId": "qwen1-5-chat-110b",
+  "modelName": "Qwen1.5 Chat 110B",
+  "title": "vLLM user runs Qwen1.5-110B-Chat-GPTQ-Int4 inference on A100 and measures request latency",
+  "evidenceFingerprint": "13f2385ac22ded631469f3a1974749e1d94fca05d04292e632301e80946d7aa2",
+  "capturedAt": "2026-06-27T22:59:41.700Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/vllm-project/vllm/issues/6239",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-vllm-a100-int4-throughput-6239/original-evidence-fab29b907396.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[Usage]: low GPU usage in qwen1.5 110b int4 inference · Issue #6239 · vllm-project/vllm · GitHub",
+      "bodySha256": "d28cfde0d92d34796e9610218829f595ff4ae2eb5fe7412dc0b1917552b20bf5",
+      "capturedAt": "2026-06-27T22:59:39.922Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://modelscope.cn/models/qwen/Qwen1.5-110B-Chat-GPTQ-Int4",
+      "snapshotPath": "archive/evidence/qwen1-5-chat-110b-vllm-a100-int4-throughput-6239/artifact-1-c2718d1d4dde.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "千问1.5-110B-Chat-GPTQ-Int4",
+      "bodySha256": "fb0e2c674a71e5c4fbff93fcc9dbab0aead4f28a674776c761683c12391a0ab6",
+      "capturedAt": "2026-06-27T22:59:41.088Z",
+      "error": ""
+    }
+  ]
+}

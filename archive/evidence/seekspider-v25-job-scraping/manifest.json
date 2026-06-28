@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seekspider-v25-job-scraping",
+  "modelId": "deepseek-v2-5-dec",
+  "modelName": "DeepSeek-V2.5 (Dec)",
+  "title": "SeekSpider: AI-Powered Australian IT Job Scraping with DeepSeek-V2.5",
+  "evidenceFingerprint": "2396d390fa22e4b394c523bd0888a8bbc6f0f0eb3dffb488fe9982a97fc5770b",
+  "capturedAt": "2026-06-27T23:23:31.421Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/qinscode/SeekSpider/blob/main/README.md",
+      "snapshotPath": "archive/evidence/seekspider-v25-job-scraping/original-evidence-3ef5ae64d9f8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "SeekSpider/README.md at main · qinscode/SeekSpider · GitHub",
+      "bodySha256": "2c8b0c5767479022b9aa17fab87d05d1d72177a4d8a31b1733f89d6203689d8e",
+      "capturedAt": "2026-06-27T23:23:29.366Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/qinscode/SeekSpider",
+      "snapshotPath": "archive/evidence/seekspider-v25-job-scraping/artifact-1-26ccf6b750ed.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - qinscode/SeekSpider: Seekspider: A Scrapy Project for Job Scraping · GitHub",
+      "bodySha256": "af09d5ebba32df7995be9afa0708980624d0e313570c56738a08fc6d67b96f6d",
+      "capturedAt": "2026-06-27T23:23:30.507Z",
+      "error": ""
+    }
+  ]
+}

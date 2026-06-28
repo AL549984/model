@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "seedance-2-0-zening-product-demo-video",
+  "modelId": "seedance-2-0",
+  "modelName": "Seedance 2.0",
+  "title": "zening-cmd 用 Seedance 2.0 数字人制作产品演示视频管线",
+  "evidenceFingerprint": "2d794c08dbea7ba4a25ec9fe3b402192e88a9babed6e8cb732a59e7371fadcd2",
+  "capturedAt": "2026-06-27T23:23:26.199Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zening-cmd/product-demo-video#readme",
+      "snapshotPath": "archive/evidence/seedance-2-0-zening-product-demo-video/original-evidence-ce0d6b04db72.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zening-cmd/product-demo-video: Create polished product demo videos with animated motion graphics (HTML+GSAP), AI digital human presenter (Seedance 2.0), PIP compositing, and background music. End-to-end pipeline from UI screenshot ",
+      "bodySha256": "6a874547e294ae2bea82b0aeb217a6bc771e8b2c4cb6551f4c1996cfe9c82665",
+      "capturedAt": "2026-06-27T23:23:24.533Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zening-cmd/product-demo-video",
+      "snapshotPath": "archive/evidence/seedance-2-0-zening-product-demo-video/artifact-1-2a6923841e0f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zening-cmd/product-demo-video: Create polished product demo videos with animated motion graphics (HTML+GSAP), AI digital human presenter (Seedance 2.0), PIP compositing, and background music. End-to-end pipeline from UI screenshot ",
+      "bodySha256": "29a00b36c4de7eb2947e079532e8fbdc665dd8af74bd6f7fc82ca01e15d202db",
+      "capturedAt": "2026-06-27T23:23:25.787Z",
+      "error": ""
+    }
+  ]
+}

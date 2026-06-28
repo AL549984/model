@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:04.265Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/myuan19/voiceInput",
+  "finalUrl": "https://github.com/myuan19/voiceInput",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"33bbadb63a3595091c85eee6a8030c4b\"",
+  "lastModified": null,
+  "bodyBytes": 311852,
+  "bodySha256": "c87c7297568d76d6a98635d893f8a2318e901c40001dc7e69a6436b2f799830b",
+  "title": "GitHub - myuan19/voiceInput: Windows AI 语音输入🎙 — 按快捷键说话即输入，支持润色。摆脱打字限制，实现无拘束、高效率的表达。 · GitHub",
+  "github": {
+    "owner": "myuan19",
+    "repo": "voiceInput",
+    "apiStatus": "unavailable"
+  }
+}

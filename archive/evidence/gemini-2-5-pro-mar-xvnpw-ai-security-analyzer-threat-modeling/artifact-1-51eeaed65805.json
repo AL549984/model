@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:47:16.479Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/xvnpw/ai-security-analyzer/tree/main/examples",
+  "finalUrl": "https://github.com/xvnpw/ai-security-analyzer/tree/main/examples",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"8fc00b95da657dd34c083beaacac1069\"",
+  "lastModified": null,
+  "bodyBytes": 684836,
+  "bodySha256": "c54d80d0e3afc2f12b059361e1ab8ca82fa185bdac9f431561cd7cbe171dd9b4",
+  "title": "ai-security-analyzer/examples at main · xvnpw/ai-security-analyzer · GitHub",
+  "github": {
+    "owner": "xvnpw",
+    "repo": "ai-security-analyzer",
+    "apiStatus": "unavailable"
+  }
+}

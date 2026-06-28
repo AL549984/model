@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-open-100b-mike-ravkine-fp8-dynamic",
+  "modelId": "solar-open-100b",
+  "modelName": "Solar Open 100B",
+  "title": "mike-ravkine compressed Solar Open 100B with llm-compressor for FP8 vLLM serving",
+  "evidenceFingerprint": "e196257e3a0b9bdcbf7c7d8a3181f0cb1b2efffa8bdb367d9807038653b42a65",
+  "capturedAt": "2026-06-27T23:25:34.789Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/mike-ravkine/Solar-Open-100B-FP8-Dynamic/raw/main/README.md",
+      "snapshotPath": "archive/evidence/solar-open-100b-mike-ravkine-fp8-dynamic/original-evidence-08f6a876a597.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "cdf73e24e73528af3bbaf64475292bf2738b2f56c58ea29c7c0599879f1128bb",
+      "capturedAt": "2026-06-27T23:25:34.134Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/mike-ravkine/Solar-Open-100B-FP8-Dynamic",
+      "snapshotPath": "archive/evidence/solar-open-100b-mike-ravkine-fp8-dynamic/artifact-1-476b9ad10715.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "mike-ravkine/Solar-Open-100B-FP8-Dynamic · Hugging Face",
+      "bodySha256": "a70c81235f84d6af48bce396aa914c1d2f751b18b4e78a4cce05184bc8c678ec",
+      "capturedAt": "2026-06-27T23:25:34.399Z",
+      "error": ""
+    }
+  ]
+}

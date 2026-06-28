@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:52.687Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Josh-XT/AGiXT/blob/main/agixt/extensions/xai.py",
+  "finalUrl": "https://github.com/Josh-XT/AGiXT/blob/main/agixt/extensions/xai.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"488ee59133e83c2d973e79aabb97dce3\"",
+  "lastModified": null,
+  "bodyBytes": 405830,
+  "bodySha256": "1ce0f6566418a21a1e8735de2cb290c454e812598febf3ee6eb3c1c6f5239041",
+  "title": "AGiXT/agixt/extensions/xai.py at main · Josh-XT/AGiXT · GitHub",
+  "github": {
+    "owner": "Josh-XT",
+    "repo": "AGiXT",
+    "apiStatus": "unavailable"
+  }
+}

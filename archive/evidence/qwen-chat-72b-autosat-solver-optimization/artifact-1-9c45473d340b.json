@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:59:22.419Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/YiwenAI/AutoSAT",
+  "finalUrl": "https://github.com/YiwenAI/AutoSAT",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"af3c0473f5b11e8d95b1ea040b474bb0\"",
+  "lastModified": null,
+  "bodyBytes": 299662,
+  "bodySha256": "4d64365328663b5b762246fbd5dc4a8513e8ce6aee000e0c5123113624089098",
+  "title": "GitHub - YiwenAI/AutoSAT · GitHub",
+  "github": {
+    "owner": "YiwenAI",
+    "repo": "AutoSAT",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "ds-v4-pro-case-004",
+  "modelId": "deepseek-v4-pro-max",
+  "modelName": "DeepSeek V4 Pro (Max)",
+  "title": "SeekCode: Terminal-Native Code Agent Built Around DeepSeek V4 Pro",
+  "evidenceFingerprint": "d9b90683ccaf7597681f78edecae2f8dc9306d339b42a2eeca691b395c3255ba",
+  "capturedAt": "2026-06-27T21:34:48.833Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/yanqiyao1/SeekCode",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-004/original-evidence-29d0f01070f2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yanqiyao1/SeekCode: DeepSeek powered terminal-native code agent with TUI for real engineering repositories, built around DeepSeek V4 Pro for long-context reasoning, code editing, testing, Git, web search, MCP, and sub-agent workflo",
+      "bodySha256": "031842acd02cf3213cdbd923e5257032d8b93e41aaec68552823cda717186c1d",
+      "capturedAt": "2026-06-27T21:34:47.260Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/yanqiyao1/SeekCode",
+      "snapshotPath": "archive/evidence/ds-v4-pro-case-004/artifact-1-29d0f01070f2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - yanqiyao1/SeekCode: DeepSeek powered terminal-native code agent with TUI for real engineering repositories, built around DeepSeek V4 Pro for long-context reasoning, code editing, testing, Git, web search, MCP, and sub-agent workflo",
+      "bodySha256": "18d1eb67fad923ee57f3d8afbc54a2c052f682cdf01b1d6f22f84bd13db158c5",
+      "capturedAt": "2026-06-27T21:34:48.310Z",
+      "error": ""
+    }
+  ]
+}

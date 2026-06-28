@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:01.380Z",
+  "kind": "artifact-2",
+  "url": "https://github.com/StarKnightt/Backroom-Escape",
+  "finalUrl": "https://github.com/StarKnightt/Backroom-Escape",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"af4bd1d291d5f7c47ffc7d26759e5a4b\"",
+  "lastModified": null,
+  "bodyBytes": 305368,
+  "bodySha256": "f205aadff947fd18e0e3ce11596f32321fad9fa0b4b2c8478fd85d1369704ba5",
+  "title": "GitHub - StarKnightt/Backroom-Escape: Backroom Game, using three js and claude fable 5 · GitHub",
+  "github": {
+    "owner": "StarKnightt",
+    "repo": "Backroom-Escape",
+    "htmlUrl": "https://github.com/StarKnightt/Backroom-Escape",
+    "defaultBranch": "main",
+    "defaultBranchSha": "f75efb20b1ebb815f716454c1123265a960210f6",
+    "pushedAt": "2026-06-11T08:44:24Z",
+    "updatedAt": "2026-06-19T07:51:24Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

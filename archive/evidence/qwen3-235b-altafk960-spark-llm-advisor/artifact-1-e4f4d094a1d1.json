@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:11.995Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Altafk960/spark-llm-advisor",
+  "finalUrl": "https://github.com/Altafk960/spark-llm-advisor",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ffcc0bfac830da4e21ade1fea87c4f16\"",
+  "lastModified": null,
+  "bodyBytes": 300069,
+  "bodySha256": "858f0eec2c6002214de11a97558c1d6924bc0b61bab63d78d924b3c90ae752f2",
+  "title": "GitHub - Altafk960/spark-llm-advisor: LLM-driven scheduling advisor embedded inside Apache Spark&#39;s DAGScheduler and TaskSetManager. Uses Cerebras Qwen3-235B for real-time task placement decisions. · GitHub",
+  "github": {
+    "owner": "Altafk960",
+    "repo": "spark-llm-advisor",
+    "htmlUrl": "https://github.com/Altafk960/spark-llm-advisor",
+    "defaultBranch": "master",
+    "defaultBranchSha": "0faf4ff51bd4e823157af8e4d17dfc57b680b101",
+    "pushedAt": "2026-04-12T11:53:13Z",
+    "updatedAt": "2026-04-12T11:53:17Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

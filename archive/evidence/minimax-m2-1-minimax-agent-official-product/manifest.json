@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "minimax-m2-1-minimax-agent-official-product",
+  "modelId": "minimax-m2-1",
+  "modelName": "MiniMax-M2.1",
+  "title": "MiniMax Agent built on MiniMax-M2.1 for autonomous application workflows",
+  "evidenceFingerprint": "9bf857c52c6da224972b5929367c042e86fb5adf3fa435ebf8a6056ad1e0fad7",
+  "capturedAt": "2026-06-27T22:44:32.108Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MiniMax-AI/MiniMax-M2.1/blob/main/README.md",
+      "snapshotPath": "archive/evidence/minimax-m2-1-minimax-agent-official-product/original-evidence-2cc2049a0251.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MiniMax-M2.1/README.md at main · MiniMax-AI/MiniMax-M2.1 · GitHub",
+      "bodySha256": "d4562ff9ec433bc3ea5c4d86833746befd37f9cf9dac17b06cc011e03d934069",
+      "capturedAt": "2026-06-27T22:44:29.810Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://agent.minimax.io/",
+      "snapshotPath": "archive/evidence/minimax-m2-1-minimax-agent-official-product/artifact-1-d768e471ad4d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MiniMax Agent: Minimize Effort, Maximize Intelligence",
+      "bodySha256": "b0b5384aa4774a0a789551b445fc1f922c14af3d7f41fafd0fe9b2001b8b7d9c",
+      "capturedAt": "2026-06-27T22:44:31.028Z",
+      "error": ""
+    }
+  ]
+}

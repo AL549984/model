@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "grok-2-devbauti-embeddingchat-n8n-qa",
+  "modelId": "grok-2",
+  "modelName": "Grok 2",
+  "title": "EmbeddingChat uses Grok-2-1212 for document-grounded Q&A in an n8n workflow",
+  "evidenceFingerprint": "46bbd3c25fe88e2f3c851568d188699cc75d42c0b68991f3e0da6f885a20d927",
+  "capturedAt": "2026-06-27T22:15:02.537Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/DevBauti/EmbeddingChat/blob/main/README.md",
+      "snapshotPath": "archive/evidence/grok-2-devbauti-embeddingchat-n8n-qa/original-evidence-869a747817cd.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "EmbeddingChat/README.md at main · DevBauti/EmbeddingChat · GitHub",
+      "bodySha256": "e14ae00202907fd066fdcc3abfd7b527e56d140e1c46636a6c7a46d9743f48e6",
+      "capturedAt": "2026-06-27T22:15:00.133Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/DevBauti/EmbeddingChat",
+      "snapshotPath": "archive/evidence/grok-2-devbauti-embeddingchat-n8n-qa/artifact-1-e07a2a0e0f37.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - DevBauti/EmbeddingChat: n8n workflow that downloads a PDF from Google Drive, generates embeddings with Cohere, and stores them in Supabase. Includes a chat with GrokAPI (grok-2-1212) to answer questions based on the document. · Git",
+      "bodySha256": "427bada068dc28f69b43908af2f51370c09ad9a42c3f07841f3b0f5c3806836c",
+      "capturedAt": "2026-06-27T22:15:01.118Z",
+      "error": ""
+    }
+  ]
+}

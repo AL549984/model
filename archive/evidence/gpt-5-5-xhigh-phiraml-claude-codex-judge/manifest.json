@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-5-xhigh-phiraml-claude-codex-judge",
+  "modelId": "gpt-5-5-xhigh",
+  "modelName": "GPT-5.5 (xhigh)",
+  "title": "claude-codex-judge 用 GPT-5.5 xhigh 作为只读判断代理",
+  "evidenceFingerprint": "e18a27ed643e2f43ac26c75445d30bd5dc4d1a9f991f7f4960c50ea1f63bb5a9",
+  "capturedAt": "2026-06-27T21:14:56.881Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/phiraml/claude-codex-judge/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-phiraml-claude-codex-judge/original-evidence-193f766e7672.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "f051db17b62736e250b7fc5f9abf0681280c7555a411fb16427b963bef58dc60",
+      "capturedAt": "2026-06-27T21:14:54.749Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/phiraml/claude-codex-judge",
+      "snapshotPath": "archive/evidence/gpt-5-5-xhigh-phiraml-claude-codex-judge/artifact-1-d81fd52457a1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - phiraml/claude-codex-judge: Claude Code skill: use OpenAI codex (gpt-5.5, xhigh) as a read-only judging agent with conversation continuity. · GitHub",
+      "bodySha256": "7242191bac7d10e3b7aa6541b2d42a24167933623dafec2239c7b18112fc4a9b",
+      "capturedAt": "2026-06-27T21:14:55.063Z",
+      "error": ""
+    }
+  ]
+}

@@ -29,3 +29,9 @@ tmp/
 # Local QA artifacts
 site/output/
 site/visual-qa/screenshots*/
+site/visual-qa/*.png
+site/visual-qa/auto-visual-qa-report.md
+
+# Historical design/prototype workspaces kept locally
+product-design-audits/
+systems-studio-prototype/

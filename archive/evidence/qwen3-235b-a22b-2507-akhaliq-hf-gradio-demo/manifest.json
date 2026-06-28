@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-235b-a22b-2507-akhaliq-hf-gradio-demo",
+  "modelId": "qwen3-235b-a22b-2507",
+  "modelName": "Qwen3 235B A22B 2507",
+  "title": "akhaliq 在 Hugging Face Space 搭建 Qwen3-235B-A22B-Instruct-2507 Gradio 聊天 Demo",
+  "evidenceFingerprint": "153aaa81652e7b5a477e4ce30d4dd2b8b93dcb5aae88f1910e96b9f111224ed5",
+  "capturedAt": "2026-06-27T23:25:30.045Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://huggingface.co/spaces/akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio/blob/main/app.py",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-akhaliq-hf-gradio-demo/original-evidence-fc6feb7becdc.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "app.py · akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio at main",
+      "bodySha256": "07c0cbf4fa6696552102ce0ba2eda893bd0223873ca8a910eb191d28a468b0bd",
+      "capturedAt": "2026-06-27T23:25:29.373Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://huggingface.co/spaces/akhaliq/Qwen3-235B-A22B-Instruct-2507-gradio",
+      "snapshotPath": "archive/evidence/qwen3-235b-a22b-2507-akhaliq-hf-gradio-demo/artifact-1-76f9cb5d2f82.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Qwen3 235B A22B Instruct 2507 Gradio - a Hugging Face Space by akhaliq",
+      "bodySha256": "35be7c6b644de0577c164e229772f9ca60fb9397537e1b18cfa52a89f826eff3",
+      "capturedAt": "2026-06-27T23:25:29.775Z",
+      "error": ""
+    }
+  ]
+}

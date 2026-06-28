@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwq-32b-opencode-coding-agent-20260627",
+  "modelId": "qwq-32b",
+  "modelName": "QwQ-32B",
+  "title": "opencode uses QwQ-32B as its default Groq model for coding-agent workflows",
+  "evidenceFingerprint": "395e9d0e8318f47b4822776acce8c2ef448ae1bebe75928554a83d0a07696a01",
+  "capturedAt": "2026-06-27T23:15:36.919Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/opencode-ai/opencode/blob/main/internal/llm/models/groq.go#L23",
+      "snapshotPath": "archive/evidence/qwq-32b-opencode-coding-agent-20260627/original-evidence-8f7c317bc0b1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "opencode/internal/llm/models/groq.go at main · opencode-ai/opencode · GitHub",
+      "bodySha256": "d8e9195d495e61d4069febbdca40362decb1a67ffd5bc7c780aa8036d620fce8",
+      "capturedAt": "2026-06-27T23:15:34.812Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/opencode-ai/opencode",
+      "snapshotPath": "archive/evidence/qwq-32b-opencode-coding-agent-20260627/artifact-1-b72e94f5f1b2.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - opencode-ai/opencode: A powerful AI coding agent. Built for the terminal. · GitHub",
+      "bodySha256": "f232702cac27352f29eb5822ae0d8188e885578f14a850c13b9e5a70d7259048",
+      "capturedAt": "2026-06-27T23:15:35.859Z",
+      "error": ""
+    }
+  ]
+}

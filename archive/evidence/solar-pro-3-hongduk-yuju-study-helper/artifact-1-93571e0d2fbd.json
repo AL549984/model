@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:14.708Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Hongduk/tutor-app",
+  "finalUrl": "https://github.com/Hongduk/tutor-app",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"0243555fe8223677998f7b4089c9c24e\"",
+  "lastModified": null,
+  "bodyBytes": 311503,
+  "bodySha256": "cbc11705529a4c6cbd4fdc2cec5a5c3138d4c3ebb6751ba7e8270e8f0216fd87",
+  "title": "GitHub - Hongduk/tutor-app: AI 개인 과외 앱 — Upstage Document Parse + Solar Pro 3 · GitHub",
+  "github": {
+    "owner": "Hongduk",
+    "repo": "tutor-app",
+    "apiStatus": "unavailable"
+  }
+}

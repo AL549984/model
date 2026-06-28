@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:20.811Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Arfa-Ahsan/Email_Optimizer_Agent/blob/main/email_optimizer.py",
+  "finalUrl": "https://github.com/Arfa-Ahsan/Email_Optimizer_Agent/blob/main/email_optimizer.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b28cc86b7ec1cf6e5cc6c34a26138059\"",
+  "lastModified": null,
+  "bodyBytes": 329086,
+  "bodySha256": "71c8dd06d21f197a427c654211e6fcabb977ff21cd41e0147eedf3ae9c426100",
+  "title": "Email_Optimizer_Agent/email_optimizer.py at main · Arfa-Ahsan/Email_Optimizer_Agent · GitHub",
+  "github": {
+    "owner": "Arfa-Ahsan",
+    "repo": "Email_Optimizer_Agent",
+    "apiStatus": "unavailable"
+  }
+}

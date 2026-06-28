@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:22:25.083Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/ShenSeanChen/launch-DeepResearch-Backend/blob/main/KIMI_K2_INTEGRATION.md",
+  "finalUrl": "https://github.com/ShenSeanChen/launch-DeepResearch-Backend/blob/main/KIMI_K2_INTEGRATION.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"b93d99a55be794695dcfc6293326ad2f\"",
+  "lastModified": null,
+  "bodyBytes": 327080,
+  "bodySha256": "3dada335f27627f8d69a0bbd321f132080078ce5e3ea6cbf6aff4c5e8afdc538",
+  "title": "launch-DeepResearch-Backend/KIMI_K2_INTEGRATION.md at main · ShenSeanChen/launch-DeepResearch-Backend · GitHub",
+  "github": {
+    "owner": "ShenSeanChen",
+    "repo": "launch-DeepResearch-Backend",
+    "apiStatus": "unavailable"
+  }
+}

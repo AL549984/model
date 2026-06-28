@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-2-xhigh-healthy-nebula-gba-emulator-assembly",
+  "modelId": "gpt-5-2-xhigh",
+  "modelName": "GPT-5.2 (xhigh)",
+  "title": "Healthy-Nebula-3603 用 GPT-5.2 Codex xhigh 生成纯汇编 GBA 模拟器原型",
+  "evidenceFingerprint": "823dae230c8dca537644b7a4b6a39efb9e9bfa0b4c7565c1dcab263c3156bc57",
+  "capturedAt": "2026-06-27T22:01:40.212Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-healthy-nebula-gba-emulator-assembly/original-evidence-056866626470.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-: gpt5.2-codex_xhigh proof of concept GBA emulator in assembly · GitHub",
+      "bodySha256": "a9cca2addc8135c9ca7c4e990eab1962aebf1b6f7e8cddbdd3aae6de8b3df01f",
+      "capturedAt": "2026-06-27T22:01:37.566Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-",
+      "snapshotPath": "archive/evidence/gpt-5-2-xhigh-healthy-nebula-gba-emulator-assembly/artifact-1-056866626470.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Healthy-Nebula-3603/gpt5.2-codex_xhigh-proof-of-concept-GBA-emulator-in-assembly-: gpt5.2-codex_xhigh proof of concept GBA emulator in assembly · GitHub",
+      "bodySha256": "dcc610be841c0c7f81520974b1fbdb83842d63f6a4147b7c95ecc1560f471694",
+      "capturedAt": "2026-06-27T22:01:39.487Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:37:54.301Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/aaronjmars/MiroShark",
+  "finalUrl": "https://github.com/aaronjmars/MiroShark",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ffda44a01611c18806442187e13dc508\"",
+  "lastModified": null,
+  "bodyBytes": 369962,
+  "bodySha256": "c0794ac30adeb7fe44d2e87b4c46dccdeb8509c4e1b9b12b7ce0714ca1f6e69f",
+  "title": "GitHub - aaronjmars/MiroShark: Simulate anything, for $1 &amp; less than 10 min - Universal Swarm Intelligence Engine · GitHub",
+  "github": {
+    "owner": "aaronjmars",
+    "repo": "MiroShark",
+    "apiStatus": "unavailable"
+  }
+}

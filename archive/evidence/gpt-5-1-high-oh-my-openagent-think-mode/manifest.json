@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-5-1-high-oh-my-openagent-think-mode",
+  "modelId": "gpt-5-1-high",
+  "modelName": "GPT-5.1 (high)",
+  "title": "oh-my-openagent maps GPT-5.1 to gpt-5-1-high in its think-mode coding-agent harness",
+  "evidenceFingerprint": "21d717ab78f9a6191e30462bd30d644c2755927a5996eae330060a37f0cdf585",
+  "capturedAt": "2026-06-27T22:01:17.974Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/8046cfb1618e1192198e426dfb6b049a4cfe4bad/packages/omo-opencode/src/hooks/think-mode/switcher.ts#L59-L64",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-oh-my-openagent-think-mode/original-evidence-20769e6078b1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "oh-my-openagent/packages/omo-opencode/src/hooks/think-mode/switcher.ts at 8046cfb1618e1192198e426dfb6b049a4cfe4bad · code-yeongyu/oh-my-openagent · GitHub",
+      "bodySha256": "044761d7e9cbdcc9ce30d9992589c0f554e5be3a3e61008346436fe0b3c385da",
+      "capturedAt": "2026-06-27T22:01:15.616Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "snapshotPath": "archive/evidence/gpt-5-1-high-oh-my-openagent-think-mode/artifact-1-a90e1fa2514d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - code-yeongyu/oh-my-openagent: omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode · GitHub",
+      "bodySha256": "a76f4c2e48674250e6196f686ab714295437738b848efc147ba9807e6391dd90",
+      "capturedAt": "2026-06-27T22:01:16.738Z",
+      "error": ""
+    }
+  ]
+}

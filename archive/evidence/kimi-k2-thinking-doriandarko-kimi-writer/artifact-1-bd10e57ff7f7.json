@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:41.068Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/Doriandarko/kimi-writer",
+  "finalUrl": "https://github.com/Doriandarko/kimi-writer",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"da72a3936b83a7b1b6222097ee8619b7\"",
+  "lastModified": null,
+  "bodyBytes": 353887,
+  "bodySha256": "033e011694c7a8afb3aa6400d8f4b963171bbd7fe8ee1c1675c8751de3d8b593",
+  "title": "GitHub - Doriandarko/kimi-writer: AI writing agent powered by kimi-k2-thinking - autonomously creates novels and stories with deep reasoning · GitHub",
+  "github": {
+    "owner": "Doriandarko",
+    "repo": "kimi-writer",
+    "apiStatus": "unavailable"
+  }
+}

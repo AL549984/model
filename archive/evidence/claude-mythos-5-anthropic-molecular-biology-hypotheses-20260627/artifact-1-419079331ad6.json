@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:26:37.432Z",
+  "kind": "artifact-1",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5#:~:text=one%20Mythos%20hypothesis%E2%80%94a%20novel%20mechanism%20for%20an%20E.%20coli%20protein",
+  "finalUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 299185,
+  "bodySha256": "278df5195331c904c5775799534b77dec4b4414d6f72d11659111c93ba1e0e5d",
+  "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+  "github": null
+}

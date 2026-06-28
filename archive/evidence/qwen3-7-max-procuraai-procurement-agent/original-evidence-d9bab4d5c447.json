@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:08:05.408Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/MM1ng/ProcuraAI/blob/main/README.md#features",
+  "finalUrl": "https://github.com/MM1ng/ProcuraAI/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"7e1c1c4a7f25343a445a55cfe5e8c3f1\"",
+  "lastModified": null,
+  "bodyBytes": 320812,
+  "bodySha256": "0fed504bd50cbefce6910938dfc7b415f14291da62f347593c4b0c0ecd40dc5f",
+  "title": "ProcuraAI/README.md at main · MM1ng/ProcuraAI · GitHub",
+  "github": {
+    "owner": "MM1ng",
+    "repo": "ProcuraAI",
+    "apiStatus": "unavailable"
+  }
+}

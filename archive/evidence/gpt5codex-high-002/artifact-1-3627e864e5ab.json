@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:08:12.885Z",
+  "kind": "artifact-1",
+  "url": "https://divelog.copilot.ovh",
+  "finalUrl": "https://divelog.copilot.ovh/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "\"kgnzvwf2pc11j5\"",
+  "lastModified": null,
+  "bodyBytes": 48730,
+  "bodySha256": "fced4c5b54404fdecf447dbb57506715a8bf93eb58f2d70cf4188c2858ce46fe",
+  "title": "DiveLog Studio",
+  "github": null
+}

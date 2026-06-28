@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:24:49.865Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/Samson-U/Tax-Preparation-Assistant/blob/main/README.md",
+  "finalUrl": "https://github.com/Samson-U/Tax-Preparation-Assistant/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"69f4e191e32af2f1fd4f9ae9ef1d3a2a\"",
+  "lastModified": null,
+  "bodyBytes": 260573,
+  "bodySha256": "7ff32e80f58ebc3c4947653b420dc062a4fe90a78650f773955880b9f39245a8",
+  "title": "Tax-Preparation-Assistant/README.md at main · Samson-U/Tax-Preparation-Assistant · GitHub",
+  "github": {
+    "owner": "Samson-U",
+    "repo": "Tax-Preparation-Assistant",
+    "apiStatus": "unavailable"
+  }
+}

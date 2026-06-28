@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-flash-alibaba-open-code-review",
+  "modelId": "mimo-v2-flash-feb-2026",
+  "modelName": "MiMo-V2-Flash (Feb 2026)",
+  "title": "Alibaba OpenCodeReview: MiMo-V2-Flash as Supported LLM for AI Code Review",
+  "evidenceFingerprint": "7f22191eb3bc5db8897a7740d0ea405a641887e9ab19d5daa025af6e94e7d36e",
+  "capturedAt": "2026-06-27T22:37:51.136Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/alibaba/open-code-review/pull/192",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-alibaba-open-code-review/original-evidence-e292d8aaf0af.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Remove deprecated MiMo v2 models by guqihao-7 · Pull Request #192 · alibaba/open-code-review · GitHub",
+      "bodySha256": "25514aa6b26d83b80c877d052f11449592f4e9073c0e4633197eb71aae16c389",
+      "capturedAt": "2026-06-27T22:37:48.903Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/alibaba/open-code-review",
+      "snapshotPath": "archive/evidence/mimo-v2-flash-alibaba-open-code-review/artifact-1-c489e6fb5feb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - alibaba/open-code-review: Open-source &amp; free — Battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thre",
+      "bodySha256": "972f5e8450d98bfa4717a6f9eef8f822cab5b7a050d4a184d7f6c072f60ec286",
+      "capturedAt": "2026-06-27T22:37:49.976Z",
+      "error": ""
+    }
+  ]
+}

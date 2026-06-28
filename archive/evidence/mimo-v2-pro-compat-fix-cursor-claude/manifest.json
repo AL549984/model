@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "mimo-v2-pro-compat-fix-cursor-claude",
+  "modelId": "mimo-v2-pro",
+  "modelName": "MiMo-V2-Pro",
+  "title": "MiMo-API-400-Fix: Community compatibility tool enabling MiMo-V2-Pro use with Cursor, Claude Code, and 15+ tools",
+  "evidenceFingerprint": "e46aa29b05f94829f62603ecf2f8ec20b5057e0d7940f2f867220937ffecd915",
+  "capturedAt": "2026-06-27T22:38:03.374Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Miku-cy/MiMo-API-400-Fix",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-compat-fix-cursor-claude/original-evidence-dbdbfe688193.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Miku-cy/MiMo-API-400-Fix: 🛠️ 小米 MiMo API 400报错 兼容性修复工具 - 解决 MiMo V2.5 系列模型在各类 AI 编程工具中的兼容性问题 · GitHub",
+      "bodySha256": "41cd8c90abd66e74c6e55b59ac36bd78d55bf454bd91b8c4901342597e54368b",
+      "capturedAt": "2026-06-27T22:38:01.808Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Miku-cy/MiMo-API-400-Fix",
+      "snapshotPath": "archive/evidence/mimo-v2-pro-compat-fix-cursor-claude/artifact-1-dbdbfe688193.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Miku-cy/MiMo-API-400-Fix: 🛠️ 小米 MiMo API 400报错 兼容性修复工具 - 解决 MiMo V2.5 系列模型在各类 AI 编程工具中的兼容性问题 · GitHub",
+      "bodySha256": "cdd97c17e0e236b5d2eaa60678020297d3c54cf8826894f3c897ef27b5a77fce",
+      "capturedAt": "2026-06-27T22:38:02.849Z",
+      "error": ""
+    }
+  ]
+}

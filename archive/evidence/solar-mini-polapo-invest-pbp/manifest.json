@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-polapo-invest-pbp",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "Polapo Invest uses a Solar Mini fine-tuned SEC chatbot in a portfolio backtesting platform",
+  "evidenceFingerprint": "fd100370cf51cc7f7ca08639c5bd82c25c7dd12bba172df67fa36b6a8abf3f40",
+  "capturedAt": "2026-06-27T23:23:36.087Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Polapo-Invest/Polapo-Invest-PBP/blob/main/main.py",
+      "snapshotPath": "archive/evidence/solar-mini-polapo-invest-pbp/original-evidence-8c5f900f870b.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Polapo-Invest-PBP/main.py at main · Polapo-Invest/Polapo-Invest-PBP · GitHub",
+      "bodySha256": "67f5b3e4db96bf58b06e76a8de434ff0a38a9d43101874901cda8f8cdcfa8531",
+      "capturedAt": "2026-06-27T23:23:33.456Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Polapo-Invest/Polapo-Invest-PBP",
+      "snapshotPath": "archive/evidence/solar-mini-polapo-invest-pbp/artifact-1-7a12aff32429.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Polapo-Invest/Polapo-Invest-PBP: Polapo Invest Portfolio Backtesting Platform · GitHub",
+      "bodySha256": "9f365c78e4ae62edc1077e6a401c87dfed363662d57ccca3994322f3c21ecdfc",
+      "capturedAt": "2026-06-27T23:23:34.404Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:34.168Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/tanishq-ctrl/sympcheck-helper",
+  "finalUrl": "https://github.com/tanishq-ctrl/sympcheck-helper",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ecc1bfb979307eb57c3063cec46099aa\"",
+  "lastModified": null,
+  "bodyBytes": 343944,
+  "bodySha256": "2b7b5642a877af7f32e950c1d5678b3f1d91625b6efe2b524daccbc58799e798",
+  "title": "GitHub - tanishq-ctrl/sympcheck-helper: SympCheck Helper is a modern healthcare consultation chatbot that leverages the power of DeepSeek V3 API and Supabase to provide intelligent health-related assistance. Built with cutting-edge technolo",
+  "github": {
+    "owner": "tanishq-ctrl",
+    "repo": "sympcheck-helper",
+    "apiStatus": "unavailable"
+  }
+}

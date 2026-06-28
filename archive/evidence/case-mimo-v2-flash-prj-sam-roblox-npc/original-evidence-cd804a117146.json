@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:15:53.557Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/serenemm/ProjectSam",
+  "finalUrl": "https://github.com/serenemm/ProjectSam",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"02544c6b1a50968be0c5d5f3f22b89e9\"",
+  "lastModified": null,
+  "bodyBytes": 260992,
+  "bodySha256": "9e4289136c8c31734d5ff110d311d752e140073ff8013d28d315da4d6034e560",
+  "title": "GitHub - serenemm/ProjectSam: Sam is a Roblox AI powered by a cloud-hosted large language model (MiMo v2 Flash from OpenRouter), enabling dynamic, natural language interactions. The backend is hosted on Railway and communicates with Roblox ",
+  "github": {
+    "owner": "serenemm",
+    "repo": "ProjectSam",
+    "htmlUrl": "https://github.com/serenemm/ProjectSam",
+    "defaultBranch": "main",
+    "defaultBranchSha": "a0ce38c2c82115a1614e4932df6e922ffc2d1040",
+    "pushedAt": "2025-12-31T22:24:10Z",
+    "updatedAt": "2025-12-31T22:24:13Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

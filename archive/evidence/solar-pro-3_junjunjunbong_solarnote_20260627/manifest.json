@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3_junjunjunbong_solarnote_20260627",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "SolarNote: Solar Pro 3 multi-agent math error-note generator",
+  "evidenceFingerprint": "80730941a56d95980172c82a81b285db63f7082912ce9647318241c7d99d1d57",
+  "capturedAt": "2026-06-27T23:24:49.862Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/junjunjunbong/upstage-SolarNote/blob/master/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3_junjunjunbong_solarnote_20260627/original-evidence-7203758a3382.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "upstage-SolarNote/README.md at master · junjunjunbong/upstage-SolarNote · GitHub",
+      "bodySha256": "bd956d8aff5e61fda716d6826f627a178bda68c9eec2f2406c257cec276c9492",
+      "capturedAt": "2026-06-27T23:24:47.081Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/junjunjunbong/upstage-SolarNote",
+      "snapshotPath": "archive/evidence/solar-pro-3_junjunjunbong_solarnote_20260627/artifact-1-79106eeb30b9.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - junjunjunbong/upstage-SolarNote: AI 수학 오답 노트 자동 생성기 - Upstage Solar LLM 기반 Multi-Agent 시스템 · GitHub",
+      "bodySha256": "cb64533146798707b2ef01bdd8f4d359a4141226caef2e67ce0c46d994244667",
+      "capturedAt": "2026-06-27T23:24:48.297Z",
+      "error": ""
+    }
+  ]
+}

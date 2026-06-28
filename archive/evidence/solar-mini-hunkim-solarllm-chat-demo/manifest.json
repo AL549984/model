@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-mini-hunkim-solarllm-chat-demo",
+  "modelId": "solar-mini",
+  "modelName": "Solar Mini",
+  "title": "SolarLLM Chat Demo uses Solar Mini for public Streamlit/Gradio chat applications",
+  "evidenceFingerprint": "c4599076e801b772089d6307ed013a6dc4630d7eac6d4968be2cb1eab075785f",
+  "capturedAt": "2026-06-27T21:28:08.100Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/hunkim/SolarLLMChatDemo/main/chatopenai.py",
+      "snapshotPath": "archive/evidence/solar-mini-hunkim-solarllm-chat-demo/original-evidence-361e71d9d6ec.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "11d5e878545e542d74d29c52c72326428eb94ee8ad0b5b8abf827adde63de55e",
+      "capturedAt": "2026-06-27T21:28:06.517Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/hunkim/SolarLLMChatDemo",
+      "snapshotPath": "archive/evidence/solar-mini-hunkim-solarllm-chat-demo/artifact-1-e2522e3d3026.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - hunkim/SolarLLMChatDemo: Full Stack SolarLLM Zero to All · GitHub",
+      "bodySha256": "46c441cc07ad66254b923f8ded5e8d1e02d083331fd52e1f16701f2048581d62",
+      "capturedAt": "2026-06-27T21:28:06.834Z",
+      "error": ""
+    }
+  ]
+}

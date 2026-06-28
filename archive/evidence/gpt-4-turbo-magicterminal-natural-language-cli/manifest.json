@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "gpt-4-turbo-magicterminal-natural-language-cli",
+  "modelId": "gpt-4-turbo",
+  "modelName": "GPT-4 Turbo",
+  "title": "MagicTerminal uses GPT-4 Turbo to translate natural language into terminal commands",
+  "evidenceFingerprint": "33dcf26f2225330418c97317933299f2b29201596b178228e768ceb87cbc52f3",
+  "capturedAt": "2026-06-27T22:00:46.177Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/small-cactus/MagicTerminal/blob/main/README.md",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-magicterminal-natural-language-cli/original-evidence-a3fe9e56f5a5.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "MagicTerminal/README.md at main · small-cactus/MagicTerminal · GitHub",
+      "bodySha256": "3765abed7e44a62d965ba09733302e9a1c41a6e5d1e3b4ce2f9847b0ceba5e4b",
+      "capturedAt": "2026-06-27T22:00:43.214Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/small-cactus/MagicTerminal",
+      "snapshotPath": "archive/evidence/gpt-4-turbo-magicterminal-natural-language-cli/artifact-1-5a3370004b70.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - small-cactus/MagicTerminal: Command line magic for MacOS. EXPECT BUGS. Available for MacOS, powered by GPT-4-Turbo. · GitHub",
+      "bodySha256": "c439fb7def098c0630be3d535e0011e909b3ddce49bcca979b43faf92a72af5f",
+      "capturedAt": "2026-06-27T22:00:44.260Z",
+      "error": ""
+    }
+  ]
+}

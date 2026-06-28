@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-5-1-zhayujie-cowagent-super-assistant",
+  "modelId": "glm-5-1",
+  "modelName": "GLM-5.1",
+  "title": "CowAgent v2.0.7 adds GLM 5.1 support to an open-source super assistant and agent harness",
+  "evidenceFingerprint": "01b345b5a9dab0672a429eb125222065622404d1d9f25ccf323e93271a50b210",
+  "capturedAt": "2026-06-27T21:53:58.123Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.0.7",
+      "snapshotPath": "archive/evidence/glm-5-1-zhayujie-cowagent-super-assistant/original-evidence-d0781758446d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Release 2.0.7 · zhayujie/CowAgent · GitHub",
+      "bodySha256": "2f1b6b071391761855caa3133771e86bc5694b90a1375acc913bf01a19a97b27",
+      "capturedAt": "2026-06-27T21:53:56.359Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "snapshotPath": "archive/evidence/glm-5-1-zhayujie-cowagent-super-assistant/artifact-1-7bb6849c4208.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - zhayujie/CowAgent: Open-source super AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly cha",
+      "bodySha256": "e61d68986e6dcd5e8ddc491109bd925a13aac14eb15fa941a3a767aeb2e78888",
+      "capturedAt": "2026-06-27T21:53:57.264Z",
+      "error": ""
+    }
+  ]
+}

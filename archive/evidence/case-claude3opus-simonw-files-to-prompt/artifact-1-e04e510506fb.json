@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T19:29:53.007Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/simonw/files-to-prompt",
+  "finalUrl": "https://github.com/simonw/files-to-prompt",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"54e25a3c1b8de39cd48a324599200814\"",
+  "lastModified": null,
+  "bodyBytes": 305103,
+  "bodySha256": "a4880dafc7109b6c87361e17e85729e889ee2f5582894a998b2de1a92fde5e8a",
+  "title": "GitHub - simonw/files-to-prompt: Concatenate a directory full of files into a single prompt for use with LLMs · GitHub",
+  "github": {
+    "owner": "simonw",
+    "repo": "files-to-prompt",
+    "htmlUrl": "https://github.com/simonw/files-to-prompt",
+    "defaultBranch": "main",
+    "defaultBranchSha": "1b234ff6dccb2ca3e56b5c256696558fb85306dc",
+    "pushedAt": "2025-02-19T05:57:43Z",
+    "updatedAt": "2026-06-27T17:18:44Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

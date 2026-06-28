@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:00.055Z",
+  "kind": "artifact-1",
+  "url": "https://kai9000.com/app/",
+  "finalUrl": "https://kai9000.com/app/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "339",
+  "etag": "W/\"6a3ec978-23a\"",
+  "lastModified": "Fri, 26 Jun 2026 18:48:24 GMT",
+  "bodyBytes": 570,
+  "bodySha256": "2d716d38b64adb7329f572a8617d809e90736d94098116755d675f04b88e9c1c",
+  "title": "Kai",
+  "github": null
+}

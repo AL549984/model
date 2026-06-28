@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:32.872Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard",
+  "finalUrl": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ff6891de278a6ff6ff34ef9a09c7143e\"",
+  "lastModified": null,
+  "bodyBytes": 363300,
+  "bodySha256": "1812ae01e18a2db369c73ee680418b76e4890424220c106a67747dd62520852d",
+  "title": "GitHub - elmorshedy-del/Virona-ShawQ-Dashboard · GitHub",
+  "github": {
+    "owner": "elmorshedy-del",
+    "repo": "Virona-ShawQ-Dashboard",
+    "htmlUrl": "https://github.com/elmorshedy-del/Virona-ShawQ-Dashboard",
+    "defaultBranch": "main",
+    "defaultBranchSha": "c46693d67aa60cb1b353eca71b1ea266833073dd",
+    "pushedAt": "2026-05-05T06:14:53Z",
+    "updatedAt": "2026-04-25T14:59:00Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

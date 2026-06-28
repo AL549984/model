@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "o1-preview-openai-zackthedoer-space-invaders-threejs-202409",
+  "modelId": "o1-preview",
+  "modelName": "o1-preview",
+  "title": "ZackTheDoer used o1-preview to create a single-file Three.js Space Invaders game",
+  "evidenceFingerprint": "b91ff77a11efd086977abc636f19d830ac1fbb3b7733f1d7324594a002b32b54",
+  "capturedAt": "2026-06-27T22:51:47.903Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ZackTheDoer/o1-preview-space-invaders/blob/main/README.md",
+      "snapshotPath": "archive/evidence/o1-preview-openai-zackthedoer-space-invaders-threejs-202409/original-evidence-3199c6451bf7.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "o1-preview-space-invaders/README.md at main · ZackTheDoer/o1-preview-space-invaders · GitHub",
+      "bodySha256": "0018cbafb00a64ef7c24f64fa21e3144139959757f626b709c1b91445d805306",
+      "capturedAt": "2026-06-27T22:51:45.824Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/ZackTheDoer/o1-preview-space-invaders",
+      "snapshotPath": "archive/evidence/o1-preview-openai-zackthedoer-space-invaders-threejs-202409/artifact-1-bff77332ecb8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ZackTheDoer/o1-preview-space-invaders: Space invaders in a single index.html file created with o1-preview-space-invaders in a single prompt. · GitHub",
+      "bodySha256": "ff36bcaa0c9cdc1822bb28c725ef9296f7c5effe0fecc839994fb43308e03e69",
+      "capturedAt": "2026-06-27T22:51:46.812Z",
+      "error": ""
+    }
+  ]
+}

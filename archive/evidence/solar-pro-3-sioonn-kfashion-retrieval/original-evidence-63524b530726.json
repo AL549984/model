@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:28:20.365Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/Sioonn/kfashion-t2i-retrieval/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/Sioonn/kfashion-t2i-retrieval/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "2672",
+  "etag": "W/\"4d0617536c0dd89fca393272c1be41c517a501acf0db1477b44309801d6e615a\"",
+  "lastModified": null,
+  "bodyBytes": 5188,
+  "bodySha256": "338c43794d4f68a86fdb8414585589e1e1f56e2e5fce89f73890df985a58d390",
+  "title": "",
+  "github": null
+}

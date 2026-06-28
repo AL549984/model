@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "solar-pro-3-sioonn-kfashion-retrieval",
+  "modelId": "solar-pro-3",
+  "modelName": "Solar Pro 3",
+  "title": "K-fashion text-to-image retrieval project uses Solar Pro3 to generate Korean user-style synthetic queries",
+  "evidenceFingerprint": "f0f371d7b752e09681bb8fa5640b7dd91bd3ebd10b6ed3936851d7abd56a2fd0",
+  "capturedAt": "2026-06-27T21:28:21.897Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://raw.githubusercontent.com/Sioonn/kfashion-t2i-retrieval/main/README.md",
+      "snapshotPath": "archive/evidence/solar-pro-3-sioonn-kfashion-retrieval/original-evidence-63524b530726.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "",
+      "bodySha256": "338c43794d4f68a86fdb8414585589e1e1f56e2e5fce89f73890df985a58d390",
+      "capturedAt": "2026-06-27T21:28:20.365Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/Sioonn/kfashion-t2i-retrieval",
+      "snapshotPath": "archive/evidence/solar-pro-3-sioonn-kfashion-retrieval/artifact-1-10b1ace0e435.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Sioonn/kfashion-t2i-retrieval: Korean fashion text-to-image retrieval capstone. SigLIP 2 + text-only LoRA on Solar-pro3 augmented user-style queries. · GitHub",
+      "bodySha256": "eea7d753287ec0743d570536a17e387b398d3ff56a1399aa2ab26aaa8ba439be",
+      "capturedAt": "2026-06-27T21:28:20.690Z",
+      "error": ""
+    }
+  ]
+}

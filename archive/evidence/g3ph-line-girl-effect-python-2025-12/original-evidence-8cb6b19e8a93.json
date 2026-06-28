@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:50.591Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/letmutex/line-girl-effect",
+  "finalUrl": "https://github.com/letmutex/line-girl-effect",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"5956f7348a39466074541e044ba43e11\"",
+  "lastModified": null,
+  "bodyBytes": 270078,
+  "bodySha256": "d0abece44ea3ac61370293fe656eaa7e423c41916abebdcd746ca2f376f077bb",
+  "title": "GitHub - letmutex/line-girl-effect: the Line Girl effect in Python. · GitHub",
+  "github": {
+    "owner": "letmutex",
+    "repo": "line-girl-effect",
+    "apiStatus": "unavailable"
+  }
+}

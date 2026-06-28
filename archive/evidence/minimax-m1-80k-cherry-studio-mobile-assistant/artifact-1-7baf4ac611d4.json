@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:44:20.072Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/CherryHQ/cherry-studio-app",
+  "finalUrl": "https://github.com/CherryHQ/cherry-studio-app",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"dfba706a739ec1ea20713961851ee845\"",
+  "lastModified": null,
+  "bodyBytes": 360377,
+  "bodySha256": "2ff9ce4b8b239836713aa39414cb8191836564c84f547f7f43b11164e9a31634",
+  "title": "GitHub - CherryHQ/cherry-studio-app: 🍒 This is the mobile version of Cherry Studio. · GitHub",
+  "github": {
+    "owner": "CherryHQ",
+    "repo": "cherry-studio-app",
+    "apiStatus": "unavailable"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:32.021Z",
+  "kind": "artifact-1",
+  "url": "https://www.bilibili.com/video/BV1UAnVznEA5/",
+  "finalUrl": "https://www.bilibili.com/video/BV1UAnVznEA5/",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": null,
+  "lastModified": null,
+  "bodyBytes": 200764,
+  "bodySha256": "461f7487d1c2d99e2c586590d4bad1ead83b7d65d2b3ac958f9b17d50f0d1f56",
+  "title": "Text2SQL实战-对话式商业智能分析Agent应用_哔哩哔哩_bilibili",
+  "github": null
+}

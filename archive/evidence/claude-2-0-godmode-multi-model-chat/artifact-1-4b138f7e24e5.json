@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:16:29.554Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/smol-ai/GodMode",
+  "finalUrl": "https://github.com/smol-ai/GodMode",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"085eaf99182ea25a20b1293c459b10f5\"",
+  "lastModified": null,
+  "bodyBytes": 359098,
+  "bodySha256": "eee021be7d04534f8ae93a5d2aa3a2e1a286aeeda85bac9ef225865788910465",
+  "title": "GitHub - smol-ai/GodMode: AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day. · GitHub",
+  "github": {
+    "owner": "smol-ai",
+    "repo": "GodMode",
+    "htmlUrl": "https://github.com/smol-ai/GodMode",
+    "defaultBranch": "main",
+    "defaultBranchSha": "8ac3ffde96ab72d992b5d5cf1743673e610cb07b",
+    "pushedAt": "2024-07-29T00:31:03Z",
+    "updatedAt": "2026-06-27T19:35:11Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

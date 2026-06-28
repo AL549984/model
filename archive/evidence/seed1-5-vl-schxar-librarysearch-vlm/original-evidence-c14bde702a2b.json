@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:23:05.344Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/schxar/LibrarySearch/blob/main/flask_openai_backend/vlm.py",
+  "finalUrl": "https://github.com/schxar/LibrarySearch/blob/main/flask_openai_backend/vlm.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"72502db693bcddd0ab824588ffcffafb\"",
+  "lastModified": null,
+  "bodyBytes": 287317,
+  "bodySha256": "045e71c3344e5d6d891ff3da966f73c6a525a02b114f2c65ebced282f138e657",
+  "title": "LibrarySearch/flask_openai_backend/vlm.py at main · schxar/LibrarySearch · GitHub",
+  "github": {
+    "owner": "schxar",
+    "repo": "LibrarySearch",
+    "apiStatus": "unavailable"
+  }
+}

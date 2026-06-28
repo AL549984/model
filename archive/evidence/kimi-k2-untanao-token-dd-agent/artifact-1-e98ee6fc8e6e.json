@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:29:49.808Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/untanao/token-dd-agent",
+  "finalUrl": "https://github.com/untanao/token-dd-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"cb0f2bfc1f3cacf11ecb5baf9afa773e\"",
+  "lastModified": null,
+  "bodyBytes": 323629,
+  "bodySha256": "6319cac9adcc205e3581d3b3e78df500dc51cbfdfc53a7b0021909c104c5636d",
+  "title": "GitHub - untanao/token-dd-agent: AI-powered crypto due-diligence agent — paste any EVM token, get a structured risk report. Built with Next.js + Kimi K2. · GitHub",
+  "github": {
+    "owner": "untanao",
+    "repo": "token-dd-agent",
+    "apiStatus": "unavailable"
+  }
+}

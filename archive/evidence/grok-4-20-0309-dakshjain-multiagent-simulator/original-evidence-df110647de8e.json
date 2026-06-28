@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:15:31.962Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/dakshjain-1616/grok-multiagent-simulator/blob/main/README.md",
+  "finalUrl": "https://github.com/dakshjain-1616/grok-multiagent-simulator/blob/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4602d5bc681e1fa820696ad2895736d1\"",
+  "lastModified": null,
+  "bodyBytes": 365790,
+  "bodySha256": "f179e0e59c7a48f791d31d68bad2fbdaa4908efd4d8904b0d09b4b11036e10ec",
+  "title": "grok-multiagent-simulator/README.md at main · dakshjain-1616/grok-multiagent-simulator · GitHub",
+  "github": {
+    "owner": "dakshjain-1616",
+    "repo": "grok-multiagent-simulator",
+    "apiStatus": "unavailable"
+  }
+}

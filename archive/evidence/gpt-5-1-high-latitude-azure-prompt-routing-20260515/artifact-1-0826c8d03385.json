@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T22:01:14.503Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/latitude-dev/latitude-llm",
+  "finalUrl": "https://github.com/latitude-dev/latitude-llm",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"ba7b892f8b53c378a0b8bd10a8a25a0e\"",
+  "lastModified": null,
+  "bodyBytes": 459359,
+  "bodySha256": "dcc89b30a4ed1e87b13bd33d97c34dc3707e58d3afedc66a4da7fef45bc616b0",
+  "title": "GitHub - latitude-dev/latitude-llm: Latitude is the open-source ai monitoring platform. · GitHub",
+  "github": {
+    "owner": "latitude-dev",
+    "repo": "latitude-llm",
+    "apiStatus": "unavailable"
+  }
+}

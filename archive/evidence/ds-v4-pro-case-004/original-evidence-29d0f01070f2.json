@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:34:47.260Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/yanqiyao1/SeekCode",
+  "finalUrl": "https://github.com/yanqiyao1/SeekCode",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"02af1bea6eb6ba5490fb9b2cd9807e95\"",
+  "lastModified": null,
+  "bodyBytes": 331415,
+  "bodySha256": "031842acd02cf3213cdbd923e5257032d8b93e41aaec68552823cda717186c1d",
+  "title": "GitHub - yanqiyao1/SeekCode: DeepSeek powered terminal-native code agent with TUI for real engineering repositories, built around DeepSeek V4 Pro for long-context reasoning, code editing, testing, Git, web search, MCP, and sub-agent workflo",
+  "github": {
+    "owner": "yanqiyao1",
+    "repo": "SeekCode",
+    "apiStatus": "unavailable"
+  }
+}

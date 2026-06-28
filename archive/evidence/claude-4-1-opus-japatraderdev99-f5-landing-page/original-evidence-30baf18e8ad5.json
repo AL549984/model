@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:54:34.905Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/japatraderdev99/landing-pagr-f5-google",
+  "finalUrl": "https://github.com/japatraderdev99/landing-pagr-f5-google",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"1e8c1957399a8b83145867e32ad2116c\"",
+  "lastModified": null,
+  "bodyBytes": 413965,
+  "bodySha256": "61edf458442f90df1143f67776306a10a5f806d20a33035b9d09af4919cd4e9e",
+  "title": "GitHub - japatraderdev99/landing-pagr-f5-google: versao lp feita com claude opus 4.1 · GitHub",
+  "github": {
+    "owner": "japatraderdev99",
+    "repo": "landing-pagr-f5-google",
+    "apiStatus": "unavailable"
+  }
+}

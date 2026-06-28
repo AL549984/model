@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-5-sonnet-maxharar-sierra-tau-demo",
+  "modelId": "claude-4-5-sonnet",
+  "modelName": "Claude 4.5 Sonnet",
+  "title": "Max Harar built a live Sierra tau-bench airline customer-service agent with Claude Sonnet 4.5",
+  "evidenceFingerprint": "2b48718eb2ef6f238475ab0a6af4cbd922f85ffa62a57aa97b34d123fc8bf2b3",
+  "capturedAt": "2026-06-27T20:54:51.158Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/MaxHarar/sierra-tau-demo/blob/main/README.md",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-maxharar-sierra-tau-demo/original-evidence-61f2a2f72e53.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "sierra-tau-demo/README.md at main · MaxHarar/sierra-tau-demo · GitHub",
+      "bodySha256": "9a9a7aa4b067cb4b9db6ea4f5f50c0f7fba8115e8757c6a8d1ff3fa851e2d012",
+      "capturedAt": "2026-06-27T20:54:48.718Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://maxharar.com/sierra",
+      "snapshotPath": "archive/evidence/claude-4-5-sonnet-maxharar-sierra-tau-demo/artifact-1-0a9f02d69f73.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "Pass^1 | Max Harar",
+      "bodySha256": "4b5fd48240518e89fa3ac876580785af916acbfdb701d24c9a79dad7421b0073",
+      "capturedAt": "2026-06-27T20:54:49.941Z",
+      "error": ""
+    }
+  ]
+}

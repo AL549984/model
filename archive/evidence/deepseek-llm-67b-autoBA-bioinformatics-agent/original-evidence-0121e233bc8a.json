@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:01:55.742Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/JoshuaChou2018/AutoBA",
+  "finalUrl": "https://github.com/JoshuaChou2018/AutoBA",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"15df882e5cb0775eca03f2592bc0fb0b\"",
+  "lastModified": null,
+  "bodyBytes": 457801,
+  "bodySha256": "dd94b15b7079df21701be8cc5e9d99ad047a2db3384accbc1bfdc94b6d078a37",
+  "title": "GitHub - JoshuaChou2018/AutoBA: An AI Agent for Fully Automated Multi-omic Analyses · GitHub",
+  "github": {
+    "owner": "JoshuaChou2018",
+    "repo": "AutoBA",
+    "htmlUrl": "https://github.com/JoshuaChou2018/AutoBA",
+    "defaultBranch": "main",
+    "defaultBranchSha": "a9f8f1244faf8b33cf1154150d612acf5026a4d9",
+    "pushedAt": "2024-11-04T11:50:04Z",
+    "updatedAt": "2026-06-24T07:41:09Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

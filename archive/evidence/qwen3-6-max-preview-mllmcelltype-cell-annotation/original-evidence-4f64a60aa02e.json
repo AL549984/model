@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:07:29.233Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/cafferychen777/mLLMCelltype/blob/e09db3ed430ba53bc13fdf8c12654bf01e66bb20/python/mllmcelltype/providers/qwen.py",
+  "finalUrl": "https://github.com/cafferychen777/mLLMCelltype/blob/e09db3ed430ba53bc13fdf8c12654bf01e66bb20/python/mllmcelltype/providers/qwen.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"43b32483f0ea9b9eb97e54665702477b\"",
+  "lastModified": null,
+  "bodyBytes": 275883,
+  "bodySha256": "a8a1882af9b0f28e327d08ee126f58deab71aa5361e1b74ad600fb4f3b330a36",
+  "title": "mLLMCelltype/python/mllmcelltype/providers/qwen.py at e09db3ed430ba53bc13fdf8c12654bf01e66bb20 · cafferychen777/mLLMCelltype · GitHub",
+  "github": {
+    "owner": "cafferychen777",
+    "repo": "mLLMCelltype",
+    "htmlUrl": "https://github.com/cafferychen777/mLLMCelltype",
+    "defaultBranch": "main",
+    "defaultBranchSha": "34b25899983bb7e72c448a53c14e47d1079219c5",
+    "pushedAt": "2026-06-27T19:51:19Z",
+    "updatedAt": "2026-06-27T19:51:23Z",
+    "archived": false,
+    "disabled": false,
+    "visibility": "public"
+  }
+}

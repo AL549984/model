@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T20:55:17.605Z",
+  "kind": "original-evidence",
+  "url": "https://raw.githubusercontent.com/anthropics/claudes-c-compiler/main/README.md",
+  "finalUrl": "https://raw.githubusercontent.com/anthropics/claudes-c-compiler/main/README.md",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "contentLength": "3776",
+  "etag": "W/\"b997838894ed83e7c9ca182eea0272bcfd4f7c69e0ec0521b816cd314681613a\"",
+  "lastModified": null,
+  "bodyBytes": 8321,
+  "bodySha256": "9ebb6f24e4c14896730f58e3d3e161af302adeae38ff43da7c3427ead1935f4c",
+  "title": "",
+  "github": null
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-4-1-opus-ace0109-ace-nest-starter",
+  "modelId": "claude-4-1-opus",
+  "modelName": "Claude 4.1 Opus",
+  "title": "ace0109 built a production-ready NestJS starter with Claude Opus 4.1",
+  "evidenceFingerprint": "e0d4b4add80e37e0e376e3f6898a50514b7d20ac8fd118a2a51fab03299bba16",
+  "capturedAt": "2026-06-27T20:54:30.714Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/ace0109/ace-nest-starter",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-ace0109-ace-nest-starter/original-evidence-c685ba12c2c1.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - ace0109/ace-nest-starter: 🚀 Production-ready NestJS starter with JWT Auth, RBAC, Prisma, Redis, WebSocket, and more. Built in 48 hours with Claude Opus 4.1 AI (1.34M tokens, $600 cost). · GitHub",
+      "bodySha256": "14b6c76b46c9bbaad04d2d1231167f94fb3a0f596fa572ff15050a76bf0ccf82",
+      "capturedAt": "2026-06-27T20:54:27.562Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://ace0109.github.io/ace-nest-starter/",
+      "snapshotPath": "archive/evidence/claude-4-1-opus-ace0109-ace-nest-starter/artifact-1-25be5fa1ad66.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "ACE NestJS Starter",
+      "bodySha256": "6b5c876f59b7379763043b80fc02a0cd99711dc22bff4e8ae73c8bdae3f43a0b",
+      "capturedAt": "2026-06-27T20:54:29.744Z",
+      "error": ""
+    }
+  ]
+}

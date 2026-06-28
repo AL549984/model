@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:08:07.135Z",
+  "kind": "artifact-1",
+  "url": "https://arxiv.org/abs/2412.20138",
+  "finalUrl": "https://arxiv.org/abs/2412.20138",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": "47712",
+  "etag": null,
+  "lastModified": "Wed, 04 Jun 2025 00:32:52 GMT",
+  "bodyBytes": 47712,
+  "bodySha256": "65a91df83e73dd3c405e5e179ccfc79350507101cfe37152468ff2e04c99b0fd",
+  "title": "[2412.20138] TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "github": null
+}

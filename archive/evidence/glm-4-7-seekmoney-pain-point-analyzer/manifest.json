@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "glm-4-7-seekmoney-pain-point-analyzer",
+  "modelId": "glm-4-7",
+  "modelName": "GLM-4.7",
+  "title": "SeekMoney-ai: Multi-platform social media business opportunity finder powered by GLM-4.7 thinking model for deep user pain point analysis",
+  "evidenceFingerprint": "f351b44be58cb1898ad1b0965e55453ddc17a1a9d2f6baa6b6a4e06b793e2804",
+  "capturedAt": "2026-06-27T21:53:35.595Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/liangdabiao/SeekMoney-ai",
+      "snapshotPath": "archive/evidence/glm-4-7-seekmoney-pain-point-analyzer/original-evidence-15726b866f69.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - liangdabiao/SeekMoney-ai: SeekMoney-ai ，找商机，覆盖全视频社交媒体渠道。- 多平台数据采集（抖音、小红书、TikTok、Bilibili、微信视频号、YouTube） - 基于 openai兼容/GLM + embedding + DBSCAN 的语义聚类算法 - 调用 openai兼容/GLM-4.7 思考模型深度分析用户痛点 - 智能优先级评分系统（需求强度 + 市场规模 + 竞争度） · GitHub",
+      "bodySha256": "f8dd18409b2e94d0fa91212b0492a4defbec0ff81e3eaf10e07d170e6e1a26a6",
+      "capturedAt": "2026-06-27T21:53:33.828Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/liangdabiao/SeekMoney-ai",
+      "snapshotPath": "archive/evidence/glm-4-7-seekmoney-pain-point-analyzer/artifact-1-15726b866f69.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - liangdabiao/SeekMoney-ai: SeekMoney-ai ，找商机，覆盖全视频社交媒体渠道。- 多平台数据采集（抖音、小红书、TikTok、Bilibili、微信视频号、YouTube） - 基于 openai兼容/GLM + embedding + DBSCAN 的语义聚类算法 - 调用 openai兼容/GLM-4.7 思考模型深度分析用户痛点 - 智能优先级评分系统（需求强度 + 市场规模 + 竞争度） · GitHub",
+      "bodySha256": "a38a18cf277dfe0dbf8ee503bfbfcfcff867172ae8f223511e6cd954f7caf6c6",
+      "capturedAt": "2026-06-27T21:53:35.018Z",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "deepseek-llm-67b-autoBA-bioinformatics-agent",
+  "modelId": "deepseek-llm-67b-v1",
+  "modelName": "DeepSeek LLM 67B (V1)",
+  "title": "AutoBA: Automated Multi-Omic Bioinformatics Analysis Agent Powered by DeepSeek LLM 67B Chat",
+  "evidenceFingerprint": "de70e4232ead860b6659a4858826b140c734a3b6cb720931c4ad699979721aeb",
+  "capturedAt": "2026-06-27T21:01:59.219Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/JoshuaChou2018/AutoBA",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-autoBA-bioinformatics-agent/original-evidence-0121e233bc8a.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - JoshuaChou2018/AutoBA: An AI Agent for Fully Automated Multi-omic Analyses · GitHub",
+      "bodySha256": "dd94b15b7079df21701be8cc5e9d99ad047a2db3384accbc1bfdc94b6d078a37",
+      "capturedAt": "2026-06-27T21:01:55.742Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://arxiv.org/abs/2309.03242",
+      "snapshotPath": "archive/evidence/deepseek-llm-67b-autoBA-bioinformatics-agent/artifact-1-6a537c37bfbe.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "[2309.03242] Automated Bioinformatics Analysis via AutoBA",
+      "bodySha256": "b9efc3ce1c0b4e59439bca49f1d28f08f7edea424ae21cdf6e41a8b8e4e7dfa3",
+      "capturedAt": "2026-06-27T21:01:57.772Z",
+      "error": ""
+    }
+  ]
+}

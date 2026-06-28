@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "qwen3-6-plus-leopardcode-3d-sound-journey-builder",
+  "modelId": "qwen3-6-plus",
+  "modelName": "Qwen3.6 Plus",
+  "title": "LeopardCode.AI 用 Qwen3.6 Plus 代理式开发 3D Sound Journey Builder",
+  "evidenceFingerprint": "235f26203ee95022d713fb2c33ab82f2a9aaf1ddd934fdbc6a6a2def51d5917f",
+  "capturedAt": "2026-06-27T23:07:46.614Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/leopardcodeai/3d-sound-journey-builder/blob/main/README.md",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-leopardcode-3d-sound-journey-builder/original-evidence-6f93dd671b4d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "3d-sound-journey-builder/README.md at main · leopardcodeai/3d-sound-journey-builder · GitHub",
+      "bodySha256": "6471536b46a0201271a7c1a7f141da197ee509602d90526bffc17a9ed77c6447",
+      "capturedAt": "2026-06-27T23:07:44.001Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://3d-sound-journey-builder.vercel.app/",
+      "snapshotPath": "archive/evidence/qwen3-6-plus-leopardcode-3d-sound-journey-builder/artifact-1-fe35ce9b75f4.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "3D Sound Journey Builder",
+      "bodySha256": "4d972e41549cda6b7ed2112165d93da11c12d7c7151e98286912a82e7ac8e413",
+      "capturedAt": "2026-06-27T23:07:45.804Z",
+      "error": ""
+    }
+  ]
+}

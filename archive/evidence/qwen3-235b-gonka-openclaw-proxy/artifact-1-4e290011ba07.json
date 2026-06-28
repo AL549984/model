@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:27:52.559Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/nikinrussia-ui/gonka-openclaw",
+  "finalUrl": "https://github.com/nikinrussia-ui/gonka-openclaw",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"482d5043fa4dd16210930480e8448579\"",
+  "lastModified": null,
+  "bodyBytes": 281117,
+  "bodySha256": "dceec71a8033db82940fa1bc65de9897b8c61f10d3079991533ce23511ce2f62",
+  "title": "GitHub - nikinrussia-ui/gonka-openclaw: Gonka x OpenClaw — free Qwen3-235B for OpenClaw agents · GitHub",
+  "github": {
+    "owner": "nikinrussia-ui",
+    "repo": "gonka-openclaw",
+    "apiStatus": "unavailable"
+  }
+}

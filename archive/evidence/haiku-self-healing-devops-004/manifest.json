@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "haiku-self-healing-devops-004",
+  "modelId": "claude-3-5-haiku",
+  "modelName": "Claude 3.5 Haiku",
+  "title": "Autonomous self-healing DevOps pipeline powered by Claude 3.5 Haiku for AWS log analysis",
+  "evidenceFingerprint": "a18880833d39d4be65bb20a1e4ff27bc973c2d2d7c04e66386de89c7944ee0b0",
+  "capturedAt": "2026-06-27T22:22:17.120Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/vijayrajeshr/SentinelOps-AI",
+      "snapshotPath": "archive/evidence/haiku-self-healing-devops-004/original-evidence-c49fe016cb44.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - vijayrajeshr/SentinelOps-AI: An autonomous, self-healing DevOps pipeline acting as an automated AI engineer. Powered by Amazon Bedrock (Claude 3.5 Haiku) and MCP, it intercepts AWS CloudWatch runtime crashes, isolates bugs, tests p",
+      "bodySha256": "8979d5831df61653a382cfe46b51cd4df42f804ada28329602c6fe4992626552",
+      "capturedAt": "2026-06-27T22:22:15.498Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/vijayrajeshr/SentinelOps-AI",
+      "snapshotPath": "archive/evidence/haiku-self-healing-devops-004/artifact-1-c49fe016cb44.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - vijayrajeshr/SentinelOps-AI: An autonomous, self-healing DevOps pipeline acting as an automated AI engineer. Powered by Amazon Bedrock (Claude 3.5 Haiku) and MCP, it intercepts AWS CloudWatch runtime crashes, isolates bugs, tests p",
+      "bodySha256": "847ca72a843f5c1e321e6f3cc23df9abdd3c4c55a0789f11e9c59d880e6cdcc6",
+      "capturedAt": "2026-06-27T22:22:16.653Z",
+      "error": ""
+    }
+  ]
+}

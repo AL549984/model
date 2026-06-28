@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T21:02:10.843Z",
+  "kind": "original-evidence",
+  "url": "https://github.com/iluyobrainy/Deepdgm/blob/main/llm_withtools.py",
+  "finalUrl": "https://github.com/iluyobrainy/Deepdgm/blob/main/llm_withtools.py",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"4189913ee03eaccec745ed43dcffdbb7\"",
+  "lastModified": null,
+  "bodyBytes": 282082,
+  "bodySha256": "7fee08d67d428e6e82ff96d97e6ee873f7368887dd70e76dcdefb923a5de93d9",
+  "title": "Deepdgm/llm_withtools.py at main · iluyobrainy/Deepdgm · GitHub",
+  "github": {
+    "owner": "iluyobrainy",
+    "repo": "Deepdgm",
+    "apiStatus": "unavailable"
+  }
+}

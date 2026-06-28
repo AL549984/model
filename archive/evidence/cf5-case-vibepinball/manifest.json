@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "cf5-case-vibepinball",
+  "modelId": "claude-fable-5",
+  "modelName": "Claude Fable 5",
+  "title": "VibePinball web-native pinball game",
+  "evidenceFingerprint": "345e4849c8d23fc27425364536eb17718b1186535dfd085879066532fac20439",
+  "capturedAt": "2026-06-27T20:16:23.159Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/Randroids-Dojo/VibePinball",
+      "snapshotPath": "archive/evidence/cf5-case-vibepinball/original-evidence-2e633132d2bb.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - Randroids-Dojo/VibePinball: A vibe coded Pinball web native game. Built with Claude Fable 5 while on stream! · GitHub",
+      "bodySha256": "8967c7f4d91496cead62c0f29a665f0512b11edcfe11c300fb5889e3ec98f5ee",
+      "capturedAt": "2026-06-27T20:16:20.434Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://vibe-pinball.vercel.app/",
+      "snapshotPath": "archive/evidence/cf5-case-vibepinball/artifact-1-87fee9359c6d.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "VibePinball",
+      "bodySha256": "ac32db558abc437b3e9347c035e11233e8c4796f111347e6056c5035d73a0d0d",
+      "capturedAt": "2026-06-27T20:16:22.378Z",
+      "error": ""
+    }
+  ]
+}

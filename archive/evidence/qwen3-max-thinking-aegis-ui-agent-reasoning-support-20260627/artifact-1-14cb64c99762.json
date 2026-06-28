@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-06-27T23:15:16.894Z",
+  "kind": "artifact-1",
+  "url": "https://github.com/chronosllc0-ai/aegis-ui-agent",
+  "finalUrl": "https://github.com/chronosllc0-ai/aegis-ui-agent",
+  "ok": true,
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": null,
+  "etag": "W/\"d39bf39262cde3c8def74092f4dbb76a\"",
+  "lastModified": null,
+  "bodyBytes": 399016,
+  "bodySha256": "cc5599d4efe9ff21933fb5c5843eb44f5d172cc89202191b53aa297f2219794e",
+  "title": "GitHub - chronosllc0-ai/aegis-ui-agent: 🧭Aegis — An AI-powered universal UI navigator that sees, understands, and operates any website through natural language. Built with Gemini 3 Pro vision, Google ADK, and the Live API for real-time voi",
+  "github": {
+    "owner": "chronosllc0-ai",
+    "repo": "aegis-ui-agent",
+    "apiStatus": "unavailable"
+  }
+}

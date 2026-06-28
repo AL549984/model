@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "caseId": "claude-instant-agentpilot-workflow-automation",
+  "modelId": "claude-instant",
+  "modelName": "Claude Instant",
+  "title": "AgentPilot ships Claude Instant options for AI workflow automation",
+  "evidenceFingerprint": "cf095d7c28a253b2584930161e82d6d6946b146218f204e2fbdb1d7a6c1048aa",
+  "capturedAt": "2026-06-27T20:54:55.754Z",
+  "targets": [
+    {
+      "kind": "original-evidence",
+      "url": "https://github.com/jbexta/AgentPilot/blob/master/src/utils/reset.py#L788-L791",
+      "snapshotPath": "archive/evidence/claude-instant-agentpilot-workflow-automation/original-evidence-a44a96a2314f.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "AgentPilot/src/utils/reset.py at master · jbexta/AgentPilot · GitHub",
+      "bodySha256": "6fd3742a99ac4f5865e48e1a3e04cef33a323d2c881f61281efbe09fc09517f7",
+      "capturedAt": "2026-06-27T20:54:53.550Z",
+      "error": ""
+    },
+    {
+      "kind": "artifact-1",
+      "url": "https://github.com/jbexta/AgentPilot",
+      "snapshotPath": "archive/evidence/claude-instant-agentpilot-workflow-automation/artifact-1-10095ab485b8.json",
+      "ok": true,
+      "httpStatus": 200,
+      "title": "GitHub - jbexta/AgentPilot: A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows. · GitHub",
+      "bodySha256": "d15ccd65c0211a6721314f57aa81b7cfbf83e11faa497470646db3b055acb6e9",
+      "capturedAt": "2026-06-27T20:54:54.848Z",
+      "error": ""
+    }
+  ]
+}
