@@ -24,10 +24,12 @@ function forbidText(source, label, forbidden) {
   assert(!source.includes(forbidden), `${label} contains stale or off-brief text`, forbidden);
 }
 
-const [metrics, models, cases, evidenceArchive, evidenceArchiveHistory, siteReadme, rootReadme] = await Promise.all([
+const [metrics, models, vendors, cases, evidenceBackfill, evidenceArchive, evidenceArchiveHistory, siteReadme, rootReadme] = await Promise.all([
   readJson("src/data/metrics.json"),
   readJson("src/data/models.json"),
+  readJson("src/data/vendors.json"),
   readJson("src/data/cases.json"),
+  readJson("src/data/evidenceBackfill.json"),
   readJson("src/data/evidence-archive.json"),
   readJson("src/data/evidence-archive-history.json"),
   readFile(path.join(siteRoot, "README.md"), "utf8"),
@@ -75,6 +77,22 @@ assert(Number(metrics.activeModelsMeetingTargetCaseCoverage) === expected.active
 const orphanACases = aCases.filter((item) => !modelIds.has(item.modelId));
 assert(orphanACases.length === 0, "A showcase cases reference missing models", orphanACases.map((item) => `${item.id}->${item.modelId}`).join(", "));
 
+const vendorsById = new Map(vendors.map((vendor) => [vendor.id, vendor]));
+const modelCountByVendor = new Map();
+for (const model of models) {
+  modelCountByVendor.set(model.vendorId, (modelCountByVendor.get(model.vendorId) ?? 0) + 1);
+}
+const vendorModelCountMismatches = vendors
+  .map((vendor) => ({
+    id: vendor.id,
+    declared: Number(vendor.modelCount ?? 0),
+    actual: modelCountByVendor.get(vendor.id) ?? 0
+  }))
+  .filter((item) => item.declared !== item.actual);
+const missingVendors = models.filter((model) => !vendorsById.has(model.vendorId));
+assert(missingVendors.length === 0, "models reference missing vendors", missingVendors.map((model) => `${model.id}->${model.vendorId}`).join(", "));
+assert(vendorModelCountMismatches.length === 0, "vendor modelCount does not match models.json", vendorModelCountMismatches.map((item) => `${item.id}:${item.declared}/${item.actual}`).join(", "));
+
 const modelCountMismatches = models
   .map((model) => ({
     id: model.id,
@@ -86,6 +104,39 @@ assert(modelCountMismatches.length === 0, "model aCaseCount does not match A-cas
 
 const totalModelACases = models.reduce((sum, model) => sum + Number(model.aCaseCount ?? 0), 0);
 assert(totalModelACases === aCases.length, "sum of model aCaseCount does not match A showcase cases", `${totalModelACases} !== ${aCases.length}`);
+
+const modelsById = new Map(models.map((model) => [model.id, model]));
+const backfillByModelId = new Map(evidenceBackfill.map((item) => [item.modelId, item]));
+const backfillIds = new Set(evidenceBackfill.map((item) => item.modelId));
+const duplicateBackfillIds = evidenceBackfill
+  .map((item) => item.modelId)
+  .filter((id, index, ids) => ids.indexOf(id) !== index);
+const missingBackfillModels = models.filter((model) => !backfillIds.has(model.id));
+const staleBackfillModels = evidenceBackfill.filter((item) => !modelsById.has(item.modelId));
+assert(duplicateBackfillIds.length === 0, "duplicate evidenceBackfill model ids detected", [...new Set(duplicateBackfillIds)].join(", "));
+assert(missingBackfillModels.length === 0, "models missing evidenceBackfill entries", missingBackfillModels.map((model) => model.id).join(", "));
+assert(staleBackfillModels.length === 0, "evidenceBackfill has stale model entries", staleBackfillModels.map((item) => item.modelId).join(", "));
+
+const backfillMismatches = models
+  .map((model) => {
+    const backfill = backfillByModelId.get(model.id);
+    return {
+      id: model.id,
+      modelPublishability: model.publishability,
+      backfillPublishability: backfill?.publishability,
+      modelACases: Number(model.aCaseCount ?? 0),
+      backfillACases: Number(backfill?.aCaseCount ?? NaN),
+      minDeficit: Number(backfill?.minDeficit ?? NaN),
+      targetDeficit: Number(backfill?.targetDeficit ?? NaN),
+      status: backfill?.status
+    };
+  })
+  .filter((item) => (
+    item.modelPublishability !== item.backfillPublishability
+    || item.modelACases !== item.backfillACases
+    || (["Archive", "Hold"].includes(item.modelPublishability) && (item.minDeficit !== 0 || item.targetDeficit !== 0 || item.status !== "archive_review"))
+  ));
+assert(backfillMismatches.length === 0, "evidenceBackfill does not match models.json", backfillMismatches.map((item) => `${item.id}:${item.modelPublishability}/${item.backfillPublishability}, cases ${item.modelACases}/${item.backfillACases}, deficit ${item.minDeficit}/${item.targetDeficit}, status ${item.status}`).join("; "));
 
 const archiveCaseIds = new Set((evidenceArchive.cases ?? []).map((item) => item.caseId));
 const aCaseIds = new Set(aCases.map((item) => item.id));

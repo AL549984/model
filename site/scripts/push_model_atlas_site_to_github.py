@@ -96,13 +96,7 @@ def push(repo_dir: Path, branch: str, token: str) -> None:
 
 def sync_with_remote(repo_dir: Path, branch: str) -> None:
     run_git_with_retry(["git", "fetch", "origin", branch], cwd=repo_dir, timeout=120)
-    run_git_with_retry(["git", "rebase", f"origin/{branch}"], cwd=repo_dir, timeout=120)
-
-
-def ahead_count(repo_dir: Path, branch: str) -> int:
-    run_git_with_retry(["git", "fetch", "origin", branch], cwd=repo_dir, timeout=120)
-    result = run(["git", "rev-list", "--count", f"origin/{branch}..HEAD"], cwd=repo_dir)
-    return int((result.stdout or "0").strip() or "0")
+    run_git_with_retry(["git", "rebase", "--autostash", f"origin/{branch}"], cwd=repo_dir, timeout=120)
 
 
 def main() -> int:
@@ -132,18 +126,15 @@ def main() -> int:
 
     run(["git", "config", "user.name", "Hermes Model Atlas Sync"], cwd=repo_dir)
     run(["git", "config", "user.email", "hermes-model-atlas@users.noreply.github.com"], cwd=repo_dir)
+    sync_with_remote(repo_dir, args.branch)
     run(["git", "add", *existing_paths], cwd=repo_dir)
 
     status = git_status(repo_dir)
     if not status:
-        ahead = ahead_count(repo_dir, args.branch)
-        if ahead > 0:
-            push(repo_dir, args.branch, token)
         print(json.dumps({"ok": True, "changed": False, "additions": 0}, ensure_ascii=False))
         return 0
 
     run(["git", "commit", "-m", args.message], cwd=repo_dir, timeout=120)
-    sync_with_remote(repo_dir, args.branch)
     push(repo_dir, args.branch, token)
 
     print(json.dumps({

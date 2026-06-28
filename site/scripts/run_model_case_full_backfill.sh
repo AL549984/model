@@ -161,6 +161,7 @@ NODE
     run_step "post-round sync Feishu" npm run sync:feishu || exit $?
     run_step "post-round evidence backfill" npm run evidence:backfill || exit $?
     run_step "post-round export Hermes case tasks" npm run hermes:tasks || exit $?
+    run_step "post-round evidence archive" npm run evidence:archive || exit $?
     run_step "post-round build site" npm run build || exit $?
 
     if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then
@@ -173,6 +174,7 @@ NODE
   run_step "final sync Feishu" npm run sync:feishu || exit $?
   run_step "final evidence backfill" npm run evidence:backfill || exit $?
   run_step "final export Hermes case tasks" npm run hermes:tasks || exit $?
+  run_step "final evidence archive" npm run evidence:archive || exit $?
   run_step "build site" npm run build || exit $?
 
   if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-0}" != "0" ]]; then

@@ -122,6 +122,7 @@ done
 npm run sync:feishu
 npm run evidence:backfill
 npm run hermes:tasks
+npm run evidence:archive
 npm run build
 if [[ \"\${MODEL_ATLAS_PUSH_TO_GITHUB:-1}\" != \"0\" ]]; then
   python3 scripts/push_model_atlas_site_to_github.py --repo-dir '$CLOUD_REPO_DIR'

@@ -39,20 +39,21 @@ function sourceTargetsFor(model) {
 }
 
 const tasks = models.map((model) => {
+  const inactive = ["Archive", "Hold"].includes(model.publishability);
   const backfill = backfillById.get(model.id);
   const aCaseCount = backfill?.aCaseCount ?? model.aCaseCount ?? 0;
   const minACases = backfill?.minACases ?? MIN_A_CASES;
   const targetACases = backfill?.targetACases ?? TARGET_A_CASES;
-  const minDeficit = backfill?.minDeficit ?? Math.max(0, minACases - aCaseCount);
-  const targetDeficit = backfill?.targetDeficit ?? Math.max(0, targetACases - aCaseCount);
+  const minDeficit = inactive ? 0 : (backfill?.minDeficit ?? Math.max(0, minACases - aCaseCount));
+  const targetDeficit = inactive ? 0 : (backfill?.targetDeficit ?? Math.max(0, targetACases - aCaseCount));
   return {
     taskId: `hermes-case-crawl-${model.id}`,
     modelId: model.id,
     modelName: model.name,
     vendorId: model.vendorId,
     vendor: model.vendor,
-    priority: backfill?.priority ?? "P2",
-    status: backfill?.status ?? "needs_a_case",
+    priority: inactive ? "P3" : (backfill?.priority ?? "P2"),
+    status: inactive ? "archive_review" : (backfill?.status ?? "needs_a_case"),
     publishability: model.publishability,
     aCaseCount,
     minACases,

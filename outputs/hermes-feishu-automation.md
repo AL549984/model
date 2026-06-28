@@ -56,7 +56,7 @@ Required fields:
 | `name` | Display model name |
 | `vendor_id` | Stable vendor id |
 | `vendor` | Display vendor name |
-| `publishability` | Optional; sync script recalculates non-Archive rows from A cases |
+| `publishability` | Optional; sync script recalculates active rows from A cases; `Archive` and `Hold` are preserved and excluded from active coverage |
 | `release_date` | Release date or explicit missing text |
 | `api_model_id` | API/model id |
 | `context` | Context window |
@@ -147,6 +147,7 @@ From `site/`:
 npm run sync:feishu
 npm run evidence:backfill
 npm run hermes:tasks
+npm run evidence:archive
 npm run build
 ```
 
@@ -251,7 +252,7 @@ bash scripts/model_atlas_auto_pipeline.sh
 1. Read `work/hermes-model-case-tasks.json` or the equivalent task payload.
 2. Crawl case candidates across official web, GitHub, X, WeChat, Bilibili, Xiaohongshu and Douyin.
 3. Write raw candidate rows to the Feishu `cases` table.
-4. Run `npm run sync:feishu && npm run build`.
+4. Run `npm run sync:feishu && npm run evidence:backfill && npm run hermes:tasks && npm run evidence:archive && npm run build`.
 
 Keep the old `news` profile as a reference implementation. Its useful patterns are shell-level `flock`, near-real-time watcher locks, durable `state.json`, GitHub token files under `secrets/`, and no secret values committed to GitHub.
 
@@ -259,7 +260,9 @@ Local validation without Feishu credentials:
 
 ```bash
 npm run sync:feishu:dry-run
+npm run evidence:backfill
 npm run hermes:tasks
+npm run evidence:archive
 npm run check
 npm run build
 ```

@@ -273,10 +273,11 @@ AL549984/model
 1. `npm run sync:feishu`
 2. `npm run evidence:backfill`
 3. `npm run hermes:tasks`
-4. `npm run build`
-5. 确认 `site/src/data/metrics.json` 里的活跃模型缺口为 `0`。
-6. 检查低置信度案例和新降级案例，避免弱证据进入对外精选。
-7. 提交并推送生成数据。
+4. `npm run evidence:archive`
+5. `npm run build`
+6. 确认 `site/src/data/metrics.json` 里的活跃模型缺口为 `0`。
+7. 检查低置信度案例和新降级案例，避免弱证据进入对外精选。
+8. 提交并推送生成数据。
 
 快速检查覆盖率：
 

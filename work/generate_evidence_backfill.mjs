@@ -76,15 +76,21 @@ function hasACase(model) {
   return cases.some((item) => item.modelId === model.id && item.evidenceGrade === "A" && item.showcaseEligible);
 }
 
+function isInactiveModel(model) {
+  return model.publishability === "Archive" || model.publishability === "Hold";
+}
+
 function aCaseCountFor(model) {
   return cases.filter((item) => item.modelId === model.id && item.evidenceGrade === "A" && item.showcaseEligible).length;
 }
 
 function minDeficitFor(model) {
+  if (isInactiveModel(model)) return 0;
   return Math.max(0, MIN_A_CASES - aCaseCountFor(model));
 }
 
 function targetDeficitFor(model) {
+  if (isInactiveModel(model)) return 0;
   return Math.max(0, TARGET_A_CASES - aCaseCountFor(model));
 }
 
@@ -101,7 +107,7 @@ function isFutureOrUnstable(model) {
 }
 
 function priorityFor(model) {
-  if (model.publishability === "Archive" || model.publishability === "Hold") return "P3";
+  if (isInactiveModel(model)) return "P3";
   const count = aCaseCountFor(model);
   if (count >= TARGET_A_CASES) return "P2";
   if (isFutureOrUnstable(model)) return "P0";
@@ -113,7 +119,7 @@ function priorityFor(model) {
 }
 
 function blockerFor(model) {
-  if (model.publishability === "Archive" || model.publishability === "Hold") return "归档或暂停状态，先确认是否仍需公开模型页。";
+  if (isInactiveModel(model)) return "归档或暂停状态，先确认是否仍需公开模型页。";
   const count = aCaseCountFor(model);
   if (count >= TARGET_A_CASES) return "已达到 5 条目标线，下一步是补快照和 URL 健康检查。";
   if (count >= MIN_A_CASES) return `已有 ${count} 条 A 类案例，继续补到 5 条目标线。`;
@@ -124,7 +130,7 @@ function blockerFor(model) {
 }
 
 function statusFor(model) {
-  if (model.publishability === "Archive" || model.publishability === "Hold") return "archive_review";
+  if (isInactiveModel(model)) return "archive_review";
   const count = aCaseCountFor(model);
   if (count >= TARGET_A_CASES) return "target_met_snapshot_refresh";
   if (count >= MIN_A_CASES) return "top_up_to_target";
@@ -134,6 +140,12 @@ function statusFor(model) {
 }
 
 function requiredEvidenceFor(model) {
+  if (isInactiveModel(model)) {
+    return [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ];
+  }
   const items = [];
   const count = aCaseCountFor(model);
   if (sourceCount(model) === 0) items.push("补官方发布、docs、model card 或等价一手资料。");
@@ -200,10 +212,14 @@ const backfill = models
       ],
       searchQueries: queriesFor(model),
       upgradeGate: aCase
-        ? aCaseCountFor(model) >= MIN_A_CASES
+        ? isInactiveModel(model)
+          ? "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
+          : aCaseCountFor(model) >= MIN_A_CASES
           ? `达到公开达标线；继续补到 ${TARGET_A_CASES} 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。`
           : `已有案例但未达标；补到至少 ${MIN_A_CASES} 条 A 类案例后，才能公开达标。`
-        : `只有补到至少 ${MIN_A_CASES} 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；${TARGET_A_CASES} 条视为补齐。`
+        : isInactiveModel(model)
+          ? "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+          : `只有补到至少 ${MIN_A_CASES} 条审核通过的 A 类案例后，才能从 Limited 升为 Publishable；${TARGET_A_CASES} 条视为补齐。`
     };
   })
   .sort((a, b) => {

@@ -124,6 +124,8 @@ run_step() {
   echo "[$(timestamp)] Model Atlas case poll started"
   cd "$SITE_DIR"
 
+  run_step "sync Feishu" npm run sync:feishu || exit $?
+  run_step "generate evidence backfill" npm run evidence:backfill || exit $?
   run_step "export Hermes case tasks" npm run hermes:tasks || exit $?
 
   if [[ -n "${MODEL_ATLAS_CASE_CRAWL_CMD:-}" ]]; then
@@ -135,6 +137,8 @@ run_step() {
 
   run_step "sync Feishu" npm run sync:feishu || exit $?
   run_step "generate evidence backfill" npm run evidence:backfill || exit $?
+  run_step "export Hermes case tasks" npm run hermes:tasks || exit $?
+  run_step "generate evidence archive" npm run evidence:archive || exit $?
   run_step "build site" npm run build || exit $?
 
   if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-1}" != "0" ]]; then
