@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T04:27:15.492Z",
+  "generatedAt": "2026-06-29T04:59:14.076Z",
   "summary": {
     "models": 120,
     "activeModels": 116,
@@ -16614,8 +16614,8 @@
       "modelName": "Seed2.0 Pro",
       "vendorId": "bytedance-seed",
       "vendor": "ByteDance Seed",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -16754,8 +16754,8 @@
       "modelName": "Seed2.0 Lite",
       "vendorId": "bytedance-seed",
       "vendor": "ByteDance Seed",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,

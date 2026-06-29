@@ -198,8 +198,8 @@ A 类候选必须同时满足：
   task_category, task_description, output_result, model_contribution,
   risk_notes, collected_at, evidence_grade, showcase_eligible,
   selected_for_model_card, review_status
-- source_type 固定 real_case；evidence_grade 固定 A；showcase_eligible 和 selected_for_model_card 用 true；review_status 用 auto_approved_candidate。
-- 如果只找到弱证据，不要写入 cases。
+- 强证据真实案例使用 source_type=real_case、evidence_grade=A、showcase_eligible=true、selected_for_model_card=true、review_status=auto_approved_candidate。
+- 如果只找到弱证据，可以写入 B/C/D 候选，但必须如实设置 source_type/evidence_grade，并把 showcase_eligible 和 selected_for_model_card 设为 false；官方介绍、发布博客、benchmark、教程、泛测评不得写成 A。
 - 完成后只需要写入 ${out_json}，不要直接写飞书；外层脚本会导入。
 EOF
 }

@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Production-style Model Atlas pipeline, copied from the Tencent Research
-# pattern: one locked shell entrypoint owns sync, export, build and publish.
+# Model Atlas closed-loop pipeline:
+# Feishu sync -> case task export -> optional case hunt for new/Hold models ->
+# evidence archive -> build -> GitHub/Vercel -> Feishu notification.
 
 export HOME="${HOME:-$(cd ~ && pwd)}"
 export LARK_CLI_HOME="${LARK_CLI_HOME:-$HOME/.lark-cli}"
@@ -53,6 +54,9 @@ load_env_file() {
 load_env_file "$PROFILE/.env"
 load_env_file "$SITE_DIR/.env"
 
+MODEL_ATLAS_RUN_ID="${MODEL_ATLAS_RUN_ID:-$(date '+%Y%m%d-%H%M%S')}"
+export MODEL_ATLAS_RUN_ID
+
 timestamp() {
   date -Iseconds 2>/dev/null || date '+%Y-%m-%dT%H:%M:%S%z'
 }
@@ -60,7 +64,6 @@ timestamp() {
 mkdir -p "$LOG_DIR" "$(dirname "$LOCK_PATH")"
 
 LOCK_DIRS=()
-
 cleanup_locks() {
   local lock_dir
   for lock_dir in "${LOCK_DIRS[@]}"; do
@@ -102,6 +105,11 @@ acquire_lock "$LOCK_PATH" "${MODEL_ATLAS_LOCK_WAIT_SECONDS:-1200}"
 
 ts="$(date '+%Y-%m-%d_%H-%M-%S')"
 out="$LOG_DIR/${ts}_auto_pipeline.log"
+BEFORE_STATE="$LOG_DIR/${ts}_before.json"
+AFTER_INITIAL_STATE="$LOG_DIR/${ts}_after_initial_sync.json"
+AFTER_STATE="$LOG_DIR/${ts}_after.json"
+PUSH_RESULT="not_run"
+COMMIT_SHA=""
 
 run_step() {
   local name="$1"
@@ -133,12 +141,63 @@ sync_repo_before_generation() {
   )
 }
 
+case_hunter_should_run() {
+  local new_model_count="$1"
+  local mode="${MODEL_ATLAS_RUN_CASE_HUNTER_IN_PIPELINE:-auto}"
+  if [[ -z "${MODEL_ATLAS_CASE_CRAWL_CMD:-}" ]]; then
+    return 1
+  fi
+  if [[ "$mode" == "0" || "$mode" == "false" ]]; then
+    return 1
+  fi
+  if [[ "$mode" == "1" || "$mode" == "true" || "${MODEL_ATLAS_FORCE_CASE_HUNTER:-0}" == "1" ]]; then
+    return 0
+  fi
+  [[ "$new_model_count" != "0" ]]
+}
+
+run_case_hunter_if_needed() {
+  local new_model_count="$1"
+  if case_hunter_should_run "$new_model_count"; then
+    echo "Running MODEL_ATLAS_CASE_CRAWL_CMD for new/Hold model case search"
+    export MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS=1
+    bash -lc "$MODEL_ATLAS_CASE_CRAWL_CMD"
+  else
+    echo "Skipping case crawl: no new model or MODEL_ATLAS_CASE_CRAWL_CMD disabled"
+  fi
+}
+
+push_generated_data() {
+  if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-1}" == "0" ]]; then
+    PUSH_RESULT="skipped"
+    echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=0"
+    return 0
+  fi
+  python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" \
+    --repo-dir "$REPO_DIR" \
+    --add-path README.md \
+    --add-path site/README.md \
+    --add-path site/scripts \
+    --add-path site/src/data \
+    --add-path site/package.json \
+    --add-path site/package-lock.json \
+    --add-path work/evidence-backfill-intake.tsv \
+    --add-path work/hermes-model-case-tasks.json \
+    --add-path outputs/evidence-backfill-full-plan.md \
+    --add-path outputs/hermes-feishu-automation.md
+  PUSH_RESULT="pushed_or_noop"
+}
+
 {
-  echo "[$(timestamp)] Model Atlas auto pipeline started"
+  echo "[$(timestamp)] Model Atlas closed-loop pipeline started"
   echo "SITE_DIR=$SITE_DIR"
   echo "REPO_DIR=$REPO_DIR"
+  echo "RUN_ID=$MODEL_ATLAS_RUN_ID"
 
   run_step "sync latest repo code" sync_repo_before_generation || exit $?
+  cd "$SITE_DIR"
+
+  run_step "snapshot before" python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" snapshot --output "$BEFORE_STATE" || exit $?
 
   if [[ -n "${MODEL_ATLAS_VENDOR_CRAWL_CMD:-}" ]]; then
     echo "Running MODEL_ATLAS_VENDOR_CRAWL_CMD"
@@ -147,24 +206,35 @@ sync_repo_before_generation() {
     echo "Skipping vendor crawl: MODEL_ATLAS_VENDOR_CRAWL_CMD is not set"
   fi
 
-  cd "$SITE_DIR"
   run_step "sync Feishu" npm run sync:feishu || exit $?
   run_step "generate evidence backfill" npm run evidence:backfill || exit $?
-  run_step "export Hermes tasks" npm run hermes:tasks || exit $?
+  MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS=1 run_step "export Hermes tasks" npm run hermes:tasks || exit $?
+  run_step "snapshot after initial Feishu sync" python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" snapshot --output "$AFTER_INITIAL_STATE" || exit $?
+
+  NEW_MODEL_COUNT="$(python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" diff --before "$BEFORE_STATE" --after "$AFTER_INITIAL_STATE" --field newModelCount)"
+  echo "New model count after initial sync: $NEW_MODEL_COUNT"
+
+  run_step "case hunter for new/Hold models" run_case_hunter_if_needed "$NEW_MODEL_COUNT" || exit $?
+
+  run_step "sync Feishu after case hunt" npm run sync:feishu || exit $?
+  run_step "generate evidence backfill after case hunt" npm run evidence:backfill || exit $?
+  MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS=1 run_step "export Hermes tasks after case hunt" npm run hermes:tasks || exit $?
+  run_step "update README metrics" node "$SITE_DIR/scripts/update-readme-metrics.mjs" || exit $?
   run_step "generate evidence archive" npm run evidence:archive || exit $?
   run_step "build site" npm run build || exit $?
+  run_step "push generated site data to GitHub" push_generated_data || exit $?
 
-  if [[ "${MODEL_ATLAS_PUSH_TO_GITHUB:-1}" != "0" ]]; then
-    run_step "push generated site data to GitHub" python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" --repo-dir "$REPO_DIR" || exit $?
-  else
-    echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=0"
+  if [[ -d "$REPO_DIR/.git" ]]; then
+    COMMIT_SHA="$(cd "$REPO_DIR" && git rev-parse HEAD)"
   fi
+  run_step "snapshot after" python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" snapshot --output "$AFTER_STATE" || exit $?
+  run_step "send Feishu notification" python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" notify --before "$BEFORE_STATE" --after "$AFTER_STATE" --commit "$COMMIT_SHA" --push-result "$PUSH_RESULT" --log-path "$out" || exit $?
 
-  echo "[$(timestamp)] Model Atlas auto pipeline finished"
+  echo "[$(timestamp)] Model Atlas closed-loop pipeline finished"
 } >"$out" 2>&1 || {
   code=$?
   cat "$out"
   exit "$code"
 }
 
-tail -n 120 "$out"
+tail -n 160 "$out"

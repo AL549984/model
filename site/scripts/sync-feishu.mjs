@@ -262,11 +262,13 @@ function hydrateModelsWithCases(models, cases) {
   }
   return models.map((model) => {
     const aCaseCount = counts.get(model.id) ?? 0;
-    const publishability = model.publishability === "Archive" || model.publishability === "Hold"
-      ? model.publishability
-      : aCaseCount >= MIN_A_CASES
-        ? "Publishable"
-        : "Limited";
+    const publishability = model.publishability === "Archive"
+      ? "Archive"
+      : model.publishability === "Hold" && aCaseCount < TARGET_A_CASES
+        ? "Hold"
+        : aCaseCount >= TARGET_A_CASES
+          ? "Publishable"
+          : "Hold";
     const riskNotes = [...(model.riskNotes ?? [])];
     riskNotes[0] = aCaseCount >= TARGET_A_CASES
       ? `已达到 ${TARGET_A_CASES} 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。`

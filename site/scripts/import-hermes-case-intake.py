@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
-"""Import Hermes case candidates into the Model Atlas Feishu Base.
+"""Import and grade Hermes case candidates into the Model Atlas Feishu Base.
 
-Input JSON shape:
-  {"cases": [{"case_id": "...", "case_title": "...", ...}]}
-
-The crawler/agent should write candidate JSON only; this script owns Feishu
-credentials, de-duplication, and create/update behavior.
+A-grade cases are the only public showcase cases. B/C/D rows may be kept as
+leads/background, but sync-feishu.mjs will not count them toward a model card.
 """
-
 from __future__ import annotations
 
 import json
@@ -19,46 +15,30 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-
 SITE_DIR = Path(__file__).resolve().parents[1]
 ENV_PATH = SITE_DIR / ".env"
 FEISHU_BASE_URL = os.environ.get("FEISHU_BASE_URL", "https://open.feishu.cn")
 LARK_CLI_USER_TOKEN = "__lark_cli_user__"
 CASE_FIELDS = [
-    "case_id",
-    "case_title",
-    "model_id",
-    "model_name",
-    "vendor_id",
-    "vendor",
-    "user_or_org",
-    "original_evidence_url",
-    "artifact_url",
-    "source_platform",
-    "source_type",
-    "task_category",
-    "task_description",
-    "output_result",
-    "model_contribution",
-    "risk_notes",
-    "collected_at",
-    "evidence_grade",
-    "showcase_eligible",
-    "selected_for_model_card",
-    "review_status",
+    "case_id", "case_title", "model_id", "model_name", "vendor_id", "vendor",
+    "user_or_org", "original_evidence_url", "artifact_url", "source_platform",
+    "source_type", "task_category", "task_description", "output_result",
+    "model_contribution", "risk_notes", "collected_at", "evidence_grade",
+    "showcase_eligible", "selected_for_model_card", "review_status",
 ]
 OFFICIAL_VENDOR_DOMAINS = {
     "anthropic": ["anthropic.com"],
     "openai": ["openai.com"],
     "google": ["google.com", "deepmind.google"],
     "qwen-alibaba": ["qwen.ai", "qwenlm.github.io", "alibabacloud.com"],
-    "deepseek": ["deepseek.com"],
+    "deepseek": ["deepseek.com", "deepseek.com.cn"],
     "xai": ["x.ai"],
     "kimi": ["moonshot.cn", "kimi.com"],
     "meta": ["meta.com", "ai.meta.com"],
-    "minimax": ["minimax.io"],
+    "minimax": ["minimax.io", "minimaxi.com"],
     "z-ai": ["z.ai", "zhipuai.cn"],
-    "bytedance-seed": ["seed.bytedance.com"],
+    "bytedance-seed": ["seed.bytedance.com", "volcengine.com"],
+    "sakana-ai": ["sakana.ai"],
 }
 URL_PROBE_TIMEOUT_SECONDS = float(os.environ.get("MODEL_ATLAS_URL_PROBE_TIMEOUT_SECONDS", "10"))
 ACCEPT_LOCAL_URL_PROOF = os.environ.get("MODEL_ATLAS_ACCEPT_LOCAL_URL_PROOF", "0") == "1"
@@ -97,19 +77,15 @@ def lark_cli_request_json(path: str, *, method: str = "GET", body: dict | None =
 def request_json(path: str, *, method: str = "GET", token: str | None = None, body: dict | None = None) -> dict:
     if token == LARK_CLI_USER_TOKEN:
         payload = lark_cli_request_json(path, method=method, body=body)
-        if payload.get("code") != 0:
+        if payload.get("code") not in (0, None) or payload.get("ok") is False:
             raise RuntimeError(f"Feishu user API error: {payload}")
         return payload
-
     data = None if body is None else json.dumps(body).encode("utf-8")
     request = urllib.request.Request(
         f"{FEISHU_BASE_URL}{path}",
         data=data,
         method=method,
-        headers={
-            "Content-Type": "application/json; charset=utf-8",
-            **({"Authorization": f"Bearer {token}"} if token else {}),
-        },
+        headers={"Content-Type": "application/json; charset=utf-8", **({"Authorization": f"Bearer {token}"} if token else {})},
     )
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
@@ -123,12 +99,10 @@ def request_json(path: str, *, method: str = "GET", token: str | None = None, bo
 
 
 def tenant_token() -> str:
-    app_id = os.environ["FEISHU_APP_ID"]
-    app_secret = os.environ["FEISHU_APP_SECRET"]
     payload = request_json(
         "/open-apis/auth/v3/tenant_access_token/internal",
         method="POST",
-        body={"app_id": app_id, "app_secret": app_secret},
+        body={"app_id": os.environ["FEISHU_APP_ID"], "app_secret": os.environ["FEISHU_APP_SECRET"]},
     )
     return payload["tenant_access_token"]
 
@@ -144,17 +118,14 @@ def list_records(token: str, app_token: str, table_id: str) -> list[dict]:
     page_token = ""
     while True:
         suffix = f"page_size=500{f'&page_token={page_token}' if page_token else ''}"
-        payload = request_json(
-            f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records?{suffix}",
-            token=token,
-        )
+        payload = request_json(f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records?{suffix}", token=token)
         records.extend(payload.get("data", {}).get("items", []))
         page_token = payload.get("data", {}).get("page_token") or ""
         if not page_token:
             return records
 
 
-def normalize_case(raw: dict) -> dict:
+def normalize_case(raw: dict) -> dict[str, str]:
     fields: dict[str, str] = {}
     for key in CASE_FIELDS:
         value = raw.get(key)
@@ -171,10 +142,7 @@ def normalize_case(raw: dict) -> dict:
         seed = "-".join([fields["model_id"], fields["case_title"], fields["original_evidence_url"]])
         fields["case_id"] = "".join(ch.lower() if ch.isalnum() else "-" for ch in seed).strip("-")[:120]
     local_probe = raw.get("local_url_probe") if isinstance(raw.get("local_url_probe"), dict) else {}
-    for field_name, probe_key in (
-        ("original_evidence_url", "__local_original_url_probe"),
-        ("artifact_url", "__local_artifact_url_probe"),
-    ):
+    for field_name, probe_key in (("original_evidence_url", "__local_original_url_probe"), ("artifact_url", "__local_artifact_url_probe")):
         probe = local_probe.get(field_name) if isinstance(local_probe.get(field_name), dict) else {}
         fields[f"{probe_key}_ok"] = "true" if probe.get("ok") is True else "false"
         fields[f"{probe_key}_reason"] = str(probe.get("reason") or "").strip()
@@ -200,10 +168,8 @@ def is_official_vendor_host(vendor_id: str, value: str) -> bool:
 def probe_url(value: str) -> tuple[bool, str]:
     if not is_http_url(value):
         return False, "not_http_url"
-    headers = {
-        "User-Agent": "Mozilla/5.0 ModelAtlasEvidenceBot/1.0",
-        "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
-    }
+    headers = {"User-Agent": "Mozilla/5.0 ModelAtlasEvidenceBot/1.0", "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8"}
+    last = "unknown"
     for method in ("HEAD", "GET"):
         request = urllib.request.Request(value, method=method, headers=headers)
         try:
@@ -234,65 +200,64 @@ def local_probe_ok(fields: dict, probe_key: str) -> tuple[bool, str]:
     return False, ""
 
 
-def validate_case(fields: dict) -> tuple[bool, str]:
-    required = [
-        "case_id",
-        "case_title",
-        "model_id",
-        "model_name",
-        "vendor_id",
-        "vendor",
-        "user_or_org",
-        "original_evidence_url",
-        "artifact_url",
-        "source_platform",
-        "source_type",
-        "task_description",
-        "output_result",
-        "model_contribution",
-    ]
-    missing = [key for key in required if not fields.get(key)]
-    if missing:
-        return False, "missing_" + ",".join(missing)
-    if fields.get("source_type") != "real_case":
-        return False, "not_real_case"
+def url_ok(fields: dict, field_name: str, probe_key: str) -> tuple[bool, str]:
+    value = fields.get(field_name, "")
+    ok, reason = local_probe_ok(fields, probe_key)
+    if ok:
+        return ok, reason
+    return probe_url(value)
 
-    original_url = fields["original_evidence_url"]
-    artifact_url = fields["artifact_url"]
-    original_ok, original_reason = local_probe_ok(fields, "__local_original_url_probe")
-    if not original_ok:
-        original_ok, original_reason = probe_url(original_url)
-    if not original_ok:
-        return False, f"bad_original_url:{original_reason}"
-    artifact_ok, artifact_reason = local_probe_ok(fields, "__local_artifact_url_probe")
-    if not artifact_ok:
-        artifact_ok, artifact_reason = probe_url(artifact_url)
-    if not artifact_ok:
-        return False, f"bad_artifact_url:{artifact_reason}"
 
+def classify_case(fields: dict) -> tuple[bool, str, str]:
+    critical = ["case_id", "case_title", "model_id", "model_name", "vendor_id", "vendor", "original_evidence_url"]
+    missing_critical = [key for key in critical if not fields.get(key)]
+    if missing_critical:
+        return False, "missing_" + ",".join(missing_critical), "D"
+
+    original_ok, original_reason = url_ok(fields, "original_evidence_url", "__local_original_url_probe")
+    if not original_ok:
+        return True, f"bad_original_url:{original_reason}", "D"
+
+    source_type = fields.get("source_type", "").strip().lower()
+    platform = fields.get("source_platform", "").lower()
     vendor_id = fields.get("vendor_id", "")
     user_text = fields.get("user_or_org", "").lower()
     vendor_text = fields.get("vendor", "").lower().replace(" / ", " ")
+    original_url = fields.get("original_evidence_url", "")
+    artifact_url = fields.get("artifact_url", "")
     official_original = is_official_vendor_host(vendor_id, original_url)
     official_artifact = is_official_vendor_host(vendor_id, artifact_url)
-    same_url = original_url.rstrip("/") == artifact_url.rstrip("/")
-    platform = fields.get("source_platform", "").lower()
+    weak_types = {"collection", "evaluation", "tutorial", "overview", "benchmark", "leaderboard", "launch", "release", "blog", "news"}
 
+    if source_type in weak_types:
+        fields["showcase_eligible"] = "false"
+        fields["selected_for_model_card"] = "false"
+        return True, f"non_case_source_type:{source_type}", "C"
+
+    a_required = ["user_or_org", "artifact_url", "task_description", "output_result", "model_contribution"]
+    missing_a = [key for key in a_required if not fields.get(key)]
+    if missing_a:
+        return True, "missing_a_fields:" + ",".join(missing_a), "B"
+
+    artifact_ok, artifact_reason = url_ok(fields, "artifact_url", "__local_artifact_url_probe")
+    if not artifact_ok:
+        return True, f"bad_artifact_url:{artifact_reason}", "B"
+
+    same_url = original_url.rstrip("/") == artifact_url.rstrip("/")
+    if source_type != "real_case":
+        return True, f"not_real_case:{source_type or 'empty'}", "C"
     if same_url and official_original and "github" not in platform:
-        return False, "same_official_url_for_evidence_and_artifact"
+        return True, "same_official_url_for_evidence_and_artifact", "C"
     if official_original and official_artifact and ("internal" in user_text or user_text in vendor_text or vendor_text in user_text):
-        return False, "vendor_internal_or_self_case"
+        return True, "vendor_internal_or_self_case", "C"
     if "internal team" in user_text or "内部" in user_text:
-        return False, "internal_team_not_public_user"
-    return True, "ok"
+        return True, "internal_team_not_public_user", "C"
+
+    return True, "ok", "A"
 
 
 def dedupe_key(fields: dict) -> tuple[str, ...]:
-    return tuple(
-        value
-        for value in (fields.get("case_id"), fields.get("original_evidence_url"), fields.get("artifact_url"))
-        if value
-    )
+    return tuple(value for value in (fields.get("case_id"), fields.get("original_evidence_url"), fields.get("artifact_url")) if value)
 
 
 def main() -> int:
@@ -306,25 +271,37 @@ def main() -> int:
     payload = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     candidates = payload.get("cases", payload if isinstance(payload, list) else [])
     raw_cases = [normalize_case(item) for item in candidates if isinstance(item, dict)]
-    cases: list[dict] = []
-    rejected: list[dict] = []
+
+    cases: list[dict[str, str]] = []
+    rejected: list[dict[str, str]] = []
+    grade_counts = {"A": 0, "B": 0, "C": 0, "D": 0}
     for fields in raw_cases:
-        ok, reason = validate_case(fields)
-        if ok:
-            cases.append(fields)
-        else:
-            rejected.append({"case_id": fields.get("case_id"), "reason": reason})
+        ok, reason, grade = classify_case(fields)
+        grade_counts[grade] += 1
+        if not ok:
+            rejected.append({"case_id": fields.get("case_id", ""), "reason": reason, "grade": grade})
+            continue
+        fields["evidence_grade"] = grade
+        fields["showcase_eligible"] = "true" if grade == "A" else "false"
+        fields["selected_for_model_card"] = "true" if grade == "A" else "false"
+        fields["review_status"] = {
+            "A": "auto_approved",
+            "B": "auto_candidate",
+            "C": "auto_background",
+            "D": "auto_rejected",
+        }[grade]
+        prefix = "" if reason == "ok" else f"自动分级：{grade}（{reason}）。"
+        fields["risk_notes"] = (prefix + (" " + fields.get("risk_notes", "") if fields.get("risk_notes") else "")).strip()
+        cases.append(fields)
 
     existing: dict[str, str] = {}
     for record in list_records(token, app_token, table_id):
         record_id = record.get("record_id")
-        fields = record.get("fields", {})
-        for key in dedupe_key(fields):
+        record_fields = record.get("fields", {})
+        for key in dedupe_key(record_fields):
             existing[key] = record_id
 
-    created = 0
-    updated = 0
-    skipped = 0
+    created = updated = skipped = 0
     for fields in cases:
         if not fields["model_id"] or not fields["case_title"]:
             skipped += 1
@@ -332,26 +309,16 @@ def main() -> int:
         record_id = next((existing.get(key) for key in dedupe_key(fields) if existing.get(key)), None)
         body = {"fields": {key: fields[key] for key in CASE_FIELDS}}
         if record_id:
-            request_json(
-                f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/{record_id}",
-                method="PUT",
-                token=token,
-                body=body,
-            )
+            request_json(f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records/{record_id}", method="PUT", token=token, body=body)
             updated += 1
         else:
-            created_payload = request_json(
-                f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records",
-                method="POST",
-                token=token,
-                body=body,
-            )
+            created_payload = request_json(f"/open-apis/bitable/v1/apps/{app_token}/tables/{table_id}/records", method="POST", token=token, body=body)
             created += 1
             new_id = created_payload.get("data", {}).get("record", {}).get("record_id")
             for key in dedupe_key(fields):
                 existing[key] = new_id
 
-    print(json.dumps({"ok": True, "created": created, "updated": updated, "skipped": skipped}, ensure_ascii=False))
+    print(json.dumps({"ok": True, "created": created, "updated": updated, "skipped": skipped, "grades": grade_counts}, ensure_ascii=False))
     if rejected:
         print(json.dumps({"rejected": rejected}, ensure_ascii=False))
     return 0

@@ -16,6 +16,7 @@ const evidenceBackfill = readJson("evidenceBackfill.json");
 const backfillById = new Map(evidenceBackfill.map((item) => [item.modelId, item]));
 const MIN_A_CASES = Number(process.env.MODEL_ATLAS_MIN_A_CASES ?? 3);
 const TARGET_A_CASES = Number(process.env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
+const INCLUDE_HOLD = process.env.MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS === "1";
 
 function sourceTargetsFor(model) {
   const common = [
@@ -39,7 +40,7 @@ function sourceTargetsFor(model) {
 }
 
 const tasks = models.map((model) => {
-  const inactive = ["Archive", "Hold"].includes(model.publishability);
+  const inactive = model.publishability === "Archive" || (model.publishability === "Hold" && !INCLUDE_HOLD);
   const backfill = backfillById.get(model.id);
   const aCaseCount = backfill?.aCaseCount ?? model.aCaseCount ?? 0;
   const minACases = backfill?.minACases ?? MIN_A_CASES;
@@ -52,8 +53,8 @@ const tasks = models.map((model) => {
     modelName: model.name,
     vendorId: model.vendorId,
     vendor: model.vendor,
-    priority: inactive ? "P3" : (backfill?.priority ?? "P2"),
-    status: inactive ? "archive_review" : (backfill?.status ?? "needs_a_case"),
+    priority: inactive ? "P3" : (model.publishability === "Hold" ? "P0" : (backfill?.priority ?? "P2")),
+    status: inactive ? "archive_review" : (model.publishability === "Hold" ? "needs_a_case" : (backfill?.status ?? "needs_a_case")),
     publishability: model.publishability,
     aCaseCount,
     minACases,

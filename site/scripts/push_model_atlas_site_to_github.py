@@ -20,6 +20,9 @@ from pathlib import Path
 DEFAULT_BRANCH = "main"
 DEFAULT_TOKEN_PATH = Path("/home/ubuntu/.hermes/secrets/github_model_atlas_repo_token")
 DEFAULT_ADD_PATHS = (
+    "README.md",
+    "site/README.md",
+    "site/scripts",
     "site/src/data",
     "site/package.json",
     "site/package-lock.json",
@@ -132,6 +135,8 @@ def main() -> int:
     args = parser.parse_args()
 
     repo_dir = args.repo_dir.resolve()
+    if not (repo_dir / ".git").exists() and (repo_dir.parent / ".git").exists():
+        repo_dir = repo_dir.parent
     if not (repo_dir / ".git").exists():
         print(json.dumps({"ok": True, "changed": False, "skipped": f"not a git repo: {repo_dir}"}, ensure_ascii=False))
         return 0
