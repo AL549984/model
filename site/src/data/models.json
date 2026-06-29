@@ -1,5 +1,1100 @@
 [
   {
+    "id": "qwen-chat-14b",
+    "name": "Qwen Chat 14B",
+    "slug": "qwen-chat-14b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen Chat 14B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2023-09-25",
+    "modelId": "qwen-chat-14b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen-chat-14b",
+    "score": 7.41,
+    "scoreDelta": null,
+    "vendorOrder": 1,
+    "artificialAnalysisId": "c43aa1f9-31bd-4a99-be70-84c5e6bd2e75",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen-14B-Chat",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen-chat-14b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen-chat-72b",
+    "name": "Qwen Chat 72B",
+    "slug": "qwen-chat-72b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen Chat 72B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2023-11-30",
+    "modelId": "qwen-chat-72b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen-chat-72b",
+    "score": 8.82,
+    "scoreDelta": 1.41,
+    "vendorOrder": 2,
+    "artificialAnalysisId": "41f73c27-880c-4f30-8b07-9999ce89a4ae",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen-72B-Chat",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen-chat-72b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen1-5-chat-110b",
+    "name": "Qwen1.5 Chat 110B",
+    "slug": "qwen1-5-chat-110b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen1.5 Chat 110B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2024-04-25",
+    "modelId": "qwen1-5-chat-110b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen1.5-110b-chat",
+    "score": 9.55,
+    "scoreDelta": 0.72,
+    "vendorOrder": 3,
+    "artificialAnalysisId": "d1768b3a-0a21-4e08-b3f6-56a9ab6cfbf3",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen1.5/",
+      "https://huggingface.co/Qwen/Qwen1.5-110B-Chat",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen1.5-110b-chat"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen2-72b",
+    "name": "Qwen2 72B",
+    "slug": "qwen2-72b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen2 72B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2024-06-07",
+    "modelId": "qwen2-72b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen2-72b-instruct",
+    "score": 11.66,
+    "scoreDelta": 2.11,
+    "vendorOrder": 4,
+    "artificialAnalysisId": "7656c62b-5345-435b-bf12-b6ce2ca0d58d",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen2/",
+      "https://huggingface.co/Qwen/Qwen2-72B-Instruct",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen2-72b-instruct"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen2-5-72b",
+    "name": "Qwen2.5 72B",
+    "slug": "qwen2-5-72b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen2.5 72B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2024-09-19",
+    "modelId": "qwen2-5-72b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen2-5-72b-instruct",
+    "score": 15.56,
+    "scoreDelta": 3.9,
+    "vendorOrder": 5,
+    "artificialAnalysisId": "b4f7d7a4-869a-4ee7-b17a-4046cd1e79fd",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen2.5/",
+      "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen2-5-72b-instruct"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen2-5-max",
+    "name": "Qwen2.5 Max",
+    "slug": "qwen2-5-max",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen2.5 Max 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-01-28",
+    "modelId": "qwen2-5-max",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen-2-5-max",
+    "score": 16.28,
+    "scoreDelta": 0.73,
+    "vendorOrder": 6,
+    "artificialAnalysisId": "b9dc72c6-7bea-4936-a55a-4b0c835fc755",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen2.5-max/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen-2-5-max"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwq-32b",
+    "name": "QwQ-32B",
+    "slug": "qwq-32b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "QwQ-32B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-03-05",
+    "modelId": "qwq-32b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwq-32b",
+    "score": 19.72,
+    "scoreDelta": 3.44,
+    "vendorOrder": 7,
+    "artificialAnalysisId": "ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwq-32b/",
+      "https://huggingface.co/Qwen/QwQ-32B",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwq-32b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-235b",
+    "name": "Qwen3 235B",
+    "slug": "qwen3-235b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3 235B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-04-28",
+    "modelId": "qwen3-235b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning",
+    "score": 19.79,
+    "scoreDelta": 0.07,
+    "vendorOrder": 8,
+    "artificialAnalysisId": "bbe6d782-e630-48d5-b11c-3ce37f373f1e",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 7,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 7 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-235b-2507",
+    "name": "Qwen3 235B 2507",
+    "slug": "qwen3-235b-2507",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3 235B 2507 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-07-21",
+    "modelId": "qwen3-235b-2507",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507",
+    "score": 24.96,
+    "scoreDelta": 5.17,
+    "vendorOrder": 9,
+    "artificialAnalysisId": "3373245b-e6dc-4b66-a7b0-3f06f9b7bd46",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-235b-a22b-2507",
+    "name": "Qwen3 235B A22B 2507",
+    "slug": "qwen3-235b-a22b-2507",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3 235B A22B 2507 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-07-25",
+    "modelId": "qwen3-235b-a22b-2507",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning",
+    "score": 29.54,
+    "scoreDelta": 4.58,
+    "vendorOrder": 10,
+    "artificialAnalysisId": "f6ccbe1d-bd7e-484b-9795-18cc9f91552d",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://huggingface.co/Qwen/Qwen3-235B-A22B",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-max",
+    "name": "Qwen3 Max",
+    "slug": "qwen3-max",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 11 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3 Max 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-09-23",
+    "modelId": "qwen3-max",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-max",
+    "score": 31.38,
+    "scoreDelta": 1.84,
+    "vendorOrder": 11,
+    "artificialAnalysisId": "7ae943a9-9310-4472-a834-c61f0ab68485",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 11,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 11 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-max"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-max-thinking-preview",
+    "name": "Qwen3 Max Thinking (Preview)",
+    "slug": "qwen3-max-thinking-preview",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3 Max Thinking (Preview) 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-11-03",
+    "modelId": "qwen3-max-thinking-preview",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-max-thinking-preview",
+    "score": 32.48,
+    "scoreDelta": 1.1,
+    "vendorOrder": 12,
+    "artificialAnalysisId": "cbac8c35-e069-4c73-823e-0953e6ed0e85",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 6,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 6 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-max-thinking-preview"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-max-thinking",
+    "name": "Qwen3 Max Thinking",
+    "slug": "qwen3-max-thinking",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3 Max Thinking 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-01-26",
+    "modelId": "qwen3-max-thinking",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-max-thinking",
+    "score": 39.85,
+    "scoreDelta": 7.37,
+    "vendorOrder": 13,
+    "artificialAnalysisId": "806032ff-6252-4c22-ba99-a126e411b7a4",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 6,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 6 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-max-thinking"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-5-397b-a17b",
+    "name": "Qwen3.5 397B A17B",
+    "slug": "qwen3-5-397b-a17b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3.5 397B A17B 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-02-16",
+    "modelId": "qwen3-5-397b-a17b",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-5-397b-a17b",
+    "score": 45.05,
+    "scoreDelta": 5.2,
+    "vendorOrder": 14,
+    "artificialAnalysisId": "0e66bae9-41f1-42fc-9276-ce8cb6f72919",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-5-397b-a17b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-6-plus",
+    "name": "Qwen3.6 Plus",
+    "slug": "qwen3-6-plus",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3.6 Plus 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-04-02",
+    "modelId": "qwen3-6-plus",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-6-plus",
+    "score": 49.98,
+    "scoreDelta": 4.93,
+    "vendorOrder": 15,
+    "artificialAnalysisId": "f371ad68-6947-4767-a78f-1f6c81f96b93",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-6-plus"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-6-max-preview",
+    "name": "Qwen3.6 Max Preview",
+    "slug": "qwen3-6-max-preview",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3.6 Max Preview 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-04-20",
+    "modelId": "qwen3-6-max-preview",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-6-max",
+    "score": 51.81,
+    "scoreDelta": 1.83,
+    "vendorOrder": 16,
+    "artificialAnalysisId": "6000692c-f9a6-47f8-a5c0-e0874ac488bb",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 7,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 7 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-6-max"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-7-max",
+    "name": "Qwen3.7 Max",
+    "slug": "qwen3-7-max",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Qwen3.7 Max 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-05-19",
+    "modelId": "qwen3-7-max",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Qwen / Alibaba"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/qwen3-7-max",
+    "score": 56.58,
+    "scoreDelta": 4.77,
+    "vendorOrder": 17,
+    "artificialAnalysisId": "69534bed-2ffd-4235-832b-e20a810333ab",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-05-22 按视觉Step规则增量更新：同日最高分 + 厂商历史新高。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "开放/混合信号",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3/",
+      "https://qwenlm.github.io/",
+      "https://qwen.readthedocs.io/en/latest/",
+      "https://huggingface.co/Qwen",
+      "https://artificialanalysis.ai/models/qwen3-7-max"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
     "id": "claude-instant",
     "name": "Claude Instant",
     "slug": "claude-instant",
@@ -9,7 +1104,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude Instant 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-03-14",
     "modelId": "claude-instant",
     "context": "暂无数据",
@@ -71,7 +1166,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 2.0 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-07-11",
     "modelId": "claude-2-0",
     "context": "暂无数据",
@@ -135,7 +1230,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 2.1 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-11-21",
     "modelId": "claude-2-1",
     "context": "暂无数据",
@@ -198,7 +1293,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 3 Opus 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
     "releaseDate": "2024-03-04",
     "modelId": "claude-3-opus",
     "context": "暂无数据",
@@ -251,126 +1346,6 @@
     "sourceFile": "Feishu Bitable"
   },
   {
-    "id": "claude-3-haiku",
-    "name": "Claude 3 Haiku",
-    "slug": "claude-3-haiku",
-    "vendorId": "anthropic",
-    "vendor": "Anthropic / Claude",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Claude 3 Haiku 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2024-03-13",
-    "modelId": "claude-3-haiku",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Anthropic / Claude"
-    ],
-    "officialLink": "https://www.anthropic.com/news/claude-3-haiku",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "但低于 3 条公开达标线。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-      "https://www.anthropic.com/news",
-      "https://www.anthropic.com/news/claude-3-haiku"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "claude-3-5-sonnet",
-    "name": "Claude 3.5 Sonnet",
-    "slug": "claude-3-5-sonnet",
-    "vendorId": "anthropic",
-    "vendor": "Anthropic / Claude",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Claude 3.5 Sonnet 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2024-06-20",
-    "modelId": "claude-3-5-sonnet",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Anthropic / Claude"
-    ],
-    "officialLink": "https://www.anthropic.com/news/claude-3-5-sonnet",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "但低于 3 条公开达标线。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-      "https://www.anthropic.com/news",
-      "https://www.anthropic.com/news/claude-3-5-sonnet"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
     "id": "claude-3-5-haiku",
     "name": "Claude 3.5 Haiku",
     "slug": "claude-3-5-haiku",
@@ -380,7 +1355,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 3.5 Haiku 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-10-22",
     "modelId": "claude-3-5-haiku",
     "context": "暂无数据",
@@ -443,7 +1418,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 3.7 Sonnet 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
     "releaseDate": "2025-02-24",
     "modelId": "claude-3-7-sonnet",
     "context": "暂无数据",
@@ -504,7 +1479,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 4 Opus 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-05-22",
     "modelId": "claude-4-opus",
     "context": "暂无数据",
@@ -567,7 +1542,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 4.1 Opus 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-08-05",
     "modelId": "claude-4-1-opus",
     "context": "暂无数据",
@@ -629,7 +1604,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude 4.5 Sonnet 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-09-29",
     "modelId": "claude-4-5-sonnet",
     "context": "暂无数据",
@@ -692,7 +1667,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude Opus 4.5 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-11-24",
     "modelId": "claude-opus-4-5",
     "context": "暂无数据",
@@ -754,7 +1729,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude Opus 4.6 (max) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-02-05",
     "modelId": "claude-opus-4-6-max",
     "context": "暂无数据",
@@ -816,7 +1791,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Claude Opus 4.7 (max) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-16",
     "modelId": "claude-opus-4-7-max",
     "context": "暂无数据",
@@ -869,614 +1844,6 @@
     "sourceFile": "Feishu Bitable"
   },
   {
-    "id": "claude-fable-5",
-    "name": "Claude Fable 5",
-    "slug": "claude-fable-5",
-    "vendorId": "anthropic",
-    "vendor": "Anthropic / Claude",
-    "publishability": "Publishable",
-    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Claude Fable 5 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 8 条可核验 A 类案例。",
-    "releaseDate": "2026-06-09",
-    "modelId": "claude-fable-5",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Anthropic / Claude"
-    ],
-    "officialLink": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 8,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-      "https://www.anthropic.com/news",
-      "https://www.anthropic.com/news/claude-fable-5-mythos-5"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "claude-mythos-5",
-    "name": "Claude Mythos 5",
-    "slug": "claude-mythos-5",
-    "vendorId": "anthropic",
-    "vendor": "Anthropic / Claude",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Claude Mythos 5 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-06-09",
-    "modelId": "claude-mythos-5",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Anthropic / Claude"
-    ],
-    "officialLink": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "但低于 3 条公开达标线。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-      "https://www.anthropic.com/news",
-      "https://www.anthropic.com/news/claude-fable-5-mythos-5"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "seedance-1-0",
-    "name": "Seedance 1.0",
-    "slug": "seedance-1-0",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seedance 1.0 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 9 条可核验 A 类案例。",
-    "releaseDate": "2026",
-    "modelId": "seedance-1-0",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "视频 / 多模态，细节待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/seedance",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 9,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 9 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/seedance"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "seed2-0-pro",
-    "name": "Seed2.0 Pro",
-    "slug": "seed2-0-pro",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例；已进入飞书模型主表，但暂不进入活跃模型目标线。",
-    "sourceStatus": "来自飞书模型主表 + Hermes Wiki 模型卡 + ByteDance Seed 官方页面/发布博客；缺失字段保持待补证。",
-    "headline": "Seed2.0 Pro 的厂商页补充记录。",
-    "summary": "Seed2.0 Pro 已进入飞书模型主表；当前保留为 Seed2.0 系列多模态模型档案和路线追踪入口，等待 A 类案例验证后再进入活跃推荐口径。",
-    "releaseDate": "2026-02-14",
-    "modelId": "seed2-0-pro",
-    "context": "官方未披露 / 暂无数据",
-    "output": "官方未披露 / 暂无数据",
-    "modality": "文本 + 图像 + 视频（官方模型页口径）",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露具体数字；官方仅称成本降低约一个数量级",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/seed2",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-06-28 Hermes 已创建飞书 Wiki 模型卡后补写 Model Atlas 模型主表；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用多模态模型对比",
-      "Seed2.0 系列历史基线追踪"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文",
-      "未披露 API 细节时不要当作可直接商用建议"
-    ],
-    "aCaseCount": 0,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；暂缓进入活跃推荐与完整覆盖目标。",
-      "已补写飞书模型主表；后续同步应保留 Hold 状态，直到补齐 A 类案例。",
-      "官方未披露参数量、上下文长度、最大输出和具体 API 定价数字。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/seed2",
-      "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
-    ],
-    "sourceFile": "Feishu Bitable",
-    "preserveOnFeishuSync": true
-  },
-  {
-    "id": "seed-2-1-pro-preview",
-    "name": "Seed-2.1-Pro-Preview",
-    "slug": "seed-2-1-pro-preview",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed-2.1-Pro-Preview 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
-    "releaseDate": "2026-06-19",
-    "modelId": "seed-2-1-pro-preview",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 7,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 7 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "seed2-1-pro",
-    "name": "Seed2.1 Pro",
-    "slug": "seed2-1-pro",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed2.1 Pro 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-06-23",
-    "modelId": "seed2-1-pro",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "seed2-1-turbo",
-    "name": "Seed2.1 Turbo",
-    "slug": "seed2-1-turbo",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed2.1 Turbo 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
-    "releaseDate": "2026-06-23",
-    "modelId": "seed2-1-turbo",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 6,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 6 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "bagel",
-    "name": "BAGEL",
-    "slug": "bagel",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 2 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "BAGEL 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "暂无数据",
-    "modelId": "bagel",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://github.com/ByteDance-Seed",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "高"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "seed1-5-vl",
-    "name": "Seed1.5 VL",
-    "slug": "seed1-5-vl",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 2 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed1.5 VL 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 8 条可核验 A 类案例。",
-    "releaseDate": "暂无数据",
-    "modelId": "seed1-5-vl",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "高"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 8,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 8 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "seedance-2-0",
-    "name": "Seedance 2.0",
-    "slug": "seedance-2-0",
-    "vendorId": "bytedance-seed",
-    "vendor": "ByteDance Seed",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seedance 2.0 的厂商页补充记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "暂无数据",
-    "modelId": "seedance-2-0",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "视频 / 多模态，细节待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "ByteDance Seed"
-    ],
-    "officialLink": "https://seed.bytedance.com/en/seedance",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "高"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/seedance"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
     "id": "deepseek-llm-67b-v1",
     "name": "DeepSeek LLM 67B (V1)",
     "slug": "deepseek-llm-67b-v1",
@@ -1486,7 +1853,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek LLM 67B (V1) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-11-29",
     "modelId": "deepseek-llm-67b-v1",
     "context": "暂无数据",
@@ -1549,7 +1916,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek-V2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-05-06",
     "modelId": "deepseek-v2",
     "context": "暂无数据",
@@ -1613,7 +1980,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek-Coder-V2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-06-17",
     "modelId": "deepseek-coder-v2",
     "context": "暂无数据",
@@ -1676,7 +2043,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek-V2.5 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-09-06",
     "modelId": "deepseek-v2-5",
     "context": "暂无数据",
@@ -1739,7 +2106,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek-V2.5 (Dec) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-12-10",
     "modelId": "deepseek-v2-5-dec",
     "context": "暂无数据",
@@ -1802,7 +2169,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V3 (Dec) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-12-26",
     "modelId": "deepseek-v3-dec",
     "context": "暂无数据",
@@ -1865,7 +2232,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek R1 (Jan) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-01-20",
     "modelId": "deepseek-r1-jan",
     "context": "暂无数据",
@@ -1929,7 +2296,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V3 0324 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-03-25",
     "modelId": "deepseek-v3-0324",
     "context": "暂无数据",
@@ -1992,7 +2359,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek R1 0528 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-05-28",
     "modelId": "deepseek-r1-0528",
     "context": "暂无数据",
@@ -2055,7 +2422,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V3.1 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-08-21",
     "modelId": "deepseek-v3-1",
     "context": "暂无数据",
@@ -2118,7 +2485,7 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V3.1 Terminus 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-09-22",
     "modelId": "deepseek-v3-1-terminus",
     "context": "暂无数据",
@@ -2181,7 +2548,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V3.2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-12-01",
     "modelId": "deepseek-v3-2",
     "context": "暂无数据",
@@ -2245,7 +2612,7 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V4 Pro (Max) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-24",
     "modelId": "deepseek-v4-pro-max",
     "context": "暂无数据",
@@ -2308,7 +2675,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "PALM-2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-05-10",
     "modelId": "palm-2",
     "context": "暂无数据",
@@ -2371,7 +2738,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 1.0 Ultra 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-12-06",
     "modelId": "gemini-1-0-ultra",
     "context": "暂无数据",
@@ -2434,7 +2801,7 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 1.5 Flash (May) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-05-14",
     "modelId": "gemini-1-5-flash-may",
     "context": "暂无数据",
@@ -2497,7 +2864,7 @@
     "caseStatus": "已有 10 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 1.5 Pro (May) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 10 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-05-15",
     "modelId": "gemini-1-5-pro-may",
     "context": "暂无数据",
@@ -2561,7 +2928,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 1.5 Pro (Sep) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-09-24",
     "modelId": "gemini-1-5-pro-sep",
     "context": "暂无数据",
@@ -2623,7 +2990,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 2.0 Flash (exp) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-12-11",
     "modelId": "gemini-2-0-flash-exp",
     "context": "暂无数据",
@@ -2686,7 +3053,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 2.0 Flash Thinking exp. (Jan) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-01-21",
     "modelId": "gemini-2-0-flash-thinking-exp-jan",
     "context": "暂无数据",
@@ -2748,7 +3115,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 2.5 Pro (Mar) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-03-25",
     "modelId": "gemini-2-5-pro-mar",
     "context": "暂无数据",
@@ -2811,7 +3178,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 2.5 Pro 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
     "releaseDate": "2025-06-05",
     "modelId": "gemini-2-5-pro",
     "context": "暂无数据",
@@ -2872,7 +3239,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 3 Pro Preview (high) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-11-18",
     "modelId": "gemini-3-pro-preview-high",
     "context": "暂无数据",
@@ -2934,7 +3301,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Gemini 3.1 Pro Preview 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-02-19",
     "modelId": "gemini-3-1-pro-preview",
     "context": "暂无数据",
@@ -2996,7 +3363,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Kimi K2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-07-11",
     "modelId": "kimi-k2",
     "context": "暂无数据",
@@ -3059,7 +3426,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Kimi K2 0905 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-09-05",
     "modelId": "kimi-k2-0905",
     "context": "暂无数据",
@@ -3122,7 +3489,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Kimi K2 Thinking 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-11-06",
     "modelId": "kimi-k2-thinking",
     "context": "暂无数据",
@@ -3186,7 +3553,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Kimi K2.5 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-01-27",
     "modelId": "kimi-k2-5",
     "context": "暂无数据",
@@ -3250,7 +3617,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Kimi K2.6 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-20",
     "modelId": "kimi-k2-6",
     "context": "暂无数据",
@@ -3437,7 +3804,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Llama 65B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-02-24",
     "modelId": "llama-65b",
     "context": "暂无数据",
@@ -3500,7 +3867,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Llama 2 Chat 7B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-07-18",
     "modelId": "llama-2-chat-7b",
     "context": "暂无数据",
@@ -3562,7 +3929,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Llama 3.1 405B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
     "releaseDate": "2024-07-23",
     "modelId": "llama-3-1-405b",
     "context": "暂无数据",
@@ -3624,7 +3991,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Llama 4 Maverick 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-04-05",
     "modelId": "llama-4-maverick",
     "context": "暂无数据",
@@ -3686,7 +4053,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Muse Spark 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-08",
     "modelId": "muse-spark",
     "context": "暂无数据",
@@ -3749,7 +4116,7 @@
     "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiniMax M1 80k 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 9 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-06-17",
     "modelId": "minimax-m1-80k",
     "context": "暂无数据",
@@ -3811,7 +4178,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiniMax-M2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-10-26",
     "modelId": "minimax-m2",
     "context": "暂无数据",
@@ -3873,7 +4240,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiniMax-M2.1 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-12-23",
     "modelId": "minimax-m2-1",
     "context": "暂无数据",
@@ -3935,7 +4302,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiniMax-M2.5 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-02-12",
     "modelId": "minimax-m2-5",
     "context": "暂无数据",
@@ -3997,7 +4364,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiniMax-M2.7 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-03-18",
     "modelId": "minimax-m2-7",
     "context": "暂无数据",
@@ -4059,7 +4426,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-3.5 Turbo 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2022-11-30",
     "modelId": "gpt-3-5-turbo",
     "context": "暂无数据",
@@ -4121,7 +4488,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-4 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
     "releaseDate": "2023-03-14",
     "modelId": "gpt-4",
     "context": "暂无数据",
@@ -4182,7 +4549,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-4 Turbo 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2023-11-06",
     "modelId": "gpt-4-turbo",
     "context": "暂无数据",
@@ -4245,7 +4612,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-4o (May) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
     "releaseDate": "2024-05-13",
     "modelId": "gpt-4o-may",
     "context": "暂无数据",
@@ -4307,7 +4674,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-4o (Aug) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-08-06",
     "modelId": "gpt-4o-aug",
     "context": "暂无数据",
@@ -4370,7 +4737,7 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "o1-preview 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-09-12",
     "modelId": "o1-preview",
     "context": "暂无数据",
@@ -4433,7 +4800,7 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "o1 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-12-05",
     "modelId": "o1",
     "context": "暂无数据",
@@ -4496,7 +4863,7 @@
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "o3 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-04-16",
     "modelId": "o3",
     "context": "暂无数据",
@@ -4559,7 +4926,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "o3-pro 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-06-10",
     "modelId": "o3-pro",
     "context": "暂无数据",
@@ -4621,7 +4988,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5 (high) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-08-07",
     "modelId": "gpt-5-high",
     "context": "暂无数据",
@@ -4684,7 +5051,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5 Codex (high) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-09-23",
     "modelId": "gpt-5-codex-high",
     "context": "暂无数据",
@@ -4746,7 +5113,7 @@
     "caseStatus": "已有 12 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5.1 (high) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 12 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-11-13",
     "modelId": "gpt-5-1-high",
     "context": "暂无数据",
@@ -4808,7 +5175,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5.2 (xhigh) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-12-11",
     "modelId": "gpt-5-2-xhigh",
     "context": "暂无数据",
@@ -4870,7 +5237,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5.3 Codex (xhigh) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-02-05",
     "modelId": "gpt-5-3-codex-xhigh",
     "context": "暂无数据",
@@ -4932,7 +5299,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5.4 (xhigh) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-03-05",
     "modelId": "gpt-5-4-xhigh",
     "context": "暂无数据",
@@ -4994,7 +5361,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5.5 (xhigh) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-23",
     "modelId": "gpt-5-5-xhigh",
     "context": "暂无数据",
@@ -5047,1161 +5414,6 @@
     "sourceFile": "Feishu Bitable"
   },
   {
-    "id": "qwen-chat-14b",
-    "name": "Qwen Chat 14B",
-    "slug": "qwen-chat-14b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen Chat 14B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2023-09-25",
-    "modelId": "qwen-chat-14b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen-chat-14b",
-    "score": 7.41,
-    "scoreDelta": null,
-    "vendorOrder": 1,
-    "artificialAnalysisId": "c43aa1f9-31bd-4a99-be70-84c5e6bd2e75",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://huggingface.co/Qwen/Qwen-14B-Chat",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen-chat-14b"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen-chat-72b",
-    "name": "Qwen Chat 72B",
-    "slug": "qwen-chat-72b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen Chat 72B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2023-11-30",
-    "modelId": "qwen-chat-72b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen-chat-72b",
-    "score": 8.82,
-    "scoreDelta": 1.41,
-    "vendorOrder": 2,
-    "artificialAnalysisId": "41f73c27-880c-4f30-8b07-9999ce89a4ae",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://huggingface.co/Qwen/Qwen-72B-Chat",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen-chat-72b"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen1-5-chat-110b",
-    "name": "Qwen1.5 Chat 110B",
-    "slug": "qwen1-5-chat-110b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen1.5 Chat 110B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2024-04-25",
-    "modelId": "qwen1-5-chat-110b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen1.5-110b-chat",
-    "score": 9.55,
-    "scoreDelta": 0.72,
-    "vendorOrder": 3,
-    "artificialAnalysisId": "d1768b3a-0a21-4e08-b3f6-56a9ab6cfbf3",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen1.5/",
-      "https://huggingface.co/Qwen/Qwen1.5-110B-Chat",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen1.5-110b-chat"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen2-72b",
-    "name": "Qwen2 72B",
-    "slug": "qwen2-72b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen2 72B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2024-06-07",
-    "modelId": "qwen2-72b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen2-72b-instruct",
-    "score": 11.66,
-    "scoreDelta": 2.11,
-    "vendorOrder": 4,
-    "artificialAnalysisId": "7656c62b-5345-435b-bf12-b6ce2ca0d58d",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen2/",
-      "https://huggingface.co/Qwen/Qwen2-72B-Instruct",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen2-72b-instruct"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen2-5-72b",
-    "name": "Qwen2.5 72B",
-    "slug": "qwen2-5-72b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen2.5 72B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2024-09-19",
-    "modelId": "qwen2-5-72b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen2-5-72b-instruct",
-    "score": 15.56,
-    "scoreDelta": 3.9,
-    "vendorOrder": 5,
-    "artificialAnalysisId": "b4f7d7a4-869a-4ee7-b17a-4046cd1e79fd",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen2.5/",
-      "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen2-5-72b-instruct"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen2-5-max",
-    "name": "Qwen2.5 Max",
-    "slug": "qwen2-5-max",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen2.5 Max 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2025-01-28",
-    "modelId": "qwen2-5-max",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen-2-5-max",
-    "score": 16.28,
-    "scoreDelta": 0.73,
-    "vendorOrder": 6,
-    "artificialAnalysisId": "b9dc72c6-7bea-4936-a55a-4b0c835fc755",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen2.5-max/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen-2-5-max"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwq-32b",
-    "name": "QwQ-32B",
-    "slug": "qwq-32b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "QwQ-32B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2025-03-05",
-    "modelId": "qwq-32b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwq-32b",
-    "score": 19.72,
-    "scoreDelta": 3.44,
-    "vendorOrder": 7,
-    "artificialAnalysisId": "ceb4d610-d0a4-48c1-bea0-80ed76f1e5ca",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwq-32b/",
-      "https://huggingface.co/Qwen/QwQ-32B",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwq-32b"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-235b",
-    "name": "Qwen3 235B",
-    "slug": "qwen3-235b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3 235B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
-    "releaseDate": "2025-04-28",
-    "modelId": "qwen3-235b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning",
-    "score": 19.79,
-    "scoreDelta": 0.07,
-    "vendorOrder": 8,
-    "artificialAnalysisId": "bbe6d782-e630-48d5-b11c-3ce37f373f1e",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 7,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 7 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://huggingface.co/Qwen/Qwen3-235B-A22B",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-reasoning"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-235b-2507",
-    "name": "Qwen3 235B 2507",
-    "slug": "qwen3-235b-2507",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3 235B 2507 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2025-07-21",
-    "modelId": "qwen3-235b-2507",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507",
-    "score": 24.96,
-    "scoreDelta": 5.17,
-    "vendorOrder": 9,
-    "artificialAnalysisId": "3373245b-e6dc-4b66-a7b0-3f06f9b7bd46",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://huggingface.co/Qwen/Qwen3-235B-A22B",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-235b-a22b-2507",
-    "name": "Qwen3 235B A22B 2507",
-    "slug": "qwen3-235b-a22b-2507",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 5 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3 235B A22B 2507 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2025-07-25",
-    "modelId": "qwen3-235b-a22b-2507",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning",
-    "score": 29.54,
-    "scoreDelta": 4.58,
-    "vendorOrder": 10,
-    "artificialAnalysisId": "f6ccbe1d-bd7e-484b-9795-18cc9f91552d",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://huggingface.co/Qwen/Qwen3-235B-A22B",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-235b-a22b-instruct-2507-reasoning"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-max",
-    "name": "Qwen3 Max",
-    "slug": "qwen3-max",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 11 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3 Max 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 11 条可核验 A 类案例。",
-    "releaseDate": "2025-09-23",
-    "modelId": "qwen3-max",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-max",
-    "score": 31.38,
-    "scoreDelta": 1.84,
-    "vendorOrder": 11,
-    "artificialAnalysisId": "7ae943a9-9310-4472-a834-c61f0ab68485",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 11,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 11 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-max"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-max-thinking-preview",
-    "name": "Qwen3 Max Thinking (Preview)",
-    "slug": "qwen3-max-thinking-preview",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3 Max Thinking (Preview) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
-    "releaseDate": "2025-11-03",
-    "modelId": "qwen3-max-thinking-preview",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-max-thinking-preview",
-    "score": 32.48,
-    "scoreDelta": 1.1,
-    "vendorOrder": 12,
-    "artificialAnalysisId": "cbac8c35-e069-4c73-823e-0953e6ed0e85",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 6,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 6 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-max-thinking-preview"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-max-thinking",
-    "name": "Qwen3 Max Thinking",
-    "slug": "qwen3-max-thinking",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3 Max Thinking 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 6 条可核验 A 类案例。",
-    "releaseDate": "2026-01-26",
-    "modelId": "qwen3-max-thinking",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-max-thinking",
-    "score": 39.85,
-    "scoreDelta": 7.37,
-    "vendorOrder": 13,
-    "artificialAnalysisId": "806032ff-6252-4c22-ba99-a126e411b7a4",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 6,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 6 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-max-thinking"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-5-397b-a17b",
-    "name": "Qwen3.5 397B A17B",
-    "slug": "qwen3-5-397b-a17b",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3.5 397B A17B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-02-16",
-    "modelId": "qwen3-5-397b-a17b",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-5-397b-a17b",
-    "score": 45.05,
-    "scoreDelta": 5.2,
-    "vendorOrder": 14,
-    "artificialAnalysisId": "0e66bae9-41f1-42fc-9276-ce8cb6f72919",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-5-397b-a17b"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-6-plus",
-    "name": "Qwen3.6 Plus",
-    "slug": "qwen3-6-plus",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3.6 Plus 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-04-02",
-    "modelId": "qwen3-6-plus",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-6-plus",
-    "score": 49.98,
-    "scoreDelta": 4.93,
-    "vendorOrder": 15,
-    "artificialAnalysisId": "f371ad68-6947-4767-a78f-1f6c81f96b93",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-6-plus"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-6-max-preview",
-    "name": "Qwen3.6 Max Preview",
-    "slug": "qwen3-6-max-preview",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3.6 Max Preview 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
-    "releaseDate": "2026-04-20",
-    "modelId": "qwen3-6-max-preview",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-6-max",
-    "score": 51.81,
-    "scoreDelta": 1.83,
-    "vendorOrder": 16,
-    "artificialAnalysisId": "6000692c-f9a6-47f8-a5c0-e0874ac488bb",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 7,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 7 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-6-max"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "qwen3-7-max",
-    "name": "Qwen3.7 Max",
-    "slug": "qwen3-7-max",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen / Alibaba",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 4 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Qwen3.7 Max 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-05-19",
-    "modelId": "qwen3-7-max",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Qwen / Alibaba"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen3-7-max",
-    "score": 56.58,
-    "scoreDelta": 4.77,
-    "vendorOrder": 17,
-    "artificialAnalysisId": "69534bed-2ffd-4235-832b-e20a810333ab",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-05-22 按视觉Step规则增量更新：同日最高分 + 厂商历史新高。",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "开放/混合信号",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://qwenlm.github.io/blog/qwen3/",
-      "https://qwenlm.github.io/",
-      "https://qwen.readthedocs.io/en/latest/",
-      "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen3-7-max"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "step-3-7-flash",
-    "name": "Step 3.7 Flash",
-    "slug": "step-3-7-flash",
-    "vendorId": "stepfun",
-    "vendor": "StepFun / Step",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Step 3.7 Flash 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-05-29",
-    "modelId": "step-3-7-flash",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "StepFun / Step"
-    ],
-    "officialLink": "https://static.stepfun.com/blog/step-3.7-flash/",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": 1,
-    "artificialAnalysisId": "stepfun-step-3.7-flash-official",
-    "baseModelReleaseDate": "官方未披露",
-    "notes": "新增厂商 StepFun/阶跃星辰；截至追加时 Artificial Analysis / OpenRouter 页面显示 Step 3.7 Flash 暂无 intelligence/coding/agentic 数据，先以官方发布页记录，后续定时任务发现 AA 数据后补评分与拐点。官方规格：198B MoE，约11B active，256K context，最高400 TPS。",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://platform.stepfun.ai/",
-      "https://static.stepfun.com/blog/step-3.7-flash/"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
     "id": "solar-mini",
     "name": "Solar Mini",
     "slug": "solar-mini",
@@ -6211,7 +5423,7 @@
     "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 1 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Solar Mini 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 9 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-01-25",
     "modelId": "solar-mini",
     "context": "暂无数据",
@@ -6272,7 +5484,7 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 1 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Solar Pro 2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 7 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-05-20",
     "modelId": "solar-pro-2",
     "context": "暂无数据",
@@ -6333,7 +5545,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 1 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Solar Open 100B 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-12-17",
     "modelId": "solar-open-100b",
     "context": "暂无数据",
@@ -6394,7 +5606,7 @@
     "caseStatus": "已有 10 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 1 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Solar Pro 3 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 10 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-06",
     "modelId": "solar-pro-3",
     "context": "暂无数据",
@@ -6446,504 +5658,6 @@
     "sourceFile": "Feishu Bitable"
   },
   {
-    "id": "grok-1",
-    "name": "Grok-1",
-    "slug": "grok-1",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok-1 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2024-03-17",
-    "modelId": "grok-1",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-1",
-    "score": 11.69,
-    "scoreDelta": null,
-    "vendorOrder": 1,
-    "artificialAnalysisId": "4c111fbc-d13a-42b4-858c-1dc17fe3c1d1",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://github.com/xai-org/grok-1",
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-1"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-beta",
-    "name": "Grok Beta",
-    "slug": "grok-beta",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 10 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok Beta 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 10 条可核验 A 类案例。",
-    "releaseDate": "2024-08-13",
-    "modelId": "grok-beta",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-beta",
-    "score": 13.28,
-    "scoreDelta": 1.59,
-    "vendorOrder": 2,
-    "artificialAnalysisId": "a04f5b78-f397-4fd8-a2b1-00dcab50324c",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 10,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 10 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-beta"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-2",
-    "name": "Grok 2",
-    "slug": "grok-2",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok 2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 9 条可核验 A 类案例。",
-    "releaseDate": "2024-12-12",
-    "modelId": "grok-2",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-2-1212",
-    "score": 13.89,
-    "scoreDelta": 0.6,
-    "vendorOrder": 3,
-    "artificialAnalysisId": "291a510a-dcc0-40df-8a80-b3aa31900a6c",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 9,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 9 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-2-1212"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-3-mini-reasoning-high",
-    "name": "Grok 3 mini Reasoning (high)",
-    "slug": "grok-3-mini-reasoning-high",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok 3 mini Reasoning (high) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2025-02-19",
-    "modelId": "grok-3-mini-reasoning-high",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-3-mini-reasoning",
-    "score": 32.08,
-    "scoreDelta": 18.19,
-    "vendorOrder": 4,
-    "artificialAnalysisId": "ff9bc5e5-a02f-4270-983e-4b3f834f3363",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "high 后缀表示 Grok 系列推理增强版本，通过 RL 优化推理能力。智力评分 32.08。",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-3-mini-reasoning"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-4",
-    "name": "Grok 4",
-    "slug": "grok-4",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok 4 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2025-07-10",
-    "modelId": "grok-4",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-4",
-    "score": 41.52,
-    "scoreDelta": 9.44,
-    "vendorOrder": 5,
-    "artificialAnalysisId": "5ea94a4a-55ac-4ea1-8898-2b3971e94af6",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-4-20-0309",
-    "name": "Grok 4.20 0309",
-    "slug": "grok-4-20-0309",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok 4.20 0309 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-03-10",
-    "modelId": "grok-4-20-0309",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-4-20-0309",
-    "score": 48.48,
-    "scoreDelta": 6.96,
-    "vendorOrder": 6,
-    "artificialAnalysisId": "04787c2b-0751-4269-8029-075b727d7aed",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4-20-0309"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-4-20-0309-v2",
-    "name": "Grok 4.20 0309 v2",
-    "slug": "grok-4-20-0309-v2",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok 4.20 0309 v2 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
-    "releaseDate": "2026-04-07",
-    "modelId": "grok-4-20-0309-v2",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-4-20",
-    "score": 49.33,
-    "scoreDelta": 0.85,
-    "vendorOrder": 7,
-    "artificialAnalysisId": "c72cb85a-18a4-4235-b455-77dff2f16c50",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 5,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "但低于 3 条公开达标线。",
-      "完整补齐为 5 条。",
-      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4-20"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "grok-4-3-high",
-    "name": "Grok 4.3 (high)",
-    "slug": "grok-4-3-high",
-    "vendorId": "xai",
-    "vendor": "xAI / Grok",
-    "publishability": "Publishable",
-    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
-    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Grok 4.3 (high) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 8 条可核验 A 类案例。",
-    "releaseDate": "2026-04-30",
-    "modelId": "grok-4-3-high",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "xAI / Grok"
-    ],
-    "officialLink": "https://artificialanalysis.ai/models/grok-4-3",
-    "score": 53.2,
-    "scoreDelta": 3.87,
-    "vendorOrder": 8,
-    "artificialAnalysisId": "948892b5-db03-4118-a4a8-ccd51ed871ea",
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-05-22 按当前 Artificial Analysis 名称校准为 Grok 4.3 (high)。",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "通用/待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "平台/待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
-    ],
-    "aCaseCount": 8,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
-    "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
-      "完整补齐为 5 条。",
-      "当前已关联 8 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
-      "Artificial Analysis 评分仅作参考",
-      "不能作为唯一事实来源。",
-      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
-    ],
-    "sources": [
-      "https://docs.x.ai/docs/models",
-      "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4-3"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
     "id": "mimo-v2-flash-feb-2026",
     "name": "MiMo-V2-Flash (Feb 2026)",
     "slug": "mimo-v2-flash-feb-2026",
@@ -6953,7 +5667,7 @@
     "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiMo-V2-Flash (Feb 2026) 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 8 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-12-16",
     "modelId": "mimo-v2-flash-feb-2026",
     "context": "暂无数据",
@@ -7015,7 +5729,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiMo-V2-Pro 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-03-18",
     "modelId": "mimo-v2-pro",
     "context": "暂无数据",
@@ -7077,7 +5791,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "MiMo-V2.5-Pro 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-22",
     "modelId": "mimo-v2-5-pro",
     "context": "暂无数据",
@@ -7140,7 +5854,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-4.5 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-07-28",
     "modelId": "glm-4-5",
     "context": "暂无数据",
@@ -7202,7 +5916,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-4.6 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-09-30",
     "modelId": "glm-4-6",
     "context": "暂无数据",
@@ -7264,7 +5978,7 @@
     "caseStatus": "已有 13 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-4.7 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 13 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2025-12-22",
     "modelId": "glm-4-7",
     "context": "暂无数据",
@@ -7327,7 +6041,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-5 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 5 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-02-11",
     "modelId": "glm-5",
     "context": "暂无数据",
@@ -7389,7 +6103,7 @@
     "caseStatus": "已有 10 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-5.1 的完整模型表记录。",
-    "summary": "来自公开模型资料库，并已补充厂商/官方/模型家族证据；当前关联 10 条可核验 A 类案例。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2026-04-07",
     "modelId": "glm-5-1",
     "context": "暂无数据",
@@ -7438,6 +6152,1350 @@
       "https://docs.z.ai/",
       "https://z.ai/",
       "https://artificialanalysis.ai/models/glm-5-1"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-1",
+    "name": "Grok-1",
+    "slug": "grok-1",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok-1 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2024-03-17",
+    "modelId": "grok-1",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-1",
+    "score": 11.69,
+    "scoreDelta": null,
+    "vendorOrder": 1,
+    "artificialAnalysisId": "4c111fbc-d13a-42b4-858c-1dc17fe3c1d1",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://github.com/xai-org/grok-1",
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-1"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-beta",
+    "name": "Grok Beta",
+    "slug": "grok-beta",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 10 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok Beta 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2024-08-13",
+    "modelId": "grok-beta",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-beta",
+    "score": 13.28,
+    "scoreDelta": 1.59,
+    "vendorOrder": 2,
+    "artificialAnalysisId": "a04f5b78-f397-4fd8-a2b1-00dcab50324c",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 10,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 10 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-beta"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-2",
+    "name": "Grok 2",
+    "slug": "grok-2",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok 2 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2024-12-12",
+    "modelId": "grok-2",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-2-1212",
+    "score": 13.89,
+    "scoreDelta": 0.6,
+    "vendorOrder": 3,
+    "artificialAnalysisId": "291a510a-dcc0-40df-8a80-b3aa31900a6c",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 9,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 9 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-2-1212"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-3-mini-reasoning-high",
+    "name": "Grok 3 mini Reasoning (high)",
+    "slug": "grok-3-mini-reasoning-high",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok 3 mini Reasoning (high) 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-02-19",
+    "modelId": "grok-3-mini-reasoning-high",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-3-mini-reasoning",
+    "score": 32.08,
+    "scoreDelta": 18.19,
+    "vendorOrder": 4,
+    "artificialAnalysisId": "ff9bc5e5-a02f-4270-983e-4b3f834f3363",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "high 后缀表示 Grok 系列推理增强版本，通过 RL 优化推理能力。智力评分 32.08。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-3-mini-reasoning"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4",
+    "name": "Grok 4",
+    "slug": "grok-4",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok 4 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2025-07-10",
+    "modelId": "grok-4",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-4",
+    "score": 41.52,
+    "scoreDelta": 9.44,
+    "vendorOrder": 5,
+    "artificialAnalysisId": "5ea94a4a-55ac-4ea1-8898-2b3971e94af6",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-4"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4-20-0309",
+    "name": "Grok 4.20 0309",
+    "slug": "grok-4-20-0309",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok 4.20 0309 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-03-10",
+    "modelId": "grok-4-20-0309",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-4-20-0309",
+    "score": 48.48,
+    "scoreDelta": 6.96,
+    "vendorOrder": 6,
+    "artificialAnalysisId": "04787c2b-0751-4269-8029-075b727d7aed",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-4-20-0309"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4-20-0309-v2",
+    "name": "Grok 4.20 0309 v2",
+    "slug": "grok-4-20-0309-v2",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok 4.20 0309 v2 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-04-07",
+    "modelId": "grok-4-20-0309-v2",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-4-20",
+    "score": 49.33,
+    "scoreDelta": 0.85,
+    "vendorOrder": 7,
+    "artificialAnalysisId": "c72cb85a-18a4-4235-b455-77dff2f16c50",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-4-20"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4-3-high",
+    "name": "Grok 4.3 (high)",
+    "slug": "grok-4-3-high",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Publishable",
+    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Grok 4.3 (high) 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-04-30",
+    "modelId": "grok-4-3-high",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "xAI / Grok"
+    ],
+    "officialLink": "https://artificialanalysis.ai/models/grok-4-3",
+    "score": 53.2,
+    "scoreDelta": 3.87,
+    "vendorOrder": 8,
+    "artificialAnalysisId": "948892b5-db03-4118-a4a8-ccd51ed871ea",
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-05-22 按当前 Artificial Analysis 名称校准为 Grok 4.3 (high)。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 8,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 8 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "Artificial Analysis 评分仅作参考",
+      "不能作为唯一事实来源。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.x.ai/docs/models",
+      "https://x.ai/",
+      "https://artificialanalysis.ai/models/grok-4-3"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "step-3-7-flash",
+    "name": "Step 3.7 Flash",
+    "slug": "step-3-7-flash",
+    "vendorId": "stepfun",
+    "vendor": "StepFun / Step",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
+    "headline": "Step 3.7 Flash 的完整模型表记录。",
+    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "releaseDate": "2026-05-29",
+    "modelId": "step-3-7-flash",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "StepFun / Step"
+    ],
+    "officialLink": "https://static.stepfun.com/blog/step-3.7-flash/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": 1,
+    "artificialAnalysisId": "stepfun-step-3.7-flash-official",
+    "baseModelReleaseDate": "官方未披露",
+    "notes": "新增厂商 StepFun/阶跃星辰；截至追加时 Artificial Analysis / OpenRouter 页面显示 Step 3.7 Flash 暂无 intelligence/coding/agentic 数据，先以官方发布页记录，后续定时任务发现 AA 数据后补评分与拐点。官方规格：198B MoE，约11B active，256K context，最高400 TPS。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://platform.stepfun.ai/",
+      "https://static.stepfun.com/blog/step-3.7-flash/"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-3-haiku",
+    "name": "Claude 3 Haiku",
+    "slug": "claude-3-haiku",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic / Claude",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Claude 3 Haiku 的厂商页补充记录。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
+    "releaseDate": "2024-03-13",
+    "modelId": "claude-3-haiku",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Anthropic / Claude"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-3-haiku",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "https://www.anthropic.com/news",
+      "https://www.anthropic.com/news/claude-3-haiku"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-3-5-sonnet",
+    "name": "Claude 3.5 Sonnet",
+    "slug": "claude-3-5-sonnet",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic / Claude",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Claude 3.5 Sonnet 的厂商页补充记录。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
+    "releaseDate": "2024-06-20",
+    "modelId": "claude-3-5-sonnet",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Anthropic / Claude"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "https://www.anthropic.com/news",
+      "https://www.anthropic.com/news/claude-3-5-sonnet"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-fable-5",
+    "name": "Claude Fable 5",
+    "slug": "claude-fable-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic / Claude",
+    "publishability": "Publishable",
+    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Claude Fable 5 的厂商页补充记录。",
+    "summary": "完整样板模型：已有官方来源、风险说明和可核验 A 类案例。",
+    "releaseDate": "2026-06-09",
+    "modelId": "claude-fable-5",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Anthropic / Claude"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 8,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "https://www.anthropic.com/news",
+      "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-mythos-5",
+    "name": "Claude Mythos 5",
+    "slug": "claude-mythos-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic / Claude",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Claude Mythos 5 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026-06-09",
+    "modelId": "claude-mythos-5",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Anthropic / Claude"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "但低于 3 条公开达标线。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "https://www.anthropic.com/news",
+      "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed-2-1-pro-preview",
+    "name": "Seed-2.1-Pro-Preview",
+    "slug": "seed-2-1-pro-preview",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Seed-2.1-Pro-Preview 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026-06-19",
+    "modelId": "seed-2-1-pro-preview",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 7,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 7 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed",
+      "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed2-1-pro",
+    "name": "Seed2.1 Pro",
+    "slug": "seed2-1-pro",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Seed2.1 Pro 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026-06-23",
+    "modelId": "seed2-1-pro",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "推理/agentic workflow 候选"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed",
+      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed2-1-turbo",
+    "name": "Seed2.1 Turbo",
+    "slug": "seed2-1-turbo",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Seed2.1 Turbo 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026-06-23",
+    "modelId": "seed2-1-turbo",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 6,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 6 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed",
+      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seedance-1-0",
+    "name": "Seedance 1.0",
+    "slug": "seedance-1-0",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Seedance 1.0 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026",
+    "modelId": "seedance-1-0",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "视频 / 多模态，细节待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/seedance",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 9,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 9 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed",
+      "https://seed.bytedance.com/en/seedance"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seedance-2-0",
+    "name": "Seedance 2.0",
+    "slug": "seedance-2-0",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Seedance 2.0 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "暂无数据",
+    "modelId": "seedance-2-0",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "视频 / 多模态，细节待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/seedance",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "高"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed",
+      "https://seed.bytedance.com/en/seedance"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed1-5-vl",
+    "name": "Seed1.5 VL",
+    "slug": "seed1-5-vl",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 2 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "Seed1.5 VL 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "暂无数据",
+    "modelId": "seed1-5-vl",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "高"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 8,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 8 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "bagel",
+    "name": "BAGEL",
+    "slug": "bagel",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自厂商页/模型卡骨架 + 2 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
+    "headline": "BAGEL 的厂商页补充记录。",
+    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "暂无数据",
+    "modelId": "bagel",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://github.com/ByteDance-Seed",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "通用/待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "平台/待核验",
+      "lifecycleRisk": "高"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用模型对比"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。",
+      "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
+      "暂无 Artificial Analysis 评分或未在 Bitable 主表中出现。",
+      "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/",
+      "https://github.com/ByteDance-Seed"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed2-0-pro",
+    "name": "Seed2.0 Pro",
+    "slug": "seed2-0-pro",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书模型主表 + Hermes Wiki 模型卡 + ByteDance Seed 官方页面/发布博客；缺失字段保持待补证。",
+    "headline": "Seed2.0 Pro 的厂商页补充记录。",
+    "summary": "Seed2.0 Pro 是 ByteDance Seed 于 2026-02-14 发布的 Seed2.0 系列 Pro 版本；来自官方模型页与发布博客同步，缺失字段以“暂无数据 / 官方未披露”展示。",
+    "releaseDate": "2026-02-14",
+    "modelId": "seed2-0-pro",
+    "context": "官方未披露 / 暂无数据",
+    "output": "官方未披露 / 暂无数据",
+    "modality": "文本 + 图像 + 视频（官方模型页口径）",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露具体数字；官方仅称成本降低约一个数量级",
+    "platforms": [
+      "ByteDance Seed"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/seed2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-06-28 Hermes 已创建飞书 Wiki 模型卡后补写 Model Atlas 模型主表；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口",
+      "通用多模态模型对比",
+      "Seed2.0 系列历史基线追踪"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐",
+      "缺字段时不要脑补价格、性能或上下文",
+      "未披露 API 细节时不要当作可直接商用建议"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。",
+      "已补写飞书模型主表；后续同步应保留 Hold 状态",
+      "直到补齐 A 类案例。",
+      "官方未披露参数量、上下文长度、最大输出和具体 API 定价数字。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/seed2",
+      "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
+    ],
+    "sourceFile": "Feishu Bitable",
+    "preserveOnFeishuSync": true
+  },
+  {
+    "id": "seed2-0-lite",
+    "name": "Seed2.0 Lite",
+    "slug": "seed2-0-lite",
+    "vendorId": "bytedance-seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "字节跳动 Seed 团队通用生产级轻量智能体模型，首个全模态 Seed 基础模型",
+    "summary": "Seed2.0 Lite 是字节跳动 Seed 团队于 2026 年 2 月发布的通用智能体模型系列中的轻量级版本，平衡输出质量与响应速度，定位为通用生产级模型；2026 年 4 月底升级为首个支持全模态理解（视频、图像、音频）的 Seed 基础模型。",
+    "releaseDate": "2026-02",
+    "modelId": "seed2-0-lite",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "文本+图像+视频+音频",
+    "reasoning": "标准模式",
+    "price": "token定价较同类领先大模型降低约一个数量级（具体数字未公开）",
+    "platforms": [
+      "火山引擎 Volcano Engine / 豆包 Doubao"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/seed2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g；0428版本为全模态升级版",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "企业级生产部署、多模态内容处理、通用AI助手、成本敏感型应用"
+    ],
+    "avoid": [
+      "追求极致编程能力、需要复杂长链推理、需要公开透明技术参数的研究团队"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/seed2",
+      "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g"
     ],
     "sourceFile": "Feishu Bitable"
   }

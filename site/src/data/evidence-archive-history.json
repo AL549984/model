@@ -338,6 +338,30 @@
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 0,
       "source": "site/src/data/evidence-archive.json"
+    },
+    {
+      "id": "2026-06-29-snapshot-checkpoint-588",
+      "date": "2026-06-29",
+      "label": "快照进度 588 条",
+      "aCaseCount": 680,
+      "targets": 1365,
+      "snapshottedCases": 588,
+      "pendingSnapshotCases": 79,
+      "partialSnapshotCases": 0,
+      "snapshotAttentionCases": 13,
+      "source": "site/src/data/evidence-archive.json"
+    },
+    {
+      "id": "current-2026-06-29",
+      "date": "2026-06-29",
+      "label": "当前数据截点",
+      "aCaseCount": 680,
+      "targets": 1365,
+      "snapshottedCases": 600,
+      "pendingSnapshotCases": 79,
+      "partialSnapshotCases": 0,
+      "snapshotAttentionCases": 1,
+      "source": "site/src/data/evidence-archive.json"
     }
   ]
 }

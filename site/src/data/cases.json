@@ -399,7 +399,7 @@
     "modelName": "Claude 3.5 Sonnet",
     "userOrOrg": "Perplexity",
     "originalEvidenceUrl": "https://www.anthropic.com/customers/perplexity",
-    "artifactUrl": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+    "artifactUrl": "https://www.perplexity.ai/",
     "sourcePlatform": "Anthropic customer story; product site",
     "sourceType": "real_case",
     "taskCategory": "search / answer_engine / model_routing",
@@ -409,7 +409,7 @@
     "evidenceGrade": "A",
     "showcaseEligible": true,
     "selectedForModelCard": true,
-    "riskNotes": "Perplexity offers multiple models; this case proves availability/use, not exclusive model routing. The product artifact uses the public Google Play listing because the Perplexity homepage returns a Cloudflare challenge to archival fetchers.",
+    "riskNotes": "Perplexity offers multiple models; this case proves availability/use, not exclusive model routing.",
     "collectedAt": "2026-06-26",
     "reviewStatus": "auto_approved"
   },

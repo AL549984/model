@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "name": "Model Atlas Evidence Archive Manifest",
-  "datasetCut": "2026-06-28",
+  "datasetCut": "2026-06-29",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
     "aCaseCount": 680,
     "manifestedCases": 680,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
-    "snapshottedCases": 601,
+    "snapshottedCases": 600,
     "partialSnapshotCases": 0,
-    "snapshotAttentionCases": 0,
+    "snapshotAttentionCases": 1,
     "pendingSnapshotCases": 79,
-    "snapshotIssueTypes": 1,
+    "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
     "targets": 1365
   },
@@ -111,9 +111,9 @@
     "openrouter.ai",
     "opensensenova.github.io",
     "pact.mrlepro.com",
+    "perplexity.ai",
     "pinu-qwen2-5-max-demo.hf.space",
     "platform.theverge.com",
-    "play.google.com",
     "pypi.org",
     "qodo.ai",
     "qwen3-7-flag-demo.vercel.app",
@@ -204,6 +204,27 @@
           "host": "deepinfra.com",
           "cases": 2,
           "targets": 4
+        }
+      ]
+    },
+    {
+      "code": "evidence_changed",
+      "label": "证据字段变化",
+      "description": "案例字段或证据 URL 与本地 manifest 指纹不一致，历史快照需要重新核对。",
+      "action": "人工确认字段变化是否合理，再重跑该案例快照。",
+      "cases": 1,
+      "targets": 2,
+      "highPriorityCases": 1,
+      "hosts": [
+        {
+          "host": "anthropic.com",
+          "cases": 1,
+          "targets": 1
+        },
+        {
+          "host": "perplexity.ai",
+          "cases": 1,
+          "targets": 1
         }
       ]
     }
@@ -3182,16 +3203,16 @@
       "sourceType": "real_case",
       "collectedAt": "2026-06-26",
       "priority": "high",
-      "evidenceFingerprint": "c20eff888e2916ac05f54574296414bffd79b3662c8d904f3cac02f2d281bda1",
-      "snapshotStatus": "snapshotted",
+      "evidenceFingerprint": "a22a1428561709e2d77e4a5066b98402813182a0e51be515948a879fe5788160",
+      "snapshotStatus": "snapshot_attention",
       "snapshotIssue": {
-        "code": "complete",
-        "label": "已完成",
-        "description": "所有当前证据目标都已完成本地快照。",
-        "action": "无需处理；数据字段变化后会自动重新进入复核队列。"
+        "code": "evidence_changed",
+        "label": "证据字段变化",
+        "description": "案例字段或证据 URL 与本地 manifest 指纹不一致，历史快照需要重新核对。",
+        "action": "人工确认字段变化是否合理，再重跑该案例快照。"
       },
-      "snapshotTargetCount": 2,
-      "snapshotOkTargetCount": 2,
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
       "localSnapshotManifest": "archive/evidence/claude35-case-perplexity-search/manifest.json",
       "targets": [
         {
@@ -3202,9 +3223,9 @@
         },
         {
           "kind": "artifact-1",
-          "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
-          "host": "play.google.com",
-          "recommendedSnapshotPath": "archive/evidence/claude35-case-perplexity-search/artifact-1-bf35ba419e30.json"
+          "url": "https://www.perplexity.ai/",
+          "host": "perplexity.ai",
+          "recommendedSnapshotPath": "archive/evidence/claude35-case-perplexity-search/artifact-1-bd687578ef65.json"
         }
       ]
     },

@@ -360,6 +360,22 @@ async function listBitableRecords({ token, appToken, tableId }) {
   return records;
 }
 
+function updateVendorModelCounts(models) {
+  const vendors = readJson("vendors.json");
+  const modelCountByVendor = new Map();
+  for (const model of models) {
+    modelCountByVendor.set(model.vendorId, (modelCountByVendor.get(model.vendorId) ?? 0) + 1);
+  }
+
+  const nextVendors = vendors.map((vendor) => {
+    const modelCount = modelCountByVendor.get(vendor.id) ?? 0;
+    if (Number(vendor.modelCount ?? 0) === modelCount) return vendor;
+    return { ...vendor, modelCount };
+  });
+
+  writeJson("vendors.json", nextVendors);
+}
+
 function updateMetrics() {
   const models = readJson("models.json");
   const cases = readJson("cases.json");
@@ -446,6 +462,7 @@ models = hydrateModelsWithCases(models, cases);
 
 writeJson("models.json", models);
 writeJson("cases.json", cases);
+updateVendorModelCounts(models);
 updateMetrics();
 
 console.log(`Synced ${models.length} model(s) and ${cases.length} case candidate(s) from Feishu.`);
