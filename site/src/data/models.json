@@ -7550,7 +7550,7 @@
     "id": "fugu-ultra",
     "name": "Fugu Ultra",
     "slug": "fugu-ultra",
-    "vendorId": "sakana",
+    "vendorId": "sakana-ai",
     "vendor": "Sakana AI",
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
@@ -7610,7 +7610,7 @@
     "id": "seed2-0-mini",
     "name": "Seed2.0 Mini",
     "slug": "seed2-0-mini",
-    "vendorId": "bytedance_seed",
+    "vendorId": "bytedance-seed",
     "vendor": "ByteDance Seed",
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
@@ -7791,60 +7791,6 @@
       "https://www.anthropic.com/claude-sonnet-5-system-card",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/Dk4JwyJOniIuI8ksXOIcjhvKnYd",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR"
-    ],
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "test123",
-    "name": "Test Model",
-    "slug": "test123",
-    "vendorId": "test",
-    "vendor": "Test Vendor",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
-    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "Test Model 的飞书同步模型卡。",
-    "summary": "来自飞书同步模型卡；证据强度由自动 gate 决定。",
-    "releaseDate": "暂无数据",
-    "modelId": "test123",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
-    "platforms": [
-      "Test Vendor"
-    ],
-    "officialLink": "https://example.com",
-    "score": null,
-    "scoreDelta": null,
-    "vendorOrder": null,
-    "artificialAnalysisId": null,
-    "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
-    "sourceKind": "feishu",
-    "capabilities": {
-      "codingAgent": "待核验",
-      "longContext": "暂无数据",
-      "research": "待核验",
-      "openEcosystem": "待核验",
-      "lifecycleRisk": "中"
-    },
-    "fit": [
-      "作为完整模型索引和厂商路线追踪入口"
-    ],
-    "avoid": [
-      "缺少真实案例时不要包装成推荐"
-    ],
-    "aCaseCount": 0,
-    "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 1,
-    "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
-      "完整补齐为 5 条。"
-    ],
-    "sources": [
-      "https://example.com"
     ],
     "sourceFile": "Feishu Bitable"
   },

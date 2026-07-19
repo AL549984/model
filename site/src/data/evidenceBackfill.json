@@ -7256,7 +7256,7 @@
     "modelId": "seed2-0-mini",
     "slug": "seed2-0-mini",
     "modelName": "Seed2.0 Mini",
-    "vendorId": "bytedance_seed",
+    "vendorId": "bytedance-seed",
     "vendor": "ByteDance Seed",
     "publishability": "Hold",
     "aCaseCount": 0,
@@ -7628,7 +7628,7 @@
     "modelId": "fugu-ultra",
     "slug": "fugu-ultra",
     "modelName": "Fugu Ultra",
-    "vendorId": "sakana",
+    "vendorId": "sakana-ai",
     "vendor": "Sakana AI",
     "publishability": "Hold",
     "aCaseCount": 0,
@@ -7682,68 +7682,6 @@
       {
         "query": "Fugu Ultra Sakana AI 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Fugu%20Ultra%20Sakana%20AI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
-  },
-  {
-    "modelId": "test123",
-    "slug": "test123",
-    "modelName": "Test Model",
-    "vendorId": "test",
-    "vendor": "Test Vendor",
-    "publishability": "Hold",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 0,
-    "targetDeficit": 0,
-    "sourceCount": 1,
-    "score": null,
-    "priority": "P3",
-    "status": "archive_review",
-    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
-    "requiredEvidence": [
-      "当前不进入活跃模型目标线，暂停自动补案例。",
-      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
-    ],
-    "targetSources": [
-      "official release or docs",
-      "customer story or product page",
-      "public repo, demo, PR, video or engineering blog"
-    ],
-    "searchQueries": [
-      {
-        "query": "Test Model Test Vendor case study customer",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20case%20study%20customer"
-      },
-      {
-        "query": "Test Model Test Vendor built with GitHub demo",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Test Model Test Vendor production use product blog",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Test Model Test Vendor model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Test Model Test Vendor 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Test Model Test Vendor GitHub README built with",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Test Model Test Vendor B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Test Model Test Vendor 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Test%20Model%20Test%20Vendor%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"

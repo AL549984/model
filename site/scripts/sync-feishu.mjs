@@ -28,6 +28,10 @@ const FEISHU_BASE_URL = env.FEISHU_BASE_URL || "https://open.feishu.cn";
 const MIN_A_CASES = Number(env.MODEL_ATLAS_MIN_A_CASES ?? 3);
 const TARGET_A_CASES = Number(env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
 const LARK_CLI_USER_TOKEN = "__lark_cli_user__";
+const VENDOR_ID_ALIASES = new Map([
+  ["bytedance_seed", "bytedance-seed"],
+  ["sakana", "sakana-ai"]
+]);
 
 function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
@@ -49,6 +53,11 @@ function slugify(value) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .replace(/-+/g, "-");
+}
+
+function canonicalVendorId(value) {
+  const id = String(value ?? "").trim();
+  return VENDOR_ID_ALIASES.get(id) ?? id;
 }
 
 function parseBool(value, fallback = false) {
@@ -233,7 +242,9 @@ function mapModelRecord(record, existingById) {
   const id = pick(fields, ["id", "slug", "model_id", "模型 ID"], slugify(name));
   const existing = existingById.get(id) ?? {};
   const vendor = pick(fields, ["vendor", "厂商", "Vendor"], existing.vendor ?? "");
-  const vendorId = pick(fields, ["vendorId", "vendor_id", "厂商 ID"], existing.vendorId ?? slugify(vendor));
+  const vendorId = canonicalVendorId(
+    pick(fields, ["vendorId", "vendor_id", "厂商 ID"], existing.vendorId ?? slugify(vendor))
+  );
   const sources = parseSources(pick(fields, ["sources", "source_links", "来源链接", "来源和证据"], existing.sources?.join("; ") ?? ""));
 
   return {
@@ -511,7 +522,12 @@ const existingModels = readJson("models.json");
 const existingModelsById = new Map(existingModels.map((model) => [model.id, model]));
 const token = await getTenantAccessToken();
 const modelRecords = await listBitableRecords({ token, appToken, tableId: modelTableId });
-const mappedModels = modelRecords.map((record) => mapModelRecord(record, existingModelsById));
+const ignoredModelIds = new Set(
+  splitList(env.MODEL_ATLAS_IGNORED_MODEL_IDS ?? "test123")
+);
+const mappedModels = modelRecords
+  .map((record) => mapModelRecord(record, existingModelsById))
+  .filter((model) => !ignoredModelIds.has(model.id));
 const dedupedModels = mergeModelsById(mappedModels);
 let models = dedupedModels.models;
 const syncedModelIds = new Set(models.map((model) => model.id));
@@ -535,7 +551,10 @@ updateMetrics();
 const duplicateNotice = dedupedModels.duplicateIds.length > 0
   ? ` Suppressed duplicate IDs: ${dedupedModels.duplicateIds.join(", ")}.`
   : "";
+const ignoredNotice = ignoredModelIds.size > 0
+  ? ` Ignored test IDs: ${[...ignoredModelIds].join(", ")}.`
+  : "";
 console.log(
   `Synced ${models.length} unique model(s) from ${modelRecords.length} Feishu record(s) ` +
-  `and ${cases.length} case candidate(s).${duplicateNotice}`
+  `and ${cases.length} case candidate(s).${duplicateNotice}${ignoredNotice}`
 );

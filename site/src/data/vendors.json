@@ -474,7 +474,60 @@
       "视频案例涉及 IP/safety 风险",
       "不是 Bitable 14 厂商主表节点"
     ],
-    "modelCount": 9,
+    "modelCount": 10,
     "sourceFile": "../../outputs/vendors/bytedance-seed.md"
+  },
+  {
+    "id": "sakana-ai",
+    "displayName": "Sakana AI",
+    "slug": "sakana-ai",
+    "officialSite": "https://sakana.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Sakana AI 的模型与多智能体编排产品线，当前覆盖 Fugu 与 Fugu Ultra。",
+    "families": [
+      "Fugu"
+    ],
+    "flagshipModels": [
+      "Fugu Ultra",
+      "Fugu"
+    ],
+    "strengths": [
+      "多智能体编排",
+      "OpenAI 兼容 API",
+      "复杂任务模型路由"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "底层模型与成本需持续核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "thinking-machines-lab",
+    "displayName": "Thinking Machines Lab",
+    "slug": "thinking-machines-lab",
+    "officialSite": "https://thinkingmachines.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Thinking Machines Lab 的开放模型产品线，当前覆盖 Inkling。",
+    "families": [
+      "Inkling"
+    ],
+    "flagshipModels": [
+      "Inkling"
+    ],
+    "strengths": [
+      "开放权重多模态模型",
+      "长上下文",
+      "开发者生态"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "模型能力与部署成本需持续核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable"
   }
 ]
