@@ -134,9 +134,13 @@ sync_repo_before_generation() {
     return 0
   fi
   local branch="${GITHUB_BRANCH:-main}"
+  local fetch_timeout="${MODEL_ATLAS_GIT_SYNC_TIMEOUT:-60}"
   (
     cd "$REPO_DIR"
-    git fetch origin "$branch"
+    if ! timeout "$fetch_timeout" git fetch origin "$branch"; then
+      echo "Warning: GitHub fetch timed out or failed after ${fetch_timeout}s; continuing with the current checkout"
+      exit 0
+    fi
     git rebase --autostash "origin/$branch"
   )
 }
