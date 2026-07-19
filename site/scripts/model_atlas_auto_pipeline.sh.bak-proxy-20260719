@@ -52,7 +52,6 @@ load_env_file() {
 }
 
 load_env_file "$PROFILE/.env"
-load_env_file "$PROFILE/config/model-card-proxy.env"
 load_env_file "$SITE_DIR/.env"
 
 MODEL_ATLAS_RUN_ID="${MODEL_ATLAS_RUN_ID:-$(date '+%Y%m%d-%H%M%S')}"
