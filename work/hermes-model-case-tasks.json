@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-19T06:15:23.164Z",
+  "generatedAt": "2026-07-19T07:15:54.982Z",
   "summary": {
-    "models": 120,
+    "models": 127,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,8 +11,8 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 12,
-    "allModelTargetDeficit": 20
+    "allModelMinDeficit": 33,
+    "allModelTargetDeficit": 55
   },
   "tasks": [
     {
@@ -15654,7 +15654,9 @@
       "officialSources": [
         "https://seed.bytedance.com/en/",
         "https://github.com/ByteDance-Seed",
-        "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena"
+        "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
+        "https://arena.ai/",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
       ],
       "crawlSources": [
         {
@@ -15794,7 +15796,10 @@
       "officialSources": [
         "https://seed.bytedance.com/en/",
         "https://github.com/ByteDance-Seed",
-        "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+        "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+        "https://seed.bytedance.com/en/seed2_1",
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/BmKOwoQlriXRn9kS0cWcyRfVnIh"
       ],
       "crawlSources": [
         {
@@ -15934,7 +15939,9 @@
       "officialSources": [
         "https://seed.bytedance.com/en/",
         "https://github.com/ByteDance-Seed",
-        "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+        "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+        "https://seed.bytedance.com/en/seed2_1",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/BpyJwtrFfikUeCkoOj2cUmzbnWc"
       ],
       "crawlSources": [
         {
@@ -16836,6 +16843,1000 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for seed2-0-lite >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-fugu-ultra",
+      "modelId": "fugu-ultra",
+      "modelName": "Fugu Ultra",
+      "vendorId": "sakana",
+      "vendor": "Sakana AI",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://sakana.ai/fugu/",
+        "https://sakana.ai/fugu-release/",
+        "https://console.sakana.ai/models",
+        "https://console.sakana.ai/pricing",
+        "https://arxiv.org/abs/2606.21228",
+        "https://github.com/SakanaAI/fugu",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Fugu Ultra Sakana AI case study customer",
+        "Fugu Ultra Sakana AI built with GitHub demo",
+        "Fugu Ultra Sakana AI production use product blog",
+        "Fugu Ultra Sakana AI model card docs API pricing context window",
+        "Fugu Ultra Sakana AI 真实使用 案例 项目 开源",
+        "Fugu Ultra Sakana AI GitHub README built with",
+        "Fugu Ultra Sakana AI B站 使用 案例 demo",
+        "Fugu Ultra Sakana AI 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for fugu-ultra >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-seed2-0-mini",
+      "modelId": "seed2-0-mini",
+      "modelName": "Seed2.0 Mini",
+      "vendorId": "bytedance_seed",
+      "vendor": "ByteDance Seed",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://seed.bytedance.com/en/seed2",
+        "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/D7zywUC7pit6QHkR9Afcux6Tn5g"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Seed2.0 Mini ByteDance Seed case study customer",
+        "Seed2.0 Mini ByteDance Seed built with GitHub demo",
+        "Seed2.0 Mini ByteDance Seed production use product blog",
+        "Seed2.0 Mini ByteDance Seed model card docs API pricing context window",
+        "Seed2.0 Mini ByteDance Seed 真实使用 案例 项目 开源",
+        "Seed2.0 Mini ByteDance Seed GitHub README built with",
+        "Seed2.0 Mini ByteDance Seed B站 使用 案例 demo",
+        "Seed2.0 Mini ByteDance Seed 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for seed2-0-mini >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-fugu",
+      "modelId": "fugu",
+      "modelName": "Fugu",
+      "vendorId": "sakana-ai",
+      "vendor": "Sakana AI",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://sakana.ai/fugu/",
+        "https://sakana.ai/fugu-release/",
+        "https://console.sakana.ai/models",
+        "https://console.sakana.ai/pricing",
+        "https://console.sakana.ai/get-started",
+        "https://arxiv.org/abs/2606.21228",
+        "https://github.com/SakanaAI/fugu",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/VxiuwBWUAiObXEkSI0ucR3nEnKf"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Fugu Sakana AI case study customer",
+        "Fugu Sakana AI built with GitHub demo",
+        "Fugu Sakana AI production use product blog",
+        "Fugu Sakana AI model card docs API pricing context window",
+        "Fugu Sakana AI 真实使用 案例 项目 开源",
+        "Fugu Sakana AI GitHub README built with",
+        "Fugu Sakana AI B站 使用 案例 demo",
+        "Fugu Sakana AI 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for fugu >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-claude-sonnet-5",
+      "modelId": "claude-sonnet-5",
+      "modelName": "Claude Sonnet 5",
+      "vendorId": "anthropic",
+      "vendor": "Anthropic / Claude",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://www.anthropic.com/news/claude-sonnet-5",
+        "https://www.anthropic.com/claude-sonnet-5-system-card",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Dk4JwyJOniIuI8ksXOIcjhvKnYd",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Claude Sonnet 5 Anthropic / Claude case study customer",
+        "Claude Sonnet 5 Anthropic / Claude built with GitHub demo",
+        "Claude Sonnet 5 Anthropic / Claude production use product blog",
+        "Claude Sonnet 5 Anthropic / Claude model card docs API pricing context window",
+        "Claude Sonnet 5 Anthropic / Claude 真实使用 案例 项目 开源",
+        "Claude Sonnet 5 Anthropic / Claude GitHub README built with",
+        "Claude Sonnet 5 Anthropic / Claude B站 使用 案例 demo",
+        "Claude Sonnet 5 Anthropic / Claude 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for claude-sonnet-5 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-test123",
+      "modelId": "test123",
+      "modelName": "Test Model",
+      "vendorId": "test",
+      "vendor": "Test Vendor",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://example.com"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Test Model Test Vendor case study customer",
+        "Test Model Test Vendor built with GitHub demo",
+        "Test Model Test Vendor production use product blog",
+        "Test Model Test Vendor model card docs API pricing context window",
+        "Test Model Test Vendor 真实使用 案例 项目 开源",
+        "Test Model Test Vendor GitHub README built with",
+        "Test Model Test Vendor B站 使用 案例 demo",
+        "Test Model Test Vendor 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for test123 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-inkling",
+      "modelId": "inkling",
+      "modelName": "Inkling",
+      "vendorId": "thinking-machines-lab",
+      "vendor": "Thinking Machines Lab",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://thinkingmachines.ai/inkling/",
+        "https://thinkingmachines.ai/news/introducing-inkling/",
+        "https://thinkingmachines.ai/model-card/inkling/",
+        "https://huggingface.co/thinkingmachines/inkling",
+        "https://tinker.thinkingmachines.ai/",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/GijewF683iNhhvkwOUQcaPjFnvd"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Inkling Thinking Machines Lab case study customer",
+        "Inkling Thinking Machines Lab built with GitHub demo",
+        "Inkling Thinking Machines Lab production use product blog",
+        "Inkling Thinking Machines Lab model card docs API pricing context window",
+        "Inkling Thinking Machines Lab 真实使用 案例 项目 开源",
+        "Inkling Thinking Machines Lab GitHub README built with",
+        "Inkling Thinking Machines Lab B站 使用 案例 demo",
+        "Inkling Thinking Machines Lab 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for inkling >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-kimi-k3",
+      "modelId": "kimi-k3",
+      "modelName": "Kimi K3",
+      "vendorId": "kimi",
+      "vendor": "Kimi / Moonshot AI",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://platform.moonshot.cn/docs/guide/kimi-k3-quickstart",
+        "https://platform.moonshot.cn/docs/guide/kimi-k3-tool-calling-best-practice",
+        "https://platform.moonshot.cn/pricing/chat-k3",
+        "https://openrouter.ai/moonshotai/kimi-k3",
+        "https://kimi.moonshot.cn",
+        "Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "Kimi K3 Kimi / Moonshot AI case study customer",
+        "Kimi K3 Kimi / Moonshot AI built with GitHub demo",
+        "Kimi K3 Kimi / Moonshot AI production use product blog",
+        "Kimi K3 Kimi / Moonshot AI model card docs API pricing context window",
+        "Kimi K3 Kimi / Moonshot AI 真实使用 案例 项目 开源",
+        "Kimi K3 Kimi / Moonshot AI GitHub README built with",
+        "Kimi K3 Kimi / Moonshot AI B站 使用 案例 demo",
+        "Kimi K3 Kimi / Moonshot AI 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for kimi-k3 >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

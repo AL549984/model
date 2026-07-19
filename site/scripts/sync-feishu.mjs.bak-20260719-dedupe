@@ -92,9 +92,7 @@ function splitList(value) {
 }
 
 function parseSources(value) {
-  return uniqueList(
-    String(value ?? "").split(/\s*(?:[;\n]|,(?=\s*https?:\/\/))\s*/)
-  );
+  return uniqueList(String(value ?? "").split(/\s*[;\n]\s*/));
 }
 
 function looksLikeUrl(value) {
@@ -103,67 +101,6 @@ function looksLikeUrl(value) {
 
 function hasText(value) {
   return String(value ?? "").trim().length > 0;
-}
-
-function modelCompletenessScore(model) {
-  const placeholders = /^(?:暂无数据|待核验|否或官方未披露)$/;
-  const fields = [
-    "name",
-    "vendorId",
-    "vendor",
-    "headline",
-    "summary",
-    "releaseDate",
-    "modelId",
-    "context",
-    "output",
-    "modality",
-    "reasoning",
-    "price",
-    "officialLink",
-    "notes"
-  ];
-  const fieldScore = fields.reduce((score, field) => {
-    const value = String(model[field] ?? "").trim();
-    return score + (value && !placeholders.test(value) ? 1 : 0);
-  }, 0);
-  return fieldScore + (model.sources?.length ?? 0) * 3;
-}
-
-function mergeModelsById(input) {
-  const byId = new Map();
-  const duplicateIds = new Set();
-  const listFields = ["sources", "platforms", "fit", "avoid", "riskNotes"];
-
-  for (const model of input) {
-    const existing = byId.get(model.id);
-    if (!existing) {
-      byId.set(model.id, model);
-      continue;
-    }
-
-    duplicateIds.add(model.id);
-    const incomingIsRicher =
-      modelCompletenessScore(model) > modelCompletenessScore(existing);
-    const primary = incomingIsRicher ? model : existing;
-    const secondary = incomingIsRicher ? existing : model;
-    const merged = { ...secondary, ...primary };
-    for (const field of listFields) {
-      merged[field] = uniqueList([
-        ...(existing[field] ?? []),
-        ...(model[field] ?? [])
-      ]);
-    }
-    merged.supplementalSourceCount = merged.sources.filter(
-      (source) => !source.includes("artificialanalysis.ai")
-    ).length;
-    byId.set(model.id, merged);
-  }
-
-  return {
-    models: [...byId.values()],
-    duplicateIds: [...duplicateIds].sort()
-  };
 }
 
 function evidenceGate(caseItem) {
@@ -511,9 +448,7 @@ const existingModels = readJson("models.json");
 const existingModelsById = new Map(existingModels.map((model) => [model.id, model]));
 const token = await getTenantAccessToken();
 const modelRecords = await listBitableRecords({ token, appToken, tableId: modelTableId });
-const mappedModels = modelRecords.map((record) => mapModelRecord(record, existingModelsById));
-const dedupedModels = mergeModelsById(mappedModels);
-let models = dedupedModels.models;
+let models = modelRecords.map((record) => mapModelRecord(record, existingModelsById));
 const syncedModelIds = new Set(models.map((model) => model.id));
 const preservedOfficialPatches = existingModels.filter((model) =>
   !syncedModelIds.has(model.id) &&
@@ -532,10 +467,4 @@ writeJson("cases.json", cases);
 updateVendorModelCounts(models);
 updateMetrics();
 
-const duplicateNotice = dedupedModels.duplicateIds.length > 0
-  ? ` Suppressed duplicate IDs: ${dedupedModels.duplicateIds.join(", ")}.`
-  : "";
-console.log(
-  `Synced ${models.length} unique model(s) from ${modelRecords.length} Feishu record(s) ` +
-  `and ${cases.length} case candidate(s).${duplicateNotice}`
-);
+console.log(`Synced ${models.length} model(s) and ${cases.length} case candidate(s) from Feishu.`);

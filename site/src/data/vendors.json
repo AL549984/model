@@ -28,7 +28,7 @@
       "数据保留和 fallback 约束",
       "Fable/Mythos 以外案例仍需补证"
     ],
-    "modelCount": 16,
+    "modelCount": 17,
     "sourceFile": "../../outputs/vendors/anthropic.md"
   },
   {
@@ -225,7 +225,7 @@
       "开源分支和托管模型不能混用",
       "案例库待补证"
     ],
-    "modelCount": 5,
+    "modelCount": 6,
     "sourceFile": "../../outputs/vendors/kimi.md"
   },
   {

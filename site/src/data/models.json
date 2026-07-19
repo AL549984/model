@@ -6963,17 +6963,18 @@
     "publishability": "Publishable",
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed-2.1-Pro-Preview 的厂商页补充记录。",
-    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
-    "releaseDate": "2026-06-19",
+    "headline": "Seed-2.1-Pro-Preview 是 Seed2.1 Pro 正式版前的公开试用版",
+    "summary": "Seed-2.1-Pro-Preview 在 Arena AI 平台公开试用，为正式版发布前的预览版本。",
+    "releaseDate": "2026-06",
     "modelId": "seed-2-1-pro-preview",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "文本+图像+视频",
+    "reasoning": "标准模式",
+    "price": "官方未披露",
     "platforms": [
-      "ByteDance Seed"
+      "ByteDance Seed",
+      "Arena AI"
     ],
     "officialLink": "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
     "score": null,
@@ -6981,7 +6982,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6992,15 +6993,20 @@
     },
     "fit": [
       "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
+      "推理/agentic workflow 候选",
+      "早期试用者",
+      "模型评估",
+      "Arena 排行榜参与者"
     ],
     "avoid": [
       "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
+      "缺字段时不要脑补价格、性能或上下文",
+      "生产环境部署",
+      "需要稳定API的场景"
     ],
     "aCaseCount": 7,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -7011,7 +7017,9 @@
     "sources": [
       "https://seed.bytedance.com/en/",
       "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena"
+      "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
+      "https://arena.ai/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -7024,25 +7032,27 @@
     "publishability": "Publishable",
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed2.1 Pro 的厂商页补充记录。",
-    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
-    "releaseDate": "2026-06-23",
+    "headline": "Seed2.1 Pro 是字节跳动 Seed 团队于 2026 年 6 月 23 日发布的旗舰级智能体模型",
+    "summary": "Seed2.1 Pro 专注于真实生产力场景的复杂任务执行，在通用智能体、代码工程、多模态理解和视频理解等方面达到前沿水平。",
+    "releaseDate": "2026-06",
     "modelId": "seed2-1-pro",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "文本+图像+视频",
+    "reasoning": "标准模式 + Deep Think（推理时扩展）",
+    "price": "官方未披露",
     "platforms": [
-      "ByteDance Seed"
+      "ByteDance Seed",
+      "豆包 Doubao",
+      "火山引擎 Volcano Engine"
     ],
-    "officialLink": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "officialLink": "https://seed.bytedance.com/en/seed2_1",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -7053,15 +7063,22 @@
     },
     "fit": [
       "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选"
+      "推理/agentic workflow 候选",
+      "开发者和AI原生创业团队",
+      "企业级软件工程团队",
+      "多模态内容创作者",
+      "移动端应用开发者"
     ],
     "avoid": [
       "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
+      "缺字段时不要脑补价格、性能或上下文",
+      "追求极致编程能力的研究团队",
+      "需要公开透明技术参数的研究团队",
+      "对价格敏感且需要透明定价的企业"
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -7072,7 +7089,10 @@
     "sources": [
       "https://seed.bytedance.com/en/",
       "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+      "https://seed.bytedance.com/en/seed2_1",
+      "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/BmKOwoQlriXRn9kS0cWcyRfVnIh"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -7085,25 +7105,27 @@
     "publishability": "Publishable",
     "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed2.1 Turbo 的厂商页补充记录。",
-    "summary": "来自厂商页骨架的补充模型；缺失字段以“暂无数据 / 官方未披露”展示。",
-    "releaseDate": "2026-06-23",
+    "headline": "Seed2.1 Turbo 是字节跳动 Seed 团队于 2026 年 6 月 23 日发布的高吞吐智能体模型",
+    "summary": "Seed2.1 Turbo 保留了多模态和 GUI 能力，适合产品级高频调用场景。",
+    "releaseDate": "2026-06",
     "modelId": "seed2-1-turbo",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "文本+图像+视频",
+    "reasoning": "标准模式",
+    "price": "官方未披露",
     "platforms": [
-      "ByteDance Seed"
+      "ByteDance Seed",
+      "豆包 Doubao",
+      "火山引擎 Volcano Engine"
     ],
-    "officialLink": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+    "officialLink": "https://seed.bytedance.com/en/seed2_1",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -7114,15 +7136,23 @@
     },
     "fit": [
       "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
+      "通用模型对比",
+      "产品级高频调用场景",
+      "移动端助手",
+      "视频理解",
+      "图片问答",
+      "轻量办公助手"
     ],
     "avoid": [
       "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
+      "缺字段时不要脑补价格、性能或上下文",
+      "长链agent任务",
+      "复杂研究",
+      "深代码理解"
     ],
     "aCaseCount": 6,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -7133,7 +7163,9 @@
     "sources": [
       "https://seed.bytedance.com/en/",
       "https://github.com/ByteDance-Seed",
-      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity"
+      "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+      "https://seed.bytedance.com/en/seed2_1",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/BpyJwtrFfikUeCkoOj2cUmzbnWc"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -7388,17 +7420,19 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书模型主表 + Hermes Wiki 模型卡 + ByteDance Seed 官方页面/发布博客；缺失字段保持待补证。",
-    "headline": "Seed2.0 Pro 的厂商页补充记录。",
-    "summary": "Seed2.0 Pro 是 ByteDance Seed 于 2026-02-14 发布的 Seed2.0 系列 Pro 版本；来自官方模型页与发布博客同步，缺失字段以“暂无数据 / 官方未披露”展示。",
-    "releaseDate": "2026-02-14",
+    "headline": "Seed2.0 Pro 是字节跳动 Seed 团队上一代旗舰智能体模型",
+    "summary": "Seed2.0 Pro 在搜索、研究、真实世界任务和多模态视频方面表现突出。",
+    "releaseDate": "2026-04",
     "modelId": "seed2-0-pro",
-    "context": "官方未披露 / 暂无数据",
-    "output": "官方未披露 / 暂无数据",
-    "modality": "文本 + 图像 + 视频（官方模型页口径）",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露具体数字；官方仅称成本降低约一个数量级",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "文本+图像+视频",
+    "reasoning": "标准模式",
+    "price": "官方未披露",
     "platforms": [
-      "ByteDance Seed"
+      "ByteDance Seed",
+      "豆包 Doubao",
+      "火山引擎 Volcano Engine"
     ],
     "officialLink": "https://seed.bytedance.com/en/seed2",
     "score": null,
@@ -7406,7 +7440,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-06-28 Hermes 已创建飞书 Wiki 模型卡后补写 Model Atlas 模型主表；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag",
+    "notes": "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7418,12 +7452,17 @@
     "fit": [
       "作为完整模型索引和厂商路线追踪入口",
       "通用多模态模型对比",
-      "Seed2.0 系列历史基线追踪"
+      "Seed2.0 系列历史基线追踪",
+      "搜索研究任务",
+      "真实世界任务",
+      "多模态视频理解"
     ],
     "avoid": [
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文",
-      "未披露 API 细节时不要当作可直接商用建议"
+      "未披露 API 细节时不要当作可直接商用建议",
+      "复杂编程任务",
+      "需要最新模型能力的场景"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
@@ -7462,7 +7501,9 @@
     "reasoning": "标准模式",
     "price": "token定价较同类领先大模型降低约一个数量级（具体数字未公开）",
     "platforms": [
-      "火山引擎 Volcano Engine / 豆包 Doubao"
+      "火山引擎 Volcano Engine / 豆包 Doubao",
+      "豆包 Doubao",
+      "火山引擎 Volcano Engine"
     ],
     "officialLink": "https://seed.bytedance.com/en/seed2",
     "score": null,
@@ -7480,10 +7521,16 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "企业级生产部署、多模态内容处理、通用AI助手、成本敏感型应用"
+      "企业级生产部署、多模态内容处理、通用AI助手、成本敏感型应用",
+      "产品入口模型",
+      "低延迟场景",
+      "大规模调用",
+      "多模态感知"
     ],
     "avoid": [
-      "追求极致编程能力、需要复杂长链推理、需要公开透明技术参数的研究团队"
+      "追求极致编程能力、需要复杂长链推理、需要公开透明技术参数的研究团队",
+      "复杂编程任务",
+      "需要深推理的场景"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
@@ -7496,6 +7543,436 @@
       "https://seed.bytedance.com/en/seed2",
       "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "fugu-ultra",
+    "name": "Fugu Ultra",
+    "slug": "fugu-ultra",
+    "vendorId": "sakana",
+    "vendor": "Sakana AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "多智能体编排模型，通过自主协调多个顶级 LLM 实现前沿级性能",
+    "summary": "Fugu Ultra 是 Sakana AI 于 2026 年 6 月发布的多智能体编排模型。它本身是一个经过训练的语言模型，能够自主协调多个顶级 LLM（包括递归调用自身）来处理复杂的多步骤任务。用户只需调用单一 OpenAI 兼容 API 端点，Fugu Ultra 会自动进行模型选择、任务委派、验证和综合。在 SWE Bench Pro（73.7）、Terminal Bench 2.1（82.1）、LiveCodeBench（93.2）等 benchmark 上超越 Opus 4.8、Gemini 3.1 Pro 和 GPT-5.5。",
+    "releaseDate": "2026-06",
+    "modelId": "fugu-ultra",
+    "context": "未披露（定价阈值 272K tokens）",
+    "output": "未披露",
+    "modality": "文本",
+    "reasoning": "false",
+    "price": "Input $5/1M, Output $30/1M (standard); Input $10/1M, Output $45/1M (>272K context)",
+    "platforms": [
+      "API"
+    ],
+    "officialLink": "https://sakana.ai/fugu/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "多智能体编排模型，基于 Trinity（ICLR 2026）和 Conductor（ICLR 2026）研究。Fable 5 和 Mythos Preview 未公开访问，不在代理池中。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "需要多步骤复杂任务处理、避免单一厂商依赖、代码审查/安全评估/研究自动化的企业和开发者"
+    ],
+    "avoid": [
+      "预算敏感场景（输出 $30/1M tokens）、EU/EEA 地区用户（GDPR 合规中）、需要精确知道底层模型的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 7,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://sakana.ai/fugu/",
+      "https://sakana.ai/fugu-release/",
+      "https://console.sakana.ai/models",
+      "https://console.sakana.ai/pricing",
+      "https://arxiv.org/abs/2606.21228",
+      "https://github.com/SakanaAI/fugu",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "seed2-0-mini",
+    "name": "Seed2.0 Mini",
+    "slug": "seed2-0-mini",
+    "vendorId": "bytedance_seed",
+    "vendor": "ByteDance Seed",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Seed2.0 Mini 是字节跳动 Seed 团队于 2026 年 2 月发布的轻量级通用智能体模型，专注于高推理吞吐和部署密度优化",
+    "summary": "Seed2.0 Mini 是 Seed2.0 系列中最小的通用 Agent 模型，优化推理吞吐和部署密度，适用于高并发和批量生成场景。支持文本+图像+视频多模态理解。编程能力突出（SWE-Bench Pro 54.4%，Vibe Coding 57.4%），但在深度推理和 Agent 能力上弱于 Pro。",
+    "releaseDate": "2026-02",
+    "modelId": "seed2-0-mini",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "文本+图像+视频",
+    "reasoning": "标准模式",
+    "price": "官方未披露",
+    "platforms": [
+      "Volcano Engine",
+      "Doubao",
+      "豆包 Doubao",
+      "火山引擎 Volcano Engine"
+    ],
+    "officialLink": "https://seed.bytedance.com/en/seed2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/D7zywUC7pit6QHkR9Afcux6Tn5g",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "高并发 API 服务、批量内容生成、轻量级多模态应用、成本敏感的企业部署",
+      "资源受限场景",
+      "轻量级应用",
+      "快速原型"
+    ],
+    "avoid": [
+      "需要深度研究级推理、复杂 Agent 工作流、视频推理或专业科学任务的场景",
+      "复杂任务",
+      "需要强推理能力的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://seed.bytedance.com/en/seed2",
+      "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/D7zywUC7pit6QHkR9Afcux6Tn5g"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "fugu",
+    "name": "Fugu",
+    "slug": "fugu",
+    "vendorId": "sakana-ai",
+    "vendor": "Sakana AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Sakana AI 多智能体编排模型标准版，动态协调多个顶级 LLM 实现性能与延迟的平衡",
+    "summary": "Fugu 是 Sakana AI 于 2026 年 6 月发布的多智能体编排模型标准版，通过动态协调多个顶级 LLM 在保持低延迟的同时实现强性能，定位为日常工作的默认选择。基于 ICLR 2026 论文 Trinity 和 Conductor 的研究成果。",
+    "releaseDate": "2026-06",
+    "modelId": "fugu",
+    "context": "272K+（定价阈值，官方未披露精确值）",
+    "output": "官方未披露",
+    "modality": "文本",
+    "reasoning": "high（默认）/ xhigh",
+    "price": "按底层模型原价计费（1代理时按底层模型费率，多代理时按最高层级模型费率收一次）",
+    "platforms": [
+      "Sakana AI API (OpenAI 兼容)"
+    ],
+    "officialLink": "https://sakana.ai/fugu/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Fugu 在 SciCode（60.1）、τ Banking（21.7）、Long Context Reasoning（74.7）上超越 Fugu Ultra；默认推理模式为 high；SWE Bench Pro 59.0、LiveCodeBench 92.9、GPQA Diamond 95.5",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "日常编码与代码审查、交互式聊天服务、预算敏感团队、合规要求严格的组织、快速原型开发"
+    ],
+    "avoid": [
+      "需要极致性能的高难度多步骤任务（建议使用 Fugu Ultra）、EU/EEA 地区用户（GDPR 合规中）"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 8,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://sakana.ai/fugu/",
+      "https://sakana.ai/fugu-release/",
+      "https://console.sakana.ai/models",
+      "https://console.sakana.ai/pricing",
+      "https://console.sakana.ai/get-started",
+      "https://arxiv.org/abs/2606.21228",
+      "https://github.com/SakanaAI/fugu",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/VxiuwBWUAiObXEkSI0ucR3nEnKf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-sonnet-5",
+    "name": "Claude Sonnet 5",
+    "slug": "claude-sonnet-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic / Claude",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Anthropic 最新 Sonnet 级智能体模型，性能接近 Opus 4.8 但价格更低",
+    "summary": "Claude Sonnet 5 是 Anthropic 于 2026 年 6 月 30 日发布的 Sonnet 级别模型，在 agentic 编程、工具调用和专业任务方面大幅超越 Sonnet 4.6，性能接近 Opus 4.8。",
+    "releaseDate": "2026-06",
+    "modelId": "claude-sonnet-5",
+    "context": "1M tokens",
+    "output": "128K tokens",
+    "modality": "文本",
+    "reasoning": "Adaptive Thinking（自动推理扩展）",
+    "price": "$2/$10 per MTok (intro through Aug 31 2026), $3/$15 per MTok (standard)",
+    "platforms": [
+      "Anthropic API",
+      "Claude Code",
+      "Claude Platform",
+      "Claude API",
+      "Claude.ai"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-sonnet-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "引言价 $2/$10 至 2026-08-31，之后 $3/$15。Wiki 模型卡已创建。SWE-bench Pro 63.2%、Terminal-Bench 2.1 80.4%、HLE with tools 57.4%、OSWorld-Verified 81.2%。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "软件工程团队、agentic 应用开发者、企业和专业服务、成本敏感团队",
+      "开发者、AI Agent构建团队、企业自动化、预算敏感的前沿用户"
+    ],
+    "avoid": [
+      "追求极致数学推理、网络安全研究、需要最强多模态能力的场景",
+      "需要极致网络安全能力的场景、需要公开技术参数的研究团队"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/news/claude-sonnet-5",
+      "https://www.anthropic.com/claude-sonnet-5-system-card",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Dk4JwyJOniIuI8ksXOIcjhvKnYd",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "test123",
+    "name": "Test Model",
+    "slug": "test123",
+    "vendorId": "test",
+    "vendor": "Test Vendor",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Test Model 的飞书同步模型卡。",
+    "summary": "来自飞书同步模型卡；证据强度由自动 gate 决定。",
+    "releaseDate": "暂无数据",
+    "modelId": "test123",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Test Vendor"
+    ],
+    "officialLink": "https://example.com",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 1,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://example.com"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "inkling",
+    "name": "Inkling",
+    "slug": "inkling",
+    "vendorId": "thinking-machines-lab",
+    "vendor": "Thinking Machines Lab",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Thinking Machines Lab 首个开源权重多模态 MoE 模型，975B 总参/41B 激活",
+    "summary": "Inkling 是 Thinking Machines Lab 于 2026 年 7 月 15 日发布的开源权重多模态模型，采用 975B 总参数/41B 激活参数的 MoE 架构，支持文本、图像和音频输入，1M tokens 上下文，Apache 2.0 许可证。",
+    "releaseDate": "2026-07-15",
+    "modelId": "inkling",
+    "context": "1000000",
+    "output": "official undisclosed",
+    "modality": "text, image, audio",
+    "reasoning": "true",
+    "price": "official undisclosed",
+    "platforms": [
+      "tinker",
+      "huggingface",
+      "sglang",
+      "vllm"
+    ],
+    "officialLink": "https://thinkingmachines.ai/inkling/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Apache 2.0 开源权重；975B MoE；45T tokens 预训练；NVIDIA GB300 NVL72 训练；可控思维努力；Design Arena Agentic Web Dev 得分 1257",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者/微调用户、智能体/工具使用者、企业级私有化部署"
+    ],
+    "avoid": [
+      "资源有限的个人开发者、需要顶级推理/事实性能力的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 6,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://thinkingmachines.ai/inkling/",
+      "https://thinkingmachines.ai/news/introducing-inkling/",
+      "https://thinkingmachines.ai/model-card/inkling/",
+      "https://huggingface.co/thinkingmachines/inkling",
+      "https://tinker.thinkingmachines.ai/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/GijewF683iNhhvkwOUQcaPjFnvd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "kimi-k3",
+    "name": "Kimi K3",
+    "slug": "kimi-k3",
+    "vendorId": "kimi",
+    "vendor": "Kimi / Moonshot AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Kimi K3: 2.8T参数旗舰模型，1M上下文，原生多模态，开源3万亿级",
+    "summary": "Moonshot AI于2026年7月发布的旗舰大语言模型，2.8万亿参数，1M token上下文，原生支持文本+图像+视频理解，始终开启思考模式，面向长程编程与知识工作，全球首个开源3万亿级别模型。",
+    "releaseDate": "2026-07-17",
+    "modelId": "kimi-k3",
+    "context": "1000000",
+    "output": "官方未披露",
+    "modality": "Text + Image + Video",
+    "reasoning": "是 / 推理模型或 thinking 模式",
+    "price": "Input $3.00/1M tokens, Output $15.00/1M tokens (OpenRouter)",
+    "platforms": [
+      "Kimi API",
+      "OpenRouter"
+    ],
+    "officialLink": "https://platform.moonshot.cn",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "KDA混合线性注意力架构; 注意力残差技术; 始终开启思考模式; 全球首个开源3万亿级别模型",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "长程编程",
+      "知识工作",
+      "多模态Agent",
+      "超长文档处理",
+      "推理密集型任务"
+    ],
+    "avoid": [
+      "价格敏感场景",
+      "需要完整benchmark对比的场景",
+      "权重未发布前的本地部署"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 6,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://platform.moonshot.cn/docs/guide/kimi-k3-quickstart",
+      "https://platform.moonshot.cn/docs/guide/kimi-k3-tool-calling-best-practice",
+      "https://platform.moonshot.cn/pricing/chat-k3",
+      "https://openrouter.ai/moonshotai/kimi-k3",
+      "https://kimi.moonshot.cn",
+      "Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
     ],
     "sourceFile": "Feishu Bitable"
   }
