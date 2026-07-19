@@ -122,10 +122,12 @@ def send_feishu(text: str) -> dict[str, Any]:
     if os.environ.get("MODEL_ATLAS_NOTIFY", "1") == "0":
         return {"ok": True, "skipped": "MODEL_ATLAS_NOTIFY=0"}
     chat_id = os.environ.get("MODEL_ATLAS_NOTIFY_CHAT_ID") or DEFAULT_CHAT_ID
+    user_id = os.environ.get("MODEL_ATLAS_NOTIFY_USER_ID", "").strip()
     profile = os.environ.get("FEISHU_NOTIFY_PROFILE") or os.environ.get("FEISHU_LARK_CLI_PROFILE") or "model-card-legacy"
+    recipient = ["--user-id", user_id] if user_id else ["--chat-id", chat_id]
     cmd = [
         "lark-cli", "--profile", profile, "im", "+messages-send", "--as", "bot",
-        "--chat-id", chat_id, "--text", text,
+        *recipient, "--text", text,
         "--idempotency-key", f"model-atlas-closed-loop-{os.environ.get('MODEL_ATLAS_RUN_ID', '')}"[:120],
         "--format", "json",
     ]
