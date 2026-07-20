@@ -7921,5 +7921,64 @@
       "Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4-5",
+    "name": "Grok 4.5",
+    "slug": "grok-4-5",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "xAI 旗舰推理模型，500K 上下文，可配置推理强度，面向编程、智能体和知识工作",
+    "summary": "Grok 4.5 是 xAI 于 2026 年 7 月 8 日发布的旗舰级推理模型，支持 500K 上下文、文本+图像+文件输入，可配置 high/medium/low 三档推理强度。Artificial Analysis Intelligence Index 53.8（第 9/187），Coding Index 72.4，Fullstack Agent Elo 1302。定价 $2/$6 per 1M tokens。",
+    "releaseDate": "2026-07-08",
+    "modelId": "grok-4-5",
+    "context": "500000",
+    "output": "官方未披露",
+    "modality": "text+image+file→text",
+    "reasoning": "mandatory (high/medium/low, default high)",
+    "price": "$2/1M input, $6/1M output (≤200K); $4/$12 (>200K)",
+    "platforms": [
+      "xAI API",
+      "OpenRouter"
+    ],
+    "officialLink": "https://docs.x.ai/developers/grok-4-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "模型卡 Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f; AA Intelligence Index 53.8 rank 9/187; Coding Index 72.4; Agentic Index 45.7; Fullstack Agent Elo 1302 rank 4; Godot Game Dev Elo 1299 rank 2",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "软件工程师（大型代码库分析）、AI 智能体开发者（多步推理）、科研人员（长文档处理）、企业平台（可靠推理）"
+    ],
+    "avoid": [
+      "简单任务（强制推理增加成本和延迟）、EU 用户（暂不可用）、需要极长输出的任务（最大输出未公开）"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://docs.x.ai/developers/grok-4-5",
+      "https://docs.x.ai/developers/release-notes",
+      "https://openrouter.ai/x-ai/grok-4.5",
+      "https://artificialanalysis.ai/models/grok-4-5",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]

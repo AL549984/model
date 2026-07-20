@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-20T03:39:17.952Z",
+  "generatedAt": "2026-07-20T04:09:31.012Z",
   "summary": {
-    "models": 126,
+    "models": 127,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,8 +11,8 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 30,
-    "allModelTargetDeficit": 50
+    "allModelMinDeficit": 33,
+    "allModelTargetDeficit": 55
   },
   "tasks": [
     {
@@ -16621,8 +16621,8 @@
       "modelName": "Seed2.0 Pro",
       "vendorId": "bytedance-seed",
       "vendor": "ByteDance Seed",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -16761,8 +16761,8 @@
       "modelName": "Seed2.0 Lite",
       "vendorId": "bytedance-seed",
       "vendor": "ByteDance Seed",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -16901,8 +16901,8 @@
       "modelName": "Fugu Ultra",
       "vendorId": "sakana-ai",
       "vendor": "Sakana AI",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -17045,8 +17045,8 @@
       "modelName": "Seed2.0 Mini",
       "vendorId": "bytedance-seed",
       "vendor": "ByteDance Seed",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -17185,8 +17185,8 @@
       "modelName": "Fugu",
       "vendorId": "sakana-ai",
       "vendor": "Sakana AI",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -17330,8 +17330,8 @@
       "modelName": "Claude Sonnet 5",
       "vendorId": "anthropic",
       "vendor": "Anthropic / Claude",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -17471,8 +17471,8 @@
       "modelName": "Inkling",
       "vendorId": "thinking-machines-lab",
       "vendor": "Thinking Machines Lab",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -17614,8 +17614,8 @@
       "modelName": "Kimi K3",
       "vendorId": "kimi",
       "vendor": "Kimi / Moonshot AI",
-      "priority": "P3",
-      "status": "archive_review",
+      "priority": "P0",
+      "status": "needs_a_case",
       "publishability": "Hold",
       "aCaseCount": 0,
       "minACases": 3,
@@ -17699,6 +17699,148 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for kimi-k3 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-grok-4-5",
+      "modelId": "grok-4-5",
+      "modelName": "Grok 4.5",
+      "vendorId": "xai",
+      "vendor": "xAI / Grok",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://docs.x.ai/developers/grok-4-5",
+        "https://docs.x.ai/developers/release-notes",
+        "https://openrouter.ai/x-ai/grok-4.5",
+        "https://artificialanalysis.ai/models/grok-4-5",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Grok 4.5 xAI / Grok case study customer",
+        "Grok 4.5 xAI / Grok built with GitHub demo",
+        "Grok 4.5 xAI / Grok production use product blog",
+        "Grok 4.5 xAI / Grok model card docs API pricing context window",
+        "Grok 4.5 xAI / Grok 真实使用 案例 项目 开源",
+        "Grok 4.5 xAI / Grok GitHub README built with",
+        "Grok 4.5 xAI / Grok B站 使用 案例 demo",
+        "Grok 4.5 xAI / Grok 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for grok-4-5 >= 5",
         "requiredFields": [
           "case_id",
           "case_title",
