@@ -7,7 +7,6 @@ import json
 import os
 import subprocess
 import sys
-import time
 import urllib.request
 from pathlib import Path
 from typing import Any
@@ -86,80 +85,28 @@ def github_token() -> str:
     return token_path.read_text(encoding="utf-8").strip() if token_path.exists() else ""
 
 
-def github_json(url: str) -> Any:
+def vercel_status(commit: str) -> dict[str, str]:
+    if not commit:
+        return {"state": "unknown", "description": "no commit", "target_url": ""}
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "Hermes-Model-Atlas"}
     token = github_token()
     if token:
         headers["Authorization"] = "Bearer " + token
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=20) as response:
-        return json.loads(response.read().decode("utf-8"))
-
-
-def vercel_status_once(commit: str) -> dict[str, str]:
-    repo_api = "https://api.github.com/repos/AL549984/model"
-    statuses = github_json(f"{repo_api}/commits/{commit}/statuses")
-    for item in statuses:
-        if "vercel" in str(item.get("context", "")).lower():
-            return {
-                "state": str(item.get("state") or "unknown"),
-                "description": str(item.get("description") or ""),
-                "target_url": str(item.get("target_url") or ""),
-            }
-
-    checks = github_json(f"{repo_api}/commits/{commit}/check-runs")
-    for item in checks.get("check_runs", []):
-        app_name = str((item.get("app") or {}).get("name") or "")
-        check_name = str(item.get("name") or "")
-        if "vercel" not in f"{app_name} {check_name}".lower():
-            continue
-        conclusion = str(item.get("conclusion") or "")
-        state = conclusion if item.get("status") == "completed" else "pending"
-        return {
-            "state": state or "unknown",
-            "description": f"{app_name}: {check_name}",
-            "target_url": str(item.get("details_url") or ""),
-        }
-
-    deployments = github_json(f"{repo_api}/deployments?sha={commit}&per_page=20")
-    for deployment in deployments:
-        statuses_url = str(deployment.get("statuses_url") or "")
-        if not statuses_url:
-            continue
-        deployment_statuses = github_json(statuses_url)
-        if not deployment_statuses:
-            continue
-        latest = deployment_statuses[0]
-        return {
-            "state": str(latest.get("state") or "unknown"),
-            "description": str(latest.get("description") or "Vercel deployment"),
-            "target_url": str(latest.get("environment_url") or latest.get("target_url") or ""),
-        }
-
-    return {"state": "missing", "description": "Vercel status is not available yet", "target_url": ""}
-
-
-def vercel_status(commit: str) -> dict[str, str]:
-    if not commit:
-        return {"state": "unknown", "description": "no commit", "target_url": ""}
-    wait_seconds = max(0, int(os.environ.get("MODEL_ATLAS_VERCEL_WAIT_SECONDS", "180")))
-    poll_seconds = max(1, int(os.environ.get("MODEL_ATLAS_VERCEL_POLL_SECONDS", "10")))
-    deadline = time.monotonic() + wait_seconds
-    last = {"state": "missing", "description": "Vercel status is not available yet", "target_url": ""}
-    while True:
-        try:
-            last = vercel_status_once(commit)
-        except Exception as exc:
-            last = {
-                "state": "unknown",
-                "description": f"{type(exc).__name__}: {exc}",
-                "target_url": "",
-            }
-        if last["state"] not in {"missing", "unknown", "pending", "queued", "in_progress"}:
-            return last
-        if time.monotonic() >= deadline:
-            return last
-        time.sleep(min(poll_seconds, max(0, deadline - time.monotonic())))
+    url = f"https://api.github.com/repos/AL549984/model/commits/{commit}/statuses"
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=20) as response:
+            statuses = json.loads(response.read().decode("utf-8"))
+        for item in statuses:
+            if str(item.get("context", "")).lower() == "vercel":
+                return {
+                    "state": str(item.get("state") or "unknown"),
+                    "description": str(item.get("description") or ""),
+                    "target_url": str(item.get("target_url") or ""),
+                }
+        return {"state": "missing", "description": "no Vercel commit status", "target_url": ""}
+    except Exception as exc:
+        return {"state": "unknown", "description": f"{type(exc).__name__}: {exc}", "target_url": ""}
 
 
 def fmt_models(items: list[dict[str, Any]], limit: int = 12) -> str:
@@ -184,12 +131,7 @@ def send_feishu(text: str) -> dict[str, Any]:
         "--idempotency-key", f"model-atlas-closed-loop-{os.environ.get('MODEL_ATLAS_RUN_ID', '')}"[:120],
         "--format", "json",
     ]
-    env = os.environ.copy()
-    env["LARK_CLI_HOME"] = os.environ.get(
-        "MODEL_ATLAS_LARK_CLI_HOME",
-        str(Path.home() / ".lark-cli"),
-    )
-    result = subprocess.run(cmd, text=True, capture_output=True, check=False, env=env)
+    result = subprocess.run(cmd, text=True, capture_output=True, check=False)
     if result.returncode != 0:
         return {"ok": False, "error": result.stderr.strip() or result.stdout.strip()}
     try:
@@ -255,7 +197,7 @@ def main() -> int:
     if args.cmd == "notify":
         payload = notify(Path(args.before), Path(args.after), args.commit, args.push_result, args.log_path)
         print(json.dumps(payload, ensure_ascii=False, indent=2))
-        return 0 if payload.get("ok") else 1
+        return 0
     return 2
 
 
