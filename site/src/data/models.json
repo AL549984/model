@@ -7980,5 +7980,63 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "fugu-cyber",
+    "name": "Fugu-Cyber",
+    "slug": "fugu-cyber",
+    "vendorId": "sakana-ai",
+    "vendor": "Sakana AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Sakana AI 面向网络安全的多智能体编排模型",
+    "summary": "Fugu-Cyber 是 Sakana AI 于 2026 年 7 月 21 日发布的面向网络安全的多智能体编排模型，在 CyberGym（86.9%）和 CTI-REALM（72.1%）基准测试中达到前沿水平，与 GPT-5.5-Cyber 和 Mythos-Preview 等网络安全专用模型表现相当。",
+    "releaseDate": "2026-07-21",
+    "modelId": "fugu-cyber",
+    "context": ">272K",
+    "output": "官方未披露",
+    "modality": "text",
+    "reasoning": "true",
+    "price": "Input $6/1M, Output $36/1M (standard); Input $12/1M, Output $54/1M (>272K)",
+    "platforms": [
+      "sakana-api"
+    ],
+    "officialLink": "https://sakana.ai/fugu-cyber-release/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "多智能体编排系统，专为网络安全优化。CyberGym 86.9%, CTI-REALM 72.1%。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "企业安全团队、安全服务商、安全研究员"
+    ],
+    "avoid": [
+      "寻找即开即用通用AI的个人用户；需要攻击性安全工具的用户"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://sakana.ai/fugu-cyber-release/",
+      "https://sakana.ai/fugu/",
+      "https://console.sakana.ai/pricing",
+      "https://console.sakana.ai/get-started",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/FOrbwopuNi3AchkvUDVcRpWynLf"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
