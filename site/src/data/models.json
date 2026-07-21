@@ -7991,7 +7991,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Sakana AI 面向网络安全的多智能体编排模型",
-    "summary": "Fugu-Cyber 是 Sakana AI 于 2026 年 7 月 21 日发布的面向网络安全的多智能体编排模型，在 CyberGym（86.9%）和 CTI-REALM（72.1%）基准测试中达到前沿水平，与 GPT-5.5-Cyber 和 Mythos-Preview 等网络安全专用模型表现相当。",
+    "summary": "Fugu-Cyber 是 Sakana AI 于 2026 年 7 月 21 日发布的面向网络安全的多智能体编排模型，在 CyberGym（86.9%）和 CTI-REALM（72.1%）基准测试中达到前沿水平。",
     "releaseDate": "2026-07-21",
     "modelId": "fugu-cyber",
     "context": ">272K",
@@ -8008,7 +8008,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "多智能体编排系统，专为网络安全优化。CyberGym 86.9%, CTI-REALM 72.1%。",
+    "notes": "多智能体编排系统，专为网络安全优化。Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/FOrbwopuNi3AchkvUDVcRpWynLf",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
