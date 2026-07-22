@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Model Atlas Evidence Archive Manifest",
-  "datasetCut": "2026-07-21",
+  "datasetCut": "2026-07-22",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
     "aCaseCount": 680,

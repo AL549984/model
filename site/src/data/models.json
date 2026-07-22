@@ -8038,5 +8038,66 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/FOrbwopuNi3AchkvUDVcRpWynLf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-35-flash-lite",
+    "name": "Gemini 3.5 Flash-Lite",
+    "slug": "gemini-35-flash-lite",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google Gemini 3 系列中最经济高效的产品级模型，专为高吞吐量翻译/分类/智能体场景优化",
+    "summary": "Gemini 3.5 Flash-Lite 是 Google DeepMind 于 2026 年 7 月发布的 Gemini 3 系列 GA 模型，基于 Gemini 3.1 Flash-Lite，1M 上下文 64K 输出，输入 $0.30/1M tokens 输出 $2.50/1M tokens，支持文本/图像/视频/音频/PDF 多模态输入，定位高吞吐量低成本智能体任务。",
+    "releaseDate": "2026-07",
+    "modelId": "gemini-35-flash-lite",
+    "context": "1048576",
+    "output": "65536",
+    "modality": "text+image+video+audio+pdf",
+    "reasoning": "true",
+    "price": "input $0.30/1M tokens, output $2.50/1M tokens",
+    "platforms": [
+      "Gemini API",
+      "Google AI Studio",
+      "Gemini App",
+      "Gemini Enterprise Agent Platform"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "基于 Gemini 3.1 Flash-Lite；知识截止 2026-03；支持 Thinking 模式、Batch API、Flex/Priority inference",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "高吞吐量翻译/分类/数据处理/智能体工作流",
+      "成本敏感场景"
+    ],
+    "avoid": [
+      "需要图像生成、音频生成、Live API、Computer use 的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "https://deepmind.google/models/model-cards/gemini-3-5-flash-lite/",
+      "https://ai.google.dev/gemini-api/docs/pricing",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/XjMqww9S0iFjY1kEwsJcrEPFnzh"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
