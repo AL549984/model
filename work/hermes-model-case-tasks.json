@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-23T03:05:50.125Z",
+  "generatedAt": "2026-07-23T04:21:46.574Z",
   "summary": {
-    "models": 129,
+    "models": 130,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,8 +11,8 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 39,
-    "allModelTargetDeficit": 65
+    "allModelMinDeficit": 42,
+    "allModelTargetDeficit": 70
   },
   "tasks": [
     {
@@ -18124,6 +18124,147 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for gemini-35-flash-lite >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-claude-haiku-4-5",
+      "modelId": "claude-haiku-4-5",
+      "modelName": "Claude Haiku 4.5",
+      "vendorId": "anthropic",
+      "vendor": "Anthropic",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://www.anthropic.com/news/claude-haiku-4-5",
+        "https://www.anthropic.com/claude/haiku",
+        "https://docs.anthropic.com/en/api/messages",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/PoiEwYxzdi1wc6kPl3Hc9BbAn0e"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Claude Haiku 4.5 Anthropic case study customer",
+        "Claude Haiku 4.5 Anthropic built with GitHub demo",
+        "Claude Haiku 4.5 Anthropic production use product blog",
+        "Claude Haiku 4.5 Anthropic model card docs API pricing context window",
+        "Claude Haiku 4.5 Anthropic 真实使用 案例 项目 开源",
+        "Claude Haiku 4.5 Anthropic GitHub README built with",
+        "Claude Haiku 4.5 Anthropic B站 使用 案例 demo",
+        "Claude Haiku 4.5 Anthropic 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for claude-haiku-4-5 >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

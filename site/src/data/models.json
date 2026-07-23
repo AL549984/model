@@ -8099,5 +8099,66 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/XjMqww9S0iFjY1kEwsJcrEPFnzh"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-haiku-4-5",
+    "name": "Claude Haiku 4.5",
+    "slug": "claude-haiku-4-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Anthropic 最快、最具成本效益的小型模型，匹配 Sonnet 4 的编码性能",
+    "summary": "Claude Haiku 4.5 是 Anthropic 于 2025 年 10 月 15 日发布的最快、最具成本效益的小型模型，在编码、计算机使用和代理任务上匹配 Sonnet 4 的性能，同时成本仅为三分之一、速度超过两倍。SWE-bench Verified 73.3%，输入 $1/M tokens，输出 $5/M tokens。",
+    "releaseDate": "2025-10-15",
+    "modelId": "claude-haiku-4-5",
+    "context": "官方未披露",
+    "output": "官方未披露",
+    "modality": "text",
+    "reasoning": "false",
+    "price": "$1/$5 per M tokens (input/output)",
+    "platforms": [
+      "Claude Platform",
+      "Amazon Bedrock",
+      "Google Cloud Vertex AI",
+      "Microsoft Foundry",
+      "Claude Code"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-haiku-4-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "SWE-bench Verified 73.3%，比 Sonnet 4.5 快 4-5 倍。Anthropic 报告其为 '最安全的模型'。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者、企业、初创公司、多代理系统、免费层产品"
+    ],
+    "avoid": [
+      "需要多模态输入、需要本地部署、需要自定义训练的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/news/claude-haiku-4-5",
+      "https://www.anthropic.com/claude/haiku",
+      "https://docs.anthropic.com/en/api/messages",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/PoiEwYxzdi1wc6kPl3Hc9BbAn0e"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
