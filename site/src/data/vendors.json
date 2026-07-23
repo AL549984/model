@@ -94,7 +94,7 @@
       "模型命名和迁移节奏变化快",
       "公开 A 类案例未冻结"
     ],
-    "modelCount": 12,
+    "modelCount": 14,
     "sourceFile": "../../outputs/vendors/google.md"
   },
   {
@@ -257,7 +257,7 @@
       "hosted provider 价格不能混入 Meta 原生页",
       "A 类案例未冻结"
     ],
-    "modelCount": 5,
+    "modelCount": 6,
     "sourceFile": "../../outputs/vendors/meta.md"
   },
   {

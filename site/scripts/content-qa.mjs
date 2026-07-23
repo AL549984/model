@@ -52,7 +52,7 @@ const activeModelsMeetingTarget = activeModels.filter((model) => (aCasesByModel.
 const activeModelsBelowTarget = activeModels.filter((model) => (aCasesByModel.get(model.id) || 0) < targetCasesPerModel);
 
 const expected = {
-  vendors: new Set(models.map((model) => model.vendor)).size,
+  vendors: new Set(models.map((model) => model.vendorId)).size,
   totalModels: models.length,
   activeModels: activeModels.length,
   archiveModels: models.filter((model) => model.publishability === "Archive").length,

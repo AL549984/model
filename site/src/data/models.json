@@ -8160,5 +8160,188 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/PoiEwYxzdi1wc6kPl3Hc9BbAn0e"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-6-flash",
+    "name": "Gemini 3.6 Flash",
+    "slug": "gemini-3-6-flash",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 面向生产级智能体负载的高性能 Flash 模型。",
+    "summary": "Gemini 3.6 Flash 提供 1M 上下文、64K 输出、多模态输入、工具调用与计算机操作预览。",
+    "releaseDate": "2026-07-21",
+    "modelId": "gemini-3-6-flash",
+    "context": "1,048,576 tokens",
+    "output": "65,536 tokens",
+    "modality": "文本、图像、视频、音频、PDF输入；文本输出",
+    "reasoning": "支持 Thinking",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Gemini API",
+      "Google AI Studio"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hermes 已创建飞书 Wiki 模型卡；A 类案例不足，暂为 Hold。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "生产级智能体",
+      "多模态长上下文",
+      "代码与工具调用"
+    ],
+    "avoid": [
+      "依赖稳定计算机操作的高风险流程",
+      "要求开源权重的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/DtrxwFc6ViMSeakI8aicy5CInQf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-5-flash-cyber",
+    "name": "Gemini 3.5 Flash Cyber",
+    "slug": "gemini-3-5-flash-cyber",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "基于 Gemini 3.5 Flash 的网络安全专项模型。",
+    "summary": "Gemini 3.5 Flash Cyber 用于高频发现、验证和修复软件漏洞，目前通过 CodeMender 受限试点部署。",
+    "releaseDate": "2026-07-21",
+    "modelId": "gemini-3-5-flash-cyber",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "软件代码与安全分析输入；漏洞报告和修复输出",
+    "reasoning": "网络安全专项推理",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "CodeMender 有限访问试点"
+    ],
+    "officialLink": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hermes 已创建飞书 Wiki 模型卡；公开可用性和 A 类案例不足，暂为 Hold。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "漏洞发现与验证",
+      "代码安全扫描",
+      "防守型安全研究"
+    ],
+    "avoid": [
+      "普通开发者通用任务",
+      "无安全隔离的自动执行"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "https://deepmind.google/models/gemini/cyber/",
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/RF0ZwUgchiyUUbkqqemc2Laqnde"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "muse-spark-1-1",
+    "name": "Muse Spark 1.1",
+    "slug": "muse-spark-1-1",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Meta 面向长流程工具与计算机操作的多模态智能体模型。",
+    "summary": "Muse Spark 1.1 提供 1M 上下文、工具调用、计算机操作、代码与并行子智能体能力。",
+    "releaseDate": "2026-07-09",
+    "modelId": "muse-spark-1-1",
+    "context": "1,000,000 tokens",
+    "output": "官方未披露 / 待核验",
+    "modality": "多模态输入与文本输出",
+    "reasoning": "Thinking、工具调用、计算机操作、多智能体编排",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Meta AI",
+      "meta.ai",
+      "Meta Model API"
+    ],
+    "officialLink": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+    "score": 51,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hermes 已创建飞书 Wiki 模型卡；AA 51 为第三方榜单快照，A 类案例不足，暂为 Hold。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "长流程智能体",
+      "计算机操作",
+      "代码与多模态工作流"
+    ],
+    "avoid": [
+      "缺少工具隔离的高风险自动化",
+      "要求开源权重的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "https://ai.meta.com/llama",
+      "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report",
+      "https://artificialanalysis.ai/articles/muse-spark-1-1-everything-you-need-to-know",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QlA0weupNiUNo2kfuJbchGKonqf"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
