@@ -8402,5 +8402,65 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/Lti0w1sCoiVlSak42KOcMqPFnsc"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-opus-5",
+    "name": "Claude Opus 5",
+    "slug": "claude-opus-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Anthropic Opus 系列最新旗舰模型，在 coding 和知识工作评测中达到新 SOTA，以 Opus 4.8 的价格提供接近 Fable 5 的智能水平",
+    "summary": "Claude Opus 5 是 Anthropic 于 2026 年 7 月 24 日发布的 Opus 系列最新旗舰模型，在 coding 和知识工作评测中达到新 SOTA，以 Opus 4.8 的价格提供接近 Fable 5 的智能水平。Frontier-Bench v0.1 超越所有模型，CursorBench 3.2 接近 Fable 5 但成本减半，ARC-AGI 3 得分是次优模型的 3 倍。",
+    "releaseDate": "2026-07-24",
+    "modelId": "claude-opus-5",
+    "context": "official undisclosed",
+    "output": "official undisclosed",
+    "modality": "text,image->text",
+    "reasoning": "true",
+    "price": "$5/MTok input, $25/MTok output; Fast mode: $10/MTok input, $50/MTok output",
+    "platforms": [
+      "Anthropic API",
+      "Claude Pro",
+      "Claude Max"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-opus-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡已创建：https://ycn3zdw6f1p7.feishu.cn/wiki/NsQxwi6egi1jCqknLf9cn4k1nxf。放置于 Claude 目录（NvDxwn7Xui9XzOkcR0FcB4lqnzc）。官方发布页包含 benchmark 对比图但为交互式图表，暂未插入静态图片。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "复杂代码库迁移、长期 autonomous coding、企业知识工作、AI Agent 开发、生命科学研究"
+    ],
+    "avoid": [
+      "低成本快速响应的客服、分类、摘要等场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-5",
+      "https://www.anthropic.com/claude/opus",
+      "https://www.anthropic.com/claude-opus-5-system-card",
+      "https://docs.anthropic.com/en/docs/about-claude/models",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NsQxwi6egi1jCqknLf9cn4k1nxf"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
