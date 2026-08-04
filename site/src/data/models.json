@@ -8462,5 +8462,71 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/NsQxwi6egi1jCqknLf9cn4k1nxf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "solar-open-2",
+    "name": "Solar Open 2",
+    "slug": "solar-open-2",
+    "vendorId": "upstage",
+    "vendor": "Upstage",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "250B-A15B、1M 上下文的开放权重智能体 MoE 模型。",
+    "summary": "Solar Open 2 采用混合线性/Softmax 注意力与 321 专家 MoE，每 token 激活 15B 参数，面向工具调用、多步推理、代码和文档密集型任务。",
+    "releaseDate": "2026-07-22",
+    "modelId": "solar-open-2",
+    "context": "1048576 tokens（1M）",
+    "output": "官方推荐配置最高 256K tokens（含 reasoning 与最终答案）",
+    "modality": "文本",
+    "reasoning": "支持 reasoning_effort=none/high；高推理模式 reasoning block 建议上限 131072 tokens",
+    "price": "开放权重自部署；官方未提供 Solar Open 2 托管 API 单独价格",
+    "platforms": [
+      "Hugging Face",
+      "vLLM",
+      "Transformers",
+      "OpenAI-compatible API",
+      "Anthropic-compatible API"
+    ],
+    "officialLink": "https://www.upstage.ai/blog/en/solar-open-2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KAggw9f64i4REJkOnGEc2iOinod；当前缺少足量 A 类真实案例，保持 Hold。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "有 H200/B200 集群的长上下文与文档智能体团队",
+      "需要自托管函数调用、代码与韩英日能力的开发者",
+      "研究混合注意力、NoPE 与 MoE 的团队"
+    ],
+    "avoid": [
+      "单卡或低显存部署",
+      "需要原生图像、音频或视频输入",
+      "无法接受自定义许可证衍生模型义务"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.upstage.ai/blog/en/solar-open-2",
+      "https://huggingface.co/upstage/Solar-Open2-250B",
+      "https://arxiv.org/abs/2607.20062",
+      "https://huggingface.co/upstage/Solar-Open2-250B/blob/main/LICENSE",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/KAggw9f64i4REJkOnGEc2iOinod"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
