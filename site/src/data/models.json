@@ -8528,5 +8528,66 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/KAggw9f64i4REJkOnGEc2iOinod"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "mimo-v2-5-dflash",
+    "name": "MiMo-V2.5-DFlash",
+    "slug": "mimo-v2-5-dflash",
+    "vendorId": "xiaomi",
+    "vendor": "Xiaomi",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "小米公开的 MiMo-V2.5 多模态 MoE 权重包，附带 DFlash 草稿模型与音频分词器。",
+    "summary": "官方 Hugging Face 仓库于 2026-07-03 建立，配置包含约 310.8B 存储参数、256 个路由专家、每 token 激活 8 个专家、1,048,576 token 主模型位置长度与 FP8 权重；官方尚未提供技术报告或 benchmark。",
+    "releaseDate": "2026-07-03",
+    "modelId": "mimo-v2-5-dflash",
+    "context": "主模型配置 1,048,576 tokens；DFlash 草稿模型配置 262,144 tokens",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、图像、视频、音频输入路径（完整能力边界待核验）；文本输出",
+    "reasoning": "聊天模板提供 enable_thinking 开关，默认 true；实际推理能力待官方 benchmark 核验",
+    "price": "官方未披露 / 待核验；公开权重主要面向自托管",
+    "platforms": [
+      "Hugging Face",
+      "自托管"
+    ],
+    "officialLink": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-DFlash",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WtEjw2UQdihHTBkY4Amc8V3JnX7。AA 暂无该 DFlash 变体的独立可访问页面；因缺少真实 A 级案例与官方性能评测，保持 Hold。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "具备多卡、FP8 与自定义模型适配能力的部署团队",
+      "研究 MoE、DFlash 推测解码、长上下文和多模态接入的团队"
+    ],
+    "avoid": [
+      "需要文档完备、开箱即用商业 API 的团队",
+      "无法承担约 318.6 GB 仓库存储与大规模显存需求的团队"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-DFlash",
+      "https://huggingface.co/api/models/XiaomiMiMo/MiMo-V2.5-DFlash",
+      "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-DFlash/blob/main/config.json",
+      "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-DFlash/blob/main/dflash/config.json",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/WtEjw2UQdihHTBkY4Amc8V3JnX7"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
