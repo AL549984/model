@@ -8589,5 +8589,70 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/WtEjw2UQdihHTBkY4Amc8V3JnX7"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "chatgpt-work",
+    "name": "ChatGPT Work",
+    "slug": "chatgpt-work",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "把跨应用检索、Codex、工具调用和成品生成整合到 ChatGPT 的通用工作智能体。",
+    "summary": "ChatGPT Work 面向复杂知识工作，可跨应用收集信息、拆解长任务并生成表格、幻灯片、文档和网页应用；官方未披露独立基础模型、上下文和标准化 benchmark。",
+    "releaseDate": "2026-07-09",
+    "modelId": "chatgpt-work",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露上限；产品示例包括表格、幻灯片、文档和网页应用",
+    "modality": "文本；文件；表格；幻灯片；文档；网页应用；第三方应用数据",
+    "reasoning": "支持多步骤任务规划、工具调用与长任务执行；具体推理预算官方未披露",
+    "price": "无独立 token 定价；Business 20 美元/用户/月（年付）或 25 美元/用户/月（月付）；Enterprise 定制",
+    "platforms": [
+      "ChatGPT Web",
+      "ChatGPT Mobile",
+      "Windows",
+      "macOS"
+    ],
+    "officialLink": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Sw0Hw24r2iMDgskyd0Xc2WJtnHf；新产品先保持 Hold，等待闭环案例检索确认足够 A 级真实案例。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "跨应用研究与信息整合",
+      "表格、幻灯片、文档和网页应用交付",
+      "销售、运营、财务、数据和项目管理流程"
+    ],
+    "avoid": [
+      "需要稳定 API 模型 ID 的生产调用",
+      "无人工确认的高风险外部操作",
+      "要求完全透明的基础模型和 token 成本核算"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Sw0Hw24r2iMDgskyd0Xc2WJtnHf",
+      "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "https://openai.com/business/chatgpt-pricing/"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
