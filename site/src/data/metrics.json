@@ -12,7 +12,7 @@
   "modelsWithoutCases": 22,
   "modelsWithSupplementalSources": 119,
   "modelsAAOnly": 0,
-  "datasetCut": "2026-08-06",
+  "datasetCut": "2026-08-07",
   "methodology": "Model Atlas 2.0 证据策略",
   "visualDirection": "Signal Observatory x Living Archive",
   "sourceNote": "Feishu Bitable sync + official patch preservation + automatic evidence gate; missing fields remain explicit.",
