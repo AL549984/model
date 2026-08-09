@@ -175,7 +175,7 @@ try {
 
   for (const route of routes) {
     const page = await browser.newPage({ viewport: route.viewport });
-    await page.goto(`${baseUrl}${route.path}`, { waitUntil: "load" });
+    await page.goto(`${baseUrl}${route.path}`, { waitUntil: "domcontentloaded" });
     if (route.scrollSelector) {
       await page.locator(route.scrollSelector).scrollIntoViewIfNeeded();
     }
