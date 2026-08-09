@@ -14,6 +14,7 @@ const evidenceArchive = JSON.parse(readFileSync(path.join(siteRoot, "src/data/ev
 const evidenceArchiveHistory = JSON.parse(readFileSync(path.join(siteRoot, "src/data/evidence-archive-history.json"), "utf8"));
 const expectedSnapshottedCases = Number(evidenceArchive?.summary?.snapshottedCases ?? 0);
 const expectedPendingSnapshotCases = Number(evidenceArchive?.summary?.pendingSnapshotCases ?? 0);
+const expectedSnapshotAttentionCases = Number(evidenceArchive?.summary?.snapshotAttentionCases ?? 0);
 const expectedACases = Number(evidenceArchive?.summary?.aCaseCount ?? 0);
 const expectedHistorySnapshots = Number(evidenceArchiveHistory?.snapshots?.length ?? 0);
 const expectedHistoryProgress = (evidenceArchiveHistory?.snapshots ?? [])
@@ -146,7 +147,7 @@ try {
     checkEndpoint("evidence-archive-json", "/evidence-archive.json", (text) => {
       const payload = JSON.parse(text);
       return {
-        passed: payload?.schemaVersion === 1 && Number(payload?.summary?.aCaseCount ?? 0) >= 680 && Number(payload?.summary?.manifestedCases ?? 0) === Number(payload?.summary?.aCaseCount ?? -1) && Number(payload?.summary?.missingOriginalEvidence ?? -1) === 0 && Number(payload?.summary?.missingArtifact ?? -1) === 0 && Number(payload?.summary?.targets ?? 0) > Number(payload?.summary?.aCaseCount ?? 0) && Number(payload?.summary?.snapshottedCases ?? 0) === expectedSnapshottedCases && Number(payload?.summary?.pendingSnapshotCases ?? -1) === expectedPendingSnapshotCases && Number(payload?.summary?.snapshotAttentionCases ?? -1) === 0 && Number(payload?.summary?.snapshotIssueTypes ?? 0) >= 1 && Number(payload?.snapshotIssues?.[0]?.cases ?? 0) === expectedPendingSnapshotCases,
+        passed: payload?.schemaVersion === 1 && Number(payload?.summary?.aCaseCount ?? 0) >= 680 && Number(payload?.summary?.manifestedCases ?? 0) === Number(payload?.summary?.aCaseCount ?? -1) && Number(payload?.summary?.missingOriginalEvidence ?? -1) === 0 && Number(payload?.summary?.missingArtifact ?? -1) === 0 && Number(payload?.summary?.targets ?? 0) > Number(payload?.summary?.aCaseCount ?? 0) && Number(payload?.summary?.snapshottedCases ?? 0) === expectedSnapshottedCases && Number(payload?.summary?.pendingSnapshotCases ?? -1) === expectedPendingSnapshotCases && Number(payload?.summary?.snapshotAttentionCases ?? -1) === expectedSnapshotAttentionCases && Number(payload?.summary?.snapshotIssueTypes ?? -1) === Number(payload?.snapshotIssues?.length ?? -2) && Number(payload?.snapshotIssues?.[0]?.cases ?? 0) === expectedPendingSnapshotCases,
         detail: `${payload?.summary?.manifestedCases ?? 0} cases / ${payload?.summary?.targets ?? 0} targets / ${payload?.summary?.snapshottedCases ?? 0} snapshotted / ${payload?.summary?.snapshotIssueTypes ?? 0} issue types`
       };
     }),
