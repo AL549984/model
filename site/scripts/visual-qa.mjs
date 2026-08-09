@@ -172,8 +172,10 @@ try {
   ]);
   const browser = await chromium.launch();
   const results = [];
+  const routeConcurrency = Math.min(6, Math.max(1, Number(process.env.MODEL_ATLAS_QA_CONCURRENCY ?? 3) || 3));
 
-  for (const route of routes) {
+  for (let index = 0; index < routes.length; index += routeConcurrency) {
+    const batchResults = await Promise.all(routes.slice(index, index + routeConcurrency).map(async (route) => {
     const page = await browser.newPage({ viewport: route.viewport });
     await page.goto(`${baseUrl}${route.path}`, { waitUntil: "domcontentloaded" });
     if (route.scrollSelector) {
@@ -292,7 +294,11 @@ try {
 
       const forbiddenPaletteSamples = Array.from(document.querySelectorAll("body *")).flatMap((el) => {
         const rect = el.getBoundingClientRect();
-        if (rect.width <= 0 || rect.height <= 0) return [];
+        const outsideViewport = rect.bottom <= 0
+          || rect.top >= window.innerHeight
+          || rect.right <= 0
+          || rect.left >= window.innerWidth;
+        if (rect.width <= 0 || rect.height <= 0 || outsideViewport) return [];
         const style = window.getComputedStyle(el);
         const properties = ["color", "backgroundColor", "borderTopColor", "borderRightColor", "borderBottomColor", "borderLeftColor"];
         return properties
@@ -476,7 +482,9 @@ try {
       && (route.name !== "case-detail-snapshotted" || checks.caseDetailArchive.includes("已快照"))
       && (!route.name.startsWith("model-detail-") || route.action || (checks.modelSnapshotHealth.includes("证据快照覆盖") && checks.modelSnapshotHealth.includes("待快照")))
       && (!route.name.startsWith("model-detail-") || route.action || (checks.modelRepresentativeCases.includes("代表案例排序") && checks.modelRepresentativeCases.includes("证据可信度")));
-    results.push({ ...route, screenshotPath, passed, checks });
+      return { ...route, screenshotPath, passed, checks };
+    }));
+    results.push(...batchResults);
   }
 
   await browser.close();
