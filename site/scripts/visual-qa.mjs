@@ -10,6 +10,7 @@ const siteRoot = path.resolve(__dirname, "..");
 const outputDir = path.join(siteRoot, "visual-qa");
 const port = Number(process.env.MODEL_ATLAS_QA_PORT ?? 4339);
 const baseUrl = process.env.MODEL_ATLAS_QA_URL ?? `http://127.0.0.1:${port}`;
+const previewBuild = process.argv.includes("--preview");
 const evidenceArchive = JSON.parse(readFileSync(path.join(siteRoot, "src/data/evidence-archive.json"), "utf8"));
 const evidenceArchiveHistory = JSON.parse(readFileSync(path.join(siteRoot, "src/data/evidence-archive-history.json"), "utf8"));
 const expectedSnapshottedCases = Number(evidenceArchive?.summary?.snapshottedCases ?? 0);
@@ -76,7 +77,8 @@ const routes = [
 
 function startServer() {
   if (process.env.MODEL_ATLAS_QA_URL) return null;
-  const child = spawn("npm", ["run", "dev", "--", "--host", "127.0.0.1", "--port", String(port)], {
+  const serverScript = previewBuild ? "preview" : "dev";
+  const child = spawn("npm", ["run", serverScript, "--", "--host", "127.0.0.1", "--port", String(port)], {
     cwd: siteRoot,
     stdio: ["ignore", "pipe", "pipe"],
     env: { ...process.env, FORCE_COLOR: "0" }

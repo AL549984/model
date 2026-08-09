@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "preview": "astro preview",
     "evidence:backfill": "node ../work/generate_evidence_backfill.mjs",
     "sync:feishu": "node scripts/sync-feishu.mjs",
     "sync:feishu:dry-run": "node scripts/sync-feishu.mjs --dry-run",
@@ -21,7 +22,7 @@
     "build": "npm run check && astro build",
     "check": "astro check && node scripts/content-qa.mjs && npm run qa:evidence",
     "qa:content": "node scripts/content-qa.mjs",
-    "qa:ci": "npm run build && npm run qa:visual",
+    "qa:ci": "npm run build && npm run qa:visual -- --preview",
     "check:links": "node scripts/check-links.mjs",
     "qa:visual": "node scripts/visual-qa.mjs"
   },
