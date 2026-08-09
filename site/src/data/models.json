@@ -8783,5 +8783,73 @@
       "https://docs.z.ai/api-reference/llm/chat-completion"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "glm-5-turbo",
+    "name": "GLM-5-Turbo",
+    "slug": "glm-5-turbo",
+    "vendorId": "z-ai",
+    "vendor": "Z AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向 OpenClaw 长链智能体任务专项优化的 200K 上下文模型。",
+    "summary": "GLM-5-Turbo 强化工具调用、复杂指令拆解、定时与持久任务，支持 200K 上下文、128K 最大输出、Function Calling 与 MCP。官方未披露参数规模和底层架构。",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "glm-5-turbo",
+    "context": "200K tokens",
+    "output": "128K tokens",
+    "modality": "文本输入；文本输出",
+    "reasoning": "支持 thinking enabled / disabled，官方文档称默认启用",
+    "price": "输入 $1.20/1M tokens；缓存输入 $0.24/1M tokens；输出 $4.00/1M tokens；缓存存储限时免费",
+    "platforms": [
+      "Z.AI API",
+      "OpenClaw",
+      "OpenAI-compatible Chat Completions"
+    ],
+    "officialLink": "https://docs.z.ai/guides/llm/glm-5-turbo",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YrwVweIyZitHsrk7iz4coUM6nlh；官方 benchmark 图已插入并从飞书回读为 1302×908。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "OpenClaw 智能体",
+      "长链工具调用",
+      "定时与持续任务",
+      "MCP 与函数调用",
+      "开发运维和数据分析自动化"
+    ],
+    "avoid": [
+      "要求开放权重或本地部署",
+      "要求完整架构和训练透明度",
+      "需要已披露多模态能力",
+      "仅凭官方营销结论做通用模型替换"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://docs.z.ai/guides/llm/glm-5-turbo",
+      "https://docs.z.ai/guides/overview/pricing",
+      "https://docs.z.ai/api-reference/llm/chat-completion",
+      "https://docs.z.ai/llms.txt",
+      "https://artificialanalysis.ai/models/glm-5-turbo",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/YrwVweIyZitHsrk7iz4coUM6nlh"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
