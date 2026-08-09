@@ -8718,5 +8718,70 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/UsQnwDnqPiReWykDZj4cUyKdnKf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "glm-5v-turbo",
+    "name": "GLM-5V-Turbo",
+    "slug": "glm-5v-turbo",
+    "vendorId": "z-ai",
+    "vendor": "Z AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向视觉编码与 GUI Agent 的 200K 多模态基础模型",
+    "summary": "GLM-5V-Turbo 原生支持文本、图像、视频和文件输入，提供 200K 上下文、128K 最大输出及多模态工具调用，重点覆盖视觉到代码、GUI Agent 与长链执行。",
+    "releaseDate": "2026-04-01",
+    "modelId": "glm-5v-turbo",
+    "context": "200K tokens",
+    "output": "128K tokens；文本",
+    "modality": "文本、图像、视频、文件输入；文本输出",
+    "reasoning": "支持多种 Thinking Mode；具体模式策略待核验",
+    "price": "输入 $1.2/1M tokens；缓存输入 $0.24/1M tokens；输出 $4/1M tokens；缓存存储限时免费",
+    "platforms": [
+      "Z AI API",
+      "Claude Code",
+      "OpenClaw"
+    ],
+    "officialLink": "https://docs.z.ai/guides/vlm/glm-5v-turbo",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/UDf5wjCiRi4YzPk1BYScV9yNnlc；当前 Hold，等待真实公开 A 类案例达到发布门槛。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "视觉到代码",
+      "GUI Agent",
+      "多模态检索",
+      "长文档与代码库工作流"
+    ],
+    "avoid": [
+      "要求原生图片、音频或视频输出",
+      "必须立即私有化部署且需要明确开源许可证",
+      "仅凭官方 benchmark 直接采购"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/UDf5wjCiRi4YzPk1BYScV9yNnlc",
+      "https://docs.z.ai/guides/vlm/glm-5v-turbo",
+      "https://docs.z.ai/release-notes/new-released",
+      "https://docs.z.ai/guides/overview/pricing",
+      "https://docs.z.ai/api-reference/llm/chat-completion"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
