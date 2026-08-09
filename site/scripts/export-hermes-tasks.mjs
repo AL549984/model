@@ -16,7 +16,7 @@ const evidenceBackfill = readJson("evidenceBackfill.json");
 const backfillById = new Map(evidenceBackfill.map((item) => [item.modelId, item]));
 const MIN_A_CASES = Number(process.env.MODEL_ATLAS_MIN_A_CASES ?? 3);
 const TARGET_A_CASES = Number(process.env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
-const INCLUDE_HOLD = process.env.MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS === "1";
+const INCLUDE_HOLD = process.env.MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS !== "0";
 
 function sourceTargetsFor(model) {
   const common = [
@@ -155,6 +155,21 @@ const summary = {
   allModelTargetDeficit: rawAllModelTargetDeficit
 };
 
-fs.writeFileSync(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), summary, tasks }, null, 2)}\n`);
-console.log(`Exported ${tasks.length} Hermes crawl task(s) to ${path.relative(repoRoot, outputPath)}.`);
+const previous = fs.existsSync(outputPath)
+  ? JSON.parse(fs.readFileSync(outputPath, "utf8"))
+  : null;
+const contentUnchanged = previous
+  && JSON.stringify(previous.summary) === JSON.stringify(summary)
+  && JSON.stringify(previous.tasks) === JSON.stringify(tasks);
+const generatedAt = contentUnchanged && previous.generatedAt
+  ? previous.generatedAt
+  : new Date().toISOString();
+const serialized = `${JSON.stringify({ generatedAt, summary, tasks }, null, 2)}\n`;
+
+if (fs.existsSync(outputPath) && fs.readFileSync(outputPath, "utf8") === serialized) {
+  console.log(`Hermes crawl tasks unchanged at ${path.relative(repoRoot, outputPath)}.`);
+} else {
+  fs.writeFileSync(outputPath, serialized);
+  console.log(`Exported ${tasks.length} Hermes crawl task(s) to ${path.relative(repoRoot, outputPath)}.`);
+}
 console.log(`Case coverage: publicReady=${summary.publicReady}/${summary.activeModels}, fullCoverageReady=${summary.fullCoverageReady}/${summary.activeModels}, minDeficit=${summary.minDeficit}, targetDeficit=${summary.targetDeficit}.`);

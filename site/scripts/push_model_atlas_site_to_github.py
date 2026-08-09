@@ -125,6 +125,12 @@ def sync_with_remote(repo_dir: Path, branch: str) -> None:
     run_git_with_retry(["git", "rebase", "--autostash", f"origin/{branch}"], cwd=repo_dir, timeout=120)
 
 
+def prepare_generated_site(repo_dir: Path) -> None:
+    site_dir = repo_dir / "site"
+    run(["node", "scripts/update-readme-metrics.mjs"], cwd=site_dir, timeout=120)
+    run(["npm", "run", "evidence:archive"], cwd=site_dir, timeout=300)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-dir", type=Path, default=Path(os.environ.get("MODEL_ATLAS_REPO_DIR", Path.cwd())))
@@ -155,6 +161,7 @@ def main() -> int:
     run(["git", "config", "user.name", "Hermes Model Atlas Sync"], cwd=repo_dir)
     run(["git", "config", "user.email", "hermes-model-atlas@users.noreply.github.com"], cwd=repo_dir)
     sync_with_remote(repo_dir, args.branch)
+    prepare_generated_site(repo_dir)
     run(["git", "add", *existing_paths], cwd=repo_dir)
 
     status = git_status(repo_dir)
@@ -162,6 +169,7 @@ def main() -> int:
         print(json.dumps({"ok": True, "changed": False, "additions": 0}, ensure_ascii=False))
         return 0
 
+    run(["npm", "run", "build"], cwd=repo_dir / "site", timeout=1200)
     run(["git", "commit", "-m", args.message], cwd=repo_dir, timeout=120)
     push_with_remote_retry(repo_dir, args.branch, token)
 
