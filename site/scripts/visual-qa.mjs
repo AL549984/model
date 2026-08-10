@@ -78,7 +78,8 @@ const routes = [
 function startServer() {
   if (process.env.MODEL_ATLAS_QA_URL) return null;
   const serverScript = previewBuild ? "preview" : "dev";
-  const child = spawn("npm", ["run", serverScript, "--", "--host", "127.0.0.1", "--port", String(port)], {
+  const astroCli = path.join(siteRoot, "node_modules", "astro", "astro.js");
+  const child = spawn(process.execPath, [astroCli, serverScript, "--host", "127.0.0.1", "--port", String(port)], {
     cwd: siteRoot,
     stdio: ["ignore", "pipe", "pipe"],
     env: { ...process.env, FORCE_COLOR: "0" }
@@ -86,6 +87,17 @@ function startServer() {
   child.stdout.on("data", (chunk) => process.stdout.write(chunk));
   child.stderr.on("data", (chunk) => process.stderr.write(chunk));
   return child;
+}
+
+async function stopServer(child) {
+  if (!child || child.exitCode !== null || child.signalCode !== null) return;
+
+  const exited = new Promise((resolve) => child.once("exit", resolve));
+  child.kill("SIGTERM");
+  const forceKill = setTimeout(() => child.kill("SIGKILL"), 5000);
+  forceKill.unref();
+  await exited;
+  clearTimeout(forceKill);
 }
 
 async function waitForServer(timeoutMs = 20000) {
@@ -591,5 +603,5 @@ try {
 
   if (failed.length || failedEndpoints.length) process.exitCode = 1;
 } finally {
-  if (server) server.kill("SIGTERM");
+  await stopServer(server);
 }
