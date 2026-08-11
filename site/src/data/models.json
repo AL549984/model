@@ -8851,5 +8851,71 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/YrwVweIyZitHsrk7iz4coUM6nlh"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "inkling-small",
+    "name": "Inkling-Small",
+    "slug": "inkling-small",
+    "vendorId": "thinking-machines-lab",
+    "vendor": "Thinking Machines Lab",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "276B 总参数、12B 激活的开放权重原生多模态 MoE 推理模型",
+    "summary": "Inkling-Small 是 Thinking Machines Lab 于 2026-07-30 发布的开放权重原生多模态 MoE 模型，支持文本、图像和音频、最高 1M tokens 上下文与可调推理预算。",
+    "releaseDate": "2026-07-30",
+    "modelId": "inkling-small",
+    "context": "1000000",
+    "output": "官方未披露 / 待核验",
+    "modality": "text, image, audio",
+    "reasoning": "true; controllable reasoning effort",
+    "price": "Tinker Serverless Beta 256K: input $0.30/1M, cached input $0.06/1M, output $1.20/1M tokens",
+    "platforms": [
+      "Hugging Face",
+      "Tinker",
+      "Tinker Playground",
+      "Tinker Serverless Inference Beta"
+    ],
+    "officialLink": "https://thinkingmachines.ai/news/inkling-small/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Apache-2.0；276B total / 12B active；最高 1M context；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开放权重自托管与微调",
+      "代码代理与工具调用",
+      "图像、音频和文本联合理解",
+      "长上下文研究与应用"
+    ],
+    "avoid": [
+      "要求成熟生产 SLA 的 Serverless 场景",
+      "资源有限且无法承载 276B MoE 权重的本地部署",
+      "无需检索核验的高风险事实问答"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://thinkingmachines.ai/news/inkling-small/",
+      "https://thinkingmachines.ai/inkling/",
+      "https://huggingface.co/thinkingmachines/Inkling-Small",
+      "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]

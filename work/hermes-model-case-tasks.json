@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-09T07:41:52.562Z",
+  "generatedAt": "2026-08-11T04:13:55.858Z",
   "summary": {
-    "models": 141,
+    "models": 142,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,8 +11,8 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 75,
-    "allModelTargetDeficit": 125
+    "allModelMinDeficit": 78,
+    "allModelTargetDeficit": 130
   },
   "tasks": [
     {
@@ -19824,6 +19824,148 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for glm-5-turbo >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-inkling-small",
+      "modelId": "inkling-small",
+      "modelName": "Inkling-Small",
+      "vendorId": "thinking-machines-lab",
+      "vendor": "Thinking Machines Lab",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://thinkingmachines.ai/news/inkling-small/",
+        "https://thinkingmachines.ai/inkling/",
+        "https://huggingface.co/thinkingmachines/Inkling-Small",
+        "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Inkling-Small Thinking Machines Lab case study customer",
+        "Inkling-Small Thinking Machines Lab built with GitHub demo",
+        "Inkling-Small Thinking Machines Lab production use product blog",
+        "Inkling-Small Thinking Machines Lab model card docs API pricing context window",
+        "Inkling-Small Thinking Machines Lab 真实使用 案例 项目 开源",
+        "Inkling-Small Thinking Machines Lab GitHub README built with",
+        "Inkling-Small Thinking Machines Lab B站 使用 案例 demo",
+        "Inkling-Small Thinking Machines Lab 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for inkling-small >= 5",
         "requiredFields": [
           "case_id",
           "case_title",
