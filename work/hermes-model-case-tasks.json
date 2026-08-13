@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:27:20.471Z",
+  "generatedAt": "2026-08-13T07:55:47.690Z",
   "summary": {
     "models": 145,
     "activeModels": 116,
@@ -18904,9 +18904,9 @@
       },
       "officialSources": [
         "https://www.anthropic.com/news/claude-opus-5",
-        "https://www.anthropic.com/claude/opus",
-        "https://www.anthropic.com/claude-opus-5-system-card",
         "https://docs.anthropic.com/en/docs/about-claude/models",
+        "https://www.anthropic.com/claude-opus-5-system-card",
+        "https://www.anthropic.com/claude/opus",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/NsQxwi6egi1jCqknLf9cn4k1nxf"
       ],
       "crawlSources": [
