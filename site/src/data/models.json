@@ -8917,5 +8917,68 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-5-6-cyber",
+    "name": "GPT-5.6-Cyber",
+    "slug": "gpt-5-6-cyber",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向获批高级网络安全研究的 GPT-5.6 Sol 专项模型",
+    "summary": "OpenAI 于 2026-08-10 发布 GPT-5.6-Cyber，基于 GPT-5.6 Sol，针对零日漏洞发现、漏洞利用链开发和高级授权安全测试训练，仅通过受治理的 Daybreak Red 提供。",
+    "releaseDate": "2026-08-10",
+    "modelId": "gpt-5-6-cyber",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "代码与文本；完整模态官方未披露 / 待核验",
+    "reasoning": "支持高级推理；官方评测采用最高公开可用 reasoning level",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "OpenAI Daybreak Red",
+      "Amazon Bedrock Daybreak（获批访问）"
+    ],
+    "officialLink": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NXPKwaMwbixZCqkOsCxcDetVnSb；System Card 尚待发布；AA 暂无可核验独立评分。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "经授权的漏洞研究",
+      "漏洞利用验证",
+      "安全测试与红队",
+      "受治理的企业安全工作流"
+    ],
+    "avoid": [
+      "未授权渗透测试",
+      "普通聊天或通用开发",
+      "缺少身份核验与审计的环境"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "https://openai.com/daybreak/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NXPKwaMwbixZCqkOsCxcDetVnSb"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
