@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-13T07:55:47.690Z",
+  "generatedAt": "2026-08-13T08:54:57.700Z",
   "summary": {
-    "models": 145,
+    "models": 148,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,8 +11,8 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 87,
-    "allModelTargetDeficit": 145
+    "allModelMinDeficit": 96,
+    "allModelTargetDeficit": 160
   },
   "tasks": [
     {
@@ -20388,6 +20388,432 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for grok-4-6 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-ax-k2",
+      "modelId": "ax-k2",
+      "modelName": "A.X-K2",
+      "vendorId": "sk-telecom",
+      "vendor": "SK Telecom",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://huggingface.co/skt/A.X-K2",
+        "https://github.com/SKT-AI/A.X-K2",
+        "https://github.com/SKT-AI/A.X-K2/blob/main/A_X_K2_Tech_Report.pdf",
+        "https://huggingface.co/docs/transformers/main/en/model_doc/axk2",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/S6CIwKkreiCNSTkbzxwceYqonlf"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "A.X-K2 SK Telecom case study customer",
+        "A.X-K2 SK Telecom built with GitHub demo",
+        "A.X-K2 SK Telecom production use product blog",
+        "A.X-K2 SK Telecom model card docs API pricing context window",
+        "A.X-K2 SK Telecom 真实使用 案例 项目 开源",
+        "A.X-K2 SK Telecom GitHub README built with",
+        "A.X-K2 SK Telecom B站 使用 案例 demo",
+        "A.X-K2 SK Telecom 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for ax-k2 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-k-exaone-2-0",
+      "modelId": "k-exaone-2-0",
+      "modelName": "K-EXAONE 2.0 750B-A37B",
+      "vendorId": "lg-ai-research",
+      "vendor": "LG AI Research",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+        "https://arxiv.org/abs/2608.04505",
+        "https://www.lgresearch.ai/",
+        "https://k.exaone.ai/",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Rc3ow2QLyi3fWaktyYdcFKiWnWc"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "K-EXAONE 2.0 750B-A37B LG AI Research case study customer",
+        "K-EXAONE 2.0 750B-A37B LG AI Research built with GitHub demo",
+        "K-EXAONE 2.0 750B-A37B LG AI Research production use product blog",
+        "K-EXAONE 2.0 750B-A37B LG AI Research model card docs API pricing context window",
+        "K-EXAONE 2.0 750B-A37B LG AI Research 真实使用 案例 项目 开源",
+        "K-EXAONE 2.0 750B-A37B LG AI Research GitHub README built with",
+        "K-EXAONE 2.0 750B-A37B LG AI Research B站 使用 案例 demo",
+        "K-EXAONE 2.0 750B-A37B LG AI Research 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for k-exaone-2-0 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-motif-3-beta",
+      "modelId": "motif-3-beta",
+      "modelName": "Motif-3 Beta",
+      "vendorId": "motif-technologies",
+      "vendor": "Motif Technologies",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+        "https://arxiv.org/abs/2608.09119",
+        "https://motiftech.io/en/product/ai-model/",
+        "https://huggingface.co/Motif-Technologies",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/CHR6wYvxWiH3MskQEskcci6dnGh"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Motif-3 Beta Motif Technologies case study customer",
+        "Motif-3 Beta Motif Technologies built with GitHub demo",
+        "Motif-3 Beta Motif Technologies production use product blog",
+        "Motif-3 Beta Motif Technologies model card docs API pricing context window",
+        "Motif-3 Beta Motif Technologies 真实使用 案例 项目 开源",
+        "Motif-3 Beta Motif Technologies GitHub README built with",
+        "Motif-3 Beta Motif Technologies B站 使用 案例 demo",
+        "Motif-3 Beta Motif Technologies 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for motif-3-beta >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

@@ -529,5 +529,85 @@
     ],
     "modelCount": 2,
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "sk-telecom",
+    "displayName": "SK Telecom",
+    "slug": "sk-telecom",
+    "officialSite": "https://huggingface.co/skt",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "SK Telecom 的 A.X 大模型产品线，当前重点追踪 A.X-K2，并保留 A.X-3.1 历史基线。",
+    "families": [
+      "A.X"
+    ],
+    "flagshipModels": [
+      "A.X-K2"
+    ],
+    "strengths": [
+      "韩语与多语言能力",
+      "长上下文",
+      "开放权重 MoE"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "完整模型部署资源要求高"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "lg-ai-research",
+    "displayName": "LG AI Research",
+    "slug": "lg-ai-research",
+    "officialSite": "https://www.lgresearch.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "LG AI Research 的 EXAONE 与 K-EXAONE 模型产品线，当前重点追踪 K-EXAONE 2.0。",
+    "families": [
+      "EXAONE",
+      "K-EXAONE"
+    ],
+    "flagshipModels": [
+      "K-EXAONE 2.0 750B-A37B"
+    ],
+    "strengths": [
+      "韩语和多语言知识任务",
+      "262K 长上下文",
+      "Apache-2.0 开放权重"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "完整模型部署资源要求高"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "motif-technologies",
+    "displayName": "Motif Technologies",
+    "slug": "motif-technologies",
+    "officialSite": "https://motiftech.io/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Motif Technologies 的高效 MoE 模型产品线，当前公开模型为 Motif-3 Beta。",
+    "families": [
+      "Motif"
+    ],
+    "flagshipModels": [
+      "Motif-3 Beta"
+    ],
+    "strengths": [
+      "高效 MoE 架构",
+      "256K 长上下文",
+      "韩语模型研究"
+    ],
+    "risks": [
+      "当前仍为 Beta 中间检查点",
+      "默认许可限制商业使用",
+      "公开真实案例仍不足"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable"
   }
 ]

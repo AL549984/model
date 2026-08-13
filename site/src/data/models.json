@@ -9109,5 +9109,197 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/B5GHwmr64i7Sl6kxgfOcvMrQnCe"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "ax-k2",
+    "name": "A.X-K2",
+    "slug": "ax-k2",
+    "vendorId": "sk-telecom",
+    "vendor": "SK Telecom",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "SK Telecom 的 688B MoE 旗舰模型，原生支持 128K 上下文。",
+    "summary": "A.X-K2 是 SK Telecom 当前公开旗舰模型，采用 688B 总参数、33B 激活参数的 MoE 架构，并提供 Think 与 Non-Think 两种推理模式。模型卡已经核对官方技术报告；尚无满足 Model Atlas A 类标准的真实公开案例，因此保持 Hold。",
+    "releaseDate": "2026-07-28",
+    "modelId": "ax-k2",
+    "context": "原生 128K；YaRN 可扩展至 256K",
+    "output": "官方未披露",
+    "modality": "文本输入 / 文本输出",
+    "reasoning": "Think / Non-Think 混合推理",
+    "price": "开放权重；自托管成本取决于部署环境",
+    "platforms": [
+      "Hugging Face",
+      "Transformers",
+      "vLLM",
+      "SGLang"
+    ],
+    "officialLink": "https://huggingface.co/skt/A.X-K2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hermes 已创建飞书 Wiki 模型卡，并加入 SK Telecom 官方信源持续监控；A.X-3.1 作为历史基线保留。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "韩语与多语言通用任务",
+      "长上下文分析",
+      "需要可切换推理模式的自托管场景"
+    ],
+    "avoid": [
+      "在没有公开 A 类案例前作为成熟业务方案推荐",
+      "把技术报告评测直接等同于真实生产效果"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/skt/A.X-K2",
+      "https://github.com/SKT-AI/A.X-K2",
+      "https://github.com/SKT-AI/A.X-K2/blob/main/A_X_K2_Tech_Report.pdf",
+      "https://huggingface.co/docs/transformers/main/en/model_doc/axk2",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/S6CIwKkreiCNSTkbzxwceYqonlf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "k-exaone-2-0",
+    "name": "K-EXAONE 2.0 750B-A37B",
+    "slug": "k-exaone-2-0",
+    "vendorId": "lg-ai-research",
+    "vendor": "LG AI Research",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "LG AI Research 面向韩语与多语言任务的 750B MoE 旗舰模型。",
+    "summary": "K-EXAONE 2.0 750B-A37B 采用 750B 总参数、37B 激活参数的 MoE 架构，支持 262K 上下文和十种语言。模型卡已经核对官方模型页及技术论文；尚无满足 Model Atlas A 类标准的真实公开案例，因此保持 Hold。",
+    "releaseDate": "2026-07-29",
+    "modelId": "k-exaone-2-0",
+    "context": "262144 tokens",
+    "output": "官方未披露",
+    "modality": "文本输入 / 文本输出",
+    "reasoning": "支持推理任务；官方未定义独立推理开关",
+    "price": "Apache-2.0 开放权重；自托管成本取决于部署环境",
+    "platforms": [
+      "Hugging Face",
+      "Transformers",
+      "vLLM",
+      "SGLang"
+    ],
+    "officialLink": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hermes 已创建飞书 Wiki 模型卡，并加入 LG AI Research、EXAONE 与 K-EXAONE 官方信源持续监控。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "韩语和多语言知识任务",
+      "长上下文分析",
+      "需要 Apache-2.0 权重的自托管研究"
+    ],
+    "avoid": [
+      "在没有公开 A 类案例前作为成熟业务方案推荐",
+      "把论文分数直接当作线上服务稳定性"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "https://arxiv.org/abs/2608.04505",
+      "https://www.lgresearch.ai/",
+      "https://k.exaone.ai/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Rc3ow2QLyi3fWaktyYdcFKiWnWc"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "motif-3-beta",
+    "name": "Motif-3 Beta",
+    "slug": "motif-3-beta",
+    "vendorId": "motif-technologies",
+    "vendor": "Motif Technologies",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Motif Technologies 的 314B MoE 中间检查点，当前仍为 Beta。",
+    "summary": "Motif-3 Beta 是 Motif Technologies 公开的预览版中间检查点，采用约 314B 总参数、13.2B 激活参数的 MoE 架构并支持 256K 上下文。官方明确它不是最终版，且默认许可限制商业使用；尚无满足 Model Atlas A 类标准的真实公开案例，因此保持 Hold。",
+    "releaseDate": "2026-07-20",
+    "modelId": "motif-3-beta",
+    "context": "256K tokens",
+    "output": "官方未披露",
+    "modality": "文本输入 / 文本输出",
+    "reasoning": "支持推理任务；Beta 阶段",
+    "price": "开放权重预览；未经书面许可不得商业使用",
+    "platforms": [
+      "Hugging Face",
+      "Transformers",
+      "vLLM"
+    ],
+    "officialLink": "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hermes 已创建飞书 Wiki 模型卡；持续监控 Motif-3 正式版，正式发布前不得移除 Beta 后缀。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "研究 Motif-3 架构和韩语模型路线",
+      "非商业实验",
+      "长上下文与高效 MoE 研究"
+    ],
+    "avoid": [
+      "未经书面许可用于商业产品",
+      "把 Beta 中间检查点描述为最终版",
+      "在没有公开 A 类案例前作为成熟业务方案推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+      "https://arxiv.org/abs/2608.09119",
+      "https://motiftech.io/en/product/ai-model/",
+      "https://huggingface.co/Motif-Technologies",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/CHR6wYvxWiH3MskQEskcci6dnGh"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
