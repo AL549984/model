@@ -380,10 +380,12 @@ function larkCliFetch(pathname, { method = "GET", body } = {}) {
     throw new Error(`lark-cli user API failed (${result.status}): ${result.stderr || result.stdout}`);
   }
   const payload = JSON.parse(result.stdout);
-  if (payload.code !== 0) {
+  if (payload.ok === false || (payload.code !== undefined && payload.code !== 0)) {
     throw new Error(`Feishu user API error: ${JSON.stringify(payload)}`);
   }
-  return payload;
+  // lark-cli 1.0.48+ wraps successful API responses in {ok, identity, data}.
+  // Keep downstream record pagination compatible with both old and new CLIs.
+  return payload.ok === true && payload.data ? { code: 0, data: payload.data } : payload;
 }
 
 async function feishuFetch(pathname, { method = "GET", token, body } = {}) {

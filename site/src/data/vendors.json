@@ -127,7 +127,7 @@
       "API alias 和模型版本需要逐条核验",
       "部署来源差异较大"
     ],
-    "modelCount": 13,
+    "modelCount": 14,
     "sourceFile": "../../outputs/vendors/deepseek.md"
   },
   {
@@ -193,7 +193,7 @@
       "媒体输出涉及 IP/肖像风险",
       "Build/Imagine/Voice 不能混成通用聊天模型"
     ],
-    "modelCount": 9,
+    "modelCount": 10,
     "sourceFile": "../../outputs/vendors/xai.md"
   },
   {

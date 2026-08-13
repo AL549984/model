@@ -2611,25 +2611,27 @@
     "publishability": "Publishable",
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "DeepSeek V4 Pro (Max) 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
-    "releaseDate": "2026-04-24",
+    "headline": "DeepSeek V4 Pro 当前官方服务版本为 DeepSeek-V4-Pro-0813。",
+    "summary": "官方 Models & Pricing 页面已标示 0813 版本；可确认 1M context、384K 最大输出、Responses 与 Anthropic API 支持，尚无单独变更日志证明架构或 benchmark 变化。",
+    "releaseDate": "2026-08-13",
     "modelId": "deepseek-v4-pro-max",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "context": "1000000",
+    "output": "384000",
+    "modality": "text→text",
+    "reasoning": "reasoning / max effort",
+    "price": "$0.003625 cache-hit input / $0.435 cache-miss input / $0.87 output per 1M tokens",
     "platforms": [
-      "DeepSeek"
+      "DeepSeek API",
+      "Responses API",
+      "Anthropic API"
     ],
-    "officialLink": "https://artificialanalysis.ai/models/deepseek-v4-pro",
+    "officialLink": "https://api-docs.deepseek.com/quick_start/pricing",
     "score": 51.51,
     "scoreDelta": 9.8,
     "vendorOrder": 13,
     "artificialAnalysisId": "bf220674-68bd-43cc-a1b8-ce5ed4d2f18d",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "当前版本 DeepSeek-V4-Pro-0813；官方尚未发布独立 0813 变更日志。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -2648,7 +2650,7 @@
     ],
     "aCaseCount": 7,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "但低于 3 条公开达标线。",
@@ -2659,9 +2661,9 @@
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
     ],
     "sources": [
-      "https://api-docs.deepseek.com/",
-      "https://github.com/deepseek-ai",
-      "https://artificialanalysis.ai/models/deepseek-v4-pro"
+      "https://api-docs.deepseek.com/quick_start/pricing",
+      "https://api-docs.deepseek.com/updates",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/LmcLwhzTniSBWNkjHMdcSW89nRc"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -8978,6 +8980,130 @@
       "https://openai.com/index/daybreak-models-are-now-available-on-aws",
       "https://openai.com/daybreak/",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/NXPKwaMwbixZCqkOsCxcDetVnSb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash",
+    "slug": "deepseek-v4-flash",
+    "vendorId": "deepseek",
+    "vendor": "DeepSeek",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "DeepSeek V4 Flash 当前官方服务版本已更新为 DeepSeek-V4-Flash-0731。",
+    "summary": "0731 版本保持与 Preview 相同的架构和参数规模，重点更新后训练、原生 Responses API 与 agent 能力。",
+    "releaseDate": "2026-07-31",
+    "modelId": "deepseek-v4-flash",
+    "context": "1000000",
+    "output": "384000",
+    "modality": "text→text",
+    "reasoning": "thinking / non-thinking",
+    "price": "$0.0028 cache-hit input / $0.14 cache-miss input / $0.28 output per 1M tokens",
+    "platforms": [
+      "DeepSeek API",
+      "Responses API",
+      "Codex"
+    ],
+    "officialLink": "https://api-docs.deepseek.com/updates",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "当前版本 DeepSeek-V4-Flash-0731；稳定 API 名 deepseek-v4-flash。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://api-docs.deepseek.com/updates",
+      "https://api-docs.deepseek.com/quick_start/pricing",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4-6",
+    "name": "Grok 4.6",
+    "slug": "grok-4-6",
+    "vendorId": "xai",
+    "vendor": "xAI / Grok",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "xAI 面向长时间智能体、交互式和视觉工作流的新一代前沿推理模型。",
+    "summary": "Grok 4.6 于 2026-08-12 发布，支持 500K 上下文、文本和图像输入、四档推理强度，并提供 Responses API 与 Chat Completions API。",
+    "releaseDate": "2026-08-12",
+    "modelId": "grok-4-6",
+    "context": "500000",
+    "output": "官方文档标注无文本输出上限",
+    "modality": "text+image→text",
+    "reasoning": "low / medium / high / xhigh",
+    "price": "$2/1M input, $6/1M output; fast variant double",
+    "platforms": [
+      "xAI API",
+      "Cursor",
+      "Grok Build",
+      "OpenRouter",
+      "Vercel",
+      "Cloudflare"
+    ],
+    "officialLink": "https://x.ai/news/grok-4-6",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/B5GHwmr64i7Sl6kxgfOcvMrQnCe",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "长时间运行的智能体",
+      "大型代码库与长文档",
+      "视觉和交互式工作流",
+      "多工具自动化"
+    ],
+    "avoid": [
+      "缺少权限边界和预算控制的无人值守任务",
+      "未经业务 A/B 测试直接替换生产模型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://x.ai/news/grok-4-6",
+      "https://docs.x.ai/developers/grok-4-6",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/B5GHwmr64i7Sl6kxgfOcvMrQnCe"
     ],
     "sourceFile": "Feishu Bitable"
   }
