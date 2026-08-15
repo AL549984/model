@@ -9301,5 +9301,71 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/CHR6wYvxWiH3MskQEskcci6dnGh"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "glm-5-3",
+    "name": "GLM-5.3",
+    "slug": "glm-5-3",
+    "vendorId": "z-ai",
+    "vendor": "Z AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向复杂软件工程、长程 Agent 与网络安全任务的 Z.ai 旗舰文本模型。",
+    "summary": "GLM-5.3 沿用 GLM-5.2 的基础模型，能力增量全部来自后训练；官方规格为 1M 上下文、128K 最大输出，并要求始终开启 thinking。",
+    "releaseDate": "2026-08-14",
+    "modelId": "glm-5-3",
+    "context": "1M tokens",
+    "output": "128K tokens",
+    "modality": "文本输入 / 文本输出",
+    "reasoning": "必须开启 thinking；low / high / max 三档，默认 max",
+    "price": "独立 API token 价格官方未披露；Coding Plan 采用积分额度制",
+    "platforms": [
+      "GLM Coding Plan",
+      "ZCode",
+      "Z.ai API（coming soon）"
+    ],
+    "officialLink": "https://z.ai/blog/glm-5.3",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "大型代码库理解、跨文件重构和复杂缺陷修复",
+      "具备沙箱、审计和人工审批的长程 Agent",
+      "授权环境中的代码审计与漏洞发现"
+    ],
+    "avoid": [
+      "必须关闭推理或追求极低延迟的简单任务",
+      "依赖原生图像、音频或视频输入的场景",
+      "未设置权限隔离与审计的网络安全任务"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 7,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf",
+      "https://z.ai/blog/glm-5.3",
+      "https://docs.z.ai/guides/llm/glm-5.3",
+      "https://docs.z.ai/llms.txt",
+      "https://arxiv.org/abs/2603.12201",
+      "https://arxiv.org/abs/2607.07508",
+      "https://github.com/THUDM/slime"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
