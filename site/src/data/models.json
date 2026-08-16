@@ -9367,5 +9367,71 @@
       "https://github.com/THUDM/slime"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "a-x-3-1",
+    "name": "A.X-3.1",
+    "slug": "a-x-3-1",
+    "vendorId": "sk-telecom",
+    "vendor": "SK Telecom",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "SK Telecom 面向韩语理解与企业私有化部署的 34B 开放权重模型。",
+    "summary": "A.X-3.1 从零训练于 2.1T tokens，原生支持 32,768 tokens，并可通过 YaRN 扩展到 131,072 tokens；Apache 2.0 许可，韩语 benchmark 表现突出。",
+    "releaseDate": "2025-07-24",
+    "modelId": "a-x-3-1",
+    "context": "32,768 tokens 原生；131,072 tokens（YaRN 扩展）",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入；文本输出",
+    "reasoning": "官方未披露独立 thinking / reasoning 模式",
+    "price": "开放权重本地部署；官方未披露统一托管价格",
+    "platforms": [
+      "Hugging Face",
+      "GitHub",
+      "Transformers",
+      "vLLM"
+    ],
+    "officialLink": "https://huggingface.co/skt/A.X-3.1",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GGlJwI2gOiYhKJkIG1rc6RxAnae；参数量 34B、训练 2.1T tokens、Apache-2.0。案例证据不足，保持 Hold。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "韩语问答、摘要与信息抽取",
+      "韩国市场企业助手",
+      "数据驻留与私有化部署",
+      "韩语主权模型研究"
+    ],
+    "avoid": [
+      "需要成熟多模态输入的任务",
+      "未经复测的超长上下文生产场景",
+      "依赖强 Agent / 工具调用证据的任务",
+      "未经额外安全验证的高风险业务"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/skt/A.X-3.1",
+      "https://huggingface.co/skt/A.X-3.1/blob/main/config.json",
+      "https://github.com/SKT-AI/A.X-3",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/GGlJwI2gOiYhKJkIG1rc6RxAnae"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
