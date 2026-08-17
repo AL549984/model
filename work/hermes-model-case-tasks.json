@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T04:10:28.666Z",
+  "generatedAt": "2026-08-17T04:09:42.139Z",
   "summary": {
     "models": 150,
     "activeModels": 116,
@@ -20162,7 +20162,7 @@
     {
       "taskId": "hermes-case-crawl-deepseek-v4-flash",
       "modelId": "deepseek-v4-flash",
-      "modelName": "DeepSeek V4 Flash",
+      "modelName": "DeepSeek-V4-Flash-0731",
       "vendorId": "deepseek",
       "vendor": "DeepSeek",
       "priority": "P0",
@@ -20184,6 +20184,8 @@
         "https://api-docs.deepseek.com/updates",
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/config.json",
+        "https://artificialanalysis.ai/models/deepseek-v4-flash",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf"
       ],
       "crawlSources": [
@@ -20234,14 +20236,14 @@
         }
       ],
       "queries": [
-        "DeepSeek V4 Flash DeepSeek case study customer",
-        "DeepSeek V4 Flash DeepSeek built with GitHub demo",
-        "DeepSeek V4 Flash DeepSeek production use product blog",
-        "DeepSeek V4 Flash DeepSeek model card docs API pricing context window",
-        "DeepSeek V4 Flash DeepSeek 真实使用 案例 项目 开源",
-        "DeepSeek V4 Flash DeepSeek GitHub README built with",
-        "DeepSeek V4 Flash DeepSeek B站 使用 案例 demo",
-        "DeepSeek V4 Flash DeepSeek 微信公众号 使用 案例 产品"
+        "DeepSeek-V4-Flash-0731 DeepSeek case study customer",
+        "DeepSeek-V4-Flash-0731 DeepSeek built with GitHub demo",
+        "DeepSeek-V4-Flash-0731 DeepSeek production use product blog",
+        "DeepSeek-V4-Flash-0731 DeepSeek model card docs API pricing context window",
+        "DeepSeek-V4-Flash-0731 DeepSeek 真实使用 案例 项目 开源",
+        "DeepSeek-V4-Flash-0731 DeepSeek GitHub README built with",
+        "DeepSeek-V4-Flash-0731 DeepSeek B站 使用 案例 demo",
+        "DeepSeek-V4-Flash-0731 DeepSeek 微信公众号 使用 案例 产品"
       ],
       "outputContract": {
         "table": "cases",

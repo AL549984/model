@@ -8988,26 +8988,28 @@
   },
   {
     "id": "deepseek-v4-flash",
-    "name": "DeepSeek V4 Flash",
+    "name": "DeepSeek-V4-Flash-0731",
     "slug": "deepseek-v4-flash",
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "DeepSeek V4 Flash 当前官方服务版本已更新为 DeepSeek-V4-Flash-0731。",
-    "summary": "0731 版本保持与 Preview 相同的架构和参数规模，重点更新后训练、原生 Responses API 与 agent 能力。",
+    "headline": "DeepSeek V4 Flash 当前官方服务版本为 DeepSeek-V4-Flash-0731，重点增强 Agent 能力。",
+    "summary": "0731 正式版保持 Preview 的架构与规模，采用重新后训练，支持 1M 上下文、最高 384K 输出、Responses API、工具调用及 low/high/max 思考强度。",
     "releaseDate": "2026-07-31",
     "modelId": "deepseek-v4-flash",
-    "context": "1000000",
-    "output": "384000",
+    "context": "1048576",
+    "output": "384K",
     "modality": "text→text",
-    "reasoning": "thinking / non-thinking",
-    "price": "$0.0028 cache-hit input / $0.14 cache-miss input / $0.28 output per 1M tokens",
+    "reasoning": "non-thinking / low / high / max",
+    "price": "Off-peak/peak USD per 1M tokens: cache-hit input $0.007/$0.014; cache-miss input $0.22/$0.44; output $0.66/$1.32 (effective 2026-08-16 16:00 UTC)",
     "platforms": [
       "DeepSeek API",
+      "OpenAI-compatible API",
+      "Anthropic-compatible API",
       "Responses API",
-      "Codex"
+      "Hugging Face"
     ],
     "officialLink": "https://api-docs.deepseek.com/updates",
     "score": null,
@@ -9015,7 +9017,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "当前版本 DeepSeek-V4-Flash-0731；稳定 API 名 deepseek-v4-flash。",
+    "notes": "Wiki 模型卡已原位更新并保留稳定 id。官方当前版本为 DeepSeek-V4-Flash-0731；旧单一价格已替换为 2026-08-16 起执行的峰谷价格。Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9025,14 +9027,17 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "作为完整模型索引和厂商路线追踪入口"
+      "长上下文代码库与文档任务",
+      "Responses API、工具调用和 Agent 自动化",
+      "需要开放权重或高并发文本推理的团队"
     ],
     "avoid": [
-      "缺少真实案例时不要包装成推荐"
+      "需要原生图像、音频或视频理解的应用",
+      "无法接受峰谷分时价格或超长输出成本波动的固定预算场景"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9041,6 +9046,8 @@
       "https://api-docs.deepseek.com/updates",
       "https://api-docs.deepseek.com/quick_start/pricing",
       "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/config.json",
+      "https://artificialanalysis.ai/models/deepseek-v4-flash",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf"
     ],
     "sourceFile": "Feishu Bitable"
