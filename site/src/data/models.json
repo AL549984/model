@@ -9440,5 +9440,65 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/GGlJwI2gOiYhKJkIG1rc6RxAnae"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "deepseek-v4-pro-0813",
+    "name": "DeepSeek-V4-Pro-0813",
+    "slug": "deepseek-v4-pro-0813",
+    "vendorId": "deepseek",
+    "vendor": "DeepSeek",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "DeepSeek V4 Pro GA：1.6T MoE，1M 上下文，Agent 能力大幅提升",
+    "summary": "DeepSeek-V4-Pro-0813 是 DeepSeek 于2026年8月13日发布的 V4 Pro 正式版，基于1.6T总参/49B激活参数的 MoE 架构，支持100万token上下文和384K最大输出，核心升级为Agent能力大幅提升与Responses API原生支持。",
+    "releaseDate": "2026-08-13",
+    "modelId": "deepseek-v4-pro-0813",
+    "context": "1000000",
+    "output": "384000",
+    "modality": "text",
+    "reasoning": "true",
+    "price": "Input $0.66-$1.32/1M tokens (peak/off-peak), Output $1.98-$3.96/1M tokens",
+    "platforms": [
+      "API",
+      "Chat",
+      "App"
+    ],
+    "officialLink": "https://api-docs.deepseek.com/updates",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "GA版本，API模型名仍为deepseek-v4-pro，定价结构新增峰值/非峰值机制。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "Agent构建者、企业级长上下文、科研、成本敏感批量任务"
+    ],
+    "avoid": [
+      "需要完全透明评测口径的场景、需要最新HF权重而非API的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://api-docs.deepseek.com/updates",
+      "https://api-docs.deepseek.com/quick_start/pricing",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "https://arxiv.org/abs/2606.19348",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/RWFdwCRm6i9LSdk23N0cplDYndf"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
