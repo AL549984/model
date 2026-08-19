@@ -9500,5 +9500,63 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/RWFdwCRm6i9LSdk23N0cplDYndf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "kimi-k2-7-code",
+    "name": "Kimi K2.7 Code",
+    "slug": "kimi-k2-7-code",
+    "vendorId": "kimi",
+    "vendor": "Kimi / Moonshot AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Moonshot AI 旗舰编程模型，1T MoE / 32B 激活，256K 上下文，Modified MIT 开源，专注长周期软件工程任务。",
+    "summary": "Kimi K2.7 Code 是 Moonshot AI（月之暗面）于 2026-06-12 发布的旗舰级编程模型，MoE 架构（1T 总参数 / 32B 激活参数 / 384 专家，每 token 激活 8 个 + 1 共享专家 / 61 层含 1 密集层 / MLA 注意力），256K 上下文，支持文本+图像+视频输入（MoonViT 400M 视觉编码器）。相比 K2.6 思考 Token 消耗降低约 30%，在 Kimi Code Bench v2、Program Bench、MLS Bench Lite 及 Agent 评测上显著领先 K2.6。权重以 Modified MIT 协议开源。",
+    "releaseDate": "2026-06-12",
+    "modelId": "kimi-k2-7-code",
+    "context": "256K（262,144 tokens）",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本 / 图像 / 视频",
+    "reasoning": "是 / 仅思考模式（Thinking Mode Only）；不使用思考模式时自动回退至 K2.6",
+    "price": "输入(Cache Miss) $0.95/1M，输入(Cache Hit) $0.19/1M，输出 $4.00/1M；高速版 kimi-k2.7-code-highspeed 约 180 Tokens/s",
+    "platforms": [
+      "Kimi API / Kimi Code CLI / vLLM / SGLang（本地部署）"
+    ],
+    "officialLink": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-08-19 披露回填：依据官方 Hugging Face 模型页（README + LICENSE）将专家数(384)、层数(61)、注意力头(64)、注意力隐藏维度(7168)、MoE 隐藏维度(2048)、词汇表(160K)、激活函数(SwiGLU)等架构字段由「官方未披露 / 待核验」回填为官方披露值；许可证由 Apache 2.0 更正为 Modified MIT。官方 Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者/软件工程师日常编码、代码审查、大规模代码库迁移；AI Agent 长周期自主编程与 MCP 工具调用场景；需要 Modified MIT 协议开源的团队；本地 1T MoE / 32B 激活部署用户。"
+    ],
+    "avoid": [
+      "通用对话/非编程场景（官方建议此场景使用 K2.6）；需要位置编码类型、训练数据规模、最大输出等已披露参数的合规审计场景。"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "https://www.kimi.com/code",
+      "https://platform.kimi.ai/",
+      "https://www.kimi.com/resources/kimi-k2-7-code",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
