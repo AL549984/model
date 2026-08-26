@@ -9819,5 +9819,78 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/AG5kwMSAYiOGzbk3Wfbca2K9n8f"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-8-2-4t-a95b",
+    "name": "Qwen3.8-2.4T-A95B",
+    "slug": "qwen3-8-2-4t-a95b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "2.4T 总参数、95B 激活的 Qwen Max 级开放权重 MoE，面向代码、专业工作与长时程 Agent。",
+    "summary": "Qwen3.8-2.4T-A95B 是纯文本、强制思考的开放权重 MoE 模型，原生 262,144 tokens 上下文并可扩展至 1,010,000；百炼托管 API 提供 1M 上下文和 131,072 tokens 最大输出。",
+    "releaseDate": "2026-08-12",
+    "modelId": "qwen3-8-2-4t-a95b",
+    "context": "262,144 tokens 原生；开放权重可扩展至 1,010,000；百炼托管上下文 1,000,000",
+    "output": "开放权重 README 建议在 1M 上下文内为最终回答最多分配 131,072 tokens；百炼最大输出 131,072，最大思维链 131,072 tokens",
+    "modality": "文本输入，文本输出",
+    "reasoning": "开放权重强制思考，不能关闭；reasoning_effort=xhigh/medium/low；preserve_thinking 默认开启。百炼托管 API 文档另列混合思考模式。",
+    "price": "阿里云百炼华北2（北京）原价：输入 ¥12/1M tokens，输出 ¥36/1M tokens，缓存命中输入 ¥1.5/1M tokens；新加坡国际：¥14.988/¥44.965",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "阿里云百炼",
+      "Qwen Cloud",
+      "vLLM",
+      "SGLang",
+      "TokenSpeed"
+    ],
+    "officialLink": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Feishu Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LXFEwSnAliz1yWkBNAScLoY4njg。官方资料核验日期：2026-08-26。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "有多机多卡基础设施的超大 MoE 研究与部署",
+      "长上下文代码与软件工程 Agent",
+      "专业办公和复杂多步骤工具调用",
+      "通过百炼托管 API 使用 1M 上下文"
+    ],
+    "avoid": [
+      "普通本地设备或小团队直接部署完整 2.4T 权重",
+      "需要开放权重原生多模态或关闭思考的场景",
+      "无人工兜底的高风险医疗、法律或金融决策",
+      "未做沙箱和最小权限隔离的高权限工具调用"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 8,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/blob/main/config.json",
+      "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B/blob/main/LICENSE",
+      "https://github.com/QwenLM/Qwen3.8",
+      "https://qwen.ai/blog?id=qwen3.8",
+      "https://help.aliyun.com/zh/model-studio/qwen3-8-2-4t-a95b",
+      "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/LXFEwSnAliz1yWkBNAScLoY4njg"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
