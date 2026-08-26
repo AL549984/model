@@ -9749,5 +9749,75 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-8-27b",
+    "name": "Qwen3.8-27B",
+    "slug": "qwen3-8-27b",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "27B Dense 原生视觉语言模型，面向代码、专业办公与长时程 Agent。",
+    "summary": "Qwen3.8-27B 是 Apache-2.0 开放权重模型，具备文本、图像和视频输入，原生 262K 上下文并可通过 YaRN 扩展到 1M；默认思考并支持 reasoning_effort 控制。",
+    "releaseDate": "2026-08-14",
+    "modelId": "qwen3-8-27b",
+    "context": "262,144 tokens 原生；YaRN 可扩展至 1,000,000；百炼托管上下文 1,000,000",
+    "output": "百炼最大输出 131,072 tokens；最大思维链 262,144 tokens",
+    "modality": "文本+图像+视频输入，文本输出",
+    "reasoning": "默认思考；可关闭；reasoning_effort=xhigh/medium/low；preserve_thinking 默认开启",
+    "price": "阿里云百炼华北2（北京）原价：输入 ¥3/1M tokens，输出 ¥12/1M tokens，缓存命中输入 ¥0.6/1M tokens",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "阿里云百炼",
+      "Qwen Cloud",
+      "vLLM",
+      "SGLang",
+      "TokenSpeed",
+      "Transformers"
+    ],
+    "officialLink": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Feishu Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/AG5kwMSAYiOGzbk3Wfbca2K9n8f。官方资料核验日期：2026-08-26。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "本地或私有化多模态代码助手",
+      "仓库级与终端 Agent",
+      "文档、图表和长视频理解",
+      "专业办公与多步骤交付"
+    ],
+    "avoid": [
+      "无人工兜底的高风险医疗、法律或金融决策",
+      "未做沙箱和权限隔离的高权限工具调用",
+      "把 1M 扩展上下文误写为开放权重原生上下文"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "https://github.com/QwenLM/Qwen3.8",
+      "https://qwen.ai/blog?id=qwen3.8",
+      "https://help.aliyun.com/zh/model-studio/qwen3-8-27b",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/AG5kwMSAYiOGzbk3Wfbca2K9n8f"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
