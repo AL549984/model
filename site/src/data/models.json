@@ -9616,5 +9616,63 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/XAYawYIayipmlDk4PVBc0dkgnLi"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-6-flash",
+    "name": "Qwen3.6 Flash",
+    "slug": "qwen3-6-flash",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen / Alibaba",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "1M 上下文、完整工具能力与分档计费的 Qwen3.6 API 型号",
+    "summary": "Qwen3.6 Flash 是阿里云百炼提供的闭源 API 模型，官方披露 1M 上下文，并支持思考模式、Function Calling、内置工具和结构化输出；当前版本等同于 2026-04-16 快照。",
+    "releaseDate": "2026-04-16",
+    "modelId": "qwen3-6-flash",
+    "context": "1,000,000 tokens",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输出；输入模态官方条目未单独披露 / 待核验",
+    "reasoning": "支持思考与非思考模式",
+    "price": "全球：≤256K 输入 ¥1.2/1M、输出 ¥7.2/1M；256K-1M 输入 ¥4.8/1M、输出 ¥28.8/1M；其他区域见官方计费页",
+    "platforms": [
+      "阿里云百炼 Model Studio API"
+    ],
+    "officialLink": "https://help.aliyun.com/zh/model-studio/text-generation-model/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "长文档处理、工具调用、结构化输出、成本敏感的 API 应用"
+    ],
+    "avoid": [
+      "要求开放权重、完整架构透明度或可复核独立 benchmark 的研究任务"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4",
+      "https://help.aliyun.com/zh/model-studio/text-generation-model/",
+      "https://help.aliyun.com/zh/model-studio/model-pricing/",
+      "https://bailian.console.aliyun.com/cn-beijing/?tab=model#/model-market/detail/qwen3.6-flash",
+      "https://github.com/QwenLM/Qwen3.6"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
