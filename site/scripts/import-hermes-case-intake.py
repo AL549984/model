@@ -56,7 +56,7 @@ def load_env() -> None:
 
 
 def lark_cli_request_json(path: str, *, method: str = "GET", body: dict | None = None) -> dict:
-    profile = os.environ.get("FEISHU_LARK_CLI_PROFILE", "model-card-legacy")
+    profile = os.environ.get("FEISHU_LARK_CLI_PROFILE", "cli_aa803db955f85cd5")
     command = ["lark-cli", "--profile", profile, "api", method]
     api_path = path
     if "?" in path:

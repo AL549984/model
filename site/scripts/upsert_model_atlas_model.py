@@ -115,7 +115,7 @@ def normalize_payload(raw: dict[str, Any]) -> dict[str, str]:
 
 
 def lark_cli_request(path: str, *, method: str = "GET", body: dict[str, Any] | None = None) -> dict[str, Any]:
-    profile = os.environ.get("FEISHU_LARK_CLI_PROFILE", "model-card-legacy")
+    profile = os.environ.get("FEISHU_LARK_CLI_PROFILE", "cli_aa803db955f85cd5")
     api_path, _, query = path.partition("?")
     cmd = ["lark-cli", "--profile", profile, "api", method, api_path, "--as", "user", "--format", "json"]
     if query:
