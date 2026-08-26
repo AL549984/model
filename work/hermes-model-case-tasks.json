@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T11:36:13.550Z",
+  "generatedAt": "2026-08-26T12:01:05.574Z",
   "summary": {
     "models": 155,
     "activeModels": 116,
@@ -12139,7 +12139,7 @@
       "modelId": "solar-mini",
       "modelName": "Solar Mini",
       "vendorId": "upstage",
-      "vendor": "Upstage / Solar",
+      "vendor": "Upstage",
       "priority": "P2",
       "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
@@ -12156,8 +12156,13 @@
         "maxCandidatesPerRun": 24
       },
       "officialSources": [
-        "https://www.upstage.ai/",
-        "https://artificialanalysis.ai/models/solar-mini"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/LjvwwCKmKiDW9IkpcXkcbJXKnSe",
+        "https://console.upstage.ai/docs/models/solar-mini",
+        "https://console.upstage.ai/docs/models/history",
+        "https://www.upstage.ai/blog/en/introducing-solar-mini-compact-yet-powerful",
+        "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+        "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+        "https://arxiv.org/abs/2312.15166"
       ],
       "crawlSources": [
         {
@@ -12207,14 +12212,14 @@
         }
       ],
       "queries": [
-        "Solar Mini Upstage / Solar case study customer",
-        "Solar Mini Upstage / Solar built with GitHub demo",
-        "Solar Mini Upstage / Solar production use product blog",
-        "Solar Mini Upstage / Solar model card docs API pricing context window",
-        "Solar Mini Upstage / Solar 真实使用 案例 项目 开源",
-        "Solar Mini Upstage / Solar GitHub README built with",
-        "Solar Mini Upstage / Solar B站 使用 案例 demo",
-        "Solar Mini Upstage / Solar 微信公众号 使用 案例 产品"
+        "Solar Mini Upstage case study customer",
+        "Solar Mini Upstage built with GitHub demo",
+        "Solar Mini Upstage production use product blog",
+        "Solar Mini Upstage model card docs API pricing context window",
+        "Solar Mini Upstage 真实使用 案例 项目 开源",
+        "Solar Mini Upstage GitHub README built with",
+        "Solar Mini Upstage B站 使用 案例 demo",
+        "Solar Mini Upstage 微信公众号 使用 案例 产品"
       ],
       "outputContract": {
         "table": "cases",

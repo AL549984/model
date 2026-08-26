@@ -5420,29 +5420,32 @@
     "name": "Solar Mini",
     "slug": "solar-mini",
     "vendorId": "upstage",
-    "vendor": "Upstage / Solar",
+    "vendor": "Upstage",
     "publishability": "Publishable",
     "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 1 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Solar Mini 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "headline": "Upstage 的 10.7B 级轻量多语言模型，面向低成本韩英日对话与部署。",
+    "summary": "Solar Mini 初始开源版本于 2024-01-25 发布；官方确认 10.7B 参数、DUS 架构路线和多平台部署。当前 API 别名输入、输出均为 $0.15/1M tokens。",
     "releaseDate": "2024-01-25",
     "modelId": "solar-mini",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
+    "context": "初始开源权重 4,096 tokens；当前 API 别名完整规格待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入 / 文本输出",
+    "reasoning": "不支持独立 reasoning 模式",
+    "price": "当前 API：输入 $0.15/1M tokens；输出 $0.15/1M tokens",
     "platforms": [
-      "Upstage / Solar"
+      "Upstage API",
+      "Hugging Face",
+      "NVIDIA NIM",
+      "Ollama"
     ],
-    "officialLink": "https://artificialanalysis.ai/models/solar-mini",
+    "officialLink": "https://console.upstage.ai/docs/models/solar-mini",
     "score": 11.9,
     "scoreDelta": null,
     "vendorOrder": 1,
     "artificialAnalysisId": "d97713f2-afa6-4f8d-b2f3-ac89a24c4d6c",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-08-26 原位回填既有 Wiki 卡：将 10.7B、DUS、4K 初始 config、发布日期和许可证区分改为官方证据，并加入官方图片。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/LjvwwCKmKiDW9IkpcXkcbJXKnSe",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -5452,16 +5455,20 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
+      "低成本韩英日对话",
+      "摘要、分类、基础信息抽取",
+      "轻量本地部署与 API 集成",
+      "DUS 架构研究"
     ],
     "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
+      "超长上下文",
+      "复杂代码代理",
+      "前沿数学推理",
+      "要求所有权重均为宽松商业许可证的项目"
     ],
     "aCaseCount": 9,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 1,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -5471,8 +5478,13 @@
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
     ],
     "sources": [
-      "https://www.upstage.ai/",
-      "https://artificialanalysis.ai/models/solar-mini"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/LjvwwCKmKiDW9IkpcXkcbJXKnSe",
+      "https://console.upstage.ai/docs/models/solar-mini",
+      "https://console.upstage.ai/docs/models/history",
+      "https://www.upstage.ai/blog/en/introducing-solar-mini-compact-yet-powerful",
+      "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+      "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+      "https://arxiv.org/abs/2312.15166"
     ],
     "sourceFile": "Feishu Bitable"
   },
