@@ -8355,15 +8355,15 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "OpenAI 全双工语音模型，支持实时打断与连续交互",
-    "summary": "GPT-Live-1 是 OpenAI 于 2026-07-08 发布的全双工语音模型，采用连续交互架构，支持实时打断与自然对话，深度任务委派给 GPT-5.5 处理。目前通过 ChatGPT 应用提供，API 即将开放。",
+    "headline": "OpenAI 全双工语音模型：连续监听与发声，并异步委派深度推理",
+    "summary": "GPT-Live-1 是 OpenAI 于 2026-07-08 发布的全双工语音模型。2026-08-03 的官方工程说明进一步披露了有状态流式推理、WebRTC 媒体快路径、动态上下文压缩、实例无缝交接和异步前沿模型委派。",
     "releaseDate": "2026-07-08",
     "modelId": "gpt-live-1",
     "context": "官方未披露",
     "output": "官方未披露",
     "modality": "voice",
     "reasoning": "false",
-    "price": "ChatGPT 订阅内含（Go/Plus/Pro 使用 Live-1，Free 使用 Live-1 mini）；API 定价未公布",
+    "price": "ChatGPT 订阅内含（Go/Plus/Pro 使用 GPT-Live-1，Free 使用 GPT-Live-1 mini）；独立 API 定价官方未披露",
     "platforms": [
       "ChatGPT iOS",
       "ChatGPT Android",
@@ -8375,7 +8375,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "GPT-Live-1 和 GPT-Live-1 mini 分别为 Go/Plus/Pro 和 Free 用户的默认语音模型。全双工架构为首次在 ChatGPT 中实现。Wiki 模型卡已创建并放入 OpenAI 目录。",
+    "notes": "2026-08-26 原位回填现有 Wiki 模型卡：新增 2026-07-31 SynthID 音频水印说明，以及 2026-08-03 官方工程文章披露的 stateful inference、WebRTC、动态上下文压缩、KV cache 重建、实例交接和异步委派。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/Lti0w1sCoiVlSak42KOcMqPFnsc",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -8385,22 +8385,23 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "需要自然语音交互的用户、ChatGPT 订阅用户、未来语音代理开发者"
+      "需要自然实时语音交互的用户；关注语音代理、实时客服和语音前台/深度推理后台解耦架构的开发者与企业团队"
     ],
     "avoid": [
-      "需要精确基准分数的研究者、需要视频/屏幕共享的多模态场景"
+      "需要公开权重、明确参数规模、固定上下文上限或完整可复现语音评测的研究；依赖已正式开放 GPT-Live API 的生产系统"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
       "https://openai.com/index/introducing-gpt-live/",
+      "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
       "https://help.openai.com/articles/20001274",
-      "https://openai.com/form/gpt-live-1-in-the-api/",
+      "https://openai.com/research/verify/",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/Lti0w1sCoiVlSak42KOcMqPFnsc"
     ],
     "sourceFile": "Feishu Bitable"

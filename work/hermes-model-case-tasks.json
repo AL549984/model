@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T05:55:53.731Z",
+  "generatedAt": "2026-08-26T07:42:37.752Z",
   "summary": {
     "models": 152,
     "activeModels": 116,
@@ -18763,8 +18763,9 @@
       },
       "officialSources": [
         "https://openai.com/index/introducing-gpt-live/",
+        "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
         "https://help.openai.com/articles/20001274",
-        "https://openai.com/form/gpt-live-1-in-the-api/",
+        "https://openai.com/research/verify/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Lti0w1sCoiVlSak42KOcMqPFnsc"
       ],
       "crawlSources": [
