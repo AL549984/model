@@ -9674,5 +9674,68 @@
       "https://github.com/QwenLM/Qwen3.6"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-8-max",
+    "name": "Qwen3.8 Max",
+    "slug": "qwen3-8-max",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Qwen3.8 Max：面向长周期自主执行与专业工作的 2.4T MoE 旗舰模型",
+    "summary": "Alibaba / Qwen 的闭源旗舰模型，官方强调编程、办公、专业知识工作、视觉理解和长周期自主执行；官方参数与价格披露仍不完整。",
+    "releaseDate": "2026-08-02",
+    "modelId": "qwen3-8-max",
+    "context": "官方更新页未披露；Artificial Analysis 记录为 1M tokens（第三方）",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、图像/视频理解输入；文本输出（精确 API 口径待官方文档核验）",
+    "reasoning": "支持深度思考；具体 reasoning effort 档位待核验",
+    "price": "官方更新页未披露；AA 记录输入 $2/1M、输出 $6/1M tokens（第三方）",
+    "platforms": [
+      "Qwen",
+      "阿里云百炼 API"
+    ],
+    "officialLink": "https://qwen.ai/blog?id=qwen3.8",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf；当前 Hold，等待足量 A 级真实案例与更多官方 API/价格披露。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "长期 Coding Agent",
+      "复杂办公自动化",
+      "长文档与长视频理解",
+      "法律、金融、设计等专业工作流"
+    ],
+    "avoid": [
+      "要求开源权重或完整训练披露的研究",
+      "未经压测的低延迟高吞吐场景",
+      "无权限隔离的高风险代理操作"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://qwen.ai/blog?id=qwen3.8",
+      "https://help.aliyun.com/zh/model-studio/newly-released-models",
+      "https://artificialanalysis.ai/models/qwen3-8-max",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
