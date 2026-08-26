@@ -9559,5 +9559,62 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "deepseek-v4-flash-vision-exp",
+    "name": "DeepSeek-V4-Flash-Vision-Exp",
+    "slug": "deepseek-v4-flash-vision-exp",
+    "vendorId": "deepseek",
+    "vendor": "DeepSeek",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "DeepSeek 实验版多模态视觉理解与视觉 Agent 模型",
+    "summary": "DeepSeek 于 2026-08-21 发布的实验版多模态视觉理解 API 模型，支持 1M 上下文、384K 最大输出、图像输入、思考模式与工具调用。",
+    "releaseDate": "2026-08-21",
+    "modelId": "deepseek-v4-flash-vision-exp",
+    "context": "1M tokens",
+    "output": "384K tokens",
+    "modality": "文本、图像输入；文本输出",
+    "reasoning": "支持思考与非思考模式，默认思考模式",
+    "price": "每 1M tokens：缓存命中输入 $0.007 非峰值 / $0.014 峰值；缓存未命中输入 $0.22 / $0.44；输出 $0.66 / $1.32",
+    "platforms": [
+      "DeepSeek API；OpenAI 格式；Anthropic 格式；Responses API"
+    ],
+    "officialLink": "https://api-docs.deepseek.com/updates",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XAYawYIayipmlDk4PVBc0dkgnLi；官方发布日为 2026-08-21，属于 job_id 25df5a747777 人工补漏窗口。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "视觉理解 Agent；截图、图表与代码/工具工作流；长上下文多模态实验"
+    ],
+    "avoid": [
+      "要求稳定版本、强 SLA、完整安全审计、离线部署或开放权重的核心生产系统"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://api-docs.deepseek.com/updates",
+      "https://api-docs.deepseek.com/guides/vision",
+      "https://api-docs.deepseek.com/quick_start/pricing",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/XAYawYIayipmlDk4PVBc0dkgnLi"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
