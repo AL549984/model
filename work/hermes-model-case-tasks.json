@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:55:54.433Z",
+  "generatedAt": "2026-08-27T04:06:04.340Z",
   "summary": {
     "models": 157,
     "activeModels": 116,
@@ -19762,6 +19762,7 @@
       },
       "officialSources": [
         "https://docs.z.ai/guides/llm/glm-5-turbo",
+        "https://docs.z.ai/release-notes/new-released",
         "https://docs.z.ai/guides/overview/pricing",
         "https://docs.z.ai/api-reference/llm/chat-completion",
         "https://docs.z.ai/llms.txt",

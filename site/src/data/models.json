@@ -8813,7 +8813,7 @@
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "面向 OpenClaw 长链智能体任务专项优化的 200K 上下文模型。",
     "summary": "GLM-5-Turbo 强化工具调用、复杂指令拆解、定时与持久任务，支持 200K 上下文、128K 最大输出、Function Calling 与 MCP。官方未披露参数规模和底层架构。",
-    "releaseDate": "官方未披露 / 待核验",
+    "releaseDate": "2026-03-15",
     "modelId": "glm-5-turbo",
     "context": "200K tokens",
     "output": "128K tokens",
@@ -8831,7 +8831,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YrwVweIyZitHsrk7iz4coUM6nlh；官方 benchmark 图已插入并从飞书回读为 1302×908。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YrwVweIyZitHsrk7iz4coUM6nlh；2026-08-27 依据 Z.AI 官方 New Released 页面回填发布时间 2026-03-15；官方 benchmark 图保留。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -8855,13 +8855,14 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
       "https://docs.z.ai/guides/llm/glm-5-turbo",
+      "https://docs.z.ai/release-notes/new-released",
       "https://docs.z.ai/guides/overview/pricing",
       "https://docs.z.ai/api-reference/llm/chat-completion",
       "https://docs.z.ai/llms.txt",
