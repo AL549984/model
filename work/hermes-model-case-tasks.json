@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T04:06:04.340Z",
+  "generatedAt": "2026-08-28T04:06:34.071Z",
   "summary": {
     "models": 157,
     "activeModels": 116,
@@ -17761,7 +17761,7 @@
       "modelId": "grok-4-5",
       "modelName": "Grok 4.5",
       "vendorId": "xai",
-      "vendor": "xAI / Grok",
+      "vendor": "xAI",
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
@@ -17778,10 +17778,9 @@
         "maxCandidatesPerRun": 24
       },
       "officialSources": [
+        "https://x.ai/news/grok-4-5",
         "https://docs.x.ai/developers/grok-4-5",
-        "https://docs.x.ai/developers/release-notes",
-        "https://openrouter.ai/x-ai/grok-4.5",
-        "https://artificialanalysis.ai/models/grok-4-5",
+        "https://docs.x.ai/developers/pricing",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f"
       ],
       "crawlSources": [
@@ -17832,14 +17831,14 @@
         }
       ],
       "queries": [
-        "Grok 4.5 xAI / Grok case study customer",
-        "Grok 4.5 xAI / Grok built with GitHub demo",
-        "Grok 4.5 xAI / Grok production use product blog",
-        "Grok 4.5 xAI / Grok model card docs API pricing context window",
-        "Grok 4.5 xAI / Grok 真实使用 案例 项目 开源",
-        "Grok 4.5 xAI / Grok GitHub README built with",
-        "Grok 4.5 xAI / Grok B站 使用 案例 demo",
-        "Grok 4.5 xAI / Grok 微信公众号 使用 案例 产品"
+        "Grok 4.5 xAI case study customer",
+        "Grok 4.5 xAI built with GitHub demo",
+        "Grok 4.5 xAI production use product blog",
+        "Grok 4.5 xAI model card docs API pricing context window",
+        "Grok 4.5 xAI 真实使用 案例 项目 开源",
+        "Grok 4.5 xAI GitHub README built with",
+        "Grok 4.5 xAI B站 使用 案例 demo",
+        "Grok 4.5 xAI 微信公众号 使用 案例 产品"
       ],
       "outputContract": {
         "table": "cases",
