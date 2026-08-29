@@ -7505,19 +7505,18 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "字节跳动 Seed 团队通用生产级轻量智能体模型，首个全模态 Seed 基础模型",
-    "summary": "Seed2.0 Lite 是字节跳动 Seed 团队于 2026 年 2 月发布的通用智能体模型系列中的轻量级版本，平衡输出质量与响应速度，定位为通用生产级模型；2026 年 4 月底升级为首个支持全模态理解（视频、图像、音频）的 Seed 基础模型。",
-    "releaseDate": "2026-02",
+    "headline": "ByteDance Seed 的生产级全模态模型，0428 版强化 Agent、Coding 与 GUI。",
+    "summary": "Seed2.0 Lite 面向质量、响应速度与部署效率平衡的生产场景；2026-04-28 更新原生支持视频、图像、音频和文本统一理解。官方尚未披露参数规模、架构、上下文窗口、最大输出与具体 API 单价。",
+    "releaseDate": "2026-02-14",
     "modelId": "seed2-0-lite",
-    "context": "官方未披露",
-    "output": "官方未披露",
-    "modality": "文本+图像+视频+音频",
-    "reasoning": "标准模式",
-    "price": "token定价较同类领先大模型降低约一个数量级（具体数字未公开）",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、图像、视频、音频输入；输出边界待核验",
+    "reasoning": "支持复杂推理与 Agent 任务；reasoning effort 配置待核验",
+    "price": "官方未披露具体单价；官方称 token 定价相较同类领先模型约低一个数量级",
     "platforms": [
-      "火山引擎 Volcano Engine / 豆包 Doubao",
-      "豆包 Doubao",
-      "火山引擎 Volcano Engine"
+      "ByteDance Seed 官方模型页",
+      "API 接入平台待核验"
     ],
     "officialLink": "https://seed.bytedance.com/en/seed2",
     "score": null,
@@ -7525,7 +7524,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g；0428版本为全模态升级版",
+    "notes": "2026-08-29 原位回填既有 Wiki 模型卡：补充 Seed2.0 Lite 0428 全模态更新、官方 benchmark 与合规官方图片。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7535,16 +7534,16 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "企业级生产部署、多模态内容处理、通用AI助手、成本敏感型应用",
-      "产品入口模型",
-      "低延迟场景",
-      "大规模调用",
-      "多模态感知"
+      "多模态理解",
+      "Coding Agent",
+      "GUI 自动化",
+      "长文档处理",
+      "高并发生产工作流"
     ],
     "avoid": [
-      "追求极致编程能力、需要复杂长链推理、需要公开透明技术参数的研究团队",
-      "复杂编程任务",
-      "需要深推理的场景"
+      "要求开源权重或可复现架构研究",
+      "未核验上下文和价格即直接投入关键生产",
+      "将官方 benchmark 与不同 harness 的第三方分数直接横比"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
