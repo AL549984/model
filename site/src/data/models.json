@@ -7434,17 +7434,18 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书模型主表 + Hermes Wiki 模型卡 + ByteDance Seed 官方页面/发布博客；缺失字段保持待补证。",
-    "headline": "Seed2.0 Pro 是字节跳动 Seed 团队上一代旗舰智能体模型",
-    "summary": "Seed2.0 Pro 在搜索、研究、真实世界任务和多模态视频方面表现突出。",
-    "releaseDate": "2026-04",
+    "headline": "字节跳动 Seed 面向复杂真实任务与大规模生产部署的旗舰级多模态智能体模型。",
+    "summary": "Seed2.0 Pro 覆盖文本、图像与视频理解，强化推理、搜索与工具调用；官方已公开 API 模型 ID，但参数、上下文、最大输出与精确定价仍未披露。",
+    "releaseDate": "2026-02-14",
     "modelId": "seed2-0-pro",
-    "context": "官方未披露",
-    "output": "官方未披露",
-    "modality": "文本+图像+视频",
-    "reasoning": "标准模式",
-    "price": "官方未披露",
+    "context": "官方未披露 / 待核验",
+    "output": "最大输出官方未披露 / 待核验",
+    "modality": "文本、图像、视频输入；文本输出",
+    "reasoning": "支持复杂推理与 Agent 任务；独立 reasoning effort 档位官方未披露",
+    "price": "官方未披露具体输入/输出单价；仅宣称相对行业领先模型低约一个数量级",
     "platforms": [
-      "ByteDance Seed",
+      "BytePlus ModelArk",
+      "ByteDance Seed 官方模型页",
       "豆包 Doubao",
       "火山引擎 Volcano Engine"
     ],
@@ -7454,7 +7455,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。",
+    "notes": "2026-08-30 原位回填官方 API 模型 ID：seed-2-0-pro；官方 Playground 当前使用版本化 ID seed-2-0-pro-260328。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7464,23 +7465,23 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用多模态模型对比",
-      "Seed2.0 系列历史基线追踪",
+      "企业级 Agent 与复杂工作流",
+      "深度搜索与研究辅助",
+      "图像和视频理解",
       "搜索研究任务",
       "真实世界任务",
       "多模态视频理解"
     ],
     "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文",
-      "未披露 API 细节时不要当作可直接商用建议",
+      "必须使用开源权重的项目",
+      "要求完整架构与训练数据审计的场景",
+      "必须提前精确核算 token 成本的采购",
       "复杂编程任务",
       "需要最新模型能力的场景"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。",
@@ -7491,6 +7492,7 @@
     "sources": [
       "https://seed.bytedance.com/en/seed2",
       "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+      "https://console.byteplus.com/ark/region:ark+ap-southeast-1/model/detail?Id=seed-2-0-pro",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
     ],
     "sourceFile": "Feishu Bitable",

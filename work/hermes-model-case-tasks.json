@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T04:06:34.071Z",
+  "generatedAt": "2026-08-30T04:10:28.147Z",
   "summary": {
     "models": 157,
     "activeModels": 116,
@@ -16644,6 +16644,7 @@
       "officialSources": [
         "https://seed.bytedance.com/en/seed2",
         "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
+        "https://console.byteplus.com/ark/region:ark+ap-southeast-1/model/detail?Id=seed-2-0-pro",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
       ],
       "crawlSources": [
