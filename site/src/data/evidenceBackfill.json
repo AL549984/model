@@ -255,7 +255,7 @@
     "targetACases": 5,
     "minDeficit": 0,
     "targetDeficit": 0,
-    "sourceCount": 3,
+    "sourceCount": 4,
     "score": 18.66,
     "priority": "P2",
     "status": "target_met_snapshot_refresh",

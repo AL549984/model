@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T04:10:28.147Z",
+  "generatedAt": "2026-08-31T04:07:16.925Z",
   "summary": {
     "models": 157,
     "activeModels": 116,
@@ -3022,8 +3022,9 @@
       },
       "officialSources": [
         "https://www.anthropic.com/news/3-5-models-and-computer-use",
-        "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-        "https://www.anthropic.com/news",
+        "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "https://platform.claude.com/docs/en/about-claude/models/overview",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/QAf2wp9WrifFzKk1Oobcfu4Qnad",
         "https://artificialanalysis.ai/models/claude-3-5-haiku"
       ],
       "crawlSources": [

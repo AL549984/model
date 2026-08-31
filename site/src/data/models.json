@@ -1354,25 +1354,25 @@
     "publishability": "Publishable",
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
-    "headline": "Claude 3.5 Haiku 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "headline": "Claude 3.5 Haiku 已于 2026-02-19 从 Claude API 退役。",
+    "summary": "Anthropic 于 2024-10-22 发布的低延迟模型；官方于 2025-12-19 宣布弃用，并于 2026-02-19 正式退役，推荐迁移至 Claude Haiku 4.5。",
     "releaseDate": "2024-10-22",
     "modelId": "claude-3-5-haiku",
-    "context": "暂无数据",
-    "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
-    "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
+    "context": "200K tokens",
+    "output": "官方未披露 / 待核验",
+    "modality": "发布时文本输入/文本输出；后续图像输入状态待核验",
+    "reasoning": "非扩展思考模型",
+    "price": "已退役；历史定价不作为当前可用价格",
     "platforms": [
-      "Anthropic / Claude"
+      "Claude API（已退役）；历史上支持 Amazon Bedrock、Google Cloud Vertex AI"
     ],
-    "officialLink": "https://artificialanalysis.ai/models/claude-3-5-haiku",
+    "officialLink": "https://www.anthropic.com/news/3-5-models-and-computer-use",
     "score": 18.66,
     "scoreDelta": 0.66,
     "vendorOrder": 5,
     "artificialAnalysisId": "033e4aa9-a556-4224-87b0-341ed1070257",
     "baseModelReleaseDate": "Jul 1, 2024",
-    "notes": "",
+    "notes": "本次原位回填官方生命周期披露：2025-12-19 宣布弃用，2026-02-19 退役，官方推荐替代为 claude-haiku-4-5-20251001。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/QAf2wp9WrifFzKk1Oobcfu4Qnad",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -1382,16 +1382,14 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "通用模型对比"
+      "历史模型研究、旧系统迁移盘点；新项目应迁移到 Claude Haiku 4.5 或后续在售模型"
     ],
     "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文"
+      "新生产系统直接选型；依赖已退役 Claude API model ID 的新部署"
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -1402,8 +1400,9 @@
     ],
     "sources": [
       "https://www.anthropic.com/news/3-5-models-and-computer-use",
-      "https://docs.anthropic.com/en/docs/about-claude/models/overview",
-      "https://www.anthropic.com/news",
+      "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "https://platform.claude.com/docs/en/about-claude/models/overview",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QAf2wp9WrifFzKk1Oobcfu4Qnad",
       "https://artificialanalysis.ai/models/claude-3-5-haiku"
     ],
     "sourceFile": "Feishu Bitable"
