@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:07:16.925Z",
+  "generatedAt": "2026-09-01T04:08:39.665Z",
   "summary": {
     "models": 157,
     "activeModels": 116,
@@ -18205,8 +18205,8 @@
       },
       "officialSources": [
         "https://www.anthropic.com/news/claude-haiku-4-5",
-        "https://www.anthropic.com/claude/haiku",
-        "https://docs.anthropic.com/en/api/messages",
+        "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+        "https://platform.claude.com/docs/en/about-claude/models/overview",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/PoiEwYxzdi1wc6kPl3Hc9BbAn0e"
       ],
       "crawlSources": [

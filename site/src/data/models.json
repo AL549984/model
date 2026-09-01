@@ -8129,29 +8129,29 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "Anthropic 最快、最具成本效益的小型模型，匹配 Sonnet 4 的编码性能",
-    "summary": "Claude Haiku 4.5 是 Anthropic 于 2025 年 10 月 15 日发布的最快、最具成本效益的小型模型，在编码、计算机使用和代理任务上匹配 Sonnet 4 的性能，同时成本仅为三分之一、速度超过两倍。SWE-bench Verified 73.3%，输入 $1/M tokens，输出 $5/M tokens。",
+    "headline": "Anthropic 的低延迟、小型高性价比 Claude 模型",
+    "summary": "Claude Haiku 4.5 提供 200K 上下文、64K 最大输出、文本与图像输入及手动 Extended Thinking，标准 API 价格为输入 $1、输出 $5 / 百万 tokens。",
     "releaseDate": "2025-10-15",
     "modelId": "claude-haiku-4-5",
-    "context": "官方未披露",
-    "output": "官方未披露",
-    "modality": "text",
-    "reasoning": "false",
-    "price": "$1/$5 per M tokens (input/output)",
+    "context": "200K tokens",
+    "output": "64K tokens",
+    "modality": "文本与图像输入，文本输出",
+    "reasoning": "支持手动 Extended Thinking",
+    "price": "输入 $1/1M tokens；输出 $5/1M tokens",
     "platforms": [
-      "Claude Platform",
+      "Claude API",
       "Amazon Bedrock",
-      "Google Cloud Vertex AI",
+      "Google Cloud",
       "Microsoft Foundry",
-      "Claude Code"
+      "Claude Platform on AWS"
     ],
-    "officialLink": "https://www.anthropic.com/news/claude-haiku-4-5",
+    "officialLink": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "SWE-bench Verified 73.3%，比 Sonnet 4.5 快 4-5 倍。Anthropic 报告其为 '最安全的模型'。",
+    "notes": "2026-09-01 根据 Anthropic 官方模型页回填 200K 上下文、64K 最大输出、图像输入、Extended Thinking、知识与训练数据截止日期；Wiki 原位更新。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -8161,10 +8161,10 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "开发者、企业、初创公司、多代理系统、免费层产品"
+      "低延迟代码生成、子代理执行、批量结构化处理、图像理解与长输出"
     ],
     "avoid": [
-      "需要多模态输入、需要本地部署、需要自定义训练的场景"
+      "必须自托管、需要公开权重或完整架构与训练细节的场景"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
@@ -8175,8 +8175,8 @@
     ],
     "sources": [
       "https://www.anthropic.com/news/claude-haiku-4-5",
-      "https://www.anthropic.com/claude/haiku",
-      "https://docs.anthropic.com/en/api/messages",
+      "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "https://platform.claude.com/docs/en/about-claude/models/overview",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/PoiEwYxzdi1wc6kPl3Hc9BbAn0e"
     ],
     "sourceFile": "Feishu Bitable"
