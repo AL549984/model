@@ -7750,25 +7750,27 @@
     "name": "Claude Sonnet 5",
     "slug": "claude-sonnet-5",
     "vendorId": "anthropic",
-    "vendor": "Anthropic / Claude",
+    "vendor": "Anthropic",
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "Anthropic 最新 Sonnet 级智能体模型，性能接近 Opus 4.8 但价格更低",
-    "summary": "Claude Sonnet 5 是 Anthropic 于 2026 年 6 月 30 日发布的 Sonnet 级别模型，在 agentic 编程、工具调用和专业任务方面大幅超越 Sonnet 4.6，性能接近 Opus 4.8。",
-    "releaseDate": "2026-06",
+    "headline": "Anthropic 第五代 Sonnet：1M 上下文、128K 输出与自适应推理",
+    "summary": "Claude Sonnet 5 面向高频生产任务，在速度、成本与智能之间取平衡，支持图像输入、工具调用、Adaptive Thinking，并强化代理搜索、计算机使用和编程工作流。",
+    "releaseDate": "2026-06-30",
     "modelId": "claude-sonnet-5",
     "context": "1M tokens",
-    "output": "128K tokens",
-    "modality": "文本",
-    "reasoning": "Adaptive Thinking（自动推理扩展）",
-    "price": "$2/$10 per MTok (intro through Aug 31 2026), $3/$15 per MTok (standard)",
+    "output": "128K tokens; batch metadata 300K tokens",
+    "modality": "text,image input; text output",
+    "reasoning": "Adaptive Thinking; default effort high",
+    "price": "US$2/MTok input; US$10/MTok output; cache write 5m US$2.5/MTok, 1h US$4/MTok; cache read US$0.2/MTok",
     "platforms": [
-      "Anthropic API",
-      "Claude Code",
-      "Claude Platform",
       "Claude API",
-      "Claude.ai"
+      "Amazon Bedrock",
+      "Google Vertex AI",
+      "Microsoft Foundry",
+      "claude.ai",
+      "Claude.ai",
+      "Claude Code"
     ],
     "officialLink": "https://www.anthropic.com/news/claude-sonnet-5",
     "score": null,
@@ -7776,7 +7778,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "引言价 $2/$10 至 2026-08-31，之后 $3/$15。Wiki 模型卡已创建。SWE-bench Pro 63.2%、Terminal-Bench 2.1 80.4%、HLE with tools 57.4%、OSWorld-Verified 81.2%。",
+    "notes": "2026-09-02 按 Anthropic 当前官方模型目录回填 1M 上下文、128K 最大输出、2026-01 知识/训练截止、当前价格和缓存价格；Wiki 存在同名 Claude Sonnet 5 重复卡，待清理合并。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7786,11 +7788,12 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "软件工程团队、agentic 应用开发者、企业和专业服务、成本敏感团队",
+      "代码代理、仓库分析、长文档、工具调用、代理搜索、计算机使用和企业知识工作流",
       "开发者、AI Agent构建团队、企业自动化、预算敏感的前沿用户"
     ],
     "avoid": [
-      "追求极致数学推理、网络安全研究、需要最强多模态能力的场景",
+      "需要开放权重、本地部署、底层架构可复现",
+      "或无法接受托管平台依赖的场景",
       "需要极致网络安全能力的场景、需要公开技术参数的研究团队"
     ],
     "aCaseCount": 0,
@@ -7801,10 +7804,11 @@
       "完整补齐为 5 条。"
     ],
     "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR",
       "https://www.anthropic.com/news/claude-sonnet-5",
+      "https://docs.anthropic.com/en/docs/about-claude/models",
       "https://www.anthropic.com/claude-sonnet-5-system-card",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/Dk4JwyJOniIuI8ksXOIcjhvKnYd",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR"
+      "https://artificialanalysis.ai/models/claude-sonnet-5"
     ],
     "sourceFile": "Feishu Bitable"
   },

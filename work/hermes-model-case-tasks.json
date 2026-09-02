@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:08:39.665Z",
+  "generatedAt": "2026-09-02T04:10:50.479Z",
   "summary": {
     "models": 157,
     "activeModels": 116,
@@ -17336,7 +17336,7 @@
       "modelId": "claude-sonnet-5",
       "modelName": "Claude Sonnet 5",
       "vendorId": "anthropic",
-      "vendor": "Anthropic / Claude",
+      "vendor": "Anthropic",
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
@@ -17353,10 +17353,11 @@
         "maxCandidatesPerRun": 24
       },
       "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR",
         "https://www.anthropic.com/news/claude-sonnet-5",
+        "https://docs.anthropic.com/en/docs/about-claude/models",
         "https://www.anthropic.com/claude-sonnet-5-system-card",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/Dk4JwyJOniIuI8ksXOIcjhvKnYd",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/F37awGlsXigXt6knFSxcs1YKnXR"
+        "https://artificialanalysis.ai/models/claude-sonnet-5"
       ],
       "crawlSources": [
         {
@@ -17406,14 +17407,14 @@
         }
       ],
       "queries": [
-        "Claude Sonnet 5 Anthropic / Claude case study customer",
-        "Claude Sonnet 5 Anthropic / Claude built with GitHub demo",
-        "Claude Sonnet 5 Anthropic / Claude production use product blog",
-        "Claude Sonnet 5 Anthropic / Claude model card docs API pricing context window",
-        "Claude Sonnet 5 Anthropic / Claude 真实使用 案例 项目 开源",
-        "Claude Sonnet 5 Anthropic / Claude GitHub README built with",
-        "Claude Sonnet 5 Anthropic / Claude B站 使用 案例 demo",
-        "Claude Sonnet 5 Anthropic / Claude 微信公众号 使用 案例 产品"
+        "Claude Sonnet 5 Anthropic case study customer",
+        "Claude Sonnet 5 Anthropic built with GitHub demo",
+        "Claude Sonnet 5 Anthropic production use product blog",
+        "Claude Sonnet 5 Anthropic model card docs API pricing context window",
+        "Claude Sonnet 5 Anthropic 真实使用 案例 项目 开源",
+        "Claude Sonnet 5 Anthropic GitHub README built with",
+        "Claude Sonnet 5 Anthropic B站 使用 案例 demo",
+        "Claude Sonnet 5 Anthropic 微信公众号 使用 案例 产品"
       ],
       "outputContract": {
         "table": "cases",
