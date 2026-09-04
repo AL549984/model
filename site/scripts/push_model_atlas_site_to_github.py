@@ -33,8 +33,20 @@ DEFAULT_ADD_PATHS = (
 )
 
 
-def run(cmd: list[str], cwd: Path, timeout: int = 120) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(cmd, cwd=cwd, text=True, capture_output=True, timeout=timeout, check=True)
+def run(
+    cmd: list[str],
+    cwd: Path,
+    timeout: int = 120,
+    env: dict[str, str] | None = None,
+) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(cmd, cwd=cwd, text=True, capture_output=True, timeout=timeout, check=True, env=env)
+
+
+def without_proxy_env() -> dict[str, str]:
+    env = os.environ.copy()
+    for key in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "all_proxy"):
+        env.pop(key, None)
+    return env
 
 
 def is_transient_git_error(exc: subprocess.CalledProcessError) -> bool:
@@ -79,6 +91,9 @@ def run_git_with_retry(cmd: list[str], cwd: Path, timeout: int = 120, attempts: 
             last_exc = exc
             transient = is_transient_git_error(exc)
         if attempt >= attempts or not transient:
+            if transient and any(os.environ.get(key) for key in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "all_proxy")):
+                print("[git-retry] proxy path failed; retrying once without proxy", file=sys.stderr, flush=True)
+                return run(cmd, cwd=cwd, timeout=timeout, env=without_proxy_env())
             raise last_exc
         sleep_s = min(60, 5 * attempt * attempt)
         print(f"[git-retry] attempt {attempt}/{attempts} failed; retrying in {sleep_s}s", file=sys.stderr, flush=True)

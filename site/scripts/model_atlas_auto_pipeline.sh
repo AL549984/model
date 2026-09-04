@@ -178,7 +178,7 @@ push_generated_data() {
     echo "Skipping GitHub push: MODEL_ATLAS_PUSH_TO_GITHUB=0"
     return 0
   fi
-  python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" \
+  if ! python3 "$SITE_DIR/scripts/push_model_atlas_site_to_github.py" \
     --repo-dir "$REPO_DIR" \
     --add-path README.md \
     --add-path site/README.md \
@@ -189,7 +189,10 @@ push_generated_data() {
     --add-path work/evidence-backfill-intake.tsv \
     --add-path work/hermes-model-case-tasks.json \
     --add-path outputs/evidence-backfill-full-plan.md \
-    --add-path outputs/hermes-feishu-automation.md
+    --add-path outputs/hermes-feishu-automation.md; then
+    PUSH_RESULT="failed"
+    return 1
+  fi
   PUSH_RESULT="pushed_or_noop"
 }
 

@@ -92,8 +92,24 @@ def github_json(url: str) -> Any:
     if token:
         headers["Authorization"] = "Bearer " + token
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=20) as response:
-        return json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=20) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception:
+        # Some server-side TLS/proxy combinations terminate urllib handshakes
+        # early even though the same public GitHub API endpoint works directly.
+        direct_env = os.environ.copy()
+        for key in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "all_proxy"):
+            direct_env.pop(key, None)
+        result = subprocess.run(
+            ["curl", "-fsSL", "--connect-timeout", "10", "--max-time", "30", "-H", "Accept: application/vnd.github+json", "-H", "User-Agent: Hermes-Model-Atlas", url],
+            text=True,
+            capture_output=True,
+            check=True,
+            timeout=35,
+            env=direct_env,
+        )
+        return json.loads(result.stdout)
 
 
 def vercel_status_once(commit: str) -> dict[str, str]:
