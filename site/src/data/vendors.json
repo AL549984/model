@@ -1,5 +1,121 @@
 [
   {
+    "id": "ai21-labs",
+    "displayName": "AI21 Labs",
+    "slug": "ai21-labs",
+    "officialSite": "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "AI21 Labs 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Jamba Reasoning 3B",
+      "Jamba 1.7 Mini",
+      "Jamba 1.7 Large"
+    ],
+    "flagshipModels": [
+      "Jamba Reasoning 3B",
+      "Jamba 1.7 Mini",
+      "Jamba 1.7 Large"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 3,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "ai9stars",
+    "displayName": "AI9Stars",
+    "slug": "ai9stars",
+    "officialSite": "https://huggingface.co/ai9stars/G9v3-39A5B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "AI9Stars 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "G9v3-39A5B",
+      "G9v3-3B"
+    ],
+    "flagshipModels": [
+      "G9v3-39A5B",
+      "G9v3-3B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "allen-institute-for-ai",
+    "displayName": "Allen Institute for AI",
+    "slug": "allen-institute-for-ai",
+    "officialSite": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Allen Institute for AI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Olmo 3.1 32B Instruct",
+      "Olmo 3.1 32B Think",
+      "Molmo2-8B",
+      "Olmo 3 7B Think"
+    ],
+    "flagshipModels": [
+      "Olmo 3.1 32B Instruct",
+      "Olmo 3.1 32B Think",
+      "Molmo2-8B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 6,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "amazon",
+    "displayName": "Amazon",
+    "slug": "amazon",
+    "officialSite": "https://aws.amazon.com/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Amazon 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Nova 2.0 Pro Preview",
+      "Nova 2.0 Omni",
+      "Nova 2.0 Lite",
+      "Nova Premier"
+    ],
+    "flagshipModels": [
+      "Nova 2.0 Pro Preview",
+      "Nova 2.0 Omni",
+      "Nova 2.0 Lite"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 5,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
     "id": "anthropic",
     "displayName": "Anthropic / Claude",
     "slug": "anthropic",
@@ -28,74 +144,226 @@
       "数据保留和 fallback 约束",
       "Fable/Mythos 以外案例仍需补证"
     ],
-    "modelCount": 20,
+    "modelCount": 21,
     "sourceFile": "../../outputs/vendors/anthropic.md"
   },
   {
-    "id": "openai",
-    "displayName": "OpenAI",
-    "slug": "openai",
-    "officialSite": "https://openai.com/",
+    "id": "apodex",
+    "displayName": "Apodex",
+    "slug": "apodex",
+    "officialSite": "https://www.apodex.com/",
     "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "闭源前沿模型、API 平台和 Codex coding-agent 工作流的主轴厂商。",
+    "caseLibraryStatus": "thin",
+    "positioning": "Apodex 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
     "families": [
-      "GPT-5 family",
-      "o-series",
-      "Codex",
-      "open-weight / edge"
+      "Apodex 1.1"
     ],
     "flagshipModels": [
-      "GPT-5.5 (xhigh)",
-      "GPT-5.4 (xhigh)",
-      "GPT-5.3 Codex (xhigh)",
-      "GPT-5.2 (xhigh)"
+      "Apodex 1.1"
     ],
     "strengths": [
-      "API 生态广",
-      "推理和专业工作流覆盖强",
-      "Coding Agent 产品化成熟"
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
     ],
     "risks": [
-      "模型和价格变化快",
-      "案例库缺少 A 类公开证据",
-      "effort/variant 容易被误建成独立模型"
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
     ],
-    "modelCount": 19,
-    "sourceFile": "../../outputs/vendors/openai.md"
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
-    "id": "google",
-    "displayName": "Google / Gemini",
-    "slug": "google",
-    "officialSite": "https://deepmind.google/",
+    "id": "arcee-ai",
+    "displayName": "Arcee AI",
+    "slug": "arcee-ai",
+    "officialSite": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
     "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "Gemini / Gemma / Veo 等多模态模型线的核心厂商，平台覆盖强。",
+    "caseLibraryStatus": "thin",
+    "positioning": "Arcee AI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
     "families": [
-      "Gemini 3",
-      "Gemini 2.5",
-      "Gemma",
-      "Veo / Imagen"
+      "Trinity Large Thinking"
     ],
     "flagshipModels": [
-      "Gemini 3.1 Pro Preview",
-      "Gemini 3 Pro Preview (high)",
-      "Gemini 2.5 Pro",
-      "Gemini 2.5 Pro (Mar)"
+      "Trinity Large Thinking"
     ],
     "strengths": [
-      "Google 生态",
-      "长上下文和多模态",
-      "企业分发渠道"
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
     ],
     "risks": [
-      "Preview 生命周期需要显式提示",
-      "模型命名和迁移节奏变化快",
-      "公开 A 类案例未冻结"
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
     ],
-    "modelCount": 16,
-    "sourceFile": "../../outputs/vendors/google.md"
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "baidu",
+    "displayName": "Baidu",
+    "slug": "baidu",
+    "officialSite": "https://www.baidu.com/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Baidu 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "ERNIE 5.0 Thinking Preview",
+      "ERNIE 4.5 300B A47B"
+    ],
+    "flagshipModels": [
+      "ERNIE 5.0 Thinking Preview",
+      "ERNIE 4.5 300B A47B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "bytedance-seed",
+    "displayName": "ByteDance Seed",
+    "slug": "bytedance-seed",
+    "officialSite": "https://seed.bytedance.com/en/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "ByteDance Seed 是 Wiki 中额外出现的 Seed 模型节点，覆盖 productivity、video 和 multimodal research。",
+    "families": [
+      "Seed2.1",
+      "Seedance",
+      "Seed multimodal research"
+    ],
+    "flagshipModels": [
+      "Seed-2.1-Pro-Preview",
+      "Seed2.1 Pro",
+      "Seed2.1 Turbo",
+      "Seedance 1.0"
+    ],
+    "strengths": [
+      "Seed2.1 productivity focus",
+      "Seedance 视频模型",
+      "官方英文 Seed 站点"
+    ],
+    "risks": [
+      "访问渠道和价格需核验",
+      "视频案例涉及 IP/safety 风险",
+      "不是 Bitable 14 厂商主表节点"
+    ],
+    "modelCount": 11,
+    "sourceFile": "../../outputs/vendors/bytedance-seed.md"
+  },
+  {
+    "id": "celeris",
+    "displayName": "Celeris",
+    "slug": "celeris",
+    "officialSite": "https://celeris.ai",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Celeris 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Celeris-1"
+    ],
+    "flagshipModels": [
+      "Celeris-1"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "china-mobile",
+    "displayName": "China Mobile",
+    "slug": "china-mobile",
+    "officialSite": "https://jiutian.10086.cn/portal/common-helpcenter#/document/1181?platformCode=DMX_TYZX",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "China Mobile 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "JT-4.1 Flash 236B A21B",
+      "JT-35B-Flash",
+      "JT-MINI"
+    ],
+    "flagshipModels": [
+      "JT-4.1 Flash 236B A21B",
+      "JT-35B-Flash",
+      "JT-MINI"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 3,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "cohere",
+    "displayName": "Cohere",
+    "slug": "cohere",
+    "officialSite": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Cohere 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "North Mini Code",
+      "Command A+",
+      "Tiny Aya Global",
+      "Command A"
+    ],
+    "flagshipModels": [
+      "North Mini Code",
+      "Command A+",
+      "Tiny Aya Global"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 4,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "deep-cogito",
+    "displayName": "Deep Cogito",
+    "slug": "deep-cogito",
+    "officialSite": "https://huggingface.co/deepcogito/cogito-671b-v2.1",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Deep Cogito 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Cogito v2.1"
+    ],
+    "flagshipModels": [
+      "Cogito v2.1"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
     "id": "deepseek",
@@ -127,74 +395,126 @@
       "API alias 和模型版本需要逐条核验",
       "部署来源差异较大"
     ],
-    "modelCount": 16,
+    "modelCount": 18,
     "sourceFile": "../../outputs/vendors/deepseek.md"
   },
   {
-    "id": "qwen-alibaba",
-    "displayName": "Qwen / Alibaba",
-    "slug": "qwen-alibaba",
-    "officialSite": "https://qwenlm.github.io/",
+    "id": "google",
+    "displayName": "Google / Gemini",
+    "slug": "google",
+    "officialSite": "https://deepmind.google/",
     "status": "review",
     "caseLibraryStatus": "platform_only",
-    "positioning": "Alibaba 的 Qwen 多模态、开源和云服务模型线，覆盖文本、thinking、VL、Coder 和 Omni。",
+    "positioning": "Gemini / Gemma / Veo 等多模态模型线的核心厂商，平台覆盖强。",
     "families": [
-      "Qwen3",
-      "Qwen3-VL",
-      "Qwen Coder",
-      "Qwen Omni / Audio"
+      "Gemini 3",
+      "Gemini 2.5",
+      "Gemma",
+      "Veo / Imagen"
     ],
     "flagshipModels": [
-      "Qwen3.7 Max",
-      "Qwen3.6 Max Preview",
-      "Qwen3.6 Plus",
-      "Qwen3.5 397B A17B"
+      "Gemini 3.1 Pro Preview",
+      "Gemini 3 Pro Preview (high)",
+      "Gemini 2.5 Pro",
+      "Gemini 2.5 Pro (Mar)"
     ],
     "strengths": [
-      "模型线覆盖广",
-      "开放生态信号强",
-      "thinking 变体路线清晰"
+      "Google 生态",
+      "长上下文和多模态",
+      "企业分发渠道"
     ],
     "risks": [
-      "变体很多，需要冻结 canonical ID",
-      "VL/Omni/Coder 案例不能混入通用 Qwen",
-      "A 类案例待补证"
+      "Preview 生命周期需要显式提示",
+      "模型命名和迁移节奏变化快",
+      "公开 A 类案例未冻结"
     ],
-    "modelCount": 21,
-    "sourceFile": "../../outputs/vendors/qwen-alibaba.md"
+    "modelCount": 20,
+    "sourceFile": "../../outputs/vendors/google.md"
   },
   {
-    "id": "xai",
-    "displayName": "xAI / Grok",
-    "slug": "xai",
-    "officialSite": "https://x.ai/",
+    "id": "ibm",
+    "displayName": "IBM",
+    "slug": "ibm",
+    "officialSite": "https://huggingface.co/ibm-granite/granite-4.2-8b",
     "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "Grok 系列厂商，定位在实时搜索、工具使用、coding workflow 和 X 生态。",
+    "caseLibraryStatus": "thin",
+    "positioning": "IBM 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
     "families": [
-      "Grok 4 family",
-      "Grok Build",
-      "Grok Imagine",
-      "Grok Voice"
+      "Granite 4.2 8B",
+      "Granite 4.2 3B",
+      "Granite 4.2 30B",
+      "Granite 4.1 8B"
     ],
     "flagshipModels": [
-      "Grok 4.3 (high)",
-      "Grok 4.20 0309 v2",
-      "Grok 4.20 0309",
-      "Grok 4"
+      "Granite 4.2 8B",
+      "Granite 4.2 3B",
+      "Granite 4.2 30B"
     ],
     "strengths": [
-      "强 Grok 品牌",
-      "实时搜索和工具使用叙事",
-      "媒体/API 分支丰富"
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
     ],
     "risks": [
-      "X 来源需要快照",
-      "媒体输出涉及 IP/肖像风险",
-      "Build/Imagine/Voice 不能混成通用聊天模型"
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
     ],
-    "modelCount": 10,
-    "sourceFile": "../../outputs/vendors/xai.md"
+    "modelCount": 12,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "inception",
+    "displayName": "Inception",
+    "slug": "inception",
+    "officialSite": "https://www.inceptionlabs.ai/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Inception 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Mercury 2"
+    ],
+    "flagshipModels": [
+      "Mercury 2"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "inclusionai",
+    "displayName": "InclusionAI",
+    "slug": "inclusionai",
+    "officialSite": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-int4",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "InclusionAI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Ling 3.0 Tiny",
+      "Ling 3.0 Flash",
+      "Ring-2.6-1T",
+      "Ring-flash-2.0"
+    ],
+    "flagshipModels": [
+      "Ling 3.0 Tiny",
+      "Ling 3.0 Flash",
+      "Ring-2.6-1T"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 4,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
     "id": "kimi",
@@ -225,8 +545,171 @@
       "开源分支和托管模型不能混用",
       "案例库待补证"
     ],
-    "modelCount": 7,
+    "modelCount": 8,
     "sourceFile": "../../outputs/vendors/kimi.md"
+  },
+  {
+    "id": "korea-telecom",
+    "displayName": "Korea Telecom",
+    "slug": "korea-telecom",
+    "officialSite": "https://corp.kt.com/eng/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Korea Telecom 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Mi:dm K 2.5 Pro"
+    ],
+    "flagshipModels": [
+      "Mi:dm K 2.5 Pro"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "kwaikat",
+    "displayName": "KwaiKAT",
+    "slug": "kwaikat",
+    "officialSite": "https://www.streamlake.ai/product/kat-coder",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "KwaiKAT 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "KAT Coder Pro V2"
+    ],
+    "flagshipModels": [
+      "KAT Coder Pro V2"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "lg-ai-research",
+    "displayName": "LG AI Research",
+    "slug": "lg-ai-research",
+    "officialSite": "https://www.lgresearch.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "LG AI Research 的 EXAONE 与 K-EXAONE 模型产品线，当前重点追踪 K-EXAONE 2.0。",
+    "families": [
+      "EXAONE",
+      "K-EXAONE"
+    ],
+    "flagshipModels": [
+      "K-EXAONE 2.0 750B-A37B"
+    ],
+    "strengths": [
+      "韩语和多语言知识任务",
+      "262K 长上下文",
+      "Apache-2.0 开放权重"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "完整模型部署资源要求高"
+    ],
+    "modelCount": 6,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "liquid-ai",
+    "displayName": "Liquid AI",
+    "slug": "liquid-ai",
+    "officialSite": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Liquid AI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "LFM2.5-2.6B",
+      "LFM2.5-8B-A1B",
+      "LFM2 24B A2B",
+      "LFM2.5-1.2B-Thinking"
+    ],
+    "flagshipModels": [
+      "LFM2.5-2.6B",
+      "LFM2.5-8B-A1B",
+      "LFM2 24B A2B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 8,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "longcat",
+    "displayName": "LongCat",
+    "slug": "longcat",
+    "officialSite": "https://huggingface.co/meituan-longcat/LongCat-2.0",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "LongCat 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "LongCat 2.0",
+      "LongCat Flash Lite"
+    ],
+    "flagshipModels": [
+      "LongCat 2.0",
+      "LongCat Flash Lite"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "mbzuai-ifm",
+    "displayName": "MBZUAI IFM / K2",
+    "slug": "mbzuai-ifm",
+    "officialSite": "https://mbzuai.ac.ae/",
+    "status": "limited",
+    "caseLibraryStatus": "archive_only",
+    "positioning": "K2 / K2 Think 主权 reasoning 方向的研究型厂商节点。",
+    "families": [
+      "K2",
+      "K2 Think"
+    ],
+    "flagshipModels": [
+      "K2 Think V2",
+      "K2-V2 (high)"
+    ],
+    "strengths": [
+      "sovereign reasoning",
+      "研究透明度",
+      "long context 叙事"
+    ],
+    "risks": [
+      "K2 Think 可能是系统而非单模型",
+      "产品化边界不清",
+      "案例库仅适合归档 / 背景资料"
+    ],
+    "modelCount": 3,
+    "sourceFile": "../../outputs/vendors/mbzuai-ifm.md"
   },
   {
     "id": "meta",
@@ -257,8 +740,37 @@
       "hosted provider 价格不能混入 Meta 原生页",
       "A 类案例未冻结"
     ],
-    "modelCount": 8,
+    "modelCount": 13,
     "sourceFile": "../../outputs/vendors/meta.md"
+  },
+  {
+    "id": "microsoft",
+    "displayName": "Microsoft",
+    "slug": "microsoft",
+    "officialSite": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Microsoft 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Phi-4 Multimodal Instruct",
+      "Phi-4",
+      "Phi-4 Mini Instruct"
+    ],
+    "flagshipModels": [
+      "Phi-4 Multimodal Instruct",
+      "Phi-4",
+      "Phi-4 Mini Instruct"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 3,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
     "id": "minimax",
@@ -294,36 +806,680 @@
     "sourceFile": "../../outputs/vendors/minimax.md"
   },
   {
-    "id": "z-ai",
-    "displayName": "Z AI / GLM",
-    "slug": "z-ai",
-    "officialSite": "https://z.ai/",
+    "id": "mistral",
+    "displayName": "Mistral",
+    "slug": "mistral",
+    "officialSite": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
     "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "GLM 系列厂商，当前叙事集中在 reasoning、coding 和 agent-oriented engineering。",
+    "caseLibraryStatus": "thin",
+    "positioning": "Mistral 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
     "families": [
-      "GLM-4.5",
-      "GLM-5",
-      "GLM coding/API"
+      "Mistral Medium 3.5",
+      "Mistral Small 4",
+      "Devstral Small 2",
+      "Devstral 2"
     ],
     "flagshipModels": [
-      "GLM-5.1",
-      "GLM-5",
-      "GLM-4.7",
-      "GLM-4.6"
+      "Mistral Medium 3.5",
+      "Mistral Small 4",
+      "Devstral Small 2"
     ],
     "strengths": [
-      "agent-oriented foundation model",
-      "Claude Code compatible workflow 信号",
-      "开放分支可检查"
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
     ],
     "risks": [
-      "Z AI / Zhipu / GLM 命名需冻结",
-      "Claude-compatible 使用需单独证据行",
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 10,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "motif-technologies",
+    "displayName": "Motif Technologies",
+    "slug": "motif-technologies",
+    "officialSite": "https://motiftech.io/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Motif Technologies 的高效 MoE 模型产品线，当前公开模型为 Motif-3 Beta。",
+    "families": [
+      "Motif"
+    ],
+    "flagshipModels": [
+      "Motif-3 Beta"
+    ],
+    "strengths": [
+      "高效 MoE 架构",
+      "256K 长上下文",
+      "韩语模型研究"
+    ],
+    "risks": [
+      "当前仍为 Beta 中间检查点",
+      "默认许可限制商业使用",
+      "公开真实案例仍不足"
+    ],
+    "modelCount": 3,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "multiverse-computing",
+    "displayName": "Multiverse Computing",
+    "slug": "multiverse-computing",
+    "officialSite": "https://multiversecomputing.com/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Multiverse Computing 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Quasar 438B",
+      "HyperNova 60B 2605"
+    ],
+    "flagshipModels": [
+      "Quasar 438B",
+      "HyperNova 60B 2605"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "nanbeige",
+    "displayName": "Nanbeige",
+    "slug": "nanbeige",
+    "officialSite": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Nanbeige 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Nanbeige4.1-3B"
+    ],
+    "flagshipModels": [
+      "Nanbeige4.1-3B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "naver",
+    "displayName": "Naver",
+    "slug": "naver",
+    "officialSite": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Naver 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "HyperCLOVA X SEED Think (32B)"
+    ],
+    "flagshipModels": [
+      "HyperCLOVA X SEED Think (32B)"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "nex-agi",
+    "displayName": "Nex AGI",
+    "slug": "nex-agi",
+    "officialSite": "https://huggingface.co/nex-agi/Nex-N2-Pro",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Nex AGI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Nex-N2-Pro"
+    ],
+    "flagshipModels": [
+      "Nex-N2-Pro"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "nous-research",
+    "displayName": "Nous Research",
+    "slug": "nous-research",
+    "officialSite": "https://huggingface.co/NousResearch/Hermes-4-70B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Nous Research 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Hermes 4 - Llama-3.1 70B",
+      "Hermes 4 - Llama-3.1 405B",
+      "DeepHermes 3 - Mistral 24B Preview",
+      "DeepHermes 3 - Llama-3.1 8B Preview"
+    ],
+    "flagshipModels": [
+      "Hermes 4 - Llama-3.1 70B",
+      "Hermes 4 - Llama-3.1 405B",
+      "DeepHermes 3 - Mistral 24B Preview"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 4,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "nvidia",
+    "displayName": "NVIDIA",
+    "slug": "nvidia",
+    "officialSite": "https://www.nvidia.com/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "NVIDIA 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Nemotron 3.5 Lightning",
+      "Nemotron 3 Ultra 550B A55B",
+      "Nemotron 3 Nano Omni 30B A3B Reasoning",
+      "Nemotron Cascade 2 30B A3B"
+    ],
+    "flagshipModels": [
+      "Nemotron 3.5 Lightning",
+      "Nemotron 3 Ultra 550B A55B",
+      "Nemotron 3 Nano Omni 30B A3B Reasoning"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 12,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "openai",
+    "displayName": "OpenAI",
+    "slug": "openai",
+    "officialSite": "https://openai.com/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "闭源前沿模型、API 平台和 Codex coding-agent 工作流的主轴厂商。",
+    "families": [
+      "GPT-5 family",
+      "o-series",
+      "Codex",
+      "open-weight / edge"
+    ],
+    "flagshipModels": [
+      "GPT-5.5 (xhigh)",
+      "GPT-5.4 (xhigh)",
+      "GPT-5.3 Codex (xhigh)",
+      "GPT-5.2 (xhigh)"
+    ],
+    "strengths": [
+      "API 生态广",
+      "推理和专业工作流覆盖强",
+      "Coding Agent 产品化成熟"
+    ],
+    "risks": [
+      "模型和价格变化快",
+      "案例库缺少 A 类公开证据",
+      "effort/variant 容易被误建成独立模型"
+    ],
+    "modelCount": 26,
+    "sourceFile": "../../outputs/vendors/openai.md"
+  },
+  {
+    "id": "openbmb",
+    "displayName": "OpenBMB",
+    "slug": "openbmb",
+    "officialSite": "https://huggingface.co/openbmb/MiniCPM5-1B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "OpenBMB 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "MiniCPM5-1B",
+      "MiniCPM-V 4.6 1.3B"
+    ],
+    "flagshipModels": [
+      "MiniCPM5-1B",
+      "MiniCPM-V 4.6 1.3B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "perplexity",
+    "displayName": "Perplexity",
+    "slug": "perplexity",
+    "officialSite": "https://huggingface.co/perplexity-ai/r1-1776",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Perplexity 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "R1 1776"
+    ],
+    "flagshipModels": [
+      "R1 1776"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "prime-intellect",
+    "displayName": "Prime Intellect",
+    "slug": "prime-intellect",
+    "officialSite": "https://huggingface.co/PrimeIntellect/INTELLECT-3",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Prime Intellect 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "INTELLECT-3"
+    ],
+    "flagshipModels": [
+      "INTELLECT-3"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "qwen-alibaba",
+    "displayName": "Qwen / Alibaba",
+    "slug": "qwen-alibaba",
+    "officialSite": "https://qwenlm.github.io/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Alibaba 的 Qwen 多模态、开源和云服务模型线，覆盖文本、thinking、VL、Coder 和 Omni。",
+    "families": [
+      "Qwen3",
+      "Qwen3-VL",
+      "Qwen Coder",
+      "Qwen Omni / Audio"
+    ],
+    "flagshipModels": [
+      "Qwen3.7 Max",
+      "Qwen3.6 Max Preview",
+      "Qwen3.6 Plus",
+      "Qwen3.5 397B A17B"
+    ],
+    "strengths": [
+      "模型线覆盖广",
+      "开放生态信号强",
+      "thinking 变体路线清晰"
+    ],
+    "risks": [
+      "变体很多，需要冻结 canonical ID",
+      "VL/Omni/Coder 案例不能混入通用 Qwen",
       "A 类案例待补证"
     ],
-    "modelCount": 9,
-    "sourceFile": "../../outputs/vendors/z-ai.md"
+    "modelCount": 35,
+    "sourceFile": "../../outputs/vendors/qwen-alibaba.md"
+  },
+  {
+    "id": "reka-ai",
+    "displayName": "Reka AI",
+    "slug": "reka-ai",
+    "officialSite": "https://huggingface.co/RekaAI/reka-flash-3",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Reka AI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Reka Flash 3"
+    ],
+    "flagshipModels": [
+      "Reka Flash 3"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "sakana-ai",
+    "displayName": "Sakana AI",
+    "slug": "sakana-ai",
+    "officialSite": "https://sakana.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Sakana AI 的模型与多智能体编排产品线，当前覆盖 Fugu 与 Fugu Ultra。",
+    "families": [
+      "Fugu"
+    ],
+    "flagshipModels": [
+      "Fugu Ultra",
+      "Fugu"
+    ],
+    "strengths": [
+      "多智能体编排",
+      "OpenAI 兼容 API",
+      "复杂任务模型路由"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "底层模型与成本需持续核验"
+    ],
+    "modelCount": 3,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "sapiens-ai",
+    "displayName": "Sapiens AI",
+    "slug": "sapiens-ai",
+    "officialSite": "https://agnes-ai.com/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Sapiens AI 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Agnes 2.5 Pro Beta",
+      "Agnes 2.5 Pro Alpha"
+    ],
+    "flagshipModels": [
+      "Agnes 2.5 Pro Beta",
+      "Agnes 2.5 Pro Alpha"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "sarvam",
+    "displayName": "Sarvam",
+    "slug": "sarvam",
+    "officialSite": "https://huggingface.co/sarvamai/sarvam-30b",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Sarvam 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Sarvam 30B",
+      "Sarvam 105B"
+    ],
+    "flagshipModels": [
+      "Sarvam 30B",
+      "Sarvam 105B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "servicenow",
+    "displayName": "ServiceNow",
+    "slug": "servicenow",
+    "officialSite": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "ServiceNow 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Apriel-v1.6-15B-Thinker"
+    ],
+    "flagshipModels": [
+      "Apriel-v1.6-15B-Thinker"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "sk-telecom",
+    "displayName": "SK Telecom",
+    "slug": "sk-telecom",
+    "officialSite": "https://huggingface.co/skt",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "SK Telecom 的 A.X 大模型产品线，当前重点追踪 A.X-K2，并保留 A.X-3.1 历史基线。",
+    "families": [
+      "A.X"
+    ],
+    "flagshipModels": [
+      "A.X-K2"
+    ],
+    "strengths": [
+      "韩语与多语言能力",
+      "长上下文",
+      "开放权重 MoE"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "完整模型部署资源要求高"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "stepfun",
+    "displayName": "StepFun / Step",
+    "slug": "stepfun",
+    "officialSite": "https://platform.stepfun.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Step 系列多模态 reasoning、coding 和高效率 MoE 模型厂商。",
+    "families": [
+      "Step 3",
+      "Step Flash",
+      "StepFun Platform"
+    ],
+    "flagshipModels": [
+      "Step 3.7 Flash"
+    ],
+    "strengths": [
+      "hardware-aware multimodal reasoning",
+      "efficient agentic workflow",
+      "API 分发信号"
+    ],
+    "risks": [
+      "Step3/3.5/3.7 版本关系需继续核验",
+      "价格和模型可用性需定期更新",
+      "案例库待补证"
+    ],
+    "modelCount": 2,
+    "sourceFile": "../../outputs/vendors/stepfun.md"
+  },
+  {
+    "id": "swiss-ai-initiative",
+    "displayName": "Swiss AI Initiative",
+    "slug": "swiss-ai-initiative",
+    "officialSite": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Swiss AI Initiative 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Apertus 8B Instruct",
+      "Apertus 70B Instruct"
+    ],
+    "flagshipModels": [
+      "Apertus 8B Instruct",
+      "Apertus 70B Instruct"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "tencent",
+    "displayName": "Tencent",
+    "slug": "tencent",
+    "officialSite": "https://huggingface.co/tencent/Hy3",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Tencent 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Hy3"
+    ],
+    "flagshipModels": [
+      "Hy3"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "thinking-machines-lab",
+    "displayName": "Thinking Machines Lab",
+    "slug": "thinking-machines-lab",
+    "officialSite": "https://thinkingmachines.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Thinking Machines Lab 的开放模型产品线，当前覆盖 Inkling。",
+    "families": [
+      "Inkling"
+    ],
+    "flagshipModels": [
+      "Inkling"
+    ],
+    "strengths": [
+      "开放权重多模态模型",
+      "长上下文",
+      "开发者生态"
+    ],
+    "risks": [
+      "公开真实案例仍不足",
+      "模型能力与部署成本需持续核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "tii-uae",
+    "displayName": "TII UAE",
+    "slug": "tii-uae",
+    "officialSite": "https://huggingface.co/tiiuae/Falcon-H1R-7B",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "TII UAE 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Falcon-H1R-7B"
+    ],
+    "flagshipModels": [
+      "Falcon-H1R-7B"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
+    "id": "trillion-labs",
+    "displayName": "Trillion Labs",
+    "slug": "trillion-labs",
+    "officialSite": "https://huggingface.co/trillionlabs/Tri-21B-Think",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Trillion Labs 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Tri-21B-Think"
+    ],
+    "flagshipModels": [
+      "Tri-21B-Think"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
     "id": "upstage",
@@ -357,6 +1513,39 @@
     "sourceFile": "../../outputs/vendors/upstage.md"
   },
   {
+    "id": "xai",
+    "displayName": "xAI / Grok",
+    "slug": "xai",
+    "officialSite": "https://x.ai/",
+    "status": "review",
+    "caseLibraryStatus": "platform_only",
+    "positioning": "Grok 系列厂商，定位在实时搜索、工具使用、coding workflow 和 X 生态。",
+    "families": [
+      "Grok 4 family",
+      "Grok Build",
+      "Grok Imagine",
+      "Grok Voice"
+    ],
+    "flagshipModels": [
+      "Grok 4.3 (high)",
+      "Grok 4.20 0309 v2",
+      "Grok 4.20 0309",
+      "Grok 4"
+    ],
+    "strengths": [
+      "强 Grok 品牌",
+      "实时搜索和工具使用叙事",
+      "媒体/API 分支丰富"
+    ],
+    "risks": [
+      "X 来源需要快照",
+      "媒体输出涉及 IP/肖像风险",
+      "Build/Imagine/Voice 不能混成通用聊天模型"
+    ],
+    "modelCount": 10,
+    "sourceFile": "../../outputs/vendors/xai.md"
+  },
+  {
     "id": "xiaomi",
     "displayName": "Xiaomi / MiMo",
     "slug": "xiaomi",
@@ -384,230 +1573,39 @@
       "MiMo-Code 是工具证据，不等同模型性能",
       "价格/API 未冻结"
     ],
-    "modelCount": 4,
+    "modelCount": 8,
     "sourceFile": "../../outputs/vendors/xiaomi.md"
   },
   {
-    "id": "mbzuai-ifm",
-    "displayName": "MBZUAI IFM / K2",
-    "slug": "mbzuai-ifm",
-    "officialSite": "https://mbzuai.ac.ae/",
-    "status": "limited",
-    "caseLibraryStatus": "archive_only",
-    "positioning": "K2 / K2 Think 主权 reasoning 方向的研究型厂商节点。",
-    "families": [
-      "K2",
-      "K2 Think"
-    ],
-    "flagshipModels": [
-      "K2 Think V2",
-      "K2-V2 (high)"
-    ],
-    "strengths": [
-      "sovereign reasoning",
-      "研究透明度",
-      "long context 叙事"
-    ],
-    "risks": [
-      "K2 Think 可能是系统而非单模型",
-      "产品化边界不清",
-      "案例库仅适合归档 / 背景资料"
-    ],
-    "modelCount": 2,
-    "sourceFile": "../../outputs/vendors/mbzuai-ifm.md"
-  },
-  {
-    "id": "stepfun",
-    "displayName": "StepFun / Step",
-    "slug": "stepfun",
-    "officialSite": "https://platform.stepfun.ai/",
+    "id": "z-ai",
+    "displayName": "Z AI / GLM",
+    "slug": "z-ai",
+    "officialSite": "https://z.ai/",
     "status": "review",
     "caseLibraryStatus": "platform_only",
-    "positioning": "Step 系列多模态 reasoning、coding 和高效率 MoE 模型厂商。",
+    "positioning": "GLM 系列厂商，当前叙事集中在 reasoning、coding 和 agent-oriented engineering。",
     "families": [
-      "Step 3",
-      "Step Flash",
-      "StepFun Platform"
+      "GLM-4.5",
+      "GLM-5",
+      "GLM coding/API"
     ],
     "flagshipModels": [
-      "Step 3.7 Flash"
+      "GLM-5.1",
+      "GLM-5",
+      "GLM-4.7",
+      "GLM-4.6"
     ],
     "strengths": [
-      "hardware-aware multimodal reasoning",
-      "efficient agentic workflow",
-      "API 分发信号"
+      "agent-oriented foundation model",
+      "Claude Code compatible workflow 信号",
+      "开放分支可检查"
     ],
     "risks": [
-      "Step3/3.5/3.7 版本关系需继续核验",
-      "价格和模型可用性需定期更新",
-      "案例库待补证"
+      "Z AI / Zhipu / GLM 命名需冻结",
+      "Claude-compatible 使用需单独证据行",
+      "A 类案例待补证"
     ],
-    "modelCount": 1,
-    "sourceFile": "../../outputs/vendors/stepfun.md"
-  },
-  {
-    "id": "bytedance-seed",
-    "displayName": "ByteDance Seed",
-    "slug": "bytedance-seed",
-    "officialSite": "https://seed.bytedance.com/en/",
-    "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "ByteDance Seed 是 Wiki 中额外出现的 Seed 模型节点，覆盖 productivity、video 和 multimodal research。",
-    "families": [
-      "Seed2.1",
-      "Seedance",
-      "Seed multimodal research"
-    ],
-    "flagshipModels": [
-      "Seed-2.1-Pro-Preview",
-      "Seed2.1 Pro",
-      "Seed2.1 Turbo",
-      "Seedance 1.0"
-    ],
-    "strengths": [
-      "Seed2.1 productivity focus",
-      "Seedance 视频模型",
-      "官方英文 Seed 站点"
-    ],
-    "risks": [
-      "访问渠道和价格需核验",
-      "视频案例涉及 IP/safety 风险",
-      "不是 Bitable 14 厂商主表节点"
-    ],
-    "modelCount": 10,
-    "sourceFile": "../../outputs/vendors/bytedance-seed.md"
-  },
-  {
-    "id": "sakana-ai",
-    "displayName": "Sakana AI",
-    "slug": "sakana-ai",
-    "officialSite": "https://sakana.ai/",
-    "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "Sakana AI 的模型与多智能体编排产品线，当前覆盖 Fugu 与 Fugu Ultra。",
-    "families": [
-      "Fugu"
-    ],
-    "flagshipModels": [
-      "Fugu Ultra",
-      "Fugu"
-    ],
-    "strengths": [
-      "多智能体编排",
-      "OpenAI 兼容 API",
-      "复杂任务模型路由"
-    ],
-    "risks": [
-      "公开真实案例仍不足",
-      "底层模型与成本需持续核验"
-    ],
-    "modelCount": 3,
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "thinking-machines-lab",
-    "displayName": "Thinking Machines Lab",
-    "slug": "thinking-machines-lab",
-    "officialSite": "https://thinkingmachines.ai/",
-    "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "Thinking Machines Lab 的开放模型产品线，当前覆盖 Inkling。",
-    "families": [
-      "Inkling"
-    ],
-    "flagshipModels": [
-      "Inkling"
-    ],
-    "strengths": [
-      "开放权重多模态模型",
-      "长上下文",
-      "开发者生态"
-    ],
-    "risks": [
-      "公开真实案例仍不足",
-      "模型能力与部署成本需持续核验"
-    ],
-    "modelCount": 2,
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "sk-telecom",
-    "displayName": "SK Telecom",
-    "slug": "sk-telecom",
-    "officialSite": "https://huggingface.co/skt",
-    "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "SK Telecom 的 A.X 大模型产品线，当前重点追踪 A.X-K2，并保留 A.X-3.1 历史基线。",
-    "families": [
-      "A.X"
-    ],
-    "flagshipModels": [
-      "A.X-K2"
-    ],
-    "strengths": [
-      "韩语与多语言能力",
-      "长上下文",
-      "开放权重 MoE"
-    ],
-    "risks": [
-      "公开真实案例仍不足",
-      "完整模型部署资源要求高"
-    ],
-    "modelCount": 2,
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "lg-ai-research",
-    "displayName": "LG AI Research",
-    "slug": "lg-ai-research",
-    "officialSite": "https://www.lgresearch.ai/",
-    "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "LG AI Research 的 EXAONE 与 K-EXAONE 模型产品线，当前重点追踪 K-EXAONE 2.0。",
-    "families": [
-      "EXAONE",
-      "K-EXAONE"
-    ],
-    "flagshipModels": [
-      "K-EXAONE 2.0 750B-A37B"
-    ],
-    "strengths": [
-      "韩语和多语言知识任务",
-      "262K 长上下文",
-      "Apache-2.0 开放权重"
-    ],
-    "risks": [
-      "公开真实案例仍不足",
-      "完整模型部署资源要求高"
-    ],
-    "modelCount": 1,
-    "sourceFile": "Feishu Bitable"
-  },
-  {
-    "id": "motif-technologies",
-    "displayName": "Motif Technologies",
-    "slug": "motif-technologies",
-    "officialSite": "https://motiftech.io/",
-    "status": "review",
-    "caseLibraryStatus": "platform_only",
-    "positioning": "Motif Technologies 的高效 MoE 模型产品线，当前公开模型为 Motif-3 Beta。",
-    "families": [
-      "Motif"
-    ],
-    "flagshipModels": [
-      "Motif-3 Beta"
-    ],
-    "strengths": [
-      "高效 MoE 架构",
-      "256K 长上下文",
-      "韩语模型研究"
-    ],
-    "risks": [
-      "当前仍为 Beta 中间检查点",
-      "默认许可限制商业使用",
-      "公开真实案例仍不足"
-    ],
-    "modelCount": 1,
-    "sourceFile": "Feishu Bitable"
+    "modelCount": 9,
+    "sourceFile": "../../outputs/vendors/z-ai.md"
   }
 ]

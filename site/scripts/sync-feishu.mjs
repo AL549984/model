@@ -30,7 +30,9 @@ const TARGET_A_CASES = Number(env.MODEL_ATLAS_TARGET_A_CASES ?? 5);
 const LARK_CLI_USER_TOKEN = "__lark_cli_user__";
 const VENDOR_ID_ALIASES = new Map([
   ["bytedance_seed", "bytedance-seed"],
-  ["sakana", "sakana-ai"]
+  ["sakana", "sakana-ai"],
+  ["qwen", "qwen-alibaba"],
+  ["mbzuai-institute-of-foundation-models", "mbzuai-ifm"]
 ]);
 
 function readJson(file) {
@@ -441,8 +443,12 @@ async function listBitableRecords({ token, appToken, tableId }) {
 function updateVendorModelCounts(models) {
   const vendors = readJson("vendors.json");
   const modelCountByVendor = new Map();
+  const modelsByVendor = new Map();
   for (const model of models) {
     modelCountByVendor.set(model.vendorId, (modelCountByVendor.get(model.vendorId) ?? 0) + 1);
+    const list = modelsByVendor.get(model.vendorId) ?? [];
+    list.push(model);
+    modelsByVendor.set(model.vendorId, list);
   }
 
   const nextVendors = vendors.map((vendor) => {
@@ -450,6 +456,36 @@ function updateVendorModelCounts(models) {
     if (Number(vendor.modelCount ?? 0) === modelCount) return vendor;
     return { ...vendor, modelCount };
   });
+
+  const knownVendorIds = new Set(nextVendors.map((vendor) => vendor.id));
+  for (const [vendorId, vendorModels] of modelsByVendor) {
+    if (knownVendorIds.has(vendorId)) continue;
+
+    const displayName = vendorModels.find((model) => hasText(model.vendor))?.vendor ?? vendorId;
+    const officialSite = vendorModels
+      .flatMap((model) => [model.officialLink, ...(model.sources ?? [])])
+      .find((source) => looksLikeUrl(source) && !String(source).includes("artificialanalysis.ai")) ?? "";
+    const modelNames = uniqueList(vendorModels.map((model) => model.name));
+
+    nextVendors.push({
+      id: vendorId,
+      displayName,
+      slug: vendorId,
+      officialSite,
+      status: "review",
+      caseLibraryStatus: "thin",
+      positioning: `${displayName} 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。`,
+      families: modelNames.slice(0, 4),
+      flagshipModels: modelNames.slice(0, 3),
+      strengths: ["已建立独立模型索引", "保留具体版本与 release 后缀"],
+      risks: ["厂商级资料仍待补齐", "真实公开案例仍待核验"],
+      modelCount: vendorModels.length,
+      sourceFile: "Feishu Bitable (auto-created vendor registry)"
+    });
+    knownVendorIds.add(vendorId);
+  }
+
+  nextVendors.sort((a, b) => a.displayName.localeCompare(b.displayName, "en"));
 
   writeJson("vendors.json", nextVendors);
 }
