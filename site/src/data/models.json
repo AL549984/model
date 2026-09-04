@@ -9707,26 +9707,26 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "Qwen3.8 Max：面向长周期自主执行与专业工作的 2.4T MoE 旗舰模型",
-    "summary": "Alibaba / Qwen 的闭源旗舰模型，官方强调编程、办公、专业知识工作、视觉理解和长周期自主执行；官方参数与价格披露仍不完整。",
-    "releaseDate": "2026-08-02",
+    "headline": "Qwen3.8 Max 的 2026-09-02 后训练快照。",
+    "summary": "0902 版本强化 Coding 与 Cowork，支持文本、图像、视频输入及长周期多工具工作流。",
+    "releaseDate": "2026-09-02",
     "modelId": "qwen3-8-max",
-    "context": "官方更新页未披露；Artificial Analysis 记录为 1M tokens（第三方）",
-    "output": "官方未披露 / 待核验",
-    "modality": "文本、图像/视频理解输入；文本输出（精确 API 口径待官方文档核验）",
-    "reasoning": "支持深度思考；具体 reasoning effort 档位待核验",
-    "price": "官方更新页未披露；AA 记录输入 $2/1M、输出 $6/1M tokens（第三方）",
+    "context": "1M；普通模式最大输入 991K，思考模式 983K",
+    "output": "最大 131K tokens",
+    "modality": "文本、图像、视频输入；文本输出",
+    "reasoning": "支持深度思考；最大推理预算 262K",
+    "price": "以 QwenCloud 当前价格页为准",
     "platforms": [
-      "Qwen",
-      "阿里云百炼 API"
+      "QwenCloud",
+      "Responses API"
     ],
-    "officialLink": "https://qwen.ai/blog?id=qwen3.8",
+    "officialLink": "https://www.qwencloud.com/models/qwen3.8-max-0902",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf；当前 Hold，等待足量 A 级真实案例与更多官方 API/价格披露。",
+    "notes": "0902 更新已追加到现有 Qwen3.8 Max Wiki 模型卡。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9736,15 +9736,13 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "长期 Coding Agent",
-      "复杂办公自动化",
-      "长文档与长视频理解",
-      "法律、金融、设计等专业工作流"
+      "大型工程",
+      "长周期 Coding Agent",
+      "企业多工具协作"
     ],
     "avoid": [
-      "要求开源权重或完整训练披露的研究",
-      "未经压测的低延迟高吞吐场景",
-      "无权限隔离的高风险代理操作"
+      "需要开放权重",
+      "对延迟极敏感的简单任务"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
@@ -9754,9 +9752,8 @@
       "完整补齐为 5 条。"
     ],
     "sources": [
-      "https://qwen.ai/blog?id=qwen3.8",
-      "https://help.aliyun.com/zh/model-studio/newly-released-models",
-      "https://artificialanalysis.ai/models/qwen3-8-max",
+      "https://www.qwencloud.com/models/qwen3.8-max-0902",
+      "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf"
     ],
     "sourceFile": "Feishu Bitable"
@@ -9901,6 +9898,366 @@
       "https://help.aliyun.com/zh/model-studio/qwen3-8-2-4t-a95b",
       "https://help.aliyun.com/zh/model-studio/model-pricing",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/LXFEwSnAliz1yWkBNAScLoY4njg"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-fable-5-1",
+    "name": "Claude Fable 5.1",
+    "slug": "claude-fable-5-1",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向长周期编码、知识工作和多应用 Agent 的旗舰模型。",
+    "summary": "与 Claude Mythos 5.1 共享底层能力，并加入网络安全与生物领域的保护及回退机制。",
+    "releaseDate": "2026-09-01",
+    "modelId": "claude-fable-5-1",
+    "context": "官方发布页未披露 / 待核验",
+    "output": "官方发布页未披露 / 待核验",
+    "modality": "文本与图像输入；文本输出",
+    "reasoning": "支持长程推理、工具调用与 Agent 工作流",
+    "price": "$10/MTok 输入；$50/MTok 输出；缓存读取 $0.25/MTok",
+    "platforms": [
+      "Claude",
+      "Claude Platform",
+      "主要云市场"
+    ],
+    "officialLink": "https://www.anthropic.com/claude/fable",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "官方 System Card 已附在对应 Wiki 模型卡。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "复杂代码库",
+      "长周期 Agent",
+      "高价值知识工作"
+    ],
+    "avoid": [
+      "低成本批处理",
+      "必须本地部署"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/claude/fable",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/HXCPw8a5diYdQsknuIjcMTobnMd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "muse-spark-1-2",
+    "name": "Muse Spark 1.2",
+    "slug": "muse-spark-1-2",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Meta 面向代码与 Agent 工作流的 Muse Spark 1.2。",
+    "summary": "强调编程、终端操作和代理任务；未公开参数量、上下文和独立 API 价格。",
+    "releaseDate": "2026-08-05",
+    "modelId": "muse-spark-1-2",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入；文本输出",
+    "reasoning": "代码推理、工具调用与 Agent 工作流",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Meta AI",
+      "Meta Model API"
+    ],
+    "officialLink": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "评测方法原文已链接到对应 Wiki 模型卡。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "代码代理",
+      "终端任务",
+      "工程 PoC"
+    ],
+    "avoid": [
+      "需要开放权重",
+      "依赖完整参数披露"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/XVdzwSIQnimw6ekM7A3cF9vGneh"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "muse-spark-1-3",
+    "name": "Muse Spark 1.3",
+    "slug": "muse-spark-1-3",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "更节省工具调用和 token 的 Muse Spark 1.3。",
+    "summary": "Meta 称其相较 1.2 减少约 20% 工具调用、25% token，用于多模态与 Agent 工作流。",
+    "releaseDate": "2026-09-02",
+    "modelId": "muse-spark-1-3",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "多模态输入；文本输出",
+    "reasoning": "工具调用、Agent 工作流；Max Reasoning 尚未正式开放",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Meta AI",
+      "Meta Model API"
+    ],
+    "officialLink": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "评测方法原文已链接到对应 Wiki 模型卡。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多工具 Agent",
+      "多模态任务",
+      "成本敏感工作流"
+    ],
+    "avoid": [
+      "需要开放权重",
+      "需要稳定 Max Reasoning"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Fu4UwdF24i3Lz5koLD9cDLJwnLf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-7-flash",
+    "name": "Gemini 3.7 Flash",
+    "slug": "gemini-3-7-flash",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向低延迟多模态应用的 Gemini 3.7 Flash。",
+    "summary": "支持 1M 输入上下文和 64K 输出，覆盖文本、图像、音频、视频与 PDF。",
+    "releaseDate": "2026-08-13",
+    "modelId": "gemini-3-7-flash",
+    "context": "1,048,576 tokens",
+    "output": "65,536 tokens",
+    "modality": "文本、图像、音频、视频、PDF 输入；文本输出",
+    "reasoning": "支持 Thinking",
+    "price": "$0.75/MTok 输入；$3.75/MTok 输出",
+    "platforms": [
+      "Gemini API",
+      "Google AI Studio",
+      "Vertex AI"
+    ],
+    "officialLink": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Google DeepMind 官方 Model Card PDF 已附在对应 Wiki 模型卡。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "高吞吐多模态",
+      "长文档",
+      "低延迟应用"
+    ],
+    "avoid": [
+      "要求开放权重",
+      "关键任务无人工复核"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/OKpMw2hwUibKDckTZTFcjzK2n6g"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-8-flash",
+    "name": "Gemini 3.8 Flash",
+    "slug": "gemini-3-8-flash",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 新一代低延迟、高吞吐多模态 Flash 模型。",
+    "summary": "支持 1M 输入上下文、64K 输出与多档 Thinking，已进入 GA。",
+    "releaseDate": "2026-09-02",
+    "modelId": "gemini-3-8-flash",
+    "context": "1,048,576 tokens",
+    "output": "65,536 tokens",
+    "modality": "文本、图像、音频、视频、PDF 输入；文本输出",
+    "reasoning": "Thinking 支持 low、medium、high",
+    "price": "$0.75/MTok 输入；$3.75/MTok 输出",
+    "platforms": [
+      "Gemini API",
+      "Google AI Studio",
+      "Vertex AI"
+    ],
+    "officialLink": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Google DeepMind 官方 Model Card PDF 已附在对应 Wiki 模型卡。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "实时多模态",
+      "长文档",
+      "高吞吐工作流"
+    ],
+    "avoid": [
+      "要求开放权重",
+      "复杂代理任务无权限隔离"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/LrVpwZe9liAMhhkiO0jcfBJHnxc"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "glm-5-3-flash",
+    "name": "GLM-5.3-Flash",
+    "slug": "glm-5-3-flash",
+    "vendorId": "z-ai",
+    "vendor": "Z AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "320B 总参数、18B 激活参数的开源高效推理模型。",
+    "summary": "采用混合稀疏与线性注意力并面向 Coding、Agent 与复杂推理，MIT 许可。",
+    "releaseDate": "2026-08-26",
+    "modelId": "glm-5-3-flash",
+    "context": "官方 Hugging Face 页面未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入；文本输出",
+    "reasoning": "支持复杂推理、代码与 Agent 工作流",
+    "price": "开放权重；托管 API 价格以平台为准",
+    "platforms": [
+      "Hugging Face",
+      "自部署",
+      "Z AI API"
+    ],
+    "officialLink": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "GLM-5 技术报告 PDF 已附在对应 Wiki 模型卡。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开源部署",
+      "代码与 Agent",
+      "研究和二次开发"
+    ],
+    "avoid": [
+      "资源受限的本地设备",
+      "不做安全评估的自主代理"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "https://arxiv.org/abs/2602.15763",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/YEqLwLvFti2Eytkou5gcoSFPnEg"
     ],
     "sourceFile": "Feishu Bitable"
   }

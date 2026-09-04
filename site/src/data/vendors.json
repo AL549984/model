@@ -28,7 +28,7 @@
       "数据保留和 fallback 约束",
       "Fable/Mythos 以外案例仍需补证"
     ],
-    "modelCount": 19,
+    "modelCount": 20,
     "sourceFile": "../../outputs/vendors/anthropic.md"
   },
   {
@@ -94,7 +94,7 @@
       "模型命名和迁移节奏变化快",
       "公开 A 类案例未冻结"
     ],
-    "modelCount": 14,
+    "modelCount": 16,
     "sourceFile": "../../outputs/vendors/google.md"
   },
   {
@@ -257,7 +257,7 @@
       "hosted provider 价格不能混入 Meta 原生页",
       "A 类案例未冻结"
     ],
-    "modelCount": 6,
+    "modelCount": 8,
     "sourceFile": "../../outputs/vendors/meta.md"
   },
   {
@@ -322,7 +322,7 @@
       "Claude-compatible 使用需单独证据行",
       "A 类案例待补证"
     ],
-    "modelCount": 8,
+    "modelCount": 9,
     "sourceFile": "../../outputs/vendors/z-ai.md"
   },
   {
