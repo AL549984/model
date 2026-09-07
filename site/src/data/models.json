@@ -19339,5 +19339,68 @@
       "https://azure.microsoft.com/en-us"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-5-5-pro",
+    "name": "GPT-5.5 Pro",
+    "slug": "gpt-5-5-pro",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "面向高难度任务的高计算预算推理模型",
+    "summary": "GPT-5.5 Pro 是独立于普通 GPT-5.5 的商业推理模型，支持文本及图像输入、文本输出，适用于可接受高成本与异步等待的困难任务。",
+    "releaseDate": "2026-04-23",
+    "modelId": "gpt-5-5-pro",
+    "context": "1,050,000 tokens（官方 API）",
+    "output": "128,000 tokens",
+    "modality": "文本、图像输入；文本输出",
+    "reasoning": "medium / high（默认）/ xhigh",
+    "price": "标准输入 $30 / 输出 $180 每百万 tokens；无缓存输入折扣；区域处理加收 10%",
+    "platforms": [
+      "OpenAI Responses API",
+      "Batch API"
+    ],
+    "officialLink": "https://developers.openai.com/api/docs/models/gpt-5.5-pro",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "AA release.slug 为 gpt-5-5-pro，官方 API ID 为 gpt-5.5-pro；不同于普通 GPT-5.5 的 xhigh effort。保持稳定独立行。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/BVM5wNsjZimqctkfvUXcPTyInPf",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "异步复杂推理",
+      "质量优先的低频分析",
+      "工具调用与结构化结果"
+    ],
+    "avoid": [
+      "实时语音",
+      "低成本高并发",
+      "流式输出要求",
+      "本地部署"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-5.5-pro",
+      "https://openai.com/news/rss.xml",
+      "https://artificialanalysis.ai/models/gpt-5-5-pro",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/BVM5wNsjZimqctkfvUXcPTyInPf"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
