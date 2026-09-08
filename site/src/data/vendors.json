@@ -144,7 +144,7 @@
       "数据保留和 fallback 约束",
       "Fable/Mythos 以外案例仍需补证"
     ],
-    "modelCount": 21,
+    "modelCount": 22,
     "sourceFile": "../../outputs/vendors/anthropic.md"
   },
   {
@@ -428,7 +428,7 @@
       "模型命名和迁移节奏变化快",
       "公开 A 类案例未冻结"
     ],
-    "modelCount": 20,
+    "modelCount": 26,
     "sourceFile": "../../outputs/vendors/google.md"
   },
   {
@@ -740,7 +740,7 @@
       "hosted provider 价格不能混入 Meta 原生页",
       "A 类案例未冻结"
     ],
-    "modelCount": 13,
+    "modelCount": 14,
     "sourceFile": "../../outputs/vendors/meta.md"
   },
   {
@@ -802,7 +802,7 @@
       "M2/M3 版本关系需核验",
       "公开 A 类案例不足"
     ],
-    "modelCount": 5,
+    "modelCount": 6,
     "sourceFile": "../../outputs/vendors/minimax.md"
   },
   {
@@ -1164,7 +1164,7 @@
       "VL/Omni/Coder 案例不能混入通用 Qwen",
       "A 类案例待补证"
     ],
-    "modelCount": 35,
+    "modelCount": 38,
     "sourceFile": "../../outputs/vendors/qwen-alibaba.md"
   },
   {
@@ -1605,7 +1605,7 @@
       "Claude-compatible 使用需单独证据行",
       "A 类案例待补证"
     ],
-    "modelCount": 9,
+    "modelCount": 10,
     "sourceFile": "../../outputs/vendors/z-ai.md"
   }
 ]

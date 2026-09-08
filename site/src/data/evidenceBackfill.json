@@ -9175,6 +9175,68 @@
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
   },
   {
+    "modelId": "claude-sonnet-4-6",
+    "slug": "claude-sonnet-4-6",
+    "modelName": "Claude Sonnet 4.6",
+    "vendorId": "anthropic",
+    "vendor": "Claude",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 6,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Anthropic customer stories",
+      "Anthropic docs model overview",
+      "customer product page or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "Claude Sonnet 4.6 Claude case study customer",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20case%20study%20customer"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude built with GitHub demo",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude production use product blog",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude GitHub README built with",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Claude Sonnet 4.6 Claude 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Claude%20Sonnet%204.6%20Claude%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
     "modelId": "command-a",
     "slug": "command-a",
     "modelName": "Command A",
@@ -9919,6 +9981,68 @@
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
   },
   {
+    "modelId": "gemini-3-5-flash",
+    "slug": "gemini-3-5-flash",
+    "modelName": "Gemini 3.5 Flash",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 8,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemini 3.5 Flash Google case study customer",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20case%20study%20customer"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google production use product blog",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemini 3.5 Flash Google 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemini%203.5%20Flash%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
     "modelId": "gemini-3-5-flash-cyber",
     "slug": "gemini-3-5-flash-cyber",
     "modelName": "Gemini 3.5 Flash Cyber",
@@ -10291,6 +10415,130 @@
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
   },
   {
+    "modelId": "gemma-3-270m",
+    "slug": "gemma-3-270m",
+    "modelName": "Gemma 3 270M",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 6,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemma 3 270M Google case study customer",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20case%20study%20customer"
+      },
+      {
+        "query": "Gemma 3 270M Google built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemma 3 270M Google production use product blog",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemma 3 270M Google model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemma 3 270M Google 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemma 3 270M Google GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemma 3 270M Google B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemma 3 270M Google 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemma%203%20270M%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "gemma-4-12b",
+    "slug": "gemma-4-12b",
+    "modelName": "Gemma 4 12B",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 7,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemma 4 12B Google case study customer",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20case%20study%20customer"
+      },
+      {
+        "query": "Gemma 4 12B Google built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemma 4 12B Google production use product blog",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemma 4 12B Google model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemma 4 12B Google 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemma 4 12B Google GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemma 4 12B Google B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemma 4 12B Google 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemma%204%2012B%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
     "modelId": "gemma-4-26b-a4b",
     "slug": "gemma-4-26b-a4b",
     "modelName": "Gemma 4 26B A4B",
@@ -10348,6 +10596,192 @@
       {
         "query": "Gemma 4 26B A4B Google 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Gemma%204%2026B%20A4B%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "gemma-4-31b",
+    "slug": "gemma-4-31b",
+    "modelName": "Gemma 4 31B",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 5,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemma 4 31B Google case study customer",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20case%20study%20customer"
+      },
+      {
+        "query": "Gemma 4 31B Google built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemma 4 31B Google production use product blog",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemma 4 31B Google model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemma 4 31B Google 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemma 4 31B Google GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemma 4 31B Google B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemma 4 31B Google 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemma%204%2031B%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "gemma-4-e2b",
+    "slug": "gemma-4-e2b",
+    "modelName": "Gemma 4 E2B",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 5,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemma 4 E2B Google case study customer",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20case%20study%20customer"
+      },
+      {
+        "query": "Gemma 4 E2B Google built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemma 4 E2B Google production use product blog",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemma 4 E2B Google model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemma 4 E2B Google 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemma 4 E2B Google GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemma 4 E2B Google B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemma 4 E2B Google 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemma%204%20E2B%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "gemma-4-e4b",
+    "slug": "gemma-4-e4b",
+    "modelName": "Gemma 4 E4B",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 5,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Google Cloud customer stories",
+      "Google AI / DeepMind model docs",
+      "Vertex AI customer implementation"
+    ],
+    "searchQueries": [
+      {
+        "query": "Gemma 4 E4B Google case study customer",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20case%20study%20customer"
+      },
+      {
+        "query": "Gemma 4 E4B Google built with GitHub demo",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Gemma 4 E4B Google production use product blog",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Gemma 4 E4B Google model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Gemma 4 E4B Google 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Gemma 4 E4B Google GitHub README built with",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Gemma 4 E4B Google B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Gemma 4 E4B Google 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Gemma%204%20E4B%20Google%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
@@ -13143,6 +13577,68 @@
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
   },
   {
+    "modelId": "llama-4-scout",
+    "slug": "llama-4-scout",
+    "modelName": "Llama 4 Scout",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 4,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Llama official case studies",
+      "Meta AI model cards",
+      "customer implementation pages"
+    ],
+    "searchQueries": [
+      {
+        "query": "Llama 4 Scout Meta case study customer",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20case%20study%20customer"
+      },
+      {
+        "query": "Llama 4 Scout Meta built with GitHub demo",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Llama 4 Scout Meta production use product blog",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Llama 4 Scout Meta model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Llama 4 Scout Meta 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Llama 4 Scout Meta GitHub README built with",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Llama 4 Scout Meta B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Llama 4 Scout Meta 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Llama%204%20Scout%20Meta%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
     "modelId": "muse-glimmer",
     "slug": "muse-glimmer",
     "modelName": "Muse Glimmer",
@@ -13572,6 +14068,68 @@
       {
         "query": "Phi-4 Multimodal Instruct Microsoft 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=Phi-4%20Multimodal%20Instruct%20Microsoft%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "minimax-m3",
+    "slug": "minimax-m3",
+    "modelName": "MiniMax-M3",
+    "vendorId": "minimax",
+    "vendor": "MiniMax",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 8,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "MiniMax-M3 MiniMax case study customer",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20case%20study%20customer"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax built with GitHub demo",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax production use product blog",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20production%20use%20product%20blog"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax GitHub README built with",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "MiniMax-M3 MiniMax 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=MiniMax-M3%20MiniMax%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
@@ -17731,6 +18289,192 @@
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
   },
   {
+    "modelId": "qwen3-6-27b",
+    "slug": "qwen3-6-27b",
+    "modelName": "Qwen3.6 27B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 4,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.6 27B Qwen case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.6 27B Qwen 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.6%2027B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "qwen3-6-35b-a3b",
+    "slug": "qwen3-6-35b-a3b",
+    "modelName": "Qwen3.6 35B A3B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 7,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.6 35B A3B Qwen case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.6 35B A3B Qwen 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.6%2035B%20A3B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "qwen3-7-plus",
+    "slug": "qwen3-7-plus",
+    "modelName": "Qwen3.7 Plus",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 3,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.7 Plus Qwen case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.7 Plus Qwen 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.7%20Plus%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
     "modelId": "qwen3-8-max",
     "slug": "qwen3-8-max",
     "modelName": "Qwen3.8 Max",
@@ -19834,6 +20578,68 @@
       {
         "query": "GLM-5-Turbo Z AI 微信公众号 使用 案例 产品",
         "url": "https://www.google.com/search?q=GLM-5-Turbo%20Z%20AI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+  },
+  {
+    "modelId": "glm-5-2",
+    "slug": "glm-5-2",
+    "modelName": "GLM-5.2",
+    "vendorId": "z-ai",
+    "vendor": "Z AI",
+    "publishability": "Hold",
+    "aCaseCount": 0,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 6,
+    "score": null,
+    "priority": "P3",
+    "status": "archive_review",
+    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
+    "requiredEvidence": [
+      "当前不进入活跃模型目标线，暂停自动补案例。",
+      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
+    ],
+    "targetSources": [
+      "official release or docs",
+      "customer story or product page",
+      "public repo, demo, PR, video or engineering blog"
+    ],
+    "searchQueries": [
+      {
+        "query": "GLM-5.2 Z AI case study customer",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20case%20study%20customer"
+      },
+      {
+        "query": "GLM-5.2 Z AI built with GitHub demo",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "GLM-5.2 Z AI production use product blog",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20production%20use%20product%20blog"
+      },
+      {
+        "query": "GLM-5.2 Z AI model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "GLM-5.2 Z AI 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "GLM-5.2 Z AI GitHub README built with",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "GLM-5.2 Z AI B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "GLM-5.2 Z AI 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=GLM-5.2%20Z%20AI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"

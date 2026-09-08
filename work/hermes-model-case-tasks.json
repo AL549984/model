@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T04:19:55.143Z",
+  "generatedAt": "2026-09-08T04:28:14.393Z",
   "summary": {
-    "models": 324,
+    "models": 337,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,8 +11,8 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 624,
-    "allModelTargetDeficit": 1040
+    "allModelMinDeficit": 663,
+    "allModelTargetDeficit": 1105
   },
   "tasks": [
     {
@@ -45719,6 +45719,1874 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for minicpm5-2b-dspark >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-claude-sonnet-4-6",
+      "modelId": "claude-sonnet-4-6",
+      "modelName": "Claude Sonnet 4.6",
+      "vendorId": "anthropic",
+      "vendor": "Claude",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/GozRw2xvPiUw98k0w4XcbBCpnAg",
+        "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "https://anthropic.com/claude-sonnet-4-6-system-card",
+        "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+        "https://docs.anthropic.com/en/docs/about-claude/pricing",
+        "https://docs.anthropic.com/en/docs/about-claude/models/model-ids-and-versions",
+        "https://artificialanalysis.ai/models/claude-sonnet-4-6"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Claude Sonnet 4.6 Claude case study customer",
+        "Claude Sonnet 4.6 Claude built with GitHub demo",
+        "Claude Sonnet 4.6 Claude production use product blog",
+        "Claude Sonnet 4.6 Claude model card docs API pricing context window",
+        "Claude Sonnet 4.6 Claude 真实使用 案例 项目 开源",
+        "Claude Sonnet 4.6 Claude GitHub README built with",
+        "Claude Sonnet 4.6 Claude B站 使用 案例 demo",
+        "Claude Sonnet 4.6 Claude 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for claude-sonnet-4-6 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-llama-4-scout",
+      "modelId": "llama-4-scout",
+      "modelName": "Llama 4 Scout",
+      "vendorId": "meta",
+      "vendor": "Meta",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/TRXdwbvemimbIskU8p6cLj5unpc",
+        "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+        "https://huggingface.co/meta-llama/Llama-4-Scout",
+        "https://github.com/meta-llama/llama-models/blob/main/LICENSE",
+        "https://artificialanalysis.ai/models/llama-4-scout"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Llama 4 Scout Meta case study customer",
+        "Llama 4 Scout Meta built with GitHub demo",
+        "Llama 4 Scout Meta production use product blog",
+        "Llama 4 Scout Meta model card docs API pricing context window",
+        "Llama 4 Scout Meta 真实使用 案例 项目 开源",
+        "Llama 4 Scout Meta GitHub README built with",
+        "Llama 4 Scout Meta B站 使用 案例 demo",
+        "Llama 4 Scout Meta 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for llama-4-scout >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-glm-5-2",
+      "modelId": "glm-5-2",
+      "modelName": "GLM-5.2",
+      "vendorId": "z-ai",
+      "vendor": "Z AI",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/GV2UwvYCniqJJZk6DvPckCJ3nSb",
+        "https://docs.z.ai/devpack/latest-model",
+        "https://z.ai/blog/glm-5",
+        "https://github.com/zai-org/GLM-5",
+        "https://huggingface.co/zai-org/GLM-5",
+        "https://z.ai/subscribe",
+        "https://artificialanalysis.ai/models/glm-5-2"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "GLM-5.2 Z AI case study customer",
+        "GLM-5.2 Z AI built with GitHub demo",
+        "GLM-5.2 Z AI production use product blog",
+        "GLM-5.2 Z AI model card docs API pricing context window",
+        "GLM-5.2 Z AI 真实使用 案例 项目 开源",
+        "GLM-5.2 Z AI GitHub README built with",
+        "GLM-5.2 Z AI B站 使用 案例 demo",
+        "GLM-5.2 Z AI 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for glm-5-2 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-qwen3-7-plus",
+      "modelId": "qwen3-7-plus",
+      "modelName": "Qwen3.7 Plus",
+      "vendorId": "qwen-alibaba",
+      "vendor": "Qwen",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/EittwkblsivGvJkeHgSc68gMnNg",
+        "https://qwen.ai/blog?id=qwen3.7-plus",
+        "https://qwen.ai/blog?id=qwen3.7",
+        "https://artificialanalysis.ai/models/qwen3-7-plus"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "Qwen3.7 Plus Qwen case study customer",
+        "Qwen3.7 Plus Qwen built with GitHub demo",
+        "Qwen3.7 Plus Qwen production use product blog",
+        "Qwen3.7 Plus Qwen model card docs API pricing context window",
+        "Qwen3.7 Plus Qwen 真实使用 案例 项目 开源",
+        "Qwen3.7 Plus Qwen GitHub README built with",
+        "Qwen3.7 Plus Qwen B站 使用 案例 demo",
+        "Qwen3.7 Plus Qwen 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for qwen3-7-plus >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-qwen3-6-35b-a3b",
+      "modelId": "qwen3-6-35b-a3b",
+      "modelName": "Qwen3.6 35B A3B",
+      "vendorId": "qwen-alibaba",
+      "vendor": "Qwen",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/K1u1wmS5Ki1wiCkhg2Sc9NAfnCb",
+        "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "https://huggingface.co/Qwen/Qwen3.6-35B-A3B）",
+        "https://github.com/QwenLM/Qwen3.6",
+        "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+        "https://qwen.ai/blog?id=qwen3.6-27b",
+        "https://chat.qwen.ai/",
+        "https://artificialanalysis.ai/models/qwen3-6-35b-a3b"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "Qwen3.6 35B A3B Qwen case study customer",
+        "Qwen3.6 35B A3B Qwen built with GitHub demo",
+        "Qwen3.6 35B A3B Qwen production use product blog",
+        "Qwen3.6 35B A3B Qwen model card docs API pricing context window",
+        "Qwen3.6 35B A3B Qwen 真实使用 案例 项目 开源",
+        "Qwen3.6 35B A3B Qwen GitHub README built with",
+        "Qwen3.6 35B A3B Qwen B站 使用 案例 demo",
+        "Qwen3.6 35B A3B Qwen 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for qwen3-6-35b-a3b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-qwen3-6-27b",
+      "modelId": "qwen3-6-27b",
+      "modelName": "Qwen3.6 27B",
+      "vendorId": "qwen-alibaba",
+      "vendor": "Qwen",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/O4l7wOHNjinMrXkU9tecB0NJnzd",
+        "https://huggingface.co/Qwen/Qwen3.6-27B",
+        "https://github.com/QwenLM/Qwen3.6",
+        "https://qwen.ai/blog?id=qwen3.6-27b",
+        "https://artificialanalysis.ai/models/qwen3-6-27b"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "Qwen3.6 27B Qwen case study customer",
+        "Qwen3.6 27B Qwen built with GitHub demo",
+        "Qwen3.6 27B Qwen production use product blog",
+        "Qwen3.6 27B Qwen model card docs API pricing context window",
+        "Qwen3.6 27B Qwen 真实使用 案例 项目 开源",
+        "Qwen3.6 27B Qwen GitHub README built with",
+        "Qwen3.6 27B Qwen B站 使用 案例 demo",
+        "Qwen3.6 27B Qwen 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for qwen3-6-27b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gemini-3-5-flash",
+      "modelId": "gemini-3-5-flash",
+      "modelName": "Gemini 3.5 Flash",
+      "vendorId": "google",
+      "vendor": "Google",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/IAf6w1E4SiECvOkDVaBceAPkn1f",
+        "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+        "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/（Google",
+        "https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.5",
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://github.com/google-gemini/cookbook",
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://artificialanalysis.ai/models/gemini-3-5-flash"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Gemini 3.5 Flash Google case study customer",
+        "Gemini 3.5 Flash Google built with GitHub demo",
+        "Gemini 3.5 Flash Google production use product blog",
+        "Gemini 3.5 Flash Google model card docs API pricing context window",
+        "Gemini 3.5 Flash Google 真实使用 案例 项目 开源",
+        "Gemini 3.5 Flash Google GitHub README built with",
+        "Gemini 3.5 Flash Google B站 使用 案例 demo",
+        "Gemini 3.5 Flash Google 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gemini-3-5-flash >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gemma-4-31b",
+      "modelId": "gemma-4-31b",
+      "modelName": "Gemma 4 31B",
+      "vendorId": "google",
+      "vendor": "Google",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Zx5ZwlhjPinF0nk3nafcz2Z3nyh",
+        "https://ai.google.dev/gemma/docs/core/model_card_4",
+        "https://deepmind.google/models/gemma/gemma-4",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+        "https://huggingface.co/collections/google/gemma-4",
+        "https://artificialanalysis.ai/models/gemma-4-31b"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Gemma 4 31B Google case study customer",
+        "Gemma 4 31B Google built with GitHub demo",
+        "Gemma 4 31B Google production use product blog",
+        "Gemma 4 31B Google model card docs API pricing context window",
+        "Gemma 4 31B Google 真实使用 案例 项目 开源",
+        "Gemma 4 31B Google GitHub README built with",
+        "Gemma 4 31B Google B站 使用 案例 demo",
+        "Gemma 4 31B Google 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gemma-4-31b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gemma-4-12b",
+      "modelId": "gemma-4-12b",
+      "modelName": "Gemma 4 12B",
+      "vendorId": "google",
+      "vendor": "Google",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/UvqpwwWI9i7AckkBDPlcvFbFnq6",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+        "https://huggingface.co/litert-community/gemma-4-12B-it-litert-lm",
+        "https://huggingface.co/google/gemma-4-12B-it",
+        "https://ai.google.dev/edge/litert-lm/cli",
+        "https://ai.google.dev/edge/litert-lm/overview",
+        "https://ai.google.dev/edge/eloquent",
+        "https://artificialanalysis.ai/models/gemma-4-12b"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Gemma 4 12B Google case study customer",
+        "Gemma 4 12B Google built with GitHub demo",
+        "Gemma 4 12B Google production use product blog",
+        "Gemma 4 12B Google model card docs API pricing context window",
+        "Gemma 4 12B Google 真实使用 案例 项目 开源",
+        "Gemma 4 12B Google GitHub README built with",
+        "Gemma 4 12B Google B站 使用 案例 demo",
+        "Gemma 4 12B Google 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gemma-4-12b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gemma-4-e4b",
+      "modelId": "gemma-4-e4b",
+      "modelName": "Gemma 4 E4B",
+      "vendorId": "google",
+      "vendor": "Google",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/XGqmwqqjhiso0PkD1GhcrbdInod",
+        "https://ai.google.dev/gemma/docs/core/model_card_4",
+        "https://deepmind.google/models/gemma/gemma-4",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+        "https://huggingface.co/collections/google/gemma-4",
+        "https://artificialanalysis.ai/models/gemma-4-e4b"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Gemma 4 E4B Google case study customer",
+        "Gemma 4 E4B Google built with GitHub demo",
+        "Gemma 4 E4B Google production use product blog",
+        "Gemma 4 E4B Google model card docs API pricing context window",
+        "Gemma 4 E4B Google 真实使用 案例 项目 开源",
+        "Gemma 4 E4B Google GitHub README built with",
+        "Gemma 4 E4B Google B站 使用 案例 demo",
+        "Gemma 4 E4B Google 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gemma-4-e4b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gemma-4-e2b",
+      "modelId": "gemma-4-e2b",
+      "modelName": "Gemma 4 E2B",
+      "vendorId": "google",
+      "vendor": "Google",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/PBQcwRxRQibxc1kfmzrcBDDIniU",
+        "https://ai.google.dev/gemma/docs/core/model_card_4",
+        "https://deepmind.google/models/gemma/gemma-4",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+        "https://huggingface.co/collections/google/gemma-4",
+        "https://artificialanalysis.ai/models/gemma-4-e2b"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Gemma 4 E2B Google case study customer",
+        "Gemma 4 E2B Google built with GitHub demo",
+        "Gemma 4 E2B Google production use product blog",
+        "Gemma 4 E2B Google model card docs API pricing context window",
+        "Gemma 4 E2B Google 真实使用 案例 项目 开源",
+        "Gemma 4 E2B Google GitHub README built with",
+        "Gemma 4 E2B Google B站 使用 案例 demo",
+        "Gemma 4 E2B Google 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gemma-4-e2b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gemma-3-270m",
+      "modelId": "gemma-3-270m",
+      "modelName": "Gemma 3 270M",
+      "vendorId": "google",
+      "vendor": "Google",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/SqhkwqQxJid8ZFk7IXEchO5wnph",
+        "https://ai.google.dev/gemma/docs/core/model_card_3",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3",
+        "https://ai.google.dev/gemma/docs/core",
+        "https://huggingface.co/collections/google/gemma-3",
+        "https://huggingface.co/google/gemma-3-270m-it",
+        "https://artificialanalysis.ai/models/gemma-3-270m"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Gemma 3 270M Google case study customer",
+        "Gemma 3 270M Google built with GitHub demo",
+        "Gemma 3 270M Google production use product blog",
+        "Gemma 3 270M Google model card docs API pricing context window",
+        "Gemma 3 270M Google 真实使用 案例 项目 开源",
+        "Gemma 3 270M Google GitHub README built with",
+        "Gemma 3 270M Google B站 使用 案例 demo",
+        "Gemma 3 270M Google 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gemma-3-270m >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-minimax-m3",
+      "modelId": "minimax-m3",
+      "modelName": "MiniMax-M3",
+      "vendorId": "minimax",
+      "vendor": "MiniMax",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/C6lIwxKS2i63tAkqlkVcETDunrg",
+        "https://www.minimax.io/blog/minimax-m3",
+        "https://platform.minimax.io/docs/release-notes/models",
+        "https://platform.minimax.io/docs/guides/models-intro",
+        "https://platform.minimax.io/docs/guides/text-ai-coding-tools",
+        "https://platform.minimax.io/docs/guides/pricing-paygo",
+        "https://platform.minimax.io/docs/guides/pricing-token-plan",
+        "https://platform.minimax.io/docs/llms.txt",
+        "https://artificialanalysis.ai/models/minimax-m3"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "MiniMax-M3 MiniMax case study customer",
+        "MiniMax-M3 MiniMax built with GitHub demo",
+        "MiniMax-M3 MiniMax production use product blog",
+        "MiniMax-M3 MiniMax model card docs API pricing context window",
+        "MiniMax-M3 MiniMax 真实使用 案例 项目 开源",
+        "MiniMax-M3 MiniMax GitHub README built with",
+        "MiniMax-M3 MiniMax B站 使用 案例 demo",
+        "MiniMax-M3 MiniMax 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for minimax-m3 >= 5",
         "requiredFields": [
           "case_id",
           "case_title",
