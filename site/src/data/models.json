@@ -19402,5 +19402,295 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/BVM5wNsjZimqctkfvUXcPTyInPf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minicpm5-2b",
+    "name": "MiniCPM5-2B",
+    "slug": "minicpm5-2b",
+    "vendorId": "openbmb",
+    "vendor": "OpenBMB",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniCPM5-2B：端侧2B级稠密语言模型",
+    "summary": "官方2026-09-07发布，采用分级数据管理和SFT/RL/OPD后训练。",
+    "releaseDate": "2026-09-07",
+    "modelId": "minicpm5-2b",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本",
+    "reasoning": "官方示例支持thinking",
+    "price": "官方未披露 / 待核验；本地部署成本另计",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "本地部署"
+    ],
+    "officialLink": "https://github.com/OpenBMB/MiniCPM",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B；AA release.slug=minicpm5-2b。阶段单独上传时刻待核验。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "端侧部署研究"
+    ],
+    "avoid": [
+      "未经评测的高风险生产自动化"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM",
+      "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/E9quwBgooi48MTkyvVqcJLlPnPe"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minicpm5-2b-base",
+    "name": "MiniCPM5-2B-Base",
+    "slug": "minicpm5-2b-base",
+    "vendorId": "openbmb",
+    "vendor": "OpenBMB",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniCPM5-2B-Base：独立训练检查点或解码组件",
+    "summary": "官方同页提供的独立Base权重；不等同于最终模型评测结果。",
+    "releaseDate": "2026-09-07",
+    "modelId": "minicpm5-2b-base",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本",
+    "reasoning": "独立配置官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验；本地部署成本另计",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "本地部署"
+    ],
+    "officialLink": "https://github.com/OpenBMB/MiniCPM",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-Base；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "训练阶段或投机解码研究"
+    ],
+    "avoid": [
+      "未经评测的高风险生产自动化"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-Base",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QyUfwGJzKiOjO6kAZJocHRXxnH4"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minicpm5-2b-midtrain",
+    "name": "MiniCPM5-2B-Midtrain",
+    "slug": "minicpm5-2b-midtrain",
+    "vendorId": "openbmb",
+    "vendor": "OpenBMB",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniCPM5-2B-Midtrain：独立训练检查点或解码组件",
+    "summary": "官方同页提供的独立Midtrain权重；不等同于最终模型评测结果。",
+    "releaseDate": "2026-09-07",
+    "modelId": "minicpm5-2b-midtrain",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本",
+    "reasoning": "独立配置官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验；本地部署成本另计",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "本地部署"
+    ],
+    "officialLink": "https://github.com/OpenBMB/MiniCPM",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-Midtrain；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "训练阶段或投机解码研究"
+    ],
+    "avoid": [
+      "未经评测的高风险生产自动化"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-Midtrain",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/U02vwqcsciLAGZk2IDHcaAH3nth"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minicpm5-2b-sft",
+    "name": "MiniCPM5-2B-SFT",
+    "slug": "minicpm5-2b-sft",
+    "vendorId": "openbmb",
+    "vendor": "OpenBMB",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniCPM5-2B-SFT：独立训练检查点或解码组件",
+    "summary": "官方同页提供的独立SFT权重；不等同于最终模型评测结果。",
+    "releaseDate": "2026-09-07",
+    "modelId": "minicpm5-2b-sft",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本",
+    "reasoning": "独立配置官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验；本地部署成本另计",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "本地部署"
+    ],
+    "officialLink": "https://github.com/OpenBMB/MiniCPM",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-SFT；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "训练阶段或投机解码研究"
+    ],
+    "avoid": [
+      "未经评测的高风险生产自动化"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-SFT",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/MzF0wW8ruiBUjMkYXfTcavD3nFc"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minicpm5-2b-dspark",
+    "name": "MiniCPM5-2B-DSpark",
+    "slug": "minicpm5-2b-dspark",
+    "vendorId": "openbmb",
+    "vendor": "OpenBMB",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniCPM5-2B-DSpark：独立训练检查点或解码组件",
+    "summary": "官方同页提供的独立DSpark权重；不等同于最终模型评测结果。",
+    "releaseDate": "2026-09-07",
+    "modelId": "minicpm5-2b-dspark",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本",
+    "reasoning": "独立配置官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验；本地部署成本另计",
+    "platforms": [
+      "Hugging Face",
+      "ModelScope",
+      "本地部署"
+    ],
+    "officialLink": "https://github.com/OpenBMB/MiniCPM",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-DSpark；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "训练阶段或投机解码研究"
+    ],
+    "avoid": [
+      "未经评测的高风险生产自动化"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://github.com/OpenBMB/MiniCPM",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/P3kww1K1SirUMRkwpbzctkHJnKc"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
