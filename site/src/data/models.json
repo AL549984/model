@@ -3674,7 +3674,7 @@
   {
     "id": "k2-v2-high",
     "name": "K2-V2 (high)",
-    "slug": "k2-v2-high",
+    "slug": "k2-v2",
     "vendorId": "mbzuai-ifm",
     "vendor": "MBZUAI IFM / K2",
     "publishability": "Archive",
@@ -5231,7 +5231,7 @@
   {
     "id": "gpt-5-3-codex-xhigh",
     "name": "GPT-5.3 Codex (xhigh)",
-    "slug": "gpt-5-3-codex-xhigh",
+    "slug": "gpt-5-3-codex",
     "vendorId": "openai",
     "vendor": "OpenAI",
     "publishability": "Publishable",
@@ -5673,7 +5673,7 @@
   {
     "id": "mimo-v2-flash-feb-2026",
     "name": "MiMo-V2-Flash (Feb 2026)",
-    "slug": "mimo-v2-flash-feb-2026",
+    "slug": "mimo-v2-0206",
     "vendorId": "xiaomi",
     "vendor": "Xiaomi / MiMo",
     "publishability": "Publishable",
@@ -6607,7 +6607,7 @@
   {
     "id": "grok-4-3-high",
     "name": "Grok 4.3 (high)",
-    "slug": "grok-4-3-high",
+    "slug": "grok-4-3",
     "vendorId": "xai",
     "vendor": "xAI / Grok",
     "publishability": "Publishable",
@@ -8066,7 +8066,7 @@
   {
     "id": "gemini-35-flash-lite",
     "name": "Gemini 3.5 Flash-Lite",
-    "slug": "gemini-35-flash-lite",
+    "slug": "gemini-3-5-flash-lite",
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
@@ -8127,7 +8127,7 @@
   {
     "id": "claude-haiku-4-5",
     "name": "Claude Haiku 4.5",
-    "slug": "claude-haiku-4-5",
+    "slug": "claude-4-5-haiku",
     "vendorId": "anthropic",
     "vendor": "Anthropic",
     "publishability": "Hold",
@@ -8494,7 +8494,7 @@
   {
     "id": "solar-open-2",
     "name": "Solar Open 2",
-    "slug": "solar-open-2",
+    "slug": "solar-open2-250b",
     "vendorId": "upstage",
     "vendor": "Upstage",
     "publishability": "Hold",
@@ -9144,7 +9144,7 @@
   {
     "id": "ax-k2",
     "name": "A.X-K2",
-    "slug": "ax-k2",
+    "slug": "a-x-k2",
     "vendorId": "sk-telecom",
     "vendor": "SK Telecom",
     "publishability": "Hold",
@@ -9272,7 +9272,7 @@
   {
     "id": "motif-3-beta",
     "name": "Motif-3 Beta",
-    "slug": "motif-3-beta",
+    "slug": "motif-0714",
     "vendorId": "motif-technologies",
     "vendor": "Motif Technologies",
     "publishability": "Hold",

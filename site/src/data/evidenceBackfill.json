@@ -4364,7 +4364,7 @@
   },
   {
     "modelId": "gpt-5-3-codex-xhigh",
-    "slug": "gpt-5-3-codex-xhigh",
+    "slug": "gpt-5-3-codex",
     "modelName": "GPT-5.3 Codex (xhigh)",
     "vendorId": "openai",
     "vendor": "OpenAI",
@@ -6455,7 +6455,7 @@
   },
   {
     "modelId": "grok-4-3-high",
-    "slug": "grok-4-3-high",
+    "slug": "grok-4-3",
     "modelName": "Grok 4.3 (high)",
     "vendorId": "xai",
     "vendor": "xAI / Grok",
@@ -6639,7 +6639,7 @@
   },
   {
     "modelId": "mimo-v2-flash-feb-2026",
-    "slug": "mimo-v2-flash-feb-2026",
+    "slug": "mimo-v2-0206",
     "modelName": "MiMo-V2-Flash (Feb 2026)",
     "vendorId": "xiaomi",
     "vendor": "Xiaomi / MiMo",
@@ -8184,7 +8184,7 @@
   },
   {
     "modelId": "claude-haiku-4-5",
-    "slug": "claude-haiku-4-5",
+    "slug": "claude-4-5-haiku",
     "modelName": "Claude Haiku 4.5",
     "vendorId": "anthropic",
     "vendor": "Anthropic",
@@ -10106,7 +10106,7 @@
   },
   {
     "modelId": "gemini-35-flash-lite",
-    "slug": "gemini-35-flash-lite",
+    "slug": "gemini-3-5-flash-lite",
     "modelName": "Gemini 3.5 Flash-Lite",
     "vendorId": "google",
     "vendor": "Google",
@@ -13206,7 +13206,7 @@
   },
   {
     "modelId": "k2-v2-high",
-    "slug": "k2-v2-high",
+    "slug": "k2-v2",
     "modelName": "K2-V2 (high)",
     "vendorId": "mbzuai-ifm",
     "vendor": "MBZUAI IFM / K2",
@@ -14880,7 +14880,7 @@
   },
   {
     "modelId": "motif-3-beta",
-    "slug": "motif-3-beta",
+    "slug": "motif-0714",
     "modelName": "Motif-3 Beta",
     "vendorId": "motif-technologies",
     "vendor": "Motif Technologies",
@@ -19406,7 +19406,7 @@
   },
   {
     "modelId": "ax-k2",
-    "slug": "ax-k2",
+    "slug": "a-x-k2",
     "modelName": "A.X-K2",
     "vendorId": "sk-telecom",
     "vendor": "SK Telecom",
@@ -19964,7 +19964,7 @@
   },
   {
     "modelId": "solar-open-2",
-    "slug": "solar-open-2",
+    "slug": "solar-open2-250b",
     "modelName": "Solar Open 2",
     "vendorId": "upstage",
     "vendor": "Upstage",
