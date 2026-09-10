@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T04:28:14.393Z",
+  "generatedAt": "2026-09-10T13:57:52.034Z",
   "summary": {
     "models": 337,
     "activeModels": 116,
@@ -15658,9 +15658,9 @@
         "maxCandidatesPerRun": 24
       },
       "officialSources": [
-        "https://seed.bytedance.com/en/",
-        "https://github.com/ByteDance-Seed",
         "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
+        "https://seed.bytedance.com/en/seed2_1",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/N2fNwFtu6i1np8k7YnaclYEvnpf",
         "https://arena.ai/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
       ],

@@ -6976,18 +6976,19 @@
     "publishability": "Publishable",
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
-    "headline": "Seed-2.1-Pro-Preview 是 Seed2.1 Pro 正式版前的公开试用版",
-    "summary": "Seed-2.1-Pro-Preview 在 Arena AI 平台公开试用，为正式版发布前的预览版本。",
-    "releaseDate": "2026-06",
+    "headline": "Seed-2.1-Pro-Preview 代码能力预览模型",
+    "summary": "ByteDance Seed 于 2026-06-19 发布于 Arena AI Code arena 的预览模型。",
+    "releaseDate": "2026-06-19",
     "modelId": "seed-2-1-pro-preview",
-    "context": "官方未披露",
-    "output": "官方未披露",
-    "modality": "文本+图像+视频",
-    "reasoning": "标准模式",
-    "price": "官方未披露",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
     "platforms": [
-      "ByteDance Seed",
-      "Arena AI"
+      "Arena AI",
+      "Feishu Spark（官方称后续提供）",
+      "Coze（官方称后续提供）"
     ],
     "officialLink": "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
     "score": null,
@@ -6995,7 +6996,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/N2fNwFtu6i1np8k7YnaclYEvnpf",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -7005,15 +7006,13 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "作为完整模型索引和厂商路线追踪入口",
-      "推理/agentic workflow 候选",
+      "代码能力早期体验与受控评估",
       "早期试用者",
       "模型评估",
       "Arena 排行榜参与者"
     ],
     "avoid": [
-      "缺少真实案例时不要包装成推荐",
-      "缺字段时不要脑补价格、性能或上下文",
+      "不应将预览版当作 GA 或据未披露字段进行推断",
       "生产环境部署",
       "需要稳定API的场景"
     ],
@@ -7028,9 +7027,9 @@
       "缺失字段在页面中以“暂无数据 / 官方未披露”显示。"
     ],
     "sources": [
-      "https://seed.bytedance.com/en/",
-      "https://github.com/ByteDance-Seed",
       "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
+      "https://seed.bytedance.com/en/seed2_1",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/N2fNwFtu6i1np8k7YnaclYEvnpf",
       "https://arena.ai/",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
     ],
