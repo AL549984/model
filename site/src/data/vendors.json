@@ -395,7 +395,7 @@
       "API alias 和模型版本需要逐条核验",
       "部署来源差异较大"
     ],
-    "modelCount": 18,
+    "modelCount": 19,
     "sourceFile": "../../outputs/vendors/deepseek.md"
   },
   {

@@ -20480,5 +20480,61 @@
       "https://artificialanalysis.ai/models/minimax-m3"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "deepseek-v4.1-flash",
+    "name": "DeepSeek-V4.1-Flash",
+    "slug": "deepseek-v4.1-flash",
+    "vendorId": "deepseek",
+    "vendor": "DeepSeek",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "DeepSeek 新架构家族最小成员，原生多模态视觉理解，1M 上下文，API 定价大幅下调",
+    "summary": "DeepSeek-V4.1-Flash 是深度求索于 2026-09-10 发布的新一代架构轻量模型，原生支持多模态视觉理解，定位为新架构家族中最小成员，兼顾高推理能力上限、更快推理速度和更高吞吐量。GPQA Diamond 90.9，Codeforces Rating 3471，支持 Thinking/Non-thinking 双模式。",
+    "releaseDate": "2026-09-10",
+    "modelId": "deepseek-v4.1-flash",
+    "context": "1000000",
+    "output": "384000",
+    "modality": "text, image",
+    "reasoning": "true",
+    "price": "Input $0.15/1M (off-peak, cache miss), $0.003/1M (cache hit); Output $0.6/1M (off-peak). Peak double.",
+    "platforms": [
+      "DeepSeek API"
+    ],
+    "officialLink": "https://api-docs.deepseek.com/updates",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "新架构家族最小成员，暗示后续更大模型在开发中。V4 Pro 继续提供 API 服务但无新版本计划。HuggingFace 仅有社区量化版本。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者、Agent 应用、长文档处理、成本敏感用户"
+    ],
+    "avoid": [
+      "需要本地部署或微调的场景、需要闭源模型完全透明的场景"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://api-docs.deepseek.com/updates",
+      "https://api-docs.deepseek.com/quick_start/pricing",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/F8SCwCm5LiapAYkppqAc0cCOnnb"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
