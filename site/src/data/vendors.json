@@ -144,7 +144,7 @@
       "数据保留和 fallback 约束",
       "Fable/Mythos 以外案例仍需补证"
     ],
-    "modelCount": 23,
+    "modelCount": 24,
     "sourceFile": "../../outputs/vendors/anthropic.md"
   },
   {
@@ -1054,7 +1054,7 @@
       "案例库缺少 A 类公开证据",
       "effort/variant 容易被误建成独立模型"
     ],
-    "modelCount": 27,
+    "modelCount": 29,
     "sourceFile": "../../outputs/vendors/openai.md"
   },
   {

@@ -20596,5 +20596,174 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/GltXwJM6hiT8l9k7aUQcdVhenkd"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-6-sol",
+    "name": "GPT-6 Sol",
+    "slug": "gpt-6-sol",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "GPT-6 Sol 独立模型版本",
+    "summary": "OpenAI GPT-6 Sol，2026-09-22 发布。",
+    "releaseDate": "2026-09-22",
+    "modelId": "gpt-6-sol",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "OpenAI API"
+    ],
+    "officialLink": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/R6FjwTMiBiUM49kEEzhciJlnnUf",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者、企业、研究团队"
+    ],
+    "avoid": [
+      "需明确价格和能力口径的场景应先核验官方文档"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/R6FjwTMiBiUM49kEEzhciJlnnUf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-6-luna",
+    "name": "GPT-6 Luna",
+    "slug": "gpt-6-luna",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "GPT-6 Luna 独立模型版本",
+    "summary": "OpenAI GPT-6 Luna，2026-09-22 发布。",
+    "releaseDate": "2026-09-22",
+    "modelId": "gpt-6-luna",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "OpenAI API"
+    ],
+    "officialLink": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/Qd1qwusAhiaikwkq75cc81AqnRd",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者、企业、研究团队"
+    ],
+    "avoid": [
+      "需明确价格和能力口径的场景应先核验官方文档"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Qd1qwusAhiaikwkq75cc81AqnRd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-sonnet-5-5",
+    "name": "Claude Sonnet 5.5",
+    "slug": "claude-sonnet-5-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Claude Sonnet 5.5 速度与效率升级",
+    "summary": "Anthropic Claude Sonnet 5.5，2026-09-28 发布。",
+    "releaseDate": "2026-09-28",
+    "modelId": "claude-sonnet-5-5",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "输入 $2/百万 tokens；输出 $10/百万 tokens；缓存写入 $0.20/百万 tokens",
+    "platforms": [
+      "Anthropic API",
+      "Claude"
+    ],
+    "officialLink": "https://www.anthropic.com/claude-sonnet-5-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/BdA0wKqVxii8PFkzZUtcNfYBntc",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者、企业智能体、编码助手"
+    ],
+    "avoid": [
+      "高风险场景需自行安全评估"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/claude-sonnet-5-5",
+      "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/BdA0wKqVxii8PFkzZUtcNfYBntc"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
