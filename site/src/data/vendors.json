@@ -428,7 +428,7 @@
       "模型命名和迁移节奏变化快",
       "公开 A 类案例未冻结"
     ],
-    "modelCount": 26,
+    "modelCount": 34,
     "sourceFile": "../../outputs/vendors/google.md"
   },
   {
@@ -802,7 +802,7 @@
       "M2/M3 版本关系需核验",
       "公开 A 类案例不足"
     ],
-    "modelCount": 6,
+    "modelCount": 7,
     "sourceFile": "../../outputs/vendors/minimax.md"
   },
   {
@@ -1054,7 +1054,7 @@
       "案例库缺少 A 类公开证据",
       "effort/variant 容易被误建成独立模型"
     ],
-    "modelCount": 29,
+    "modelCount": 30,
     "sourceFile": "../../outputs/vendors/openai.md"
   },
   {
@@ -1321,7 +1321,7 @@
       "公开真实案例仍不足",
       "完整模型部署资源要求高"
     ],
-    "modelCount": 2,
+    "modelCount": 3,
     "sourceFile": "Feishu Bitable"
   },
   {
@@ -1350,7 +1350,7 @@
       "价格和模型可用性需定期更新",
       "案例库待补证"
     ],
-    "modelCount": 2,
+    "modelCount": 3,
     "sourceFile": "../../outputs/vendors/stepfun.md"
   },
   {
@@ -1542,7 +1542,7 @@
       "媒体输出涉及 IP/肖像风险",
       "Build/Imagine/Voice 不能混成通用聊天模型"
     ],
-    "modelCount": 10,
+    "modelCount": 11,
     "sourceFile": "../../outputs/vendors/xai.md"
   },
   {
@@ -1605,7 +1605,7 @@
       "Claude-compatible 使用需单独证据行",
       "A 类案例待补证"
     ],
-    "modelCount": 10,
+    "modelCount": 11,
     "sourceFile": "../../outputs/vendors/z-ai.md"
   }
 ]

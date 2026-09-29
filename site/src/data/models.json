@@ -20765,5 +20765,775 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/BdA0wKqVxii8PFkzZUtcNfYBntc"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "chatgpt-images-2-5",
+    "name": "ChatGPT Images 2.5",
+    "slug": "chatgpt-images-2-5",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "OpenAI 在 ChatGPT 中发布的新一代图像生成与编辑能力，面向更高质量、可控的视觉创作。",
+    "summary": "OpenAI 在 ChatGPT 中发布的新一代图像生成与编辑能力，面向更高质量、可控的视觉创作。",
+    "releaseDate": "2026-09-08",
+    "modelId": "chatgpt-images-2-5",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本/图像输入，图像输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "OpenAI"
+    ],
+    "officialLink": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/SESbwXiVYi8AWNkW4vScyUPWn5j",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "图像生成与编辑模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/SESbwXiVYi8AWNkW4vScyUPWn5j"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-4-7",
+    "name": "Grok 4.7",
+    "slug": "grok-4-7",
+    "vendorId": "xai",
+    "vendor": "xAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "xAI 当前旗舰模型，面向代码、通用任务、Agent 工具调用与可配置推理。",
+    "summary": "xAI 当前旗舰模型，面向代码、通用任务、Agent 工具调用与可配置推理。",
+    "releaseDate": "2026-09-21",
+    "modelId": "grok-4-7",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入输出；其他模态以官方接口文档为准",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "xAI"
+    ],
+    "officialLink": "https://docs.x.ai/developers/models",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Nc5YwNKLviS7GNkctFzcH6u0nQC",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "通用推理与 Agent 模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://docs.x.ai/developers/models",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Nc5YwNKLviS7GNkctFzcH6u0nQC"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "step-5-preview",
+    "name": "Step 5 Preview",
+    "slug": "step-5-preview",
+    "vendorId": "stepfun",
+    "vendor": "StepFun",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "阶跃星辰面向复杂工作和 Agent 任务的新旗舰预览模型。",
+    "summary": "阶跃星辰面向复杂工作和 Agent 任务的新旗舰预览模型。",
+    "releaseDate": "2026-09-23",
+    "modelId": "step-5-preview",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、图像输入，文本输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "StepFun"
+    ],
+    "officialLink": "https://www.stepfun.com/step-5-preview",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "稀疏 MoE 多模态 Agent 模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.stepfun.com/step-5-preview",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minimax-m3-1-flash-preview",
+    "name": "MiniMax M3.1 Flash Preview",
+    "slug": "minimax-m3-1-flash-preview",
+    "vendorId": "minimax",
+    "vendor": "MiniMax",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniMax 面向日常开发任务推出的高速 M3.1 Flash 预览型号。",
+    "summary": "MiniMax 面向日常开发任务推出的高速 M3.1 Flash 预览型号。",
+    "releaseDate": "2026-09-27",
+    "modelId": "minimax-m3-1-flash-preview",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、图像、视频输入，文本输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "MiniMax"
+    ],
+    "officialLink": "https://platform.minimax.io/docs/guides/models-intro",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EQlBweAxii3VjVk3J4QcHiG4ndy",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多模态编程与 Agent 模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://platform.minimax.io/docs/guides/models-intro",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/EQlBweAxii3VjVk3J4QcHiG4ndy"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "glm-5-3-flashx",
+    "name": "GLM-5.3-FlashX",
+    "slug": "glm-5-3-flashx",
+    "vendorId": "z-ai",
+    "vendor": "Z AI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Z AI 在 GLM-5.3 Flash 基础上提供的高速独立服务型号。",
+    "summary": "Z AI 在 GLM-5.3 Flash 基础上提供的高速独立服务型号。",
+    "releaseDate": "暂无数据",
+    "modelId": "glm-5-3-flashx",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "多模态输入，文本输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Z AI"
+    ],
+    "officialLink": "https://docs.z.ai/guides/overview/overview",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "高速多模态推理模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://docs.z.ai/guides/overview/overview",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "a-x-k2-alm",
+    "name": "A.X-K2-ALM",
+    "slug": "a-x-k2-alm",
+    "vendorId": "sk-telecom",
+    "vendor": "SK Telecom",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "SK Telecom A.X-K2 家族中带 ALM 语义后缀的独立官方权重版本。",
+    "summary": "SK Telecom A.X-K2 家族中带 ALM 语义后缀的独立官方权重版本。",
+    "releaseDate": "2026-07-23",
+    "modelId": "a-x-k2-alm",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "SK Telecom"
+    ],
+    "officialLink": "https://huggingface.co/skt/A.X-K2-ALM",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NOyXwNIB4iDSIEk0CiocqlBTnmb",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "对齐语言模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/skt/A.X-K2-ALM",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NOyXwNIB4iDSIEk0CiocqlBTnmb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-8-live",
+    "name": "Gemini 3.8 Live",
+    "slug": "gemini-3-8-live",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 面向低延迟语音 Agent 的 Gemini 3.8 稳定实时模型。",
+    "summary": "Google 面向低延迟语音 Agent 的 Gemini 3.8 稳定实时模型。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-3-8-live",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "实时音频/多模态输入输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MbHEwTcy0iGI4pkryu2cGDtkn7b",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "实时语音 Agent 模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/MbHEwTcy0iGI4pkryu2cGDtkn7b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-8-live-extended-thinking",
+    "name": "Gemini 3.8 Live Extended Thinking",
+    "slug": "gemini-3-8-live-extended-thinking",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Gemini 3.8 Live 家族中面向更高后台推理强度的独立稳定型号。",
+    "summary": "Gemini 3.8 Live 家族中面向更高后台推理强度的独立稳定型号。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-3-8-live-extended-thinking",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "实时音频/多模态输入输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OxjVw4BEWiVFWCkLcv1cZrXtnXf",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "实时语音推理模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/OxjVw4BEWiVFWCkLcv1cZrXtnXf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-8-flash-tts",
+    "name": "Gemini 3.8 Flash TTS",
+    "slug": "gemini-3-8-flash-tts",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 面向录音棚级语音保真、表达控制和声音设计的旗舰 TTS 模型。",
+    "summary": "Google 面向录音棚级语音保真、表达控制和声音设计的旗舰 TTS 模型。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-3-8-flash-tts",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入，音频输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IJyrwnqaXizNenk52fncjMZhnph",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "文本转语音模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/IJyrwnqaXizNenk52fncjMZhnph"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-8-flash-lite-tts",
+    "name": "Gemini 3.8 Flash-Lite TTS",
+    "slug": "gemini-3-8-flash-lite-tts",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 面向高吞吐、低成本生产任务的 Gemini 3.8 Flash-Lite TTS 稳定型号。",
+    "summary": "Google 面向高吞吐、低成本生产任务的 Gemini 3.8 Flash-Lite TTS 稳定型号。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-3-8-flash-lite-tts",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本输入，音频输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/X2xvw3o5finIuDk7e8ncnxYVnGb",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "高吞吐文本转语音模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/X2xvw3o5finIuDk7e8ncnxYVnGb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-5-transcribe",
+    "name": "Gemini 3.5 Transcribe",
+    "slug": "gemini-3-5-transcribe",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 面向低延迟转写、说话人分离和词级时间戳的稳定语音识别模型。",
+    "summary": "Google 面向低延迟转写、说话人分离和词级时间戳的稳定语音识别模型。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-3-5-transcribe",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "音频输入，文本输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JqxnwkkyAiyZEskruADcg4kOnUc",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "语音转文字模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/JqxnwkkyAiyZEskruADcg4kOnUc"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "antigravity-agent",
+    "name": "Antigravity Agent",
+    "slug": "antigravity-agent",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 提供的通用托管 Agent，可在隔离 Linux 环境中规划、运行代码、管理文件和浏览网页。",
+    "summary": "Google 提供的通用托管 Agent，可在隔离 Linux 环境中规划、运行代码、管理文件和浏览网页。",
+    "releaseDate": "2026-09",
+    "modelId": "antigravity-agent",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、文件、代码与网页环境",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JUWCwhu9biqkXLkWK7vcG5bBnif",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "托管通用 Agent"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/JUWCwhu9biqkXLkWK7vcG5bBnif"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-embedding-2",
+    "name": "Gemini Embedding 2",
+    "slug": "gemini-embedding-2",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 将多种内容映射到统一向量空间的新一代多模态 Embedding 模型。",
+    "summary": "Google 将多种内容映射到统一向量空间的新一代多模态 Embedding 模型。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-embedding-2",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "文本、图像、视频、音频、PDF 输入，向量输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多模态嵌入模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-robotics-er-2",
+    "name": "Gemini Robotics ER 2",
+    "slug": "gemini-robotics-er-2",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Google 面向空间推理、视频理解、多步工具编排和多机器人协作的具身推理模型。",
+    "summary": "Google 面向空间推理、视频理解、多步工具编排和多机器人协作的具身推理模型。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-robotics-er-2",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "视频与空间环境输入，任务规划输出",
+    "reasoning": "以官方来源披露为准",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/robotics-overview",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/UjyIwnaWsiJkSwkD9Y3czts9nKh",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "机器人具身推理模型"
+    ],
+    "avoid": [
+      "未经真实任务验证直接上线"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/robotics-overview",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/UjyIwnaWsiJkSwkD9Y3czts9nKh"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
