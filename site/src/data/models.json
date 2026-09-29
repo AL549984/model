@@ -20536,5 +20536,65 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/F8SCwCm5LiapAYkppqAc0cCOnnb"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-opus-5-5",
+    "name": "Claude Opus 5.5",
+    "slug": "claude-opus-5-5",
+    "vendorId": "anthropic",
+    "vendor": "Anthropic",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Anthropic Claude 5.5 family flagship for complex knowledge work and agentic coding",
+    "summary": "Claude Opus 5.5, released 2026-09-22, targets agentic coding, computer use, knowledge work and scientific research.",
+    "releaseDate": "2026-09-22",
+    "modelId": "claude-opus-5-5",
+    "context": "officially undisclosed",
+    "output": "officially undisclosed",
+    "modality": "text, computer-use, visual chart recognition",
+    "reasoning": "adaptive thinking",
+    "price": "$4/M input; $20/M output; $0.20/M cache reads",
+    "platforms": [
+      "Claude",
+      "Anthropic API"
+    ],
+    "officialLink": "https://www.anthropic.com/claude-opus-5-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Created as user in canonical Claude Wiki directory; official image not inserted because no independently verified compliant image block was used.",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "complex software engineering",
+      "enterprise knowledge work",
+      "controlled computer use",
+      "scientific research"
+    ],
+    "avoid": [
+      "open-weight requirements or workloads requiring disclosed architecture"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/claude-opus-5-5",
+      "https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/GltXwJM6hiT8l9k7aUQcdVhenkd"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
