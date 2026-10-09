@@ -17265,7 +17265,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应配置使用Dense LFM2语言骨干；不把标称模型规模当作每token实测计算参数数目。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应配置使用Dense LFM2语言骨干；不把标称模型规模当作每token实测计算参数数目。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：2.6B（官方技术报告表7的Active Params对应本型号列；Dense模型，非MoE路由激活口径）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
