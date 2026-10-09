@@ -9738,11 +9738,11 @@
     "summary": "Qwen3.6 Flash 是阿里云百炼提供的 Qwen3.6 系列低成本 API 模型，官方当前版本等同于快照  qwen3.6-flash-2026-04-16 ，支持 1M 上下文、思考模式、Function Calling、内置工具与结构化输出；本次依据阿里云官方计费文档回填了分档价格。",
     "releaseDate": "2026-04-16",
     "modelId": "qwen3-6-flash",
-    "context": "1,000,000 tokens",
-    "output": "65536 tokens（思考与非思考模式均同；官方模型规格页）",
-    "modality": "文本、图像、视频输入，文本输出（官方型号表及视觉理解文档已明确；复杂视觉任务质量另需评测）",
+    "context": "1,000,000 tokens；最大输入 991,808；思考模式最大输入 983,616",
+    "output": "65,536 tokens；思考模式最大输出 65,536；最大思维链 131,072",
+    "modality": "输入：文本、图像、视频；输出：文本",
     "reasoning": "支持思考与非思考模式",
-    "price": "全球：≤256K 输入 ¥1.2/1M、输出 ¥7.2/1M；256K-1M 输入 ¥4.8/1M、输出 ¥28.8/1M；其他区域见官方计费页",
+    "price": "全球 0 < Token ≤ 256K：输入 ¥1.2；输出 ¥7.2；256K < Token ≤ 1M：输入 ¥4.8；输出 ¥28.8（人民币 / 100 万 tokens）",
     "platforms": [
       "阿里云百炼 Model Studio API"
     ],
@@ -9752,7 +9752,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4\n2026-10-09 逐字段全网核验：\n2026-10-09 正文一致性与现行资料补正：",
+    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4\n2026-10-09 逐字段全网核验：\n2026-10-09 正文一致性与现行资料补正：\n2026-10-10 官方 Qwen3.6 Flash 补正：快照 qwen3.6-flash-2026-04-16；上下文 1,000,000，最大输入 991,808，最大输出 65,536；输入文本/图像/视频、输出文本；函数调用/结构化输出/网页搜索支持；全球价格按 256K 分档。官方源：https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9769,7 +9769,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 8,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9782,7 +9782,8 @@
       "https://github.com/QwenLM/Qwen3.6",
       "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
       "https://www.qwencloud.com/models/qwen3.6-flash",
-      "https://docs.qwencloud.com/developer-guides/getting-started/vision-models"
+      "https://docs.qwencloud.com/developer-guides/getting-started/vision-models",
+      "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash"
     ],
     "sourceFile": "Feishu Bitable"
   },

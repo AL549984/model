@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:57:42.582Z",
+  "generatedAt": "2026-10-09T16:27:47.267Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -21704,7 +21704,8 @@
         "https://github.com/QwenLM/Qwen3.6",
         "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
         "https://www.qwencloud.com/models/qwen3.6-flash",
-        "https://docs.qwencloud.com/developer-guides/getting-started/vision-models"
+        "https://docs.qwencloud.com/developer-guides/getting-started/vision-models",
+        "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash"
       ],
       "crawlSources": [
         {
