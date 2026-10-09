@@ -83,7 +83,8 @@ def run_git_with_retry(cmd: list[str], cwd: Path, timeout: int = 120, attempts: 
     last_exc: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
-            return run(cmd, cwd=cwd, timeout=timeout)
+            direct_cmd = [cmd[0], "-c", "http.version=HTTP/1.1", "-c", "http.proxy=", *cmd[1:]]
+            return run(direct_cmd, cwd=cwd, timeout=timeout, env=without_proxy_env())
         except subprocess.TimeoutExpired as exc:
             last_exc = exc
             transient = True
@@ -92,8 +93,8 @@ def run_git_with_retry(cmd: list[str], cwd: Path, timeout: int = 120, attempts: 
             transient = is_transient_git_error(exc)
         if attempt >= attempts or not transient:
             if transient and any(os.environ.get(key) for key in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "all_proxy")):
-                print("[git-retry] proxy path failed; retrying once without proxy", file=sys.stderr, flush=True)
-                return run(cmd, cwd=cwd, timeout=timeout, env=without_proxy_env())
+                print("[git-retry] direct path failed; retrying once with configured proxy", file=sys.stderr, flush=True)
+                return run([cmd[0], "-c", "http.version=HTTP/1.1", *cmd[1:]], cwd=cwd, timeout=timeout)
             raise last_exc
         sleep_s = min(60, 5 * attempt * attempt)
         print(f"[git-retry] attempt {attempt}/{attempts} failed; retrying in {sleep_s}s", file=sys.stderr, flush=True)
@@ -164,8 +165,8 @@ def main() -> int:
 
     token = load_token(args.token_path)
     if not token:
-        print(json.dumps({"ok": True, "changed": False, "skipped": "missing GitHub token"}, ensure_ascii=False))
-        return 0
+        print(json.dumps({"ok": False, "changed": False, "error": "missing GitHub token"}, ensure_ascii=False))
+        return 1
 
     add_paths = args.add_path or list(DEFAULT_ADD_PATHS)
     existing_paths = [path for path in add_paths if (repo_dir / path).exists()]
