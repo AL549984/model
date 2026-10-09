@@ -22568,7 +22568,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://www.anthropic.com/news/claude-opus-4-8",
@@ -22625,7 +22626,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 1,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/DdxKwfAA0icBZukeFG7cDwyFnOd"
@@ -22678,7 +22680,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
@@ -22734,7 +22737,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://openai.com/index/introducing-gpt-5-3-codex-spark",
@@ -22790,7 +22794,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
@@ -22847,7 +22852,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://openai.com/index/gpt-5-6/",
@@ -22904,7 +22910,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 11,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://gemini.google.com/",
@@ -22967,7 +22974,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 1,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ATd9wQlSfiqwLhkCj6Ec5ZzonWb"

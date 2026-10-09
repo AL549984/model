@@ -6,6 +6,7 @@ import argparse
 import json
 import re
 import hashlib
+import datetime
 import html
 import os
 import subprocess
@@ -179,6 +180,10 @@ def require_verified_public_card(fields):
         if not receipt_file.exists():
             continue
         receipt=json.loads(receipt_file.read_text())
+        try:
+            age=(datetime.datetime.now(datetime.timezone.utc)-datetime.datetime.fromisoformat(receipt['checked_at'])).total_seconds()
+            if age<0 or age>86400:continue
+        except (KeyError,ValueError,TypeError):continue
         if len(receipt.get('checks',[]))<3 or not receipt.get('source_urls'):
             continue
         proc=subprocess.run(['lark-cli','--profile',os.environ.get('FEISHU_LARK_CLI_PROFILE','cli_aa803db955f85cd5'),'docs','+fetch','--api-version','v2','--as','user','--doc',token],capture_output=True,text=True,timeout=180,check=True)
