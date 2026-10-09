@@ -215,6 +215,10 @@ def main() -> int:
         payload = lark_cli_request(f"/open-apis/bitable/v1/apps/{args.base_token}/tables/{args.table_id}/records", method="POST", body=body)
         record_id = payload.get("data", {}).get("record", {}).get("record_id", "")
         action = "created"
+    actual = lark_cli_request(f"/open-apis/bitable/v1/apps/{args.base_token}/tables/{args.table_id}/records/{record_id}").get('data',{}).get('record',{}).get('fields',{})
+    mismatch=[key for key,value in fields.items() if normalize_scalar(actual.get(key))!=value]
+    if mismatch:
+        raise SystemExit(json.dumps({'ok':False,'error':'Atlas_readback_mismatch','record_id':record_id,'fields':mismatch},ensure_ascii=False))
     print(json.dumps({"ok": True, "action": action, "record_id": record_id, "id": fields.get("id"), "slug": fields.get("slug"), "publishability": fields.get("publishability")}, ensure_ascii=False))
     return 0
 

@@ -22521,5 +22521,457 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/QpY4wLqoXiTvDskMM38cwKIVnie"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-opus-4-8",
+    "name": "Claude Opus 4.8",
+    "slug": "claude-opus-4-8",
+    "vendorId": "claude",
+    "vendor": "Claude",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "claude-opus-4-8",
+    "context": "1M tokens（Claude API / 官方模型概览）；Microsoft Foundry 上为 200K tokens",
+    "output": "128K tokens（Claude API 模型概览）",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "USD 5 / MTok input；USD 25 / MTok output；Fast mode：USD 10 / MTok input、USD 50 / MTok output（官方发布页）；prompt caching 最高 90% 节省、batch 50% 节省",
+    "platforms": [
+      "Claude"
+    ],
+    "officialLink": "https://www.anthropic.com/news/claude-opus-4-8",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/news/claude-opus-4-8",
+      "https://www.anthropic.com/claude/opus",
+      "https://platform.claude.com/docs/en/about-claude/models/overview",
+      "https://www.anthropic.com/claude-opus-4-8-system-card",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/XpKTwpVEXiQZlPkyMsrchVMJnNh"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "grok-build-0-1",
+    "name": "Grok Build 0.1",
+    "slug": "grok-build-0-1",
+    "vendorId": "xai",
+    "vendor": "xAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "grok-build-0-1",
+    "context": "256K",
+    "output": "待核验（本轮尚未取得该字段的可靠来源）",
+    "modality": "文本+图像",
+    "reasoning": "否或官方未披露",
+    "price": "API $1/1M 输入 tokens + $2/1M 输出 tokens；SuperGrok Heavy 订阅 $300/月",
+    "platforms": [
+      "xAI"
+    ],
+    "officialLink": "https://ycn3zdw6f1p7.feishu.cn/wiki/DdxKwfAA0icBZukeFG7cDwyFnOd",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 1,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/DdxKwfAA0icBZukeFG7cDwyFnOd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-5-4-mini",
+    "name": "GPT-5.4 mini",
+    "slug": "gpt-5-4-mini",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "gpt-5-4-mini",
+    "context": "400K tokens（官方发布页）",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "输入 0.75 美元/百万 tokens；输出 4.50 美元/百万 tokens",
+    "platforms": [
+      "OpenAI"
+    ],
+    "officialLink": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "https://deploymentsafety.openai.com/gpt-5-4-thinking/appendix-gpt-5.4-mini",
+      "https://openai.com/api/pricing/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NHhSwf2zOiT6oYkjyFmcV1xkn1d"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-5-3-codex-spark",
+    "name": "GPT-5.3-Codex-Spark",
+    "slug": "gpt-5-3-codex-spark",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "gpt-5-3-codex-spark",
+    "context": "128K tokens（发布初期）",
+    "output": "暂无数据",
+    "modality": "文本输入/输出（发布初期）",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "OpenAI"
+    ],
+    "officialLink": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "https://openai.com/index/gpt-5-3-codex-system-card/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/EODXwMk1bic4dDkX0oOcrwZInMh"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-5-1-codex-max",
+    "name": "GPT-5.1-Codex-Max",
+    "slug": "gpt-5-1-codex-max",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "gpt-5-1-codex-max",
+    "context": "400,000 tokens",
+    "output": "128,000 tokens",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "美元/百万 tokens：输入1.25；缓存输入0.125；输出10",
+    "platforms": [
+      "OpenAI"
+    ],
+    "officialLink": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 5,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+      "https://openai.com/index/gpt-5-1-codex-max",
+      "https://cdn.openai.com/pdf/2a7d98b1-57e5-4147-8d0e-683894d782ae/5p1_codex_max_card_03.pdf",
+      "https://deploymentsafety.openai.com/gpt-5-1-codex-max/capture-the-flag-professional",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/DnuSwzjZeit3hskNgRVcrDRhnmd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-5-6",
+    "name": "GPT-5.6",
+    "slug": "gpt-5-6",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "gpt-5-6",
+    "context": "暂无数据",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "OpenAI"
+    ],
+    "officialLink": "https://openai.com/index/gpt-5-6/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/gpt-5-6/",
+      "https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling",
+      "https://developers.openai.com/api/docs/guides/prompt-caching#prompt-cache-breakpoints",
+      "https://artificialanalysis.ai/models/gpt-5-6-sol",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/RRTwwDJN0itiZGkm3O3chI0lnSd"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-3-flash",
+    "name": "Gemini 3 Flash",
+    "slug": "gemini-3-flash",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "gemini-3-flash",
+    "context": "1,048,576 tokens",
+    "output": "65,536 tokens",
+    "modality": "文本+图像+视频+音频+PDF→文本",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Google"
+    ],
+    "officialLink": "https://gemini.google.com/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 11,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://gemini.google.com/",
+      "https://blog.google/products/gemini/gemini-3-flash/",
+      "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+      "https://ai.google.dev/gemini-api/docs/pricing",
+      "https://ai.google.dev/gemini-api/docs/gemini-3",
+      "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-flash-for-enterprises",
+      "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
+      "https://blog.google/products/gemini/gemini-3-flash-gemini-app/",
+      "https://blog.google/products/search/google-ai-mode-update-gemini-3-flash",
+      "https://antigravity.google/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/E3fNwETkfiqQ5fkffpzc3Zitnyg"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "step-3-5-flash",
+    "name": "Step 3.5 Flash",
+    "slug": "step-3-5-flash",
+    "vendorId": "stepfun",
+    "vendor": "StepFun",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "已有 Wiki 卡的 Atlas 补登记",
+    "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
+    "releaseDate": "暂无数据",
+    "modelId": "step-3-5-flash",
+    "context": "256K tokens",
+    "output": "暂无数据",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "StepFun"
+    ],
+    "officialLink": "https://ycn3zdw6f1p7.feishu.cn/wiki/ATd9wQlSfiqwLhkCj6Ec5ZzonWb",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 1,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/ATd9wQlSfiqwLhkCj6Ec5ZzonWb"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]

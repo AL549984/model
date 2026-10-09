@@ -332,7 +332,7 @@
       "厂商级资料仍待补齐",
       "真实公开案例仍待核验"
     ],
-    "modelCount": 1,
+    "modelCount": 2,
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
@@ -453,7 +453,7 @@
       "模型命名和迁移节奏变化快",
       "公开 A 类案例未冻结"
     ],
-    "modelCount": 35,
+    "modelCount": 36,
     "sourceFile": "../../outputs/vendors/google.md"
   },
   {
@@ -1079,7 +1079,7 @@
       "案例库缺少 A 类公开证据",
       "effort/variant 容易被误建成独立模型"
     ],
-    "modelCount": 31,
+    "modelCount": 35,
     "sourceFile": "../../outputs/vendors/openai.md"
   },
   {
@@ -1375,7 +1375,7 @@
       "价格和模型可用性需定期更新",
       "案例库待补证"
     ],
-    "modelCount": 3,
+    "modelCount": 4,
     "sourceFile": "../../outputs/vendors/stepfun.md"
   },
   {
@@ -1567,7 +1567,7 @@
       "媒体输出涉及 IP/肖像风险",
       "Build/Imagine/Voice 不能混成通用聊天模型"
     ],
-    "modelCount": 11,
+    "modelCount": 12,
     "sourceFile": "../../outputs/vendors/xai.md"
   },
   {
