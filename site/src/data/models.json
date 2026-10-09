@@ -12854,7 +12854,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.1 8B 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：6.421。",
+    "summary": "Granite 4.1 8B  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.1 8B ，AA Intelligence Index 为  6.42 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-04-29",
     "modelId": "granite-4-1-8b",
     "context": "131072 tokens",
@@ -12871,7 +12871,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OjV7wuZoGiTnnRkNXNFcksubndE；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OjV7wuZoGiTnnRkNXNFcksubndE；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方工具调用、架构、训练与知识截止口径补正：Agent 能力：支持函数/工具调用；官方示例按 OpenAI 函数定义 schema 传入 tools，并解析调用结果。工具由外部执行器运行；接口支持不等于自主长任务成功率。；架构类型：Dense 解码器 Transformer；GQA、RoPE、SwiGLU MLP、RMSNorm 与共享输入输出嵌入。；训练数据：SFT 数据包含宽松许可证公开数据集、面向特定能力的内部合成数据和精选人工整理数据；此处为指令后训练组成，不作为预训练 token 统计。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12889,7 +12889,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12902,7 +12902,8 @@
       "https://www.ibm.com/au-en",
       "https://huggingface.co/ibm-granite/granite-4.1-8b/raw/main/README.md",
       "https://huggingface.co/ibm-granite/granite-4.1-8b/raw/main/config.json",
-      "https://huggingface.co/api/models/ibm-granite/granite-4.1-8b"
+      "https://huggingface.co/api/models/ibm-granite/granite-4.1-8b",
+      "https://huggingface.co/ibm-granite/granite-4.1-8b/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12916,7 +12917,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.1 3B 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：4.371。",
+    "summary": "Granite 4.1 3B  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.1 3B ，AA Intelligence Index 为  4.37 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-04-29",
     "modelId": "granite-4-1-3b",
     "context": "131072 tokens",
@@ -12933,7 +12934,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KCQ4wxBdUiKSZakTC3rcPSAGnYX；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KCQ4wxBdUiKSZakTC3rcPSAGnYX；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方工具调用、架构、训练与知识截止口径补正：Agent 能力：支持函数/工具调用；官方示例按 OpenAI 函数定义 schema 传入 tools，并解析调用结果。工具由外部执行器运行；接口支持不等于自主长任务成功率。；架构类型：Dense 解码器 Transformer；GQA、RoPE、SwiGLU MLP、RMSNorm 与共享输入输出嵌入。；训练数据：SFT 数据包含宽松许可证公开数据集、面向特定能力的内部合成数据和精选人工整理数据；此处为指令后训练组成，不作为预训练 token 统计。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12951,7 +12952,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12964,7 +12965,8 @@
       "https://www.ibm.com/au-en",
       "https://huggingface.co/ibm-granite/granite-4.1-3b/raw/main/README.md",
       "https://huggingface.co/ibm-granite/granite-4.1-3b/raw/main/config.json",
-      "https://huggingface.co/api/models/ibm-granite/granite-4.1-3b"
+      "https://huggingface.co/api/models/ibm-granite/granite-4.1-3b",
+      "https://huggingface.co/ibm-granite/granite-4.1-3b/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12978,7 +12980,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.1 30B 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：8.698。",
+    "summary": "Granite 4.1 30B  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.1 30B ，AA Intelligence Index 为  8.70 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-04-29",
     "modelId": "granite-4-1-30b",
     "context": "131072 tokens",
@@ -12995,7 +12997,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ARN8wg9QVipM7Ek2jLcc6HManEd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ARN8wg9QVipM7Ek2jLcc6HManEd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方工具调用、架构、训练与知识截止口径补正：Agent 能力：支持函数/工具调用；官方示例按 OpenAI 函数定义 schema 传入 tools，并解析调用结果。工具由外部执行器运行；接口支持不等于自主长任务成功率。；架构类型：Dense 解码器 Transformer；GQA、RoPE、SwiGLU MLP、RMSNorm 与共享输入输出嵌入。；训练数据：SFT 数据包含宽松许可证公开数据集、面向特定能力的内部合成数据和精选人工整理数据；此处为指令后训练组成，不作为预训练 token 统计。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13013,7 +13015,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13026,7 +13028,8 @@
       "https://www.ibm.com/au-en",
       "https://huggingface.co/ibm-granite/granite-4.1-30b/raw/main/README.md",
       "https://huggingface.co/ibm-granite/granite-4.1-30b/raw/main/config.json",
-      "https://huggingface.co/api/models/ibm-granite/granite-4.1-30b"
+      "https://huggingface.co/api/models/ibm-granite/granite-4.1-30b",
+      "https://huggingface.co/ibm-granite/granite-4.1-30b/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15324,10 +15327,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "K-EXAONE 独立模型卡",
-    "summary": "LG AI Research 的独立模型 release；AA Intelligence Index：22.466。",
+    "summary": "K-EXAONE  是 LG AI Research 的独立模型 release；Artificial Analysis 当前代表档位为  K-EXAONE (Reasoning) ，AA Intelligence Index 为  22.47 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-12-31",
     "modelId": "k-exaone",
-    "context": "256000 tokens",
+    "context": "262144 tokens（官方原生窗口）；第三方目录采用 256000 tokens，分别保留口径。",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "AA 存在多个推理档位",
@@ -15341,7 +15344,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NRP4wV1tviCvnik0iZkcK62tnmf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NRP4wV1tviCvnik0iZkcK62tnmf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方工具调用、架构、训练与知识截止口径补正：Agent 能力：支持 OpenAI 与 Hugging Face 工具调用规范；官方提供 tools schema、函数执行和搜索 Agent 对话示例。工具由外部执行器运行，示例不代表所有任务均可成功。；架构类型：细粒度 MoE：236B 总参数、23B 激活；包含 MTP，可用于自投机解码。；知识截止日期：2024-12（官方仅披露到月份，不补造具体日期）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15359,7 +15362,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15369,7 +15372,8 @@
       "https://artificialanalysis.ai/models/k-exaone",
       "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B",
       "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B/blob/main/LICENSE",
-      "https://www.lgresearch.ai/"
+      "https://www.lgresearch.ai/",
+      "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17493,7 +17497,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.0 H Small 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：4.931。",
+    "summary": "Granite 4.0 H Small  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.0 H Small ，AA Intelligence Index 为  4.93 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-09-22",
     "modelId": "granite-4-0-h-small",
     "context": "128000 tokens",
@@ -17510,7 +17514,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZseXw3bDLi772AkXcAqcX2oVnKh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZseXw3bDLi772AkXcAqcX2oVnKh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方工具调用、架构、训练与知识截止口径补正：Agent 能力：支持函数/工具调用；官方示例按 OpenAI 函数定义 schema 传入 tools，并解析调用结果。工具由外部执行器运行；接口支持不等于自主长任务成功率。；架构类型：MoE 解码器，结合 GQA、Mamba2、共享专家、SwiGLU、RMSNorm 与共享输入输出嵌入。；训练数据：SFT 数据包含宽松许可证公开数据集、面向特定能力的内部合成数据和精选人工整理数据；此处为指令后训练组成，不作为预训练 token 统计。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17528,7 +17532,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17538,7 +17542,8 @@
       "https://artificialanalysis.ai/models/granite-4-0-h-small",
       "https://huggingface.co/ibm-granite/granite-4.0-h-small",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.0-h-small/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17730,7 +17735,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3 Next 80B A3B Instruct 独立模型卡",
-    "summary": "Qwen 的独立模型 release；AA Intelligence Index：13.754。",
+    "summary": "Qwen3 Next 80B A3B Instruct  是 Qwen 的独立模型 release；Artificial Analysis 当前代表档位为  Qwen3 Next 80B A3B Instruct ，AA Intelligence Index 为  13.75 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-09-11",
     "modelId": "qwen3-next-80b-a3b-instruct",
     "context": "262144 tokens",
@@ -17747,7 +17752,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HPGswIXFVixnxWkUYn4ceZ0Jnoc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HPGswIXFVixnxWkUYn4ceZ0Jnoc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方工具调用、架构、训练与知识截止口径补正：Agent 能力：支持工具调用；官方推荐 Qwen-Agent 封装模板与解析器，可接 MCP 服务和 code_interpreter。README 提供该 Instruct 型号的 Assistant 配置；工具需由外部执行器运行。；架构类型：48 层混合注意力 MoE；12 组，每组含 3 个 Gated DeltaNet→MoE 和 1 个 Gated Attention→MoE。；训练 token 数：15T tokens（预训练）；后训练另列，未把两阶段相加。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17765,7 +17770,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17775,7 +17780,8 @@
       "https://artificialanalysis.ai/models/qwen3-next-80b-a3b-instruct",
       "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
