@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T06:02:18.739Z",
+  "generatedAt": "2026-10-09T06:40:35.380Z",
   "summary": {
     "models": 373,
     "activeModels": 116,
@@ -13,8 +13,8 @@
     "activeTargetDeficit": 0,
     "allModelMinDeficit": 771,
     "allModelTargetDeficit": 1285,
-    "queuedModels": 255,
-    "crawlTargetDeficit": 1275
+    "queuedModels": 253,
+    "crawlTargetDeficit": 1265
   },
   "tasks": [
     {
@@ -5403,7 +5403,7 @@
       "priority": "P2",
       "status": "target_met_snapshot_refresh",
       "publishability": "Publishable",
-      "aCaseCount": 6,
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
@@ -15663,6 +15663,7 @@
         "https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena",
         "https://seed.bytedance.com/en/seed2_1",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/N2fNwFtu6i1np8k7YnaclYEvnpf",
+        "https://docs.volcengine.com/docs/ark/model-list?lang=en",
         "https://arena.ai/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
       ],
@@ -15805,9 +15806,11 @@
         "https://seed.bytedance.com/en/",
         "https://github.com/ByteDance-Seed",
         "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+        "https://docs.volcengine.com/docs/ark/model-list?lang=en",
+        "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/BmKOwoQlriXRn9kS0cWcyRfVnIh",
         "https://seed.bytedance.com/en/seed2_1",
-        "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/BmKOwoQlriXRn9kS0cWcyRfVnIh"
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf"
       ],
       "crawlSources": [
         {
@@ -15948,7 +15951,9 @@
         "https://seed.bytedance.com/en/",
         "https://github.com/ByteDance-Seed",
         "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+        "https://docs.volcengine.com/docs/ark/model-list?lang=en",
         "https://seed.bytedance.com/en/seed2_1",
+        "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/BpyJwtrFfikUeCkoOj2cUmzbnWc"
       ],
       "crawlSources": [
@@ -16648,7 +16653,9 @@
         "https://seed.bytedance.com/en/seed2",
         "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
         "https://console.byteplus.com/ark/region:ark+ap-southeast-1/model/detail?Id=seed-2-0-pro",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/QK6WwfgfoiS9E0kmDAKcoCW1nag",
+        "https://docs.volcengine.com/docs/ark/model-list?lang=en",
+        "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh"
       ],
       "crawlSources": [
         {
@@ -16788,7 +16795,9 @@
       "officialSources": [
         "https://seed.bytedance.com/en/seed2",
         "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/D612wya8jiP6yrkVRUXcXZspn2g",
+        "https://docs.volcengine.com/docs/ark/model-list?lang=en",
+        "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh"
       ],
       "crawlSources": [
         {
@@ -17072,7 +17081,9 @@
       "officialSources": [
         "https://seed.bytedance.com/en/seed2",
         "https://seed.bytedance.com/en/blog/seed-2-0-official-launch",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/D7zywUC7pit6QHkR9Afcux6Tn5g"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/D7zywUC7pit6QHkR9Afcux6Tn5g",
+        "https://docs.volcengine.com/docs/ark/model-list?lang=en",
+        "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh"
       ],
       "crawlSources": [
         {
@@ -17359,7 +17370,8 @@
         "https://www.anthropic.com/news/claude-sonnet-5",
         "https://docs.anthropic.com/en/docs/about-claude/models",
         "https://www.anthropic.com/claude-sonnet-5-system-card",
-        "https://artificialanalysis.ai/models/claude-sonnet-5"
+        "https://artificialanalysis.ai/models/claude-sonnet-5",
+        "https://platform.claude.com/docs/en/models/sonnet-5/overview"
       ],
       "crawlSources": [
         {
@@ -18775,7 +18787,9 @@
         "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
         "https://help.openai.com/articles/20001274",
         "https://openai.com/research/verify/",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/Lti0w1sCoiVlSak42KOcMqPFnsc"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Lti0w1sCoiVlSak42KOcMqPFnsc",
+        "https://developers.openai.com/api/docs/models/gpt-live-1",
+        "https://developers.openai.com/api/docs/changelog"
       ],
       "crawlSources": [
         {
@@ -18917,7 +18931,8 @@
         "https://docs.anthropic.com/en/docs/about-claude/models",
         "https://www.anthropic.com/claude-opus-5-system-card",
         "https://www.anthropic.com/claude/opus",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/NsQxwi6egi1jCqknLf9cn4k1nxf"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/NsQxwi6egi1jCqknLf9cn4k1nxf",
+        "https://platform.claude.com/docs/en/models/opus-5/overview"
       ],
       "crawlSources": [
         {
@@ -19323,27 +19338,29 @@
       "modelName": "ChatGPT Work",
       "vendorId": "openai",
       "vendor": "OpenAI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Archive",
       "aCaseCount": 0,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Sw0Hw24r2iMDgskyd0Xc2WJtnHf",
         "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
         "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
         "https://openai.com/index/learn-teach-chatgpt-work-codex",
-        "https://openai.com/business/chatgpt-pricing/"
+        "https://openai.com/business/chatgpt-pricing/",
+        "https://openai.com/academy/chatgpt-work/",
+        "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
       ],
       "crawlSources": [
         {
@@ -20054,7 +20071,8 @@
         "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
         "https://openai.com/index/daybreak-models-are-now-available-on-aws",
         "https://openai.com/daybreak/",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/NXPKwaMwbixZCqkOsCxcDetVnSb"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/NXPKwaMwbixZCqkOsCxcDetVnSb",
+        "https://developers.openai.com/api/docs/models/gpt-5.6-cyber"
       ],
       "crawlSources": [
         {
@@ -45801,7 +45819,8 @@
         "https://docs.anthropic.com/en/docs/about-claude/models/overview",
         "https://docs.anthropic.com/en/docs/about-claude/pricing",
         "https://docs.anthropic.com/en/docs/about-claude/models/model-ids-and-versions",
-        "https://artificialanalysis.ai/models/claude-sonnet-4-6"
+        "https://artificialanalysis.ai/models/claude-sonnet-4-6",
+        "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
       ],
       "crawlSources": [
         {
@@ -47805,7 +47824,8 @@
       "officialSources": [
         "https://www.anthropic.com/claude-opus-5-5",
         "https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/GltXwJM6hiT8l9k7aUQcdVhenkd"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/GltXwJM6hiT8l9k7aUQcdVhenkd",
+        "https://platform.claude.com/docs/en/models/opus-5-5/overview"
       ],
       "crawlSources": [
         {
@@ -48225,7 +48245,8 @@
       "officialSources": [
         "https://www.anthropic.com/claude-sonnet-5-5",
         "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/BdA0wKqVxii8PFkzZUtcNfYBntc"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/BdA0wKqVxii8PFkzZUtcNfYBntc",
+        "https://platform.claude.com/docs/en/models/sonnet-5-5/overview"
       ],
       "crawlSources": [
         {
@@ -50309,8 +50330,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
+        "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
         "https://www.anthropic.com/claude-haiku-5-5",
-        "https://artificialanalysis.ai/models/claude-haiku-5-5",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/F6aXwLQRrisTIok3x9fcezSPn8d"
       ],
       "crawlSources": [
@@ -50433,24 +50454,25 @@
       "modelName": "DeepSeek V4 Flash Vision",
       "vendorId": "deepseek",
       "vendor": "DeepSeek",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
+      "priority": "P3",
+      "status": "archive_review",
+      "publishability": "Archive",
       "aCaseCount": 0,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 0,
+      "targetDeficit": 0,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
-        "https://api-docs.deepseek.com/updates",
-        "https://artificialanalysis.ai/models/deepseek-v4-flash-vision",
+        "https://api-docs.deepseek.com/news/news260821/",
+        "https://api-docs.deepseek.com/guides/vision/",
+        "https://api-docs.deepseek.com/en/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Zx5MwLYBLivRYkkx5B3cxitLnaf"
       ],
       "crawlSources": [
@@ -50589,8 +50611,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
-        "https://artificialanalysis.ai/models/gemini-4-argon",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "https://deepmind.google/models/gemini/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/EVtxwnQ53iljxCkij0Hcaxb0nzh"
       ],
       "crawlSources": [
@@ -50729,8 +50751,9 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://openai.com/index/introducing-gpt-6-1-sol",
-        "https://artificialanalysis.ai/models/gpt-6-1-sol",
+        "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+        "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "https://deploymentsafety.openai.com/gpt-6-1-sol/respecting-auto-review",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/LZdwwbBWEiJeHpkOo8IcRevgnRh"
       ],
       "crawlSources": [
@@ -50869,8 +50892,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://huggingface.co/MBZUAI/K2-Horizon-0.9B",
-        "https://artificialanalysis.ai/models/k2-horizon-0-9b",
+        "https://huggingface.co/IFM/K2-Horizon-0.9B",
+        "https://ifm.ai/blog/k2/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/WV5HwugM9iyzj9kiekpcJHvan5b"
       ],
       "crawlSources": [
@@ -51009,8 +51032,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://huggingface.co/MBZUAI/K2-Horizon-3.7B",
-        "https://artificialanalysis.ai/models/k2-horizon-3-7b",
+        "https://huggingface.co/IFM/K2-Horizon-3.7B",
+        "https://ifm.ai/blog/k2/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/DiqwwQRwCiJBiLkuMEQcN3OZnEg"
       ],
       "crawlSources": [
@@ -51149,8 +51172,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://huggingface.co/MBZUAI/K2-Horizon-7B",
-        "https://artificialanalysis.ai/models/k2-horizon-7b",
+        "https://huggingface.co/IFM/K2-Horizon-7B",
+        "https://ifm.ai/blog/k2/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/AFavwjtT2iHJKBkzG56cFgCanmb"
       ],
       "crawlSources": [
@@ -51289,8 +51312,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://huggingface.co/MBZUAI/K2-Horizon-MoVA-36B-A4B",
-        "https://artificialanalysis.ai/models/k2-horizon-mova-36b-a4b",
+        "https://huggingface.co/IFM/K2-Horizon-MoVA-36B-A4B",
+        "https://ifm.ai/blog/k2/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/WYv0wAn27i0tUbkvwyUc9ViWnYe"
       ],
       "crawlSources": [
@@ -51430,7 +51453,6 @@
       },
       "officialSources": [
         "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
-        "https://artificialanalysis.ai/models/ling-3-0-flash-fin",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/XjXDweLLTieLOIkpYoCcEm53nKg"
       ],
       "crawlSources": [
@@ -51570,7 +51592,6 @@
       },
       "officialSources": [
         "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
-        "https://artificialanalysis.ai/models/ling-3-0-flash-vl",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/A010w0bniijRnXkRLB5cseDanUu"
       ],
       "crawlSources": [
@@ -51709,8 +51730,9 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://huggingface.co/inclusionAI/Ling-3.1-Flash",
-        "https://artificialanalysis.ai/models/ling-3-1-flash",
+        "https://vercel.com/ai-gateway/models/ling-3.1-flash",
+        "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+        "https://openrouter.ai/inclusionai/ling-3.1-flash",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/PXqFwgnJZiD7ewkDRNQcmie2nth"
       ],
       "crawlSources": [
@@ -51849,8 +51871,7 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://www.inceptionlabs.ai/mercury-2-5",
-        "https://artificialanalysis.ai/models/mercury-2-5",
+        "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Jvvtwu49siRdIakbV1IcPfuJnHe"
       ],
       "crawlSources": [
@@ -51989,8 +52010,10 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://www.mi.com/global/discover/article/mimo-v2-6/",
-        "https://artificialanalysis.ai/models/mimo-v2-6-flash",
+        "https://mimo.mi.com/models/zh-CN/mimo-v2.6-flash",
+        "https://mimo.mi.com/docs/zh-CN/news/latest/v2-6",
+        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
+        "https://mimo.xiaomi.com/zh/blog/mimo-v2-6-tool-call-repetition",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Vq8ywdREQiQBxLkiC0zcO23Fnic"
       ],
       "crawlSources": [
@@ -52129,8 +52152,10 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://www.mi.com/global/discover/article/mimo-v2-6/",
-        "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+        "https://mimo.mi.com/models/zh-CN/mimo-v2.6-pro",
+        "https://mimo.mi.com/docs/zh-CN/news/latest/v2-6",
+        "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
+        "https://mimo.xiaomi.com/zh/blog/mimo-v2-6-tool-call-repetition",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/JuHCwmpuFiBy75kyE9CcZcE4nDf"
       ],
       "crawlSources": [
@@ -52269,8 +52294,9 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://mistral.ai/news/mistral-large-4",
-        "https://artificialanalysis.ai/models/mistral-large-4",
+        "https://docs.mistral.ai/models/mistral-large",
+        "https://mistral.ai/news/mistral-large-4/",
+        "https://docs.mistral.ai/resources/changelogs",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/HCPLwnxoDiAgUAks2ylcoEKqn5b"
       ],
       "crawlSources": [
@@ -52409,8 +52435,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://qwen.ai/blog?id=qwen3-8-max-0902",
-        "https://artificialanalysis.ai/models/qwen3-8-max-0902",
+        "https://www.qwencloud.com/models/qwen3.8-max-0902",
+        "https://docs.qwencloud.com/changelog/model-updates/qwen3.8-max-upgrade",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/SVIkwv2EZiFdhRkxutocjVnonfb"
       ],
       "crawlSources": [
@@ -52549,8 +52575,8 @@
         "maxCandidatesPerRun": 80
       },
       "officialSources": [
-        "https://www.upstage.ai/news/solar-mini-4",
-        "https://artificialanalysis.ai/models/solar-mini4",
+        "https://console.upstage.ai/docs/models/solar-mini-4",
+        "https://www.upstage.ai/blog/en/solar-mini-4",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/QpY4wLqoXiTvDskMM38cwKIVnie"
       ],
       "crawlSources": [

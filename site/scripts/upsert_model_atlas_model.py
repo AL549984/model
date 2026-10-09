@@ -4,6 +4,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+import hashlib
+import html
 import os
 import subprocess
 import sys
@@ -96,7 +99,7 @@ def normalize_payload(raw: dict[str, Any]) -> dict[str, str]:
     if not merged.get("headline") and merged.get("name"):
         merged["headline"] = f"{merged['name']} 的 Model Atlas 模型卡。"
     if not merged.get("summary") and merged.get("name"):
-        merged["summary"] = f"{merged['name']} 已由 Hermes 同步到飞书模型主表；官方未披露字段保持待核验。"
+        merged["summary"] = f"{merged['name']} 已由 Hermes 同步到飞书模型主表；未核验字段须保留来源覆盖或抓取失败状态。"
     if not merged.get("notes"):
         merged["notes"] = "Hermes 自动 upsert；Wiki 模型卡与官方来源见 sources。"
 
@@ -165,6 +168,32 @@ def find_existing(records: list[dict[str, Any]], fields: dict[str, str]) -> str:
     return ""
 
 
+def require_verified_public_card(fields):
+    if fields.get('publishability', '').lower() != 'public':
+        return
+    urls=re.findall(r'https://[^;\s]+', fields.get('sources', ''))
+    tokens=[u.rstrip('/').split('/')[-1] for u in urls if '.feishu.cn/wiki/' in u]
+    root=Path('/home/ubuntu/.hermes/state/model-card-quality')
+    for token in tokens:
+        receipt_file=root/(token+'-receipt.json')
+        if not receipt_file.exists():
+            continue
+        receipt=json.loads(receipt_file.read_text())
+        if len(receipt.get('checks',[]))<3 or not receipt.get('source_urls'):
+            continue
+        proc=subprocess.run(['lark-cli','--profile',os.environ.get('FEISHU_LARK_CLI_PROFILE','cli_aa803db955f85cd5'),'docs','+fetch','--api-version','v2','--as','user','--doc',token],capture_output=True,text=True,timeout=180,check=True)
+        response=json.loads(proc.stdout[proc.stdout.index('{'):]);body=response['data']['document']['content']
+        text=html.unescape(re.sub('<[^>]+>',' ',body))
+        if receipt.get('readback_sha256')!=hashlib.sha256(body.encode()).hexdigest():
+            continue
+        if any(v not in text for v in receipt.get('checks',[])):
+            continue
+        if re.search(r'官方未披露\s*[/／]\s*待核验',body):
+            continue
+        return
+    raise SystemExit(json.dumps({'ok':False,'error':'PUBLIC_requires_source_evidence_and_current_Wiki_readback','id':fields.get('id'),'hint':'keep Hold until model_card_verify.py produces a current receipt with at least three fields'},ensure_ascii=False))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("json_path", help="model row JSON path, or - for stdin")
@@ -175,6 +204,7 @@ def main() -> int:
     load_env_file(Path.home() / ".hermes/.env")
     load_env_file(SITE_DIR / ".env")
     fields = normalize_payload(load_payload(args.json_path))
+    require_verified_public_card(fields)
     records = list_records(args.base_token, args.table_id)
     record_id = find_existing(records, fields)
     body = {"fields": fields}

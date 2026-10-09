@@ -242,6 +242,7 @@ push_generated_data() {
   MODEL_ATLAS_INCLUDE_HOLD_IN_CASE_TASKS=1 run_step "export Hermes tasks after case hunt" npm run hermes:tasks || exit $?
   run_step "update README metrics" node "$SITE_DIR/scripts/update-readme-metrics.mjs" || exit $?
   run_step "generate evidence archive" npm run evidence:archive || exit $?
+  run_step "model card publication gate" python3 "$HOME/.hermes/scripts/model_card_publish_gate.py" || exit $?
   run_step "build site" npm run build || exit $?
   run_step "push generated site data to GitHub" push_generated_data || exit $?
 
@@ -249,7 +250,9 @@ push_generated_data() {
     COMMIT_SHA="$(cd "$REPO_DIR" && git rev-parse HEAD)"
   fi
   run_step "snapshot after" python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" snapshot --output "$AFTER_STATE" || exit $?
+  if [[ "${MODEL_ATLAS_NOTIFY_FEISHU:-1}" != "0" ]]; then
   run_step "send Feishu notification" python3 "$SITE_DIR/scripts/model_atlas_pipeline_report.py" notify --before "$BEFORE_STATE" --after "$AFTER_STATE" --commit "$COMMIT_SHA" --push-result "$PUSH_RESULT" --log-path "$out" || exit $?
+  fi
 
   echo "[$(timestamp)] Model Atlas closed-loop pipeline finished"
 } >"$out" 2>&1 || {
