@@ -5,11 +5,15 @@ set -euo pipefail
 # Feishu sync -> case task export -> optional case hunt for new/Hold models ->
 # evidence archive -> build -> GitHub/Vercel -> Feishu notification.
 
-export HOME="${HOME:-$(cd ~ && pwd)}"
-export LARK_CLI_HOME="${MODEL_ATLAS_LARK_CLI_HOME:-$HOME/.lark-cli}"
+export HOME="${MODEL_ATLAS_REAL_HOME:-${HOME:-$(cd ~ && pwd)}}"
+export LARK_CLI_HOME="${MODEL_ATLAS_LARK_CLI_HOME:-${LARK_CLI_HOME:-$HOME/.lark-cli}}"
 export PATH="$HOME/.local/bin:$HOME/.hermes/node/bin:$HOME/node-v24/bin:$HOME/node-v22/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [[ "$SCRIPT_DIR" == /home/ubuntu/.hermes/data/model_atlas_repo/site/scripts ]]; then
+  export HOME=/home/ubuntu
+  export LARK_CLI_HOME=/home/ubuntu/.lark-cli
+fi
 
 resolve_site_dir() {
   if [[ -n "${MODEL_ATLAS_SITE_DIR:-}" ]]; then
@@ -76,6 +80,15 @@ trap cleanup_locks EXIT
 acquire_lock() {
   local path="$1"
   local wait_seconds="${2:-1200}"
+  if command -v flock >/dev/null 2>&1; then
+    local lock_fd
+    exec {lock_fd}>"$path"
+    if ! flock -w "$wait_seconds" "$lock_fd"; then
+      echo '{"ok":false,"stage":"lock","error":"pipeline lock busy"}'
+      exit 75
+    fi
+    return 0
+  fi
   local lock_dir="${path}.d"
   local started
   started="$(date +%s)"

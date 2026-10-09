@@ -311,6 +311,31 @@
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
+    "id": "claude",
+    "displayName": "Claude",
+    "slug": "claude",
+    "officialSite": "https://www.anthropic.com/claude-haiku-5-5",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Claude 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Claude Haiku 5.5"
+    ],
+    "flagshipModels": [
+      "Claude Haiku 5.5"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
     "id": "cohere",
     "displayName": "Cohere",
     "slug": "cohere",
@@ -395,7 +420,7 @@
       "API alias 和模型版本需要逐条核验",
       "部署来源差异较大"
     ],
-    "modelCount": 19,
+    "modelCount": 20,
     "sourceFile": "../../outputs/vendors/deepseek.md"
   },
   {
@@ -428,7 +453,7 @@
       "模型命名和迁移节奏变化快",
       "公开 A 类案例未冻结"
     ],
-    "modelCount": 34,
+    "modelCount": 35,
     "sourceFile": "../../outputs/vendors/google.md"
   },
   {
@@ -483,7 +508,7 @@
       "厂商级资料仍待补齐",
       "真实公开案例仍待核验"
     ],
-    "modelCount": 1,
+    "modelCount": 2,
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
@@ -513,7 +538,7 @@
       "厂商级资料仍待补齐",
       "真实公开案例仍待核验"
     ],
-    "modelCount": 4,
+    "modelCount": 7,
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
@@ -708,7 +733,7 @@
       "产品化边界不清",
       "案例库仅适合归档 / 背景资料"
     ],
-    "modelCount": 3,
+    "modelCount": 7,
     "sourceFile": "../../outputs/vendors/mbzuai-ifm.md"
   },
   {
@@ -832,7 +857,7 @@
       "厂商级资料仍待补齐",
       "真实公开案例仍待核验"
     ],
-    "modelCount": 10,
+    "modelCount": 11,
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
@@ -1054,7 +1079,7 @@
       "案例库缺少 A 类公开证据",
       "effort/variant 容易被误建成独立模型"
     ],
-    "modelCount": 30,
+    "modelCount": 31,
     "sourceFile": "../../outputs/vendors/openai.md"
   },
   {
@@ -1164,7 +1189,7 @@
       "VL/Omni/Coder 案例不能混入通用 Qwen",
       "A 类案例待补证"
     ],
-    "modelCount": 38,
+    "modelCount": 39,
     "sourceFile": "../../outputs/vendors/qwen-alibaba.md"
   },
   {
@@ -1509,7 +1534,7 @@
       "资料偏薄",
       "案例库待补证"
     ],
-    "modelCount": 6,
+    "modelCount": 7,
     "sourceFile": "../../outputs/vendors/upstage.md"
   },
   {
@@ -1573,7 +1598,7 @@
       "MiMo-Code 是工具证据，不等同模型性能",
       "价格/API 未冻结"
     ],
-    "modelCount": 8,
+    "modelCount": 10,
     "sourceFile": "../../outputs/vendors/xiaomi.md"
   },
   {

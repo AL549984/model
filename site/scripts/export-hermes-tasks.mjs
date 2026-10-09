@@ -45,8 +45,8 @@ const tasks = models.map((model) => {
   const aCaseCount = backfill?.aCaseCount ?? model.aCaseCount ?? 0;
   const minACases = backfill?.minACases ?? MIN_A_CASES;
   const targetACases = backfill?.targetACases ?? TARGET_A_CASES;
-  const minDeficit = inactive ? 0 : (backfill?.minDeficit ?? Math.max(0, minACases - aCaseCount));
-  const targetDeficit = inactive ? 0 : (backfill?.targetDeficit ?? Math.max(0, targetACases - aCaseCount));
+  const minDeficit = inactive ? 0 : Math.max(0, minACases - aCaseCount);
+  const targetDeficit = inactive ? 0 : Math.max(0, targetACases - aCaseCount);
   return {
     taskId: `hermes-case-crawl-${model.id}`,
     modelId: model.id,
@@ -152,7 +152,9 @@ const summary = {
   activeMinDeficit,
   activeTargetDeficit,
   allModelMinDeficit: rawAllModelMinDeficit,
-  allModelTargetDeficit: rawAllModelTargetDeficit
+  allModelTargetDeficit: rawAllModelTargetDeficit,
+  queuedModels: tasks.filter((task) => task.targetDeficit > 0).length,
+  crawlTargetDeficit: tasks.reduce((sum, task) => sum + task.targetDeficit, 0)
 };
 
 const previous = fs.existsSync(outputPath)
@@ -173,3 +175,5 @@ if (fs.existsSync(outputPath) && fs.readFileSync(outputPath, "utf8") === seriali
   console.log(`Exported ${tasks.length} Hermes crawl task(s) to ${path.relative(repoRoot, outputPath)}.`);
 }
 console.log(`Case coverage: publicReady=${summary.publicReady}/${summary.activeModels}, fullCoverageReady=${summary.fullCoverageReady}/${summary.activeModels}, minDeficit=${summary.minDeficit}, targetDeficit=${summary.targetDeficit}.`);
+
+console.log(`Case search queue: models=${summary.queuedModels}, targetDeficit=${summary.crawlTargetDeficit}, includeHold=${INCLUDE_HOLD}.`);

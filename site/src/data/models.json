@@ -2418,7 +2418,7 @@
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
     "publishability": "Publishable",
-    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "DeepSeek V3.1 的完整模型表记录。",
     "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
@@ -2455,7 +2455,7 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 6,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
@@ -21533,6 +21533,958 @@
     "sources": [
       "https://ai.google.dev/gemini-api/docs/robotics-overview",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/UjyIwnaWsiJkSwkD9Y3czts9nKh"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "claude-haiku-5-5",
+    "name": "Claude Haiku 5.5",
+    "slug": "claude-haiku-5-5",
+    "vendorId": "claude",
+    "vendor": "Claude",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Claude Haiku 5.5",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "claude-haiku-5-5",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://www.anthropic.com/claude-haiku-5-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/F6aXwLQRrisTIok3x9fcezSPn8d",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.anthropic.com/claude-haiku-5-5",
+      "https://artificialanalysis.ai/models/claude-haiku-5-5",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/F6aXwLQRrisTIok3x9fcezSPn8d"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "deepseek-v4-flash-vision",
+    "name": "DeepSeek V4 Flash Vision",
+    "slug": "deepseek-v4-flash-vision",
+    "vendorId": "deepseek",
+    "vendor": "DeepSeek",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "DeepSeek V4 Flash Vision",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "deepseek-v4-flash-vision",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://api-docs.deepseek.com/updates",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/Zx5MwLYBLivRYkkx5B3cxitLnaf",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://api-docs.deepseek.com/updates",
+      "https://artificialanalysis.ai/models/deepseek-v4-flash-vision",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Zx5MwLYBLivRYkkx5B3cxitLnaf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gemini-4-argon",
+    "name": "Gemini 4 Argon",
+    "slug": "gemini-4-argon",
+    "vendorId": "google",
+    "vendor": "Google",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Gemini 4 Argon",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "gemini-4-argon",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/EVtxwnQ53iljxCkij0Hcaxb0nzh",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+      "https://artificialanalysis.ai/models/gemini-4-argon",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/EVtxwnQ53iljxCkij0Hcaxb0nzh"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-6-1-sol",
+    "name": "GPT-6.1 Sol",
+    "slug": "gpt-6-1-sol",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "GPT-6.1 Sol",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "gpt-6-1-sol",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/LZdwwbBWEiJeHpkOo8IcRevgnRh",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-gpt-6-1-sol",
+      "https://artificialanalysis.ai/models/gpt-6-1-sol",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/LZdwwbBWEiJeHpkOo8IcRevgnRh"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "k2-horizon-0-9b",
+    "name": "K2 Horizon 0.9B",
+    "slug": "k2-horizon-0-9b",
+    "vendorId": "mbzuai-ifm",
+    "vendor": "MBZUAI Institute of Foundation Models",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "K2 Horizon 0.9B",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "k2-horizon-0-9b",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/MBZUAI/K2-Horizon-0.9B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/WV5HwugM9iyzj9kiekpcJHvan5b",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/MBZUAI/K2-Horizon-0.9B",
+      "https://artificialanalysis.ai/models/k2-horizon-0-9b",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/WV5HwugM9iyzj9kiekpcJHvan5b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "k2-horizon-3-7b",
+    "name": "K2 Horizon 3.7B",
+    "slug": "k2-horizon-3-7b",
+    "vendorId": "mbzuai-ifm",
+    "vendor": "MBZUAI Institute of Foundation Models",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "K2 Horizon 3.7B",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "k2-horizon-3-7b",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/MBZUAI/K2-Horizon-3.7B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/DiqwwQRwCiJBiLkuMEQcN3OZnEg",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/MBZUAI/K2-Horizon-3.7B",
+      "https://artificialanalysis.ai/models/k2-horizon-3-7b",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/DiqwwQRwCiJBiLkuMEQcN3OZnEg"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "k2-horizon-7b",
+    "name": "K2 Horizon 7B",
+    "slug": "k2-horizon-7b",
+    "vendorId": "mbzuai-ifm",
+    "vendor": "MBZUAI Institute of Foundation Models",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "K2 Horizon 7B",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "k2-horizon-7b",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/MBZUAI/K2-Horizon-7B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/AFavwjtT2iHJKBkzG56cFgCanmb",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/MBZUAI/K2-Horizon-7B",
+      "https://artificialanalysis.ai/models/k2-horizon-7b",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/AFavwjtT2iHJKBkzG56cFgCanmb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "k2-horizon-mova-36b-a4b",
+    "name": "K2 Horizon MoVA 36B A4B",
+    "slug": "k2-horizon-mova-36b-a4b",
+    "vendorId": "mbzuai-ifm",
+    "vendor": "MBZUAI Institute of Foundation Models",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "K2 Horizon MoVA 36B A4B",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "k2-horizon-mova-36b-a4b",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/MBZUAI/K2-Horizon-MoVA-36B-A4B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/WYv0wAn27i0tUbkvwyUc9ViWnYe",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/MBZUAI/K2-Horizon-MoVA-36B-A4B",
+      "https://artificialanalysis.ai/models/k2-horizon-mova-36b-a4b",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/WYv0wAn27i0tUbkvwyUc9ViWnYe"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "ling-3-0-flash-fin",
+    "name": "Ling-3.0-flash-Fin",
+    "slug": "ling-3-0-flash-fin",
+    "vendorId": "inclusionai",
+    "vendor": "InclusionAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Ling-3.0-flash-Fin",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "ling-3-0-flash-fin",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/XjXDweLLTieLOIkpYoCcEm53nKg",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+      "https://artificialanalysis.ai/models/ling-3-0-flash-fin",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/XjXDweLLTieLOIkpYoCcEm53nKg"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "ling-3-0-flash-vl",
+    "name": "Ling-3.0-flash-VL",
+    "slug": "ling-3-0-flash-vl",
+    "vendorId": "inclusionai",
+    "vendor": "InclusionAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Ling-3.0-flash-VL",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "ling-3-0-flash-vl",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/A010w0bniijRnXkRLB5cseDanUu",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
+      "https://artificialanalysis.ai/models/ling-3-0-flash-vl",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/A010w0bniijRnXkRLB5cseDanUu"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "ling-3-1-flash",
+    "name": "Ling 3.1 Flash",
+    "slug": "ling-3-1-flash",
+    "vendorId": "inclusionai",
+    "vendor": "InclusionAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Ling 3.1 Flash",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "ling-3-1-flash",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://huggingface.co/inclusionAI/Ling-3.1-Flash",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/PXqFwgnJZiD7ewkDRNQcmie2nth",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/inclusionAI/Ling-3.1-Flash",
+      "https://artificialanalysis.ai/models/ling-3-1-flash",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/PXqFwgnJZiD7ewkDRNQcmie2nth"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "mercury-2-5",
+    "name": "Mercury 2.5",
+    "slug": "mercury-2-5",
+    "vendorId": "inception",
+    "vendor": "Inception",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Mercury 2.5",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "mercury-2-5",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://www.inceptionlabs.ai/mercury-2-5",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/Jvvtwu49siRdIakbV1IcPfuJnHe",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.inceptionlabs.ai/mercury-2-5",
+      "https://artificialanalysis.ai/models/mercury-2-5",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Jvvtwu49siRdIakbV1IcPfuJnHe"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "mimo-v2-6-flash",
+    "name": "MiMo-V2.6-Flash",
+    "slug": "mimo-v2-6-flash",
+    "vendorId": "xiaomi",
+    "vendor": "Xiaomi",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiMo-V2.6-Flash",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "mimo-v2-6-flash",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://www.mi.com/global/discover/article/mimo-v2-6/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/Vq8ywdREQiQBxLkiC0zcO23Fnic",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.mi.com/global/discover/article/mimo-v2-6/",
+      "https://artificialanalysis.ai/models/mimo-v2-6-flash",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Vq8ywdREQiQBxLkiC0zcO23Fnic"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "mimo-v2-6-pro",
+    "name": "MiMo-V2.6-Pro",
+    "slug": "mimo-v2-6-pro",
+    "vendorId": "xiaomi",
+    "vendor": "Xiaomi",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiMo-V2.6-Pro",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "mimo-v2-6-pro",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://www.mi.com/global/discover/article/mimo-v2-6/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/JuHCwmpuFiBy75kyE9CcZcE4nDf",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.mi.com/global/discover/article/mimo-v2-6/",
+      "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/JuHCwmpuFiBy75kyE9CcZcE4nDf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "mistral-large-4",
+    "name": "Mistral Large 4 Preview",
+    "slug": "mistral-large-4",
+    "vendorId": "mistral",
+    "vendor": "Mistral",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Mistral Large 4 Preview",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "mistral-large-4",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://mistral.ai/news/mistral-large-4",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/HCPLwnxoDiAgUAks2ylcoEKqn5b",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://mistral.ai/news/mistral-large-4",
+      "https://artificialanalysis.ai/models/mistral-large-4",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/HCPLwnxoDiAgUAks2ylcoEKqn5b"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-8-max-0902",
+    "name": "Qwen3.8 Max (0902)",
+    "slug": "qwen3-8-max-0902",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Qwen3.8 Max (0902)",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "qwen3-8-max-0902",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://qwen.ai/blog?id=qwen3-8-max-0902",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/SVIkwv2EZiFdhRkxutocjVnonfb",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://qwen.ai/blog?id=qwen3-8-max-0902",
+      "https://artificialanalysis.ai/models/qwen3-8-max-0902",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/SVIkwv2EZiFdhRkxutocjVnonfb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "solar-mini4",
+    "name": "Solar Mini 4",
+    "slug": "solar-mini4",
+    "vendorId": "upstage",
+    "vendor": "Upstage",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Solar Mini 4",
+    "summary": "AA current non-deprecated release; official disclosure fields remain pending verification where not published.",
+    "releaseDate": "官方未披露 / 待核验",
+    "modelId": "solar-mini4",
+    "context": "官方未披露 / 待核验",
+    "output": "官方未披露 / 待核验",
+    "modality": "官方未披露 / 待核验",
+    "reasoning": "官方未披露 / 待核验",
+    "price": "官方未披露 / 待核验",
+    "platforms": [
+      "API / 官方入口待核验"
+    ],
+    "officialLink": "https://www.upstage.ai/news/solar-mini-4",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/QpY4wLqoXiTvDskMM38cwKIVnie",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开发者验证与研究"
+    ],
+    "avoid": [
+      "未完成官方字段核验前的生产选型"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.upstage.ai/news/solar-mini-4",
+      "https://artificialanalysis.ai/models/solar-mini4",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QpY4wLqoXiTvDskMM38cwKIVnie"
     ],
     "sourceFile": "Feishu Bitable"
   }

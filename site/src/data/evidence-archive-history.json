@@ -1195,6 +1195,18 @@
       "id": "current-2026-10-09",
       "date": "2026-10-09",
       "label": "当前数据截点",
+      "aCaseCount": 679,
+      "targets": 1363,
+      "snapshottedCases": 599,
+      "pendingSnapshotCases": 79,
+      "partialSnapshotCases": 0,
+      "snapshotAttentionCases": 1,
+      "source": "site/src/data/evidence-archive.json"
+    },
+    {
+      "id": "2026-10-09-snapshot-checkpoint-600",
+      "date": "2026-10-09",
+      "label": "快照进度 600 条",
       "aCaseCount": 680,
       "targets": 1365,
       "snapshottedCases": 600,
