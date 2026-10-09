@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:51:32.470Z",
+  "generatedAt": "2026-10-09T15:57:42.582Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -33232,7 +33232,11 @@
         "https://huggingface.co/CohereLabs/tiny-aya-global",
         "https://spdx.org/licenses/CC-BY-NC-4.0",
         "https://cohere.com/",
-        "https://huggingface.co/CohereLabs/tiny-aya-global/resolve/main/README.md"
+        "https://huggingface.co/CohereLabs/tiny-aya-global/resolve/main/README.md",
+        "https://arxiv.org/html/2603.11510v1",
+        "https://cohere.com/blog/cohere-labs-tiny-aya",
+        "https://arxiv.org/html/2603.11510v1/images/ModelCreatingFigure_Light.png",
+        "https://arxiv.org/html/2603.11510v1/images/PlotA.png"
       ],
       "crawlSources": [
         {
@@ -33379,7 +33383,8 @@
         "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/config.json",
         "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B",
         "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/README.md",
-        "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/config.json"
+        "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/config.json",
+        "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/figures/model_performance_comparison.png"
       ],
       "crawlSources": [
         {
@@ -38267,7 +38272,9 @@
         "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
         "https://opensource.org/license/mit",
         "https://www.moonshot.cn/",
-        "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md"
+        "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md",
+        "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/figures/arch.png",
+        "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/figures/perf_speed.png"
       ],
       "crawlSources": [
         {
@@ -40274,7 +40281,9 @@
         "https://huggingface.co/inclusionAI/Ring-flash-2.0",
         "https://opensource.org/license/mit",
         "https://www.inclusion-ai.org/",
-        "https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md"
+        "https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md",
+        "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*awCaS4yTD9UAAAAAUdAAAAgAemJ7AQ/original",
+        "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*4Q_4SbSv73YAAAAAQ6AAAAgAemJ7AQ/original"
       ],
       "crawlSources": [
         {
@@ -44150,7 +44159,8 @@
         "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE",
         "https://ai.meta.com/",
-        "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/README.md"
+        "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/README.md",
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_3/MODEL_CARD.md"
       ],
       "crawlSources": [
         {
@@ -44724,7 +44734,8 @@
         "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
         "https://ai.meta.com/",
-        "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/resolve/main/README.md"
+        "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/resolve/main/README.md",
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD_VISION.md"
       ],
       "crawlSources": [
         {
@@ -44867,7 +44878,8 @@
         "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
         "https://ai.meta.com/",
-        "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/resolve/main/README.md"
+        "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/resolve/main/README.md",
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD_VISION.md"
       ],
       "crawlSources": [
         {
@@ -45010,7 +45022,8 @@
         "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
         "https://ai.meta.com/",
-        "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct/resolve/main/README.md"
+        "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct/resolve/main/README.md",
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
       ],
       "crawlSources": [
         {

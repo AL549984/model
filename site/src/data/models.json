@@ -14611,7 +14611,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PPLywpCeWixanJkYpLdco8oTnif；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：自回归 Transformer；每组 3 层滑窗注意力（窗口 4096、RoPE）与第 4 层无位置嵌入的全局注意力。；训练数据：预训练后进行 SFT 和偏好训练，以对齐帮助性与安全性；这里不把对齐方法充作预训练语料规模。；许可证：CC-BY-NC，须同时遵守 Cohere Labs Acceptable Use Policy；开放权重不等于允许任意商业使用。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PPLywpCeWixanJkYpLdco8oTnif；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：自回归 Transformer；每组 3 层滑窗注意力（窗口 4096、RoPE）与第 4 层无位置嵌入的全局注意力。；训练数据：预训练后进行 SFT 和偏好训练，以对齐帮助性与安全性；这里不把对齐方法充作预训练语料规模。；许可证：CC-BY-NC，须同时遵守 Cohere Labs Acceptable Use Policy；开放权重不等于允许任意商业使用。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Dense decoder-only Transformer；36 层，hidden size 2048、FFN 11008、16 个查询头和 4 个 KV 头；3 层 RoPE 滑窗注意力（4096）与 1 层 NoPE 全局注意力交错，使用 SwiGLU、无偏置和并行 Transformer 块。；训练 token 数：Tiny Aya 共享基础模型预训练为 6T tokens，采用 Warmup-Stable-Decay 学习率计划；Global 在此基础上做后训练。200B 和 40B 是消融及 cooldown 小实验预算，不是最终基础模型的总训练量。；训练硬件：基础模型预训练使用 256 张 NVIDIA H100 和基于 JAX 的 Fax 框架，混合 FP8/BF16/FP32 精度；报告另述后训练每个 cluster model 使用 16 张 H100，墙钟时间不超过 24 小时。两阶段和各区域模型的资源不能相加充作 Global 单型号预训练时长。；训练数据：共享基础模型使用覆盖 70 种语言的公开与专有来源，并加入代码语料；进行语言识别、停用词/启发式清洗、去重及域和质量过滤。Global 在跨区域 SFT 后仅做轻量偏好调优；区域模型与 Global 合并的步骤属于 Earth/Fire/Water，不能套用为 Global 自身的生产流程。\n已补入官方原始图片：Tiny Aya 官方论文图2：Global 与区域模型的后训练关系。Global 使用跨区域 SFT 与轻量偏好调优；图中的区域合并产物是 Water、Earth 和 Fire，不是 Global 自身。 原始图片：https://arxiv.org/html/2603.11510v1/images/ModelCreatingFigure_Light.png；官方README：https://arxiv.org/html/2603.11510v1；Tiny Aya 官方论文图5：Global 与同规模模型在按网络数据量分组的语言上的开放式生成质量对比。此为作者的评测及归一化口径，不是独立API速度测试。 原始图片：https://arxiv.org/html/2603.11510v1/images/PlotA.png；官方README：https://arxiv.org/html/2603.11510v1",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14629,7 +14629,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14640,7 +14640,11 @@
       "https://huggingface.co/CohereLabs/tiny-aya-global",
       "https://spdx.org/licenses/CC-BY-NC-4.0",
       "https://cohere.com/",
-      "https://huggingface.co/CohereLabs/tiny-aya-global/resolve/main/README.md"
+      "https://huggingface.co/CohereLabs/tiny-aya-global/resolve/main/README.md",
+      "https://arxiv.org/html/2603.11510v1",
+      "https://cohere.com/blog/cohere-labs-tiny-aya",
+      "https://arxiv.org/html/2603.11510v1/images/ModelCreatingFigure_Light.png",
+      "https://arxiv.org/html/2603.11510v1/images/PlotA.png"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14671,7 +14675,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MoFew6dQgiZXHqk6YgkchkyjnXf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持函数调用，README 提供 SearchWeather 工具示例；深搜索需切换 tokenizer_config_search.json，使用 MiroFlow、E2B、Serper 和 Jina，摘要模型为 Qwen3-14B-thinking。500 余轮工具调用为厂商声称，不视为独立复现结果。；架构类型：LlamaForCausalLM 稠密解码器配置；32 层，20 个注意力 heads、4 个 KV heads（GQA），rope_theta=70000000；该配置的 rope_scaling=null。；训练数据：对应 Nanbeige4-3B-Base 的后训练：SFT + RL；不是直接沿用 Nanbeige4-3B-Thinking-2511 的最终权重。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MoFew6dQgiZXHqk6YgkchkyjnXf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持函数调用，README 提供 SearchWeather 工具示例；深搜索需切换 tokenizer_config_search.json，使用 MiroFlow、E2B、Serper 和 Jina，摘要模型为 Qwen3-14B-thinking。500 余轮工具调用为厂商声称，不视为独立复现结果。；架构类型：LlamaForCausalLM 稠密解码器配置；32 层，20 个注意力 heads、4 个 KV heads（GQA），rope_theta=70000000；该配置的 rope_scaling=null。；训练数据：对应 Nanbeige4-3B-Base 的后训练：SFT + RL；不是直接沿用 Nanbeige4-3B-Thinking-2511 的最终权重。\n已补入官方原始图片：南北阁官方模型评测对比图。图中结果为厂商测试，测试条件与第三方榜单分别记录，不据此推断独立复现成功。 原始图片：https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/figures/model_performance_comparison.png；官方README：https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/README.md",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14689,7 +14693,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 9,
+    "supplementalSourceCount": 10,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14704,7 +14708,8 @@
       "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/config.json",
       "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B",
       "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/README.md",
-      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/config.json"
+      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/config.json",
+      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/figures/model_performance_comparison.png"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16741,7 +16746,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NWH0wvnl9iA1F1kgcUGc9p2Pn2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：混合线性注意力：KDA 与全局 MLA 比例 3:1；不能把 KDA 线性注意力写成全层标准全注意力。；训练 token 数：5.7T tokens（对应公开 Base/Instruct checkpoints 的官方训练规模）。；总参数量：官方型号表：48B 总参数、3B 激活；第三方目录总量 49.100B 并列保留，不由模型名反推实测规模。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NWH0wvnl9iA1F1kgcUGc9p2Pn2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：混合线性注意力：KDA 与全局 MLA 比例 3:1；不能把 KDA 线性注意力写成全层标准全注意力。；训练 token 数：5.7T tokens（对应公开 Base/Instruct checkpoints 的官方训练规模）。；总参数量：官方型号表：48B 总参数、3B 激活；第三方目录总量 49.100B 并列保留，不由模型名反推实测规模。\n已补入官方原始图片：Kimi Linear 官方架构图：KDA、MLA 与 MoE 组合。 原始图片：https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/figures/arch.png；官方README：https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md；Kimi Linear 官方性能和解码延迟对照图。6.3倍为图示1M条件下相对MLA的厂商测试，不能外推为所有API请求提速。 原始图片：https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/figures/perf_speed.png；官方README：https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16759,7 +16764,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16770,7 +16775,9 @@
       "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
       "https://opensource.org/license/mit",
       "https://www.moonshot.cn/",
-      "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md"
+      "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md",
+      "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/figures/arch.png",
+      "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/figures/perf_speed.png"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17586,7 +17593,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HR8gwrNdBi6SFckgOpfcCeUsnMg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Ling 2.0 系列 MoE；1/32 专家激活比例并包含 MTP。官方激活量 6.1B，非嵌入激活量 4.8B，分别保留。；总参数量：官方发布说明标称 100B；第三方目录 103B，两种来源口径并列保留。；训练数据：后训练采用轻量 Long-CoT SFT → RLVR → RLHF。这里为后训练方法，不能当作预训练语料规模。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HR8gwrNdBi6SFckgOpfcCeUsnMg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Ling 2.0 系列 MoE；1/32 专家激活比例并包含 MTP。官方激活量 6.1B，非嵌入激活量 4.8B，分别保留。；总参数量：官方发布说明标称 100B；第三方目录 103B，两种来源口径并列保留。；训练数据：后训练采用轻量 Long-CoT SFT → RLVR → RLHF。这里为后训练方法，不能当作预训练语料规模。\n已补入官方原始图片：Ring-flash-2.0 README采用的Ling-flash-2.0骨干架构图。图中6B为取整，参数口径以文字6.1B总激活、4.8B非嵌入激活分别记录。 原始图片：https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*awCaS4yTD9UAAAAAUdAAAAgAemJ7AQ/original；官方README：https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md；Ring-flash-2.0 官方训练流程图：Ling-flash-2.0-base → Long-CoT SFT → RLVR → RLHF。 原始图片：https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*4Q_4SbSv73YAAAAAQ6AAAAgAemJ7AQ/original；官方README：https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17604,7 +17611,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17615,7 +17622,9 @@
       "https://huggingface.co/inclusionAI/Ring-flash-2.0",
       "https://opensource.org/license/mit",
       "https://www.inclusion-ai.org/",
-      "https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md"
+      "https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md",
+      "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*awCaS4yTD9UAAAAAUdAAAAgAemJ7AQ/original",
+      "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*4Q_4SbSv73YAAAAAQ6AAAAgAemJ7AQ/original"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19221,7 +19230,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/P7krwM7wKiV2CfkX6YCc3tjEnvf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持多种工具调用格式和 Transformers tools chat template；官方提供函数调用、外部执行与 tool 结果回传示例。工具由应用执行，接口支持不代表自主任务成功率。；架构类型：自回归 Transformer；Instruct 经过 SFT 与 RLHF；官方说明使用 GQA。；训练数据：预训练来自公开数据；后训练含公开指令数据及超过 2500 万条合成示例。；训练 token 数：约 15T 预训练 tokens（官方正文）；型号表写 15T+，不作为后训练总 token 数。；训练硬件：NVIDIA H100-80GB；训练总 GPU 小时需按具体型号和统计阶段分别核对，不能把系列累计值当作本型号训练量。；知识截止日期：2023-12（官方披露到月份，不补造具体日期）。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/P7krwM7wKiV2CfkX6YCc3tjEnvf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持多种工具调用格式和 Transformers tools chat template；官方提供函数调用、外部执行与 tool 结果回传示例。工具由应用执行，接口支持不代表自主任务成功率。；架构类型：自回归 Transformer；Instruct 经过 SFT 与 RLHF；官方说明使用 GQA。；训练数据：预训练来自公开数据；后训练含公开指令数据及超过 2500 万条合成示例。；训练 token 数：约 15T 预训练 tokens（官方正文）；型号表写 15T+，不作为后训练总 token 数。；训练硬件：NVIDIA H100-80GB；训练总 GPU 小时需按具体型号和统计阶段分别核对，不能把系列累计值当作本型号训练量。；知识截止日期：2023-12（官方披露到月份，不补造具体日期）。\n2026-10-09 官方推理激活参数口径补正：70B（官方模型表列出的规模；该卡未把“稀疏激活参数”作为独立字段披露）；官方源：https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_3/MODEL_CARD.md；该模型卡没有把“稀疏激活参数”作为独立字段披露。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19239,7 +19248,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19250,7 +19259,8 @@
       "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE",
       "https://ai.meta.com/",
-      "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/README.md"
+      "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/README.md",
+      "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_3/MODEL_CARD.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19463,7 +19473,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RnpYwIOBJizmzNk3BAmccYN7n5f；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Llama 3.1 文本骨干 + 单独训练的视觉适配器；通过交叉注意力层把图像编码器表示送入语言模型，Instruct 使用 SFT/RLHF。；训练数据：官方型号表披露 6B 图文对；属于图文样本数量，不是 6B 文本 tokens。；训练硬件：NVIDIA H100-80GB；训练量应按 11B/90B 分别读取，不套用系列累计值。；知识截止日期：2023-12（官方型号表仅披露到月份）。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RnpYwIOBJizmzNk3BAmccYN7n5f；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Llama 3.1 文本骨干 + 单独训练的视觉适配器；通过交叉注意力层把图像编码器表示送入语言模型，Instruct 使用 SFT/RLHF。；训练数据：官方型号表披露 6B 图文对；属于图文样本数量，不是 6B 文本 tokens。；训练硬件：NVIDIA H100-80GB；训练量应按 11B/90B 分别读取，不套用系列累计值。；知识截止日期：2023-12（官方型号表仅披露到月份）。\n2026-10-09 官方推理激活参数口径补正：官方未单列独立的推理激活参数；官方表列模型规模为 90B（88.8）；官方源：https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD_VISION.md；该模型卡没有把“稀疏激活参数”作为独立字段披露。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19481,7 +19491,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19492,7 +19502,8 @@
       "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
       "https://ai.meta.com/",
-      "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/resolve/main/README.md"
+      "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/resolve/main/README.md",
+      "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD_VISION.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19523,7 +19534,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IS0LwxfmHiJQFzkvWKXc9AaknTc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Llama 3.1 文本骨干 + 单独训练的视觉适配器；通过交叉注意力层把图像编码器表示送入语言模型，Instruct 使用 SFT/RLHF。；训练数据：官方型号表披露 6B 图文对；属于图文样本数量，不是 6B 文本 tokens。；训练硬件：NVIDIA H100-80GB；训练量应按 11B/90B 分别读取，不套用系列累计值。；知识截止日期：2023-12（官方型号表仅披露到月份）。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IS0LwxfmHiJQFzkvWKXc9AaknTc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Llama 3.1 文本骨干 + 单独训练的视觉适配器；通过交叉注意力层把图像编码器表示送入语言模型，Instruct 使用 SFT/RLHF。；训练数据：官方型号表披露 6B 图文对；属于图文样本数量，不是 6B 文本 tokens。；训练硬件：NVIDIA H100-80GB；训练量应按 11B/90B 分别读取，不套用系列累计值。；知识截止日期：2023-12（官方型号表仅披露到月份）。\n2026-10-09 官方推理激活参数口径补正：官方未单列独立的推理激活参数；官方表列模型规模为 11B（10.6）；官方源：https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD_VISION.md；该模型卡没有把“稀疏激活参数”作为独立字段披露。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19541,7 +19552,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19552,7 +19563,8 @@
       "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
       "https://ai.meta.com/",
-      "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/resolve/main/README.md"
+      "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/resolve/main/README.md",
+      "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD_VISION.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19583,7 +19595,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GSuSwd1vfi2F30k89TocRckXnfg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持多种工具调用格式和 Transformers tools chat template；官方提供函数调用、外部执行与 tool 结果回传示例。工具由应用执行，接口支持不代表自主任务成功率。；架构类型：自回归 Transformer；Instruct 经过 SFT 与 RLHF；官方说明使用 GQA。；训练数据：预训练来自公开数据；后训练含公开指令数据及超过 2500 万条合成示例。；训练 token 数：约 15T 预训练 tokens（官方正文）；型号表写 15T+，不作为后训练总 token 数。；训练硬件：NVIDIA H100-80GB；训练总 GPU 小时需按具体型号和统计阶段分别核对，不能把系列累计值当作本型号训练量。；知识截止日期：2023-12（官方披露到月份，不补造具体日期）。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GSuSwd1vfi2F30k89TocRckXnfg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持多种工具调用格式和 Transformers tools chat template；官方提供函数调用、外部执行与 tool 结果回传示例。工具由应用执行，接口支持不代表自主任务成功率。；架构类型：自回归 Transformer；Instruct 经过 SFT 与 RLHF；官方说明使用 GQA。；训练数据：预训练来自公开数据；后训练含公开指令数据及超过 2500 万条合成示例。；训练 token 数：约 15T 预训练 tokens（官方正文）；型号表写 15T+，不作为后训练总 token 数。；训练硬件：NVIDIA H100-80GB；训练总 GPU 小时需按具体型号和统计阶段分别核对，不能把系列累计值当作本型号训练量。；知识截止日期：2023-12（官方披露到月份，不补造具体日期）。\n2026-10-09 官方推理激活参数口径补正：405B（官方模型表列出的规模；该卡未把“稀疏激活参数”作为独立字段披露）；官方源：https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md；该模型卡没有把“稀疏激活参数”作为独立字段披露。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19601,7 +19613,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19612,7 +19624,8 @@
       "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
       "https://ai.meta.com/",
-      "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct/resolve/main/README.md"
+      "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct/resolve/main/README.md",
+      "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
