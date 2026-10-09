@@ -56,6 +56,33 @@
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {
+    "id": "alibaba",
+    "displayName": "Alibaba Cloud",
+    "slug": "alibaba",
+    "officialSite": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Alibaba Cloud 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Qwen3-Coder（系列概览）",
+      "Qwen3.5 Flash"
+    ],
+    "flagshipModels": [
+      "Qwen3-Coder（系列概览）",
+      "Qwen3.5 Flash"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 2,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
     "id": "allen-institute-for-ai",
     "displayName": "Allen Institute for AI",
     "slug": "allen-institute-for-ai",
@@ -1079,7 +1106,7 @@
       "案例库缺少 A 类公开证据",
       "effort/variant 容易被误建成独立模型"
     ],
-    "modelCount": 35,
+    "modelCount": 36,
     "sourceFile": "../../outputs/vendors/openai.md"
   },
   {

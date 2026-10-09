@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T12:01:28.751Z",
+  "generatedAt": "2026-10-09T12:38:27.746Z",
   "summary": {
-    "models": 381,
+    "models": 384,
     "activeModels": 116,
     "minACases": 3,
     "targetACases": 5,
@@ -11,10 +11,10 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 795,
-    "allModelTargetDeficit": 1325,
-    "queuedModels": 261,
-    "crawlTargetDeficit": 1305
+    "allModelMinDeficit": 804,
+    "allModelTargetDeficit": 1340,
+    "queuedModels": 264,
+    "crawlTargetDeficit": 1320
   },
   "tasks": [
     {
@@ -17665,7 +17665,11 @@
         "https://huggingface.co/moonshotai/Kimi-K3/raw/main/LICENSE",
         "https://www.kimi.com/news/kimi-k3-open-source",
         "https://openrouter.ai/api/v1/models",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ",
+        "https://huggingface.co/moonshotai/Kimi-K3/raw/main/README.md",
+        "https://arxiv.org/abs/2607.24653",
+        "https://huggingface.co/moonshotai/Kimi-K3/blob/main/README.md",
+        "https://huggingface.co/moonshotai/Kimi-K3/tree/main"
       ],
       "crawlSources": [
         {
@@ -20945,7 +20949,8 @@
         "https://artificialanalysis.ai/models/glm-5-3",
         "https://huggingface.co/zai-org/GLM-5.3/raw/main/LICENSE",
         "https://huggingface.co/zai-org/GLM-5.3/raw/main/config.json",
-        "https://huggingface.co/zai-org/GLM-5.3/raw/main/README.md"
+        "https://huggingface.co/zai-org/GLM-5.3/raw/main/README.md",
+        "https://docs.z.ai/guides/overview/pricing"
       ],
       "crawlSources": [
         {
@@ -21659,7 +21664,8 @@
         "https://bailian.console.aliyun.com/cn-beijing/?tab=model#/model-market/detail/qwen3.6-flash",
         "https://github.com/QwenLM/Qwen3.6",
         "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
-        "https://www.qwencloud.com/models/qwen3.6-flash"
+        "https://www.qwencloud.com/models/qwen3.6-flash",
+        "https://docs.qwencloud.com/developer-guides/getting-started/vision-models"
       ],
       "crawlSources": [
         {
@@ -21801,7 +21807,8 @@
         "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf",
         "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
-        "https://www.qwencloud.com/models/qwen3.8-max"
+        "https://www.qwencloud.com/models/qwen3.8-max",
+        "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing"
       ],
       "crawlSources": [
         {
@@ -46060,7 +46067,8 @@
         "https://docs.anthropic.com/en/docs/about-claude/pricing",
         "https://docs.anthropic.com/en/docs/about-claude/models/model-ids-and-versions",
         "https://artificialanalysis.ai/models/claude-sonnet-4-6",
-        "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+        "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+        "https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf"
       ],
       "crawlSources": [
         {
@@ -46346,7 +46354,12 @@
         "https://github.com/zai-org/GLM-5",
         "https://huggingface.co/zai-org/GLM-5",
         "https://z.ai/subscribe",
-        "https://artificialanalysis.ai/models/glm-5-2"
+        "https://artificialanalysis.ai/models/glm-5-2",
+        "https://huggingface.co/zai-org/GLM-5.2/raw/main/README.md",
+        "https://huggingface.co/zai-org/GLM-5.2/raw/main/config.json",
+        "https://huggingface.co/zai-org/GLM-5.2/raw/main/LICENSE",
+        "https://docs.z.ai/guides/llm/glm-5.2",
+        "https://docs.z.ai/guides/overview/pricing"
       ],
       "crawlSources": [
         {
@@ -47930,7 +47943,8 @@
         "https://artificialanalysis.ai/models/deepseek-v4-1-flash-non-reasoning",
         "https://artificialanalysis.ai/models/deepseek-v4-1-flash",
         "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/README.md",
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json"
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/LICENSE"
       ],
       "crawlSources": [
         {
@@ -54021,6 +54035,426 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for step-3-5-flash >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-qwen3-coder-series-overview",
+      "modelId": "qwen3-coder-series-overview",
+      "modelName": "Qwen3-Coder（系列概览）",
+      "vendorId": "alibaba",
+      "vendor": "Alibaba Cloud",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://qwenlm.github.io/blog/qwen3-coder/",
+        "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/README.md",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/HioBwNvhXio9NDkWieDc0PsBnGf"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Qwen3-Coder（系列概览） Alibaba Cloud case study customer",
+        "Qwen3-Coder（系列概览） Alibaba Cloud built with GitHub demo",
+        "Qwen3-Coder（系列概览） Alibaba Cloud production use product blog",
+        "Qwen3-Coder（系列概览） Alibaba Cloud model card docs API pricing context window",
+        "Qwen3-Coder（系列概览） Alibaba Cloud 真实使用 案例 项目 开源",
+        "Qwen3-Coder（系列概览） Alibaba Cloud GitHub README built with",
+        "Qwen3-Coder（系列概览） Alibaba Cloud B站 使用 案例 demo",
+        "Qwen3-Coder（系列概览） Alibaba Cloud 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for qwen3-coder-series-overview >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-qwen3-5-flash",
+      "modelId": "qwen3-5-flash",
+      "modelName": "Qwen3.5 Flash",
+      "vendorId": "alibaba",
+      "vendor": "Alibaba Cloud",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-flash",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/WkW1w1LPIiGCVHkKAkVcAhUEn5N"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Qwen3.5 Flash Alibaba Cloud case study customer",
+        "Qwen3.5 Flash Alibaba Cloud built with GitHub demo",
+        "Qwen3.5 Flash Alibaba Cloud production use product blog",
+        "Qwen3.5 Flash Alibaba Cloud model card docs API pricing context window",
+        "Qwen3.5 Flash Alibaba Cloud 真实使用 案例 项目 开源",
+        "Qwen3.5 Flash Alibaba Cloud GitHub README built with",
+        "Qwen3.5 Flash Alibaba Cloud B站 使用 案例 demo",
+        "Qwen3.5 Flash Alibaba Cloud 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for qwen3-5-flash >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-gpt-rosalind-2026-06-update",
+      "modelId": "gpt-rosalind-2026-06-update",
+      "modelName": "GPT-Rosalind（2026-06 更新）",
+      "vendorId": "openai",
+      "vendor": "OpenAI",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+        "https://developers.openai.com/api/docs/pricing",
+        "https://deploymentsafety.openai.com/gpt-rosalind-5-5/introduction",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/VfSEwbZlcirvdykn0A0c23usnGf"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "GPT-Rosalind（2026-06 更新） OpenAI case study customer",
+        "GPT-Rosalind（2026-06 更新） OpenAI built with GitHub demo",
+        "GPT-Rosalind（2026-06 更新） OpenAI production use product blog",
+        "GPT-Rosalind（2026-06 更新） OpenAI model card docs API pricing context window",
+        "GPT-Rosalind（2026-06 更新） OpenAI 真实使用 案例 项目 开源",
+        "GPT-Rosalind（2026-06 更新） OpenAI GitHub README built with",
+        "GPT-Rosalind（2026-06 更新） OpenAI B站 使用 案例 demo",
+        "GPT-Rosalind（2026-06 更新） OpenAI 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for gpt-rosalind-2026-06-update >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

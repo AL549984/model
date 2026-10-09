@@ -7898,11 +7898,11 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "Kimi K3: 2.8T参数旗舰模型，1M上下文，原生多模态，开源3万亿级",
-    "summary": "Moonshot AI于2026年7月发布的旗舰大语言模型，2.8万亿参数，1M token上下文，原生支持文本+图像+视频理解，始终开启思考模式，面向长程编程与知识工作，全球首个开源3万亿级别模型。",
+    "headline": "2.8T开放权重多模态MoE；官方架构与评测已公开",
+    "summary": "Kimi K3 是 Moonshot AI 的开放权重原生多模态MoE模型，总参数2.8T、每token激活104B，支持长上下文和工具工作流。权重、架构配置和评测表均已公开；厂商的领先性宣传仍须按具体任务核验。",
     "releaseDate": "2026-07-17",
     "modelId": "kimi-k3",
-    "context": "1000000",
+    "context": "1048576 tokens（官方README规格表）；API可用窗口以具体入口为准。",
     "output": "OpenRouter当前托管入口列出 943718 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "Text + Image + Video",
     "reasoning": "是 / 推理模型或 thinking 模式",
@@ -7917,7 +7917,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "KDA混合线性注意力架构; 注意力残差技术; 始终开启思考模式; 全球首个开源3万亿级别模型\n2026-10-09 逐字段全网核验：许可证：Kimi K3 License（自定义开放权重许可，不等同于MIT）：一般允许使用、修改与部署；达到许可中Model-as-a-Service营收门槛需另签协议，另有大型商业产品署名条件，内部使用/官方产品例外以全文为准。",
+    "notes": "2026-10-09 对应官方模型卡与技术报告核验：模型类型：原生多模态MoE；Stable LatentMoE每token激活16/896个路由专家，结合Kimi Delta Attention与Attention Residuals；不是Dense稠密模型；许可证：Kimi K3 License（自定义开放权重许可，不等同于MIT）：一般允许使用、修改与部署；达到许可中Model-as-a-Service营收门槛需另签协议，另有大型商业产品署名条件，内部使用/官方产品例外以全文为准。；位置编码：NoPE：MLA查询与key不使用显式位置编码，KDA门控与衰减提供隐式位置信息；长上下文扩展不需要RoPE重标定（官方技术报告2.1.2/3.4）。；训练数据：预训练包含网页文本、代码、数学、知识与视觉数据；视觉覆盖OCR、视频及代码与渲染产物配对。报告说明过滤、去重与合成流程，但本轮尚未取得完整数据清单及总token预算。；激活参数量：104B（官方README）；总参数2.8T，不能把激活参数与总参数混为一谈。；层数：93层；69层KDA、24层Gated MLA。；历史备注已备份，现行事实以Wiki与原始来源为准。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7940,7 +7940,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 10,
+    "supplementalSourceCount": 14,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -7955,7 +7955,11 @@
       "https://huggingface.co/moonshotai/Kimi-K3/raw/main/LICENSE",
       "https://www.kimi.com/news/kimi-k3-open-source",
       "https://openrouter.ai/api/v1/models",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ",
+      "https://huggingface.co/moonshotai/Kimi-K3/raw/main/README.md",
+      "https://arxiv.org/abs/2607.24653",
+      "https://huggingface.co/moonshotai/Kimi-K3/blob/main/README.md",
+      "https://huggingface.co/moonshotai/Kimi-K3/tree/main"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -8987,7 +8991,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "面向获批高级网络安全研究的 GPT-5.6 Sol 专项模型",
-    "summary": "OpenAI 于 2026-08-10 发布 GPT-5.6-Cyber，基于 GPT-5.6 Sol，针对零日漏洞发现、漏洞利用链开发和高级授权安全测试训练，仅通过受治理的 Daybreak Red 提供。",
+    "summary": "GPT-5.6-Cyber 是 OpenAI 面向经授权高级网络安全研究推出的专用模型，基于 GPT-5.6 Sol 训练，重点提升零日漏洞发现、漏洞利用链开发与高风险双用途安全任务的完成能力，仅通过受治理的 Daybreak Red 提供。",
     "releaseDate": "2026-08-10",
     "modelId": "gpt-5-6-cyber",
     "context": "400,000 tokens",
@@ -9005,7 +9009,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。",
+    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。\n2026-10-09 正文一致性与现行资料补正：API model id：gpt-5.6-cyber（官方列出的当前alias；仍须单独获批和provisioning，不表示普通账户可调用）；知识截止日期：2026-02-16（对应型号官方API文档）；公开规格不足：API文档已给出型号alias、400000窗口、128000输出及token价格；受限访问、底层参数和架构、部分评测细节仍需分别核验。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9374,15 +9378,15 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "面向复杂软件工程、长程 Agent 与网络安全任务的 Z.ai 旗舰文本模型。",
-    "summary": "GLM-5.3 沿用 GLM-5.2 的基础模型，能力增量全部来自后训练；官方规格为 1M 上下文、128K 最大输出，并要求始终开启 thinking。",
+    "headline": "开放权重长程工程模型；现行API价格已有官方表",
+    "summary": "GLM-5.3 是 Z.ai 面向复杂软件工程、长程 Agent 与网络安全任务推出的旗舰文本模型：它沿用 GLM-5.2 的同一基础模型，能力增量全部来自后训练，并把上下文扩展到 1M、最大输出提升到 128K。",
     "releaseDate": "2026-08-14",
     "modelId": "glm-5-3",
     "context": "1M tokens",
     "output": "128K tokens",
     "modality": "文本输入 / 文本输出",
     "reasoning": "必须开启 thinking；low / high / max 三档，默认 max",
-    "price": "独立 API token 价格官方未披露；Coding Plan 采用积分额度制",
+    "price": "Z.AI国际API价格（每百万tokens，美元）：输入1.4、缓存输入0.26、输出4.4；缓存存储当前限时免费。Coding Plan积分是另一套计费口径。",
     "platforms": [
       "GLM Coding Plan",
       "ZCode",
@@ -9394,7 +9398,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。\n2026-10-09 逐字段全网核验：总参数量：753B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；激活参数量：40B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；许可证：GLM-5.3 License（官方自定义许可，不是MIT）：允许使用、修改和部署，但满足许可所定义的模型即服务业务与合计营收条件时须经Z.AI安全审查；具体适用条件以链接全文为准。；架构类型：GlmMoeDsaForCausalLM；78层，hidden_size=6144；256个路由专家，每token选8个，并含1个共享专家；公开配置支持1048576位置。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。\n2026-10-09 逐字段全网核验：总参数量：753B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；激活参数量：40B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；许可证：GLM-5.3 License（官方自定义许可，不是MIT）：允许使用、修改和部署，但满足许可所定义的模型即服务业务与合计营收条件时须经Z.AI安全审查；具体适用条件以链接全文为准。；架构类型：GlmMoeDsaForCausalLM；78层，hidden_size=6144；256个路由专家，每token选8个，并含1个共享专家；公开配置支持1048576位置。\n2026-10-09 正文一致性与现行资料补正：开源状态：已开放权重：官方zai-org/GLM-5.3仓库提供模型文件和本地部署说明；遵守GLM-5.3自定义许可。；当前入口：官方文档已列出模型API与GLM Coding Plan；部分订阅历史账户有协议限制，需按文档选择入口，不再标记coming soon。；本地部署：已有官方部署说明；成本可预测性：可按现行API价格估算；Coding Plan积分和本地硬件成本另计。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9415,7 +9419,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 10,
+    "supplementalSourceCount": 11,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9432,7 +9436,8 @@
       "https://artificialanalysis.ai/models/glm-5-3",
       "https://huggingface.co/zai-org/GLM-5.3/raw/main/LICENSE",
       "https://huggingface.co/zai-org/GLM-5.3/raw/main/config.json",
-      "https://huggingface.co/zai-org/GLM-5.3/raw/main/README.md"
+      "https://huggingface.co/zai-org/GLM-5.3/raw/main/README.md",
+      "https://docs.z.ai/guides/overview/pricing"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9691,12 +9696,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "1M 上下文、完整工具能力与分档计费的 Qwen3.6 API 型号",
-    "summary": "Qwen3.6 Flash 是阿里云百炼提供的闭源 API 模型，官方披露 1M 上下文，并支持思考模式、Function Calling、内置工具和结构化输出；当前版本等同于 2026-04-16 快照。",
+    "summary": "Qwen3.6 Flash 是阿里云百炼提供的 Qwen3.6 系列低成本 API 模型，官方当前版本等同于快照  qwen3.6-flash-2026-04-16 ，支持 1M 上下文、思考模式、Function Calling、内置工具与结构化输出；本次依据阿里云官方计费文档回填了分档价格。",
     "releaseDate": "2026-04-16",
     "modelId": "qwen3-6-flash",
     "context": "1,000,000 tokens",
     "output": "65536 tokens（思考与非思考模式均同；官方模型规格页）",
-    "modality": "文本、图像、视频输入，文本输出（官方API能力表）",
+    "modality": "文本、图像、视频输入，文本输出（官方型号表及视觉理解文档已明确；复杂视觉任务质量另需评测）",
     "reasoning": "支持思考与非思考模式",
     "price": "全球：≤256K 输入 ¥1.2/1M、输出 ¥7.2/1M；256K-1M 输入 ¥4.8/1M、输出 ¥28.8/1M；其他区域见官方计费页",
     "platforms": [
@@ -9708,7 +9713,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4\n2026-10-09 逐字段全网核验：",
+    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4\n2026-10-09 逐字段全网核验：\n2026-10-09 正文一致性与现行资料补正：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9725,7 +9730,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9737,7 +9742,8 @@
       "https://bailian.console.aliyun.com/cn-beijing/?tab=model#/model-market/detail/qwen3.6-flash",
       "https://github.com/QwenLM/Qwen3.6",
       "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
-      "https://www.qwencloud.com/models/qwen3.6-flash"
+      "https://www.qwencloud.com/models/qwen3.6-flash",
+      "https://docs.qwencloud.com/developer-guides/getting-started/vision-models"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9751,14 +9757,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.8 Max 的 2026-09-02 后训练快照。",
-    "summary": "0902 版本强化 Coding 与 Cowork，支持文本、图像、视频输入及长周期多工具工作流。",
+    "summary": "Qwen3.8 Max 是 Alibaba / Qwen 面向长周期自主执行、编程、办公与专业知识工作的闭源 MoE 旗舰模型，官方强调它可在规划、执行和验证之间形成闭环，并原生处理视觉信息。",
     "releaseDate": "2026-09-02",
     "modelId": "qwen3-8-max",
-    "context": "1000000 tokens；最大输入991808，思考模式最大输入983616（官方API表，非权重位置长度）",
+    "context": "1000000 tokens；最大输入991808，思考模式983616，最大输出131072，最大思维链262144（官方型号规格表）",
     "output": "131072 tokens；最大思维链262144，二者不是同一指标",
     "modality": "文本、图像、视频输入；文本输出；支持函数调用、结构化输出与搜索",
-    "reasoning": "支持深度思考；最大推理预算 262K",
-    "price": "以 QwenCloud 当前价格页为准",
+    "reasoning": "支持思考和非思考；enable_thinking控制是否返回思考过程，具体effort档位不能套用其他模型。",
+    "price": "官方国际部署价格表：输入$2、输出$6/百万tokens；型号页当前显示输入$1.65、输出$4.951。页面/地区选择口径尚未完全对齐，不能合为统一价，以所用部署地区控制台为准；均不是“官方没有价格”。",
     "platforms": [
       "QwenCloud",
       "Responses API"
@@ -9769,7 +9775,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "0902 更新已追加到现有 Qwen3.8 Max Wiki 模型卡。\n2026-10-09 逐字段全网核验：",
+    "notes": "0902 更新已追加到现有 Qwen3.8 Max Wiki 模型卡。\n2026-10-09 逐字段全网核验：\n2026-10-09 正文一致性与现行资料补正：长上下文：官方型号页已披露1M窗口及输入/输出边界；实际可用长度随API参数组合变化，不只来自第三方记录。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9789,7 +9795,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9799,7 +9805,8 @@
       "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf",
       "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
-      "https://www.qwencloud.com/models/qwen3.8-max"
+      "https://www.qwencloud.com/models/qwen3.8-max",
+      "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/model-pricing"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19960,13 +19967,13 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Claude Sonnet 4.6：独立模型版本",
-    "summary": "Claude Sonnet 4.6 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
+    "summary": "Claude Sonnet 4.6 是 Anthropic 于 2026 年 2 月 17 日发布的 Sonnet 系列旗舰模型，在编码、计算机使用、长上下文推理、代理规划、知识工作和设计等方面全面提升，以更经济的价格提供接近 Opus 级别的智能能力。",
     "releaseDate": "暂无数据",
     "modelId": "claude-sonnet-4-6",
-    "context": "1M tokens",
-    "output": "官方未披露 / 待核验",
+    "context": "1M tokens（2026-10-09现行Claude API文档；发布初期为beta，其他平台须按各自文档核对）",
+    "output": "128K tokens（现行Claude API）；Batch API的300K输出为beta，不能混为普通请求上限。",
     "modality": "文本、图像输入 → 文本输出（官方模型文档）",
-    "reasoning": "官方未披露 / 待核验",
+    "reasoning": "Adaptive Thinking；Extended Thinking已标为deprecated。默认effort为high，支持low/medium/high/max。",
     "price": "官方未披露 / 待核验",
     "platforms": [
       "官方入口见来源"
@@ -19977,7 +19984,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。",
+    "notes": "2026-10-09现行型号页复核：闭源多模态推理模型；具体Dense/MoE结构待核验，本轮没有取得可支持原稠密架构判断的原始证据。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19995,7 +20002,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -20008,7 +20015,8 @@
       "https://docs.anthropic.com/en/docs/about-claude/pricing",
       "https://docs.anthropic.com/en/docs/about-claude/models/model-ids-and-versions",
       "https://artificialanalysis.ai/models/claude-sonnet-4-6",
-      "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+      "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+      "https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -20080,15 +20088,15 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "GLM-5.2：独立模型版本",
-    "summary": "GLM-5.2 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
+    "headline": "GLM-5.2 API、权重与MIT许可资料已公开",
+    "summary": "GLM-5.2 是Z.ai面向长程编程与Agent任务的开放权重模型，支持1M上下文，提供模型API与本地部署说明。发布初期的“下周开源”已不代表当前状态。",
     "releaseDate": "暂无数据",
     "modelId": "glm-5-2",
     "context": "官方未披露 / 待核验",
     "output": "官方未披露 / 待核验",
     "modality": "官方未披露 / 待核验",
     "reasoning": "官方未披露 / 待核验",
-    "price": "官方未披露 / 待核验",
+    "price": "Z.AI国际API每百万tokens：输入$1.4、缓存输入$0.26、输出$4.4；缓存存储当前限时免费。订阅积分另计。",
     "platforms": [
       "官方入口见来源"
     ],
@@ -20098,7 +20106,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "独立 AA release.slug=glm-5-2；补齐既有Wiki对应的稳定库存行，不表示模型本轮新发布。发布时间与规格待官方逐项核验；不将历史估算当作官方参数。",
+    "notes": "独立 AA release.slug=glm-5-2；补齐既有Wiki对应的稳定库存行，不表示模型本轮新发布。发布时间与规格待官方逐项核验；不将历史估算当作官方参数。\n2026-10-09 正文一致性与现行资料补正：API / Chatbot：官方现行模型文档提供glm-5.2 API示例；账户权限另行核验，不能沿用发布前的“下周上线”。；开源权重：已开放权重；官方仓库和MIT LICENSE已可访问，提供本地部署说明。；许可证：MIT（对应GLM-5.2官方LICENSE；不套用GLM-5.3的自定义许可）；架构：官方config：GlmMoeDsaForCausalLM，78层、hidden_size6144、256路由专家每token选8个并含1个共享专家；前3层稠密。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -20116,7 +20124,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 6,
+    "supplementalSourceCount": 11,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -20128,7 +20136,12 @@
       "https://github.com/zai-org/GLM-5",
       "https://huggingface.co/zai-org/GLM-5",
       "https://z.ai/subscribe",
-      "https://artificialanalysis.ai/models/glm-5-2"
+      "https://artificialanalysis.ai/models/glm-5-2",
+      "https://huggingface.co/zai-org/GLM-5.2/raw/main/README.md",
+      "https://huggingface.co/zai-org/GLM-5.2/raw/main/config.json",
+      "https://huggingface.co/zai-org/GLM-5.2/raw/main/LICENSE",
+      "https://docs.z.ai/guides/llm/glm-5.2",
+      "https://docs.z.ai/guides/overview/pricing"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -20751,8 +20764,8 @@
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "DeepSeek 新架构家族最小成员，原生多模态视觉理解，1M 上下文，API 定价大幅下调",
-    "summary": "DeepSeek-V4.1-Flash 是深度求索于 2026-09-10 发布的新一代架构轻量模型，原生支持多模态视觉理解，定位为新架构家族中最小成员，兼顾高推理能力上限、更快推理速度和更高吞吐量。GPQA Diamond 90.9，Codeforces Rating 3471，支持 Thinking/Non-thinking 双模式。",
+    "headline": "开放权重多模态MoE；骨干与Engram参数分别计量",
+    "summary": "DeepSeek-V4.1-Flash 是深度求索（DeepSeek）于 2026 年 9 月 10 日发布的新一代架构旗舰级轻量模型，原生支持多模态视觉理解，定位为新架构家族中最小成员，兼顾高推理能力上限、更快推理速度和更高吞吐量。",
     "releaseDate": "2026-09-10",
     "modelId": "deepseek-v4.1-flash",
     "context": "1000000",
@@ -20769,7 +20782,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "新架构家族最小成员，暗示后续更大模型在开发中。V4 Pro 继续提供 API 服务但无新版本计划。HuggingFace 仅有社区量化版本。\n2026-10-09 逐字段全网核验：总参数量：552B骨干参数（官方型号README，另有196B稀疏查询的Engram条件记忆；不把不同参数口径混为一谈）；注意力机制：CSA2压缩稀疏注意力；Full/Reindex/Reuse静态模式共享KV和索引，解码端分层稀疏索引；FP4主KV缓存。官方报告的890 bytes/token为该设计口径，不直接保证所有服务的实际显存。；训练数据：官方README披露多模态预训练语料45T tokens；64K序列训练稀疏注意力，在34T tokens时将上下文扩至1M；训练从零开始。",
+    "notes": "新架构家族最小成员，暗示后续更大模型在开发中。V4 Pro 继续提供 API 服务但无新版本计划。HuggingFace 仅有社区量化版本。\n2026-10-09 逐字段全网核验：总参数量：552B骨干参数（官方型号README，另有196B稀疏查询的Engram条件记忆；不把不同参数口径混为一谈）；注意力机制：CSA2压缩稀疏注意力；Full/Reindex/Reuse静态模式共享KV和索引，解码端分层稀疏索引；FP4主KV缓存。官方报告的890 bytes/token为该设计口径，不直接保证所有服务的实际显存。；训练数据：官方README披露多模态预训练语料45T tokens；64K序列训练稀疏注意力，在34T tokens时将上下文扩至1M；训练从零开始。\n2026-10-09 正文一致性与现行资料补正：模型类型：多模态MoE（Causal Encoder-Decoder架构）；不是Dense稠密模型；开源状态：开放权重：官方仓库提供权重、配置与自部署说明；API服务另受对应服务条款约束；许可证：权重使用MIT（对应型号官方LICENSE）；商业API调用另受服务条款约束，不能把API商业许可当作权重许可；架构：40层Causal Encoder-Decoder：20层因果编码器+20层解码器；CSA2，Engram条件记忆，384个路由专家每token激活6个、另含1个共享专家。；参数量未披露：骨干552B；另有196B Engram条件记忆，prefill激活8B、decode激活16B；不同口径不能直接相加后冒称官方统一总数。；架构细节不透明：官方README及config已公开CED、CSA2与专家配置；完整工程吞吐和显存仍受部署环境影响。；闭源模型：官方已提供权重和部署说明，允许按许可自部署；实际硬件容量、精度和并发成本须按配置测试。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -20786,7 +20799,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -20798,7 +20811,8 @@
       "https://artificialanalysis.ai/models/deepseek-v4-1-flash-non-reasoning",
       "https://artificialanalysis.ai/models/deepseek-v4-1-flash",
       "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/README.md",
-      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json"
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/LICENSE"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -23227,6 +23241,171 @@
     ],
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ATd9wQlSfiqwLhkCj6Ec5ZzonWb"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-coder-series-overview",
+    "name": "Qwen3-Coder（系列概览）",
+    "slug": "qwen3-coder-series-overview",
+    "vendorId": "alibaba",
+    "vendor": "Alibaba Cloud",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Qwen3-Coder系列资料索引；各变体分别核验",
+    "summary": "系列概览，包含480B-A35B、30B-A3B和Next；不能把系列参数或日期当作每个变体的规格。",
+    "releaseDate": "2025-07-22",
+    "modelId": "qwen3-coder-series-overview",
+    "context": "各变体分别核验；原始480B版本原生256K并可外推至1M",
+    "output": "仅对应OpenRouter qwen/qwen3-coder入口为65536；其他变体另计",
+    "modality": "文本",
+    "reasoning": "否或官方未披露",
+    "price": "官方未披露 / 暂无数据",
+    "platforms": [
+      "Alibaba Cloud"
+    ],
+    "officialLink": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Hold：系列索引，不纳入单一模型公开榜单；Next已有独立Atlas记录，不合并身份。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://qwenlm.github.io/blog/qwen3-coder/",
+      "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/README.md",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/HioBwNvhXio9NDkWieDc0PsBnGf"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "qwen3-5-flash",
+    "name": "Qwen3.5 Flash",
+    "slug": "qwen3-5-flash",
+    "vendorId": "alibaba",
+    "vendor": "Alibaba Cloud",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Qwen3.5 Flash｜原始来源已补正，待继续核验",
+    "summary": "Qwen3.5 Flash 是阿里云通义千问（Qwen）团队于 2026 年 2 月发布的轻量化 API 模型，属于 Qwen3.5 系列的快思考版本，定位为低成本、高效率的文本生成模型，支持 1M 超长上下文、思考模式、Function Calling 和结构化输出。 📅 发布时间：2026-02-23（首个快照版本）",
+    "releaseDate": "2026-02-23",
+    "modelId": "qwen3-5-flash",
+    "context": "1M tokens",
+    "output": "64K tokens",
+    "modality": "文本",
+    "reasoning": "否或官方未披露",
+    "price": "QwenCloud当前标准牌价：输入$0.10、输出$0.40/百万tokens；显式缓存创建$0.125、读取$0.01。仅说明此入口牌价，地区/促销/其他模式另按实际控制台。",
+    "platforms": [
+      "Alibaba Cloud"
+    ],
+    "officialLink": "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-flash",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09：对应Wiki资料同步；Hold不自动进入公开榜单。API Flash变体，不能映射为同系列开放权重型号。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-5-flash",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/WkW1w1LPIiGCVHkKAkVcAhUEn5N"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-rosalind-2026-06-update",
+    "name": "GPT-Rosalind（2026-06 更新）",
+    "slug": "gpt-rosalind-2026-06-update",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "GPT-Rosalind（2026-06 更新）｜原始来源已补正，待继续核验",
+    "summary": "GPT-Rosalind 是 OpenAI 面向生命科学研究的专用模型系列；2026年6月3日更新重点是把 GPT-5.5 的 agentic coding / tool-use 能力与生命科学领域智能结合，用于药物发现、基因组学、定量生物、湿实验排障和端到端科研工作流。6月发布时以research preview提供；9月11日已退出预览，当前仍面向通过trusted-access审核的合格组织。",
+    "releaseDate": "2026-06-03",
+    "modelId": "gpt-rosalind-2026-06-update",
+    "context": "待核验（本轮尚未取得该字段的可靠来源）",
+    "output": "待核验（本轮尚未取得该字段的可靠来源）",
+    "modality": "生命科学任务；具体API模态另计",
+    "reasoning": "否或官方未披露",
+    "price": "历史卡补充现行服务价格：gpt-rosalind-research每百万tokens输入$5、缓存输入$0.50、输出$25，2026-10-05开始计费；这是当前受控服务价格，不是6月快照历史报价。",
+    "platforms": [
+      "OpenAI"
+    ],
+    "officialLink": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "2026-10-09：对应Wiki资料同步；Hold不自动进入公开榜单。历史更新卡，现行服务价格与6月模型规格分开；不合并快照与API别名。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "作为完整模型索引和厂商路线追踪入口"
+    ],
+    "avoid": [
+      "缺少真实案例时不要包装成推荐"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+      "https://developers.openai.com/api/docs/pricing",
+      "https://deploymentsafety.openai.com/gpt-rosalind-5-5/introduction",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/VfSEwbZlcirvdykn0A0c23usnGf"
     ],
     "sourceFile": "Feishu Bitable"
   }
