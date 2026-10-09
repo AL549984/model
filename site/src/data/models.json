@@ -7581,8 +7581,8 @@
     "summary": "Fugu Ultra 是 Sakana AI 于 2026 年 6 月发布的多智能体编排模型。它本身是一个经过训练的语言模型，能够自主协调多个顶级 LLM（包括递归调用自身）来处理复杂的多步骤任务。用户只需调用单一 OpenAI 兼容 API 端点，Fugu Ultra 会自动进行模型选择、任务委派、验证和综合。在 SWE Bench Pro（73.7）、Terminal Bench 2.1（82.1）、LiveCodeBench（93.2）等 benchmark 上超越 Opus 4.8、Gemini 3.1 Pro 和 GPT-5.5。",
     "releaseDate": "2026-06",
     "modelId": "fugu-ultra",
-    "context": "未披露（定价阈值 272K tokens）",
-    "output": "未披露",
+    "context": "OpenRouter当前 sakana/fugu-ultra 入口列出1000000 tokens；这是当前别名服务配置，历史v1的精确边界仍待核验，不能由当前v2别名推断。",
+    "output": "OpenRouter当前托管入口列出 128000 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "文本",
     "reasoning": "false",
     "price": "Input $5/1M, Output $30/1M (standard); Input $10/1M, Output $45/1M (>272K context)",
@@ -7595,7 +7595,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "多智能体编排模型，基于 Trinity（ICLR 2026）和 Conductor（ICLR 2026）研究。Fable 5 和 Mythos Preview 未公开访问，不在代理池中。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd",
+    "notes": "多智能体编排模型，基于 Trinity（ICLR 2026）和 Conductor（ICLR 2026）研究。Fable 5 和 Mythos Preview 未公开访问，不在代理池中。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7612,7 +7612,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -7624,7 +7624,9 @@
       "https://console.sakana.ai/pricing",
       "https://arxiv.org/abs/2606.21228",
       "https://github.com/SakanaAI/fugu",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/C3R1wohGYibzz8k7TLZcEsnrnRd",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/sakana/fugu-ultra"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -7837,10 +7839,10 @@
     "releaseDate": "2026-07-15",
     "modelId": "inkling",
     "context": "1000000",
-    "output": "official undisclosed",
+    "output": "OpenRouter当前托管入口列出 471859 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "text, image, audio",
     "reasoning": "true",
-    "price": "official undisclosed",
+    "price": "OpenRouter当前美元/百万tokens：输入1.0，输出4.05；平台渠道价，不代表Tinker微调/训练或自托管成本。",
     "platforms": [
       "tinker",
       "huggingface",
@@ -7853,7 +7855,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Apache 2.0 开源权重；975B MoE；45T tokens 预训练；NVIDIA GB300 NVL72 训练；可控思维努力；Design Arena Agentic Web Dev 得分 1257",
+    "notes": "Apache 2.0 开源权重；975B MoE；45T tokens 预训练；NVIDIA GB300 NVL72 训练；可控思维努力；Design Arena Agentic Web Dev 得分 1257\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7870,7 +7872,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 6,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -7881,7 +7883,9 @@
       "https://thinkingmachines.ai/model-card/inkling/",
       "https://huggingface.co/thinkingmachines/inkling",
       "https://tinker.thinkingmachines.ai/",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/GijewF683iNhhvkwOUQcaPjFnvd"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/GijewF683iNhhvkwOUQcaPjFnvd",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/thinkingmachines/inkling"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -7899,7 +7903,7 @@
     "releaseDate": "2026-07-17",
     "modelId": "kimi-k3",
     "context": "1000000",
-    "output": "官方未披露",
+    "output": "OpenRouter当前托管入口列出 943718 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "Text + Image + Video",
     "reasoning": "是 / 推理模型或 thinking 模式",
     "price": "Input $3.00/1M tokens, Output $15.00/1M tokens (OpenRouter)",
@@ -7913,7 +7917,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "KDA混合线性注意力架构; 注意力残差技术; 始终开启思考模式; 全球首个开源3万亿级别模型",
+    "notes": "KDA混合线性注意力架构; 注意力残差技术; 始终开启思考模式; 全球首个开源3万亿级别模型\n2026-10-09 逐字段全网核验：许可证：Kimi K3 License（自定义开放权重许可，不等同于MIT）：一般允许使用、修改与部署；达到许可中Model-as-a-Service营收门槛需另签协议，另有大型商业产品署名条件，内部使用/官方产品例外以全文为准。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -7936,7 +7940,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 6,
+    "supplementalSourceCount": 10,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -7947,7 +7951,11 @@
       "https://platform.moonshot.cn/pricing/chat-k3",
       "https://openrouter.ai/moonshotai/kimi-k3",
       "https://kimi.moonshot.cn",
-      "Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
+      "Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ",
+      "https://huggingface.co/moonshotai/Kimi-K3/raw/main/LICENSE",
+      "https://www.kimi.com/news/kimi-k3-open-source",
+      "https://openrouter.ai/api/v1/models",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Tusmwm4UnifLENk3aEGcxJxunfJ"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -7965,7 +7973,7 @@
     "releaseDate": "2026-07-16",
     "modelId": "grok-4-5",
     "context": "500K tokens",
-    "output": "官方未披露 / 待核验",
+    "output": "OpenRouter当前托管入口列出 450000 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "文本、图像与文件输入；文本输出",
     "reasoning": "支持不同推理强度",
     "price": "官方发布价：输入 $2 / 1M tokens，输出 $6 / 1M tokens；最新阶梯价以官方定价文档为准",
@@ -7980,7 +7988,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-08-28 原位回填官方后续披露：训练使用数万块 NVIDIA GB300 GPU，RL 覆盖数十万项任务，并补充官方软件工程 benchmark、80 tokens/s 与 token 效率口径。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f",
+    "notes": "2026-08-28 原位回填官方后续披露：训练使用数万块 NVIDIA GB300 GPU，RL 覆盖数十万项任务，并补充官方软件工程 benchmark、80 tokens/s 与 token 效率口径。Wiki：https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -8003,7 +8011,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -8012,7 +8020,9 @@
       "https://x.ai/news/grok-4-5",
       "https://docs.x.ai/developers/grok-4-5",
       "https://docs.x.ai/developers/pricing",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NR0dwQqifitCRmkliL3czXaAn2f",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/x-ai/grok-4.5"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -8911,7 +8921,7 @@
     "releaseDate": "2026-07-30",
     "modelId": "inkling-small",
     "context": "1000000",
-    "output": "官方未披露 / 待核验",
+    "output": "OpenRouter当前托管入口列出 262144 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "text, image, audio",
     "reasoning": "true; controllable reasoning effort",
     "price": "Tinker Serverless Beta 256K: input $0.30/1M, cached input $0.06/1M, output $1.20/1M tokens",
@@ -8927,7 +8937,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Apache-2.0；276B total / 12B active；最高 1M context；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb",
+    "notes": "Apache-2.0；276B total / 12B active；最高 1M context；Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb\n2026-10-09 逐字段全网核验：专家数量与路由细节：官方config：256个路由专家，每token选择6个；另有2个共享专家，sigmoid门控，norm_after_topk=true，route_scale=8.0。；注意力机制：42层decoder；局部/全局混合注意力，局部窗口512；32个查询头/8个KV头，head_dim=128，局部层由local_layer_ids明确指定。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -8949,7 +8959,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -8959,7 +8969,11 @@
       "https://thinkingmachines.ai/inkling/",
       "https://huggingface.co/thinkingmachines/Inkling-Small",
       "https://tinker-docs.thinkingmachines.ai/tinker/models/",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NC38wnG5Ci6EFIk9N4icjqtjnyb",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/thinkingmachines/inkling-small",
+      "https://huggingface.co/thinkingmachines/Inkling-Small/raw/main/config.json",
+      "https://huggingface.co/thinkingmachines/Inkling-Small/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9058,7 +9072,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡已原位更新并保留稳定 id。官方当前版本为 DeepSeek-V4-Flash-0731；旧单一价格已替换为 2026-08-16 起执行的峰谷价格。Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf",
+    "notes": "Wiki 模型卡已原位更新并保留稳定 id。官方当前版本为 DeepSeek-V4-Flash-0731；旧单一价格已替换为 2026-08-16 起执行的峰谷价格。Wiki: https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf\n2026-10-09 逐字段全网核验：总参数量：284B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；激活参数量：13B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；位置编码细节：对应检查点公开config：{\"max_position_embeddings\":1048576,\"qk_rope_head_dim\":64,\"rope_scaling\":{\"beta_fast\":32,\"beta_slow\":1,\"factor\":16,\"original_max_position_embeddings\":65536,\"type\":\"yarn\"},\"rope_theta\":10000,\"compress_rope_theta\":160000}；部署上限和最大生成长度须另按入口核对。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9078,7 +9092,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9089,7 +9103,8 @@
       "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
       "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/config.json",
       "https://artificialanalysis.ai/models/deepseek-v4-flash",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Or0gwQi8Vi60q0kEBD9cB36Lnsf",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/raw/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9379,7 +9394,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。\n2026-10-09 逐字段全网核验：总参数量：753B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；激活参数量：40B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；许可证：GLM-5.3 License（官方自定义许可，不是MIT）：允许使用、修改和部署，但满足许可所定义的模型即服务业务与合计营收条件时须经Z.AI安全审查；具体适用条件以链接全文为准。；架构类型：GlmMoeDsaForCausalLM；78层，hidden_size=6144；256个路由专家，每token选8个，并含1个共享专家；公开配置支持1048576位置。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9400,7 +9415,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 10,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9412,7 +9427,12 @@
       "https://docs.z.ai/llms.txt",
       "https://arxiv.org/abs/2603.12201",
       "https://arxiv.org/abs/2607.07508",
-      "https://github.com/THUDM/slime"
+      "https://github.com/THUDM/slime",
+      "https://artificialanalysis.ai/models/glm-5-3-low",
+      "https://artificialanalysis.ai/models/glm-5-3",
+      "https://huggingface.co/zai-org/GLM-5.3/raw/main/LICENSE",
+      "https://huggingface.co/zai-org/GLM-5.3/raw/main/config.json",
+      "https://huggingface.co/zai-org/GLM-5.3/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9511,7 +9531,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "GA版本，API模型名仍为deepseek-v4-pro，定价结构新增峰值/非峰值机制。",
+    "notes": "GA版本，API模型名仍为deepseek-v4-pro，定价结构新增峰值/非峰值机制。\n2026-10-09 逐字段全网核验：位置编码：对应检查点公开config：{\"max_position_embeddings\":1048576,\"qk_rope_head_dim\":64,\"rope_scaling\":{\"beta_fast\":32,\"beta_slow\":1,\"factor\":16,\"original_max_position_embeddings\":65536,\"type\":\"yarn\"},\"rope_theta\":10000,\"compress_rope_theta\":160000}；部署上限和最大生成长度须另按入口核对。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9528,7 +9548,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9538,7 +9558,8 @@
       "https://api-docs.deepseek.com/quick_start/pricing",
       "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
       "https://arxiv.org/abs/2606.19348",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/RWFdwCRm6i9LSdk23N0cplDYndf"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/RWFdwCRm6i9LSdk23N0cplDYndf",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813/raw/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9556,7 +9577,7 @@
     "releaseDate": "2026-06-12",
     "modelId": "kimi-k2-7-code",
     "context": "256K（262,144 tokens）",
-    "output": "官方未披露 / 待核验",
+    "output": "OpenRouter当前托管入口列出 235929 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "文本 / 图像 / 视频",
     "reasoning": "是 / 仅思考模式（Thinking Mode Only）；不使用思考模式时自动回退至 K2.6",
     "price": "输入(Cache Miss) $0.95/1M，输入(Cache Hit) $0.19/1M，输出 $4.00/1M；高速版 kimi-k2.7-code-highspeed 约 180 Tokens/s",
@@ -9569,7 +9590,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-08-19 披露回填：依据官方 Hugging Face 模型页（README + LICENSE）将专家数(384)、层数(61)、注意力头(64)、注意力隐藏维度(7168)、MoE 隐藏维度(2048)、词汇表(160K)、激活函数(SwiGLU)等架构字段由「官方未披露 / 待核验」回填为官方披露值；许可证由 Apache 2.0 更正为 Modified MIT。官方 Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh",
+    "notes": "2026-08-19 披露回填：依据官方 Hugging Face 模型页（README + LICENSE）将专家数(384)、层数(61)、注意力头(64)、注意力隐藏维度(7168)、MoE 隐藏维度(2048)、词汇表(160K)、激活函数(SwiGLU)等架构字段由「官方未披露 / 待核验」回填为官方披露值；许可证由 Apache 2.0 更正为 Modified MIT。官方 Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh\n2026-10-09 逐字段全网核验：位置编码：对应检查点公开config：{\"max_position_embeddings\":262144,\"qk_rope_head_dim\":64,\"rope_scaling\":{\"beta_fast\":32.0,\"beta_slow\":1.0,\"factor\":64.0,\"mscale\":1.0,\"mscale_all_dim\":1.0,\"original_max_position_embeddings\":4096,\"type\":\"yarn\"},\"rope_theta\":50000.0}；部署上限和最大生成长度须另按入口核对。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9586,7 +9607,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9596,7 +9617,10 @@
       "https://www.kimi.com/code",
       "https://platform.kimi.ai/",
       "https://www.kimi.com/resources/kimi-k2-7-code",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/C172wKQCuirqVKkyut3cZDdxnCh",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/moonshotai/kimi-k2.7-code",
+      "https://huggingface.co/moonshotai/Kimi-K2.7-Code/raw/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9671,8 +9695,8 @@
     "releaseDate": "2026-04-16",
     "modelId": "qwen3-6-flash",
     "context": "1,000,000 tokens",
-    "output": "官方未披露 / 待核验",
-    "modality": "文本输出；输入模态官方条目未单独披露 / 待核验",
+    "output": "65536 tokens（思考与非思考模式均同；官方模型规格页）",
+    "modality": "文本、图像、视频输入，文本输出（官方API能力表）",
     "reasoning": "支持思考与非思考模式",
     "price": "全球：≤256K 输入 ¥1.2/1M、输出 ¥7.2/1M；256K-1M 输入 ¥4.8/1M、输出 ¥28.8/1M；其他区域见官方计费页",
     "platforms": [
@@ -9684,7 +9708,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4",
+    "notes": "2026-08-26 依据阿里云官方计费文档回填分区域、分上下文档位价格，并移除旧版第三方 OpenRouter 标价。Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VlWdwIzYfiosook7KzXc1KgXnQ4\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9701,7 +9725,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9711,7 +9735,9 @@
       "https://help.aliyun.com/zh/model-studio/text-generation-model/",
       "https://help.aliyun.com/zh/model-studio/model-pricing/",
       "https://bailian.console.aliyun.com/cn-beijing/?tab=model#/model-market/detail/qwen3.6-flash",
-      "https://github.com/QwenLM/Qwen3.6"
+      "https://github.com/QwenLM/Qwen3.6",
+      "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-6-flash",
+      "https://www.qwencloud.com/models/qwen3.6-flash"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -9728,9 +9754,9 @@
     "summary": "0902 版本强化 Coding 与 Cowork，支持文本、图像、视频输入及长周期多工具工作流。",
     "releaseDate": "2026-09-02",
     "modelId": "qwen3-8-max",
-    "context": "1M；普通模式最大输入 991K，思考模式 983K",
-    "output": "最大 131K tokens",
-    "modality": "文本、图像、视频输入；文本输出",
+    "context": "1000000 tokens；最大输入991808，思考模式最大输入983616（官方API表，非权重位置长度）",
+    "output": "131072 tokens；最大思维链262144，二者不是同一指标",
+    "modality": "文本、图像、视频输入；文本输出；支持函数调用、结构化输出与搜索",
     "reasoning": "支持深度思考；最大推理预算 262K",
     "price": "以 QwenCloud 当前价格页为准",
     "platforms": [
@@ -9743,7 +9769,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "0902 更新已追加到现有 Qwen3.8 Max Wiki 模型卡。",
+    "notes": "0902 更新已追加到现有 Qwen3.8 Max Wiki 模型卡。\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9763,7 +9789,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -9771,7 +9797,9 @@
     "sources": [
       "https://www.qwencloud.com/models/qwen3.8-max-0902",
       "https://docs.qwencloud.com/developer-guides/getting-started/text-generation-models",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QVChwwmu8iCxOTkW3XRc71OdnGf",
+      "https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-8-max",
+      "https://www.qwencloud.com/models/qwen3.8-max"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -10417,7 +10445,7 @@
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
-    "price": "输入 官方未披露 / 待核验 / 输出 官方未披露 / 待核验 USD per 1M tokens",
+    "price": "输入：$0/百万tokens（AA记录的Institute of Foundation Models入口价，K2 Horizon 375B A23B, Institute of Foundation Models，2026-10-09；不代表自托管总成本或所有渠道；当前0价也不保证永久免费。）；输出：$0/百万tokens（AA记录的Institute of Foundation Models入口价，K2 Horizon 375B A23B, Institute of Foundation Models，2026-10-09；不代表自托管总成本或所有渠道；当前0价也不保证永久免费。）",
     "platforms": [
       "MBZUAI Institute of Foundation Models"
     ],
@@ -10427,7 +10455,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Cy1ywqMYViygyYkD7PYcTkTHnfg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Cy1ywqMYViygyYkD7PYcTkTHnfg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA 实测最高输出速度：118.89 tokens/s（AA所列同版本服务商的medianOutputSpeed最大值：Institute of Foundation Models，K2 Horizon 375B A23B, Institute of Foundation Models；long提示词快照，2026-10-09。不是单次峰值或P95，也不是所有部署通用速度。）；输入价格：$0/百万tokens（AA记录的Institute of Foundation Models入口价，K2 Horizon 375B A23B, Institute of Foundation Models，2026-10-09；不代表自托管总成本或所有渠道；当前0价也不保证永久免费。）；输出价格：$0/百万tokens（AA记录的Institute of Foundation Models入口价，K2 Horizon 375B A23B, Institute of Foundation Models，2026-10-09；不代表自托管总成本或所有渠道；当前0价也不保证永久免费。）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10486,7 +10514,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/L7WJwC8wHiaztskBdkxcvrB9nWd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/L7WJwC8wHiaztskBdkxcvrB9nWd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA 实测最高输出速度：82.04 tokens/s（AA所列同版本服务商的medianOutputSpeed最大值：Amazon Bedrock，GPT-6 Astra (max), Amazon Bedrock；long提示词快照，2026-10-09。不是单次峰值或P95，也不是所有部署通用速度。）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10715,7 +10743,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RyukwIbwEidw7FkjMeGci2zvnCd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RyukwIbwEidw7FkjMeGci2zvnCd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10733,7 +10761,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -10743,7 +10771,10 @@
       "https://artificialanalysis.ai/models/granite-4-2-8b",
       "https://huggingface.co/ibm-granite/granite-4.2-8b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.2-8b/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-4.2-8b/raw/main/config.json",
+      "https://huggingface.co/api/models/ibm-granite/granite-4.2-8b"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -10774,7 +10805,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Uk5owYLI4i3gvXkZ4uScMNgTnob；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Uk5owYLI4i3gvXkZ4uScMNgTnob；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10792,7 +10823,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -10802,7 +10833,10 @@
       "https://artificialanalysis.ai/models/granite-4-2-3b",
       "https://huggingface.co/ibm-granite/granite-4.2-3b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.2-3b/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-4.2-3b/raw/main/config.json",
+      "https://huggingface.co/api/models/ibm-granite/granite-4.2-3b"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -10833,7 +10867,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QVsXw2SlCiCotpkI80ycKygYnle；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QVsXw2SlCiCotpkI80ycKygYnle；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10851,7 +10885,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -10861,7 +10895,10 @@
       "https://artificialanalysis.ai/models/granite-4-2-30b",
       "https://huggingface.co/ibm-granite/granite-4.2-30b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.2-30b/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-4.2-30b/raw/main/config.json",
+      "https://huggingface.co/api/models/ibm-granite/granite-4.2-30b"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -10951,7 +10988,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CDWlw7jlTiiTbekECmccHBtOnUd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CDWlw7jlTiiTbekECmccHBtOnUd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：许可证：MIT（对应正式Motif-3官方README明确声明，LICENSE文件实际名为LICENSE.md；不是Motif-3-Beta或猜测的MotifAI仓库）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10969,7 +11006,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -10977,7 +11014,9 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/CDWlw7jlTiiTbekECmccHBtOnUd",
       "https://artificialanalysis.ai/models/motif-3",
-      "https://model-hub.motiftech.io/en/"
+      "https://model-hub.motiftech.io/en/",
+      "https://huggingface.co/Motif-Technologies/Motif-3/raw/main/README.md",
+      "https://huggingface.co/Motif-Technologies/Motif-3/blob/main/LICENSE.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11298,7 +11337,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GOf1wtOuliAWTEkwUaIcXm3lnxg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GOf1wtOuliAWTEkwUaIcXm3lnxg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：许可证：MIT（inclusionAI官方对应模型仓库）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11316,7 +11355,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11324,7 +11363,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/GOf1wtOuliAWTEkwUaIcXm3lnxg",
       "https://artificialanalysis.ai/models/ling-3-0-flash",
-      "https://www.inclusion-ai.org/"
+      "https://www.inclusion-ai.org/",
+      "https://huggingface.co/inclusionAI/Ling-3.0-flash/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11530,7 +11570,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ReL5wcIFWiy1EAkRtgycheEMnmh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ReL5wcIFWiy1EAkRtgycheEMnmh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11548,7 +11588,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11558,7 +11598,10 @@
       "https://artificialanalysis.ai/models/g9v3-3b",
       "https://huggingface.co/ai9stars/G9v3-3B",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://github.com/AI9Stars"
+      "https://github.com/AI9Stars",
+      "https://huggingface.co/ai9stars/G9v3-3B/raw/main/README.md",
+      "https://huggingface.co/ai9stars/G9v3-3B/raw/main/config.json",
+      "https://huggingface.co/api/models/ai9stars/G9v3-3B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11589,7 +11632,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/F37dwKaeCijmVDkhNrRcK9SOnlh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/F37dwKaeCijmVDkhNrRcK9SOnlh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11646,7 +11689,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ARBCwXcUoi1ozmkAZVJcwIUnnof；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ARBCwXcUoi1ozmkAZVJcwIUnnof；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2026-02-16（对应型号官方API文档）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11664,7 +11707,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11672,7 +11715,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ARBCwXcUoi1ozmkAZVJcwIUnnof",
       "https://artificialanalysis.ai/models/gpt-5-6-terra",
-      "https://openai.com/"
+      "https://openai.com/",
+      "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11703,7 +11747,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ItV7woT9CiPT8Ok2f6HcUOzMnMe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ItV7woT9CiPT8Ok2f6HcUOzMnMe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2026-02-16（对应型号官方API文档）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11721,7 +11765,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11729,7 +11773,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ItV7woT9CiPT8Ok2f6HcUOzMnMe",
       "https://artificialanalysis.ai/models/gpt-5-6-sol",
-      "https://openai.com/"
+      "https://openai.com/",
+      "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11760,7 +11805,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MXigw0HSti3xj0kq1QMcSOjMnzq；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MXigw0HSti3xj0kq1QMcSOjMnzq；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2026-02-16（对应型号官方API文档）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11778,7 +11823,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11786,7 +11831,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/MXigw0HSti3xj0kq1QMcSOjMnzq",
       "https://artificialanalysis.ai/models/gpt-5-6-luna",
-      "https://openai.com/"
+      "https://openai.com/",
+      "https://developers.openai.com/api/docs/models/gpt-5.6-luna"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11992,7 +12038,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z3azwX67QiNiXIkHvrZcStREn4e；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z3azwX67QiNiXIkHvrZcStREn4e；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2025-01（预训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12010,7 +12056,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12020,7 +12066,10 @@
       "https://artificialanalysis.ai/models/diffusiongemma-26b-a4b",
       "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://deepmind.google/technologies/gemini/"
+      "https://deepmind.google/technologies/gemini/",
+      "https://huggingface.co/google/diffusiongemma-26B-A4B-it/raw/main/README.md",
+      "https://huggingface.co/google/diffusiongemma-26B-A4B-it/raw/main/config.json",
+      "https://huggingface.co/api/models/google/diffusiongemma-26B-A4B-it"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12110,7 +12159,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KZM5wOs3tiTT6Nk8lARcJy86n16；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KZM5wOs3tiTT6Nk8lARcJy86n16；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练2025-09；后训练2026-05（对应版本官方模型卡）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12128,7 +12177,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12138,7 +12187,10 @@
       "https://artificialanalysis.ai/models/nvidia-nemotron-3-ultra-550b-a55b",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
       "https://openmdw.ai/license/1-1/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16/raw/main/README.md",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12228,7 +12280,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WmHYwLFJeil7z2kjIkgcdZV8nWd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WmHYwLFJeil7z2kjIkgcdZV8nWd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12346,7 +12398,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/A1xAwJInviBnM0kBZLNcWKIInBd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/A1xAwJInviBnM0kBZLNcWKIInBd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12364,7 +12416,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12374,7 +12426,10 @@
       "https://artificialanalysis.ai/models/minicpm5-1b",
       "https://huggingface.co/openbmb/MiniCPM5-1B",
       "https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md",
-      "https://www.openbmb.cn/en/home"
+      "https://www.openbmb.cn/en/home",
+      "https://huggingface.co/openbmb/MiniCPM5-1B/raw/main/README.md",
+      "https://huggingface.co/openbmb/MiniCPM5-1B/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM5-1B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12464,7 +12519,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/B95uwZnCtiaMZdklKOrcg5nYnnh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/B95uwZnCtiaMZdklKOrcg5nYnnh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12521,7 +12576,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MqRrw6diAikrFekyl6RcWNzOnzh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MqRrw6diAikrFekyl6RcWNzOnzh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（minicpmv4_6），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12539,7 +12594,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12549,7 +12604,10 @@
       "https://artificialanalysis.ai/models/minicpm-v4-6-1-3b",
       "https://huggingface.co/openbmb/MiniCPM-V-4.6",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.openbmb.cn/en/home"
+      "https://www.openbmb.cn/en/home",
+      "https://huggingface.co/openbmb/MiniCPM-V-4.6/raw/main/README.md",
+      "https://huggingface.co/openbmb/MiniCPM-V-4.6/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM-V-4.6"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12639,7 +12697,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TyAIwEXRfi7vL0kwZVTcymRRn29；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TyAIwEXRfi7vL0kwZVTcymRRn29；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12657,7 +12715,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12667,7 +12725,10 @@
       "https://artificialanalysis.ai/models/nemotron-3-nano-omni-30b-a3b",
       "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16/raw/main/README.md",
+      "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12698,7 +12759,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R6Z5wmwhgiMh9pkf74FcQBgNngc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R6Z5wmwhgiMh9pkf74FcQBgNngc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12716,7 +12777,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12726,7 +12787,10 @@
       "https://artificialanalysis.ai/models/mistral-medium-3-5",
       "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
       "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/blob/main/LICENSE",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/raw/main/README.md",
+      "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/raw/main/config.json",
+      "https://huggingface.co/api/models/mistralai/Mistral-Medium-3.5-128B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12757,7 +12821,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OjV7wuZoGiTnnRkNXNFcksubndE；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OjV7wuZoGiTnnRkNXNFcksubndE；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12775,7 +12839,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12785,7 +12849,10 @@
       "https://artificialanalysis.ai/models/granite-4-1-8b",
       "https://huggingface.co/ibm-granite/granite-4.1-8b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.1-8b/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-4.1-8b/raw/main/config.json",
+      "https://huggingface.co/api/models/ibm-granite/granite-4.1-8b"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12816,7 +12883,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KCQ4wxBdUiKSZakTC3rcPSAGnYX；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KCQ4wxBdUiKSZakTC3rcPSAGnYX；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12834,7 +12901,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12844,7 +12911,10 @@
       "https://artificialanalysis.ai/models/granite-4-1-3b",
       "https://huggingface.co/ibm-granite/granite-4.1-3b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.1-3b/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-4.1-3b/raw/main/config.json",
+      "https://huggingface.co/api/models/ibm-granite/granite-4.1-3b"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12875,7 +12945,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ARN8wg9QVipM7Ek2jLcc6HManEd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ARN8wg9QVipM7Ek2jLcc6HManEd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（granite），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12893,7 +12963,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12903,7 +12973,10 @@
       "https://artificialanalysis.ai/models/granite-4-1-30b",
       "https://huggingface.co/ibm-granite/granite-4.1-30b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.1-30b/raw/main/README.md",
+      "https://huggingface.co/ibm-granite/granite-4.1-30b/raw/main/config.json",
+      "https://huggingface.co/api/models/ibm-granite/granite-4.1-30b"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12993,7 +13066,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QTAwwueMDiDEYPkl0JIc9OzYnrc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QTAwwueMDiDEYPkl0JIc9OzYnrc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA 实测最高输出速度：159.80 tokens/s（AA所列同版本服务商的medianOutputSpeed最大值：Novita，DeepSeek V4 Flash (max), Novita；long提示词快照，2026-10-09。不是单次峰值或P95，也不是所有部署通用速度。）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13111,7 +13184,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JL8KwkJsmivYqKkua0wcIcwrnIe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JL8KwkJsmivYqKkua0wcIcwrnIe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13168,7 +13241,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TuYTw5yB7iqou8kkDXccXoDKnZg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TuYTw5yB7iqou8kkDXccXoDKnZg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-12（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（exaone4_5），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13186,7 +13259,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13196,7 +13269,10 @@
       "https://artificialanalysis.ai/models/exaone-4-5-33b",
       "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
       "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B/blob/main/LICENSE",
-      "https://www.lgresearch.ai/"
+      "https://www.lgresearch.ai/",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B/raw/main/README.md",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B/raw/main/config.json",
+      "https://huggingface.co/api/models/LGAI-EXAONE/EXAONE-4.5-33B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -13227,7 +13303,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CCY2wRJC0iH6eUkKnJycypFnntf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CCY2wRJC0iH6eUkKnJycypFnntf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2025-01（预训练数据截止）（对应版本官方模型卡）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13245,7 +13321,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13255,7 +13331,10 @@
       "https://artificialanalysis.ai/models/gemma-4-26b-a4b",
       "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://deepmind.google/technologies/gemini/"
+      "https://deepmind.google/technologies/gemini/",
+      "https://huggingface.co/google/gemma-4-26B-A4B-it/raw/main/README.md",
+      "https://huggingface.co/google/gemma-4-26B-A4B-it/raw/main/config.json",
+      "https://huggingface.co/api/models/google/gemma-4-26B-A4B-it"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -13345,7 +13424,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TvjrwsHLZizbF7k7f5RcHjHSnBd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TvjrwsHLZizbF7k7f5RcHjHSnBd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13402,7 +13481,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JmYuwU4IRiS9IXkwsiBc7GZSnyf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JmYuwU4IRiS9IXkwsiBc7GZSnyf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13459,7 +13538,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/En6jwp7QPiNk45ko4mjchQV6nvc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/En6jwp7QPiNk45ko4mjchQV6nvc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13573,7 +13652,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LAJIwR9LwiFOX4kFv7oc1YdSnPc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LAJIwR9LwiFOX4kFv7oc1YdSnPc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13591,7 +13670,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13601,7 +13680,10 @@
       "https://artificialanalysis.ai/models/nemotron-cascade-2-30b-a3b",
       "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B/raw/main/README.md",
+      "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/Nemotron-Cascade-2-30B-A3B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -13632,7 +13714,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KrSfwfbdBiyeV3kA0H0cIjOtnNc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KrSfwfbdBiyeV3kA0H0cIjOtnNc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13689,7 +13771,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TbG3wOXYCikesakxS12caAbjnxf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TbG3wOXYCikesakxS12caAbjnxf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-09（预训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13707,7 +13789,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13717,7 +13799,10 @@
       "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-4b",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16/raw/main/README.md",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -13807,7 +13892,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/K7rcwFrdJim6c6kIIatc0m40nJh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/K7rcwFrdJim6c6kIIatc0m40nJh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练2025-06；后训练2026-02（对应版本官方模型卡）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13825,7 +13910,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13835,7 +13920,10 @@
       "https://artificialanalysis.ai/models/nvidia-nemotron-3-super-120b-a12b",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16/raw/main/README.md",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -13866,7 +13954,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z60cwExggiUCDik1iY3coPJin5g；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z60cwExggiUCDik1iY3coPJin5g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13925,7 +14013,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KvfGwyvBpiPgxLkrh15c5yVbnGh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KvfGwyvBpiPgxLkrh15c5yVbnGh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13984,7 +14072,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/FcBxwpjDwik4iJkV3gWcN7dqn5g；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/FcBxwpjDwik4iJkV3gWcN7dqn5g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（qwen3_5），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14002,7 +14090,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14012,7 +14100,10 @@
       "https://artificialanalysis.ai/models/qwen3-5-9b",
       "https://huggingface.co/Qwen/Qwen3.5-9B",
       "https://huggingface.co/Qwen/Qwen3.5-122B-A10B/blob/main/LICENSE",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3.5-9B/raw/main/README.md",
+      "https://huggingface.co/Qwen/Qwen3.5-9B/raw/main/config.json",
+      "https://huggingface.co/api/models/Qwen/Qwen3.5-9B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14043,7 +14134,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/H5P1wh2x1iRg5Tk71QPcPMFRnic；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/H5P1wh2x1iRg5Tk71QPcPMFRnic；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（qwen3_5），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14061,7 +14152,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14071,7 +14162,10 @@
       "https://artificialanalysis.ai/models/qwen3-5-4b",
       "https://huggingface.co/Qwen/Qwen3.5-4B",
       "https://huggingface.co/Qwen/Qwen3.5-122B-A10B/blob/main/LICENSE",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3.5-4B/raw/main/README.md",
+      "https://huggingface.co/Qwen/Qwen3.5-4B/raw/main/config.json",
+      "https://huggingface.co/api/models/Qwen/Qwen3.5-4B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14102,7 +14196,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/N6PjwkWIUiBCugkAMZOcG1yUnof；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/N6PjwkWIUiBCugkAMZOcG1yUnof；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（qwen3_5），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14120,7 +14214,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14130,7 +14224,10 @@
       "https://artificialanalysis.ai/models/qwen3-5-2b",
       "https://huggingface.co/Qwen/Qwen3.5-2B",
       "https://huggingface.co/Qwen/Qwen3.5-122B-A10B/blob/main/LICENSE",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3.5-2B/raw/main/README.md",
+      "https://huggingface.co/Qwen/Qwen3.5-2B/raw/main/config.json",
+      "https://huggingface.co/api/models/Qwen/Qwen3.5-2B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14161,7 +14258,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CmaJwr9GpihQm0kbsbCcGrO1nuB；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CmaJwr9GpihQm0kbsbCcGrO1nuB；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（qwen3_5），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14179,7 +14276,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14189,7 +14286,10 @@
       "https://artificialanalysis.ai/models/qwen3-5-0-8b",
       "https://huggingface.co/Qwen/Qwen3.5-0.8B",
       "https://huggingface.co/Qwen/Qwen3.5-122B-A10B/blob/main/LICENSE",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3.5-0.8B/raw/main/README.md",
+      "https://huggingface.co/Qwen/Qwen3.5-0.8B/raw/main/config.json",
+      "https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14220,7 +14320,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WCw4wbHKJi1zvLkD2a3cZAVMnTb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WCw4wbHKJi1zvLkD2a3cZAVMnTb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14454,7 +14554,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PPLywpCeWixanJkYpLdco8oTnif；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PPLywpCeWixanJkYpLdco8oTnif；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14513,7 +14613,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MoFew6dQgiZXHqk6YgkchkyjnXf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MoFew6dQgiZXHqk6YgkchkyjnXf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14531,7 +14631,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14541,7 +14641,10 @@
       "https://artificialanalysis.ai/models/nanbeige4-1-3b",
       "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://huggingface.co/Nanbeige"
+      "https://huggingface.co/Nanbeige",
+      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/README.md",
+      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/config.json",
+      "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14572,7 +14675,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ENuHwcDS4igBmskstnZcSKQcnad；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ENuHwcDS4igBmskstnZcSKQcnad；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2025-02（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（trillion），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14590,7 +14693,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14600,7 +14703,10 @@
       "https://artificialanalysis.ai/models/tri-21b-think-v0-5",
       "https://huggingface.co/trillionlabs/Tri-21B-Think",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://trillionlabs.co/"
+      "https://trillionlabs.co/",
+      "https://huggingface.co/trillionlabs/Tri-21B-Think/raw/main/README.md",
+      "https://huggingface.co/trillionlabs/Tri-21B-Think/raw/main/config.json",
+      "https://huggingface.co/api/models/trillionlabs/Tri-21B-Think"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14631,7 +14737,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/J1sawBkkgiI5BzkTXnYcUG4WnEb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/J1sawBkkgiI5BzkTXnYcUG4WnEb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14747,7 +14853,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NZqmwDD5uia4U7knyioczzugnne；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NZqmwDD5uia4U7knyioczzugnne；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14765,7 +14871,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14775,7 +14881,10 @@
       "https://artificialanalysis.ai/models/longcat-flash-lite",
       "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite",
       "https://opensource.org/license/mit",
-      "https://longcat.chat/platform/docs/"
+      "https://longcat.chat/platform/docs/",
+      "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite/raw/main/README.md",
+      "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite/raw/main/config.json",
+      "https://huggingface.co/api/models/meituan-longcat/LongCat-Flash-Lite"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14806,7 +14915,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Cok8wGsxdiNf0pkXuHAc9s2cneh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Cok8wGsxdiNf0pkXuHAc9s2cneh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（step_robotics），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14824,7 +14933,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14834,7 +14943,10 @@
       "https://artificialanalysis.ai/models/step-3-vl-10b",
       "https://huggingface.co/stepfun-ai/Step3-VL-10B",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.stepfun.com/"
+      "https://www.stepfun.com/",
+      "https://huggingface.co/stepfun-ai/Step3-VL-10B/raw/main/README.md",
+      "https://huggingface.co/stepfun-ai/Step3-VL-10B/raw/main/config.json",
+      "https://huggingface.co/api/models/stepfun-ai/Step3-VL-10B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14865,7 +14977,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14883,7 +14995,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14893,7 +15005,10 @@
       "https://artificialanalysis.ai/models/lfm2-5-1-2b-thinking",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking",
       "https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE",
-      "https://www.liquid.ai"
+      "https://www.liquid.ai",
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/README.md",
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/config.json",
+      "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Thinking"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14924,7 +15039,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R0aUw7V0ziWukZkZdCacKD8Qnpe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R0aUw7V0ziWukZkZdCacKD8Qnpe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-12（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14942,7 +15057,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14952,7 +15067,10 @@
       "https://artificialanalysis.ai/models/olmo-3-1-32b-instruct",
       "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://allenai.org/"
+      "https://allenai.org/",
+      "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/raw/main/README.md",
+      "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/raw/main/config.json",
+      "https://huggingface.co/api/models/allenai/Olmo-3.1-32B-Instruct"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14983,7 +15101,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15042,7 +15160,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15060,7 +15178,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15070,7 +15188,10 @@
       "https://artificialanalysis.ai/models/lfm2-5-1-2b-instruct",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct",
       "https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE",
-      "https://www.liquid.ai"
+      "https://www.liquid.ai",
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/README.md",
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/config.json",
+      "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15101,7 +15222,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqYUwxEwVinPJIk37cIcetyEn2e；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqYUwxEwVinPJIk37cIcetyEn2e；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15119,7 +15240,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15129,7 +15250,10 @@
       "https://artificialanalysis.ai/models/falcon-h1r-7b",
       "https://huggingface.co/tiiuae/Falcon-H1R-7B",
       "https://falconllm.tii.ae/falcon-terms-and-conditions.html",
-      "https://falconllm.tii.ae/"
+      "https://falconllm.tii.ae/",
+      "https://huggingface.co/tiiuae/Falcon-H1R-7B/raw/main/README.md",
+      "https://huggingface.co/tiiuae/Falcon-H1R-7B/raw/main/config.json",
+      "https://huggingface.co/api/models/tiiuae/Falcon-H1R-7B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15160,7 +15284,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NRP4wV1tviCvnik0iZkcK62tnmf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NRP4wV1tviCvnik0iZkcK62tnmf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15219,7 +15343,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/A1CTwMAFSicvmnkfhEdcNvdYnpc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/A1CTwMAFSicvmnkfhEdcNvdYnpc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2025-05（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15237,7 +15361,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15247,7 +15371,10 @@
       "https://artificialanalysis.ai/models/hyperclova-x-seed-think-32b",
       "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
       "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B/blob/main/LICENSE",
-      "https://www.naver.com/"
+      "https://www.naver.com/",
+      "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B/raw/main/README.md",
+      "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B/raw/main/config.json",
+      "https://huggingface.co/api/models/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15278,7 +15405,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VIxMwPp9mijccUkTFNccSLdvnzd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VIxMwPp9mijccUkTFNccSLdvnzd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-12（官方建议系统提示中的知识日期）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15296,7 +15423,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15306,7 +15433,10 @@
       "https://artificialanalysis.ai/models/mimo-v2-flash-reasoning",
       "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
       "https://choosealicense.com/licenses/mit/",
-      "https://huggingface.co/XiaomiMiMo"
+      "https://huggingface.co/XiaomiMiMo",
+      "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash/raw/main/README.md",
+      "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash/raw/main/config.json",
+      "https://huggingface.co/api/models/XiaomiMiMo/MiMo-V2-Flash"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15337,7 +15467,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JhBpwF4lViarOUkFrifcKmEJnhh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JhBpwF4lViarOUkFrifcKmEJnhh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练2025-06-25；后训练2025-11-28（对应版本官方模型卡）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15355,7 +15485,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15365,7 +15495,10 @@
       "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b-reasoning",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16/raw/main/README.md",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15396,7 +15529,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WMiNwTaUGiWH4dkmIMBc8ikpnHc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WMiNwTaUGiWH4dkmIMBc8ikpnHc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-12（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15414,7 +15547,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15424,7 +15557,10 @@
       "https://artificialanalysis.ai/models/olmo-3-1-32b-think",
       "https://huggingface.co/allenai/Olmo-3.1-32B-Think",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://allenai.org/"
+      "https://allenai.org/",
+      "https://huggingface.co/allenai/Olmo-3.1-32B-Think/raw/main/README.md",
+      "https://huggingface.co/allenai/Olmo-3.1-32B-Think/raw/main/config.json",
+      "https://huggingface.co/api/models/allenai/Olmo-3.1-32B-Think"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15455,7 +15591,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XnFrwxJVfiD1frkRG2Kcdo6inWe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XnFrwxJVfiD1frkRG2Kcdo6inWe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（molmo2），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15473,7 +15609,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15483,7 +15619,10 @@
       "https://artificialanalysis.ai/models/molmo2-8b",
       "https://huggingface.co/allenai/Molmo2-8B",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://allenai.org/"
+      "https://allenai.org/",
+      "https://huggingface.co/allenai/Molmo2-8B/raw/main/README.md",
+      "https://huggingface.co/allenai/Molmo2-8B/raw/main/config.json",
+      "https://huggingface.co/api/models/allenai/Molmo2-8B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15514,7 +15653,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/On54wH8rtiYshkkbMRncowZenhb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/On54wH8rtiYshkkbMRncowZenhb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15571,7 +15710,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/T59Qwpa6mi8kWkkUorDcMxLOnKb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/T59Qwpa6mi8kWkkUorDcMxLOnKb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15589,7 +15728,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15599,7 +15738,10 @@
       "https://artificialanalysis.ai/models/devstral-small-2",
       "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512/raw/main/README.md",
+      "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512/raw/main/config.json",
+      "https://huggingface.co/api/models/mistralai/Devstral-Small-2-24B-Instruct-2512"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15689,7 +15831,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VnNxwApIMiswSVkyfRccxN0inPf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VnNxwApIMiswSVkyfRccxN0inPf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15805,7 +15947,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PmIzwVAx6iBBbgkMPCec9DjCnYe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PmIzwVAx6iBBbgkMPCec9DjCnYe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15823,7 +15965,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15833,7 +15975,10 @@
       "https://artificialanalysis.ai/models/ministral-3-8b",
       "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512/raw/main/README.md",
+      "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512/raw/main/config.json",
+      "https://huggingface.co/api/models/mistralai/Ministral-3-8B-Instruct-2512"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15864,7 +16009,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqF2wUgRQiZrK6kQ2ugc1pZ2nub；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqF2wUgRQiZrK6kQ2ugc1pZ2nub；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15882,7 +16027,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15892,7 +16037,10 @@
       "https://artificialanalysis.ai/models/ministral-3-3b",
       "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512/raw/main/README.md",
+      "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512/raw/main/config.json",
+      "https://huggingface.co/api/models/mistralai/Ministral-3-3B-Instruct-2512"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15923,7 +16071,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/U8lNwXBBNimxo1k0OaHcek8Enke；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/U8lNwXBBNimxo1k0OaHcek8Enke；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15941,7 +16089,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15951,7 +16099,10 @@
       "https://artificialanalysis.ai/models/ministral-3-14b",
       "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512/raw/main/README.md",
+      "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512/raw/main/config.json",
+      "https://huggingface.co/api/models/mistralai/Ministral-3-14B-Instruct-2512"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15982,7 +16133,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/SzthwWZmGi8rc8kv0pRcXMfWnug；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/SzthwWZmGi8rc8kv0pRcXMfWnug；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16039,7 +16190,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Iy9Mwbyqwic1zWka2uEcJuyUntc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Iy9Mwbyqwic1zWka2uEcJuyUntc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16057,7 +16208,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16067,7 +16218,10 @@
       "https://artificialanalysis.ai/models/intellect-3",
       "https://huggingface.co/PrimeIntellect/INTELLECT-3",
       "https://opensource.org/license/mit",
-      "https://www.primeintellect.ai/blog/intellect-3"
+      "https://www.primeintellect.ai/blog/intellect-3",
+      "https://huggingface.co/PrimeIntellect/INTELLECT-3/raw/main/README.md",
+      "https://huggingface.co/PrimeIntellect/INTELLECT-3/raw/main/config.json",
+      "https://huggingface.co/api/models/PrimeIntellect/INTELLECT-3"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16098,7 +16252,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Nf0QwSFU8imGlIkFAxjchsbknJb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Nf0QwSFU8imGlIkFAxjchsbknJb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16155,7 +16309,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/BUKJwU3YVikn1KklEE1c3nwyngf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/BUKJwU3YVikn1KklEE1c3nwyngf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16173,7 +16327,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16182,7 +16336,10 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/BUKJwU3YVikn1KklEE1c3nwyngf",
       "https://artificialanalysis.ai/models/apriel-v1-6-15b-thinker",
       "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker",
-      "https://opensource.org/license/mit/"
+      "https://opensource.org/license/mit/",
+      "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker/raw/main/README.md",
+      "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker/raw/main/config.json",
+      "https://huggingface.co/api/models/ServiceNow-AI/Apriel-1.6-15b-Thinker"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16213,7 +16370,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GBdGwE9ZIivIQckRpCdcidFEnyg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GBdGwE9ZIivIQckRpCdcidFEnyg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16231,7 +16388,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16241,7 +16398,10 @@
       "https://artificialanalysis.ai/models/olmo-3-7b-think",
       "https://huggingface.co/allenai/Olmo-3-7B-Think",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://allenai.org/"
+      "https://allenai.org/",
+      "https://huggingface.co/allenai/Olmo-3-7B-Think/raw/main/README.md",
+      "https://huggingface.co/allenai/Olmo-3-7B-Think/raw/main/config.json",
+      "https://huggingface.co/api/models/allenai/Olmo-3-7B-Think"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16272,7 +16432,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TDYQwKV9HiaiTdkNOvgcXJp1nhf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TDYQwKV9HiaiTdkNOvgcXJp1nhf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16290,7 +16450,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16300,7 +16460,10 @@
       "https://artificialanalysis.ai/models/olmo-3-7b-instruct",
       "https://huggingface.co/allenai/Olmo-3-7B-Instruct",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://allenai.org/"
+      "https://allenai.org/",
+      "https://huggingface.co/allenai/Olmo-3-7B-Instruct/raw/main/README.md",
+      "https://huggingface.co/allenai/Olmo-3-7B-Instruct/raw/main/config.json",
+      "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16331,7 +16494,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/BpLpwTeTAi3ozakDRwucNuo1nOh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/BpLpwTeTAi3ozakDRwucNuo1nOh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16349,7 +16512,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16359,7 +16522,10 @@
       "https://artificialanalysis.ai/models/cogito-v2-1-reasoning",
       "https://huggingface.co/deepcogito/cogito-671b-v2.1",
       "https://opensource.org/license/mit",
-      "https://www.deepcogito.com/"
+      "https://www.deepcogito.com/",
+      "https://huggingface.co/deepcogito/cogito-671b-v2.1/raw/main/README.md",
+      "https://huggingface.co/deepcogito/cogito-671b-v2.1/raw/main/config.json",
+      "https://huggingface.co/api/models/deepcogito/cogito-671b-v2.1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16390,7 +16556,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Hq3vwgZEIiNCVXkKbVXcrUVanCe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Hq3vwgZEIiNCVXkKbVXcrUVanCe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16447,7 +16613,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QgJDwSdJNiH2t6k1n6ncYJPxnFJ；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/QgJDwSdJNiH2t6k1n6ncYJPxnFJ；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16503,7 +16669,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NWH0wvnl9iA1F1kgcUGc9p2Pn2g；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NWH0wvnl9iA1F1kgcUGc9p2Pn2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16562,7 +16728,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YEcfw7v61ixrznkE5mIc6rs0n2g；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YEcfw7v61ixrznkE5mIc6rs0n2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16619,7 +16785,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XG6pwOEfFiqaYEkKeR1cobX1nkb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XG6pwOEfFiqaYEkKeR1cobX1nkb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16678,7 +16844,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GOymwJLS4iCOSUkbvllcuwDpn7g；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GOymwJLS4iCOSUkbvllcuwDpn7g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16737,7 +16903,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Ucxpw6a6til9DKkQAlpc1zwMnkd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Ucxpw6a6til9DKkQAlpc1zwMnkd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16796,7 +16962,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R6cAw5y7IiwaJckQSRfctSB7nIg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R6cAw5y7IiwaJckQSRfctSB7nIg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16855,7 +17021,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OiNxwVh6RiTOHjk6F90cBaqSnWe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OiNxwVh6RiTOHjk6F90cBaqSnWe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16914,7 +17080,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/BXwcwSjJuijKY4k68LYc6054nlA；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/BXwcwSjJuijKY4k68LYc6054nlA；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16932,7 +17098,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16942,7 +17108,10 @@
       "https://artificialanalysis.ai/models/jamba-reasoning-3b",
       "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ai21.com/"
+      "https://www.ai21.com/",
+      "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B/raw/main/README.md",
+      "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B/raw/main/config.json",
+      "https://huggingface.co/api/models/ai21labs/AI21-Jamba-Reasoning-3B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16973,7 +17142,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z1tUwJRV7ij9qKkhy3ncpazbnlb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z1tUwJRV7ij9qKkhy3ncpazbnlb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17032,7 +17201,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17091,7 +17260,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JZcmw4lQui8zhekFO2ycPvF1nmh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JZcmw4lQui8zhekFO2ycPvF1nmh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17109,7 +17278,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17119,7 +17288,10 @@
       "https://artificialanalysis.ai/models/qwen3-omni-30b-a3b-instruct",
       "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct/raw/main/README.md",
+      "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct/raw/main/config.json",
+      "https://huggingface.co/api/models/Qwen/Qwen3-Omni-30B-A3B-Instruct"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17150,7 +17322,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EdV4wxKF7ieOBLkzPgJco3T8nOd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EdV4wxKF7ieOBLkzPgJco3T8nOd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17168,7 +17340,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17178,7 +17350,10 @@
       "https://artificialanalysis.ai/models/qwen3-omni-30b-a3b-reasoning",
       "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.alibabacloud.com/"
+      "https://www.alibabacloud.com/",
+      "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking/raw/main/README.md",
+      "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking/raw/main/config.json",
+      "https://huggingface.co/api/models/Qwen/Qwen3-Omni-30B-A3B-Thinking"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17209,7 +17384,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZafiwXfIui4tWAkDquNc5zIinRh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZafiwXfIui4tWAkDquNc5zIinRh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17268,7 +17443,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZseXw3bDLi772AkXcAqcX2oVnKh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZseXw3bDLi772AkXcAqcX2oVnKh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17327,7 +17502,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HR8gwrNdBi6SFckgOpfcCeUsnMg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HR8gwrNdBi6SFckgOpfcCeUsnMg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17443,7 +17618,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Y9eAwK5T9irV9zkx0zzcBCSnnNg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Y9eAwK5T9irV9zkx0zzcBCSnnNg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA 实测最高输出速度：77.62 tokens/s（AA所列同版本服务商的medianOutputSpeed最大值：Amazon Bedrock，Magistral Small 1.2, Amazon Bedrock；long提示词快照，2026-10-09。不是单次峰值或P95，也不是所有部署通用速度。）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17461,7 +17636,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17471,7 +17646,10 @@
       "https://artificialanalysis.ai/models/magistral-small-2509",
       "https://huggingface.co/mistralai/Magistral-Small-2509",
       "https://choosealicense.com/licenses/apache-2.0/",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://huggingface.co/mistralai/Magistral-Small-2509/raw/main/README.md",
+      "https://huggingface.co/mistralai/Magistral-Small-2509/raw/main/config.json",
+      "https://huggingface.co/api/models/mistralai/Magistral-Small-2509"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17502,7 +17680,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HPGswIXFVixnxWkUYn4ceZ0Jnoc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HPGswIXFVixnxWkUYn4ceZ0Jnoc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17620,7 +17798,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IUb2wpxBjijqWXk34ZocEfOKnKg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IUb2wpxBjijqWXk34ZocEfOKnKg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（apertus），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17638,7 +17816,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17648,7 +17826,10 @@
       "https://artificialanalysis.ai/models/apertus-8b-instruct",
       "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.swiss-ai.org/"
+      "https://www.swiss-ai.org/",
+      "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/raw/main/README.md",
+      "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/raw/main/config.json",
+      "https://huggingface.co/api/models/swiss-ai/Apertus-8B-Instruct-2509"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17679,7 +17860,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MT6TwRubdix65VkCUSAceEXdnLb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MT6TwRubdix65VkCUSAceEXdnLb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（apertus），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17697,7 +17878,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17707,7 +17888,10 @@
       "https://artificialanalysis.ai/models/apertus-70b-instruct",
       "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.swiss-ai.org/"
+      "https://www.swiss-ai.org/",
+      "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/raw/main/README.md",
+      "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/raw/main/config.json",
+      "https://huggingface.co/api/models/swiss-ai/Apertus-70B-Instruct-2509"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17738,7 +17922,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LyO9wNV6xieOdjkXz4Ecn4yTnZD；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LyO9wNV6xieOdjkXz4Ecn4yTnZD；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17797,7 +17981,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TSMmwKKRqiwzP7kt7jacVGSJnvg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TSMmwKKRqiwzP7kt7jacVGSJnvg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17856,7 +18040,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VDZ3whChxi53kgkfTy7cXWJNnbd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VDZ3whChxi53kgkfTy7cXWJNnbd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-09（预训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17874,7 +18058,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17884,7 +18068,10 @@
       "https://artificialanalysis.ai/models/nvidia-nemotron-nano-9b-v2-reasoning",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2/raw/main/README.md",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18033,7 +18220,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VxMHwEmWYifqOEknw66cPukTnNf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VxMHwEmWYifqOEknw66cPukTnNf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练数据截止2023年（承接Llama3.3基础模型，非后训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18051,7 +18238,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18060,7 +18247,10 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/VxMHwEmWYifqOEknw66cPukTnNf",
       "https://artificialanalysis.ai/models/llama-nemotron-super-49b-v1-5-reasoning",
       "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5/raw/main/README.md",
+      "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18091,7 +18281,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Cmmlwa5ehiRCJAkCHHhcu9mBnab；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Cmmlwa5ehiRCJAkCHHhcu9mBnab；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（exaone4），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18109,7 +18299,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18119,7 +18309,10 @@
       "https://artificialanalysis.ai/models/exaone-4-0-1-2b-reasoning",
       "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B",
       "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B/blob/main/LICENSE",
-      "https://www.lgresearch.ai/"
+      "https://www.lgresearch.ai/",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B/raw/main/README.md",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B/raw/main/config.json",
+      "https://huggingface.co/api/models/LGAI-EXAONE/EXAONE-4.0-1.2B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18150,7 +18343,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Gw1ewWBK4iuEAakYcUlcbu8OnJf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Gw1ewWBK4iuEAakYcUlcbu8OnJf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（exaone4），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18168,7 +18361,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18178,7 +18371,10 @@
       "https://artificialanalysis.ai/models/exaone-4-0-32b-reasoning",
       "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
       "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B/blob/main/LICENSE",
-      "https://www.lgresearch.ai/"
+      "https://www.lgresearch.ai/",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B/raw/main/README.md",
+      "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B/raw/main/config.json",
+      "https://huggingface.co/api/models/LGAI-EXAONE/EXAONE-4.0-32B"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18209,7 +18405,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YSZmwUxMhieTMCkWwSMcUKumnod；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YSZmwUxMhieTMCkWwSMcUKumnod；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18268,7 +18464,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/I49jw9dzfiblSXkmiQ7cKCtdn3b；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/I49jw9dzfiblSXkmiQ7cKCtdn3b；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18327,7 +18523,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Ni1LwAbnhiZP5jkMkIJccA7ingc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Ni1LwAbnhiZP5jkMkIJccA7ingc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18386,7 +18582,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EFEhwUyzEiMct4kMSH0cWiYAnWg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EFEhwUyzEiMct4kMSH0cWiYAnWg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18443,7 +18639,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/DyAbwkNIOi9NSnkbIcYcQIrPnfW；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/DyAbwkNIOi9NSnkbIcYcQIrPnfW；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练数据截止2023年（承接Llama3.1基础模型，非后训练数据截止）（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18461,7 +18657,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18471,7 +18667,10 @@
       "https://artificialanalysis.ai/models/llama-3-1-nemotron-ultra-253b-v1-reasoning",
       "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1/raw/main/README.md",
+      "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18502,7 +18701,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/SawBw7fIUiEa2MkIDHhcnSfvnqY；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/SawBw7fIUiEa2MkIDHhcnSfvnqY；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（mistral），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18520,7 +18719,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18530,7 +18729,10 @@
       "https://artificialanalysis.ai/models/deephermes-3-mistral-24b-preview",
       "https://huggingface.co/NousResearch/DeepHermes-3-Mistral-24B-Preview",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://nousresearch.com/"
+      "https://nousresearch.com/",
+      "https://huggingface.co/NousResearch/DeepHermes-3-Mistral-24B-Preview/raw/main/README.md",
+      "https://huggingface.co/NousResearch/DeepHermes-3-Mistral-24B-Preview/raw/main/config.json",
+      "https://huggingface.co/api/models/NousResearch/DeepHermes-3-Mistral-24B-Preview"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18561,7 +18763,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HumcwDSxOi9Ws9k1AyhccR3Onic；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HumcwDSxOi9Ws9k1AyhccR3Onic；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18620,7 +18822,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/UjVfwI2rnil1mkkkAaRc6EZcnfc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/UjVfwI2rnil1mkkkAaRc6EZcnfc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。；AA 实测最高输出速度：93.51 tokens/s（AA所列同版本服务商的medianOutputSpeed最大值：Reka AI，Reka Flash 3, Reka AI；long提示词快照，2026-10-09。不是单次峰值或P95，也不是所有部署通用速度。）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18638,7 +18840,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18647,7 +18849,10 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/UjVfwI2rnil1mkkkAaRc6EZcnfc",
       "https://artificialanalysis.ai/models/reka-flash-3",
       "https://huggingface.co/RekaAI/reka-flash-3",
-      "http://reka.ai/"
+      "http://reka.ai/",
+      "https://huggingface.co/RekaAI/reka-flash-3/raw/main/README.md",
+      "https://huggingface.co/RekaAI/reka-flash-3/raw/main/config.json",
+      "https://huggingface.co/api/models/RekaAI/reka-flash-3"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18678,7 +18883,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE4HwhpxFi6vQKkv6rhcaf1Znmd；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE4HwhpxFi6vQKkv6rhcaf1Znmd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（phi4mm），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18696,7 +18901,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18706,7 +18911,10 @@
       "https://artificialanalysis.ai/models/phi-4-multimodal",
       "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
       "https://opensource.org/license/mit",
-      "https://azure.microsoft.com/en-us"
+      "https://azure.microsoft.com/en-us",
+      "https://huggingface.co/microsoft/Phi-4-multimodal-instruct/raw/main/README.md",
+      "https://huggingface.co/microsoft/Phi-4-multimodal-instruct/raw/main/config.json",
+      "https://huggingface.co/api/models/microsoft/Phi-4-multimodal-instruct"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18737,7 +18945,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VfDrwx7xpiAl9lkB73pchCy7nBe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VfDrwx7xpiAl9lkB73pchCy7nBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18796,7 +19004,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R081wwoDniGH5JkoFJVckB3Fntg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R081wwoDniGH5JkoFJVckB3Fntg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18814,7 +19022,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18824,7 +19032,10 @@
       "https://artificialanalysis.ai/models/deephermes-3-llama-3-1-8b-preview",
       "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
-      "https://nousresearch.com/"
+      "https://nousresearch.com/",
+      "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview/raw/main/README.md",
+      "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview/raw/main/config.json",
+      "https://huggingface.co/api/models/NousResearch/DeepHermes-3-Llama-3-8B-Preview"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18855,7 +19066,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Gj9lwxopXis07Fk2Yctc0YuUniB；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Gj9lwxopXis07Fk2Yctc0YuUniB；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（phi3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18873,7 +19084,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18883,7 +19094,10 @@
       "https://artificialanalysis.ai/models/phi-4",
       "https://huggingface.co/microsoft/phi-4",
       "https://opensource.org/license/mit",
-      "https://azure.microsoft.com/en-us"
+      "https://azure.microsoft.com/en-us",
+      "https://huggingface.co/microsoft/phi-4/raw/main/README.md",
+      "https://huggingface.co/microsoft/phi-4/raw/main/config.json",
+      "https://huggingface.co/api/models/microsoft/phi-4"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18914,7 +19128,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/P7krwM7wKiV2CfkX6YCc3tjEnvf；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/P7krwM7wKiV2CfkX6YCc3tjEnvf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18973,7 +19187,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OnE2wxARxib756ktiPEcrLh1nny；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OnE2wxARxib756ktiPEcrLh1nny；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19030,7 +19244,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/AS8cwNtK1in2MxkOhNTcGVOtnbb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/AS8cwNtK1in2MxkOhNTcGVOtnbb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19048,7 +19262,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19058,7 +19272,10 @@
       "https://artificialanalysis.ai/models/llama-3-1-nemotron-instruct-70b",
       "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF/raw/main/README.md",
+      "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF/raw/main/config.json",
+      "https://huggingface.co/api/models/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19089,7 +19306,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VK2AwbGsBiE5DTkgXKecUd3dnBb；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VK2AwbGsBiE5DTkgXKecUd3dnBb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（molmo），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19107,7 +19324,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19117,7 +19334,10 @@
       "https://artificialanalysis.ai/models/molmo-7b-d",
       "https://huggingface.co/allenai/Molmo-7B-D-0924",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://allenai.org/"
+      "https://allenai.org/",
+      "https://huggingface.co/allenai/Molmo-7B-D-0924/raw/main/README.md",
+      "https://huggingface.co/allenai/Molmo-7B-D-0924/raw/main/config.json",
+      "https://huggingface.co/api/models/allenai/Molmo-7B-D-0924"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19148,7 +19368,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RnpYwIOBJizmzNk3BAmccYN7n5f；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RnpYwIOBJizmzNk3BAmccYN7n5f；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19207,7 +19427,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IS0LwxfmHiJQFzkvWKXc9AaknTc；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IS0LwxfmHiJQFzkvWKXc9AaknTc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19266,7 +19486,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GSuSwd1vfi2F30k89TocRckXnfg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GSuSwd1vfi2F30k89TocRckXnfg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19325,7 +19545,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KeQfwH1Qlibe6nkgeQjcH4ZunAh；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KeQfwH1Qlibe6nkgeQjcH4ZunAh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-06（公开数据截止）（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（phi3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19343,7 +19563,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19353,7 +19573,10 @@
       "https://artificialanalysis.ai/models/phi-4-mini",
       "https://huggingface.co/microsoft/Phi-4-mini-instruct",
       "https://opensource.org/license/mit",
-      "https://azure.microsoft.com/en-us"
+      "https://azure.microsoft.com/en-us",
+      "https://huggingface.co/microsoft/Phi-4-mini-instruct/raw/main/README.md",
+      "https://huggingface.co/microsoft/Phi-4-mini-instruct/raw/main/config.json",
+      "https://huggingface.co/api/models/microsoft/Phi-4-mini-instruct"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19433,10 +19656,10 @@
     "summary": "官方2026-09-07发布，采用分级数据管理和SFT/RL/OPD后训练。",
     "releaseDate": "2026-09-07",
     "modelId": "minicpm5-2b",
-    "context": "官方未披露 / 待核验",
+    "context": "公开配置 max_position_embeddings=131072；README称支持128K原生上下文。部署生成预算受输入长度和运行时共同限制，不能把示例 max_new_tokens 当服务最大输出。",
     "output": "官方未披露 / 待核验",
     "modality": "文本",
-    "reasoning": "官方示例支持thinking",
+    "reasoning": "官方最终模型具备深度思考能力，训练经历SFT→RL→OPD；部署示例中的thinking开关/输出预算按后端设置，不能把样例max_tokens当固定服务上限。",
     "price": "官方未披露 / 待核验；本地部署成本另计",
     "platforms": [
       "Hugging Face",
@@ -19449,7 +19672,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "官方API模型标识：openbmb/MiniCPM5-2B；AA release.slug=minicpm5-2b。阶段单独上传时刻待核验。",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B；AA release.slug=minicpm5-2b。阶段单独上传时刻待核验。\n2026-10-09 逐字段全网核验：注意力机制、层数、隐藏维度：LlamaForCausalLM 稠密Transformer；42层，hidden_size=2048，16个注意力头/2个KV头（GQA），head_dim=128，RoPE theta=5000000。；训练总 token、训练硬件：已核验局部训练披露：深度思考SFT使用400B tokens；OPD汇合16个RL专家（其中5个Agent专家），另公开500K Agent SFT样本与80K+ RL样本。400B仅为SFT阶段，不能当全流程训练总token；训练硬件仍待核验。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19466,7 +19689,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19474,7 +19697,12 @@
     "sources": [
       "https://github.com/OpenBMB/MiniCPM",
       "https://huggingface.co/openbmb/MiniCPM5-2B",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/E9quwBgooi48MTkyvVqcJLlPnPe"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/E9quwBgooi48MTkyvVqcJLlPnPe",
+      "https://huggingface.co/openbmb/MiniCPM5-2B/raw/main/README.md",
+      "https://huggingface.co/openbmb/MiniCPM5-2B/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM5-2B",
+      "https://artificialanalysis.ai/models/minicpm5-2b",
+      "https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19491,7 +19719,7 @@
     "summary": "官方同页提供的独立Base权重；不等同于最终模型评测结果。",
     "releaseDate": "2026-09-07",
     "modelId": "minicpm5-2b-base",
-    "context": "官方未披露 / 待核验",
+    "context": "524288 tokens（此检查点自己的max_position_embeddings配置）；最大生成预算受输入和运行时限制，不当作独立API最大输出。",
     "output": "官方未披露 / 待核验",
     "modality": "文本",
     "reasoning": "独立配置官方未披露 / 待核验",
@@ -19507,7 +19735,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-Base；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-Base；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。\n2026-10-09 逐字段全网核验：架构、注意力细节、训练硬件、全流程训练 token：已核验公开配置：llama；42层，hidden_size=2048，注意力头=16，KV头=2。训练硬件与完整训练token仍待核验；本配置不能证明这两项。；参数量：该检查点公开权重张量参数数目：2516756480（HF元数据safetensors.total，含嵌入等，不当作MoE激活参数）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19524,7 +19752,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19532,7 +19760,10 @@
     "sources": [
       "https://github.com/OpenBMB/MiniCPM",
       "https://huggingface.co/openbmb/MiniCPM5-2B-Base",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/QyUfwGJzKiOjO6kAZJocHRXxnH4"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/QyUfwGJzKiOjO6kAZJocHRXxnH4",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-Base/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM5-2B-Base",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-Base/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19549,7 +19780,7 @@
     "summary": "官方同页提供的独立Midtrain权重；不等同于最终模型评测结果。",
     "releaseDate": "2026-09-07",
     "modelId": "minicpm5-2b-midtrain",
-    "context": "官方未披露 / 待核验",
+    "context": "131072 tokens（此检查点自己的max_position_embeddings配置）；最大生成预算受输入和运行时限制，不当作独立API最大输出。",
     "output": "官方未披露 / 待核验",
     "modality": "文本",
     "reasoning": "独立配置官方未披露 / 待核验",
@@ -19565,7 +19796,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-Midtrain；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-Midtrain；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。\n2026-10-09 逐字段全网核验：架构、注意力细节、训练硬件、全流程训练 token：已核验公开配置：llama；42层，hidden_size=2048，注意力头=16，KV头=2。训练硬件与完整训练token仍待核验；本配置不能证明这两项。；参数量：该检查点公开权重张量参数数目：2516756480（HF元数据safetensors.total，含嵌入等，不当作MoE激活参数）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19582,7 +19813,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19590,7 +19821,10 @@
     "sources": [
       "https://github.com/OpenBMB/MiniCPM",
       "https://huggingface.co/openbmb/MiniCPM5-2B-Midtrain",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/U02vwqcsciLAGZk2IDHcaAH3nth"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/U02vwqcsciLAGZk2IDHcaAH3nth",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-Midtrain/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM5-2B-Midtrain",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-Midtrain/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19607,7 +19841,7 @@
     "summary": "官方同页提供的独立SFT权重；不等同于最终模型评测结果。",
     "releaseDate": "2026-09-07",
     "modelId": "minicpm5-2b-sft",
-    "context": "官方未披露 / 待核验",
+    "context": "131072 tokens（此检查点自己的max_position_embeddings配置）；最大生成预算受输入和运行时限制，不当作独立API最大输出。",
     "output": "官方未披露 / 待核验",
     "modality": "文本",
     "reasoning": "独立配置官方未披露 / 待核验",
@@ -19623,7 +19857,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-SFT；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-SFT；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。\n2026-10-09 逐字段全网核验：架构、注意力细节、训练硬件、全流程训练 token：已核验公开配置：llama；42层，hidden_size=2048，注意力头=16，KV头=2。训练硬件与完整训练token仍待核验；本配置不能证明这两项。；参数量：该检查点公开权重张量参数数目：2516756480（HF元数据safetensors.total，含嵌入等，不当作MoE激活参数）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19640,7 +19874,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19648,7 +19882,10 @@
     "sources": [
       "https://github.com/OpenBMB/MiniCPM",
       "https://huggingface.co/openbmb/MiniCPM5-2B-SFT",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/MzF0wW8ruiBUjMkYXfTcavD3nFc"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/MzF0wW8ruiBUjMkYXfTcavD3nFc",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-SFT/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM5-2B-SFT",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-SFT/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19665,7 +19902,7 @@
     "summary": "官方同页提供的独立DSpark权重；不等同于最终模型评测结果。",
     "releaseDate": "2026-09-07",
     "modelId": "minicpm5-2b-dspark",
-    "context": "官方未披露 / 待核验",
+    "context": "131072 tokens（此检查点自己的max_position_embeddings配置）；最大生成预算受输入和运行时限制，不当作独立API最大输出。",
     "output": "官方未披露 / 待核验",
     "modality": "文本",
     "reasoning": "独立配置官方未披露 / 待核验",
@@ -19681,7 +19918,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-DSpark；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。",
+    "notes": "官方API模型标识：openbmb/MiniCPM5-2B-DSpark；独立官方检查点；AA暂无该检查点独立release。阶段单独上传时刻待核验。\n2026-10-09 逐字段全网核验：架构、注意力细节、训练硬件、全流程训练 token：已核验公开配置：qwen3；5层，hidden_size=2048，注意力头=16，KV头=2。训练硬件与完整训练token仍待核验；本配置不能证明这两项。；参数量：DSpark草稿检查点；不能套用主模型2B。323776001（HF元数据safetensors.total，含嵌入等，不当作MoE激活参数）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19698,7 +19935,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19706,7 +19943,10 @@
     "sources": [
       "https://github.com/OpenBMB/MiniCPM",
       "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/P3kww1K1SirUMRkwpbzctkHJnKc"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/P3kww1K1SirUMRkwpbzctkHJnKc",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark/raw/main/config.json",
+      "https://huggingface.co/api/models/openbmb/MiniCPM5-2B-DSpark",
+      "https://huggingface.co/openbmb/MiniCPM5-2B-DSpark/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -20451,7 +20691,7 @@
     "releaseDate": "暂无数据",
     "modelId": "minimax-m3",
     "context": "官方未披露 / 待核验",
-    "output": "官方未披露 / 待核验",
+    "output": "OpenRouter当前托管入口列出 512000 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "官方未披露 / 待核验",
     "reasoning": "官方未披露 / 待核验",
     "price": "官方未披露 / 待核验",
@@ -20464,7 +20704,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "独立 AA release.slug=minimax-m3；补齐既有Wiki对应的稳定库存行，不表示模型本轮新发布。发布时间与规格待官方逐项核验；不将历史估算当作官方参数。",
+    "notes": "独立 AA release.slug=minimax-m3；补齐既有Wiki对应的稳定库存行，不表示模型本轮新发布。发布时间与规格待官方逐项核验；不将历史估算当作官方参数。\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -20482,7 +20722,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 8,
+    "supplementalSourceCount": 10,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -20496,7 +20736,9 @@
       "https://platform.minimax.io/docs/guides/pricing-paygo",
       "https://platform.minimax.io/docs/guides/pricing-token-plan",
       "https://platform.minimax.io/docs/llms.txt",
-      "https://artificialanalysis.ai/models/minimax-m3"
+      "https://artificialanalysis.ai/models/minimax-m3",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/minimax/minimax-m3"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -20527,7 +20769,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "新架构家族最小成员，暗示后续更大模型在开发中。V4 Pro 继续提供 API 服务但无新版本计划。HuggingFace 仅有社区量化版本。",
+    "notes": "新架构家族最小成员，暗示后续更大模型在开发中。V4 Pro 继续提供 API 服务但无新版本计划。HuggingFace 仅有社区量化版本。\n2026-10-09 逐字段全网核验：总参数量：552B骨干参数（官方型号README，另有196B稀疏查询的Engram条件记忆；不把不同参数口径混为一谈）；注意力机制：CSA2压缩稀疏注意力；Full/Reindex/Reuse静态模式共享KV和索引，解码端分层稀疏索引；FP4主KV缓存。官方报告的890 bytes/token为该设计口径，不直接保证所有服务的实际显存。；训练数据：官方README披露多模态预训练语料45T tokens；64K序列训练稀疏注意力，在34T tokens时将上下文扩至1M；训练从零开始。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -20544,7 +20786,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -20552,7 +20794,11 @@
     "sources": [
       "https://api-docs.deepseek.com/updates",
       "https://api-docs.deepseek.com/quick_start/pricing",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/F8SCwCm5LiapAYkppqAc0cCOnnb"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/F8SCwCm5LiapAYkppqAc0cCOnnb",
+      "https://artificialanalysis.ai/models/deepseek-v4-1-flash-non-reasoning",
+      "https://artificialanalysis.ai/models/deepseek-v4-1-flash",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/README.md",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/raw/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -20633,7 +20879,7 @@
     "context": "官方未披露 / 待核验",
     "output": "官方未披露 / 待核验",
     "modality": "文本、图像输入 → 文本输出（官方模型文档）",
-    "reasoning": "官方未披露 / 待核验",
+    "reasoning": "reasoning.effort supports none, low, medium (default), high, xhigh, and max.（对应型号OpenAI文档）",
     "price": "官方未披露 / 待核验",
     "platforms": [
       "OpenAI API"
@@ -20644,7 +20890,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。",
+    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -20689,7 +20935,7 @@
     "context": "官方未披露 / 待核验",
     "output": "128,000 tokens",
     "modality": "文本、图像输入 → 文本输出（官方模型文档）",
-    "reasoning": "官方未披露 / 待核验",
+    "reasoning": "reasoning.effort supports none, low, medium (default), high, xhigh, and max.（对应型号OpenAI文档）",
     "price": "官方未披露 / 待核验",
     "platforms": [
       "OpenAI API"
@@ -20700,7 +20946,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。",
+    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -20745,7 +20991,7 @@
     "context": "官方未披露 / 待核验",
     "output": "官方未披露 / 待核验",
     "modality": "文本、图像输入 → 文本输出（官方模型文档）",
-    "reasoning": "官方未披露 / 待核验",
+    "reasoning": "Adaptive thinking 默认开启；between_tools 可关闭前置思考（仅 high effort 或更低档位）。effort 的有效档位以该模型参考页为准。",
     "price": "输入 $2/百万 tokens；输出 $10/百万 tokens；缓存写入 $0.20/百万 tokens",
     "platforms": [
       "Anthropic API",
@@ -20757,7 +21003,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。",
+    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -22594,7 +22840,7 @@
     "releaseDate": "暂无数据",
     "modelId": "grok-build-0-1",
     "context": "256K",
-    "output": "待核验（本轮尚未取得该字段的可靠来源）",
+    "output": "OpenRouter当前托管入口列出 230400 tokens（max_completion_tokens）；这是该入口限制，不等同于所有厂商/自托管入口的统一上限，核验日期2026-10-09。",
     "modality": "文本+图像",
     "reasoning": "否或官方未披露",
     "price": "API $1/1M 输入 tokens + $2/1M 输出 tokens；SuperGrok Heavy 订阅 $300/月",
@@ -22607,7 +22853,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。",
+    "notes": "2026-10-09 Wiki/Atlas 一致性补登记；Hold 不表示卡片已通过全部来源验收。\n2026-10-09 逐字段全网核验：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -22624,13 +22870,15 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 1,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/DdxKwfAA0icBZukeFG7cDwyFnOd"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/DdxKwfAA0icBZukeFG7cDwyFnOd",
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/x-ai/grok-build-0.1"
     ],
     "sourceFile": "Feishu Bitable"
   },
