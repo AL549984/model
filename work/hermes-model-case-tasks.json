@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:47:20.839Z",
+  "generatedAt": "2026-10-09T14:12:13.051Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -25663,7 +25663,9 @@
         "https://artificialanalysis.ai/models/lfm2-5-2-6b",
         "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
         "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp/blob/main/LICENSE",
-        "https://www.liquid.ai"
+        "https://www.liquid.ai",
+        "https://huggingface.co/LiquidAI/LFM2.5-2.6B/blob/main/config.json",
+        "https://arxiv.org/html/2511.23404v1"
       ],
       "crawlSources": [
         {
@@ -28222,7 +28224,8 @@
         "https://artificialanalysis.ai/models/command-a-plus",
         "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://cohere.com/"
+        "https://cohere.com/",
+        "https://docs.cohere.com/docs/command-a-plus"
       ],
       "crawlSources": [
         {
@@ -31362,7 +31365,8 @@
         "https://www.nvidia.com/",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16/raw/main/README.md",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16/raw/main/config.json",
-        "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+        "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+        "https://docs.nvidia.com/nemo/megatron-bridge/nightly/apidocs/bridge/bridge.recipes.nemotronh.h100.nemotron_3_nano_4b.html"
       ],
       "crawlSources": [
         {
@@ -34228,7 +34232,9 @@
         "https://www.liquid.ai",
         "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/README.md",
         "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/config.json",
-        "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Thinking"
+        "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Thinking",
+        "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/blob/main/config.json",
+        "https://arxiv.org/html/2511.23404v1"
       ],
       "crawlSources": [
         {
@@ -34515,7 +34521,9 @@
         "https://artificialanalysis.ai/models/lfm2-5-vl-1-6b",
         "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B",
         "https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE",
-        "https://www.liquid.ai"
+        "https://www.liquid.ai",
+        "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B/blob/main/config.json",
+        "https://arxiv.org/html/2511.23404v1"
       ],
       "crawlSources": [
         {
@@ -34661,7 +34669,8 @@
         "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/README.md",
         "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/config.json",
         "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct",
-        "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/blob/main/config.json"
+        "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/blob/main/config.json",
+        "https://arxiv.org/html/2511.23404v1"
       ],
       "crawlSources": [
         {
@@ -36100,7 +36109,9 @@
         "https://artificialanalysis.ai/models/devstral-2",
         "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512",
         "http://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512/blob/main/LICENSE",
-        "https://mistral.ai/"
+        "https://mistral.ai/",
+        "https://mistral.ai/news/devstral-2-vibe-cli/",
+        "https://docs.mistral.ai/models/devstral-2-25-12"
       ],
       "crawlSources": [
         {
@@ -38382,7 +38393,8 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/YEcfw7v61ixrznkE5mIc6rs0n2g",
         "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning",
-        "https://aws.amazon.com/"
+        "https://aws.amazon.com/",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
       ],
       "crawlSources": [
         {
@@ -39525,7 +39537,9 @@
         "https://artificialanalysis.ai/models/lfm2-2-6b",
         "https://huggingface.co/LiquidAI/LFM2-2.6B",
         "https://huggingface.co/LiquidAI/LFM2-2.6B/blob/main/LICENSE",
-        "https://www.liquid.ai"
+        "https://www.liquid.ai",
+        "https://huggingface.co/LiquidAI/LFM2-2.6B/blob/main/config.json",
+        "https://arxiv.org/html/2511.23404v1"
       ],
       "crawlSources": [
         {
@@ -42390,7 +42404,8 @@
         "https://artificialanalysis.ai/models/jamba-1-7-mini",
         "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7",
         "https://www.ai21.com/licenses/jamba-open-model-license",
-        "https://www.ai21.com/"
+        "https://www.ai21.com/",
+        "https://docs.ai21.com/docs/jamba-foundation-models"
       ],
       "crawlSources": [
         {
@@ -42532,7 +42547,10 @@
         "https://artificialanalysis.ai/models/jamba-1-7-large",
         "https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7",
         "https://www.ai21.com/licenses/jamba-open-model-license",
-        "https://www.ai21.com/"
+        "https://www.ai21.com/",
+        "https://www.ai21.com/pricing/",
+        "https://docs.ai21.com/docs/jamba-foundation-models",
+        "https://docs.ai21.com/docs/function-calling"
       ],
       "crawlSources": [
         {
@@ -42814,7 +42832,8 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/EFEhwUyzEiMct4kMSH0cWiYAnWg",
         "https://artificialanalysis.ai/models/nova-premier",
-        "https://aws.amazon.com/"
+        "https://aws.amazon.com/",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
       ],
       "crawlSources": [
         {
@@ -43247,7 +43266,8 @@
         "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025",
         "https://cohere.com/c4ai-cc-by-nc-license",
         "https://cohere.com/",
-        "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+        "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025",
+        "https://docs.cohere.com/docs/command-a"
       ],
       "crawlSources": [
         {
@@ -44250,7 +44270,8 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/OnE2wxARxib756ktiPEcrLh1nny",
         "https://artificialanalysis.ai/models/nova-micro",
-        "https://aws.amazon.com/"
+        "https://aws.amazon.com/",
+        "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html"
       ],
       "crawlSources": [
         {

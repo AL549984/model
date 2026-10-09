@@ -11425,10 +11425,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-2.6B 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：10.987。",
+    "summary": "LFM2.5-2.6B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-2.6B ，AA Intelligence Index 为  10.99 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-08-04",
     "modelId": "lfm2-5-2-6b",
-    "context": "128000 tokens",
+    "context": "131,072 tokens（对应官方README与config.json，服务商可另设更低上限）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -11442,7 +11442,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GiglwjI9WiPIKQk2UFKcn9tBnVg；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GiglwjI9WiPIKQk2UFKcn9tBnVg；按 AA release slug 独立建档。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应配置使用Dense LFM2语言骨干；不把标称模型规模当作每token实测计算参数数目。；总参数量：2.69B（对应官方README）；训练 token 数：34T（对应官方README的Training budget口径；不套用LFM2原始版或8B变体统计）；Agent 能力：官方仓库提供函数定义→模型生成调用→外部执行器执行→tool角色回传→最终回答的完整示例；支持函数调用不等于长任务成功率已验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11460,7 +11460,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11470,7 +11470,9 @@
       "https://artificialanalysis.ai/models/lfm2-5-2-6b",
       "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
       "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp/blob/main/LICENSE",
-      "https://www.liquid.ai"
+      "https://www.liquid.ai",
+      "https://huggingface.co/LiquidAI/LFM2.5-2.6B/blob/main/config.json",
+      "https://arxiv.org/html/2511.23404v1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -12310,10 +12312,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-8B-A1B 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：8.137。",
+    "summary": "LFM2.5-8B-A1B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-8B-A1B ，AA Intelligence Index 为  8.14 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-05-28",
     "modelId": "lfm2-5-8b-a1b",
-    "context": "32768 tokens",
+    "context": "128,000 tokens（对应2.5版官方README，不能沿用LFM2原始版32768）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -12327,7 +12329,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WmHYwLFJeil7z2kjIkgcdZV8nWd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WmHYwLFJeil7z2kjIkgcdZV8nWd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：Agent 能力：官方仓库提供函数定义→模型生成调用→外部执行器执行→tool角色回传→最终回答的完整示例；支持函数调用不等于长任务成功率已验证。；训练 token 数：38T（2.5-8B-A1B对应README的Training budget）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12490,14 +12492,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Command A+ 独立模型卡",
-    "summary": "Cohere 的独立模型 release；AA Intelligence Index：22.770。",
+    "summary": "Command A+  是 Cohere 的独立模型 release；Artificial Analysis 当前代表档位为  Command A+ ，AA Intelligence Index 为  22.77 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-05-20",
     "modelId": "command-a-plus",
-    "context": "192000 tokens",
-    "output": "暂无数据",
+    "context": "128,000 tokens；官方API页与权重README均列128K上下文，64K最大输出另列，不能简单相加成192K上下文。",
+    "output": "64,000 tokens（官方API规格）",
     "modality": "输入：文本、图像；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
-    "price": "输入 0 / 输出 0 USD per 1M tokens",
+    "price": "输入：官方当前开放API在速率限制内免费；生产私有部署走Model Vault协议，不能把0 USD理解为不限量生产成本。；输出：官方当前开放API在速率限制内免费；生产私有部署另按协议计费。",
     "platforms": [
       "Cohere"
     ],
@@ -12507,7 +12509,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NpZhwZ0onilrI4kXGRDcjxjznzN；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NpZhwZ0onilrI4kXGRDcjxjznzN；按 AA release slug 独立建档。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：知识截止日期：2025-04-01（对应command-a-plus-05-2026官方API规格）；输入价格：官方当前开放API在速率限制内免费；生产私有部署走Model Vault协议，不能把0 USD理解为不限量生产成本。；输出价格：官方当前开放API在速率限制内免费；生产私有部署另按协议计费。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -12525,7 +12527,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -12535,7 +12537,8 @@
       "https://artificialanalysis.ai/models/command-a-plus",
       "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://cohere.com/"
+      "https://cohere.com/",
+      "https://docs.cohere.com/docs/command-a-plus"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -13801,7 +13804,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "NVIDIA Nemotron 3 Nano 4B 独立模型卡",
-    "summary": "NVIDIA 的独立模型 release；AA Intelligence Index：8.558。",
+    "summary": "NVIDIA Nemotron 3 Nano 4B  是 NVIDIA 的独立模型 release；Artificial Analysis 当前代表档位为  NVIDIA Nemotron 3 Nano 4B ，AA Intelligence Index 为  8.56 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-03-16",
     "modelId": "nvidia-nemotron-3-nano-4b",
     "context": "262000 tokens",
@@ -13818,7 +13821,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TbG3wOXYCikesakxS12caAbjnxf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-09（预训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TbG3wOXYCikesakxS12caAbjnxf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-09（预训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：NVIDIA对应4B架构文档明确为Dense，官方模型卡列总规模3.97B。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -13836,7 +13839,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -13849,7 +13852,8 @@
       "https://www.nvidia.com/",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16/raw/main/README.md",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16/raw/main/config.json",
-      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+      "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+      "https://docs.nvidia.com/nemo/megatron-bridge/nightly/apidocs/bridge/bridge.recipes.nemotronh.h100.nemotron_3_nano_4b.html"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14350,7 +14354,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2 24B A2B 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：4.629。",
+    "summary": "LFM2 24B A2B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2 24B A2B ，AA Intelligence Index 为  4.63 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-02-25",
     "modelId": "lfm2-24b-a2b",
     "context": "32768 tokens",
@@ -14367,7 +14371,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WCw4wbHKJi1zvLkD2a3cZAVMnTb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/WCw4wbHKJi1zvLkD2a3cZAVMnTb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：Agent 能力：官方仓库提供函数定义→模型生成调用→外部执行器执行→tool角色回传→最终回答的完整示例；支持函数调用不等于长任务成功率已验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15024,7 +15028,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应配置使用Dense LFM2语言骨干；不把标称模型规模当作每token实测计算参数数目。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15042,7 +15046,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15055,7 +15059,9 @@
       "https://www.liquid.ai",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/README.md",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/raw/main/config.json",
-      "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Thinking"
+      "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Thinking",
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking/blob/main/config.json",
+      "https://arxiv.org/html/2511.23404v1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15148,7 +15154,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方提供纯文本输入下的函数调用示例；视觉输入能力与文本工具调用分别记录，不据此宣称视觉Agent闭环可靠性。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方提供纯文本输入下的函数调用示例；视觉输入能力与文本工具调用分别记录，不据此宣称视觉Agent闭环可靠性。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应text_config为Dense LFM2语言骨干，另有视觉编码器；实际负载依图像数量和分块而变。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15166,7 +15172,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15176,7 +15182,9 @@
       "https://artificialanalysis.ai/models/lfm2-5-vl-1-6b",
       "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B",
       "https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE",
-      "https://www.liquid.ai"
+      "https://www.liquid.ai",
+      "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B/blob/main/config.json",
+      "https://arxiv.org/html/2511.23404v1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15207,7 +15215,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应配置使用Dense LFM2语言骨干；不把标称模型规模当作每token实测计算参数数目。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15225,7 +15233,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 8,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15239,7 +15247,8 @@
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/README.md",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/config.json",
       "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct",
-      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/blob/main/config.json"
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/blob/main/config.json",
+      "https://arxiv.org/html/2511.23404v1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15803,7 +15812,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Devstral 2 独立模型卡",
-    "summary": "Mistral 的独立模型 release；AA Intelligence Index：19.242。",
+    "summary": "Devstral 2  是 Mistral 的独立模型 release；Artificial Analysis 当前代表档位为  Devstral 2 ，AA Intelligence Index 为  19.24 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-12-09",
     "modelId": "devstral-2",
     "context": "256000 tokens",
@@ -15820,7 +15829,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XslvwIzQNiHT0Wkopinc4Qs8npe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XslvwIzQNiHT0Wkopinc4Qs8npe；按 AA release slug 独立建档。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：官方发布文明确123B Dense Transformer。；总参数量：123B（官方发布文；第三方目录的125B不当官方参数披露）；API 服务状态：Mistral官方devstral-2512型号页标记Deprecated，弃用日期2026-05-22；新集成推荐Mistral Medium 3.5。开放权重与官方API生命周期分别判断。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15838,7 +15847,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15848,7 +15857,9 @@
       "https://artificialanalysis.ai/models/devstral-2",
       "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512",
       "http://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512/blob/main/LICENSE",
-      "https://mistral.ai/"
+      "https://mistral.ai/",
+      "https://mistral.ai/news/devstral-2-vibe-cli/",
+      "https://docs.mistral.ai/models/devstral-2-25-12"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16759,12 +16770,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nova 2.0 Lite 独立模型卡",
-    "summary": "Amazon 的独立模型 release；AA Intelligence Index：20.800。",
+    "summary": "Nova 2.0 Lite  是 Amazon 的独立模型 release；Artificial Analysis 当前代表档位为  Nova 2.0 Lite (high) ，AA Intelligence Index 为  20.80 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-29",
     "modelId": "nova-2-0-lite",
     "context": "1000000 tokens",
-    "output": "暂无数据",
-    "modality": "输入：文本、图像；输出：文本",
+    "output": "64K tokens（对应Bedrock型号页）",
+    "modality": "文本、图像、视频（对应Bedrock型号页）",
     "reasoning": "AA 存在多个推理档位",
     "price": "输入 0.300 / 输出 2.500 USD per 1M tokens",
     "platforms": [
@@ -16776,7 +16787,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YEcfw7v61ixrznkE5mIc6rs0n2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YEcfw7v61ixrznkE5mIc6rs0n2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：知识截止日期：2025-10（对应Amazon Bedrock型号页；不是产品发布日期）；Agent 能力：Amazon Bedrock对应型号页明确支持Client-side tool calling；工具由客户端执行，不代表任务链成功率已独立验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16794,7 +16805,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16802,7 +16813,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/YEcfw7v61ixrznkE5mIc6rs0n2g",
       "https://artificialanalysis.ai/models/nova-2-0-lite-reasoning",
-      "https://aws.amazon.com/"
+      "https://aws.amazon.com/",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17177,7 +17189,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2 8B A1B 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：1.339。",
+    "summary": "LFM2 8B A1B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2 8B A1B ，AA Intelligence Index 为  1.34 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-07",
     "modelId": "lfm2-8b-a1b",
     "context": "32768 tokens",
@@ -17194,7 +17206,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z1tUwJRV7ij9qKkhy3ncpazbnlb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z1tUwJRV7ij9qKkhy3ncpazbnlb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：Agent 能力：官方仓库提供函数定义→模型生成调用→外部执行器执行→tool角色回传→最终回答的完整示例；支持函数调用不等于长任务成功率已验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17253,7 +17265,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：推理激活参数量：不适用MoE稀疏激活统计：对应配置使用Dense LFM2语言骨干；不把标称模型规模当作每token实测计算参数数目。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17271,7 +17283,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17281,7 +17293,9 @@
       "https://artificialanalysis.ai/models/lfm2-2-6b",
       "https://huggingface.co/LiquidAI/LFM2-2.6B",
       "https://huggingface.co/LiquidAI/LFM2-2.6B/blob/main/LICENSE",
-      "https://www.liquid.ai"
+      "https://www.liquid.ai",
+      "https://huggingface.co/LiquidAI/LFM2-2.6B/blob/main/config.json",
+      "https://arxiv.org/html/2511.23404v1"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18441,7 +18455,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Jamba 1.7 Mini 独立模型卡",
-    "summary": "AI21 Labs 的独立模型 release；AA Intelligence Index：2.327。",
+    "summary": "Jamba 1.7 Mini  是 AI21 Labs 的独立模型 release；Artificial Analysis 当前代表档位为  Jamba 1.7 Mini ，AA Intelligence Index 为  2.33 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-07-07",
     "modelId": "jamba-1-7-mini",
     "context": "258000 tokens",
@@ -18458,7 +18472,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YSZmwUxMhieTMCkWwSMcUKumnod；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/YSZmwUxMhieTMCkWwSMcUKumnod；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：API 服务状态：官方列Jamba Mini 1.7端点弃用日期2026-02-01；当前jamba-mini别名指向Jamba2 Mini，不把当前Mini价格或能力自动写回1.7历史型号。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18476,7 +18490,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18486,7 +18500,8 @@
       "https://artificialanalysis.ai/models/jamba-1-7-mini",
       "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7",
       "https://www.ai21.com/licenses/jamba-open-model-license",
-      "https://www.ai21.com/"
+      "https://www.ai21.com/",
+      "https://docs.ai21.com/docs/jamba-foundation-models"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18500,14 +18515,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Jamba 1.7 Large 独立模型卡",
-    "summary": "AI21 Labs 的独立模型 release；AA Intelligence Index：4.995。",
+    "summary": "Jamba 1.7 Large  是 AI21 Labs 的独立模型 release；Artificial Analysis 当前代表档位为  Jamba 1.7 Large ，AA Intelligence Index 为  4.99 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-07-07",
     "modelId": "jamba-1-7-large",
     "context": "256000 tokens",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
-    "price": "输入 官方未披露 / 待核验 / 输出 官方未披露 / 待核验 USD per 1M tokens",
+    "price": "输入：2 USD / 1M input tokens（AI21当前Jamba Large官方按量定价；别名明确指向1.7-2025-07）；输出：8 USD / 1M output tokens（AI21当前Jamba Large官方按量定价）",
     "platforms": [
       "AI21 Labs"
     ],
@@ -18517,7 +18532,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/I49jw9dzfiblSXkmiQ7cKCtdn3b；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/I49jw9dzfiblSXkmiQ7cKCtdn3b；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：输入价格：2 USD / 1M input tokens（AI21当前Jamba Large官方按量定价；别名明确指向1.7-2025-07）；输出价格：8 USD / 1M output tokens（AI21当前Jamba Large官方按量定价）；Agent 能力：官方Chat Completions函数调用示例使用jamba-large：JSON Schema工具定义→tool_calls→外部执行→tool角色回传→最终回答。当前别名明确指向1.7，工具支持不等于任务成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18535,7 +18550,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18545,7 +18560,10 @@
       "https://artificialanalysis.ai/models/jamba-1-7-large",
       "https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7",
       "https://www.ai21.com/licenses/jamba-open-model-license",
-      "https://www.ai21.com/"
+      "https://www.ai21.com/",
+      "https://www.ai21.com/pricing/",
+      "https://docs.ai21.com/docs/jamba-foundation-models",
+      "https://docs.ai21.com/docs/function-calling"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18618,12 +18636,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nova Premier 独立模型卡",
-    "summary": "Amazon 的独立模型 release；AA Intelligence Index：12.718。",
+    "summary": "Nova Premier  是 Amazon 的独立模型 release；Artificial Analysis 当前代表档位为  Nova Premier ，AA Intelligence Index 为  12.72 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-04-30",
     "modelId": "nova-premier",
     "context": "1000000 tokens",
     "output": "暂无数据",
-    "modality": "输入：文本；输出：文本",
+    "modality": "文本、图像、视频（对应Bedrock型号页）",
     "reasoning": "以 AA 当前代表档位为准",
     "price": "输入 2.500 / 输出 12.500 USD per 1M tokens",
     "platforms": [
@@ -18635,7 +18653,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EFEhwUyzEiMct4kMSH0cWiYAnWg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/EFEhwUyzEiMct4kMSH0cWiYAnWg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：知识截止日期：2024-10（对应Amazon Bedrock型号页；不是产品发布日期）；Agent 能力：Amazon Bedrock对应型号页明确支持Client-side tool calling；工具由客户端执行，不代表任务链成功率已独立验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18653,7 +18671,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18661,7 +18679,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/EFEhwUyzEiMct4kMSH0cWiYAnWg",
       "https://artificialanalysis.ai/models/nova-premier",
-      "https://aws.amazon.com/"
+      "https://aws.amazon.com/",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -18816,7 +18835,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HumcwDSxOi9Ws9k1AyhccR3Onic；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方说明针对对话工具调用训练；JSON Schema定义工具，生成计划与调用，再回传tool角色结果，可选对工具结果生成引用。真实长任务可靠性须独立测试。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HumcwDSxOi9Ws9k1AyhccR3Onic；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方说明针对对话工具调用训练；JSON Schema定义工具，生成计划与调用，再回传tool角色结果，可选对工具结果生成引用。真实长任务可靠性须独立测试。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：知识截止日期：2024-06-01（对应command-a-03-2025官方API规格）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18834,7 +18853,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18845,7 +18864,8 @@
       "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025",
       "https://cohere.com/c4ai-cc-by-nc-license",
       "https://cohere.com/",
-      "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+      "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025",
+      "https://docs.cohere.com/docs/command-a"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19224,10 +19244,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nova Micro 独立模型卡",
-    "summary": "Amazon 的独立模型 release；AA Intelligence Index：4.416。",
+    "summary": "Nova Micro  是 Amazon 的独立模型 release；Artificial Analysis 当前代表档位为  Nova Micro ，AA Intelligence Index 为  4.42 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2024-12-03",
     "modelId": "nova-micro",
-    "context": "130000 tokens",
+    "context": "128K tokens（官方型号页的Context window；旧130000为第三方目录口径，不当官方规格）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -19241,7 +19261,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OnE2wxARxib756ktiPEcrLh1nny；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OnE2wxARxib756ktiPEcrLh1nny；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号知识截止、窗口、架构、工具与API生命周期补正：知识截止日期：2024-10（对应Amazon Bedrock型号页；不是产品发布日期）；Agent 能力：Amazon Bedrock对应型号页明确支持Client-side tool calling；工具由客户端执行，不代表任务链成功率已独立验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19259,7 +19279,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19267,7 +19287,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/OnE2wxARxib756ktiPEcrLh1nny",
       "https://artificialanalysis.ai/models/nova-micro",
-      "https://aws.amazon.com/"
+      "https://aws.amazon.com/",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html"
     ],
     "sourceFile": "Feishu Bitable"
   },
