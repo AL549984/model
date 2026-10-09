@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:27:47.267Z",
+  "generatedAt": "2026-10-09T19:12:55.857Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -11,10 +11,10 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 798,
-    "allModelTargetDeficit": 1332,
+    "allModelMinDeficit": 795,
+    "allModelTargetDeficit": 1328,
     "queuedModels": 263,
-    "crawlTargetDeficit": 1312
+    "crawlTargetDeficit": 1308
   },
   "tasks": [
     {
@@ -37540,17 +37540,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/GBdGwE9ZIivIQckRpCdcidFEnyg",
