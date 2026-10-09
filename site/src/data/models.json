@@ -9423,7 +9423,7 @@
     "modelId": "glm-5-3",
     "context": "1M tokens",
     "output": "128K tokens",
-    "modality": "文本输入 / 文本输出",
+    "modality": "当前官方Feature Changes明确写text-only inputs；按该版本仅支持文本输入记录，不推断为支持图像、音频或视频。",
     "reasoning": "必须开启 thinking；low / high / max 三档，默认 max",
     "price": "Z.AI国际API价格（每百万tokens，美元）：输入1.4、缓存输入0.26、输出4.4；缓存存储当前限时免费。Coding Plan积分是另一套计费口径。",
     "platforms": [
@@ -9437,7 +9437,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。\n2026-10-09 逐字段全网核验：总参数量：753B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；激活参数量：40B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；许可证：GLM-5.3 License（官方自定义许可，不是MIT）：允许使用、修改和部署，但满足许可所定义的模型即服务业务与合计营收条件时须经Z.AI安全审查；具体适用条件以链接全文为准。；架构类型：GlmMoeDsaForCausalLM；78层，hidden_size=6144；256个路由专家，每token选8个，并含1个共享专家；公开配置支持1048576位置。\n2026-10-09 正文一致性与现行资料补正：开源状态：已开放权重：官方zai-org/GLM-5.3仓库提供模型文件和本地部署说明；遵守GLM-5.3自定义许可。；当前入口：官方文档已列出模型API与GLM Coding Plan；部分订阅历史账户有协议限制，需按文档选择入口，不再标记coming soon。；本地部署：已有官方部署说明；成本可预测性：可按现行API价格估算；Coding Plan积分和本地硬件成本另计。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IiDvwhFEQiyBF8kQJQwc9MiOnwf。官方发布于 2026-08-14；权重预计发布后约两周开放，届时需回填许可证与 Hugging Face/GitHub 地址。\n2026-10-09 逐字段全网核验：总参数量：753B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；激活参数量：40B（AA对应精确版本目录记录；第三方口径，权重张量存储计数可能不同，不由模型名称推算。）；许可证：GLM-5.3 License（官方自定义许可，不是MIT）：允许使用、修改和部署，但满足许可所定义的模型即服务业务与合计营收条件时须经Z.AI安全审查；具体适用条件以链接全文为准。；架构类型：GlmMoeDsaForCausalLM；78层，hidden_size=6144；256个路由专家，每token选8个，并含1个共享专家；公开配置支持1048576位置。\n2026-10-09 正文一致性与现行资料补正：开源状态：已开放权重：官方zai-org/GLM-5.3仓库提供模型文件和本地部署说明；遵守GLM-5.3自定义许可。；当前入口：官方文档已列出模型API与GLM Coding Plan；部分订阅历史账户有协议限制，需按文档选择入口，不再标记coming soon。；本地部署：已有官方部署说明；成本可预测性：可按现行API价格估算；Coding Plan积分和本地硬件成本另计。\n2026-10-09 参数、架构、工具调用与版本资料补正：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -9490,12 +9490,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "SK Telecom 面向韩语理解与企业私有化部署的 34B 开放权重模型。",
-    "summary": "A.X-3.1 从零训练于 2.1T tokens，原生支持 32,768 tokens，并可通过 YaRN 扩展到 131,072 tokens；Apache 2.0 许可，韩语 benchmark 表现突出。",
+    "summary": "A.X-3.1 是 SK Telecom 面向韩语理解与企业部署、从零训练的 34B 开源权重语言模型，重点优势是韩语知识、文化语境与较低的韩语 token 消耗；它支持 32,768 tokens 原生上下文，并可通过 YaRN 扩展至 131,072 tokens。",
     "releaseDate": "2025-07-24",
     "modelId": "a-x-3-1",
     "context": "32,768 tokens 原生；131,072 tokens（YaRN 扩展）",
     "output": "官方未披露 / 待核验",
-    "modality": "文本输入；文本输出",
+    "modality": "官方仓库的发布说明、架构与Quickstart为文本语言模型和文本生成流程；本卡仅据这些资料记录文本用法，不对图像、音频、视频能力作额外断言。",
     "reasoning": "官方未披露独立 thinking / reasoning 模式",
     "price": "开放权重本地部署；官方未披露统一托管价格",
     "platforms": [
@@ -9510,7 +9510,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GGlJwI2gOiYhKJkIG1rc6RxAnae；参数量 34B、训练 2.1T tokens、Apache-2.0。案例证据不足，保持 Hold。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GGlJwI2gOiYhKJkIG1rc6RxAnae；参数量 34B、训练 2.1T tokens、Apache-2.0。案例证据不足，保持 Hold。\n2026-10-09 参数、架构、工具调用与版本资料补正：",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
