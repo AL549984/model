@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:16:58.861Z",
+  "generatedAt": "2026-10-09T13:47:20.839Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -34660,7 +34660,8 @@
         "https://www.liquid.ai",
         "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/README.md",
         "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/config.json",
-        "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct"
+        "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct",
+        "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/blob/main/config.json"
       ],
       "crawlSources": [
         {
@@ -38665,7 +38666,8 @@
         "https://artificialanalysis.ai/models/granite-4-0-h-350m",
         "https://huggingface.co/ibm-granite/granite-4.0-h-350m",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.ibm.com/au-en"
+        "https://www.ibm.com/au-en",
+        "https://huggingface.co/ibm-granite/granite-4.0-h-350m/blob/main/config.json"
       ],
       "crawlSources": [
         {
@@ -38807,7 +38809,8 @@
         "https://artificialanalysis.ai/models/granite-4-0-h-nano-1b",
         "https://huggingface.co/ibm-granite/granite-4.0-h-1b",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.ibm.com/au-en"
+        "https://www.ibm.com/au-en",
+        "https://huggingface.co/ibm-granite/granite-4.0-h-1b/blob/main/config.json"
       ],
       "crawlSources": [
         {
@@ -38949,7 +38952,8 @@
         "https://artificialanalysis.ai/models/granite-4-0-350m",
         "https://huggingface.co/ibm-granite/granite-4.0-350m",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.ibm.com/au-en"
+        "https://www.ibm.com/au-en",
+        "https://huggingface.co/ibm-granite/granite-4.0-350m/blob/main/config.json"
       ],
       "crawlSources": [
         {
@@ -39091,7 +39095,8 @@
         "https://artificialanalysis.ai/models/granite-4-0-nano-1b",
         "https://huggingface.co/ibm-granite/granite-4.0-1b",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.ibm.com/au-en"
+        "https://www.ibm.com/au-en",
+        "https://huggingface.co/ibm-granite/granite-4.0-1b/blob/main/config.json"
       ],
       "crawlSources": [
         {
@@ -39952,7 +39957,8 @@
         "https://artificialanalysis.ai/models/granite-4-0-micro",
         "https://huggingface.co/ibm-granite/granite-4.0-micro",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.ibm.com/au-en"
+        "https://www.ibm.com/au-en",
+        "https://huggingface.co/ibm-granite/granite-4.0-micro/blob/main/config.json"
       ],
       "crawlSources": [
         {
@@ -43240,7 +43246,8 @@
         "https://artificialanalysis.ai/models/command-a",
         "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025",
         "https://cohere.com/c4ai-cc-by-nc-license",
-        "https://cohere.com/"
+        "https://cohere.com/",
+        "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
       ],
       "crawlSources": [
         {
@@ -54157,7 +54164,9 @@
       "officialSources": [
         "https://qwenlm.github.io/blog/qwen3-coder/",
         "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/README.md",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/HioBwNvhXio9NDkWieDc0PsBnGf"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/HioBwNvhXio9NDkWieDc0PsBnGf",
+        "https://arxiv.org/html/2603.00729v1",
+        "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/config.json"
       ],
       "crawlSources": [
         {

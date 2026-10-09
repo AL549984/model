@@ -140,15 +140,15 @@
     "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
     "releaseDate": "2024-04-25",
     "modelId": "qwen1-5-chat-110b",
-    "context": "暂无数据",
+    "context": "32,768 tokens（官方Chat仓库；不是暂无数据）",
     "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
+    "modality": "文本输入 → 文本输出；多语言支持不等于多模态",
     "reasoning": "否或官方未披露",
     "price": "官方未披露 / 暂无数据",
     "platforms": [
       "Qwen / Alibaba"
     ],
-    "officialLink": "https://artificialanalysis.ai/models/qwen1.5-110b-chat",
+    "officialLink": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat",
     "score": 9.55,
     "scoreDelta": 0.72,
     "vendorOrder": 3,
@@ -4935,14 +4935,14 @@
     "releaseDate": "2025-06-10",
     "modelId": "o3-pro",
     "context": "上下文200,000 tokens；最大输出100,000 tokens（官方o3-pro型号页）",
-    "output": "暂无数据",
+    "output": "100,000 tokens（官方o3-pro型号页）",
     "modality": "文本 / 多模态待核验",
     "reasoning": "是 / 推理模型或 thinking 模式",
     "price": "美元/百万tokens：输入20、输出80（普通API）；不可继续只写高于o3。",
     "platforms": [
       "OpenAI"
     ],
-    "officialLink": "https://artificialanalysis.ai/models/o3-pro",
+    "officialLink": "https://developers.openai.com/api/docs/models/o3-pro",
     "score": 40.69,
     "scoreDelta": 2.32,
     "vendorOrder": 9,
@@ -15007,7 +15007,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-1.2B-Thinking 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：2.341。",
+    "summary": "LFM2.5-1.2B-Thinking  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-1.2B-Thinking ，AA Intelligence Index 为  2.34 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-01-20",
     "modelId": "lfm2-5-1-2b-thinking",
     "context": "32000 tokens",
@@ -15024,7 +15024,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15131,7 +15131,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-VL-1.6B 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：1。",
+    "summary": "LFM2.5-VL-1.6B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-VL-1.6B ，AA Intelligence Index 为  1.00 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-01-05",
     "modelId": "lfm2-5-vl-1-6b",
     "context": "32000 tokens",
@@ -15148,7 +15148,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方提供纯文本输入下的函数调用示例；视觉输入能力与文本工具调用分别记录，不据此宣称视觉Agent闭环可靠性。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15190,10 +15190,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-1.2B-Instruct 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：2.299。",
+    "summary": "LFM2.5-1.2B-Instruct  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-1.2B-Instruct ，AA Intelligence Index 为  2.30 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-01-05",
     "modelId": "lfm2-5-1-2b-instruct",
-    "context": "32000 tokens",
+    "context": "官方README列32,768 tokens，当前config.json列max_position_embeddings=128000；两者不一致。按文档32,768规划使用，较长输入须在固定权重版本实测。",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -15207,7 +15207,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024 年中（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15225,7 +15225,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15238,7 +15238,8 @@
       "https://www.liquid.ai",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/README.md",
       "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/raw/main/config.json",
-      "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct"
+      "https://huggingface.co/api/models/LiquidAI/LFM2.5-1.2B-Instruct",
+      "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15373,7 +15374,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "HyperCLOVA X SEED Think (32B) 独立模型卡",
-    "summary": "Naver 的独立模型 release；AA Intelligence Index：17.186。",
+    "summary": "HyperCLOVA X SEED Think (32B)  是 Naver 的独立模型 release；Artificial Analysis 当前代表档位为  HyperCLOVA X SEED Think (32B) ，AA Intelligence Index 为  17.19 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-12-26",
     "modelId": "hyperclova-x-seed-think-32b",
     "context": "128000 tokens",
@@ -15390,7 +15391,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/A1CTwMAFSicvmnkfhEdcNvdYnpc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2025-05（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/A1CTwMAFSicvmnkfhEdcNvdYnpc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2025-05（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：不适用MoE稀疏激活统计：官方明确为Dense视觉语言Transformer，标称总参数32B；图像编码与文本解码负载随输入而变。；Agent 能力：官方列出Tau²-Airline、Retail、Telecom等Agentic Tasks，并提供OmniServe接入；只能确认评测覆盖，不能由项目名称推断具体成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16874,10 +16875,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.0 H 350M 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：1。",
+    "summary": "Granite 4.0 H 350M  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.0 H 350M ，AA Intelligence Index 为  1.00 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-28",
     "modelId": "granite-4-0-h-350m",
-    "context": "32768 tokens",
+    "context": "32,768 tokens（官方列32K/128K；不把示例max_new_tokens当输出上限）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -16891,7 +16892,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GOymwJLS4iCOSUkbvllcuwDpn7g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GOymwJLS4iCOSUkbvllcuwDpn7g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：340M（官方架构表的Active parameters列；本型号为Dense，不是MoE）；总参数量：340M（官方架构表）；Agent 能力：支持函数调用；官方提供JSON工具定义、调用与回传示例。BFCL v3厂商自测43.32%；这是工具调用评测，不等于完整自主Agent任务成功率。；架构类型：Dense解码器；4层注意力＋28层Mamba2；GQA、SwiGLU、RMSNorm、共享词嵌入，NoPE；训练数据：指令后训练使用可公开许可的数据集、内部合成数据及人工整理数据；不等同于完整预训练语料或全流程token统计。；训练硬件：官方列CoreWeave托管的NVIDIA GB200 NVL72集群、72 GPU NVLink域及NDR 400Gb/s InfiniBand；这是系列训练基础设施，不给单型号GPU时或卡数。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16909,7 +16910,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16919,7 +16920,8 @@
       "https://artificialanalysis.ai/models/granite-4-0-h-350m",
       "https://huggingface.co/ibm-granite/granite-4.0-h-350m",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.0-h-350m/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16933,10 +16935,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.0 H 1B 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：2.249。",
+    "summary": "Granite 4.0 H 1B  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.0 H 1B ，AA Intelligence Index 为  2.25 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-28",
     "modelId": "granite-4-0-h-nano-1b",
-    "context": "128000 tokens",
+    "context": "131,072 tokens（官方列32K/128K；不把示例max_new_tokens当输出上限）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -16950,7 +16952,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Ucxpw6a6til9DKkQAlpc1zwMnkd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Ucxpw6a6til9DKkQAlpc1zwMnkd；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：1.5B（官方架构表的Active parameters列；本型号为Dense，不是MoE）；总参数量：1.5B（官方架构表；名称中的1B为系列档位）；Agent 能力：支持函数调用；官方提供JSON工具定义、调用与回传示例。BFCL v3厂商自测50.21%；这是工具调用评测，不等于完整自主Agent任务成功率。；架构类型：Dense解码器；4层注意力＋36层Mamba2；GQA、SwiGLU、RMSNorm、共享词嵌入，NoPE；训练数据：指令后训练使用可公开许可的数据集、内部合成数据及人工整理数据；不等同于完整预训练语料或全流程token统计。；训练硬件：官方列CoreWeave托管的NVIDIA GB200 NVL72集群、72 GPU NVLink域及NDR 400Gb/s InfiniBand；这是系列训练基础设施，不给单型号GPU时或卡数。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16968,7 +16970,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16978,7 +16980,8 @@
       "https://artificialanalysis.ai/models/granite-4-0-h-nano-1b",
       "https://huggingface.co/ibm-granite/granite-4.0-h-1b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.0-h-1b/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16992,10 +16995,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.0 350M 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：1。",
+    "summary": "Granite 4.0 350M  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.0 350M ，AA Intelligence Index 为  1.00 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-28",
     "modelId": "granite-4-0-350m",
-    "context": "32768 tokens",
+    "context": "32,768 tokens（官方列32K/128K；不把示例max_new_tokens当输出上限）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -17009,7 +17012,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R6cAw5y7IiwaJckQSRfctSB7nIg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R6cAw5y7IiwaJckQSRfctSB7nIg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：350M（官方架构表的Active parameters列；本型号为Dense，不是MoE）；总参数量：350M（官方架构表）；Agent 能力：支持函数调用；官方提供JSON工具定义、调用与回传示例。BFCL v3厂商自测39.32%；这是工具调用评测，不等于完整自主Agent任务成功率。；架构类型：Dense解码器；28层注意力；GQA、RoPE、SwiGLU、RMSNorm、共享词嵌入；训练数据：指令后训练使用可公开许可的数据集、内部合成数据及人工整理数据；不等同于完整预训练语料或全流程token统计。；训练硬件：官方列CoreWeave托管的NVIDIA GB200 NVL72集群、72 GPU NVLink域及NDR 400Gb/s InfiniBand；这是系列训练基础设施，不给单型号GPU时或卡数。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17027,7 +17030,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17037,7 +17040,8 @@
       "https://artificialanalysis.ai/models/granite-4-0-350m",
       "https://huggingface.co/ibm-granite/granite-4.0-350m",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.0-350m/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17051,10 +17055,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.0 1B 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：1.635。",
+    "summary": "Granite 4.0 1B  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.0 1B ，AA Intelligence Index 为  1.63 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-28",
     "modelId": "granite-4-0-nano-1b",
-    "context": "128000 tokens",
+    "context": "131,072 tokens（官方列32K/128K；不把示例max_new_tokens当输出上限）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -17068,7 +17072,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OiNxwVh6RiTOHjk6F90cBaqSnWe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/OiNxwVh6RiTOHjk6F90cBaqSnWe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：1.6B（官方架构表的Active parameters列；本型号为Dense，不是MoE）；总参数量：1.6B（官方架构表；名称中的1B为系列档位）；Agent 能力：支持函数调用；官方提供JSON工具定义、调用与回传示例。BFCL v3厂商自测54.82%；这是工具调用评测，不等于完整自主Agent任务成功率。；架构类型：Dense解码器；40层注意力；GQA、RoPE、SwiGLU、RMSNorm、共享词嵌入；训练数据：指令后训练使用可公开许可的数据集、内部合成数据及人工整理数据；不等同于完整预训练语料或全流程token统计。；训练硬件：官方列CoreWeave托管的NVIDIA GB200 NVL72集群、72 GPU NVLink域及NDR 400Gb/s InfiniBand；这是系列训练基础设施，不给单型号GPU时或卡数。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17086,7 +17090,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17096,7 +17100,8 @@
       "https://artificialanalysis.ai/models/granite-4-0-nano-1b",
       "https://huggingface.co/ibm-granite/granite-4.0-1b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.0-1b/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17231,7 +17236,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2 2.6B 独立模型卡",
-    "summary": "Liquid AI 的独立模型 release；AA Intelligence Index：2.303。",
+    "summary": "LFM2 2.6B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2 2.6B ，AA Intelligence Index 为  2.30 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-09-23",
     "modelId": "lfm2-2-6b",
     "context": "32768 tokens",
@@ -17248,7 +17253,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ESCawA2OziX9I7kCuDLcc9oxnBe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：支持函数调用；官方说明工具定义→模型产出Python式调用→执行器回传tool结果→模型继续回答。需外部执行器；不将函数调用支持当作长任务成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17414,10 +17419,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Granite 4.0 Micro 独立模型卡",
-    "summary": "IBM 的独立模型 release；AA Intelligence Index：1.952。",
-    "releaseDate": "2025-09-22",
+    "summary": "Granite 4.0 Micro  是 IBM 的独立模型 release；Artificial Analysis 当前代表档位为  Granite 4.0 Micro ，AA Intelligence Index 为  1.95 。本卡按 release 单独建档，不与同家族其他型号合并。",
+    "releaseDate": "2025-10-02（官方模型仓库的Release Date；AA目录日期2025-09-22另计）",
     "modelId": "granite-4-0-micro",
-    "context": "128000 tokens",
+    "context": "131,072 tokens（官方列32K/128K；不把示例max_new_tokens当输出上限）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -17431,7 +17436,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZafiwXfIui4tWAkDquNc5zIinRh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/ZafiwXfIui4tWAkDquNc5zIinRh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：3B（官方架构表的Active parameters列；本型号为Dense，不是MoE）；总参数量：3B（官方架构表）；Agent 能力：支持函数调用；官方提供JSON工具定义、调用与回传示例。BFCL v3厂商自测59.98%；这是工具调用评测，不等于完整自主Agent任务成功率。；架构类型：Dense解码器；40层注意力；GQA、RoPE、SwiGLU、RMSNorm、共享词嵌入；训练数据：指令后训练使用可公开许可的数据集、内部合成数据及人工整理数据；不等同于完整预训练语料或全流程token统计。；训练硬件：官方列CoreWeave托管的NVIDIA GB200 NVL72集群、72 GPU NVLink域及NDR 400Gb/s InfiniBand；这是系列训练基础设施，不给单型号GPU时或卡数。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17449,7 +17454,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17459,7 +17464,8 @@
       "https://artificialanalysis.ai/models/granite-4-0-micro",
       "https://huggingface.co/ibm-granite/granite-4.0-micro",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.ibm.com/au-en"
+      "https://www.ibm.com/au-en",
+      "https://huggingface.co/ibm-granite/granite-4.0-micro/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17952,7 +17958,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Hermes 4 - Llama-3.1 70B 独立模型卡",
-    "summary": "Nous Research 的独立模型 release；AA Intelligence Index：9.852。",
+    "summary": "Hermes 4 - Llama-3.1 70B  是 Nous Research 的独立模型 release；Artificial Analysis 当前代表档位为  Hermes 4 - Llama-3.1 70B (Reasoning) ，AA Intelligence Index 为  9.85 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-08-27",
     "modelId": "hermes-4-llama-3-1-70b",
     "context": "128000 tokens",
@@ -17969,7 +17975,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LyO9wNV6xieOdjkXz4Ecn4yTnZD；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/LyO9wNV6xieOdjkXz4Ecn4yTnZD；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方提供工具调用与回传格式，可与thinking模式组合；模板可接收tools，vLLM用hermes工具解析器、SGLang用qwen25。仅确认接口能力，不推断完整Agent任务成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18011,7 +18017,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Hermes 4 - Llama-3.1 405B 独立模型卡",
-    "summary": "Nous Research 的独立模型 release；AA Intelligence Index：8.843。",
+    "summary": "Hermes 4 - Llama-3.1 405B  是 Nous Research 的独立模型 release；Artificial Analysis 当前代表档位为  Hermes 4 - Llama-3.1 405B (Reasoning) ，AA Intelligence Index 为  8.84 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-08-27",
     "modelId": "hermes-4-llama-3-1-405b",
     "context": "128000 tokens",
@@ -18028,7 +18034,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TSMmwKKRqiwzP7kt7jacVGSJnvg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TSMmwKKRqiwzP7kt7jacVGSJnvg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方提供工具调用与回传格式，可与thinking模式组合；模板可接收tools，vLLM用hermes工具解析器、SGLang用qwen25。仅确认接口能力，不推断完整Agent任务成功率。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18250,7 +18256,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Llama Nemotron Super 49B v1.5 独立模型卡",
-    "summary": "NVIDIA 的独立模型 release；AA Intelligence Index：12.401。",
+    "summary": "Llama Nemotron Super 49B v1.5  是 NVIDIA 的独立模型 release；Artificial Analysis 当前代表档位为  Llama Nemotron Super 49B v1.5 (Reasoning) ，AA Intelligence Index 为  12.40 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-07-25",
     "modelId": "llama-nemotron-super-49b-v1-5",
     "context": "128000 tokens",
@@ -18267,7 +18273,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VxMHwEmWYifqOEknw66cPukTnNf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练数据截止2023年（承接Llama3.3基础模型，非后训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/VxMHwEmWYifqOEknw66cPukTnNf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练数据截止2023年（承接Llama3.3基础模型，非后训练数据截止）（对应版本官方模型卡）；Agent 能力：官方仓库提供工具调用的示例、调用格式或部署参数，可接入 Agent 工具链；这是接口能力证据，复杂任务成功率须独立实测，不能替代 AA Agentic Index。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：不适用MoE稀疏激活统计：官方明确为Dense decoder-only Transformer；模型规模49B，NAS改变块结构，不能把规模当作每个token实测运算参数数目。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18669,7 +18675,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Llama 3.1 Nemotron Ultra 253B v1 独立模型卡",
-    "summary": "NVIDIA 的独立模型 release；AA Intelligence Index：8.924。",
+    "summary": "Llama 3.1 Nemotron Ultra 253B v1  是 NVIDIA 的独立模型 release；Artificial Analysis 当前代表档位为  Llama 3.1 Nemotron Ultra 253B v1 (Reasoning) ，AA Intelligence Index 为  8.92 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-04-07",
     "modelId": "llama-3-1-nemotron-ultra-253b-v1",
     "context": "128000 tokens",
@@ -18686,7 +18692,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/DyAbwkNIOi9NSnkbIcYcQIrPnfW；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练数据截止2023年（承接Llama3.1基础模型，非后训练数据截止）（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/DyAbwkNIOi9NSnkbIcYcQIrPnfW；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：预训练数据截止2023年（承接Llama3.1基础模型，非后训练数据截止）（对应版本官方模型卡）；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：推理激活参数量：不适用MoE稀疏激活统计：官方明确为Dense decoder-only Transformer；模型规模253B，NAS改变块结构，不能把规模当作每个token实测运算参数数目。；Agent 能力：官方说明后训练覆盖RAG与工具调用，公开函数选择Prompt和工具调用评测；需要外部执行器运行工具，不能等同于完整自主Agent可靠性。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18793,7 +18799,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Command A 独立模型卡",
-    "summary": "Cohere 的独立模型 release；AA Intelligence Index：7.463。",
+    "summary": "Command A  是 Cohere 的独立模型 release；Artificial Analysis 当前代表档位为  Command A ，AA Intelligence Index 为  7.46 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-03-13",
     "modelId": "command-a",
     "context": "256000 tokens",
@@ -18810,7 +18816,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HumcwDSxOi9Ws9k1AyhccR3Onic；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HumcwDSxOi9Ws9k1AyhccR3Onic；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 参数、架构、工具调用与版本资料补正：Agent 能力：官方说明针对对话工具调用训练；JSON Schema定义工具，生成计划与调用，再回传tool角色结果，可选对工具结果生成引用。真实长任务可靠性须独立测试。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -18828,7 +18834,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -18838,7 +18844,8 @@
       "https://artificialanalysis.ai/models/command-a",
       "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025",
       "https://cohere.com/c4ai-cc-by-nc-license",
-      "https://cohere.com/"
+      "https://cohere.com/",
+      "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -21764,7 +21771,7 @@
     "releaseDate": "暂无数据",
     "modelId": "gemini-embedding-2",
     "context": "最大输入8,192 tokens；这是嵌入请求上限",
-    "output": "官方未披露 / 待核验",
+    "output": "128–3072维向量；推荐768/1536/3072，非生成式输出tokens",
     "modality": "文本、图像、视频、音频、PDF 输入，向量输出",
     "reasoning": "以官方来源披露为准",
     "price": "Gemini API美元/百万输入tokens，Standard：文本0.20、图像0.45、音频6.50、视频12；Batch分别0.10、0.225、3.25、6.00。免费层有配额，不能等同无限免费。",
@@ -23300,10 +23307,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3-Coder系列资料索引；各变体分别核验",
-    "summary": "系列概览，包含480B-A35B、30B-A3B和Next；不能把系列参数或日期当作每个变体的规格。",
+    "summary": "Qwen3-Coder 是阿里云 Qwen 团队首次于2025年7月22日发布（系列初始480B版本；其他变体日期另计）的旗舰级代码大模型系列，提供480B、30B 等多种规格，在 Agentic Coding 和 Agentic Browser-Use 任务上达到与 Claude Sonnet 可比的水平。",
     "releaseDate": "2025-07-22",
     "modelId": "qwen3-coder-series-overview",
-    "context": "各变体分别核验；原始480B版本原生256K并可外推至1M",
+    "context": "按变体分别记录：480B发布文原生256K、YaRN扩展1M；Next当前配置为262144且rope_scaling=null，不能把480B扩展设置当Next默认值。",
     "output": "仅对应OpenRouter qwen/qwen3-coder入口为65536；其他变体另计",
     "modality": "文本",
     "reasoning": "否或官方未披露",
@@ -23317,7 +23324,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Hold：系列索引，不纳入单一模型公开榜单；Next已有独立Atlas记录，不合并身份。",
+    "notes": "Hold：系列索引，不纳入单一模型公开榜单；Next已有独立Atlas记录，不合并身份。\n2026-10-09 参数、架构、工具调用与版本资料补正：激活参数量：480B-A35B：35B；30B-A3B：3B；Coder-Next-80B：3B（各版本分别对应官方资料）；训练数据：2025年480B发布文：7.5T预训练token，代码占70%，以Qwen2.5-Coder清理及重写合成数据。Next报告另列约800K可执行任务、约600B仓库级mid-training token，自然语料更新至2025-09-30；不能作为全流程总训练token或全系列知识截止。；Next架构配置：80B总参数、3B激活；config列48层、512个路由专家、每token选10个，full_attention_interval=4，最大位置262144，rope_scaling=null。；扩展上下文：480B发布文给出YaRN扩展1M；Next当前config未启用rope_scaling，扩展部署须单独实现与验证。；位置编码：各变体使用对应配置；Next当前rope_scaling=null，不标成默认启用YaRN。；编程语言：480B发布资料列358种；Next报告列370种代码语言数据覆盖。数据覆盖不等于各语言同等能力。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -23334,7 +23341,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23342,7 +23349,9 @@
     "sources": [
       "https://qwenlm.github.io/blog/qwen3-coder/",
       "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/README.md",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/HioBwNvhXio9NDkWieDc0PsBnGf"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/HioBwNvhXio9NDkWieDc0PsBnGf",
+      "https://arxiv.org/html/2603.00729v1",
+      "https://huggingface.co/Qwen/Qwen3-Coder-Next/blob/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
