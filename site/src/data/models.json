@@ -154,7 +154,7 @@
     "vendorOrder": 3,
     "artificialAnalysisId": "d1768b3a-0a21-4e08-b3f6-56a9ab6cfbf3",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：MT-Bench：8.88（2024-04-25厂商自测，Qwen1.5-110B-Chat，平均分）；AlpacaEval 2.0：43.90%（2024-04-25厂商自测，Chat型号，Length-Controlled Win Rate）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -173,7 +173,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 5,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -188,7 +188,9 @@
       "https://qwenlm.github.io/",
       "https://qwen.readthedocs.io/en/latest/",
       "https://huggingface.co/Qwen",
-      "https://artificialanalysis.ai/models/qwen1.5-110b-chat"
+      "https://artificialanalysis.ai/models/qwen1.5-110b-chat",
+      "https://qwenlm.github.io/blog/qwen1.5-110b/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/RpvGwGsOOi93APkWPPXcaFFEnIe"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -2676,14 +2678,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "PALM-2 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "PaLM 2（Pathways Language Model 2）是  Google  在 Google I/O 2023 上发布的第二代大语言模型，PaLM（2022）的继任者。PaLM 2 在 多语言、推理和编码 三大能力上实现显著提升，同时比上一代更高效。提供四种尺寸：Gecko（可离线运行在移动端）、Otter、Bison 和 Unicorn。技术报告于 arXiv 2305.10403 发布，同年赋能了 Bard（现 Gemini）、Google Workspace 等 25+ 款 Google 产品。Med-PaLM 2 和 Sec-PaLM 等垂直版本也基于 PaLM 2。",
     "releaseDate": "2023-05-10",
     "modelId": "palm-2",
-    "context": "暂无数据",
+    "context": "按服务版本区分：2023-08-29官方发布记录已宣布最高32K输入/输出型号；不能给整个PaLM2家族一个统一窗口。@001的精确上下文与输出仍须历史型号页核验。",
     "output": "暂无数据",
     "modality": "文本 / 多模态待核验",
     "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
+    "price": "历史text-bison于2023-09-01下调至每1,000输入/输出字符0.0005美元；单位是字符，不是tokens。现有接口已迁移，不把历史价格当当前Gemini报价。",
     "platforms": [
       "Google / Gemini"
     ],
@@ -2693,7 +2695,7 @@
     "vendorOrder": 1,
     "artificialAnalysisId": "515852e7-ba9c-4571-8cf9-82ad6b45f22f",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：历史Vertex AI：text-bison@001、chat-bison@001；2023-12-06升级@002。PaLM2是家族名，不是唯一调用标识。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -2712,7 +2714,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -2725,7 +2727,9 @@
       "https://ai.google/discover/palm2/",
       "https://ai.google.dev/gemini-api/docs/models",
       "https://deepmind.google/models/",
-      "https://artificialanalysis.ai/models/palm-2"
+      "https://artificialanalysis.ai/models/palm-2",
+      "https://docs.cloud.google.com/vertex-ai/docs/core-release-notes",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/FGX2wdD03i5M3FkFhfecH4Lunkg"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -4927,14 +4931,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "o3-pro 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "o3-pro 是 OpenAI o3 系列的增强版（Pro）推理模型，通过投入更多推理时计算来换取更高精度的回答。AA Intelligence Index 从 o3 的 38.37 提升至 40.69，知识截止更新至 2024 年 6 月。o3-pro 面向需要最高质量推理输出的专业场景，价格高于标准版 o3。",
     "releaseDate": "2025-06-10",
     "modelId": "o3-pro",
-    "context": "暂无数据",
+    "context": "上下文200,000 tokens；最大输出100,000 tokens（官方o3-pro型号页）",
     "output": "暂无数据",
     "modality": "文本 / 多模态待核验",
     "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "price": "美元/百万tokens：输入20、输出80（普通API）；不可继续只写高于o3。",
     "platforms": [
       "OpenAI"
     ],
@@ -4944,7 +4948,7 @@
     "vendorOrder": 9,
     "artificialAnalysisId": "ca04852c-eaae-4881-a208-f9b2ca3b7cd6",
     "baseModelReleaseDate": "Jun 1, 2024",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：知识截止日期：2024-06-01（官方o3-pro型号页）；生命周期状态：当前官方型号页标为Deprecated；新接入须核对退役日与替代型号。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -4963,7 +4967,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -4975,7 +4979,10 @@
     "sources": [
       "https://platform.openai.com/docs/models",
       "https://openai.com/news/",
-      "https://artificialanalysis.ai/models/o3-pro"
+      "https://artificialanalysis.ai/models/o3-pro",
+      "https://developers.openai.com/api/docs/models/o3-pro",
+      "https://developers.openai.com/api/docs/models/o3",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/V3PgwJLoVioT83kCSn8cHg6SnEG"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -5362,14 +5369,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GPT-5.5 (xhigh) 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "📅 GPT-5.5于2026-04-23发布，4月24日开放API。xhigh是reasoning.effort设置，不是另一个API型号。该型号支持文本与图像输入、文本输出；规格和安全信息都有独立官方页面。",
     "releaseDate": "2026-04-23",
     "modelId": "gpt-5-5-xhigh",
-    "context": "暂无数据",
-    "output": "暂无数据",
+    "context": "1,050,000 tokens；与预留输出后的输入预算分开",
+    "output": "128,000 tokens",
     "modality": "文本 / 多模态待核验",
     "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "price": "美元/百万tokens：输入5、缓存0.50、输出30；输入超过272K后，整会话输入按2倍、输出按1.5倍计费；区域数据驻留另加10%。",
     "platforms": [
       "OpenAI"
     ],
@@ -5379,7 +5386,7 @@
     "vendorOrder": 16,
     "artificialAnalysisId": "1f054429-397e-4fdb-9e71-67bc92c1735e",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "xhigh 后缀表示 OpenAI 当前旗舰极致推理增强版本。通过大幅扩展的强化学习训练和测试时推理优化实现 AA 排行榜第一（智力评分 60）。上下文窗口 922k tokens，2026年4月发布。",
+    "notes": "xhigh 后缀表示 OpenAI 当前旗舰极致推理增强版本。通过大幅扩展的强化学习训练和测试时推理优化实现 AA 排行榜第一（智力评分 60）。上下文窗口 922k tokens，2026年4月发布。\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：gpt-5.5；快照gpt-5.5-2026-04-23。xhigh填写于reasoning.effort，不是gpt-5.5-thinking-xhigh。；知识截止日期：2025-12-01（官方GPT-5.5型号页）；模型类型：GPT-5.5大语言推理模型，xhigh是运行设置，不推断未公开架构；生命周期状态：GPT-5.5已发布；API于2026-04-24可用",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -5398,7 +5405,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -5410,7 +5417,12 @@
     "sources": [
       "https://platform.openai.com/docs/models",
       "https://openai.com/news/",
-      "https://artificialanalysis.ai/models/gpt-5-5"
+      "https://artificialanalysis.ai/models/gpt-5-5",
+      "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "https://openai.com/index/introducing-gpt-5-5/",
+      "https://openai.com/index/gpt-5-5-system-card/",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/CMivwNxNciGK0ckYCbCcCyqYnNc"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -5867,7 +5879,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-4.5 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "GLM-4.5是Z AI（智谱AI）于2025年7月发布的推理模型，参数规模355B（32B活动参数），支持128k上下文窗口。该模型在Artificial Analysis Intelligence Index上得分26，排名#51/85，定位为开源推理模型。",
     "releaseDate": "2025-07-28",
     "modelId": "glm-4-5",
     "context": "暂无数据",
@@ -5884,7 +5896,7 @@
     "vendorOrder": 1,
     "artificialAnalysisId": "1cf439b8-0cfd-47b2-9de2-9a2157e6762b",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：glm-4.5（厂商公开调用标识；原UUID是外部目录标识，不能用于API请求）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -5903,7 +5915,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -5915,7 +5927,9 @@
     "sources": [
       "https://docs.z.ai/",
       "https://z.ai/",
-      "https://artificialanalysis.ai/models/glm-4.5"
+      "https://artificialanalysis.ai/models/glm-4.5",
+      "https://docs.z.ai/guides/llm/glm-4.5",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Atl9w7270iddo4klVqrcK8u6nwd"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -5929,7 +5943,7 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "GLM-4.6 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "GLM-4.6是Z AI（智谱AI）于2025年9月发布的推理模型，参数规模357B（32B活动参数），支持200k上下文窗口。该模型在Artificial Analysis Intelligence Index上得分33，排名#36/85，相比前代GLM-4.5提升6.09分，是开源推理模型的重要进步。",
     "releaseDate": "2025-09-30",
     "modelId": "glm-4-6",
     "context": "暂无数据",
@@ -5946,7 +5960,7 @@
     "vendorOrder": 2,
     "artificialAnalysisId": "6a5d56e1-bb68-4205-8d9b-26b97888bc84",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：glm-4.6（厂商公开调用标识；原UUID是外部目录标识，不能用于API请求）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -5965,7 +5979,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -5977,7 +5991,9 @@
     "sources": [
       "https://docs.z.ai/",
       "https://z.ai/",
-      "https://artificialanalysis.ai/models/glm-4-6-reasoning"
+      "https://artificialanalysis.ai/models/glm-4-6-reasoning",
+      "https://docs.z.ai/guides/llm/glm-4.6",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/SJxDwp8pDisE5sk4IedcQDeTnHh"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6178,14 +6194,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok-1 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "Grok-1是xAI于2024年3月发布的3140亿参数混合专家模型（MoE），采用Apache 2.0许可证开源。这是Grok-1预训练阶段的原始基础模型检查点，未经任何特定任务微调。模型在大量文本数据上训练，具备通用的语言理解和生成能力，但未针对对话等具体应用进行优化。",
     "releaseDate": "2024-03-17",
     "modelId": "grok-1",
     "context": "暂无数据",
     "output": "暂无数据",
     "modality": "文本 / 多模态待核验",
     "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
+    "price": "Apache-2.0开放权重可下载；自行承担GPU、存储、电力和运维成本。没有统一的自托管每token报价，不能写0美元API价。",
     "platforms": [
       "xAI / Grok"
     ],
@@ -6195,7 +6211,7 @@
     "vendorOrder": 1,
     "artificialAnalysisId": "4c111fbc-d13a-42b4-858c-1dc17fe3c1d1",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：不适用：本卡为xai-org/grok-1开放基础检查点，按官方JAX代码自托管；原UUID为目录标识，不能据此调用厂商API。；免费使用：权重开放不等于运行免费；本卡记录的是自托管基础模型。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6214,7 +6230,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6227,7 +6243,8 @@
       "https://github.com/xai-org/grok-1",
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-1"
+      "https://artificialanalysis.ai/models/grok-1",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/KMlqwz1mpiW38TkoWkXcFdu0nCg"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6241,7 +6258,7 @@
     "caseStatus": "已有 10 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok Beta 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "Grok Beta（即Grok-2 Beta）是xAI于2024年8月发布的Grok-2系列早期预览版，在聊天、编码和推理方面具有前沿能力。该模型在LMSYS Chatbot Arena上表现优于Claude 3.5 Sonnet和GPT-4-Turbo，目前通过X平台和企业API提供beta测试。",
     "releaseDate": "2024-08-13",
     "modelId": "grok-beta",
     "context": "暂无数据",
@@ -6258,7 +6275,7 @@
     "vendorOrder": 2,
     "artificialAnalysisId": "a04f5b78-f397-4fd8-a2b1-00dcab50324c",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：grok-beta（厂商公开调用标识；原UUID是外部目录标识，不能用于API请求）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6277,7 +6294,7 @@
     ],
     "aCaseCount": 10,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6289,7 +6306,9 @@
     "sources": [
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-beta"
+      "https://artificialanalysis.ai/models/grok-beta",
+      "https://x.ai/news/api",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/BVZFw26K2iFPC5kT51NcCRXln8c"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6303,14 +6322,14 @@
     "caseStatus": "已有 9 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok 2 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "xAI发布了Grok-2，这是其新一代大型语言模型，在聊天、编码和推理方面具有前沿能力。在LMSYS Chatbot Arena基准测试中，Grok-2的表现优于Claude 3.5 Sonnet和GPT-4 Turbo，展示了在复杂任务上的显著提升。",
     "releaseDate": "2024-12-12",
     "modelId": "grok-2",
-    "context": "暂无数据",
+    "context": "官方管理API历史示例：grok-2-1212 maxPromptLength=131072，grok-2-vision-1212=32768；这是两个12月API快照的提示长度，独立输出及8月beta上限仍待核验。",
     "output": "暂无数据",
     "modality": "文本 / 多模态待核验",
     "reasoning": "否或官方未披露",
-    "price": "官方未披露 / 暂无数据",
+    "price": "2024年12月官方API快照公布每百万输入2美元、输出10美元；此为grok-2-1212和grok-2-vision-1212的历史报价，不推定为当前服务价格。",
     "platforms": [
       "xAI / Grok"
     ],
@@ -6320,7 +6339,7 @@
     "vendorOrder": 3,
     "artificialAnalysisId": "291a510a-dcc0-40df-8a80-b3aa31900a6c",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：2024年12月API快照：grok-2-1212（文本）、grok-2-vision-1212（视觉）；不同于8月初始beta，原UUID不是API型号。；价格不透明：12月API快照的输入输出价已公开；8月初始beta和现行渠道须分别核验。\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：2024年12月API快照：grok-2-1212（文本）、grok-2-vision-1212（视觉）；不同于8月初始beta，原UUID不是API型号。；价格不透明：12月API快照的输入输出价已公开；8月初始beta和现行渠道须分别核验。；开放权重状态：xai-org/grok-2现已提供2024年训练/使用过的后训练权重；不据此认定与8月beta或12月API快照逐位相同。；许可证：Grok2 Community / xAI Community License，仓库当前文本更新于2025-11-04；不是Apache2或MIT，商业使用与衍生训练有条件。；部署要求：官方仓库约500GB、42文件；SGLang>=0.5.1，TP=8，需要8张每张显存大于40GB的GPU。；生命周期状态：2024年8月为产品预览；之后有12月API快照及开放权重。当前本卡用于历史追踪与自托管，不继续把所有渠道统一写成Beta。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6339,7 +6358,7 @@
     ],
     "aCaseCount": 9,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6351,7 +6370,13 @@
     "sources": [
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-2-1212"
+      "https://artificialanalysis.ai/models/grok-2-1212",
+      "https://x.ai/news/grok-1212",
+      "https://x.ai/news/grok-2",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/B2h6wWSuliNDu4kvhYxcxdKsnqg",
+      "https://huggingface.co/xai-org/grok-2",
+      "https://huggingface.co/xai-org/grok-2/blob/main/LICENSE",
+      "https://docs.x.ai/developers/rest-api-reference/management/auth"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6365,14 +6390,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok 3 mini Reasoning (high) 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "xAI发布了Grok 3 mini Reasoning (high)，这是Grok 3系列中的推理增强版本，通过强化学习优化推理能力，在STEM任务上表现出色，特别是在数学竞赛和代码生成方面。",
     "releaseDate": "2025-02-19",
     "modelId": "grok-3-mini-reasoning-high",
-    "context": "暂无数据",
+    "context": "官方管理API示例maxPromptLength=131072（提示长度）；独立最大输出仍待核验，提示长度不冒充总窗口。",
     "output": "暂无数据",
     "modality": "文本 / 多模态待核验",
     "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "price": "官方管理API文档已列原始计费字段：promptTextTokenPrice=3000、cachedPromptTokenPrice=750、completionTextTokenPrice=5000；美元换算单位和当前报价仍待核验，不再声称未公开任何价格信息。",
     "platforms": [
       "xAI / Grok"
     ],
@@ -6382,7 +6407,7 @@
     "vendorOrder": 4,
     "artificialAnalysisId": "ff9bc5e5-a02f-4270-983e-4b3f834f3363",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "high 后缀表示 Grok 系列推理增强版本，通过 RL 优化推理能力。智力评分 32.08。",
+    "notes": "high 后缀表示 Grok 系列推理增强版本，通过 RL 优化推理能力。智力评分 32.08。\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：grok-3-mini（官方管理API示例；high为推理配置，不是原外部UUID）；生命周期状态：历史2025-02-19产品预览；当前官方文档示例列出了正式grok-3-mini调用标识，实际在售状态需按账户目录核验。\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：grok-3-mini（官方管理API示例；high为推理配置，不是原外部UUID）；生命周期状态：历史2025-02-19产品预览；当前官方文档示例列出了正式grok-3-mini调用标识，实际在售状态需按账户目录核验。；OCI 服务规格：Oracle官方渠道grok-3-mini：prompt+output合计上限131072；Playground输出控件上限16000，不能当作xAI原生最大输出。OCI该型号页标为Deprecated，不能等同所有厂商渠道退役。；Azure 历史价格：2025-05-19公告：6月起Global每百万输入0.25美元、输出1.27美元；DataZone输入0.275、输出1.38。是Azure渠道历史报价，不是当前xAI官网价。；补充评测：Azure 2025-05-19引用厂商Grok3mini：AIME2025 90.7%、GPQA80.3%、LiveCodeBench74.8%、MMLU-Pro82.8%。与2月beta/high测试设置不一致，分列不替换原表。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6401,7 +6426,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 7,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6413,7 +6438,12 @@
     "sources": [
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-3-mini-reasoning"
+      "https://artificialanalysis.ai/models/grok-3-mini-reasoning",
+      "https://docs.x.ai/developers/rest-api-reference/management/auth",
+      "https://x.ai/news/grok-3",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/BzPBwn1bFiqs31kzkuIc8R7tnnh",
+      "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-3-mini.htm",
+      "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6427,14 +6457,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok 4 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "xAI发布了Grok 4，这是Grok系列的最新版本，专注于推理能力，智力评分达到41.52，相对上一拐点提升9.44，代表了xAI在推理模型领域的最新进展。",
     "releaseDate": "2025-07-10",
     "modelId": "grok-4",
-    "context": "暂无数据",
+    "context": "发布时API窗口256,000 tokens；最大输出仍待精确历史来源核验。退役slug当前转向grok-4.3，不以重定向目标的1M回填旧版。",
     "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
+    "modality": "发布API支持文本、图像输入，文本输出",
     "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "price": "官方2026-05-15退役迁移规则：继续调用grok-4-0709会转向grok-4.3，当前按每百万输入1.25美元、输出2.50美元起计费；这是重定向后的服务费，不是旧快照发布时价格。",
     "platforms": [
       "xAI / Grok"
     ],
@@ -6444,7 +6474,7 @@
     "vendorOrder": 5,
     "artificialAnalysisId": "5ea94a4a-55ac-4ea1-8898-2b3971e94af6",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：grok-4-0709（历史快照；2026-05-15后旧slug转向grok-4.3）；价格未公开：当前重定向计费有官方公布数字；原快照历史计费须按对应日期另查。；生命周期状态：原grok-4-0709已于2026-05-15退役；旧slug继续解析但底层已转向grok-4.3。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6463,7 +6493,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6475,7 +6505,11 @@
     "sources": [
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4"
+      "https://artificialanalysis.ai/models/grok-4",
+      "https://x.ai/news/grok-4",
+      "https://docs.x.ai/developers/migration/may-15-retirement",
+      "https://docs.x.ai/developers/pricing",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Fx6LwF6xpi4nr8kew5IcZ8BOn5K"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6489,14 +6523,14 @@
     "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok 4.20 0309 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "xAI发布了Grok 4.20 0309，这是Grok 4系列的更新版本，智力评分达到48.48，相对上一拐点提升6.96，代表了xAI在推理模型领域的最新迭代，专注于增强推理能力和性能优化。",
     "releaseDate": "2026-03-10",
     "modelId": "grok-4-20-0309",
-    "context": "暂无数据",
+    "context": "上下文1,000,000 tokens；独立最大输出上限仍待核验，不把窗口当输出上限。",
     "output": "暂无数据",
-    "modality": "文本 / 多模态待核验",
+    "modality": "文本、图像输入 → 文本输出",
     "reasoning": "是 / 推理模型或 thinking 模式",
-    "price": "官方未披露 / 暂无数据",
+    "price": "美元/百万tokens，全球入口：短上下文输入1.25、缓存0.20、输出2.50；提示词达到200K后整请求按输入2.50、缓存0.40、输出5.00计费。US区域入口另加10%。",
     "platforms": [
       "xAI / Grok"
     ],
@@ -6506,7 +6540,7 @@
     "vendorOrder": 6,
     "artificialAnalysisId": "04787c2b-0751-4269-8029-075b727d7aed",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "",
+    "notes": "2026-10-09 正文一致性与现行资料补正：API 模型 ID：grok-4.20-0309-reasoning（别名grok-4.20-0309等；原UUID不是官方API调用型号）；价格未公开：官方型号页及定价表已公布分档价格，预算必须区分200K阈值和区域。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6525,7 +6559,7 @@
     ],
     "aCaseCount": 5,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6537,7 +6571,10 @@
     "sources": [
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4-20-0309"
+      "https://artificialanalysis.ai/models/grok-4-20-0309",
+      "https://docs.x.ai/developers/models/grok-4.20",
+      "https://docs.x.ai/developers/pricing",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/NbydwA8CoiwJpnkxcOdcp0Jyngr"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -6614,7 +6651,7 @@
     "caseStatus": "已有 8 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 2 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Grok 4.3 (high) 的完整模型表记录。",
-    "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
+    "summary": "Grok 4.3是xAI于2026-04-30发布的最新推理模型，在Artificial Analysis智力指数上获得53.2分，相比上一版本（Grok 4.20 0309 v2）提升3.87分。该模型支持文本和图像输入，文本输出，具有200万tokens的上下文窗口，定价为输入 2.00/百万tokens，输出 6.00/百万tokens。",
     "releaseDate": "2026-04-30",
     "modelId": "grok-4-3-high",
     "context": "暂无数据",
@@ -6631,7 +6668,7 @@
     "vendorOrder": 8,
     "artificialAnalysisId": "948892b5-db03-4118-a4a8-ccd51ed871ea",
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-05-22 按当前 Artificial Analysis 名称校准为 Grok 4.3 (high)。",
+    "notes": "2026-05-22 按当前 Artificial Analysis 名称校准为 Grok 4.3 (high)。\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：grok-4.3（厂商公开调用标识；原UUID是外部目录标识，不能用于API请求）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -6650,7 +6687,7 @@
     ],
     "aCaseCount": 8,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -6662,7 +6699,9 @@
     "sources": [
       "https://docs.x.ai/docs/models",
       "https://x.ai/",
-      "https://artificialanalysis.ai/models/grok-4-3"
+      "https://artificialanalysis.ai/models/grok-4-3",
+      "https://docs.x.ai/developers/models/grok-4.3",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/G7QAwE8BAiV3m4kxgwWcKcdynSd"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -10323,14 +10362,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "面向经过审核的网络防御与生命科学机构的受限访问模型。",
-    "summary": "与 Claude Fable 5.1 共享底层模型，但通过受信任访问计划开放更完整的网络安全和生物研究能力。",
+    "summary": "Claude Mythos 5.1 是 Anthropic 面向网络安全与生物研究开放的受限访问模型。它和 Claude Fable 5.1 使用同一底层模型，但不采用面向公众产品的同一套领域限制；换来的不是“无条件更强”，而是更严格的机构审核、使用范围与安全监控。",
     "releaseDate": "2026-09-01",
     "modelId": "claude-mythos-5-1",
-    "context": "官方未披露 / 待核验",
-    "output": "官方未披露 / 待核验",
-    "modality": "官方未单独披露 / 待核验",
-    "reasoning": "面向长周期研究、代码分析与工具工作流",
-    "price": "起步价 $10/MTok 输入；$50/MTok 输出",
+    "context": "1M tokens（对应Mythos 5.1官方型号页）",
+    "output": "128K tokens",
+    "modality": "文本、图像输入 → 文本输出",
+    "reasoning": "Adaptive Thinking始终开启；默认effort high",
+    "price": "美元/百万tokens：输入10，输出50；5分钟缓存写12.5，1小时写20，缓存读0.25；Batch输入输出减半。",
     "platforms": [
       "Anthropic trusted access programs",
       "Claude Security"
@@ -10341,7 +10380,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "已创建独立 Wiki 模型卡；官方联合 System Card PDF 已附在该文档中。",
+    "notes": "已创建独立 Wiki 模型卡；官方联合 System Card PDF 已附在该文档中。\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：claude-mythos-5-1（Claude API；机构审核后可用）；知识截止日期：2026年6月（Reliable knowledge cutoff）；训练数据截止：2026年6月（Training data cutoff，与知识截止分列）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -10360,7 +10399,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -10369,7 +10408,8 @@
       "https://www.anthropic.com/claude/mythos",
       "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "https://www.anthropic.com/system-cards",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/Y72AwPhTNigmKpkBgxQciQObnmi"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Y72AwPhTNigmKpkBgxQciQObnmi",
+      "https://platform.claude.com/docs/en/models/mythos-5-1/overview"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -21277,14 +21317,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Z AI 在 GLM-5.3 Flash 基础上提供的高速独立服务型号。",
-    "summary": "Z AI 在 GLM-5.3 Flash 基础上提供的高速独立服务型号。",
+    "summary": "GLM-5.3-FlashX是GLM-5.3-Flash的高速多模态API服务选项，Vercel于2026-09-18登记上架。官方合并型号页已提供1M窗口、128K输出和调用配置，价格须使用FlashX对应行。",
     "releaseDate": "暂无数据",
     "modelId": "glm-5-3-flashx",
-    "context": "官方未披露 / 待核验",
-    "output": "官方未披露 / 待核验",
+    "context": "1M tokens（官方Flash/FlashX合并型号页）",
+    "output": "128K tokens",
     "modality": "多模态输入，文本输出",
-    "reasoning": "以官方来源披露为准",
-    "price": "官方未披露 / 待核验",
+    "reasoning": "thinking.type只支持enabled；推荐reasoning_effort=max、temperature=1、top_p=0.95",
+    "price": "国际Z.ai API美元/百万tokens：输入0.37、缓存0.075、输出1.25；缓存存储限时免费。GLM-5.3-Flash的0.15/0.50不能当FlashX价格。",
     "platforms": [
       "Z AI"
     ],
@@ -21294,7 +21334,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：glm-5.3-flashx（Z.ai）；Vercel AI Gateway为zai/glm-5.3-flashx；发布时间：2026-09-18已在Vercel AI Gateway上架；这是渠道上架日期，厂商首次发布时间继续单独核验。；模型类型：GLM-5.3-Flash的高速多模态API服务选项；厂商合并型号页提供规格，不把高速度等同新底座。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -21311,14 +21351,17 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
       "https://docs.z.ai/guides/overview/overview",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb",
+      "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+      "https://docs.z.ai/guides/overview/pricing",
+      "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -21717,14 +21760,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 将多种内容映射到统一向量空间的新一代多模态 Embedding 模型。",
-    "summary": "Google 将多种内容映射到统一向量空间的新一代多模态 Embedding 模型。",
+    "summary": "Gemini Embedding 2是Google的多模态嵌入模型，2026-03-10发布预览、2026-04-22正式可用。它将文本、图像、视频、音频和PDF映射到统一向量空间；输出是嵌入向量，不是文章或生成视频。",
     "releaseDate": "暂无数据",
     "modelId": "gemini-embedding-2",
-    "context": "官方未披露 / 待核验",
+    "context": "最大输入8,192 tokens；这是嵌入请求上限",
     "output": "官方未披露 / 待核验",
     "modality": "文本、图像、视频、音频、PDF 输入，向量输出",
     "reasoning": "以官方来源披露为准",
-    "price": "官方未披露 / 待核验",
+    "price": "Gemini API美元/百万输入tokens，Standard：文本0.20、图像0.45、音频6.50、视频12；Batch分别0.10、0.225、3.25、6.00。免费层有配额，不能等同无限免费。",
     "platforms": [
       "Google"
     ],
@@ -21734,7 +21777,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c\n2026-10-09 正文一致性与现行资料补正：API 模型 ID：gemini-embedding-2（GA）；预览gemini-embedding-2-preview单独记录；输出维度：128–3072维；推荐768、1536、3072，不是生成式输出token数；发布时间：2026-03-10预览；2026-04-22 GA；预览于2026-08-10关闭。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -21751,14 +21794,17 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
       "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c",
+      "https://ai.google.dev/gemini-api/docs/changelog",
+      "https://ai.google.dev/gemini-api/docs/deprecations",
+      "https://ai.google.dev/gemini-api/docs/pricing"
     ],
     "sourceFile": "Feishu Bitable"
   },

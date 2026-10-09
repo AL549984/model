@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:08:30.583Z",
+  "generatedAt": "2026-10-09T13:16:58.861Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -328,7 +328,9 @@
         "https://qwenlm.github.io/",
         "https://qwen.readthedocs.io/en/latest/",
         "https://huggingface.co/Qwen",
-        "https://artificialanalysis.ai/models/qwen1.5-110b-chat"
+        "https://artificialanalysis.ai/models/qwen1.5-110b-chat",
+        "https://qwenlm.github.io/blog/qwen1.5-110b/",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/RpvGwGsOOi93APkWPPXcaFFEnIe"
       ],
       "crawlSources": [
         {
@@ -5982,7 +5984,9 @@
         "https://ai.google/discover/palm2/",
         "https://ai.google.dev/gemini-api/docs/models",
         "https://deepmind.google/models/",
-        "https://artificialanalysis.ai/models/palm-2"
+        "https://artificialanalysis.ai/models/palm-2",
+        "https://docs.cloud.google.com/vertex-ai/docs/core-release-notes",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/FGX2wdD03i5M3FkFhfecH4Lunkg"
       ],
       "crawlSources": [
         {
@@ -11041,7 +11045,10 @@
       "officialSources": [
         "https://platform.openai.com/docs/models",
         "https://openai.com/news/",
-        "https://artificialanalysis.ai/models/o3-pro"
+        "https://artificialanalysis.ai/models/o3-pro",
+        "https://developers.openai.com/api/docs/models/o3-pro",
+        "https://developers.openai.com/api/docs/models/o3",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/V3PgwJLoVioT83kCSn8cHg6SnEG"
       ],
       "crawlSources": [
         {
@@ -12021,7 +12028,12 @@
       "officialSources": [
         "https://platform.openai.com/docs/models",
         "https://openai.com/news/",
-        "https://artificialanalysis.ai/models/gpt-5-5"
+        "https://artificialanalysis.ai/models/gpt-5-5",
+        "https://developers.openai.com/api/docs/models/gpt-5.5",
+        "https://developers.openai.com/api/docs/models/gpt-5.4",
+        "https://openai.com/index/introducing-gpt-5-5/",
+        "https://openai.com/index/gpt-5-5-system-card/",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/CMivwNxNciGK0ckYCbCcCyqYnNc"
       ],
       "crawlSources": [
         {
@@ -13142,7 +13154,9 @@
       "officialSources": [
         "https://docs.z.ai/",
         "https://z.ai/",
-        "https://artificialanalysis.ai/models/glm-4.5"
+        "https://artificialanalysis.ai/models/glm-4.5",
+        "https://docs.z.ai/guides/llm/glm-4.5",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Atl9w7270iddo4klVqrcK8u6nwd"
       ],
       "crawlSources": [
         {
@@ -13282,7 +13296,9 @@
       "officialSources": [
         "https://docs.z.ai/",
         "https://z.ai/",
-        "https://artificialanalysis.ai/models/glm-4-6-reasoning"
+        "https://artificialanalysis.ai/models/glm-4-6-reasoning",
+        "https://docs.z.ai/guides/llm/glm-4.6",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/SJxDwp8pDisE5sk4IedcQDeTnHh"
       ],
       "crawlSources": [
         {
@@ -13843,7 +13859,8 @@
         "https://github.com/xai-org/grok-1",
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-1"
+        "https://artificialanalysis.ai/models/grok-1",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/KMlqwz1mpiW38TkoWkXcFdu0nCg"
       ],
       "crawlSources": [
         {
@@ -13983,7 +14000,9 @@
       "officialSources": [
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-beta"
+        "https://artificialanalysis.ai/models/grok-beta",
+        "https://x.ai/news/api",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/BVZFw26K2iFPC5kT51NcCRXln8c"
       ],
       "crawlSources": [
         {
@@ -14123,7 +14142,13 @@
       "officialSources": [
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-2-1212"
+        "https://artificialanalysis.ai/models/grok-2-1212",
+        "https://x.ai/news/grok-1212",
+        "https://x.ai/news/grok-2",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/B2h6wWSuliNDu4kvhYxcxdKsnqg",
+        "https://huggingface.co/xai-org/grok-2",
+        "https://huggingface.co/xai-org/grok-2/blob/main/LICENSE",
+        "https://docs.x.ai/developers/rest-api-reference/management/auth"
       ],
       "crawlSources": [
         {
@@ -14263,7 +14288,12 @@
       "officialSources": [
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-3-mini-reasoning"
+        "https://artificialanalysis.ai/models/grok-3-mini-reasoning",
+        "https://docs.x.ai/developers/rest-api-reference/management/auth",
+        "https://x.ai/news/grok-3",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/BzPBwn1bFiqs31kzkuIc8R7tnnh",
+        "https://docs.oracle.com/en-us/iaas/Content/generative-ai/xai-grok-3-mini.htm",
+        "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/"
       ],
       "crawlSources": [
         {
@@ -14403,7 +14433,11 @@
       "officialSources": [
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-4"
+        "https://artificialanalysis.ai/models/grok-4",
+        "https://x.ai/news/grok-4",
+        "https://docs.x.ai/developers/migration/may-15-retirement",
+        "https://docs.x.ai/developers/pricing",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Fx6LwF6xpi4nr8kew5IcZ8BOn5K"
       ],
       "crawlSources": [
         {
@@ -14543,7 +14577,10 @@
       "officialSources": [
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-4-20-0309"
+        "https://artificialanalysis.ai/models/grok-4-20-0309",
+        "https://docs.x.ai/developers/models/grok-4.20",
+        "https://docs.x.ai/developers/pricing",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/NbydwA8CoiwJpnkxcOdcp0Jyngr"
       ],
       "crawlSources": [
         {
@@ -14823,7 +14860,9 @@
       "officialSources": [
         "https://docs.x.ai/docs/models",
         "https://x.ai/",
-        "https://artificialanalysis.ai/models/grok-4-3"
+        "https://artificialanalysis.ai/models/grok-4-3",
+        "https://docs.x.ai/developers/models/grok-4.3",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/G7QAwE8BAiV3m4kxgwWcKcdynSd"
       ],
       "crawlSources": [
         {
@@ -23072,7 +23111,8 @@
         "https://www.anthropic.com/claude/mythos",
         "https://www.anthropic.com/claude-fable-and-mythos-5-1",
         "https://www.anthropic.com/system-cards",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/Y72AwPhTNigmKpkBgxQciQObnmi"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Y72AwPhTNigmKpkBgxQciQObnmi",
+        "https://platform.claude.com/docs/en/models/mythos-5-1/overview"
       ],
       "crawlSources": [
         {
@@ -49201,7 +49241,10 @@
       },
       "officialSources": [
         "https://docs.z.ai/guides/overview/overview",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/FGOXwN1YTiw4rqkSV9DcpeX6ndb",
+        "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+        "https://docs.z.ai/guides/overview/pricing",
+        "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway"
       ],
       "crawlSources": [
         {
@@ -50313,7 +50356,10 @@
       },
       "officialSources": [
         "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/Dw20wb6cViwHx5k5galcug6Zn7c",
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://ai.google.dev/gemini-api/docs/deprecations",
+        "https://ai.google.dev/gemini-api/docs/pricing"
       ],
       "crawlSources": [
         {
