@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:31:35.881Z",
+  "generatedAt": "2026-10-09T14:51:32.470Z",
   "summary": {
     "models": 384,
     "activeModels": 117,
@@ -31798,7 +31798,8 @@
         "https://artificialanalysis.ai/models/sarvam-30b",
         "https://huggingface.co/sarvamai/sarvam-30b",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.sarvam.ai/"
+        "https://www.sarvam.ai/",
+        "https://huggingface.co/sarvamai/sarvam-30b/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -31940,7 +31941,9 @@
         "https://artificialanalysis.ai/models/sarvam-105b",
         "https://huggingface.co/sarvamai/sarvam-105b",
         "https://www.apache.org/licenses/LICENSE-2.0",
-        "https://www.sarvam.ai/"
+        "https://www.sarvam.ai/",
+        "https://huggingface.co/sarvamai/sarvam-105b/resolve/main/README.md",
+        "https://huggingface.co/sarvamai/sarvam-105b/resolve/main/config.json"
       ],
       "crawlSources": [
         {
@@ -33228,7 +33231,8 @@
         "https://artificialanalysis.ai/models/tiny-aya-global",
         "https://huggingface.co/CohereLabs/tiny-aya-global",
         "https://spdx.org/licenses/CC-BY-NC-4.0",
-        "https://cohere.com/"
+        "https://cohere.com/",
+        "https://huggingface.co/CohereLabs/tiny-aya-global/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -33373,7 +33377,9 @@
         "https://huggingface.co/Nanbeige",
         "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/README.md",
         "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/config.json",
-        "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B"
+        "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B",
+        "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/README.md",
+        "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/config.json"
       ],
       "crawlSources": [
         {
@@ -34382,7 +34388,8 @@
         "https://allenai.org/",
         "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/raw/main/README.md",
         "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/raw/main/config.json",
-        "https://huggingface.co/api/models/allenai/Olmo-3.1-32B-Instruct"
+        "https://huggingface.co/api/models/allenai/Olmo-3.1-32B-Instruct",
+        "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -35686,7 +35693,8 @@
         "https://allenai.org/",
         "https://huggingface.co/allenai/Molmo2-8B/raw/main/README.md",
         "https://huggingface.co/allenai/Molmo2-8B/raw/main/config.json",
-        "https://huggingface.co/api/models/allenai/Molmo2-8B"
+        "https://huggingface.co/api/models/allenai/Molmo2-8B",
+        "https://huggingface.co/allenai/Molmo2-8B/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -37691,7 +37699,8 @@
         "https://allenai.org/",
         "https://huggingface.co/allenai/Olmo-3-7B-Instruct/raw/main/README.md",
         "https://huggingface.co/allenai/Olmo-3-7B-Instruct/raw/main/config.json",
-        "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct"
+        "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct",
+        "https://huggingface.co/allenai/Olmo-3-7B-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -38257,7 +38266,8 @@
         "https://artificialanalysis.ai/models/kimi-linear-48b-a3b-instruct",
         "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
         "https://opensource.org/license/mit",
-        "https://www.moonshot.cn/"
+        "https://www.moonshot.cn/",
+        "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -38540,7 +38550,9 @@
         "https://artificialanalysis.ai/models/nvidia-nemotron-nano-12b-v2-vl-reasoning",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
         "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-        "https://www.nvidia.com/"
+        "https://www.nvidia.com/",
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16/resolve/main/README.md",
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16/resolve/main/config.json"
       ],
       "crawlSources": [
         {
@@ -40261,7 +40273,8 @@
         "https://artificialanalysis.ai/models/ring-flash-2-0",
         "https://huggingface.co/inclusionAI/Ring-flash-2.0",
         "https://opensource.org/license/mit",
-        "https://www.inclusion-ai.org/"
+        "https://www.inclusion-ai.org/",
+        "https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -44136,7 +44149,8 @@
         "https://artificialanalysis.ai/models/llama-3-3-instruct-70b",
         "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE",
-        "https://ai.meta.com/"
+        "https://ai.meta.com/",
+        "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -44709,7 +44723,8 @@
         "https://artificialanalysis.ai/models/llama-3-2-instruct-90b-vision",
         "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
-        "https://ai.meta.com/"
+        "https://ai.meta.com/",
+        "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -44851,7 +44866,8 @@
         "https://artificialanalysis.ai/models/llama-3-2-instruct-11b-vision",
         "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
-        "https://ai.meta.com/"
+        "https://ai.meta.com/",
+        "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {
@@ -44993,7 +45009,8 @@
         "https://artificialanalysis.ai/models/llama-3-1-instruct-405b",
         "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B",
         "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
-        "https://ai.meta.com/"
+        "https://ai.meta.com/",
+        "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct/resolve/main/README.md"
       ],
       "crawlSources": [
         {

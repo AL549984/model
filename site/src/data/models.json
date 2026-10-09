@@ -13991,7 +13991,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Sarvam 30B 独立模型卡",
-    "summary": "Sarvam 的独立模型 release；AA Intelligence Index：6.387。",
+    "summary": "Sarvam 30B  是 Sarvam 的独立模型 release；Artificial Analysis 当前代表档位为  Sarvam 30B (high) ，AA Intelligence Index 为  6.39 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-03-06",
     "modelId": "sarvam-30b",
     "context": "65536 tokens",
@@ -14008,7 +14008,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z60cwExggiUCDik1iY3coPJin5g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Z60cwExggiUCDik1iY3coPJin5g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：厂商自测：BrowseComp 35.5、SWE Bench Verified 34.0、τ² Bench 平均 45.7。官方评测上下文 65536、Agent 生成上限 32768，temperature=0.5、top_p=1.0；单项结果不替代自主长任务成功率。；架构类型：MoE，19 层；GQA 4 个 KV heads，128 个路由专家 + 1 个共享专家，每 token top-6；RoPE theta=8e6，官方注明未启用 RoPE scaling。；推理激活参数量：2.4B（官方 non-embedding active parameters，即不含嵌入）；第三方目录原值 2.400B 单列，不混用统计范围。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14026,7 +14026,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14036,7 +14036,8 @@
       "https://artificialanalysis.ai/models/sarvam-30b",
       "https://huggingface.co/sarvamai/sarvam-30b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.sarvam.ai/"
+      "https://www.sarvam.ai/",
+      "https://huggingface.co/sarvamai/sarvam-30b/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14050,10 +14051,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Sarvam 105B 独立模型卡",
-    "summary": "Sarvam 的独立模型 release；AA Intelligence Index：11.905。",
+    "summary": "Sarvam 105B  是 Sarvam 的独立模型 release；Artificial Analysis 当前代表档位为  Sarvam 105B (high) ，AA Intelligence Index 为  11.90 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-03-06",
     "modelId": "sarvam-105b",
-    "context": "128000 tokens",
+    "context": "131072 tokens（原始 config.max_position_embeddings）；第三方目录 128000 tokens，分别保留配置与服务/目录口径。",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -14067,7 +14068,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KvfGwyvBpiPgxLkrh15c5yVbnGh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/KvfGwyvBpiPgxLkrh15c5yVbnGh；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：厂商自测：BrowseComp 49.5、SWE Bench Verified 45.0（SWE-Agent Harness）、τ² Bench 平均 68.3。官方评测上下文 65536、Agent 生成上限 32768，temperature=0.5、top_p=1.0；单项结果不替代自主长任务成功率。；架构类型：MLA 风格 MoE；128 个路由专家 + 1 个共享专家，每 token top-8；QK 192 维分为 RoPE/noPE，V 128 维；YaRN factor=40。；推理激活参数量：10.3B（官方激活参数）；第三方目录 10.300B。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14085,7 +14086,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14095,7 +14096,9 @@
       "https://artificialanalysis.ai/models/sarvam-105b",
       "https://huggingface.co/sarvamai/sarvam-105b",
       "https://www.apache.org/licenses/LICENSE-2.0",
-      "https://www.sarvam.ai/"
+      "https://www.sarvam.ai/",
+      "https://huggingface.co/sarvamai/sarvam-105b/resolve/main/README.md",
+      "https://huggingface.co/sarvamai/sarvam-105b/resolve/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14591,11 +14594,11 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Tiny Aya Global 独立模型卡",
-    "summary": "Cohere 的独立模型 release；AA Intelligence Index：1。",
+    "summary": "Tiny Aya Global  是 Cohere 的独立模型 release；Artificial Analysis 当前代表档位为  Tiny Aya Global ，AA Intelligence Index 为  1.00 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-02-17",
     "modelId": "tiny-aya-global",
     "context": "8192 tokens",
-    "output": "暂无数据",
+    "output": "8K（官方 Model Details 的 output length）；8K 输入长度另列，不能相加冒充更大上下文。",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
     "price": "输入 0 / 输出 0 USD per 1M tokens",
@@ -14608,7 +14611,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PPLywpCeWixanJkYpLdco8oTnif；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/PPLywpCeWixanJkYpLdco8oTnif；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：自回归 Transformer；每组 3 层滑窗注意力（窗口 4096、RoPE）与第 4 层无位置嵌入的全局注意力。；训练数据：预训练后进行 SFT 和偏好训练，以对齐帮助性与安全性；这里不把对齐方法充作预训练语料规模。；许可证：CC-BY-NC，须同时遵守 Cohere Labs Acceptable Use Policy；开放权重不等于允许任意商业使用。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14626,7 +14629,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14636,7 +14639,8 @@
       "https://artificialanalysis.ai/models/tiny-aya-global",
       "https://huggingface.co/CohereLabs/tiny-aya-global",
       "https://spdx.org/licenses/CC-BY-NC-4.0",
-      "https://cohere.com/"
+      "https://cohere.com/",
+      "https://huggingface.co/CohereLabs/tiny-aya-global/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -14650,10 +14654,10 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nanbeige4.1-3B 独立模型卡",
-    "summary": "Nanbeige 的独立模型 release；AA Intelligence Index：11.020。",
+    "summary": "Nanbeige4.1-3B  是 Nanbeige 的独立模型 release；Artificial Analysis 当前代表档位为  Nanbeige4.1-3B ，AA Intelligence Index 为  11.02 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-02-11",
     "modelId": "nanbeige4-1-3b",
-    "context": "256000 tokens",
+    "context": "262144 tokens（官方 config.max_position_embeddings）；第三方目录 256000 tokens，原生配置与服务/目录口径分别记录。",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -14667,7 +14671,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MoFew6dQgiZXHqk6YgkchkyjnXf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/MoFew6dQgiZXHqk6YgkchkyjnXf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（llama），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持函数调用，README 提供 SearchWeather 工具示例；深搜索需切换 tokenizer_config_search.json，使用 MiroFlow、E2B、Serper 和 Jina，摘要模型为 Qwen3-14B-thinking。500 余轮工具调用为厂商声称，不视为独立复现结果。；架构类型：LlamaForCausalLM 稠密解码器配置；32 层，20 个注意力 heads、4 个 KV heads（GQA），rope_theta=70000000；该配置的 rope_scaling=null。；训练数据：对应 Nanbeige4-3B-Base 的后训练：SFT + RL；不是直接沿用 Nanbeige4-3B-Thinking-2511 的最终权重。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -14685,7 +14689,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 9,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -14698,7 +14702,9 @@
       "https://huggingface.co/Nanbeige",
       "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/README.md",
       "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/raw/main/config.json",
-      "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B"
+      "https://huggingface.co/api/models/Nanbeige/Nanbeige4.1-3B",
+      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/README.md",
+      "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/resolve/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15078,7 +15084,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Olmo 3.1 32B Instruct 独立模型卡",
-    "summary": "Allen Institute for AI 的独立模型 release；AA Intelligence Index：6.212。",
+    "summary": "Olmo 3.1 32B Instruct  是 Allen Institute for AI 的独立模型 release；Artificial Analysis 当前代表档位为  Olmo 3.1 32B Instruct ，AA Intelligence Index 为  6.21 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2026-01-13",
     "modelId": "olmo-3-1-32b-instruct",
     "context": "65536 tokens",
@@ -15095,7 +15101,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R0aUw7V0ziWukZkZdCacKD8Qnpe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-12（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/R0aUw7V0ziWukZkZdCacKD8Qnpe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：知识截止日期：2024-12（对应版本官方模型卡）；推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Transformer 风格自回归语言模型；这里记录最终 3.1 Instruct 权重，不混用 SFT/DPO 或 Think 阶段。；训练数据：预训练 Dolma 3，后训练 Dolci；官方按 SFT、DPO、RLVR 分阶段给出数据和模型链接。README 部分阶段描述使用 Think 名称，因此 Instruct 的具体数据以其对应链接和训练配置为准。；知识截止日期：2024-12（对应型号官方模型说明，只披露到月份）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15113,7 +15119,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -15126,7 +15132,8 @@
       "https://allenai.org/",
       "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/raw/main/README.md",
       "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/raw/main/config.json",
-      "https://huggingface.co/api/models/allenai/Olmo-3.1-32B-Instruct"
+      "https://huggingface.co/api/models/allenai/Olmo-3.1-32B-Instruct",
+      "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -15635,12 +15642,12 @@
     "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Molmo2-8B 独立模型卡",
-    "summary": "Allen Institute for AI 的独立模型 release；AA Intelligence Index：1.594。",
+    "summary": "Molmo2-8B  是 Allen Institute for AI 的独立模型 release；Artificial Analysis 当前代表档位为  Molmo2-8B ，AA Intelligence Index 为  1.59 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-12-11",
     "modelId": "molmo2-8b",
     "context": "36864 tokens",
     "output": "暂无数据",
-    "modality": "输入：文本、图像、视频；输出：文本",
+    "modality": "文本、图像、多图像、视频；支持理解与 grounding，不能把指点/定位能力直接写成自主浏览器 Agent。",
     "reasoning": "以 AA 当前代表档位为准",
     "price": "输入 官方未披露 / 待核验 / 输出 官方未披露 / 待核验 USD per 1M tokens",
     "platforms": [
@@ -15652,7 +15659,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XnFrwxJVfiD1frkRG2Kcdo6inWe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（molmo2），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XnFrwxJVfiD1frkRG2Kcdo6inWe；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（molmo2），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Qwen3-8B 文本骨干 + README 链接的 google/siglip-so400m-patch14-384 视觉骨干。该页称 SigLIP 2，但链接名称不同，视觉骨干具体代际需按权重配置进一步核对。；训练数据：训练来源包含公开第三方数据集和 Molmo2 data 中精选图文、视频文本数据；本型号不能沿用 Molmo 初代 PixMo 的 100 万图文对作为总训练规模。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -15670,7 +15677,7 @@
     ],
     "aCaseCount": 3,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
@@ -15683,7 +15690,8 @@
       "https://allenai.org/",
       "https://huggingface.co/allenai/Molmo2-8B/raw/main/README.md",
       "https://huggingface.co/allenai/Molmo2-8B/raw/main/config.json",
-      "https://huggingface.co/api/models/allenai/Molmo2-8B"
+      "https://huggingface.co/api/models/allenai/Molmo2-8B",
+      "https://huggingface.co/allenai/Molmo2-8B/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16478,7 +16486,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Olmo 3 7B Instruct 独立模型卡",
-    "summary": "Allen Institute for AI 的独立模型 release；AA Intelligence Index：2.404。",
+    "summary": "Olmo 3 7B Instruct  是 Allen Institute for AI 的独立模型 release；Artificial Analysis 当前代表档位为  Olmo 3 7B Instruct ，AA Intelligence Index 为  2.40 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-11-20",
     "modelId": "olmo-3-7b-instruct",
     "context": "65536 tokens",
@@ -16495,7 +16503,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TDYQwKV9HiaiTdkNOvgcXJp1nhf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/TDYQwKV9HiaiTdkNOvgcXJp1nhf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：推理激活参数量：不适用：该公开配置为稠密模型（olmo3），不使用 MoE 的每 token 激活专家参数口径；总参数量另列。；AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：厂商 Tool Use 表中最终 Instruct：BFCL 49.8、SimpleQA 79.3、LitQA2 38.2；SFT/DPO 阶段数值另列。README 未据此提供通用自主长任务成功率，这些不是 AA Agentic Index。；架构类型：Transformer 风格自回归语言模型；本型号为最终 Instruct checkpoint，不与 Think/SFT/DPO 中间权重混用。；训练数据：官方公开 Dolci 的 SFT、DPO、RLVR 数据与阶段；README 同列 Think 和 Instruct 链接，按该 Instruct 型号读取数据，不混为单个预训练 token 总量。；知识截止日期：2024-12（官方模型说明披露到月份，不补造具体日期）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16513,7 +16521,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 7,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16526,7 +16534,8 @@
       "https://allenai.org/",
       "https://huggingface.co/allenai/Olmo-3-7B-Instruct/raw/main/README.md",
       "https://huggingface.co/allenai/Olmo-3-7B-Instruct/raw/main/config.json",
-      "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct"
+      "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct",
+      "https://huggingface.co/allenai/Olmo-3-7B-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16715,7 +16724,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Kimi Linear 48B A3B Instruct 独立模型卡",
-    "summary": "Kimi 的独立模型 release；AA Intelligence Index：8.352。",
+    "summary": "Kimi Linear 48B A3B Instruct  是 Kimi 的独立模型 release；Artificial Analysis 当前代表档位为  Kimi Linear 48B A3B Instruct ，AA Intelligence Index 为  8.35 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-30",
     "modelId": "kimi-linear-48b-a3b-instruct",
     "context": "1000000 tokens",
@@ -16732,7 +16741,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NWH0wvnl9iA1F1kgcUGc9p2Pn2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/NWH0wvnl9iA1F1kgcUGc9p2Pn2g；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：混合线性注意力：KDA 与全局 MLA 比例 3:1；不能把 KDA 线性注意力写成全层标准全注意力。；训练 token 数：5.7T tokens（对应公开 Base/Instruct checkpoints 的官方训练规模）。；总参数量：官方型号表：48B 总参数、3B 激活；第三方目录总量 49.100B 并列保留，不由模型名反推实测规模。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16750,7 +16759,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16760,7 +16769,8 @@
       "https://artificialanalysis.ai/models/kimi-linear-48b-a3b-instruct",
       "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
       "https://opensource.org/license/mit",
-      "https://www.moonshot.cn/"
+      "https://www.moonshot.cn/",
+      "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -16832,12 +16842,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "NVIDIA Nemotron Nano 12B v2 VL 独立模型卡",
-    "summary": "NVIDIA 的独立模型 release；AA Intelligence Index：8.801。",
+    "summary": "NVIDIA Nemotron Nano 12B v2 VL  是 NVIDIA 的独立模型 release；Artificial Analysis 当前代表档位为  NVIDIA Nemotron Nano 12B v2 VL (Reasoning) ，AA Intelligence Index 为  8.80 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-10-28",
     "modelId": "nvidia-nemotron-nano-12b-v2-vl",
-    "context": "128000 tokens",
+    "context": "131072 tokens（语言 config.max_position_embeddings）；README 称输入与输出共享 128K，第三方目录 128000 tokens，分别保留口径。",
     "output": "暂无数据",
-    "modality": "输入：文本、图像；输出：文本",
+    "modality": "文本、图像、视频；视频示例先抽帧再输入，不能据此声称原生视频文件直接端到端输入。",
     "reasoning": "AA 存在多个推理档位",
     "price": "输入 0.200 / 输出 0.600 USD per 1M tokens",
     "platforms": [
@@ -16849,7 +16859,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XG6pwOEfFiqaYEkKeR1cobX1nkb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/XG6pwOEfFiqaYEkKeR1cobX1nkb；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：CRadioV2-H 视觉编码器 + NVIDIA-Nemotron-Nano-12B-v2 语言骨干；本来源为 BF16 权重版本，不套用 NVFP4-QAD 的量化指标。；总参数量：官方 BF16 README：12.6B；第三方目录：13.200B，来源口径不同并列保留，不猜测差异来源。；训练数据：官方数据概览：39486703 个样本、270 个数据集、27.7 TB；数据模态含文本、图像、视频，采集时间 2023–2025，不把采集年份当知识截止日期。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -16867,7 +16877,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -16877,7 +16887,9 @@
       "https://artificialanalysis.ai/models/nvidia-nemotron-nano-12b-v2-vl-reasoning",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
       "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16/resolve/main/README.md",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16/resolve/main/config.json"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -17557,7 +17569,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Ring-flash-2.0 独立模型卡",
-    "summary": "InclusionAI 的独立模型 release；AA Intelligence Index：7.974。",
+    "summary": "Ring-flash-2.0  是 InclusionAI 的独立模型 release；Artificial Analysis 当前代表档位为  Ring-flash-2.0 ，AA Intelligence Index 为  7.97 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2025-09-19",
     "modelId": "ring-flash-2-0",
     "context": "128000 tokens",
@@ -17574,7 +17586,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HR8gwrNdBi6SFckgOpfcCeUsnMg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/HR8gwrNdBi6SFckgOpfcCeUsnMg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Ling 2.0 系列 MoE；1/32 专家激活比例并包含 MTP。官方激活量 6.1B，非嵌入激活量 4.8B，分别保留。；总参数量：官方发布说明标称 100B；第三方目录 103B，两种来源口径并列保留。；训练数据：后训练采用轻量 Long-CoT SFT → RLVR → RLHF。这里为后训练方法，不能当作预训练语料规模。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -17592,7 +17604,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -17602,7 +17614,8 @@
       "https://artificialanalysis.ai/models/ring-flash-2-0",
       "https://huggingface.co/inclusionAI/Ring-flash-2.0",
       "https://opensource.org/license/mit",
-      "https://www.inclusion-ai.org/"
+      "https://www.inclusion-ai.org/",
+      "https://huggingface.co/inclusionAI/Ring-flash-2.0/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19191,7 +19204,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Llama 3.3 Instruct 70B 独立模型卡",
-    "summary": "Meta 的独立模型 release；AA Intelligence Index：9.262。",
+    "summary": "Llama 3.3 Instruct 70B  是 Meta 的独立模型 release；Artificial Analysis 当前代表档位为  Llama 3.3 Instruct 70B ，AA Intelligence Index 为  9.26 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2024-12-06",
     "modelId": "llama-3-3-instruct-70b",
     "context": "128000 tokens",
@@ -19208,7 +19221,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/P7krwM7wKiV2CfkX6YCc3tjEnvf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/P7krwM7wKiV2CfkX6YCc3tjEnvf；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持多种工具调用格式和 Transformers tools chat template；官方提供函数调用、外部执行与 tool 结果回传示例。工具由应用执行，接口支持不代表自主任务成功率。；架构类型：自回归 Transformer；Instruct 经过 SFT 与 RLHF；官方说明使用 GQA。；训练数据：预训练来自公开数据；后训练含公开指令数据及超过 2500 万条合成示例。；训练 token 数：约 15T 预训练 tokens（官方正文）；型号表写 15T+，不作为后训练总 token 数。；训练硬件：NVIDIA H100-80GB；训练总 GPU 小时需按具体型号和统计阶段分别核对，不能把系列累计值当作本型号训练量。；知识截止日期：2023-12（官方披露到月份，不补造具体日期）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19226,7 +19239,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19236,7 +19249,8 @@
       "https://artificialanalysis.ai/models/llama-3-3-instruct-70b",
       "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/LICENSE",
-      "https://ai.meta.com/"
+      "https://ai.meta.com/",
+      "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19432,7 +19446,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Llama 3.2 Instruct 90B (Vision) 独立模型卡",
-    "summary": "Meta 的独立模型 release；AA Intelligence Index：5.966。",
+    "summary": "Llama 3.2 Instruct 90B (Vision)  是 Meta 的独立模型 release；Artificial Analysis 当前代表档位为  Llama 3.2 Instruct 90B (Vision) ，AA Intelligence Index 为  5.97 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2024-09-25",
     "modelId": "llama-3-2-instruct-90b-vision",
     "context": "128000 tokens",
@@ -19449,7 +19463,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RnpYwIOBJizmzNk3BAmccYN7n5f；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/RnpYwIOBJizmzNk3BAmccYN7n5f；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Llama 3.1 文本骨干 + 单独训练的视觉适配器；通过交叉注意力层把图像编码器表示送入语言模型，Instruct 使用 SFT/RLHF。；训练数据：官方型号表披露 6B 图文对；属于图文样本数量，不是 6B 文本 tokens。；训练硬件：NVIDIA H100-80GB；训练量应按 11B/90B 分别读取，不套用系列累计值。；知识截止日期：2023-12（官方型号表仅披露到月份）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19467,7 +19481,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19477,7 +19491,8 @@
       "https://artificialanalysis.ai/models/llama-3-2-instruct-90b-vision",
       "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
-      "https://ai.meta.com/"
+      "https://ai.meta.com/",
+      "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19491,7 +19506,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Llama 3.2 Instruct 11B (Vision) 独立模型卡",
-    "summary": "Meta 的独立模型 release；AA Intelligence Index：2.952。",
+    "summary": "Llama 3.2 Instruct 11B (Vision)  是 Meta 的独立模型 release；Artificial Analysis 当前代表档位为  Llama 3.2 Instruct 11B (Vision) ，AA Intelligence Index 为  2.95 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2024-09-25",
     "modelId": "llama-3-2-instruct-11b-vision",
     "context": "128000 tokens",
@@ -19508,7 +19523,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IS0LwxfmHiJQFzkvWKXc9AaknTc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IS0LwxfmHiJQFzkvWKXc9AaknTc；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：架构类型：Llama 3.1 文本骨干 + 单独训练的视觉适配器；通过交叉注意力层把图像编码器表示送入语言模型，Instruct 使用 SFT/RLHF。；训练数据：官方型号表披露 6B 图文对；属于图文样本数量，不是 6B 文本 tokens。；训练硬件：NVIDIA H100-80GB；训练量应按 11B/90B 分别读取，不套用系列累计值。；知识截止日期：2023-12（官方型号表仅披露到月份）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19526,7 +19541,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19536,7 +19551,8 @@
       "https://artificialanalysis.ai/models/llama-3-2-instruct-11b-vision",
       "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE",
-      "https://ai.meta.com/"
+      "https://ai.meta.com/",
+      "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -19550,7 +19566,7 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Llama 3.1 Instruct 405B 独立模型卡",
-    "summary": "Meta 的独立模型 release；AA Intelligence Index：8.323。",
+    "summary": "Llama 3.1 Instruct 405B  是 Meta 的独立模型 release；Artificial Analysis 当前代表档位为  Llama 3.1 Instruct 405B ，AA Intelligence Index 为  8.32 。本卡按 release 单独建档，不与同家族其他型号合并。",
     "releaseDate": "2024-07-23",
     "modelId": "llama-3-1-instruct-405b",
     "context": "128000 tokens",
@@ -19567,7 +19583,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GSuSwd1vfi2F30k89TocRckXnfg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/GSuSwd1vfi2F30k89TocRckXnfg；按 AA release slug 独立建档。\n2026-10-09 逐字段全网核验：AA Agentic Index：本轮AA完整公开快照未包含名为AA Agentic Index的独立字段；不以Intelligence Index、单项工具调用评测或0分替代。核对日期2026-10-09。\n2026-10-09 对应型号官方结构、训练数据、工具与版本口径补正：Agent 能力：支持多种工具调用格式和 Transformers tools chat template；官方提供函数调用、外部执行与 tool 结果回传示例。工具由应用执行，接口支持不代表自主任务成功率。；架构类型：自回归 Transformer；Instruct 经过 SFT 与 RLHF；官方说明使用 GQA。；训练数据：预训练来自公开数据；后训练含公开指令数据及超过 2500 万条合成示例。；训练 token 数：约 15T 预训练 tokens（官方正文）；型号表写 15T+，不作为后训练总 token 数。；训练硬件：NVIDIA H100-80GB；训练总 GPU 小时需按具体型号和统计阶段分别核对，不能把系列累计值当作本型号训练量。；知识截止日期：2023-12（官方披露到月份，不补造具体日期）。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -19585,7 +19601,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -19595,7 +19611,8 @@
       "https://artificialanalysis.ai/models/llama-3-1-instruct-405b",
       "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B",
       "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE",
-      "https://ai.meta.com/"
+      "https://ai.meta.com/",
+      "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct/resolve/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
