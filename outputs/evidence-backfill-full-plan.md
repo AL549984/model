@@ -5,25 +5,25 @@
 ## Summary
 
 - Models: 384
-- Active models: 116
-- Publishable models: 116
+- Active models: 117
+- Publishable models: 117
 - Limited models: 0
 - Archive models: 4
-- Verified A-grade cases: 679
-- Models without A-grade cases: 268
+- Verified A-grade cases: 687
+- Models without A-grade cases: 266
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 116
-- Models meeting full target line: 116
+- Models meeting minimum line: 117
+- Models meeting full target line: 117
 - Active A-case deficit to minimum line: 0
 - Active A-case deficit to full target line: 0
-- All-model A-case deficit to minimum line: 804
-- All-model A-case deficit to full target line: 1340
+- All-model A-case deficit to minimum line: 798
+- All-model A-case deficit to full target line: 1332
 - Backfill rows: 384
 - P0 rows: 0
 - P1 rows: 0
-- P2 rows: 116
-- P3 rows: 268
+- P2 rows: 117
+- P3 rows: 267
 
 ## Operating Rule
 

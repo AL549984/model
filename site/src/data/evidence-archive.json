@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-09",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 679,
-    "manifestedCases": 679,
+    "aCaseCount": 687,
+    "manifestedCases": 687,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 599,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 79,
+    "pendingSnapshotCases": 87,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1363
+    "targets": 1379
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -161,10 +161,15 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 79,
-      "targets": 160,
-      "highPriorityCases": 42,
+      "cases": 87,
+      "targets": 176,
+      "highPriorityCases": 43,
       "hosts": [
+        {
+          "host": "huggingface.co",
+          "cases": 9,
+          "targets": 18
+        },
         {
           "host": "bilibili.com",
           "cases": 6,
@@ -197,11 +202,6 @@
         },
         {
           "host": "build.nvidia.com",
-          "cases": 2,
-          "targets": 4
-        },
-        {
-          "host": "deepinfra.com",
           "cases": 2,
           "targets": 4
         }
@@ -16672,6 +16672,286 @@
           "url": "https://github.com/rag-web-ui/rag-web-ui",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/minimax-m2-rag-web-ui-knowledge-qa/artifact-1-7676dd7d8829.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo-7b-d-brunocota-image-chatbot",
+      "modelId": "molmo-7b-d",
+      "modelName": "Molmo 7B-D",
+      "title": "Image question-answering chatbot",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T20:45:59+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "3eaa25f84c3f1a6b8ae12b5c4ec5b86ad55829c3912737e0fa7cb7c2a99ce0d6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo-7b-d-brunocota-image-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/brunocota/Molmo-7B-D-0924",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-brunocota-image-chatbot/original-evidence-8c2dd905fce5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/brunocota/Molmo-7B-D-0924/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-brunocota-image-chatbot/artifact-1-cc7eacfd0269.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo-7b-d-cburtin-pdf-ocr",
+      "modelId": "molmo-7b-d",
+      "modelName": "Molmo 7B-D",
+      "title": "PDF page vision and OCR-style analysis tool",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T20:45:59+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "bfea4ffd19ea72bcaf450515202514aa62a9f7cb9af984c05c63b5ed283c883d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo-7b-d-cburtin-pdf-ocr/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/cburtin/ocr",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-cburtin-pdf-ocr/original-evidence-1d28a2065796.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/cburtin/ocr/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-cburtin-pdf-ocr/artifact-1-51cf3599c86d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo-7b-d-chris-propeller-long-description",
+      "modelId": "molmo-7b-d",
+      "modelName": "Molmo 7B-D",
+      "title": "Long-form image description application",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T20:45:59+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "5f3c42fe9f2cd379328ae04834c919adb8348f8ee82e59e44105cbc753000ea6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo-7b-d-chris-propeller-long-description/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/chris-propeller/Molmo-7B-D-0924",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-chris-propeller-long-description/original-evidence-5179ce6b7c10.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/chris-propeller/Molmo-7B-D-0924/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-chris-propeller-long-description/artifact-1-9405db3b2471.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo-7b-d-quarterturn-captioner",
+      "modelId": "molmo-7b-d",
+      "modelName": "Molmo 7B-D",
+      "title": "Natural-language batch image captioner",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T20:45:59+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "1179a163d807f9050b5065a96b3f3c707528d48008e571c1a5d78b476bad7a32",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo-7b-d-quarterturn-captioner/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/quarterturn/molmo-natural-language-image-captioner",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-quarterturn-captioner/original-evidence-f20416433f25.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/quarterturn/molmo-natural-language-image-captioner/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-quarterturn-captioner/artifact-1-6af1811c0052.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo-7b-d-tlpython-molmovision",
+      "modelId": "molmo-7b-d",
+      "modelName": "Molmo 7B-D",
+      "title": "MolmoVision image description demo",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T20:45:59+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "7ef641d344d9ec9280e77eba375878abe3568a287b66f3972956c888bf65fce8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo-7b-d-tlpython-molmovision/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/TLPython/MolmoVision",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-tlpython-molmovision/original-evidence-df41cac153d7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/TLPython/MolmoVision/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo-7b-d-tlpython-molmovision/artifact-1-c94a396c018b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo2-8b-chris-propeller-image-understanding",
+      "modelId": "molmo2-8b",
+      "modelName": "Molmo2-8B",
+      "title": "Chris Propeller Molmo2-8B image question-answering and point annotation app",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T12:46:21Z",
+      "priority": "normal",
+      "evidenceFingerprint": "f85094b3cfdbc2ccadfa30a60489fc883c848f9ca19797a045160675894a4994",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo2-8b-chris-propeller-image-understanding/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/chris-propeller/Molmo2-8B/blob/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo2-8b-chris-propeller-image-understanding/original-evidence-9af8e546d508.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/chris-propeller/Molmo2-8B",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo2-8b-chris-propeller-image-understanding/artifact-1-c441112a1056.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo2-8b-prithivmlmods-image-video-demo",
+      "modelId": "molmo2-8b",
+      "modelName": "Molmo2-8B",
+      "title": "prithivMLmods Molmo2-8B image and video understanding demo",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T12:46:21Z",
+      "priority": "normal",
+      "evidenceFingerprint": "206d8920b3be592aeddc64b4f8d8a09f1919be9acb68669856c8270845e8670c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo2-8b-prithivmlmods-image-video-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/prithivMLmods/Molmo2-HF-Demo/blob/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo2-8b-prithivmlmods-image-video-demo/original-evidence-281c556d58c8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/prithivMLmods/Molmo2-HF-Demo",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo2-8b-prithivmlmods-image-video-demo/artifact-1-a1f690135454.json"
+        }
+      ]
+    },
+    {
+      "caseId": "molmo2-8b-tiedong-shellgame-visual-tracking",
+      "modelId": "molmo2-8b",
+      "modelName": "Molmo2-8B",
+      "title": "Tiedong shell-game visual entity tracking with Molmo2-8B",
+      "sourcePlatform": "Hugging Face Spaces / GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T12:46:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "be565ba4ae14bedc8e291e2c2de917b9652c24ad875d140b6179ed77da363c14",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/molmo2-8b-tiedong-shellgame-visual-tracking/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/tiedong/Molmo2-SGCoT-Demo/blob/main/README.md",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo2-8b-tiedong-shellgame-visual-tracking/original-evidence-b0d4847adbf3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/tiedong/Molmo2-SGCoT-Demo",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/molmo2-8b-tiedong-shellgame-visual-tracking/artifact-1-80dbd19f6d1f.json"
         }
       ]
     },
