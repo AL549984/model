@@ -210,6 +210,9 @@ if __name__ == "__main__":
             "stderr_tail": (exc.stderr or "")[-2000:],
         }, ensure_ascii=False, indent=2), file=sys.stderr)
         raise SystemExit(exc.returncode or 1)
+    except subprocess.TimeoutExpired:
+        print(json.dumps({"ok": False, "error": "command_timeout", "message": "command timed out; credential-bearing command arguments withheld"}), file=sys.stderr)
+        raise SystemExit(1)
     except Exception as exc:
         print(json.dumps({"ok": False, "error": f"{type(exc).__name__}: {exc}"}, ensure_ascii=False), file=sys.stderr)
         raise SystemExit(1)
