@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-09T12:38:27.746Z",
+  "generatedAt": "2026-10-09T13:08:30.583Z",
   "summary": {
     "models": 384,
-    "activeModels": 116,
+    "activeModels": 117,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 116,
-    "fullCoverageReady": 116,
+    "publicReady": 117,
+    "fullCoverageReady": 117,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 804,
-    "allModelTargetDeficit": 1340,
-    "queuedModels": 264,
-    "crawlTargetDeficit": 1320
+    "allModelMinDeficit": 798,
+    "allModelTargetDeficit": 1332,
+    "queuedModels": 263,
+    "crawlTargetDeficit": 1312
   },
   "tasks": [
     {
@@ -35612,17 +35612,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/XnFrwxJVfiD1frkRG2Kcdo6inWe",
@@ -44470,20 +44470,20 @@
       "modelName": "Molmo 7B-D",
       "vendorId": "allen-institute-for-ai",
       "vendor": "Allen Institute for AI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/VK2AwbGsBiE5DTkgXKecUd3dnBb",
