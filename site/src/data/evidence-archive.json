@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-09",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 687,
-    "manifestedCases": 687,
+    "aCaseCount": 691,
+    "manifestedCases": 691,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 599,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 87,
+    "pendingSnapshotCases": 91,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1379
+    "targets": 1387
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -161,14 +161,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 87,
-      "targets": 176,
+      "cases": 91,
+      "targets": 184,
       "highPriorityCases": 43,
       "hosts": [
         {
           "host": "huggingface.co",
-          "cases": 9,
-          "targets": 18
+          "cases": 13,
+          "targets": 26
         },
         {
           "host": "bilibili.com",
@@ -17897,6 +17897,146 @@
           "url": "https://github.com/yoshiko-pg/o3-search-mcp",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/o3-yoshiko-pg-o3-search-mcp/artifact-1-37a71c7e3ddb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "olmo-3-7b-think-alfulanny-code-agent-demo",
+      "modelId": "olmo-3-7b-think",
+      "modelName": "Olmo 3 7B Think",
+      "title": "alfulanny 的 Olmo 3 7B Think CodeAgent 任务演示",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T19:03:41Z",
+      "priority": "normal",
+      "evidenceFingerprint": "25e0cee95d4f51bf3124667ee5a97d7960f7eaaf0a2670fcca3fe022d6486dc2",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/olmo-3-7b-think-alfulanny-code-agent-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/alfulanny/huggingface_ai_final/blob/main/code_agent.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-alfulanny-code-agent-demo/original-evidence-0c0bac94017e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/alfulanny/huggingface_ai_final",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-alfulanny-code-agent-demo/artifact-1-ba235433168e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "olmo-3-7b-think-catog-askpdf-rag",
+      "modelId": "olmo-3-7b-think",
+      "modelName": "Olmo 3 7B Think",
+      "title": "CatoG 的 Olmo 3 7B Think AskPDF 文档问答应用",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T19:03:41Z",
+      "priority": "normal",
+      "evidenceFingerprint": "1d8df8b300897c167ee6248a0aca7a6c290189dc84a1cd95835330caa4893d56",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/olmo-3-7b-think-catog-askpdf-rag/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/CatoG/CG_AskPDF/blob/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-catog-askpdf-rag/original-evidence-90495540155b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/CatoG/CG_AskPDF",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-catog-askpdf-rag/artifact-1-967898ac06f9.json"
+        }
+      ]
+    },
+    {
+      "caseId": "olmo-3-7b-think-dureduck-streaming-chat-demo",
+      "modelId": "olmo-3-7b-think",
+      "modelName": "Olmo 3 7B Think",
+      "title": "dureduck 的 Olmo 3 7B Think 流式推理聊天演示",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T19:03:41Z",
+      "priority": "normal",
+      "evidenceFingerprint": "0a245e9090cc99ce71704b472409fd51c0de2030e5a2c8a5176bb64f7934f2d5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/olmo-3-7b-think-dureduck-streaming-chat-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/dureduck/olmo-3-7b-rl-zero-math/blob/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-dureduck-streaming-chat-demo/original-evidence-2940a01ad48c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/dureduck/olmo-3-7b-rl-zero-math",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-dureduck-streaming-chat-demo/artifact-1-03122fb62f95.json"
+        }
+      ]
+    },
+    {
+      "caseId": "olmo-3-7b-think-rongyuan-debug-xai",
+      "modelId": "olmo-3-7b-think",
+      "modelName": "Olmo 3 7B Think",
+      "title": "rongyuan 的 Olmo 3 7B Think LLM 失败分析与归因工具",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-09T19:03:41Z",
+      "priority": "normal",
+      "evidenceFingerprint": "0ee1b753af4be140614eb0b17d0f99cc9f3dd63b1a33f6d8e9c1d3c79c97bb7c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/olmo-3-7b-think-rongyuan-debug-xai/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/rongyuan/Debug-XAI/blob/main/backend/models/manager.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-rongyuan-debug-xai/original-evidence-9fde66da9d62.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/rongyuan/Debug-XAI",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/olmo-3-7b-think-rongyuan-debug-xai/artifact-1-dfa748a9d376.json"
         }
       ]
     },
