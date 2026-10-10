@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-10",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 691,
-    "manifestedCases": 691,
+    "aCaseCount": 690,
+    "manifestedCases": 690,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
-    "snapshottedCases": 599,
+    "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
     "pendingSnapshotCases": 91,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1387
+    "targets": 1385
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -2701,41 +2701,6 @@
           "url": "https://cursor.com/",
           "host": "cursor.com",
           "recommendedSnapshotPath": "archive/evidence/claude-opus-4-5-cursor-difficult-coding-tasks-202511/artifact-1-bbba856f6f33.json"
-        }
-      ]
-    },
-    {
-      "caseId": "claude-opus-4-5-github-copilot-code-migration-refactor-202511",
-      "modelId": "claude-opus-4-5",
-      "modelName": "Claude Opus 4.5",
-      "title": "GitHub Copilot 使用 Claude Opus 4.5 支撑代码迁移与重构类 agentic workflow",
-      "sourcePlatform": "official_web",
-      "sourceType": "real_case",
-      "collectedAt": "2026-06-27T08:49:08Z",
-      "priority": "high",
-      "evidenceFingerprint": "853548a97ff243d67e1544f109decfdfab48b28412dc4884380b99c63f2fccac",
-      "snapshotStatus": "snapshotted",
-      "snapshotIssue": {
-        "code": "complete",
-        "label": "已完成",
-        "description": "所有当前证据目标都已完成本地快照。",
-        "action": "无需处理；数据字段变化后会自动重新进入复核队列。"
-      },
-      "snapshotTargetCount": 2,
-      "snapshotOkTargetCount": 2,
-      "localSnapshotManifest": "archive/evidence/claude-opus-4-5-github-copilot-code-migration-refactor-202511/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://www.anthropic.com/news/claude-opus-4-5#github-copilot-mario-rodriguez",
-          "host": "anthropic.com",
-          "recommendedSnapshotPath": "archive/evidence/claude-opus-4-5-github-copilot-code-migration-refactor-202511/original-evidence-a345654535a7.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://github.com/features/copilot",
-          "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/claude-opus-4-5-github-copilot-code-migration-refactor-202511/artifact-1-561b4078010f.json"
         }
       ]
     },
