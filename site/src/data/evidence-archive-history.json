@@ -1219,10 +1219,10 @@
       "id": "current-2026-10-10",
       "date": "2026-10-10",
       "label": "当前数据截点",
-      "aCaseCount": 690,
-      "targets": 1385,
+      "aCaseCount": 688,
+      "targets": 1381,
       "snapshottedCases": 598,
-      "pendingSnapshotCases": 91,
+      "pendingSnapshotCases": 89,
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"

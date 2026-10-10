@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-10",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 690,
-    "manifestedCases": 690,
+    "aCaseCount": 688,
+    "manifestedCases": 688,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 91,
+    "pendingSnapshotCases": 89,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 137,
-    "targets": 1385
+    "uniqueHosts": 136,
+    "targets": 1381
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -94,7 +94,6 @@
     "llama4.pages.dev",
     "lmsys.org",
     "loom.com",
-    "lovable.dev",
     "matthieulc.com",
     "maxharar.com",
     "microsoft.com",
@@ -161,9 +160,9 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 91,
-      "targets": 184,
-      "highPriorityCases": 43,
+      "cases": 89,
+      "targets": 180,
+      "highPriorityCases": 41,
       "hosts": [
         {
           "host": "huggingface.co",
@@ -1690,41 +1689,6 @@
       ]
     },
     {
-      "caseId": "claude-3-5-sonnet-lovable-agents",
-      "modelId": "claude-3-5-sonnet",
-      "modelName": "Claude 3.5 Sonnet",
-      "title": "Lovable credits Claude 3.5 Sonnet as first model enabling agents, powering 50M+ app builds and $200M ARR",
-      "sourcePlatform": "official_customer_story",
-      "sourceType": "real_case",
-      "collectedAt": "2026-06-26T20:20:00Z",
-      "priority": "high",
-      "evidenceFingerprint": "037d33cefb49af6b237ece27020e21bcfb5ea164e52b63ae1f49db685e008a9d",
-      "snapshotStatus": "pending_snapshot",
-      "snapshotIssue": {
-        "code": "pending_queued",
-        "label": "未开始抓取",
-        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
-        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
-      },
-      "snapshotTargetCount": 0,
-      "snapshotOkTargetCount": 0,
-      "localSnapshotManifest": "archive/evidence/claude-3-5-sonnet-lovable-agents/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://claude.com/customers/lovable",
-          "host": "claude.com",
-          "recommendedSnapshotPath": "archive/evidence/claude-3-5-sonnet-lovable-agents/original-evidence-f4da564174fc.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://lovable.dev",
-          "host": "lovable.dev",
-          "recommendedSnapshotPath": "archive/evidence/claude-3-5-sonnet-lovable-agents/artifact-1-cf7a3a4c926a.json"
-        }
-      ]
-    },
-    {
       "caseId": "claude-3-5-sonnet-replit-agent",
       "modelId": "claude-3-5-sonnet",
       "modelName": "Claude 3.5 Sonnet",
@@ -2701,41 +2665,6 @@
           "url": "https://cursor.com/",
           "host": "cursor.com",
           "recommendedSnapshotPath": "archive/evidence/claude-opus-4-5-cursor-difficult-coding-tasks-202511/artifact-1-bbba856f6f33.json"
-        }
-      ]
-    },
-    {
-      "caseId": "claude-opus-4-5-lovable-chat-mode-planning-20251202",
-      "modelId": "claude-opus-4-5",
-      "modelName": "Claude Opus 4.5",
-      "title": "Lovable 在 Chat mode 中接入 Claude Opus 4.5 做应用规划与迭代",
-      "sourcePlatform": "official_web",
-      "sourceType": "real_case",
-      "collectedAt": "2026-06-27T08:49:08Z",
-      "priority": "high",
-      "evidenceFingerprint": "969d01db89b02d056246b00f20148efe58531c5d0d9ca7ff250f98b4a1fde845",
-      "snapshotStatus": "pending_snapshot",
-      "snapshotIssue": {
-        "code": "pending_queued",
-        "label": "未开始抓取",
-        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
-        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
-      },
-      "snapshotTargetCount": 0,
-      "snapshotOkTargetCount": 0,
-      "localSnapshotManifest": "archive/evidence/claude-opus-4-5-lovable-chat-mode-planning-20251202/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://lovable.dev/blog/claude-opus-4-5-in-chat",
-          "host": "lovable.dev",
-          "recommendedSnapshotPath": "archive/evidence/claude-opus-4-5-lovable-chat-mode-planning-20251202/original-evidence-50dfb4b62320.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://lovable.dev/",
-          "host": "lovable.dev",
-          "recommendedSnapshotPath": "archive/evidence/claude-opus-4-5-lovable-chat-mode-planning-20251202/artifact-1-7eb11b6a6b22.json"
         }
       ]
     },
