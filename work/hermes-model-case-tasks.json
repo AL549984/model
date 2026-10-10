@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-10T07:29:41.661Z",
+  "generatedAt": "2026-10-10T13:37:13.286Z",
   "summary": {
     "models": 384,
-    "activeModels": 116,
+    "activeModels": 115,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 116,
-    "fullCoverageReady": 116,
+    "publicReady": 115,
+    "fullCoverageReady": 115,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
     "allModelMinDeficit": 795,
-    "allModelTargetDeficit": 1329,
-    "queuedModels": 264,
-    "crawlTargetDeficit": 1309
+    "allModelTargetDeficit": 1331,
+    "queuedModels": 265,
+    "crawlTargetDeficit": 1311
   },
   "tasks": [
     {
@@ -3716,17 +3716,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 4,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 1,
+      "targetDeficit": 2,
       "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 12,
-        "maxCandidatesPerRun": 24
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://docs.anthropic.com/en/docs/about-claude/models/overview",
@@ -15263,16 +15263,16 @@
       "modelName": "Claude 3.5 Sonnet",
       "vendorId": "anthropic",
       "vendor": "Anthropic / Claude",
-      "priority": "P2",
-      "status": "target_met_snapshot_refresh",
-      "publishability": "Publishable",
-      "aCaseCount": 5,
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
       "minDeficit": 0,
-      "targetDeficit": 0,
+      "targetDeficit": 1,
       "publicReady": true,
-      "fullCoverageReady": true,
+      "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
         "targetCandidateCount": 12,
