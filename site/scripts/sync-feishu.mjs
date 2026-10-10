@@ -39,7 +39,20 @@ function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
 }
 
+let publicationGateChecked = false;
+function ensurePublicationGate() {
+  if (publicationGateChecked || dryRun) return;
+  const gate = path.join(process.env.HOME ?? "", ".hermes/scripts/model_card_publish_gate.py");
+  if (!fs.existsSync(gate)) throw new Error("Model card publication gate is unavailable; Feishu sync cannot write site data.");
+  const checked = spawnSync("python3", [gate], { encoding: "utf8", timeout: 180000 });
+  if (checked.error || checked.status !== 0) {
+    throw new Error("Model card source/readback gate rejected sync; see ~/.hermes/state/model-card-quality/publication-gate.json.");
+  }
+  publicationGateChecked = true;
+}
+
 function writeJson(file, data) {
+  ensurePublicationGate();
   fs.writeFileSync(path.join(dataDir, file), `${JSON.stringify(data, null, 2)}\n`);
 }
 
