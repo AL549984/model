@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-14T12:15:18.583Z",
+  "generatedAt": "2026-10-14T22:32:21.501Z",
   "summary": {
     "models": 386,
-    "activeModels": 116,
+    "activeModels": 118,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 116,
-    "fullCoverageReady": 116,
+    "publicReady": 118,
+    "fullCoverageReady": 118,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 793,
-    "allModelTargetDeficit": 1331,
-    "queuedModels": 266,
-    "crawlTargetDeficit": 1311
+    "allModelMinDeficit": 782,
+    "allModelTargetDeficit": 1316,
+    "queuedModels": 264,
+    "crawlTargetDeficit": 1296
   },
   "tasks": [
     {
@@ -21255,17 +21255,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://api-docs.deepseek.com/updates",
@@ -27202,20 +27202,20 @@
       "modelName": "DiffusionGemma 26B A4B",
       "vendorId": "google",
       "vendor": "Google",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Z3azwX67QiNiXIkHvrZcStREn4e",
@@ -48026,20 +48026,20 @@
       "modelName": "DeepSeek-V4.1-Flash",
       "vendorId": "deepseek",
       "vendor": "DeepSeek",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://api-docs.deepseek.com/updates",
@@ -50268,17 +50268,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://ai.google.dev/gemini-api/docs/models",
