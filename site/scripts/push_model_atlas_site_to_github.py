@@ -81,6 +81,20 @@ def is_push_race_error(exc: subprocess.CalledProcessError) -> bool:
 
 def run_git_with_retry(cmd: list[str], cwd: Path, timeout: int = 120, attempts: int = 4) -> subprocess.CompletedProcess[str]:
     last_exc: Exception | None = None
+    # GitHub has a dedicated health-checked proxy route. Try it before the
+    # unreliable direct route; authentication/rejection errors are not outages.
+    proxy_available = any(os.environ.get(key) for key in
+                          ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "all_proxy"))
+    if proxy_available:
+        try:
+            return run([cmd[0], "-c", "http.version=HTTP/1.1", *cmd[1:]], cwd=cwd, timeout=timeout)
+        except subprocess.TimeoutExpired as exc:
+            last_exc = exc
+        except subprocess.CalledProcessError as exc:
+            if not is_transient_git_error(exc):
+                raise
+            last_exc = exc
+        print("[git-retry] configured route failed; trying direct route", file=sys.stderr, flush=True)
     for attempt in range(1, attempts + 1):
         try:
             direct_cmd = [cmd[0], "-c", "http.version=HTTP/1.1", "-c", "http.proxy=", *cmd[1:]]
@@ -137,7 +151,7 @@ def push_with_remote_retry(repo_dir: Path, branch: str, token: str) -> None:
 
 
 def sync_with_remote(repo_dir: Path, branch: str) -> None:
-    run_git_with_retry(["git", "fetch", "origin", branch], cwd=repo_dir, timeout=120)
+    run_git_with_retry(["git", "fetch", "origin", branch], cwd=repo_dir, timeout=45, attempts=2)
     run_git_with_retry(["git", "rebase", "--autostash", f"origin/{branch}"], cwd=repo_dir, timeout=120)
 
 

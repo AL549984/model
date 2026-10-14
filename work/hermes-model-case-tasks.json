@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T13:37:13.286Z",
+  "generatedAt": "2026-10-14T04:26:38.176Z",
   "summary": {
-    "models": 384,
+    "models": 386,
     "activeModels": 115,
     "minACases": 3,
     "targetACases": 5,
@@ -11,10 +11,10 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 795,
-    "allModelTargetDeficit": 1331,
-    "queuedModels": 265,
-    "crawlTargetDeficit": 1311
+    "allModelMinDeficit": 801,
+    "allModelTargetDeficit": 1341,
+    "queuedModels": 267,
+    "crawlTargetDeficit": 1321
   },
   "tasks": [
     {
@@ -54568,6 +54568,286 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for gpt-rosalind-2026-06-update >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-muse-wonder",
+      "modelId": "muse-wonder",
+      "modelName": "Muse Wonder",
+      "vendorId": "meta",
+      "vendor": "Meta",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://ai.meta.com/llama",
+        "https://dev.meta.ai/models/muse-wonder",
+        "https://artificialanalysis.ai/models/muse-wonder"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Muse Wonder Meta case study customer",
+        "Muse Wonder Meta built with GitHub demo",
+        "Muse Wonder Meta production use product blog",
+        "Muse Wonder Meta model card docs API pricing context window",
+        "Muse Wonder Meta 真实使用 案例 项目 开源",
+        "Muse Wonder Meta GitHub README built with",
+        "Muse Wonder Meta B站 使用 案例 demo",
+        "Muse Wonder Meta 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for muse-wonder >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-muse-wonder-full",
+      "modelId": "muse-wonder-full",
+      "modelName": "Muse Wonder Full",
+      "vendorId": "meta",
+      "vendor": "Meta",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://ai.meta.com/llama",
+        "https://dev.meta.ai/models/muse-wonder",
+        "https://artificialanalysis.ai/models/muse-wonder-full"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Muse Wonder Full Meta case study customer",
+        "Muse Wonder Full Meta built with GitHub demo",
+        "Muse Wonder Full Meta production use product blog",
+        "Muse Wonder Full Meta model card docs API pricing context window",
+        "Muse Wonder Full Meta 真实使用 案例 项目 开源",
+        "Muse Wonder Full Meta GitHub README built with",
+        "Muse Wonder Full Meta B站 使用 案例 demo",
+        "Muse Wonder Full Meta 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for muse-wonder-full >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

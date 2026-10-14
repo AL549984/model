@@ -23524,5 +23524,118 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/VfSEwbZlcirvdykn0A0c23usnGf"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "muse-wonder",
+    "name": "Muse Wonder",
+    "slug": "muse-wonder",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Meta 的前沿编程与长时运行智能体模型",
+    "summary": "官方定位覆盖前沿编程、长时运行智能体和高级计算机使用。",
+    "releaseDate": "2026-10-12",
+    "modelId": "muse-wonder",
+    "context": "待核验",
+    "output": "待核验",
+    "modality": "text+computer-use; exact modalities pending",
+    "reasoning": "agentic planning",
+    "price": "待核验",
+    "platforms": [
+      "Meta Model API",
+      "Muse Code"
+    ],
+    "officialLink": "https://ai.meta.com/llama",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "https://ycn3zdw6f1p7.feishu.cn/wiki/GF4dw1swgiGUWykKsyNciwAenVe; AA Intelligence Index 52.39 is third-party.",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "复杂编码、长时运行代理、计算机使用"
+    ],
+    "avoid": [
+      "需要已公开完整规格、价格或许可证的生产接入"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.meta.com/llama",
+      "https://dev.meta.ai/models/muse-wonder",
+      "https://artificialanalysis.ai/models/muse-wonder"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "muse-wonder-full",
+    "name": "Muse Wonder Full",
+    "slug": "muse-wonder-full",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Meta 面向开发者关键工作流的高级 Muse 模型",
+    "summary": "官方称其为当前最先进的模型，面向开发者关键工作流。",
+    "releaseDate": "2026-10-12",
+    "modelId": "muse-wonder-full",
+    "context": "待核验",
+    "output": "待核验",
+    "modality": "待核验",
+    "reasoning": "agentic coding; exact mode pending",
+    "price": "待核验",
+    "platforms": [
+      "Muse Code"
+    ],
+    "officialLink": "https://ai.meta.com/llama",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "https://ycn3zdw6f1p7.feishu.cn/wiki/MkACwGr65iV1hWk9129czUS9nOz; AA Intelligence Index 55.80 is third-party.",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "高复杂度编码、长时运行代理、开发工作流"
+    ],
+    "avoid": [
+      "需要已公开完整规格、价格或许可证的生产接入"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ai.meta.com/llama",
+      "https://dev.meta.ai/models/muse-wonder",
+      "https://artificialanalysis.ai/models/muse-wonder-full"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
