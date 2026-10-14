@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-14",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 698,
-    "manifestedCases": 698,
+    "aCaseCount": 713,
+    "manifestedCases": 713,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 99,
+    "pendingSnapshotCases": 114,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 136,
-    "targets": 1401
+    "targets": 1431
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -160,19 +160,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 99,
-      "targets": 200,
-      "highPriorityCases": 51,
+      "cases": 114,
+      "targets": 230,
+      "highPriorityCases": 62,
       "hosts": [
         {
-          "host": "huggingface.co",
-          "cases": 14,
-          "targets": 27
+          "host": "github.com",
+          "cases": 22,
+          "targets": 40
         },
         {
-          "host": "github.com",
-          "cases": 10,
-          "targets": 17
+          "host": "huggingface.co",
+          "cases": 18,
+          "targets": 34
         },
         {
           "host": "bilibili.com",
@@ -229,6 +229,111 @@
     }
   ],
   "cases": [
+    {
+      "caseId": "antigravity-agent-github-aimingsurvival-study-guide",
+      "modelId": "antigravity-agent",
+      "modelName": "Antigravity Agent",
+      "title": "AimingSurvival built an offline university-question analyzer with Antigravity",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:25:08+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "57546bfd4bdc5a1e33910a960981287e5653b877a9fda876b42fd0a54c8a5de0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/antigravity-agent-github-aimingsurvival-study-guide/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/AimingSurvival/Study-GUIDE",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/antigravity-agent-github-aimingsurvival-study-guide/original-evidence-db10742b87f8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/AimingSurvival/Study-GUIDE",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/antigravity-agent-github-aimingsurvival-study-guide/artifact-1-db10742b87f8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "antigravity-agent-github-dotanminh-travel-optimization-engine",
+      "modelId": "antigravity-agent",
+      "modelName": "Antigravity Agent",
+      "title": "Minh Đỗ built an Antigravity flight-cost optimization agent suite",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:25:08+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "ea20e1eb3678ffc37025037e187ccef3f3eb4ad68028323c373d91297ab6e5e5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/antigravity-agent-github-dotanminh-travel-optimization-engine/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/dotanminh/travel-optimization-engine",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/antigravity-agent-github-dotanminh-travel-optimization-engine/original-evidence-f628fa0f2ffd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/dotanminh/travel-optimization-engine",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/antigravity-agent-github-dotanminh-travel-optimization-engine/artifact-1-f628fa0f2ffd.json"
+        }
+      ]
+    },
+    {
+      "caseId": "antigravity-agent-github-saurrabh1-antigravity-wispr-flow",
+      "modelId": "antigravity-agent",
+      "modelName": "Antigravity Agent",
+      "title": "Saurrabh built a local voice-dictation app with Antigravity",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:25:08+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "6304237fe8256d99e331bef5b87f20db8426077aa783a7e707c46494cd2d74ca",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/antigravity-agent-github-saurrabh1-antigravity-wispr-flow/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/saurrabh1/antigravity-wispr-flow",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/antigravity-agent-github-saurrabh1-antigravity-wispr-flow/original-evidence-b73edccd54d6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/saurrabh1/antigravity-wispr-flow",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/antigravity-agent-github-saurrabh1-antigravity-wispr-flow/artifact-1-b73edccd54d6.json"
+        }
+      ]
+    },
     {
       "caseId": "aws-food-analyzer-haiku",
       "modelId": "claude-3-haiku",
@@ -5364,6 +5469,76 @@
       ]
     },
     {
+      "caseId": "deepseek-v4-pro-0813-sundasheng-football-recorder",
+      "modelId": "deepseek-v4-pro-0813",
+      "modelName": "DeepSeek-V4-Pro-0813",
+      "title": "用 VS Code、Claude Code 与 DeepSeek-V4-Pro-0813 开发足球观赛日志桌面应用",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:48Z",
+      "priority": "high",
+      "evidenceFingerprint": "08d2bfca8203f3f8d576ecf9d759bbc87cf2c8bab9f47dbe0230cd77d42efbd8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v4-pro-0813-sundasheng-football-recorder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Sundasheng0522-stu/football-recorder-for-Guoaner",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v4-pro-0813-sundasheng-football-recorder/original-evidence-8d5447fcc8c9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Sundasheng0522-stu/football-recorder-for-Guoaner",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v4-pro-0813-sundasheng-football-recorder/artifact-1-8d5447fcc8c9.json"
+        }
+      ]
+    },
+    {
+      "caseId": "deepseek-v4-pro-0813-xiji-citrus-letter-8bit",
+      "modelId": "deepseek-v4-pro-0813",
+      "modelName": "DeepSeek-V4-Pro-0813",
+      "title": "用 DeepSeek-V4-Pro-0813 制作《酸橙色信笺》8-bit 音乐播放器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:48Z",
+      "priority": "high",
+      "evidenceFingerprint": "783e0b0bb53f2ddb20d5b63d3a51f242f3fb06d1a12b3ba1900892591f47ac29",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v4-pro-0813-xiji-citrus-letter-8bit/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/XiJi-SUNSET/citrus-letter-8bit/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v4-pro-0813-xiji-citrus-letter-8bit/original-evidence-a8a8a65266a7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/XiJi-SUNSET/citrus-letter-8bit/blob/main/8bit_daw_citrus-letter.html",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v4-pro-0813-xiji-citrus-letter-8bit/artifact-1-54d94e394ce1.json"
+        }
+      ]
+    },
+    {
       "caseId": "deepseek-v4-pro-max-feedsystem-video-go",
       "modelId": "deepseek-v4-pro-max",
       "modelName": "DeepSeek V4 Pro (Max)",
@@ -5430,6 +5605,356 @@
           "url": "https://github.com/86thAuspiciousVerse/RP2040-FLIP",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/deepseek-v4-pro-max-rp2040-flip-firmware-port/artifact-1-c3a1ea348ad7.json"
+        }
+      ]
+    },
+    {
+      "caseId": "deepseek-v41-flash-0xsero-pi-coding-agent",
+      "modelId": "deepseek-v4.1-flash",
+      "modelName": "DeepSeek-V4.1-Flash",
+      "title": "0xSero 将 DeepSeek-V4.1-Flash 接入 Pi 编程 Agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:26:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "fdcd47e60b9634d2617a2540b05c1293de5da028f8bd4b6ca28f56a3e5f8e71d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v41-flash-0xsero-pi-coding-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/0xSero/DeepSeek-V4.1-Flash-Two-Sparks#deepseek-v41-flash-on-two-dgx-sparks",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-0xsero-pi-coding-agent/original-evidence-07346b4b4285.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/0xSero/DeepSeek-V4.1-Flash-Two-Sparks",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-0xsero-pi-coding-agent/artifact-1-d73493ae7a6b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "deepseek-v41-flash-atbender-m1-mac-demo",
+      "modelId": "deepseek-v4.1-flash",
+      "modelName": "DeepSeek-V4.1-Flash",
+      "title": "atbender 在 16GB M1 Mac mini 上流式运行 DeepSeek-V4.1-Flash",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:26:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "da477551528eeac3d3d98454f871af93f79e495a6ff5bd3a1567356d04461294",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v41-flash-atbender-m1-mac-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/atbender/deepseek-v41-flash-mac-mini#deepseek-v4-1-flash-on-a-16-gb-m1-mac-mini",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-atbender-m1-mac-demo/original-evidence-f4de6b2eaeb0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/atbender/deepseek-v41-flash-mac-mini/blob/main/assets/navier-stokes-mac-mini-optimized.mp4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-atbender-m1-mac-demo/artifact-1-fc9ed81401c6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "deepseek-v41-flash-miaai-lab-dgx-sparks",
+      "modelId": "deepseek-v4.1-flash",
+      "modelName": "DeepSeek-V4.1-Flash",
+      "title": "Mia AI Lab 在 3/4 台 DGX Spark 上部署 DeepSeek-V4.1-Flash 长上下文视觉工具服务",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:26:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "ef054791a95abf280b25e5e800e73d70eb10654b132a1c7770bc7dacd6854e75",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v41-flash-miaai-lab-dgx-sparks/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-DGX-Sparks#deepseek-v41-flash-on-3x-and-4x-nvidia-dgx-sparks",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-miaai-lab-dgx-sparks/original-evidence-a6fb71ee4b7a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-DGX-Sparks",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-miaai-lab-dgx-sparks/artifact-1-573f033b4366.json"
+        }
+      ]
+    },
+    {
+      "caseId": "deepseek-v41-flash-sybil-solutions-rtx3090",
+      "modelId": "deepseek-v4.1-flash",
+      "modelName": "DeepSeek-V4.1-Flash",
+      "title": "Sybil Solutions 在单张 RTX 3090 上运行 DeepSeek-V4.1-Flash",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:26:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "48926f69e6b90e56b265273b3d23786be727a8fb05e513905583b916a66ee3aa",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v41-flash-sybil-solutions-rtx3090/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sybil-solutions/dsv41-flash-offload#dsv41-flash-offload",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-sybil-solutions-rtx3090/original-evidence-0c6cdc383dd0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/sybil-solutions/dsv41-flash-offload",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-sybil-solutions-rtx3090/artifact-1-6950f30965b0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "deepseek-v41-flash-tonyd2wild-four-sparks",
+      "modelId": "deepseek-v4.1-flash",
+      "modelName": "DeepSeek-V4.1-Flash",
+      "title": "tonyd2wild 在四台 DGX Spark 上运行 DeepSeek-V4.1-Flash vLLM 服务",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T06:26:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "d3237beb5dcc10c4eae278e2db8cc686e85db78755dcf8c4498842bd9fc80738",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/deepseek-v41-flash-tonyd2wild-four-sparks/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/tonyd2wild/DeepSeek-V4.1-Flash-vLLM-DGX-Spark#deepseek-v41-flash-on-four-nvidia-dgx-sparks-vllm-tp4-dspark-cuda-graphs",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-tonyd2wild-four-sparks/original-evidence-7b1aa114c7a6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/tonyd2wild/DeepSeek-V4.1-Flash-vLLM-DGX-Spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/deepseek-v41-flash-tonyd2wild-four-sparks/artifact-1-7582d48c34ea.json"
+        }
+      ]
+    },
+    {
+      "caseId": "diffusiongemma-26b-a4b-caffin-fp8-demo",
+      "modelId": "diffusiongemma-26b-a4b",
+      "modelName": "DiffusionGemma 26B A4B",
+      "title": "Caffin：用 DiffusionGemma FP8 量化版本提供多模态实时推理演示",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:12Z",
+      "priority": "normal",
+      "evidenceFingerprint": "dbf37b750cbc95a6682bad08777b60863df5407a5d9363bd82125cffe5b8d63e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/diffusiongemma-26b-a4b-caffin-fp8-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/Caffin/diffusiongemma-26b-a4b-it-demo",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-caffin-fp8-demo/original-evidence-40cdf3f6c3a1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/Caffin/diffusiongemma-26b-a4b-it-demo",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-caffin-fp8-demo/artifact-1-40cdf3f6c3a1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "diffusiongemma-26b-a4b-hf-3d-asset-builder",
+      "modelId": "diffusiongemma-26b-a4b",
+      "modelName": "DiffusionGemma 26B A4B",
+      "title": "Hugging Face：用 DiffusionGemma 从文字生成可交互 3D 游戏资产",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:12Z",
+      "priority": "normal",
+      "evidenceFingerprint": "a791acfa199f7537f82e475890fe39e65f685d26892dfa49d4332b5b1f7720f0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/diffusiongemma-26b-a4b-hf-3d-asset-builder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/huggingface-projects/diffusiongemma-3d-gen",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-hf-3d-asset-builder/original-evidence-303fdfb2c56f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/huggingface-projects/diffusiongemma-3d-gen",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-hf-3d-asset-builder/artifact-1-303fdfb2c56f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "diffusiongemma-26b-a4b-hf-website-builder",
+      "modelId": "diffusiongemma-26b-a4b",
+      "modelName": "DiffusionGemma 26B A4B",
+      "title": "Hugging Face：用 DiffusionGemma 实时生成并迭代网页",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:12Z",
+      "priority": "normal",
+      "evidenceFingerprint": "3fd7dcd81860e09df3f8483a39431ef9f6b41a89fbe8542b93f5121c1f5aed0e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/diffusiongemma-26b-a4b-hf-website-builder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/huggingface-projects/diffusiongemma-codegen",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-hf-website-builder/original-evidence-ce427e8b5f28.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/huggingface-projects/diffusiongemma-codegen",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-hf-website-builder/artifact-1-ce427e8b5f28.json"
+        }
+      ]
+    },
+    {
+      "caseId": "diffusiongemma-26b-a4b-openjev-system-one",
+      "modelId": "diffusiongemma-26b-a4b",
+      "modelName": "DiffusionGemma 26B A4B",
+      "title": "OpenJev：用 DiffusionGemma 构建可部署的结构化决策服务",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:12Z",
+      "priority": "high",
+      "evidenceFingerprint": "d0f2f74d1afa7a48af2150ce3effa7565802f06664b327701a14df93c76f916a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/diffusiongemma-26b-a4b-openjev-system-one/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/razorback16/openjev",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-openjev-system-one/original-evidence-e0ea7e03a359.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/razorback16/openjev",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-openjev-system-one/artifact-1-e0ea7e03a359.json"
+        }
+      ]
+    },
+    {
+      "caseId": "diffusiongemma-26b-a4b-radiology-vqa-infill",
+      "modelId": "diffusiongemma-26b-a4b",
+      "modelName": "DiffusionGemma 26B A4B",
+      "title": "Hugging Face Apps / Gevaert Lab：医学影像问答与双向放射科报告补全",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T22:27:12Z",
+      "priority": "normal",
+      "evidenceFingerprint": "132270e20b3e727e84b6cb83ef51ec87c0894d328acc456c8777c7a16c8eeef1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/diffusiongemma-26b-a4b-radiology-vqa-infill/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/hugging-apps/diffusiongemma-radiology-vqa",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-radiology-vqa-infill/original-evidence-0f83a28d1969.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/mxvp/discrete_diffusion_RRG",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/diffusiongemma-26b-a4b-radiology-vqa-infill/artifact-1-2ad51692b597.json"
         }
       ]
     },

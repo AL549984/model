@@ -9553,7 +9553,7 @@
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "DeepSeek V4 Pro GA：1.6T MoE，1M 上下文，Agent 能力大幅提升",
     "summary": "DeepSeek-V4-Pro-0813 是 DeepSeek 于2026年8月13日发布的 V4 Pro 正式版，基于1.6T总参/49B激活参数的 MoE 架构，支持100万token上下文和384K最大输出，核心升级为Agent能力大幅提升与Responses API原生支持。",
@@ -9590,11 +9590,11 @@
     "avoid": [
       "需要完全透明评测口径的场景、需要最新HF权重而非API的场景"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -12067,8 +12067,8 @@
     "slug": "diffusiongemma-26b-a4b",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "DiffusionGemma 26B A4B 独立模型卡",
     "summary": "Google 的独立模型 release；AA Intelligence Index：13.473。",
@@ -12104,11 +12104,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20867,8 +20867,8 @@
     "slug": "deepseek-v4.1-flash",
     "vendorId": "deepseek",
     "vendor": "DeepSeek",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "开放权重多模态MoE；骨干与Engram参数分别计量",
     "summary": "DeepSeek-V4.1-Flash 是深度求索（DeepSeek）于 2026 年 9 月 10 日发布的新一代架构旗舰级轻量模型，原生支持多模态视觉理解，定位为新架构家族中最小成员，兼顾高推理能力上限、更快推理速度和更高吞吐量。",
@@ -20903,11 +20903,11 @@
     "avoid": [
       "需要本地部署或微调的场景、需要闭源模型完全透明的场景"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -21768,7 +21768,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 提供的通用托管 Agent，可在隔离 Linux 环境中规划、运行代码、管理文件和浏览网页。",
     "summary": "Google 提供的通用托管 Agent，可在隔离 Linux 环境中规划、运行代码、管理文件和浏览网页。",
@@ -21803,11 +21803,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
