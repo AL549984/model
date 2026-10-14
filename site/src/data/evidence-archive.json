@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-14",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 688,
-    "manifestedCases": 688,
+    "aCaseCount": 698,
+    "manifestedCases": 698,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 89,
+    "pendingSnapshotCases": 99,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 136,
-    "targets": 1381
+    "targets": 1401
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -160,14 +160,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 89,
-      "targets": 180,
-      "highPriorityCases": 41,
+      "cases": 99,
+      "targets": 200,
+      "highPriorityCases": 51,
       "hosts": [
         {
           "host": "huggingface.co",
-          "cases": 13,
-          "targets": 26
+          "cases": 14,
+          "targets": 27
+        },
+        {
+          "host": "github.com",
+          "cases": 10,
+          "targets": 17
         },
         {
           "host": "bilibili.com",
@@ -198,11 +203,6 @@
           "host": "youtube.com",
           "cases": 3,
           "targets": 5
-        },
-        {
-          "host": "build.nvidia.com",
-          "cases": 2,
-          "targets": 4
         }
       ]
     },
@@ -3400,6 +3400,76 @@
           "url": "https://github.com/opendilab/CleanS2S",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/cleans2s-v25-speech-agent/artifact-1-458a6b7a262f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "command-a-plus-mher-questionnaire-evidence-review-pilot",
+      "modelId": "command-a-plus",
+      "modelName": "Command A+",
+      "title": "Mher-1902's live Command A+ pilot for evidence-backed questionnaire answers",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:18:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "98a13d3b9cb742a62d3101387c18b02b73a9d7f5cb0fad1327ad2a0f979fa6d0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/command-a-plus-mher-questionnaire-evidence-review-pilot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Mher-1902/questionnaire-evidence-review/pull/3",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/command-a-plus-mher-questionnaire-evidence-review-pilot/original-evidence-e3e56f6e77a9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://raw.githubusercontent.com/Mher-1902/questionnaire-evidence-review/experiment/cohere-command-a-plus/experiments/command-a-plus-result.json",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/command-a-plus-mher-questionnaire-evidence-review-pilot/artifact-1-c682af1813b0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "command-a-plus-ruturaj-rag-personal-resource-assistant",
+      "modelId": "command-a-plus",
+      "modelName": "Command A+",
+      "title": "Ruturaj2472's research-paper RAG assistant using Command A+",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:18:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "c8752c1ce04d0ea2260e8eb0bd094ede454751ebaf3a1bfbb800235498bf7835",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/command-a-plus-ruturaj-rag-personal-resource-assistant/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Ruturaj2472/RAG-Personal-Resource-Assitant/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/command-a-plus-ruturaj-rag-personal-resource-assistant/original-evidence-08e49ef43c5c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Ruturaj2472/RAG-Personal-Resource-Assitant",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/command-a-plus-ruturaj-rag-personal-resource-assistant/artifact-1-199865825c20.json"
         }
       ]
     },
@@ -17025,6 +17095,181 @@
       ]
     },
     {
+      "caseId": "north-mini-code-mlx-serve-port-741",
+      "modelId": "north-mini-code",
+      "modelName": "North Mini Code",
+      "title": "mlx-serve added a live local serving backend for North Mini Code",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:17:06Z",
+      "priority": "high",
+      "evidenceFingerprint": "21800a1e5408f238aadce010489a6ca1f3da2da9993bdf7f5b6501d8328f30c0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/north-mini-code-mlx-serve-port-741/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ddalcu/mlx-serve/pull/741",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-mlx-serve-port-741/original-evidence-b0addbcd8b7d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ddalcu/mlx-serve/tree/5d63ccae0488c701eaed442cb37037cc1019aa7f",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-mlx-serve-port-741/artifact-1-e302185b9149.json"
+        }
+      ]
+    },
+    {
+      "caseId": "north-mini-code-northssd-cpu-runtime-2026",
+      "modelId": "north-mini-code",
+      "modelName": "North Mini Code",
+      "title": "NorthSSD built a CPU/NVMe runtime to run North Mini Code on constrained hardware",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:17:06Z",
+      "priority": "high",
+      "evidenceFingerprint": "4ce805c103b33cd243292058bbaa034019de73b6a2e1ddbe0e17626dae6e1c18",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/north-mini-code-northssd-cpu-runtime-2026/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/DestroyerDarkNess/NorthSSD",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-northssd-cpu-runtime-2026/original-evidence-a2ebe5dab005.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/DestroyerDarkNess/NorthSSD/tree/7d889b20",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-northssd-cpu-runtime-2026/artifact-1-fcb79de87b4d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "north-mini-code-ods-fleet-staging-2220",
+      "modelId": "north-mini-code",
+      "modelName": "North Mini Code",
+      "title": "Osmantic ODS staged North Mini Code for multi-host local model deployment",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:17:06Z",
+      "priority": "high",
+      "evidenceFingerprint": "143d5442956a5e629ab7314809a18e65ef092d096c3ad18030da97bdad7c7b74",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/north-mini-code-ods-fleet-staging-2220/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Osmantic/ODS/pull/2220",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-ods-fleet-staging-2220/original-evidence-3dd057fc328c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Osmantic/ODS/tree/77b5e5e0226d39743e18e5dc3a00779ef401a770",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-ods-fleet-staging-2220/artifact-1-db5df0c5d5d6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "north-mini-code-transformerlab-mac-quant-2026",
+      "modelId": "north-mini-code",
+      "modelName": "North Mini Code",
+      "title": "TransformerLab produced a 4-bit Apple Silicon deployment artifact for North Mini Code",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:17:06Z",
+      "priority": "high",
+      "evidenceFingerprint": "7489652853890fa315d8d47c87f1fd71552606d3a4709b27bc51160cf041c441",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/north-mini-code-transformerlab-mac-quant-2026/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/transformerlab/exp-north-mini-code-mac",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-transformerlab-mac-quant-2026/original-evidence-2ea084d50ca2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/transformerlab/exp-north-mini-code-mac/tree/bbf454cd",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-transformerlab-mac-quant-2026/artifact-1-a59c238f4f24.json"
+        }
+      ]
+    },
+    {
+      "caseId": "north-mini-code-vllm-recipes-production-748",
+      "modelId": "north-mini-code",
+      "modelName": "North Mini Code",
+      "title": "vLLM recipe validated North Mini Code serving on RTX 5090 hardware",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:17:06Z",
+      "priority": "high",
+      "evidenceFingerprint": "8ca3249b0e2718bb57532c1fd1e918c5e0d6a2c850222b64c2a5cd44f746b1cf",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/north-mini-code-vllm-recipes-production-748/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/vllm-project/recipes/pull/748",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-vllm-recipes-production-748/original-evidence-f85dc18672e5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/vllm-project/recipes/blob/2d00456eef06ead2d90517207d33b9aaa5072f65/models/CohereLabs/North-Mini-Code-1.0.yaml",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/north-mini-code-vllm-recipes-production-748/artifact-1-e69c3b30ee60.json"
+        }
+      ]
+    },
+    {
       "caseId": "o1-aider-pair-programming-cli",
       "modelId": "o1",
       "modelName": "o1",
@@ -24336,6 +24581,111 @@
           "url": "https://github.com/sjusjdkzhsiqjqbz-rgb/video-vision",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/step-3-7-flash-video-vision-hermes-tool/artifact-1-660c498f2173.json"
+        }
+      ]
+    },
+    {
+      "caseId": "tiny-aya-global-afriguard-sft",
+      "modelId": "tiny-aya-global",
+      "modelName": "Tiny Aya Global",
+      "title": "AfriGuard safety fine-tuning for African-language safety responses",
+      "sourcePlatform": "GitHub + Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:16:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "7faba7ec584569c00aa6ec3a38232a5bf5d5954774f7c0474dbe9d69b2bdca8b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/tiny-aya-global-afriguard-sft/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/IsraelAbebe/AfriGuard-model/pull/1",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/tiny-aya-global-afriguard-sft/original-evidence-0a2f10816318.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/adzcai/AfriGuardPlain-tiny-aya-global-full",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/tiny-aya-global-afriguard-sft/artifact-1-32a8df06f9bf.json"
+        }
+      ]
+    },
+    {
+      "caseId": "tiny-aya-global-darylalim-tiny-aya-translate",
+      "modelId": "tiny-aya-global",
+      "modelName": "Tiny Aya Global",
+      "title": "Tiny Aya Translate: private on-device translation on Apple Silicon",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:16:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "2173578d87e0e2a87555e9ceba3cc73e737fe4045b13575e5b130c1fda50571d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/tiny-aya-global-darylalim-tiny-aya-translate/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/darylalim/tiny-aya-translate/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/tiny-aya-global-darylalim-tiny-aya-translate/original-evidence-0be76f2fb7a0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/darylalim/tiny-aya-translate",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/tiny-aya-global-darylalim-tiny-aya-translate/artifact-1-5730375621f5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "tiny-aya-global-vbookshelf-private-audio-transcriber",
+      "modelId": "tiny-aya-global",
+      "modelName": "Tiny Aya Global",
+      "title": "Private Audio Transcriber: offline multilingual audio translation",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-14T10:16:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "d57fdadbcdfa05033217f270d648460cb9bea6f2a92b58936eb216a9b2a79fee",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/tiny-aya-global-vbookshelf-private-audio-transcriber/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/vbookshelf/Private-Audio-Transcriber-MLX/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/tiny-aya-global-vbookshelf-private-audio-transcriber/original-evidence-70910c774929.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/vbookshelf/Private-Audio-Transcriber-MLX",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/tiny-aya-global-vbookshelf-private-audio-transcriber/artifact-1-cbad9f8bd257.json"
         }
       ]
     }

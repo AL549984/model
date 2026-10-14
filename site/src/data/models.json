@@ -12129,8 +12129,8 @@
     "slug": "north-mini-code",
     "vendorId": "cohere",
     "vendor": "Cohere",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "North Mini Code 独立模型卡",
     "summary": "Cohere 的独立模型 release；AA Intelligence Index：20.169。",
@@ -12166,11 +12166,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -12490,7 +12490,7 @@
     "vendorId": "cohere",
     "vendor": "Cohere",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Command A+ 独立模型卡",
     "summary": "Command A+  是 Cohere 的独立模型 release；Artificial Analysis 当前代表档位为  Command A+ ，AA Intelligence Index 为  22.77 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -12526,11 +12526,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -14592,7 +14592,7 @@
     "vendorId": "cohere",
     "vendor": "Cohere",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Tiny Aya Global 独立模型卡",
     "summary": "Tiny Aya Global  是 Cohere 的独立模型 release；Artificial Analysis 当前代表档位为  Tiny Aya Global ，AA Intelligence Index 为  1.00 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -14628,11 +14628,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 9,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
