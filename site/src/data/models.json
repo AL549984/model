@@ -21496,8 +21496,8 @@
     "slug": "gemini-3-8-live",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 面向低延迟语音 Agent 的 Gemini 3.8 稳定实时模型。",
     "summary": "Google 面向低延迟语音 Agent 的 Gemini 3.8 稳定实时模型。",
@@ -21532,11 +21532,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -21552,7 +21552,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemini 3.8 Live 家族中面向更高后台推理强度的独立稳定型号。",
     "summary": "Gemini 3.8 Live 家族中面向更高后台推理强度的独立稳定型号。",
@@ -21587,11 +21587,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -21826,8 +21826,8 @@
     "slug": "gemini-embedding-2",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 将多种内容映射到统一向量空间的新一代多模态 Embedding 模型。",
     "summary": "Gemini Embedding 2是Google的多模态嵌入模型，2026-03-10发布预览、2026-04-22正式可用。它将文本、图像、视频、音频和PDF映射到统一向量空间；输出是嵌入向量，不是文章或生成视频。",
@@ -21862,11 +21862,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [

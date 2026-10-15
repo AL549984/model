@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-15",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 740,
-    "manifestedCases": 740,
+    "aCaseCount": 753,
+    "manifestedCases": 753,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 141,
+    "pendingSnapshotCases": 154,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1485
+    "targets": 1511
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -161,14 +161,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 141,
-      "targets": 284,
-      "highPriorityCases": 89,
+      "cases": 154,
+      "targets": 310,
+      "highPriorityCases": 102,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 49,
-          "targets": 89
+          "cases": 62,
+          "targets": 115
         },
         {
           "host": "huggingface.co",
@@ -8760,6 +8760,286 @@
       ]
     },
     {
+      "caseId": "gemini-3-8-live-codeat-maps-navigation",
+      "modelId": "gemini-3-8-live",
+      "modelName": "Gemini 3.8 Live",
+      "title": "地图接地的全双工语音导航",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "32ac3f1004f61238015a5edc2b396413e51702456678d399f79d93de95c923f8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-codeat-maps-navigation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/codeat/maps-live-demo#gemini-live-api--google-maps---full-duplex-voice-navigation-demo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-codeat-maps-navigation/original-evidence-8f27381f628c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/codeat/maps-live-demo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-codeat-maps-navigation/artifact-1-863f4a5a8d80.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-dawnaibusiness-travel-guide",
+      "modelId": "gemini-3-8-live",
+      "modelName": "Gemini 3.8 Live",
+      "title": "手机摄像头语音旅行向导",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "60087abfb5886421183665432a8b85291ccd31dcfc808e72dff8a6d390be4c49",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-dawnaibusiness-travel-guide/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/dawnaibusiness-cloud/travel-live#%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%98%D7%99%D7%99%D7%9C%D7%99%D7%9D-%D7%97%D7%99",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-dawnaibusiness-travel-guide/original-evidence-59c8e4b7cd8e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/dawnaibusiness-cloud/travel-live",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-dawnaibusiness-travel-guide/artifact-1-793fa98f1c09.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-emrahmete-voicebot-studio",
+      "modelId": "gemini-3-8-live",
+      "modelName": "Gemini 3.8 Live",
+      "title": "多行业多模态实时语音机器人工作室",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "c81bdd8c7eb40ddcbe41ce410e3478a39c905850f7bc15cbdebfe011af294629",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-emrahmete-voicebot-studio/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/emrahmete/gemini-live-voicebot-studio#%E2%9C%A8-%C3%B6ne-%C3%A7%C4%B1kan-teknik-yetenekler",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-emrahmete-voicebot-studio/original-evidence-d221c91ac968.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/emrahmete/gemini-live-voicebot-studio",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-emrahmete-voicebot-studio/artifact-1-a2e109cbc928.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-extended-thinking-2bac-sm-teacher-chatbot",
+      "modelId": "gemini-3-8-live-extended-thinking",
+      "modelName": "Gemini 3.8 Live Extended Thinking",
+      "title": "Browser voice chatbot with streamed text and audio responses",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "18eac30aa85f15dc2d5d0b04fae532b5fc7ae5402a7b1126105e41170d2818ca",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-extended-thinking-2bac-sm-teacher-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/CALCLUY/2bac-sm-teacher/pull/1",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-extended-thinking-2bac-sm-teacher-chatbot/original-evidence-5431f93b37ad.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/CALCLUY/2bac-sm-teacher",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-extended-thinking-2bac-sm-teacher-chatbot/artifact-1-bf163eb03d97.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-extended-thinking-coderex-mcp-coding-agent",
+      "modelId": "gemini-3-8-live-extended-thinking",
+      "modelName": "Gemini 3.8 Live Extended Thinking",
+      "title": "Coderex interactive coding agent with native MCP and Conductor SDD",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "3c6f7b3e884f788e73e8b1f472d738c11f5cac218db8aceef5db741593d4fda1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-extended-thinking-coderex-mcp-coding-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jeronimo-mg/coderex",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-extended-thinking-coderex-mcp-coding-agent/original-evidence-bb814dfc427c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jeronimo-mg/coderex",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-extended-thinking-coderex-mcp-coding-agent/artifact-1-bb814dfc427c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-extended-thinking-voice-ecommerce-demo",
+      "modelId": "gemini-3-8-live-extended-thinking",
+      "modelName": "Gemini 3.8 Live Extended Thinking",
+      "title": "Voice e-commerce demo integration with Gemini Live extended thinking",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "f90b7d1cfd7779c76c4bf734356a71adf7938abdf37474ff90a73924f412a9c7",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-extended-thinking-voice-ecommerce-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/aditya-vithaldas/voice-ecommerce-demo/pull/4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-extended-thinking-voice-ecommerce-demo/original-evidence-dda3735facf4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/aditya-vithaldas/voice-ecommerce-demo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-extended-thinking-voice-ecommerce-demo/artifact-1-40ef422ae531.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-kkrishnan-commentary-translation",
+      "modelId": "gemini-3-8-live",
+      "modelName": "Gemini 3.8 Live",
+      "title": "体育解说实时多语言语音翻译",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "9346b07177b6fa033e4cb60fe32d21230b7c86d1ebf26779b890bb6740bf9e51",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-kkrishnan-commentary-translation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/kkrishnan90/Gemini-Live-Commentary-Translation#gemini-live-commentary-translation",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-kkrishnan-commentary-translation/original-evidence-b92cff4ddf1a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kkrishnan90/Gemini-Live-Commentary-Translation",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-kkrishnan-commentary-translation/artifact-1-561383911b69.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-live-samwit-avatar-demos",
+      "modelId": "gemini-3-8-live",
+      "modelName": "Gemini 3.8 Live",
+      "title": "Gemini Live Avatar 多场景浏览器演示套件",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "0b188d448c16cd36cc57ca65c735b14825d286b958ffc589aa6a7083efe623da",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-live-samwit-avatar-demos/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/samwit/gemini-live-avatars-demos#the-demos",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-samwit-avatar-demos/original-evidence-7b468367a168.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/samwit/gemini-live-avatars-demos",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-live-samwit-avatar-demos/artifact-1-478bee9ea0a3.json"
+        }
+      ]
+    },
+    {
       "caseId": "gemini-3-flash-codedbyarkan-codelens",
       "modelId": "gemini-3-flash",
       "modelName": "Gemini 3 Flash",
@@ -9106,6 +9386,181 @@
           "url": "https://github.com/EkiAhmad/travel-buddy-ai",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-travel-buddy-eki-ahmad/artifact-1-0f9dd9ad2c92.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-embedding-2-github-audio-kb",
+      "modelId": "gemini-embedding-2",
+      "modelName": "Gemini Embedding 2",
+      "title": "LlamaIndex audio-kb：音频笔记本地存储与语义搜索",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "fdaf099bafb50e9e07bfaa9eedb00974cb8973bda3b7105b40f27f15a4d38250",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-embedding-2-github-audio-kb/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/run-llama/audio-kb/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-audio-kb/original-evidence-fa6b1c276670.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/run-llama/audio-kb",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-audio-kb/artifact-1-8be422860064.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-embedding-2-github-canned-emotions",
+      "modelId": "gemini-embedding-2",
+      "modelName": "Gemini Embedding 2",
+      "title": "Canned-Emotions：Android 本地音乐智能播放与描述检索",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "36cbc9bfbc78134f324c83885793620a3da5932a22e3bc039148057d6b38bdaf",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-embedding-2-github-canned-emotions/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bbblllllocck/Canned-Emotions/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-canned-emotions/original-evidence-b2f5d1ba00c7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bbblllllocck/Canned-Emotions/releases",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-canned-emotions/artifact-1-236dbd9771e2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-embedding-2-github-mcp-server",
+      "modelId": "gemini-embedding-2",
+      "modelName": "Gemini Embedding 2",
+      "title": "Gemini Embedding 2 MCP Server：给 AI Agent 提供本地多模态记忆",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "fe6ddc956f0d20e0ad70377164d489c1e6c167d6357318dcf433e7917a985019",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-embedding-2-github-mcp-server/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/AlaeddineMessadi/gemini-embedding-2-mcp-server/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-mcp-server/original-evidence-f5732b4c4ccc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/AlaeddineMessadi/gemini-embedding-2-mcp-server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-mcp-server/artifact-1-a3b455d82cad.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-embedding-2-github-sentrysearch",
+      "modelId": "gemini-embedding-2",
+      "modelName": "Gemini Embedding 2",
+      "title": "SentrySearch：视频片段语义检索与自动剪辑",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "ecca9328e6c3c9436f5d625512d62f4a3467c5e0b9af2ec94fc660759203a0dd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-embedding-2-github-sentrysearch/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ssrajadh/sentrysearch/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-sentrysearch/original-evidence-56ad12be1bfe.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ssrajadh/sentrysearch",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-sentrysearch/artifact-1-3f77ffd898f0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-embedding-2-github-vector-embedded-finder",
+      "modelId": "gemini-embedding-2",
+      "modelName": "Gemini Embedding 2",
+      "title": "vector-embedded-finder：本地多模态记忆与 Raycast 搜索",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T22:56:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "3b00f850b90d82be64dce156df3b6b6f581132569f9285edec58d8670118675a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-embedding-2-github-vector-embedded-finder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/hughminhphan/vector-embedded-finder/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-vector-embedded-finder/original-evidence-1ec83cabc910.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/hughminhphan/vector-embedded-finder",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-embedding-2-github-vector-embedded-finder/artifact-1-232599d72bb1.json"
         }
       ]
     },
