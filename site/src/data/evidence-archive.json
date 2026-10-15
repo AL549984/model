@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-15",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 731,
-    "manifestedCases": 731,
+    "aCaseCount": 740,
+    "manifestedCases": 740,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 132,
+    "pendingSnapshotCases": 141,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1467
+    "targets": 1485
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -161,14 +161,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 132,
-      "targets": 266,
-      "highPriorityCases": 80,
+      "cases": 141,
+      "targets": 284,
+      "highPriorityCases": 89,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 40,
-          "targets": 75
+          "cases": 49,
+          "targets": 89
         },
         {
           "host": "huggingface.co",
@@ -201,8 +201,8 @@
           "targets": 6
         },
         {
-          "host": "youtube.com",
-          "cases": 3,
+          "host": "raw.githubusercontent.com",
+          "cases": 5,
           "targets": 5
         }
       ]
@@ -8441,6 +8441,321 @@
           "url": "https://github.com/Kodge0001/WarrantyWala",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-warrantywala-kodge0001/artifact-1-de23330128b8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-cagrikacmaz-civilization-lab",
+      "modelId": "gemini-3-8-flash",
+      "modelName": "Gemini 3.8 Flash",
+      "title": "Cagri Kacmaz's Gemini-built 3D civilization simulation",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T16:50:57Z",
+      "priority": "high",
+      "evidenceFingerprint": "c6b96c881d3c1961834b0bf3481cc3f0efddf1a54949ca125d4099edbc3e72cf",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-cagrikacmaz-civilization-lab/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/cagrikacmaz/gpt-6-astra-vs-gemini-3-8-flash/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-cagrikacmaz-civilization-lab/original-evidence-77350390ace4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/cagrikacmaz/gpt-6-astra-vs-gemini-3-8-flash",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-cagrikacmaz-civilization-lab/artifact-1-85329a4785f1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-cyber-google-chrome-security-correct-patches",
+      "modelId": "gemini-3-8-flash-cyber",
+      "modelName": "Gemini 3.8 Flash Cyber",
+      "title": "Chrome Security uses Gemini 3.8 Flash Cyber to improve vulnerability patching",
+      "sourcePlatform": "official_web",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T16:49:54Z",
+      "priority": "high",
+      "evidenceFingerprint": "4000c3f50b0d3e67de2478d708f7b2859f1a6b3212b6b39c9b6943487e3fe61a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-cyber-google-chrome-security-correct-patches/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "host": "blog.google",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-cyber-google-chrome-security-correct-patches/original-evidence-1e5b8618d900.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/chromium/chromium",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-cyber-google-chrome-security-correct-patches/artifact-1-f265cda06c30.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-lite-tts-ahanafy-audiobook-app",
+      "modelId": "gemini-3-8-flash-lite-tts",
+      "modelName": "Gemini 3.8 Flash-Lite TTS",
+      "title": "ahanafy41 将 Gemini 3.8 Flash-Lite TTS 用于无障碍 Android 有声书生成器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T16:50:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "6804d04e75647fd23fa9fe15bdc0eb6891c20f3bc49068605076868e95774d67",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-lite-tts-ahanafy-audiobook-app/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/ahanafy41/gemini-audiobook-tts/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-lite-tts-ahanafy-audiobook-app/original-evidence-20f1cd7c137f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ahanafy41/gemini-audiobook-tts/releases/latest",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-lite-tts-ahanafy-audiobook-app/artifact-1-bcc0e397dd14.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-lite-tts-kuramubon-web-studio",
+      "modelId": "gemini-3-8-flash-lite-tts",
+      "modelName": "Gemini 3.8 Flash-Lite TTS",
+      "title": "kuramubon1122 将 Gemini 3.8 Flash-Lite TTS 集成到公开 Web TTS/Voice Replication Studio",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T16:50:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "f3afd1ede811b0caa2dac85a721dfa2517b3821fc4b6ab1f7f77392b4351b3b2",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-lite-tts-kuramubon-web-studio/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/kuramubon1122/WEB-to-Gemini-3.8-Flash-TTS/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-lite-tts-kuramubon-web-studio/original-evidence-ae9b4f6b10dd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kuramubon1122/WEB-to-Gemini-3.8-Flash-TTS",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-lite-tts-kuramubon-web-studio/artifact-1-019d4ad23ee3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-lite-tts-rob-tar97-agent-skill",
+      "modelId": "gemini-3-8-flash-lite-tts",
+      "modelName": "Gemini 3.8 Flash-Lite TTS",
+      "title": "RobTar97 用 Gemini 3.8 Flash-Lite TTS 构建并验证可安装的 Agent TTS Skill",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T16:50:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "2764b8ba89cf8982556199543e9a67fdc046e3f785face57fa063b430355e171",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-lite-tts-rob-tar97-agent-skill/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/RobTar97/gemini-3-8-tts-skill/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-lite-tts-rob-tar97-agent-skill/original-evidence-ba6942aee5e7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/RobTar97/gemini-3-8-tts-skill",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-lite-tts-rob-tar97-agent-skill/artifact-1-0c57a9af7266.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-renuhowareu-agent",
+      "modelId": "gemini-3-8-flash",
+      "modelName": "Gemini 3.8 Flash",
+      "title": "renuhowareu-wq's autonomous tool-calling agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T16:50:57Z",
+      "priority": "high",
+      "evidenceFingerprint": "72a9664df36585e2fbebca0bfea65da20b401156471946dbdf5ba95ae92d4a9d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-renuhowareu-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/renuhowareu-wq/ai-agent/blob/main/agent.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-renuhowareu-agent/original-evidence-1add8f457464.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/renuhowareu-wq/ai-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-renuhowareu-agent/artifact-1-07a3e548e531.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-tts-drchunchihchen-procedural-cartoon-video",
+      "modelId": "gemini-3-8-flash-tts",
+      "modelName": "Gemini 3.8 Flash TTS",
+      "title": "DrChunChihChen 的程序化卡通教学视频制作管线",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T00:49:32+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "2455cd68c3b6ab3c7511ec0d115823defb9abd6840cbf2540d9042759b7b2324",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-tts-drchunchihchen-procedural-cartoon-video/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/DrChunChihChen/procedural-cartoon-video/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-tts-drchunchihchen-procedural-cartoon-video/original-evidence-d776a0541f56.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/DrChunChihChen/procedural-cartoon-video",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-tts-drchunchihchen-procedural-cartoon-video/artifact-1-34cd142e5952.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-tts-kkdai-song-lingo",
+      "modelId": "gemini-3-8-flash-tts",
+      "modelName": "Gemini 3.8 Flash TTS",
+      "title": "kkdai 的歌曲语言学习 Web 应用",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T00:49:32+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "0f8d7e56d74baed3c0a6d39211097c5487a05a8b5743bf3598a46a195ae71064",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-tts-kkdai-song-lingo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/kkdai/song-lingo/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-tts-kkdai-song-lingo/original-evidence-80779ac3090c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kkdai/song-lingo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-tts-kkdai-song-lingo/artifact-1-989d1d49ec16.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-8-flash-tts-paulkinlan-audio-feed",
+      "modelId": "gemini-3-8-flash-tts",
+      "modelName": "Gemini 3.8 Flash TTS",
+      "title": "Paul Kinlan 的个人文章转播客订阅系统",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T00:49:32+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "9f84324bd66008c2720b6f527c38a2d62fb89bb7c7a165ff3c4c66a85928c2bc",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-8-flash-tts-paulkinlan-audio-feed/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/PaulKinlan/audio-feed/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-tts-paulkinlan-audio-feed/original-evidence-94ac12991f75.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/PaulKinlan/audio-feed",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-8-flash-tts-paulkinlan-audio-feed/artifact-1-86c14bff780d.json"
         }
       ]
     },

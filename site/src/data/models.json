@@ -10240,7 +10240,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 新一代低延迟、高吞吐多模态 Flash 模型。",
     "summary": "支持 1M 输入上下文、64K 输出与多档 Thinking，已进入 GA。",
@@ -10280,11 +10280,11 @@
       "要求开放权重",
       "复杂代理任务无权限隔离"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -10423,7 +10423,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "通过 Fairwind Program 向受信任防御方提供的漏洞发现与自动修补模型。",
     "summary": "与 Gemini 3.8 Flash 共享基础智能，针对网络安全与长周期 Agent 工作流强化，并采用更宽松的防御性安全策略。",
@@ -10463,11 +10463,11 @@
       "未经授权的渗透测试",
       "没有成熟安全治理的团队"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -21605,7 +21605,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 面向录音棚级语音保真、表达控制和声音设计的旗舰 TTS 模型。",
     "summary": "Google 面向录音棚级语音保真、表达控制和声音设计的旗舰 TTS 模型。",
@@ -21640,11 +21640,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -21660,7 +21660,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 面向高吞吐、低成本生产任务的 Gemini 3.8 Flash-Lite TTS 稳定型号。",
     "summary": "Google 面向高吞吐、低成本生产任务的 Gemini 3.8 Flash-Lite TTS 稳定型号。",
@@ -21695,11 +21695,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
