@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-15",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 713,
-    "manifestedCases": 713,
+    "aCaseCount": 723,
+    "manifestedCases": 723,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 114,
+    "pendingSnapshotCases": 124,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 136,
-    "targets": 1431
+    "uniqueHosts": 137,
+    "targets": 1451
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -59,6 +59,7 @@
     "dc5fzrbo8ssfx.cloudfront.net",
     "deepcellseek.kiz.ac.cn",
     "deepinfra.com",
+    "deepmind.google",
     "dev.to",
     "devin.ai",
     "dingtalk.com",
@@ -160,14 +161,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 114,
-      "targets": 230,
-      "highPriorityCases": 62,
+      "cases": 124,
+      "targets": 250,
+      "highPriorityCases": 72,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 22,
-          "targets": 40
+          "cases": 32,
+          "targets": 59
         },
         {
           "host": "huggingface.co",
@@ -8160,6 +8161,356 @@
           "url": "https://github.com/OmuNaman/reddit-trending-analysis",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/gemini-3-1-pro-preview-case-reddit-intel/artifact-1-006dad3c177c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-5-flash-cnemri-tuni-folk-gemini",
+      "modelId": "gemini-3-5-flash",
+      "modelName": "Gemini 3.5 Flash",
+      "title": "tuni-folk-gemini：用 Gemini 3.5 Flash 微调突尼斯民间诗歌生成模型",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:34:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "887f80207bd0d2fc2afb9c5160aac0c56e6b6ac76c4be63ab0d3b42cacd35fd1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-5-flash-cnemri-tuni-folk-gemini/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/cnemri/tuni-folk-gemini/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-cnemri-tuni-folk-gemini/original-evidence-c86669a0b515.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/cnemri/tuni-folk-gemini",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-cnemri-tuni-folk-gemini/artifact-1-7eb8bf0a704f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-5-flash-coleam00-frontend-mix",
+      "modelId": "gemini-3-5-flash",
+      "modelName": "Gemini 3.5 Flash",
+      "title": "frontend-mix：用 Gemini 3.5 Flash 完成混合模型前端构建流程中的 UI 设计阶段",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:34:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "d9ae0937e47413daf2dc6da1894008e5c01b2e40cdb5a98b774b2ea1b33fbb88",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-5-flash-coleam00-frontend-mix/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/coleam00/frontend-mix/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-coleam00-frontend-mix/original-evidence-94f691e433b5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/coleam00/frontend-mix",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-coleam00-frontend-mix/artifact-1-ac520ffbd16f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-5-flash-cyber-google-deepmind-codemender",
+      "modelId": "gemini-3-5-flash-cyber",
+      "modelName": "Gemini 3.5 Flash Cyber",
+      "title": "Google DeepMind powers CodeMender with Gemini 3.5 Flash Cyber for automated vulnerability discovery and patching",
+      "sourcePlatform": "official_web",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:34:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "ce402e84bff661affe8bc9eec2ca8c0b6c75e682692146c1f7709a186840d278",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-5-flash-cyber-google-deepmind-codemender/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+          "host": "deepmind.google",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-cyber-google-deepmind-codemender/original-evidence-b5de177ccc83.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/google-deepmind/codemender",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-cyber-google-deepmind-codemender/artifact-1-6ee5a7cfaed1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-5-flash-marwanef98-math-grader",
+      "modelId": "gemini-3-5-flash",
+      "modelName": "Gemini 3.5 Flash",
+      "title": "Gemini Math Grader：视觉批改并标注手写数学作业",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:34:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "29f69727cc93cd239a7df7ab77ed398825b035bcbe75f61d2a4bc7f9ac7ea710",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-5-flash-marwanef98-math-grader/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/MarwaneF98/gemini-math-grader/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-marwanef98-math-grader/original-evidence-971bc00c09d2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/MarwaneF98/gemini-math-grader",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-marwanef98-math-grader/artifact-1-68d16e03b581.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-5-flash-toolittlecakes-pi-audio-read",
+      "modelId": "gemini-3-5-flash",
+      "modelName": "Gemini 3.5 Flash",
+      "title": "pi-gemini-audio-read：为 Gemini 3.5 Flash coding agent 增加原生音频读取",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:34:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "5f03d44683cfa9b01ad76d4dd02d07c65ecfe243bc7389933be3368652fa6c98",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-5-flash-toolittlecakes-pi-audio-read/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/toolittlecakes/pi-gemini-audio-read/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-toolittlecakes-pi-audio-read/original-evidence-60b00c91068c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/toolittlecakes/pi-gemini-audio-read",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-5-flash-toolittlecakes-pi-audio-read/artifact-1-69bdb0fd8971.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-flash-codedbyarkan-codelens",
+      "modelId": "gemini-3-flash",
+      "modelName": "Gemini 3 Flash",
+      "title": "CodeLens browser code-review tool powered by Gemini 3 Flash Preview",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:35:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "3ebdea80c182d128097276d533ff0d5ee37e7ada2d66a24583eb32876353ab68",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-flash-codedbyarkan-codelens/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/codedbyarkan/CodeLens/blob/HEAD/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-codedbyarkan-codelens/original-evidence-7c3ecbc50a63.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/codedbyarkan/CodeLens",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-codedbyarkan-codelens/artifact-1-e723fed5679d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-flash-duloew-telegram-receipt-tracker",
+      "modelId": "gemini-3-flash",
+      "modelName": "Gemini 3 Flash",
+      "title": "Telegram receipt and expense tracker using Gemini 3 Flash Preview",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:35:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "759248f935b22a137fd60dfaba63cafa4ad6bd83e06a473583d8a0216093dead",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-flash-duloew-telegram-receipt-tracker/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/DuloeW/bot-money-tracking-with-gemini-3-flash-preview/blob/98b9b1b8da0616d20da3de9673b695189b3c469b/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-duloew-telegram-receipt-tracker/original-evidence-2f640ed4a965.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/DuloeW/bot-money-tracking-with-gemini-3-flash-preview",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-duloew-telegram-receipt-tracker/artifact-1-2f6aba103aad.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-flash-iametornam-whatsapp-agent",
+      "modelId": "gemini-3-flash",
+      "modelName": "Gemini 3 Flash",
+      "title": "WhatsApp AI bot with Gemini 3 Flash Preview and tool actions",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:35:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "e9274bc6e309f94fe58baa5156f17881c19236001355ef6aeeaff6489851b9f9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-flash-iametornam-whatsapp-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/iamEtornam/WhatsApp-agent/blob/aacaa6c141297a6420ee986ed646c5bc926dca92/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-iametornam-whatsapp-agent/original-evidence-1a7c258d65ee.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/iamEtornam/WhatsApp-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-iametornam-whatsapp-agent/artifact-1-331f4446b094.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-flash-jimmyliao-io26-countdown",
+      "modelId": "gemini-3-flash",
+      "modelName": "Gemini 3 Flash",
+      "title": "Google I/O 2026 interactive countdown made with Gemini 3 Flash Preview",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:35:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "4ebad3f591ca2e350ae43f1c829d214f01a6c388cc14011d47a58e7c7a060f41",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-flash-jimmyliao-io26-countdown/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jimmyliao/io26-code-the-countdown/blob/583daeea07353dd9bbac40ef35172827334ed938/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-jimmyliao-io26-countdown/original-evidence-0554c0291fe5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jimmyliao/io26-code-the-countdown",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-jimmyliao-io26-countdown/artifact-1-aa8e2e9bdece.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-flash-run-llama-fs-explorer",
+      "modelId": "gemini-3-flash",
+      "modelName": "Gemini 3 Flash",
+      "title": "Run Llama fs-explorer CLI agent for directory and document exploration",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T04:35:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "e67ff8ce5edae8d2eb0620eeb9c9ab5f57337d417a6d222fdbe80262107a3c1a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-flash-run-llama-fs-explorer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/run-llama/fs-explorer/blob/aeb1e2e017f064d827321f786198524fce92d6c3/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-run-llama-fs-explorer/original-evidence-d3c99f44bca1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/run-llama/fs-explorer",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-run-llama-fs-explorer/artifact-1-5293bc467a21.json"
         }
       ]
     },

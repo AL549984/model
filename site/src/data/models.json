@@ -8316,7 +8316,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "基于 Gemini 3.5 Flash 的网络安全专项模型。",
     "summary": "Gemini 3.5 Flash Cyber 用于高频发现、验证和修复软件漏洞，目前通过 CodeMender 受限试点部署。",
@@ -8354,11 +8354,11 @@
       "普通开发者通用任务",
       "无安全隔离的自动执行"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20438,7 +20438,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemini 3.5 Flash：独立模型版本",
     "summary": "Gemini 3.5 Flash 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20474,11 +20474,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 8,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23245,8 +23245,8 @@
     "slug": "gemini-3-flash",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "已有 Wiki 卡的 Atlas 补登记",
     "summary": "保留已有模型卡事实；历史版本和当前可用性需逐字段完成来源核验后再公开。",
@@ -23281,11 +23281,11 @@
     "avoid": [
       "缺少真实案例时不要包装成推荐"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 11,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
