@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-15",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 723,
-    "manifestedCases": 723,
+    "aCaseCount": 731,
+    "manifestedCases": 731,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 124,
+    "pendingSnapshotCases": 132,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1451
+    "targets": 1467
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -161,14 +161,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 124,
-      "targets": 250,
-      "highPriorityCases": 72,
+      "cases": 132,
+      "targets": 266,
+      "highPriorityCases": 80,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 32,
-          "targets": 59
+          "cases": 40,
+          "targets": 75
         },
         {
           "host": "huggingface.co",
@@ -8340,6 +8340,111 @@
       ]
     },
     {
+      "caseId": "gemini-3-7-flash-aerorelief-ai-team-spectronz",
+      "modelId": "gemini-3-7-flash",
+      "modelName": "Gemini 3.7 Flash",
+      "title": "AeroRelief AI：飓风灾害预警与基础设施风险研判",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T18:43:09+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "50b86e0f3dad9752e67e967431f53589ba16cee09ce0554590f69954aa3c4304",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-7-flash-aerorelief-ai-team-spectronz/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/soumyadeepmagnusx/aerorelief-ai/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-aerorelief-ai-team-spectronz/original-evidence-1e1fb13443a2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/soumyadeepmagnusx/aerorelief-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-aerorelief-ai-team-spectronz/artifact-1-00f95133facb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-7-flash-ai-resume-analyzer-kishan-jangid",
+      "modelId": "gemini-3-7-flash",
+      "modelName": "Gemini 3.7 Flash",
+      "title": "AI Resume Analyzer：ATS 简历解析、匹配评分与定向优化",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T18:43:09+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "3bde4cdcb56efd210c7cad53ab47f53464c8889a68f6b441efefc12af7794176",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-7-flash-ai-resume-analyzer-kishan-jangid/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/KishanJangid5/AI_Resume_Analyser-/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-ai-resume-analyzer-kishan-jangid/original-evidence-eb1bed816f78.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/KishanJangid5/AI_Resume_Analyser-",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-ai-resume-analyzer-kishan-jangid/artifact-1-67b10018aac7.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-3-7-flash-warrantywala-kodge0001",
+      "modelId": "gemini-3-7-flash",
+      "modelName": "Gemini 3.7 Flash",
+      "title": "WarrantyWala：发票 OCR、保修归档与消费者维权文书生成",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T18:43:09+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "f20ba6ac31050516c332d3e7921fbcdd6d69fe10fb73499c9b4924ffe80773fc",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-3-7-flash-warrantywala-kodge0001/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Kodge0001/WarrantyWala/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-warrantywala-kodge0001/original-evidence-e6ad224b3e38.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Kodge0001/WarrantyWala",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-3-7-flash-warrantywala-kodge0001/artifact-1-de23330128b8.json"
+        }
+      ]
+    },
+    {
       "caseId": "gemini-3-flash-codedbyarkan-codelens",
       "modelId": "gemini-3-flash",
       "modelName": "Gemini 3 Flash",
@@ -8511,6 +8616,181 @@
           "url": "https://github.com/run-llama/fs-explorer",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/gemini-3-flash-run-llama-fs-explorer/artifact-1-5293bc467a21.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-35-flash-lite-invoice-reconciliation-rodrigo2704-dot",
+      "modelId": "gemini-35-flash-lite",
+      "modelName": "Gemini 3.5 Flash-Lite",
+      "title": "Invoice extraction and Tango Gestión reconciliation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T10:44:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "38b74e1c4459fe69ccacbb400841f2632f4d3bb3729bc67799644dfe9f1e2253",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-35-flash-lite-invoice-reconciliation-rodrigo2704-dot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/rodrigo2704-dot/lector-facturas-app",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-invoice-reconciliation-rodrigo2704-dot/original-evidence-c97478a4a86c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/rodrigo2704-dot/lector-facturas-app",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-invoice-reconciliation-rodrigo2704-dot/artifact-1-c97478a4a86c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-35-flash-lite-lisa-ai-danyalkhattak",
+      "modelId": "gemini-35-flash-lite",
+      "modelName": "Gemini 3.5 Flash-Lite",
+      "title": "Lisa AI browser voice assistant",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T10:44:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "0c60e6b78f05177985106c69f3a2f2919a30c2f459ca577ddf9a4a365fd52dda",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-35-flash-lite-lisa-ai-danyalkhattak/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Danyalkhattak/lisa-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-lisa-ai-danyalkhattak/original-evidence-e261c0681ddb.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Danyalkhattak/lisa-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-lisa-ai-danyalkhattak/artifact-1-e261c0681ddb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-35-flash-lite-retailiq-dhanushyasomu",
+      "modelId": "gemini-35-flash-lite",
+      "modelName": "Gemini 3.5 Flash-Lite",
+      "title": "RetailIQ sales and inventory copilot",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T10:44:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "9a44cdbc205b9bffde66d57760881cf17761410d6b18d03c8f9ae2523da779c0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-35-flash-lite-retailiq-dhanushyasomu/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/DhanushyaSomu/RetailIQ-AI-Sales-Inventory-Copilot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-retailiq-dhanushyasomu/original-evidence-636d41d76de4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/DhanushyaSomu/RetailIQ-AI-Sales-Inventory-Copilot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-retailiq-dhanushyasomu/artifact-1-636d41d76de4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-35-flash-lite-sharley-server-hasancooksfr",
+      "modelId": "gemini-35-flash-lite",
+      "modelName": "Gemini 3.5 Flash-Lite",
+      "title": "Sharley AI server for conversational assistance",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T10:44:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "310e9e6b12e425c92f6abf0be3dbeb97900300d0bb0c4ff0a2d93c07ffef1c99",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-35-flash-lite-sharley-server-hasancooksfr/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/hasancooksfr/SharleyV2-Server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-sharley-server-hasancooksfr/original-evidence-400071af6617.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/hasancooksfr/SharleyV2-Server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-sharley-server-hasancooksfr/artifact-1-400071af6617.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-35-flash-lite-travel-buddy-eki-ahmad",
+      "modelId": "gemini-35-flash-lite",
+      "modelName": "Gemini 3.5 Flash-Lite",
+      "title": "Travel Buddy AI trip-planning assistant",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-15T10:44:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "b86cf303891fe18da4613d6a22f7e097e57cd779735a5abfaf388ea28542a588",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-35-flash-lite-travel-buddy-eki-ahmad/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/EkiAhmad/travel-buddy-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-travel-buddy-eki-ahmad/original-evidence-0f9dd9ad2c92.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/EkiAhmad/travel-buddy-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-35-flash-lite-travel-buddy-eki-ahmad/artifact-1-0f9dd9ad2c92.json"
         }
       ]
     },
