@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-16",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 784,
-    "manifestedCases": 784,
+    "aCaseCount": 788,
+    "manifestedCases": 788,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 185,
+    "pendingSnapshotCases": 189,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 138,
-    "targets": 1573
+    "targets": 1581
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -162,19 +162,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 185,
-      "targets": 372,
-      "highPriorityCases": 133,
+      "cases": 189,
+      "targets": 380,
+      "highPriorityCases": 135,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 93,
-          "targets": 176
+          "cases": 95,
+          "targets": 179
         },
         {
           "host": "huggingface.co",
-          "cases": 18,
-          "targets": 34
+          "cases": 21,
+          "targets": 39
         },
         {
           "host": "bilibili.com",
@@ -14398,6 +14398,146 @@
           "url": "https://github.com/openai/completions-responses-migration-pack",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/gpt5codex-high-005/artifact-1-6dfa8b530681.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-0-350m-aoliyougei-granite-controller",
+      "modelId": "granite-4-0-350m",
+      "modelName": "Granite 4.0 350M",
+      "title": "Granite Controller：用 Granite 4.0 350M 驱动 Proxmox VE 中文虚拟机操作控制器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T11:10:27Z",
+      "priority": "high",
+      "evidenceFingerprint": "107cecaf6452cd7149480b9e36eb064bd5d94ac4c3e13802a6fe73dfeda88925",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-0-350m-aoliyougei-granite-controller/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/aoliyougei/Granite-Controller/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-350m-aoliyougei-granite-controller/original-evidence-7ab3e16bb654.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/aoliyougei/Granite-Controller",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-350m-aoliyougei-granite-controller/artifact-1-89450c576cff.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-0-h-350m-lendsafe-loan-explanation",
+      "modelId": "granite-4-0-h-350m",
+      "modelName": "Granite 4.0 H 350M",
+      "title": "LendSafe: FCRA/ECOA-compliant loan decision explanations",
+      "sourcePlatform": "Hugging Face / GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T11:11:41Z",
+      "priority": "high",
+      "evidenceFingerprint": "e3f940718a91b6b71dc14452bd4dc4ed9ce93729b8d7131ed717ef74acfb134d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-0-h-350m-lendsafe-loan-explanation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/notatharva0699/lendsafe",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-350m-lendsafe-loan-explanation/original-evidence-49ec07fc8c8b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ad2546/LendSafe",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-350m-lendsafe-loan-explanation/artifact-1-b4d4c7a953ac.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-0-h-350m-mamba2-interpretability-suite",
+      "modelId": "granite-4-0-h-350m",
+      "modelName": "Granite 4.0 H 350M",
+      "title": "Granite 4.0 Mamba-2 interpretability and causal-circuit analysis suite",
+      "sourcePlatform": "Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T11:11:41Z",
+      "priority": "normal",
+      "evidenceFingerprint": "b4fb8035178b5a880658878506234ae84bfa637bcf6a02790cfc4ff47ef8c116",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-0-h-350m-mamba2-interpretability-suite/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/humanjesse/Granite4-Mamba2-Mech-Interp",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-350m-mamba2-interpretability-suite/original-evidence-6b18cf7615f4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/humanjesse/Granite4-Mamba2-Mech-Interp/tree/main",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-350m-mamba2-interpretability-suite/artifact-1-c7cf456ba281.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-0-h-small-akhaliq-hf-zero-gpu-chat",
+      "modelId": "granite-4-0-h-small",
+      "modelName": "Granite 4.0 H Small",
+      "title": "akhaliq 部署 IBM Granite 4.0 H Small 公共对话应用",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T19:09:22+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "560e4c096087e395f7d8d251fd6ecd3c7128c7d48a3e8a35610efa77721777c8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-0-h-small-akhaliq-hf-zero-gpu-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/akhaliq/granite-4.0-h-small",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-small-akhaliq-hf-zero-gpu-chat/original-evidence-4488d76a62a0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/akhaliq/granite-4.0-h-small/blob/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-small-akhaliq-hf-zero-gpu-chat/artifact-1-4dff6e6bcb48.json"
         }
       ]
     },
