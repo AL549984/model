@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-16T17:19:01.677Z",
+  "generatedAt": "2026-10-16T23:25:26.609Z",
   "summary": {
     "models": 389,
-    "activeModels": 127,
+    "activeModels": 128,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 127,
-    "fullCoverageReady": 127,
+    "publicReady": 128,
+    "fullCoverageReady": 128,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 727,
-    "allModelTargetDeficit": 1246,
-    "queuedModels": 258,
-    "crawlTargetDeficit": 1226
+    "allModelMinDeficit": 719,
+    "allModelTargetDeficit": 1235,
+    "queuedModels": 257,
+    "crawlTargetDeficit": 1215
   },
   "tasks": [
     {
@@ -24084,17 +24084,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/RyukwIbwEidw7FkjMeGci2zvnCd",
@@ -24229,17 +24229,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Uk5owYLI4i3gvXkZ4uScMNgTnob",
@@ -24371,20 +24371,20 @@
       "modelName": "Granite 4.2 30B",
       "vendorId": "ibm",
       "vendor": "IBM",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/QVsXw2SlCiCotpkI80ycKygYnle",
