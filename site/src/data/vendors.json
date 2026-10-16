@@ -792,7 +792,7 @@
       "hosted provider 价格不能混入 Meta 原生页",
       "A 类案例未冻结"
     ],
-    "modelCount": 16,
+    "modelCount": 17,
     "sourceFile": "../../outputs/vendors/meta.md"
   },
   {
@@ -1073,7 +1073,7 @@
       "厂商级资料仍待补齐",
       "真实公开案例仍待核验"
     ],
-    "modelCount": 12,
+    "modelCount": 14,
     "sourceFile": "Feishu Bitable (auto-created vendor registry)"
   },
   {

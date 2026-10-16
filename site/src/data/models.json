@@ -13342,7 +13342,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemma 4 26B A4B 独立模型卡",
     "summary": "Google 的独立模型 release；AA Intelligence Index：26.066。",
@@ -13378,11 +13378,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20563,8 +20563,8 @@
     "slug": "gemma-4-12b",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemma 4 12B：独立模型版本",
     "summary": "Gemma 4 12B 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20600,11 +20600,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20745,8 +20745,8 @@
     "slug": "gemma-3-270m",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemma 3 270M：独立模型版本",
     "summary": "Gemma 3 270M 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20782,11 +20782,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -21885,7 +21885,7 @@
     "vendorId": "google",
     "vendor": "Google",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Google 面向空间推理、视频理解、多步工具编排和多机器人协作的具身推理模型。",
     "summary": "Google 面向空间推理、视频理解、多步工具编排和多机器人协作的具身推理模型。",
@@ -21920,11 +21920,11 @@
     "avoid": [
       "未经真实任务验证直接上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23640,6 +23640,174 @@
       "https://ai.meta.com/llama",
       "https://dev.meta.ai/models/muse-wonder",
       "https://artificialanalysis.ai/models/muse-wonder-full"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "muse-spark-open",
+    "name": "Muse Spark Open",
+    "slug": "muse-spark-open",
+    "vendorId": "meta",
+    "vendor": "Meta",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Muse Spark Open：开放权重多模态模型",
+    "summary": "Muse Spark Open 的官方精确仓库身份已核验；完整规格与生产限制仍需继续补证。",
+    "releaseDate": "2026-10-15",
+    "modelId": "muse-spark-open",
+    "context": "本轮未取得对应官方证据，待核验",
+    "output": "本轮未取得对应官方证据，待核验",
+    "modality": "text+image -> text",
+    "reasoning": "reasoning",
+    "price": "第三方 AA 页面记录；需按入口与日期核对",
+    "platforms": [
+      "Hugging Face / 第三方托管入口"
+    ],
+    "officialLink": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/ClqVwQGRJi7dCHkXXr7cLSqMn4g; exact AA release slug: muse-spark-open",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多模态研究、开放权重部署评估"
+    ],
+    "avoid": [
+      "未经许可证、安全与资源核验直接用于生产"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/ClqVwQGRJi7dCHkXXr7cLSqMn4g",
+      "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "https://artificialanalysis.ai/models/muse-spark-open"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "nemotron-3-5-super-vl",
+    "name": "Nemotron 3.5 Super VL",
+    "slug": "nemotron-3-5-super-vl",
+    "vendorId": "nvidia",
+    "vendor": "NVIDIA",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Nemotron 3.5 Super VL：开放权重多模态模型",
+    "summary": "Nemotron 3.5 Super VL 的官方精确仓库身份已核验；完整规格与生产限制仍需继续补证。",
+    "releaseDate": "2026-10-15",
+    "modelId": "nemotron-3-5-super-vl",
+    "context": "本轮未取得对应官方证据，待核验",
+    "output": "本轮未取得对应官方证据，待核验",
+    "modality": "text+image -> text",
+    "reasoning": "reasoning",
+    "price": "第三方 AA 页面记录；需按入口与日期核对",
+    "platforms": [
+      "Hugging Face / 第三方托管入口"
+    ],
+    "officialLink": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd; exact AA release slug: nemotron-3-5-super-vl",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多模态研究、开放权重部署评估"
+    ],
+    "avoid": [
+      "未经许可证、安全与资源核验直接用于生产"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+      "https://artificialanalysis.ai/models/nemotron-3-5-super"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "nemotron-3-5-bolt-74b-a9b",
+    "name": "Nemotron 3.5 Bolt 74B-A9B",
+    "slug": "nemotron-3-5-bolt-74b-a9b",
+    "vendorId": "nvidia",
+    "vendor": "NVIDIA",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Nemotron 3.5 Bolt 74B-A9B：开放权重多模态模型",
+    "summary": "Nemotron 3.5 Bolt 74B-A9B 的官方精确仓库身份已核验；完整规格与生产限制仍需继续补证。",
+    "releaseDate": "2026-10-15",
+    "modelId": "nemotron-3-5-bolt-74b-a9b",
+    "context": "本轮未取得对应官方证据，待核验",
+    "output": "本轮未取得对应官方证据，待核验",
+    "modality": "text+image -> text",
+    "reasoning": "reasoning",
+    "price": "第三方 AA 页面记录；需按入口与日期核对",
+    "platforms": [
+      "Hugging Face / 第三方托管入口"
+    ],
+    "officialLink": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/ErSlwEALdi7PSaktKpxcFEt3nGf; exact AA release slug: nemotron-3-5-bolt-74b-a9b",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多模态研究、开放权重部署评估"
+    ],
+    "avoid": [
+      "未经许可证、安全与资源核验直接用于生产"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/ErSlwEALdi7PSaktKpxcFEt3nGf",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+      "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
     ],
     "sourceFile": "Feishu Bitable"
   }

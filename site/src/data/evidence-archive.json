@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-16",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 753,
-    "manifestedCases": 753,
+    "aCaseCount": 769,
+    "manifestedCases": 769,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 154,
+    "pendingSnapshotCases": 170,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 137,
-    "targets": 1511
+    "targets": 1543
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -161,14 +161,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 154,
-      "targets": 310,
-      "highPriorityCases": 102,
+      "cases": 170,
+      "targets": 342,
+      "highPriorityCases": 118,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 62,
-          "targets": 115
+          "cases": 78,
+          "targets": 147
         },
         {
           "host": "huggingface.co",
@@ -9565,6 +9565,111 @@
       ]
     },
     {
+      "caseId": "gemini-robotics-er-2-hyx-thu-live-embodied-agent",
+      "modelId": "gemini-robotics-er-2",
+      "modelName": "Gemini Robotics ER 2",
+      "title": "Voice-driven streaming embodied agent with Spot and Tinybot embodiments",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "e21ab67060892f6ddb3bff559992e6b7d0697d353616241d275bcb4f019b9a96",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-robotics-er-2-hyx-thu-live-embodied-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/hyx-thu/gemini-robotics-er2-demo/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-robotics-er-2-hyx-thu-live-embodied-agent/original-evidence-6c43024b6087.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/hyx-thu/gemini-robotics-er2-demo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-robotics-er-2-hyx-thu-live-embodied-agent/artifact-1-a635be319a97.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-robotics-er-2-june2december-dobot-nova5",
+      "modelId": "gemini-robotics-er-2",
+      "modelName": "Gemini Robotics ER 2",
+      "title": "Dobot Nova 5 physical pick-and-place with Gemini Robotics ER 2",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "797fecb40df4b1de8116f861bd79e27376818897919096ff4f20118d2af906eb",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-robotics-er-2-june2december-dobot-nova5/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/June2December/dobot-nova5-er2/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-robotics-er-2-june2december-dobot-nova5/original-evidence-a378b27ed806.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/June2December/dobot-nova5-er2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-robotics-er-2-june2december-dobot-nova5/artifact-1-d13a411adecf.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemini-robotics-er-2-saravana-rajan-aira-shop",
+      "modelId": "gemini-robotics-er-2",
+      "modelName": "Gemini Robotics ER 2",
+      "title": "AIRA voice-first shop assistant for a blind shopkeeper",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "69991a004aed689dbfb50b49a12948ddc06a0c9eafb6bc572dcb4bc561bcf63b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemini-robotics-er-2-saravana-rajan-aira-shop/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Saravana-Rajan/AIRA/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-robotics-er-2-saravana-rajan-aira-shop/original-evidence-bc6d1bd1eee7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Saravana-Rajan/AIRA",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemini-robotics-er-2-saravana-rajan-aira-shop/artifact-1-d31f345caaf4.json"
+        }
+      ]
+    },
+    {
       "caseId": "gemini25pro-case-somin-ai",
       "modelId": "gemini-2-5-pro",
       "modelName": "Gemini 2.5 Pro",
@@ -9596,6 +9701,461 @@
           "url": "https://somin.ai/",
           "host": "somin.ai",
           "recommendedSnapshotPath": "archive/evidence/gemini25pro-case-somin-ai/artifact-1-d100ef37cbd2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-3-270m-briefly-on-device-news-summarizer",
+      "modelId": "gemma-3-270m",
+      "modelName": "Gemma 3 270M",
+      "title": "Briefly：在 Android 设备端用 Gemma 3 270M 汇总新闻",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:27Z",
+      "priority": "high",
+      "evidenceFingerprint": "6f17212f1a27418de80a49f3f48aae6ffbf071cce0964184fde53fc8e176b6bd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-3-270m-briefly-on-device-news-summarizer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ayusrjn/briefly/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-briefly-on-device-news-summarizer/original-evidence-b194978c32e9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ayusrjn/briefly",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-briefly-on-device-news-summarizer/artifact-1-5c1c8bdeaf78.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-3-270m-business-email-inquiry-extraction",
+      "modelId": "gemma-3-270m",
+      "modelName": "Gemma 3 270M",
+      "title": "Business Email Assistant：微调 Gemma 3 270M 抽取邮件询价结构",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:27Z",
+      "priority": "high",
+      "evidenceFingerprint": "6ef820b73cd9d8edbba209919fa7d86f5927987e7de4debdae6a2b37c7b4b7f0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-3-270m-business-email-inquiry-extraction/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ryandam9/business_email_assistant_gemma3_270m/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-business-email-inquiry-extraction/original-evidence-0f6a4c699c08.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ryandam9/business_email_assistant_gemma3_270m",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-business-email-inquiry-extraction/artifact-1-30c2c8da0c2a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-3-270m-maui-on-device-rag-chat",
+      "modelId": "gemma-3-270m",
+      "modelName": "Gemma 3 270M",
+      "title": "Maui Gemma 3：Android 端 PDF RAG 问答与摘要",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:27Z",
+      "priority": "high",
+      "evidenceFingerprint": "dd81f9098c30db84e5949febd2a2b028a8dd5d54fa605f36e8733db83d51bdf1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-3-270m-maui-on-device-rag-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ihassantariq/maui-gemma-3/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-maui-on-device-rag-chat/original-evidence-c521ca9f8408.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ihassantariq/maui-gemma-3",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-maui-on-device-rag-chat/artifact-1-7c4f71efd939.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-3-270m-sar-ship-detection",
+      "modelId": "gemma-3-270m",
+      "modelName": "Gemma 3 270M",
+      "title": "SAR Ship Detection：用 Gemma 3 270M 做海事船舶分类",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:27Z",
+      "priority": "high",
+      "evidenceFingerprint": "b4ea9471dfe0b199d1def3deae05f57d7a922fd79b7e50b991232f3dcc939dca",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-3-270m-sar-ship-detection/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/HayLahav/SAR_Ship_Detection_Gemma3_270M/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-sar-ship-detection/original-evidence-1f5d7cfa8f54.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/HayLahav/SAR_Ship_Detection_Gemma3_270M",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-sar-ship-detection/artifact-1-445b62cffeb1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-3-270m-sql-browser-data-generator",
+      "modelId": "gemma-3-270m",
+      "modelName": "Gemma 3 270M",
+      "title": "SQL in the Browser：用 Gemma 3 270M 生成浏览器端样例数据",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:12:27Z",
+      "priority": "high",
+      "evidenceFingerprint": "270c92c654d94ef1e9f269542fd8078b879784758ee9b46790d333a1998ddcb5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-3-270m-sql-browser-data-generator/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/lagna360/gemma3-270m-browser-demo/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-sql-browser-data-generator/original-evidence-00cc90202879.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/lagna360/gemma3-270m-browser-demo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-3-270m-sql-browser-data-generator/artifact-1-74a1726d3fc4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-12b-halo-local-pentest-agent",
+      "modelId": "gemma-4-12b",
+      "modelName": "Gemma 4 12B",
+      "title": "XenoCoreGiger31 builds HALO, a local autonomous penetration-testing agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:13:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "e777d5366dd11b4788ee45e63947fa599544e6ebf1861550df7b65199b2fe0f8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-12b-halo-local-pentest-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/XenoCoreGiger31/GEMMA-by-GOOGLE",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-halo-local-pentest-agent/original-evidence-0673dfe2a6ec.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/XenoCoreGiger31/GEMMA-by-GOOGLE",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-halo-local-pentest-agent/artifact-1-0673dfe2a6ec.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-12b-macmini-lan-server-cryptojones",
+      "modelId": "gemma-4-12b",
+      "modelName": "Gemma 4 12B",
+      "title": "CryptoJones runs Gemma 4 12B as a memory-safe LAN inference server on a 16 GB Mac mini",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:13:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "449bdf18e4ec60b2606bf68380ef23f77113293146d1e33a114a9d49904fb31f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-12b-macmini-lan-server-cryptojones/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/CryptoJones/MacminiM2Pro_LocalModelConfig",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-macmini-lan-server-cryptojones/original-evidence-ec8f45440a2a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/CryptoJones/MacminiM2Pro_LocalModelConfig",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-macmini-lan-server-cryptojones/artifact-1-ec8f45440a2a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-12b-modal-endpoint-octavious",
+      "modelId": "gemma-4-12b",
+      "modelName": "Gemma 4 12B",
+      "title": "Octavious deploys Gemma 4 12B as a public Modal endpoint for coding agents and desktop clients",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:13:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "3f07ada8d87f3777adc858c6903e33f3058241eec90e5a4d6bf40b787c1798bb",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-12b-modal-endpoint-octavious/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Octavious/Gemma4_12B_OnModal",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-modal-endpoint-octavious/original-evidence-c042381e9e9d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Octavious/Gemma4_12B_OnModal",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-modal-endpoint-octavious/artifact-1-c042381e9e9d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-12b-shortcast-on-device-video-shorts",
+      "modelId": "gemma-4-12b",
+      "modelName": "Gemma 4 12B",
+      "title": "Shortcast uses Gemma 4 12B to turn long videos into publishable short-form clips",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:13:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "59ad90cf65bd8b324bc249403f5d70f98ffeb25983323d69d28afb05b953180a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-12b-shortcast-on-device-video-shorts/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/mutonby/shortcast",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-shortcast-on-device-video-shorts/original-evidence-bd7a5b3020f9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/mutonby/shortcast",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-shortcast-on-device-video-shorts/artifact-1-bd7a5b3020f9.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-12b-video-rag-samwit",
+      "modelId": "gemma-4-12b",
+      "modelName": "Gemma 4 12B",
+      "title": "Sam Wit builds a multimodal video RAG application with Gemma 4 12B",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T04:13:21Z",
+      "priority": "high",
+      "evidenceFingerprint": "0ae217e473ab73acd77731a8d200d3a8dc648ddb4b06ae218715670a64d09d3e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-12b-video-rag-samwit/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/samwit/basic-video-rag-with-embeddinggemma2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-video-rag-samwit/original-evidence-d0ce0b3084d1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/samwit/basic-video-rag-with-embeddinggemma2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-12b-video-rag-samwit/artifact-1-d0ce0b3084d1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-26b-a4b-dgx-spark-structured-extraction",
+      "modelId": "gemma-4-26b-a4b",
+      "modelName": "Gemma 4 26B-A4B（AEON-7 NVFP4 量化部署）",
+      "title": "DGX Spark 自托管服务：Gemma 4 26B-A4B 用于表格解析和图像标签提取",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T12:11:33+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "74e5e39d45ec4c3ae0852b2099d9e733b808390a7d98b1d5d97821e44f062692",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-26b-a4b-dgx-spark-structured-extraction/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/rikkarth/gemma-4-26b-a4b-nvfp4-dgx-spark/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-dgx-spark-structured-extraction/original-evidence-91d5859da2ee.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/rikkarth/gemma-4-26b-a4b-nvfp4-dgx-spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-dgx-spark-structured-extraction/artifact-1-8d9403fb78c4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-26b-a4b-turbo-fieldfare-local-mac-inference",
+      "modelId": "gemma-4-26b-a4b",
+      "modelName": "Gemma 4 26B-A4B IT",
+      "title": "TurboFieldfare：在 Apple Silicon Mac 上以约 2 GB 内存运行 Gemma 4 26B-A4B",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T12:11:33+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "557caf5888840edd286b703759580aad69bd1a65e5f70cd7d5590cef06851825",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-26b-a4b-turbo-fieldfare-local-mac-inference/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/drumih/turbo-fieldfare/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-turbo-fieldfare-local-mac-inference/original-evidence-b453ea6984c4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-turbo-fieldfare-local-mac-inference/artifact-1-7af3ac00212d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-26b-a4b-xenolith-intel-igpu-laptop",
+      "modelId": "gemma-4-26b-a4b",
+      "modelName": "Gemma 4 26B-A4B QAT",
+      "title": "Xenolith：在开发者的 Intel Xe-LP 集显笔记本上运行 Gemma 4 26B-A4B QAT",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T12:11:33+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "de2734698e2c612c46b618d3de0811d6ebdaa6955cdd7018f5d2edf4fc5d1d43",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-26b-a4b-xenolith-intel-igpu-laptop/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/simoneiacomino/xenolith/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-xenolith-intel-igpu-laptop/original-evidence-9d4c3f38aa56.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/simoneiacomino/xenolith",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-xenolith-intel-igpu-laptop/artifact-1-e0a4e4828bd3.json"
         }
       ]
     },
