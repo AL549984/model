@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-16",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 769,
-    "manifestedCases": 769,
+    "aCaseCount": 784,
+    "manifestedCases": 784,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 170,
+    "pendingSnapshotCases": 185,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 137,
-    "targets": 1543
+    "uniqueHosts": 138,
+    "targets": 1573
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -141,6 +141,7 @@
     "theverge.com",
     "trae.ai",
     "triplewhale.com",
+    "tylerstraub.github.io",
     "uisdc.com",
     "understandingai.org",
     "vanta.com",
@@ -161,14 +162,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 170,
-      "targets": 342,
-      "highPriorityCases": 118,
+      "cases": 185,
+      "targets": 372,
+      "highPriorityCases": 133,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 78,
-          "targets": 147
+          "cases": 93,
+          "targets": 176
         },
         {
           "host": "huggingface.co",
@@ -10156,6 +10157,531 @@
           "url": "https://github.com/simoneiacomino/xenolith",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/gemma-4-26b-a4b-xenolith-intel-igpu-laptop/artifact-1-e0a4e4828bd3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-31b-iwac-sentiment-analysis",
+      "modelId": "gemma-4-31b",
+      "modelName": "Gemma 4 31B",
+      "title": "IWAC Sentiment Analysis：Gemma 4 31B 标注 12,349 篇西非法语新闻",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:27+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "493d7a804a6f12e9a33aa611434ed0bfcfc0a8ef5402638f04e24e5c3dc1c003",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-31b-iwac-sentiment-analysis/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/fmadore/IWAC-sentiment-analysis",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-iwac-sentiment-analysis/original-evidence-ee01aee8cc81.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/fmadore/IWAC-sentiment-analysis",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-iwac-sentiment-analysis/artifact-1-ee01aee8cc81.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-31b-open-red-pokemon-agent",
+      "modelId": "gemma-4-31b",
+      "modelName": "Gemma 4 31B",
+      "title": "open-red：本地 Gemma 4 31B 自主运行 Pokémon Red",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:27+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "da653a2433aacb799ec33c87aa6d802e4f57efb67414f11a16c1873728dc2170",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-31b-open-red-pokemon-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Hugh-ONeill/open-red",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-open-red-pokemon-agent/original-evidence-922fc4e27c20.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Hugh-ONeill/open-red",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-open-red-pokemon-agent/artifact-1-922fc4e27c20.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-31b-pulseops-incident-command",
+      "modelId": "gemma-4-31b",
+      "modelName": "Gemma 4 31B",
+      "title": "PulseOps：Gemma 4 31B 驱动实时多智能体事故指挥中心",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:27+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "87a481e0a51a2124c8f1b46ab11de52cc0a756071923e6a14745c3ba2d474179",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-31b-pulseops-incident-command/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/madhu-garudala/PulseOps",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-pulseops-incident-command/original-evidence-7c354caaac93.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/madhu-garudala/PulseOps",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-pulseops-incident-command/artifact-1-7c354caaac93.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-31b-storymee-task-manager",
+      "modelId": "gemma-4-31b",
+      "modelName": "Gemma 4 31B",
+      "title": "StoryMee AI Task Manager：Gemma 4 31B 将越南语消息转成团队任务",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:27+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "aa35fafcfc433efb0b2200c1ff2592e5914df956108eab33441f2bbeb27ca760",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-31b-storymee-task-manager/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/zuzziQ/AI-Task-Manager",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-storymee-task-manager/original-evidence-4c8eb04b91d4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/zuzziQ/AI-Task-Manager",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-storymee-task-manager/artifact-1-4c8eb04b91d4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-31b-swarmcast-forecasting",
+      "modelId": "gemma-4-31b",
+      "modelName": "Gemma 4 31B",
+      "title": "SwarmCast：用 50 个 Gemma 4 31B agent 做实时群体预测",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:27+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "897499d1b95ffe8d9a671b08b7083ec0066508b5cfa763bcc3d4c5c7ae4c831b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-31b-swarmcast-forecasting/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/madhu-garudala/SwarmCast",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-swarmcast-forecasting/original-evidence-0def420fc342.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/madhu-garudala/SwarmCast",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-31b-swarmcast-forecasting/artifact-1-0def420fc342.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e2b-android-chatbot",
+      "modelId": "gemma-4-e2b",
+      "modelName": "Gemma 4 E2B",
+      "title": "Gemma Android Chatbot: fully offline Kotlin chatbot on Android",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T05:03:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "dce17b1ad81e4089c5db7eebc21cccb6886ebb9c560488ab8545fadfa1dfaf0c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e2b-android-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/gabrielpreda/kotlin-gemma-4e2b-chatbot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-android-chatbot/original-evidence-89a349f33eed.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/gabrielpreda/kotlin-gemma-4e2b-chatbot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-android-chatbot/artifact-1-89a349f33eed.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e2b-browser-multimodal-demo",
+      "modelId": "gemma-4-e2b",
+      "modelName": "Gemma 4 E2B",
+      "title": "Gemma 4 on Browser: local image, audio, and text inference in a browser-facing app",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T05:03:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "4e8381778b1c83e8d4d7f7d86c11e243f07a0ef57c9aba4342c637db334f4eda",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e2b-browser-multimodal-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/NSTiwari/Gemma-4-on-Browser",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-browser-multimodal-demo/original-evidence-50bab1e66027.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/NSTiwari/Gemma-4-on-Browser",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-browser-multimodal-demo/artifact-1-50bab1e66027.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e2b-litert-server",
+      "modelId": "gemma-4-e2b",
+      "modelName": "Gemma 4 E2B",
+      "title": "LiteRT Server: local Android chat and vision API powered by Gemma 4 E2B",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T05:03:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "fed753941bbd1e1993ab561588e1a4c4ff979196a46ccb8a514e76eb56a91ecf",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e2b-litert-server/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Mohd-Mursaleen/LiteRT-Server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-litert-server/original-evidence-cc2fe0e91a38.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Mohd-Mursaleen/LiteRT-Server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-litert-server/artifact-1-cc2fe0e91a38.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e2b-orbit-mobility-assistant",
+      "modelId": "gemma-4-e2b",
+      "modelName": "Gemma 4 E2B",
+      "title": "Orbit: offline multimodal mobility assistant for blind and visually impaired users",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T05:03:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "5a041569b54aa83b159efd11ae4cf7f694dd0cf5d5ae1ac6e55b7e4859d57049",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e2b-orbit-mobility-assistant/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Debashich/Orbit",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-orbit-mobility-assistant/original-evidence-20137bd7f2c7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Debashich/Orbit",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-orbit-mobility-assistant/artifact-1-20137bd7f2c7.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e2b-webgpu-live-demo",
+      "modelId": "gemma-4-e2b",
+      "modelName": "Gemma 4 E2B",
+      "title": "gemma4-webgpu: live browser-local Gemma 4 E2B inference and diagnostic workbench",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T05:03:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "b985b49e225d613c02a9f53d2a5e0295558ae82079c4cb61fae2de9f565e7816",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e2b-webgpu-live-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/tylerstraub/gemma4-webgpu",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-webgpu-live-demo/original-evidence-1a99b14e5978.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://tylerstraub.github.io/gemma4-webgpu/",
+          "host": "tylerstraub.github.io",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e2b-webgpu-live-demo/artifact-1-2d7b2ffdda25.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e4b-ahmadrrrtx-rss-monitor",
+      "modelId": "gemma-4-e4b",
+      "modelName": "Gemma 4 E4B",
+      "title": "Gemma 4 E4B classifies developer RSS signals and publishes Slack digests",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:19+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "240429f59c9570e16c34283cafc0f920ecaa33f9c8da4e148433935c2c58b798",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e4b-ahmadrrrtx-rss-monitor/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ahmadrrrtx/Gemma-4-RSS-Intelligence-Monitor#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-ahmadrrrtx-rss-monitor/original-evidence-871ae97967b2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ahmadrrrtx/Gemma-4-RSS-Intelligence-Monitor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-ahmadrrrtx-rss-monitor/artifact-1-e18806a7b77c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e4b-fltman-gemma4-mac-photos",
+      "modelId": "gemma-4-e4b",
+      "modelName": "Gemma 4 E4B",
+      "title": "Gemma 4 E4B powers an on-device Apple Photos captioning workflow",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:19+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "69d9bf7549f39e63e951dbc445d8cc1a8638eaca25aa15e086bfffef66f35d59",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e4b-fltman-gemma4-mac-photos/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/fltman/gemma4-mac#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-fltman-gemma4-mac-photos/original-evidence-9a00c90873fc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/fltman/gemma4-mac",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-fltman-gemma4-mac-photos/artifact-1-6110427fba70.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e4b-itsyuimorii-obsidian-wiki",
+      "modelId": "gemma-4-e4b",
+      "modelName": "Gemma 4 E4B",
+      "title": "Gemma 4 E4B turns an Obsidian vault into a local knowledge wiki",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:19+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "337bd99e15ed7d304847cbf21c7b53243f3292d0891261ebcaf9cb1f1a67c08a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e4b-itsyuimorii-obsidian-wiki/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/itsyuimorii/obsidian-gemma4-litert-wiki#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-itsyuimorii-obsidian-wiki/original-evidence-fe87b32b1ba4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/itsyuimorii/obsidian-gemma4-litert-wiki",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-itsyuimorii-obsidian-wiki/artifact-1-e6efc3effe89.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e4b-raccoononion-ash",
+      "modelId": "gemma-4-e4b",
+      "modelName": "Gemma 4 E4B",
+      "title": "Gemma 4 E4B runs an offline iOS survival assistant",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:19+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "1adff4c006e29c728f9f098fce5630c0047571e127ac56918dbebc99e945ba8b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e4b-raccoononion-ash/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/RaccoonOnion/ash#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-raccoononion-ash/original-evidence-987b453c30c9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/RaccoonOnion/ash/releases/latest",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-raccoononion-ash/artifact-1-d3d31dc92f2c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gemma-4-e4b-yashksaini-deepread",
+      "modelId": "gemma-4-e4b",
+      "modelName": "Gemma 4 E4B",
+      "title": "Gemma 4 E4B provides local, page-cited research-paper Q&A",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T13:02:19+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "ffe6e50e913b04ec221f23f1f26cc19622abf104d92589bc09c1bf8aae622aa3",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gemma-4-e4b-yashksaini-deepread/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/yashksaini-coder/DeepRead#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-yashksaini-deepread/original-evidence-a47d9301d157.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/yashksaini-coder/DeepRead",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gemma-4-e4b-yashksaini-deepread/artifact-1-d3c0d3448f0a.json"
         }
       ]
     },

@@ -20503,8 +20503,8 @@
     "slug": "gemma-4-31b",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemma 4 31B：独立模型版本",
     "summary": "Gemma 4 31B 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20540,11 +20540,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20625,8 +20625,8 @@
     "slug": "gemma-4-e4b",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemma 4 E4B：独立模型版本",
     "summary": "Gemma 4 E4B 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20662,11 +20662,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20685,8 +20685,8 @@
     "slug": "gemma-4-e2b",
     "vendorId": "google",
     "vendor": "Google",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Gemma 4 E2B：独立模型版本",
     "summary": "Gemma 4 E2B 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20722,11 +20722,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
