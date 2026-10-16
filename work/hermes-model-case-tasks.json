@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T05:17:15.014Z",
+  "generatedAt": "2026-10-16T06:01:12.860Z",
   "summary": {
     "models": 389,
     "activeModels": 127,
@@ -15703,6 +15703,8 @@
         "https://seed.bytedance.com/en/seed2_1",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/N2fNwFtu6i1np8k7YnaclYEvnpf",
         "https://docs.volcengine.com/docs/ark/model-list?lang=en",
+        "https://arena.ai/leaderboard/code/image-to-webdev",
+        "https://arena.ai/leaderboard/code/webdev/fullstack",
         "https://arena.ai/",
         "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
       ],
@@ -49028,7 +49030,8 @@
       },
       "officialSources": [
         "https://www.stepfun.com/step-5-preview",
-        "https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6"
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6",
+        "https://huggingface.co/stepfun-ai/Step-5-Preview/raw/main/README.md"
       ],
       "crawlSources": [
         {
@@ -54644,7 +54647,10 @@
       "officialSources": [
         "https://ai.meta.com/llama",
         "https://dev.meta.ai/models/muse-wonder",
-        "https://artificialanalysis.ai/models/muse-wonder"
+        "https://artificialanalysis.ai/models/muse-wonder",
+        "https://research.meta.ai/static/muse-wonder-model-card/",
+        "https://dev.meta.ai/docs/models",
+        "https://openrouter.ai/api/v1/models/meta/muse-wonder/endpoints"
       ],
       "crawlSources": [
         {
@@ -54784,7 +54790,8 @@
       "officialSources": [
         "https://ai.meta.com/llama",
         "https://dev.meta.ai/models/muse-wonder",
-        "https://artificialanalysis.ai/models/muse-wonder-full"
+        "https://artificialanalysis.ai/models/muse-wonder-full",
+        "https://research.meta.ai/static/muse-wonder-model-card/"
       ],
       "crawlSources": [
         {
@@ -54924,7 +54931,9 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/ClqVwQGRJi7dCHkXXr7cLSqMn4g",
         "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
-        "https://artificialanalysis.ai/models/muse-spark-open"
+        "https://artificialanalysis.ai/models/muse-spark-open",
+        "https://dev.meta.ai/docs/muse-spark-open",
+        "https://openrouter.ai/api/v1/models/meta/muse-spark-open/endpoints"
       ],
       "crawlSources": [
         {
@@ -55065,7 +55074,8 @@
         "https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
         "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
-        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16/raw/main/README.md"
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16/raw/main/README.md",
+        "https://openrouter.ai/api/v1/models/nvidia/nemotron-3.5-super-vl/endpoints"
       ],
       "crawlSources": [
         {

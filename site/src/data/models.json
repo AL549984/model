@@ -7016,14 +7016,14 @@
     "caseStatus": "已有 7 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自厂商页/模型卡骨架 + 3 个厂商/官方/模型家族证据入口；暂无 Artificial Analysis 行。",
     "headline": "Seed-2.1-Pro-Preview 是 Seed2.1 Pro 正式版前的公开试用版",
-    "summary": "Seed-2.1-Pro-Preview 在 Arena AI 平台公开试用，为正式版发布前的预览版本。",
-    "releaseDate": "2026-06",
+    "summary": "2026-06-19 的 Arena Code 预览模型；已核验 Fullstack 榜单的精确版本上下文、登记价格和成绩。",
+    "releaseDate": "2026-06-19",
     "modelId": "seed-2-1-pro-preview",
-    "context": "历史预览版本待核验；正式版260628为256K、260915为1024K，不能直接移植",
+    "context": "Arena Fullstack 榜单对精确 seed-2.1-pro-preview 名称登记为 262.1K tokens（抓取于 2026-10-16）；这是评测平台登记值，不是正式版规格的移植。",
     "output": "历史预览版本待核验；正式版最大回答256K不代表此预览版本",
     "modality": "Seed2.1 家族为多模态理解模型；此预览标识的精确输入范围待核验",
-    "reasoning": "标准模式",
-    "price": "历史预览服务报价待核验；以对应日期、地区和 API 快照的计费表为准",
+    "reasoning": "预览版本的精确推理档位待核验",
+    "price": "Arena Fullstack 榜单登记每百万 tokens 输入 0.88 美元、输出 4.42 美元（抓取于 2026-10-16）；仅为 Arena 登记口径，不作为可购买的官方 Preview API 报价。",
     "platforms": [
       "Arena AI",
       "Feishu Spark（官方称后续提供）",
@@ -7035,7 +7035,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。",
+    "notes": "2026-10-09 逐字段补正；来源与版本范围见 Wiki，未核验不归因官方未披露。；2026-10-16 对应 Wiki 的原始来源核验与补写已回读。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "通用/待核验",
@@ -7057,7 +7057,7 @@
     ],
     "aCaseCount": 7,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 6,
+    "supplementalSourceCount": 8,
     "riskNotes": [
       "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。",
@@ -7070,6 +7070,8 @@
       "https://seed.bytedance.com/en/seed2_1",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/N2fNwFtu6i1np8k7YnaclYEvnpf",
       "https://docs.volcengine.com/docs/ark/model-list?lang=en",
+      "https://arena.ai/leaderboard/code/image-to-webdev",
+      "https://arena.ai/leaderboard/code/webdev/fullstack",
       "https://arena.ai/",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ZEDfwtnKci4Z14kLOhocxP0Qnpb"
     ],
@@ -21277,11 +21279,11 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "阶跃星辰面向复杂工作和 Agent 任务的新旗舰预览模型。",
-    "summary": "阶跃星辰面向复杂工作和 Agent 任务的新旗舰预览模型。",
+    "summary": "600B 总参数、27B 激活参数的稀疏 MoE；官方已提供权重、StepFun Model License 1.0 与 vLLM / SGLang / Transformers 部署说明。",
     "releaseDate": "2026-09-23",
     "modelId": "step-5-preview",
-    "context": "官方未披露 / 待核验",
-    "output": "官方未披露 / 待核验",
+    "context": "最高 1M tokens；输入输出共享上下文",
+    "output": "官方 README 标注最高 1M tokens；部署章节说明 1M 窗口由输入与输出共享，实际受 KV cache 和运行配置限制。",
     "modality": "文本、图像输入，文本输出",
     "reasoning": "以官方来源披露为准",
     "price": "官方未披露 / 待核验",
@@ -21294,7 +21296,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6；2026-10-16 对应 Wiki 的原始来源核验与补写已回读。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -21311,14 +21313,15 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
       "https://www.stepfun.com/step-5-preview",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6"
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/IqTCwtra8ivFOSkWOyYcb42pnU6",
+      "https://huggingface.co/stepfun-ai/Step-5-Preview/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -23540,25 +23543,25 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Meta 的前沿编程与长时运行智能体模型",
-    "summary": "官方定位覆盖前沿编程、长时运行智能体和高级计算机使用。",
+    "summary": "已读官方 13 页模型卡，补入模态、窗口、计费或订阅方式及计算机操作成绩；Wonder 与 Full 分列，评测方法与限制见 Wiki。",
     "releaseDate": "2026-10-12",
     "modelId": "muse-wonder",
-    "context": "待核验",
-    "output": "待核验",
-    "modality": "text+computer-use; exact modalities pending",
+    "context": "1,048,576 tokens（Meta Model API 官方文档）",
+    "output": "OpenRouter 的 Meta 入口登记 max_completion_tokens=943,718；这是该服务入口配置，不代表所有 Muse Code 或 Meta 入口的统一限制。",
+    "modality": "文本、图像、视频、音频输入；文本输出。官方模型卡同时覆盖 Wonder 与 Full。",
     "reasoning": "agentic planning",
-    "price": "待核验",
+    "price": "Meta Model API Standard：每百万 tokens 输入 4 美元、缓存输入 0.20 美元、输出 20 美元；核验 2026-10-16。",
     "platforms": [
       "Meta Model API",
       "Muse Code"
     ],
-    "officialLink": "https://ai.meta.com/llama",
+    "officialLink": "https://dev.meta.ai/models/muse-wonder",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "https://ycn3zdw6f1p7.feishu.cn/wiki/GF4dw1swgiGUWykKsyNciwAenVe; AA Intelligence Index 52.39 is third-party.",
+    "notes": "https://ycn3zdw6f1p7.feishu.cn/wiki/GF4dw1swgiGUWykKsyNciwAenVe; AA Intelligence Index 52.39 is third-party.；2026-10-16 对应 Wiki 的原始来源核验与补写已回读。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -23571,11 +23574,12 @@
       "复杂编码、长时运行代理、计算机使用"
     ],
     "avoid": [
-      "需要已公开完整规格、价格或许可证的生产接入"
+      "未经真实任务测试",
+      "直接把基准成绩当作生产效果保证"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 5,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23583,7 +23587,10 @@
     "sources": [
       "https://ai.meta.com/llama",
       "https://dev.meta.ai/models/muse-wonder",
-      "https://artificialanalysis.ai/models/muse-wonder"
+      "https://artificialanalysis.ai/models/muse-wonder",
+      "https://research.meta.ai/static/muse-wonder-model-card/",
+      "https://dev.meta.ai/docs/models",
+      "https://openrouter.ai/api/v1/models/meta/muse-wonder/endpoints"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -23597,24 +23604,24 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Meta 面向开发者关键工作流的高级 Muse 模型",
-    "summary": "官方称其为当前最先进的模型，面向开发者关键工作流。",
+    "summary": "已读官方 13 页模型卡，补入模态、窗口、计费或订阅方式及计算机操作成绩；Wonder 与 Full 分列，评测方法与限制见 Wiki。",
     "releaseDate": "2026-10-12",
     "modelId": "muse-wonder-full",
-    "context": "待核验",
+    "context": "1M tokens（官方模型卡）；Wonder API 文档精确值为 1,048,576，Full 保留官方 1M 表述。",
     "output": "待核验",
-    "modality": "待核验",
+    "modality": "文本、图像、视频、音频输入；文本输出。官方模型卡同时覆盖 Wonder 与 Full。",
     "reasoning": "agentic coding; exact mode pending",
-    "price": "待核验",
+    "price": "Muse Code 订阅：Power Usage 50 美元/月；Maximum Usage 200 美元/月。Full 包含在这两档中，不提供 Model API 按 token 计费入口。",
     "platforms": [
       "Muse Code"
     ],
-    "officialLink": "https://ai.meta.com/llama",
+    "officialLink": "https://dev.meta.ai/models/muse-wonder",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "https://ycn3zdw6f1p7.feishu.cn/wiki/MkACwGr65iV1hWk9129czUS9nOz; AA Intelligence Index 55.80 is third-party.",
+    "notes": "https://ycn3zdw6f1p7.feishu.cn/wiki/MkACwGr65iV1hWk9129czUS9nOz; AA Intelligence Index 55.80 is third-party.；2026-10-16 对应 Wiki 的原始来源核验与补写已回读。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -23627,11 +23634,12 @@
       "高复杂度编码、长时运行代理、开发工作流"
     ],
     "avoid": [
-      "需要已公开完整规格、价格或许可证的生产接入"
+      "未经真实任务测试",
+      "直接把基准成绩当作生产效果保证"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23639,7 +23647,8 @@
     "sources": [
       "https://ai.meta.com/llama",
       "https://dev.meta.ai/models/muse-wonder",
-      "https://artificialanalysis.ai/models/muse-wonder-full"
+      "https://artificialanalysis.ai/models/muse-wonder-full",
+      "https://research.meta.ai/static/muse-wonder-model-card/"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -23653,12 +23662,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Muse Spark Open：开放权重多模态模型",
-    "summary": "Muse Spark Open 的官方精确仓库身份已核验；完整规格与生产限制仍需继续补证。",
+    "summary": "官方开发文档确认 816B 总参数、42B 激活、1,048,576 上下文及 Muse Model License；各托管入口的输出上限已分别记录。",
     "releaseDate": "2026-10-15",
     "modelId": "muse-spark-open",
-    "context": "本轮未取得对应官方证据，待核验",
-    "output": "本轮未取得对应官方证据，待核验",
-    "modality": "text+image -> text",
+    "context": "1,048,576 tokens",
+    "output": "OpenRouter 各托管入口不同：Modal 最大输出 262,144 / 窗口 1,000,000；Together、Nebius、Fireworks、BaseTen 最大输出 943,718 / 窗口 1,048,576。均为服务配置，不是所有本地部署的统一上限；核验 2026-10-16。",
+    "modality": "text+image+audio+video -> text",
     "reasoning": "reasoning",
     "price": "第三方 AA 页面记录；需按入口与日期核对",
     "platforms": [
@@ -23670,7 +23679,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/ClqVwQGRJi7dCHkXXr7cLSqMn4g; exact AA release slug: muse-spark-open",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/ClqVwQGRJi7dCHkXXr7cLSqMn4g; exact AA release slug: muse-spark-open；2026-10-16 对应 Wiki 的原始来源核验与补写已回读。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -23687,7 +23696,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23695,7 +23704,9 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ClqVwQGRJi7dCHkXXr7cLSqMn4g",
       "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
-      "https://artificialanalysis.ai/models/muse-spark-open"
+      "https://artificialanalysis.ai/models/muse-spark-open",
+      "https://dev.meta.ai/docs/muse-spark-open",
+      "https://openrouter.ai/api/v1/models/meta/muse-spark-open/endpoints"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -23709,14 +23720,14 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nemotron 3.5 Super VL：开放权重多模态模型",
-    "summary": "已核验 BF16 官方 README：总参数 120B、激活 12B，OpenMDW-1.1 许可；许可、上下文、参数、专家结构与官方评测已补入 Wiki。独立输出上限及部分训练信息仍待核验。",
+    "summary": "BF16 官方 README 确认 120B 总参数、12B 激活及 OpenMDW-1.1；新增 OpenRouter Crusoe BF16 的价格与输出限制，入口配置不代表所有部署。",
     "releaseDate": "2026-10-15",
     "modelId": "nemotron-3-5-super-vl",
-    "context": "最高 1M tokens（配置 1,048,576）；输入与输出共享窗口",
-    "output": "本轮未取得对应官方证据，待核验",
-    "modality": "text+image+video -> text",
+    "context": "最高 1M tokens（配置上限 1,048,576）",
+    "output": "OpenRouter 的 Crusoe BF16 入口最大输出 235,929 tokens / 窗口 262,144；仅为该托管入口配置，非模型所有部署的统一上限，核验 2026-10-16。",
+    "modality": "文本、图像、视频输入；文本输出",
     "reasoning": "reasoning",
-    "price": "第三方 AA 页面记录；需按入口与日期核对",
+    "price": "OpenRouter 的 Crusoe BF16 入口：每百万 tokens 输入 0.10 美元、输出 0.40 美元；缓存输入 0.08 美元。价格与上述窗口和输出上限为同一入口，核验 2026-10-16。",
     "platforms": [
       "Hugging Face / 第三方托管入口"
     ],
@@ -23726,7 +23737,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd; exact AA release slug: nemotron-3-5-super-vl",
+    "notes": "Wiki model card: https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd; exact AA release slug: nemotron-3-5-super-vl；2026-10-16 对应 Wiki 的原始来源核验与补写已回读。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -23743,7 +23754,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23752,7 +23763,8 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
       "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
-      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16/raw/main/README.md"
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16/raw/main/README.md",
+      "https://openrouter.ai/api/v1/models/nvidia/nemotron-3.5-super-vl/endpoints"
     ],
     "sourceFile": "Feishu Bitable"
   },
