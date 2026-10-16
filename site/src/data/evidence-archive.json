@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-16",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 798,
-    "manifestedCases": 798,
+    "aCaseCount": 809,
+    "manifestedCases": 809,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 199,
+    "pendingSnapshotCases": 210,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 139,
-    "targets": 1601
+    "targets": 1623
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -163,14 +163,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 199,
-      "targets": 400,
-      "highPriorityCases": 144,
+      "cases": 210,
+      "targets": 422,
+      "highPriorityCases": 155,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 103,
-          "targets": 190
+          "cases": 114,
+          "targets": 212
         },
         {
           "host": "huggingface.co",
@@ -14889,6 +14889,391 @@
           "url": "https://github.com/unnowataru/granite-4.1-tt-metal/blob/main/scripts/quickstart.sh",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-tt-metal-community-serving-port/artifact-1-841eb98388c5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-30b-iowarp-clio-answer-parser",
+      "modelId": "granite-4-2-30b",
+      "modelName": "Granite 4.2 30B",
+      "title": "IowaR P/CLIO agent used Granite 4.2 30B for an arithmetic agent turn",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:21:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "bdfa2ade2cfa531a99f8689e968137051bd8b0eca4f2fabc8bba9056ffa53cc6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-30b-iowarp-clio-answer-parser/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/iowarp/clio-agent/issues/1316",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-answer-parser/original-evidence-3cb194acd3c0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/iowarp/clio-agent/issues/1316",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-answer-parser/artifact-1-3cb194acd3c0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-30b-iowarp-clio-guided-json",
+      "modelId": "granite-4-2-30b",
+      "modelName": "Granite 4.2 30B",
+      "title": "IowaR P/CLIO evaluated Granite 4.2 30B with strict guided JSON output",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:21:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "9ff28366123f0bda8eee0b06ee89c50efb5fd45a27f1f453a2a5f7f015b37ee7",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-30b-iowarp-clio-guided-json/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/iowarp/clio-agent/issues/1318",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-guided-json/original-evidence-c2cb854dc4ae.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/iowarp/clio-agent/issues/1318",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-guided-json/artifact-1-c2cb854dc4ae.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-30b-iowarp-clio-react-recovery",
+      "modelId": "granite-4-2-30b",
+      "modelName": "Granite 4.2 30B",
+      "title": "IowaR P/CLIO used Granite 4.2 30B for a data-acquisition ReAct workflow",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:21:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "8b3fef217cbea33a6f73c17013ccdccb46237787309b2936fcd2e7d75455e950",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-30b-iowarp-clio-react-recovery/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/iowarp/clio-agent/issues/1327",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-react-recovery/original-evidence-081edf3ba00f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/iowarp/clio-agent/issues/1327",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-react-recovery/artifact-1-081edf3ba00f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-30b-iowarp-clio-tool-choice",
+      "modelId": "granite-4-2-30b",
+      "modelName": "Granite 4.2 30B",
+      "title": "IowaR P/CLIO tested Granite 4.2 30B as a vLLM tool-using agent backend",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:21:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "e5ee12ce855e422c7c71eff05415eddc900ce7892837c71fc689f9aba3c474aa",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-30b-iowarp-clio-tool-choice/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/iowarp/clio-agent/issues/1317",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-tool-choice/original-evidence-9f9260a19c73.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/iowarp/clio-agent/issues/1317",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-iowarp-clio-tool-choice/artifact-1-9f9260a19c73.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-30b-vcruz-sglang-dgx-spark",
+      "modelId": "granite-4-2-30b",
+      "modelName": "Granite 4.2 30B",
+      "title": "Community SGLang deployment of Granite 4.2 30B on NVIDIA DGX Spark",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:21:16Z",
+      "priority": "high",
+      "evidenceFingerprint": "4cec28ad5b99789baa9b435314090bc0dd4ced65d4b1c560337178b924a1b158",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-30b-vcruz-sglang-dgx-spark/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/vcruz305/Granite-4.2-30B-NVFP4-DGX-Spark-recipe",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-vcruz-sglang-dgx-spark/original-evidence-2b9a346c86eb.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/vcruz305/Granite-4.2-30B-NVFP4-DGX-Spark-recipe",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-30b-vcruz-sglang-dgx-spark/artifact-1-2b9a346c86eb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-3b-agentic-devcontainer-architect",
+      "modelId": "granite-4-2-3b",
+      "modelName": "Granite 4.2 3B",
+      "title": "Agentic Devcontainer uses Granite 4.2 3B for an architect coding agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:20:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "2002970b1bb96ff98a6fd0c4f27a9a899f9e1b32599d2b04dc931882ed05d1f3",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-3b-agentic-devcontainer-architect/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/nmwael/agentic-devcontainer-feature/issues/4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-agentic-devcontainer-architect/original-evidence-d6e9dab50c60.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/nmwael/agentic-devcontainer-feature",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-agentic-devcontainer-architect/artifact-1-f9110fb21622.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-3b-nanoserve-llm-gateway",
+      "modelId": "granite-4-2-3b",
+      "modelName": "Granite 4.2 3B",
+      "title": "NanoServe deploys Granite 4.2 3B as a local KServe/vLLM inference tier",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:20:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "976cc53bc196f155ccc8ca162bd543cbcc751e3ac9bdf56c97e5c2e343e682ab",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-3b-nanoserve-llm-gateway/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/aymanaboghonim/nanoserve-llm#measured-results-2026-09-08",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-nanoserve-llm-gateway/original-evidence-8ea11a835669.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/aymanaboghonim/nanoserve-llm",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-nanoserve-llm-gateway/artifact-1-4f81a3509e3e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-3b-openflowlm-npu",
+      "modelId": "granite-4-2-3b",
+      "modelName": "Granite 4.2 3B",
+      "title": "OpenFlowLM runs Granite 4.2 3B end-to-end on an AMD XDNA2 NPU",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:20:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "e7c0b35211a8a044369f1c60332a2f68d362868a56babb44f6e762a5014eb101",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-3b-openflowlm-npu/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Atomic-Germ/OpenFlowLM-Next/pull/207",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-openflowlm-npu/original-evidence-21d150a2dca7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Atomic-Germ/OpenFlowLM-Next",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-openflowlm-npu/artifact-1-3a363532c207.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-3b-personal-agent-local-provider",
+      "modelId": "granite-4-2-3b",
+      "modelName": "Granite 4.2 3B",
+      "title": "Personal Agent adds an in-process local Granite 4.2 3B desktop chat provider",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:20:37Z",
+      "priority": "high",
+      "evidenceFingerprint": "2211fd2334605fd05472bb0c1ad41395b17411b7b9fa812815c8695ee8b29dfd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-3b-personal-agent-local-provider/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/acoliver/personal-agent/pull/235",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-personal-agent-local-provider/original-evidence-614672de6fa6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/acoliver/personal-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-3b-personal-agent-local-provider/artifact-1-3b673af44c4d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-8b-eco-main-cobol-granite-wolfshaddows",
+      "modelId": "granite-4-2-8b",
+      "modelName": "Granite 4.2 8B",
+      "title": "ECO-MAIN COBOL/Go sustainability pipeline with Granite 4.2 8B forensic auditing",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:19:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "637e24a3b66b03e9eb0f41a7fc8ee2e3d424e3b8f081fc9442a00fe4fe9d58a4",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-8b-eco-main-cobol-granite-wolfshaddows/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/WolfShaddows/ECO-MAIN-COBOL-Granite/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-8b-eco-main-cobol-granite-wolfshaddows/original-evidence-2af60797c17c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/WolfShaddows/ECO-MAIN-COBOL-Granite",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-8b-eco-main-cobol-granite-wolfshaddows/artifact-1-9a791f2576c7.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-2-8b-shift-notes-solver-keshav-077",
+      "modelId": "granite-4-2-8b",
+      "modelName": "Granite 4.2 8B",
+      "title": "Keshav-077 shift-notes constraint extraction and rota solving",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T23:19:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "fe52f90d8f86b2bef373e732aa547568448f73538fd7db739c0ab561d485359c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-2-8b-shift-notes-solver-keshav-077/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/keshav-077/shift-notes-solver/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-8b-shift-notes-solver-keshav-077/original-evidence-d8c2a55ff801.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/keshav-077/shift-notes-solver",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-2-8b-shift-notes-solver-keshav-077/artifact-1-b4e638bd545c.json"
         }
       ]
     },
