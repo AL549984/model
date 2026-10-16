@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-16",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 788,
-    "manifestedCases": 788,
+    "aCaseCount": 798,
+    "manifestedCases": 798,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 189,
+    "pendingSnapshotCases": 199,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 138,
-    "targets": 1581
+    "uniqueHosts": 139,
+    "targets": 1601
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -22,6 +22,7 @@
     "agent.minimax.io",
     "aihub.cn",
     "aipmframework.com",
+    "alexander-ollman.github.io",
     "alibabacloud.com",
     "ampcode.com",
     "anthropic.com",
@@ -162,24 +163,29 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 189,
-      "targets": 380,
-      "highPriorityCases": 135,
+      "cases": 199,
+      "targets": 400,
+      "highPriorityCases": 144,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 95,
-          "targets": 179
+          "cases": 103,
+          "targets": 190
         },
         {
           "host": "huggingface.co",
-          "cases": 21,
-          "targets": 39
+          "cases": 23,
+          "targets": 42
         },
         {
           "host": "bilibili.com",
           "cases": 6,
           "targets": 12
+        },
+        {
+          "host": "raw.githubusercontent.com",
+          "cases": 10,
+          "targets": 10
         },
         {
           "host": "openai.com",
@@ -200,11 +206,6 @@
           "host": "fal.ai",
           "cases": 3,
           "targets": 6
-        },
-        {
-          "host": "raw.githubusercontent.com",
-          "cases": 5,
-          "targets": 5
         }
       ]
     },
@@ -14538,6 +14539,356 @@
           "url": "https://huggingface.co/spaces/akhaliq/granite-4.0-h-small/blob/main/app.py",
           "host": "huggingface.co",
           "recommendedSnapshotPath": "archive/evidence/granite-4-0-h-small-akhaliq-hf-zero-gpu-chat/artifact-1-4dff6e6bcb48.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-0-micro-abhishekkunuru6-cmyk-granite-rag-agent",
+      "modelId": "granite-4-0-micro",
+      "modelName": "Granite 4.0 Micro",
+      "title": "Local agentic tax RAG system built with Granite 4.0 Micro",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T17:16:11Z",
+      "priority": "high",
+      "evidenceFingerprint": "deb12a8eda92c0f31b331e6e2f139ec8c0309e41cf38e13140898431f81431ab",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-0-micro-abhishekkunuru6-cmyk-granite-rag-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/abhishekkunuru6-cmyk/granite-rag-agent/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-micro-abhishekkunuru6-cmyk-granite-rag-agent/original-evidence-6288c4db7a9d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/abhishekkunuru6-cmyk/granite-rag-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-0-micro-abhishekkunuru6-cmyk-granite-rag-agent/artifact-1-d4f19292cd28.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-30b-rasa2-fury-hf-space",
+      "modelId": "granite-4-1-30b",
+      "modelName": "Granite 4.1 30B",
+      "title": "Ra Sa2 的 Fury Hugging Face Space 将 Granite 4.1 30B 接入可提交任务的 LLM 推理工作流",
+      "sourcePlatform": "Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T17:16:24Z",
+      "priority": "normal",
+      "evidenceFingerprint": "af0a90281171b9139a455b2eac9b9eeac4c4ad65abb94528fc906c6743112a7a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-30b-rasa2-fury-hf-space/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/rasa2/Fury/blob/main/Spaces_fury/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-30b-rasa2-fury-hf-space/original-evidence-fa72663e70e8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/rasa2/Fury",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-30b-rasa2-fury-hf-space/artifact-1-abc08423d018.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-3b-aritraunity-hello-hands",
+      "modelId": "granite-4-1-3b",
+      "modelName": "Granite 4.1 3B",
+      "title": "Hello Hands: natural-language intent analysis driving a robot-arm animation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T01:14:39+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "c5988e8163253b77b1d753abee783ff83dd4e5c8c9c94ac2b3596611553d5300",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-3b-aritraunity-hello-hands/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/aritraunity/hello-hands/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-aritraunity-hello-hands/original-evidence-cafe1c95b21e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/aritraunity/hello-hands",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-aritraunity-hello-hands/artifact-1-08f9ee78f77a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-3b-bloomee-nasa-space-apps",
+      "modelId": "granite-4-1-3b",
+      "modelName": "Granite 4.1 3B",
+      "title": "Bloomee: flowering-phenology agent with NDVI tool calls",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T01:14:39+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "c2101eae458ff279680bf638453e827cb2279aaf361c1665420570101799d142",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-3b-bloomee-nasa-space-apps/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/bloomee-app/bloomee-v1-clm-nasasmd-granite4.1-3b/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-bloomee-nasa-space-apps/original-evidence-9e7b9cc8eea2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/bloomee-app/bloomee-v1-clm-nasasmd-granite4.1-3b",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-bloomee-nasa-space-apps/artifact-1-30b5b68b393c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-3b-karthigamurugadoss-text-explainer",
+      "modelId": "granite-4-1-3b",
+      "modelName": "Granite 4.1 3B",
+      "title": "Text Explainer: offline document, writing, and code analysis",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T01:14:39+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "af42decbd2d358c28f85e72cfecf31fc7bb42e4ce61b4c14d0d3772b047fcb32",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-3b-karthigamurugadoss-text-explainer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Karthigamurugadoss/text-explainer/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-karthigamurugadoss-text-explainer/original-evidence-5ffd58afe504.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Karthigamurugadoss/text-explainer",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-karthigamurugadoss-text-explainer/artifact-1-feb4e2cedd82.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-3b-opseval-dfir-copilot",
+      "modelId": "granite-4-1-3b",
+      "modelName": "Granite 4.1 3B",
+      "title": "DFIR Co-Pilot: local forensic query drafting and investigation narration",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T01:14:39+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "05ae73f0b99e238c9c385ea7a24d3ab66dd0f062be86175c25580a5bd1a702bd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-3b-opseval-dfir-copilot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/opseval/dfir-copilot/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-opseval-dfir-copilot/original-evidence-6a3c030b1623.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/opseval/dfir-copilot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-3b-opseval-dfir-copilot/artifact-1-d8f41ba00f96.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-8b-alexander-rtx3090-serving",
+      "modelId": "granite-4-1-8b",
+      "modelName": "Granite 4.1 8B",
+      "title": "Alexander Ollman serves Granite 4.1-8B on dual RTX 3090s for high-concurrency inference",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T17:15:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "3be2ae98494a78a7aca81ae100ec52aa748534f3b736a7868402a4af8fad5c1c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-8b-alexander-rtx3090-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Alexander-Ollman/granite4.1-on-rtx3090",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-alexander-rtx3090-serving/original-evidence-2855c765198e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://alexander-ollman.github.io/granite4.1-on-rtx3090/",
+          "host": "alexander-ollman.github.io",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-alexander-rtx3090-serving/artifact-1-5691cec0c913.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-8b-dribble-studio-football-content-agent",
+      "modelId": "granite-4-1-8b",
+      "modelName": "Granite 4.1 8B",
+      "title": "Dribble Studio uses Granite 4.1-8B to generate football content packages",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T17:15:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "10054977373c857851d0576eb1c6611c12deef873678a124bbc7e4426a1120ac",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-8b-dribble-studio-football-content-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Dribble360/dribble-studio-challenge-ibm/blob/main/SUBMISSION.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-dribble-studio-football-content-agent/original-evidence-7f62567ea144.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Dribble360/dribble-studio-challenge-ibm",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-dribble-studio-football-content-agent/artifact-1-041b54ef21a2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-8b-praxis-sft-v2-software-agent",
+      "modelId": "granite-4-1-8b",
+      "modelName": "Granite 4.1 8B",
+      "title": "Conatus Logos fine-tunes Granite 4.1-8B for a tool-using software-engineering agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T17:15:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "f63fdd3b1446bb1cf8ae8f0add10b37cd42c7fe080d3113d1b7e69f57dcd2d09",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-8b-praxis-sft-v2-software-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/devlucascfarias/Conatus-Logos/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-praxis-sft-v2-software-agent/original-evidence-658817561da8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/devlucascfarias/Conatus-Logos",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-praxis-sft-v2-software-agent/artifact-1-0449bdbd3412.json"
+        }
+      ]
+    },
+    {
+      "caseId": "granite-4-1-8b-tt-metal-community-serving-port",
+      "modelId": "granite-4-1-8b",
+      "modelName": "Granite 4.1 8B",
+      "title": "A community port serves Granite 4.1-8B on Tenstorrent Wormhole hardware",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-16T17:15:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "0173e043d1e74df3f72497a55ccff0081a2be03e3102bad21ff8e4bb95ba79fe",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/granite-4-1-8b-tt-metal-community-serving-port/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/unnowataru/granite-4.1-tt-metal",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-tt-metal-community-serving-port/original-evidence-d28401593a60.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/unnowataru/granite-4.1-tt-metal/blob/main/scripts/quickstart.sh",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/granite-4-1-8b-tt-metal-community-serving-port/artifact-1-841eb98388c5.json"
         }
       ]
     },
