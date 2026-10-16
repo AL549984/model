@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T04:16:12.203Z",
+  "generatedAt": "2026-10-16T04:19:13.447Z",
   "summary": {
     "models": 389,
     "activeModels": 124,
@@ -55064,7 +55064,7 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-        "https://artificialanalysis.ai/models/nemotron-3-5-super"
+        "https://artificialanalysis.ai/models/nemotron-3-5-super-vl"
       ],
       "crawlSources": [
         {
