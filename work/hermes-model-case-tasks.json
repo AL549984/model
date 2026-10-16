@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-16T04:19:13.447Z",
+  "generatedAt": "2026-10-16T05:17:15.014Z",
   "summary": {
     "models": 389,
-    "activeModels": 124,
+    "activeModels": 127,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 124,
-    "fullCoverageReady": 124,
+    "publicReady": 127,
+    "fullCoverageReady": 127,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 748,
-    "allModelTargetDeficit": 1275,
-    "queuedModels": 261,
-    "crawlTargetDeficit": 1255
+    "allModelMinDeficit": 739,
+    "allModelTargetDeficit": 1260,
+    "queuedModels": 258,
+    "crawlTargetDeficit": 1240
   },
   "tasks": [
     {
@@ -47160,20 +47160,20 @@
       "modelName": "Gemma 4 31B",
       "vendorId": "google",
       "vendor": "Google",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Zx5ZwlhjPinF0nk3nafcz2Z3nyh",
@@ -47448,20 +47448,20 @@
       "modelName": "Gemma 4 E4B",
       "vendorId": "google",
       "vendor": "Google",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/XGqmwqqjhiso0PkD1GhcrbdInod",
@@ -47591,20 +47591,20 @@
       "modelName": "Gemma 4 E2B",
       "vendorId": "google",
       "vendor": "Google",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/PBQcwRxRQibxc1kfmzrcBDDIniU",
@@ -55064,7 +55064,8 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-        "https://artificialanalysis.ai/models/nemotron-3-5-super-vl"
+        "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16/raw/main/README.md"
       ],
       "crawlSources": [
         {
@@ -55204,7 +55205,8 @@
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/ErSlwEALdi7PSaktKpxcFEt3nGf",
         "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-        "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
+        "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b",
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16/raw/main/README.md"
       ],
       "crawlSources": [
         {

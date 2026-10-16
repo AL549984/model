@@ -23709,12 +23709,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nemotron 3.5 Super VL：开放权重多模态模型",
-    "summary": "Nemotron 3.5 Super VL 的官方精确仓库身份已核验；完整规格与生产限制仍需继续补证。",
+    "summary": "已核验 BF16 官方 README：总参数 120B、激活 12B，OpenMDW-1.1 许可；许可、上下文、参数、专家结构与官方评测已补入 Wiki。独立输出上限及部分训练信息仍待核验。",
     "releaseDate": "2026-10-15",
     "modelId": "nemotron-3-5-super-vl",
-    "context": "本轮未取得对应官方证据，待核验",
+    "context": "最高 1M tokens（配置 1,048,576）；输入与输出共享窗口",
     "output": "本轮未取得对应官方证据，待核验",
-    "modality": "text+image -> text",
+    "modality": "text+image+video -> text",
     "reasoning": "reasoning",
     "price": "第三方 AA 页面记录；需按入口与日期核对",
     "platforms": [
@@ -23743,7 +23743,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23751,7 +23751,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/J0DbwOe3gigBssk8f0XcrleonPd",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-      "https://artificialanalysis.ai/models/nemotron-3-5-super-vl"
+      "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -23765,12 +23766,12 @@
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nemotron 3.5 Bolt 74B-A9B：开放权重多模态模型",
-    "summary": "Nemotron 3.5 Bolt 74B-A9B 的官方精确仓库身份已核验；完整规格与生产限制仍需继续补证。",
+    "summary": "已核验 BF16 官方 README：总参数 74B、激活 9B，OpenMDW-1.1 许可；许可、上下文、参数、专家结构与官方评测已补入 Wiki。独立输出上限及部分训练信息仍待核验。",
     "releaseDate": "2026-10-15",
     "modelId": "nemotron-3-5-bolt-74b-a9b",
-    "context": "本轮未取得对应官方证据，待核验",
+    "context": "最高 256K tokens（262,144；BF16 权重版本）",
     "output": "本轮未取得对应官方证据，待核验",
-    "modality": "text+image -> text",
+    "modality": "text+image+video -> text",
     "reasoning": "reasoning",
     "price": "第三方 AA 页面记录；需按入口与日期核对",
     "platforms": [
@@ -23799,7 +23800,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 2,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23807,7 +23808,8 @@
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/ErSlwEALdi7PSaktKpxcFEt3nGf",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-      "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b"
+      "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   }
