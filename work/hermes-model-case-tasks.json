@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:17:10.852Z",
+  "generatedAt": "2026-10-17T09:29:48.899Z",
   "summary": {
     "models": 390,
     "activeModels": 129,
@@ -11,10 +11,10 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 711,
-    "allModelTargetDeficit": 1225,
+    "allModelMinDeficit": 709,
+    "allModelTargetDeficit": 1224,
     "queuedModels": 257,
-    "crawlTargetDeficit": 1205
+    "crawlTargetDeficit": 1204
   },
   "tasks": [
     {
@@ -25509,17 +25509,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 4,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 0,
-      "targetDeficit": 1,
-      "publicReady": true,
+      "minDeficit": 1,
+      "targetDeficit": 3,
+      "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 12,
-        "maxCandidatesPerRun": 24
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/GOf1wtOuliAWTEkwUaIcXm3lnxg",
@@ -51814,17 +51814,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
@@ -51953,17 +51953,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
