@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-17",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 844,
-    "manifestedCases": 844,
+    "aCaseCount": 850,
+    "manifestedCases": 850,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 245,
+    "pendingSnapshotCases": 251,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 142,
-    "targets": 1693
+    "targets": 1705
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -166,19 +166,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 245,
-      "targets": 492,
-      "highPriorityCases": 187,
+      "cases": 251,
+      "targets": 504,
+      "highPriorityCases": 193,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 146,
-          "targets": 271
+          "cases": 152,
+          "targets": 279
         },
         {
           "host": "huggingface.co",
-          "cases": 26,
-          "targets": 48
+          "cases": 30,
+          "targets": 52
         },
         {
           "host": "bilibili.com",
@@ -17626,6 +17626,111 @@
       ]
     },
     {
+      "caseId": "k-exaone-dgx-spark-ds4-serving",
+      "modelId": "k-exaone",
+      "modelName": "K-EXAONE-236B-A23B",
+      "title": "K-EXAONE served locally on a single DGX Spark with ds4",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T23:42:47Z",
+      "priority": "high",
+      "evidenceFingerprint": "a505f33417e7f3356407a48e33eca575d8d5a672f47072380314a3d0385b4e6c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k-exaone-dgx-spark-ds4-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Baekpica/k-exaone-mixed-ds4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k-exaone-dgx-spark-ds4-serving/original-evidence-e6aa9860189a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/Baekpica/K-EXAONE-236B-A23B-Mixed-Quant-GGUF",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/k-exaone-dgx-spark-ds4-serving/artifact-1-5faa38242461.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k-exaone-npu-agentic-platform",
+      "modelId": "k-exaone",
+      "modelName": "K-EXAONE",
+      "title": "NPU Agentic Platform combines K-EXAONE with Furiosa NPU and MCP infrastructure tools",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T23:42:47Z",
+      "priority": "high",
+      "evidenceFingerprint": "e307995a6ca28cea832ec300e96c815b17357d91dbd6ce3c2ecdc67394457123",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k-exaone-npu-agentic-platform/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/nanuwa/NPU-Agentic-Platform",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k-exaone-npu-agentic-platform/original-evidence-a9b0c40e1748.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/nanuwa/NPU-Agentic-Platform",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k-exaone-npu-agentic-platform/artifact-1-a9b0c40e1748.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k-exaone-ummaya-korean-public-service-agent",
+      "modelId": "k-exaone",
+      "modelName": "K-EXAONE-236B-A23B",
+      "title": "UMMAYA: Korean public-service terminal agent powered by K-EXAONE",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T23:42:47Z",
+      "priority": "high",
+      "evidenceFingerprint": "8582aa3fa778c5ed0053c6d5073297e3c1a6d06a7f0df8c49005b6603e831f63",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k-exaone-ummaya-korean-public-service-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/umyunsang/UMMAYA#model-and-license",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k-exaone-ummaya-korean-public-service-agent/original-evidence-14e90a6d8e17.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/umyunsang/UMMAYA/blob/main/assets/ummaya-demo.mp4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k-exaone-ummaya-korean-public-service-agent/artifact-1-686f84b6ff66.json"
+        }
+      ]
+    },
+    {
       "caseId": "kat-coder-pro-v2-child-of-starwish-cpp-rpg",
       "modelId": "kat-coder-pro-v2",
       "modelName": "KAT Coder Pro V2",
@@ -18917,6 +19022,111 @@
           "url": "https://github.com/kvcache-ai/ktransformers",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/ktransformers-deepseek-v25-1210-local-inference/artifact-1-cdbcdde49a4f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-2-6b-ainpu-qnn-conversion-pipeline",
+      "modelId": "lfm2-2-6b",
+      "modelName": "LFM2 2.6B",
+      "title": "AI_NPU：把 LFM2-2.6B ONNX 模型编译成可部署的 Qualcomm QNN 模型包",
+      "sourcePlatform": "GitHub + Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T23:42:45Z",
+      "priority": "high",
+      "evidenceFingerprint": "e2a09d1847c4ccc322eedb8927881a352a463502fc4162db32876d6e09d79431",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-2-6b-ainpu-qnn-conversion-pipeline/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/tdav/AI_NPU/blob/main/docs/qnn-llm-convert.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-ainpu-qnn-conversion-pipeline/original-evidence-b23dfc65ecbf.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/buckets/tdavron/lfm2-2.6b-q4-qnn-sm8650-bucket",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-ainpu-qnn-conversion-pipeline/artifact-1-d729991644e8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-2-6b-ainpu-snapdragon-chat",
+      "modelId": "lfm2-2-6b",
+      "modelName": "LFM2 2.6B",
+      "title": "AI_NPU：在 Snapdragon 8 Gen 3 手机 NPU 上运行 LFM2-2.6B 聊天应用",
+      "sourcePlatform": "GitHub + Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T23:42:45Z",
+      "priority": "high",
+      "evidenceFingerprint": "08d7b8cc8b0c7e84feeddeb251aec3b2edee255b02a740f704d996fd8a23ecec",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-2-6b-ainpu-snapdragon-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/tdav/AI_NPU/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-ainpu-snapdragon-chat/original-evidence-813d22e3ad74.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/buckets/tdavron/lfm2-2.6b-q4-qnn-sm8650-v2-bucket",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-ainpu-snapdragon-chat/artifact-1-19da25c73707.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-2-6b-bookmind-offline-textbook-rag",
+      "modelId": "lfm2-2-6b",
+      "modelName": "LFM2 2.6B",
+      "title": "BookMind：用 LFM2-2.6B 在本地运行教材问答与练习生成",
+      "sourcePlatform": "GitHub + Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T23:42:45Z",
+      "priority": "high",
+      "evidenceFingerprint": "861870be8f3ea519101c92b5501f9b6ea095a1562b40b460b98fcee6c2fe6f91",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-2-6b-bookmind-offline-textbook-rag/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Ksirailway-base/BookMind/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-bookmind-offline-textbook-rag/original-evidence-2960e6f6dfa0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/Ksirailway/BookMind",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-bookmind-offline-textbook-rag/artifact-1-d4226e2fa600.json"
         }
       ]
     },

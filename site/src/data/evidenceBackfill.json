@@ -13691,7 +13691,7 @@
     "vendorId": "lg-ai-research",
     "vendor": "LG AI Research",
     "publishability": "Hold",
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -13744,7 +13744,7 @@
         "url": "https://www.google.com/search?q=K-EXAONE%20LG%20AI%20Research%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+    "upgradeGate": "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
   },
   {
     "modelId": "k-exaone-2-0-0803",
@@ -13877,7 +13877,7 @@
     "vendorId": "liquid-ai",
     "vendor": "Liquid AI",
     "publishability": "Hold",
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -13930,7 +13930,7 @@
         "url": "https://www.google.com/search?q=LFM2%202.6B%20Liquid%20AI%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+    "upgradeGate": "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
   },
   {
     "modelId": "lfm2-24b-a2b",

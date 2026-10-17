@@ -15349,7 +15349,7 @@
     "vendorId": "lg-ai-research",
     "vendor": "LG AI Research",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "K-EXAONE 独立模型卡",
     "summary": "K-EXAONE  是 LG AI Research 的独立模型 release；Artificial Analysis 当前代表档位为  K-EXAONE (Reasoning) ，AA Intelligence Index 为  22.47 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -15385,11 +15385,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -17283,7 +17283,7 @@
     "vendorId": "liquid-ai",
     "vendor": "Liquid AI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2 2.6B 独立模型卡",
     "summary": "LFM2 2.6B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2 2.6B ，AA Intelligence Index 为  2.30 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -17319,11 +17319,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
