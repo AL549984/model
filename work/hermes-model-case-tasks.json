@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:08:03.594Z",
+  "generatedAt": "2026-10-17T05:17:10.852Z",
   "summary": {
     "models": 390,
     "activeModels": 129,
@@ -55358,7 +55358,9 @@
         "https://ycn3zdw6f1p7.feishu.cn/wiki/HgWSwWQ8piq7eokRTZxc2a22nSR",
         "https://huggingface.co/reflection/Beam-1.0-501B-A23B/raw/main/README.md",
         "https://developers.reflection.ai/models.md",
-        "https://reflection.ai/blog/introducing-beam"
+        "https://reflection.ai/blog/introducing-beam",
+        "https://reflection.ai/blog/beam-is-available",
+        "https://reflection.ai/legal/beta-pricing-information"
       ],
       "crawlSources": [
         {

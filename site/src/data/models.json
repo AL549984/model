@@ -22550,6 +22550,7 @@
     "supplementalSourceCount": 4,
     "riskNotes": [
       "已有 2 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23843,7 +23844,7 @@
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Reflection 的 501B 稀疏 MoE 开放权重模型",
     "summary": "Beam 1.0 面向高效推理、代码、工具调用和长上下文 Agent 任务，官方 Model Card 披露 501.3B 总参数、23.4B 激活参数和 1M 上下文。",
-    "releaseDate": "2026-10-05",
+    "releaseDate": "2026-10-16",
     "modelId": "reflection-beam",
     "context": "1M tokens",
     "output": "Reflection API 模型表为 128K tokens；文档示例返回 131,072。默认生成预算与组织配置另行区分。",
@@ -23860,7 +23861,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "已使用用户身份创建并归档至 Reflection；Wiki 回读和字段证据已通过。\n2026-10-17 原始来源补正：发布时间：2026-10-05（官方公告与 API 模型表的 Created 日期；本次于 2026-10-17 确认官方仓库已有开放权重）; 预训练 token 数：23.8T tokens（Reflection 发布文自述）; 预训练硬件与时长：6,144 张 NVIDIA GB300 NVL72 GPU，不到四周（Reflection 发布文自述）; 强化学习硬件与规模：10.5K 张 NVIDIA GB300 GPU、四周、超过 1 亿次 rollouts（Reflection 发布文自述）",
+    "notes": "已使用用户身份创建并归档至 Reflection；Wiki 回读和字段证据已通过。\n2026-10-17 原始来源补正：发布时间：2026-10-05（官方公告与 API 模型表的 Created 日期；本次于 2026-10-17 确认官方仓库已有开放权重）; 预训练 token 数：23.8T tokens（Reflection 发布文自述）; 预训练硬件与时长：6,144 张 NVIDIA GB300 NVL72 GPU，不到四周（Reflection 发布文自述）; 强化学习硬件与规模：10.5K 张 NVIDIA GB300 GPU、四周、超过 1 亿次 rollouts（Reflection 发布文自述）\n开放权重日期补充：2026-10-16 开放权重；首次公告与 API 建档日期为 2026-10-05，二者分开记录。\nAPI价格与额度：Reflection 官方 API 在公开测试期免费，受每日账户额度限制；额度按太平洋时间每天 00:00 重置，用尽后请求会被拒绝。具体剩余额度在账户后台查看。此政策不代表第三方托管免费，也不是永久每百万 token 报价。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -23877,7 +23878,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 6,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -23886,7 +23887,9 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/HgWSwWQ8piq7eokRTZxc2a22nSR",
       "https://huggingface.co/reflection/Beam-1.0-501B-A23B/raw/main/README.md",
       "https://developers.reflection.ai/models.md",
-      "https://reflection.ai/blog/introducing-beam"
+      "https://reflection.ai/blog/introducing-beam",
+      "https://reflection.ai/blog/beam-is-available",
+      "https://reflection.ai/legal/beta-pricing-information"
     ],
     "sourceFile": "Feishu Bitable"
   }
