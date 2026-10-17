@@ -1286,6 +1286,18 @@
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"
+    },
+    {
+      "id": "current-2026-10-17",
+      "date": "2026-10-17",
+      "label": "当前数据截点",
+      "aCaseCount": 809,
+      "targets": 1623,
+      "snapshottedCases": 598,
+      "pendingSnapshotCases": 210,
+      "partialSnapshotCases": 0,
+      "snapshotAttentionCases": 1,
+      "source": "site/src/data/evidence-archive.json"
     }
   ]
 }
