@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-17T15:32:02.809Z",
+  "generatedAt": "2026-10-17T23:35:26.746Z",
   "summary": {
     "models": 390,
-    "activeModels": 130,
+    "activeModels": 131,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 130,
-    "fullCoverageReady": 130,
+    "publicReady": 131,
+    "fullCoverageReady": 131,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 703,
-    "allModelTargetDeficit": 1216,
-    "queuedModels": 256,
-    "crawlTargetDeficit": 1196
+    "allModelMinDeficit": 695,
+    "allModelTargetDeficit": 1206,
+    "queuedModels": 255,
+    "crawlTargetDeficit": 1186
   },
   "tasks": [
     {
@@ -30075,17 +30075,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/TuYTw5yB7iqou8kkDXccXoDKnZg",
@@ -30927,17 +30927,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Uk4bwNWfZiZ47jk01PScYbDVnJz",
@@ -42126,20 +42126,20 @@
       "modelName": "Exaone 4.0 1.2B",
       "vendorId": "lg-ai-research",
       "vendor": "LG AI Research",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 6,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Cmmlwa5ehiRCJAkCHHhcu9mBnab",
@@ -42274,17 +42274,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Gw1ewWBK4iuEAakYcUlcbu8OnJf",
