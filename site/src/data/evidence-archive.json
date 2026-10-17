@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-17",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 825,
-    "manifestedCases": 825,
+    "aCaseCount": 833,
+    "manifestedCases": 833,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 226,
+    "pendingSnapshotCases": 234,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 142,
-    "targets": 1655
+    "targets": 1671
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -166,14 +166,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 226,
-      "targets": 454,
-      "highPriorityCases": 171,
+      "cases": 234,
+      "targets": 470,
+      "highPriorityCases": 179,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 130,
-          "targets": 240
+          "cases": 138,
+          "targets": 256
         },
         {
           "host": "huggingface.co",
@@ -17801,6 +17801,111 @@
       ]
     },
     {
+      "caseId": "kimi-k2-7-code-daxxteam-telegram-assistant",
+      "modelId": "kimi-k2-7-code",
+      "modelName": "Kimi K2.7 Code",
+      "title": "DAXXTEAM built a Telegram coding assistant powered by Kimi K2.7 Code",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "66d59a7cfaee848fef98dc9fc366dfdbc3843c1eb1316747c424f78d8151c04e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k2-7-code-daxxteam-telegram-assistant/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/DAXXTEAM/kimi-code-assistant/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k2-7-code-daxxteam-telegram-assistant/original-evidence-7a4756f44449.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/DAXXTEAM/kimi-code-assistant",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k2-7-code-daxxteam-telegram-assistant/artifact-1-267ad3cbf0c5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k2-7-code-jmcordobamendez-delegate-mcp",
+      "modelId": "kimi-k2-7-code",
+      "modelName": "Kimi K2.7 Code",
+      "title": "JMcordobamendez built an MCP server for delegating coding work to Kimi K2.7 Code",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "4963fd53d7cc61688657eb045c9dabe9829a519a7bcea69057ce662b04ba6027",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k2-7-code-jmcordobamendez-delegate-mcp/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/JMcordobamendez/kimi-delegate-mcp/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k2-7-code-jmcordobamendez-delegate-mcp/original-evidence-4f54fbab9970.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/JMcordobamendez/kimi-delegate-mcp",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k2-7-code-jmcordobamendez-delegate-mcp/artifact-1-007779021877.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k2-7-code-orbit-shift-sudarshan",
+      "modelId": "kimi-k2-7-code",
+      "modelName": "Kimi K2.7 Code",
+      "title": "Suraj Kuncham used Kimi K2.7 Code to build and verify the Orbit Shift game",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "8b237a817254da6d0a27d75349ac5324de6e3fa5bc511ca95178ab9cfe09ba2e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k2-7-code-orbit-shift-sudarshan/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Suraj1235/orbit-shift/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k2-7-code-orbit-shift-sudarshan/original-evidence-7123c4d629c5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Suraj1235/orbit-shift",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k2-7-code-orbit-shift-sudarshan/artifact-1-d6f766fd68e2.json"
+        }
+      ]
+    },
+    {
       "caseId": "kimi-k2-case-002-straylabs-deadend-cli",
       "modelId": "kimi-k2",
       "modelName": "Kimi K2.5",
@@ -18217,6 +18322,181 @@
           "url": "https://arxiv.org/abs/2602.02537",
           "host": "arxiv.org",
           "recommendedSnapshotPath": "archive/evidence/kimi-k25-worldvqa-research/artifact-1-8e5c86d2d113.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-empire-atlas-thebuggeddev",
+      "modelId": "kimi-k3",
+      "modelName": "Kimi K3",
+      "title": "Empire Atlas: interactive 3D history atlas",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "00dcaf0003a0aaa471166af6a3adfd73092c3c1c430e0a711d388424cd3e2693",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-empire-atlas-thebuggeddev/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/thebuggeddev/empire#how-it-was-made",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-empire-atlas-thebuggeddev/original-evidence-31bb886e3541.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/thebuggeddev/empire",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-empire-atlas-thebuggeddev/artifact-1-12f873115d80.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-euler-identity-kimik3manim",
+      "modelId": "kimi-k3",
+      "modelName": "Kimi K3",
+      "title": "Euler's Identity: automated mathematical animation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "970da494887d51b597e00e7f06b8df031c12aded7a9a7355332a80c3465c64c7",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-euler-identity-kimik3manim/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/HarleyCoops/KimiK3Manim#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-euler-identity-kimik3manim/original-evidence-dbd1c3d449f7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/HarleyCoops/KimiK3Manim/blob/main/assets/EulerIdentityFilm.mp4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-euler-identity-kimik3manim/artifact-1-19444bf6fc34.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-melting-space-kimik3manim",
+      "modelId": "kimi-k3",
+      "modelName": "Kimi K3",
+      "title": "Melting Space: Ricci-flow and Poincare-conjecture film",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "c60a4ab6322274372cad8aed28f8f397ce3e9e5499d76ec521684aabeb9b3ad9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-melting-space-kimik3manim/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/HarleyCoops/KimiK3Manim#melting-space--ricci-flow-and-the-poincare-conjecture",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-melting-space-kimik3manim/original-evidence-af9c5b23fa9a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/HarleyCoops/KimiK3Manim/blob/main/assets/MeltingSpace.mp4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-melting-space-kimik3manim/artifact-1-bda5fa55baad.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-open-interpreter-kimi-code-harness",
+      "modelId": "kimi-k3",
+      "modelName": "Kimi K3",
+      "title": "Open Interpreter Kimi Code harness for coding agents",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "27e68101db9427126207acc08970148e63490ee166908baa6ee540df9bce992e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-open-interpreter-kimi-code-harness/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/openinterpreter/openinterpreter#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-open-interpreter-kimi-code-harness/original-evidence-b8b02eea496b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/openinterpreter/openinterpreter",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-open-interpreter-kimi-code-harness/artifact-1-517eac85218e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-stadiview-thebuggeddev",
+      "modelId": "kimi-k3",
+      "modelName": "Kimi K3",
+      "title": "StadiView: procedural football-stadium seat preview",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T11:32:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "bef5b95712eca848d6abcd289551fcecf366e114cadac7e38df82ae6ce2b3d53",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-stadiview-thebuggeddev/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/thebuggeddev/football-stadium-kimi",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-stadiview-thebuggeddev/original-evidence-a72cb1a152ab.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/thebuggeddev/football-stadium-kimi",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-stadiview-thebuggeddev/artifact-1-a72cb1a152ab.json"
         }
       ]
     },

@@ -7936,8 +7936,8 @@
     "slug": "kimi-k3",
     "vendorId": "kimi",
     "vendor": "Kimi / Moonshot AI",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "2.8T开放权重多模态MoE；官方架构与评测已公开",
     "summary": "Kimi K3 是 Moonshot AI 的开放权重原生多模态MoE模型，总参数2.8T、每token激活104B，支持长上下文和工具工作流。权重、架构配置和评测表均已公开；厂商的领先性宣传仍须按具体任务核验。",
@@ -7979,11 +7979,11 @@
       "需要完整benchmark对比的场景",
       "权重未发布前的本地部署"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 14,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -9618,7 +9618,7 @@
     "vendorId": "kimi",
     "vendor": "Kimi / Moonshot AI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Moonshot AI 旗舰编程模型，1T MoE / 32B 激活，256K 上下文，Modified MIT 开源，专注长周期软件工程任务。",
     "summary": "Kimi K2.7 Code 是 Moonshot AI（月之暗面）于 2026-06-12 发布的旗舰级编程模型，MoE 架构（1T 总参数 / 32B 激活参数 / 384 专家，每 token 激活 8 个 + 1 共享专家 / 61 层含 1 密集层 / MLA 注意力），256K 上下文，支持文本+图像+视频输入（MoonViT 400M 视觉编码器）。相比 K2.6 思考 Token 消耗降低约 30%，在 Kimi Code Bench v2、Program Bench、MLS Bench Lite 及 Agent 评测上显著领先 K2.6。权重以 Modified MIT 协议开源。",
@@ -9653,11 +9653,11 @@
     "avoid": [
       "通用对话/非编程场景（官方建议此场景使用 K2.6）；需要位置编码类型、训练数据规模、最大输出等已披露参数的合规审计场景。"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 8,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
