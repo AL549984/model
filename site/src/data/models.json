@@ -13286,7 +13286,7 @@
     "vendorId": "lg-ai-research",
     "vendor": "LG AI Research",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "EXAONE 4.5 33B 独立模型卡",
     "summary": "LG AI Research 的独立模型 release；AA Intelligence Index：20.511。",
@@ -13322,11 +13322,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -13640,7 +13640,7 @@
     "vendorId": "kwaikat",
     "vendor": "KwaiKAT",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "KAT Coder Pro V2 独立模型卡",
     "summary": "KwaiKAT 的独立模型 release；AA Intelligence Index：33.730。",
@@ -13676,11 +13676,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -18371,8 +18371,8 @@
     "slug": "exaone-4-0-1-2b",
     "vendorId": "lg-ai-research",
     "vendor": "LG AI Research",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 6 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Exaone 4.0 1.2B 独立模型卡",
     "summary": "LG AI Research 的独立模型 release；AA Intelligence Index：2.505。",
@@ -18408,11 +18408,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 6,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -18434,7 +18434,7 @@
     "vendorId": "lg-ai-research",
     "vendor": "LG AI Research",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "EXAONE 4.0 32B 独立模型卡",
     "summary": "LG AI Research 的独立模型 release；AA Intelligence Index：10.500。",
@@ -18470,11 +18470,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [

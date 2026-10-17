@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-17",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 833,
-    "manifestedCases": 833,
+    "aCaseCount": 844,
+    "manifestedCases": 844,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 234,
+    "pendingSnapshotCases": 245,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 142,
-    "targets": 1671
+    "targets": 1693
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -166,19 +166,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 234,
-      "targets": 470,
-      "highPriorityCases": 179,
+      "cases": 245,
+      "targets": 492,
+      "highPriorityCases": 187,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 138,
-          "targets": 256
+          "cases": 146,
+          "targets": 271
         },
         {
           "host": "huggingface.co",
-          "cases": 23,
-          "targets": 42
+          "cases": 26,
+          "targets": 48
         },
         {
           "host": "bilibili.com",
@@ -187,8 +187,8 @@
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 10,
-          "targets": 10
+          "cases": 11,
+          "targets": 11
         },
         {
           "host": "openai.com",
@@ -6241,6 +6241,356 @@
           "url": "https://github.com/maifeipin/lite_agent",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/ds-v4-pro-case-005/artifact-1-7c4d1ddbcfba.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-1-2b-amis5895-nutrition-finetuning",
+      "modelId": "exaone-4-0-1-2b",
+      "modelName": "Exaone 4.0 1.2B",
+      "title": "amis5895 用 EXAONE 4.0 1.2B 做韩国营养学数据 LoRA 微调",
+      "sourcePlatform": "huggingface",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:14Z",
+      "priority": "normal",
+      "evidenceFingerprint": "73b21677420ec513db23b9d0e08eb23c3f95c75dfb8268ec0c12fb0a997e5c0e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-1-2b-amis5895-nutrition-finetuning/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/amis5895/exaone-finetuning",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-amis5895-nutrition-finetuning/original-evidence-860c76668172.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/amis5895/exaone-finetuning",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-amis5895-nutrition-finetuning/artifact-1-860c76668172.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-1-2b-choi0312-w8a8",
+      "modelId": "exaone-4-0-1-2b",
+      "modelName": "Exaone 4.0 1.2B",
+      "title": "choi0312 为 EXAONE 4.0 1.2B 实现可复现的 W8A8 PTQ 流水线",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:14Z",
+      "priority": "high",
+      "evidenceFingerprint": "4faa17b92b7845468bb5afe9268b8a57163c198f2d6728e3ccfd358aede7f70b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-1-2b-choi0312-w8a8/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/choi0312/lg-aimers-8th",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-choi0312-w8a8/original-evidence-692225f6db96.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/choi0312/lg-aimers-8th",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-choi0312-w8a8/artifact-1-692225f6db96.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-1-2b-hkhangg-chatbot",
+      "modelId": "exaone-4-0-1-2b",
+      "modelName": "Exaone 4.0 1.2B",
+      "title": "HKhangg 用 EXAONE 4.0 1.2B 部署公开韩语聊天机器人",
+      "sourcePlatform": "huggingface",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:14Z",
+      "priority": "normal",
+      "evidenceFingerprint": "b1a985f962addc8bc9d915891588e3e345af8df52bad0492b6c886fa8a3f1899",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-1-2b-hkhangg-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/HKhangg/exaone-korean-chatbot",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-hkhangg-chatbot/original-evidence-926429ef677f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/HKhangg/exaone-korean-chatbot",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-hkhangg-chatbot/artifact-1-926429ef677f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-1-2b-paddacoco-lora-gsm8k",
+      "modelId": "exaone-4-0-1-2b",
+      "modelName": "Exaone 4.0 1.2B",
+      "title": "paddacoco 用 EXAONE 4.0 1.2B 做韩语数学 LoRA 应用",
+      "sourcePlatform": "huggingface",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:14Z",
+      "priority": "normal",
+      "evidenceFingerprint": "2cbd8726fe1ee1951fe72e8d281ea9ee622fe69f1d36b120ea43291c829a852c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-1-2b-paddacoco-lora-gsm8k/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/paddacoco/exaone-llm",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-paddacoco-lora-gsm8k/original-evidence-54afeff5a702.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/paddacoco/exaone-llm",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-paddacoco-lora-gsm8k/artifact-1-54afeff5a702.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-1-2b-pancake-ho-w8a8",
+      "modelId": "exaone-4-0-1-2b",
+      "modelName": "Exaone 4.0 1.2B",
+      "title": "pancake-ho 用 EXAONE 4.0 1.2B 构建 FP8 W8A8 量化提交流水线",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:14Z",
+      "priority": "high",
+      "evidenceFingerprint": "6d61101991cf591bf9aee8640625ba26ca8acd45f4306401b9d99c59dc527219",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-1-2b-pancake-ho-w8a8/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/pancake-ho/Aimers",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-pancake-ho-w8a8/original-evidence-34f39c57cf4b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/pancake-ho/Aimers",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-pancake-ho-w8a8/artifact-1-34f39c57cf4b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-1-2b-sonjong980304-quantization",
+      "modelId": "exaone-4-0-1-2b",
+      "modelName": "Exaone 4.0 1.2B",
+      "title": "SONJONG980304-TECH 用 EXAONE 4.0 1.2B 做 4-bit PTQ 与 vLLM 推理优化",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:14Z",
+      "priority": "high",
+      "evidenceFingerprint": "09a19c55f1a70d230278159bf7755ebf96a5dbf047a5ae5fbe8ec8041292aad2",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-1-2b-sonjong980304-quantization/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sonjong980304-tech/lg-aimers-8-exaone-quantization",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-sonjong980304-quantization/original-evidence-afacd3750c9c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/sonjong980304-tech/lg-aimers-8-exaone-quantization",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-1-2b-sonjong980304-quantization/artifact-1-afacd3750c9c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-0-32b-kjw20010818-chatbot",
+      "modelId": "exaone-4-0-32b",
+      "modelName": "EXAONE 4.0 32B",
+      "title": "kjw20010818 用 EXAONE-4.0-32B 构建可量化部署的 Gradio 对话机器人",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:28Z",
+      "priority": "high",
+      "evidenceFingerprint": "0dd4c5431367bbe20c23e6cecc12a02a64a307dff82fdb2270ff4b63a407817e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-0-32b-kjw20010818-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/kjw20010818/chat_exaone",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-32b-kjw20010818-chatbot/original-evidence-9c28f635dcf1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kjw20010818/chat_exaone/blob/main/exaone_build/run_exaone.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-0-32b-kjw20010818-chatbot/artifact-1-85551364fd80.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-5-33b-github-issue-1-lm-studio-load-failure",
+      "modelId": "exaone-4-5-33b",
+      "modelName": "EXAONE 4.5 33B",
+      "title": "用户在 Apple M2 Max 的 LM Studio 中加载 EXAONE 4.5 33B GGUF",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "0b4aaa349377580fd00910b0eab6dd9db08cff9b0a834cee889c85d782fd35f9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-5-33b-github-issue-1-lm-studio-load-failure/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/1",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-1-lm-studio-load-failure/original-evidence-3131350be352.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/1",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-1-lm-studio-load-failure/artifact-1-3131350be352.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-5-33b-github-issue-2-vllm-vision-test",
+      "modelId": "exaone-4-5-33b",
+      "modelName": "EXAONE 4.5 33B",
+      "title": "用户在 vLLM 中测试 EXAONE 4.5 33B-FP8 多模态推理",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "4101811cf61eedcf3eefe5807570fcc1dc9c7bdc8c673b32a551ec7dba98686f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-5-33b-github-issue-2-vllm-vision-test/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-2-vllm-vision-test/original-evidence-f28da8773ff8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-2-vllm-vision-test/artifact-1-f28da8773ff8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "exaone-4-5-33b-github-issue-3-llama-cpp-q3ks",
+      "modelId": "exaone-4-5-33b",
+      "modelName": "EXAONE 4.5 33B",
+      "title": "用户在 llama.cpp 中加载 EXAONE 4.5 33B Q3_K_S",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:37:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "778d4b2eb15a26c746c1609240e17ab54a81b10eb78d7501921b1ecd40a6535f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/exaone-4-5-33b-github-issue-3-llama-cpp-q3ks/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/3",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-3-llama-cpp-q3ks/original-evidence-7355eeaa2265.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/3",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-3-llama-cpp-q3ks/artifact-1-7355eeaa2265.json"
         }
       ]
     },
@@ -17272,6 +17622,41 @@
           "url": "https://www.loom.com/share/c63c3a5668e2440e9dc67829299714f4",
           "host": "loom.com",
           "recommendedSnapshotPath": "archive/evidence/haiku-voice-agent-stress-test-001/artifact-1-dfb84983a02b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kat-coder-pro-v2-child-of-starwish-cpp-rpg",
+      "modelId": "kat-coder-pro-v2",
+      "modelName": "KAT Coder Pro V2",
+      "title": "KAT-Coder-Pro-V2 参与开发《星愿之子》C++17 2D 动作 RPG",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T17:38:03Z",
+      "priority": "high",
+      "evidenceFingerprint": "9b6c3c7aba5830d2c2d909114d1b2526fab0a29384dc6873d41eb17bfa5a6bf7",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kat-coder-pro-v2-child-of-starwish-cpp-rpg/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/c8kmhjxgdb-lab/Child-of-Starwish/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/kat-coder-pro-v2-child-of-starwish-cpp-rpg/original-evidence-75e2bc2387a8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/c8kmhjxgdb-lab/Child-of-Starwish",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kat-coder-pro-v2-child-of-starwish-cpp-rpg/artifact-1-5c0561ccc43d.json"
         }
       ]
     },
