@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-17T09:29:48.899Z",
+  "generatedAt": "2026-10-17T15:32:02.809Z",
   "summary": {
     "models": 390,
-    "activeModels": 129,
+    "activeModels": 130,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 129,
-    "fullCoverageReady": 129,
+    "publicReady": 130,
+    "fullCoverageReady": 130,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 709,
-    "allModelTargetDeficit": 1224,
-    "queuedModels": 257,
-    "crawlTargetDeficit": 1204
+    "allModelMinDeficit": 703,
+    "allModelTargetDeficit": 1216,
+    "queuedModels": 256,
+    "crawlTargetDeficit": 1196
   },
   "tasks": [
     {
@@ -17681,20 +17681,20 @@
       "modelName": "Kimi K3",
       "vendorId": "kimi",
       "vendor": "Kimi / Moonshot AI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://platform.moonshot.cn/docs/guide/kimi-k3-quickstart",
@@ -21400,17 +21400,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
