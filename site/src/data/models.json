@@ -11145,7 +11145,7 @@
     "summary": "NVIDIA 的独立模型 release；AA Intelligence Index：23.606。",
     "releaseDate": "2026-08-11",
     "modelId": "nemotron-3-5-lightning",
-    "context": "1000000 tokens",
+    "context": "最高 1M tokens；官方单 H100 部署示例采用 256K（BF16 检查点 README）",
     "output": "暂无数据",
     "modality": "输入：文本；输出：文本",
     "reasoning": "以 AA 当前代表档位为准",
@@ -11159,7 +11159,7 @@
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Y2FGwcc8LiYKsNkYAV4clVxCnBe；按 AA release slug 独立建档。",
+    "notes": "Wiki 模型卡：https://ycn3zdw6f1p7.feishu.cn/wiki/Y2FGwcc8LiYKsNkYAV4clVxCnBe；按 AA release slug 独立建档。\n2026-10-17 官方 BF16 README 核验并与 Wiki 回读一致：知识截止日期：预训练数据截至 2025-09；后训练数据截至 2026-05（NVIDIA BF16 检查点分阶段 Data Freshness 口径，不合并为一个统一日期）；许可证：OpenMDW-1.1（该 BF16 权重仓库许可证）；上下文窗口：最高 1M tokens；官方单 H100 部署示例采用 256K（BF16 检查点 README）",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -11177,7 +11177,7 @@
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 3,
+    "supplementalSourceCount": 4,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
@@ -11186,7 +11186,8 @@
       "https://ycn3zdw6f1p7.feishu.cn/wiki/Y2FGwcc8LiYKsNkYAV4clVxCnBe",
       "https://artificialanalysis.ai/models/nemotron-3-5-lightning",
       "https://openmdw.ai/license/1-1/",
-      "https://www.nvidia.com/"
+      "https://www.nvidia.com/",
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16/raw/main/README.md"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -11312,8 +11313,8 @@
     "slug": "ling-3-0-tiny",
     "vendorId": "inclusionai",
     "vendor": "InclusionAI",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Ling 3.0 Tiny 独立模型卡",
     "summary": "InclusionAI 的独立模型 release；AA Intelligence Index：24.518。",
@@ -11349,11 +11350,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -11372,7 +11373,7 @@
     "vendorId": "inclusionai",
     "vendor": "InclusionAI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Ling 3.0 Flash 独立模型卡",
     "summary": "InclusionAI 的独立模型 release；AA Intelligence Index：37.821。",
@@ -11408,11 +11409,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22509,7 +22510,7 @@
     "vendorId": "inclusionai",
     "vendor": "InclusionAI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "混合推理、编程和工具 Agent 模型",
     "summary": "服务商原始文档列出 560B 总参数 / 25B 激活；这些是服务商声明，不冒写成已核验厂商技术报告。",
@@ -22544,11 +22545,11 @@
     "avoid": [
       "依据未核验数字进行选型"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22566,7 +22567,7 @@
     "vendorId": "inception",
     "vendor": "Inception",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "面向低延迟场景的扩散语言模型",
     "summary": "Diffusion LLM；具体参数量未从本轮来源获得公开值。不能把扩散文本模型当作视频生成模型。",
@@ -22601,11 +22602,11 @@
     "avoid": [
       "依据未核验数字进行选型"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23828,6 +23829,64 @@
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
       "https://artificialanalysis.ai/models/nemotron-3-5-bolt-74b-a9b",
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16/raw/main/README.md"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "reflection-beam",
+    "name": "Beam 1.0",
+    "slug": "reflection-beam",
+    "vendorId": "reflection",
+    "vendor": "Reflection",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Reflection 的 501B 稀疏 MoE 开放权重模型",
+    "summary": "Beam 1.0 面向高效推理、代码、工具调用和长上下文 Agent 任务，官方 Model Card 披露 501.3B 总参数、23.4B 激活参数和 1M 上下文。",
+    "releaseDate": "2026-10-05",
+    "modelId": "reflection-beam",
+    "context": "1M tokens",
+    "output": "Reflection API 模型表为 128K tokens；文档示例返回 131,072。默认生成预算与组织配置另行区分。",
+    "modality": "text",
+    "reasoning": "reasoning",
+    "price": "开放权重；托管价格官方未核验",
+    "platforms": [
+      "Hugging Face",
+      "自托管"
+    ],
+    "officialLink": "https://reflection.ai/blog/introducing-beam",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "已使用用户身份创建并归档至 Reflection；Wiki 回读和字段证据已通过。\n2026-10-17 原始来源补正：发布时间：2026-10-05（官方公告与 API 模型表的 Created 日期；本次于 2026-10-17 确认官方仓库已有开放权重）; 预训练 token 数：23.8T tokens（Reflection 发布文自述）; 预训练硬件与时长：6,144 张 NVIDIA GB300 NVL72 GPU，不到四周（Reflection 发布文自述）; 强化学习硬件与规模：10.5K 张 NVIDIA GB300 GPU、四周、超过 1 亿次 rollouts（Reflection 发布文自述）",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "代码生成、GitHub issue 修复、CLI/DevOps、MCP 工具调用、长上下文 Agent 研究"
+    ],
+    "avoid": [
+      "不要把厂商自测分数当作独立复测；中文、多语言、实际生产吞吐仍需单独验证"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/HgWSwWQ8piq7eokRTZxc2a22nSR",
+      "https://huggingface.co/reflection/Beam-1.0-501B-A23B/raw/main/README.md",
+      "https://developers.reflection.ai/models.md",
+      "https://reflection.ai/blog/introducing-beam"
     ],
     "sourceFile": "Feishu Bitable"
   }

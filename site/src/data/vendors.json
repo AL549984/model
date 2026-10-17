@@ -1220,6 +1220,31 @@
     "sourceFile": "../../outputs/vendors/qwen-alibaba.md"
   },
   {
+    "id": "reflection",
+    "displayName": "Reflection",
+    "slug": "reflection",
+    "officialSite": "https://reflection.ai/blog/introducing-beam",
+    "status": "review",
+    "caseLibraryStatus": "thin",
+    "positioning": "Reflection 的模型条目已从飞书模型主表接入；厂商路线和官方资料仍需持续补证。",
+    "families": [
+      "Beam 1.0"
+    ],
+    "flagshipModels": [
+      "Beam 1.0"
+    ],
+    "strengths": [
+      "已建立独立模型索引",
+      "保留具体版本与 release 后缀"
+    ],
+    "risks": [
+      "厂商级资料仍待补齐",
+      "真实公开案例仍待核验"
+    ],
+    "modelCount": 1,
+    "sourceFile": "Feishu Bitable (auto-created vendor registry)"
+  },
+  {
     "id": "reka-ai",
     "displayName": "Reka AI",
     "slug": "reka-ai",

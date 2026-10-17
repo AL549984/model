@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-16T23:25:26.609Z",
+  "generatedAt": "2026-10-17T05:08:03.594Z",
   "summary": {
-    "models": 389,
-    "activeModels": 128,
+    "models": 390,
+    "activeModels": 129,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 128,
-    "fullCoverageReady": 128,
+    "publicReady": 129,
+    "fullCoverageReady": 129,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 719,
-    "allModelTargetDeficit": 1235,
+    "allModelMinDeficit": 711,
+    "allModelTargetDeficit": 1225,
     "queuedModels": 257,
-    "crawlTargetDeficit": 1215
+    "crawlTargetDeficit": 1205
   },
   "tasks": [
     {
@@ -24959,7 +24959,8 @@
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Y2FGwcc8LiYKsNkYAV4clVxCnBe",
         "https://artificialanalysis.ai/models/nemotron-3-5-lightning",
         "https://openmdw.ai/license/1-1/",
-        "https://www.nvidia.com/"
+        "https://www.nvidia.com/",
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16/raw/main/README.md"
       ],
       "crawlSources": [
         {
@@ -25363,20 +25364,20 @@
       "modelName": "Ling 3.0 Tiny",
       "vendorId": "inclusionai",
       "vendor": "InclusionAI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Rz94wl8F2iiZOIkpIVJcYHVMnzd",
@@ -25508,17 +25509,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/GOf1wtOuliAWTEkwUaIcXm3lnxg",
@@ -52091,17 +52092,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://vercel.com/ai-gateway/models/ling-3.1-flash",
@@ -52232,17 +52233,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
@@ -55280,6 +55281,147 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for nemotron-3-5-bolt-74b-a9b >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-reflection-beam",
+      "modelId": "reflection-beam",
+      "modelName": "Beam 1.0",
+      "vendorId": "reflection",
+      "vendor": "Reflection",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/HgWSwWQ8piq7eokRTZxc2a22nSR",
+        "https://huggingface.co/reflection/Beam-1.0-501B-A23B/raw/main/README.md",
+        "https://developers.reflection.ai/models.md",
+        "https://reflection.ai/blog/introducing-beam"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Beam 1.0 Reflection case study customer",
+        "Beam 1.0 Reflection built with GitHub demo",
+        "Beam 1.0 Reflection production use product blog",
+        "Beam 1.0 Reflection model card docs API pricing context window",
+        "Beam 1.0 Reflection 真实使用 案例 项目 开源",
+        "Beam 1.0 Reflection GitHub README built with",
+        "Beam 1.0 Reflection B站 使用 案例 demo",
+        "Beam 1.0 Reflection 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for reflection-beam >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

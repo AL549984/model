@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-17",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 809,
-    "manifestedCases": 809,
+    "aCaseCount": 824,
+    "manifestedCases": 824,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 210,
+    "pendingSnapshotCases": 225,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 139,
-    "targets": 1623
+    "uniqueHosts": 142,
+    "targets": 1653
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -42,6 +42,7 @@
     "blog.jcz.dev",
     "blog.roboflow.com",
     "bookitty.bidebliss.com",
+    "bravew.github.io",
     "build.nvidia.com",
     "bvw1eq2hw657.trickle.host",
     "chat.petals.dev",
@@ -98,6 +99,7 @@
     "loom.com",
     "matthieulc.com",
     "maxharar.com",
+    "miaai-lab.github.io",
     "microsoft.com",
     "midwinter-remaster.titanium-helix.com",
     "modelscope.cn",
@@ -131,6 +133,7 @@
     "segmind.com",
     "semgrep.dev",
     "sethhobson.com",
+    "sggg221.github.io",
     "siliconflow.com",
     "simonwillison.net",
     "solar-trust-gate.fly.dev",
@@ -163,14 +166,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 210,
-      "targets": 422,
-      "highPriorityCases": 155,
+      "cases": 225,
+      "targets": 452,
+      "highPriorityCases": 170,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 114,
-          "targets": 212
+          "cases": 129,
+          "targets": 239
         },
         {
           "host": "huggingface.co",
@@ -18253,6 +18256,391 @@
       ]
     },
     {
+      "caseId": "ling-3-0-flash-fin-harshshukla-github-rag",
+      "modelId": "ling-3-0-flash",
+      "modelName": "Ling 3.0 Flash Fin",
+      "title": "Harsh Shukla 用 Ling 3.0 Flash Fin 构建 GitHub 代码库问答系统",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:10:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "0a82547474dbd4557a17c2951d916a6995a525d7114b2ea61898912c81da2dc3",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-fin-harshshukla-github-rag/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/harshshuklaa/github_code_assistance/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-fin-harshshukla-github-rag/original-evidence-e9533ef5dfce.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/harshshuklaa/github_code_assistance",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-fin-harshshukla-github-rag/artifact-1-1688e75d6e5d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-flash-rainymarks-coding-agent",
+      "modelId": "ling-3-0-flash",
+      "modelName": "Ling 3.0 Flash",
+      "title": "RainyMarks 发布基于 Ling 3.0 Flash 的终端编码 Agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:10:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "94cf2adb8b803a905f2b5156893e29254981ed52afaa5375cfdc5f102afe06ac",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-rainymarks-coding-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/RainyMarks/Ling-Code/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-rainymarks-coding-agent/original-evidence-448dfc1ec3f0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/RainyMarks/Ling-Code",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-rainymarks-coding-agent/artifact-1-4bb0d818f703.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-flash-raycodes-financial-synthesizer",
+      "modelId": "ling-3-0-flash",
+      "modelName": "Ling 3.0 Flash",
+      "title": "RayCodes 用 Ling 3.0 Flash 构建金融 PDF 深度研究合成器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:10:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "5fe46ef1a702ba411f9b7ac02cbe04ca8f4c1155f7893c1b285f11a8cc678023",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-raycodes-financial-synthesizer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/47thtechcorner/RayCodes_Ling-3.0-flash/blob/main/main.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-raycodes-financial-synthesizer/original-evidence-5a3a5008c370.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/47thtechcorner/RayCodes_Ling-3.0-flash/blob/main/outputs.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-raycodes-financial-synthesizer/artifact-1-e3c2e8875628.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-flash-vl-miaai-retro-tetris",
+      "modelId": "ling-3-0-flash",
+      "modelName": "Ling 3.0 Flash VL",
+      "title": "MiaAI Lab 用 Ling 3.0 Flash VL 生成可玩的浏览器俄罗斯方块",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:10:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "ecc15d5bc138c6d27f4731951b22668834718c28c4516f82f0ae9fa2d559e62d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-vl-miaai-retro-tetris/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/MiaAI-Lab/Retro-Tetris-Fable-vs-Astra/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-vl-miaai-retro-tetris/original-evidence-ec436783f595.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://miaai-lab.github.io/Retro-Tetris-Fable-vs-Astra/Retro-Tetris-Ling-VL.html",
+          "host": "miaai-lab.github.io",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-vl-miaai-retro-tetris/artifact-1-6e3df1f6f16c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-tiny-adiirfan-anima-android",
+      "modelId": "ling-3-0-tiny",
+      "modelName": "Ling 3.0 Tiny",
+      "title": "Anima Android: on-device image-generation assistant on Snapdragon 8 Elite",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:04:29Z",
+      "priority": "high",
+      "evidenceFingerprint": "56fbce53c7ecde1145f9722b426b4ef51bcdffec8161d2b5b0fae538e7f8dc74",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-tiny-adiirfan-anima-android/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/adiirfan/anima-android",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-adiirfan-anima-android/original-evidence-db82087e8413.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/adiirfan/anima-android",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-adiirfan-anima-android/artifact-1-db82087e8413.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-tiny-chetan0246-localharness",
+      "modelId": "ling-3-0-tiny",
+      "modelName": "Ling 3.0 Tiny",
+      "title": "LocalHarness: fast local-agent tier for web research and document triage",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:04:29Z",
+      "priority": "high",
+      "evidenceFingerprint": "259a5d3b963382ae6a0ac7c4b4e728fe2e1ba04cb264fd56a9c2478a65ac6537",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-tiny-chetan0246-localharness/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Chetan0246/localharness",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-chetan0246-localharness/original-evidence-c337ab835ee3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Chetan0246/localharness",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-chetan0246-localharness/artifact-1-c337ab835ee3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-tiny-ha466-iris-core",
+      "modelId": "ling-3-0-tiny",
+      "modelName": "Ling 3.0 Tiny",
+      "title": "iris_core: local voice companion with persistent memory",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:04:29Z",
+      "priority": "high",
+      "evidenceFingerprint": "7faf2c7a4dd9d9dc59819d0c32112833329e1a1902b60fd5e629ceae90ef740f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-tiny-ha466-iris-core/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ha466/iris_core",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-ha466-iris-core/original-evidence-4dd22ab945cc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ha466/iris_core",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-ha466-iris-core/artifact-1-4dd22ab945cc.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-tiny-juiceboxdocks-vllm-server",
+      "modelId": "ling-3-0-tiny",
+      "modelName": "Ling 3.0 Tiny",
+      "title": "JuiceBoxDocks: verified OpenAI-compatible Ling inference server on RTX 6000 Ada",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:04:29Z",
+      "priority": "high",
+      "evidenceFingerprint": "90545c8dd131b9b8097daa07fe4f0eb6088980e6423947efd8edabdf6650b4b7",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-tiny-juiceboxdocks-vllm-server/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/JuiceB0xC0de/ling-3.0-tiny-cu130-torch213-py312-sm89",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-juiceboxdocks-vllm-server/original-evidence-8ec890d59b39.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/JuiceB0xC0de/ling-3.0-tiny-cu130-torch213-py312-sm89",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-juiceboxdocks-vllm-server/artifact-1-8ec890d59b39.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-tiny-qinqiang316-qcli",
+      "modelId": "ling-3-0-tiny",
+      "modelName": "Ling 3.0 Tiny",
+      "title": "Qcli: local document Q&A, summarization, and translation CLI",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:04:29Z",
+      "priority": "high",
+      "evidenceFingerprint": "ddc8d858eb0238762d881cd8218b82b8c87c087510ab9187d477c1398b2eeab7",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-tiny-qinqiang316-qcli/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/qinqiang316/minicli",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-qinqiang316-qcli/original-evidence-ffbaf6e8678a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/qinqiang316/minicli",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-tiny-qinqiang316-qcli/artifact-1-ffbaf6e8678a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-1-flash-bravew-tank-battle",
+      "modelId": "ling-3-1-flash",
+      "modelName": "Ling 3.1 Flash",
+      "title": "Bravew built and published a playable 3D Tank Battle game with Ling 3.1 Flash",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:05:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "6305c51fee55edf49ff842c7aa5a16eed1c1ce09b031f90daa04de9a2022c1ea",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-1-flash-bravew-tank-battle/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bravew/tank-battle",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-1-flash-bravew-tank-battle/original-evidence-3a308ac5f61e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://bravew.github.io/tank-battle/",
+          "host": "bravew.github.io",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-1-flash-bravew-tank-battle/artifact-1-c285c1f227c8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-1-flash-sggg221-taoyuan-3d",
+      "modelId": "ling-3-1-flash",
+      "modelName": "Ling 3.1 Flash",
+      "title": "sggg221 used Ling 3.1 Flash to generate an interactive 3D Peach Blossom Spring web experience",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:05:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "1e8d265c7c48f674a805a5bae4d9dc27b18174c2b41c941257a246f30eb1de19",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-1-flash-sggg221-taoyuan-3d/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sggg221/ling-taoyuan-3d",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-1-flash-sggg221-taoyuan-3d/original-evidence-7c8bbbab9d31.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://sggg221.github.io/ling-taoyuan-3d/",
+          "host": "sggg221.github.io",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-1-flash-sggg221-taoyuan-3d/artifact-1-1e54718269cc.json"
+        }
+      ]
+    },
+    {
       "caseId": "llama-2-chat-7b-chaoluond-safetyllama",
       "modelId": "llama-2-chat-7b",
       "modelName": "Llama 2 Chat 7B",
@@ -19194,6 +19582,146 @@
           "url": "https://github.com/1596941391qq/Mem1",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/mem1-v25-emotion-companion/artifact-1-47fd3ddc6ae6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "mercury-2-5-arya-chat-voice-search",
+      "modelId": "mercury-2-5",
+      "modelName": "Mercury 2.5",
+      "title": "Arya-Sankhe's Chat application uses Mercury 2.5 for fast voice turns with web search",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:05:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "9d969ad6cf457d499da3d07a64e370f78012e1a5cf622f310ad369d54a01889b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/mercury-2-5-arya-chat-voice-search/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Arya-Sankhe/Chat/pull/31",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-arya-chat-voice-search/original-evidence-695bf74b714e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Arya-Sankhe/Chat",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-arya-chat-voice-search/artifact-1-61a6a8110e5b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "mercury-2-5-david-papp-portfolio-chat",
+      "modelId": "mercury-2-5",
+      "modelName": "Mercury 2.5",
+      "title": "David Papp's portfolio platform routes site chat and AMA responses through Mercury 2.5",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:05:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "784c244e0c6a5af1bdcd6d41f35aec12dc61b9c6a84fdefeccb1a3453f926e45",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/mercury-2-5-david-papp-portfolio-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/pappdavid/portfolio-platform/pull/60",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-david-papp-portfolio-chat/original-evidence-07ab7738cd36.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/pappdavid/portfolio-platform",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-david-papp-portfolio-chat/artifact-1-a45958a7e25e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "mercury-2-5-kibbutznik-governance-simulation",
+      "modelId": "mercury-2-5",
+      "modelName": "Mercury 2.5",
+      "title": "Kibbutznik evaluates Mercury 2.5 for structured decisions in a democratic-community simulation",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:05:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "9d2fc28aadebcbab585d28ff5d2b1917e2f05ceea606e8a32a43960d79b34444",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/mercury-2-5-kibbutznik-governance-simulation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Kibbutznik/kibbutznik/pull/213",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-kibbutznik-governance-simulation/original-evidence-c1a407793b72.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Kibbutznik/kibbutznik",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-kibbutznik-governance-simulation/artifact-1-67ac82145a95.json"
+        }
+      ]
+    },
+    {
+      "caseId": "mercury-2-5-pi-for-excel-cloudflare-relay",
+      "modelId": "mercury-2-5",
+      "modelName": "Mercury 2.5",
+      "title": "pi-for-excel adds a deployable Excel agent integration backed by Mercury 2.5",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:05:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "731663e8c6ab86a6e404c1df332bfe25cf260041b0f9779fd4cf40a7d26b9a13",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/mercury-2-5-pi-for-excel-cloudflare-relay/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/hemantbhatt63883428-star/pi-for-excel/pull/1",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-pi-for-excel-cloudflare-relay/original-evidence-3afa67a74f07.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/hemantbhatt63883428-star/pi-for-excel",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/mercury-2-5-pi-for-excel-cloudflare-relay/artifact-1-613b99ca52ea.json"
         }
       ]
     },
