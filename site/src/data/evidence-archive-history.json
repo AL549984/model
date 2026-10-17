@@ -1291,10 +1291,10 @@
       "id": "current-2026-10-17",
       "date": "2026-10-17",
       "label": "当前数据截点",
-      "aCaseCount": 824,
-      "targets": 1653,
+      "aCaseCount": 825,
+      "targets": 1655,
       "snapshottedCases": 598,
-      "pendingSnapshotCases": 225,
+      "pendingSnapshotCases": 226,
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"

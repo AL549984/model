@@ -11373,7 +11373,7 @@
     "vendorId": "inclusionai",
     "vendor": "InclusionAI",
     "publishability": "Hold",
-    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Ling 3.0 Flash 独立模型卡",
     "summary": "InclusionAI 的独立模型 release；AA Intelligence Index：37.821。",
@@ -11409,11 +11409,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 4,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22400,7 +22400,7 @@
     "vendorId": "inclusionai",
     "vendor": "InclusionAI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "金融研究增强模型",
     "summary": "124B 总参数 / 5.1B 激活参数；基于 Ling-3.0-flash，支持长程推理与工具使用",
@@ -22435,11 +22435,11 @@
     "avoid": [
       "依据未核验数字进行选型"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22455,7 +22455,7 @@
     "vendorId": "inclusionai",
     "vendor": "InclusionAI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "原生图像与视频理解模型",
     "summary": "124B 总参数 / 5.5B 激活参数；基于 Ling-3.0-flash，支持长程推理与工具使用",
@@ -22490,11 +22490,11 @@
     "avoid": [
       "依据未核验数字进行选型"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [

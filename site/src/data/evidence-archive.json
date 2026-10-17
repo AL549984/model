@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-17",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 824,
-    "manifestedCases": 824,
+    "aCaseCount": 825,
+    "manifestedCases": 825,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 225,
+    "pendingSnapshotCases": 226,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 142,
-    "targets": 1653
+    "targets": 1655
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -166,14 +166,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 225,
-      "targets": 452,
-      "highPriorityCases": 170,
+      "cases": 226,
+      "targets": 454,
+      "highPriorityCases": 171,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 129,
-          "targets": 239
+          "cases": 130,
+          "targets": 240
         },
         {
           "host": "huggingface.co",
@@ -18256,15 +18256,15 @@
       ]
     },
     {
-      "caseId": "ling-3-0-flash-fin-harshshukla-github-rag",
-      "modelId": "ling-3-0-flash",
-      "modelName": "Ling 3.0 Flash Fin",
-      "title": "Harsh Shukla 用 Ling 3.0 Flash Fin 构建 GitHub 代码库问答系统",
+      "caseId": "ling-3-0-flash-fin-harshshuklaa-github-rag-assistant",
+      "modelId": "ling-3-0-flash-fin",
+      "modelName": "Ling-3.0-flash-Fin",
+      "title": "GitHub RAG Assistant grounded codebase Q&A",
       "sourcePlatform": "github",
       "sourceType": "real_case",
-      "collectedAt": "2026-10-17T05:10:00Z",
+      "collectedAt": "2026-10-17T05:27:19Z",
       "priority": "high",
-      "evidenceFingerprint": "0a82547474dbd4557a17c2951d916a6995a525d7114b2ea61898912c81da2dc3",
+      "evidenceFingerprint": "42bbaa5d2e1fe569743e579310f81ed03cad5e5e616c1d1e4089d8141c593a78",
       "snapshotStatus": "pending_snapshot",
       "snapshotIssue": {
         "code": "pending_queued",
@@ -18274,19 +18274,19 @@
       },
       "snapshotTargetCount": 0,
       "snapshotOkTargetCount": 0,
-      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-fin-harshshukla-github-rag/manifest.json",
+      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-fin-harshshuklaa-github-rag-assistant/manifest.json",
       "targets": [
         {
           "kind": "original-evidence",
-          "url": "https://github.com/harshshuklaa/github_code_assistance/blob/main/README.md",
+          "url": "https://github.com/harshshuklaa/github_code_assistance",
           "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-fin-harshshukla-github-rag/original-evidence-e9533ef5dfce.json"
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-fin-harshshuklaa-github-rag-assistant/original-evidence-1688e75d6e5d.json"
         },
         {
           "kind": "artifact-1",
           "url": "https://github.com/harshshuklaa/github_code_assistance",
           "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-fin-harshshukla-github-rag/artifact-1-1688e75d6e5d.json"
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-fin-harshshuklaa-github-rag-assistant/artifact-1-1688e75d6e5d.json"
         }
       ]
     },
@@ -18361,15 +18361,50 @@
       ]
     },
     {
-      "caseId": "ling-3-0-flash-vl-miaai-retro-tetris",
-      "modelId": "ling-3-0-flash",
-      "modelName": "Ling 3.0 Flash VL",
-      "title": "MiaAI Lab 用 Ling 3.0 Flash VL 生成可玩的浏览器俄罗斯方块",
+      "caseId": "ling-3-0-flash-vl-miaai-beat-napkin",
+      "modelId": "ling-3-0-flash-vl",
+      "modelName": "Ling-3.0-flash-VL",
+      "title": "Beat Napkin drum machine generated from a napkin sketch",
       "sourcePlatform": "github",
       "sourceType": "real_case",
-      "collectedAt": "2026-10-17T05:10:00Z",
+      "collectedAt": "2026-10-17T05:27:02Z",
       "priority": "high",
-      "evidenceFingerprint": "ecc15d5bc138c6d27f4731951b22668834718c28c4516f82f0ae9fa2d559e62d",
+      "evidenceFingerprint": "d9867effa425fde966dd360ecda4813a3eee090821597b5b48723d1dfb0ca7d5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/ling-3-0-flash-vl-miaai-beat-napkin/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/MiaAI-Lab/Ling-3.0-Flash-VL-Vision-Test/commit/9cc1c21e47fe7fe2652b077766d0127e648ceb78",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-vl-miaai-beat-napkin/original-evidence-8c62c3b3d167.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://miaai-lab.github.io/Ling-3.0-Flash-VL-Vision-Test/",
+          "host": "miaai-lab.github.io",
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-vl-miaai-beat-napkin/artifact-1-f0ab30eead51.json"
+        }
+      ]
+    },
+    {
+      "caseId": "ling-3-0-flash-vl-miaai-retro-tetris",
+      "modelId": "ling-3-0-flash-vl",
+      "modelName": "Ling-3.0-flash-VL",
+      "title": "Graph Paper Retro single-file Tetris game",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-17T05:27:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "9ae898eb29a8a5ac8d997f0261b177d0b978a6a1cfe3260b3ebc1677c5619c13",
       "snapshotStatus": "pending_snapshot",
       "snapshotIssue": {
         "code": "pending_queued",
@@ -18383,9 +18418,9 @@
       "targets": [
         {
           "kind": "original-evidence",
-          "url": "https://github.com/MiaAI-Lab/Retro-Tetris-Fable-vs-Astra/blob/main/README.md",
+          "url": "https://github.com/MiaAI-Lab/Retro-Tetris-Fable-vs-Astra",
           "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-vl-miaai-retro-tetris/original-evidence-ec436783f595.json"
+          "recommendedSnapshotPath": "archive/evidence/ling-3-0-flash-vl-miaai-retro-tetris/original-evidence-12d8ebc20b0a.json"
         },
         {
           "kind": "artifact-1",
