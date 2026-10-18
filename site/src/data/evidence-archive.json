@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-18",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 880,
-    "manifestedCases": 880,
+    "aCaseCount": 885,
+    "manifestedCases": 885,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 281,
+    "pendingSnapshotCases": 286,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 144,
-    "targets": 1765
+    "targets": 1775
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -168,14 +168,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 281,
-      "targets": 564,
-      "highPriorityCases": 215,
+      "cases": 286,
+      "targets": 574,
+      "highPriorityCases": 220,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 174,
-          "targets": 316
+          "cases": 179,
+          "targets": 326
         },
         {
           "host": "huggingface.co",
@@ -17733,6 +17733,76 @@
       ]
     },
     {
+      "caseId": "k2-horizon-0-9b-open-horizon-android-agent",
+      "modelId": "k2-horizon-0-9b",
+      "modelName": "K2 Horizon 0.9B",
+      "title": "Open Horizon local Android AI agent on Snapdragon phone",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T18:00:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "45c1fd766cc931f79066d8eea51f3474ff897a9d57ea1819c855e6577bb7b4e8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-0-9b-open-horizon-android-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/XYETHER/Open-Horizon",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-0-9b-open-horizon-android-agent/original-evidence-491c94b46784.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/XYETHER/Open-Horizon",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-0-9b-open-horizon-android-agent/artifact-1-491c94b46784.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-0-9b-raycodes-offline-dsa-coach",
+      "modelId": "k2-horizon-0-9b",
+      "modelName": "K2 Horizon 0.9B",
+      "title": "RayCodes offline DSA coach and long-context STEM PDF Q&A",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T18:00:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "d9720bb17b20753c5bbbe108546c34ece66be9962a86bd07dcfb32cd113b6b5b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-0-9b-raycodes-offline-dsa-coach/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/47thtechcorner/RayCodes_K2-Horizon-0.9B",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-0-9b-raycodes-offline-dsa-coach/original-evidence-983ff5956f57.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/47thtechcorner/RayCodes_K2-Horizon-0.9B",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-0-9b-raycodes-offline-dsa-coach/artifact-1-983ff5956f57.json"
+        }
+      ]
+    },
+    {
       "caseId": "kat-coder-pro-v2-child-of-starwish-cpp-rpg",
       "modelId": "kat-coder-pro-v2",
       "modelName": "KAT Coder Pro V2",
@@ -21334,6 +21404,111 @@
           "url": "https://github.com/xanto521/3DBPOS_by_LongCat",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/longcat-2-0-xanto521-3d-bin-packing/artifact-1-f8ae58a8b08f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "longcat-flash-lite-fb208-openbidkit-tender-documents",
+      "modelId": "longcat-flash-lite",
+      "modelName": "LongCat Flash Lite",
+      "title": "易标投标工具箱用 LongCat-Flash-Lite 稳定生成复杂投标方案 JSON",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T18:01:36Z",
+      "priority": "high",
+      "evidenceFingerprint": "27fcefd3f6066d2b2e581f52bfbcc197aaa798f59f8b1b6bf811ea17edde7ddb",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/longcat-flash-lite-fb208-openbidkit-tender-documents/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/FB208/OpenBidKit_Yibiao/blob/main/%E6%96%87%E7%AB%A0/%E6%A0%87%E4%B9%A6%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%88%E4%BA%94%EF%BC%89%E2%80%94%E2%80%94%E5%A6%82%E4%BD%95%E8%AE%A9%E5%BC%B1%E6%A8%A1%E5%9E%8B%E4%B9%9F%E8%83%BD%E7%A8%B3%E5%AE%9A%E8%BE%93%E5%87%BA%E5%A4%8D%E6%9D%82json.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/longcat-flash-lite-fb208-openbidkit-tender-documents/original-evidence-df82b2cde07f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/FB208/OpenBidKit_Yibiao",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/longcat-flash-lite-fb208-openbidkit-tender-documents/artifact-1-df54fe999dcb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "longcat-flash-lite-freetitan-forecasting-tools-policy-forecaster",
+      "modelId": "longcat-flash-lite",
+      "modelName": "LongCat Flash Lite",
+      "title": "Forecasting Tools 将 LongCat-Flash-Lite 接入政策预测与研究工作流",
+      "sourcePlatform": "GitHub + Streamlit",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T18:01:36Z",
+      "priority": "high",
+      "evidenceFingerprint": "d71bcc090155dd9bbc44e51be4f90240c292c3fee81b02df29f61dc6c05cc93f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/longcat-flash-lite-freetitan-forecasting-tools-policy-forecaster/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/freetitan/forecasting-tools/pull/1",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/longcat-flash-lite-freetitan-forecasting-tools-policy-forecaster/original-evidence-e39f4602ffea.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/freetitan/forecasting-tools",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/longcat-flash-lite-freetitan-forecasting-tools-policy-forecaster/artifact-1-149a2905087f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "longcat-flash-lite-leaderone-gittok-readme-summary",
+      "modelId": "longcat-flash-lite",
+      "modelName": "LongCat Flash Lite",
+      "title": "GitTok 用 LongCat-Flash-Lite 为 GitHub Trending 仓库生成中文摘要",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T18:01:36Z",
+      "priority": "high",
+      "evidenceFingerprint": "060cb70026f07cc181540fb92a2cc6f84bb4b06fb6e520de719591ba4a217cbd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/longcat-flash-lite-leaderone-gittok-readme-summary/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/LeaderOnePro/GitTok/pull/5",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/longcat-flash-lite-leaderone-gittok-readme-summary/original-evidence-751e8b90ce37.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/LeaderOnePro/GitTok",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/longcat-flash-lite-leaderone-gittok-readme-summary/artifact-1-4cc6ce7a9bdc.json"
         }
       ]
     },

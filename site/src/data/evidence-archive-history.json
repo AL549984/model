@@ -1303,10 +1303,10 @@
       "id": "current-2026-10-18",
       "date": "2026-10-18",
       "label": "当前数据截点",
-      "aCaseCount": 880,
-      "targets": 1765,
+      "aCaseCount": 885,
+      "targets": 1775,
       "snapshottedCases": 598,
-      "pendingSnapshotCases": 281,
+      "pendingSnapshotCases": 286,
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"

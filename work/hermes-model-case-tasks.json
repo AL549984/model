@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-18T11:52:52.043Z",
+  "generatedAt": "2026-10-18T17:59:15.470Z",
   "summary": {
     "models": 390,
-    "activeModels": 133,
+    "activeModels": 135,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 133,
-    "fullCoverageReady": 133,
+    "publicReady": 135,
+    "fullCoverageReady": 135,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 680,
-    "allModelTargetDeficit": 1187,
-    "queuedModels": 253,
-    "crawlTargetDeficit": 1167
+    "allModelMinDeficit": 668,
+    "allModelTargetDeficit": 1170,
+    "queuedModels": 251,
+    "crawlTargetDeficit": 1150
   },
   "tasks": [
     {
@@ -25647,20 +25647,20 @@
       "modelName": "LFM2.5-2.6B",
       "vendorId": "liquid-ai",
       "vendor": "Liquid AI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/GiglwjI9WiPIKQk2UFKcn9tBnVg",
@@ -26926,17 +26926,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/B17Qwmz6qiXKDZkSNwbcjDPunVh",
@@ -27782,17 +27782,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/WmHYwLFJeil7z2kjIkgcdZV8nWd",
@@ -34520,20 +34520,20 @@
       "modelName": "LFM2.5-VL-1.6B",
       "vendorId": "liquid-ai",
       "vendor": "Liquid AI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/CE28wlpz7iOGkVk6U66cJmSunUf",
