@@ -11431,8 +11431,8 @@
     "slug": "lfm2-5-2-6b",
     "vendorId": "liquid-ai",
     "vendor": "Liquid AI",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-2.6B 独立模型卡",
     "summary": "LFM2.5-2.6B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-2.6B ，AA Intelligence Index 为  10.99 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -11468,11 +11468,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -11961,7 +11961,7 @@
     "vendorId": "longcat",
     "vendor": "LongCat",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LongCat 2.0 独立模型卡",
     "summary": "LongCat 的独立模型 release；AA Intelligence Index：33.969。",
@@ -11997,11 +11997,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -12319,7 +12319,7 @@
     "vendorId": "liquid-ai",
     "vendor": "Liquid AI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-8B-A1B 独立模型卡",
     "summary": "LFM2.5-8B-A1B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-8B-A1B ，AA Intelligence Index 为  8.14 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -12355,11 +12355,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -14411,6 +14411,7 @@
     "supplementalSourceCount": 4,
     "riskNotes": [
       "已有 1 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -15161,8 +15162,8 @@
     "slug": "lfm2-5-vl-1-6b",
     "vendorId": "liquid-ai",
     "vendor": "Liquid AI",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "LFM2.5-VL-1.6B 独立模型卡",
     "summary": "LFM2.5-VL-1.6B  是 Liquid AI 的独立模型 release；Artificial Analysis 当前代表档位为  LFM2.5-VL-1.6B ，AA Intelligence Index 为  1.00 。本卡按 release 单独建档，不与同家族其他型号合并。",
@@ -15198,11 +15199,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -17265,6 +17266,7 @@
     "supplementalSourceCount": 4,
     "riskNotes": [
       "已有 2 条 A 类案例，但低于 3 条公开达标线。",
+      "但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [

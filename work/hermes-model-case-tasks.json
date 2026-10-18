@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-18T05:46:40.088Z",
+  "generatedAt": "2026-10-18T11:52:52.043Z",
   "summary": {
     "models": 390,
-    "activeModels": 131,
+    "activeModels": 133,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 131,
-    "fullCoverageReady": 131,
+    "publicReady": 133,
+    "fullCoverageReady": 133,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 689,
-    "allModelTargetDeficit": 1200,
-    "queuedModels": 255,
-    "crawlTargetDeficit": 1180
+    "allModelMinDeficit": 680,
+    "allModelTargetDeficit": 1187,
+    "queuedModels": 253,
+    "crawlTargetDeficit": 1167
   },
   "tasks": [
     {
@@ -32652,17 +32652,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/WCw4wbHKJi1zvLkD2a3cZAVMnTb",
@@ -34227,20 +34227,20 @@
       "modelName": "LFM2.5-1.2B-Thinking",
       "vendorId": "liquid-ai",
       "vendor": "Liquid AI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/JOttwsFZYiQOrikMYDgcI9tTnSg",
@@ -34664,20 +34664,20 @@
       "modelName": "LFM2.5-1.2B-Instruct",
       "vendorId": "liquid-ai",
       "vendor": "Liquid AI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/ZTPYwVMqOiif5WkIa71cJhx3nzc",
@@ -39405,17 +39405,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Z1tUwJRV7ij9qKkhy3ncpazbnlb",
