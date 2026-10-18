@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "name": "Model Atlas Evidence Archive Manifest",
-  "datasetCut": "2026-10-17",
+  "datasetCut": "2026-10-18",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 850,
-    "manifestedCases": 850,
+    "aCaseCount": 863,
+    "manifestedCases": 863,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 598,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 251,
+    "pendingSnapshotCases": 264,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 142,
-    "targets": 1705
+    "uniqueHosts": 143,
+    "targets": 1731
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -156,6 +156,7 @@
     "willie-yao.github.io",
     "workshoplabs.ai",
     "worldofclaudecraft.com",
+    "yasserrmd.github.io",
     "youtu.be",
     "youtube.com",
     "z.ai"
@@ -166,19 +167,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 251,
-      "targets": 504,
-      "highPriorityCases": 193,
+      "cases": 264,
+      "targets": 530,
+      "highPriorityCases": 201,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 152,
-          "targets": 279
+          "cases": 160,
+          "targets": 293
         },
         {
           "host": "huggingface.co",
-          "cases": 30,
-          "targets": 52
+          "cases": 36,
+          "targets": 63
         },
         {
           "host": "bilibili.com",
@@ -19127,6 +19128,461 @@
           "url": "https://huggingface.co/spaces/Ksirailway/BookMind",
           "host": "huggingface.co",
           "recommendedSnapshotPath": "archive/evidence/lfm2-2-6b-bookmind-offline-textbook-rag/artifact-1-d4226e2fa600.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-24b-a2b-aralautomata-code-review-agent",
+      "modelId": "lfm2-24b-a2b",
+      "modelName": "LFM2 24B A2B",
+      "title": "AralAutomata 的本地代码审查与提交说明 Agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:48:17Z",
+      "priority": "high",
+      "evidenceFingerprint": "911c41339561613f9c1f605def254e9a1fea47b83c9d9190c34671d793c2dc82",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-24b-a2b-aralautomata-code-review-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/AralAutomata/LFM2-24B-A2B-CodeReviewAgent/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-24b-a2b-aralautomata-code-review-agent/original-evidence-1352964749cf.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/AralAutomata/LFM2-24B-A2B-CodeReviewAgent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-24b-a2b-aralautomata-code-review-agent/artifact-1-97c5e61eec4a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-5-1-2b-thinking-hf-facecom-ag",
+      "modelId": "lfm2-5-1-2b-thinking",
+      "modelName": "LFM2.5-1.2B-Thinking",
+      "title": "CPU-hosted local chat assistant",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:49:27.200877Z",
+      "priority": "normal",
+      "evidenceFingerprint": "c85fba12d0bb6e40db466c9fc820519236e69c8c946a4be1358bc0c312ba5753",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-5-1-2b-thinking-hf-facecom-ag/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/facecom/ag/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-facecom-ag/original-evidence-b57150fdb3e3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/facecom/ag",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-facecom-ag/artifact-1-6582dc99cd90.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-5-1-2b-thinking-hf-feno-chat",
+      "modelId": "lfm2-5-1-2b-thinking",
+      "modelName": "LFM2.5-1.2B-Thinking",
+      "title": "Claude-style streaming chat interface",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:49:27.200877Z",
+      "priority": "normal",
+      "evidenceFingerprint": "e606e3d40149a569d347eb74d2f510adc93e2868190bb1993c52f0f3e4555a2c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-5-1-2b-thinking-hf-feno-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/feno1/LFM_2.5_Thinking_Chat/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-feno-chat/original-evidence-f75224e0326b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/feno1/LFM_2.5_Thinking_Chat",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-feno-chat/artifact-1-225ab1ee2cad.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-5-1-2b-thinking-hf-flamefox-tree-of-thought",
+      "modelId": "lfm2-5-1-2b-thinking",
+      "modelName": "LFM2.5-1.2B-Thinking",
+      "title": "Tree-of-Thought problem-solving demo",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:49:27.200877Z",
+      "priority": "normal",
+      "evidenceFingerprint": "f83089cdf91d2597bcaa51afb483294dab72107241b4347a0120f30e22407b59",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-5-1-2b-thinking-hf-flamefox-tree-of-thought/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/FlameF0X/DeepThoughTree/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-flamefox-tree-of-thought/original-evidence-ddb686b7fff0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/FlameF0X/DeepThoughTree",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-flamefox-tree-of-thought/artifact-1-111c147e18b4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-5-1-2b-thinking-hf-kate-line-anycoder",
+      "modelId": "lfm2-5-1-2b-thinking",
+      "modelName": "LFM2.5-1.2B-Thinking",
+      "title": "AnyCoder reasoning chat deployed on Hugging Face Spaces",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:49:27.200877Z",
+      "priority": "normal",
+      "evidenceFingerprint": "803b23e9bc12fc02b73eeddb9802cc41de5669c5f3ee84dbeb08aafe66e5ede3",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-5-1-2b-thinking-hf-kate-line-anycoder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/kate-line/anycoder-8157c445/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-kate-line-anycoder/original-evidence-db08847f987c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/kate-line/anycoder-8157c445",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-kate-line-anycoder/artifact-1-2c4dc571aecd.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-5-1-2b-thinking-hf-lucaspetti-tool-use",
+      "modelId": "lfm2-5-1-2b-thinking",
+      "modelName": "LFM2.5-1.2B-Thinking",
+      "title": "Tool-calling assistant with web search and email actions",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:49:27.200877Z",
+      "priority": "normal",
+      "evidenceFingerprint": "129277ce34ba3561eebd2db2f4a90ca0d52bb3cd038c82b7157a935783d336ee",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-5-1-2b-thinking-hf-lucaspetti-tool-use/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/lucaspetti/lfm2_5_tool_use/raw/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-lucaspetti-tool-use/original-evidence-d581eb08a537.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/lucaspetti/lfm2_5_tool_use",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-5-1-2b-thinking-hf-lucaspetti-tool-use/artifact-1-deee04506f64.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-8b-a1b-grantater-gemerick0",
+      "modelId": "lfm2-8b-a1b",
+      "modelName": "LFM2 8B A1B",
+      "title": "Grantater：日本政府补助金检索与个性化摘要应用",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:47:55Z",
+      "priority": "high",
+      "evidenceFingerprint": "47b36f6159a2135b726e4706f1823eff2050880dd08839ac89f8fc1d5931afef",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-8b-a1b-grantater-gemerick0/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/gemerick0/grantater",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-8b-a1b-grantater-gemerick0/original-evidence-5b1ecdcc2803.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/gemerick0/grantater",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-8b-a1b-grantater-gemerick0/artifact-1-5b1ecdcc2803.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm2-8b-a1b-statgenie-sahil-dsangani",
+      "modelId": "lfm2-8b-a1b",
+      "modelName": "LFM2 8B A1B",
+      "title": "StatGenie：基于 LFM2-8B-A1B 的本地 MLB Text-to-SQL 数据代理",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:47:55Z",
+      "priority": "high",
+      "evidenceFingerprint": "cf0dd23e6709422d26721c45ec28e3027fb14c7d296b8338ed5d446b099ea899",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm2-8b-a1b-statgenie-sahil-dsangani/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/SahilDSangani/NL2SQL",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-8b-a1b-statgenie-sahil-dsangani/original-evidence-a5eb5f809f21.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/SahilDSangani/NL2SQL",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm2-8b-a1b-statgenie-sahil-dsangani/artifact-1-a5eb5f809f21.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm25-1-2b-instruct-alpaim-alchemai-browser-game",
+      "modelId": "lfm2-5-1-2b-instruct",
+      "modelName": "LFM2.5-1.2B-Instruct",
+      "title": "Alchemai: browser-based Infinite Craft-style game",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:48:11Z",
+      "priority": "high",
+      "evidenceFingerprint": "77f08db40cdb7139df810aad0b515b6c18e4e9b334692d9b460286819d24b669",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm25-1-2b-instruct-alpaim-alchemai-browser-game/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/alpaim/alchemai/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-alpaim-alchemai-browser-game/original-evidence-04ebf718b251.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/alpaim/alchemai",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-alpaim-alchemai-browser-game/artifact-1-658119bf3d8e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm25-1-2b-instruct-bestxrr-btc-serving",
+      "modelId": "lfm2-5-1-2b-instruct",
+      "modelName": "LFM2.5-1.2B-Instruct",
+      "title": "BTC efficiency competition: vLLM serving optimization",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:48:11Z",
+      "priority": "high",
+      "evidenceFingerprint": "ad40c64f6fc5e3df76107633516ddb05d3aca27d94b12de448b50036b2b194e4",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm25-1-2b-instruct-bestxrr-btc-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bestxrr/lfm-serving/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-bestxrr-btc-serving/original-evidence-2b74e0eaef96.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bestxrr/lfm-serving/tree/main/submission",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-bestxrr-btc-serving/artifact-1-d890d0553c1f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm25-1-2b-instruct-mraad-feln-northsea-arcgis",
+      "modelId": "lfm2-5-1-2b-instruct",
+      "modelName": "LFM2.5-1.2B-Instruct",
+      "title": "NorthSea ArcGIS: natural language to FELN execution plans",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:48:11Z",
+      "priority": "high",
+      "evidenceFingerprint": "d26d59b12637044c43958ff051629a08318da4cbcf599ffa776b039c56c13ea5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm25-1-2b-instruct-mraad-feln-northsea-arcgis/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/mraad/feln-liquid/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-mraad-feln-northsea-arcgis/original-evidence-285636cbaefd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/mraad/feln-liquid",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-mraad-feln-northsea-arcgis/artifact-1-af0eb66a0727.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm25-1-2b-instruct-viettel-ai-race-serving",
+      "modelId": "lfm2-5-1-2b-instruct",
+      "modelName": "LFM2.5-1.2B-Instruct",
+      "title": "Viettel AI Race: constrained MiG H200 serving deployment",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:48:11Z",
+      "priority": "high",
+      "evidenceFingerprint": "f2936056f25b120f8b726de266a9563078025db23a168245f18d1a92b8a0c445",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm25-1-2b-instruct-viettel-ai-race-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Platypus27-coder/viettel-ai-race-llm-serving/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-viettel-ai-race-serving/original-evidence-42f138bae061.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Platypus27-coder/viettel-ai-race-llm-serving/blob/main/docker-compose.yml",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-viettel-ai-race-serving/artifact-1-e2710ebcdc72.json"
+        }
+      ]
+    },
+    {
+      "caseId": "lfm25-1-2b-instruct-yasserrmd-barq-mind",
+      "modelId": "lfm2-5-1-2b-instruct",
+      "modelName": "LFM2.5-1.2B-Instruct",
+      "title": "barq-mind: browser-local hierarchical document retrieval",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-18T05:48:11Z",
+      "priority": "high",
+      "evidenceFingerprint": "0898f714124dd122c12a9f136cdbe6723b7811afd4bba517577e502e15415e01",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/lfm25-1-2b-instruct-yasserrmd-barq-mind/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/YASSERRMD/barq-mind/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-yasserrmd-barq-mind/original-evidence-63154fde9564.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://yasserrmd.github.io/barq-mind/",
+          "host": "yasserrmd.github.io",
+          "recommendedSnapshotPath": "archive/evidence/lfm25-1-2b-instruct-yasserrmd-barq-mind/artifact-1-9a21189204d3.json"
         }
       ]
     },
