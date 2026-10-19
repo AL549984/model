@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-19",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 896,
-    "manifestedCases": 896,
+    "aCaseCount": 914,
+    "manifestedCases": 914,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 595,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 300,
+    "pendingSnapshotCases": 318,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 143,
-    "targets": 1797
+    "targets": 1833
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -167,19 +167,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 300,
-      "targets": 602,
-      "highPriorityCases": 234,
+      "cases": 318,
+      "targets": 638,
+      "highPriorityCases": 249,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 193,
-          "targets": 348
+          "cases": 208,
+          "targets": 377
         },
         {
           "host": "huggingface.co",
-          "cases": 42,
-          "targets": 72
+          "cases": 46,
+          "targets": 79
         },
         {
           "host": "raw.githubusercontent.com",
@@ -21267,6 +21267,356 @@
       ]
     },
     {
+      "caseId": "llama-3-2-instruct-90b-vision-arzachel-nasa-space-apps",
+      "modelId": "llama-3-2-instruct-90b-vision",
+      "modelName": "Llama 3.2 Instruct 90B (Vision)",
+      "title": "Arzachel NASA Space Apps precision-agriculture and Earth-observation platform",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:15:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "9627e45a0be16493282ccbdd219d72f9078b90746950ae799351740fe9978667",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-90b-vision-arzachel-nasa-space-apps/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/mynameisjeff-1/Arzachel/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-arzachel-nasa-space-apps/original-evidence-254c949950f4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/mynameisjeff-1/Arzachel",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-arzachel-nasa-space-apps/artifact-1-f838b5365b62.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-90b-vision-ayush1233-smart-vision",
+      "modelId": "llama-3-2-instruct-90b-vision",
+      "modelName": "Llama 3.2 Instruct 90B (Vision)",
+      "title": "Smart Vision real-time video and image analysis on Vertex AI",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:15:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "34627206f54fe5670938327cc777271e71c9db438465e97df2070221b8a43477",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-90b-vision-ayush1233-smart-vision/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ayush1233/smart-vision/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-ayush1233-smart-vision/original-evidence-1cf3de7f2212.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ayush1233/smart-vision",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-ayush1233-smart-vision/artifact-1-6be01eb16feb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-90b-vision-cloudera-llama32-vision-amp",
+      "modelId": "llama-3-2-instruct-90b-vision",
+      "modelName": "Llama 3.2 Instruct 90B (Vision)",
+      "title": "Cloudera CML image transcription and information extraction AMP",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:15:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "48c3abaf9aaa9f61027b109cd30fb4cbb0f0be4fdeeb06d09d36aa98366954a1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-90b-vision-cloudera-llama32-vision-amp/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bantone/llama32-vision-amp/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-cloudera-llama32-vision-amp/original-evidence-6a55406321ba.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bantone/llama32-vision-amp",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-cloudera-llama32-vision-amp/artifact-1-a32fae22ef91.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-90b-vision-fergus-watson-meter-reading",
+      "modelId": "llama-3-2-instruct-90b-vision",
+      "modelName": "Llama 3.2 Instruct 90B (Vision)",
+      "title": "Fergus Watson meter-reading and serial-number verification tool",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:15:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "f7ada3d73352075f797bac03251fabee5979dcf8dbd7d15b9672d1999737ba4d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-90b-vision-fergus-watson-meter-reading/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ferguswatson39/Llama_Computer_Vision/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-fergus-watson-meter-reading/original-evidence-58ce1f9e2d1b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ferguswatson39/Llama_Computer_Vision",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-fergus-watson-meter-reading/artifact-1-fc366d5b2aaa.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-90b-vision-see-meta-hackathon",
+      "modelId": "llama-3-2-instruct-90b-vision",
+      "modelName": "Llama 3.2 Instruct 90B (Vision)",
+      "title": "See voice-first assistive tool for visually impaired users",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:15:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "82ab6e55c78254a6d4249c92a54f039937aa5db10e4e81e7911d8352c6c63e1c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-90b-vision-see-meta-hackathon/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/fiona-cai/meta-llama/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-see-meta-hackathon/original-evidence-2f29b141c651.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/fiona-cai/meta-llama",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-90b-vision-see-meta-hackathon/artifact-1-c63948c29461.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-3-instruct-70b-bhargavi-recipe-agent",
+      "modelId": "llama-3-3-instruct-70b",
+      "modelName": "Llama 3.3 Instruct 70B",
+      "title": "IBM University Engagement recipe preparation agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:12:58+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "ec138be8d756e710310dfbb5524d973fe8d5e13e9768cb55f6f7be8983215a07",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-3-instruct-70b-bhargavi-recipe-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bhargavi-22-b/Recipe-Preparation-Agent/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-bhargavi-recipe-agent/original-evidence-1b0a4a96d8ba.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bhargavi-22-b/Recipe-Preparation-Agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-bhargavi-recipe-agent/artifact-1-5142d3707122.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-3-instruct-70b-cryptojones-dave",
+      "modelId": "llama-3-3-instruct-70b",
+      "modelName": "Llama 3.3 Instruct 70B",
+      "title": "CryptoJones Dave security-assessment report writer",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:12:58+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "e1aafc941afc0742b47616b4b85a40f17b8c132d6ff7bbf613b3cfa359d05d50",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-3-instruct-70b-cryptojones-dave/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/CryptoJones/dave/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-cryptojones-dave/original-evidence-38167e6f21fa.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/Ronin48LLC/Dave-Llama-3.3-70B-QLoRA",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-cryptojones-dave/artifact-1-10d2b64b87b0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-3-instruct-70b-foster-rockwell-hoa-chatbot",
+      "modelId": "llama-3-3-instruct-70b",
+      "modelName": "Llama 3.3 Instruct 70B",
+      "title": "Foster-Rockwell Condominium Association bylaws chatbot",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:12:58+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "553db0cb1bb6b420b6204e0274d551ca251b9d4a7eb47e8aba622d8b71f42040",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-3-instruct-70b-foster-rockwell-hoa-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/hooddavidm/frca-chatbot/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-foster-rockwell-hoa-chatbot/original-evidence-eadf5475aa61.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/hooddavidm/frca-chatbot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-foster-rockwell-hoa-chatbot/artifact-1-d00ee9a4f402.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-3-instruct-70b-oguz-tiktok-auto-reply",
+      "modelId": "llama-3-3-instruct-70b",
+      "modelName": "Llama 3.3 Instruct 70B",
+      "title": "Oguzdeveloper TikTok DM auto-reply extension",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:12:58+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "b7cecca626da0814b15b2958182291309392fb473bb9c9c54fbb50a00fc81ecd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-3-instruct-70b-oguz-tiktok-auto-reply/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/oguzdeveloper/Tiktok-Self-Bot-AI/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-oguz-tiktok-auto-reply/original-evidence-2e104d8022e1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/oguzdeveloper/Tiktok-Self-Bot-AI",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-oguz-tiktok-auto-reply/artifact-1-552b0733996f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-3-instruct-70b-script-savvy-rag-chatbot",
+      "modelId": "llama-3-3-instruct-70b",
+      "modelName": "Llama 3.3 Instruct 70B",
+      "title": "ScriptSavvy embeddable RAG chatbot",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:12:58+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "810a8458ad55e0bae5a75ac12e981f3b07858f32cb843ff24970ff531ff91b0d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-3-instruct-70b-script-savvy-rag-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ScriptSavvy1/AI-chatbot-Rag/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-script-savvy-rag-chatbot/original-evidence-10db111b48d5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ScriptSavvy1/AI-chatbot-Rag",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-3-instruct-70b-script-savvy-rag-chatbot/artifact-1-823649caef39.json"
+        }
+      ]
+    },
+    {
       "caseId": "llama-4-maverick-bestroofingnow-siteforge",
       "modelId": "llama-4-maverick",
       "modelName": "Llama 4 Maverick",
@@ -21438,6 +21788,181 @@
           "url": "https://llama4.pages.dev/",
           "host": "llama4.pages.dev",
           "recommendedSnapshotPath": "archive/evidence/llama-4-maverick-theoleecj-computer-use-agent/artifact-1-1c6447f44f89.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-4-scout-abdullah-productiq",
+      "modelId": "llama-4-scout",
+      "modelName": "Llama 4 Scout",
+      "title": "ProductIQ multimodal product intelligence API",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:13:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "0e890271e34673999874b8c5af360fb44e0a4583cf5e6d1b3beb20bf7914091a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-4-scout-abdullah-productiq/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Abdullah-Masood-05/multimodal-product-intelligence-api",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-abdullah-productiq/original-evidence-21dd7a1b9ae7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Abdullah-Masood-05/multimodal-product-intelligence-api",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-abdullah-productiq/artifact-1-21dd7a1b9ae7.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-4-scout-iamafridi-elamath",
+      "modelId": "llama-4-scout",
+      "modelName": "Llama 4 Scout",
+      "title": "ElaMath visual and vocal math assistant",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:13:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "d7bb3b0c82dfa037cd13d6c5a06d91fbb4034afd80910f11f2f996fa9d215153",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-4-scout-iamafridi-elamath/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/iamafridi/elaMath",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-iamafridi-elamath/original-evidence-2b295912e93d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/iamafridi/elaMath",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-iamafridi-elamath/artifact-1-2b295912e93d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-4-scout-jishanahmed-bally-ai",
+      "modelId": "llama-4-scout",
+      "modelName": "Llama 4 Scout",
+      "title": "Bally AI bank-statement to Tally XML converter",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:13:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "eee5bdb67cad118d6f282883c834ae407d99bd7a3f8696220ac6d32c62020f8e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-4-scout-jishanahmed-bally-ai/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jishanahmed-shaikh/bally-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-jishanahmed-bally-ai/original-evidence-73397ada6485.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jishanahmed-shaikh/bally-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-jishanahmed-bally-ai/artifact-1-73397ada6485.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-4-scout-keshhaav-gdrive-organizer",
+      "modelId": "llama-4-scout",
+      "modelName": "Llama 4 Scout",
+      "title": "Google Drive AI file organizer",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:13:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "6581ec5640f1cb89000a66c28ff4489b3041235f15315d26fea68f9dd706794d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-4-scout-keshhaav-gdrive-organizer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/keshhaav/Gdrive-organizer-app",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-keshhaav-gdrive-organizer/original-evidence-0fed5dc16b60.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/keshhaav/Gdrive-organizer-app",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-keshhaav-gdrive-organizer/artifact-1-0fed5dc16b60.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-4-scout-sanhariharan-food-nova",
+      "modelId": "llama-4-scout",
+      "modelName": "Llama 4 Scout",
+      "title": "FOOD NOVA food-image calorie estimator",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T06:13:44Z",
+      "priority": "high",
+      "evidenceFingerprint": "8669dd022aeaa6557d398ac6194c1a7b2d045144042be672e5a98dcc44b54097",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-4-scout-sanhariharan-food-nova/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sanhariharan/client-project---food-calorie-estimator",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-sanhariharan-food-nova/original-evidence-24f2972e5404.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/sanhariharan/client-project---food-calorie-estimator",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-4-scout-sanhariharan-food-nova/artifact-1-24f2972e5404.json"
         }
       ]
     },
@@ -23853,6 +24378,111 @@
           "url": "https://huggingface.co/spaces/tiedong/Molmo2-SGCoT-Demo",
           "host": "huggingface.co",
           "recommendedSnapshotPath": "archive/evidence/molmo2-8b-tiedong-shellgame-visual-tracking/artifact-1-80dbd19f6d1f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-glimmer-burtenshaw-huggingface-research-agent",
+      "modelId": "muse-glimmer",
+      "modelName": "Muse Glimmer",
+      "title": "Hugging Face Research Agent backed by Muse Glimmer",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:15:19+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "8d84451c8aaa1eec38c3753728c767e00ce96a1fc92530edca5d80b9828f3622",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-glimmer-burtenshaw-huggingface-research-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/burtenshaw/muse-glimmer-chat/raw/main/README.md",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/muse-glimmer-burtenshaw-huggingface-research-agent/original-evidence-a5062bd97b3d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/burtenshaw/muse-glimmer-chat",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/muse-glimmer-burtenshaw-huggingface-research-agent/artifact-1-b2051b7c4d9b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-glimmer-godqhr-hermes-agentic-demo",
+      "modelId": "muse-glimmer",
+      "modelName": "Muse Glimmer",
+      "title": "Hermes-style tool-call proposal demo",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:15:19+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "93e2d851e1f96ce93108601ee7fcfea0b2563cf4baea9151b6a15255975e86da",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-glimmer-godqhr-hermes-agentic-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/godqhr1421/muse-glimmer-30b-agentic-demo/raw/main/README.md",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/muse-glimmer-godqhr-hermes-agentic-demo/original-evidence-faed13982a09.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/godqhr1421/muse-glimmer-30b-agentic-demo",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/muse-glimmer-godqhr-hermes-agentic-demo/artifact-1-01c9d25e0f6d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-glimmer-hugging-apps-click-grounding",
+      "modelId": "muse-glimmer",
+      "modelName": "Muse Glimmer",
+      "title": "Screenshot UI click grounding with a Muse Glimmer adapter",
+      "sourcePlatform": "Hugging Face Spaces",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T14:15:19+08:00",
+      "priority": "normal",
+      "evidenceFingerprint": "6aec679ce4af450a17d556836c07178dbb8430e0fb5f9ddb5dde68bdcf7cf085",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-glimmer-hugging-apps-click-grounding/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/hugging-apps/muse-glimmer-clicking-v2/raw/main/README.md",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/muse-glimmer-hugging-apps-click-grounding/original-evidence-323513d0c84b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/hugging-apps/muse-glimmer-clicking-v2",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/muse-glimmer-hugging-apps-click-grounding/artifact-1-05542ab29c4c.json"
         }
       ]
     },
