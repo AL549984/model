@@ -4054,8 +4054,8 @@
     "slug": "muse-spark",
     "vendorId": "meta",
     "vendor": "Meta / Llama",
-    "publishability": "Publishable",
-    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "publishability": "Hold",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书 Bitable 107 行 + Artificial Analysis + 3 个厂商/官方/模型家族证据入口；AA 不是唯一事实来源。",
     "headline": "Muse Spark 的完整模型表记录。",
     "summary": "来自完整 107 行模型表，并已补厂商/官方/模型家族证据；当前站内暂无已验证 A 类案例。",
@@ -4092,11 +4092,11 @@
       "缺少真实案例时不要包装成推荐",
       "缺字段时不要脑补价格、性能或上下文"
     ],
-    "aCaseCount": 5,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。",
       "当前已关联 5 条可核验 A 类案例；仍需定期复核原始证据和产物链接。",
       "Artificial Analysis 评分仅作参考",
@@ -8379,7 +8379,7 @@
     "vendorId": "meta",
     "vendor": "Meta",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Meta 面向长流程工具与计算机操作的多模态智能体模型。",
     "summary": "Muse Spark 1.1 提供 1M 上下文、工具调用、计算机操作、代码与并行子智能体能力。",
@@ -8419,11 +8419,11 @@
       "缺少工具隔离的高风险自动化",
       "要求开源权重的场景"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -10064,7 +10064,7 @@
     "vendorId": "meta",
     "vendor": "Meta",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Meta 面向代码与 Agent 工作流的 Muse Spark 1.2。",
     "summary": "强调编程、终端操作和代理任务；未公开参数量、上下文和独立 API 价格。",
@@ -10103,11 +10103,11 @@
       "需要开放权重",
       "依赖完整参数披露"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -10122,8 +10122,8 @@
     "slug": "muse-spark-1-3",
     "vendorId": "meta",
     "vendor": "Meta",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "更节省工具调用和 token 的 Muse Spark 1.3。",
     "summary": "Meta 称其相较 1.2 减少约 20% 工具调用、25% token，用于多模态与 Agent 工作流。",
@@ -10162,11 +10162,11 @@
       "需要开放权重",
       "需要稳定 Max Reasoning"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23674,8 +23674,8 @@
     "slug": "muse-spark-open",
     "vendorId": "meta",
     "vendor": "Meta",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Muse Spark Open：开放权重多模态模型",
     "summary": "官方开发文档确认 816B 总参数、42B 激活、1,048,576 上下文及 Muse Model License；各托管入口的输出上限已分别记录。",
@@ -23710,11 +23710,11 @@
     "avoid": [
       "未经许可证、安全与资源核验直接用于生产"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [

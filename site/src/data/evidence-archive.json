@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-19",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 914,
-    "manifestedCases": 914,
+    "aCaseCount": 927,
+    "manifestedCases": 927,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
-    "snapshottedCases": 595,
+    "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 318,
+    "pendingSnapshotCases": 332,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 143,
-    "targets": 1833
+    "targets": 1859
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -167,14 +167,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 318,
-      "targets": 638,
-      "highPriorityCases": 249,
+      "cases": 332,
+      "targets": 666,
+      "highPriorityCases": 263,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 208,
-          "targets": 377
+          "cases": 222,
+          "targets": 401
         },
         {
           "host": "huggingface.co",
@@ -183,8 +183,8 @@
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 17,
-          "targets": 17
+          "cases": 20,
+          "targets": 20
         },
         {
           "host": "bilibili.com",
@@ -24487,6 +24487,321 @@
       ]
     },
     {
+      "caseId": "muse-spark-1-1-ssf-labs-honestidad-mode",
+      "modelId": "muse-spark-1-1",
+      "modelName": "Muse Spark 1.1",
+      "title": "SSF LABS 用 Muse Spark 1.1 构建可复现的矛盾检测与审计持久化工具",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:22:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "2a03c59f01ab34324c771adeee5ccbb574b47b58af294fc3ccff78f7ee4f5fff",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-1-ssf-labs-honestidad-mode/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ssfactorylabel/muse-spark-honestidad-mode/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-1-ssf-labs-honestidad-mode/original-evidence-ab7cf96562a3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ssfactorylabel/muse-spark-honestidad-mode",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-1-ssf-labs-honestidad-mode/artifact-1-2025e6491073.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-2-cosmic-dawn-opencode-media-studio",
+      "modelId": "muse-spark-1-2",
+      "modelName": "Muse Spark 1.2",
+      "title": "COSMIC-DAWN-PH 修复 OpenCode Media Studio 对 Muse Spark 1.2 原生媒体输入的支持",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "0c876213999492420115c75e61fb8dbd842fcbca8738faa2e8bb546901ca82fb",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-2-cosmic-dawn-opencode-media-studio/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/COSMIC-DAWN-PH/opencode-media-studio/main/PR_BODY.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-2-cosmic-dawn-opencode-media-studio/original-evidence-eec990572b72.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/COSMIC-DAWN-PH/opencode-media-studio",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-2-cosmic-dawn-opencode-media-studio/artifact-1-54706f8628d0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-2-dp1x-compat-muse-grok-build",
+      "modelId": "muse-spark-1-2",
+      "modelName": "Muse Spark 1.2",
+      "title": "dp1x 用 compat-muse 让 Muse Spark 1.2 Contributor Free 驱动 Grok Build",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "035fb38c002f0117fdb132eae0b6005843e5eb7ebc08592277d00ead958b5e51",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-2-dp1x-compat-muse-grok-build/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/dp1x/compat-muse/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-2-dp1x-compat-muse-grok-build/original-evidence-7ad16f8fcbcf.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/dp1x/compat-muse",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-2-dp1x-compat-muse-grok-build/artifact-1-88d9dccce4d2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-2-solar2004-muse-stack-claude-hermes",
+      "modelId": "muse-spark-1-2",
+      "modelName": "Muse Spark 1.2",
+      "title": "Solar2004 用 Muse Spark 1.2 Contributor 接入 Claude Code 与 Hermes",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:43Z",
+      "priority": "high",
+      "evidenceFingerprint": "2cd534eff5678f913c7f30668b2b1dcfc6708ee9331a50bb30081ab65a9e64c6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-2-solar2004-muse-stack-claude-hermes/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Solar2004/muse-stack/master/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-2-solar2004-muse-stack-claude-hermes/original-evidence-6f3615493459.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Solar2004/muse-stack",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-2-solar2004-muse-stack-claude-hermes/artifact-1-0d7ff6a533d6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-3-delirium-dj-businessgray",
+      "modelId": "muse-spark-1-3",
+      "modelName": "Muse Spark 1.3",
+      "title": "delirium-dj 用 Muse Spark 1.3 构建咨询公司网站",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:35:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "dce91d582c61afc580c3e7e5abc41a91dc8033d884d82843b3dee5d7a0a2d6a5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-3-delirium-dj-businessgray/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/delirium-dj/businessgray",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-delirium-dj-businessgray/original-evidence-ff7013af314a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/delirium-dj/businessgray/tree/master",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-delirium-dj-businessgray/artifact-1-c21646e4318c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-3-delirium-dj-businesstemplate",
+      "modelId": "muse-spark-1-3",
+      "modelName": "Muse Spark 1.3",
+      "title": "delirium-dj 用 Muse Spark 1.3 构建律师事务所营销网站",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:35:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "f7b5741729d2097157bbe393f8167e738f796185bdf3ca024abfcfb399d839be",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-3-delirium-dj-businesstemplate/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/delirium-dj/businesstemplate",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-delirium-dj-businesstemplate/original-evidence-efdbdd531125.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/delirium-dj/businesstemplate/tree/master",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-delirium-dj-businesstemplate/artifact-1-238c2abd337a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-3-hm4704-proxima-rustminer",
+      "modelId": "muse-spark-1-3",
+      "modelName": "Muse Spark 1.3",
+      "title": "HM4704 用 Muse Spark 1.3 实现 Proxima 区块链 Rust 挖矿器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:35:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "a8ffbd1595e5cce08ceb3edb5cbb2d040b710681361bc6443a78adc123ce2c86",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-3-hm4704-proxima-rustminer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/HM4704/ProximaRustMiner",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-hm4704-proxima-rustminer/original-evidence-eddecfbef681.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/HM4704/ProximaRustMiner",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-hm4704-proxima-rustminer/artifact-1-eddecfbef681.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-3-o1ie12-website-test",
+      "modelId": "muse-spark-1-3",
+      "modelName": "Muse Spark 1.3",
+      "title": "o1ie12 用 Muse Spark 1.3 通过自然语言构建 Northstar Consulting 网站",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:35:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "e96d6570ac62dbf6c9a3353253128e99be0b8ea52b989452c8f051cbefee24fd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-3-o1ie12-website-test/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/o1ie12/Meta-AI-Muse-Spark-Website-Test",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-o1ie12-website-test/original-evidence-8ef0384fdcd2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://o1ie12.github.io/Meta-AI-Muse-Spark-Website-Test/",
+          "host": "o1ie12.github.io",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-o1ie12-website-test/artifact-1-b26861bcc426.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-1-3-sysretq0-android-kernel-builder",
+      "modelId": "muse-spark-1-3",
+      "modelName": "Muse Spark 1.3",
+      "title": "sysretq0 用 Muse Spark 1.3 辅助构建多分支 Android GKI 内核",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:35:00Z",
+      "priority": "high",
+      "evidenceFingerprint": "9a1c51c50c791af5d30a922f760b0a502ecddfe6e731fffc3e3444e54842767e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-1-3-sysretq0-android-kernel-builder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sysretq0/android-kernel-builder",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-sysretq0-android-kernel-builder/original-evidence-c800a34d9f4a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/sysretq0/android-kernel-builder/releases",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-1-3-sysretq0-android-kernel-builder/artifact-1-1d44bccaa12f.json"
+        }
+      ]
+    },
+    {
       "caseId": "muse-spark-compnew2006-hermes-agent",
       "modelId": "muse-spark",
       "modelName": "Muse Spark",
@@ -24557,37 +24872,177 @@
       ]
     },
     {
-      "caseId": "muse-spark-o1ie12-website-generation",
-      "modelId": "muse-spark",
-      "modelName": "Muse Spark",
-      "title": "o1ie12 built a complete marketing website using only Muse Spark prompts — no manual code edits",
-      "sourcePlatform": "GitHub",
+      "caseId": "muse-spark-open-antonio-mac-ssd-streaming",
+      "modelId": "muse-spark-open",
+      "modelName": "Muse Spark Open",
+      "title": "Muse Spark Open streamed from SSD on a 128 GB Apple Silicon Mac",
+      "sourcePlatform": "github",
       "sourceType": "real_case",
-      "collectedAt": "2026-06-26T23:55:00Z",
+      "collectedAt": "2026-10-19T12:23:02Z",
       "priority": "high",
-      "evidenceFingerprint": "f851d25b01b064066228f54d0b310099d097cdb30bf1da760a959c29279d38a2",
-      "snapshotStatus": "snapshotted",
+      "evidenceFingerprint": "93e13192ba61c9c14f3869e5c8df6cd81f16d8054433e31d46500a3543cc38e0",
+      "snapshotStatus": "pending_snapshot",
       "snapshotIssue": {
-        "code": "complete",
-        "label": "已完成",
-        "description": "所有当前证据目标都已完成本地快照。",
-        "action": "无需处理；数据字段变化后会自动重新进入复核队列。"
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
       },
-      "snapshotTargetCount": 2,
-      "snapshotOkTargetCount": 2,
-      "localSnapshotManifest": "archive/evidence/muse-spark-o1ie12-website-generation/manifest.json",
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-open-antonio-mac-ssd-streaming/manifest.json",
       "targets": [
         {
           "kind": "original-evidence",
-          "url": "https://github.com/o1ie12/Meta-AI-Muse-Spark-Website-Test",
+          "url": "https://github.com/antonio-cavalcante/mlx-moe-ssd-streaming",
           "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/muse-spark-o1ie12-website-generation/original-evidence-8ef0384fdcd2.json"
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-antonio-mac-ssd-streaming/original-evidence-cc2d7c5c1fd1.json"
         },
         {
           "kind": "artifact-1",
-          "url": "https://o1ie12.github.io/Meta-AI-Muse-Spark-Website-Test/",
-          "host": "o1ie12.github.io",
-          "recommendedSnapshotPath": "archive/evidence/muse-spark-o1ie12-website-generation/artifact-1-b26861bcc426.json"
+          "url": "https://github.com/antonio-cavalcante/mlx-moe-ssd-streaming/blob/main/run_stream.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-antonio-mac-ssd-streaming/artifact-1-9e3e359e9888.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-open-chillqoder-aquarium",
+      "modelId": "muse-spark-open",
+      "modelName": "Muse Spark Open",
+      "title": "Muse Spark Open generated an interactive procedural 3D aquarium",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "d41ec9d2cced0bc51faca06ca7eb4d25bdd3a81d0f4fcbeb844a49b1fe586921",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-open-chillqoder-aquarium/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/chillqoder/Muse-Spark-Open/blob/main/aqua/aquarium_prompt.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-chillqoder-aquarium/original-evidence-95f06982661c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/chillqoder/Muse-Spark-Open/blob/main/aqua/index.html",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-chillqoder-aquarium/artifact-1-5b14dd95c592.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-open-chillqoder-low-poly-mario",
+      "modelId": "muse-spark-open",
+      "modelName": "Muse Spark Open",
+      "title": "Muse Spark Open generated a playable low-poly browser platformer",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "9a4412504f33df547ad6dd61f47e7262e92873f62e55c95fbce421be05b73e0e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-open-chillqoder-low-poly-mario/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/chillqoder/Muse-Spark-Open/blob/main/game/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-chillqoder-low-poly-mario/original-evidence-7d524ab1b380.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/chillqoder/Muse-Spark-Open/tree/main/game",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-chillqoder-low-poly-mario/artifact-1-18abc18ecb4e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-open-chillqoder-orc-demo",
+      "modelId": "muse-spark-open",
+      "modelName": "Muse Spark Open",
+      "title": "Muse Spark Open generated a procedural 3D orc interaction demo",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "b4cb14d0332fdca65197a28d36e8979899f140705f66535be6274df67fb63a51",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-open-chillqoder-orc-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/chillqoder/Muse-Spark-Open/blob/main/ork/ork.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-chillqoder-orc-demo/original-evidence-43e4b788d1cf.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/chillqoder/Muse-Spark-Open/blob/main/ork/index.html",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-chillqoder-orc-demo/artifact-1-3c2e472d5dd1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-spark-open-jlacroix-two-dgx-sparks",
+      "modelId": "muse-spark-open",
+      "modelName": "Muse Spark Open",
+      "title": "Muse Spark Open served as an OpenAI-compatible API on two DGX Sparks",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T12:23:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "b066391e824cb54721af2a5ba8803bc06ba3ef16cd6508d4c4a1da9218522e1d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-spark-open-jlacroix-two-dgx-sparks/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jlacroix82/muse-spark-open-2x-dgx-spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-jlacroix-two-dgx-sparks/original-evidence-bc046cdb4778.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jlacroix82/muse-spark-open-2x-dgx-spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-spark-open-jlacroix-two-dgx-sparks/artifact-1-bc046cdb4778.json"
         }
       ]
     },
