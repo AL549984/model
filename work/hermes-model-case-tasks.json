@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:59:15.470Z",
+  "generatedAt": "2026-10-19T00:05:30.101Z",
   "summary": {
     "models": 390,
     "activeModels": 135,
@@ -11,10 +11,10 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 668,
-    "allModelTargetDeficit": 1170,
+    "allModelMinDeficit": 663,
+    "allModelTargetDeficit": 1165,
     "queuedModels": 251,
-    "crawlTargetDeficit": 1150
+    "crawlTargetDeficit": 1145
   },
   "tasks": [
     {
@@ -33940,17 +33940,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/NZqmwDD5uia4U7knyioczzugnne",
@@ -51254,17 +51254,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 2,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 1,
+      "targetDeficit": 3,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 36,
+        "maxCandidatesPerRun": 54
       },
       "officialSources": [
         "https://huggingface.co/IFM/K2-Horizon-0.9B",

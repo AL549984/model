@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "name": "Model Atlas Evidence Archive Manifest",
-  "datasetCut": "2026-10-18",
+  "datasetCut": "2026-10-19",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 885,
-    "manifestedCases": 885,
+    "aCaseCount": 896,
+    "manifestedCases": 896,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
-    "snapshottedCases": 598,
+    "snapshottedCases": 595,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 286,
+    "pendingSnapshotCases": 300,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 144,
-    "targets": 1775
+    "uniqueHosts": 143,
+    "targets": 1797
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -26,6 +26,7 @@
     "alibabacloud.com",
     "ampcode.com",
     "anthropic.com",
+    "api.github.com",
     "arxiv.org",
     "augmentcode.com",
     "autoresearcher.github.io",
@@ -57,12 +58,10 @@
     "cognition.com",
     "cubesurvivor.vercel.app",
     "cursor.com",
-    "custom-content-generator.onrender.com",
     "dc5fzrbo8ssfx.cloudfront.net",
     "deepcellseek.kiz.ac.cn",
     "deepinfra.com",
     "deepmind.google",
-    "dev.to",
     "devin.ai",
     "dingtalk.com",
     "distyl.ai",
@@ -168,24 +167,24 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 286,
-      "targets": 574,
-      "highPriorityCases": 220,
+      "cases": 300,
+      "targets": 602,
+      "highPriorityCases": 234,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 179,
-          "targets": 326
+          "cases": 193,
+          "targets": 348
         },
         {
           "host": "huggingface.co",
-          "cases": 41,
-          "targets": 71
+          "cases": 42,
+          "targets": 72
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 13,
-          "targets": 13
+          "cases": 17,
+          "targets": 17
         },
         {
           "host": "bilibili.com",
@@ -17803,6 +17802,146 @@
       ]
     },
     {
+      "caseId": "k2-horizon-mova-36b-a4b-ik-llama-tool-calling",
+      "modelId": "k2-horizon-mova-36b-a4b",
+      "modelName": "K2 Horizon MoVA 36B A4B",
+      "title": "ik_llama.cpp contributor validated K2 Horizon tool calling and corrected parser behavior",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T00:07:08Z",
+      "priority": "high",
+      "evidenceFingerprint": "04dd9d9764109277ea2bbb2778a6fa910867101d46aff0e7967f19de7e677615",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-mova-36b-a4b-ik-llama-tool-calling/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ikawrakow/ik_llama.cpp/pull/2479",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-ik-llama-tool-calling/original-evidence-8efe2697e307.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ikawrakow/ik_llama.cpp",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-ik-llama-tool-calling/artifact-1-46a61aed5b2c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-mova-36b-a4b-linkc-kb-chat",
+      "modelId": "k2-horizon-mova-36b-a4b",
+      "modelName": "K2 Horizon MoVA 36B A4B",
+      "title": "linkc0829 tested K2 Horizon MoVA in an AI Station knowledge-base chat service",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T00:07:08Z",
+      "priority": "high",
+      "evidenceFingerprint": "9c4d063e204cc6bd516fadf6e86a85c59733b5682e3de57617554f4d091c395d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-mova-36b-a4b-linkc-kb-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/linkc0829/llm-platform/pull/22",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-linkc-kb-chat/original-evidence-933332b2674b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/linkc0829/llm-platform",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-linkc-kb-chat/artifact-1-36130dddf03f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-mova-36b-a4b-schoggie-vllm-correction",
+      "modelId": "k2-horizon-mova-36b-a4b",
+      "modelName": "K2 Horizon MoVA 36B A4B",
+      "title": "schoggie served K2 Horizon MoVA and fixed MoVA quantization quality with a vLLM path",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T00:07:08Z",
+      "priority": "high",
+      "evidenceFingerprint": "7688852879f95cd3d5481f23245f01f3e4b0e8f59dfb0d80fa7ffad9583dd71e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-mova-36b-a4b-schoggie-vllm-correction/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://api.github.com/repos/stefanskiasan/k2-horizon-vllm/pulls/1",
+          "host": "api.github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-schoggie-vllm-correction/original-evidence-ddbfa74006d2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/schoggie/k2-horizon-vllm",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-schoggie-vllm-correction/artifact-1-07f560badadc.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-mova-36b-a4b-vcruz-exl3-serving",
+      "modelId": "k2-horizon-mova-36b-a4b",
+      "modelName": "K2 Horizon MoVA 36B A4B",
+      "title": "vcruz305 served K2 Horizon MoVA through an EXL3/TabbyAPI recipe",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T00:07:08Z",
+      "priority": "high",
+      "evidenceFingerprint": "eac09cb944097f1df12eca726be4b8bb94e29f92c40ed3a495575981202a18a1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-mova-36b-a4b-vcruz-exl3-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/vcruz305/K2-Horizon-MoVA-36B-A4B-EXL3",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-vcruz-exl3-serving/original-evidence-098c0cec8e3a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/vcruz305/K2-Horizon-MoVA-36B-A4B-EXL3",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-mova-36b-a4b-vcruz-exl3-serving/artifact-1-22199109e143.json"
+        }
+      ]
+    },
+    {
       "caseId": "kat-coder-pro-v2-child-of-starwish-cpp-rpg",
       "modelId": "kat-coder-pro-v2",
       "modelName": "KAT Coder Pro V2",
@@ -20743,111 +20882,6 @@
       ]
     },
     {
-      "caseId": "llama-3-1-405b-ai-content-detector-omerbsezer",
-      "modelId": "llama-3-1-405b",
-      "modelName": "Llama 3.1 405B",
-      "title": "AI Content Detector — AWS Bedrock + Llama 3.1 405B for AI-generated text detection",
-      "sourcePlatform": "github",
-      "sourceType": "real_case",
-      "collectedAt": "2026-06-26T22:15:00Z",
-      "priority": "high",
-      "evidenceFingerprint": "b71dac5cdcedb30a84fd0c02839791c5852275843227c5f8efab7625866712e1",
-      "snapshotStatus": "snapshotted",
-      "snapshotIssue": {
-        "code": "complete",
-        "label": "已完成",
-        "description": "所有当前证据目标都已完成本地快照。",
-        "action": "无需处理；数据字段变化后会自动重新进入复核队列。"
-      },
-      "snapshotTargetCount": 2,
-      "snapshotOkTargetCount": 2,
-      "localSnapshotManifest": "archive/evidence/llama-3-1-405b-ai-content-detector-omerbsezer/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://github.com/omerbsezer/AI-Content-Detector",
-          "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-ai-content-detector-omerbsezer/original-evidence-066e5ad7e103.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://dev.to/omerberatsezer/open-source-ai-content-detector-app-with-aws-bedrock-to-separate-completely-ai-vs-human-generated-2de4",
-          "host": "dev.to",
-          "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-ai-content-detector-omerbsezer/artifact-1-e749d92e1740.json"
-        }
-      ]
-    },
-    {
-      "caseId": "llama-3-1-405b-custom-content-generator-treasure-m",
-      "modelId": "llama-3-1-405b",
-      "modelName": "Llama 3.1 405B",
-      "title": "Custom Content Generator — Educational content creation with Llama 3.1 405B via OpenRouter",
-      "sourcePlatform": "github",
-      "sourceType": "real_case",
-      "collectedAt": "2026-06-26T22:15:00Z",
-      "priority": "high",
-      "evidenceFingerprint": "b5731fe1c8124588742b896a5805c4bfd5e022c4c7f5e0010c80ac79604838d6",
-      "snapshotStatus": "snapshotted",
-      "snapshotIssue": {
-        "code": "complete",
-        "label": "已完成",
-        "description": "所有当前证据目标都已完成本地快照。",
-        "action": "无需处理；数据字段变化后会自动重新进入复核队列。"
-      },
-      "snapshotTargetCount": 2,
-      "snapshotOkTargetCount": 2,
-      "localSnapshotManifest": "archive/evidence/llama-3-1-405b-custom-content-generator-treasure-m/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://github.com/Treasure-M/Custom-Content-Generator",
-          "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-custom-content-generator-treasure-m/original-evidence-6e479e5bf7f1.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://custom-content-generator.onrender.com",
-          "host": "custom-content-generator.onrender.com",
-          "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-custom-content-generator-treasure-m/artifact-1-02d51b3d4f9f.json"
-        }
-      ]
-    },
-    {
-      "caseId": "llama-3-1-405b-nutlope-llamacoder",
-      "modelId": "llama-3-1-405b",
-      "modelName": "Llama 3.1 405B",
-      "title": "Nutlope LlamaCoder: Open-Source Claude Artifacts Clone Powered by Llama 3.1 405B",
-      "sourcePlatform": "github",
-      "sourceType": "real_case",
-      "collectedAt": "2026-06-26T14:08:27Z",
-      "priority": "high",
-      "evidenceFingerprint": "09b2a53da780ecad4ef7c67df25c5fd370cf9606f0f739a73fea85302ae4d871",
-      "snapshotStatus": "snapshotted",
-      "snapshotIssue": {
-        "code": "complete",
-        "label": "已完成",
-        "description": "所有当前证据目标都已完成本地快照。",
-        "action": "无需处理；数据字段变化后会自动重新进入复核队列。"
-      },
-      "snapshotTargetCount": 2,
-      "snapshotOkTargetCount": 2,
-      "localSnapshotManifest": "archive/evidence/llama-3-1-405b-nutlope-llamacoder/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://github.com/Nutlope/llamacoder",
-          "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-nutlope-llamacoder/original-evidence-2c07815bb5dd.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://github.com/Nutlope/llamacoder",
-          "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-nutlope-llamacoder/artifact-1-2c07815bb5dd.json"
-        }
-      ]
-    },
-    {
       "caseId": "llama-3-1-405b-nvidia-pdf-to-podcast",
       "modelId": "llama-3-1-405b",
       "modelName": "Llama 3.1 405B",
@@ -20879,6 +20913,356 @@
           "url": "https://github.com/NVIDIA-AI-Blueprints/pdf-to-podcast",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/llama-3-1-405b-nvidia-pdf-to-podcast/artifact-1-de7fc7320f63.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-1-instruct-405b-bijuabraham-codescore",
+      "modelId": "llama-3-1-instruct-405b",
+      "modelName": "Llama 3.1 Instruct 405B",
+      "title": "CodeScore: AI review of GitHub commit diffs",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:52+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "7f23e626e25a303697125d849cae7781fe838ac8676ea669b81ff20458dd516e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-1-instruct-405b-bijuabraham-codescore/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/bijuabraham/CodeScoreSambanova/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-bijuabraham-codescore/original-evidence-bacfe92e71b6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bijuabraham/CodeScoreSambanova",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-bijuabraham-codescore/artifact-1-83f57567e263.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-1-instruct-405b-nutlope-llamacoder",
+      "modelId": "llama-3-1-instruct-405b",
+      "modelName": "Llama 3.1 Instruct 405B",
+      "title": "LlamaCoder: open-source Claude Artifacts app generation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:52+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "ec705de07d915bb64218872dab220cce5f1ef41d3a0130bb83c51a67c6df1f1a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-1-instruct-405b-nutlope-llamacoder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Nutlope/llamacoder/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-nutlope-llamacoder/original-evidence-5f851a6fac82.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Nutlope/llamacoder",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-nutlope-llamacoder/artifact-1-2c07815bb5dd.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-1-instruct-405b-omerbsezer-ai-content-detector",
+      "modelId": "llama-3-1-instruct-405b",
+      "modelName": "Llama 3.1 Instruct 405B",
+      "title": "AI Content Detector: generated-text scoring and explanation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:52+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "8345edf51d796439d791eb2f1bf1ea7b0aa38b0b92dc6da033b695fc6afaba71",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-1-instruct-405b-omerbsezer-ai-content-detector/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/omerbsezer/AI-Content-Detector/main/ai_generated_analyzer.py",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-omerbsezer-ai-content-detector/original-evidence-2d02dc15c729.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/omerbsezer/AI-Content-Detector",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-omerbsezer-ai-content-detector/artifact-1-066e5ad7e103.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-1-instruct-405b-taherfattahi-turtlesim",
+      "modelId": "llama-3-1-instruct-405b",
+      "modelName": "Llama 3.1 Instruct 405B",
+      "title": "TurtleSim A* path planning agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:52+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "00915c74650b2b3f54ac76e26568403627cada14fbc6ea7d2672997913a4f734",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-1-instruct-405b-taherfattahi-turtlesim/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/taherfattahi/turtlesim-astar-nvidia-llm/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-taherfattahi-turtlesim/original-evidence-429618c7935b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/taherfattahi/turtlesim-astar-nvidia-llm",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-taherfattahi-turtlesim/artifact-1-b0bfc841d5bc.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-1-instruct-405b-treasure-m-custom-content-generator",
+      "modelId": "llama-3-1-instruct-405b",
+      "modelName": "Llama 3.1 Instruct 405B",
+      "title": "Custom Content Generator: educational material generation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:52+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "193152ec3091756a3458c43234a200c626a8ed89e925514e90d223f16ec2b6c6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-1-instruct-405b-treasure-m-custom-content-generator/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Treasure-M/Custom-Content-Generator/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-treasure-m-custom-content-generator/original-evidence-4f113bbe0848.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Treasure-M/Custom-Content-Generator",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-1-instruct-405b-treasure-m-custom-content-generator/artifact-1-6e479e5bf7f1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-11b-vision-gojodennis-openkombai",
+      "modelId": "llama-3-2-instruct-11b-vision",
+      "modelName": "Llama 3.2 Instruct 11B (Vision)",
+      "title": "OpenKombai: screenshot and design to React/Tailwind code",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:45+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "06341c7c54a07d5f7c44b01bd62c99f2996585da8d03a5e42b83249eb8e27c12",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-11b-vision-gojodennis-openkombai/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/gojodennis/OpenKombai#features",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-gojodennis-openkombai/original-evidence-ff8522e81c78.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/gojodennis/OpenKombai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-gojodennis-openkombai/artifact-1-b089698aab67.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-11b-vision-khushijai20-snapcalorie",
+      "modelId": "llama-3-2-instruct-11b-vision",
+      "modelName": "Llama 3.2 Instruct 11B (Vision)",
+      "title": "AI Smart Food Lens: meal image recognition and nutrition estimation",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:45+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "653646098da4f87ca6927b6ef352ace6b4018592831d33c8ea8d858214a9fc66",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-11b-vision-khushijai20-snapcalorie/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/khushijai20/SnapCalorie#overview",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-khushijai20-snapcalorie/original-evidence-fa1107999709.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/khushijai20/SnapCalorie",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-khushijai20-snapcalorie/artifact-1-03061ded5bf4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-11b-vision-nutlope-llama-ocr",
+      "modelId": "llama-3-2-instruct-11b-vision",
+      "modelName": "Llama 3.2 Instruct 11B (Vision)",
+      "title": "Llama OCR: document image to Markdown OCR library and hosted demo",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:45+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "04a79d3640c75bb00d8aa859185d06d95b3fa46d23dd4d6508760297e0f6d1ae",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-11b-vision-nutlope-llama-ocr/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Nutlope/llama-ocr#how-it-works",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-nutlope-llama-ocr/original-evidence-c02a6dca9f7c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Nutlope/llama-ocr",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-nutlope-llama-ocr/artifact-1-8ecb2b7fa615.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-11b-vision-rishab-sketch2graphviz",
+      "modelId": "llama-3-2-instruct-11b-vision",
+      "modelName": "Llama 3.2 Instruct 11B (Vision)",
+      "title": "Sketch2Graphviz: convert graph sketches into Graphviz code",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:45+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "44ea17c0bce8f934335abed6de49678ee2b37e04b12ac6d5b945c6962c4c1bc9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-11b-vision-rishab-sketch2graphviz/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/RishabSA/Sketch2Graphviz#architecture",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-rishab-sketch2graphviz/original-evidence-303258e0961c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/RishabSA/Sketch2Graphviz",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-rishab-sketch2graphviz/artifact-1-239e240c5ef8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "llama-3-2-instruct-11b-vision-win4r-videofinder",
+      "modelId": "llama-3-2-instruct-11b-vision",
+      "modelName": "Llama 3.2 Instruct 11B (Vision)",
+      "title": "VideoFinder: natural-language search for people and objects in video",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-19T08:05:45+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "6063037d553f63d9de78177fea758bdc89544d88773a02b74b8ffb7754ab0f66",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/llama-3-2-instruct-11b-vision-win4r-videofinder/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/win4r/VideoFinder-Llama3.2-vision-Ollama#about-videofinder",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-win4r-videofinder/original-evidence-7d893f16d13d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/win4r/VideoFinder-Llama3.2-vision-Ollama",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/llama-3-2-instruct-11b-vision-win4r-videofinder/artifact-1-274752b8fef8.json"
         }
       ]
     },

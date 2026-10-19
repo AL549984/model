@@ -1,29 +1,29 @@
 # Evidence Backfill Full Plan
 
-> Generated from site data. Dataset cut: 2026-10-18.
+> Generated from site data. Dataset cut: 2026-10-19.
 
 ## Summary
 
 - Models: 390
-- Active models: 135
-- Publishable models: 135
+- Active models: 136
+- Publishable models: 136
 - Limited models: 0
 - Archive models: 4
-- Verified A-grade cases: 885
-- Models without A-grade cases: 211
+- Verified A-grade cases: 896
+- Models without A-grade cases: 208
 - Minimum public case line: 3 A-grade cases per model
 - Full target case line: 5 A-grade cases per model
-- Models meeting minimum line: 135
-- Models meeting full target line: 135
+- Models meeting minimum line: 136
+- Models meeting full target line: 136
 - Active A-case deficit to minimum line: 0
 - Active A-case deficit to full target line: 0
-- All-model A-case deficit to minimum line: 663
-- All-model A-case deficit to full target line: 1165
+- All-model A-case deficit to minimum line: 654
+- All-model A-case deficit to full target line: 1153
 - Backfill rows: 390
 - P0 rows: 0
 - P1 rows: 0
-- P2 rows: 135
-- P3 rows: 255
+- P2 rows: 136
+- P3 rows: 254
 
 ## Operating Rule
 
