@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-23",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 927,
-    "manifestedCases": 927,
+    "aCaseCount": 937,
+    "manifestedCases": 937,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 332,
+    "pendingSnapshotCases": 342,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 143,
-    "targets": 1859
+    "uniqueHosts": 144,
+    "targets": 1879
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -31,6 +31,7 @@
     "augmentcode.com",
     "autoresearcher.github.io",
     "auxiar.github.io",
+    "avaterxxx.github.io",
     "aws.amazon.com",
     "backroom-escape.vercel.app",
     "bemyeyes.com",
@@ -167,14 +168,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 332,
-      "targets": 666,
-      "highPriorityCases": 263,
+      "cases": 342,
+      "targets": 686,
+      "highPriorityCases": 273,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 222,
-          "targets": 401
+          "cases": 230,
+          "targets": 414
         },
         {
           "host": "huggingface.co",
@@ -183,8 +184,8 @@
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 20,
-          "targets": 20
+          "cases": 25,
+          "targets": 25
         },
         {
           "host": "bilibili.com",
@@ -14191,6 +14192,181 @@
       ]
     },
     {
+      "caseId": "gpt-oss-120b-alexa-llm-integration",
+      "modelId": "gpt-oss-120b",
+      "modelName": "gpt-oss-120b",
+      "title": "Alexa connected to GPT-OSS-120B",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:33Z",
+      "priority": "high",
+      "evidenceFingerprint": "8bc216fd8fc946eb3cb967dfd97376a70c609d240ee16636b8375bf7310f3445",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-120b-alexa-llm-integration/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/manojjahgirdar/alexa-llm-integration#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-alexa-llm-integration/original-evidence-dbc584820421.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/manojjahgirdar/alexa-llm-integration",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-alexa-llm-integration/artifact-1-8ef7b42ba95e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-120b-dualcontext-splunk-incident-investigation",
+      "modelId": "gpt-oss-120b",
+      "modelName": "gpt-oss-120b",
+      "title": "DualContext Splunk Agentic Ops incident investigation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:33Z",
+      "priority": "high",
+      "evidenceFingerprint": "36d5d577e8a1be26a4058294e61cfadfee123d00f74e1466a6ff14619a43c6ad",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-120b-dualcontext-splunk-incident-investigation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/manojmallick/dualcontext#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-dualcontext-splunk-incident-investigation/original-evidence-090c70af735e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/manojmallick/dualcontext",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-dualcontext-splunk-incident-investigation/artifact-1-7175a524618a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-120b-incred-whatsapp-loan-agent",
+      "modelId": "gpt-oss-120b",
+      "modelName": "gpt-oss-120b",
+      "title": "InCred WhatsApp AI TeleSales Agent for loan application completion",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:33Z",
+      "priority": "high",
+      "evidenceFingerprint": "c073ed2f9fd8357941955018c737f720020a0df2ceb2d7b0e0df406a9fc7308b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-120b-incred-whatsapp-loan-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sarbaniAi/incred-whatsapp-agent#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-incred-whatsapp-loan-agent/original-evidence-2a878852f41f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/sarbaniAi/incred-whatsapp-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-incred-whatsapp-loan-agent/artifact-1-8f1470f419a8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-120b-live-network-intrusion-detection",
+      "modelId": "gpt-oss-120b",
+      "modelName": "gpt-oss-120b",
+      "title": "GPT-OSS-120B live network intrusion detection and threat analysis",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:33Z",
+      "priority": "high",
+      "evidenceFingerprint": "92f196b6f48a694df1c3829d54f4ac9479bfee18a495ab1675e52d920c17a827",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-120b-live-network-intrusion-detection/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/miraz23/LLM-Powered-Intrusion-Detection-System#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-live-network-intrusion-detection/original-evidence-49437e721796.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/miraz23/LLM-Powered-Intrusion-Detection-System",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-live-network-intrusion-detection/artifact-1-65ef9fd1a39e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-120b-taible-ai-voice-ordering",
+      "modelId": "gpt-oss-120b",
+      "modelName": "gpt-oss-120b",
+      "title": "Taible cloud restaurant voice ordering system",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:33Z",
+      "priority": "high",
+      "evidenceFingerprint": "c4be11a6337b8c7c3a009cc43dd2bf4ce5d87df90e1cb4e682acf4722e4da604",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-120b-taible-ai-voice-ordering/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Taible-io/alma#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-taible-ai-voice-ordering/original-evidence-f630a11cd572.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Taible-io/alma",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-120b-taible-ai-voice-ordering/artifact-1-7e61ac55bc95.json"
+        }
+      ]
+    },
+    {
       "caseId": "gpt4-case-be-my-ai",
       "modelId": "gpt-4",
       "modelName": "GPT-4",
@@ -24098,6 +24274,181 @@
           "url": "https://github.com/rag-web-ui/rag-web-ui",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/minimax-m2-rag-web-ui-knowledge-qa/artifact-1-7676dd7d8829.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-avaterxxx-pelican-ride",
+      "modelId": "minimax-m3-1-flash",
+      "modelName": "MiniMax-M3.1-Flash",
+      "title": "AvaterXXX 用 MiniMax M3.1 Flash 构建可试玩 3D 互动网页",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "278edf6f022d2d83a47023320553ace2fb961e7a6c2d24c9d6f9ca5fe9fa7915",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-avaterxxx-pelican-ride/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/AvaterXXX/pelican-ride-3d-minimaxM3.1-flash/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-avaterxxx-pelican-ride/original-evidence-ad41636b29ae.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://avaterxxx.github.io/pelican-ride-3d-minimaxM3.1-flash/",
+          "host": "avaterxxx.github.io",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-avaterxxx-pelican-ride/artifact-1-ac365ac721e5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-johnlam-pi-integration",
+      "modelId": "minimax-m3-1-flash",
+      "modelName": "MiniMax-M3.1-Flash",
+      "title": "johnlam1968 将 MiniMax M3.1 Flash 接入 Pi 编码代理",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "840b5af0d2edf61687367ad09e3154913d58d37206a3aa1200c30b5ee271e1b0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-johnlam-pi-integration/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/johnlam1968/pi-minimax-m31/master/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-johnlam-pi-integration/original-evidence-40fb57719a66.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/johnlam1968/pi-minimax-m31",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-johnlam-pi-integration/artifact-1-a2ec9203772e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-leo-dcfa-dgx-spark",
+      "modelId": "minimax-m3-1-flash",
+      "modelName": "MiniMax-M3.1-Flash",
+      "title": "leo-dcfa 在四台 NVIDIA DGX Spark 上部署 MiniMax M3.1 Flash",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "a2f016c4af67e06738cc141cbe704c428ec4b3eecd0980092911e1acbdde1e92",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-leo-dcfa-dgx-spark/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/leo-dcfa/minimax-m31-flash-4x-spark/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-leo-dcfa-dgx-spark/original-evidence-4157b8f857fc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/leo-dcfa/minimax-m31-flash-4x-spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-leo-dcfa-dgx-spark/artifact-1-3fa4d29ea21b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-miaai-html-gallery",
+      "modelId": "minimax-m3-1-flash",
+      "modelName": "MiniMax-M3.1-Flash",
+      "title": "MiaAI-Lab 用 MiniMax M3.1 Flash 生成并发布 100 个 HTML 研究作品",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "7414df49c031841b7965ce368b1cd71000828fb0586ac97e46f64f0d27acfabc",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-miaai-html-gallery/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/MiaAI-Lab/MiniMax-M3.1-Flash-100-HTML-Files/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-miaai-html-gallery/original-evidence-e6a998e3cca3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://miaai-lab.github.io/MiniMax-M3.1-Flash-100-HTML-Files/",
+          "host": "miaai-lab.github.io",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-miaai-html-gallery/artifact-1-da608ac2b335.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-victor-su-ortiz-campaign-studio",
+      "modelId": "minimax-m3-1-flash",
+      "modelName": "MiniMax-M3.1-Flash",
+      "title": "Victor-Su-Ortiz 用 MiniMax M3.1 Flash 构建 Campaign Studio 影片制作应用",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T13:15:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "80b60cddfad5985fd0151a7768f6ea1d1bd9e3bae53314b1cfbcb6b5ec5d5e3d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-victor-su-ortiz-campaign-studio/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Victor-Su-Ortiz/minimax-eve-film-studio/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-victor-su-ortiz-campaign-studio/original-evidence-6e32778e835a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Victor-Su-Ortiz/minimax-eve-film-studio",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-victor-su-ortiz-campaign-studio/artifact-1-de77f6f1b6df.json"
         }
       ]
     },
