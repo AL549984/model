@@ -23901,5 +23901,121 @@
       "https://reflection.ai/legal/beta-pricing-information"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "deepseek-v4-1-flash-1017",
+    "name": "DeepSeek V4.1 Flash 1017",
+    "slug": "deepseek-v4-1-flash-1017",
+    "vendorId": "deepseek",
+    "vendor": "DeepSeek",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "DeepSeek V4.1 Flash 1017 模型卡。",
+    "summary": "DeepSeek V4.1 Flash 1017；已核验 1M 上下文、MIT 权重许可与精确 HF 版本。",
+    "releaseDate": "2026-10-17",
+    "modelId": "deepseek-v4-1-flash-1017",
+    "context": "1,000,000 tokens",
+    "output": "384K tokens（官方 API 页面）",
+    "modality": "文本+图像输入；文本输出",
+    "reasoning": "官方资料未在本轮核验中给出统一 reasoning 标记",
+    "price": "第三方 Artificial Analysis：输入 $0.30/1M；输出 $1.20/1M；非厂商统一价格",
+    "platforms": [
+      "Hugging Face",
+      "DeepSeek API"
+    ],
+    "officialLink": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 已用用户身份创建、移动并完成安全写入与回读；来源凭据见 model-card-quality/W8uRdvWBmoCzifxVahBc5595nUc-receipt.json",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "长上下文应用；开放权重研究；多模态开发"
+    ],
+    "avoid": [
+      "不要把第三方价格或评测当作厂商统一口径"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/N9U5wPhyDi7yKfknjCfcHPPjnNK",
+      "https://api-docs.deepseek.com/quick_start/pricing/",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017/raw/main/README.md",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017/raw/main/config.json",
+      "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "minimax-m3-1-flash",
+    "name": "MiniMax-M3.1-Flash",
+    "slug": "minimax-m3-1-flash",
+    "vendorId": "minimax",
+    "vendor": "MiniMax",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "MiniMax-M3.1-Flash 模型卡。",
+    "summary": "MiniMax-M3.1-Flash；已核验多模态 MoE、约 428B 总参数、约 23B 激活参数与 1M 级上下文。",
+    "releaseDate": "2026-10-19",
+    "modelId": "minimax-m3-1-flash",
+    "context": "1,048,576 positions；README 为 up to 1M tokens",
+    "output": "官方本轮来源未取得精确统一最大输出证据",
+    "modality": "文本、图像、视频输入；文本输出",
+    "reasoning": "官方 README 将其用于 agentic workflows；未把此描述扩展为独立成功率",
+    "price": "第三方 Artificial Analysis：输入 $0.15/1M；输出 $0.60/1M；非厂商统一价格",
+    "platforms": [
+      "Hugging Face",
+      "MiniMax API"
+    ],
+    "officialLink": "https://platform.minimax.io/docs/guides/text-generation",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 已用用户身份创建、移动并完成安全写入与回读；来源凭据见 model-card-quality/QOKQdCrXcoydD8xuMjocEx46nce-receipt.json",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "多模态代理；图像/视频理解；长上下文研究与部署"
+    ],
+    "avoid": [
+      "不要将 API 托管限制、价格与开放权重配置混为同一口径"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/HqHWwLJlZiijGpkxukUc6LkQnPd",
+      "https://platform.minimax.io/docs/guides/text-generation",
+      "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash/raw/main/README.md",
+      "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash/raw/main/config.json",
+      "https://artificialanalysis.ai/models/minimax-m3-1-flash"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]

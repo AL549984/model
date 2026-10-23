@@ -447,7 +447,7 @@
       "API alias 和模型版本需要逐条核验",
       "部署来源差异较大"
     ],
-    "modelCount": 20,
+    "modelCount": 21,
     "sourceFile": "../../outputs/vendors/deepseek.md"
   },
   {
@@ -854,7 +854,7 @@
       "M2/M3 版本关系需核验",
       "公开 A 类案例不足"
     ],
-    "modelCount": 7,
+    "modelCount": 8,
     "sourceFile": "../../outputs/vendors/minimax.md"
   },
   {
