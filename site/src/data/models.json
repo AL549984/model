@@ -12437,8 +12437,8 @@
     "slug": "minicpm5-1b",
     "vendorId": "openbmb",
     "vendor": "OpenBMB",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "MiniCPM5-1B 独立模型卡",
     "summary": "OpenBMB 的独立模型 release；AA Intelligence Index：11.918。",
@@ -12474,11 +12474,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -12618,7 +12618,7 @@
     "vendorId": "openbmb",
     "vendor": "OpenBMB",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "MiniCPM-V 4.6 1.3B 独立模型卡",
     "summary": "OpenBMB 的独立模型 release；AA Intelligence Index：3.846。",
@@ -12654,11 +12654,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -18197,7 +18197,7 @@
     "vendorId": "openai",
     "vendor": "OpenAI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "gpt-oss-20b 独立模型卡",
     "summary": "OpenAI 的独立模型 release；AA Intelligence Index：15.225。",
@@ -18233,11 +18233,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23500,7 +23500,7 @@
     "vendorId": "openai",
     "vendor": "OpenAI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "GPT-Rosalind（2026-06 更新）｜原始来源已补正，待继续核验",
     "summary": "GPT-Rosalind 是 OpenAI 面向生命科学研究的专用模型系列；2026年6月3日更新重点是把 GPT-5.5 的 agentic coding / tool-use 能力与生命科学领域智能结合，用于药物发现、基因组学、定量生物、湿实验排障和端到端科研工作流。6月发布时以research preview提供；9月11日已退出预览，当前仍面向通过trusted-access审核的合格组织。",
@@ -23535,11 +23535,11 @@
     "avoid": [
       "缺少真实案例时不要包装成推荐"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [

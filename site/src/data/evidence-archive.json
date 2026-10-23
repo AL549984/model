@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-23",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 937,
-    "manifestedCases": 937,
+    "aCaseCount": 951,
+    "manifestedCases": 951,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 342,
+    "pendingSnapshotCases": 356,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 144,
-    "targets": 1879
+    "uniqueHosts": 146,
+    "targets": 1907
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -34,6 +34,7 @@
     "avaterxxx.github.io",
     "aws.amazon.com",
     "backroom-escape.vercel.app",
+    "bcool5869-coder.github.io",
     "bemyeyes.com",
     "bilibili.com",
     "bitwrangler.uk",
@@ -140,6 +141,7 @@
     "somin.ai",
     "songdduo.github.io",
     "sourcegraph.com",
+    "sparrow-hawk-code-art-generator.vercel.app",
     "steno.com",
     "stripe.com",
     "tamerc.com",
@@ -168,19 +170,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 342,
-      "targets": 686,
-      "highPriorityCases": 273,
+      "cases": 356,
+      "targets": 714,
+      "highPriorityCases": 287,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 230,
-          "targets": 414
+          "cases": 244,
+          "targets": 436
         },
         {
           "host": "huggingface.co",
-          "cases": 46,
-          "targets": 79
+          "cases": 49,
+          "targets": 82
         },
         {
           "host": "raw.githubusercontent.com",
@@ -194,8 +196,8 @@
         },
         {
           "host": "openai.com",
-          "cases": 8,
-          "targets": 8
+          "cases": 9,
+          "targets": 9
         },
         {
           "host": "seed.bytedance.com",
@@ -14367,6 +14369,181 @@
       ]
     },
     {
+      "caseId": "gpt-oss-20b-galsened-invoice-extractor",
+      "modelId": "gpt-oss-20b",
+      "modelName": "GPT-OSS 20B",
+      "title": "GalSened 的 Hebrew/English 发票字段抽取器",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:38Z",
+      "priority": "high",
+      "evidenceFingerprint": "c88e2ac553d1ff3e899113c298a4fb8e3dd271ba2b479399d504c4d2288f77ca",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-20b-galsened-invoice-extractor/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/GalSened/invoice-extractor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-galsened-invoice-extractor/original-evidence-bc342e5fe9c3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/GalSened/invoice-extractor/blob/main/invoice_extractor.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-galsened-invoice-extractor/artifact-1-73c1f1f4684b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-20b-reyrove-sparrow-hawk",
+      "modelId": "gpt-oss-20b",
+      "modelName": "GPT-OSS 20B",
+      "title": "Reyrove 的 Sparrow Hawk AI 代码与 SVG 创作助手",
+      "sourcePlatform": "GitHub + Vercel",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:38Z",
+      "priority": "high",
+      "evidenceFingerprint": "2aebf0c7f77405412cecc4cc6d5f696486442c6ab9198516bb1af5d96a604ac5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-20b-reyrove-sparrow-hawk/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/reyrove/Sparrow-Hawk-CodeArtGenerator",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-reyrove-sparrow-hawk/original-evidence-c70f8c8fa5e2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://sparrow-hawk-code-art-generator.vercel.app/",
+          "host": "sparrow-hawk-code-art-generator.vercel.app",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-reyrove-sparrow-hawk/artifact-1-50cfa764d845.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-20b-seunghahh-medical-ai-agent",
+      "modelId": "gpt-oss-20b",
+      "modelName": "GPT-OSS 20B",
+      "title": "Seunghahh 的本地医疗问诊与 SOAP 病历 Agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:38Z",
+      "priority": "high",
+      "evidenceFingerprint": "f90c7a8285be3af8bbcda3c556b8e712c39a84977622ea561810d403e36b8440",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-20b-seunghahh-medical-ai-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/seunghahh/Medical-AI-Agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-seunghahh-medical-ai-agent/original-evidence-9ce5f1f44c28.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/seunghahh/Medical-AI-Agent/blob/main/docs/nova-demo.gif",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-seunghahh-medical-ai-agent/artifact-1-1db14f1da2d5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-oss-20b-vignesh010101-red-teaming",
+      "modelId": "gpt-oss-20b",
+      "modelName": "GPT-OSS 20B",
+      "title": "Vignesh010101 的 GPT-OSS-20B 自动化红队测试 Agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:38Z",
+      "priority": "high",
+      "evidenceFingerprint": "38053f20bdfb254df082aff6d1bda6b3cf864ccc7d0fc1cbb57a69e9a2515d72",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-oss-20b-vignesh010101-red-teaming/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Vignesh010101/red-teaming",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-vignesh010101-red-teaming/original-evidence-e8382097ed6d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Vignesh010101/red-teaming/tree/main/red_teaming",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-oss-20b-vignesh010101-red-teaming/artifact-1-d78a12399677.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-rosalind-2026-06-openai-life-sciences-research-plugin",
+      "modelId": "gpt-rosalind-2026-06-update",
+      "modelName": "GPT-Rosalind（2026-06 更新）",
+      "title": "GPT-Rosalind executes repeatable evidence-grounded life-sciences workflows",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:15Z",
+      "priority": "high",
+      "evidenceFingerprint": "33cfbc5c3032e3453fadf07077e6dec5cab0076e7befd22219f5dc0e9535c067",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-rosalind-2026-06-openai-life-sciences-research-plugin/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+          "host": "openai.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-rosalind-2026-06-openai-life-sciences-research-plugin/original-evidence-93ad6127ac8b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/openai/plugins/tree/main/plugins/life-science-research",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-rosalind-2026-06-openai-life-sciences-research-plugin/artifact-1-3e11a65698d8.json"
+        }
+      ]
+    },
+    {
       "caseId": "gpt4-case-be-my-ai",
       "modelId": "gpt-4",
       "modelName": "GPT-4",
@@ -23434,6 +23611,321 @@
           "url": "https://github.com/openclaw/openclaw",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/mimo-v2-pro-openclaw-dispatcher-agent/artifact-1-0b5c4741d1c1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm-v-4-6-llhuanhuan-point-and-learn",
+      "modelId": "minicpm-v-4-6-1-3b",
+      "modelName": "MiniCPM-V 4.6 1.3B",
+      "title": "llhuanhuan built Point-and-Learn, a child-focused visual encyclopedia",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T03:21:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "befe5be7e1320483d0b1813f34327ccc73686e4b050d5d99e83418e3dfd4f318",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm-v-4-6-llhuanhuan-point-and-learn/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/llhuanhuan/point-and-learn",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-llhuanhuan-point-and-learn/original-evidence-ac751353bccc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/llhuanhuan/point-and-learn",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-llhuanhuan-point-and-learn/artifact-1-ac751353bccc.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm-v-4-6-lorenzomontorsi-airplaneai",
+      "modelId": "minicpm-v-4-6-1-3b",
+      "modelName": "MiniCPM-V 4.6 1.3B",
+      "title": "Lorenzo Montorsi shipped AirplaneAI, an offline Android multimodal chat app",
+      "sourcePlatform": "GitHub + Android release",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T03:21:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "86365a428db432251b875e31ed5abc29a26f1d9746c5510d2e9fca3b105ab3e2",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm-v-4-6-lorenzomontorsi-airplaneai/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/LorenzoMontorsi/AirplaneAI",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-lorenzomontorsi-airplaneai/original-evidence-9dcb89e4d430.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/LorenzoMontorsi/AirplaneAI/releases/latest",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-lorenzomontorsi-airplaneai/artifact-1-e2bc8d50dbdf.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm-v-4-6-sebaustin-lot-scout",
+      "modelId": "minicpm-v-4-6-1-3b",
+      "modelName": "MiniCPM-V 4.6 1.3B",
+      "title": "Seb Austin built Lot Scout, an on-device used-car listing analyzer",
+      "sourcePlatform": "GitHub + Hugging Face Space",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T03:21:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "ee758821e8a457a8dabd840d83d4ce28abc1dd057bdaa4d9d812fb6803db6839",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm-v-4-6-sebaustin-lot-scout/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/SebAustin/lot-scout",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-sebaustin-lot-scout/original-evidence-5bf069e3ee64.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/build-small-hackathon/lot-scout",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-sebaustin-lot-scout/artifact-1-271624f7b18a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm-v-4-6-sebaustin-safebite",
+      "modelId": "minicpm-v-4-6-1-3b",
+      "modelName": "MiniCPM-V 4.6 1.3B",
+      "title": "Seb Austin built SafeBite, an on-device allergen label scanner",
+      "sourcePlatform": "GitHub + Hugging Face Space",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T03:21:00+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "789797c0dd9471d05215becb232bee7f371cdc988d8bb93dbbbbd33b08835299",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm-v-4-6-sebaustin-safebite/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/SebAustin/safebite",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-sebaustin-safebite/original-evidence-04d2083ad4d2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/build-small-hackathon/safebite",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/minicpm-v-4-6-sebaustin-safebite/artifact-1-67d484e841f1.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-1b-amal-david-pocket-pikachu",
+      "modelId": "minicpm5-1b",
+      "modelName": "MiniCPM5-1B",
+      "title": "Pocket Pikachu runs its voice companion brain locally with MiniCPM5-1B",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "bf53e9be689b55f341a9cb6791686ddc17fa9f116574b42c5ecbc562ec3192bd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-1b-amal-david-pocket-pikachu/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Amal-David/pocketdm#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-amal-david-pocket-pikachu/original-evidence-71f976d8adce.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/build-small-hackathon/pocket-pikachu",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-amal-david-pocket-pikachu/artifact-1-789775d6a1a6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-1b-bcool-data-craft-ai-tutor",
+      "modelId": "minicpm5-1b",
+      "modelName": "MiniCPM5-1B",
+      "title": "Data Craft browser course uses MiniCPM5-1B as an on-device AI tutor",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "d58153a246857057c1d1a9b4294c92c03d0b3e0fe01d4f8e07c3f1ac2330aa36",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-1b-bcool-data-craft-ai-tutor/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bcool5869-coder/data-craft#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-bcool-data-craft-ai-tutor/original-evidence-f46e63eb905c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://bcool5869-coder.github.io/data-craft/",
+          "host": "bcool5869-coder.github.io",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-bcool-data-craft-ai-tutor/artifact-1-a3233c31fea4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-1b-dvictor-gmgn-research-agent",
+      "modelId": "minicpm5-1b",
+      "modelName": "MiniCPM5-1B",
+      "title": "gmgn-minicpm uses MiniCPM5-1B to route local crypto research queries",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "0d1304c82f88738506df3a8e0ef40b74ea2241c75d17fe82fd69e407961185a1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-1b-dvictor-gmgn-research-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/dvictor357/gmgn-minicpm#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-dvictor-gmgn-research-agent/original-evidence-d4600ba935ba.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/dvictor357/gmgn-minicpm",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-dvictor-gmgn-research-agent/artifact-1-71d37bcddab8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-1b-fcabla-eyewitness",
+      "modelId": "minicpm5-1b",
+      "modelName": "MiniCPM5-1B",
+      "title": "EYEWITNESS uses MiniCPM5-1B to turn testimony into a playable suspect sketch",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "9592a989d28ae8f6569fbbfc84e2ccae128d231efdeb5c5af71c68a7e2de2993",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-1b-fcabla-eyewitness/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Fcabla/eyewitness#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-fcabla-eyewitness/original-evidence-ef83133bb5f3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Fcabla/eyewitness",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-fcabla-eyewitness/artifact-1-07f4a42ecc47.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-1b-jorgemeza-cascade-ridge",
+      "modelId": "minicpm5-1b",
+      "modelName": "MiniCPM5-1B",
+      "title": "Cascade Ridge 3D park uses MiniCPM5-1B for a persistent AI hiker",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-23T19:21:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "b01c295056747d90d04ba56b900a2e966edeb3e2621a3b809b6fcf3746494ba8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-1b-jorgemeza-cascade-ridge/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jorgemeza7498-svg/cascade-ridge-ai-park#readme",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-jorgemeza-cascade-ridge/original-evidence-8d6a402c6dc3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jorgemeza7498-svg/cascade-ridge-ai-park",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-jorgemeza-cascade-ridge/artifact-1-7e2f78dfa78f.json"
         }
       ]
     },
