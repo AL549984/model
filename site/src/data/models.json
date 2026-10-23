@@ -24019,5 +24019,60 @@
       "https://artificialanalysis.ai/models/minimax-m3-1-flash"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "ling-3-1-flash-1019",
+    "name": "Ling 3.1 Flash 1019",
+    "slug": "ling-3-1-flash-1019",
+    "vendorId": "inclusionai",
+    "vendor": "InclusionAI",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Ling 1019：Agent 指标上升，开放入口需继续确认",
+    "summary": "官方精确版本公告转述 AA Intelligence Index 44、AA-Briefcase 1524 Elo、AutomationBench-AA 68%；不代表本卡独立复测。",
+    "releaseDate": "2026-10-22",
+    "modelId": "ling-3-1-flash-1019",
+    "context": "本次精确版本公告不足以确定",
+    "output": "本次精确版本公告不足以确定",
+    "modality": "文本 / 多模态待核验",
+    "reasoning": "否或官方未披露",
+    "price": "正式 API 入口与计费条件需再次核验",
+    "platforms": [
+      "公告称 API 与开放权重 coming soon"
+    ],
+    "officialLink": "https://x.com/AntLingAGI/status/2113226531522891851",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "精确版本 5 个命名字段通过原文验证和安全写入；Wiki 内容回读凭据 Aofdd1EuZoq5oix4vERctODunXe-receipt.json。图片目前保留官方原始链接，未嵌入；不是整卡所有规格完成核验。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "开放模型研究；Agent 对照测试"
+    ],
+    "avoid": [
+      "不得套用旧版权重许可、参数和服务限制；不得把公告计划写为已开放"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 2,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/WoRCwbJ9uiIrcWkDVEOc6vXtnLe",
+      "https://x.com/AntLingAGI/status/2113226531522891851",
+      "https://artificialanalysis.ai/models/ling-3-1-flash-1019"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
