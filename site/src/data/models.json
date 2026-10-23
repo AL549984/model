@@ -24066,7 +24066,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://ycn3zdw6f1p7.feishu.cn/wiki/WoRCwbJ9uiIrcWkDVEOc6vXtnLe",
