@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-23T13:59:21.750Z",
+  "generatedAt": "2026-10-23T20:06:27.468Z",
   "summary": {
     "models": 393,
-    "activeModels": 142,
+    "activeModels": 143,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 142,
-    "fullCoverageReady": 142,
+    "publicReady": 143,
+    "fullCoverageReady": 143,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 635,
-    "allModelTargetDeficit": 1127,
-    "queuedModels": 247,
-    "crawlTargetDeficit": 1107
+    "allModelMinDeficit": 625,
+    "allModelTargetDeficit": 1113,
+    "queuedModels": 246,
+    "crawlTargetDeficit": 1093
   },
   "tasks": [
     {
@@ -28063,20 +28063,20 @@
       "modelName": "MiniCPM5-1B",
       "vendorId": "openbmb",
       "vendor": "OpenBMB",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/A1xAwJInviBnM0kBZLNcWKIInBd",
@@ -28494,17 +28494,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/MqRrw6diAikrFekyl6RcWNzOnzh",
@@ -41701,17 +41701,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/VeyrwPK9EivoWrk493tcHRHrn9c",
@@ -54492,17 +54492,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
