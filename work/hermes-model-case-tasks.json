@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T02:14:39.791Z",
+  "generatedAt": "2026-10-24T05:18:43.598Z",
   "summary": {
-    "models": 393,
+    "models": 395,
     "activeModels": 144,
     "minACases": 3,
     "targetACases": 5,
@@ -11,10 +11,10 @@
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 620,
-    "allModelTargetDeficit": 1106,
-    "queuedModels": 245,
-    "crawlTargetDeficit": 1086
+    "allModelMinDeficit": 626,
+    "allModelTargetDeficit": 1116,
+    "queuedModels": 247,
+    "crawlTargetDeficit": 1096
   },
   "tasks": [
     {
@@ -55848,6 +55848,290 @@
         "minAcceptedACases": 3,
         "targetAcceptedACases": 5,
         "stopWhen": "accepted A cases for ling-3-1-flash-1019 >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-kimi-k3-1-pro",
+      "modelId": "kimi-k3-1-pro",
+      "modelName": "Kimi K3.1 Pro",
+      "vendorId": "kimi",
+      "vendor": "Kimi",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://www.kimi.ai/blog/kimi-k3-1-pro",
+        "https://platform.moonshot.cn/docs/guide/kimi-k3-1-pro-quickstart",
+        "https://platform.moonshot.cn/docs/pricing/chat",
+        "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/EHkLw6wYfi3uzlkkp2LcjeDxnef"
+      ],
+      "crawlSources": [
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        },
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        }
+      ],
+      "queries": [
+        "Kimi K3.1 Pro Kimi case study customer",
+        "Kimi K3.1 Pro Kimi built with GitHub demo",
+        "Kimi K3.1 Pro Kimi production use product blog",
+        "Kimi K3.1 Pro Kimi model card docs API pricing context window",
+        "Kimi K3.1 Pro Kimi 真实使用 案例 项目 开源",
+        "Kimi K3.1 Pro Kimi GitHub README built with",
+        "Kimi K3.1 Pro Kimi B站 使用 案例 demo",
+        "Kimi K3.1 Pro Kimi 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for kimi-k3-1-pro >= 5",
+        "requiredFields": [
+          "case_id",
+          "case_title",
+          "model_id",
+          "model_name",
+          "vendor_id",
+          "vendor",
+          "user_or_org",
+          "original_evidence_url",
+          "artifact_url",
+          "source_platform",
+          "source_type",
+          "task_category",
+          "task_description",
+          "output_result",
+          "model_contribution",
+          "risk_notes",
+          "collected_at"
+        ]
+      },
+      "autoGate": {
+        "publishAOnlyWhen": [
+          "source_type is real_case",
+          "model_id maps to a known model",
+          "user_or_org is present",
+          "task_description is present",
+          "output_result is present",
+          "model_contribution is present",
+          "original_evidence_url is http(s)",
+          "artifact_url is http(s)",
+          "source is not collection, benchmark-only, tutorial-only or search-summary-only"
+        ],
+        "noHumanReview": true
+      },
+      "dedupeKeys": [
+        "model_id + original_evidence_url",
+        "model_id + artifact_url",
+        "case_id"
+      ],
+      "rejectIf": [
+        "collection page only",
+        "benchmark / leaderboard only",
+        "tutorial or prompt template only",
+        "launch post without concrete user artifact",
+        "model family mentioned but exact model/variant not bound",
+        "artifact is private or not reachable"
+      ],
+      "preferDiversity": {
+        "sourcePlatforms": 2,
+        "taskCategories": 2
+      }
+    },
+    {
+      "taskId": "hermes-case-crawl-nemotron-3-5-bolt-e4b-4gb",
+      "modelId": "nemotron-3-5-bolt-e4b-4gb",
+      "modelName": "Nemotron 3.5 Bolt E4B 4GB",
+      "vendorId": "nvidia",
+      "vendor": "NVIDIA",
+      "priority": "P0",
+      "status": "needs_a_case",
+      "publishability": "Hold",
+      "aCaseCount": 0,
+      "minACases": 3,
+      "targetACases": 5,
+      "minDeficit": 3,
+      "targetDeficit": 5,
+      "publicReady": false,
+      "fullCoverageReady": false,
+      "crawlBudget": {
+        "minCandidatesPerMissingACase": 12,
+        "targetCandidateCount": 60,
+        "maxCandidatesPerRun": 80
+      },
+      "officialSources": [
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/raw/main/README.md",
+        "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-Technical-Report.pdf",
+        "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/",
+        "https://artificialanalysis.ai/models/nemotron-3-5-bolt-e4b-4gb",
+        "https://ycn3zdw6f1p7.feishu.cn/wiki/DdcTw0jZoiM5tokE199c9gOFn2g"
+      ],
+      "crawlSources": [
+        {
+          "id": "official_web",
+          "label": "官网 / docs / customer stories",
+          "weight": 1
+        },
+        {
+          "id": "github",
+          "label": "GitHub repos / issues / PRs",
+          "weight": 0.95
+        },
+        {
+          "id": "web_search",
+          "label": "公开网页 / 产品博客 / 新闻稿",
+          "weight": 0.9
+        },
+        {
+          "id": "youtube",
+          "label": "YouTube videos",
+          "weight": 0.75
+        },
+        {
+          "id": "bilibili",
+          "label": "B 站视频",
+          "weight": 0.75
+        },
+        {
+          "id": "x",
+          "label": "X / Twitter",
+          "weight": 0.65
+        },
+        {
+          "id": "wechat",
+          "label": "微信公众号文章",
+          "weight": 0.6
+        },
+        {
+          "id": "xiaohongshu",
+          "label": "小红书笔记",
+          "weight": 0.45
+        },
+        {
+          "id": "douyin",
+          "label": "抖音视频",
+          "weight": 0.45
+        }
+      ],
+      "queries": [
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA case study customer",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA built with GitHub demo",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA production use product blog",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA model card docs API pricing context window",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA 真实使用 案例 项目 开源",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA GitHub README built with",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA B站 使用 案例 demo",
+        "Nemotron 3.5 Bolt E4B 4GB NVIDIA 微信公众号 使用 案例 产品"
+      ],
+      "outputContract": {
+        "table": "cases",
+        "minAcceptedACases": 3,
+        "targetAcceptedACases": 5,
+        "stopWhen": "accepted A cases for nemotron-3-5-bolt-e4b-4gb >= 5",
         "requiredFields": [
           "case_id",
           "case_title",

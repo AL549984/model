@@ -24077,5 +24077,132 @@
       "https://artificialanalysis.ai/models/ling-3-1-flash-1019"
     ],
     "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "kimi-k3-1-pro",
+    "name": "Kimi K3.1 Pro",
+    "slug": "kimi-k3-1-pro",
+    "vendorId": "kimi",
+    "vendor": "Kimi",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Kimi K3.1 Pro：1M 上下文与长程 Agent 推理",
+    "summary": "Kimi K3.1 Pro 是 Kimi 于 2026-10-23 发布的推理模型，支持 1,048,576 tokens 上下文、视觉/视频输入、工具调用与持续思考。",
+    "releaseDate": "2026-10-23",
+    "modelId": "kimi-k3-1-pro",
+    "context": "1048576 tokens",
+    "output": "1048576 max_completion_tokens",
+    "modality": "text,image,video -> text",
+    "reasoning": "always-on; reasoning_effort low/high/max",
+    "price": "AA third-party snapshot: input US$2/1M, output US$10/1M; verify official pricing",
+    "platforms": [
+      "Kimi API",
+      "OpenAI-compatible API"
+    ],
+    "officialLink": "https://platform.moonshot.cn/docs/guide/kimi-k3-1-pro-quickstart",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Exact AA release slug; Wiki card read back after user-authored move. Official facts verified through safe-write receipt.",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "long-context reasoning",
+      "coding",
+      "3D/CAD",
+      "finance research",
+      "tool-using agents"
+    ],
+    "avoid": [
+      "production web search without validation",
+      "cases requiring reasoning off"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "https://platform.moonshot.cn/docs/guide/kimi-k3-1-pro-quickstart",
+      "https://platform.moonshot.cn/docs/pricing/chat",
+      "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/EHkLw6wYfi3uzlkkp2LcjeDxnef"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "nemotron-3-5-bolt-e4b-4gb",
+    "name": "Nemotron 3.5 Bolt E4B 4GB",
+    "slug": "nemotron-3-5-bolt-e4b-4gb",
+    "vendorId": "nvidia",
+    "vendor": "NVIDIA",
+    "publishability": "Hold",
+    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "Nemotron 3.5 Bolt E4B 4GB：面向边缘设备的低内存量化模型",
+    "summary": "NVIDIA 于 2026-10-23 发布的 8B（4B effective）Q4_K_M 模型，支持最高 64K 输入/输出、思考控制、工具调用和本地部署。",
+    "releaseDate": "2026-10-23",
+    "modelId": "nemotron-3-5-bolt-e4b-4gb",
+    "context": "input/output up to 64K tokens",
+    "output": "text; runtime max_tokens is deployment-controlled",
+    "modality": "text -> text",
+    "reasoning": "enable_thinking true/false; runtime thinking budget",
+    "price": "Local weights; official hosted price not verified",
+    "platforms": [
+      "Hugging Face",
+      "llama.cpp",
+      "vLLM for BF16 companion"
+    ],
+    "officialLink": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Exact AA release slug; Wiki card read back after user-authored move. Official facts verified through safe-write receipt.",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "local device assistants",
+      "embedded interfaces",
+      "low-memory text agents",
+      "quantization research"
+    ],
+    "avoid": [
+      "treating Q4_K_M as BF16",
+      "assuming text-only model provides vision",
+      "using NVIDIA self-tests as independent replication"
+    ],
+    "aCaseCount": 0,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 4,
+    "riskNotes": [
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/raw/main/README.md",
+      "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB-Technical-Report.pdf",
+      "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/",
+      "https://artificialanalysis.ai/models/nemotron-3-5-bolt-e4b-4gb",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/DdcTw0jZoiM5tokE199c9gOFn2g"
+    ],
+    "sourceFile": "Feishu Bitable"
   }
 ]
