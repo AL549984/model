@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-24",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 951,
-    "manifestedCases": 951,
+    "aCaseCount": 959,
+    "manifestedCases": 959,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 356,
+    "pendingSnapshotCases": 364,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 146,
-    "targets": 1907
+    "targets": 1923
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -170,14 +170,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 356,
-      "targets": 714,
-      "highPriorityCases": 287,
+      "cases": 364,
+      "targets": 730,
+      "highPriorityCases": 295,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 244,
-          "targets": 436
+          "cases": 252,
+          "targets": 452
         },
         {
           "host": "huggingface.co",
@@ -23926,6 +23926,286 @@
           "url": "https://github.com/jorgemeza7498-svg/cascade-ridge-ai-park",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/minicpm5-1b-jorgemeza-cascade-ridge/artifact-1-7e2f78dfa78f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-ashone-macai-console",
+      "modelId": "minicpm5-2b",
+      "modelName": "MiniCPM5-2B",
+      "title": "MacAIConsole packages MiniCPM5 2B MLX for private local OpenAI-compatible services",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "ff2546affa8bcfc581c941d2bdd4e5ec0321e6334d719d7e84f739458484f7b0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-ashone-macai-console/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Ash-one/MacAIConsole/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-ashone-macai-console/original-evidence-c685bc8da1c6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Ash-one/MacAIConsole",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-ashone-macai-console/artifact-1-bbca246f3341.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-caciniep-network-doctor-real-run",
+      "modelId": "minicpm5-2b",
+      "modelName": "MiniCPM5-2B",
+      "title": "MiniCPM Network Doctor diagnoses an npm registry timeout from live read-only evidence",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "a504c14545921eacc97a5cfe0d67e69e4ea5297fcfcd1fdcece1276a50c28ba4",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-caciniep-network-doctor-real-run/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/CacinieP/minicpm5-network-doctor/blob/main/docs/evidence/2026-09-18-2b-verbatim-example.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-caciniep-network-doctor-real-run/original-evidence-4132b6fd58dd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/CacinieP/minicpm5-network-doctor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-caciniep-network-doctor-real-run/artifact-1-36b80639d185.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-dspark-greatv-calibration-cache",
+      "modelId": "minicpm5-2b-dspark",
+      "modelName": "MiniCPM5-2B-DSpark",
+      "title": "GreatV 为 MiniCPM5-2B-DSpark 推理路径优化设备校准缓存",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:58Z",
+      "priority": "high",
+      "evidenceFingerprint": "1255e36ef9f8b4ed94e8adf38b809051c169338699e80bc12fcfe64d1d62cf77",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-dspark-greatv-calibration-cache/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/GreatV/flyingfish/pull/76",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-dspark-greatv-calibration-cache/original-evidence-a6f509d90bd4.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/GreatV/flyingfish",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-dspark-greatv-calibration-cache/artifact-1-40a976b64920.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-dspark-infinigence-apxinf-mlx",
+      "modelId": "minicpm5-2b-dspark",
+      "modelName": "MiniCPM5-2B-DSpark",
+      "title": "Infinigence 在 Apple Silicon ApxInf 中优化 MiniCPM5-2B-DSpark 首 token 延迟",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:58Z",
+      "priority": "high",
+      "evidenceFingerprint": "4f298c24d516586cc52811db89b598bc0a88b29801751adc185296942db67948",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-dspark-infinigence-apxinf-mlx/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/infinigence/ApxInf/pull/153",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-dspark-infinigence-apxinf-mlx/original-evidence-ba02b64518a1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/infinigence/ApxInf",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-dspark-infinigence-apxinf-mlx/artifact-1-9b55eedae684.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-emwstudio-esp32-attitude",
+      "modelId": "minicpm5-2b",
+      "modelName": "MiniCPM5-2B",
+      "title": "ESP32 flight-instrument project uses MiniCPM5-2B as a local tower conversational agent",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "e134a5afedfd85431b9c63121c6423ad00081973ae401f5b315046f6bd55dac9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-emwstudio-esp32-attitude/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/emwstudio/esp32-attitude/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-emwstudio-esp32-attitude/original-evidence-d8ef2c1944c2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/emwstudio/esp32-attitude",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-emwstudio-esp32-attitude/artifact-1-499d4a4d72ce.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-emwstudio-esp32-radar",
+      "modelId": "minicpm5-2b",
+      "modelName": "MiniCPM5-2B",
+      "title": "ESP32 airport radar uses MiniCPM5-2B to generate tower-style flight announcements",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "76a88e14e5c4f10bd4a215819b9aecc77412c2cd1d12c3c7a45a3ef806147de1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-emwstudio-esp32-radar/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/emwstudio/esp32-radar/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-emwstudio-esp32-radar/original-evidence-d474ad4d672f.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/emwstudio/esp32-radar",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-emwstudio-esp32-radar/artifact-1-2158dd44edcd.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-frederico-offline-ai-mobile",
+      "modelId": "minicpm5-2b",
+      "modelName": "MiniCPM5-2B",
+      "title": "offline-ai-mobile runs MiniCPM5-2B locally in an Android prompt and tool-calling app",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "caf32c1840ca818479087c94c79185faa55ae65efebcab7d0c1f7b81623dc9ca",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-frederico-offline-ai-mobile/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/frederico-kluser/offline-ai-mobile/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-frederico-offline-ai-mobile/original-evidence-c820aa0dc274.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/frederico-kluser/offline-ai-mobile",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-frederico-offline-ai-mobile/artifact-1-c363fc3526c6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minicpm5-2b-stefanicla-eu-ai-act-rag",
+      "modelId": "minicpm5-2b",
+      "modelName": "MiniCPM5-2B",
+      "title": "Local EU AI Act RAG application answers compliance questions with MiniCPM5-2B",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T01:27:20Z",
+      "priority": "high",
+      "evidenceFingerprint": "e17592568eb1d036aaacf007c1f70d2aa46df6db2ec088ded5bf9014dcc4788d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minicpm5-2b-stefanicla-eu-ai-act-rag/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/stefanicla/rag-eu-ai-act/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-stefanicla-eu-ai-act-rag/original-evidence-6af5c4babb4e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/stefanicla/rag-eu-ai-act",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minicpm5-2b-stefanicla-eu-ai-act-rag/artifact-1-acdf537ede37.json"
         }
       ]
     },
