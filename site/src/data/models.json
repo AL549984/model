@@ -24130,7 +24130,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://www.kimi.ai/blog/kimi-k3-1-pro",
@@ -24194,7 +24195,8 @@
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。"
+      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "完整补齐为 5 条。"
     ],
     "sources": [
       "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/raw/main/README.md",
