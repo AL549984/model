@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-24",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 976,
-    "manifestedCases": 976,
+    "aCaseCount": 991,
+    "manifestedCases": 991,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 381,
+    "pendingSnapshotCases": 396,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 146,
-    "targets": 1957
+    "targets": 1987
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -170,14 +170,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 381,
-      "targets": 764,
-      "highPriorityCases": 311,
+      "cases": 396,
+      "targets": 794,
+      "highPriorityCases": 326,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 268,
-          "targets": 482
+          "cases": 283,
+          "targets": 507
         },
         {
           "host": "huggingface.co",
@@ -186,8 +186,8 @@
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 25,
-          "targets": 25
+          "cases": 30,
+          "targets": 30
         },
         {
           "host": "bilibili.com",
@@ -29425,6 +29425,356 @@
       ]
     },
     {
+      "caseId": "qwen3-5-0-8b-2wild-llm-eyes-service",
+      "modelId": "qwen3-5-0-8b",
+      "modelName": "Qwen3.5 0.8B",
+      "title": "2Wild 的 llm-eyes 本地视觉服务",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:48:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "35c6eb177289b6b0bf2f80d72a254ae448ec1fd215dd3ea0e27128d12f20c6c9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-0-8b-2wild-llm-eyes-service/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/tonyd2wild/2Wild-Vision-Mode/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-2wild-llm-eyes-service/original-evidence-575cffc416dd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/tonyd2wild/2Wild-Vision-Mode",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-2wild-llm-eyes-service/artifact-1-51712facf600.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-0-8b-kinncj-webgpu-webcam-vlm",
+      "modelId": "qwen3-5-0-8b",
+      "modelName": "Qwen3.5 0.8B",
+      "title": "kinncj 的浏览器端私有实时视觉问答应用",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:48:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "004313e2323a933d43b4a08831c37b2ad862dee75d370dba6b330c2d68c35f73",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-0-8b-kinncj-webgpu-webcam-vlm/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/kinncj/Qwen3.5-0.8B-WebGPU/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-kinncj-webgpu-webcam-vlm/original-evidence-5db186e2ed0a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kinncj/Qwen3.5-0.8B-WebGPU",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-kinncj-webgpu-webcam-vlm/artifact-1-3c73b029317a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-0-8b-maxyhe-yolov8-routing",
+      "modelId": "qwen3-5-0-8b",
+      "modelName": "Qwen3.5 0.8B",
+      "title": "MaxyHE 的 YOLOv8 与 Qwen3.5 自适应视觉消歧系统",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:48:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "f749106caef5ad9335af609b75a5388ea8213c6e76b6c4442af3e4f869470a7f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-0-8b-maxyhe-yolov8-routing/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/MaxyHE/yolov8-qwen3.5-adaptive-routing/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-maxyhe-yolov8-routing/original-evidence-c5a78c0d4b70.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/MaxyHE/yolov8-qwen3.5-adaptive-routing",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-maxyhe-yolov8-routing/artifact-1-d56a7b7b71b8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-0-8b-qengineering-rk3588-vlm",
+      "modelId": "qwen3-5-0-8b",
+      "modelName": "Qwen3.5 0.8B",
+      "title": "Q-engineering 在 RK3588 NPU 上运行 Qwen3.5-0.8B 图像问答",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:48:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "cb162672ac132bfa8c76f95e992b8374f307567450b9123ebd3452faad6464d5",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-0-8b-qengineering-rk3588-vlm/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Qengineering/Qwen3.5-0.8B-NPU/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-qengineering-rk3588-vlm/original-evidence-48c65e347538.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Qengineering/Qwen3.5-0.8B-NPU",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-qengineering-rk3588-vlm/artifact-1-271af761a2eb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-0-8b-zoran-chanllm",
+      "modelId": "qwen3-5-0-8b",
+      "modelName": "Qwen3.5 0.8B",
+      "title": "Zoran689 的缠论专业问答模型 ChanLLM",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:48:23Z",
+      "priority": "high",
+      "evidenceFingerprint": "03977ac75cb058fccaa6563fbdf122b5682921e846e7bf670dc9cc5fc2ed79ea",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-0-8b-zoran-chanllm/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Zoran689/ZenLLM/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-zoran-chanllm/original-evidence-f8c8cc57eda2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Zoran689/ZenLLM",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-0-8b-zoran-chanllm/artifact-1-56e431bd717f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-122b-a10b-albond-dgx-spark-inference",
+      "modelId": "qwen3-5-122b-a10b",
+      "modelName": "Qwen3.5 122B A10B",
+      "title": "albond 在单台 NVIDIA DGX Spark 上部署 Qwen3.5-122B-A10B 推理服务",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:04Z",
+      "priority": "high",
+      "evidenceFingerprint": "c4242688128784937e30a4c44aa8807c58c2d2298f732b12422fa168811f8a0a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-122b-a10b-albond-dgx-spark-inference/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/albond/DGX_Spark_Qwen3.5-122B-A10B-AR-INT4/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-albond-dgx-spark-inference/original-evidence-d3d1204aae3a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/albond/DGX_Spark_Qwen3.5-122B-A10B-AR-INT4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-albond-dgx-spark-inference/artifact-1-587b99ca8474.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-122b-a10b-bjk110-dgx-spark-service",
+      "modelId": "qwen3-5-122b-a10b",
+      "modelName": "Qwen3.5 122B A10B",
+      "title": "bjk110 在 DGX Spark 上用 vLLM 部署 Qwen3.5-122B-A10B NVFP4 服务",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:04Z",
+      "priority": "high",
+      "evidenceFingerprint": "f9c6a9c41ea047d9b3eba813b12943f7d06355746e1f272bb7ed6d4d73337f2f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-122b-a10b-bjk110-dgx-spark-service/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bjk110/SPARK_Qwen3.5-122B-A10B-NVFP4/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-bjk110-dgx-spark-service/original-evidence-edcf31075640.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bjk110/SPARK_Qwen3.5-122B-A10B-NVFP4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-bjk110-dgx-spark-service/artifact-1-c45645eb65ca.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-122b-a10b-entrpi-dflash-agent-serving",
+      "modelId": "qwen3-5-122b-a10b",
+      "modelName": "Qwen3.5 122B A10B",
+      "title": "Entrpi 在 DGX Spark 上为 Qwen3.5-122B-A10B 搭建 DFlash agent serving",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:04Z",
+      "priority": "high",
+      "evidenceFingerprint": "85e2755fa52d0e047666bfc518a159209d96f0d6931b2642a2b883375ad181a8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-122b-a10b-entrpi-dflash-agent-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Entrpi/qwen3.5-122B-A10B-on-spark/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-entrpi-dflash-agent-serving/original-evidence-47dfa5b2e783.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Entrpi/qwen3.5-122B-A10B-on-spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-entrpi-dflash-agent-serving/artifact-1-96d11bc37750.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-122b-a10b-musshiyaki-sebas-macbook",
+      "modelId": "qwen3-5-122b-a10b",
+      "modelName": "Qwen3.5 122B A10B",
+      "title": "musshiyaki 用 Sebas 在 16GB MacBook Air 上本地运行 Qwen3.5-122B-A10B",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:04Z",
+      "priority": "high",
+      "evidenceFingerprint": "c5bfb8eeae27a81340728db60263698199040e91b76b306d618cf2abc68d49f6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-122b-a10b-musshiyaki-sebas-macbook/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/musshiyaki/sebas/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-musshiyaki-sebas-macbook/original-evidence-c2684e74a226.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/musshiyaki/sebas",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-musshiyaki-sebas-macbook/artifact-1-004245a55fb5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-5-122b-a10b-tobby168-dgx-spark-serving",
+      "modelId": "qwen3-5-122b-a10b",
+      "modelName": "Qwen3.5 122B A10B",
+      "title": "tobby168 在 DGX Spark 上优化 Qwen3.5-122B-A10B 单流推理",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:04Z",
+      "priority": "high",
+      "evidenceFingerprint": "8c9daf139a0137c50a83d0ef2a23986fe89b26c95ed4fe797d0d3b440e78f5c2",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-5-122b-a10b-tobby168-dgx-spark-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/tobby168/dgx-spark-qwen35-122b-turbo/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-tobby168-dgx-spark-serving/original-evidence-5e02b2763408.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/tobby168/dgx-spark-qwen35-122b-turbo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-5-122b-a10b-tobby168-dgx-spark-serving/artifact-1-9b37e0af1525.json"
+        }
+      ]
+    },
+    {
       "caseId": "qwen3-5-397b-a17b-clerveu-vidtest-video-to-text",
       "modelId": "qwen3-5-397b-a17b",
       "modelName": "Qwen3.5 397B A17B",
@@ -31381,6 +31731,181 @@
           "url": "https://github.com/Uraroga/qwen3-next-80b-docker",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-uraroga-two-pc-cpu/artifact-1-b8eb8f935d4c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-omni-30b-a3b-instruct-dgx-spark-vllm-serving",
+      "modelId": "qwen3-omni-30b-a3b-instruct",
+      "modelName": "Qwen3 Omni 30B A3B Instruct",
+      "title": "DGX Spark 上复现 Qwen3-Omni 多模态服务并通过全模态验收",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "90f98f511febd17138cac13d703c04c8ec8bbd3319a6cc4360500777e8445746",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-omni-30b-a3b-instruct-dgx-spark-vllm-serving/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Diego-Revolteo/qwen3-omni-dgx-spark/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-dgx-spark-vllm-serving/original-evidence-26d5451728ba.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Diego-Revolteo/qwen3-omni-dgx-spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-dgx-spark-vllm-serving/artifact-1-f7c1412794c3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-omni-30b-a3b-instruct-modal-realtime-speech-demo",
+      "modelId": "qwen3-omni-30b-a3b-instruct",
+      "modelName": "Qwen3 Omni 30B A3B Instruct",
+      "title": "Modal 上部署 Qwen3-Omni 的实时语音对话演示",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "c227bf3e4b933153b0c8964c22f775dbe6e5ca2b4a3d010076f1d1173e088a6a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-omni-30b-a3b-instruct-modal-realtime-speech-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/moeadham/modal-qwen3-omni-demo/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-modal-realtime-speech-demo/original-evidence-fc0afe0786c9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/moeadham/modal-qwen3-omni-demo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-modal-realtime-speech-demo/artifact-1-cbd89a6b7677.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-omni-30b-a3b-instruct-multimodal-asr-pipeline",
+      "modelId": "qwen3-omni-30b-a3b-instruct",
+      "modelName": "Qwen3 Omni 30B A3B Instruct",
+      "title": "52 万视频切片语音转写流水线中的 Qwen3-Omni",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "e5118324ac20f01ba644cf41036299b1b476762b290cf564c68f028addc708ae",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-omni-30b-a3b-instruct-multimodal-asr-pipeline/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/caolihua01/qwen3-omni-deployment/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-multimodal-asr-pipeline/original-evidence-a59626d77ee8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/caolihua01/qwen3-omni-deployment",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-multimodal-asr-pipeline/artifact-1-c824c20cd43c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-omni-30b-a3b-instruct-multimodal-client",
+      "modelId": "qwen3-omni-30b-a3b-instruct",
+      "modelName": "Qwen3 Omni 30B A3B Instruct",
+      "title": "RunOmni：连接云端与本地 Qwen3-Omni 的多模态客户端",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "3af387982001094e2dfc4a51ecb7f19716b40b8735ffc97591d05e74ac369801",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-omni-30b-a3b-instruct-multimodal-client/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/xiaotianfotos/run-qwen3-omni/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-multimodal-client/original-evidence-4137887545e7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/xiaotianfotos/run-qwen3-omni",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-multimodal-client/artifact-1-c0d666193355.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-omni-30b-a3b-instruct-video-behavior-annotation",
+      "modelId": "qwen3-omni-30b-a3b-instruct",
+      "modelName": "Qwen3 Omni 30B A3B Instruct",
+      "title": "用 Qwen3-Omni 从多人视频生成行为标注与可运行仿真",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T19:49:30Z",
+      "priority": "high",
+      "evidenceFingerprint": "c9c8b6a950c00bdc1661172eea1c5fe9ef4736332890b9a413844718adcc6563",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-omni-30b-a3b-instruct-video-behavior-annotation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/kansusu/omni-analysis/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-video-behavior-annotation/original-evidence-9c4e6f06f887.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kansusu/omni-analysis",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-video-behavior-annotation/artifact-1-3627aa24111a.json"
         }
       ]
     },

@@ -1387,10 +1387,10 @@
       "id": "current-2026-10-24",
       "date": "2026-10-24",
       "label": "当前数据截点",
-      "aCaseCount": 976,
-      "targets": 1957,
+      "aCaseCount": 991,
+      "targets": 1987,
       "snapshottedCases": 594,
-      "pendingSnapshotCases": 381,
+      "pendingSnapshotCases": 396,
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"
