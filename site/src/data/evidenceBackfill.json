@@ -14237,7 +14237,7 @@
     "vendorId": "kimi",
     "vendor": "Kimi",
     "publishability": "Hold",
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -14290,7 +14290,7 @@
         "url": "https://www.google.com/search?q=Kimi%20K3.1%20Pro%20Kimi%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+    "upgradeGate": "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
   },
   {
     "modelId": "kimi-linear-48b-a3b-instruct",
@@ -18267,7 +18267,7 @@
     "vendorId": "nvidia",
     "vendor": "NVIDIA",
     "publishability": "Hold",
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -18320,7 +18320,7 @@
         "url": "https://www.google.com/search?q=Nemotron%203.5%20Bolt%20E4B%204GB%20NVIDIA%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+    "upgradeGate": "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
   },
   {
     "modelId": "nemotron-3-5-lightning",
@@ -20251,7 +20251,7 @@
     "vendorId": "perplexity",
     "vendor": "Perplexity",
     "publishability": "Hold",
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -20304,7 +20304,7 @@
         "url": "https://www.google.com/search?q=R1%201776%20Perplexity%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+    "upgradeGate": "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
   },
   {
     "modelId": "intellect-3",

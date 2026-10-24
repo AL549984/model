@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-24",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 959,
-    "manifestedCases": 959,
+    "aCaseCount": 965,
+    "manifestedCases": 965,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 364,
+    "pendingSnapshotCases": 370,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 146,
-    "targets": 1923
+    "targets": 1935
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -170,19 +170,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 364,
-      "targets": 730,
-      "highPriorityCases": 295,
+      "cases": 370,
+      "targets": 742,
+      "highPriorityCases": 300,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 252,
-          "targets": 452
+          "cases": 257,
+          "targets": 461
         },
         {
           "host": "huggingface.co",
-          "cases": 49,
-          "targets": 82
+          "cases": 50,
+          "targets": 84
         },
         {
           "host": "raw.githubusercontent.com",
@@ -19380,6 +19380,146 @@
       ]
     },
     {
+      "caseId": "kimi-k3-1-pro-agent-marsha-csc35-diorama-day",
+      "modelId": "kimi-k3-1-pro",
+      "modelName": "Kimi K3.1 Pro",
+      "title": "Agent Marsha 用 Kimi K3.1 Pro 一次生成可玩的 Sims 风格立体场景游戏",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T07:37:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "7a101e98b5ba5da3d73b766fa35c5ea7315ee5c6e31f814802b50ac7483da7b1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-1-pro-agent-marsha-csc35-diorama-day/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/agent-marsha/csc35-diorama-day",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-agent-marsha-csc35-diorama-day/original-evidence-51a3472c8390.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/agent-marsha/csc35-diorama-day/blob/main/index.html",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-agent-marsha-csc35-diorama-day/artifact-1-d5181aa0adbe.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-1-pro-avaterxxx-pelican-odyssey",
+      "modelId": "kimi-k3-1-pro",
+      "modelName": "Kimi K3.1 Pro",
+      "title": "AvaterXXX 用 Kimi K3.1 Pro 构建可试玩的鹈鹕公路 3D 互动电影",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T07:37:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "da15409ccc964c15627653824231b73087983fc70017a4549ec50227e1a84182",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-1-pro-avaterxxx-pelican-odyssey/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/AvaterXXX/pelican-ride-3d-kimi-k3.1-pro",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-avaterxxx-pelican-odyssey/original-evidence-16266bf3136a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://avaterxxx.github.io/pelican-ride-3d-kimi-k3.1-pro/",
+          "host": "avaterxxx.github.io",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-avaterxxx-pelican-odyssey/artifact-1-846b8ba2d9a8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-1-pro-jianshengchuanchaun-sentaurus-bridge-lite",
+      "modelId": "kimi-k3-1-pro",
+      "modelName": "Kimi K3.1 Pro",
+      "title": "Sentaurus Bridge Lite 为 Kimi Code K3.1 Pro 提供 TCAD 仿真 MCP 接入",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T07:37:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "5885ad2c3b282c9e4192c9526322be997345cce51302627622c0707828214ff1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-1-pro-jianshengchuanchaun-sentaurus-bridge-lite/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jianshengchuanchaun/sentaurus-bridge-lite",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-jianshengchuanchaun-sentaurus-bridge-lite/original-evidence-9872011bfec6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jianshengchuanchaun/sentaurus-bridge-lite",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-jianshengchuanchaun-sentaurus-bridge-lite/artifact-1-9872011bfec6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "kimi-k3-1-pro-napoleoncqf-claude2kimi",
+      "modelId": "kimi-k3-1-pro",
+      "modelName": "Kimi K3.1 Pro",
+      "title": "Napoleoncqf 用 Kimi K3.1 Pro 开发 Claude Code 到 Kimi Code 的派工工具",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T07:37:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "5388e459d0305bbd21cd88cfe3236ace415edb0b8ea952cc30a1a3bc0de91c68",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/kimi-k3-1-pro-napoleoncqf-claude2kimi/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Napoleoncqf/claude2kimi",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-napoleoncqf-claude2kimi/original-evidence-bc70d81c6818.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Napoleoncqf/claude2kimi",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/kimi-k3-1-pro-napoleoncqf-claude2kimi/artifact-1-bc70d81c6818.json"
+        }
+      ]
+    },
+    {
       "caseId": "kimi-k3-empire-atlas-thebuggeddev",
       "modelId": "kimi-k3",
       "modelName": "Kimi K3",
@@ -26240,6 +26380,41 @@
       ]
     },
     {
+      "caseId": "nemotron-3-5-bolt-e4b-4gb-nvidia-reachy-bolt-demo",
+      "modelId": "nemotron-3-5-bolt-e4b-4gb",
+      "modelName": "Nemotron 3.5 Bolt E4B 4GB",
+      "title": "NVIDIA Reachy Bolt robot assistant demonstration",
+      "sourcePlatform": "Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T07:37:08.601560Z",
+      "priority": "normal",
+      "evidenceFingerprint": "d20344f432bcfe72e9d34c7ff4724c0996c0ebc11a3791d560aa00cad6b97b1c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/nemotron-3-5-bolt-e4b-4gb-nvidia-reachy-bolt-demo/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/raw/main/README.md",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/nemotron-3-5-bolt-e4b-4gb-nvidia-reachy-bolt-demo/original-evidence-5229adbaa8ac.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/nemotron-3-5-bolt-e4b-4gb-nvidia-reachy-bolt-demo/artifact-1-be21ba74d256.json"
+        }
+      ]
+    },
+    {
       "caseId": "north-mini-code-mlx-serve-port-741",
       "modelId": "north-mini-code",
       "modelName": "North Mini Code",
@@ -30996,6 +31171,41 @@
           "url": "https://github.com/wassim249/YT-Navigator",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/qwq-32b-yt-navigator-youtube-search-chat-20260627/artifact-1-d2d9153a659b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "r1-1776-vibhasprasad21-streamlit-chatbot",
+      "modelId": "r1-1776",
+      "modelName": "R1 1776",
+      "title": "Vibha S. Prasad’s Smarvajña Streamlit chatbot runs r1-1776:70b through Ollama",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T07:37:01.773769Z",
+      "priority": "high",
+      "evidenceFingerprint": "82f0c76f20f0e51cc99517188fd1ad58d6c6a96e5a57a0f412059aa3cd17ec33",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/r1-1776-vibhasprasad21-streamlit-chatbot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Vibhasprasad21/chatbot/blob/main/chatbot.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/r1-1776-vibhasprasad21-streamlit-chatbot/original-evidence-4c27a3becc2e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Vibhasprasad21/chatbot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/r1-1776-vibhasprasad21-streamlit-chatbot/artifact-1-0674a45e84b0.json"
         }
       ]
     },

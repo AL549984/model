@@ -19048,7 +19048,7 @@
     "vendorId": "perplexity",
     "vendor": "Perplexity",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "R1 1776 独立模型卡",
     "summary": "Perplexity 的独立模型 release；AA Intelligence Index：6.049。",
@@ -19084,11 +19084,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -24085,7 +24085,7 @@
     "vendorId": "kimi",
     "vendor": "Kimi",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Kimi K3.1 Pro：1M 上下文与长程 Agent 推理",
     "summary": "Kimi K3.1 Pro 是 Kimi 于 2026-10-23 发布的推理模型，支持 1,048,576 tokens 上下文、视觉/视频输入、工具调用与持续思考。",
@@ -24126,11 +24126,11 @@
       "production web search without validation",
       "cases requiring reasoning off"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -24149,7 +24149,7 @@
     "vendorId": "nvidia",
     "vendor": "NVIDIA",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Nemotron 3.5 Bolt E4B 4GB：面向边缘设备的低内存量化模型",
     "summary": "NVIDIA 于 2026-10-23 发布的 8B（4B effective）Q4_K_M 模型，支持最高 64K 输入/输出、思考控制、工具调用和本地部署。",
@@ -24191,11 +24191,11 @@
       "assuming text-only model provides vision",
       "using NVIDIA self-tests as independent replication"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
