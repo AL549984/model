@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-24",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 965,
-    "manifestedCases": 965,
+    "aCaseCount": 976,
+    "manifestedCases": 976,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 370,
+    "pendingSnapshotCases": 381,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 146,
-    "targets": 1935
+    "targets": 1957
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -170,19 +170,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 370,
-      "targets": 742,
-      "highPriorityCases": 300,
+      "cases": 381,
+      "targets": 764,
+      "highPriorityCases": 311,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 257,
-          "targets": 461
+          "cases": 268,
+          "targets": 482
         },
         {
           "host": "huggingface.co",
-          "cases": 50,
-          "targets": 84
+          "cases": 51,
+          "targets": 85
         },
         {
           "host": "raw.githubusercontent.com",
@@ -30195,6 +30195,181 @@
       ]
     },
     {
+      "caseId": "qwen3-coder-next-github-dantnad-q3c-next-tetris",
+      "modelId": "qwen3-coder-next",
+      "modelName": "Qwen3 Coder Next",
+      "title": "dantnad 使用本地 Qwen3-Coder-Next 生成 Tetris 游戏",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:42:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "fd5c1ba350695249da0754e943e9333430f2b8659af52fc61c9139d0017460fa",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-coder-next-github-dantnad-q3c-next-tetris/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/dantnad/q3c-next-tetris",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-dantnad-q3c-next-tetris/original-evidence-9c4803cea7a3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/dantnad/q3c-next-tetris",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-dantnad-q3c-next-tetris/artifact-1-9c4803cea7a3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-coder-next-github-iimacgyver-website-refactor",
+      "modelId": "qwen3-coder-next",
+      "modelName": "Qwen3 Coder Next",
+      "title": "IIMacGyverII 使用 Qwen3-Coder-Next 重制并重构网站",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:42:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "dfce8e95ee05744b4ee556669d4b07e682f768e9c66e19c28f7a62f692ec835e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-coder-next-github-iimacgyver-website-refactor/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/IIMacGyverII/testofqwen3coder",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-iimacgyver-website-refactor/original-evidence-9362232a4dc5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/IIMacGyverII/testofqwen3coder",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-iimacgyver-website-refactor/artifact-1-9362232a4dc5.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-coder-next-github-mechtype-twitch-bot",
+      "modelId": "qwen3-coder-next",
+      "modelName": "Qwen3 Coder Next",
+      "title": "Mechtype 使用本地 Qwen3-Coder-Next 开发 Twitch 聊天机器人",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:42:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "fe942df07b35785fbd9563571ab80fcdef6e8e4b06bde5bf934b04240e8ca2a9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-coder-next-github-mechtype-twitch-bot/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Mechtype-bot/mechtype",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-mechtype-twitch-bot/original-evidence-fb035dd6b673.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Mechtype-bot/mechtype",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-mechtype-twitch-bot/artifact-1-fb035dd6b673.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-coder-next-github-raboo-cyberbird",
+      "modelId": "qwen3-coder-next",
+      "modelName": "Qwen3 Coder Next",
+      "title": "Raboo 使用 Qwen3-Coder-Next 生成 Cyber Bird 浏览器游戏",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:42:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "350abf48733a8501117ba760995bdb72d5c4d91c0a9de08303e8423af2483544",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-coder-next-github-raboo-cyberbird/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Raboo/cyberbird",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-raboo-cyberbird/original-evidence-87802684a1e9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Raboo/cyberbird",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-raboo-cyberbird/artifact-1-87802684a1e9.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-coder-next-github-tremaker-game-snake",
+      "modelId": "qwen3-coder-next",
+      "modelName": "Qwen3 Coder Next",
+      "title": "tReMaker 使用 Qwen3-Coder-Next 从零生成可运行 Snake 游戏",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:42:53Z",
+      "priority": "high",
+      "evidenceFingerprint": "4d37434685908e5ac3d17489a1f1f4b4929061ec1ccb13ac571c5b544b2672bb",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-coder-next-github-tremaker-game-snake/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/tReMaker/game-snake",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-tremaker-game-snake/original-evidence-a6d6ed2d29dd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/tReMaker/game-snake",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-coder-next-github-tremaker-game-snake/artifact-1-a6d6ed2d29dd.json"
+        }
+      ]
+    },
+    {
       "caseId": "qwen3-max-ai-okx-alpha-arena-20260627",
       "modelId": "qwen3-max",
       "modelName": "Qwen3 Max",
@@ -30996,6 +31171,216 @@
           "url": "https://www.bilibili.com/video/BV1UAnVznEA5/",
           "host": "bilibili.com",
           "recommendedSnapshotPath": "archive/evidence/qwen3-max-tunnello-chatbi-natural-language-sql/artifact-1-d84b17899634.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-next-80b-a3b-instruct-bitforge-ternary-quantization",
+      "modelId": "qwen3-next-80b-a3b-instruct",
+      "modelName": "Qwen3 Next 80B A3B Instruct",
+      "title": "Bitforge 在单张 8 GB GPU 上完成 Qwen3-Next MoE 三值量化",
+      "sourcePlatform": "GitHub + Hugging Face",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:43:31.598325Z",
+      "priority": "high",
+      "evidenceFingerprint": "9a59139d25799efae458a46bbe51d472aa172814a40a7711e46a73583b4beaa9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-next-80b-a3b-instruct-bitforge-ternary-quantization/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jashakai/bitforge",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-bitforge-ternary-quantization/original-evidence-fa9f1149bfa8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/Schackay3/Qwen3-Next-80B-A3B-Instruct-ternary-GGUF",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-bitforge-ternary-quantization/artifact-1-a11be0866ede.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-next-80b-a3b-instruct-dwarfstar-red-lite",
+      "modelId": "qwen3-next-80b-a3b-instruct",
+      "modelName": "Qwen3 Next 80B A3B Instruct",
+      "title": "DwarfStar Red Lite 在 24 GiB MacBook Pro 上提供 Qwen3-Next 本地 API",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:43:31.598325Z",
+      "priority": "high",
+      "evidenceFingerprint": "4aa5931305adb49ec1ae0caf8bd72571793cde061667884fd82d317f2b4ca822",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-next-80b-a3b-instruct-dwarfstar-red-lite/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/alfofire2/dwarfstar-red-lite",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-dwarfstar-red-lite/original-evidence-ad5374565fcd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/alfofire2/dwarfstar-red-lite",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-dwarfstar-red-lite/artifact-1-ad5374565fcd.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-next-80b-a3b-instruct-janas-laptop",
+      "modelId": "qwen3-next-80b-a3b-instruct",
+      "modelName": "Qwen3 Next 80B A3B Instruct",
+      "title": "Janas-LLM 在 32 GB Intel 笔记本上运行 48 GB 的 Qwen3-Next",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:43:31.598325Z",
+      "priority": "high",
+      "evidenceFingerprint": "02d19060085148826cfe1d70d9f647e2378980775cb52b53b5ffc5e4cc0448ce",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-next-80b-a3b-instruct-janas-laptop/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/prabanta-dev/janas",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-janas-laptop/original-evidence-a6f0cc316480.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/prabanta-dev/janas",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-janas-laptop/artifact-1-a6f0cc316480.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-next-80b-a3b-instruct-kagaho-jetson-vllm",
+      "modelId": "qwen3-next-80b-a3b-instruct",
+      "modelName": "Qwen3 Next 80B A3B Instruct",
+      "title": "在 Jetson Thor 上构建可运行 Qwen3-Next 的 vLLM 容器",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:43:31.598325Z",
+      "priority": "high",
+      "evidenceFingerprint": "78084814f4ee741095cef91bd9aa50c5535e1fff6d624459c94d1449e10b9518",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-next-80b-a3b-instruct-kagaho-jetson-vllm/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/kagaho/Build-Jetson-Container-VLLM-0.10.2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-kagaho-jetson-vllm/original-evidence-de7201a0a254.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kagaho/Build-Jetson-Container-VLLM-0.10.2",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-kagaho-jetson-vllm/artifact-1-de7201a0a254.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-next-80b-a3b-instruct-praxinfer-apple-silicon",
+      "modelId": "qwen3-next-80b-a3b-instruct",
+      "modelName": "Qwen3 Next 80B A3B Instruct",
+      "title": "PraxInfer 在 Apple Silicon 上用 SSD 流式运行 Qwen3-Next 80B",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:43:31.598325Z",
+      "priority": "high",
+      "evidenceFingerprint": "6fba57d09341efed2337e8c7a7bafe6b22439df67f9fc241733a445a407a9ce1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-next-80b-a3b-instruct-praxinfer-apple-silicon/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/InkMind-AI/PraxInfer",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-praxinfer-apple-silicon/original-evidence-1c9cb8e132d8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/InkMind-AI/PraxInfer",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-praxinfer-apple-silicon/artifact-1-1c9cb8e132d8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-next-80b-a3b-instruct-uraroga-two-pc-cpu",
+      "modelId": "qwen3-next-80b-a3b-instruct",
+      "modelName": "Qwen3 Next 80B A3B Instruct",
+      "title": "两台无 GPU 旧电脑通过 llama.cpp RPC 分布式运行 Qwen3-Next",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-24T13:43:31.598325Z",
+      "priority": "high",
+      "evidenceFingerprint": "93f7d90e5b1d59a070e5826d660b70f7b31ba10dff2389dd84b1cadd3a99a871",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-next-80b-a3b-instruct-uraroga-two-pc-cpu/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Uraroga/qwen3-next-80b-docker",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-uraroga-two-pc-cpu/original-evidence-b8eb8f935d4c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Uraroga/qwen3-next-80b-docker",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-next-80b-a3b-instruct-uraroga-two-pc-cpu/artifact-1-b8eb8f935d4c.json"
         }
       ]
     },
