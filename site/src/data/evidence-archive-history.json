@@ -1399,10 +1399,10 @@
       "id": "current-2026-10-25",
       "date": "2026-10-25",
       "label": "当前数据截点",
-      "aCaseCount": 1009,
-      "targets": 2023,
+      "aCaseCount": 1016,
+      "targets": 2037,
       "snapshottedCases": 594,
-      "pendingSnapshotCases": 414,
+      "pendingSnapshotCases": 421,
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"

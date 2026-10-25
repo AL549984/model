@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-25",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1009,
-    "manifestedCases": 1009,
+    "aCaseCount": 1016,
+    "manifestedCases": 1016,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 414,
+    "pendingSnapshotCases": 421,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 147,
-    "targets": 2023
+    "targets": 2037
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -171,19 +171,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 414,
-      "targets": 830,
-      "highPriorityCases": 344,
+      "cases": 421,
+      "targets": 844,
+      "highPriorityCases": 351,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 301,
-          "targets": 536
+          "cases": 308,
+          "targets": 549
         },
         {
           "host": "huggingface.co",
-          "cases": 52,
-          "targets": 86
+          "cases": 53,
+          "targets": 87
         },
         {
           "host": "raw.githubusercontent.com",
@@ -30577,6 +30577,251 @@
           "url": "https://github.com/chixi4/Qwen3.5-9B-ToolHub",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/qwen3-5-9b-toolhub-chixi4/artifact-1-17f08710d0dc.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-27b-devnen-windows-coding",
+      "modelId": "qwen3-6-27b",
+      "modelName": "Qwen3.6 27B",
+      "title": "devnen 在 Windows 上将 Qwen3.6-27B 接入本地编码代理",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:01:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "c334f75193728a00e6326c667cfb619b23d214bbd82efce0f1eee7c3c6d4610d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-27b-devnen-windows-coding/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/devnen/qwen3.6-windows-server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-27b-devnen-windows-coding/original-evidence-31857758f8a8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/devnen/qwen3.6-windows-server/releases",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-27b-devnen-windows-coding/artifact-1-6cad7f416de3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-27b-jlens",
+      "modelId": "qwen3-6-27b",
+      "modelName": "Qwen3.6 27B",
+      "title": "WeZZard 用 Qwen3.6-27B 构建 J-lens 可解释性调试器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:01:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "9a045f12182930264e698cbfbe08d53c222b7244e9bd1bbc4351cb78245b91c3",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-27b-jlens/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/WeZZard/jlens-qwen36",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-27b-jlens/original-evidence-ae5352df5235.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/WeZZard/jlens-qwen36/releases",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-27b-jlens/artifact-1-9dbe7a5fcf44.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-27b-local-deep-research",
+      "modelId": "qwen3-6-27b",
+      "modelName": "Qwen3.6 27B",
+      "title": "LearningCircuit 用 Qwen3.6-27B 构建本地深度研究助手",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:01:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "59ccc9d734141a08e52874b2adc865400478f558808cf0bb55190c22e7b9b7f6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-27b-local-deep-research/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/LearningCircuit/local-deep-research",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-27b-local-deep-research/original-evidence-01c580dcfe10.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/LearningCircuit/local-deep-research",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-27b-local-deep-research/artifact-1-01c580dcfe10.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-35b-a3b-deepanwadhwa-samosa-chat",
+      "modelId": "qwen3-6-35b-a3b",
+      "modelName": "Qwen3.6 35B A3B",
+      "title": "Samosa Chat integrated Qwen3.6-35B-A3B as its local private chat model",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:00:57Z",
+      "priority": "high",
+      "evidenceFingerprint": "816998ab00bf4a544c88398755e0666943edd7c93abca170c8fe5d7d01b0a749",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-35b-a3b-deepanwadhwa-samosa-chat/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/deepanwadhwa/samosa-chat",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-deepanwadhwa-samosa-chat/original-evidence-028c94900a60.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/deepanwadhwa/samosa-chat",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-deepanwadhwa-samosa-chat/artifact-1-028c94900a60.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-35b-a3b-hanxiao-knowledge-graph-extractor",
+      "modelId": "qwen3-6-35b-a3b",
+      "modelName": "Qwen3.6 35B A3B",
+      "title": "Han Xiao built a self-hosted knowledge-graph extractor with Qwen3.6-35B-A3B-MTP",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:00:57Z",
+      "priority": "high",
+      "evidenceFingerprint": "ffe218631c31cf675e3b463a083492094b8ea197901c4f7e6e49f4e4caed9e22",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-35b-a3b-hanxiao-knowledge-graph-extractor/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/hanxiao/knowledge-graph-extractor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-hanxiao-knowledge-graph-extractor/original-evidence-b354dd89c470.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/hanxiao/knowledge-graph-extractor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-hanxiao-knowledge-graph-extractor/artifact-1-b354dd89c470.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-35b-a3b-ninnix-q36",
+      "modelId": "qwen3-6-35b-a3b",
+      "modelName": "Qwen3.6 35B A3B",
+      "title": "Ninnix created QuarkStar, a model-specific native inference engine for Qwen3.6-35B-A3B",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:00:57Z",
+      "priority": "high",
+      "evidenceFingerprint": "3ca62e3d7a4bc898d4e6c95e428a4ddfac71ffe7c35e9575949ae8443de5148c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-35b-a3b-ninnix-q36/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Ninnix/q36",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-ninnix-q36/original-evidence-a2afddb6d5ec.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Ninnix/q36",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-ninnix-q36/artifact-1-a2afddb6d5ec.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-6-35b-a3b-robtand-prismaquant",
+      "modelId": "qwen3-6-35b-a3b",
+      "modelName": "Qwen3.6 35B A3B",
+      "title": "RobTand used Qwen3.6-35B-A3B as the target for a production-faithful mixed-precision quantization artifact",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T08:00:57Z",
+      "priority": "high",
+      "evidenceFingerprint": "13a2f72df784d5c23528b1d68350a280fe8eeee4de4f05cc2f0bc7126fc11bf4",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-6-35b-a3b-robtand-prismaquant/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/RobTand/prismaquant",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-robtand-prismaquant/original-evidence-7f054856c78a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-6-35b-a3b-robtand-prismaquant/artifact-1-a4e83555ee0a.json"
         }
       ]
     },
