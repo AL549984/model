@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-25T08:52:56.492Z",
+  "generatedAt": "2026-10-25T15:00:26.666Z",
   "summary": {
     "models": 395,
-    "activeModels": 152,
+    "activeModels": 154,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 152,
-    "fullCoverageReady": 152,
+    "publicReady": 154,
+    "fullCoverageReady": 154,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 588,
-    "allModelTargetDeficit": 1060,
-    "queuedModels": 239,
-    "crawlTargetDeficit": 1040
+    "allModelMinDeficit": 576,
+    "allModelTargetDeficit": 1044,
+    "queuedModels": 237,
+    "crawlTargetDeficit": 1024
   },
   "tasks": [
     {
@@ -21832,17 +21832,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://www.qwencloud.com/models/qwen3.8-max-0902",
@@ -22117,17 +22117,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 3,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 2,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 24,
+        "maxCandidatesPerRun": 36
       },
       "officialSources": [
         "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
@@ -46589,20 +46589,20 @@
       "modelName": "Qwen3.7 Plus",
       "vendorId": "qwen-alibaba",
       "vendor": "Qwen",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/EittwkblsivGvJkeHgSc68gMnNg",
@@ -52794,20 +52794,20 @@
       "modelName": "Qwen3.8 Max (0902)",
       "vendorId": "qwen-alibaba",
       "vendor": "Qwen",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://www.qwencloud.com/models/qwen3.8-max-0902",
