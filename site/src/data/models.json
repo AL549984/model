@@ -9799,7 +9799,7 @@
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.8 Max 的 2026-09-02 后训练快照。",
     "summary": "Qwen3.8 Max 是 Alibaba / Qwen 面向长周期自主执行、编程、办公与专业知识工作的闭源 MoE 旗舰模型，官方强调它可在规划、执行和验证之间形成闭环，并原生处理视觉信息。",
@@ -9838,11 +9838,11 @@
       "需要开放权重",
       "对延迟极敏感的简单任务"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -9932,7 +9932,7 @@
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "2.4T 总参数、95B 激活的 Qwen Max 级开放权重 MoE，面向代码、专业工作与长时程 Agent。",
     "summary": "Qwen3.8-2.4T-A95B 是纯文本、强制思考的开放权重 MoE 模型，原生 262,144 tokens 上下文并可扩展至 1,010,000；百炼托管 API 提供 1M 上下文和 131,072 tokens 最大输出。",
@@ -9979,11 +9979,11 @@
       "无人工兜底的高风险医疗、法律或金融决策",
       "未做沙箱和最小权限隔离的高权限工具调用"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 8,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -20278,8 +20278,8 @@
     "slug": "qwen3-7-plus",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.7 Plus：独立模型版本",
     "summary": "Qwen3.7 Plus 的独立版本身份由当前 AA release 与已有 Wiki 模型卡对应。技术规格及实际应用证据仍需按官方资料复核。",
@@ -20315,11 +20315,11 @@
       "未复核规格直接采购",
       "无人工审核的高风险自动化"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22814,8 +22814,8 @@
     "slug": "qwen3-8-max-0902",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "编程、协作与视觉理解升级快照",
     "summary": "qwen3.8-max-0902 又名 qwen3.8-max-2026-09-02；不将整个家族的权重许可或参数自动继承给此快照。",
@@ -22850,11 +22850,11 @@
     "avoid": [
       "依据未核验数字进行选型"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [

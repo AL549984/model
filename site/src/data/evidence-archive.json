@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-25",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1016,
-    "manifestedCases": 1016,
+    "aCaseCount": 1032,
+    "manifestedCases": 1032,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 421,
+    "pendingSnapshotCases": 437,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 147,
-    "targets": 2037
+    "targets": 2069
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -171,24 +171,24 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 421,
-      "targets": 844,
-      "highPriorityCases": 351,
+      "cases": 437,
+      "targets": 876,
+      "highPriorityCases": 367,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 308,
-          "targets": 549
+          "cases": 323,
+          "targets": 571
         },
         {
           "host": "huggingface.co",
-          "cases": 53,
-          "targets": 87
+          "cases": 54,
+          "targets": 88
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 35,
-          "targets": 35
+          "cases": 43,
+          "targets": 43
         },
         {
           "host": "bilibili.com",
@@ -31421,6 +31421,461 @@
       ]
     },
     {
+      "caseId": "qwen3-7-plus-bianzigege-qianchuan-material-breakdown",
+      "modelId": "qwen3-7-plus",
+      "modelName": "Qwen3.7 Plus",
+      "title": "千川短视频素材结构拆解与商家报告",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:06:54Z",
+      "priority": "high",
+      "evidenceFingerprint": "67c7b7df852d683ba048e722aa4646fe83817373126d20af9efa17ed33ff0ead",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-7-plus-bianzigege-qianchuan-material-breakdown/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/bianzigege/qianchuan-material-breakdown-skill-bailian/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-bianzigege-qianchuan-material-breakdown/original-evidence-2ad7d94a5649.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bianzigege/qianchuan-material-breakdown-skill-bailian",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-bianzigege-qianchuan-material-breakdown/artifact-1-5234bbf99ecb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-7-plus-donma-omniscient-websites",
+      "modelId": "qwen3-7-plus",
+      "modelName": "Qwen3.7 Plus",
+      "title": "24 套多行业完整网站样板生成",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:06:54Z",
+      "priority": "high",
+      "evidenceFingerprint": "0d9fba1f76f607927737e528ca1db6919d4ca8e9331e7f99cdbce3731087921a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-7-plus-donma-omniscient-websites/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/donma/Omniscient-Qwen3.7-Plus/master/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-donma-omniscient-websites/original-evidence-87f4afd4d6ff.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/donma/Omniscient-Qwen3.7-Plus",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-donma-omniscient-websites/artifact-1-91ee35686e70.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-7-plus-farah-aleya-aura-scanner",
+      "modelId": "qwen3-7-plus",
+      "modelName": "Qwen3.7 Plus",
+      "title": "摄像头实时 Aura 扫描器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:06:54Z",
+      "priority": "high",
+      "evidenceFingerprint": "9fe603d5c9a150695d0c2409c22cbe317b27367f45a520f9f35163f7cb882d65",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-7-plus-farah-aleya-aura-scanner/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/farah-aleya/aura-scanner/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-farah-aleya-aura-scanner/original-evidence-3162a38bb8db.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/farah-aleya/aura-scanner",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-farah-aleya-aura-scanner/artifact-1-0ce603abeef3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-7-plus-tenaciousma-vision-inbox",
+      "modelId": "qwen3-7-plus",
+      "modelName": "Qwen3.7 Plus",
+      "title": "Codex/Claude Code 图片收件箱识图技能",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:06:54Z",
+      "priority": "high",
+      "evidenceFingerprint": "55754b6a15c36ad6d882c3a62d6ce90228efb1c5944a7f9da36c10d82e28c872",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-7-plus-tenaciousma-vision-inbox/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/tenaciousMa/vision-inbox-skill/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-tenaciousma-vision-inbox/original-evidence-4a138f4d9d0e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/tenaciousMa/vision-inbox-skill",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-tenaciousma-vision-inbox/artifact-1-9be29a2aa466.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-7-plus-wangyikun123-image-vision",
+      "modelId": "qwen3-7-plus",
+      "modelName": "Qwen3.7 Plus",
+      "title": "Claude Code 旁路图片识别 Skill",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:06:54Z",
+      "priority": "high",
+      "evidenceFingerprint": "babb644ba7e348c0b42e18809244af38e62db368888ce19384287c02b2ccd9d4",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-7-plus-wangyikun123-image-vision/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/wangyikun123/image-vision/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-wangyikun123-image-vision/original-evidence-834f3e6d7cab.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/wangyikun123/image-vision",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-7-plus-wangyikun123-image-vision/artifact-1-cfa04bfc4525.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-0902-github-developerchengang-codex-vision",
+      "modelId": "qwen3-8-max-0902",
+      "modelName": "Qwen3.8 Max (0902)",
+      "title": "Codex 看图助手：为纯文本模型提供本地图片分析",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:08:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "497e42e24cf7afffbe0de8e93d9d2d05ddbf64a9f826e64c478159a9fa780f85",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-0902-github-developerchengang-codex-vision/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/developerchengang/codex-analyze-images/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-developerchengang-codex-vision/original-evidence-cbc040754044.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/developerchengang/codex-analyze-images",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-developerchengang-codex-vision/artifact-1-155011dfef92.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-0902-github-lxl0928-rag-agent",
+      "modelId": "qwen3-8-max-0902",
+      "modelName": "Qwen3.8 Max (0902)",
+      "title": "Go语言圣经中文 Agentic-RAG 问答系统",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:08:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "c03036d435a9548758feef7e6e0d280f044ee34d2f48ce519cefdfa44388cc60",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-0902-github-lxl0928-rag-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/lxl0928/RAGAgentDemo/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-lxl0928-rag-agent/original-evidence-b3b4c89ef173.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/lxl0928/RAGAgentDemo",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-lxl0928-rag-agent/artifact-1-b2b6348314a2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-0902-github-s05dh11-contract-reader",
+      "modelId": "qwen3-8-max-0902",
+      "modelName": "Qwen3.8 Max (0902)",
+      "title": "Qwen3.8-Max AI 法律合同解读器",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:08:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "ddbf3663d3fe642de39d01e94e17ea113bb4d2dee1a4d63d41e45c29485921bb",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-0902-github-s05dh11-contract-reader/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/S05dh11/qwen-contract-reader/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-s05dh11-contract-reader/original-evidence-18538c1bb68b.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/S05dh11/qwen-contract-reader",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-s05dh11-contract-reader/artifact-1-f08e1151b3ae.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-0902-github-shunhuizhang-coding-tutor",
+      "modelId": "qwen3-8-max-0902",
+      "modelName": "Qwen3.8 Max (0902)",
+      "title": "面向 Python 自学者的编程答疑 Agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:08:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "5ba0948a442097d41289718b6a108c667c33ec89058abc919d1bf98be7db683e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-0902-github-shunhuizhang-coding-tutor/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/shunhuizhang/coding-tutor-agent/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-shunhuizhang-coding-tutor/original-evidence-44d4c84bb5ae.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/shunhuizhang/coding-tutor-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-shunhuizhang-coding-tutor/artifact-1-1501801c66ab.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-0902-github-xsc31966931-contract-review",
+      "modelId": "qwen3-8-max-0902",
+      "modelName": "Qwen3.8 Max (0902)",
+      "title": "采购合同风险审查工具",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:08:39Z",
+      "priority": "high",
+      "evidenceFingerprint": "075a58dba42a995b1fd1bbb1a8267dd263c52dcdce8ac7ae6cd8b34b39e6e303",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-0902-github-xsc31966931-contract-review/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/xsc31966931/ContractReview/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-xsc31966931-contract-review/original-evidence-f381b06108b5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/xsc31966931/ContractReview",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-0902-github-xsc31966931-contract-review/artifact-1-97900045be32.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-ferrumox-rabbit-local-inference",
+      "modelId": "qwen3-8-max",
+      "modelName": "Qwen3.8 Max",
+      "title": "ferrumox/rabbit 在消费级内存机器上运行 Qwen3.8-Max",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:07:36Z",
+      "priority": "high",
+      "evidenceFingerprint": "92dcfc77e3929d7128b36337ee735bc043181bf571e649d6ca447791f31c3ef9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-ferrumox-rabbit-local-inference/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/ferrumox/rabbit/main/PERFORMANCE_QWEN38.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-ferrumox-rabbit-local-inference/original-evidence-9746890dc425.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ferrumox/rabbit",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-ferrumox-rabbit-local-inference/artifact-1-2f3b03f040d4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-godde3s-qwen-free-api",
+      "modelId": "qwen3-8-max",
+      "modelName": "Qwen3.8 Max",
+      "title": "Godde3s 构建 Qwen3.8-Max 的 OpenAI/Anthropic 兼容 API 桥",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:07:36Z",
+      "priority": "high",
+      "evidenceFingerprint": "fffd33a68e58582e3c87722f6d7f026c198d40eec48cd22d7f3a79e503b09468",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-godde3s-qwen-free-api/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/Godde3s/qwen-free-api/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-godde3s-qwen-free-api/original-evidence-9ba4c2d6ca8d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Godde3s/qwen-free-api",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-godde3s-qwen-free-api/artifact-1-97c4a9fc5fd4.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen3-8-max-miaai-lab-html-visual-studies",
+      "modelId": "qwen3-8-max",
+      "modelName": "Qwen3.8 Max",
+      "title": "MiaAI-Lab 用 Qwen3.8-Max 生成并发布 100 个可运行 HTML 视觉作品",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T14:07:36Z",
+      "priority": "high",
+      "evidenceFingerprint": "682dd757b717a8fbc36614e527b3c5817b683489435e641b4267a62eb67639c2",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen3-8-max-miaai-lab-html-visual-studies/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/MiaAI-Lab/Qwen3.8-Max-100-HTML-Files/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-miaai-lab-html-visual-studies/original-evidence-1876aad04297.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://miaai-lab.github.io/Qwen3.8-Max-100-HTML-Files/",
+          "host": "miaai-lab.github.io",
+          "recommendedSnapshotPath": "archive/evidence/qwen3-8-max-miaai-lab-html-visual-studies/artifact-1-6c1793297dcc.json"
+        }
+      ]
+    },
+    {
       "caseId": "qwen3-coder-next-github-dantnad-q3c-next-tetris",
       "modelId": "qwen3-coder-next",
       "modelName": "Qwen3 Coder Next",
@@ -32782,6 +33237,111 @@
           "url": "https://github.com/kansusu/omni-analysis",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/qwen3-omni-30b-a3b-instruct-video-behavior-annotation/artifact-1-3627aa24111a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen38-a-case-pipenetwork-mlx",
+      "modelId": "qwen3-8-2-4t-a95b",
+      "modelName": "Qwen3.8-2.4T-A95B",
+      "title": "MLX port, streamed quantization and REAP expert pruning for Qwen3.8",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T22:05:33+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "66ce462956ea496ae565887b7d2ba7ec01750e405bd0736dbd07ef4100767637",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen38-a-case-pipenetwork-mlx/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/PipeNetwork/qwen38-mlx",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen38-a-case-pipenetwork-mlx/original-evidence-7d918803dc9d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/qwen38-a-case-pipenetwork-mlx/artifact-1-421078a54e09.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen38-a-case-test-cabinet-carom",
+      "modelId": "qwen3-8-2-4t-a95b",
+      "modelName": "Qwen3.8-2.4T-A95B",
+      "title": "Carom browser game generated and verified as a complete implementation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T22:05:33+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "babc57b5686833c21d4398fd96f2ef6e939fdb2ff3ce7fa01900ef8b2d145b52",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen38-a-case-test-cabinet-carom/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/TheClockwyrks/tcab-pong-opencode-openrouter-qwen-qwen3-8-2-4t-a95b-80061359/commit/4b77736766abfa56b128076f361fb1d4e1a27dcd",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen38-a-case-test-cabinet-carom/original-evidence-f66c91dc95e1.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/TheClockwyrks/tcab-pong-opencode-openrouter-qwen-qwen3-8-2-4t-a95b-80061359",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen38-a-case-test-cabinet-carom/artifact-1-a36e922c029e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "qwen38-a-case-weschera-pagoda",
+      "modelId": "qwen3-8-2-4t-a95b",
+      "modelName": "Qwen3.8-2.4T-A95B",
+      "title": "Qualified long-form pagoda generation served across four DGX Sparks",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-25T22:05:33+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "465a598efa9402c23df95e54d001a60d342386492080d2131ef715af3d60666b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/qwen38-a-case-weschera-pagoda/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Weschera/Qwen3.8-2.4T-A95B-UD-Q1_0-4x-DGX-Spark",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen38-a-case-weschera-pagoda/original-evidence-3ebb0d48bbc6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/Weschera/Qwen3.8-2.4T-A95B-UD-Q1_0-4x-DGX-Spark/blob/main/artifacts/pagoda-validated.html",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/qwen38-a-case-weschera-pagoda/artifact-1-5ded9d3d68f1.json"
         }
       ]
     },
