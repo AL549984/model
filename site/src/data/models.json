@@ -9862,7 +9862,7 @@
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "27B Dense 原生视觉语言模型，面向代码、专业办公与长时程 Agent。",
     "summary": "Qwen3.8-27B 是 Apache-2.0 开放权重模型，具备文本、图像和视频输入，原生 262K 上下文并可通过 YaRN 扩展到 1M；默认思考并支持 reasoning_effort 控制。",
@@ -9909,11 +9909,11 @@
       "未做沙箱和权限隔离的高权限工具调用",
       "把 1M 扩展上下文误写为开放权重原生上下文"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 5,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -10662,8 +10662,8 @@
     "slug": "qwen3-8-flash-next",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.8-Flash-Next 独立模型卡",
     "summary": "Qwen 的独立模型 release；AA Intelligence Index：55.814。",
@@ -10699,11 +10699,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23852,7 +23852,7 @@
     "vendorId": "reflection",
     "vendor": "Reflection",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Reflection 的 501B 稀疏 MoE 开放权重模型",
     "summary": "Beam 1.0 面向高效推理、代码、工具调用和长上下文 Agent 任务，官方 Model Card 披露 501.3B 总参数、23.4B 激活参数和 1M 上下文。",
@@ -23888,11 +23888,11 @@
     "avoid": [
       "不要把厂商自测分数当作独立复测；中文、多语言、实际生产吞吐仍需单独验证"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
