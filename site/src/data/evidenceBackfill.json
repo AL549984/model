@@ -6809,6 +6809,192 @@
     "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
   },
   {
+    "modelId": "qwen3-5-2b",
+    "slug": "qwen3-5-2b",
+    "modelName": "Qwen3.5 2B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 7,
+    "score": null,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.5 2B Qwen case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.5 2B Qwen 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "qwen3-5-4b",
+    "slug": "qwen3-5-4b",
+    "modelName": "Qwen3.5 4B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 7,
+    "score": null,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.5 4B Qwen case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.5 4B Qwen 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
+    "modelId": "qwen3-5-9b",
+    "slug": "qwen3-5-9b",
+    "modelName": "Qwen3.5 9B",
+    "vendorId": "qwen-alibaba",
+    "vendor": "Qwen",
+    "publishability": "Publishable",
+    "aCaseCount": 5,
+    "minACases": 3,
+    "targetACases": 5,
+    "minDeficit": 0,
+    "targetDeficit": 0,
+    "sourceCount": 7,
+    "score": null,
+    "priority": "P2",
+    "status": "target_met_snapshot_refresh",
+    "blocker": "已达到 5 条目标线，下一步是补快照和 URL 健康检查。",
+    "requiredEvidence": [
+      "先确认模型名、发布日期、可用平台和是否为真实公开模型。",
+      "A/B 证据必须保存快照，不能只保留 live URL。"
+    ],
+    "targetSources": [
+      "Qwen official blog / docs",
+      "ModelScope or GitHub model page",
+      "developer project demos with source"
+    ],
+    "searchQueries": [
+      {
+        "query": "Qwen3.5 9B Qwen case study customer",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20case%20study%20customer"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen built with GitHub demo",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20built%20with%20GitHub%20demo"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen production use product blog",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20production%20use%20product%20blog"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen model card docs API pricing context window",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen 真实使用 案例 项目 开源",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen GitHub README built with",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20GitHub%20README%20built%20with"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen B站 使用 案例 demo",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
+      },
+      {
+        "query": "Qwen3.5 9B Qwen 微信公众号 使用 案例 产品",
+        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
+      }
+    ],
+    "upgradeGate": "达到公开达标线；继续补到 5 条并补 evidence_snapshot_url、artifact 快照和关键字段复核。"
+  },
+  {
     "modelId": "qwen-chat-14b",
     "slug": "qwen-chat-14b",
     "modelName": "Qwen Chat 14B",
@@ -20800,75 +20986,13 @@
     "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
   },
   {
-    "modelId": "qwen3-5-2b",
-    "slug": "qwen3-5-2b",
-    "modelName": "Qwen3.5 2B",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen",
-    "publishability": "Hold",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 0,
-    "targetDeficit": 0,
-    "sourceCount": 7,
-    "score": null,
-    "priority": "P3",
-    "status": "archive_review",
-    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
-    "requiredEvidence": [
-      "当前不进入活跃模型目标线，暂停自动补案例。",
-      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
-    ],
-    "targetSources": [
-      "Qwen official blog / docs",
-      "ModelScope or GitHub model page",
-      "developer project demos with source"
-    ],
-    "searchQueries": [
-      {
-        "query": "Qwen3.5 2B Qwen case study customer",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20case%20study%20customer"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen built with GitHub demo",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen production use product blog",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen GitHub README built with",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Qwen3.5 2B Qwen 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Qwen3.5%202B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
-  },
-  {
     "modelId": "qwen3-5-35b-a3b",
     "slug": "qwen3-5-35b-a3b",
     "modelName": "Qwen3.5 35B A3B",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
     "publishability": "Hold",
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "minACases": 3,
     "targetACases": 5,
     "minDeficit": 0,
@@ -20921,131 +21045,7 @@
         "url": "https://www.google.com/search?q=Qwen3.5%2035B%20A3B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
       }
     ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
-  },
-  {
-    "modelId": "qwen3-5-4b",
-    "slug": "qwen3-5-4b",
-    "modelName": "Qwen3.5 4B",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen",
-    "publishability": "Hold",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 0,
-    "targetDeficit": 0,
-    "sourceCount": 7,
-    "score": null,
-    "priority": "P3",
-    "status": "archive_review",
-    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
-    "requiredEvidence": [
-      "当前不进入活跃模型目标线，暂停自动补案例。",
-      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
-    ],
-    "targetSources": [
-      "Qwen official blog / docs",
-      "ModelScope or GitHub model page",
-      "developer project demos with source"
-    ],
-    "searchQueries": [
-      {
-        "query": "Qwen3.5 4B Qwen case study customer",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20case%20study%20customer"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen built with GitHub demo",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen production use product blog",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen GitHub README built with",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Qwen3.5 4B Qwen 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Qwen3.5%204B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
-  },
-  {
-    "modelId": "qwen3-5-9b",
-    "slug": "qwen3-5-9b",
-    "modelName": "Qwen3.5 9B",
-    "vendorId": "qwen-alibaba",
-    "vendor": "Qwen",
-    "publishability": "Hold",
-    "aCaseCount": 0,
-    "minACases": 3,
-    "targetACases": 5,
-    "minDeficit": 0,
-    "targetDeficit": 0,
-    "sourceCount": 7,
-    "score": null,
-    "priority": "P3",
-    "status": "archive_review",
-    "blocker": "归档或暂停状态，先确认是否仍需公开模型页。",
-    "requiredEvidence": [
-      "当前不进入活跃模型目标线，暂停自动补案例。",
-      "若恢复为活跃模型，先确认模型身份、公开可用性和一手资料，再补 A 类案例。"
-    ],
-    "targetSources": [
-      "Qwen official blog / docs",
-      "ModelScope or GitHub model page",
-      "developer project demos with source"
-    ],
-    "searchQueries": [
-      {
-        "query": "Qwen3.5 9B Qwen case study customer",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20case%20study%20customer"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen built with GitHub demo",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20built%20with%20GitHub%20demo"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen production use product blog",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20production%20use%20product%20blog"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen model card docs API pricing context window",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20model%20card%20docs%20API%20pricing%20context%20window"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen 真实使用 案例 项目 开源",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20%E7%9C%9F%E5%AE%9E%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E9%A1%B9%E7%9B%AE%20%E5%BC%80%E6%BA%90"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen GitHub README built with",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20GitHub%20README%20built%20with"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen B站 使用 案例 demo",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20B%E7%AB%99%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20demo"
-      },
-      {
-        "query": "Qwen3.5 9B Qwen 微信公众号 使用 案例 产品",
-        "url": "https://www.google.com/search?q=Qwen3.5%209B%20Qwen%20%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%20%E4%BD%BF%E7%94%A8%20%E6%A1%88%E4%BE%8B%20%E4%BA%A7%E5%93%81"
-      }
-    ],
-    "upgradeGate": "Archive/Hold 状态不自动补案例；需人工恢复为活跃模型后再进入 backfill。"
+    "upgradeGate": "Archive/Hold 状态不自动升级；需人工恢复为活跃模型后再评估案例覆盖。"
   },
   {
     "modelId": "qwen3-5-omni-flash",

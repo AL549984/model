@@ -14122,8 +14122,8 @@
     "slug": "qwen3-5-9b",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.5 9B 独立模型卡",
     "summary": "Qwen 的独立模型 release；AA Intelligence Index：21.790。",
@@ -14159,11 +14159,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -14184,8 +14184,8 @@
     "slug": "qwen3-5-4b",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.5 4B 独立模型卡",
     "summary": "Qwen 的独立模型 release；AA Intelligence Index：20.370。",
@@ -14221,11 +14221,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -14246,8 +14246,8 @@
     "slug": "qwen3-5-2b",
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.5 2B 独立模型卡",
     "summary": "Qwen 的独立模型 release；AA Intelligence Index：7.426。",
@@ -14283,11 +14283,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -14431,7 +14431,7 @@
     "vendorId": "qwen-alibaba",
     "vendor": "Qwen",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Qwen3.5 35B A3B 独立模型卡",
     "summary": "Qwen 的独立模型 release；AA Intelligence Index：29.907。",
@@ -14467,11 +14467,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
