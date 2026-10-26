@@ -7616,7 +7616,7 @@
     "vendorId": "sakana-ai",
     "vendor": "Sakana AI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 2 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "多智能体编排模型，通过自主协调多个顶级 LLM 实现前沿级性能",
     "summary": "Fugu Ultra 是 Sakana AI 于 2026 年 6 月发布的多智能体编排模型。它本身是一个经过训练的语言模型，能够自主协调多个顶级 LLM（包括递归调用自身）来处理复杂的多步骤任务。用户只需调用单一 OpenAI 兼容 API 端点，Fugu Ultra 会自动进行模型选择、任务委派、验证和综合。在 SWE Bench Pro（73.7）、Terminal Bench 2.1（82.1）、LiveCodeBench（93.2）等 benchmark 上超越 Opus 4.8、Gemini 3.1 Pro 和 GPT-5.5。",
@@ -7651,11 +7651,11 @@
     "avoid": [
       "预算敏感场景（输出 $30/1M tokens）、EU/EEA 地区用户（GDPR 合规中）、需要精确知道底层模型的场景"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 2,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 9,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 2 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -7744,7 +7744,7 @@
     "vendorId": "sakana-ai",
     "vendor": "Sakana AI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 3 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Sakana AI 多智能体编排模型标准版，动态协调多个顶级 LLM 实现性能与延迟的平衡",
     "summary": "Fugu 是 Sakana AI 于 2026 年 6 月发布的多智能体编排模型标准版，通过动态协调多个顶级 LLM 在保持低延迟的同时实现强性能，定位为日常工作的默认选择。基于 ICLR 2026 论文 Trinity 和 Conductor 的研究成果。",
@@ -7779,11 +7779,11 @@
     "avoid": [
       "需要极致性能的高难度多步骤任务（建议使用 Fugu Ultra）、EU/EEA 地区用户（GDPR 合规中）"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 3,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 8,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -18925,7 +18925,7 @@
     "vendorId": "reka-ai",
     "vendor": "Reka AI",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Reka Flash 3 独立模型卡",
     "summary": "Reka AI 的独立模型 release；AA Intelligence Index：3.709。",
@@ -18961,11 +18961,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 6,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [

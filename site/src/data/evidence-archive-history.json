@@ -1411,10 +1411,10 @@
       "id": "current-2026-10-26",
       "date": "2026-10-26",
       "label": "当前数据截点",
-      "aCaseCount": 1044,
-      "targets": 2093,
+      "aCaseCount": 1050,
+      "targets": 2105,
       "snapshottedCases": 594,
-      "pendingSnapshotCases": 449,
+      "pendingSnapshotCases": 455,
       "partialSnapshotCases": 0,
       "snapshotAttentionCases": 1,
       "source": "site/src/data/evidence-archive.json"

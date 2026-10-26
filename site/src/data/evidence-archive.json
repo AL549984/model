@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-26",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1044,
-    "manifestedCases": 1044,
+    "aCaseCount": 1050,
+    "manifestedCases": 1050,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 449,
+    "pendingSnapshotCases": 455,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 148,
-    "targets": 2093
+    "uniqueHosts": 149,
+    "targets": 2105
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -98,6 +98,7 @@
     "llama4.pages.dev",
     "lmsys.org",
     "loom.com",
+    "masafykun.github.io",
     "matthieulc.com",
     "maxharar.com",
     "miaai-lab.github.io",
@@ -172,19 +173,19 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 449,
-      "targets": 900,
-      "highPriorityCases": 379,
+      "cases": 455,
+      "targets": 912,
+      "highPriorityCases": 384,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 335,
-          "targets": 594
+          "cases": 340,
+          "targets": 603
         },
         {
           "host": "huggingface.co",
-          "cases": 54,
-          "targets": 88
+          "cases": 55,
+          "targets": 90
         },
         {
           "host": "raw.githubusercontent.com",
@@ -6597,6 +6598,181 @@
           "url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5/issues/3",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/exaone-4-5-33b-github-issue-3-llama-cpp-q3ks/artifact-1-7355eeaa2265.json"
+        }
+      ]
+    },
+    {
+      "caseId": "fugu-callstreamai-cara-chat-assistant",
+      "modelId": "fugu",
+      "modelName": "Fugu",
+      "title": "Call Stream AI built a consumer chat assistant powered by Fugu",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T02:20:12Z",
+      "priority": "high",
+      "evidenceFingerprint": "ded8bb2a716e88619a01d0c2f5f2c90343a284006e1ee36b64fb02256a6b5b59",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/fugu-callstreamai-cara-chat-assistant/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/callstreamai/cara-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-callstreamai-cara-chat-assistant/original-evidence-3ac6a0b2d4c2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/callstreamai/cara-ai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-callstreamai-cara-chat-assistant/artifact-1-3ac6a0b2d4c2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "fugu-masafykun-sea-fishing",
+      "modelId": "fugu",
+      "modelName": "Fugu",
+      "title": "Fugu generated a Unity WebGL fishing game",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T02:20:12Z",
+      "priority": "high",
+      "evidenceFingerprint": "2a8011b75e6193ef9caebaca05883b139763f149577f6bc6bafe519b7e71df7c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/fugu-masafykun-sea-fishing/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/masafykun/sea-fishing",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-masafykun-sea-fishing/original-evidence-6b0bbbceb6df.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/masafykun/sea-fishing",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-masafykun-sea-fishing/artifact-1-6b0bbbceb6df.json"
+        }
+      ]
+    },
+    {
+      "caseId": "fugu-nnaka2992-local-government-poc",
+      "modelId": "fugu",
+      "modelName": "Fugu",
+      "title": "Fugu generated a Japanese local-government website prototype",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T02:20:12Z",
+      "priority": "high",
+      "evidenceFingerprint": "5ab3a9b6896746c20c96f24c0d042b886a44efe0c34f4a03dd0da4dd6069e846",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/fugu-nnaka2992-local-government-poc/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/nnaka2992/sakana-fugu-poc-webpage",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-nnaka2992-local-government-poc/original-evidence-f45477dbd3da.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/nnaka2992/sakana-fugu-poc-webpage",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-nnaka2992-local-government-poc/artifact-1-f45477dbd3da.json"
+        }
+      ]
+    },
+    {
+      "caseId": "fugu-ultra-masafykun-sakana-game",
+      "modelId": "fugu-ultra",
+      "modelName": "Fugu Ultra",
+      "title": "Masato Suzuki 用 Fugu Ultra 迭代生成并发布浏览器水下街机游戏",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T02:21:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "b8975bf3dbc837b9eab6885a4e22059181898ac80655e0fbc0772c751c519585",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/fugu-ultra-masafykun-sakana-game/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/masafykun/sakana-game",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-ultra-masafykun-sakana-game/original-evidence-0d60bb81c08d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://masafykun.github.io/sakana-game/",
+          "host": "masafykun.github.io",
+          "recommendedSnapshotPath": "archive/evidence/fugu-ultra-masafykun-sakana-game/artifact-1-57b687c206f8.json"
+        }
+      ]
+    },
+    {
+      "caseId": "fugu-ultra-wirelessml-reading-recommendation-analysis",
+      "modelId": "fugu-ultra",
+      "modelName": "Fugu Ultra",
+      "title": "WirelessML 用 Fugu Ultra 生成儿童读书推荐文竞赛分析系列",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T02:21:22Z",
+      "priority": "high",
+      "evidenceFingerprint": "d58fdc1dfdc228edd1735dd9d0ac41a6984de2b4f3e099ab18a98cecd3a92b76",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/fugu-ultra-wirelessml-reading-recommendation-analysis/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/wirelessml/fugu-ultra-analysis",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-ultra-wirelessml-reading-recommendation-analysis/original-evidence-4702a1429cb9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/wirelessml/fugu-ultra-analysis/tree/main/reports",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/fugu-ultra-wirelessml-reading-recommendation-analysis/artifact-1-75d4310481e3.json"
         }
       ]
     },
@@ -34008,6 +34184,41 @@
           "url": "https://github.com/can1357/oh-my-pi",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/reflection-beam-oh-my-pi-coding-agent/artifact-1-de6bf05613f3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "reka-flash-3-zoroastrella-rekaflash",
+      "modelId": "reka-flash-3",
+      "modelName": "Reka Flash 3",
+      "title": "ZoroaStrella 的 Reka Flash 3 公共聊天应用",
+      "sourcePlatform": "huggingface",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T02:24:45Z",
+      "priority": "normal",
+      "evidenceFingerprint": "86433be5be1ab191f0ff92a331c1ef2a7d9a21f36a2ca71f2eb66fc4f12ab201",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/reka-flash-3-zoroastrella-rekaflash/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://huggingface.co/spaces/ZoroaStrella/RekaFlash/blob/main/app.py",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/reka-flash-3-zoroastrella-rekaflash/original-evidence-48f28b3e6e17.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/ZoroaStrella/RekaFlash",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/reka-flash-3-zoroastrella-rekaflash/artifact-1-0b53947d10b0.json"
         }
       ]
     },
