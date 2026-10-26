@@ -4,17 +4,17 @@
   "datasetCut": "2026-10-26",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1050,
-    "manifestedCases": 1050,
+    "aCaseCount": 1055,
+    "manifestedCases": 1055,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 455,
+    "pendingSnapshotCases": 460,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 149,
-    "targets": 2105
+    "targets": 2115
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -173,24 +173,24 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 455,
-      "targets": 912,
-      "highPriorityCases": 384,
+      "cases": 460,
+      "targets": 922,
+      "highPriorityCases": 389,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 340,
-          "targets": 603
+          "cases": 344,
+          "targets": 609
         },
         {
           "host": "huggingface.co",
-          "cases": 55,
-          "targets": 90
+          "cases": 56,
+          "targets": 91
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 43,
-          "targets": 43
+          "cases": 46,
+          "targets": 46
         },
         {
           "host": "bilibili.com",
@@ -34219,6 +34219,181 @@
           "url": "https://huggingface.co/spaces/ZoroaStrella/RekaFlash",
           "host": "huggingface.co",
           "recommendedSnapshotPath": "archive/evidence/reka-flash-3-zoroastrella-rekaflash/artifact-1-0b53947d10b0.json"
+        }
+      ]
+    },
+    {
+      "caseId": "sarvam-105b-clinical-documentation-assistant",
+      "modelId": "sarvam-105b",
+      "modelName": "Sarvam 105B",
+      "title": "AI clinical documentation assistant for doctors",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T08:31:31Z",
+      "priority": "high",
+      "evidenceFingerprint": "7f82ff5566cef1e153c4e9ea57035c0d5ebaa2c7bbc49de7d5bb3b4768e1e027",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/sarvam-105b-clinical-documentation-assistant/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/sansar28v-cmyk/Ai-clinical-documentation-ass/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-105b-clinical-documentation-assistant/original-evidence-a66f8921384c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/sansar28v-cmyk/Ai-clinical-documentation-ass",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-105b-clinical-documentation-assistant/artifact-1-e3fdfc9b4e47.json"
+        }
+      ]
+    },
+    {
+      "caseId": "sarvam-105b-scout-research-agent",
+      "modelId": "sarvam-105b",
+      "modelName": "Sarvam 105B",
+      "title": "Scout cited autonomous research agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T08:31:31Z",
+      "priority": "high",
+      "evidenceFingerprint": "dccfd51336f53565258c32f800226035fd1c8523f1eb0faaf43b0d339dc0771a",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/sarvam-105b-scout-research-agent/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/NitinSukthe-G/Scout-ResearchAgent/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-105b-scout-research-agent/original-evidence-ad0dfa9527a6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/NitinSukthe-G/Scout-ResearchAgent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-105b-scout-research-agent/artifact-1-925c740d69ee.json"
+        }
+      ]
+    },
+    {
+      "caseId": "sarvam-30b-hinglish-market-brief-devddved",
+      "modelId": "sarvam-30b",
+      "modelName": "Sarvam 30B",
+      "title": "Hinglish daily finance news brief with Sarvam-30B summarization",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T08:30:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "f9e8f9cf91c8e2f4e49217411af10ff705761c535936b462b2c3b85b4ec8600d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/sarvam-30b-hinglish-market-brief-devddved/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/devddved/Hinglish-Market-Brief-Daily-Finance-News-Summarize/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-30b-hinglish-market-brief-devddved/original-evidence-7ccb340e24f9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/devddved/Hinglish-Market-Brief-Daily-Finance-News-Summarize",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-30b-hinglish-market-brief-devddved/artifact-1-5c483b70edc6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "sarvam-30b-kisan-mitra-manoj21k",
+      "modelId": "sarvam-30b",
+      "modelName": "Sarvam 30B",
+      "title": "Kisan Mitra multilingual voice advisory assistant for Indian farmers",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T08:30:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "04f61362e8c7d7b4517ed6ea89d45506b555080e603be8ac45e9761e811451b1",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/sarvam-30b-kisan-mitra-manoj21k/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/MANOJ21K/kisan-mitra-voice-agent/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-30b-kisan-mitra-manoj21k/original-evidence-674840d9b5f5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/MANOJ21K/kisan-mitra-voice-agent",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-30b-kisan-mitra-manoj21k/artifact-1-62507dc53925.json"
+        }
+      ]
+    },
+    {
+      "caseId": "sarvam-30b-smartdocs-multilingual-rag-sahilalaknur21",
+      "modelId": "sarvam-30b",
+      "modelName": "Sarvam 30B",
+      "title": "SmartDocs multilingual legal, GST and insurance document RAG",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-10-26T08:30:35Z",
+      "priority": "high",
+      "evidenceFingerprint": "2448344e6528482152efb745c03c9cdc9a964f1edf7cfa0c8f812f78ee4cfd61",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/sarvam-30b-smartdocs-multilingual-rag-sahilalaknur21/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/sahilalaknur21/SmartDocs-Multillingual-Agentic-Rag/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-30b-smartdocs-multilingual-rag-sahilalaknur21/original-evidence-0c5b41652181.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/spaces/Sahilalaknur/smartdocs-ui",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/sarvam-30b-smartdocs-multilingual-rag-sahilalaknur21/artifact-1-c6b83d5aa403.json"
         }
       ]
     },
