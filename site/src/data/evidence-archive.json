@@ -4,17 +4,17 @@
   "datasetCut": "2026-11-02",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1055,
-    "manifestedCases": 1055,
+    "aCaseCount": 1061,
+    "manifestedCases": 1061,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 460,
+    "pendingSnapshotCases": 466,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 149,
-    "targets": 2115
+    "uniqueHosts": 152,
+    "targets": 2127
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -45,6 +45,7 @@
     "blog.jcz.dev",
     "blog.roboflow.com",
     "bookitty.bidebliss.com",
+    "bramblekeep.vercel.app",
     "bravew.github.io",
     "build.nvidia.com",
     "bvw1eq2hw657.trickle.host",
@@ -70,7 +71,9 @@
     "divelog.copilot.ovh",
     "docs.bigmodel.cn",
     "doubao.com",
+    "enterprise.kt.com",
     "exp.volcengine.com",
+    "exywuu.github.io",
     "fal.ai",
     "fireworks.ai",
     "flo.ruv.io",
@@ -173,14 +176,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 460,
-      "targets": 922,
-      "highPriorityCases": 389,
+      "cases": 466,
+      "targets": 934,
+      "highPriorityCases": 395,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 344,
-          "targets": 609
+          "cases": 349,
+          "targets": 617
         },
         {
           "host": "huggingface.co",
@@ -14372,6 +14375,181 @@
       ]
     },
     {
+      "caseId": "gpt-6-1-terra-bramblekeep-chongdashu",
+      "modelId": "gpt-6-1-terra",
+      "modelName": "GPT-6.1 Terra",
+      "title": "Bramblekeep persistent multiplayer browser game",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T04:22:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "0a38e50567f92395c7b53fd619f1697edbb3c36a8b95e956346ff16623cb97de",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-6-1-terra-bramblekeep-chongdashu/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/chongdashu/bramblekeep",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-bramblekeep-chongdashu/original-evidence-592924dedd2d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://bramblekeep.vercel.app/",
+          "host": "bramblekeep.vercel.app",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-bramblekeep-chongdashu/artifact-1-f24610f2002c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-6-1-terra-daybreak-nfj-exywuu",
+      "modelId": "gpt-6-1-terra",
+      "modelName": "GPT-6.1 Terra",
+      "title": "Daybreak fictional festival interactive web experience",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T04:22:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "8740735e424e4b22565f8003f526e2c2637310de1efe73b9b5e9b06b148dc0f0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-6-1-terra-daybreak-nfj-exywuu/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Exywuu/NFJ",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-daybreak-nfj-exywuu/original-evidence-06778357c824.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://exywuu.github.io/NFJ/",
+          "host": "exywuu.github.io",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-daybreak-nfj-exywuu/artifact-1-5435e769871a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-6-1-terra-invoice-extractor-bomparkva",
+      "modelId": "gpt-6-1-terra",
+      "modelName": "GPT-6.1 Terra",
+      "title": "Terra invoice extraction and arithmetic validation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T04:22:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "8a8c45d0d661133f6871f36d4d8fd7268f1efa8c3dd316926725825e44d3cc36",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-6-1-terra-invoice-extractor-bomparkva/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/bomparkva-24/terra-invoice-extractor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-invoice-extractor-bomparkva/original-evidence-bb8ba72e9b9c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/bomparkva-24/terra-invoice-extractor",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-invoice-extractor-bomparkva/artifact-1-bb8ba72e9b9c.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-6-1-terra-sarah-telegram-enotgr",
+      "modelId": "gpt-6-1-terra",
+      "modelName": "GPT-6.1 Terra",
+      "title": "Sarah Telegram bot smart-response mode",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T04:22:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "0ba665f1fc521d1a22eb49b12058242d0f6ec5d95d566347d32fd1e0157bdd68",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-6-1-terra-sarah-telegram-enotgr/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/enotgr/SarahGPTBot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-sarah-telegram-enotgr/original-evidence-1fa79dcc31be.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/enotgr/SarahGPTBot",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-sarah-telegram-enotgr/artifact-1-1fa79dcc31be.json"
+        }
+      ]
+    },
+    {
+      "caseId": "gpt-6-1-terra-wonder-kamskans",
+      "modelId": "gpt-6-1-terra",
+      "modelName": "GPT-6.1 Terra",
+      "title": "Wonder voice-first visual learning companion",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T04:22:02Z",
+      "priority": "high",
+      "evidenceFingerprint": "19af6e16b75d05b65c0c5aeff351aabf8c2a55a69c88f82dc53fd72f0108a978",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/gpt-6-1-terra-wonder-kamskans/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/kamskans/wonder-hackathon",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-wonder-kamskans/original-evidence-62cb05dc07fd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/kamskans/wonder-hackathon/releases/download/demo/DEMO.mp4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/gpt-6-1-terra-wonder-kamskans/artifact-1-5104d74ebbc3.json"
+        }
+      ]
+    },
+    {
       "caseId": "gpt-oss-120b-alexa-llm-integration",
       "modelId": "gpt-oss-120b",
       "modelName": "gpt-oss-120b",
@@ -23439,6 +23617,41 @@
           "url": "https://github.com/hemantbhatt63883428-star/pi-for-excel",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/mercury-2-5-pi-for-excel-cloudflare-relay/artifact-1-613b99ca52ea.json"
+        }
+      ]
+    },
+    {
+      "caseId": "mi-dm-k-2-5-pro-dec28-kt-finance-qa",
+      "modelId": "mi-dm-k-2-5-pro-dec28",
+      "modelName": "Mi:dm K 2.5 Pro",
+      "title": "金融知识问答解决方案",
+      "sourcePlatform": "official_web",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T04:21:49Z",
+      "priority": "high",
+      "evidenceFingerprint": "fc5c95ef414a715322ce1ae37f0387cdbb308322f23f13d86c7b5417e7d7fdc6",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/mi-dm-k-2-5-pro-dec28-kt-finance-qa/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://enterprise.kt.com/pd/P_PD_NE_00_316.do#case4",
+          "host": "enterprise.kt.com",
+          "recommendedSnapshotPath": "archive/evidence/mi-dm-k-2-5-pro-dec28-kt-finance-qa/original-evidence-5afb2f5ca9a7.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://enterprise.kt.com/pd/P_PD_NE_00_316.do",
+          "host": "enterprise.kt.com",
+          "recommendedSnapshotPath": "archive/evidence/mi-dm-k-2-5-pro-dec28-kt-finance-qa/artifact-1-0b5381d3e660.json"
         }
       ]
     },

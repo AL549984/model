@@ -15724,7 +15724,7 @@
     "vendorId": "korea-telecom",
     "vendor": "Korea Telecom",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Mi:dm K 2.5 Pro 独立模型卡",
     "summary": "Korea Telecom 的独立模型 release；AA Intelligence Index：16.558。",
@@ -15760,11 +15760,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 2,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22756,32 +22756,32 @@
   },
   {
     "id": "mistral-large-4",
-    "name": "Mistral Large 4 Preview",
+    "name": "Mistral Large 4",
     "slug": "mistral-large-4",
     "vendorId": "mistral",
     "vendor": "Mistral",
     "publishability": "Hold",
     "caseStatus": "暂无自动 gate 通过的 A 类案例",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
-    "headline": "公开预览的多模态 MoE 模型",
-    "summary": "官方发布文写1T总参数/49B激活，模型文档写1.05T/52B，并另列1.6B视觉编码器；保留口径冲突，不擅自合并。",
+    "headline": "Mistral Large 4：原生多模态开放权重旗舰模型。",
+    "summary": "Mistral 官方发布文披露 Mistral Large 4 的 1 万亿总参数、520 亿 active parameters 与原生多模态定位。",
     "releaseDate": "2026-10-06",
     "modelId": "mistral-large-4",
-    "context": "1M tokens",
-    "output": "本轮尚未核验输出硬上限",
-    "modality": "原生多模态输入 → 文本",
-    "reasoning": "mistral-large-4；结构化输出、函数调用、文档问答、Agents与Conversations",
-    "price": "美元/百万 tokens：标准输入1.36、缓存0.14、输出4.18；首发两周5折（输入0.68、缓存0.07、输出2.09）",
+    "context": "本轮未取得对应证据",
+    "output": "本轮未取得对应证据",
+    "modality": "原生多模态",
+    "reasoning": "本轮未取得对应证据",
+    "price": "本轮发布文未取得对应证据",
     "platforms": [
-      "多模态理解、代码与企业任务预览测试"
+      "Mistral Studio preview API；开放权重计划"
     ],
-    "officialLink": "https://docs.mistral.ai/models/mistral-large",
+    "officialLink": "https://mistral.ai/news/mistral-large-4/",
     "score": null,
     "scoreDelta": null,
     "vendorOrder": null,
     "artificialAnalysisId": null,
     "baseModelReleaseDate": "Artificial Analysis 未披露",
-    "notes": "原地补正与官方资料核验：2026-10-09。",
+    "notes": "Wiki 已由用户身份创建并安全写入回读验证。",
     "sourceKind": "feishu",
     "capabilities": {
       "codingAgent": "待核验",
@@ -22791,23 +22791,22 @@
       "lifecycleRisk": "中"
     },
     "fit": [
-      "多模态理解、代码与企业任务预览测试"
+      "多模态理解；编码；智能体工作流；开放权重评估"
     ],
     "avoid": [
-      "依据未核验数字进行选型"
+      "许可证与权重尚未按本轮完整材料核验前的自托管生产部署"
     ],
     "aCaseCount": 0,
     "sourceCoverage": "supplemented",
-    "supplementalSourceCount": 4,
+    "supplementalSourceCount": 3,
     "riskNotes": [
       "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
-      "https://docs.mistral.ai/models/mistral-large",
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/C1XqwHaAXi0JJVkMYErcX9M8nuh",
       "https://mistral.ai/news/mistral-large-4/",
-      "https://docs.mistral.ai/resources/changelogs",
-      "https://ycn3zdw6f1p7.feishu.cn/wiki/HCPLwnxoDiAgUAks2ylcoEKqn5b"
+      "https://docs.mistral.ai/models"
     ],
     "sourceFile": "Feishu Bitable"
   },
@@ -24209,6 +24208,62 @@
       "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/",
       "https://artificialanalysis.ai/models/nemotron-3-5-bolt-e4b-4gb",
       "https://ycn3zdw6f1p7.feishu.cn/wiki/DdcTw0jZoiM5tokE199c9gOFn2g"
+    ],
+    "sourceFile": "Feishu Bitable"
+  },
+  {
+    "id": "gpt-6-1-terra",
+    "name": "GPT-6.1 Terra",
+    "slug": "gpt-6-1-terra",
+    "vendorId": "openai",
+    "vendor": "OpenAI",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
+    "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
+    "headline": "GPT-6.1 Terra：面向视觉推理与计算机使用的 OpenAI 模型。",
+    "summary": "官方目录列出 GPT-6.1 Terra，支持视觉推理、精确计算机使用与工具调用。",
+    "releaseDate": "本轮官方模型目录未给出独立发布日期",
+    "modelId": "gpt-6-1-terra",
+    "context": "1.05M tokens",
+    "output": "128K tokens",
+    "modality": "文本+图像+计算机使用",
+    "reasoning": "none; low; medium; high; xhigh; max",
+    "price": "输入 US$1/1M tokens；输出 US$5/1M tokens",
+    "platforms": [
+      "OpenAI API"
+    ],
+    "officialLink": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+    "score": null,
+    "scoreDelta": null,
+    "vendorOrder": null,
+    "artificialAnalysisId": null,
+    "baseModelReleaseDate": "Artificial Analysis 未披露",
+    "notes": "Wiki 已由用户身份创建并安全写入回读验证。",
+    "sourceKind": "feishu",
+    "capabilities": {
+      "codingAgent": "待核验",
+      "longContext": "暂无数据",
+      "research": "待核验",
+      "openEcosystem": "待核验",
+      "lifecycleRisk": "中"
+    },
+    "fit": [
+      "视觉推理；计算机使用；API 工具编排"
+    ],
+    "avoid": [
+      "未按官方限制验证的生产任务；需要开放权重自托管的场景"
+    ],
+    "aCaseCount": 5,
+    "sourceCoverage": "supplemented",
+    "supplementalSourceCount": 3,
+    "riskNotes": [
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
+      "完整补齐为 5 条。"
+    ],
+    "sources": [
+      "https://ycn3zdw6f1p7.feishu.cn/wiki/PDptw1hwWiUHQQkjeGMc3l8VnMf",
+      "https://developers.openai.com/api/docs/models",
+      "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
     ],
     "sourceFile": "Feishu Bitable"
   }
