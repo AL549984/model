@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-02T04:19:47.752Z",
+  "generatedAt": "2026-11-02T04:39:50.521Z",
   "summary": {
     "models": 396,
-    "activeModels": 155,
+    "activeModels": 156,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 155,
-    "fullCoverageReady": 155,
+    "publicReady": 156,
+    "fullCoverageReady": 156,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 559,
-    "allModelTargetDeficit": 1026,
-    "queuedModels": 237,
-    "crawlTargetDeficit": 1006
+    "allModelMinDeficit": 555,
+    "allModelTargetDeficit": 1020,
+    "queuedModels": 236,
+    "crawlTargetDeficit": 1000
   },
   "tasks": [
     {
@@ -35828,17 +35828,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 1,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
+      "minDeficit": 2,
+      "targetDeficit": 4,
       "publicReady": false,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 48,
+        "maxCandidatesPerRun": 72
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/On54wH8rtiYshkkbMRncowZenhb",
@@ -56189,20 +56189,20 @@
       "modelName": "GPT-6.1 Terra",
       "vendorId": "openai",
       "vendor": "OpenAI",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/PDptw1hwWiUHQQkjeGMc3l8VnMf",
