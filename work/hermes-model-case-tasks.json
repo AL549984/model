@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-02T10:46:53.753Z",
+  "generatedAt": "2026-11-02T16:54:05.887Z",
   "summary": {
     "models": 396,
-    "activeModels": 156,
+    "activeModels": 157,
     "minACases": 3,
     "targetACases": 5,
-    "publicReady": 156,
-    "fullCoverageReady": 156,
+    "publicReady": 157,
+    "fullCoverageReady": 157,
     "minDeficit": 0,
     "targetDeficit": 0,
     "activeMinDeficit": 0,
     "activeTargetDeficit": 0,
-    "allModelMinDeficit": 551,
-    "allModelTargetDeficit": 1015,
-    "queuedModels": 236,
-    "crawlTargetDeficit": 995
+    "allModelMinDeficit": 545,
+    "allModelTargetDeficit": 1006,
+    "queuedModels": 235,
+    "crawlTargetDeficit": 986
   },
   "tasks": [
     {
@@ -44000,17 +44000,17 @@
       "priority": "P0",
       "status": "needs_a_case",
       "publishability": "Hold",
-      "aCaseCount": 0,
+      "aCaseCount": 4,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 1,
+      "publicReady": true,
       "fullCoverageReady": false,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ycn3zdw6f1p7.feishu.cn/wiki/Gj9lwxopXis07Fk2Yctc0YuUniB",
@@ -54772,20 +54772,20 @@
       "modelName": "Muse Wonder Full",
       "vendorId": "meta",
       "vendor": "Meta",
-      "priority": "P0",
-      "status": "needs_a_case",
-      "publishability": "Hold",
-      "aCaseCount": 0,
+      "priority": "P2",
+      "status": "target_met_snapshot_refresh",
+      "publishability": "Publishable",
+      "aCaseCount": 5,
       "minACases": 3,
       "targetACases": 5,
-      "minDeficit": 3,
-      "targetDeficit": 5,
-      "publicReady": false,
-      "fullCoverageReady": false,
+      "minDeficit": 0,
+      "targetDeficit": 0,
+      "publicReady": true,
+      "fullCoverageReady": true,
       "crawlBudget": {
         "minCandidatesPerMissingACase": 12,
-        "targetCandidateCount": 60,
-        "maxCandidatesPerRun": 80
+        "targetCandidateCount": 12,
+        "maxCandidatesPerRun": 24
       },
       "officialSources": [
         "https://ai.meta.com/llama",
