@@ -4,17 +4,17 @@
   "datasetCut": "2026-11-02",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1066,
-    "manifestedCases": 1066,
+    "aCaseCount": 1075,
+    "manifestedCases": 1075,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 471,
+    "pendingSnapshotCases": 480,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 152,
-    "targets": 2137
+    "uniqueHosts": 154,
+    "targets": 2155
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -150,6 +150,8 @@
     "sparrow-hawk-code-art-generator.vercel.app",
     "steno.com",
     "stripe.com",
+    "studio-yebisu.github.io",
+    "survai.ramy-comm.workers.dev",
     "tamerc.com",
     "theverge.com",
     "trae.ai",
@@ -176,14 +178,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 471,
-      "targets": 944,
-      "highPriorityCases": 400,
+      "cases": 480,
+      "targets": 962,
+      "highPriorityCases": 409,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 354,
-          "targets": 627
+          "cases": 363,
+          "targets": 638
         },
         {
           "host": "huggingface.co",
@@ -192,8 +194,8 @@
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 46,
-          "targets": 46
+          "cases": 50,
+          "targets": 50
         },
         {
           "host": "bilibili.com",
@@ -26946,6 +26948,181 @@
       ]
     },
     {
+      "caseId": "muse-wonder-full-neuroccm-logikeypad",
+      "modelId": "muse-wonder-full",
+      "modelName": "Muse Wonder Full",
+      "title": "Muse Wonder Full 协助实现 macOS 硬件开发控制台",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T16:32:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "ef09a631184728277911454da4ec9260a4c577dec729bf723c106fbe72057a28",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-wonder-full-neuroccm-logikeypad/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/neuroccm/LogiKeyPadMacOSSwift",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-neuroccm-logikeypad/original-evidence-8b07bb76e7e8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/neuroccm/LogiKeyPadMacOSSwift/tree/main/Sources",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-neuroccm-logikeypad/artifact-1-9d07aab93a06.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-wonder-full-newadays-heliodx",
+      "modelId": "muse-wonder-full",
+      "modelName": "Muse Wonder Full",
+      "title": "Muse Wonder 协调面向基层诊所的胸片工作流",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T16:32:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "9e7ea4a07963db60b5a17d3152543d03253ab0fadc40cded0666f7fe0c25ef2d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-wonder-full-newadays-heliodx/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/newadays/heliodx",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-newadays-heliodx/original-evidence-11c2702f328a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://api.github.com/repos/newadays/heliodx/contents/web",
+          "host": "api.github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-newadays-heliodx/artifact-1-080f9c155d1a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-wonder-full-ong6-lives-in-motion",
+      "modelId": "muse-wonder-full",
+      "modelName": "Muse Wonder Full",
+      "title": "Muse Wonder 为新加坡人物图书项目导演和评审短片",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T16:32:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "cb62a1b706e4bb66114aee70cef38535df17a78da8624b0c5d60abf0f06d0a7c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-wonder-full-ong6-lives-in-motion/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/ong6/lives-in-motion",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-ong6-lives-in-motion/original-evidence-518ceb171fb8.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/ong6/lives-in-motion/tree/main/public",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-ong6-lives-in-motion/artifact-1-ed1c1034c49d.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-wonder-full-ramy888-survai",
+      "modelId": "muse-wonder-full",
+      "modelName": "Muse Wonder Full",
+      "title": "Muse Wonder 作为电信机房现场勘测的 Survey Lead",
+      "sourcePlatform": "cloudflare_workers",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T16:32:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "c67f731a92a38e3ca05b208497a6fb8d653f7dffcea37c7ce921489bda6682f8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-wonder-full-ramy888-survai/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Ramy888/survai",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-ramy888-survai/original-evidence-593f73a42b99.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://survai.ramy-comm.workers.dev/sample",
+          "host": "survai.ramy-comm.workers.dev",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-ramy888-survai/artifact-1-7305b5d89ef3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "muse-wonder-full-studio-yebisu-musewonder-arcade",
+      "modelId": "muse-wonder-full",
+      "modelName": "Muse Wonder Full",
+      "title": "Muse Wonder Full 生成并发布浏览器街机游戏集",
+      "sourcePlatform": "github_pages",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T16:32:19Z",
+      "priority": "high",
+      "evidenceFingerprint": "8309722ed0e4966bec0e5c892e41ac5d35ad32e5dce8fd266a089da10c3942bf",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/muse-wonder-full-studio-yebisu-musewonder-arcade/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/studio-yebisu/musewonder-arcade",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-studio-yebisu-musewonder-arcade/original-evidence-ae255612b780.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://studio-yebisu.github.io/musewonder-arcade/",
+          "host": "studio-yebisu.github.io",
+          "recommendedSnapshotPath": "archive/evidence/muse-wonder-full-studio-yebisu-musewonder-arcade/artifact-1-842899eec271.json"
+        }
+      ]
+    },
+    {
       "caseId": "nemotron-3-5-bolt-e4b-4gb-nvidia-reachy-bolt-demo",
       "modelId": "nemotron-3-5-bolt-e4b-4gb",
       "modelName": "Nemotron 3.5 Bolt E4B 4GB",
@@ -28342,6 +28519,146 @@
           "url": "https://github.com/Poorna-Chandra-D/QueryGenie-Ask-SQL-Without-SQL",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/palm-2-querygenie-natural-language-sql/artifact-1-220062cad3c7.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-anastasiosyal-multimodal-openai-server",
+      "modelId": "phi-4",
+      "modelName": "Phi-4 Multimodal Instruct",
+      "title": "Anastasiosyal self-hosts Phi-4 Multimodal Instruct as an OpenAI-compatible vision and audio API",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-03T00:32:17+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "962e36aac8ad989d337793615f33b8485065113390e6fc6236dd659e1e8a7608",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-anastasiosyal-multimodal-openai-server/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/anastasiosyal/phi4-multimodal-instruct-server/main/Readme.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-anastasiosyal-multimodal-openai-server/original-evidence-579fc03ec30d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/anastasiosyal/phi4-multimodal-instruct-server",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-anastasiosyal-multimodal-openai-server/artifact-1-5e56bf582d88.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-askaresh-local-audio-transcription-summarization",
+      "modelId": "phi-4",
+      "modelName": "Phi-4",
+      "title": "LocalAudioTran uses Microsoft Phi-4 to turn recorded audio into structured summaries",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-03T00:32:17+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "b73f0bffc153b90b605ecea8174195207a1cda2bbad98c2e91a41c6ce16343f3",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-askaresh-local-audio-transcription-summarization/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/askaresh/LocalAudioTran-LLM-Summar/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-askaresh-local-audio-transcription-summarization/original-evidence-e15b50d53799.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/askaresh/LocalAudioTran-LLM-Summar",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-askaresh-local-audio-transcription-summarization/artifact-1-5690a3b40aab.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-canonical-inference-snap",
+      "modelId": "phi-4",
+      "modelName": "Phi-4",
+      "title": "Canonical distributes Phi 4 as an installable local inference snap",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-03T00:32:17+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "40e26404f57139550fb6554b3b6efcafd085ee2f738cc234da686dce8dc6a7bd",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-canonical-inference-snap/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/canonical/phi4-snap/main/snap/snapcraft.yaml",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-canonical-inference-snap/original-evidence-6fe0d930b7de.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/canonical/phi4-snap",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-canonical-inference-snap/artifact-1-f638cacc79a3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-saadsohail-math-meme-repair",
+      "modelId": "phi-4",
+      "modelName": "Phi-4",
+      "title": "Saad Sohail fine-tunes Phi-4 to detect and repair incorrect mathematics in memes",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-03T00:32:17+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "27c7da6168e23348b3c85ac9255ea45af090ac682987d9425c6f34497b96a96b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-saadsohail-math-meme-repair/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://raw.githubusercontent.com/saadsohail05/Math-Meme-Repair-with-Microsoft-Phi-4/main/README.md",
+          "host": "raw.githubusercontent.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-saadsohail-math-meme-repair/original-evidence-2f067ffdd0d6.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/saadsohail05/Math-Meme-Repair-with-Microsoft-Phi-4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-saadsohail-math-meme-repair/artifact-1-7a47e6176e71.json"
         }
       ]
     },

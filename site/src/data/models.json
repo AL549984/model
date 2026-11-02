@@ -19174,7 +19174,7 @@
     "vendorId": "microsoft",
     "vendor": "Microsoft",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Phi-4 独立模型卡",
     "summary": "Microsoft 的独立模型 release；AA Intelligence Index：4.554。",
@@ -19210,11 +19210,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 7,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -23624,8 +23624,8 @@
     "slug": "muse-wonder-full",
     "vendorId": "meta",
     "vendor": "Meta",
-    "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "publishability": "Publishable",
+    "caseStatus": "已有 5 条自动 gate 通过的 A 类案例，达到完整补齐线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "Meta 面向开发者关键工作流的高级 Muse 模型",
     "summary": "已读官方 13 页模型卡，补入模态、窗口、计费或订阅方式及计算机操作成绩；Wonder 与 Full 分列，评测方法与限制见 Wiki。",
@@ -23661,11 +23661,11 @@
       "未经真实任务测试",
       "直接把基准成绩当作生产效果保证"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 5,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 5 条 A 类案例目标线；仍需保存原始证据、产物页截图和页面快照。",
       "完整补齐为 5 条。"
     ],
     "sources": [
