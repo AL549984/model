@@ -4,17 +4,17 @@
   "datasetCut": "2026-11-02",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1075,
-    "manifestedCases": 1075,
+    "aCaseCount": 1091,
+    "manifestedCases": 1091,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 480,
+    "pendingSnapshotCases": 496,
     "snapshotIssueTypes": 2,
-    "uniqueHosts": 154,
-    "targets": 2155
+    "uniqueHosts": 156,
+    "targets": 2187
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -37,6 +37,7 @@
     "bcool5869-coder.github.io",
     "bemyeyes.com",
     "bilibili.com",
+    "bill-666code.github.io",
     "bitwrangler.uk",
     "blancas.io",
     "block.github.io",
@@ -107,6 +108,7 @@
     "miaai-lab.github.io",
     "microsoft.com",
     "midwinter-remaster.titanium-helix.com",
+    "minimax.io",
     "modelscope.cn",
     "morganstanley.com",
     "news.qq.com",
@@ -178,24 +180,24 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 480,
-      "targets": 962,
-      "highPriorityCases": 409,
+      "cases": 496,
+      "targets": 994,
+      "highPriorityCases": 425,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 363,
-          "targets": 638
+          "cases": 378,
+          "targets": 666
         },
         {
           "host": "huggingface.co",
-          "cases": 56,
-          "targets": 91
+          "cases": 57,
+          "targets": 92
         },
         {
           "host": "raw.githubusercontent.com",
-          "cases": 50,
-          "targets": 50
+          "cases": 49,
+          "targets": 49
         },
         {
           "host": "bilibili.com",
@@ -25793,41 +25795,6 @@
       ]
     },
     {
-      "caseId": "minimax-m3-1-flash-johnlam-pi-integration",
-      "modelId": "minimax-m3-1-flash",
-      "modelName": "MiniMax-M3.1-Flash",
-      "title": "johnlam1968 将 MiniMax M3.1 Flash 接入 Pi 编码代理",
-      "sourcePlatform": "github",
-      "sourceType": "real_case",
-      "collectedAt": "2026-10-23T13:15:19Z",
-      "priority": "high",
-      "evidenceFingerprint": "840b5af0d2edf61687367ad09e3154913d58d37206a3aa1200c30b5ee271e1b0",
-      "snapshotStatus": "pending_snapshot",
-      "snapshotIssue": {
-        "code": "pending_queued",
-        "label": "未开始抓取",
-        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
-        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
-      },
-      "snapshotTargetCount": 0,
-      "snapshotOkTargetCount": 0,
-      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-johnlam-pi-integration/manifest.json",
-      "targets": [
-        {
-          "kind": "original-evidence",
-          "url": "https://raw.githubusercontent.com/johnlam1968/pi-minimax-m31/master/README.md",
-          "host": "raw.githubusercontent.com",
-          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-johnlam-pi-integration/original-evidence-40fb57719a66.json"
-        },
-        {
-          "kind": "artifact-1",
-          "url": "https://github.com/johnlam1968/pi-minimax-m31",
-          "host": "github.com",
-          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-johnlam-pi-integration/artifact-1-a2ec9203772e.json"
-        }
-      ]
-    },
-    {
       "caseId": "minimax-m3-1-flash-leo-dcfa-dgx-spark",
       "modelId": "minimax-m3-1-flash",
       "modelName": "MiniMax-M3.1-Flash",
@@ -25898,6 +25865,111 @@
       ]
     },
     {
+      "caseId": "minimax-m3-1-flash-preview-bill-666code-balloon-fps",
+      "modelId": "minimax-m3-1-flash-preview",
+      "modelName": "MiniMax M3.1 Flash Preview",
+      "title": "Bill-666code 用 MiniMax M3.1 Flash Preview 生成可在线试玩的 Balloon Busters FPS",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:41:24Z",
+      "priority": "high",
+      "evidenceFingerprint": "d1049d7a3853b963aace7cfff3ad18d20d40e3c59e770a675b296e67acfd4861",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-preview-bill-666code-balloon-fps/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Bill-666code/balloon-fps-minimax-M3.1-Flash-Preview/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-preview-bill-666code-balloon-fps/original-evidence-39ca881fa75c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://bill-666code.github.io/balloon-fps-minimax-M3.1-Flash-Preview/",
+          "host": "bill-666code.github.io",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-preview-bill-666code-balloon-fps/artifact-1-8b99e6fdb1ae.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-preview-bill-666code-terraria-game",
+      "modelId": "minimax-m3-1-flash-preview",
+      "modelName": "MiniMax M3.1 Flash Preview",
+      "title": "Bill-666code 用 MiniMax M3.1 Flash Preview 生成 Terra Nova 2D 沙盒生存游戏",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:41:24Z",
+      "priority": "high",
+      "evidenceFingerprint": "0c780bf7cadfc3c4a4b644a85090d2aff26e8e700f682f9015f503e1ff7e08c0",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-preview-bill-666code-terraria-game/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Bill-666code/terraria-like-MiniMax-M3.1-Flash-Preview/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-preview-bill-666code-terraria-game/original-evidence-30360632bad3.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://bill-666code.github.io/terraria-like-MiniMax-M3.1-Flash-Preview/",
+          "host": "bill-666code.github.io",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-preview-bill-666code-terraria-game/artifact-1-8b288a3e338e.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-1-flash-preview-johnlam1968-pi-integration",
+      "modelId": "minimax-m3-1-flash-preview",
+      "modelName": "MiniMax M3.1 Flash Preview",
+      "title": "johnlam1968 将 MiniMax M3.1 Flash Preview 接入 Pi 编码代理",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:41:24Z",
+      "priority": "high",
+      "evidenceFingerprint": "b85a5fb38a34ae8a8ab1e1d456a89405275a921e5356e902d260ccfbfccd08b9",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-1-flash-preview-johnlam1968-pi-integration/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/johnlam1968/pi-minimax-m31/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-preview-johnlam1968-pi-integration/original-evidence-620071d1d11c.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/johnlam1968/pi-minimax-m31",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-preview-johnlam1968-pi-integration/artifact-1-a2ec9203772e.json"
+        }
+      ]
+    },
+    {
       "caseId": "minimax-m3-1-flash-victor-su-ortiz-campaign-studio",
       "modelId": "minimax-m3-1-flash",
       "modelName": "MiniMax-M3.1-Flash",
@@ -25929,6 +26001,111 @@
           "url": "https://github.com/Victor-Su-Ortiz/minimax-eve-film-studio",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/minimax-m3-1-flash-victor-su-ortiz-campaign-studio/artifact-1-de77f6f1b6df.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-minimax-independent-paper-reproduction",
+      "modelId": "minimax-m3",
+      "modelName": "MiniMax-M3",
+      "title": "MiniMax 使用 MiniMax-M3 独立复现 LLM 微调动力学论文",
+      "sourcePlatform": "official_web",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:59Z",
+      "priority": "high",
+      "evidenceFingerprint": "6bead79bf0ef3f04e0b895dc512ab44372817400ec853050fbf484efa1474d7d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-minimax-independent-paper-reproduction/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://www.minimax.io/blog/minimax-m3#real-world-tasks-independent-paper-reproduction",
+          "host": "minimax.io",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-minimax-independent-paper-reproduction/original-evidence-5de4151bf06d.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://arxiv.org/abs/2407.10490",
+          "host": "arxiv.org",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-minimax-independent-paper-reproduction/artifact-1-c4a654bd9658.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-whiter001-minimax-v-cli",
+      "modelId": "minimax-m3",
+      "modelName": "MiniMax-M3",
+      "title": "whiter001 使用 MiniMax-M3 构建可执行的 MiniMax V CLI Agent",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:59Z",
+      "priority": "high",
+      "evidenceFingerprint": "4d7e917b1ac7cad425921a803748b638d333739c82ed625067f705f9bb9e095f",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-whiter001-minimax-v-cli/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/whiter001/minimax-v/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-whiter001-minimax-v-cli/original-evidence-2499f69f96e9.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/whiter001/minimax-v/blob/main/src/config.v",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-whiter001-minimax-v-cli/artifact-1-00a6844db74b.json"
+        }
+      ]
+    },
+    {
+      "caseId": "minimax-m3-yeonhongmin-kakao-chat-summary",
+      "modelId": "minimax-m3",
+      "modelName": "MiniMax-M3",
+      "title": "YeonHongMin 使用 MiniMax-M3 生成 KakaoTalk 对话深度分析 HTML",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:59Z",
+      "priority": "high",
+      "evidenceFingerprint": "faf6380b96da51d21e5d9f5705ca2108234ef59a1d1e0a52ccaedc6bfd36ad29",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/minimax-m3-yeonhongmin-kakao-chat-summary/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/YeonHongMin/kakao-chat-summary/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-yeonhongmin-kakao-chat-summary/original-evidence-e23c6439f0fc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/YeonHongMin/kakao-chat-summary/blob/main/src/detail_prompt.py",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/minimax-m3-yeonhongmin-kakao-chat-summary/artifact-1-6a4bfd9327b5.json"
         }
       ]
     },
@@ -28624,6 +28801,391 @@
           "url": "https://github.com/canonical/phi4-snap",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/phi-4-canonical-inference-snap/artifact-1-f638cacc79a3.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-mini-jlin1107-natural-language-sql",
+      "modelId": "phi-4-mini",
+      "modelName": "Phi-4 Mini Instruct",
+      "title": "Interactive natural-language database query application",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "40272b0869fba55aae47a7aef9d5f6b3865dbe290b13a14f19d312ff7962f79d",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-mini-jlin1107-natural-language-sql/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/jlin1107/LLM-Powered-Natural-Language-to-SQL-Query-System",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-jlin1107-natural-language-sql/original-evidence-a043d177c9ee.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/jlin1107/LLM-Powered-Natural-Language-to-SQL-Query-System/blob/main/Videos/Database_LLM_Extra_Credit_Demo.mp4",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-jlin1107-natural-language-sql/artifact-1-792ec8a9ccfb.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-mini-kendallcw-approval-exception-triage",
+      "modelId": "phi-4-mini",
+      "modelName": "Phi-4 Mini Instruct",
+      "title": "KendallCW invoice and PO exception triage workflow",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "d72b501bdc68a5200f9043a776c1f5638a6af3e564939f3a59e0eda7bd9c8d2c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-mini-kendallcw-approval-exception-triage/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/KendallCW/approval-exception-triage",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-kendallcw-approval-exception-triage/original-evidence-c1c08712fc3e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/KendallCW/approval-exception-triage/blob/main/sample-data/expected-outputs.json",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-kendallcw-approval-exception-triage/artifact-1-ca82c703cfad.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-mini-knowledge-ukraine-medlocalgpt",
+      "modelId": "phi-4-mini",
+      "modelName": "Phi-4 Mini Instruct",
+      "title": "MedLocalGPT bilingual rehabilitation-medicine assistant",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "ebd2ea80076c6a4b86a2f9ce9ab0965105fe9083595646c2cf19628db481730e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-mini-knowledge-ukraine-medlocalgpt/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/knowledge-ukraine/medlocalgpt",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-knowledge-ukraine-medlocalgpt/original-evidence-89b1b218f5db.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/knowledge-ukraine/medlocalgpt",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-knowledge-ukraine-medlocalgpt/artifact-1-89b1b218f5db.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-mini-mdhasnainali-outfit-recommendation",
+      "modelId": "phi-4-mini",
+      "modelName": "Phi-4 Mini Instruct",
+      "title": "Personalized outfit recommendation inference application",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "c0c380e535fa748d151c7fed18675508128ef62c346be99dc6fc67fe34951190",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-mini-mdhasnainali-outfit-recommendation/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/mdhasnainali/phi-4-mini-instruct-inference",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-mdhasnainali-outfit-recommendation/original-evidence-d2b1c40d7e82.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/mdhasnainali/phi-4-mini-instruct-inference",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-mdhasnainali-outfit-recommendation/artifact-1-d2b1c40d7e82.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-mini-shaurya-sethi-transqlate",
+      "modelId": "phi-4-mini",
+      "modelName": "Phi-4 Mini Instruct",
+      "title": "Transqlate schema-aware natural-language-to-SQL pipeline",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "7ea2281529a8d1a78c75d7f9df5ca2693e4af70d5058be6aeecf8b8bc3e0bd3e",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-mini-shaurya-sethi-transqlate/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/Shaurya-Sethi/transqlate",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-shaurya-sethi-transqlate/original-evidence-ccf5473505f5.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://huggingface.co/Shaurya-Sethi/transqlate-phi4",
+          "host": "huggingface.co",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-shaurya-sethi-transqlate/artifact-1-d64723702b27.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-mini-vikramaditya-offline-youtube-summarizer",
+      "modelId": "phi-4-mini",
+      "modelName": "Phi-4 Mini Instruct",
+      "title": "Offline YouTube video summarization service",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:25Z",
+      "priority": "high",
+      "evidenceFingerprint": "69c0487d8724ec96cda307e934d19e1cf53e0471162404ea1a5587a3f40b2c30",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-mini-vikramaditya-offline-youtube-summarizer/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/vikramaditya42/offline-youtube-summarizer",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-vikramaditya-offline-youtube-summarizer/original-evidence-a4ca407da33a.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/vikramaditya42/offline-youtube-summarizer",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-mini-vikramaditya-offline-youtube-summarizer/artifact-1-a4ca407da33a.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-multimodal-andrewglez-nvidia-vision-mcp",
+      "modelId": "phi-4-multimodal",
+      "modelName": "Phi-4 Multimodal Instruct",
+      "title": "MCP image description and OCR server",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "d791488d257c25c26da6a36b0f7ef67683bd88254d5b8cc02d968b7d824f861c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-multimodal-andrewglez-nvidia-vision-mcp/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/AndrewGlez/nvidia-vision-mcp/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-andrewglez-nvidia-vision-mcp/original-evidence-d465d281070e.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/AndrewGlez/nvidia-vision-mcp",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-andrewglez-nvidia-vision-mcp/artifact-1-a6250190af28.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-multimodal-asathiya007-cardcrafter",
+      "modelId": "phi-4-multimodal",
+      "modelName": "Phi-4 Multimodal Instruct",
+      "title": "CardCrafter trading-card image creation",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "a6219706d1fc9683c8732d75782ca0463d7c483c667f48d78f82e7abf2fe9ed4",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-multimodal-asathiya007-cardcrafter/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/asathiya007/cardcrafter/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-asathiya007-cardcrafter/original-evidence-cc9040661e19.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/asathiya007/cardcrafter",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-asathiya007-cardcrafter/artifact-1-5bbeadcbe5fc.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-multimodal-asathiya007-genmk",
+      "modelId": "phi-4-multimodal",
+      "modelName": "Phi-4 Multimodal Instruct",
+      "title": "GenMK Mortal Kombat character generator",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "db740f3a4438182017ddbfe88c03b5cdbf97d1387045b2293e490db340360571",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-multimodal-asathiya007-genmk/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/asathiya007/genmk/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-asathiya007-genmk/original-evidence-5eedab1a53cd.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/asathiya007/genmk",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-asathiya007-genmk/artifact-1-896b808ecff2.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-multimodal-build-with-shivam-audio-chat-app",
+      "modelId": "phi-4-multimodal",
+      "modelName": "Phi-4 Multimodal Instruct",
+      "title": "Produce-supplier voice-message assistant",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "420028f2ce99e62c8d5bc978d409a259e98620025c46903a1e88942a65b2a001",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-multimodal-build-with-shivam-audio-chat-app/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/build-with-shivam/audio-chat-app/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-build-with-shivam-audio-chat-app/original-evidence-2d6bd92e9031.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/build-with-shivam/audio-chat-app",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-build-with-shivam-audio-chat-app/artifact-1-285aa9a7db98.json"
+        }
+      ]
+    },
+    {
+      "caseId": "phi-4-multimodal-shaunck96-audio-diarization",
+      "modelId": "phi-4-multimodal",
+      "modelName": "Phi-4 Multimodal Instruct",
+      "title": "Speaker-diarized audio transcription in Databricks",
+      "sourcePlatform": "github",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T22:40:32Z",
+      "priority": "high",
+      "evidenceFingerprint": "09d2cb8f3fb44468dec19342abace85ef349935c4d7c096b4c0aacf678fbf62b",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/phi-4-multimodal-shaunck96-audio-diarization/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/shaunck96/STT_with_phi4_instruct_multimodal/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-shaunck96-audio-diarization/original-evidence-b6e7ec9b72f0.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/shaunck96/STT_with_phi4_instruct_multimodal",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/phi-4-multimodal-shaunck96-audio-diarization/artifact-1-7874630b41bc.json"
         }
       ]
     },
