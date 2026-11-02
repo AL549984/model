@@ -4,17 +4,17 @@
   "datasetCut": "2026-11-02",
   "policy": "Every public A showcase case must have a stable archive target for original evidence and public artifact URLs. This manifest is the queue and integrity ledger for external evidence snapshots.",
   "summary": {
-    "aCaseCount": 1061,
-    "manifestedCases": 1061,
+    "aCaseCount": 1066,
+    "manifestedCases": 1066,
     "missingOriginalEvidence": 0,
     "missingArtifact": 0,
     "snapshottedCases": 594,
     "partialSnapshotCases": 0,
     "snapshotAttentionCases": 1,
-    "pendingSnapshotCases": 466,
+    "pendingSnapshotCases": 471,
     "snapshotIssueTypes": 2,
     "uniqueHosts": 152,
-    "targets": 2127
+    "targets": 2137
   },
   "hosts": [
     "3d-sound-journey-builder.vercel.app",
@@ -176,14 +176,14 @@
       "label": "未开始抓取",
       "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
       "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。",
-      "cases": 466,
-      "targets": 934,
-      "highPriorityCases": 395,
+      "cases": 471,
+      "targets": 944,
+      "highPriorityCases": 400,
       "hosts": [
         {
           "host": "github.com",
-          "cases": 349,
-          "targets": 617
+          "cases": 354,
+          "targets": 627
         },
         {
           "host": "huggingface.co",
@@ -18507,6 +18507,181 @@
           "url": "https://github.com/47thtechcorner/RayCodes_K2-Horizon-0.9B",
           "host": "github.com",
           "recommendedSnapshotPath": "archive/evidence/k2-horizon-0-9b-raycodes-offline-dsa-coach/artifact-1-983ff5956f57.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-3-7b-raycodes-youtube-asset-generator",
+      "modelId": "k2-horizon-3-7b",
+      "modelName": "K2 Horizon 3.7B",
+      "title": "Ray Codes built a local YouTube chapter and asset generator with K2-Horizon-3.7B",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T18:26:03+08:00",
+      "priority": "high",
+      "evidenceFingerprint": "364d3737f44b7f3e9bd1caeb5a5cc8fb0a417c750d2f9c4ac8253770ee795ba8",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-3-7b-raycodes-youtube-asset-generator/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/47thtechcorner/RayCodes_K2_Horizon_3_7B/blob/master/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-3-7b-raycodes-youtube-asset-generator/original-evidence-14b98d661289.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/47thtechcorner/RayCodes_K2_Horizon_3_7B",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-3-7b-raycodes-youtube-asset-generator/artifact-1-1598f8be2b46.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-375b-a23b-annakhtoniv-hireproof",
+      "modelId": "k2-horizon-375b-a23b",
+      "modelName": "K2 Horizon 375B A23B",
+      "title": "HireProof：多代理简历定制与真实性审计",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T10:28:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "113ba8d695239b37a2500f799f30ca4c243fd95794da1f1beb50fb87fa427622",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-375b-a23b-annakhtoniv-hireproof/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/annakhtoniv/hireproof/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-annakhtoniv-hireproof/original-evidence-f63f8df86d27.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/annakhtoniv/hireproof/blob/main/workflow/HireProof-K2-Horizon.json",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-annakhtoniv-hireproof/artifact-1-116beef7b27f.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-375b-a23b-azilsalamm-pitpal",
+      "modelId": "k2-horizon-375b-a23b",
+      "modelName": "K2 Horizon 375B A23B",
+      "title": "PitPal：阿联酋汽车维修厂自然语言匹配",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T10:28:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "f84ac7b80e2b063de2b9e94afd005b9bbec19e2bcceb37245fb17873df8c9d65",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-375b-a23b-azilsalamm-pitpal/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/azilsalamm/PitPal/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-azilsalamm-pitpal/original-evidence-c77e254415dc.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/azilsalamm/PitPal",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-azilsalamm-pitpal/artifact-1-55c6d6791c77.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-375b-a23b-haokaiding-paper-reading",
+      "modelId": "k2-horizon-375b-a23b",
+      "modelName": "K2 Horizon 375B A23B",
+      "title": "机器人学论文阅读与证据核验工作流",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T10:28:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "8682776ab8b37a1e9eed7df52037ad8fe6c0d4fc183c442d39eed4898e6c8f9c",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-375b-a23b-haokaiding-paper-reading/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/HaokaiDing/k2-horizon-paper-reading/blob/main/README.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-haokaiding-paper-reading/original-evidence-9fa087f83a07.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/HaokaiDing/k2-horizon-paper-reading/tree/main/workflow",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-haokaiding-paper-reading/artifact-1-35c5b320bff6.json"
+        }
+      ]
+    },
+    {
+      "caseId": "k2-horizon-375b-a23b-reinainblood-k2-interp",
+      "modelId": "k2-horizon-375b-a23b",
+      "modelName": "K2 Horizon 375B A23B",
+      "title": "K2 Interp：375B 模型路由与可解释性运行时验证",
+      "sourcePlatform": "GitHub",
+      "sourceType": "real_case",
+      "collectedAt": "2026-11-02T10:28:07Z",
+      "priority": "high",
+      "evidenceFingerprint": "a43a534445184765e569624974565c2f4fc83f3c7ed387844253f65bc9ddfb86",
+      "snapshotStatus": "pending_snapshot",
+      "snapshotIssue": {
+        "code": "pending_queued",
+        "label": "未开始抓取",
+        "description": "当前案例尚未生成本地 manifest，仍在按 host 分批抓取的队列中。",
+        "action": "按 /updates 的 host 队列运行 npm run evidence:snapshot。"
+      },
+      "snapshotTargetCount": 0,
+      "snapshotOkTargetCount": 0,
+      "localSnapshotManifest": "archive/evidence/k2-horizon-375b-a23b-reinainblood-k2-interp/manifest.json",
+      "targets": [
+        {
+          "kind": "original-evidence",
+          "url": "https://github.com/reinainblood/k2-interp/blob/main/docs/verification.md",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-reinainblood-k2-interp/original-evidence-51937f9f5cc2.json"
+        },
+        {
+          "kind": "artifact-1",
+          "url": "https://github.com/reinainblood/k2-interp",
+          "host": "github.com",
+          "recommendedSnapshotPath": "archive/evidence/k2-horizon-375b-a23b-reinainblood-k2-interp/artifact-1-2302d4bc5496.json"
         }
       ]
     },

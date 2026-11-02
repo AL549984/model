@@ -10491,7 +10491,7 @@
     "vendorId": "mbzuai-ifm",
     "vendor": "MBZUAI Institute of Foundation Models",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 4 条自动 gate 通过的 A 类案例，达到公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "K2 Horizon 375B A23B 独立模型卡",
     "summary": "MBZUAI Institute of Foundation Models 的独立模型 release；AA Intelligence Index：47.276。",
@@ -10527,11 +10527,11 @@
     "avoid": [
       "仅凭榜单分数直接采购或上线"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 4,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 4,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已达到 3 条 A 类案例公开达标线；继续补齐到 5 条。",
       "完整补齐为 5 条。"
     ],
     "sources": [
@@ -22245,7 +22245,7 @@
     "vendorId": "mbzuai-ifm",
     "vendor": "MBZUAI Institute of Foundation Models",
     "publishability": "Hold",
-    "caseStatus": "暂无自动 gate 通过的 A 类案例",
+    "caseStatus": "已有 1 条自动 gate 通过的 A 类案例，低于公开达标线",
     "sourceStatus": "来自飞书同步；字段缺失时保持待补证。",
     "headline": "开放训练过程的小型稠密推理模型",
     "summary": "3.7B 级 Dense decoder-only 模型",
@@ -22280,11 +22280,11 @@
     "avoid": [
       "依据未核验数字进行选型"
     ],
-    "aCaseCount": 0,
+    "aCaseCount": 1,
     "sourceCoverage": "supplemented",
     "supplementalSourceCount": 3,
     "riskNotes": [
-      "暂无自动 gate 通过的 A 类案例；目标是至少 3 条，完整补齐为 5 条。",
+      "已有 1 条 A 类案例，但低于 3 条公开达标线。",
       "完整补齐为 5 条。"
     ],
     "sources": [
